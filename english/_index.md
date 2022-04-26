@@ -51,7 +51,7 @@ These are links to some useful resources:
 ## Aspose.BarCode for C++
 {{% alert color="primary" %}}
 
-<img src="aspose_barcode-for-cpp.png" alt="Aspose.BarCode for C++" style="zoom:50%;" />
+![Aspose.BarCode for C++ Product Logo](home_3.png)
 
 Welcome to Aspose.BarCode for C++
 
@@ -65,7 +65,7 @@ These are links to some useful resources:
 ## Aspose.Cells for PHP via Java
 {{% alert color="primary" %}}
 
-<img src="aspose_barcode-for-PHP-java.png" alt="Aspose.BarCode for PHP via Java" style="zoom:50%;" />
+![Aspose.BarCode for PHP Product Logo](home_4.png)
 
 Welcome to Aspose.BarCode for PHP via Java
 
@@ -80,7 +80,7 @@ These are links to some useful resources:
 ## Aspose.BarCode for Android via Java
 {{% alert color="primary" %}}
 
-<img src="aspose_barcode-for-android-via-java.png" alt="Aspose.BarCode for Android via Java" style="zoom:50%;" />
+![Aspose.BarCode for Android via Java Product Logo](home_5.png)
 
 Welcome to Aspose.BarCode for Android via Java
 
@@ -95,7 +95,7 @@ These are links to some useful resources:
 ## Aspose.Cells for Node.js via Java
 {{% alert color="primary" %}}
 
-<img src="aspose_barcode-for-Node.js-java.png" alt="Aspose.BarCode for Node.js via Java" style="zoom:50%;" />
+![Aspose.BarCode for Node.js via Java Product Logo](home_6.png)
 
 Welcome to Aspose.BarCode for Node.js via Java
 
@@ -109,7 +109,7 @@ These are links to some useful resources:
 ## Aspose.Cells for Python via Java
 {{% alert color="primary" %}}
 
-<img src="aspose_barcode-for-Python-java.png" alt="Aspose.BarCode for Python via Java" style="zoom:50%;" />
+![Aspose.BarCode for Python via Java Product Logo](home_7.png)
 
 Welcome to Aspose.BarCode for Python via Java
 
