@@ -39,12 +39,9 @@ Aspose.BarCode for Java is a robust and reliable barcode generation and recognit
 
 Aspose.BarCode for Java supports the most established barcode standards and barcode specifications. It can export to multiple image formats including: BMP, GIF, JPEG, PNG, and TIFF.
 
-This section introduces Aspose.BarCode for Java and its features, gives examples as case studies, and lists some customers who choose to use Aspose.BarCode in their solutions. This section also includes information about Aspose.BarCode for Java [installation](https://docs.aspose.com/barcode/java/installation/), [evaluation](https://docs.aspose.com/barcode/java/licensing/) and [licensing](https://docs.aspose.com/barcode/java/licensing/). 
-
 {{% /alert %}} 
 
 These are links to some useful resources:
-
 - [Aspose.BarCode for Java API Reference](/barcode/java/)
 
 
@@ -74,7 +71,7 @@ Aspose.BarCode for PHP via Java API gives you the tools you need to generate bar
 {{% /alert %}} 
 
 These are links to some useful resources:
-- [Aspose.BarCode for PHP via Java API Reference](/barcode/php)
+- [Aspose.BarCode for PHP via Java API Reference](/barcode/php/)
 
 
 ## Aspose.BarCode for Android via Java
@@ -90,7 +87,7 @@ Aspose.BarCode for Android via Java API gives you the tools you need to generate
 
 These are links to some useful resources:
 
-- [Aspose.BarCode for Android via Java API Reference](/barcode/androidjava)
+- [Aspose.BarCode for Android via Java API Reference](/barcode/androidjava/)
 
 ## Aspose.Cells for Node.js via Java
 {{% alert color="primary" %}}
@@ -104,7 +101,7 @@ Aspose.BarCode for Node.js via Java API gives you the tools you need to generate
 {{% /alert %}} 
 
 These are links to some useful resources:
-- [Aspose.BarCode for Node.js via Java API Reference](/barcode/nodejs)
+- [Aspose.BarCode for Node.js via Java API Reference](/barcode/nodejs/)
 
 ## Aspose.Cells for Python via Java
 {{% alert color="primary" %}}
@@ -118,4 +115,4 @@ Aspose.BarCode for Python via Java API gives you the tools you need to generate 
 {{% /alert %}} 
 
 These are links to some useful resources:
-- [Aspose.BarCode for Python via Java API Reference](/barcode/python-java)
+- [Aspose.BarCode for Python via Java API Reference](/barcode/python-java/)
