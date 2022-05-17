@@ -11,7 +11,7 @@ url: /net/aspose.barcode.barcoderecognition/barcodereader/
 BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes.
 
 ```csharp
-public class BarCodeReader : IDisposable
+public class BarCodeReader : Component
 ```
 
 ## Constructors
@@ -51,7 +51,6 @@ public class BarCodeReader : IDisposable
 | static [ImportFromXml](importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and applies them to the current BarCodeReader instance. |
 | static [ImportFromXml](importfromxml)(string) | Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance. |
 | [Abort](abort)() | Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long. |
-| [Dispose](dispose)() |  |
 | [ExportToXml](exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
 | [ExportToXml](exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
 | [ReadBarCodes](readbarcodes)() | Reads [`BarCodeResult`](../barcoderesult)s from the image. |

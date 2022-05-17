@@ -8,7 +8,7 @@ url: /net/aspose.barcode.barcoderecognition/quadrangle/contains/
 ---
 ## Quadrangle.Contains method (1 of 4)
 
-Determines if the specified Point is contained within this [`Quadrangle`](../../quadrangle) structure.
+Determines if the specified Point is contained within this [`Quadrangle`](../../quadrangle) class.
 
 ```csharp
 public bool Contains(Point pt)
@@ -20,11 +20,11 @@ public bool Contains(Point pt)
 
 ## Return Value
 
-Returns **true** if Point is contained within this [`Quadrangle`](../../quadrangle) structure; otherwise, **false**.
+Returns **true** if Point is contained within this [`Quadrangle`](../../quadrangle) class; otherwise, **false**.
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 
@@ -32,7 +32,7 @@ Returns **true** if Point is contained within this [`Quadrangle`](../../quadrang
 
 ## Quadrangle.Contains method (2 of 4)
 
-Determines if the specified point is contained within this [`Quadrangle`](../../quadrangle) structure.
+Determines if the specified point is contained within this [`Quadrangle`](../../quadrangle) class.
 
 ```csharp
 public bool Contains(int x, int y)
@@ -45,11 +45,11 @@ public bool Contains(int x, int y)
 
 ## Return Value
 
-Returns **true** if point is contained within this [`Quadrangle`](../../quadrangle) structure; otherwise, **false**.
+Returns **true** if point is contained within this [`Quadrangle`](../../quadrangle) class; otherwise, **false**.
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 
@@ -57,7 +57,7 @@ Returns **true** if point is contained within this [`Quadrangle`](../../quadrang
 
 ## Quadrangle.Contains method (3 of 4)
 
-Determines if the specified [`Quadrangle`](../../quadrangle) is contained or intersect this [`Quadrangle`](../../quadrangle) structure.
+Determines if the specified [`Quadrangle`](../../quadrangle) is contained or intersect this [`Quadrangle`](../../quadrangle) class.
 
 ```csharp
 public bool Contains(Quadrangle quad)
@@ -69,11 +69,11 @@ public bool Contains(Quadrangle quad)
 
 ## Return Value
 
-Returns **true** if [`Quadrangle`](../../quadrangle) is contained or intersect this [`Quadrangle`](../../quadrangle) structure; otherwise, **false**.
+Returns **true** if [`Quadrangle`](../../quadrangle) is contained or intersect this [`Quadrangle`](../../quadrangle) class; otherwise, **false**.
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 
@@ -81,7 +81,7 @@ Returns **true** if [`Quadrangle`](../../quadrangle) is contained or intersect t
 
 ## Quadrangle.Contains method (4 of 4)
 
-Determines if the specified Rectangle is contained or intersect this [`Quadrangle`](../../quadrangle) structure.
+Determines if the specified Rectangle is contained or intersect this [`Quadrangle`](../../quadrangle) class.
 
 ```csharp
 public bool Contains(Rectangle rect)
@@ -93,11 +93,11 @@ public bool Contains(Rectangle rect)
 
 ## Return Value
 
-Returns **true** if Rectangle is contained or intersect this [`Quadrangle`](../../quadrangle) structure; otherwise, **false**.
+Returns **true** if Rectangle is contained or intersect this [`Quadrangle`](../../quadrangle) class; otherwise, **false**.
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

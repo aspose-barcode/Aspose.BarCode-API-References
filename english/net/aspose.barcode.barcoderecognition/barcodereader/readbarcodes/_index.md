@@ -3,7 +3,7 @@ title: ReadBarCodes
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/barcodereader/readbarcodes/
 ---
 ## BarCodeReader.ReadBarCodes method

@@ -11,7 +11,7 @@ url: /net/aspose.barcode.complexbarcode/complexbarcodegenerator/
 ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation.
 
 ```csharp
-public sealed class ComplexBarcodeGenerator : IDisposable
+public sealed class ComplexBarcodeGenerator : Component
 ```
 
 ## Constructors
@@ -30,7 +30,6 @@ public sealed class ComplexBarcodeGenerator : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() |  |
 | [GenerateBarCodeImage](generatebarcodeimage)() | Generates complex barcode image under current settings. |
 | [Save](save)(string) | Generates and saves complex barcode image under current settings. |
 | [Save](save)(Stream, BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |

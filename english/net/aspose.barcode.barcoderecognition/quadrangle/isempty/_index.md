@@ -20,7 +20,7 @@ Returns **true** if all Points of this [`Quadrangle`](../../quadrangle) have val
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

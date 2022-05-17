@@ -13,7 +13,7 @@ BarcodeGenerator for backend barcode images generation.
 supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
 
 ```csharp
-public sealed class BarcodeGenerator : IDisposable
+public sealed class BarcodeGenerator : Component
 ```
 
 ## Constructors
@@ -37,7 +37,7 @@ public sealed class BarcodeGenerator : IDisposable
 | --- | --- |
 | static [ImportFromXml](importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and creates BarcodeGenerator instance. |
 | static [ImportFromXml](importfromxml)(string) | Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance. |
-| [Dispose](dispose)() |  |
+| [DrawWpf](drawwpf)(DrawingContext) | Draws barcode image on WPF canvas. |
 | [ExportToXml](exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
 | [ExportToXml](exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
 | [GenerateBarCodeImage](generatebarcodeimage)() | Generate the barcode image under current settings. |

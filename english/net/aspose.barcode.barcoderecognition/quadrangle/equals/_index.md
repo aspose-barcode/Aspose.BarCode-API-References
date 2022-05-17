@@ -24,7 +24,7 @@ public bool Equals(Quadrangle other)
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 
@@ -48,7 +48,7 @@ public override bool Equals(object obj)
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

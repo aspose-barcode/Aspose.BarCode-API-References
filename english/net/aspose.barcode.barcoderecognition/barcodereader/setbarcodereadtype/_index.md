@@ -3,7 +3,7 @@ title: SetBarCodeReadType
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
 ---
 ## BarCodeReader.SetBarCodeReadType method (1 of 2)

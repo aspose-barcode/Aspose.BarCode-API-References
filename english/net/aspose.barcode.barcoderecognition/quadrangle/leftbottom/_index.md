@@ -20,7 +20,7 @@ A left-bottom corner Point of [`Quadrangle`](../../quadrangle) region
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

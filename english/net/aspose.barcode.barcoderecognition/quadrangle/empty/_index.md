@@ -8,7 +8,7 @@ url: /net/aspose.barcode.barcoderecognition/quadrangle/empty/
 ---
 ## Quadrangle.Empty field
 
-Represents a [`Quadrangle`](../../quadrangle) structure with its properties left uninitialized.
+Represents a [`Quadrangle`](../../quadrangle) class with its properties left uninitialized.
 
 ```csharp
 public static readonly Quadrangle Empty;
@@ -20,7 +20,7 @@ public static readonly Quadrangle Empty;
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

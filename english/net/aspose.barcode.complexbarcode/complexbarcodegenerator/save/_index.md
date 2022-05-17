@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.barcode.complexbarcode/complexbarcodegenerator/save/
 ---
 ## ComplexBarcodeGenerator.Save method (1 of 3)

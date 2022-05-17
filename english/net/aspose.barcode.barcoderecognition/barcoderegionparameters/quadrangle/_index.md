@@ -20,7 +20,7 @@ Returns [`Quadrangle`](../../quadrangle) bounding barcode region
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * class [BarCodeRegionParameters](../../barcoderegionparameters)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderegionparameters)
 * assembly [Aspose.BarCode](../../../)

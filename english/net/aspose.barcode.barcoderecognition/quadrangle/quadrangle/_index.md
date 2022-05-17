@@ -6,9 +6,25 @@ type: docs
 weight: 10
 url: /net/aspose.barcode.barcoderecognition/quadrangle/quadrangle/
 ---
-## Quadrangle constructor
+## Quadrangle constructor (1 of 2)
 
-Initializes a new instance of the [`Quadrangle`](../../quadrangle) structure with the describing points.
+Initializes a new empty instance of the [`Quadrangle`](../../quadrangle) class.
+
+```csharp
+public Quadrangle()
+```
+
+### See Also
+
+* class [Quadrangle](../../quadrangle)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## Quadrangle constructor (2 of 2)
+
+Initializes a new instance of the [`Quadrangle`](../../quadrangle) class with the describing points.
 
 ```csharp
 public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBottom)
@@ -23,7 +39,7 @@ public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBo
 
 ### See Also
 
-* struct [Quadrangle](../../quadrangle)
+* class [Quadrangle](../../quadrangle)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
 * assembly [Aspose.BarCode](../../../)
 

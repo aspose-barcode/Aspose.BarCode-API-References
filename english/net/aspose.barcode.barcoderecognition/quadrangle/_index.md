@@ -6,19 +6,20 @@ type: docs
 weight: 240
 url: /net/aspose.barcode.barcoderecognition/quadrangle/
 ---
-## Quadrangle structure
+## Quadrangle class
 
 Stores a set of four Points that represent a [`Quadrangle`](../quadrangle) region.
 
 ```csharp
-public struct Quadrangle : IEquatable<Quadrangle>
+public class Quadrangle : IEquatable<Quadrangle>
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Quadrangle](quadrangle)(Point, Point, Point, Point) | Initializes a new instance of the [`Quadrangle`](../quadrangle) structure with the describing points. |
+| [Quadrangle](quadrangle)() | Initializes a new empty instance of the [`Quadrangle`](../quadrangle) class. |
+| [Quadrangle](quadrangle)(Point, Point, Point, Point) | Initializes a new instance of the [`Quadrangle`](../quadrangle) class with the describing points. |
 
 ## Properties
 
@@ -35,10 +36,10 @@ public struct Quadrangle : IEquatable<Quadrangle>
 
 | Name | Description |
 | --- | --- |
-| [Contains](contains)(Point) | Determines if the specified Point is contained within this [`Quadrangle`](../quadrangle) structure. |
-| [Contains](contains)(Quadrangle) | Determines if the specified [`Quadrangle`](../quadrangle) is contained or intersect this [`Quadrangle`](../quadrangle) structure. |
-| [Contains](contains)(Rectangle) | Determines if the specified Rectangle is contained or intersect this [`Quadrangle`](../quadrangle) structure. |
-| [Contains](contains)(int, int) | Determines if the specified point is contained within this [`Quadrangle`](../quadrangle) structure. |
+| [Contains](contains)(Point) | Determines if the specified Point is contained within this [`Quadrangle`](../quadrangle) class. |
+| [Contains](contains)(Quadrangle) | Determines if the specified [`Quadrangle`](../quadrangle) is contained or intersect this [`Quadrangle`](../quadrangle) class. |
+| [Contains](contains)(Rectangle) | Determines if the specified Rectangle is contained or intersect this [`Quadrangle`](../quadrangle) class. |
+| [Contains](contains)(int, int) | Determines if the specified point is contained within this [`Quadrangle`](../quadrangle) class. |
 | override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Quadrangle`](../quadrangle) value. |
 | [Equals](equals)(Quadrangle) | Returns a value indicating whether this instance is equal to a specified [`Quadrangle`](../quadrangle) value. |
 | override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
@@ -50,7 +51,7 @@ public struct Quadrangle : IEquatable<Quadrangle>
 
 | Name | Description |
 | --- | --- |
-| static readonly [Empty](empty) | Represents a [`Quadrangle`](../quadrangle) structure with its properties left uninitialized. |
+| static readonly [Empty](empty) | Represents a [`Quadrangle`](../quadrangle) class with its properties left uninitialized. |
 
 ### See Also
 

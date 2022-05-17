@@ -3,7 +3,7 @@ title: SetBarCodeImage
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
 ## BarCodeReader.SetBarCodeImage method (1 of 5)

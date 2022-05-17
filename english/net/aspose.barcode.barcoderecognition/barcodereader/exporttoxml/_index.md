@@ -3,7 +3,7 @@ title: ExportToXml
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/barcodereader/exporttoxml/
 ---
 ## BarCodeReader.ExportToXml method (1 of 2)

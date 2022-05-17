@@ -3,7 +3,7 @@ title: GenerateBarCodeImage
 second_title: Aspose.BarCode for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage/
 ---
 ## ComplexBarcodeGenerator.GenerateBarCodeImage method
