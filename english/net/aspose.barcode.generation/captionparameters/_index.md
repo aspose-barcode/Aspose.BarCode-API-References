@@ -18,13 +18,13 @@ public class CaptionParameters
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Caption test horizontal alignment. Default value: StringAlignment.Center. |
-| [Font](font) { get; } | Caption font. Default value: Arial 8pt regular. |
-| [NoWrap](nowrap) { get; set; } | Specify word wraps (line breaks) within text. Default value: false. |
-| [Padding](padding) { get; set; } | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
-| [Text](text) { get; set; } | Caption text. Default value: empty string. |
-| [TextColor](textcolor) { get; set; } | Caption text color. Default value: Color.Black. |
-| [Visible](visible) { get; set; } | Caption text visibility. Default value: false. |
+| [Alignment](../../aspose.barcode.generation/captionparameters/alignment) { get; set; } | Caption test horizontal alignment. Default value: StringAlignment.Center. |
+| [Font](../../aspose.barcode.generation/captionparameters/font) { get; } | Caption font. Default value: Arial 8pt regular. |
+| [NoWrap](../../aspose.barcode.generation/captionparameters/nowrap) { get; set; } | Specify word wraps (line breaks) within text. Default value: false. |
+| [Padding](../../aspose.barcode.generation/captionparameters/padding) { get; set; } | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
+| [Text](../../aspose.barcode.generation/captionparameters/text) { get; set; } | Caption text. Default value: empty string. |
+| [TextColor](../../aspose.barcode.generation/captionparameters/textcolor) { get; set; } | Caption text color. Default value: Color.Black. |
+| [Visible](../../aspose.barcode.generation/captionparameters/visible) { get; set; } | Caption text visibility. Default value: false. |
 
 ### See Also
 

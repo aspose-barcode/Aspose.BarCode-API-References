@@ -35,14 +35,14 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeParameters](./maxicodeparameters) | MaxiCode parameters. |
 | [Padding](./padding) | Paddings parameters. |
 | [PatchCodeParameters](./patchcodeparameters) | PatchCode parameters. |
-| [Pdf417Parameters](./pdf417parameters) | PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
+| [Pdf417Parameters](./pdf417parameters) | PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (../same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
 | [PostalParameters](./postalparameters) | Postal parameters. Used for Postnet, Planet. |
 | [QrExtCodetextBuilder](./qrextcodetextbuilder) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode |
 | [QrParameters](./qrparameters) | QR parameters. |
 | [QrStructuredAppendParameters](./qrstructuredappendparameters) | QR structured append parameters. |
 | [SupplementParameters](./supplementparameters) | Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
 | [SymbologyEncodeType](./symbologyencodetype) | Symbology encode type. See EncodeTypes to get instance. |
-| [Unit](./unit) | Specifies the size value in different units (Pixel, Inches, etc.). |
+| [Unit](./unit) | Specifies the size value in different units (../Pixel, Inches, etc.). |
 ## Enumeration
 
 | Enumeration | Description |

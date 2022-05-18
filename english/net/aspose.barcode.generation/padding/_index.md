@@ -18,16 +18,16 @@ public class Padding
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; set; } | Bottom padding. |
-| [Left](left) { get; set; } | Left padding. |
-| [Right](right) { get; set; } | Right padding. |
-| [Top](top) { get; set; } | Top padding. |
+| [Bottom](../../aspose.barcode.generation/padding/bottom) { get; set; } | Bottom padding. |
+| [Left](../../aspose.barcode.generation/padding/left) { get; set; } | Left padding. |
+| [Right](../../aspose.barcode.generation/padding/right) { get; set; } | Right padding. |
+| [Top](../../aspose.barcode.generation/padding/top) { get; set; } | Top padding. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Padding`](../padding). |
+| override [ToString](../../aspose.barcode.generation/padding/tostring)() | Returns a human-readable string representation of this [`Padding`](../padding). |
 
 ### See Also
 

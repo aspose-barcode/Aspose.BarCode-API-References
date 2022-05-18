@@ -18,9 +18,9 @@ public sealed class ComplexCodetextReader
 
 | Name | Description |
 | --- | --- |
-| static [TryDecodeMailmark](trydecodemailmark)(string) | Decodes Mailmark Barcode C and L codetext. |
-| static [TryDecodeMailmark2D](trydecodemailmark2d)(string) | Decodes Royal Mail Mailmark 2D codetext. |
-| static [TryDecodeSwissQR](trydecodeswissqr)(string) | Decodes SwissQR codetext. |
+| static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark)(string) | Decodes Mailmark Barcode C and L codetext. |
+| static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d)(string) | Decodes Royal Mail Mailmark 2D codetext. |
+| static [TryDecodeSwissQR](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr)(string) | Decodes SwissQR codetext. |
 
 ### Examples
 

@@ -18,15 +18,15 @@ public static class EncodeTypes
 
 | Name | Description |
 | --- | --- |
-| static [AllEncodeTypes](allencodetypes) { get; } | Specifies that data will be checked with all available symbologies. |
+| static [AllEncodeTypes](../../aspose.barcode.generation/encodetypes/allencodetypes) { get; } | Specifies that data will be checked with all available symbologies. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetNames](getnames)() | Retrieves an array of the names of the encode types. |
-| static [Parse](parse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [TryParse](tryparse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [GetNames](../../aspose.barcode.generation/encodetypes/getnames)() | Retrieves an array of the names of the encode types. |
+| static [Parse](../../aspose.barcode.generation/encodetypes/parse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [TryParse](../../aspose.barcode.generation/encodetypes/tryparse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
 
 ## Other Members
 

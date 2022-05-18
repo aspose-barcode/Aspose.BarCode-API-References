@@ -18,15 +18,15 @@ public class CodabarParameters
 
 | Name | Description |
 | --- | --- |
-| [CodabarChecksumMode](codabarchecksummode) { get; set; } | Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See [`CodabarChecksumMode`](./codabarchecksummode). |
-| [CodabarStartSymbol](codabarstartsymbol) { get; set; } | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
-| [CodabarStopSymbol](codabarstopsymbol) { get; set; } | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
+| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode) { get; set; } | Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See [`CodabarChecksumMode`](./codabarchecksummode). |
+| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol) { get; set; } | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
+| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol) { get; set; } | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`CodabarParameters`](../codabarparameters). |
+| override [ToString](../../aspose.barcode.generation/codabarparameters/tostring)() | Returns a human-readable string representation of this [`CodabarParameters`](../codabarparameters). |
 
 ### See Also
 

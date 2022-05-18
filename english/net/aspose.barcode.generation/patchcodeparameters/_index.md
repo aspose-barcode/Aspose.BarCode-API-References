@@ -18,14 +18,14 @@ public class PatchCodeParameters
 
 | Name | Description |
 | --- | --- |
-| [ExtraBarcodeText](extrabarcodetext) { get; set; } | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
-| [PatchFormat](patchformat) { get; set; } | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly |
+| [ExtraBarcodeText](../../aspose.barcode.generation/patchcodeparameters/extrabarcodetext) { get; set; } | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
+| [PatchFormat](../../aspose.barcode.generation/patchcodeparameters/patchformat) { get; set; } | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`PatchCodeParameters`](../patchcodeparameters). |
+| override [ToString](../../aspose.barcode.generation/patchcodeparameters/tostring)() | Returns a human-readable string representation of this [`PatchCodeParameters`](../patchcodeparameters). |
 
 ### See Also
 

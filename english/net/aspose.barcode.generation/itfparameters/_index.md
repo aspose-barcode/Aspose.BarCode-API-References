@@ -18,15 +18,15 @@ public class ITFParameters
 
 | Name | Description |
 | --- | --- |
-| [ItfBorderThickness](itfborderthickness) { get; set; } | Gets or sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
-| [ItfBorderType](itfbordertype) { get; set; } | Border type of ITF barcode. Default value: ITF14BorderType.Bar. |
-| [QuietZoneCoef](quietzonecoef) { get; set; } | Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px. |
+| [ItfBorderThickness](../../aspose.barcode.generation/itfparameters/itfborderthickness) { get; set; } | Gets or sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
+| [ItfBorderType](../../aspose.barcode.generation/itfparameters/itfbordertype) { get; set; } | Border type of ITF barcode. Default value: ITF14BorderType.Bar. |
+| [QuietZoneCoef](../../aspose.barcode.generation/itfparameters/quietzonecoef) { get; set; } | Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`ITFParameters`](../itfparameters). |
+| override [ToString](../../aspose.barcode.generation/itfparameters/tostring)() | Returns a human-readable string representation of this [`ITFParameters`](../itfparameters). |
 
 ### See Also
 

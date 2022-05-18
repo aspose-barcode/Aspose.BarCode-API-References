@@ -37,30 +37,30 @@ public class BarCodeReader : Component
 
 | Name | Description |
 | --- | --- |
-| [BarcodeSettings](barcodesettings) { get; } | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
-| [FoundBarCodes](foundbarcodes) { get; } | Gets recognized [`BarCodeResult`](../barcoderesult)s array |
-| [FoundCount](foundcount) { get; } | Gets recognized barcodes count |
-| [QualitySettings](qualitysettings) { get; set; } | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
-| [Timeout](timeout) { get; set; } | Gets or sets the timeout of recognition process in milliseconds. |
-| static [ProcessorSettings](processorsettings) { get; } | Gets a settings of using processor cores. |
+| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings) { get; } | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
+| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | Gets recognized [`BarCodeResult`](../barcoderesult)s array |
+| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount) { get; } | Gets recognized barcodes count |
+| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
+| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout) { get; set; } | Gets or sets the timeout of recognition process in milliseconds. |
+| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings) { get; } | Gets a settings of using processor cores. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [ImportFromXml](importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and applies them to the current BarCodeReader instance. |
-| static [ImportFromXml](importfromxml)(string) | Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance. |
-| [Abort](abort)() | Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long. |
-| [ExportToXml](exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
-| [ExportToXml](exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
-| [ReadBarCodes](readbarcodes)() | Reads [`BarCodeResult`](../barcoderesult)s from the image. |
-| [SetBarCodeImage](setbarcodeimage)(Bitmap) | Sets bitmap image for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](setbarcodeimage)(Stream) | Sets image stream for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](setbarcodeimage)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](setbarcodeimage)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](setbarcodeimage)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeReadType](setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeReadType](setbarcodereadtype)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype) type array for recognition. Must be called before ReadBarCodes() method. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and applies them to the current BarCodeReader instance. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml)(string) | Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance. |
+| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long. |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
+| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | Reads [`BarCodeResult`](../barcoderesult)s from the image. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage)(Bitmap) | Sets bitmap image for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage)(Stream) | Sets image stream for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype) type array for recognition. Must be called before ReadBarCodes() method. |
 
 ### Examples
 

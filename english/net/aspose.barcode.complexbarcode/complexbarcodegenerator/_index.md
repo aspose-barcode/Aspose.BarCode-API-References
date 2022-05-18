@@ -24,16 +24,16 @@ public sealed class ComplexBarcodeGenerator : Component
 
 | Name | Description |
 | --- | --- |
-| [Parameters](parameters) { get; } | Generation parameters. |
+| [Parameters](../../aspose.barcode.complexbarcode/complexbarcodegenerator/parameters) { get; } | Generation parameters. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GenerateBarCodeImage](generatebarcodeimage)() | Generates complex barcode image under current settings. |
-| [Save](save)(string) | Generates and saves complex barcode image under current settings. |
-| [Save](save)(Stream, BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
-| [Save](save)(string, BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
+| [GenerateBarCodeImage](../../aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage)() | Generates complex barcode image under current settings. |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save)(string) | Generates and saves complex barcode image under current settings. |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save)(Stream, BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save)(string, BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
 
 ### Examples
 

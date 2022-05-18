@@ -18,10 +18,10 @@ public abstract class ExtCodetextBuilder
 
 | Name | Description |
 | --- | --- |
-| [AddECICodetext](addecicodetext)(ECIEncodings, string) | Adds codetext with Extended Channel Identifier |
-| [AddPlainCodetext](addplaincodetext)(string) | Adds plain codetext to the extended codetext items |
-| virtual [Clear](clear)() | Clears extended codetext items |
-| abstract [GetExtendedCodetext](getextendedcodetext)() | Generate extended codetext from generation items list |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | Adds codetext with Extended Channel Identifier |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext)(string) | Adds plain codetext to the extended codetext items |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear)() | Clears extended codetext items |
+| abstract [GetExtendedCodetext](../../aspose.barcode.generation/extcodetextbuilder/getextendedcodetext)() | Generate extended codetext from generation items list |
 
 ### See Also
 

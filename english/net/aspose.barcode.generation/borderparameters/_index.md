@@ -18,16 +18,16 @@ public class BorderParameters
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Border color. Default value: Color.Black. |
-| [DashStyle](dashstyle) { get; set; } | Border dash style. Default value: BorderDashStyle.Solid. |
-| [Visible](visible) { get; set; } | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
-| [Width](width) { get; set; } | Border width. Default value: 0. Ignored if Visible is set to false. |
+| [Color](../../aspose.barcode.generation/borderparameters/color) { get; set; } | Border color. Default value: Color.Black. |
+| [DashStyle](../../aspose.barcode.generation/borderparameters/dashstyle) { get; set; } | Border dash style. Default value: BorderDashStyle.Solid. |
+| [Visible](../../aspose.barcode.generation/borderparameters/visible) { get; set; } | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
+| [Width](../../aspose.barcode.generation/borderparameters/width) { get; set; } | Border width. Default value: 0. Ignored if Visible is set to false. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`BorderParameters`](../borderparameters). |
+| override [ToString](../../aspose.barcode.generation/borderparameters/tostring)() | Returns a human-readable string representation of this [`BorderParameters`](../borderparameters). |
 
 ### See Also
 

@@ -18,19 +18,20 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [QRStructuredAppendModeBarCodeIndex](qrstructuredappendmodebarcodeindex) { get; } | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
-| [QRStructuredAppendModeBarCodesQuantity](qrstructuredappendmodebarcodesquantity) { get; } | Gets the QR structured append mode barcodes quantity. Default value is -1. |
-| [QRStructuredAppendModeParityData](qrstructuredappendmodeparitydata) { get; } | Gets the QR structured append mode parity data. Default value is -1. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
+| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex) { get; } | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
+| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity) { get; } | Gets the QR structured append mode barcodes quantity. Default value is -1. |
+| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata) { get; } | Gets the QR structured append mode parity data. Default value is -1. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`QRExtendedParameters`](../qrextendedparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`QRExtendedParameters`](../qrextendedparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`QRExtendedParameters`](../qrextendedparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`QRExtendedParameters`](../qrextendedparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`QRExtendedParameters`](../qrextendedparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | Returns a human-readable string representation of this [`QRExtendedParameters`](../qrextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | Returns a value indicating whether the first [`QRExtendedParameters`](../qrextendedparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | Returns a value indicating if the first [`QRExtendedParameters`](../qrextendedparameters) value is different from the second. |
 
 ### Examples
 

@@ -18,25 +18,26 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [MacroPdf417Addressee](macropdf417addressee) { get; } | Macro PDF417 addressee name (optional). |
-| [MacroPdf417Checksum](macropdf417checksum) { get; } | Macro PDF417 checksum (optional). |
-| [MacroPdf417FileID](macropdf417fileid) { get; } | Gets the file ID of the barcode, only available with MacroPdf417. |
-| [MacroPdf417FileName](macropdf417filename) { get; } | Macro PDF417 file name (optional). |
-| [MacroPdf417FileSize](macropdf417filesize) { get; } | Macro PDF417 file size (optional). |
-| [MacroPdf417SegmentID](macropdf417segmentid) { get; } | Gets the segment ID of the barcode,only available with MacroPdf417. |
-| [MacroPdf417SegmentsCount](macropdf417segmentscount) { get; } | Gets macro pdf417 barcode segments count. Default value is -1. |
-| [MacroPdf417Sender](macropdf417sender) { get; } | Macro PDF417 sender name (optional). |
-| [MacroPdf417TimeStamp](macropdf417timestamp) { get; } | Macro PDF417 time stamp (optional). |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
+| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee) { get; } | Macro PDF417 addressee name (optional). |
+| [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum) { get; } | Macro PDF417 checksum (optional). |
+| [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid) { get; } | Gets the file ID of the barcode, only available with MacroPdf417. |
+| [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename) { get; } | Macro PDF417 file name (optional). |
+| [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize) { get; } | Macro PDF417 file size (optional). |
+| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | Gets the segment ID of the barcode,only available with MacroPdf417. |
+| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | Gets macro pdf417 barcode segments count. Default value is -1. |
+| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | Macro PDF417 sender name (optional). |
+| [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp) { get; } | Macro PDF417 time stamp (optional). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Pdf417ExtendedParameters`](../pdf417extendedparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | Returns a human-readable string representation of this [`Pdf417ExtendedParameters`](../pdf417extendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | Returns a value indicating whether the first [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | Returns a value indicating if the first [`Pdf417ExtendedParameters`](../pdf417extendedparameters) value is different from the second. |
 
 ### Examples
 

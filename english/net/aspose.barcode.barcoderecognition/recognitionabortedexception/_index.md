@@ -26,13 +26,13 @@ public class RecognitionAbortedException : BarCodeRecognitionException
 
 | Name | Description |
 | --- | --- |
-| [ExecutionTime](executiontime) { get; set; } | Gets the execution time of current recognition session |
+| [ExecutionTime](../../aspose.barcode.barcoderecognition/recognitionabortedexception/executiontime) { get; set; } | Gets the execution time of current recognition session |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetObjectData](getobjectdata)(SerializationInfo, StreamingContext) | When overridden in a derived class, sets the SerializationInfo with information about the exception. |
+| override [GetObjectData](../../aspose.barcode.barcoderecognition/recognitionabortedexception/getobjectdata)(SerializationInfo, StreamingContext) | When overridden in a derived class, sets the SerializationInfo with information about the exception. |
 
 ### See Also
 

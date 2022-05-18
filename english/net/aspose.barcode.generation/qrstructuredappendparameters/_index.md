@@ -18,9 +18,9 @@ public class QrStructuredAppendParameters
 
 | Name | Description |
 | --- | --- |
-| [ParityByte](paritybyte) { get; set; } | Gets or sets the QR structured append mode parity data. |
-| [SequenceIndicator](sequenceindicator) { get; set; } | Gets or sets the index of the QR structured append mode barcode. Index starts from 0. |
-| [TotalCount](totalcount) { get; set; } | Gets or sets the QR structured append mode barcodes quantity. Max value is 16. |
+| [ParityByte](../../aspose.barcode.generation/qrstructuredappendparameters/paritybyte) { get; set; } | Gets or sets the QR structured append mode parity data. |
+| [SequenceIndicator](../../aspose.barcode.generation/qrstructuredappendparameters/sequenceindicator) { get; set; } | Gets or sets the index of the QR structured append mode barcode. Index starts from 0. |
+| [TotalCount](../../aspose.barcode.generation/qrstructuredappendparameters/totalcount) { get; set; } | Gets or sets the QR structured append mode barcodes quantity. Max value is 16. |
 
 ### See Also
 

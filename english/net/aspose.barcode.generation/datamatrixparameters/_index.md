@@ -18,19 +18,19 @@ public class DataMatrixParameters
 
 | Name | Description |
 | --- | --- |
-| [AspectRatio](aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [CodeTextEncoding](codetextencoding) { get; set; } | Gets or sets the encoding of codetext. Default value: UTF-8 |
-| [Columns](columns) { get; set; } | Columns count. |
-| [DataMatrixEcc](datamatrixecc) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
-| [DataMatrixEncodeMode](datamatrixencodemode) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.Auto. |
-| [MacroCharacters](macrocharacters) { get; set; } | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with DataMatrixEccType.Ecc200 or DataMatrixEccType.EccAuto. Cannot be used with EncodeTypes.GS1DataMatrix Default value: MacroCharacters.None. |
-| [Rows](rows) { get; set; } | Rows count. |
+| [AspectRatio](../../aspose.barcode.generation/datamatrixparameters/aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding) { get; set; } | Gets or sets the encoding of codetext. Default value: UTF-8 |
+| [Columns](../../aspose.barcode.generation/datamatrixparameters/columns) { get; set; } | Columns count. |
+| [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.Auto. |
+| [MacroCharacters](../../aspose.barcode.generation/datamatrixparameters/macrocharacters) { get; set; } | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with DataMatrixEccType.Ecc200 or DataMatrixEccType.EccAuto. Cannot be used with EncodeTypes.GS1DataMatrix Default value: MacroCharacters.None. |
+| [Rows](../../aspose.barcode.generation/datamatrixparameters/rows) { get; set; } | Rows count. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`DataMatrixParameters`](../datamatrixparameters). |
+| override [ToString](../../aspose.barcode.generation/datamatrixparameters/tostring)() | Returns a human-readable string representation of this [`DataMatrixParameters`](../datamatrixparameters). |
 
 ### See Also
 

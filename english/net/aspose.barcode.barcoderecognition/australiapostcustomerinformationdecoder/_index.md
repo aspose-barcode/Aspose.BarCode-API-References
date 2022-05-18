@@ -18,7 +18,7 @@ public interface AustraliaPostCustomerInformationDecoder
 
 | Name | Description |
 | --- | --- |
-| [Decode](decode)(string) | Decode Customer Information Field from AustraliaPost symbology. Can be used for different data interpretation from NTable and CTable encoding. Data is provided as a row of bar values: 0, 1, 2 or 3. |
+| [Decode](../../aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode)(string) | Decode Customer Information Field from AustraliaPost symbology. Can be used for different data interpretation from NTable and CTable encoding. Data is provided as a row of bar values: 0, 1, 2 or 3. |
 
 ### See Also
 

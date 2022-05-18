@@ -18,20 +18,20 @@ public sealed class BarCodeRegionParameters
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; } | Gets the angle of the barcode (0-360). |
-| [Points](points) { get; } | Gets Points array bounding barcode region |
-| [Quadrangle](quadrangle) { get; } | Gets [`Quadrangle`](../quadrangle) bounding barcode region |
-| [Rectangle](rectangle) { get; } | Gets Rectangle bounding barcode region |
+| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle) { get; } | Gets the angle of the barcode (0-360). |
+| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points) { get; } | Gets Points array bounding barcode region |
+| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle) { get; } | Gets [`Quadrangle`](../quadrangle) bounding barcode region |
+| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle) { get; } | Gets Rectangle bounding barcode region |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeRegionParameters`](../barcoderegionparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`BarCodeRegionParameters`](../barcoderegionparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`BarCodeRegionParameters`](../barcoderegionparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`BarCodeRegionParameters`](../barcoderegionparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeRegionParameters`](../barcoderegionparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | Returns a human-readable string representation of this [`BarCodeRegionParameters`](../barcoderegionparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | Returns a value indicating whether the first [`BarCodeRegionParameters`](../barcoderegionparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | Returns a value indicating if the first [`BarCodeRegionParameters`](../barcoderegionparameters) value is different from the second. |
 
 ### Examples
 

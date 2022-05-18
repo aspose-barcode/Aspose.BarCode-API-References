@@ -26,24 +26,24 @@ public sealed class Address : IEquatable<Address>
 
 | Name | Description |
 | --- | --- |
-| [AddressLine1](addressline1) { get; set; } | Gets or sets the address line 1. |
-| [AddressLine2](addressline2) { get; set; } | Gets or sets the address line 2. |
-| [CountryCode](countrycode) { get; set; } | Gets or sets the two-letter ISO country code. |
-| [HouseNo](houseno) { get; set; } | Gets or sets the house number. |
-| [Name](name) { get; set; } | Gets or sets the name, either the first and last name of a natural person or the company name of a legal person. |
-| [PostalCode](postalcode) { get; set; } | Gets or sets the postal code. |
-| [Street](street) { get; set; } | Gets or sets the street. |
-| [Town](town) { get; set; } | Gets or sets the town or city. |
-| [Type](type) { get; } | Gets the address type. |
+| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | Gets or sets the address line 1. |
+| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | Gets or sets the address line 2. |
+| [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode) { get; set; } | Gets or sets the two-letter ISO country code. |
+| [HouseNo](../../aspose.barcode.complexbarcode/address/houseno) { get; set; } | Gets or sets the house number. |
+| [Name](../../aspose.barcode.complexbarcode/address/name) { get; set; } | Gets or sets the name, either the first and last name of a natural person or the company name of a legal person. |
+| [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode) { get; set; } | Gets or sets the postal code. |
+| [Street](../../aspose.barcode.complexbarcode/address/street) { get; set; } | Gets or sets the street. |
+| [Town](../../aspose.barcode.complexbarcode/address/town) { get; set; } | Gets or sets the town or city. |
+| [Type](../../aspose.barcode.complexbarcode/address/type) { get; } | Gets the address type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Clears all fields and sets the type to Undetermined. |
-| [Equals](equals)(Address) | Determines whether the specified address is equal to the current address. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Gets the hash code for this instance. |
+| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | Clears all fields and sets the type to Undetermined. |
+| [Equals](../../aspose.barcode.complexbarcode/address/equals)(Address) | Determines whether the specified address is equal to the current address. |
+| override [Equals](../../aspose.barcode.complexbarcode/address/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode)() | Gets the hash code for this instance. |
 
 ### See Also
 

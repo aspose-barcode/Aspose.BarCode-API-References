@@ -18,18 +18,18 @@ public class DataMatrixParametersUI
 
 | Name | Description |
 | --- | --- |
-| [AspectRatio](aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [CodeTextEncoding](codetextencoding) { get; set; } | Gets or sets the encoding of codetext. |
-| [Columns](columns) { get; set; } | Columns count. |
-| [DataMatrixEcc](datamatrixecc) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
-| [DataMatrixEncodeMode](datamatrixencodemode) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.Auto. |
-| [Rows](rows) { get; set; } | Rows count. |
+| [AspectRatio](../../aspose.barcode.windows.forms/datamatrixparametersui/aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [CodeTextEncoding](../../aspose.barcode.windows.forms/datamatrixparametersui/codetextencoding) { get; set; } | Gets or sets the encoding of codetext. |
+| [Columns](../../aspose.barcode.windows.forms/datamatrixparametersui/columns) { get; set; } | Columns count. |
+| [DataMatrixEcc](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixencodemode) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.Auto. |
+| [Rows](../../aspose.barcode.windows.forms/datamatrixparametersui/rows) { get; set; } | Rows count. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters). |
+| override [ToString](../../aspose.barcode.windows.forms/datamatrixparametersui/tostring)() | Returns a human-readable string representation of this [`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters). |
 
 ### See Also
 

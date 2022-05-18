@@ -26,10 +26,13 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 | Name | Description |
 | --- | --- |
-| [AddFNC1FirstPosition](addfnc1firstposition)() | Adds FNC1 in first position to the extended codetext items |
-| [AddFNC1GroupSeparator](addfnc1groupseparator)() | Adds Group Separator (GS - '\\u001D') to the extended codetext items |
-| [AddFNC1SecondPosition](addfnc1secondposition)(string) | Adds FNC1 in second position to the extended codetext items |
-| override [GetExtendedCodetext](getextendedcodetext)() | Generates Extended codetext from the extended codetext list. |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | Adds codetext with Extended Channel Identifier |
+| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition)() | Adds FNC1 in first position to the extended codetext items |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator)() | Adds Group Separator (GS - '\\u001D') to the extended codetext items |
+| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition)(string) | Adds FNC1 in second position to the extended codetext items |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext)(string) | Adds plain codetext to the extended codetext items |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear)() | Clears extended codetext items |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext)() | Generates Extended codetext from the extended codetext list. |
 
 ### Examples
 

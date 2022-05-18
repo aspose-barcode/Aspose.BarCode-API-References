@@ -18,13 +18,13 @@ public class CouponParameters
 
 | Name | Description |
 | --- | --- |
-| [SupplementSpace](supplementspace) { get; } | Space between main the BarCode and supplement BarCode in [`Unit`](../unit) value. |
+| [SupplementSpace](../../aspose.barcode.generation/couponparameters/supplementspace) { get; } | Space between main the BarCode and supplement BarCode in [`Unit`](../unit) value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`CouponParameters`](../couponparameters). |
+| override [ToString](../../aspose.barcode.generation/couponparameters/tostring)() | Returns a human-readable string representation of this [`CouponParameters`](../couponparameters). |
 
 ### See Also
 

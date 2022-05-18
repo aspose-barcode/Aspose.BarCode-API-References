@@ -18,14 +18,14 @@ public class DotCodeParameters
 
 | Name | Description |
 | --- | --- |
-| [AspectRatio](aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [DotCodeMask](dotcodemask) { get; set; } | Mask of Dotcode barcode. Default value: -1. |
+| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [DotCodeMask](../../aspose.barcode.generation/dotcodeparameters/dotcodemask) { get; set; } | Mask of Dotcode barcode. Default value: -1. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`DotCodeParameters`](../dotcodeparameters). |
+| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring)() | Returns a human-readable string representation of this [`DotCodeParameters`](../dotcodeparameters). |
 
 ### See Also
 

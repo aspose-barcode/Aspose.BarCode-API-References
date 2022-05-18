@@ -25,15 +25,15 @@ public sealed class SwissQRCodetext : IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [Bill](bill) { get; } | SwissQR bill data |
+| [Bill](../../aspose.barcode.complexbarcode/swissqrcodetext/bill) { get; } | SwissQR bill data |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBarcodeType](getbarcodetype)() | Gets barcode type. |
-| [GetConstructedCodetext](getconstructedcodetext)() | Construct codetext from SwissQR bill data |
-| [InitFromString](initfromstring)(string) | Initializes Bill with constructed codetext. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/swissqrcodetext/getbarcodetype)() | Gets barcode type. |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext)() | Construct codetext from SwissQR bill data |
+| [InitFromString](../../aspose.barcode.complexbarcode/swissqrcodetext/initfromstring)(string) | Initializes Bill with constructed codetext. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public abstract class BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [IsEmpty](isempty) { get; } | Tests whether all parameters has only default values |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
 
 ### See Also
 

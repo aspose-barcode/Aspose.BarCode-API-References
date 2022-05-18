@@ -18,14 +18,14 @@ public class SupplementParameters
 
 | Name | Description |
 | --- | --- |
-| [SupplementData](supplementdata) { get; set; } | Supplement data following BarCode. |
-| [SupplementSpace](supplementspace) { get; } | Space between main the BarCode and supplement BarCode in [`Unit`](../unit) value. |
+| [SupplementData](../../aspose.barcode.generation/supplementparameters/supplementdata) { get; set; } | Supplement data following BarCode. |
+| [SupplementSpace](../../aspose.barcode.generation/supplementparameters/supplementspace) { get; } | Space between main the BarCode and supplement BarCode in [`Unit`](../unit) value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`SupplementParameters`](../supplementparameters). |
+| override [ToString](../../aspose.barcode.generation/supplementparameters/tostring)() | Returns a human-readable string representation of this [`SupplementParameters`](../supplementparameters). |
 
 ### See Also
 

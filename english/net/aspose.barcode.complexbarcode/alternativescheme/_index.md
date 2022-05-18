@@ -24,15 +24,15 @@ public sealed class AlternativeScheme : IEquatable<AlternativeScheme>
 
 | Name | Description |
 | --- | --- |
-| [Instruction](instruction) { get; set; } | Gets the payment instruction for a given bill. |
+| [Instruction](../../aspose.barcode.complexbarcode/alternativescheme/instruction) { get; set; } | Gets the payment instruction for a given bill. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(AlternativeScheme) | Determines whether the specified alernative scheme is equal to the current alternative scheme. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Gets the hash code for this instance. |
+| [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals)(AlternativeScheme) | Determines whether the specified alernative scheme is equal to the current alternative scheme. |
+| override [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/alternativescheme/gethashcode)() | Gets the hash code for this instance. |
 
 ### See Also
 

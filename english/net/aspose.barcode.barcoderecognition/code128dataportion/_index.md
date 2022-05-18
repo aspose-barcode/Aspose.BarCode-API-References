@@ -18,18 +18,18 @@ public class Code128DataPortion
 
 | Name | Description |
 | --- | --- |
-| [Code128SubType](code128subtype) { get; } | Gets the type of Code128 subset |
-| [Data](data) { get; } | Gets the part of code text related to subtype. |
+| [Code128SubType](../../aspose.barcode.barcoderecognition/code128dataportion/code128subtype) { get; } | Gets the type of Code128 subset |
+| [Data](../../aspose.barcode.barcoderecognition/code128dataportion/data) { get; } | Gets the part of code text related to subtype. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Code128DataPortion`](../code128dataportion) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Code128DataPortion`](../code128dataportion). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`Code128DataPortion`](../code128dataportion) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`Code128DataPortion`](../code128dataportion) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128dataportion/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Code128DataPortion`](../code128dataportion) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/code128dataportion/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128dataportion/tostring)() | Returns a human-readable string representation of this [`Code128DataPortion`](../code128dataportion). |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128dataportion/op_equality) | Returns a value indicating whether the first [`Code128DataPortion`](../code128dataportion) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128dataportion/op_inequality) | Returns a value indicating if the first [`Code128DataPortion`](../code128dataportion) value is different from the second. |
 
 ### See Also
 

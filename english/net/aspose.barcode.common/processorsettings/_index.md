@@ -18,9 +18,9 @@ public class ProcessorSettings
 
 | Name | Description |
 | --- | --- |
-| [MaxAdditionalAllowedThreads](maxadditionalallowedthreads) { get; set; } | Specify the maximal number of additional threads to run code in parallel |
-| [UseAllCores](useallcores) { get; set; } | Is needed to use all cores. |
-| [UseOnlyThisCoresCount](useonlythiscorescount) { get; set; } | Specify the number of cores to use. You need to change the property "UseAllCores" to "false". |
+| [MaxAdditionalAllowedThreads](../../aspose.barcode.common/processorsettings/maxadditionalallowedthreads) { get; set; } | Specify the maximal number of additional threads to run code in parallel |
+| [UseAllCores](../../aspose.barcode.common/processorsettings/useallcores) { get; set; } | Is needed to use all cores. |
+| [UseOnlyThisCoresCount](../../aspose.barcode.common/processorsettings/useonlythiscorescount) { get; set; } | Specify the number of cores to use. You need to change the property "UseAllCores" to "false". |
 
 ### Examples
 

@@ -18,10 +18,10 @@ public sealed class BarcodeSettings
 
 | Name | Description |
 | --- | --- |
-| [AustraliaPost](australiapost) { get; } | Gets AustraliaPost decoding parameters |
-| [ChecksumValidation](checksumvalidation) { get; set; } | Enable checksum validation during recognition for 1D and Postal barcodes. |
-| [DetectEncoding](detectencoding) { get; set; } | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
-| [StripFNC](stripfnc) { get; set; } | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
+| [AustraliaPost](../../aspose.barcode.barcoderecognition/barcodesettings/australiapost) { get; } | Gets AustraliaPost decoding parameters |
+| [ChecksumValidation](../../aspose.barcode.barcoderecognition/barcodesettings/checksumvalidation) { get; set; } | Enable checksum validation during recognition for 1D and Postal barcodes. |
+| [DetectEncoding](../../aspose.barcode.barcoderecognition/barcodesettings/detectencoding) { get; set; } | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
+| [StripFNC](../../aspose.barcode.barcoderecognition/barcodesettings/stripfnc) { get; set; } | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
 
 ### See Also
 

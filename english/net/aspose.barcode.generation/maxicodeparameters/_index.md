@@ -18,14 +18,14 @@ public class MaxiCodeParameters
 
 | Name | Description |
 | --- | --- |
-| [AspectRatio](aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [MaxiCodeEncodeMode](maxicodeencodemode) { get; set; } | Gets or sets a MaxiCode encode mode. |
+| [AspectRatio](../../aspose.barcode.generation/maxicodeparameters/aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [MaxiCodeEncodeMode](../../aspose.barcode.generation/maxicodeparameters/maxicodeencodemode) { get; set; } | Gets or sets a MaxiCode encode mode. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`MaxiCodeParameters`](../maxicodeparameters). |
+| override [ToString](../../aspose.barcode.generation/maxicodeparameters/tostring)() | Returns a human-readable string representation of this [`MaxiCodeParameters`](../maxicodeparameters). |
 
 ### See Also
 

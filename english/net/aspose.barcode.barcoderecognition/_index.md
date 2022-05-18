@@ -17,7 +17,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [BarCodeReader](./barcodereader) | BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes. |
 | [BarCodeRecognitionException](./barcoderecognitionexception) | General exception thrown by BarCodeReader, inherited from BarCodeException |
 | [BarCodeRegionParameters](./barcoderegionparameters) | Represents the recognized barcode's region and barcode angle |
-| [BarCodeResult](./barcoderesult) | Stores recognized barcode data like [`SingleDecodeType`](aspose.barcode.barcoderecognition/singledecodetype) type, String codetext, [`BarCodeRegionParameters`](aspose.barcode.barcoderecognition/barcoderegionparameters) region and other parameters |
+| [BarCodeResult](./barcoderesult) | Stores recognized barcode data like [`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype) type, String codetext, [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters) region and other parameters |
 | [BarcodeSettings](./barcodesettings) | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
 | [BarcodeSvmDetectorSettings](./barcodesvmdetectorsettings) | Barcode detector settings. |
 | [BaseDecodeType](./basedecodetype) | Base class for MultyDecodeType and SingleDecodeType. |
@@ -30,7 +30,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [OneDExtendedParameters](./onedextendedparameters) | Stores special data of 1D recognized barcode like separate codetext and checksum |
 | [Pdf417ExtendedParameters](./pdf417extendedparameters) | Stores a MacroPdf417 metadata information of recognized barcode |
 | [QRExtendedParameters](./qrextendedparameters) | Stores a QR Structured Append information of recognized barcode |
-| [Quadrangle](./quadrangle) | Stores a set of four Points that represent a [`Quadrangle`](aspose.barcode.barcoderecognition/quadrangle) region. |
+| [Quadrangle](./quadrangle) | Stores a set of four Points that represent a [`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle) region. |
 | [QualitySettings](./qualitysettings) | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
 | [RecognitionAbortedException](./recognitionabortedexception) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
 | [SingleDecodeType](./singledecodetype) | Single decode type. See decode type to get instance. |

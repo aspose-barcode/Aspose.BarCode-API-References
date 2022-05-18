@@ -18,18 +18,18 @@ public sealed class CaptionUI
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets the text [`alignment`](../../aspose.barcode.generation/textalignment) of the caption. |
-| [Color](color) { get; set; } | Gets or sets the forecolor of the [`caption`](../../aspose.barcode.generation/captionparameters). |
-| [Font](font) { get; set; } | Gets or sets the font of the caption. |
-| [Padding](padding) { get; } | Gets or sets caption paddings [`Padding`](../../aspose.barcode.generation/padding). |
-| [Text](text) { get; set; } | Gets or sets the content of the caption. |
-| [Visible](visible) { get; set; } | Gets or sets a value indicates whether the [`caption`](../../aspose.barcode.generation/captionparameters) is visible. |
+| [Alignment](../../aspose.barcode.windows.forms/captionui/alignment) { get; set; } | Gets or sets the text [`alignment`](../../aspose.barcode.generation/textalignment) of the caption. |
+| [Color](../../aspose.barcode.windows.forms/captionui/color) { get; set; } | Gets or sets the forecolor of the [`caption`](../../aspose.barcode.generation/captionparameters). |
+| [Font](../../aspose.barcode.windows.forms/captionui/font) { get; set; } | Gets or sets the font of the caption. |
+| [Padding](../../aspose.barcode.windows.forms/captionui/padding) { get; } | Gets or sets caption paddings [`Padding`](../../aspose.barcode.generation/padding). |
+| [Text](../../aspose.barcode.windows.forms/captionui/text) { get; set; } | Gets or sets the content of the caption. |
+| [Visible](../../aspose.barcode.windows.forms/captionui/visible) { get; set; } | Gets or sets a value indicates whether the [`caption`](../../aspose.barcode.generation/captionparameters) is visible. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`CaptionUI`](../captionui). |
+| override [ToString](../../aspose.barcode.windows.forms/captionui/tostring)() | Returns a human-readable string representation of this [`CaptionUI`](../captionui). |
 
 ### See Also
 

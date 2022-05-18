@@ -18,20 +18,20 @@ public static class DecodeType
 
 | Name | Description |
 | --- | --- |
-| static [AllSupportedTypesArray](allsupportedtypesarray) { get; } | Gets an array that represents AllSupportedTypes |
+| static [AllSupportedTypesArray](../../aspose.barcode.barcoderecognition/decodetype/allsupportedtypesarray) { get; } | Gets an array that represents AllSupportedTypes |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetNames](getnames)() | Retrieves an array of the names of the decode types. |
-| static [Is1D](is1d)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any 1D barcode symbology |
-| static [Is2D](is2d)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any 2D barcode symbology |
-| static [IsPostal](ispostal)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any Postal barcode symbology |
-| static [Parse](parse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [ScanSets](scansets)(params BaseDecodeType[]) | Specify scan sets by barcodeTypes |
-| static [TryParse](tryparse)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [TryParse](tryparse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [GetNames](../../aspose.barcode.barcoderecognition/decodetype/getnames)() | Retrieves an array of the names of the decode types. |
+| static [Is1D](../../aspose.barcode.barcoderecognition/decodetype/is1d)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any 1D barcode symbology |
+| static [Is2D](../../aspose.barcode.barcoderecognition/decodetype/is2d)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any 2D barcode symbology |
+| static [IsPostal](../../aspose.barcode.barcoderecognition/decodetype/ispostal)(BaseDecodeType) | Determines if the specified [`BaseDecodeType`](../basedecodetype) contains any Postal barcode symbology |
+| static [Parse](../../aspose.barcode.barcoderecognition/decodetype/parse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [ScanSets](../../aspose.barcode.barcoderecognition/decodetype/scansets)(params BaseDecodeType[]) | Specify scan sets by barcodeTypes |
+| static [TryParse](../../aspose.barcode.barcoderecognition/decodetype/tryparse)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/decodetype/tryparse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
 
 ## Other Members
 

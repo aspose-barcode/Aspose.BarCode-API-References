@@ -20,17 +20,18 @@ public sealed class Code128ExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [Code128DataPortions](code128dataportions) { get; } | Gets [`Code128DataPortion`](../code128dataportion) array of recognized Code128 barcode |
+| [Code128DataPortions](../../aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions) { get; } | Gets [`Code128DataPortion`](../code128dataportion) array of recognized Code128 barcode |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Code128ExtendedParameters`](../code128extendedparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Code128ExtendedParameters`](../code128extendedparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`Code128ExtendedParameters`](../code128extendedparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`Code128ExtendedParameters`](../code128extendedparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128extendedparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`Code128ExtendedParameters`](../code128extendedparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/code128extendedparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128extendedparameters/tostring)() | Returns a human-readable string representation of this [`Code128ExtendedParameters`](../code128extendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_equality) | Returns a value indicating whether the first [`Code128ExtendedParameters`](../code128extendedparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_inequality) | Returns a value indicating if the first [`Code128ExtendedParameters`](../code128extendedparameters) value is different from the second. |
 
 ### Examples
 

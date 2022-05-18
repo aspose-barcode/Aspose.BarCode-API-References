@@ -18,9 +18,9 @@ public sealed class FontUnit
 
 | Name | Description |
 | --- | --- |
-| [FamilyName](familyname) { get; set; } | Gets or sets the face name of this Font. |
-| [Size](size) { get; } | Gets or sets size of this FontUnit in Unit value. |
-| [Style](style) { get; set; } | Gets or sets style information for this FontUnit. |
+| [FamilyName](../../aspose.barcode.generation/fontunit/familyname) { get; set; } | Gets or sets the face name of this Font. |
+| [Size](../../aspose.barcode.generation/fontunit/size) { get; } | Gets or sets size of this FontUnit in Unit value. |
+| [Style](../../aspose.barcode.generation/fontunit/style) { get; set; } | Gets or sets style information for this FontUnit. |
 
 ### Examples
 

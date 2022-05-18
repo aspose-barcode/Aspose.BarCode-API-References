@@ -18,15 +18,15 @@ public abstract class BaseDecodeType : IEquatable<BaseDecodeType>
 
 | Name | Description |
 | --- | --- |
-| abstract [ContainsAny](containsany)(params BaseDecodeType[]) | Determines whether any of the given decode types is included into |
-| [Equals](equals)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
-| virtual [Equals](equals)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype) value. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
-| virtual [Equals](equals)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| static [TryParse](tryparse)(string, out BaseDecodeType) | Converts the string representation of a BaseDecodeType to its instance, having determined the concrete type. A return value indicates whether the conversion succeeded or failed. |
-| static [TryParse](tryparse)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [TryParse](tryparse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany)(params BaseDecodeType[]) | Determines whether any of the given decode types is included into |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode)() | Returns the hash code for this instance. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse)(string, out BaseDecodeType) | Converts the string representation of a BaseDecodeType to its instance, having determined the concrete type. A return value indicates whether the conversion succeeded or failed. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse)(string, out SingleDecodeType) | Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
 
 ### Examples
 

@@ -18,18 +18,19 @@ public sealed class OneDExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [CheckSum](checksum) { get; } | Gets the checksum for 1D barcodes. |
-| [Value](value) { get; } | Gets the codetext of 1D barcodes without checksum. |
+| [CheckSum](../../aspose.barcode.barcoderecognition/onedextendedparameters/checksum) { get; } | Gets the checksum for 1D barcodes. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
+| [Value](../../aspose.barcode.barcoderecognition/onedextendedparameters/value) { get; } | Gets the codetext of 1D barcodes without checksum. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`OneDExtendedParameters`](../onedextendedparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`OneDExtendedParameters`](../onedextendedparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`OneDExtendedParameters`](../onedextendedparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`OneDExtendedParameters`](../onedextendedparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`OneDExtendedParameters`](../onedextendedparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/onedextendedparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | Returns a human-readable string representation of this [`OneDExtendedParameters`](../onedextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | Returns a value indicating whether the first [`OneDExtendedParameters`](../onedextendedparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | Returns a value indicating if the first [`OneDExtendedParameters`](../onedextendedparameters) value is different from the second. |
 
 ### Examples
 

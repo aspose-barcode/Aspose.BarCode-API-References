@@ -18,23 +18,23 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 
 | Name | Description |
 | --- | --- |
-| [Classification](classification) { get; } | Gets a classification of this symbology. |
-| [TypeIndex](typeindex) { get; } | Gets an index of encode type |
-| [TypeName](typename) { get; } | Gets a name of encode type |
+| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Gets a classification of this symbology. |
+| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Gets an index of encode type |
+| [TypeName](../../aspose.barcode.generation/baseencodetype/typename) { get; } | Gets a name of encode type |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Parse](parse)(string) | Converts the string representation of the name of a BaseEncodeType to its instance. |
-| [Equals](equals)(BaseEncodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseEncodeType`](../baseencodetype) value. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BaseEncodeType`](../baseencodetype) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| [GetString](getstring)() | Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:0; Name:Codabar". |
-| override [ToString](tostring)() | Returns the name of the given BaseEncodeType as a string. |
-| static [GetString](getstring)(BaseEncodeType) | Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
-| static [TryParse](tryparse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [TryParse](tryparse)(string, out SymbologyEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [Parse](../../aspose.barcode.generation/baseencodetype/parse)(string) | Converts the string representation of the name of a BaseEncodeType to its instance. |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals)(BaseEncodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseEncodeType`](../baseencodetype) value. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BaseEncodeType`](../baseencodetype) value. |
+| override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | Returns the hash code for this instance. |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:0; Name:Codabar". |
+| override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | Returns the name of the given BaseEncodeType as a string. |
+| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse)(string, out BaseEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse)(string, out SymbologyEncodeType) | Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
 
 ### See Also
 

@@ -24,27 +24,27 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | Name | Description |
 | --- | --- |
-| [CodeBytes](codebytes) { get; } | Gets the encoded code bytes |
-| [CodeText](codetext) { get; } | Gets the code text |
-| [CodeType](codetype) { get; } | Gets the barcode type |
-| [CodeTypeName](codetypename) { get; } | Gets the name of the barcode type |
-| [Confidence](confidence) { get; } | Gets recognition confidence level of the recognized barcode |
-| [Extended](extended) { get; } | Gets extended parameters of recognized barcode |
-| [ReadingQuality](readingquality) { get; } | Gets the reading quality. Works for 1D and postal barcodes. |
-| [Region](region) { get; } | Gets the barcode region |
+| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes) { get; } | Gets the encoded code bytes |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | Gets the code text |
+| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype) { get; } | Gets the barcode type |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | Gets the name of the barcode type |
+| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence) { get; } | Gets recognition confidence level of the recognized barcode |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended) { get; } | Gets extended parameters of recognized barcode |
+| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality) { get; } | Gets the reading quality. Works for 1D and postal barcodes. |
+| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region) { get; } | Gets the barcode region |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Creates a copy of [`BarCodeResult`](../barcoderesult) class. |
-| [Equals](equals)(BarCodeResult) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
-| [GetCodeText](getcodetext)(Encoding) | Gets the code text with encoding. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`BarCodeResult`](../barcoderesult). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`BarCodeResult`](../barcoderesult) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`BarCodeResult`](../barcoderesult) value is different from the second. |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | Creates a copy of [`BarCodeResult`](../barcoderesult) class. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals)(BarCodeResult) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | Gets the code text with encoding. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | Returns a human-readable string representation of this [`BarCodeResult`](../barcoderesult). |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | Returns a value indicating whether the first [`BarCodeResult`](../barcoderesult) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | Returns a value indicating if the first [`BarCodeResult`](../barcoderesult) value is different from the second. |
 
 ### Examples
 

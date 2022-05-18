@@ -18,13 +18,13 @@ public class PostalParameters
 
 | Name | Description |
 | --- | --- |
-| [PostalShortBarHeight](postalshortbarheight) { get; set; } | Short bar's height of Postal barcodes. |
+| [PostalShortBarHeight](../../aspose.barcode.generation/postalparameters/postalshortbarheight) { get; set; } | Short bar's height of Postal barcodes. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`PostalParameters`](../postalparameters). |
+| override [ToString](../../aspose.barcode.generation/postalparameters/tostring)() | Returns a human-readable string representation of this [`PostalParameters`](../postalparameters). |
 
 ### See Also
 

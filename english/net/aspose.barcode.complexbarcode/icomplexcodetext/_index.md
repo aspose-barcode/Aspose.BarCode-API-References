@@ -18,9 +18,9 @@ public interface IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [GetBarcodeType](getbarcodetype)() | Gets barcode type. |
-| [GetConstructedCodetext](getconstructedcodetext)() | Construct codetext for complex barcode |
-| [InitFromString](initfromstring)(string) | Initializes instance with constructed codetext. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/icomplexcodetext/getbarcodetype)() | Gets barcode type. |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext)() | Construct codetext for complex barcode |
+| [InitFromString](../../aspose.barcode.complexbarcode/icomplexcodetext/initfromstring)(string) | Initializes instance with constructed codetext. |
 
 ### See Also
 

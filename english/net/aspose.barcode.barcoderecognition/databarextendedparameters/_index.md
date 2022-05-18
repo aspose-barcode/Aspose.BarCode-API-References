@@ -18,17 +18,18 @@ public sealed class DataBarExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [Is2DCompositeComponent](is2dcompositecomponent) { get; } | Gets the DataBar 2D composite component flag. Default value is false. |
+| [Is2DCompositeComponent](../../aspose.barcode.barcoderecognition/databarextendedparameters/is2dcompositecomponent) { get; } | Gets the DataBar 2D composite component flag. Default value is false. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tests whether all parameters has only default values |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified [`DataBarExtendedParameters`](../databarextendedparameters) value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`DataBarExtendedParameters`](../databarextendedparameters). |
-| [operator ==](op_equality) | Returns a value indicating whether the first [`DataBarExtendedParameters`](../databarextendedparameters) value is equal to the second. |
-| [operator !=](op_inequality) | Returns a value indicating if the first [`DataBarExtendedParameters`](../databarextendedparameters) value is different from the second. |
+| override [Equals](../../aspose.barcode.barcoderecognition/databarextendedparameters/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`DataBarExtendedParameters`](../databarextendedparameters) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/databarextendedparameters/gethashcode)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/databarextendedparameters/tostring)() | Returns a human-readable string representation of this [`DataBarExtendedParameters`](../databarextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_equality) | Returns a value indicating whether the first [`DataBarExtendedParameters`](../databarextendedparameters) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_inequality) | Returns a value indicating if the first [`DataBarExtendedParameters`](../databarextendedparameters) value is different from the second. |
 
 ### Examples
 

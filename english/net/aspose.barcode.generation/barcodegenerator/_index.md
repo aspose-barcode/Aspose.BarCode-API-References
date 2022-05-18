@@ -27,23 +27,23 @@ public sealed class BarcodeGenerator : Component
 
 | Name | Description |
 | --- | --- |
-| [BarcodeType](barcodetype) { get; set; } | Barcode symbology type. |
-| [CodeText](codetext) { get; set; } | Text to be encoded. |
-| [Parameters](parameters) { get; } | Generation parameters. |
+| [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype) { get; set; } | Barcode symbology type. |
+| [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext) { get; set; } | Text to be encoded. |
+| [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters) { get; } | Generation parameters. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [ImportFromXml](importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and creates BarcodeGenerator instance. |
-| static [ImportFromXml](importfromxml)(string) | Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance. |
-| [DrawWpf](drawwpf)(DrawingContext) | Draws barcode image on WPF canvas. |
-| [ExportToXml](exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
-| [ExportToXml](exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
-| [GenerateBarCodeImage](generatebarcodeimage)() | Generate the barcode image under current settings. |
-| [Save](save)(string) | Save barcode image to specific file. |
-| [Save](save)(Stream, BarCodeImageFormat) | Save barcode image to stream in specific format. |
-| [Save](save)(string, BarCodeImageFormat) | Save barcode image to specific file in specific format. |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml)(Stream) | Imports BarCode properties from the xml-stream specified and creates BarcodeGenerator instance. |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml)(string) | Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance. |
+| [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf)(DrawingContext) | Draws barcode image on WPF canvas. |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml)(string) | Exports BarCode properties to the xml-file specified |
+| [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage)() | Generate the barcode image under current settings. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save)(string) | Save barcode image to specific file. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save)(Stream, BarCodeImageFormat) | Save barcode image to stream in specific format. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save)(string, BarCodeImageFormat) | Save barcode image to specific file in specific format. |
 
 ### Examples
 

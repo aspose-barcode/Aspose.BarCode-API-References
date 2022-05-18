@@ -18,9 +18,9 @@ public sealed class AustraliaPostSettings
 
 | Name | Description |
 | --- | --- |
-| [CustomerInformationDecoder](customerinformationdecoder) { get; set; } | Public interface for Customer Information Field decoding which is used in AustraliaPost symbology. |
-| [CustomerInformationInterpretingType](customerinformationinterpretingtype) { get; set; } | Gets or sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.Other. |
-| [IgnoreEndingFillingPatternsForCTable](ignoreendingfillingpatternsforctable) { get; set; } | The flag which force AustraliaPost decoder to ignore last filling patterns in Customer Information Field during decoding as CTable method. CTable encoding method does not have any gaps in encoding table and sequnce "333" of filling paterns is decoded as letter "z". |
+| [CustomerInformationDecoder](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationdecoder) { get; set; } | Public interface for Customer Information Field decoding which is used in AustraliaPost symbology. |
+| [CustomerInformationInterpretingType](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype) { get; set; } | Gets or sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.Other. |
+| [IgnoreEndingFillingPatternsForCTable](../../aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable) { get; set; } | The flag which force AustraliaPost decoder to ignore last filling patterns in Customer Information Field during decoding as CTable method. CTable encoding method does not have any gaps in encoding table and sequnce "333" of filling paterns is decoded as letter "z". |
 
 ### See Also
 

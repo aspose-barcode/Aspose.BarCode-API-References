@@ -18,20 +18,20 @@ public sealed class Unit
 
 | Name | Description |
 | --- | --- |
-| [Document](document) { get; set; } | Gets or sets size value in document units. |
-| [Inches](inches) { get; set; } | Gets or sets size value in inches. |
-| [Millimeters](millimeters) { get; set; } | Gets or sets size value in millimeters. |
-| [Pixels](pixels) { get; set; } | Gets or sets size value in pixels. |
-| [Point](point) { get; set; } | Gets or sets size value in point. |
-| [Resolution](resolution) { get; } | Resolution |
+| [Document](../../aspose.barcode.generation/unit/document) { get; set; } | Gets or sets size value in document units. |
+| [Inches](../../aspose.barcode.generation/unit/inches) { get; set; } | Gets or sets size value in inches. |
+| [Millimeters](../../aspose.barcode.generation/unit/millimeters) { get; set; } | Gets or sets size value in millimeters. |
+| [Pixels](../../aspose.barcode.generation/unit/pixels) { get; set; } | Gets or sets size value in pixels. |
+| [Point](../../aspose.barcode.generation/unit/point) { get; set; } | Gets or sets size value in point. |
+| [Resolution](../../aspose.barcode.generation/unit/resolution) { get; } | Resolution |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether this instance and a specified object, which must also be a [`Unit`](../unit) object, have the same value. |
-| override [GetHashCode](gethashcode)() | Returns the hash code for this object. |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Unit`](../unit). |
+| override [Equals](../../aspose.barcode.generation/unit/equals)(object) | Determines whether this instance and a specified object, which must also be a [`Unit`](../unit) object, have the same value. |
+| override [GetHashCode](../../aspose.barcode.generation/unit/gethashcode)() | Returns the hash code for this object. |
+| override [ToString](../../aspose.barcode.generation/unit/tostring)() | Returns a human-readable string representation of this [`Unit`](../unit). |
 
 ### Examples
 

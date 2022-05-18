@@ -18,14 +18,14 @@ public sealed class BarcodeSvmDetectorSettings
 
 | Name | Description |
 | --- | --- |
-| static [HighPerformance](highperformance) { get; } | High performance detection preset. |
-| static [HighQuality](highquality) { get; } | High quality detection preset. |
-| static [MaxQuality](maxquality) { get; } | Max quality detection preset. |
-| static [NormalQuality](normalquality) { get; } | Normal quality detection preset. |
-| [RegionLikelihoodThresholdPercent](regionlikelihoodthresholdpercent) { get; set; } | Sets threshold for detected regions that may contain barcodes. |
-| [ScanWindowSizes](scanwindowsizes) { get; set; } | Scan window sizes in pixels. |
-| [SimilarityCoef](similaritycoef) { get; set; } | Similarity coefficient depends on how homogeneous barcodes are. |
-| [SkipDiagonalSearch](skipdiagonalsearch) { get; set; } | Allows detector to skip search for diagonal barcodes. |
+| static [HighPerformance](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highperformance) { get; } | High performance detection preset. |
+| static [HighQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highquality) { get; } | High quality detection preset. |
+| static [MaxQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/maxquality) { get; } | Max quality detection preset. |
+| static [NormalQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/normalquality) { get; } | Normal quality detection preset. |
+| [RegionLikelihoodThresholdPercent](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/regionlikelihoodthresholdpercent) { get; set; } | Sets threshold for detected regions that may contain barcodes. |
+| [ScanWindowSizes](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes) { get; set; } | Scan window sizes in pixels. |
+| [SimilarityCoef](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/similaritycoef) { get; set; } | Similarity coefficient depends on how homogeneous barcodes are. |
+| [SkipDiagonalSearch](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/skipdiagonalsearch) { get; set; } | Allows detector to skip search for diagonal barcodes. |
 
 ### See Also
 

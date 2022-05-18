@@ -18,15 +18,15 @@ public class CodablockParameters
 
 | Name | Description |
 | --- | --- |
-| [AspectRatio](aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [Columns](columns) { get; set; } | Columns count. |
-| [Rows](rows) { get; set; } | Rows count. |
+| [AspectRatio](../../aspose.barcode.generation/codablockparameters/aspectratio) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [Columns](../../aspose.barcode.generation/codablockparameters/columns) { get; set; } | Columns count. |
+| [Rows](../../aspose.barcode.generation/codablockparameters/rows) { get; set; } | Rows count. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`CodablockParameters`](../codablockparameters). |
+| override [ToString](../../aspose.barcode.generation/codablockparameters/tostring)() | Returns a human-readable string representation of this [`CodablockParameters`](../codablockparameters). |
 
 ### See Also
 
