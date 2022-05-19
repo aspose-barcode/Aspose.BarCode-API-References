@@ -14,7 +14,7 @@ The **Aspose.BarCode.ComplexBarcode** containing general classes for the impleme
 | --- | --- |
 | [Address](./address) | Address of creditor or debtor. |
 | [AlternativeScheme](./alternativescheme) | Alternative payment scheme instructions |
-| [ComplexBarcodeGenerator](./complexbarcodegenerator) | ComplexBarcodeGenerator for backend complex barcode (../e.g. SwissQR) images generation. |
+| [ComplexBarcodeGenerator](./complexbarcodegenerator) | ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation. |
 | [ComplexCodetextReader](./complexcodetextreader) | ComplexCodetextReader decodes codetext to specified complex barcode type. |
 | [Mailmark2DCodetext](./mailmark2dcodetext) | Class for encoding and decoding the text embedded in the Royal Mail 2D Mailmark code. |
 | [MailmarkCodetext](./mailmarkcodetext) | Class for encoding and decoding the text embedded in the 4-state Royal Mailmark code. |
