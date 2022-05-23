@@ -18,7 +18,7 @@ public static BaseEncodeType Parse(string stringEncodeType)
 | --- | --- | --- |
 | stringEncodeType | String | A string containing the name of a BaseEncodeType to convert. |
 
-## Return Value
+### Return Value
 
 the instance of , if conversion was successful; otherwise, it returns .
 

@@ -14,7 +14,7 @@ Gets or sets the additional structured bill information.
 public string BillInformation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The structured bill information.
 

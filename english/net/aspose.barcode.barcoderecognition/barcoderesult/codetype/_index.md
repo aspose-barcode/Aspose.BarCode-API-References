@@ -14,7 +14,7 @@ Gets the barcode type
 public SingleDecodeType CodeType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type information of the recognized barcode
 

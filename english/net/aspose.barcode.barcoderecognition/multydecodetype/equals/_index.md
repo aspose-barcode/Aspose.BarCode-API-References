@@ -18,7 +18,7 @@ public override bool Equals(MultyDecodeType other)
 | --- | --- | --- |
 | other | MultyDecodeType | An [`MultyDecodeType`](../../multydecodetype) value to compare to this instance. |
 
-## Return Value
+### Return Value
 
 **true** if obj has the same value as this instance; otherwise, **false**.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | An System.Object value to compare to this instance. |
 
-## Return Value
+### Return Value
 
 **true** if obj has the same value as this instance; otherwise, **false**.
 

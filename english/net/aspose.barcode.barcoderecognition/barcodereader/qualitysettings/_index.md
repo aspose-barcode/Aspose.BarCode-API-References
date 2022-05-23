@@ -14,7 +14,7 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 public QualitySettings QualitySettings { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 QualitySettings to configure recognition quality and speed.
 

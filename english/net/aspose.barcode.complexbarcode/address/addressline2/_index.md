@@ -20,7 +20,7 @@ This field is only used for combined elements addresses. For this type, it's man
 public string AddressLine2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The address line 2.
 

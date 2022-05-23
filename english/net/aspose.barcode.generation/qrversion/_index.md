@@ -14,7 +14,7 @@ Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for
 public enum QRVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

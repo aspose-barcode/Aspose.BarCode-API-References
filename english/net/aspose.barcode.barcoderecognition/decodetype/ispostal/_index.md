@@ -18,7 +18,7 @@ public static bool IsPostal(BaseDecodeType symbology)
 | --- | --- | --- |
 | symbology | BaseDecodeType | The [`BaseDecodeType`](../../basedecodetype) to test. |
 
-## Return Value
+### Return Value
 
 Returns **true** if [`BaseDecodeType`](../../basedecodetype) contains any Postal barcode symbology; otherwise, returns **false**.
 

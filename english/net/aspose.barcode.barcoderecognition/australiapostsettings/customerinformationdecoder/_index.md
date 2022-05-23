@@ -14,7 +14,7 @@ Public interface for Customer Information Field decoding which is used in Austra
 public AustraliaPostCustomerInformationDecoder CustomerInformationDecoder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Public interface for Customer Information Field decoding which is used in AustraliaPost symbology.
 

@@ -14,7 +14,7 @@ Allows engine for QR/MicroQR to recognize damaged MicroQR barcodes.
 public bool AllowQRMicroQrRestoration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine for QR/MicroQR to recognize damaged MicroQR barcodes.
 

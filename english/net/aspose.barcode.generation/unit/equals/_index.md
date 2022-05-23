@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Unit`](../../unit) to compare to this instance. |
 
-## Return Value
+### Return Value
 
 true if obj is a [`Unit`](../../unit) and its value is the same as this instance; otherwise, false. If obj is null, the method returns false.
 

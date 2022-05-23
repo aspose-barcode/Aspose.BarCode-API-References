@@ -18,7 +18,7 @@ public string GetCodeText(Encoding encoding)
 | --- | --- | --- |
 | encoding | Encoding | The encoding for codetext. |
 
-## Return Value
+### Return Value
 
 A string containing recognized code text.
 

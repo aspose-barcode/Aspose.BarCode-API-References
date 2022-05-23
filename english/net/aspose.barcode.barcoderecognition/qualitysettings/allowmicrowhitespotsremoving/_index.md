@@ -14,7 +14,7 @@ Allows engine for Postal barcodes to recognize slightly noised images. Mode help
 public bool AllowMicroWhiteSpotsRemoving { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine for Postal barcodes to recognize slightly noised images.
 

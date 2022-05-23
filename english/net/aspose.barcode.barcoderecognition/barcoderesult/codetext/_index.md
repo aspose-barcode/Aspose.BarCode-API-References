@@ -14,7 +14,7 @@ Gets the code text
 public string CodeText { get; }
 ```
 
-## Property Value
+### Property Value
 
 The code text of the barcode
 

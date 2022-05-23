@@ -19,7 +19,7 @@ public static bool operator ==(Code128ExtendedParameters first, Code128ExtendedP
 | first | Code128ExtendedParameters | A first compared value |
 | second | Code128ExtendedParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the same value as second; otherwise, **false**.
 

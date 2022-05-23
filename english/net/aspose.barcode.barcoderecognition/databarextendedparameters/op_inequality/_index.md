@@ -19,7 +19,7 @@ public static bool operator !=(DataBarExtendedParameters first, DataBarExtendedP
 | first | DataBarExtendedParameters | A first compared value |
 | second | DataBarExtendedParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the different value from second; otherwise, **false**.
 

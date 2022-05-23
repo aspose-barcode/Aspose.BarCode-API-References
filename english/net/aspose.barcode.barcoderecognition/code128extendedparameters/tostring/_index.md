@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`Code128ExtendedParamete
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`Code128ExtendedParameters`](../../code128extendedparameters).
 

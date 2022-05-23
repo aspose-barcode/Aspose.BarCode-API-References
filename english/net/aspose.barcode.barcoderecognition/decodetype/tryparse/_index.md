@@ -19,7 +19,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 | parsingType | String | A string in the format as "Index:-1; Name:None" to convert. |
 | result | SingleDecodeType& | An actual SingleDecodeType returns, when conversion has completed successfully; |
 
-## Return Value
+### Return Value
 
 **true** if s was converted successfully; otherwise, **false**.
 
@@ -45,7 +45,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 | parsingType | String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
 | result | MultyDecodeType& | An actual MultyDecodeType is returned, when conversion has completed successfully; |
 
-## Return Value
+### Return Value
 
 **true** if s was converted successfully; otherwise, **false**.
 

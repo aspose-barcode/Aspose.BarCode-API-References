@@ -14,7 +14,7 @@ Gets or sets the additional unstructured message.
 public string UnstructuredMessage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The unstructured message.
 

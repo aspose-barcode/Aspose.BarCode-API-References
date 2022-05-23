@@ -14,7 +14,7 @@ Macro PDF417 file size (optional).
 public int MacroPdf417FileSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 File size.
 

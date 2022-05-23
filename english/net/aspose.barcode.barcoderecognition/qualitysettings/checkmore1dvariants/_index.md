@@ -14,7 +14,7 @@ Allows engine to recognize 1D barcodes with checksum by checking more recognitio
 public bool CheckMore1DVariants { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 If True, allows engine to recognize 1D barcodes with checksum.
 

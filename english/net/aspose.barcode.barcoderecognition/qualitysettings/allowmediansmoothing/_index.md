@@ -14,7 +14,7 @@ Allows engine to enable median smoothing as additional scan. Mode helps to recog
 public bool AllowMedianSmoothing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to enable median smoothing.
 

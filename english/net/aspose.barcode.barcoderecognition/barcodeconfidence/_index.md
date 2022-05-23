@@ -14,7 +14,7 @@ Contains recognition confidence level
 public enum BarCodeConfidence
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

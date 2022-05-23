@@ -14,7 +14,7 @@ Gets the file ID of the barcode, only available with MacroPdf417.
 public string MacroPdf417FileID { get; }
 ```
 
-## Property Value
+### Property Value
 
 The file ID for MacroPdf417
 

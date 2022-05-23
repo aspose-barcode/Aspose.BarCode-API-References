@@ -14,7 +14,7 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 public BarcodeSettings BarcodeSettings { get; }
 ```
 
-## Property Value
+### Property Value
 
 The main BarCode decoding parameters
 

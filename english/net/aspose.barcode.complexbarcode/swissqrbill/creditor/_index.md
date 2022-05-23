@@ -14,7 +14,7 @@ Gets or sets the creditor address.
 public Address Creditor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The creditor address.
 

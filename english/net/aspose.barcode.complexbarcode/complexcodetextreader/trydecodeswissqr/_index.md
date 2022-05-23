@@ -18,7 +18,7 @@ public static SwissQRCodetext TryDecodeSwissQR(string encodedCodetext)
 | --- | --- | --- |
 | encodedCodetext | String | encoded codetext |
 
-## Return Value
+### Return Value
 
 decoded SwissQRCodetext or null.
 

@@ -14,7 +14,7 @@ Macro PDF417 time stamp (optional).
 public DateTime MacroPdf417TimeStamp { get; }
 ```
 
-## Property Value
+### Property Value
 
 Time stamp.
 

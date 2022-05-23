@@ -18,7 +18,7 @@ public static bool Is2D(BaseDecodeType symbology)
 | --- | --- | --- |
 | symbology | BaseDecodeType | The [`BaseDecodeType`](../../basedecodetype) to test. |
 
-## Return Value
+### Return Value
 
 Returns **true** if [`BaseDecodeType`](../../basedecodetype) contains any 2D barcode symbology; otherwise, returns **false**.
 

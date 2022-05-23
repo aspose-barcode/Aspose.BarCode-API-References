@@ -16,7 +16,7 @@ Valid values are between 0.01 and 999,999,999.99.
 public decimal Amount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The payment amount.
 

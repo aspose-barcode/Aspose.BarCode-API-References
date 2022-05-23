@@ -14,7 +14,7 @@ Allows engine to recognize tiny barcodes on large images. Ignored if [`AllowInco
 public bool ReadTinyBarcodes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 If True, allows engine to recognize tiny barcodes on large images.
 

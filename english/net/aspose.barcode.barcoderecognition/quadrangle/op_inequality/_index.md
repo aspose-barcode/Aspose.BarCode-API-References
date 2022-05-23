@@ -19,7 +19,7 @@ public static bool operator !=(Quadrangle first, Quadrangle second)
 | first | Quadrangle | A first compared value |
 | second | Quadrangle | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the different value from second; otherwise, **false**.
 

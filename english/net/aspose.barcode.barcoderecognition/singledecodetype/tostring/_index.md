@@ -14,7 +14,7 @@ Returns the name of the given SingleDecodeType as a string.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string representing the name of the single decode type
 

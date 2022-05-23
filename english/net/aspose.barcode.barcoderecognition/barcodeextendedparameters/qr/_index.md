@@ -14,7 +14,7 @@ Gets a QR Structured Append information [`QRExtendedParameters`](../../qrextende
 public QRExtendedParameters QR { get; }
 ```
 
-## Property Value
+### Property Value
 
 A QR Structured Append information [`QRExtendedParameters`](../../qrextendedparameters) of recognized barcode
 

@@ -14,7 +14,7 @@ Macro PDF417 sender name (optional).
 public string MacroPdf417Sender { get; }
 ```
 
-## Property Value
+### Property Value
 
 Sender name
 

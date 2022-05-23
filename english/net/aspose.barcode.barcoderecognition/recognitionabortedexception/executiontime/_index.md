@@ -14,7 +14,7 @@ Gets the execution time of current recognition session
 public int ExecutionTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The execution time of current recognition session
 

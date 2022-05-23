@@ -14,7 +14,7 @@ Gets recognized barcodes count
 public int FoundCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recognized barcodes count
 

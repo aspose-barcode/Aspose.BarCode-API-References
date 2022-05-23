@@ -14,7 +14,7 @@ Converts the instance of SingleDecodeType to its equivalent string representatio
 public string GetString()
 ```
 
-## Return Value
+### Return Value
 
 A string representing the complete value of the single decode type
 
@@ -38,7 +38,7 @@ public static string GetString(SingleDecodeType instance)
 | --- | --- | --- |
 | instance | SingleDecodeType | The SingleDecodeType instance to convert |
 
-## Return Value
+### Return Value
 
 A string representing the complete value of the given single decode type
 

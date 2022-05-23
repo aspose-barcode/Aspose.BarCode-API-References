@@ -14,7 +14,7 @@ Pdf417 barcode compaction mode
 public enum Pdf417CompactionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

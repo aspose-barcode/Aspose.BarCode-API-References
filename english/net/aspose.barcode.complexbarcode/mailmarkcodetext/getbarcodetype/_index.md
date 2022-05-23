@@ -14,7 +14,7 @@ Gets barcode type.
 public BaseEncodeType GetBarcodeType()
 ```
 
-## Return Value
+### Return Value
 
 Barcode type.
 

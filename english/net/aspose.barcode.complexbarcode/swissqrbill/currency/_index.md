@@ -16,7 +16,7 @@ Valid values are "CHF" and "EUR".
 public string Currency { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The payment currency.
 

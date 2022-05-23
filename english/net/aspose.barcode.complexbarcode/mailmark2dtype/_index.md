@@ -14,7 +14,7 @@ url: /net/aspose.barcode.complexbarcode/mailmark2dtype/
 public enum Mailmark2DType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

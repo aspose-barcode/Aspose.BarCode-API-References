@@ -14,7 +14,7 @@ Specifies the checksum algorithm for Codabar
 public enum CodabarChecksumMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

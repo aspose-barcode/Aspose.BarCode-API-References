@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`SupplementParameters`](
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`SupplementParameters`](../../supplementparameters).
 

@@ -14,7 +14,7 @@ Function codewords for Code 128 emulation. Applied for MicroPDF417 only. Ignored
 public enum Code128Emulation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

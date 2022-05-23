@@ -14,7 +14,7 @@ DataMatrix encoder's encoding mode, default to Auto
 public enum DataMatrixEncodeMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

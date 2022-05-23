@@ -16,7 +16,7 @@ The address type is automatically set by either setting street / house number or
 public AddressType Type { get; }
 ```
 
-## Property Value
+### Property Value
 
 The address type.
 

@@ -14,7 +14,7 @@ Gets Rectangle bounding barcode region
 public Rectangle Rectangle { get; }
 ```
 
-## Property Value
+### Property Value
 
 Returns Rectangle bounding barcode region
 

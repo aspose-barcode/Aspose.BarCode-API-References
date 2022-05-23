@@ -14,7 +14,7 @@ Allows engine to recognize regular image without any restorations as main scan. 
 public bool AllowRegularImage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows to recognize regular image without any restorations.
 

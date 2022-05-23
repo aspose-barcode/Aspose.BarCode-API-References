@@ -14,7 +14,7 @@ Allows engine to recognize barcodes which has incorrect checksumm or incorrect v
 public bool AllowIncorrectBarcodes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize incorrect barcodes.
 

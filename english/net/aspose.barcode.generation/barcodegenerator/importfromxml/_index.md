@@ -18,7 +18,7 @@ public static BarcodeGenerator ImportFromXml(string xmlFile)
 | --- | --- | --- |
 | xmlFile | String | The name for the file |
 
-## Return Value
+### Return Value
 
 BarcodeGenerator instance
 
@@ -42,7 +42,7 @@ public static BarcodeGenerator ImportFromXml(Stream xml)
 | --- | --- | --- |
 | xml | Stream | The xml-stream |
 
-## Return Value
+### Return Value
 
 BarcodeGenerator instance
 

@@ -18,7 +18,7 @@ public bool ContainsAll(params BaseDecodeType[] barcodeTypes)
 | --- | --- | --- |
 | barcodeTypes | BaseDecodeType[] | Input single or multy barcode types |
 
-## Return Value
+### Return Value
 
 Value is a true if all types are included into
 

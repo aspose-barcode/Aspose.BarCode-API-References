@@ -19,7 +19,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 public static QualitySettings HighQuality { get; }
 ```
 
-## Property Value
+### Property Value
 
 HighQuality recognition quality preset.
 

@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`QrParameters`](../../qr
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`QrParameters`](../../qrparameters).
 

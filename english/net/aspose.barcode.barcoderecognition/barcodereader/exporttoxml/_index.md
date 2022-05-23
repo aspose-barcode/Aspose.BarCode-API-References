@@ -18,7 +18,7 @@ public bool ExportToXml(string xmlFile)
 | --- | --- | --- |
 | xmlFile | String | The name for the file |
 
-## Return Value
+### Return Value
 
 Whether or not export completed successfully.
 
@@ -44,7 +44,7 @@ public bool ExportToXml(Stream xmlStream)
 | --- | --- | --- |
 | xmlStream | Stream | The xml-stream for saving |
 
-## Return Value
+### Return Value
 
 Whether or not export completed successfully.
 

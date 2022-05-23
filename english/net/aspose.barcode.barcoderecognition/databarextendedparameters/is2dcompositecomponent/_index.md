@@ -14,7 +14,7 @@ Gets the DataBar 2D composite component flag. Default value is false.
 public bool Is2DCompositeComponent { get; }
 ```
 
-## Property Value
+### Property Value
 
 The DataBar 2D composite component flag.
 

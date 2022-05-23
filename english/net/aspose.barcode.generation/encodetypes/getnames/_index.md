@@ -14,7 +14,7 @@ Retrieves an array of the names of the encode types.
 public static string[] GetNames()
 ```
 
-## Return Value
+### Return Value
 
 A string array of the names of the encode types.
 

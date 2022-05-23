@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`Code128DataPortion`](..
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`Code128DataPortion`](../../code128dataportion).
 

@@ -14,7 +14,7 @@ Gets the type of Code128 subset
 public Code128SubType Code128SubType { get; }
 ```
 
-## Return Value
+### Return Value
 
 The type of Code128 subset
 

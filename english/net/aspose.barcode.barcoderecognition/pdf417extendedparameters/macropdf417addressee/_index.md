@@ -14,7 +14,7 @@ Macro PDF417 addressee name (optional).
 public string MacroPdf417Addressee { get; }
 ```
 
-## Property Value
+### Property Value
 
 Addressee name.
 

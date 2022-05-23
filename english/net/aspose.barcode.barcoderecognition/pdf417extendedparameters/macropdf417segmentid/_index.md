@@ -14,7 +14,7 @@ Gets the segment ID of the barcode,only available with MacroPdf417.
 public int MacroPdf417SegmentID { get; }
 ```
 
-## Property Value
+### Property Value
 
 The segment ID of the barcode.
 

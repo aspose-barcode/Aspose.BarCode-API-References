@@ -14,7 +14,7 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 public enum ECIEncodings
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public static bool operator ==(Code128DataPortion first, Code128DataPortion seco
 | first | Code128DataPortion | A first compared value |
 | second | Code128DataPortion | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the same value as second; otherwise, **false**.
 

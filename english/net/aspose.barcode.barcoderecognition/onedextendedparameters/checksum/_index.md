@@ -14,7 +14,7 @@ Gets the checksum for 1D barcodes.
 public string CheckSum { get; }
 ```
 
-## Property Value
+### Property Value
 
 The checksum for 1D barcode.
 

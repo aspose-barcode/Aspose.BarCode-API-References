@@ -14,7 +14,7 @@ Gets AustraliaPost decoding parameters
 public AustraliaPostSettings AustraliaPost { get; }
 ```
 
-## Property Value
+### Property Value
 
 The AustraliaPost decoding parameters which make influence on recognized data of AustraliaPost symbology
 

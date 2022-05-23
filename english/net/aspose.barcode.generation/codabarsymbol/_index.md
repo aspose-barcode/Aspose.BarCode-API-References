@@ -14,7 +14,7 @@ Specifies the start or stop symbol of the Codabar barcode specification.
 public enum CodabarSymbol : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

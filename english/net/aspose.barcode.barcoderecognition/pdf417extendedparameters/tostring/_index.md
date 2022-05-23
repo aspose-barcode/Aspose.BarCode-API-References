@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`Pdf417ExtendedParameter
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`Pdf417ExtendedParameters`](../../pdf417extendedparameters).
 

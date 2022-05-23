@@ -14,7 +14,7 @@ Gets the name of the barcode type
 public string CodeTypeName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type name of the recognized barcode
 

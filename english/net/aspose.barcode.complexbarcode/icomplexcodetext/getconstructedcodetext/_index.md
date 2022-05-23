@@ -14,7 +14,7 @@ Construct codetext for complex barcode
 public string GetConstructedCodetext()
 ```
 
-## Return Value
+### Return Value
 
 Constructed codetext
 

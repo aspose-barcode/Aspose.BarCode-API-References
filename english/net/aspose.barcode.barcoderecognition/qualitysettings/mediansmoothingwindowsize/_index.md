@@ -14,7 +14,7 @@ Window size for median smoothing. Typical values are 3 or 4. Default value is 3.
 public int MedianSmoothingWindowSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Window size for median smoothing.
 

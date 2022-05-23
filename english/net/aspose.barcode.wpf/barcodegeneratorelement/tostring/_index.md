@@ -14,7 +14,7 @@ String representation of the BarcodeGenerator class
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 BarCode: SymbologyType: CodeText
 

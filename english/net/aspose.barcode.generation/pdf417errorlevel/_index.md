@@ -14,7 +14,7 @@ pdf417 barcode's error correction level, from level 0 to level 9, level 0 means 
 public enum Pdf417ErrorLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

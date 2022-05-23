@@ -14,7 +14,7 @@ Macro PDF417 file name (optional).
 public string MacroPdf417FileName { get; }
 ```
 
-## Property Value
+### Property Value
 
 File name.
 

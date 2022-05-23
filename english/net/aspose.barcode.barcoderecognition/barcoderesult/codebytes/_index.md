@@ -14,7 +14,7 @@ Gets the encoded code bytes
 public byte[] CodeBytes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The code bytes of the barcode
 

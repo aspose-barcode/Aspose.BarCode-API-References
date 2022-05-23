@@ -14,7 +14,7 @@ Gets left-bottom corner Point of [`Quadrangle`](../../quadrangle) region
 public Point LeftBottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A left-bottom corner Point of [`Quadrangle`](../../quadrangle) region
 

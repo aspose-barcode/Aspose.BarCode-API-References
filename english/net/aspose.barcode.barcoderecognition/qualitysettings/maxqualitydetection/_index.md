@@ -19,7 +19,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 public static QualitySettings MaxQualityDetection { get; }
 ```
 
-## Property Value
+### Property Value
 
 MaxQualityDetection recognition quality preset.
 

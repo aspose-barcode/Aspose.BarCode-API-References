@@ -14,7 +14,7 @@ Generate the barcode image under current settings.
 public Bitmap GenerateBarCodeImage()
 ```
 
-## Return Value
+### Return Value
 
 Barcode image. See Bitmap.
 

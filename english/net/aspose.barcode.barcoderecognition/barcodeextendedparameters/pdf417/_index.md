@@ -14,7 +14,7 @@ Gets a MacroPdf417 metadata information [`Pdf417ExtendedParameters`](../../pdf41
 public Pdf417ExtendedParameters Pdf417 { get; }
 ```
 
-## Property Value
+### Property Value
 
 A MacroPdf417 metadata information [`Pdf417ExtendedParameters`](../../pdf417extendedparameters) of recognized barcode
 

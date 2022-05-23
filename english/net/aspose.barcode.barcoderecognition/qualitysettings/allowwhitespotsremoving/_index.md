@@ -14,7 +14,7 @@ Allows engine to recognize image without small white spots as additional scan. M
 public bool AllowWhiteSpotsRemoving { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize image without small white spots.
 

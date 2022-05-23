@@ -19,7 +19,7 @@ public static bool operator ==(BarCodeRegionParameters first, BarCodeRegionParam
 | first | BarCodeRegionParameters | A first compared value |
 | second | BarCodeRegionParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the same value as second; otherwise, **false**.
 

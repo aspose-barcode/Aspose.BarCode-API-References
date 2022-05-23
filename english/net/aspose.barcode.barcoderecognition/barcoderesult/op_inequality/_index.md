@@ -19,7 +19,7 @@ public static bool operator !=(BarCodeResult first, BarCodeResult second)
 | first | BarCodeResult | A first compared value |
 | second | BarCodeResult | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the different value from second; otherwise, **false**.
 

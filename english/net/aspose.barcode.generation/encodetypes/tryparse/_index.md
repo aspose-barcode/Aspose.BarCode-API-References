@@ -19,7 +19,7 @@ public static bool TryParse(string parsingType, out BaseEncodeType result)
 | parsingType | String | A string in the format as "Index:-1; Name:None" to convert. |
 | result | BaseEncodeType& | An actual SingleEncodeType returns, when conversion has completed successfully; |
 
-## Return Value
+### Return Value
 
 **true** if s was converted successfully; otherwise, **false**.
 

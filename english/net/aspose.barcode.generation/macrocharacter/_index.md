@@ -14,7 +14,7 @@ Macro Characters 05 and 06 values are used to obtain more compact encoding in sp
 public enum MacroCharacter
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

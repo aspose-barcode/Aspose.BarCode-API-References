@@ -14,7 +14,7 @@ Gets the angle of the barcode (0-360).
 public double Angle { get; }
 ```
 
-## Property Value
+### Property Value
 
 The angle for barcode (0-360).
 

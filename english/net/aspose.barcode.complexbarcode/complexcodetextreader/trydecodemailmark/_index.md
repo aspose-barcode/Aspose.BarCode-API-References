@@ -18,7 +18,7 @@ public static MailmarkCodetext TryDecodeMailmark(string encodedCodetext)
 | --- | --- | --- |
 | encodedCodetext | String | encoded codetext |
 
-## Return Value
+### Return Value
 
 Dcoded Mailmark Barcode C and L or null.
 
