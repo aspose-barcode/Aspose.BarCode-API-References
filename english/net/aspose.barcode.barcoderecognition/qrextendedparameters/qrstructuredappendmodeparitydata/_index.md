@@ -14,7 +14,7 @@ Gets the QR structured append mode parity data. Default value is -1.
 public int QRStructuredAppendModeParityData { get; }
 ```
 
-## Property Value
+### Property Value
 
 The index of the QR structured append mode barcode.
 

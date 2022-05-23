@@ -14,7 +14,7 @@ Allows engine for Datamatrix to recognize dashed industrial Datamatrix barcodes.
 public bool AllowDatamatrixIndustrialBarcodes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine for Datamatrix to recognize dashed industrial barcodes.
 

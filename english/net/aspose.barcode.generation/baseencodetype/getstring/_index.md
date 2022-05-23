@@ -14,7 +14,7 @@ Converts the instance of BaseEncodeType to its equivalent string representation.
 public string GetString()
 ```
 
-## Return Value
+### Return Value
 
 A string representing the complete value of the encode type
 
@@ -38,7 +38,7 @@ public static string GetString(BaseEncodeType instance)
 | --- | --- | --- |
 | instance | BaseEncodeType | The BaseEncodeType instance to convert |
 
-## Return Value
+### Return Value
 
 A string representing the complete value of the given encode type
 

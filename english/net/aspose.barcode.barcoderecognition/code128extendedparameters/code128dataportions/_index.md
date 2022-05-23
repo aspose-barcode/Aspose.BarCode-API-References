@@ -14,7 +14,7 @@ Gets [`Code128DataPortion`](../../code128dataportion) array of recognized Code12
 public Code128DataPortion[] Code128DataPortions { get; }
 ```
 
-## Property Value
+### Property Value
 
 Array of the [`Code128DataPortion`](../../code128dataportion).
 

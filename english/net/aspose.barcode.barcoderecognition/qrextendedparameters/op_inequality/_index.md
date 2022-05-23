@@ -19,7 +19,7 @@ public static bool operator !=(QRExtendedParameters first, QRExtendedParameters 
 | first | QRExtendedParameters | A first compared value |
 | second | QRExtendedParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the different value from second; otherwise, **false**.
 

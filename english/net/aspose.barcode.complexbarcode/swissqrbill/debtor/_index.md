@@ -16,7 +16,7 @@ The debtor is optional. If it is omitted, both setting this field to `null` or s
 public Address Debtor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The debtor address.
 

@@ -14,7 +14,7 @@ Gets or sets the Interpreting Type for the Customer Information of AustralianPos
 public CustomerInformationInterpretingType CustomerInformationInterpretingType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode
 

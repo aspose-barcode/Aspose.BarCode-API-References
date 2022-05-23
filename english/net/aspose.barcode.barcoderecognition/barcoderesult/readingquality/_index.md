@@ -14,7 +14,7 @@ Gets the reading quality. Works for 1D and postal barcodes.
 public double ReadingQuality { get; }
 ```
 
-## Property Value
+### Property Value
 
 The reading quality percent
 

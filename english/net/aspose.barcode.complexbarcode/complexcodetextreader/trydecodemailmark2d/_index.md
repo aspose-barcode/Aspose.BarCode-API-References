@@ -18,7 +18,7 @@ public static Mailmark2DCodetext TryDecodeMailmark2D(string encodedCodetext)
 | --- | --- | --- |
 | encodedCodetext | String | encoded codetext |
 
-## Return Value
+### Return Value
 
 decoded Royal Mail Mailmark 2D or null.
 

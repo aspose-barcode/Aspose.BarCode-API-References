@@ -19,7 +19,7 @@ public static bool operator ==(OneDExtendedParameters first, OneDExtendedParamet
 | first | OneDExtendedParameters | A first compared value |
 | second | OneDExtendedParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the same value as second; otherwise, **false**.
 

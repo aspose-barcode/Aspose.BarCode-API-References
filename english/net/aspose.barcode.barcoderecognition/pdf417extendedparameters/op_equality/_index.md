@@ -19,7 +19,7 @@ public static bool operator ==(Pdf417ExtendedParameters first, Pdf417ExtendedPar
 | first | Pdf417ExtendedParameters | A first compared value |
 | second | Pdf417ExtendedParameters | A second compared value |
 
-## Return Value
+### Return Value
 
 **true** if first has the same value as second; otherwise, **false**.
 

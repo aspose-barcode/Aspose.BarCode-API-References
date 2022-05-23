@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`CouponParameters`](../.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`CouponParameters`](../../couponparameters).
 

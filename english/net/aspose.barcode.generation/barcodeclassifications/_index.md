@@ -14,7 +14,7 @@ Symbology classification
 public enum BarcodeClassifications
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

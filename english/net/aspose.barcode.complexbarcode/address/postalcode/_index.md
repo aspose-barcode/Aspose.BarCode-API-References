@@ -18,7 +18,7 @@ This field is only used for structured addresses. For this type, it's mandatory.
 public string PostalCode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The postal code.
 

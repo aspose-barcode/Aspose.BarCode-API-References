@@ -14,7 +14,7 @@ Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
 public bool StripFNC { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
 

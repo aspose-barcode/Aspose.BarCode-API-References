@@ -22,7 +22,7 @@ Checksum always used: Rest symbologies
 public ChecksumValidation ChecksumValidation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Enable checksum validation during recognition for 1D and Postal barcodes.
 

@@ -18,7 +18,7 @@ This field is only used for structured addresses. For this type, it's mandatory.
 public string Town { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The town or city.
 

@@ -14,7 +14,7 @@ Allows engine to use gap between scans to increase recognition speed. Mode can m
 public bool AllowDetectScanGap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to use gap between scans to increase recognition speed.
 

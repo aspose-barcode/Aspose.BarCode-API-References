@@ -14,7 +14,7 @@ Gets right-top corner Point of [`Quadrangle`](../../quadrangle) region
 public Point RightTop { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A right-top corner Point of [`Quadrangle`](../../quadrangle) region
 

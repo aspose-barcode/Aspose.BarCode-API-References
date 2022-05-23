@@ -14,7 +14,7 @@ Gets [`Quadrangle`](../../quadrangle) bounding barcode region
 public Quadrangle Quadrangle { get; }
 ```
 
-## Property Value
+### Property Value
 
 Returns [`Quadrangle`](../../quadrangle) bounding barcode region
 

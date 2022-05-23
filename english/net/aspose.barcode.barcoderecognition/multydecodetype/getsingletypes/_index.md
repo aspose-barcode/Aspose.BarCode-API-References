@@ -14,7 +14,7 @@ Represents a list of single types.
 public List<SingleDecodeType> GetSingleTypes()
 ```
 
-## Return Value
+### Return Value
 
 List of single types
 

@@ -14,7 +14,7 @@ Gets Points array bounding barcode region
 public Point[] Points { get; }
 ```
 
-## Property Value
+### Property Value
 
 Returns Points array bounding barcode region
 

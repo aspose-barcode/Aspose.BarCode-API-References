@@ -14,7 +14,7 @@ Address type
 public enum AddressType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Defines the interpreting type (CTable, NTable or Other) of customer information 
 public enum CustomerInformationInterpretingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

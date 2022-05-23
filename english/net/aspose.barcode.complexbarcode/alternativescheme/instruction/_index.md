@@ -16,7 +16,7 @@ The instruction consists of a two letter abbreviation for the scheme, a separato
 public string Instruction { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The payment instruction.
 

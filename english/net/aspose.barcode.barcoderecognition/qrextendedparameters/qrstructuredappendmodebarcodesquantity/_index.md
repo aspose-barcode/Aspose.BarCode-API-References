@@ -14,7 +14,7 @@ Gets the QR structured append mode barcodes quantity. Default value is -1.
 public int QRStructuredAppendModeBarCodesQuantity { get; }
 ```
 
-## Property Value
+### Property Value
 
 The quantity of the QR structured append mode barcode.
 

@@ -14,7 +14,7 @@ Gets the barcode region
 public BarCodeRegionParameters Region { get; }
 ```
 
-## Property Value
+### Property Value
 
 The region of the recognized barcode
 

@@ -14,7 +14,7 @@ Returns the hash code for this instance.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 A 32-bit signed integer hash code.
 

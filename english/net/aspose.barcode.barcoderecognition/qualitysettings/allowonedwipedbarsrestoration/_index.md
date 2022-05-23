@@ -14,7 +14,7 @@ Allows engine for 1D barcodes to recognize barcodes with single wiped/glued bars
 public bool AllowOneDWipedBarsRestoration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine for 1D barcodes to recognize barcodes with single wiped/glued bars in pattern.
 

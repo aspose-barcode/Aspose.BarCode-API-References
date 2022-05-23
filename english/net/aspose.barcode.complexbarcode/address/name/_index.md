@@ -14,7 +14,7 @@ Gets or sets the name, either the first and last name of a natural person or the
 public string Name { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name.
 

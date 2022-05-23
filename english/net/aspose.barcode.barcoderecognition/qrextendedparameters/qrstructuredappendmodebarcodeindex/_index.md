@@ -14,7 +14,7 @@ Gets the index of the QR structured append mode barcode. Index starts from 0. De
 public int QRStructuredAppendModeBarCodeIndex { get; }
 ```
 
-## Property Value
+### Property Value
 
 The quantity of the QR structured append mode barcode.
 

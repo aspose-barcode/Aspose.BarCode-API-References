@@ -14,7 +14,7 @@ Creates a copy of [`BarCodeResult`](../../barcoderesult) class.
 public object Clone()
 ```
 
-## Return Value
+### Return Value
 
 Returns copy of [`BarCodeResult`](../../barcoderesult) class.
 

@@ -14,7 +14,7 @@ Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ
 public enum QRErrorLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

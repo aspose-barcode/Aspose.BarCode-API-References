@@ -14,7 +14,7 @@ Gets a DataBar additional information[`DataBarExtendedParameters`](../../databar
 public DataBarExtendedParameters DataBar { get; }
 ```
 
-## Property Value
+### Property Value
 
 A DataBar additional information[`DataBarExtendedParameters`](../../databarextendedparameters) of recognized barcode
 

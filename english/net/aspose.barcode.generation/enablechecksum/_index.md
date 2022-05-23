@@ -22,7 +22,7 @@ Checksum always used: Rest symbologies
 public enum EnableChecksum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

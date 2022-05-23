@@ -18,7 +18,7 @@ public static BarCodeReader ImportFromXml(string xmlFile)
 | --- | --- | --- |
 | xmlFile | String | The name for the file |
 
-## Return Value
+### Return Value
 
 Returns **True** in case of success;
 
@@ -44,7 +44,7 @@ public static BarCodeReader ImportFromXml(Stream xmlStream)
 | --- | --- | --- |
 | xmlStream | Stream | The xml-stream for loading |
 
-## Return Value
+### Return Value
 
 Returns **True** in case of success;
 

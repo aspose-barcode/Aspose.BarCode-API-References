@@ -14,7 +14,7 @@ PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format
 public enum PatchFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

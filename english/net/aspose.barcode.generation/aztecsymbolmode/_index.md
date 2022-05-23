@@ -14,7 +14,7 @@ Specifies the Aztec symbol mode.
 public enum AztecSymbolMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

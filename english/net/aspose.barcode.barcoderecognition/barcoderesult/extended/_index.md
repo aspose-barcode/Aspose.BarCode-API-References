@@ -14,7 +14,7 @@ Gets extended parameters of recognized barcode
 public BarCodeExtendedParameters Extended { get; }
 ```
 
-## Property Value
+### Property Value
 
 The extended parameters of recognized barcode
 

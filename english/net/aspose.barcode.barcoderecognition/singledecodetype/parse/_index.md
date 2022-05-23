@@ -18,7 +18,7 @@ public static SingleDecodeType Parse(string stringDecodeType)
 | --- | --- | --- |
 | stringDecodeType | String | A string containing the name of a SingleDecodeType to convert. |
 
-## Return Value
+### Return Value
 
 the instance of , if conversion was successful; otherwise, it returns .
 

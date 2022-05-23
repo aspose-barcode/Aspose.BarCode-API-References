@@ -14,7 +14,7 @@ Gets or sets the version of the SwissQR bill standard.
 public QrBillStandardVersion Version { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The SwissQR bill standard version.
 

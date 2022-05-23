@@ -1,5 +1,5 @@
 ---
-title: Aspose.Imaging for .NET
+title: Aspose.BarCode for .NET
 type: docs
 weight: 10
 url: /net/

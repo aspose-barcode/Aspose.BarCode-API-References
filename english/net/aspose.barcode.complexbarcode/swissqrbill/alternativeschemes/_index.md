@@ -16,7 +16,7 @@ A maximum of two schemes with parameters are allowed.
 public List<AlternativeScheme> AlternativeSchemes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The alternative payment schemes.
 

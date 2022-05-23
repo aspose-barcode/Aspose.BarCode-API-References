@@ -14,7 +14,7 @@ Switches to the old barcode detector.
 public bool UseOldBarcodeDetector { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Switches to the old barcode detector.
 

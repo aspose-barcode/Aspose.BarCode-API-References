@@ -14,7 +14,7 @@ Font size mode.
 public enum FontMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents a [`Quadrangle`](../../quadrangle) class with its properties left uni
 public static readonly Quadrangle Empty;
 ```
 
-## Property Value
+### Property Value
 
 [`Quadrangle`](../../quadrangle)
 

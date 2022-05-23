@@ -14,7 +14,7 @@ Gets a special data [`Code128ExtendedParameters`](../../code128extendedparameter
 public Code128ExtendedParameters Code128 { get; }
 ```
 
-## Property Value
+### Property Value
 
 A special data [`Code128ExtendedParameters`](../../code128extendedparameters) of Code128 recognized barcode
 

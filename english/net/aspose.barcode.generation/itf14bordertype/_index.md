@@ -14,7 +14,7 @@ ITF14 border type of barcode
 public enum ITF14BorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

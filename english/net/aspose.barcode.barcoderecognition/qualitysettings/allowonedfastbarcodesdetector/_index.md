@@ -14,7 +14,7 @@ Allows engine for 1D barcodes to quickly recognize high quality barcodes which f
 public bool AllowOneDFastBarcodesDetector { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine for 1D barcodes to quickly recognize high quality barcodes.
 

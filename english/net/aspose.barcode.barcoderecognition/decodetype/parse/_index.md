@@ -19,7 +19,7 @@ public static bool Parse(string parsingType, out SingleDecodeType result)
 | parsingType | String | A string containing a SingleDecodeType representation to convert. |
 | result | SingleDecodeType& | An actual SingleDecodeType returns, when conversion has completed successfully; |
 
-## Return Value
+### Return Value
 
 **true** if s was converted successfully; otherwise, **false**.
 

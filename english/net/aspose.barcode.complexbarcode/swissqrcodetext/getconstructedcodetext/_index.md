@@ -14,7 +14,7 @@ Construct codetext from SwissQR bill data
 public string GetConstructedCodetext()
 ```
 
-## Return Value
+### Return Value
 
 Constructed codetext
 

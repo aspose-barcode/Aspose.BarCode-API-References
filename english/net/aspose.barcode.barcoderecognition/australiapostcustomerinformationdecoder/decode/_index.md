@@ -18,7 +18,7 @@ public string Decode(string customerInformationField)
 | --- | --- | --- |
 | customerInformationField | String | The Customer Information Field encoded as row of raw bar values: 0, 1, 2 or 3 |
 
-## Return Value
+### Return Value
 
 the decoded Customer Information Field string
 

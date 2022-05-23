@@ -14,7 +14,7 @@ QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for Mic
 public enum QREncodeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

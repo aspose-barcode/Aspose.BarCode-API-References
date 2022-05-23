@@ -14,7 +14,7 @@ Allows engine to recognize inverse color image as additional scan. Mode can be u
 public bool AllowInvertImage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize inverse color image.
 

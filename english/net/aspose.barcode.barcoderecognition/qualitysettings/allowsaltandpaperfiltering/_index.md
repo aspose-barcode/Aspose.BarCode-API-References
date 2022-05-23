@@ -14,7 +14,7 @@ Allows engine to recognize barcodes with salt and paper noise type. Mode can rem
 public bool AllowSaltAndPaperFiltering { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize barcodes with salt and paper noise type.
 

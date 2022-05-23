@@ -14,7 +14,7 @@ Text alignment.
 public enum TextAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

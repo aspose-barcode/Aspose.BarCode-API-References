@@ -19,7 +19,7 @@ public static bool Parse(string parsingType, out BaseEncodeType result)
 | parsingType | String | A string containing a BaseEncodeType representation to convert. |
 | result | BaseEncodeType& | An actual BaseEncodeType returns, when conversion has completed successfully; |
 
-## Return Value
+### Return Value
 
 **true** if s was converted successfully; otherwise, **false**.
 

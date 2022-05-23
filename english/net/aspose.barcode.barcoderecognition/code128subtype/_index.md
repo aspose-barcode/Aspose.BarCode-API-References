@@ -14,7 +14,7 @@ Contains types of Code128 subset
 public enum Code128SubType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

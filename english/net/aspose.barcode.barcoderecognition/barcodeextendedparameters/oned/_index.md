@@ -14,7 +14,7 @@ Gets a special data [`OneDExtendedParameters`](../../onedextendedparameters) of 
 public OneDExtendedParameters OneD { get; }
 ```
 
-## Property Value
+### Property Value
 
 A special data [`OneDExtendedParameters`](../../onedextendedparameters) of 1D recognized barcode
 

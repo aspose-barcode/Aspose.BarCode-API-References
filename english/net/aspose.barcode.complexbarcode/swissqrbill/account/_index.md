@@ -16,7 +16,7 @@ Account numbers must be valid IBANs of a bank of Switzerland or Liechtenstein. S
 public string Account { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The creditor account number.
 

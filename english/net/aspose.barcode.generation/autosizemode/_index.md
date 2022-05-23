@@ -14,7 +14,7 @@ Specifies the different types of automatic sizing modes.
 public enum AutoSizeMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The flag which force engine to detect codetext encoding for Unicode codesets. De
 public bool DetectEncoding { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flag which force engine to detect codetext encoding for Unicode codesets
 

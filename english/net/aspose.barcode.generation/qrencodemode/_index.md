@@ -14,7 +14,7 @@ Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncodi
 public enum QREncodeMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

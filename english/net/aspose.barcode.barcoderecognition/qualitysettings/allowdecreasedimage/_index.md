@@ -14,7 +14,7 @@ Allows engine to recognize decreased image as additional scan. Size for decreasi
 public bool AllowDecreasedImage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize decreased image
 

@@ -14,7 +14,7 @@ Specify the type of the ECC to encode.
 public enum DataMatrixEccType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the timeout of recognition process in milliseconds.
 public int Timeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The timeout.
 

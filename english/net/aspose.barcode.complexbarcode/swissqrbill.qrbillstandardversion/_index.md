@@ -14,7 +14,7 @@ SwissQR bill standard version
 public enum QrBillStandardVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

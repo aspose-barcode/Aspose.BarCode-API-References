@@ -18,7 +18,7 @@ public Size DrawWpf(DrawingContext context)
 | --- | --- | --- |
 | context | DrawingContext | WPF drawing context. |
 
-## Return Value
+### Return Value
 
 Actual image size
 

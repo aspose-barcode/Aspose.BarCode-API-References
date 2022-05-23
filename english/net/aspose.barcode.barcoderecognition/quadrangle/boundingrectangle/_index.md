@@ -14,7 +14,7 @@ Gets Rectangle bounding this [`Quadrangle`](../../quadrangle)
 public Rectangle BoundingRectangle { get; }
 ```
 
-## Property Value
+### Property Value
 
 Returns Rectangle bounding this [`Quadrangle`](../../quadrangle)
 

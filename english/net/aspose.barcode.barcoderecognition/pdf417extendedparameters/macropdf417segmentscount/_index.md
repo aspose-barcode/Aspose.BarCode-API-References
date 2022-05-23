@@ -14,7 +14,7 @@ Gets macro pdf417 barcode segments count. Default value is -1.
 public int MacroPdf417SegmentsCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 Segments count.
 

@@ -14,7 +14,7 @@ Overridden method representing MultyDecodeType as a string.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string representing MultyDecodeType instance as "singleDecodeType1, singleDecodeType2, ..."
 

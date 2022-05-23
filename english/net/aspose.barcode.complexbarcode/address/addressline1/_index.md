@@ -20,7 +20,7 @@ This field is only used for combined elements addresses and is optional.
 public string AddressLine1 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The address line 1.
 

@@ -14,7 +14,7 @@ Gets recognition confidence level of the recognized barcode
 public BarCodeConfidence Confidence { get; }
 ```
 
-## Property Value
+### Property Value
 
 Strong does not have fakes or misrecognitions, Moderate could sometimes have fakes or incorrect codetext because this confidence level for barcodews with weak cheksum or even without it, None always has incorrect codetext and could be fake recognitions
 

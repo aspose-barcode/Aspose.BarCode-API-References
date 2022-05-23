@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`CaptionUI`](../../capti
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`CaptionUI`](../../captionui).
 

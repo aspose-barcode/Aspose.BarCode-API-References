@@ -14,7 +14,7 @@ The flag which force AustraliaPost decoder to ignore last filling patterns in Cu
 public bool IgnoreEndingFillingPatternsForCTable { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flag which force AustraliaPost decoder to ignore last filling patterns during CTable method decoding
 

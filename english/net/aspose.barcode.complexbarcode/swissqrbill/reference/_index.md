@@ -18,7 +18,7 @@ If specified, the reference must be either a valid SwissQR reference (correspond
 public string Reference { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The creditor payment reference.
 

@@ -14,7 +14,7 @@ Reads [`BarCodeResult`](../../barcoderesult)s from the image.
 public BarCodeResult[] ReadBarCodes()
 ```
 
-## Return Value
+### Return Value
 
 Returns array of recognized [`BarCodeResult`](../../barcoderesult)s on the image. If nothing is recognized, zero array is returned.
 

@@ -14,7 +14,7 @@ Allows engine to recognize color barcodes on color background as additional scan
 public bool AllowComplexBackground { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Allows engine to recognize color barcodes on color background.
 

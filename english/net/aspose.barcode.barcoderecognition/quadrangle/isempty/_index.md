@@ -14,7 +14,7 @@ Tests whether all Points of this [`Quadrangle`](../../quadrangle) have values of
 public bool IsEmpty { get; }
 ```
 
-## Property Value
+### Property Value
 
 Returns **true** if all Points of this [`Quadrangle`](../../quadrangle) have values of zero; otherwise, **false**.
 

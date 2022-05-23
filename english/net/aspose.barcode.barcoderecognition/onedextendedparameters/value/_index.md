@@ -14,7 +14,7 @@ Gets the codetext of 1D barcodes without checksum.
 public string Value { get; }
 ```
 
-## Property Value
+### Property Value
 
 The codetext of 1D barcodes without checksum.
 

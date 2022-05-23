@@ -14,7 +14,7 @@ Returns a human-readable string representation of this [`BarCodeResult`](../../b
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`BarCodeResult`](../../barcoderesult).
 

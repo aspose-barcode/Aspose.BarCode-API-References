@@ -14,7 +14,7 @@ Macro PDF417 checksum (optional).
 public int MacroPdf417Checksum { get; }
 ```
 
-## Property Value
+### Property Value
 
 Checksum.
 

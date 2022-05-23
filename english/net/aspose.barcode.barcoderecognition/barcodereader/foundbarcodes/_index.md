@@ -14,7 +14,7 @@ Gets recognized [`BarCodeResult`](../../barcoderesult)s array
 public BarCodeResult[] FoundBarCodes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recognized [`BarCodeResult`](../../barcoderesult)s array
 
