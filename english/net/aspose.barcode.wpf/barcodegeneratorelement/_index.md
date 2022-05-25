@@ -131,110 +131,110 @@ public class BarcodeGeneratorElement : FrameworkElement
 | --- | --- |
 | override [ToString](../../aspose.barcode.wpf/barcodegeneratorelement/tostring)() | String representation of the BarcodeGenerator class |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static [AustralianPostEncodingTableProperty](australianpostencodingtableproperty) | AustralianPostEncodingTableProperty |
-| static [AustralianPostShortBarHeightProperty](australianpostshortbarheightproperty) | AustralianPostShortBarHeightProperty |
-| static [AutoSizeModeProperty](autosizemodeproperty) | AutoSizeModeProperty |
-| static [AztecAspectRatioProperty](aztecaspectratioproperty) | AztecAspectRatioProperty |
-| static [AztecCodeTextEncodingProperty](azteccodetextencodingproperty) | AztecCodeTextEncodingProperty |
-| static [AztecErrorLevelProperty](aztecerrorlevelproperty) | AztecErrorLevelProperty |
-| static [AztecSymbolModeProperty](aztecsymbolmodeproperty) | AztecSymbolModeProperty |
-| static [BackColorProperty](backcolorproperty) | BackColorProperty |
-| static [BarColorProperty](barcolorproperty) | BarColorProperty |
-| static [BarHeightProperty](barheightproperty) | BarHeightProperty |
-| static [BorderColorProperty](bordercolorproperty) | BorderColorProperty |
-| static [BorderDashStyleProperty](borderdashstyleproperty) | BorderDashStyleProperty |
-| static [BorderVisibleProperty](bordervisibleproperty) | BorderVisibleProperty |
-| static [BorderWidthProperty](borderwidthproperty) | BorderWidthProperty |
-| static [CaptionAboveAlignmentProperty](captionabovealignmentproperty) | CaptionAboveAlignmentProperty |
-| static readonly [CaptionAboveFontFamilyProperty](captionabovefontfamilyproperty) | CaptionAboveFontFamilyProperty |
-| static readonly [CaptionAboveFontSizeProperty](captionabovefontsizeproperty) | CaptionAboveFontSizeProperty |
-| static [CaptionAboveNoWrapProperty](captionabovenowrapproperty) | CaptionAboveNoWrapProperty |
-| static [CaptionAbovePaddingProperty](captionabovepaddingproperty) | CaptionAbovePaddingProperty |
-| static [CaptionAboveTextColorProperty](captionabovetextcolorproperty) | CaptionAboveTextColorProperty |
-| static [CaptionAboveTextProperty](captionabovetextproperty) | CaptionAboveTextProperty |
-| static [CaptionAboveVisibleProperty](captionabovevisibleproperty) | CaptionAboveVisibleProperty |
-| static [CaptionBelowAlignmentProperty](captionbelowalignmentproperty) | CaptionBelowAlignmentProperty |
-| static readonly [CaptionBelowFontFamilyProperty](captionbelowfontfamilyproperty) | CaptionBelowFontFamilyProperty |
-| static readonly [CaptionBelowFontSizeProperty](captionbelowfontsizeproperty) | CaptionBelowFontSizeProperty |
-| static [CaptionBelowNoWrapProperty](captionbelownowrapproperty) | CaptionBelowNoWrapProperty |
-| static [CaptionBelowPaddingProperty](captionbelowpaddingproperty) | CaptionBelowPaddingProperty |
-| static [CaptionBelowTextColorProperty](captionbelowtextcolorproperty) | CaptionBelowTextColorProperty |
-| static [CaptionBelowTextProperty](captionbelowtextproperty) | CaptionBelowTextProperty |
-| static [CaptionBelowVisibleProperty](captionbelowvisibleproperty) | CaptionBelowVisibleProperty |
-| static [ChecksumAlwaysShowProperty](checksumalwaysshowproperty) | ChecksumAlwaysShowProperty |
-| static [CodabarChecksumModeProperty](codabarchecksummodeproperty) | CodabarChecksumModeProperty |
-| static [CodabarStartSymbolProperty](codabarstartsymbolproperty) | CodabarStartSymbolProperty |
-| static [CodabarStopSymbolProperty](codabarstopsymbolproperty) | CodabarStopSymbolProperty |
-| static [CodablockAspectRatioProperty](codablockaspectratioproperty) | CodablockAspectRatioProperty |
-| static [CodablockColumnsProperty](codablockcolumnsproperty) | CodablockColumnsProperty |
-| static [CodablockRowsProperty](codablockrowsproperty) | CodablockRowsProperty |
-| static [Code16KAspectRatioProperty](code16kaspectratioproperty) | Code16KAspectRatioProperty |
-| static [Code16KQuietZoneLeftCoefProperty](code16kquietzoneleftcoefproperty) | Code16KQuietZoneLeftCoefProperty |
-| static [Code16KQuietZoneRightCoefProperty](code16kquietzonerightcoefproperty) | Code16KQuietZoneRightCoefProperty |
-| static readonly [CodeTextFontFamilyProperty](codetextfontfamilyproperty) | CodeTextFontFamilyProperty |
-| static readonly [CodeTextFontSizeProperty](codetextfontsizeproperty) | CodeTextFontSizeProperty |
-| static [CodeTextParametersAlignmentProperty](codetextparametersalignmentproperty) | CodeTextParametersAlignmentProperty |
-| static [CodeTextParametersColorProperty](codetextparameterscolorproperty) | CodeTextParametersColorProperty |
-| static [CodeTextParametersFontModeProperty](codetextparametersfontmodeproperty) | CodeTextParametersFontModeProperty |
-| static [CodeTextParametersLocationProperty](codetextparameterslocationproperty) | CodeTextParametersLocationProperty |
-| static [CodeTextParametersNoWrapProperty](codetextparametersnowrapproperty) | CodeTextParametersNoWrapProperty |
-| static [CodeTextParametersSpaceProperty](codetextparametersspaceproperty) | CodeTextParametersSpaceProperty |
-| static [CodeTextParametersTwoDDisplayTextProperty](codetextparameterstwoddisplaytextproperty) | CodeTextParametersTwoDDisplayTextProperty |
-| static [CodetextProperty](codetextproperty) | CodetextProperty |
-| static [CouponSupplementSpaceProperty](couponsupplementspaceproperty) | CouponSupplementSpaceProperty |
-| static [DataBarAspectRatioProperty](databaraspectratioproperty) | DataBarAspectRatioProperty |
-| static [DataBarColumnsProperty](databarcolumnsproperty) | DataBarColumnsProperty |
-| static [DataBarRowsProperty](databarrowsproperty) | DataBarRowsProperty |
-| static [DataMatrixAspectRatioProperty](datamatrixaspectratioproperty) | DataMatrixAspectRatioProperty |
-| static [DataMatrixCodeTextEncodingProperty](datamatrixcodetextencodingproperty) | DataMatrixCodeTextEncodingProperty |
-| static [DataMatrixColumnsProperty](datamatrixcolumnsproperty) | DataMatrixColumnsProperty |
-| static [DataMatrixEccProperty](datamatrixeccproperty) | DataMatrixEccProperty |
-| static [DataMatrixEncodeModeProperty](datamatrixencodemodeproperty) | DataMatrixEncodeModeProperty |
-| static [DataMatrixRowsProperty](datamatrixrowsproperty) | DataMatrixRowsProperty |
-| static [DotCodeAspectRatioProperty](dotcodeaspectratioproperty) | DotCodeAspectRatioProperty |
-| static [DotCodeMaskProperty](dotcodemaskproperty) | DotCodeMaskProperty |
-| static [EnableEscapeProperty](enableescapeproperty) | EnableEscapeProperty |
-| static [EncodeTypeProperty](encodetypeproperty) | EncodeTypeProperty |
-| static [FilledBarsProperty](filledbarsproperty) | FilledBarsProperty |
-| static [IsChecksumEnabledProperty](ischecksumenabledproperty) | IsChecksumEnabledProperty |
-| static [ITFItfBorderThicknessProperty](itfitfborderthicknessproperty) | ITFItfBorderThicknessProperty |
-| static [ITFItfBorderTypeProperty](itfitfbordertypeproperty) | ITFItfBorderTypeProperty |
-| static [ITFQuietZoneCoefProperty](itfquietzonecoefproperty) | ITFQuietZoneCoefProperty |
-| static [MaxiCodeAspectRatioProperty](maxicodeaspectratioproperty) | MaxiCodeAspectRatioProperty |
-| static [MaxiCodeEncodeModeProperty](maxicodeencodemodeproperty) | MaxiCodeEncodeModeProperty |
-| static [PaddingProperty](paddingproperty) | PaddingProperty |
-| static [PatchCodeExtraBarcodeTextProperty](patchcodeextrabarcodetextproperty) | PatchCodeExtraBarcodeTextProperty |
-| static [PatchCodePatchFormatProperty](patchcodepatchformatproperty) | PatchCodePatchFormatProperty |
-| static [Pdf417AspectRatioProperty](pdf417aspectratioproperty) | Pdf417AspectRatioProperty |
-| static [Pdf417CodeTextEncodingProperty](pdf417codetextencodingproperty) | Pdf417CodeTextEncodingProperty |
-| static [Pdf417ColumnsProperty](pdf417columnsproperty) | Pdf417ColumnsProperty |
-| static [Pdf417CompactionModeProperty](pdf417compactionmodeproperty) | Pdf417CompactionModeProperty |
-| static [Pdf417ECIEncodingProperty](pdf417eciencodingproperty) | Pdf417ECIEncodingProperty |
-| static [Pdf417ErrorLevelProperty](pdf417errorlevelproperty) | Pdf417ErrorLevelProperty |
-| static [Pdf417IsReaderInitializationProperty](pdf417isreaderinitializationproperty) | Pdf417IsReaderInitializationProperty |
-| static [Pdf417MacroFileIDProperty](pdf417macrofileidproperty) | Pdf417MacroFileIDProperty |
-| static [Pdf417MacroSegmentIDProperty](pdf417macrosegmentidproperty) | Pdf417MacroSegmentIDProperty |
-| static [Pdf417MacroSegmentsCountProperty](pdf417macrosegmentscountproperty) | Pdf417MacroSegmentsCountProperty |
-| static [Pdf417RowsProperty](pdf417rowsproperty) | Pdf417RowsProperty |
-| static [Pdf417TruncateProperty](pdf417truncateproperty) | Pdf417TruncateProperty |
-| static [PostalShortBarHeightProperty](postalshortbarheightproperty) | PostalShortBarHeightProperty |
-| static [QRAspectRatioProperty](qraspectratioproperty) | QRAspectRatioProperty |
-| static [QRCodeTextEncodingProperty](qrcodetextencodingproperty) | QRCodeTextEncodingProperty |
-| static [QRECIEncodingProperty](qreciencodingproperty) | QRECIEncodingProperty |
-| static [QREncodeModeProperty](qrencodemodeproperty) | QREncodeModeProperty |
-| static [QREncodeTypeProperty](qrencodetypeproperty) | QREncodeTypeProperty |
-| static [QRErrorLevelProperty](qrerrorlevelproperty) | QRErrorLevelProperty |
-| static [QRVersionProperty](qrversionproperty) | QRVersionProperty |
-| static [ResolutionProperty](resolutionproperty) | ResolutionProperty |
-| static [SupplementSupplementDataProperty](supplementsupplementdataproperty) | SupplementSupplementDataProperty |
-| static [SupplementSupplementSpaceProperty](supplementsupplementspaceproperty) | SupplementSupplementSpaceProperty |
-| static [ThrowExceptionWhenCodeTextIncorrectProperty](throwexceptionwhencodetextincorrectproperty) | ThrowExceptionWhenCodeTextIncorrectProperty |
-| static [WideNarrowRatioProperty](widenarrowratioproperty) | WideNarrowRatioProperty |
-| static [XDimensionProperty](xdimensionproperty) | XDimensionProperty |
+| static [AustralianPostEncodingTableProperty](../../aspose.barcode.wpf/barcodegeneratorelement/australianpostencodingtableproperty) | AustralianPostEncodingTableProperty |
+| static [AustralianPostShortBarHeightProperty](../../aspose.barcode.wpf/barcodegeneratorelement/australianpostshortbarheightproperty) | AustralianPostShortBarHeightProperty |
+| static [AutoSizeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/autosizemodeproperty) | AutoSizeModeProperty |
+| static [AztecAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecaspectratioproperty) | AztecAspectRatioProperty |
+| static [AztecCodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/azteccodetextencodingproperty) | AztecCodeTextEncodingProperty |
+| static [AztecErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecerrorlevelproperty) | AztecErrorLevelProperty |
+| static [AztecSymbolModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmodeproperty) | AztecSymbolModeProperty |
+| static [BackColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/backcolorproperty) | BackColorProperty |
+| static [BarColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/barcolorproperty) | BarColorProperty |
+| static [BarHeightProperty](../../aspose.barcode.wpf/barcodegeneratorelement/barheightproperty) | BarHeightProperty |
+| static [BorderColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/bordercolorproperty) | BorderColorProperty |
+| static [BorderDashStyleProperty](../../aspose.barcode.wpf/barcodegeneratorelement/borderdashstyleproperty) | BorderDashStyleProperty |
+| static [BorderVisibleProperty](../../aspose.barcode.wpf/barcodegeneratorelement/bordervisibleproperty) | BorderVisibleProperty |
+| static [BorderWidthProperty](../../aspose.barcode.wpf/barcodegeneratorelement/borderwidthproperty) | BorderWidthProperty |
+| static [CaptionAboveAlignmentProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovealignmentproperty) | CaptionAboveAlignmentProperty |
+| static readonly [CaptionAboveFontFamilyProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovefontfamilyproperty) | CaptionAboveFontFamilyProperty |
+| static readonly [CaptionAboveFontSizeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovefontsizeproperty) | CaptionAboveFontSizeProperty |
+| static [CaptionAboveNoWrapProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovenowrapproperty) | CaptionAboveNoWrapProperty |
+| static [CaptionAbovePaddingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovepaddingproperty) | CaptionAbovePaddingProperty |
+| static [CaptionAboveTextColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovetextcolorproperty) | CaptionAboveTextColorProperty |
+| static [CaptionAboveTextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovetextproperty) | CaptionAboveTextProperty |
+| static [CaptionAboveVisibleProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionabovevisibleproperty) | CaptionAboveVisibleProperty |
+| static [CaptionBelowAlignmentProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowalignmentproperty) | CaptionBelowAlignmentProperty |
+| static readonly [CaptionBelowFontFamilyProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowfontfamilyproperty) | CaptionBelowFontFamilyProperty |
+| static readonly [CaptionBelowFontSizeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowfontsizeproperty) | CaptionBelowFontSizeProperty |
+| static [CaptionBelowNoWrapProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelownowrapproperty) | CaptionBelowNoWrapProperty |
+| static [CaptionBelowPaddingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowpaddingproperty) | CaptionBelowPaddingProperty |
+| static [CaptionBelowTextColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowtextcolorproperty) | CaptionBelowTextColorProperty |
+| static [CaptionBelowTextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowtextproperty) | CaptionBelowTextProperty |
+| static [CaptionBelowVisibleProperty](../../aspose.barcode.wpf/barcodegeneratorelement/captionbelowvisibleproperty) | CaptionBelowVisibleProperty |
+| static [ChecksumAlwaysShowProperty](../../aspose.barcode.wpf/barcodegeneratorelement/checksumalwaysshowproperty) | ChecksumAlwaysShowProperty |
+| static [CodabarChecksumModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codabarchecksummodeproperty) | CodabarChecksumModeProperty |
+| static [CodabarStartSymbolProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codabarstartsymbolproperty) | CodabarStartSymbolProperty |
+| static [CodabarStopSymbolProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codabarstopsymbolproperty) | CodabarStopSymbolProperty |
+| static [CodablockAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockaspectratioproperty) | CodablockAspectRatioProperty |
+| static [CodablockColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockcolumnsproperty) | CodablockColumnsProperty |
+| static [CodablockRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockrowsproperty) | CodablockRowsProperty |
+| static [Code16KAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kaspectratioproperty) | Code16KAspectRatioProperty |
+| static [Code16KQuietZoneLeftCoefProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzoneleftcoefproperty) | Code16KQuietZoneLeftCoefProperty |
+| static [Code16KQuietZoneRightCoefProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzonerightcoefproperty) | Code16KQuietZoneRightCoefProperty |
+| static readonly [CodeTextFontFamilyProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextfontfamilyproperty) | CodeTextFontFamilyProperty |
+| static readonly [CodeTextFontSizeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextfontsizeproperty) | CodeTextFontSizeProperty |
+| static [CodeTextParametersAlignmentProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparametersalignmentproperty) | CodeTextParametersAlignmentProperty |
+| static [CodeTextParametersColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparameterscolorproperty) | CodeTextParametersColorProperty |
+| static [CodeTextParametersFontModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparametersfontmodeproperty) | CodeTextParametersFontModeProperty |
+| static [CodeTextParametersLocationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparameterslocationproperty) | CodeTextParametersLocationProperty |
+| static [CodeTextParametersNoWrapProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparametersnowrapproperty) | CodeTextParametersNoWrapProperty |
+| static [CodeTextParametersSpaceProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparametersspaceproperty) | CodeTextParametersSpaceProperty |
+| static [CodeTextParametersTwoDDisplayTextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextparameterstwoddisplaytextproperty) | CodeTextParametersTwoDDisplayTextProperty |
+| static [CodetextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codetextproperty) | CodetextProperty |
+| static [CouponSupplementSpaceProperty](../../aspose.barcode.wpf/barcodegeneratorelement/couponsupplementspaceproperty) | CouponSupplementSpaceProperty |
+| static [DataBarAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/databaraspectratioproperty) | DataBarAspectRatioProperty |
+| static [DataBarColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/databarcolumnsproperty) | DataBarColumnsProperty |
+| static [DataBarRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/databarrowsproperty) | DataBarRowsProperty |
+| static [DataMatrixAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixaspectratioproperty) | DataMatrixAspectRatioProperty |
+| static [DataMatrixCodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcodetextencodingproperty) | DataMatrixCodeTextEncodingProperty |
+| static [DataMatrixColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumnsproperty) | DataMatrixColumnsProperty |
+| static [DataMatrixEccProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeccproperty) | DataMatrixEccProperty |
+| static [DataMatrixEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemodeproperty) | DataMatrixEncodeModeProperty |
+| static [DataMatrixRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrowsproperty) | DataMatrixRowsProperty |
+| static [DotCodeAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratioproperty) | DotCodeAspectRatioProperty |
+| static [DotCodeMaskProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodemaskproperty) | DotCodeMaskProperty |
+| static [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty) | EnableEscapeProperty |
+| static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty) | EncodeTypeProperty |
+| static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty) | FilledBarsProperty |
+| static [IsChecksumEnabledProperty](../../aspose.barcode.wpf/barcodegeneratorelement/ischecksumenabledproperty) | IsChecksumEnabledProperty |
+| static [ITFItfBorderThicknessProperty](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfborderthicknessproperty) | ITFItfBorderThicknessProperty |
+| static [ITFItfBorderTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfbordertypeproperty) | ITFItfBorderTypeProperty |
+| static [ITFQuietZoneCoefProperty](../../aspose.barcode.wpf/barcodegeneratorelement/itfquietzonecoefproperty) | ITFQuietZoneCoefProperty |
+| static [MaxiCodeAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodeaspectratioproperty) | MaxiCodeAspectRatioProperty |
+| static [MaxiCodeEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodeencodemodeproperty) | MaxiCodeEncodeModeProperty |
+| static [PaddingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/paddingproperty) | PaddingProperty |
+| static [PatchCodeExtraBarcodeTextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetextproperty) | PatchCodeExtraBarcodeTextProperty |
+| static [PatchCodePatchFormatProperty](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformatproperty) | PatchCodePatchFormatProperty |
+| static [Pdf417AspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417aspectratioproperty) | Pdf417AspectRatioProperty |
+| static [Pdf417CodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417codetextencodingproperty) | Pdf417CodeTextEncodingProperty |
+| static [Pdf417ColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417columnsproperty) | Pdf417ColumnsProperty |
+| static [Pdf417CompactionModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmodeproperty) | Pdf417CompactionModeProperty |
+| static [Pdf417ECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencodingproperty) | Pdf417ECIEncodingProperty |
+| static [Pdf417ErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevelproperty) | Pdf417ErrorLevelProperty |
+| static [Pdf417IsReaderInitializationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417isreaderinitializationproperty) | Pdf417IsReaderInitializationProperty |
+| static [Pdf417MacroFileIDProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofileidproperty) | Pdf417MacroFileIDProperty |
+| static [Pdf417MacroSegmentIDProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentidproperty) | Pdf417MacroSegmentIDProperty |
+| static [Pdf417MacroSegmentsCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentscountproperty) | Pdf417MacroSegmentsCountProperty |
+| static [Pdf417RowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417rowsproperty) | Pdf417RowsProperty |
+| static [Pdf417TruncateProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417truncateproperty) | Pdf417TruncateProperty |
+| static [PostalShortBarHeightProperty](../../aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheightproperty) | PostalShortBarHeightProperty |
+| static [QRAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qraspectratioproperty) | QRAspectRatioProperty |
+| static [QRCodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrcodetextencodingproperty) | QRCodeTextEncodingProperty |
+| static [QRECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qreciencodingproperty) | QRECIEncodingProperty |
+| static [QREncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodemodeproperty) | QREncodeModeProperty |
+| static [QREncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodetypeproperty) | QREncodeTypeProperty |
+| static [QRErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevelproperty) | QRErrorLevelProperty |
+| static [QRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrversionproperty) | QRVersionProperty |
+| static [ResolutionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/resolutionproperty) | ResolutionProperty |
+| static [SupplementSupplementDataProperty](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdataproperty) | SupplementSupplementDataProperty |
+| static [SupplementSupplementSpaceProperty](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementspaceproperty) | SupplementSupplementSpaceProperty |
+| static [ThrowExceptionWhenCodeTextIncorrectProperty](../../aspose.barcode.wpf/barcodegeneratorelement/throwexceptionwhencodetextincorrectproperty) | ThrowExceptionWhenCodeTextIncorrectProperty |
+| static [WideNarrowRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/widenarrowratioproperty) | WideNarrowRatioProperty |
+| static [XDimensionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/xdimensionproperty) | XDimensionProperty |
 
 ### See Also
 

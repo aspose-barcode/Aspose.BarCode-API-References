@@ -47,11 +47,11 @@ public class Quadrangle : IEquatable<Quadrangle>
 | [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | Returns a value indicating whether the first [`Quadrangle`](../quadrangle) value is equal to the second. |
 | [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | Returns a value indicating if the first [`Quadrangle`](../quadrangle) value is different from the second. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Empty](empty) | Represents a [`Quadrangle`](../quadrangle) class with its properties left uninitialized. |
+| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | Represents a [`Quadrangle`](../quadrangle) class with its properties left uninitialized. |
 
 ### See Also
 
