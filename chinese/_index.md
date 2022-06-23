@@ -33,11 +33,11 @@ url: /zh/
 
 ![Aspose.BarCode for Java 产品徽标](../home_2.png)
 
-Welcome to Aspose.BarCode for Java
+欢迎使用 Aspose.BarCode for Java
 
-Aspose.BarCode for Java is a robust and reliable barcode generation and recognition component, written in Java, it allows developers to quickly and easily add barcode generation and recognition functionality to their Java applications. It is available for the Java SE, Java EE, and Java ME platforms.
+Aspose.BarCode for Java 是一个强大且可靠的条形码生成和识别组件，用 Java 编写，它允许开发人员快速轻松地将条形码生成和识别功能添加到他们的 Java 应用程序中。 它适用于 Java SE、Java EE 和 Java ME 平台。
 
-Aspose.BarCode for Java supports the most established barcode standards and barcode specifications. It can export to multiple image formats including: BMP, GIF, JPEG, PNG, and TIFF.
+Aspose.BarCode for Java 支持最成熟的条码标准和条码规范。 它可以导出为多种图像格式，包括：BMP、GIF、JPEG、PNG 和 TIFF。
 
 {{% /alert %}} 
 
