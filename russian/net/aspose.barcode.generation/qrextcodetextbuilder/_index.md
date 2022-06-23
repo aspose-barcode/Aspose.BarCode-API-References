@@ -1,0 +1,120 @@
+---
+title: QrExtCodetextBuilder
+second_title: Справочник по API Aspose.BarCode для .NET
+description: Генератор расширенного кодового текста для 2D штрих-кодов QR для режима ExtendedCodetext режима QrEncodeMode
+type: docs
+weight: 920
+url: /ru/net/aspose.barcode.generation/qrextcodetextbuilder/
+---
+## QrExtCodetextBuilder class
+
+Генератор расширенного кодового текста для 2D штрих-кодов QR для режима ExtendedCodetext режима QrEncodeMode
+
+Используйте свойство TwoDDisplayText BarcodeGenerator для установить видимый текст для удаления управляющих символов.
+
+```csharp
+public class QrExtCodetextBuilder : ExtCodetextBuilder
+```
+
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [QrExtCodetextBuilder](qrextcodetextbuilder)() | Конструктор по умолчанию. |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | Добавляет кодовый текст с расширенным идентификатором канала |
+| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition)() | Добавляет FNC1 в первую позицию к элементам расширенного кодового текста |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator)() | Добавляет разделитель групп (GS - '\\u001D') к элементам расширенного кодового текста |
+| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition)(string) | Добавляет FNC1 во вторую позицию к элементам расширенного кодового текста |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext)(string) | Добавляет простой кодовый текст к элементам расширенного кодового текста |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear)() | Очищает элементы расширенного кодового текста |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext)() | Генерирует расширенный кодовый текст из списка расширенного кодового текста. |
+
+### Примеры
+
+В этом примере показано, как использовать первую позицию FNC1 в расширенном режиме.
+
+```csharp
+[C#]
+ //создать codetext
+QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
+TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
+TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
+TextBuilder.AddPlainCodetext(@"t\e\\st");   
+
+ //сгенерировать codetext
+string lCodetext = lTextBuilder.GetExtendedCodetext();
+
+ // сгенерировать
+using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+	generator.Save("test.bmp");
+}
+```
+
+В этом примере показано, как использовать вторую позицию FNC1 в расширенном режиме.
+
+```csharp
+[C#]
+ //создать codetext
+QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
+TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
+TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
+TextBuilder.AddPlainCodetext(@"t\e\\st");   
+
+ //сгенерировать codetext
+string lCodetext = lTextBuilder.GetExtendedCodetext();
+
+ // сгенерировать
+using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+	generator.Save("test.bmp");
+}
+```
+
+В этом примере показано, как использовать режим нескольких ECI в расширенном режиме.
+
+```csharp
+[C#]
+ //создать codetext
+QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
+TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
+TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
+TextBuilder.AddPlainCodetext(@"t\e\\st");   
+
+ //сгенерировать codetext
+string lCodetext = lTextBuilder.GetExtendedCodetext();
+
+ // сгенерировать
+using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+	generator.Save("test.bmp");
+}
+```
+
+### Смотрите также
+
+* class [ExtCodetextBuilder](../extcodetextbuilder)
+* пространство имен [Aspose.BarCode.Generation](../../aspose.barcode.generation)
+* сборка [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
