@@ -54,7 +54,7 @@ Using ms As New MemoryStream
         generator.Parameters.Barcode.QR.CodeTextEncoding = System.Text.Encoding.UTF8
         generator.Save(ms, BarCodeImageFormat.Png)
     End Using
-    'detects encoding for Unicode codesets is enabled
+    //обнаружение кодировки для наборов кодировок Unicode включено
     ms.Position = 0
     Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = True
@@ -62,7 +62,7 @@ Using ms As New MemoryStream
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
         Next
     End Using
-    'detect encoding is disabled
+    //обнаружение кодировки отключено
     ms.Position = 0
     Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = False

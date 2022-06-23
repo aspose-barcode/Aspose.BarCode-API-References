@@ -99,36 +99,36 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 }
 [VB.NET]
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'set high performance mode
+    //установить режим высокой производительности
     reader.QualitySettings = QualitySettings.HighPerformance
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'normal quality mode is set by default
+    //режим нормального качества установлен по умолчанию
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'set high quality mode with low speed recognition
+    //установить режим высокого качества с низкой скоростью распознавания
     reader.QualitySettings = QualitySettings.HighQuality
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'set max barcodes mode, which tries to find all possible barcodes, even incorrect. The slowest recognition mode
+    //установить режим максимального количества штрих-кодов, который пытается найти все возможные штрих-коды, даже неправильные. Самый медленный режим распознавания
     reader.QualitySettings = QualitySettings.MaxBarCodes
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'set high performance mode
+   //установить режим высокой производительности
    reader.QualitySettings = QualitySettings.HighPerformance
-   'set separate options
+   //установить отдельные параметры
    reader.QualitySettings.AllowMedianSmoothing = True
    reader.QualitySettings.MedianSmoothingWindowSize = 5
    For Each result As BarCodeResult In reader.ReadBarCodes()
@@ -136,8 +136,8 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
    Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'default mode is NormalQuality
-   'set separate options
+   //режим по умолчанию — NormalQuality
+   //установить отдельные параметры
    reader.QualitySettings.AllowMedianSmoothing = True
    reader.QualitySettings.MedianSmoothingWindowSize = 5
    For Each result As BarCodeResult In reader.ReadBarCodes()

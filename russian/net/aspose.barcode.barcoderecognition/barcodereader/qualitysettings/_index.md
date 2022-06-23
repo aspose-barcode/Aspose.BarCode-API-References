@@ -49,14 +49,14 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 }
 [VB.NET]
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'set high performance mode
+    //установить режим высокой производительности
     reader.QualitySettings = QualitySettings.HighPerformance
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'normal quality mode is set by default
+    //режим нормального качества установлен по умолчанию
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
