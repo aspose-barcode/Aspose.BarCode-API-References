@@ -26,9 +26,9 @@ BarCodeReader.ProcessorSettings.UseAllCores = true;
 BarCodeReader.ProcessorSettings.UseAllCores = false;
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2);
 [VB.NET]
-//это позволяет использовать все ядра для одного вызова BarCodeReader
+'это позволяет использовать все ядра для одного вызова BarCodeReader
 BarCodeReader.ProcessorSettings.UseAllCores = True
-//это позволяет использовать текущее количество ядер
+'это позволяет использовать текущее количество ядер
 BarCodeReader.ProcessorSettings.UseAllCores = False
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2)
 ```

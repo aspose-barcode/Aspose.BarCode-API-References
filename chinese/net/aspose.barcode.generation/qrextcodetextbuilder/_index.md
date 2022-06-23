@@ -40,17 +40,17 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 ```csharp
 [C#]
-  //创建代码text
+//创建代码text
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
 TextBuilder.AddPlainCodetext(@"t\e\\st");   
 
-  //生成代码text
+//生成代码text
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-  //生成
+//生成
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
@@ -65,17 +65,17 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 
 ```csharp
 [C#]
-  //创建代码text
+//创建代码text
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
 TextBuilder.AddPlainCodetext(@"t\e\\st");   
 
-  //生成代码text
+//生成代码text
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-  //生成
+//生成
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
@@ -90,17 +90,17 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 
 ```csharp
 [C#]
-  //创建代码text
+//创建代码text
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
 TextBuilder.AddPlainCodetext(@"t\e\\st");   
 
-  //生成代码text
+//生成代码text
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-  //生成
+//生成
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;

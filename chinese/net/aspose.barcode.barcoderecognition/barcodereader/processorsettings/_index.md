@@ -20,16 +20,16 @@ public static ProcessorSettings ProcessorSettings { get; }
 
 ```csharp
 [C#]
-//这允许将所有内核用于单个 BarCodeReader call
+//这允许将所有内核用于单个 BarCodeReader 调用
 BarCodeReader.ProcessorSettings.UseAllCores = true;
   //这允许使用cores
 
 BarCodeReader.ProcessorSettings.UseAllCores = false;
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2);
 [VB.NET]
-//这允许将所有内核用于单个 BarCodeReader 调用
+' 这允许将所有内核用于单个 BarCodeReader 调用
 BarCodeReader.ProcessorSettings.UseAllCores = True
-//这允许使用当前的核心数
+' 这允许使用当前的核心数
 BarCodeReader.ProcessorSettings.UseAllCores = False
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2)
 ```

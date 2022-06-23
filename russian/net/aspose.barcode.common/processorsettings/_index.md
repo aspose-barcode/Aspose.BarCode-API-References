@@ -50,9 +50,9 @@ System.Threading.ThreadPool.GetMaxThreads(workerThreads, portThreads)
 System.Threading.ThreadPool.SetMaxThreads(Math.Max(workerThreads, Environment.ProcessorCount* 4), portThreads)
 BarCodeReader.ProcessorSettings.MaxAdditionalAllowedThreads = Environment.ProcessorCount* 2
 
-//это позволяет использовать все ядра для одного вызова BarCodeReader
+'это позволяет использовать все ядра для одного вызова BarCodeReader
 BarCodeReader.ProcessorSettings.UseAllCores = True
-//это позволяет использовать текущее количество ядер
+'это позволяет использовать текущее количество ядер
 BarCodeReader.ProcessorSettings.UseAllCores = False
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2)
 ```

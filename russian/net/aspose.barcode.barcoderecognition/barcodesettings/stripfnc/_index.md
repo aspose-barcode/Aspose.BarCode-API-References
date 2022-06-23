@@ -51,14 +51,14 @@ Using generator As New BarcodeGenerator(EncodeTypes.GS1Code128, "(02)04006664241
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    //StripFNC инвалид
+    'StripFNC инвалид
     reader.BarcodeSettings.StripFNC = False
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    //StripFNC включено
+    'StripFNC включено
     reader.BarcodeSettings.StripFNC = True
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

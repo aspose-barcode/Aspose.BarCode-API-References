@@ -42,7 +42,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN13, "123
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-      //校验和 disabled
+    //校验和 disabled
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -53,7 +53,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-      //校验和启用
+    //校验和启用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -67,7 +67,7 @@ Using generator As New BarcodeGenerator(EncodeTypes.EAN13, "1234567890128")
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    //校验和禁用
+    ' 校验和 disabled
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -76,7 +76,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    //启用校验和
+    ' 校验和启用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

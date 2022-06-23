@@ -63,7 +63,7 @@ Using generator As New BarcodeGenerator(EncodeTypes.EAN13, "1234567890128")
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    //校验和禁用
+    ' 校验和禁用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -72,7 +72,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    //启用校验和
+    ' 启用校验和
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

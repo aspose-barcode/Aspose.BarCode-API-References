@@ -60,7 +60,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-//中等信心
+' 中等信心
 Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
     generator.Save("c:\test.png")
 End Using
@@ -73,7 +73,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
     Next
 End Using
 
-//强大的信心
+' 强大的信心
 Using generator As New BarcodeGenerator(EncodeTypes.QR, "12345")
     generator.Save("c:\test.png")
 End Using
