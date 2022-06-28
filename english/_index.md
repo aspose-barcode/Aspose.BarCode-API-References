@@ -59,7 +59,7 @@ Aspose.BarCode for C++ is a set of barcode generation and recognition components
 These are links to some useful resources:
 - [Aspose.BarCode for C++ API Reference](/barcode/cpp/)
 
-## Aspose.Cells for PHP via Java
+## Aspose.BarCode for PHP via Java
 {{% alert color="primary" %}}
 
 ![Aspose.BarCode for PHP Product Logo](home_4.png)
@@ -89,7 +89,7 @@ These are links to some useful resources:
 
 - [Aspose.BarCode for Android via Java API Reference](/barcode/androidjava/)
 
-## Aspose.Cells for Node.js via Java
+## Aspose.BarCode for Node.js via Java
 {{% alert color="primary" %}}
 
 ![Aspose.BarCode for Node.js via Java Product Logo](home_6.png)
@@ -103,7 +103,7 @@ Aspose.BarCode for Node.js via Java API gives you the tools you need to generate
 These are links to some useful resources:
 - [Aspose.BarCode for Node.js via Java API Reference](/barcode/nodejs/)
 
-## Aspose.Cells for Python via Java
+## Aspose.BarCode for Python via Java
 {{% alert color="primary" %}}
 
 ![Aspose.BarCode for Python via Java Product Logo](home_7.png)
