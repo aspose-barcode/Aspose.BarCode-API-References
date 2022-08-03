@@ -1,14 +1,14 @@
 ---
 title: DatabarOmniDirectional
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1 Databar 全向 条码规范进行编码
+description: 指定数据应该用 GS1 Databar 全向条码规范.
 type: docs
 weight: 180
 url: /zh/net/aspose.barcode.generation/encodetypes/databaromnidirectional/
 ---
 ## EncodeTypes.DatabarOmniDirectional field
 
-指定数据应使用 **GS1 Databar 全向** 条码规范进行编码。
+指定数据应该用 **GS1 Databar 全向**条码规范.
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarOmniDirectional;

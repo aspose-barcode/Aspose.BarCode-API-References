@@ -1,14 +1,14 @@
 ---
 title: Code16K
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Code16K 参数Code16KParametersaspose.barcode.generation/code16kparameters 用于 Code16K
+description: 获取或设置 Code16K 参数Code16KParametersaspose.barcode.generation/code16kparameters. 用于 Code16K.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/code16k/
 ---
 ## SpecificParametersUI.Code16K property
 
-获取或设置 Code16K 参数[`Code16KParameters`](../../../aspose.barcode.generation/code16kparameters)。 用于 Code16K。
+获取或设置 Code16K 参数[`Code16KParameters`](../../../aspose.barcode.generation/code16kparameters). 用于 Code16K.
 
 ```csharp
 public Code16KParameters Code16K { get; }

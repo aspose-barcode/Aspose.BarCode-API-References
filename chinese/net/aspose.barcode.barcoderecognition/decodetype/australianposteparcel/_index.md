@@ -1,14 +1,14 @@
 ---
 title: AustralianPosteParcel
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应解码为 澳大利亚邮政国内电子包裹条码 条码规范
+description: 指定数据应该被解码 澳大利亚邮政国内电子包裹条形码条码规格
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/australianposteparcel/
 ---
 ## DecodeType.AustralianPosteParcel field
 
-指定数据应解码为 **澳大利亚邮政国内电子包裹条码** 条码规范
+指定数据应该被解码 **澳大利亚邮政国内电子包裹条形码**条码规格
 
 ```csharp
 public static readonly SingleDecodeType AustralianPosteParcel;

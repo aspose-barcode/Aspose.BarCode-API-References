@@ -1,14 +1,14 @@
 ---
 title: IsChecksumEnabledProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: IsChecksumEnabledProperty
+description: IsChecksumEnabled 属性
 type: docs
 weight: 1680
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/ischecksumenabledproperty/
 ---
 ## BarcodeGeneratorElement.IsChecksumEnabledProperty field
 
-IsChecksumEnabledProperty
+IsChecksumEnabled 属性
 
 ```csharp
 public static DependencyProperty IsChecksumEnabledProperty;

@@ -1,14 +1,14 @@
 ---
 title: CodablockF
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Codablock-F 条形码规范进行编码
+description: 指定数据应该用 Codablock-F条码规范.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.generation/encodetypes/codablockf/
 ---
 ## EncodeTypes.CodablockF field
 
-指定数据应使用 **Codablock-F** 条形码规范进行编码。
+指定数据应该用 **Codablock-F**条码规范.
 
 ```csharp
 public static readonly SymbologyEncodeType CodablockF;

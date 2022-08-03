@@ -1,14 +1,14 @@
 ---
 title: CodeText
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает кодовый текст
+description: Получает текст кода
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/codetext/
 ---
 ## BarCodeResult.CodeText property
 
-Получает кодовый текст
+Получает текст кода
 
 ```csharp
 public string CodeText { get; }

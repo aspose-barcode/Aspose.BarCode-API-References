@@ -1,14 +1,14 @@
 ---
 title: MacroPdf417SegmentsCount
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию-1.
+description: Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию -1.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount/
 ---
 ## Pdf417ExtendedParameters.MacroPdf417SegmentsCount property
 
-Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию:-1.
+Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию: -1.
 
 ```csharp
 public int MacroPdf417SegmentsCount { get; }

@@ -1,14 +1,14 @@
 ---
 title: CodeTextFontSize
 second_title: Aspose.BarCode for .NET API 参考
-description: Codetext 字体大小
+description: 代码文本字体大小
 type: docs
 weight: 440
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codetextfontsize/
 ---
 ## BarcodeGeneratorElement.CodeTextFontSize property
 
-Codetext 字体大小。
+代码文本字体大小。
 
 ```csharp
 public float CodeTextFontSize { get; set; }

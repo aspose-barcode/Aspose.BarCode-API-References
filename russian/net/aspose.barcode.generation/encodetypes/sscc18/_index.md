@@ -1,14 +1,14 @@
 ---
 title: SSCC18
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью SSCC18 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с SSCC18 спецификация штрих-кода
 type: docs
 weight: 630
 url: /ru/net/aspose.barcode.generation/encodetypes/sscc18/
 ---
 ## EncodeTypes.SSCC18 field
 
-Указывает, что данные должны быть закодированы с помощью **SSCC18** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **SSCC18** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType SSCC18;

@@ -1,14 +1,14 @@
 ---
 title: DetectEncoding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Флаг который заставляет движок определять кодировку кодового текста для наборов кодировок Unicode. Значение по умолчанию  истина.
+description: Флаг который заставляет движок определять кодировку кодового текста для кодовых наборов Unicode. Значение по умолчанию  true.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/barcodesettings/detectencoding/
 ---
 ## BarcodeSettings.DetectEncoding property
 
-Флаг, который заставляет движок определять кодировку кодового текста для наборов кодировок Unicode. Значение по умолчанию — истина.
+Флаг, который заставляет движок определять кодировку кодового текста для кодовых наборов Unicode. Значение по умолчанию — true.
 
 ```csharp
 public bool DetectEncoding { get; set; }
@@ -16,11 +16,11 @@ public bool DetectEncoding { get; set; }
 
 ### Стоимость имущества
 
-Флаг, который заставляет движок определять кодировку кодового текста для наборов кодировок Unicode
+Флаг, который заставляет движок определять кодировку кодового текста для наборов кодировок Unicode.
 
 ### Примеры
 
-В этом примере показано, как определить кодировку текста на лету, если включено DetectEncoding
+В этом примере показано, как определить кодировку текста на лету, если включена функция DetectEncoding
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ using (MemoryStream ms = new MemoryStream())
         generator.Parameters.Barcode.QR.CodeTextEncoding = Encoding.UTF8;
         generator.Save(ms, BarCodeImageFormat.Png);
     }
-     //обнаруживает кодировку для наборов кодировок Unicode enable
+    //обнаружение кодировки для наборов кодировок Unicode включено
     ms.Position = 0;
     using (BarCodeReader reader = new BarCodeReader(ms, DecodeType.QR))
     {
@@ -39,7 +39,7 @@ using (MemoryStream ms = new MemoryStream())
         foreach (BarCodeResult result in reader.ReadBarCodes())
             Console.WriteLine("BarCode CodeText: " + result.CodeText);
     }
-     //обнаружение кодировки disabled
+    // определение кодировки отключено
     ms.Position = 0;
     using (BarCodeReader reader = new BarCodeReader(ms, DecodeType.QR))
     {

@@ -1,14 +1,14 @@
 ---
 title: Code16K
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该使用 SCode16K 条码规范 进行解码
+description: 指定数据应该被解码 SCode16K条码规格
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code16k/
 ---
 ## DecodeType.Code16K field
 
-指定数据应该使用 **SCode16K** 条码规范 进行解码
+指定数据应该被解码 **SCode16K**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Code16K;

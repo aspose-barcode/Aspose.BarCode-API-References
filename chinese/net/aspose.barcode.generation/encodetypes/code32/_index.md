@@ -1,14 +1,14 @@
 ---
 title: Code32
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Code32 条码规范 进行编码
+description: 指定数据应该用 代码 32条码规格
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.generation/encodetypes/code32/
 ---
 ## EncodeTypes.Code32 field
 
-指定数据应使用 **Code32** 条码规范 进行编码
+指定数据应该用 **代码 32**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Code32;

@@ -1,14 +1,14 @@
 ---
 title: IsAllowOnlyGS1Encoding
 second_title: Aspose.BarCode for .NET API 参考
-description: 如果设置此标志则它只允许 Databar 条码类型的 GS1 编码标准
+description: 如果设置了这个标志它只允许对Databar条码类型使用GS1编码标准
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/databarparameters/isallowonlygs1encoding/
 ---
 ## DataBarParameters.IsAllowOnlyGS1Encoding property
 
-如果设置此标志，则它只允许 Databar 条码类型的 GS1 编码标准
+如果设置了这个标志，它只允许对Databar条码类型使用GS1编码标准
 
 ```csharp
 public bool IsAllowOnlyGS1Encoding { get; set; }

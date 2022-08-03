@@ -16,7 +16,7 @@ public string MacroPdf417FileID { get; }
 
 ### 适当的价值
 
-MacroPdf417
+MacroPdf417 的文件 ID
 
 ### 也可以看看
 

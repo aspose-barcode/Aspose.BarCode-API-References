@@ -1,16 +1,16 @@
 ---
 title: HighQuality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Предустановка высокого качества обнаружения.
+description: Предустановка обнаружения высокого качества.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highquality/
 ---
 ## BarcodeSvmDetectorSettings.HighQuality property
 
-Предустановка высокого качества обнаружения.
+Предустановка обнаружения высокого качества.
 
-По умолчанию дляHighQualityDetectionиHighQuality
+По умолчанию дляHighQualityDetection а такжеHighQuality
 
 ```csharp
 public static BarcodeSvmDetectorSettings HighQuality { get; }

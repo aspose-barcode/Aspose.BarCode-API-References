@@ -1,14 +1,14 @@
 ---
 title: GetCodeText
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает кодовый текст с кодировкой.
+description: Получает текст кода с кодировкой.
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/getcodetext/
 ---
 ## BarCodeResult.GetCodeText method
 
-Получает кодовый текст с кодировкой.
+Получает текст кода с кодировкой.
 
 ```csharp
 public string GetCodeText(Encoding encoding)
@@ -16,7 +16,7 @@ public string GetCodeText(Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| encoding | Encoding | Кодировка кодового текста. |
+| encoding | Encoding | Кодировка для кодового текста. |
 
 ### Возвращаемое значение
 

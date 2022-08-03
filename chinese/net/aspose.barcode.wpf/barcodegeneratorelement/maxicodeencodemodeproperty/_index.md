@@ -1,14 +1,14 @@
 ---
 title: MaxiCodeEncodeModeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: MaxiCodeEncodeModeProperty
+description: MaxiCodeEncodeMode 属性
 type: docs
 weight: 1730
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/maxicodeencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.MaxiCodeEncodeModeProperty field
 
-MaxiCodeEncodeModeProperty
+MaxiCodeEncodeMode 属性
 
 ```csharp
 public static DependencyProperty MaxiCodeEncodeModeProperty;

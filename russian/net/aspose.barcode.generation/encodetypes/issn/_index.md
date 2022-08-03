@@ -1,14 +1,14 @@
 ---
 title: ISSN
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью ISSN спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с ISSN спецификация штрих-кода
 type: docs
 weight: 400
 url: /ru/net/aspose.barcode.generation/encodetypes/issn/
 ---
 ## EncodeTypes.ISSN field
 
-Указывает, что данные должны быть закодированы с помощью **ISSN** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **ISSN** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType ISSN;

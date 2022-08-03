@@ -1,14 +1,14 @@
 ---
 title: PatchCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры PatchCode.
+description: параметры PatchCode.
 type: docs
 weight: 220
 url: /ru/net/aspose.barcode.generation/barcodeparameters/patchcode/
 ---
 ## BarcodeParameters.PatchCode property
 
-Параметры PatchCode.
+параметры PatchCode.
 
 ```csharp
 public PatchCodeParameters PatchCode { get; }

@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示第一个BarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters值是否与第二个不同
+description: 返回一个值指示是否第一个BarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters值与第二个不同
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/
 ---
 ## BarCodeExtendedParameters Inequality operator
 
-返回一个值，指示第一个[`BarCodeExtendedParameters`](../../barcodeextendedparameters)值是否与第二个不同。
+返回一个值，指示是否第一个[`BarCodeExtendedParameters`](../../barcodeextendedparameters)值与第二个不同。
 
 ```csharp
 public static bool operator !=(BarCodeExtendedParameters first, BarCodeExtendedParameters second)
@@ -16,12 +16,12 @@ public static bool operator !=(BarCodeExtendedParameters first, BarCodeExtendedP
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | BarCodeExtendedParameters | 第一个比较值 |
-| second | BarCodeExtendedParameters | 第二个比较value |
+| first | BarCodeExtendedParameters | 第一比较值 |
+| second | BarCodeExtendedParameters | 第二个比较值 |
 
 ### 返回值
 
-**true** 如果 first 与 second 具有不同的值；否则， **false** 。
+**真的**如果 first 的值与 second 不同；否则， **错误的**.
 
 ### 也可以看看
 

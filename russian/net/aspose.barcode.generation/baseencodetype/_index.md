@@ -18,8 +18,8 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 
 | Имя | Описание |
 | --- | --- |
-| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Получает классификацию этих символов. |
-| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Получает индекс типа кодировки |
+| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Получает классификацию этого символа. |
+| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Получает индекс кодировки type |
 | [TypeName](../../aspose.barcode.generation/baseencodetype/typename) { get; } | Получает имя типа кодировки |
 
 ## Методы
@@ -27,14 +27,14 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 | Имя | Описание |
 | --- | --- |
 | static [Parse](../../aspose.barcode.generation/baseencodetype/parse)(string) | Преобразует строковое представление имени BaseEncodeType в его экземпляр. |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals)(BaseEncodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../baseencodetype)значению. |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../baseencodetype)значению. |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals)(BaseEncodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../baseencodetype) значение. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../baseencodetype) значение. |
 | override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:0; Имя:Codabar". |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки: "Index:0; Name:Codabar". |
 | override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | Возвращает имя заданного BaseEncodeType в виде строки. |
-| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет". |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse)(string, out BaseEncodeType) | Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse_1)(string, out SymbologyEncodeType) | Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
+| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет". |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse)(string, out BaseEncodeType) | Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse_1)(string, out SymbologyEncodeType) | Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
 
 ### Смотрите также
 

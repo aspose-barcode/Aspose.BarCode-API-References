@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetypeзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype значение.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../../singledecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../../singledecodetype) значение.
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
@@ -16,11 +16,11 @@ public virtual bool Equals(SingleDecodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | SingleDecodeType | Значение[`SingleDecodeType`](../../singledecodetype)для сравнения с этим экземпляром. |
+| other | SingleDecodeType | Ан[`SingleDecodeType`](../../singledecodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public virtual bool Equals(SingleDecodeType other)
 
 ## Equals(MultyDecodeType) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../../multydecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../../multydecodetype) значение.
 
 ```csharp
 public virtual bool Equals(MultyDecodeType other)
@@ -41,11 +41,11 @@ public virtual bool Equals(MultyDecodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | MultyDecodeType | Значение[`MultyDecodeType`](../../multydecodetype)для сравнения с этим экземпляром. |
+| other | MultyDecodeType | Ан[`MultyDecodeType`](../../multydecodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ public virtual bool Equals(MultyDecodeType other)
 
 ## Equals(BaseDecodeType) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../../basedecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../../basedecodetype) значение.
 
 ```csharp
 public bool Equals(BaseDecodeType other)
@@ -66,11 +66,11 @@ public bool Equals(BaseDecodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | BaseDecodeType | Значение[`BaseDecodeType`](../../basedecodetype)для сравнения с этим экземпляром. |
+| other | BaseDecodeType | Ан[`BaseDecodeType`](../../basedecodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -82,7 +82,7 @@ public bool Equals(BaseDecodeType other)
 
 ## Equals(object) {#equals_3}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../../basedecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../../basedecodetype) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -94,7 +94,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

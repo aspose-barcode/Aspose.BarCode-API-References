@@ -1,14 +1,14 @@
 ---
 title: SupplementSupplementDataProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: SupplementSupplementDataProperty
+description: 补充补充数据属性
 type: docs
 weight: 1980
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdataproperty/
 ---
 ## BarcodeGeneratorElement.SupplementSupplementDataProperty field
 
-SupplementSupplementDataProperty
+补充补充数据属性
 
 ```csharp
 public static DependencyProperty SupplementSupplementDataProperty;

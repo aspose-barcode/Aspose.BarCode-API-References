@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置字幕填充Paddingaspose.barcode.generation/padding
+description: 获取或设置字幕填充Paddingaspose.barcode.generation/padding.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.windows.forms/captionui/padding/
 ---
 ## CaptionUI.Padding property
 
-获取或设置字幕填充[`Padding`](../../../aspose.barcode.generation/padding)。
+获取或设置字幕填充[`Padding`](../../../aspose.barcode.generation/padding).
 
 ```csharp
 public Padding Padding { get; }

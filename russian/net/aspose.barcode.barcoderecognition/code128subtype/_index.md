@@ -1,14 +1,14 @@
 ---
 title: Code128SubType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Содержит типы подмножества Code128
+description: Содержит типы Code128 subset
 type: docs
 weight: 170
 url: /ru/net/aspose.barcode.barcoderecognition/code128subtype/
 ---
 ## Code128SubType enumeration
 
-Содержит типы подмножества Code128
+Содержит типы Code128 subset
 
 ```csharp
 public enum Code128SubType
@@ -18,8 +18,8 @@ public enum Code128SubType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| CodeSetA | `1` | Символы ASCII от 00 до 95 (0–9, A–Z и управляющие коды), специальные символы и FNC 1–4 /// |
-| CodeSetB | `2` | Символы ASCII от 32 до 127 (0–9, A–Z, a–z), специальные символы и FNC 1–4 /// |
+| CodeSetA | `1` | символы ASCII от 00 до 95 (0–9, A–Z и управляющие коды), специальные символы и FNC 1–4 /// |
+| CodeSetB | `2` | символы ASCII от 32 до 127 (0–9, A–Z, a–z), специальные символы и FNC 1–4 /// |
 | CodeSetC | `3` | 00–99 (кодирует две цифры одной кодовой точкой) и FNC1 /// |
 
 ### Смотрите также

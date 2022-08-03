@@ -1,14 +1,14 @@
 ---
 title: VIN
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 VIN 车辆识别号条形码规范进行解码
+description: 指定数据应该被解码 车辆识别号 车辆识别号条码规范
 type: docs
 weight: 740
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/vin/
 ---
 ## DecodeType.VIN field
 
-指定数据应使用 **VIN** （车辆识别号）条形码规范进行解码
+指定数据应该被解码 **车辆识别号** （车辆识别号）条码规范
 
 ```csharp
 public static readonly SingleDecodeType VIN;

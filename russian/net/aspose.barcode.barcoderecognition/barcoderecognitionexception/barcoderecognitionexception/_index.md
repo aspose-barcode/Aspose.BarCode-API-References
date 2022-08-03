@@ -1,14 +1,14 @@
 ---
 title: BarCodeRecognitionException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый экземпляр классаBarCodeRecognitionExceptionaspose.barcode.barcoderecognition/barcoderecognitionexception.
+description: Инициализирует новый экземплярBarCodeRecognitionExceptionaspose.barcode.barcoderecognition/barcoderecognitionexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderecognitionexception/barcoderecognitionexception/
 ---
 ## BarCodeRecognitionException() {#constructor}
 
-Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../../barcoderecognitionexception).
+Инициализирует новый экземпляр[`BarCodeRecognitionException`](../../barcoderecognitionexception) класс.
 
 ```csharp
 public BarCodeRecognitionException()
@@ -24,7 +24,7 @@ public BarCodeRecognitionException()
 
 ## BarCodeRecognitionException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../../barcoderecognitionexception).
+Инициализирует новый экземпляр[`BarCodeRecognitionException`](../../barcoderecognitionexception) класс.
 
 ```csharp
 public BarCodeRecognitionException(string message)
@@ -44,7 +44,7 @@ public BarCodeRecognitionException(string message)
 
 ## BarCodeRecognitionException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../../barcoderecognitionexception)с указанным сообщением об ошибке и текущим исключением.
+Инициализирует новый экземпляр[`BarCodeRecognitionException`](../../barcoderecognitionexception) класс с указанным сообщением об ошибке и текущим исключением.
 
 ```csharp
 public BarCodeRecognitionException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public BarCodeRecognitionException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке исключения. |
-| innerException | Exception | Выдается текущее исключение. |
+| innerException | Exception | Выбрасывается текущее исключение. |
 
 ### Смотрите также
 

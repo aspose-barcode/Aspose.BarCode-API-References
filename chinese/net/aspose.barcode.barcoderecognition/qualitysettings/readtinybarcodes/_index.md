@@ -1,14 +1,14 @@
 ---
 title: ReadTinyBarcodes
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎识别大图像上的小条形码如果AllowIncorrectBarcodesaspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes设置为 True则忽略默认值假
+description: 允许引擎识别大图像上的小条形码忽略如果AllowIncorrectBarcodesaspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes设置为真默认值False.
 type: docs
 weight: 250
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/readtinybarcodes/
 ---
 ## QualitySettings.ReadTinyBarcodes property
 
-允许引擎识别大图像上的小条形码。如果[`AllowIncorrectBarcodes`](../allowincorrectbarcodes)设置为 True，则忽略。默认值:假。
+允许引擎识别大图像上的小条形码。忽略如果[`AllowIncorrectBarcodes`](../allowincorrectbarcodes)设置为真。默认值：False.
 
 ```csharp
 public bool ReadTinyBarcodes { get; set; }
@@ -16,7 +16,7 @@ public bool ReadTinyBarcodes { get; set; }
 
 ### 适当的价值
 
-如果为真，则允许引擎识别大图像上的小条形码。
+如果为真，则允许引擎识别大图像上的微小条形码。
 
 ### 也可以看看
 

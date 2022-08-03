@@ -1,14 +1,14 @@
 ---
 title: QREncodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Режим выбора QR/MicroQR. Выберите ForceQR для стандартных символов QR Auto для MicroQR. ForceMicroQR используется для строгой генерации символов MicroQR если это возможно.
+description: Режим выбора QR / MicroQR. Выберите ForceQR для стандартных символов QR Auto для MicroQR. ForceMicroQR используется для строгой генерации символов MicroQR если это возможно.
 type: docs
 weight: 890
 url: /ru/net/aspose.barcode.generation/qrencodetype/
 ---
 ## QREncodeType enumeration
 
-Режим выбора QR/MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR. ForceMicroQR используется для строгой генерации символов MicroQR, если это возможно.
+Режим выбора QR / MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR. ForceMicroQR используется для строгой генерации символов MicroQR, если это возможно.
 
 ```csharp
 public enum QREncodeType

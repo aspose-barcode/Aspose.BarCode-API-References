@@ -1,14 +1,14 @@
 ---
 title: ProcessorSettings
 second_title: Aspose.BarCode for .NET API 参考
-description: ProcessorSettings 允许识别具有多线程性能提升的条形码
+description: ProcessorSettings 允许通过多线程提高性能来识别条码
 type: docs
 weight: 290
 url: /zh/net/aspose.barcode.common/processorsettings/
 ---
 ## ProcessorSettings class
 
-ProcessorSettings 允许识别具有多线程性能提升的条形码
+ProcessorSettings 允许通过多线程提高性能来识别条码
 
 ```csharp
 public class ProcessorSettings
@@ -19,12 +19,12 @@ public class ProcessorSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [MaxAdditionalAllowedThreads](../../aspose.barcode.common/processorsettings/maxadditionalallowedthreads) { get; set; } | 指定并行运行代码的最大附加线程数 |
-| [UseAllCores](../../aspose.barcode.common/processorsettings/useallcores) { get; set; } | 需要使用所有内核。 |
+| [UseAllCores](../../aspose.barcode.common/processorsettings/useallcores) { get; set; } | 是使用所有内核所必需的。 |
 | [UseOnlyThisCoresCount](../../aspose.barcode.common/processorsettings/useonlythiscorescount) { get; set; } | 指定要使用的核心数。 您需要将属性“UseAllCores”更改为“false”。 |
 
 ### 例子
 
-这个示例展示了如何使用 ProcessorSettings 来增加最大的多线程性能
+这个示例展示了如何使用 ProcessorSettings 添加最大多线程性能
 
 ```csharp
 [C#]
@@ -36,10 +36,9 @@ System.Threading.ThreadPool.GetMaxThreads(out workerThreads, out portThreads);
 System.Threading.ThreadPool.SetMaxThreads(Math.Max(workerThreads, Environment.ProcessorCount* 4), portThreads);
 BarCodeReader.ProcessorSettings.MaxAdditionalAllowedThreads = Environment.ProcessorCount* 2;
 
-//这允许将所有内核用于单个 BarCodeReader call
+//这允许将所有内核用于单个 BarCodeReader 调用
 BarCodeReader.ProcessorSettings.UseAllCores = true;
-  //这允许使用cores
-
+//这允许使用当前的核心数
 BarCodeReader.ProcessorSettings.UseAllCores = false;
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2);
 [VB.NET]
@@ -51,9 +50,9 @@ System.Threading.ThreadPool.GetMaxThreads(workerThreads, portThreads)
 System.Threading.ThreadPool.SetMaxThreads(Math.Max(workerThreads, Environment.ProcessorCount* 4), portThreads)
 BarCodeReader.ProcessorSettings.MaxAdditionalAllowedThreads = Environment.ProcessorCount* 2
 
-' 这允许将所有内核用于单个 BarCodeReader 调用
+'这允许将所有内核用于单个 BarCodeReader 调用
 BarCodeReader.ProcessorSettings.UseAllCores = True
-' 这允许使用当前的核心数
+'这允许使用当前的核心数
 BarCodeReader.ProcessorSettings.UseAllCores = False
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2)
 ```

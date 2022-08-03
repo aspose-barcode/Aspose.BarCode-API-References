@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равно ли первое значениеBarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparametersвторому.
+description: Возвращает значение указывающее является ли первыйBarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters значение равно секунде.
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/
 ---
 ## BarCodeExtendedParameters Equality operator
 
-Возвращает значение, указывающее, равно ли первое значение[`BarCodeExtendedParameters`](../../barcodeextendedparameters)второму.
+Возвращает значение, указывающее, является ли первый[`BarCodeExtendedParameters`](../../barcodeextendedparameters) значение равно секунде.
 
 ```csharp
 public static bool operator ==(BarCodeExtendedParameters first, BarCodeExtendedParameters second)
@@ -17,11 +17,11 @@ public static bool operator ==(BarCodeExtendedParameters first, BarCodeExtendedP
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | BarCodeExtendedParameters | Первое сравниваемое значение |
-| second | BarCodeExtendedParameters | Второе сравниваемое значение значение |
+| second | BarCodeExtendedParameters | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет то же значение, что и второе; в противном случае **false** .
+**истинный** если первое имеет то же значение, что и второе; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

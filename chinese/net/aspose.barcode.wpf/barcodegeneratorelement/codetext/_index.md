@@ -1,14 +1,14 @@
 ---
 title: Codetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 需要编码的数据不同类型的条码可能有不同的Codetext长度限制和不同的charset
+description: 待编码的数据不同类型的条码可能有不同的Codetext长度限制和不同的charset
 type: docs
 weight: 420
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codetext/
 ---
 ## BarcodeGeneratorElement.Codetext property
 
-需要编码的数据，不同类型的条码可能有不同的Codetext长度限制和不同的charset。
+待编码的数据，不同类型的条码可能有不同的Codetext长度限制和不同的charset。
 
 ```csharp
 public string Codetext { get; set; }

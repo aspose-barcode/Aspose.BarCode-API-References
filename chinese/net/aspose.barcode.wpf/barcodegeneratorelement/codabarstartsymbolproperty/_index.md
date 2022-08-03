@@ -1,14 +1,14 @@
 ---
 title: CodabarStartSymbolProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CodabarStartSymbolProperty
+description: CodabarStartSymbol 属性
 type: docs
 weight: 1350
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codabarstartsymbolproperty/
 ---
 ## BarcodeGeneratorElement.CodabarStartSymbolProperty field
 
-CodabarStartSymbolProperty
+CodabarStartSymbol 属性
 
 ```csharp
 public static DependencyProperty CodabarStartSymbolProperty;

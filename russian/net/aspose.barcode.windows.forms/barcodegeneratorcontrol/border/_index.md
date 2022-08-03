@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры границыBorderParametersaspose.barcode.generation/borderparameters.
+description: Получает или задает параметры границыBorderParametersaspose.barcode.generation/borderparameters .
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/border/
 ---
 ## BarCodeGeneratorControl.Border property
 
-Получает или устанавливает параметры границы[`BorderParameters`](../../../aspose.barcode.generation/borderparameters).
+Получает или задает параметры границы[`BorderParameters`](../../../aspose.barcode.generation/borderparameters) .
 
 ```csharp
 public BorderParameters Border { get; }

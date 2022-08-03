@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取BorderParametersaspose.barcode.generation/borderparameters包含条码边框的所有配置属性
+description: 获取BorderParametersaspose.barcode.generation/borderparameters包含条形码边框的所有配置属性
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/basegenerationparameters/border/
 ---
 ## BaseGenerationParameters.Border property
 
-获取[`BorderParameters`](../../borderparameters)包含条码边框的所有配置属性。
+获取[`BorderParameters`](../../borderparameters)包含条形码边框的所有配置属性。
 
 ```csharp
 public BorderParameters Border { get; }

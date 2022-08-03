@@ -1,14 +1,14 @@
 ---
 title: DatabarExpanded
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1 数据栏扩展 条码规范 解码
+description: 指定数据应该被解码 GS1 数据栏展开条码规格
 type: docs
 weight: 170
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databarexpanded/
 ---
 ## DecodeType.DatabarExpanded field
 
-指定数据应使用 **GS1 数据栏扩展** 条码规范 解码
+指定数据应该被解码 **GS1 数据栏展开**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarExpanded;

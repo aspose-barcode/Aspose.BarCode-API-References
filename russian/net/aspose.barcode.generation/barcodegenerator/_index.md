@@ -1,16 +1,16 @@
 ---
 title: BarcodeGenerator
 second_title: Справочник по API Aspose.BarCode для .NET
-description: BarcodeGenerator для создания фоновых изображений штрих-кода.
+description: BarcodeGenerator для генерации внутренних изображений штрих-кода.
 type: docs
 weight: 490
 url: /ru/net/aspose.barcode.generation/barcodegenerator/
 ---
 ## BarcodeGenerator class
 
-BarcodeGenerator для создания фоновых изображений штрих-кода.
+BarcodeGenerator для генерации внутренних изображений штрих-кода.
 
-поддерживаемые символы: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost... 2D: Aztec, DataMatrix, PDf417, QR-код...
+supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14 , SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR-код ...
 
 ```csharp
 public sealed class BarcodeGenerator : Component
@@ -28,19 +28,19 @@ public sealed class BarcodeGenerator : Component
 | Имя | Описание |
 | --- | --- |
 | [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype) { get; set; } | Тип символики штрих-кода. |
-| [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext) { get; set; } | Кодируемый текст. |
+| [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext) { get; set; } | Текст для кодирования. |
 | [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters) { get; } | Параметры генерации. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml)(Stream) | Импортирует свойства BarCode из указанного xml-потока и создает экземпляр BarcodeGenerator. |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml)(Stream) | Импортирует свойства BarCode из указанного XML-потока и создает экземпляр BarcodeGenerator. |
 | static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml_1)(string) | Импортирует свойства BarCode из указанного xml-файла и создает экземпляр BarcodeGenerator. |
 | [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf)(DrawingContext) | Рисует изображение штрих-кода на холсте WPF. |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml#exporttoxml)(Stream) | Экспортирует свойства BarCode в указанный xml-поток |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml#exporttoxml_1)(string) | Экспортирует свойства BarCode в указанный xml-файл |
-| [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage)() | Генерировать изображение штрих-кода с текущими настройками. |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml#exporttoxml)(Stream) | Экспортирует свойства штрих-кода в указанный xml-поток |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml#exporttoxml_1)(string) | Экспорт свойств штрих-кода в указанный xml-файл |
+| [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage)() | Создать изображение штрих-кода с текущими настройками. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save#save_1)(string) | Сохранить изображение штрих-кода в указанный файл. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save#save)(Stream, BarCodeImageFormat) | Сохранить изображение штрих-кода в потоке в определенном формате. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save#save_2)(string, BarCodeImageFormat) | Сохранить изображение штрих-кода в определенный файл в определенном формате. |

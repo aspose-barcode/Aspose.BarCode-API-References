@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее отличается ли первое значениеQuadrangleaspose.barcode.barcoderecognition/quadrangleот второго.
+description: Возвращает значение указывающее был ли первыйQuadrangleaspose.barcode.barcoderecognition/quadrangle значение отличается от второго.
 type: docs
 weight: 140
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/op_inequality/
 ---
 ## Quadrangle Inequality operator
 
-Возвращает значение, указывающее, отличается ли первое значение[`Quadrangle`](../../quadrangle)от второго.
+Возвращает значение, указывающее, был ли первый[`Quadrangle`](../../quadrangle) значение отличается от второго.
 
 ```csharp
 public static bool operator !=(Quadrangle first, Quadrangle second)
@@ -17,11 +17,11 @@ public static bool operator !=(Quadrangle first, Quadrangle second)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | Quadrangle | Первое сравниваемое значение |
-| second | Quadrangle | Второе сравниваемое значение значение |
+| second | Quadrangle | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет значение, отличное от второго; в противном случае **false** .
+**истинный** если первое имеет значение, отличное от второго; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

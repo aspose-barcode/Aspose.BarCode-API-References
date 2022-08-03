@@ -1,14 +1,14 @@
 ---
 title: Code16KQuietZoneLeftCoefProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: Code16KQuietZoneLeftCoefProperty
+description: Code16KQuietZoneLeftCoef属性
 type: docs
 weight: 1410
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/code16kquietzoneleftcoefproperty/
 ---
 ## BarcodeGeneratorElement.Code16KQuietZoneLeftCoefProperty field
 
-Code16KQuietZoneLeftCoefProperty
+Code16KQuietZoneLeftCoef属性
 
 ```csharp
 public static DependencyProperty Code16KQuietZoneLeftCoefProperty;

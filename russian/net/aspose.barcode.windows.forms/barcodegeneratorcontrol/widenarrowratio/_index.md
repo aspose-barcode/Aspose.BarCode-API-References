@@ -1,14 +1,14 @@
 ---
 title: WideNarrowRatio
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Соотношение широких и узких полос. Значение по умолчанию3 то есть широкие полосы в 3 раза шире узких. Используется для ITF PZN PharmaCode Standard2of5 Interleaved2of5 Matrix2of5 ItalianPost25 IATA2of5 VIN DeutschePost OPC Code32 DataLogic2of5 PatchCode Code39Extended Code39Standard
+description: Соотношение широких и узких столбцов. Значение по умолчанию 3 то есть широкие столбцы в 3 раза шире узких. Используется для ITF PZN PharmaCode Standard2of5 Interleaved2of5 Matrix2of5 ItalianPost25 IATA2of5 VIN DeutschePost  OPC Code32 DataLogic2of5 PatchCode Code39Extended Code39Standard
 type: docs
 weight: 240
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/widenarrowratio/
 ---
 ## BarCodeGeneratorControl.WideNarrowRatio property
 
-Соотношение широких и узких полос. Значение по умолчанию:3, то есть широкие полосы в 3 раза шире узких. Используется для ITF, PZN, PharmaCode, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, VIN, DeutschePost, OPC, Code32, DataLogic2of5, PatchCode, Code39Extended, Code39Standard
+Соотношение широких и узких столбцов. Значение по умолчанию: 3, то есть широкие столбцы в 3 раза шире узких. Используется для ITF, PZN, PharmaCode, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, VIN, DeutschePost , OPC, Code32, DataLogic2of5, PatchCode, Code39Extended, Code39Standard
 
 ```csharp
 public float WideNarrowRatio { get; set; }
@@ -18,7 +18,7 @@ public float WideNarrowRatio { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [BarCodeException](../../../aspose.barcode/barcodeexception) | Значение параметра **WideNarrowRatio** равно меньше или равно 0. |
+| [BarCodeException](../../../aspose.barcode/barcodeexception) | **ШирокийУзкийСоотношение** значение параметра меньше или равно 0. |
 
 ### Смотрите также
 

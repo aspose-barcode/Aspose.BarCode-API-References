@@ -18,11 +18,11 @@ public enum QREncodeMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 将代码文本编码为非 Unicode 字符集。如果有任何 Unicode 字符，则代码文本将使用 CodeTextEncoding 中设置的值进行编码。 |
+| Auto | `0` | 将代码文本编码为非 Unicode 字符集。如果有任何 Unicode 字符，则代码文本将使用 CodeTextEncoding. 中设置的值进行编码 |
 | Bytes | `1` | 将代码文本编码为纯字节。如果它检测到任何 Unicode 字符，该字符将被编码为两个字节，低字节在前。 |
 | Utf8BOM | `2` | 使用带有第一个 ByteOfMark 字符的 UTF8 编码对代码文本进行编码。 |
 | Utf16BEBOM | `3` | 使用带有第一个 ByteOfMark 字符的 UTF8 编码对代码文本进行编码。某些条码扫描仪可能会出现问题。 |
-| ECIEncoding | `4` | 使用 ECIEncoding 属性中设置的值对代码文本进行编码。一些旧的（2006 年之前）条码扫描仪可能会出现问题。 |
+| ECIEncoding | `4` | 使用 ECIEncoding 属性中设置的值对代码文本进行编码。一些旧的（2006 年之前）条形码扫描仪可能会出现问题。 |
 | ExtendedCodetext | `5` | 扩展通道模式，支持FNC1第一位置、FNC1第二位置和多种ECI模式。 |
 
 ### 也可以看看

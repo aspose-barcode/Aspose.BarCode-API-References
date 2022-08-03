@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее отличается ли первое значениеOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparametersот второго.
+description: Возвращает значение указывающее был ли первыйOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters значение отличается от второго.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality/
 ---
 ## OneDExtendedParameters Inequality operator
 
-Возвращает значение, указывающее, отличается ли первое значение[`OneDExtendedParameters`](../../onedextendedparameters)от второго.
+Возвращает значение, указывающее, был ли первый[`OneDExtendedParameters`](../../onedextendedparameters) значение отличается от второго.
 
 ```csharp
 public static bool operator !=(OneDExtendedParameters first, OneDExtendedParameters second)
@@ -17,11 +17,11 @@ public static bool operator !=(OneDExtendedParameters first, OneDExtendedParamet
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | OneDExtendedParameters | Первое сравниваемое значение |
-| second | OneDExtendedParameters | Второе сравниваемое значение значение |
+| second | OneDExtendedParameters | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет значение, отличное от второго; в противном случае **false** .
+**истинный** если первое имеет значение, отличное от второго; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

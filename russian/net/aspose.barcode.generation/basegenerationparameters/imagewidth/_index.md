@@ -1,14 +1,14 @@
 ---
 title: ImageWidth
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Ширина изображения штрих-кода когда свойствоAutoSizeModeaspose.barcode.generation/basegenerationparameters/autosizemodeустановлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+description: Ширина изображения штрих-кода приAutoSizeModeaspose.barcode.generation/basegenerationparameters/autosizemode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.generation/basegenerationparameters/imagewidth/
 ---
 ## BaseGenerationParameters.ImageWidth property
 
-Ширина изображения штрих-кода, когда свойство[`AutoSizeMode`](../autosizemode)установлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+Ширина изображения штрих-кода при[`AutoSizeMode`](../autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit ImageWidth { get; set; }

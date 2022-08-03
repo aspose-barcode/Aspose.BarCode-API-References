@@ -1,14 +1,14 @@
 ---
 title: MailmarkCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 用于对嵌入在 4 州皇家邮政编码中的文本进行编码和解码的类
+description: 用于编码和解码嵌入在 4 州 Royal Mailmark 代码中的文本的类
 type: docs
 weight: 380
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/
 ---
 ## MailmarkCodetext class
 
-用于对嵌入在 4 州皇家邮政编码中的文本进行编码和解码的类。
+用于编码和解码嵌入在 4 州 Royal Mailmark 代码中的文本的类。
 
 ```csharp
 public sealed class MailmarkCodetext : IComplexCodetext
@@ -24,12 +24,12 @@ public sealed class MailmarkCodetext : IComplexCodetext
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class) { get; set; } | "0" - Null 或测试 "1" - 1C（零售） "2" - 2C (零售） "3" - 3C（零售） "4" - 高级（零售出版邮件）（供将来使用） "5" -延迟（零售） "6" - 空气（零售）（未来可能使用） "7" - 表面（零售）（未来可能使用） "8" - 高级（网络访问） "9" - 标准（网络访问） |
-| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps) { get; set; } | PC 和 DP 必须符合 PAF 格式。 表示国际“XY11”的九个字符串（注意后面的 5 个空格）或表示国内排序代码的字符模式 。 国内分拣编码由外向邮政编码、内向邮政编码和交货点后缀组成。 |
-| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format) { get; set; } | "0" – Null 或测试 "1" – 字母 "2" – 大字母 |
-| [ItemID](../../aspose.barcode.complexbarcode/mailmarkcodetext/itemid) { get; set; } | 最大值为 99999999。 |
+| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class) { get; set; } | “0” - 空或测试 “1” - 1C（零售） “2” - 2C（零售） “3” - 3C（零售） “4” - 高级（零售出版邮件）（供将来可能使用） “5” - 延期（零售） “6” - 空中（零售）（供将来可能使用） “7” - 表面（零售）（供将来可能使用） “8” - 高级（网络访问） “9” - 标准（网络访问） |
+| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps) { get; set; } | PC 和 DP 必须符合 PAF 格式。 九个字符串表示国际“XY11”（注意后面的 5 个空格）或一个模式 表示国内分拣代码的字符。 国内分拣代码由一个向外的邮政编码组成，向内邮政编码和交货点后缀. |
+| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format) { get; set; } | “0” - 空或测试 “1” - 字母 “2” - 大字母 |
+| [ItemID](../../aspose.barcode.complexbarcode/mailmarkcodetext/itemid) { get; set; } | 最大值为 99999999. |
 | [SupplychainID](../../aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid) { get; set; } | 条形码 C 的最大值为 99，条形码 L 的最大值为 999999。 |
-| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid) { get; set; } | 当前为“1” – 用于 Mailmark 条形码（0 和 2 到 9 和 A 到 Z 备用以供将来使用） |
+| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid) { get; set; } | 当前为“1” – 用于 Mailmark 条形码（0 和 2 到 9 以及 A 到 Z 备用以供将来使用） |
 
 ## 方法
 
@@ -37,7 +37,7 @@ public sealed class MailmarkCodetext : IComplexCodetext
 | --- | --- |
 | [GetBarcodeType](../../aspose.barcode.complexbarcode/mailmarkcodetext/getbarcodetype)() | 获取条码类型。 |
 | [GetConstructedCodetext](../../aspose.barcode.complexbarcode/mailmarkcodetext/getconstructedcodetext)() | 从 Mailmark 数据构造代码文本。 |
-| [InitFromString](../../aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring)(string) | 从构造的代码文本中初始化 Mailmark 数据。 |
+| [InitFromString](../../aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring)(string) | 从构造的代码文本初始化 Mailmark 数据。 |
 
 ### 也可以看看
 

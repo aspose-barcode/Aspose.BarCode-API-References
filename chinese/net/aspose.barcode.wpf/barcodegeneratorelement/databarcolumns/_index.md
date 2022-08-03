@@ -1,14 +1,14 @@
 ---
 title: DataBarColumns
 second_title: Aspose.BarCode for .NET API 参考
-description: DataBar 列数
+description: DataBar 列计数
 type: docs
 weight: 540
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/databarcolumns/
 ---
 ## BarcodeGeneratorElement.DataBarColumns property
 
-DataBar 列数。
+DataBar 列计数。
 
 ```csharp
 public int DataBarColumns { get; set; }

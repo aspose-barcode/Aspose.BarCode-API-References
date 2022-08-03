@@ -1,14 +1,14 @@
 ---
 title: SpecificParametersUI
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Специальные параметры.
+description: Особые параметры.
 type: docs
 weight: 1120
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class
 
-Специальные параметры.
+Особые параметры.
 
 ```csharp
 public class SpecificParametersUI
@@ -18,27 +18,27 @@ public class SpecificParametersUI
 
 | Имя | Описание |
 | --- | --- |
-| [AustralianPost](../../aspose.barcode.windows.forms/specificparametersui/australianpost) { get; } | Получает или задает параметры AustralianPostAustralanPostParameters. Используется для почты Австралии. |
-| [Aztec](../../aspose.barcode.windows.forms/specificparametersui/aztec) { get; } | Получает или устанавливает параметры Aztec[`AztecParameters`](../../aspose.barcode.generation/aztecparameters). Используется для ацтеков. |
-| [Codabar](../../aspose.barcode.windows.forms/specificparametersui/codabar) { get; } | Получает или устанавливает параметры Codabar[`CodabarParameters`](../../aspose.barcode.generation/codabarparameters). Используется для Codabar. |
-| [Codablock](../../aspose.barcode.windows.forms/specificparametersui/codablock) { get; } | Получает или устанавливает параметры Codablock[`CodablockParameters`](../../aspose.barcode.generation/codablockparameters). Используется для CodablockF. |
-| [Code16K](../../aspose.barcode.windows.forms/specificparametersui/code16k) { get; } | Получает или устанавливает параметры Code16K[`Code16KParameters`](../../aspose.barcode.generation/code16kparameters). Используется для Code16K. |
-| [Coupon](../../aspose.barcode.windows.forms/specificparametersui/coupon) { get; } | Получает или устанавливает параметры купона[`CouponParameters`](../../aspose.barcode.generation/couponparameters). Используется для UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
-| [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar) { get; } | Получает или устанавливает параметры DataBar[`DataBarParameters`](../../aspose.barcode.generation/databarparameters). Используется для символик DataBar. |
-| [DataMatrix](../../aspose.barcode.windows.forms/specificparametersui/datamatrix) { get; } | Получает или задает параметры DataMatrix[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters). Используется для DataMatrix. |
-| [DotCode](../../aspose.barcode.windows.forms/specificparametersui/dotcode) { get; } | Получает или устанавливает параметры DotCode[`DotCodeParameters`](../../aspose.barcode.generation/dotcodeparameters). Используется для DotCode. |
-| [ITF](../../aspose.barcode.windows.forms/specificparametersui/itf) { get; } | Получает или задает параметры ITF[`ITFParameters`](../../aspose.barcode.generation/itfparameters). Используется для ITF6, ITF14. |
-| [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode) { get; } | Получает или устанавливает параметры MaxiCode[`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters). Используется для MaxiCode. |
-| [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417) { get; } | Получает или задает параметры Pdf417[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters). Используется для Pdf417. |
-| [Postal](../../aspose.barcode.windows.forms/specificparametersui/postal) { get; } | Получает или устанавливает параметры Postal[`PostalParameters`](../../aspose.barcode.generation/postalparameters). Используется для Postnet, Planet. |
-| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr) { get; } | Получает или устанавливает параметры QR[`QrParameters`](../../aspose.barcode.generation/qrparameters). Используется для QR. |
-| [Supplement](../../aspose.barcode.windows.forms/specificparametersui/supplement) { get; } | Получает или задает параметры дополнения[`SupplementParameters`](../../aspose.barcode.generation/supplementparameters). Используется для Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
+| [AustralianPost](../../aspose.barcode.windows.forms/specificparametersui/australianpost) { get; } | Получает или задает параметры AustralianPost[`AustralianPostParameters`](../../aspose.barcode.generation/australianpostparameters) . Используется для почты Австралии. |
+| [Aztec](../../aspose.barcode.windows.forms/specificparametersui/aztec) { get; } | Получает или задает параметры Aztec[`AztecParameters`](../../aspose.barcode.generation/aztecparameters) . Используется для ацтеков. |
+| [Codabar](../../aspose.barcode.windows.forms/specificparametersui/codabar) { get; } | Получает или задает параметры Codabar[`CodabarParameters`](../../aspose.barcode.generation/codabarparameters) . Используется для Codabar. |
+| [Codablock](../../aspose.barcode.windows.forms/specificparametersui/codablock) { get; } | Получает или устанавливает параметры Codablock[`CodablockParameters`](../../aspose.barcode.generation/codablockparameters) . Используется для CodablockF. |
+| [Code16K](../../aspose.barcode.windows.forms/specificparametersui/code16k) { get; } | Получает или задает параметры Code16K[`Code16KParameters`](../../aspose.barcode.generation/code16kparameters) . Используется для Code16K. |
+| [Coupon](../../aspose.barcode.windows.forms/specificparametersui/coupon) { get; } | Получает или задает параметры купона[`CouponParameters`](../../aspose.barcode.generation/couponparameters) . Используется для UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
+| [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar) { get; } | Получает или задает параметры DataBar[`DataBarParameters`](../../aspose.barcode.generation/databarparameters) . Используется для символов DataBar. |
+| [DataMatrix](../../aspose.barcode.windows.forms/specificparametersui/datamatrix) { get; } | Получает или задает параметры DataMatrix[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters) . Используется для DataMatrix. |
+| [DotCode](../../aspose.barcode.windows.forms/specificparametersui/dotcode) { get; } | Получает или задает параметры DotCode[`DotCodeParameters`](../../aspose.barcode.generation/dotcodeparameters) . Используется для DotCode. |
+| [ITF](../../aspose.barcode.windows.forms/specificparametersui/itf) { get; } | Получает или устанавливает параметры ITF[`ITFParameters`](../../aspose.barcode.generation/itfparameters) . Используется для ITF6, ITF14. |
+| [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode) { get; } | Получает или задает параметры MaxiCode[`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters) . Используется для MaxiCode. |
+| [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417) { get; } | Получает или задает параметры Pdf417[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters) . Используется для PDF417. |
+| [Postal](../../aspose.barcode.windows.forms/specificparametersui/postal) { get; } | Получает или задает параметры Postal[`PostalParameters`](../../aspose.barcode.generation/postalparameters). Используется для Postnet, Planet. |
+| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr) { get; } | Получает или устанавливает параметры QR[`QrParameters`](../../aspose.barcode.generation/qrparameters) . Используется для QR. |
+| [Supplement](../../aspose.barcode.windows.forms/specificparametersui/supplement) { get; } | Получает или задает параметры дополнения[`SupplementParameters`](../../aspose.barcode.generation/supplementparameters) . Используется для Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/specificparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`SpecificParametersUI`](../specificparametersui). |
+| override [ToString](../../aspose.barcode.windows.forms/specificparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`SpecificParametersUI`](../specificparametersui) . |
 
 ### Смотрите также
 

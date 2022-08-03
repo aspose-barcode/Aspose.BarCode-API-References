@@ -1,14 +1,14 @@
 ---
 title: GetExtendedCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 从生成项列表生成扩展代码文本
+description: 从生成项列表中生成扩展代码文本
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/extcodetextbuilder/getextendedcodetext/
 ---
 ## ExtCodetextBuilder.GetExtendedCodetext method
 
-从生成项列表生成扩展代码文本
+从生成项列表中生成扩展代码文本
 
 ```csharp
 public abstract string GetExtendedCodetext()
@@ -16,7 +16,7 @@ public abstract string GetExtendedCodetext()
 
 ### 返回值
 
-返回扩展代码文本字符串
+返回扩展代码文本的字符串
 
 ### 也可以看看
 

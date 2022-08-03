@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparametersзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters значение.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/onedextendedparameters/equals/
 ---
 ## OneDExtendedParameters.Equals method
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`OneDExtendedParameters`](../../onedextendedparameters)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`OneDExtendedParameters`](../../onedextendedparameters) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

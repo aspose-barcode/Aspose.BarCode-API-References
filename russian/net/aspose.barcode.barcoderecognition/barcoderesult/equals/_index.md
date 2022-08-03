@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуBarCodeResultaspose.barcode.barcoderecognition/barcoderesultзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуBarCodeResultaspose.barcode.barcoderecognition/barcoderesult значение.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/equals/
 ---
 ## Equals(BarCodeResult) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeResult`](../../barcoderesult)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeResult`](../../barcoderesult) значение.
 
 ```csharp
 public bool Equals(BarCodeResult other)
@@ -16,11 +16,11 @@ public bool Equals(BarCodeResult other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | BarCodeResult | Значение[`BarCodeResult`](../../barcoderesult)для сравнения с этим экземпляром. |
+| other | BarCodeResult | Ан[`BarCodeResult`](../../barcoderesult) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Equals(BarCodeResult other)
 
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeResult`](../../barcoderesult)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeResult`](../../barcoderesult) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EAN13
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью EAN-13 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с EAN-13 спецификация штрих-кода
 type: docs
 weight: 280
 url: /ru/net/aspose.barcode.generation/encodetypes/ean13/
 ---
 ## EncodeTypes.EAN13 field
 
-Указывает, что данные должны быть закодированы с помощью **EAN-13** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **EAN-13** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType EAN13;

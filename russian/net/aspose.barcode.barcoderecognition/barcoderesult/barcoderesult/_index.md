@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Создает копию классаBarCodeResultaspose.barcode.barcoderecognition/barcoderesult.
+description: Создает копиюBarCodeResultaspose.barcode.barcoderecognition/barcoderesult класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/barcoderesult/
 ---
 ## BarCodeResult constructor
 
-Создает копию класса[`BarCodeResult`](../../barcoderesult).
+Создает копию[`BarCodeResult`](../../barcoderesult) класс.
 
 ```csharp
 public BarCodeResult(BarCodeResult result)
@@ -16,7 +16,7 @@ public BarCodeResult(BarCodeResult result)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| result | BarCodeResult | Копия[`BarCodeResult`](../../barcoderesult)экземпляр. |
+| result | BarCodeResult | Копия[`BarCodeResult`](../../barcoderesult)пример. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PatchCodePatchFormat
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Формат PatchCode. Выберите PatchOnly чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ.
+description: Формат патчкода. Выберите PatchOnly чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ.
 type: docs
 weight: 750
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformat/
 ---
 ## BarcodeGeneratorElement.PatchCodePatchFormat property
 
-Формат PatchCode. Выберите PatchOnly, чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ.
+Формат патчкода. Выберите PatchOnly, чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ.
 
 ```csharp
 public PatchFormat PatchCodePatchFormat { get; set; }

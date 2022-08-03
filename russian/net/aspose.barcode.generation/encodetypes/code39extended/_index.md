@@ -1,14 +1,14 @@
 ---
 title: Code39Extended
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью Extended CODE 39 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с Расширенный КОД 39 спецификация штрих-кода
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.generation/encodetypes/code39extended/
 ---
 ## EncodeTypes.Code39Extended field
 
-Указывает, что данные должны быть закодированы с помощью **Extended CODE 39** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **Расширенный КОД 39** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Code39Extended;

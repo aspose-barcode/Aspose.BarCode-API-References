@@ -1,14 +1,14 @@
 ---
 title: AddECICodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 添加带有扩展通道标识符的代码文本
+description: 添加带有扩展频道标识符的代码文本
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/extcodetextbuilder/addecicodetext/
 ---
 ## ExtCodetextBuilder.AddECICodetext method
 
-添加带有扩展通道标识符的代码文本
+添加带有扩展频道标识符的代码文本
 
 ```csharp
 public void AddECICodetext(ECIEncodings ECIEncoding, string codetext)
@@ -16,8 +16,8 @@ public void AddECICodetext(ECIEncodings ECIEncoding, string codetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ECIEncoding | ECIEncodings | 扩展通道标识符 |
-| codetext | String | Unicode 中的代码文本，作为扩展的代码文本项添加，带有扩展通道标识符 |
+| ECIEncoding | ECIEncodings | 扩展频道标识符 |
+| codetext | String | unicode 中的代码文本添加为具有扩展通道标识符的扩展代码文本项 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MSI
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 MSI Plessey 条码规范 解码
+description: 指定数据应该被解码 微星普莱西条码规格
 type: docs
 weight: 520
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/msi/
 ---
 ## DecodeType.MSI field
 
-指定数据应使用 **MSI Plessey** 条码规范 解码
+指定数据应该被解码 **微星普莱西**条码规格
 
 ```csharp
 public static readonly SingleDecodeType MSI;

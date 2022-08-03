@@ -1,14 +1,14 @@
 ---
 title: Space
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Пробел между CodeText и BarCode в значенииUnitaspose.barcode.generation/unit. Значение по умолчанию2pt. Игнорируется для EAN8 EAN13 UPCE UPCA ISBN ISMN ISSN UpcaGs1DatabarCoupon.
+description: Пробел между CodeText и BarCode вUnitaspose.barcode.generation/unitvalue. Значение по умолчанию 2pt. Игнорируется для EAN8 EAN13 UPCE UPCA ISBN ISMN ISSN UpcaGs1DatabarCoupon.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/codetextparametersui/space/
 ---
 ## CodetextParametersUI.Space property
 
-Пробел между CodeText и BarCode в значении[`Unit`](../../../aspose.barcode.generation/unit). Значение по умолчанию:2pt. Игнорируется для EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon.
+Пробел между CodeText и BarCode в[`Unit`](../../../aspose.barcode.generation/unit)value. Значение по умолчанию: 2pt. Игнорируется для EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon.
 
 ```csharp
 public Unit Space { get; }

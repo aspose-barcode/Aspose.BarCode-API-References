@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroAddressee
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Имя адресата штрих-кода MacroPdf417 необязательное поле. Имя получателя штрих-кода MicroPDF417 необязательное поле для режима структурированного добавления
+description: Имя адресата штрих-кода MacroPdf417 необязательное поле. Имя адресата штрих-кода MicroPDF417 необязательное поле для режима структурированного добавления
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417macroaddressee/
 ---
 ## Pdf417Parameters.Pdf417MacroAddressee property
 
-Имя адресата штрих-кода MacroPdf417 (необязательное поле). Имя получателя штрих-кода MicroPDF417 (необязательное поле для режима структурированного добавления)
+Имя адресата штрих-кода MacroPdf417 (необязательное поле). Имя адресата штрих-кода MicroPDF417 (необязательное поле для режима структурированного добавления)
 
 ```csharp
 public string Pdf417MacroAddressee { get; set; }

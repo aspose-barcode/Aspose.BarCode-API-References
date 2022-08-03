@@ -1,14 +1,14 @@
 ---
 title: Standard2of5
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Standard 2 of 5 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Стандарт 2 из 5 спецификация штрих-кода
 type: docs
 weight: 670
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/standard2of5/
 ---
 ## DecodeType.Standard2of5 field
 
-Указывает, что данные должны быть декодированы с **Standard 2 of 5** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Стандарт 2 из 5** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Standard2of5;

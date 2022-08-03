@@ -20,7 +20,7 @@ public static class BuildVersionInfo
 | --- | --- |
 | static readonly [AssemblyVersion](../../aspose.barcode/buildversioninfo/assemblyversion) | 程序集版本。 |
 | static readonly [FileVersion](../../aspose.barcode/buildversioninfo/fileversion) | 文件版本。 |
-| static readonly [Product](../../aspose.barcode/buildversioninfo/product) | 产品标题。 |
+| static readonly [Product](../../aspose.barcode/buildversioninfo/product) | 产品名称。 |
 | static readonly [ProductMajor](../../aspose.barcode/buildversioninfo/productmajor) | 主要产品版本。 |
 | static readonly [ProductMinor](../../aspose.barcode/buildversioninfo/productminor) | 次要产品版本。 |
 | static readonly [ReleaseDate](../../aspose.barcode/buildversioninfo/releasedate) | 产品发布日期。 |

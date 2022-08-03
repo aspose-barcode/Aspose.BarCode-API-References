@@ -1,14 +1,14 @@
 ---
 title: QrErrorLevel
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Уровень исправления ошибок Рида-Соломона для штрих-кода QR. От низкого к высокомуУровеньL УровеньM УровеньQ УровеньH. см. QRErrorLevel.
+description: Уровень коррекции ошибки Рида-Соломона для штрих-кода QR. От низкого к высокому LevelL LevelM LevelQ LevelH. см. QRErrorLevel.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/qrparameters/qrerrorlevel/
 ---
 ## QrParameters.QrErrorLevel property
 
-Уровень исправления ошибок Рида-Соломона для штрих-кода QR. От низкого к высокому:УровеньL, УровеньM, УровеньQ, УровеньH. см. QRErrorLevel.
+Уровень коррекции ошибки Рида-Соломона для штрих-кода QR. От низкого к высокому: LevelL, LevelM, LevelQ, LevelH. см. QRErrorLevel.
 
 ```csharp
 public QRErrorLevel QrErrorLevel { get; set; }

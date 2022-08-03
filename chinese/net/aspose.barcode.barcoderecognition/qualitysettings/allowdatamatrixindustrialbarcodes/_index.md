@@ -1,14 +1,14 @@
 ---
 title: AllowDatamatrixIndustrialBarcodes
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许 Datamatrix 引擎识别虚线工业 Datamatrix 条码 慢速模式仅适用于由斑点组成的虚线条码
+description: 允许 Datamatrix 引擎识别虚线工业 Datamatrix 条形码 慢速模式仅适用于由斑点组成的虚线条码
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowdatamatrixindustrialbarcodes/
 ---
 ## QualitySettings.AllowDatamatrixIndustrialBarcodes property
 
-允许 Datamatrix 引擎识别虚线工业 Datamatrix 条码。 慢速模式，仅适用于由斑点组成的虚线条码。
+允许 Datamatrix 引擎识别虚线工业 Datamatrix 条形码。 慢速模式，仅适用于由斑点组成的虚线条码。
 
 ```csharp
 public bool AllowDatamatrixIndustrialBarcodes { get; set; }
@@ -16,7 +16,7 @@ public bool AllowDatamatrixIndustrialBarcodes { get; set; }
 
 ### 适当的价值
 
-允许 Datamatrix 引擎识别虚线工业条码。
+允许 Datamatrix 引擎识别虚线工业条形码。
 
 ### 也可以看看
 

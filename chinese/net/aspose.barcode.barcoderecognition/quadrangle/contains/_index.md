@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.BarCode for .NET API 参考
-description: 确定指定的Point是否包含在此Quadrangle类
+description: 确定是否指定Point包含在这个Quadrangleaspose.barcode.barcoderecognition/quadrangle类.
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/contains/
 ---
 ## Contains(Point) {#contains_2}
 
-确定指定的Point是否包含在此Quadrangle类。
+确定是否指定Point包含在这个[`Quadrangle`](../../quadrangle)类.
 
 ```csharp
 public bool Contains(Point pt)
@@ -16,11 +16,11 @@ public bool Contains(Point pt)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pt | Point | Point进行测试。 |
+| pt | Point | 这Point去测试。 |
 
 ### 返回值
 
-返回 **true** ifPoint包含在这个[`Quadrangle`](../../quadrangle)类中；否则， **false** 。
+退货 **真的**如果Point包含在这个[`Quadrangle`](../../quadrangle)班级;否则， **错误的**.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Contains(Point pt)
 
 ## Contains(int, int) {#contains_1}
 
-确定指定点是否包含在此[`Quadrangle`](../../quadrangle)类中。
+确定指定点是否包含在此范围内[`Quadrangle`](../../quadrangle)类.
 
 ```csharp
 public bool Contains(int x, int y)
@@ -40,12 +40,12 @@ public bool Contains(int x, int y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Int32 | x 点坐标。 |
+| x | Int32 | 点坐标。 |
 | y | Int32 | y 点坐标。 |
 
 ### 返回值
 
-返回 **true** 如果点包含在此Quadrangle类；否则， **false** 。
+退货 **真的**如果点包含在这个[`Quadrangle`](../../quadrangle)班级;否则， **错误的**.
 
 ### 也可以看看
 
@@ -57,7 +57,7 @@ public bool Contains(int x, int y)
 
 ## Contains(Quadrangle) {#contains}
 
-确定指定的[`Quadrangle`](../../quadrangle)是否包含或与此Quadrangle类。
+确定是否指定[`Quadrangle`](../../quadrangle)包含或与此相交[`Quadrangle`](../../quadrangle)类.
 
 ```csharp
 public bool Contains(Quadrangle quad)
@@ -65,11 +65,11 @@ public bool Contains(Quadrangle quad)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| quad | Quadrangle | [`Quadrangle`](../../quadrangle)进行测试。 |
+| quad | Quadrangle | 这[`Quadrangle`](../../quadrangle)去测试。 |
 
 ### 返回值
 
-返回 **true** if[`Quadrangle`](../../quadrangle)包含或相交此[`Quadrangle`](../../quadrangle)类；否则， **false** 。
+退货 **真的**如果[`Quadrangle`](../../quadrangle)包含或与此相交[`Quadrangle`](../../quadrangle)班级;否则， **错误的**.
 
 ### 也可以看看
 
@@ -81,7 +81,7 @@ public bool Contains(Quadrangle quad)
 
 ## Contains(Rectangle) {#contains_3}
 
-确定指定的Rectangle是否包含或与此Quadrangle类。
+确定是否指定Rectangle包含或与此相交[`Quadrangle`](../../quadrangle)类.
 
 ```csharp
 public bool Contains(Rectangle rect)
@@ -89,11 +89,11 @@ public bool Contains(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | Rectangle进行测试。 |
+| rect | Rectangle | 这Rectangle去测试。 |
 
 ### 返回值
 
-返回 **true** ifRectangle包含或相交此[`Quadrangle`](../../quadrangle)类；否则， **false** 。
+退货 **真的**如果Rectangle包含或与此相交[`Quadrangle`](../../quadrangle)班级;否则， **错误的**.
 
 ### 也可以看看
 

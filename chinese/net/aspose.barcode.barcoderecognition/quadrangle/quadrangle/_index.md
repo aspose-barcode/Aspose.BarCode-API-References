@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Aspose.BarCode for .NET API 参考
-description: 初始化Quadrangleaspose.barcode.barcoderecognition/quadrangle类的新空实例
+description: 初始化一个新的空实例Quadrangleaspose.barcode.barcoderecognition/quadrangle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/quadrangle/
 ---
 ## Quadrangle() {#constructor}
 
-初始化[`Quadrangle`](../../quadrangle)类的新空实例。
+初始化一个新的空实例[`Quadrangle`](../../quadrangle)类.
 
 ```csharp
 public Quadrangle()
@@ -24,7 +24,7 @@ public Quadrangle()
 
 ## Quadrangle(Point, Point, Point, Point) {#constructor_1}
 
-使用描述点初始化[`Quadrangle`](../../quadrangle)类的新实例。
+初始化[`Quadrangle`](../../quadrangle)具有描述点的类。
 
 ```csharp
 public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBottom)
@@ -32,10 +32,10 @@ public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| leftTop | Point | APoint表示左上角四边形。 |
-| rightTop | Point | APoint表示四边形的右上角。 |
-| rightBottom | Point | APoint表示四边形的右下角。 |
-| leftBottom | Point | APoint表示四边形的左下角。 |
+| leftTop | Point | 一个Point表示四边形的左上角。 |
+| rightTop | Point | 一个Point表示四边形的右上角。 |
+| rightBottom | Point | 一个Point表示四边形的右下角。 |
+| leftBottom | Point | 一个Point表示四边形的左下角。 |
 
 ### 也可以看看
 

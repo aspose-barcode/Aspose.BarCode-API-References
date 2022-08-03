@@ -1,14 +1,14 @@
 ---
 title: InitFromString
 second_title: Aspose.BarCode for .NET API 参考
-description: 从构造的代码文本中初始化 Mailmark 数据
+description: 从构造的代码文本初始化 Mailmark 数据
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring/
 ---
 ## MailmarkCodetext.InitFromString method
 
-从构造的代码文本中初始化 Mailmark 数据。
+从构造的代码文本初始化 Mailmark 数据。
 
 ```csharp
 public void InitFromString(string constructedCodetext)
@@ -16,7 +16,7 @@ public void InitFromString(string constructedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constructedCodetext | String | 构造代码文本。 |
+| constructedCodetext | String | 构造的代码文本。 |
 
 ### 也可以看看
 

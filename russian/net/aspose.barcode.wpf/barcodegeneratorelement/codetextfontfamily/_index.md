@@ -1,14 +1,14 @@
 ---
 title: CodeTextFontFamily
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Семейство шрифтов Codetext.
+description: Семейство шрифтов кодового текста.
 type: docs
 weight: 430
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextfontfamily/
 ---
 ## BarcodeGeneratorElement.CodeTextFontFamily property
 
-Семейство шрифтов Codetext.
+Семейство шрифтов кодового текста.
 
 ```csharp
 public FontFamily CodeTextFontFamily { get; set; }

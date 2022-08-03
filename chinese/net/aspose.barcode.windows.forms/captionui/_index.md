@@ -1,14 +1,14 @@
 ---
 title: CaptionUI
 second_title: Aspose.BarCode for .NET API 参考
-description: CaptionParameters../aspose.barcode.generation/captionparameters类的 UI 包装器
+description: UI 包装器CaptionParameters../aspose.barcode.generation/captionparameters类.
 type: docs
 weight: 1060
 url: /zh/net/aspose.barcode.windows.forms/captionui/
 ---
 ## CaptionUI class
 
-[`CaptionParameters`](../../aspose.barcode.generation/captionparameters)类的 UI 包装器。
+UI 包装器[`CaptionParameters`](../../aspose.barcode.generation/captionparameters)类.
 
 ```csharp
 public sealed class CaptionUI
@@ -18,18 +18,18 @@ public sealed class CaptionUI
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.barcode.windows.forms/captionui/alignment) { get; set; } | 获取或设置标题的文本[`对齐`](../../aspose.barcode.generation/textalignment) 。 |
-| [Color](../../aspose.barcode.windows.forms/captionui/color) { get; set; } | 获取或设置 前景色 的 [`标题`](../../aspose.barcode.generation/captionparameters). |
-| [Font](../../aspose.barcode.windows.forms/captionui/font) { get; set; } | 获取或设置 字体 的 标题. |
-| [Padding](../../aspose.barcode.windows.forms/captionui/padding) { get; } | 获取或设置字幕填充[`Padding`](../../aspose.barcode.generation/padding)。 |
-| [Text](../../aspose.barcode.windows.forms/captionui/text) { get; set; } | 获取或设置标题的内容。 |
-| [Visible](../../aspose.barcode.windows.forms/captionui/visible) { get; set; } | 获取或设置一个值，表示[`标题`](../../aspose.barcode.generation/captionparameters) 是否为可见的。 |
+| [Alignment](../../aspose.barcode.windows.forms/captionui/alignment) { get; set; } | 获取或设置文本[`结盟`](../../aspose.barcode.generation/textalignment)标题的. |
+| [Color](../../aspose.barcode.windows.forms/captionui/color) { get; set; } | 获取或设置前景色的[`标题`](../../aspose.barcode.generation/captionparameters). |
+| [Font](../../aspose.barcode.windows.forms/captionui/font) { get; set; } | 获取或设置字体的标题. |
+| [Padding](../../aspose.barcode.windows.forms/captionui/padding) { get; } | 获取或设置字幕填充[`Padding`](../../aspose.barcode.generation/padding). |
+| [Text](../../aspose.barcode.windows.forms/captionui/text) { get; set; } | 获取或设置字幕的内容。 |
+| [Visible](../../aspose.barcode.windows.forms/captionui/visible) { get; set; } | 获取或设置一个值，表示是否[`标题`](../../aspose.barcode.generation/captionparameters)可见。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/captionui/tostring)() | 返回此[`CaptionUI`](../captionui)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.windows.forms/captionui/tostring)() | 返回一个人类可读的字符串表示[`CaptionUI`](../captionui). |
 
 ### 也可以看看
 

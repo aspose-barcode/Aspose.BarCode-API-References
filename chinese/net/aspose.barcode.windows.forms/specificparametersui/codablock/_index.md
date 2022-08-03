@@ -1,14 +1,14 @@
 ---
 title: Codablock
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Codablock 参数CodablockParametersaspose.barcode.generation/codablockparameters 用于 CodablockF
+description: 获取或设置 Codablock 参数CodablockParametersaspose.barcode.generation/codablockparameters. 用于 CodablockF.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/codablock/
 ---
 ## SpecificParametersUI.Codablock property
 
-获取或设置 Codablock 参数[`CodablockParameters`](../../../aspose.barcode.generation/codablockparameters)。 用于 CodablockF。
+获取或设置 Codablock 参数[`CodablockParameters`](../../../aspose.barcode.generation/codablockparameters). 用于 CodablockF.
 
 ```csharp
 public CodablockParameters Codablock { get; }

@@ -1,14 +1,14 @@
 ---
 title: DataMatrix
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает параметры DataMatrixDataMatrixParametersaspose.barcode.generation/datamatrixparameters. Используется для DataMatrix.
+description: Получает или задает параметры DataMatrixDataMatrixParametersaspose.barcode.generation/datamatrixparameters . Используется для DataMatrix.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/datamatrix/
 ---
 ## SpecificParametersUI.DataMatrix property
 
-Получает или задает параметры DataMatrix[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters). Используется для DataMatrix.
+Получает или задает параметры DataMatrix[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters) . Используется для DataMatrix.
 
 ```csharp
 public DataMatrixParametersUI DataMatrix { get; }

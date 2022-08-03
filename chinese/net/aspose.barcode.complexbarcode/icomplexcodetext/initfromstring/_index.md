@@ -1,14 +1,14 @@
 ---
 title: InitFromString
 second_title: Aspose.BarCode for .NET API 参考
-description: 用构造的代码文本初始化实例
+description: 使用构造的代码文本初始化实例
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.complexbarcode/icomplexcodetext/initfromstring/
 ---
 ## IComplexCodetext.InitFromString method
 
-用构造的代码文本初始化实例。
+使用构造的代码文本初始化实例。
 
 ```csharp
 public void InitFromString(string constructedCodetext)
@@ -16,7 +16,7 @@ public void InitFromString(string constructedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constructedCodetext | String | 构造代码文本。 |
+| constructedCodetext | String | 构造的代码文本。 |
 
 ### 也可以看看
 

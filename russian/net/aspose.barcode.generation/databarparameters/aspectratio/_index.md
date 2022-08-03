@@ -1,14 +1,14 @@
 ---
 title: AspectRatio
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Соотношение высоты и ширины модуля 2D BarCode. Используется для DataBar с накоплением.
+description: Соотношение высоты и ширины модуля 2D BarCode. Используется для сложенных панелей данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/databarparameters/aspectratio/
 ---
 ## DataBarParameters.AspectRatio property
 
-Соотношение высоты и ширины модуля 2D BarCode. Используется для DataBar с накоплением.
+Соотношение высоты и ширины модуля 2D BarCode. Используется для сложенных панелей данных.
 
 ```csharp
 public float AspectRatio { get; set; }

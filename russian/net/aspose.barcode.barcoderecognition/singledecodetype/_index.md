@@ -1,14 +1,14 @@
 ---
 title: SingleDecodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Одиночный тип декодирования. См. тип декодирования чтобы получить экземпляр.
+description: Одиночный тип декодирования. См. тип декодирования чтобы получить instance.
 type: docs
 weight: 270
 url: /ru/net/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class
 
-Одиночный тип декодирования. См. тип декодирования, чтобы получить экземпляр.
+Одиночный тип декодирования. См. тип декодирования, чтобы получить instance.
 
 ```csharp
 public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeType>
@@ -26,15 +26,15 @@ public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeTy
 | Имя | Описание |
 | --- | --- |
 | static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse)(string) | Преобразует строковое представление имени SingleDecodeType в его экземпляр. |
-| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany)(params BaseDecodeType[]) | Возвращает значение, указывающее, включен ли данный экземпляр в указанный список. |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../basedecodetype)значению. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../multydecodetype)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../singledecodetype)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_2)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../singledecodetype)значению. |
+| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany)(params BaseDecodeType[]) | Возвращает значение, указывающее, включен ли этот экземпляр в указанный список. |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../basedecodetype) значение. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../multydecodetype) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../singledecodetype) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_2)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../singledecodetype) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)() | Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет". |
-| override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring)() | Возвращает имя заданного SingleDecodeType в виде строки. |
-| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)(SingleDecodeType) | Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет". |
+| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)() | Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет". |
+| override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring)() | Возвращает имя данного SingleDecodeType в виде строки. |
+| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)(SingleDecodeType) | Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет". |
 
 ### Примеры
 

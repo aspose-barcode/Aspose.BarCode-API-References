@@ -1,14 +1,14 @@
 ---
 title: ComplexCodetextReader
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ComplexCodetextReader декодирует кодовый текст в заданный тип сложного штрих-кода.
+description: ComplexCodetextReader декодирует кодовый текст в указанный тип сложного штрих-кода.
 type: docs
 weight: 340
 url: /ru/net/aspose.barcode.complexbarcode/complexcodetextreader/
 ---
 ## ComplexCodetextReader class
 
-ComplexCodetextReader декодирует кодовый текст в заданный тип сложного штрих-кода.
+ComplexCodetextReader декодирует кодовый текст в указанный тип сложного штрих-кода.
 
 ```csharp
 public sealed class ComplexCodetextReader
@@ -18,8 +18,8 @@ public sealed class ComplexCodetextReader
 
 | Имя | Описание |
 | --- | --- |
-| static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark)(string) | Декодирует кодовый текст Mailmark Barcode C и L. |
-| static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d)(string) | Декодирует кодовый текст Royal Mail Mailmark 2D. |
+| static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark)(string) | Декодирует штрих-код почтовых марок C и кодовый текст L. |
+| static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d)(string) | Декодирует 2D-кодовый текст Royal Mail Mailmark. |
 | static [TryDecodeSwissQR](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr)(string) | Декодирует кодовый текст SwissQR. |
 
 ### Примеры

@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает размер этого FontUnit в значении Unit.
+description: Получает или задает размер этого FontUnit в значении Unit.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/fontunit/size/
 ---
 ## FontUnit.Size property
 
-Получает или устанавливает размер этого FontUnit в значении Unit.
+Получает или задает размер этого FontUnit в значении Unit.
 
 ```csharp
 public Unit Size { get; }
@@ -18,7 +18,7 @@ public Unit Size { get; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Размерзначение параметра меньше или равно 0. |
+| ArgumentException | **Размер** значение параметра меньше или равно 0. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RM4SCC
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 RM4SCC 条形码规范进行解码 RM4SCC皇家邮政四州客户代码用于英国的自动邮件分拣流程
+description: 指定数据应该被解码 RM4SCC条码规范 RM4SCC皇家邮政 4 州客户代码用于英国的自动邮件分类流程
 type: docs
 weight: 640
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/rm4scc/
 ---
 ## DecodeType.RM4SCC field
 
-指定数据应使用 **RM4SCC** 条形码规范进行解码。 RM4SCC（皇家邮政四州客户代码）用于英国的自动邮件分拣流程。
+指定数据应该被解码 **RM4SCC**条码规范。 RM4SCC（皇家邮政 4 州客户代码）用于英国的自动邮件分类流程。
 
 ```csharp
 public static readonly SingleDecodeType RM4SCC;

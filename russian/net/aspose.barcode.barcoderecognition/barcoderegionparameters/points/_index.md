@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ПолучаетPointмассив s ограничивающий область штрих-кода
+description: ПолучаетPoints массив ограничивающий область штрих-кода
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderegionparameters/points/
 ---
 ## BarCodeRegionParameters.Points property
 
-ПолучаетPointмассив s, ограничивающий область штрих-кода
+ПолучаетPoints массив, ограничивающий область штрих-кода
 
 ```csharp
 public Point[] Points { get; }
@@ -16,7 +16,7 @@ public Point[] Points { get; }
 
 ### Стоимость имущества
 
-ВозвращаетPointмассив s, ограничивающий область штрих-кода
+ВозвращаетPoints массив, ограничивающий область штрих-кода
 
 ### Смотрите также
 

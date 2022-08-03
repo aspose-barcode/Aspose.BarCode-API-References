@@ -1,14 +1,14 @@
 ---
 title: BarCodeHeight
 second_title: Aspose.BarCode for .NET API 参考
-description: 当AutoSizeModeaspose.barcode.generation/autosizemode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation 时的条码图像高度
+description: 条码图像高度时AutoSizeModeaspose.barcode.generation/autosizemode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/barcodeheight/
 ---
 ## BarCodeGeneratorControl.BarCodeHeight property
 
-当[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation 时的条码图像高度。
+条码图像高度时[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit BarCodeHeight { get; }

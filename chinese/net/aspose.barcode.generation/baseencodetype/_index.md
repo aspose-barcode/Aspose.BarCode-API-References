@@ -1,14 +1,14 @@
 ---
 title: BaseEncodeType
 second_title: Aspose.BarCode for .NET API 参考
-description: SymbologyEncodeType 的基类
+description: SymbologyEncodeType. 的基类
 type: docs
 weight: 510
 url: /zh/net/aspose.barcode.generation/baseencodetype/
 ---
 ## BaseEncodeType class
 
-SymbologyEncodeType 的基类。
+SymbologyEncodeType. 的基类
 
 ```csharp
 public class BaseEncodeType : IEquatable<BaseEncodeType>
@@ -27,12 +27,12 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 | 姓名 | 描述 |
 | --- | --- |
 | static [Parse](../../aspose.barcode.generation/baseencodetype/parse)(string) | 将 BaseEncodeType 名称的字符串表示形式转换为其实例。 |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals)(BaseEncodeType) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值。 |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值。 |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals)(BaseEncodeType) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值. |
 | override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | 返回此实例的哈希码。 |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:0; Name:Codabar"。 |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：0；名称：Codabar”。 |
 | override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | 以字符串形式返回给定 BaseEncodeType 的名称。 |
-| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:-1; Name:None"。 |
+| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：-1；名称：无”。 |
 | static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse)(string, out BaseEncodeType) | 将 BaseEncodeType 的字符串表示形式转换为其实例。 返回值指示转换是成功还是失败。 |
 | static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse_1)(string, out SymbologyEncodeType) | 将 BaseEncodeType 的字符串表示形式转换为其实例。 返回值指示转换是成功还是失败。 |
 

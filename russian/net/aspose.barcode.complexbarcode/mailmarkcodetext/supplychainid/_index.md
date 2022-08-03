@@ -1,14 +1,14 @@
 ---
 title: SupplychainID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Максимальные значения99 для штрих-кода C и 999999 для штрих-кода L.
+description: Максимальные значения 99 для штрих-кода C и 999999 для штрих-кода L.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid/
 ---
 ## MailmarkCodetext.SupplychainID property
 
-Максимальные значения:99 для штрих-кода C и 999999 для штрих-кода L.
+Максимальные значения: 99 для штрих-кода C и 999999 для штрих-кода L.
 
 ```csharp
 public int SupplychainID { get; set; }

@@ -20,9 +20,9 @@ public static BarCodeReader ImportFromXml(string xmlFile)
 
 ### 返回值
 
-返回 **True** 在成功的情况下；
+退货 **真的**在成功的情况下；
 
-**错误** 否则
+**错误的**否则
 
 ### 也可以看看
 
@@ -42,13 +42,13 @@ public static BarCodeReader ImportFromXml(Stream xmlStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlStream | Stream | 用于加载的 xml 流 |
+| xmlStream | Stream | 用于加载的 xml-stream |
 
 ### 返回值
 
-返回 **True** 在成功的情况下；
+退货 **真的**在成功的情况下；
 
-**错误** 否则
+**错误的**否则
 
 ### 也可以看看
 

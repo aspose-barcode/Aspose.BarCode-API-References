@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.BarCode for .NET API 参考
-description: 边框颜色 默认值Color.Black
+description: 边框颜色. 默认值Color.Black.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/borderparameters/color/
 ---
 ## BorderParameters.Color property
 
-边框颜色。 默认值:Color.Black。
+边框颜色. 默认值：Color.Black.
 
 ```csharp
 public Color Color { get; set; }

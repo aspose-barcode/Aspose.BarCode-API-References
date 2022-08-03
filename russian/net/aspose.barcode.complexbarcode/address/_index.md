@@ -10,7 +10,7 @@ url: /ru/net/aspose.barcode.complexbarcode/address/
 
 Адрес кредитора или должника.
 
-Вы можете указать улицу, номер дома, почтовый индекс и город (введите структурированный адрес ) или строки адреса 1 и 2 (наберите комбинированные элементы адреса ). Тип устанавливается автоматически после установки любого из этих полей. Перед настройкой полей тип адреса: не определено . Если установлены поля обоих типов, тип адреса становится конфликтующим . Имя и код страны должны быть установлены всегда, если только все поля не пусты.
+Вы можете указать улицу, номер дома, почтовый индекс и город (введитеструктурированный адрес ) или адресная строка 1 и 2 (введитекомбинированные элементы адреса ). Тип устанавливается автоматически set после установки любого из этих полей. Перед настройкой полей тип адресанеопределенный . Если установлены поля обоих типов, тип адреса становитсяпротиворечивый . Имя и код страны должны быть установлены всегда, если только все поля не пусты.
 
 ```csharp
 public sealed class Address : IEquatable<Address>
@@ -26,13 +26,13 @@ public sealed class Address : IEquatable<Address>
 
 | Имя | Описание |
 | --- | --- |
-| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | Получает или устанавливает адресную строку 1. |
-| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | Получает или устанавливает адресную строку 2. |
+| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | Получает или задает адресную строку 1. |
+| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | Получает или задает адресную строку 2. |
 | [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode) { get; set; } | Получает или задает двухбуквенный код страны ISO. |
 | [HouseNo](../../aspose.barcode.complexbarcode/address/houseno) { get; set; } | Получает или задает номер дома. |
 | [Name](../../aspose.barcode.complexbarcode/address/name) { get; set; } | Получает или задает имя, либо имя и фамилию физического лица, либо название компании юридического лица. |
 | [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode) { get; set; } | Получает или задает почтовый индекс. |
-| [Street](../../aspose.barcode.complexbarcode/address/street) { get; set; } | Получает или устанавливает улицу. |
+| [Street](../../aspose.barcode.complexbarcode/address/street) { get; set; } | Получает или задает улицу. |
 | [Town](../../aspose.barcode.complexbarcode/address/town) { get; set; } | Получает или задает город или город. |
 | [Type](../../aspose.barcode.complexbarcode/address/type) { get; } | Получает тип адреса. |
 
@@ -40,7 +40,7 @@ public sealed class Address : IEquatable<Address>
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | Очищает все поля и устанавливает типUndetermined. |
+| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | Очищает все поля и устанавливает типUndetermined . |
 | [Equals](../../aspose.barcode.complexbarcode/address/equals#equals)(Address) | Определяет, равен ли указанный адрес текущему адресу. |
 | override [Equals](../../aspose.barcode.complexbarcode/address/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode)() | Получает хэш-код для этого экземпляра. |

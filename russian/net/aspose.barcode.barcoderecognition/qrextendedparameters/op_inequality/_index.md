@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее отличается ли первое значениеQRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparametersот второго.
+description: Возвращает значение указывающее был ли первыйQRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters значение отличается от второго.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/
 ---
 ## QRExtendedParameters Inequality operator
 
-Возвращает значение, указывающее, отличается ли первое значение[`QRExtendedParameters`](../../qrextendedparameters)от второго.
+Возвращает значение, указывающее, был ли первый[`QRExtendedParameters`](../../qrextendedparameters) значение отличается от второго.
 
 ```csharp
 public static bool operator !=(QRExtendedParameters first, QRExtendedParameters second)
@@ -17,11 +17,11 @@ public static bool operator !=(QRExtendedParameters first, QRExtendedParameters 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | QRExtendedParameters | Первое сравниваемое значение |
-| second | QRExtendedParameters | Второе сравниваемое значение значение |
+| second | QRExtendedParameters | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет значение, отличное от второго; в противном случае **false** .
+**истинный** если первое имеет значение, отличное от второго; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

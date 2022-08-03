@@ -18,17 +18,17 @@ public class DataBarParameters
 
 | Имя | Описание |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/databarparameters/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. Используется для DataBar с накоплением. |
+| [AspectRatio](../../aspose.barcode.generation/databarparameters/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. Используется для сложенных панелей данных. |
 | [Columns](../../aspose.barcode.generation/databarparameters/columns) { get; set; } | Количество столбцов. |
 | [Is2DCompositeComponent](../../aspose.barcode.generation/databarparameters/is2dcompositecomponent) { get; set; } | Включает флаг составного 2D-компонента со штрих-кодом DataBar |
-| [IsAllowOnlyGS1Encoding](../../aspose.barcode.generation/databarparameters/isallowonlygs1encoding) { get; set; } | Если этот флаг установлен, он разрешает только стандарт кодирования GS1 для типов штрихкодов Databar |
+| [IsAllowOnlyGS1Encoding](../../aspose.barcode.generation/databarparameters/isallowonlygs1encoding) { get; set; } | Если этот флаг установлен, он разрешает только стандарт кодирования GS1 для типов штрих-кодов Databar |
 | [Rows](../../aspose.barcode.generation/databarparameters/rows) { get; set; } | Количество строк. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/databarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarParameters`](../databarparameters). |
+| override [ToString](../../aspose.barcode.generation/databarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarParameters`](../databarparameters) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Заполнение подписей. Значение по умолчанию для CaptionAbove5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow0 5pt 5pt 5pt.
+description: Отступы надписей. Значение по умолчанию для CaptionAbove 5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow 0 5pt 5pt 5pt.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/captionparameters/padding/
 ---
 ## CaptionParameters.Padding property
 
-Заполнение подписей. Значение по умолчанию для CaptionAbove:5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow:0 5pt 5pt 5pt.
+Отступы надписей. Значение по умолчанию для CaptionAbove: 5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow: 0 5pt 5pt 5pt.
 
 ```csharp
 public Padding Padding { get; set; }

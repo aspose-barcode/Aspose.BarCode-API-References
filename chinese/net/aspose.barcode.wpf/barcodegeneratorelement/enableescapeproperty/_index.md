@@ -1,14 +1,14 @@
 ---
 title: EnableEscapeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: EnableEscapeProperty
+description: 启用逃生属性
 type: docs
 weight: 1650
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/
 ---
 ## BarcodeGeneratorElement.EnableEscapeProperty field
 
-EnableEscapeProperty
+启用逃生属性
 
 ```csharp
 public static DependencyProperty EnableEscapeProperty;

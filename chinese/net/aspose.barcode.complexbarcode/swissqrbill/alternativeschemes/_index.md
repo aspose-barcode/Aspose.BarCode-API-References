@@ -1,14 +1,14 @@
 ---
 title: AlternativeSchemes
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取 ors 设置替代支付方案
+description: 获取或设置替代支付方案
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/alternativeschemes/
 ---
 ## SwissQRBill.AlternativeSchemes property
 
-获取 ors 设置替代支付方案。
+获取或设置替代支付方案。
 
 最多允许两个带参数的方案。
 

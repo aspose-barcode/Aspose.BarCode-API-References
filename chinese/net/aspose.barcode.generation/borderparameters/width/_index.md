@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.BarCode for .NET API 参考
-description: 边框宽度 默认值0 如果 Visible 设置为 false则忽略
+description: 边框宽度 默认值0. 如果 Visible 设置为 false则忽略
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/borderparameters/width/
 ---
 ## BorderParameters.Width property
 
-边框宽度。 默认值:0。 如果 Visible 设置为 false，则忽略。
+边框宽度。 默认值：0. 如果 Visible 设置为 false，则忽略。
 
 ```csharp
 public Unit Width { get; set; }

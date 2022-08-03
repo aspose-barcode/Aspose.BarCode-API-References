@@ -1,14 +1,14 @@
 ---
 title: CaptionParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры заголовка.
+description: Параметры подписи.
 type: docs
 weight: 550
 url: /ru/net/aspose.barcode.generation/captionparameters/
 ---
 ## CaptionParameters class
 
-Параметры заголовка.
+Параметры подписи.
 
 ```csharp
 public class CaptionParameters
@@ -18,13 +18,13 @@ public class CaptionParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.barcode.generation/captionparameters/alignment) { get; set; } | Подпись проверяет горизонтальное выравнивание. Значение по умолчанию:StringAlignment.Center. |
-| [Font](../../aspose.barcode.generation/captionparameters/font) { get; } | Шрифт подписи. Значение по умолчанию:Arial 8pt обычный. |
-| [NoWrap](../../aspose.barcode.generation/captionparameters/nowrap) { get; set; } | Укажите перенос слов (разрывы строк) в тексте. Значение по умолчанию:false. |
-| [Padding](../../aspose.barcode.generation/captionparameters/padding) { get; set; } | Заполнение подписей. Значение по умолчанию для CaptionAbove:5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow:0 5pt 5pt 5pt. |
-| [Text](../../aspose.barcode.generation/captionparameters/text) { get; set; } | Текст заголовка. Значение по умолчанию:пустая строка. |
-| [TextColor](../../aspose.barcode.generation/captionparameters/textcolor) { get; set; } | Цвет текста подписи. Значение по умолчанию:Color.Black. |
-| [Visible](../../aspose.barcode.generation/captionparameters/visible) { get; set; } | Видимость текста подписи. Значение по умолчанию:false. |
+| [Alignment](../../aspose.barcode.generation/captionparameters/alignment) { get; set; } | Заголовок проверяет горизонтальное выравнивание. Значение по умолчанию: StringAlignment.Center. |
+| [Font](../../aspose.barcode.generation/captionparameters/font) { get; } | Шрифт подписи. Значение по умолчанию: Arial 8pt обычный. |
+| [NoWrap](../../aspose.barcode.generation/captionparameters/nowrap) { get; set; } | Укажите перенос слов (разрывы строк) в тексте. Значение по умолчанию: false. |
+| [Padding](../../aspose.barcode.generation/captionparameters/padding) { get; set; } | Отступы надписей. Значение по умолчанию для CaptionAbove: 5pt 5pt 0 5pt. Значение по умолчанию для CaptionBelow: 0 5pt 5pt 5pt. |
+| [Text](../../aspose.barcode.generation/captionparameters/text) { get; set; } | Текст подписи. Значение по умолчанию: пустая строка. |
+| [TextColor](../../aspose.barcode.generation/captionparameters/textcolor) { get; set; } | Цвет текста подписи. Значение по умолчанию: Color.Black. |
+| [Visible](../../aspose.barcode.generation/captionparameters/visible) { get; set; } | Видимость текста заголовка. Значение по умолчанию: false. |
 
 ### Смотрите также
 

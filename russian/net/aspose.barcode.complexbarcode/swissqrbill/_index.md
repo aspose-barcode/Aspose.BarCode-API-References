@@ -33,7 +33,7 @@ public sealed class SwissQRBill : IEquatable<SwissQRBill>
 
 | Имя | Описание |
 | --- | --- |
-| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference)(string) | Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки с префиксом строки с "RF" и контрольной суммой по модулю 97. |
+| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference)(string) | Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки, добавляя префикс к строке с «RF» и контрольную сумму по модулю 97. |
 | override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals_1)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals)(SwissQRBill) | Определяет, равен ли указанный счет текущему счету. |
 | override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode)() | Получает хэш-код для этого экземпляра. |

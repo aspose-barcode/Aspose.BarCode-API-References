@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置标题的文本对齐aspose.barcode.generation/textalignment 
+description: 获取或设置文本结盟aspose.barcode.generation/textalignment标题的.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.windows.forms/captionui/alignment/
 ---
 ## CaptionUI.Alignment property
 
-获取或设置标题的文本[`对齐`](../../../aspose.barcode.generation/textalignment) 。
+获取或设置文本[`结盟`](../../../aspose.barcode.generation/textalignment)标题的.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

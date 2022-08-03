@@ -25,7 +25,7 @@ public class MaxiCodeParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/maxicodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`MaxiCodeParameters`](../maxicodeparameters). |
+| override [ToString](../../aspose.barcode.generation/maxicodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`MaxiCodeParameters`](../maxicodeparameters) . |
 
 ### Смотрите также
 

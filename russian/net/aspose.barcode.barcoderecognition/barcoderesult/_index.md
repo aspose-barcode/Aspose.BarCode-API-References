@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Сохраняет распознанные данные штрих-кода такие какSingleDecodeType./singledecodetypetypeStringcodetext BarCodeRegionParameters./barcoderegionparametersрегион и другие параметры
+description: Сохраняет распознанные данные штрих-кода такие какSingleDecodeType./singledecodetype типString кодовый текст BarCodeRegionParameters./barcoderegionparameters регион и другие параметры
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 ## BarCodeResult class
 
-Сохраняет распознанные данные штрих-кода, такие как[`SingleDecodeType`](../singledecodetype)type,Stringcodetext, [`BarCodeRegionParameters`](../barcoderegionparameters)регион и другие параметры
+Сохраняет распознанные данные штрих-кода, такие как[`SingleDecodeType`](../singledecodetype) тип,String кодовый текст, [`BarCodeRegionParameters`](../barcoderegionparameters) регион и другие параметры
 
 ```csharp
 public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
@@ -18,14 +18,14 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | Имя | Описание |
 | --- | --- |
-| [BarCodeResult](barcoderesult)(BarCodeResult) | Создает копию класса[`BarCodeResult`](../barcoderesult). |
+| [BarCodeResult](barcoderesult)(BarCodeResult) | Создает копию[`BarCodeResult`](../barcoderesult) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes) { get; } | Получает закодированные байты кода |
-| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | Получает кодовый текст |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | Получает текст кода |
 | [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype) { get; } | Получает тип штрих-кода |
 | [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | Получает имя типа штрих-кода |
 | [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence) { get; } | Получает уровень достоверности распознавания распознанного штрих-кода |
@@ -37,14 +37,14 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | Создает копию класса[`BarCodeResult`](../barcoderesult). |
-| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals)(BarCodeResult) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeResult`](../barcoderesult)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeResult`](../barcoderesult)значению. |
-| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | Получает кодовый текст с кодировкой. |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | Создает копию[`BarCodeResult`](../barcoderesult) класс. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals)(BarCodeResult) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeResult`](../barcoderesult) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeResult`](../barcoderesult) значение. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | Получает текст кода с кодировкой. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeResult`](../barcoderesult). |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`BarCodeResult`](../barcoderesult)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`BarCodeResult`](../barcoderesult)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeResult`](../barcoderesult) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | Возвращает значение, указывающее, является ли первый[`BarCodeResult`](../barcoderesult) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | Возвращает значение, указывающее, был ли первый[`BarCodeResult`](../barcoderesult) значение отличается от второго. |
 
 ### Примеры
 

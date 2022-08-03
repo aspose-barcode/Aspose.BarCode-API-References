@@ -1,14 +1,14 @@
 ---
 title: CodeTextParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 CodeText 参数CodetextParametersaspose.barcode.generation/codetextparameters
+description: 获取或设置 CodeText 参数CodetextParametersaspose.barcode.generation/codetextparameters.
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/codetextparameters/
 ---
 ## BarCodeGeneratorControl.CodeTextParameters property
 
-获取或设置 CodeText 参数[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters)。
+获取或设置 CodeText 参数[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters).
 
 ```csharp
 public CodetextParametersUI CodeTextParameters { get; }

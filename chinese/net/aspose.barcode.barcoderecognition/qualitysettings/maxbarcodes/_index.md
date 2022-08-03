@@ -10,7 +10,10 @@ url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/maxbarcodes/
 
 MaxBarCodes 识别质量预设。此预设旨在识别所有可能的条形码，甚至是不正确的条形码。
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.MaxBarCodes; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.MaxBarCodes;
+```
 
 ```csharp
 public static QualitySettings MaxBarCodes { get; }

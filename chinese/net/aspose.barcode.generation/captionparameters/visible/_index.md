@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Aspose.BarCode for .NET API 参考
-description: 字幕文本可见性 默认值假
+description: 字幕文本可见性 默认值false
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.generation/captionparameters/visible/
 ---
 ## CaptionParameters.Visible property
 
-字幕文本可见性。 默认值:假。
+字幕文本可见性。 默认值：false。
 
 ```csharp
 public bool Visible { get; set; }

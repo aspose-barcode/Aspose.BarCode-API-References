@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此OneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示OneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/onedextendedparameters/tostring/
 ---
 ## OneDExtendedParameters.ToString method
 
-返回此[`OneDExtendedParameters`](../../onedextendedparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`OneDExtendedParameters`](../../onedextendedparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`OneDExtendedParameters`](../../onedextendedparameters)的字符串。
+代表这个的字符串[`OneDExtendedParameters`](../../onedextendedparameters).
 
 ### 也可以看看
 

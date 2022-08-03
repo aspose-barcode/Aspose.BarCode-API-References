@@ -1,14 +1,14 @@
 ---
 title: QrStructuredAppendParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: QR структурированные параметры добавления.
+description: Параметры структурированного добавления QR.
 type: docs
 weight: 940
 url: /ru/net/aspose.barcode.generation/qrstructuredappendparameters/
 ---
 ## QrStructuredAppendParameters class
 
-QR структурированные параметры добавления.
+Параметры структурированного добавления QR.
 
 ```csharp
 public class QrStructuredAppendParameters
@@ -18,9 +18,9 @@ public class QrStructuredAppendParameters
 
 | Имя | Описание |
 | --- | --- |
-| [ParityByte](../../aspose.barcode.generation/qrstructuredappendparameters/paritybyte) { get; set; } | Получает или задает данные четности в режиме структурированного добавления QR. |
+| [ParityByte](../../aspose.barcode.generation/qrstructuredappendparameters/paritybyte) { get; set; } | Получает или задает данные четности режима структурированного добавления QR. |
 | [SequenceIndicator](../../aspose.barcode.generation/qrstructuredappendparameters/sequenceindicator) { get; set; } | Получает или задает индекс штрих-кода режима структурированного добавления QR. Индекс начинается с 0. |
-| [TotalCount](../../aspose.barcode.generation/qrstructuredappendparameters/totalcount) { get; set; } | Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение равно 16. |
+| [TotalCount](../../aspose.barcode.generation/qrstructuredappendparameters/totalcount) { get; set; } | Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение 16. |
 
 ### Смотрите также
 

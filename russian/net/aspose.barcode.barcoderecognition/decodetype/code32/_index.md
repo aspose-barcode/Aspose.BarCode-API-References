@@ -1,14 +1,14 @@
 ---
 title: Code32
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Code32 пустая спецификация
+description: Указывает что данные должны быть декодированы с Код32 пустая спецификация
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/code32/
 ---
 ## DecodeType.Code32 field
 
-Указывает, что данные должны быть декодированы с **Code32** пустая спецификация
+Указывает, что данные должны быть декодированы с **Код32** пустая спецификация
 
 ```csharp
 public static readonly SingleDecodeType Code32;

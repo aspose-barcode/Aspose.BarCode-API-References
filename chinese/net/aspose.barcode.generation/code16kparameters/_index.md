@@ -18,15 +18,15 @@ public class Code16KParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/code16kparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [QuietZoneLeftCoef](../../aspose.barcode.generation/code16kparameters/quietzoneleftcoef) { get; set; } | xDimension 中左侧静区的大小。 默认值:10，表示如果 xDimension = 2px，则左侧静区将为 20px。 |
-| [QuietZoneRightCoef](../../aspose.barcode.generation/code16kparameters/quietzonerightcoef) { get; set; } | xDimension 中右侧静区的大小。 默认值:1，表示如果 xDimension = 2px，则右侧静区将为 2px。 |
+| [AspectRatio](../../aspose.barcode.generation/code16kparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [QuietZoneLeftCoef](../../aspose.barcode.generation/code16kparameters/quietzoneleftcoef) { get; set; } | xDimension 中左侧静区的大小。 默认值：10，表示如果 xDimension = 2px，则左侧静区将为 20px。 |
+| [QuietZoneRightCoef](../../aspose.barcode.generation/code16kparameters/quietzonerightcoef) { get; set; } | xDimension 中右侧静区的大小。 默认值：1，表示如果 xDimension = 2px，则右侧静区将为 2px。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/code16kparameters/tostring)() | 返回此[`Code16KParameters`](../code16kparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/code16kparameters/tostring)() | 返回一个人类可读的字符串表示[`Code16KParameters`](../code16kparameters). |
 
 ### 也可以看看
 

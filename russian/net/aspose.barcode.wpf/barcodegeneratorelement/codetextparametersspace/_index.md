@@ -1,14 +1,14 @@
 ---
 title: CodeTextParametersSpace
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Пробел между CodeText и BarCode в пикселях.
+description: Расстояние между CodeText и BarCode в пикселях.
 type: docs
 weight: 500
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersspace/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersSpace property
 
-Пробел между CodeText и BarCode в пикселях.
+Расстояние между CodeText и BarCode в пикселях.
 
 ```csharp
 public float CodeTextParametersSpace { get; set; }

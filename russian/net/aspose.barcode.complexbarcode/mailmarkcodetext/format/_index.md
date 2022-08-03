@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.BarCode для .NET
-description: 0 - нуль или тест 1 - буква 2 - большая буква
+description: 0  Null или Test 1  Letter 2  Large Letter
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.complexbarcode/mailmarkcodetext/format/
 ---
 ## MailmarkCodetext.Format property
 
-"0" - нуль или тест "1" - буква "2" - большая буква
+«0» — Null или Test «1» — Letter «2» — Large Letter
 
 ```csharp
 public int Format { get; set; }

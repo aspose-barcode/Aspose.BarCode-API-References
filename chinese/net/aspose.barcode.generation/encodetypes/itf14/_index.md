@@ -1,14 +1,14 @@
 ---
 title: ITF14
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 ITF14 条码规范 进行编码
+description: 指定数据应该用 ITF14条码规格
 type: docs
 weight: 420
 url: /zh/net/aspose.barcode.generation/encodetypes/itf14/
 ---
 ## EncodeTypes.ITF14 field
 
-指定数据应使用 **ITF14** 条码规范 进行编码
+指定数据应该用 **ITF14**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType ITF14;

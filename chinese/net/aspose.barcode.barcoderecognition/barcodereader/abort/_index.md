@@ -16,7 +16,7 @@ public void Abort()
 
 ### 例子
 
-此示例显示如何从其他线程调用 Abort 函数
+这个示例展示了如何从其他线程调用 Abort 函数
 
 ```csharp
 [C#]

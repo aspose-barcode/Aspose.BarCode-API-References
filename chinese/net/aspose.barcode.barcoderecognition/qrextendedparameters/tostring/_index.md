@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.barcoderecognition/qrextendedparameters/tostring/
 ---
 ## QRExtendedParameters.ToString method
 
-返回此[`QRExtendedParameters`](../../qrextendedparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`QRExtendedParameters`](../../qrextendedparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`QRExtendedParameters`](../../qrextendedparameters)的字符串。
+代表这个的字符串[`QRExtendedParameters`](../../qrextendedparameters).
 
 ### 也可以看看
 

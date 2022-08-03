@@ -1,14 +1,14 @@
 ---
 title: RotationAngle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Угол поворота изображения штрих-кода измеряемый в градусах например RotationAngle  0 или RotationAngle  360 означает отсутствие поворота. Если RotationAngle НЕ равен 90 180 270 или 0 сканеру может быть сложнее считывать изображение. Значение по умолчанию0.
+description: Угол поворота изображения штрих-кода измеряемый в градусах например RotationAngle  0 или RotationAngle  360 означает отсутствие поворота. Если RotationAngle НЕ равен 90 180 270 или 0 сканеру может быть сложнее считывать изображение. Значение по умолчанию 0.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.generation/basegenerationparameters/rotationangle/
 ---
 ## BaseGenerationParameters.RotationAngle property
 
-Угол поворота изображения штрих-кода, измеряемый в градусах, например, RotationAngle = 0 или RotationAngle = 360 означает отсутствие поворота. Если RotationAngle НЕ равен 90, 180, 270 или 0, сканеру может быть сложнее считывать изображение. Значение по умолчанию:0.
+Угол поворота изображения штрих-кода, измеряемый в градусах, например, RotationAngle = 0 или RotationAngle = 360 означает отсутствие поворота. Если RotationAngle НЕ равен 90, 180, 270 или 0, сканеру может быть сложнее считывать изображение. Значение по умолчанию: 0.
 
 ```csharp
 public float RotationAngle { get; set; }
@@ -16,7 +16,7 @@ public float RotationAngle { get; set; }
 
 ### Примеры
 
-В этом примере показано, как создавать и сохранять изображение штрих-кода.
+В этом примере показано, как создать и сохранить изображение штрих-кода.
 
 ```csharp
 [C#]

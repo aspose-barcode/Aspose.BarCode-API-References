@@ -19,13 +19,13 @@ public class DotCodeParameters
 | Имя | Описание |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. |
-| [DotCodeMask](../../aspose.barcode.generation/dotcodeparameters/dotcodemask) { get; set; } | Маска штрихкода Dotcode. Значение по умолчанию:-1. |
+| [DotCodeMask](../../aspose.barcode.generation/dotcodeparameters/dotcodemask) { get; set; } | Маска штрих-кода Dotcode. Значение по умолчанию: -1. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DotCodeParameters`](../dotcodeparameters). |
+| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DotCodeParameters`](../dotcodeparameters) . |
 
 ### Смотрите также
 

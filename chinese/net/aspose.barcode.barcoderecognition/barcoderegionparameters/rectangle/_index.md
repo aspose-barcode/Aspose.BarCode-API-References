@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### 适当的价值
 
-返回Rectangle边界条码区域
+退货Rectangle边界条码区域
 
 ### 也可以看看
 

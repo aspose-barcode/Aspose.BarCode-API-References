@@ -1,14 +1,14 @@
 ---
 title: UPCA
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 UPC-A 条码规范 解码
+description: 指定数据应该被解码 UPC-A条码规格
 type: docs
 weight: 720
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/upca/
 ---
 ## DecodeType.UPCA field
 
-指定数据应使用 **UPC-A** 条码规范 解码
+指定数据应该被解码 **UPC-A**条码规格
 
 ```csharp
 public static readonly SingleDecodeType UPCA;

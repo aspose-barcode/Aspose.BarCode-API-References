@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоMaxiCodeParametersaspose.barcode.generation/maxicodeparameters.
+description: Возвращает удобочитаемое строковое представление этогоMaxiCodeParametersaspose.barcode.generation/maxicodeparameters .
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/maxicodeparameters/tostring/
 ---
 ## MaxiCodeParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`MaxiCodeParameters`](../../maxicodeparameters).
+Возвращает удобочитаемое строковое представление этого[`MaxiCodeParameters`](../../maxicodeparameters) .
 
 ```csharp
 public override string ToString()

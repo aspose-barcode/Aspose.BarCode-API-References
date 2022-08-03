@@ -1,14 +1,14 @@
 ---
 title: DataMatrixColumnsProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrixColumnsProperty
+description: DataMatrixColumns 属性
 type: docs
 weight: 1590
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumnsproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixColumnsProperty field
 
-DataMatrixColumnsProperty
+DataMatrixColumns 属性
 
 ```csharp
 public static DependencyProperty DataMatrixColumnsProperty;

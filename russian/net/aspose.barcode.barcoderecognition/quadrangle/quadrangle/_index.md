@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый пустой экземпляр классаQuadrangleaspose.barcode.barcoderecognition/quadrangle.
+description: Инициализирует новый пустой экземплярQuadrangleaspose.barcode.barcoderecognition/quadrangle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/quadrangle/
 ---
 ## Quadrangle() {#constructor}
 
-Инициализирует новый пустой экземпляр класса[`Quadrangle`](../../quadrangle).
+Инициализирует новый пустой экземпляр[`Quadrangle`](../../quadrangle) класс.
 
 ```csharp
 public Quadrangle()
@@ -24,7 +24,7 @@ public Quadrangle()
 
 ## Quadrangle(Point, Point, Point, Point) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Quadrangle`](../../quadrangle)с описанием точек.
+Инициализирует новый экземпляр[`Quadrangle`](../../quadrangle)класс с описанием точек.
 
 ```csharp
 public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBottom)
@@ -32,10 +32,10 @@ public Quadrangle(Point leftTop, Point rightTop, Point rightBottom, Point leftBo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leftTop | Point | APointпредставляет левый верхний угол Четырехугольник. |
-| rightTop | Point | APointкоторая представляет правый верхний угол четырехугольника. |
-| rightBottom | Point | APointкоторая представляет правый нижний угол четырехугольника. |
-| leftBottom | Point | APoint, представляющая левый нижний угол четырехугольника. |
+| leftTop | Point | АPoint который представляет левый верхний угол четырехугольника. |
+| rightTop | Point | АPoint который представляет правый верхний угол четырехугольника. |
+| rightBottom | Point | АPoint который представляет правый нижний угол четырехугольника. |
+| leftBottom | Point | АPoint который представляет левый нижний угол четырехугольника. |
 
 ### Смотрите также
 

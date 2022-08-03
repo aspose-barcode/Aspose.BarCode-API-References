@@ -1,14 +1,14 @@
 ---
 title: AustralianPostEncodingTableProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: AustralianPostEncodingTableProperty
+description: АвстралияПостэнкодингтаблепроперти
 type: docs
 weight: 1030
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/australianpostencodingtableproperty/
 ---
 ## BarcodeGeneratorElement.AustralianPostEncodingTableProperty field
 
-AustralianPostEncodingTableProperty
+АвстралияПостэнкодингтаблепроперти
 
 ```csharp
 public static DependencyProperty AustralianPostEncodingTableProperty;

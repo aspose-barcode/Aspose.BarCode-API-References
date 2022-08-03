@@ -1,14 +1,14 @@
 ---
 title: Code39Extended
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Extended CODE 39 条码规范 编码
+description: 指定数据应该用 扩展代码 39条码规格
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.generation/encodetypes/code39extended/
 ---
 ## EncodeTypes.Code39Extended field
 
-指定数据应使用 **Extended CODE 39** 条码规范 编码
+指定数据应该用 **扩展代码 39**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Code39Extended;

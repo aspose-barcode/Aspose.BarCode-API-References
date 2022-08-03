@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置一个值表示标题aspose.barcode.generation/captionparameters 是否为可见的
+description: 获取或设置一个值表示是否标题aspose.barcode.generation/captionparameters可见
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.windows.forms/captionui/visible/
 ---
 ## CaptionUI.Visible property
 
-获取或设置一个值，表示[`标题`](../../../aspose.barcode.generation/captionparameters) 是否为可见的。
+获取或设置一个值，表示是否[`标题`](../../../aspose.barcode.generation/captionparameters)可见。
 
 ```csharp
 public bool Visible { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MostCommonTypes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные будут проверяться с наиболее часто используемыми символиками
+description: Указывает что данные будут проверяться с наиболее часто используемыми символами
 type: docs
 weight: 510
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/mostcommontypes/
 ---
 ## DecodeType.MostCommonTypes field
 
-Указывает, что данные будут проверяться с наиболее часто используемыми символиками
+Указывает, что данные будут проверяться с наиболее часто используемыми символами
 
 ```csharp
 public static readonly MultyDecodeType MostCommonTypes;

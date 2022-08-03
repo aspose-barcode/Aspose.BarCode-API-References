@@ -1,14 +1,14 @@
 ---
 title: MicroPdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该用 MicroPdf417 条码规范 解码
+description: 指定数据应该被解码 微型PDF417条码规格
 type: docs
 weight: 490
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/micropdf417/
 ---
 ## DecodeType.MicroPdf417 field
 
-指定数据应该用 **MicroPdf417** 条码规范 解码
+指定数据应该被解码 **微型PDF417**条码规格
 
 ```csharp
 public static readonly SingleDecodeType MicroPdf417;

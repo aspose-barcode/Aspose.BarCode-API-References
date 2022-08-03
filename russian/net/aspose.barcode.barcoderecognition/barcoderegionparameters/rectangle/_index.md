@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ПолучаетRectangleограничивающая область штрих-кода
+description: ПолучаетRectangle ограничивающая область штрих-кода
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle/
 ---
 ## BarCodeRegionParameters.Rectangle property
 
-ПолучаетRectangleограничивающая область штрих-кода
+ПолучаетRectangle ограничивающая область штрих-кода
 
 ```csharp
 public Rectangle Rectangle { get; }
@@ -16,7 +16,7 @@ public Rectangle Rectangle { get; }
 
 ### Стоимость имущества
 
-ВозвращаетRectangleограничивающая область штрих-кода
+ВозвращаетRectangle ограничивающая область штрих-кода
 
 ### Смотрите также
 

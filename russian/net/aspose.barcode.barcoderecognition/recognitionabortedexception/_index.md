@@ -1,14 +1,14 @@
 ---
 title: RecognitionAbortedException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Представляет собой исключение прерывания распознавания которое возникает при превышении времени ожидания при распознавании с помощью BarCodeReader.
+description: Представляет исключение отмены распознавания которое возникает при превышении времени ожидания во время распознавания с помощью BarCodeReader.
 type: docs
 weight: 260
 url: /ru/net/aspose.barcode.barcoderecognition/recognitionabortedexception/
 ---
 ## RecognitionAbortedException class
 
-Представляет собой исключение прерывания распознавания, которое возникает при превышении времени ожидания при распознавании с помощью BarCodeReader.
+Представляет исключение отмены распознавания, которое возникает при превышении времени ожидания во время распознавания с помощью BarCodeReader.
 
 ```csharp
 public class RecognitionAbortedException : BarCodeRecognitionException
@@ -18,9 +18,9 @@ public class RecognitionAbortedException : BarCodeRecognitionException
 
 | Имя | Описание |
 | --- | --- |
-| [RecognitionAbortedException](recognitionabortedexception#constructor)() | Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../recognitionabortedexception)с указанным сообщением о прекращении распознавания. |
-| [RecognitionAbortedException](recognitionabortedexception#constructor_1)(int) | Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../recognitionabortedexception)с указанным сообщением о прекращении распознавания. |
-| [RecognitionAbortedException](recognitionabortedexception#constructor_2)(string, int) | Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../recognitionabortedexception)с указанным сообщением о прекращении распознавания. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor)() | Инициализирует новый экземпляр[`RecognitionAbortedException`](../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_1)(int) | Инициализирует новый экземпляр[`RecognitionAbortedException`](../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_2)(string, int) | Инициализирует новый экземпляр[`RecognitionAbortedException`](../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания. |
 
 ## Характеристики
 

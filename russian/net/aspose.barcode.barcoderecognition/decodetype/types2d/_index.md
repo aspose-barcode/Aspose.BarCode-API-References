@@ -1,14 +1,14 @@
 ---
 title: Types2D
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные будут проверяться со всеми символами штрих-кода 2D
+description: Указывает что данные будут проверяться со всеми 2D символы штрих-кода
 type: docs
 weight: 710
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/types2d/
 ---
 ## DecodeType.Types2D field
 
-Указывает, что данные будут проверяться со всеми символами штрих-кода **2D**
+Указывает, что данные будут проверяться со всеми **2D** символы штрих-кода
 
 ```csharp
 public static readonly MultyDecodeType Types2D;

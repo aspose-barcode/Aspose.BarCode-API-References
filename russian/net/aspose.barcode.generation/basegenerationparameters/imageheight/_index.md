@@ -1,14 +1,14 @@
 ---
 title: ImageHeight
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Высота изображения штрих-кода когда свойствоAutoSizeModeaspose.barcode.generation/basegenerationparameters/autosizemodeустановлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+description: Высота изображения штрих-кода приAutoSizeModeaspose.barcode.generation/basegenerationparameters/autosizemode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.generation/basegenerationparameters/imageheight/
 ---
 ## BaseGenerationParameters.ImageHeight property
 
-Высота изображения штрих-кода, когда свойство[`AutoSizeMode`](../autosizemode)установлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+Высота изображения штрих-кода при[`AutoSizeMode`](../autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit ImageHeight { get; set; }

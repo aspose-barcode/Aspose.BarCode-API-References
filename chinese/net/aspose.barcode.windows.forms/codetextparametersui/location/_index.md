@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定显示 CodeText 位置设置为 CodeLocation.None 隐藏 CodeText 默认值CodeLocation.Below
+description: 指定显示的 CodeText 位置设置为 CodeLocation.None 隐藏 CodeText. 默认值CodeLocation.Below.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.windows.forms/codetextparametersui/location/
 ---
 ## CodetextParametersUI.Location property
 
-指定显示 CodeText 位置，设置为 CodeLocation.None 隐藏 CodeText。 默认值:CodeLocation.Below。
+指定显示的 CodeText 位置，设置为 CodeLocation.None 隐藏 CodeText. 默认值：CodeLocation.Below.
 
 ```csharp
 public CodeLocation Location { get; set; }

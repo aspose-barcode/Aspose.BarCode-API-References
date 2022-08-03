@@ -12,9 +12,9 @@ url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/ischecksumenab
 
 对于必须包含校验和的符号系统，默认被视为是，在只有校验和可能的情况下被视为否。
 
-可能的校验和:Code39 标准/扩展、Standard2of5、Interleaved2of5、Matrix2of5、ItalianPost25、DeutschePostIdentcode、DeutschePostLeitcode、VIN、Codabar
+可以使用校验和：Code39 Standard/Extended、Standard2of5、Interleaved2of5、Matrix2of5、ItalianPost25、DeutschePostIdentcode、DeutschePostLeitcode、VIN、Codabar
 
-始终使用校验和:其余符号系统
+始终使用校验和：剩余符号系统
 
 ```csharp
 public EnableChecksum IsChecksumEnabled { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Aspose.BarCode for .NET API 参考
-description: Aztec 参数
+description: 阿兹台克参数.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/barcodeparameters/aztec/
 ---
 ## BarcodeParameters.Aztec property
 
-Aztec 参数。
+阿兹台克参数.
 
 ```csharp
 public AztecParameters Aztec { get; }

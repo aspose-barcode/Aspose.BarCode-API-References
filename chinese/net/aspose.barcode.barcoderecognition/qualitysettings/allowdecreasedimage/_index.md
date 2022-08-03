@@ -1,14 +1,14 @@
 ---
 title: AllowDecreasedImage
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎将缩小的图像识别为附加扫描减小的大小由内部引擎算法选择 模式有助于识别噪声和模糊但以高分辨率捕获的条形码
+description: 允许引擎将缩小的图像识别为附加扫描减小尺寸由内部引擎算法选择 模式有助于识别有噪声和模糊但以高分辨率捕获的条形码
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowdecreasedimage/
 ---
 ## QualitySettings.AllowDecreasedImage property
 
-允许引擎将缩小的图像识别为附加扫描。减小的大小由内部引擎算法选择。 模式有助于识别噪声和模糊但以高分辨率捕获的条形码。
+允许引擎将缩小的图像识别为附加扫描。减小尺寸由内部引擎算法选择。 模式有助于识别有噪声和模糊但以高分辨率捕获的条形码。
 
 ```csharp
 public bool AllowDecreasedImage { get; set; }
@@ -16,7 +16,7 @@ public bool AllowDecreasedImage { get; set; }
 
 ### 适当的价值
 
-允许引擎识别缩小的图像
+允许引擎识别减少的图像
 
 ### 也可以看看
 

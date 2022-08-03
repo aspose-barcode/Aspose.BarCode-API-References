@@ -1,14 +1,14 @@
 ---
 title: Pdf417CompactionMode
 second_title: Aspose.BarCode for .NET API 参考
-description: 条形码压缩模式的 Pdf417 符号类型 默认值Pdf417CompactionMode.Auto
+description: 条形码压缩模式的 Pdf417 符号类型 默认值Pdf417CompactionMode.Auto.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.windows.forms/pdf417parametersui/pdf417compactionmode/
 ---
 ## Pdf417ParametersUI.Pdf417CompactionMode property
 
-条形码压缩模式的 Pdf417 符号类型。 默认值:Pdf417CompactionMode.Auto。
+条形码压缩模式的 Pdf417 符号类型。 默认值：Pdf417CompactionMode.Auto.
 
 ```csharp
 public Pdf417CompactionMode Pdf417CompactionMode { get; set; }

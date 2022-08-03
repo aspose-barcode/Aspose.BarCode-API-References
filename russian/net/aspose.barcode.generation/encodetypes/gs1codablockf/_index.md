@@ -1,14 +1,14 @@
 ---
 title: GS1CodablockF
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью спецификации штрих-кода GS1 Codablock-F . Кодовый текст должен содержать круглые скобки для AI.
+description: Указывает что данные должны быть закодированы с GS1 Кодаблок-Ф Спецификация штрих-кода. Кодовый текст должен содержать круглые скобки для AI.
 type: docs
 weight: 310
 url: /ru/net/aspose.barcode.generation/encodetypes/gs1codablockf/
 ---
 ## EncodeTypes.GS1CodablockF field
 
-Указывает, что данные должны быть закодированы с помощью спецификации штрих-кода **GS1 Codablock-F** . Кодовый текст должен содержать круглые скобки для AI.
+Указывает, что данные должны быть закодированы с **GS1 Кодаблок-Ф** Спецификация штрих-кода. Кодовый текст должен содержать круглые скобки для AI.
 
 ```csharp
 public static readonly SymbologyEncodeType GS1CodablockF;

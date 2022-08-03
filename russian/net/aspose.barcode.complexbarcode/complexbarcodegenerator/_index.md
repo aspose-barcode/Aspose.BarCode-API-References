@@ -30,7 +30,7 @@ public sealed class ComplexBarcodeGenerator : Component
 
 | Имя | Описание |
 | --- | --- |
-| [GenerateBarCodeImage](../../aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage)() | Генерирует сложное изображение штрих-кода при текущих настройках. |
+| [GenerateBarCodeImage](../../aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage)() | Генерирует сложное изображение штрих-кода с текущими настройками. |
 | [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_1)(string) | Генерирует и сохраняет сложное изображение штрих-кода с текущими настройками. |
 | [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save)(Stream, BarCodeImageFormat) | Генерирует и сохраняет сложное изображение штрих-кода с текущими настройками. |
 | [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_2)(string, BarCodeImageFormat) | Генерирует и сохраняет сложное изображение штрих-кода с текущими настройками. |
@@ -44,7 +44,7 @@ public sealed class ComplexBarcodeGenerator : Component
   var swissQRCodetext = new SwissQRCodetext();
   swissQRCodetext.Bill.Account = "Account";
   swissQRCodetext.Bill.BillInformation = "BillInformation";
-   // инициализируем остальные поля fields
+  // инициализируем остальные поля
   using (var cg = new ComplexBarcodeGenerator(swissQRCodetext))
   {
     var res = cg.GenerateBarCodeImage();

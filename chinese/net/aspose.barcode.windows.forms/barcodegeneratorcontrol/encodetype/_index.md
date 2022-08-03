@@ -1,14 +1,14 @@
 ---
 title: EncodeType
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码的编码类型符号 使用EncodeTypesaspose.barcode.generation/encodetypes获取当前符号系统
+description: BarCode 的编码类型符号 使用EncodeTypesaspose.barcode.generation/encodetypes获取当前符号
 type: docs
 weight: 170
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/encodetype/
 ---
 ## BarCodeGeneratorControl.EncodeType property
 
-条码的编码类型（符号）。 使用[`EncodeTypes`](../../../aspose.barcode.generation/encodetypes)获取当前符号系统。
+BarCode 的编码类型（符号）。 使用[`EncodeTypes`](../../../aspose.barcode.generation/encodetypes)获取当前符号。
 
 ```csharp
 public BaseEncodeType EncodeType { get; set; }

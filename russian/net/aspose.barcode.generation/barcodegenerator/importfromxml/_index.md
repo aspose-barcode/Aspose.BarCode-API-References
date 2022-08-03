@@ -32,7 +32,7 @@ public static BarcodeGenerator ImportFromXml(string xmlFile)
 
 ## ImportFromXml(Stream) {#importfromxml}
 
-Импортирует свойства BarCode из указанного xml-потока и создает экземпляр BarcodeGenerator.
+Импортирует свойства BarCode из указанного XML-потока и создает экземпляр BarcodeGenerator.
 
 ```csharp
 public static BarcodeGenerator ImportFromXml(Stream xml)

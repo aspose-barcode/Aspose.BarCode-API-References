@@ -1,14 +1,14 @@
 ---
 title: AustralianPostShortBarHeightProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: AustralianPostShortBarHeightProperty
+description: 澳大利亚邮政短条高度属性
 type: docs
 weight: 1040
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/australianpostshortbarheightproperty/
 ---
 ## BarcodeGeneratorElement.AustralianPostShortBarHeightProperty field
 
-AustralianPostShortBarHeightProperty
+澳大利亚邮政短条高度属性
 
 ```csharp
 public static DependencyProperty AustralianPostShortBarHeightProperty;

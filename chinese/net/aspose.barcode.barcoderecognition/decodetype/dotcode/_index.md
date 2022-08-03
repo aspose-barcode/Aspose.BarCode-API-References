@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 DotCode 空白规范 进行解码
+description: 指定数据应该被解码 点码空白规范
 type: docs
 weight: 280
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/dotcode/
 ---
 ## DecodeType.DotCode field
 
-指定数据应使用 **DotCode** 空白规范 进行解码
+指定数据应该被解码 **点码**空白规范
 
 ```csharp
 public static readonly SingleDecodeType DotCode;

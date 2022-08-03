@@ -20,7 +20,7 @@ public bool DetectEncoding { get; set; }
 
 ### 例子
 
-此示例显示如何在启用 DetectEncoding 时动态检测文本编码
+此示例显示如何在启用 DetectEncoding 的情况下动态检测文本编码
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ using (MemoryStream ms = new MemoryStream())
         generator.Parameters.Barcode.QR.CodeTextEncoding = Encoding.UTF8;
         generator.Save(ms, BarCodeImageFormat.Png);
     }
-      //检测 Unicode 代码集的编码是否启用
+    //检测 Unicode 代码集的编码是否启用
     ms.Position = 0;
     using (BarCodeReader reader = new BarCodeReader(ms, DecodeType.QR))
     {
@@ -39,7 +39,7 @@ using (MemoryStream ms = new MemoryStream())
         foreach (BarCodeResult result in reader.ReadBarCodes())
             Console.WriteLine("BarCode CodeText: " + result.CodeText);
     }
-      //检测编码被禁用
+    //检测编码被禁用
     ms.Position = 0;
     using (BarCodeReader reader = new BarCodeReader(ms, DecodeType.QR))
     {
@@ -54,7 +54,7 @@ Using ms As New MemoryStream
         generator.Parameters.Barcode.QR.CodeTextEncoding = System.Text.Encoding.UTF8
         generator.Save(ms, BarCodeImageFormat.Png)
     End Using
-    ' 检测启用了 Unicode 代码集的编码
+    '检测启用了 Unicode 代码集的编码
     ms.Position = 0
     Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = True
@@ -62,7 +62,7 @@ Using ms As New MemoryStream
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
         Next
     End Using
-    ' 检测编码被禁用
+    '检测编码被禁用
     ms.Position = 0
     Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = False

@@ -1,14 +1,14 @@
 ---
 title: MacroPdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 MacroPdf417 条码规范 进行编码
+description: 指定数据应该用 宏PDF417条码规格
 type: docs
 weight: 440
 url: /zh/net/aspose.barcode.generation/encodetypes/macropdf417/
 ---
 ## EncodeTypes.MacroPdf417 field
 
-指定数据应使用 **MacroPdf417** 条码规范 进行编码
+指定数据应该用 **宏PDF417**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType MacroPdf417;

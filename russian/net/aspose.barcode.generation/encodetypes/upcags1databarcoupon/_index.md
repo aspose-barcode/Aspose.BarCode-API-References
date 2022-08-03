@@ -1,14 +1,14 @@
 ---
 title: UpcaGs1DatabarCoupon
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с использованием купона UPC с добавлением GS1 DataBar спецификации штрих-кода. Пример входной строки BarcodeGenerator.Codetext  5141411009068110106141416543213500110000310123196000 где часть UPCA 514141100906 часть панели данных это 8110106141416543213500110000310123196000. Чтобы изменить заголовок используйте Parameters.CaptionAbove.Text  префикс компании  код предложения
+description: Указывает что данные должны быть закодированы с Купон UPC с добавлением GS1 DataBarbarcode specification. An example of the input string BarcodeGenerator.Codetext  5141411009068110106141416543213500110000310123196000 where UPCA part is 514141100906 Databar part is 8110106141416543213500110000310123196000. To change the caption use Parameters.CaptionAbove.Text  префикс компании  код предложения
 type: docs
 weight: 680
 url: /ru/net/aspose.barcode.generation/encodetypes/upcags1databarcoupon/
 ---
 ## EncodeTypes.UpcaGs1DatabarCoupon field
 
-Указывает, что данные должны быть закодированы с использованием **купона UPC с добавлением GS1 DataBar** спецификации штрих-кода. Пример входной строки: BarcodeGenerator.Codetext = "514141100906(8110)106141416543213500110000310123196000", где часть UPCA "514141100906", часть панели данных это "(8110)106141416543213500110000310123196000". Чтобы изменить заголовок, используйте Parameters.CaptionAbove.Text = "префикс компании + код предложения";
+Указывает, что данные должны быть закодированы с **Купон UPC с добавлением GS1 DataBar**barcode specification. An example of the input string: BarcodeGenerator.Codetext = "514141100906(8110)106141416543213500110000310123196000", where UPCA part is "514141100906", Databar part is "(8110)106141416543213500110000310123196000". To change the caption, use Parameters.CaptionAbove.Text = "префикс компании + код предложения";
 
 ```csharp
 public static readonly SymbologyEncodeType UpcaGs1DatabarCoupon;

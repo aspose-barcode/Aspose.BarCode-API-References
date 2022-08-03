@@ -10,7 +10,10 @@ url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/highqualitydetect
 
 Предустановка качества распознавания HighQualityDetection. То же, что и NormalQuality, но с высоким качеством[`DetectorSettings`](../detectorsettings)
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.HighQualityDetection; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.HighQualityDetection;
+```
 
 ```csharp
 public static QualitySettings HighQualityDetection { get; }

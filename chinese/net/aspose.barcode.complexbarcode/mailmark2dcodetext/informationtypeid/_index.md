@@ -16,13 +16,13 @@ public string InformationTypeID { get; set; }
 
 ### 评论
 
-有效值:
+有效值：
 
-“0” - 国内分拣&amp;未分类
+“0” - 国内已分类和未分类
 
-“A” - 在线邮资
+“A” - 网上邮资
 
-“B” - 邮资邮资
+“B” - 邮资
 
 “C” - 合并
 

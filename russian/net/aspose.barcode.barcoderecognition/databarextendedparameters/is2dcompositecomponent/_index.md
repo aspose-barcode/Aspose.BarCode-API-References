@@ -1,14 +1,14 @@
 ---
 title: Is2DCompositeComponent
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает флаг композитного компонента DataBar 2D. Значение по умолчанию  ложь.
+description: Получает флаг составного компонента DataBar 2D. Значение по умолчанию  ложь.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/databarextendedparameters/is2dcompositecomponent/
 ---
 ## DataBarExtendedParameters.Is2DCompositeComponent property
 
-Получает флаг композитного компонента DataBar 2D. Значение по умолчанию — ложь.
+Получает флаг составного компонента DataBar 2D. Значение по умолчанию — ложь.
 
 ```csharp
 public bool Is2DCompositeComponent { get; }

@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Pdf417 条码符号 解码
+description: 指定数据应该被解码 PDF417条码符号
 type: docs
 weight: 570
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/pdf417/
 ---
 ## DecodeType.Pdf417 field
 
-指定数据应使用 **Pdf417** 条码符号 解码
+指定数据应该被解码 **PDF417**条码符号
 
 ```csharp
 public static readonly SingleDecodeType Pdf417;

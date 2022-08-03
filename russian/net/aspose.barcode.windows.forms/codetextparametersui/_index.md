@@ -18,19 +18,19 @@ public class CodetextParametersUI
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.barcode.windows.forms/codetextparametersui/alignment) { get; set; } | Получает или задает выравнивание текста кода. Значение по умолчанию:StringAlignment.Center. |
-| [Color](../../aspose.barcode.windows.forms/codetextparametersui/color) { get; set; } | Укажите отображаемый цвет CodeText. Значение по умолчанию:Color.Black. |
-| [Font](../../aspose.barcode.windows.forms/codetextparametersui/font) { get; set; } | Укажите отображаемый шрифт CodeText. Значение по умолчанию:Arial 5pt обычный. Игнорируется, если для параметра FontMode установлено значение FontMode.Auto. |
-| [FontMode](../../aspose.barcode.windows.forms/codetextparametersui/fontmode) { get; set; } | Укажите режим шрифта. Если для параметра FontMode установлено значение Auto, размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto, особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчанию:FontMode.Auto. |
-| [Location](../../aspose.barcode.windows.forms/codetextparametersui/location) { get; set; } | Укажите отображаемое местоположение CodeText, установите значение CodeLocation.None, чтобы скрыть CodeText. Значение по умолчанию:CodeLocation.Below. |
-| [Space](../../aspose.barcode.windows.forms/codetextparametersui/space) { get; } | Пробел между CodeText и BarCode в значении[`Unit`](../../aspose.barcode.generation/unit). Значение по умолчанию:2pt. Игнорируется для EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
-| [TwoDDisplayText](../../aspose.barcode.windows.forms/codetextparametersui/twoddisplaytext) { get; set; } | Текст, который будет отображаться вместо кодового текста в 2D штрих-кодах. Используется для:Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode |
+| [Alignment](../../aspose.barcode.windows.forms/codetextparametersui/alignment) { get; set; } | Получает или задает выравнивание текста кода. Значение по умолчанию: StringAlignment.Center. |
+| [Color](../../aspose.barcode.windows.forms/codetextparametersui/color) { get; set; } | Укажите отображаемый цвет CodeText. Значение по умолчанию: Color.Black. |
+| [Font](../../aspose.barcode.windows.forms/codetextparametersui/font) { get; set; } | Укажите отображаемый шрифт CodeText. Значение по умолчанию: Arial 5pt обычный. Игнорируется, если для параметра FontMode установлено значение FontMode.Auto. |
+| [FontMode](../../aspose.barcode.windows.forms/codetextparametersui/fontmode) { get; set; } | Укажите режим шрифта. Если для параметра FontMode установлено значение Auto, размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto, особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчанию: FontMode.Auto. |
+| [Location](../../aspose.barcode.windows.forms/codetextparametersui/location) { get; set; } | Укажите отображаемое местоположение CodeText, установите CodeLocation.None, чтобы скрыть CodeText. Значение по умолчанию: CodeLocation.Below. |
+| [Space](../../aspose.barcode.windows.forms/codetextparametersui/space) { get; } | Пробел между CodeText и BarCode в[`Unit`](../../aspose.barcode.generation/unit)value. Значение по умолчанию: 2pt. Игнорируется для EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
+| [TwoDDisplayText](../../aspose.barcode.windows.forms/codetextparametersui/twoddisplaytext) { get; set; } | Текст, который будет отображаться вместо кодового текста в 2D штрих-кодах. Используется для: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/codetextparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodetextParameters`](../../aspose.barcode.generation/codetextparameters). |
+| override [ToString](../../aspose.barcode.windows.forms/codetextparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodetextParameters`](../../aspose.barcode.generation/codetextparameters) . |
 
 ### Смотрите также
 

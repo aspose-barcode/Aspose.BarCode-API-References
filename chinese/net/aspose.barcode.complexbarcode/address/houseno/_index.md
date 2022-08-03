@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/address/houseno/
 
 获取或设置门牌号。
 
-设置此字段会将地址类型设置为Structured除非它已经是 CombinedElements，在这种情况下它变成Conflicting。
+设置此字段会将地址类型设置为Structured除非它已经 CombinedElements , 在这种情况下它变成Conflicting.
 
 该字段仅用于结构化地址，是可选的。
 

@@ -1,14 +1,14 @@
 ---
 title: PatchCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 补丁码 条形码规范进行解码条码符号用于自动扫描
+description: 指定数据应该被解码 补丁代码条码规范条码符号用于自动扫描
 type: docs
 weight: 560
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/patchcode/
 ---
 ## DecodeType.PatchCode field
 
-指定数据应使用 **补丁码** 条形码规范进行解码。条码符号用于自动扫描
+指定数据应该被解码 **补丁代码**条码规范。条码符号用于自动扫描
 
 ```csharp
 public static readonly SingleDecodeType PatchCode;

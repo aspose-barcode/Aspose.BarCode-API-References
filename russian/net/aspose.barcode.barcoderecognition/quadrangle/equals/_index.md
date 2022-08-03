@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуQuadrangleaspose.barcode.barcoderecognition/quadrangleзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуQuadrangleaspose.barcode.barcoderecognition/quadrangle значение.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/equals/
 ---
 ## Equals(Quadrangle) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Quadrangle`](../../quadrangle)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Quadrangle`](../../quadrangle) значение.
 
 ```csharp
 public bool Equals(Quadrangle other)
@@ -16,11 +16,11 @@ public bool Equals(Quadrangle other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Quadrangle | Значение[`Quadrangle`](../../quadrangle)для сравнения с этим экземпляром. |
+| other | Quadrangle | Ан[`Quadrangle`](../../quadrangle) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Equals(Quadrangle other)
 
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Quadrangle`](../../quadrangle)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Quadrangle`](../../quadrangle) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

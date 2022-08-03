@@ -33,7 +33,7 @@ public sealed class SwissQRCodetext : IComplexCodetext
 | --- | --- |
 | [GetBarcodeType](../../aspose.barcode.complexbarcode/swissqrcodetext/getbarcodetype)() | Получает тип штрих-кода. |
 | [GetConstructedCodetext](../../aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext)() | Создать кодовый текст из данных счета SwissQR |
-| [InitFromString](../../aspose.barcode.complexbarcode/swissqrcodetext/initfromstring)(string) | Инициализирует Bill построенным кодовым текстом. |
+| [InitFromString](../../aspose.barcode.complexbarcode/swissqrcodetext/initfromstring)(string) | Инициализирует Bill с построенным кодовым текстом. |
 
 ### Смотрите также
 

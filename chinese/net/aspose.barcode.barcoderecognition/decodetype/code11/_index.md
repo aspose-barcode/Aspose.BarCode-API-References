@@ -1,14 +1,14 @@
 ---
 title: Code11
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 CODE 11 条码规范 解码
+description: 指定数据应该被解码 代码 11条码规格
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code11/
 ---
 ## DecodeType.Code11 field
 
-指定数据应使用 **CODE 11** 条码规范 解码
+指定数据应该被解码 **代码 11**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Code11;

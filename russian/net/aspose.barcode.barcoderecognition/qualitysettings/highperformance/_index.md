@@ -10,7 +10,10 @@ url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/highperformance/
 
 Предустановка качества распознавания HighPerformance. В этом режиме хорошо распознаются штрих-коды высокого качества.
 
-&lt;код&gt; использование (считыватель BarCodeReader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.HighPerformance; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.HighPerformance;
+```
 
 ```csharp
 public static QualitySettings HighPerformance { get; }

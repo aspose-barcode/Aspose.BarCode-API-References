@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает значение указывающее является лиcaptionaspose.barcode.generation/captionparameters видимый.
+description: Получает или задает значение указывающее является липодписьaspose.barcode.generation/captionparametersвидно.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/captionui/visible/
 ---
 ## CaptionUI.Visible property
 
-Получает или задает значение, указывающее, является ли[`caption`](../../../aspose.barcode.generation/captionparameters) видимый.
+Получает или задает значение, указывающее, является ли[`подпись`](../../../aspose.barcode.generation/captionparameters)видно.
 
 ```csharp
 public bool Visible { get; set; }

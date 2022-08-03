@@ -1,14 +1,14 @@
 ---
 title: CodabarChecksumMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает алгоритм контрольной суммы для Codabar
+description: Определяет алгоритм контрольной суммы для Codabar
 type: docs
 weight: 560
 url: /ru/net/aspose.barcode.generation/codabarchecksummode/
 ---
 ## CodabarChecksumMode enumeration
 
-Указывает алгоритм контрольной суммы для Codabar
+Определяет алгоритм контрольной суммы для Codabar
 
 ```csharp
 public enum CodabarChecksumMode

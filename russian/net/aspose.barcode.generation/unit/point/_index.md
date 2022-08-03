@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает значение размера в пунктах.
+description: Получает или устанавливает значение размера в точке.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/unit/point/
 ---
 ## Unit.Point property
 
-Получает или задает значение размера в пунктах.
+Получает или устанавливает значение размера в точке.
 
 ```csharp
 public float Point { get; set; }

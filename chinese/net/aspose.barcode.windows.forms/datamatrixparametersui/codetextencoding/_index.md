@@ -1,14 +1,14 @@
 ---
 title: CodeTextEncoding
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置代码文本的编码
+description: 获取或设置codetext的编码
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.windows.forms/datamatrixparametersui/codetextencoding/
 ---
 ## DataMatrixParametersUI.CodeTextEncoding property
 
-获取或设置代码文本的编码。
+获取或设置codetext的编码。
 
 ```csharp
 public Encoding CodeTextEncoding { get; set; }

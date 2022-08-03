@@ -1,14 +1,14 @@
 ---
 title: BaseExtendedParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 识别条码存储扩展参数基本类
+description: 识别条码存储扩展参数基础类
 type: docs
 weight: 130
 url: /zh/net/aspose.barcode.barcoderecognition/baseextendedparameters/
 ---
 ## BaseExtendedParameters class
 
-识别条码存储扩展参数基本类
+识别条码存储扩展参数基础类
 
 ```csharp
 public abstract class BaseExtendedParameters

@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с CODABAR спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с КОДАБАР спецификация штрих-кода
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/codabar/
 ---
 ## DecodeType.Codabar field
 
-Указывает, что данные должны быть декодированы с **CODABAR** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **КОДАБАР** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Codabar;

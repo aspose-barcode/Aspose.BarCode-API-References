@@ -1,14 +1,14 @@
 ---
 title: Types2D
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用所有 2D 条形码符号检查数据
+description: 指定将使用所有 二维条码符号
 type: docs
 weight: 710
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/types2d/
 ---
 ## DecodeType.Types2D field
 
-指定将使用所有 **2D** 条形码符号检查数据
+指定将使用所有 **二维**条码符号
 
 ```csharp
 public static readonly MultyDecodeType Types2D;

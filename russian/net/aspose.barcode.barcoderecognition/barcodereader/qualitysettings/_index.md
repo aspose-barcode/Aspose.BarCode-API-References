@@ -1,14 +1,14 @@
 ---
 title: QualitySettings
 second_title: Справочник по API Aspose.BarCode для .NET
-description: QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных пресетовHighPerformance NormalQuality HighQuality MaxBarCodes или вручную настроить отдельные параметры. Значением QualitySettings по умолчанию является NormalQuality.
+description: QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных предустановок HighPerformance NormalQuality HighQuality MaxBarCodes или вручную настроить отдельные параметры. Значение QualitySettings по умолчанию  NormalQuality.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/qualitysettings/
 ---
 ## BarCodeReader.QualitySettings property
 
-QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных пресетов:HighPerformance, NormalQuality, HighQuality, MaxBarCodes или вручную настроить отдельные параметры. Значением QualitySettings по умолчанию является NormalQuality.
+QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных предустановок: HighPerformance, NormalQuality, HighQuality, MaxBarCodes или вручную настроить отдельные параметры. Значение QualitySettings по умолчанию — NormalQuality.
 
 ```csharp
 public QualitySettings QualitySettings { get; set; }
@@ -20,28 +20,28 @@ QualitySettings для настройки качества и скорости �
 
 ### Примеры
 
-В этом примере показано, как использовать настройки качества с BarCodeReader
+В этом примере показано, как использовать QualitySettings с BarCodeReader
 
 ```csharp
 [C#]
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
 {
-    //установить режим высокой производительности
+   //устанавливаем режим высокой производительности
    reader.QualitySettings = QualitySettings.HighPerformance;
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
 {
-    //режим нормального качества установлен по умолчанию
+   //режим нормального качества установлен по умолчанию
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
 {
-    //установить режим высокой производительности
+   //устанавливаем режим высокой производительности
    reader.QualitySettings = QualitySettings.HighPerformance;
-    //устанавливаем отдельные options
+   //устанавливаем отдельные параметры
    reader.QualitySettings.AllowMedianSmoothing = true;
    reader.QualitySettings.MedianSmoothingWindowSize = 5;
    foreach (BarCodeResult result in reader.ReadBarCodes())
@@ -62,9 +62,9 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'set high performance mode
+   'установить режим высокой производительности
    reader.QualitySettings = QualitySettings.HighPerformance
-   'set separate options
+   'установить отдельные параметры
    reader.QualitySettings.AllowMedianSmoothing = True
    reader.QualitySettings.MedianSmoothingWindowSize = 5
    For Each result As BarCodeResult In reader.ReadBarCodes()

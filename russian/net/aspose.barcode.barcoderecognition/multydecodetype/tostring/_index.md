@@ -16,9 +16,9 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строка, представляющая экземпляр MultyDecodeType как "singleDecodeType1, singleDecodeType2, ..."
+Строка, представляющая экземпляр MultyDecodeType как "singleDecodeType1, singleDecodeType2,..."
 
-**"AllSupportedTypes"** возвращает значение, когда включены все типы.
+**«Все поддерживаемые типы»** возвращается, когда включены все типы.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SingaporePost
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 新加坡邮政条码 条码规范 进行编码
+description: 指定数据应该用 新加坡邮政条码条码规格
 type: docs
 weight: 620
 url: /zh/net/aspose.barcode.generation/encodetypes/singaporepost/
 ---
 ## EncodeTypes.SingaporePost field
 
-指定数据应使用 **新加坡邮政条码** 条码规范 进行编码
+指定数据应该用 **新加坡邮政条码**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType SingaporePost;

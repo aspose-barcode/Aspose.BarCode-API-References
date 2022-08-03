@@ -19,8 +19,8 @@ public interface IComplexCodetext
 | 姓名 | 描述 |
 | --- | --- |
 | [GetBarcodeType](../../aspose.barcode.complexbarcode/icomplexcodetext/getbarcodetype)() | 获取条码类型。 |
-| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext)() | 为复杂条形码构造代码文本 |
-| [InitFromString](../../aspose.barcode.complexbarcode/icomplexcodetext/initfromstring)(string) | 用构造的代码文本初始化实例。 |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext)() | 为复杂条码构造代码文本 |
+| [InitFromString](../../aspose.barcode.complexbarcode/icomplexcodetext/initfromstring)(string) | 使用构造的代码文本初始化实例。 |
 
 ### 也可以看看
 

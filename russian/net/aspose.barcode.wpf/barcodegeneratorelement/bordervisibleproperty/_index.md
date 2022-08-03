@@ -1,14 +1,14 @@
 ---
 title: BorderVisibleProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: BorderVisibleProperty
+description: ГраницаВизиблеПроперти
 type: docs
 weight: 1150
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/bordervisibleproperty/
 ---
 ## BarcodeGeneratorElement.BorderVisibleProperty field
 
-BorderVisibleProperty
+ГраницаВизиблеПроперти
 
 ```csharp
 public static DependencyProperty BorderVisibleProperty;

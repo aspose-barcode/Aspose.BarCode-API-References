@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEcc
 second_title: Aspose.BarCode for .NET API 参考
-description: Datamatrix ECC 类型
+description: 数据矩阵 ECC 类型
 type: docs
 weight: 590
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixecc/
 ---
 ## BarcodeGeneratorElement.DataMatrixEcc property
 
-Datamatrix ECC 类型。
+数据矩阵 ECC 类型。
 
 ```csharp
 public DataMatrixEccType DataMatrixEcc { get; set; }

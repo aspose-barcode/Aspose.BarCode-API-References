@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры QR.
+description: QR-параметры.
 type: docs
 weight: 250
 url: /ru/net/aspose.barcode.generation/barcodeparameters/qr/
 ---
 ## BarcodeParameters.QR property
 
-Параметры QR.
+QR-параметры.
 
 ```csharp
 public QrParameters QR { get; }

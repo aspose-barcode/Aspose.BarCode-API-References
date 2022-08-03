@@ -1,14 +1,14 @@
 ---
 title: QrParametersUI
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Оболочка пользовательского интерфейса для классаQrParameters../aspose.barcode.generation/qrparameters.
+description: UI-оболочка дляQrParameters../aspose.barcode.generation/qrparameters класс.
 type: docs
 weight: 1110
 url: /ru/net/aspose.barcode.windows.forms/qrparametersui/
 ---
 ## QrParametersUI class
 
-Оболочка пользовательского интерфейса для класса[`QrParameters`](../../aspose.barcode.generation/qrparameters).
+UI-оболочка для[`QrParameters`](../../aspose.barcode.generation/qrparameters) класс.
 
 ```csharp
 public class QrParametersUI
@@ -20,16 +20,16 @@ public class QrParametersUI
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.windows.forms/qrparametersui/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. |
 | [CodeTextEncoding](../../aspose.barcode.windows.forms/qrparametersui/codetextencoding) { get; set; } | Получает или задает кодировку кодового текста. |
-| [QrEncodeMode](../../aspose.barcode.windows.forms/qrparametersui/qrencodemode) { get; set; } | Тип символики QR режима кодирования штрих-кода. Значение по умолчанию:QREncodeMode.Auto. |
-| [QrEncodeType](../../aspose.barcode.windows.forms/qrparametersui/qrencodetype) { get; set; } | Режим выбора QR/MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR. |
-| [QrErrorLevel](../../aspose.barcode.windows.forms/qrparametersui/qrerrorlevel) { get; set; } | Уровень исправления ошибок Рида-Соломона для штрих-кода QR. От низкого к высокому:УровеньL, УровеньM, УровеньQ, УровеньH. см. QRErrorLevel. |
-| [QrVersion](../../aspose.barcode.windows.forms/qrparametersui/qrversion) { get; set; } | Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию — QRVersion.Auto. |
+| [QrEncodeMode](../../aspose.barcode.windows.forms/qrparametersui/qrencodemode) { get; set; } | Тип символики QR режима кодирования штрих-кода. Значение по умолчанию: QREncodeMode.Auto. |
+| [QrEncodeType](../../aspose.barcode.windows.forms/qrparametersui/qrencodetype) { get; set; } | Режим выбора QR / MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR. |
+| [QrErrorLevel](../../aspose.barcode.windows.forms/qrparametersui/qrerrorlevel) { get; set; } | Уровень коррекции ошибки Рида-Соломона для штрих-кода QR. От низкого к высокому: LevelL, LevelM, LevelQ, LevelH. см. QRErrorLevel. |
+| [QrVersion](../../aspose.barcode.windows.forms/qrparametersui/qrversion) { get; set; } | Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию: QRVersion.Auto. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/qrparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`QrParameters`](../../aspose.barcode.generation/qrparameters). |
+| override [ToString](../../aspose.barcode.windows.forms/qrparametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`QrParameters`](../../aspose.barcode.generation/qrparameters) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Code93Extended
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью Extended CODE 93 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с Расширенный КОД 93 спецификация штрих-кода
 type: docs
 weight: 130
 url: /ru/net/aspose.barcode.generation/encodetypes/code93extended/
 ---
 ## EncodeTypes.Code93Extended field
 
-Указывает, что данные должны быть закодированы с помощью **Extended CODE 93** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **Расширенный КОД 93** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Code93Extended;

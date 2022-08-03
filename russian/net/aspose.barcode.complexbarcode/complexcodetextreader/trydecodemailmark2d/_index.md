@@ -1,14 +1,14 @@
 ---
 title: TryDecodeMailmark2D
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Декодирует кодовый текст Royal Mail Mailmark 2D.
+description: Декодирует 2D-кодовый текст Royal Mail Mailmark.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark2D method
 
-Декодирует кодовый текст Royal Mail Mailmark 2D.
+Декодирует 2D-кодовый текст Royal Mail Mailmark.
 
 ```csharp
 public static Mailmark2DCodetext TryDecodeMailmark2D(string encodedCodetext)
@@ -20,7 +20,7 @@ public static Mailmark2DCodetext TryDecodeMailmark2D(string encodedCodetext)
 
 ### Возвращаемое значение
 
-декодированный Royal Mail Mailmark 2D или null .
+декодированный Royal Mail Mailmark 2D или null.
 
 ### Смотрите также
 

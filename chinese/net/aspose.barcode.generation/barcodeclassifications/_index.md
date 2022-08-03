@@ -21,7 +21,7 @@ public enum BarcodeClassifications
 | None | `0` | 未指定分类 |
 | Type1D | `1` | 指定一维条码 |
 | Type2D | `2` | 指定二维条码 |
-| Postal | `3` | 指定邮政条形码 |
+| Postal | `3` | 指定邮政条码 |
 | Databar | `4` | 指定 DataBar-barcode |
 | Coupon | `5` | 指定优惠券条形码 |
 

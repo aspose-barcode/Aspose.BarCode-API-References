@@ -1,14 +1,14 @@
 ---
 title: SwissPostParcel
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с помощью Штрих-код почтовой посылки спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Штрих-код почтовой посылки Швейцарии спецификация штрих-кода
 type: docs
 weight: 690
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/swisspostparcel/
 ---
 ## DecodeType.SwissPostParcel field
 
-Указывает, что данные должны быть декодированы с помощью **Штрих-код почтовой посылки** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Штрих-код почтовой посылки Швейцарии** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType SwissPostParcel;

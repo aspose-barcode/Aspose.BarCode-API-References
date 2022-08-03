@@ -1,14 +1,14 @@
 ---
 title: PostalShortBarHeight
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Почтовая короткая высота бара в пикселях.
+description: Высота короткой почтовой полосы в пикселях.
 type: docs
 weight: 880
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheight/
 ---
 ## BarcodeGeneratorElement.PostalShortBarHeight property
 
-Почтовая короткая высота бара в пикселях.
+Высота короткой почтовой полосы в пикселях.
 
 ```csharp
 public float PostalShortBarHeight { get; set; }

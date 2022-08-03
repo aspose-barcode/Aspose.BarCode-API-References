@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/alternativescheme/instruction/
 
 获取给定账单的支付指令。
 
-该指令由一个方案的两个字母缩写、一个分隔符 和一系列参数组成（由索引 2 处的字符分隔）。
+该指令由方案的两个字母缩写、分隔符 和一系列参数（由索引 2 处的字符分隔）组成。
 
 ```csharp
 public string Instruction { get; set; }
@@ -18,7 +18,7 @@ public string Instruction { get; set; }
 
 ### 适当的价值
 
-支付指令。
+付款说明。
 
 ### 也可以看看
 

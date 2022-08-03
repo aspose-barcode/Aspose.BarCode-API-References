@@ -1,14 +1,14 @@
 ---
 title: BarColorProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: BarColorProperty
+description: Барколорпроперти
 type: docs
 weight: 1110
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/barcolorproperty/
 ---
 ## BarcodeGeneratorElement.BarColorProperty field
 
-BarColorProperty
+Барколорпроперти
 
 ```csharp
 public static DependencyProperty BarColorProperty;

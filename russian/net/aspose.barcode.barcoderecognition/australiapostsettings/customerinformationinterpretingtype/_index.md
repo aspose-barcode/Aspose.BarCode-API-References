@@ -1,14 +1,14 @@
 ---
 title: CustomerInformationInterpretingType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other.
+description: Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other. .
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype/
 ---
 ## AustraliaPostSettings.CustomerInformationInterpretingType property
 
-Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other.
+Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other. .
 
 ```csharp
 public CustomerInformationInterpretingType CustomerInformationInterpretingType { get; set; }
@@ -16,7 +16,7 @@ public CustomerInformationInterpretingType CustomerInformationInterpretingType {
 
 ### Стоимость имущества
 
-Тип интерпретации (CTable, NTable или другой) информации о клиенте для штрих-кода AustralianPost
+Тип интерпретации (CTable, NTable или другой) информации о клиенте для штрих-кода AustralianPost.
 
 ### Смотрите также
 

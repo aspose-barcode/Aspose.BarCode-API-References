@@ -1,14 +1,14 @@
 ---
 title: DotCodeParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: DotCode 参数
+description: 点码参数
 type: docs
 weight: 690
 url: /zh/net/aspose.barcode.generation/dotcodeparameters/
 ---
 ## DotCodeParameters class
 
-DotCode 参数。
+点码参数。
 
 ```csharp
 public class DotCodeParameters
@@ -18,14 +18,14 @@ public class DotCodeParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [DotCodeMask](../../aspose.barcode.generation/dotcodeparameters/dotcodemask) { get; set; } | Dotcode 条码的掩码。 默认值:-1。 |
+| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [DotCodeMask](../../aspose.barcode.generation/dotcodeparameters/dotcodemask) { get; set; } | Dotcode 条码掩码. 默认值：-1. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring)() | 返回此[`DotCodeParameters`](../dotcodeparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring)() | 返回一个人类可读的字符串表示[`DotCodeParameters`](../dotcodeparameters). |
 
 ### 也可以看看
 

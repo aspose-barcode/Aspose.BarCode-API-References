@@ -1,14 +1,14 @@
 ---
 title: BorderParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码图像边框参数
+description: 条码图片边框参数
 type: docs
 weight: 540
 url: /zh/net/aspose.barcode.generation/borderparameters/
 ---
 ## BorderParameters class
 
-条码图像边框参数
+条码图片边框参数
 
 ```csharp
 public class BorderParameters
@@ -18,16 +18,16 @@ public class BorderParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.barcode.generation/borderparameters/color) { get; set; } | 边框颜色。 默认值:Color.Black。 |
-| [DashStyle](../../aspose.barcode.generation/borderparameters/dashstyle) { get; set; } | 边框破折号样式。 默认值:BorderDashStyle.Solid。 |
-| [Visible](../../aspose.barcode.generation/borderparameters/visible) { get; set; } | 边框可见性。如果为 false，则始终忽略参数 Width (0)。 默认值:假。 |
-| [Width](../../aspose.barcode.generation/borderparameters/width) { get; set; } | 边框宽度。 默认值:0。 如果 Visible 设置为 false，则忽略。 |
+| [Color](../../aspose.barcode.generation/borderparameters/color) { get; set; } | 边框颜色. 默认值：Color.Black. |
+| [DashStyle](../../aspose.barcode.generation/borderparameters/dashstyle) { get; set; } | 边框虚线样式. 默认值：BorderDashStyle.Solid. |
+| [Visible](../../aspose.barcode.generation/borderparameters/visible) { get; set; } | 边界可见性。如果为假，则始终忽略参数宽度 (0)。 默认值：假。 |
+| [Width](../../aspose.barcode.generation/borderparameters/width) { get; set; } | 边框宽度。 默认值：0. 如果 Visible 设置为 false，则忽略。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/borderparameters/tostring)() | 返回此[`BorderParameters`](../borderparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/borderparameters/tostring)() | 返回一个人类可读的字符串表示[`BorderParameters`](../borderparameters). |
 
 ### 也可以看看
 

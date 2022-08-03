@@ -1,14 +1,14 @@
 ---
 title: BoundingRectangle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ПолучаетRectangleограничивающий этоQuadrangleaspose.barcode.barcoderecognition/quadrangle
+description: ПолучаетRectangle ограничивая этоQuadrangleaspose.barcode.barcoderecognition/quadrangle
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/boundingrectangle/
 ---
 ## Quadrangle.BoundingRectangle property
 
-ПолучаетRectangleограничивающий это[`Quadrangle`](../../quadrangle)
+ПолучаетRectangle ограничивая это[`Quadrangle`](../../quadrangle)
 
 ```csharp
 public Rectangle BoundingRectangle { get; }
@@ -16,7 +16,7 @@ public Rectangle BoundingRectangle { get; }
 
 ### Стоимость имущества
 
-ВозвращаетRectangleограничивающий этот[`Quadrangle`](../../quadrangle)
+ВозвращаетRectangle ограничивая это[`Quadrangle`](../../quadrangle)
 
 ### Смотрите также
 

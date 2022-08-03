@@ -1,14 +1,14 @@
 ---
 title: FontUnit
 second_title: Aspose.BarCode for .NET API 参考
-description: 定义文本的特定格式包括字体大小和样式属性 其中 size 在 Unit value 属性中
+description: 定义文本的特定格式包括字体大小和样式属性 其中大小在单位值属性中
 type: docs
 weight: 750
 url: /zh/net/aspose.barcode.generation/fontunit/
 ---
 ## FontUnit class
 
-定义文本的特定格式，包括字体、大小和样式属性 其中 size 在 Unit value 属性中。
+定义文本的特定格式，包括字体、大小和样式属性 其中大小在单位值属性中。
 
 ```csharp
 public sealed class FontUnit
@@ -18,13 +18,13 @@ public sealed class FontUnit
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FamilyName](../../aspose.barcode.generation/fontunit/familyname) { get; set; } | 获取或设置此 Font 的面名。 |
-| [Size](../../aspose.barcode.generation/fontunit/size) { get; } | 获取或设置此 FontUnit 的大小（以 Unit 为单位）。 |
+| [FamilyName](../../aspose.barcode.generation/fontunit/familyname) { get; set; } | 获取或设置此字体的面名。 |
+| [Size](../../aspose.barcode.generation/fontunit/size) { get; } | 以单位值获取或设置此 FontUnit 的大小。 |
 | [Style](../../aspose.barcode.generation/fontunit/style) { get; set; } | 获取或设置此 FontUnit 的样式信息。 |
 
 ### 例子
 
-此示例说明如何创建和保存条形码图像。
+此示例显示如何创建和保存条形码图像。
 
 ```csharp
 [C#]

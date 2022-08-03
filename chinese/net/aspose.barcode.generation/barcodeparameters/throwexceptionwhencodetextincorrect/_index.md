@@ -1,14 +1,14 @@
 ---
 title: ThrowExceptionWhenCodeTextIncorrect
 second_title: Aspose.BarCode for .NET API 参考
-description: 仅适用于一维条码 如果代码文本不正确并且值设置为 true - 将引发异常否则代码文本将被更正以匹配条形码的规范 如果代码文本不正确则始终会抛出异常Databar symbology 如果代码文本不正确则始终不会抛出异常AustraliaPostSingapurePostCode39ExtendedCode93ExtendedCode16KCode128 符号
+description: 仅适用于一维条码 如果代码文本不正确且值设置为 true - 将引发异常否则 codetext 将被更正以匹配条形码的规范 如果 codetext 不正确则始终会引发异常 .
 type: docs
 weight: 270
 url: /zh/net/aspose.barcode.generation/barcodeparameters/throwexceptionwhencodetextincorrect/
 ---
 ## BarcodeParameters.ThrowExceptionWhenCodeTextIncorrect property
 
-仅适用于一维条码。 如果代码文本不正确并且值设置为 true - 将引发异常。否则代码文本将被更正以匹配条形码的规范。 如果代码文本不正确，则始终会抛出异常:Databar symbology。 如果代码文本不正确，则始终不会抛出异常:AustraliaPost、SingapurePost、Code39Extended、Code93Extended、Code16K、Code128 符号。
+仅适用于一维条码。 如果代码文本不正确且值设置为 true - 将引发异常。否则 codetext 将被更正以匹配条形码的规范。 如果 codetext 不正确，则始终会引发异常。 .
 
 ```csharp
 public bool ThrowExceptionWhenCodeTextIncorrect { get; set; }

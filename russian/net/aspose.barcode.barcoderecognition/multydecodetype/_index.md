@@ -1,14 +1,14 @@
 ---
 title: MultyDecodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Композитный тип декодирования.
+description: Тип композитного декодирования.
 type: docs
 weight: 200
 url: /ru/net/aspose.barcode.barcoderecognition/multydecodetype/
 ---
 ## MultyDecodeType class
 
-Композитный тип декодирования.
+Тип композитного декодирования.
 
 ```csharp
 public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
@@ -18,30 +18,30 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 | Имя | Описание |
 | --- | --- |
-| [MultyDecodeType](multydecodetype#constructor)(params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`MultyDecodeType`](../multydecodetype). |
-| [MultyDecodeType](multydecodetype#constructor_1)(params SingleDecodeType[]) | Инициализирует новый экземпляр класса[`MultyDecodeType`](../multydecodetype). |
+| [MultyDecodeType](multydecodetype#constructor)(params BaseDecodeType[]) | Инициализирует новый экземпляр[`MultyDecodeType`](../multydecodetype) класс. |
+| [MultyDecodeType](multydecodetype#constructor_1)(params SingleDecodeType[]) | Инициализирует новый экземпляр[`MultyDecodeType`](../multydecodetype) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [GetSingleTypesCount](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypescount) { get; } | Возвращает несколько отдельных типов. |
+| [GetSingleTypesCount](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypescount) { get; } | Возвращает количество отдельных типов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.barcode.barcoderecognition/multydecodetype/add)(SingleDecodeType) | Добавляет еще один[`SingleDecodeType`](../singledecodetype)к MultyDecodeType. |
-| [ContainsAll](../../aspose.barcode.barcoderecognition/multydecodetype/containsall)(params BaseDecodeType[]) | Проверьте, содержит ли это все типы из типов штрих-кода. |
+| [ContainsAll](../../aspose.barcode.barcoderecognition/multydecodetype/containsall)(params BaseDecodeType[]) | Проверьте, содержит ли он все типы из типов штрих-кода. |
 | override [ContainsAny](../../aspose.barcode.barcoderecognition/multydecodetype/containsany)(params BaseDecodeType[]) | Содержит любой из типов |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../basedecodetype)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_1)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../multydecodetype)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../multydecodetype)значению. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../singledecodetype)значению. |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../basedecodetype) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_1)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../multydecodetype) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../multydecodetype) значение. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../singledecodetype) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/multydecodetype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
 | [GetSingleTypes](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypes)() | Представляет список отдельных типов. |
 | override [ToString](../../aspose.barcode.barcoderecognition/multydecodetype/tostring)() | Переопределенный метод, представляющий MultyDecodeType в виде строки. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/multydecodetype/tryparse)(string, out MultyDecodeType) | Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/multydecodetype/tryparse)(string, out MultyDecodeType) | Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
 
 ### Примеры
 

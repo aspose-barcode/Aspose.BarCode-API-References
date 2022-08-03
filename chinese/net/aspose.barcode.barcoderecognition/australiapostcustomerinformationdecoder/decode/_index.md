@@ -1,14 +1,14 @@
 ---
 title: Decode
 second_title: Aspose.BarCode for .NET API 参考
-description: 解码来自澳大利亚邮政符号系统的客户信息字段 可用于 NTable 和 CTable 编码的不同数据解释 数据以一行条形值的形式提供012 或 3
+description: 从澳大利亚邮政符号系统中解码客户信息字段 可用于来自 NTable 和 CTable 编码的不同数据解释 数据以一行条形值的形式提供012 或 3
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode/
 ---
 ## AustraliaPostCustomerInformationDecoder.Decode method
 
-解码来自澳大利亚邮政符号系统的客户信息字段。 可用于 NTable 和 CTable 编码的不同数据解释。 数据以一行条形值的形式提供:0、1、2 或 3。
+从澳大利亚邮政符号系统中解码客户信息字段。 可用于来自 NTable 和 CTable 编码的不同数据解释。 数据以一行条形值的形式提供：0、1、2 或 3。
 
 ```csharp
 public string Decode(string customerInformationField)
@@ -16,7 +16,7 @@ public string Decode(string customerInformationField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| customerInformationField | String | 客户信息字段编码为一行原始条形值:0、1、2 或 3 |
+| customerInformationField | String | 编码为原始条形值行的客户信息字段：0、1、2 或 3 |
 
 ### 返回值
 

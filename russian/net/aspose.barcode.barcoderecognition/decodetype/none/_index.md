@@ -1,14 +1,14 @@
 ---
 title: None
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Неопределенный тип декодирования.
+description: Не указан тип декодирования.
 type: docs
 weight: 530
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/none/
 ---
 ## DecodeType.None field
 
-Неопределенный тип декодирования.
+Не указан тип декодирования.
 
 ```csharp
 public static readonly SingleDecodeType None;

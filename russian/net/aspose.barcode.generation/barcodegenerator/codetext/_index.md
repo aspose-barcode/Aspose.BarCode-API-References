@@ -1,14 +1,14 @@
 ---
 title: CodeText
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Кодируемый текст.
+description: Текст для кодирования.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/barcodegenerator/codetext/
 ---
 ## BarcodeGenerator.CodeText property
 
-Кодируемый текст.
+Текст для кодирования.
 
 ```csharp
 public string CodeText { get; set; }

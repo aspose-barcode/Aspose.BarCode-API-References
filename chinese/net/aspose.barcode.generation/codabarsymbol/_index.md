@@ -1,14 +1,14 @@
 ---
 title: CodabarSymbol
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定 Codabar 条码规范的开始或结束符号
+description: 指定 Codabar 条码规范的开始或停止符号
 type: docs
 weight: 580
 url: /zh/net/aspose.barcode.generation/codabarsymbol/
 ---
 ## CodabarSymbol enumeration
 
-指定 Codabar 条码规范的开始或结束符号。
+指定 Codabar 条码规范的开始或停止符号。
 
 ```csharp
 public enum CodabarSymbol : short

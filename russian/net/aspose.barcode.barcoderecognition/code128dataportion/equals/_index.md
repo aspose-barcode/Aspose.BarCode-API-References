@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанному значениюCode128DataPortionaspose.barcode.barcoderecognition/code128dataportion.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуCode128DataPortionaspose.barcode.barcoderecognition/code128dataportion значение.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/code128dataportion/equals/
 ---
 ## Code128DataPortion.Equals method
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному значению[`Code128DataPortion`](../../code128dataportion).
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Code128DataPortion`](../../code128dataportion) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

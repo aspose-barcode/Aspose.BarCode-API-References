@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此BorderParametersaspose.barcode.generation/borderparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示BorderParametersaspose.barcode.generation/borderparameters.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.generation/borderparameters/tostring/
 ---
 ## BorderParameters.ToString method
 
-返回此[`BorderParameters`](../../borderparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`BorderParameters`](../../borderparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`BorderParameters`](../../borderparameters)的字符串。
+代表这个的字符串[`BorderParameters`](../../borderparameters).
 
 ### 也可以看看
 

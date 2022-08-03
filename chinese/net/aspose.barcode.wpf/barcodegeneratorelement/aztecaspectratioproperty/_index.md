@@ -1,14 +1,14 @@
 ---
 title: AztecAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: AztecAspectRatioProperty
+description: AztecAspectRatio属性
 type: docs
 weight: 1060
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/aztecaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.AztecAspectRatioProperty field
 
-AztecAspectRatioProperty
+AztecAspectRatio属性
 
 ```csharp
 public static DependencyProperty AztecAspectRatioProperty;

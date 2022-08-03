@@ -1,14 +1,14 @@
 ---
 title: OneCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 USPS OneCode 条码规范 解码
+description: 指定数据应使用 USPS 解码 一码条码规格
 type: docs
 weight: 540
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/onecode/
 ---
 ## DecodeType.OneCode field
 
-指定数据应使用 USPS **OneCode** 条码规范 解码
+指定数据应使用 USPS 解码 **一码**条码规格
 
 ```csharp
 public static readonly SingleDecodeType OneCode;

@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Цвет рамки. Значение по умолчаниюColor.Black.
+description: Цвет границы. Значение по умолчанию Color.Black.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/borderparameters/color/
 ---
 ## BorderParameters.Color property
 
-Цвет рамки. Значение по умолчанию:Color.Black.
+Цвет границы. Значение по умолчанию: Color.Black.
 
 ```csharp
 public Color Color { get; set; }

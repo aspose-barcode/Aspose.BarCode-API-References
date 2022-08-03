@@ -27,7 +27,7 @@ public class Padding
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/padding/tostring)() | 返回此[`Padding`](../padding)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/padding/tostring)() | 返回一个人类可读的字符串表示[`Padding`](../padding). |
 
 ### 也可以看看
 

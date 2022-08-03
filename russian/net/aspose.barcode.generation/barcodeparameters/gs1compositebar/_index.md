@@ -16,7 +16,7 @@ public GS1CompositeBarParameters GS1CompositeBar { get; set; }
 
 ### Примеры
 
-В этом примере показано, как создать и сохранить изображение композитного стержня GS1. Обратите внимание, что кодовый текст 1D и кодовый текст 2D разделены символом '/'
+В этом примере показано, как создать и сохранить изображение составной полосы GS1. Обратите внимание, что кодовый текст 1D и кодовый текст 2D разделены символом '/'
 
 ```csharp
 [C#]
@@ -26,13 +26,13 @@ public GS1CompositeBarParameters GS1CompositeBar { get; set; }
       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
       
-       // Соотношение сторон 2D component
+      // Соотношение сторон 2D-компонента
       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
           
-       // X-размер 1D и 2D компонентов
+      // X-размер 1D и 2D компонентов
       generator.Parameters.Barcode.XDimension.Pixels = 3;
           
-       // Высота 1D component
+      // Высота 1D компонента
       generator.Parameters.Barcode.BarHeight.Pixels = 100;
       
       generator.Save("test.png");

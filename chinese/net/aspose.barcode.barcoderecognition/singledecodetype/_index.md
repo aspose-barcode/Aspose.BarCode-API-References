@@ -27,18 +27,18 @@ public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeTy
 | --- | --- |
 | static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse)(string) | 将 SingleDecodeType 名称的字符串表示形式转换为其实例。 |
 | override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany)(params BaseDecodeType[]) | 返回一个值，指示此实例是否包含在指定的列表中。 |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值。 |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | 返回一个值，该值指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_3)(object) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_2)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值。 |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | 返回一个值，指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_3)(object) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals#equals_2)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode)() | 返回此实例的哈希码。 |
-| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)() | 将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:-1; Name:None"。 |
+| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)() | 将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：-1；名称：无”。 |
 | override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring)() | 以字符串形式返回给定 SingleDecodeType 的名称。 |
-| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)(SingleDecodeType) | 将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:-1; Name:None"。 |
+| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)(SingleDecodeType) | 将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：-1；名称：无”。 |
 
 ### 例子
 
-此示例展示了如何获取单个解码类型的实例。
+这个示例展示了如何获取单个解码类型的实例。
 
 ```csharp
 [C#]

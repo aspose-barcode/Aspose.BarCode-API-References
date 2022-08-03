@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоCode128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparameters.
+description: Возвращает удобочитаемое строковое представление этогоCode128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparameters .
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/code128extendedparameters/tostring/
 ---
 ## Code128ExtendedParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`Code128ExtendedParameters`](../../code128extendedparameters).
+Возвращает удобочитаемое строковое представление этого[`Code128ExtendedParameters`](../../code128extendedparameters) .
 
 ```csharp
 public override string ToString()

@@ -1,14 +1,14 @@
 ---
 title: QrEncodeMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип символики QR режима кодирования штрих-кода. Значение по умолчаниюQREncodeMode.Auto.
+description: Тип символики QR режима кодирования штрих-кода. Значение по умолчанию QREncodeMode.Auto.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.windows.forms/qrparametersui/qrencodemode/
 ---
 ## QrParametersUI.QrEncodeMode property
 
-Тип символики QR режима кодирования штрих-кода. Значение по умолчанию:QREncodeMode.Auto.
+Тип символики QR режима кодирования штрих-кода. Значение по умолчанию: QREncodeMode.Auto.
 
 ```csharp
 public QREncodeMode QrEncodeMode { get; set; }

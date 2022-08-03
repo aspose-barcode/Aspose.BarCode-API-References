@@ -1,14 +1,14 @@
 ---
 title: ScanSets
 second_title: Aspose.BarCode for .NET API 参考
-description: 按条形码类型指定扫描集
+description: 按barcodeTypes指定扫描集
 type: docs
 weight: 800
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/scansets/
 ---
 ## DecodeType.ScanSets method
 
-按条形码类型指定扫描集
+按barcodeTypes指定扫描集
 
 ```csharp
 public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
@@ -16,7 +16,7 @@ public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | 单个和多个数组解码类型 |
+| barcodeTypes | BaseDecodeType[] | 单个和多个解码类型的数组 |
 
 ### 返回值
 

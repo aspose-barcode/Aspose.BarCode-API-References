@@ -1,14 +1,14 @@
 ---
 title: RightTop
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取右上角PointofQuadrangleaspose.barcode.barcoderecognition/quadrangleregion
+description: 获取右上角Point的Quadrangleaspose.barcode.barcoderecognition/quadrangle地区
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/righttop/
 ---
 ## Quadrangle.RightTop property
 
-获取右上角Pointof[`Quadrangle`](../../quadrangle)region
+获取右上角Point的[`Quadrangle`](../../quadrangle)地区
 
 ```csharp
 public Point RightTop { get; set; }
@@ -16,7 +16,7 @@ public Point RightTop { get; set; }
 
 ### 适当的价值
 
-右上角Pointof[`Quadrangle`](../../quadrangle)地区
+右上角Point的[`Quadrangle`](../../quadrangle)地区
 
 ### 也可以看看
 

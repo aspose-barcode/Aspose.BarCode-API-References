@@ -18,7 +18,7 @@ public interface AustraliaPostCustomerInformationDecoder
 
 | Имя | Описание |
 | --- | --- |
-| [Decode](../../aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode)(string) | Декодировать поле информации о клиенте из символики AustraliaPost. Может использоваться для различной интерпретации данных кодирования NTable и CTable. Данные предоставляются в виде строки значений бара:0, 1, 2 или 3. |
+| [Decode](../../aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode)(string) | Декодировать поле информации о клиенте из системы символов AustraliaPost. Может использоваться для интерпретации данных, отличных от кодирования NTable и CTable. Данные предоставляются в виде строки значений столбца: 0, 1, 2 или 3. |
 
 ### Смотрите также
 

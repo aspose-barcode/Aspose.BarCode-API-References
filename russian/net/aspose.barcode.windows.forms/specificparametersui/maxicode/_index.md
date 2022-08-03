@@ -1,14 +1,14 @@
 ---
 title: MaxiCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры MaxiCodeMaxiCodeParametersaspose.barcode.generation/maxicodeparameters. Используется для MaxiCode.
+description: Получает или задает параметры MaxiCodeMaxiCodeParametersaspose.barcode.generation/maxicodeparameters . Используется для MaxiCode.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/maxicode/
 ---
 ## SpecificParametersUI.MaxiCode property
 
-Получает или устанавливает параметры MaxiCode[`MaxiCodeParameters`](../../../aspose.barcode.generation/maxicodeparameters). Используется для MaxiCode.
+Получает или задает параметры MaxiCode[`MaxiCodeParameters`](../../../aspose.barcode.generation/maxicodeparameters) . Используется для MaxiCode.
 
 ```csharp
 public MaxiCodeParameters MaxiCode { get; }

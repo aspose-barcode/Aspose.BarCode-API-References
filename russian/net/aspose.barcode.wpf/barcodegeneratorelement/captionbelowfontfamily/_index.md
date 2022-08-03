@@ -1,14 +1,14 @@
 ---
 title: CaptionBelowFontFamily
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Заголовок под семейством шрифтов.
+description: Подпись под семейством шрифтов.
 type: docs
 weight: 250
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowfontfamily/
 ---
 ## BarcodeGeneratorElement.CaptionBelowFontFamily property
 
-Заголовок под семейством шрифтов.
+Подпись под семейством шрифтов.
 
 ```csharp
 public FontFamily CaptionBelowFontFamily { get; set; }

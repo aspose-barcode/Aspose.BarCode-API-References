@@ -1,14 +1,14 @@
 ---
 title: Pharmacode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с использованием Pharmacode штрих-кода. Эта символика также известна как фармацевтический двоичный код
+description: Указывает что данные должны быть декодированы с Фармакод штрих-код. Эта символика также известна как фармацевтический двоичный код .
 type: docs
 weight: 580
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/pharmacode/
 ---
 ## DecodeType.Pharmacode field
 
-Указывает, что данные должны быть декодированы с использованием **Pharmacode** штрих-кода. Эта символика также известна как фармацевтический двоичный код
+Указывает, что данные должны быть декодированы с **Фармакод** штрих-код. Эта символика также известна как фармацевтический двоичный код .
 
 ```csharp
 public static readonly SingleDecodeType Pharmacode;

@@ -1,14 +1,14 @@
 ---
 title: GetString
 second_title: Aspose.BarCode for .NET API 参考
-description: 将 SingleDecodeType 的实例转换为其等效的字符串表示形式 字符串格式为Index-1 NameNone
+description: 将 SingleDecodeType 的实例转换为其等效的字符串表示形式 字符串格式为索引-1名称无
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.barcoderecognition/singledecodetype/getstring/
 ---
 ## GetString()
 
-将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:-1; Name:None"。
+将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：-1；名称：无”。
 
 ```csharp
 public string GetString()
@@ -28,7 +28,7 @@ public string GetString()
 
 ## GetString(SingleDecodeType)
 
-将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:-1; Name:None"。
+将 SingleDecodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：-1；名称：无”。
 
 ```csharp
 public static string GetString(SingleDecodeType instance)
@@ -40,7 +40,7 @@ public static string GetString(SingleDecodeType instance)
 
 ### 返回值
 
-表示给定单个解码类型的完整值
+表示给定单个解码类型的完整值的字符串
 
 ### 也可以看看
 

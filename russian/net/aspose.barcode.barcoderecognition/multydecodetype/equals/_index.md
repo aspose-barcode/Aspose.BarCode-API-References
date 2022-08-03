@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуMultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetypeзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуMultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetype значение.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.barcoderecognition/multydecodetype/equals/
 ---
 ## Equals(MultyDecodeType) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../../multydecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../../multydecodetype) значение.
 
 ```csharp
 public override bool Equals(MultyDecodeType other)
@@ -16,11 +16,11 @@ public override bool Equals(MultyDecodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | MultyDecodeType | Значение[`MultyDecodeType`](../../multydecodetype)для сравнения с этим экземпляром. |
+| other | MultyDecodeType | Ан[`MultyDecodeType`](../../multydecodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public override bool Equals(MultyDecodeType other)
 
 ## Equals(object) {#equals_3}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../../multydecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../../multydecodetype) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

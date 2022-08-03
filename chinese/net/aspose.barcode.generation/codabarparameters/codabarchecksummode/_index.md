@@ -1,14 +1,14 @@
 ---
 title: CodabarChecksumMode
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Codabar 条码的校验和算法 默认值CodabarChecksumMode.Mod16 要启用校验和计算请将值 EnableChecksum.Yes 设置为属性 EnableChecksum 见CodabarChecksumModeaspose.barcode.generation/codabarparameters/codabarchecksummode
+description: 获取或设置 Codabar 条码的校验和算法 默认值CodabarChecksumMode.Mod16. 启用校验和计算设置值 EnableChecksum.Yes 属性 EnableChecksum. 见CodabarChecksumModeaspose.barcode.generation/codabarparameters/codabarchecksummode.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/codabarparameters/codabarchecksummode/
 ---
 ## CodabarParameters.CodabarChecksumMode property
 
-获取或设置 Codabar 条码的校验和算法。 默认值:CodabarChecksumMode.Mod16。 要启用校验和计算，请将值 EnableChecksum.Yes 设置为属性 EnableChecksum。 见`CodabarChecksumMode`。
+获取或设置 Codabar 条码的校验和算法。 默认值：CodabarChecksumMode.Mod16. 启用校验和计算设置值 EnableChecksum.Yes 属性 EnableChecksum. 见`CodabarChecksumMode`.
 
 ```csharp
 public CodabarChecksumMode CodabarChecksumMode { get; set; }

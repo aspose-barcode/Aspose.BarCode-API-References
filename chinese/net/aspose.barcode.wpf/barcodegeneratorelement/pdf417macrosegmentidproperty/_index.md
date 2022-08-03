@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentIDProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: Pdf417MacroSegmentIDProperty
+description: Pdf417MacroSegmentID 属性
 type: docs
 weight: 1850
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentidproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroSegmentIDProperty field
 
-Pdf417MacroSegmentIDProperty
+Pdf417MacroSegmentID 属性
 
 ```csharp
 public static DependencyProperty Pdf417MacroSegmentIDProperty;

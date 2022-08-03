@@ -1,14 +1,14 @@
 ---
 title: PZN
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы со спецификацией штрих-кода PZN . Эта символика также известна как Pharma Zentral Nummer
+description: Указывает что данные должны быть декодированы с ПЗНСпецификация штрих-кода. Этот символ также известен как Pharma Zentral Nummer .
 type: docs
 weight: 620
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/pzn/
 ---
 ## DecodeType.PZN field
 
-Указывает, что данные должны быть декодированы со спецификацией штрих-кода **PZN** . Эта символика также известна как Pharma Zentral Nummer
+Указывает, что данные должны быть декодированы с **ПЗН**Спецификация штрих-кода. Этот символ также известен как Pharma Zentral Nummer .
 
 ```csharp
 public static readonly SingleDecodeType PZN;

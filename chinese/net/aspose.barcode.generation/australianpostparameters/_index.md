@@ -1,14 +1,14 @@
 ---
 title: AustralianPostParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 澳大利亚邮政条码参数
+description: 澳大利亚邮政条码参数.
 type: docs
 weight: 430
 url: /zh/net/aspose.barcode.generation/australianpostparameters/
 ---
 ## AustralianPostParameters class
 
-澳大利亚邮政条码参数。
+澳大利亚邮政条码参数.
 
 ```csharp
 public class AustralianPostParameters
@@ -18,14 +18,14 @@ public class AustralianPostParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AustralianPostEncodingTable](../../aspose.barcode.generation/australianpostparameters/australianpostencodingtable) { get; set; } | 澳大利亚邮政客户信息的解释类型，默认为 CustomerInformationInterpretingType.Other" |
+| [AustralianPostEncodingTable](../../aspose.barcode.generation/australianpostparameters/australianpostencodingtable) { get; set; } | AustralianPost客户信息的解释类型，默认为CustomerInformationInterpretingType.Other" |
 | [AustralianPostShortBarHeight](../../aspose.barcode.generation/australianpostparameters/australianpostshortbarheight) { get; set; } | 澳大利亚邮政条码的短条高度。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/australianpostparameters/tostring)() | 返回此[`AustralianPostParameters`](../australianpostparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/australianpostparameters/tostring)() | 返回一个人类可读的字符串表示[`AustralianPostParameters`](../australianpostparameters). |
 
 ### 也可以看看
 

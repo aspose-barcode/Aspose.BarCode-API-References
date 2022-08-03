@@ -1,14 +1,14 @@
 ---
 title: DestinationPostCodePlusDPS
 second_title: Aspose.BarCode for .NET API 参考
-description: PC 和 DP 必须符合 PAF 格式 表示国际XY11的九个字符串注意后面的 5 个空格或表示国内排序代码的字符模式  国内分拣编码由外向邮政编码内向邮政编码和交货点后缀组成
+description: PC 和 DP 必须符合 PAF 格式 九个字符串表示国际XY11注意后面的 5 个空格或一个模式 表示国内分拣代码的字符 国内分拣代码由一个向外的邮政编码组成向内邮政编码和交货点后缀.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps/
 ---
 ## MailmarkCodetext.DestinationPostCodePlusDPS property
 
-PC 和 DP 必须符合 PAF 格式。 表示国际“XY11”的九个字符串（注意后面的 5 个空格）或表示国内排序代码的字符模式 。 国内分拣编码由外向邮政编码、内向邮政编码和交货点后缀组成。
+PC 和 DP 必须符合 PAF 格式。 九个字符串表示国际“XY11”（注意后面的 5 个空格）或一个模式 表示国内分拣代码的字符。 国内分拣代码由一个向外的邮政编码组成，向内邮政编码和交货点后缀.
 
 ```csharp
 public string DestinationPostCodePlusDPS { get; set; }

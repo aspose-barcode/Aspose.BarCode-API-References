@@ -1,14 +1,14 @@
 ---
 title: DeutschePostLeitcode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с DeutschePost Leit code спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Лейт-код DeutschePost спецификация штрих-кода
 type: docs
 weight: 270
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/deutschepostleitcode/
 ---
 ## DecodeType.DeutschePostLeitcode field
 
-Указывает, что данные должны быть декодированы с **DeutschePost Leit code** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Лейт-код DeutschePost** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType DeutschePostLeitcode;

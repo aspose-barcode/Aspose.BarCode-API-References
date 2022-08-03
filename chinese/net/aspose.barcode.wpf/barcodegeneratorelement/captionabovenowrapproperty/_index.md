@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveNoWrapProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CaptionAboveNoWrapProperty
+description: CaptionAboveNoWrap 属性
 type: docs
 weight: 1200
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovenowrapproperty/
 ---
 ## BarcodeGeneratorElement.CaptionAboveNoWrapProperty field
 
-CaptionAboveNoWrapProperty
+CaptionAboveNoWrap 属性
 
 ```csharp
 public static DependencyProperty CaptionAboveNoWrapProperty;

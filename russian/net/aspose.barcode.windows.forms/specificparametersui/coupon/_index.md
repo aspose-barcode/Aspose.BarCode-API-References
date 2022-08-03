@@ -1,14 +1,14 @@
 ---
 title: Coupon
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры купонаCouponParametersaspose.barcode.generation/couponparameters. Используется для UpcaGs1DatabarCoupon UpcaGs1Code128Coupon.
+description: Получает или задает параметры купонаCouponParametersaspose.barcode.generation/couponparameters . Используется для UpcaGs1DatabarCoupon UpcaGs1Code128Coupon.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/coupon/
 ---
 ## SpecificParametersUI.Coupon property
 
-Получает или устанавливает параметры купона[`CouponParameters`](../../../aspose.barcode.generation/couponparameters). Используется для UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
+Получает или задает параметры купона[`CouponParameters`](../../../aspose.barcode.generation/couponparameters) . Используется для UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
 
 ```csharp
 public CouponParameters Coupon { get; }

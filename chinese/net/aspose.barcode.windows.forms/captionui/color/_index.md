@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 前景色 的 标题aspose.barcode.generation/captionparameters.
+description: 获取或设置前景色的标题aspose.barcode.generation/captionparameters.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.windows.forms/captionui/color/
 ---
 ## CaptionUI.Color property
 
-获取或设置 前景色 的 [`标题`](../../../aspose.barcode.generation/captionparameters).
+获取或设置前景色的[`标题`](../../../aspose.barcode.generation/captionparameters).
 
 ```csharp
 public Color Color { get; set; }

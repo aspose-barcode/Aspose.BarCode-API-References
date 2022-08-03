@@ -30,8 +30,8 @@ public sealed class AlternativeScheme : IEquatable<AlternativeScheme>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals#equals)(AlternativeScheme) | 确定指定的备选方案是否等于当前备选方案。 |
-| override [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
+| [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals#equals)(AlternativeScheme) | 确定指定的替代方案是否等于当前的替代方案。 |
+| override [Equals](../../aspose.barcode.complexbarcode/alternativescheme/equals#equals_1)(object) | 确定指定对象是否等于当前对象。 |
 | override [GetHashCode](../../aspose.barcode.complexbarcode/alternativescheme/gethashcode)() | 获取此实例的哈希码。 |
 
 ### 也可以看看

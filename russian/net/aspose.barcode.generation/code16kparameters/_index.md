@@ -19,14 +19,14 @@ public class Code16KParameters
 | Имя | Описание |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/code16kparameters/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. |
-| [QuietZoneLeftCoef](../../aspose.barcode.generation/code16kparameters/quietzoneleftcoef) { get; set; } | Размер левой тихой зоны в xDimension. Значение по умолчанию:10, что означает, что если xDimension = 2px, то левая тихая зона будет 20px. |
-| [QuietZoneRightCoef](../../aspose.barcode.generation/code16kparameters/quietzonerightcoef) { get; set; } | Размер правой тихой зоны в xDimension. Значение по умолчанию:1, что означает, что если xDimension = 2px, то правая тихая зона будет 2px. |
+| [QuietZoneLeftCoef](../../aspose.barcode.generation/code16kparameters/quietzoneleftcoef) { get; set; } | Размер левой тихой зоны в xDimension. Значение по умолчанию: 10, что означает, что если xDimension = 2px, то левая неактивная зона будет 20px. |
+| [QuietZoneRightCoef](../../aspose.barcode.generation/code16kparameters/quietzonerightcoef) { get; set; } | Размер правой тихой зоны в xDimension. Значение по умолчанию: 1, что означает, что если xDimension = 2px, то правая неактивная зона будет 2px. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/code16kparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code16KParameters`](../code16kparameters). |
+| override [ToString](../../aspose.barcode.generation/code16kparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code16KParameters`](../code16kparameters) . |
 
 ### Смотрите также
 

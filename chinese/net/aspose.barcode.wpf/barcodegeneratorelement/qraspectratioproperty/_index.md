@@ -1,14 +1,14 @@
 ---
 title: QRAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: QRAspectRatioProperty
+description: QRAspectRatio 属性
 type: docs
 weight: 1900
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/qraspectratioproperty/
 ---
 ## BarcodeGeneratorElement.QRAspectRatioProperty field
 
-QRAspectRatioProperty
+QRAspectRatio 属性
 
 ```csharp
 public static DependencyProperty QRAspectRatioProperty;

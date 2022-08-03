@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.BarCode for .NET API 参考
-description: 清除所有字段并将类型设置为Undetermined
+description: 清除所有字段并将类型设置为Undetermined.
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.complexbarcode/address/clear/
 ---
 ## Address.Clear method
 
-清除所有字段并将类型设置为Undetermined。
+清除所有字段并将类型设置为Undetermined.
 
 ```csharp
 public void Clear()

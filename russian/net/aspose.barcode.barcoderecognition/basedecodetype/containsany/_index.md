@@ -1,14 +1,14 @@
 ---
 title: ContainsAny
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет входит ли какой-либо из заданных типов декодирования в
+description: Определяет включен ли какой-либо из заданных типов декодирования в
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/basedecodetype/containsany/
 ---
 ## BaseDecodeType.ContainsAny method
 
-Определяет, входит ли какой-либо из заданных типов декодирования в
+Определяет, включен ли какой-либо из заданных типов декодирования в
 
 ```csharp
 public abstract bool ContainsAny(params BaseDecodeType[] types)
@@ -20,7 +20,7 @@ public abstract bool ContainsAny(params BaseDecodeType[] types)
 
 ### Возвращаемое значение
 
-Значение истинно, если какие-либо типы включены в
+Значение является истинным, если какие-либо типы включены в
 
 ### Смотрите также
 

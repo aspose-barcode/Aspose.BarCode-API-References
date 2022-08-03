@@ -1,14 +1,14 @@
 ---
 title: QrVersion
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию  QRVersion.Auto.
+description: Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию QRVersion.Auto.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/qrparametersui/qrversion/
 ---
 ## QrParametersUI.QrVersion property
 
-Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию — QRVersion.Auto.
+Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr. Значение по умолчанию: QRVersion.Auto.
 
 ```csharp
 public QRVersion QrVersion { get; set; }

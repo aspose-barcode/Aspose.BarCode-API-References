@@ -1,14 +1,14 @@
 ---
 title: CouponSupplementSpaceProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: CouponSupplementSpaceProperty
+description: КупонДополнениеПространствоНедвижимость
 type: docs
 weight: 1530
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/couponsupplementspaceproperty/
 ---
 ## BarcodeGeneratorElement.CouponSupplementSpaceProperty field
 
-CouponSupplementSpaceProperty
+КупонДополнениеПространствоНедвижимость
 
 ```csharp
 public static DependencyProperty CouponSupplementSpaceProperty;

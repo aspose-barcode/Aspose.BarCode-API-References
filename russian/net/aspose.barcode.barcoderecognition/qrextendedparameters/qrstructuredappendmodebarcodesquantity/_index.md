@@ -1,14 +1,14 @@
 ---
 title: QRStructuredAppendModeBarCodesQuantity
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию-1.
+description: Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию -1.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity/
 ---
 ## QRExtendedParameters.QRStructuredAppendModeBarCodesQuantity property
 
-Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию:-1.
+Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию: -1.
 
 ```csharp
 public int QRStructuredAppendModeBarCodesQuantity { get; }

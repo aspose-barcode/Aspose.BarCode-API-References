@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Aspose.BarCode for .NET API 参考
-description: 创建BarCodeResultaspose.barcode.barcoderecognition/barcoderesult类的副本
+description: 创建一个副本BarCodeResultaspose.barcode.barcoderecognition/barcoderesult类.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/barcoderesult/
 ---
 ## BarCodeResult constructor
 
-创建[`BarCodeResult`](../../barcoderesult)类的副本。
+创建一个副本[`BarCodeResult`](../../barcoderesult)类.
 
 ```csharp
 public BarCodeResult(BarCodeResult result)
@@ -16,7 +16,7 @@ public BarCodeResult(BarCodeResult result)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| result | BarCodeResult | 副本[`BarCodeResult`](../../barcoderesult)实例。 |
+| result | BarCodeResult | 一个副本[`BarCodeResult`](../../barcoderesult)实例。 |
 
 ### 也可以看看
 

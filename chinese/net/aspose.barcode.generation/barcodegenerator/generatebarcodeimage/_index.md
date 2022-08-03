@@ -16,11 +16,11 @@ public Bitmap GenerateBarCodeImage()
 
 ### 返回值
 
-条形码图像。请参阅Bitmap。
+条形码图像。看Bitmap.
 
 ### 例子
 
-此示例说明如何创建和保存条形码图像。
+此示例显示如何创建和保存条形码图像。
 
 ```csharp
 [C#]

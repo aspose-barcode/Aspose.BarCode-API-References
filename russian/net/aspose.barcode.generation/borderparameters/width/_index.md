@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Ширина границы. Значение по умолчанию0. Игнорируется если для параметра Visible установлено значение false.
+description: Ширина границы. Значение по умолчанию 0. Игнорируется если для параметра Visible установлено значение false.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/borderparameters/width/
 ---
 ## BorderParameters.Width property
 
-Ширина границы. Значение по умолчанию:0. Игнорируется, если для параметра Visible установлено значение false.
+Ширина границы. Значение по умолчанию: 0. Игнорируется, если для параметра Visible установлено значение false.
 
 ```csharp
 public Unit Width { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PatchCodeExtraBarcodeText
 second_title: Aspose.BarCode for .NET API 参考
-description: 在页面模式下生成 PatchCode 时为额外的 QR 条码指定代码文本
+description: 在页面模式下生成 PatchCode 时为额外的 QR 条形码指定代码文本
 type: docs
 weight: 740
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetext/
 ---
 ## BarcodeGeneratorElement.PatchCodeExtraBarcodeText property
 
-在页面模式下生成 PatchCode 时，为额外的 QR 条码指定代码文本。
+在页面模式下生成 PatchCode 时，为额外的 QR 条形码指定代码文本。
 
 ```csharp
 public string PatchCodeExtraBarcodeText { get; set; }

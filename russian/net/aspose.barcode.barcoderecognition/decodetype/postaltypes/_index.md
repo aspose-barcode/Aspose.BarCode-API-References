@@ -1,14 +1,14 @@
 ---
 title: PostalTypes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные будут проверяться со всеми символами штрих-кода 1.5D Postal  такими как Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
+description: Указывает что данные будут проверяться со всеми 1.5D Почтовый символы штрих-кода такие как Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
 type: docs
 weight: 600
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/postaltypes/
 ---
 ## DecodeType.PostalTypes field
 
-Указывает, что данные будут проверяться со всеми символами штрих-кода **1.5D Postal** , такими как **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
+Указывает, что данные будут проверяться со всеми **1.5D Почтовый** символы штрих-кода, такие как **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
 
 ```csharp
 public static readonly MultyDecodeType PostalTypes;

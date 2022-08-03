@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуBaseEncodeTypeaspose.barcode.generation/baseencodetypeзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуBaseEncodeTypeaspose.barcode.generation/baseencodetype значение.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/baseencodetype/equals/
 ---
 ## Equals(BaseEncodeType) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../../baseencodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../../baseencodetype) значение.
 
 ```csharp
 public bool Equals(BaseEncodeType other)
@@ -16,11 +16,11 @@ public bool Equals(BaseEncodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | BaseEncodeType | Значение[`BaseEncodeType`](../../baseencodetype)для сравнения с этим экземпляром. |
+| other | BaseEncodeType | Ан[`BaseEncodeType`](../../baseencodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Equals(BaseEncodeType other)
 
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../../baseencodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../../baseencodetype) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

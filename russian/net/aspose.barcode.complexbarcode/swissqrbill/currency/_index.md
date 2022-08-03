@@ -10,7 +10,7 @@ url: /ru/net/aspose.barcode.complexbarcode/swissqrbill/currency/
 
 Получает или задает валюту платежа.
 
-Допустимые значения:"CHF" и "EUR".
+Допустимые значения: "CHF" и "EUR".
 
 ```csharp
 public string Currency { get; set; }

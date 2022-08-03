@@ -1,14 +1,14 @@
 ---
 title: CustomerInformationInterpretingType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет тип интерпретации CTable NTable или Other информации о клиенте для штрих-кода AustralianPost.
+description: Определяет тип интерпретации CTable NTable или другой информации о клиенте для штрих-кода AustralianPost.
 type: docs
 weight: 420
 url: /ru/net/aspose.barcode/customerinformationinterpretingtype/
 ---
 ## CustomerInformationInterpretingType enumeration
 
-Определяет тип интерпретации (CTable, NTable или Other) информации о клиенте для штрих-кода AustralianPost.
+Определяет тип интерпретации (CTable, NTable или другой) информации о клиенте для штрих-кода AustralianPost.
 
 ```csharp
 public enum CustomerInformationInterpretingType
@@ -18,7 +18,7 @@ public enum CustomerInformationInterpretingType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| CTable | `0` | Используйте CTable для интерпретации информации о клиенте. Допустимы A..Z, a..z, 1..9, пробел и знак #. |
+| CTable | `0` | Используйте CTable для интерпретации информации о клиенте. Разрешены A..Z, a..z, 1..9, пробел и знак #. |
 | NTable | `1` | Используйте NTable для интерпретации информации о клиенте. Позволяет цифры. |
 | Other | `2` | Не интерпретировать информацию о клиенте. Позволяет использовать только символы 0, 1, 2 или 3. |
 

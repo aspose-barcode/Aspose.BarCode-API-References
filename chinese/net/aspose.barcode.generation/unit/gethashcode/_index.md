@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-32 位有符号整数哈希码。
+一个 32 位有符号整数哈希码。
 
 ### 也可以看看
 

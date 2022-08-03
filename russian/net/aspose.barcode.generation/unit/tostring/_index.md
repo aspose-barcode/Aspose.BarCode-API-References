@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоUnitaspose.barcode.generation/unit.
+description: Возвращает удобочитаемое строковое представление этогоUnitaspose.barcode.generation/unit .
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.generation/unit/tostring/
 ---
 ## Unit.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`Unit`](../../unit).
+Возвращает удобочитаемое строковое представление этого[`Unit`](../../unit) .
 
 ```csharp
 public override string ToString()

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置标题的内容
+description: 获取或设置字幕的内容
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.windows.forms/captionui/text/
 ---
 ## CaptionUI.Text property
 
-获取或设置标题的内容。
+获取或设置字幕的内容。
 
 ```csharp
 public string Text { get; set; }

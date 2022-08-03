@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Aspose.BarCode for .NET API 参考
-description: 文本对齐
+description: 文本对齐方式
 type: docs
 weight: 970
 url: /zh/net/aspose.barcode.generation/textalignment/
 ---
 ## TextAlignment enumeration
 
-文本对齐。
+文本对齐方式。
 
 ```csharp
 public enum TextAlignment

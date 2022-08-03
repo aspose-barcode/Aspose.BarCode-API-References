@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/codabarparameters/codabarstartsymbol/
 ---
 ## CodabarParameters.CodabarStartSymbol property
 
-Codabar 符号系统的起始符号（字符）。 默认值:CodabarSymbol.A
+Codabar 符号系统的起始符号（字符）。 默认值：CodabarSymbol.A
 
 ```csharp
 public CodabarSymbol CodabarStartSymbol { get; set; }

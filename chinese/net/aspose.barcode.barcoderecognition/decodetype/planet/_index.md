@@ -1,14 +1,14 @@
 ---
 title: Planet
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该用 Planet 条码规范 解码
+description: 指定数据应该被解码 行星条码规格
 type: docs
 weight: 590
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/planet/
 ---
 ## DecodeType.Planet field
 
-指定数据应该用 **Planet** 条码规范 解码
+指定数据应该被解码 **行星**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Planet;

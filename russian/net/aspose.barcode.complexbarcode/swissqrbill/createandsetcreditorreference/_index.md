@@ -1,16 +1,16 @@
 ---
 title: CreateAndSetCreditorReference
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки с префиксом строки с RF и контрольной суммой по модулю 97.
+description: Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки добавляя префикс к строке с RF и контрольную сумму по модулю 97.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/
 ---
 ## SwissQRBill.CreateAndSetCreditorReference method
 
-Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки с префиксом строки с "RF" и контрольной суммой по модулю 97.
+Создает и устанавливает ссылку кредитора ISO11649 из необработанной строки, добавляя префикс к строке с «RF» и контрольную сумму по модулю 97.
 
-Из ссылки удаляются пробелы
+Из ссылки удалены пробелы
 
 ```csharp
 public void CreateAndSetCreditorReference(string rawReference)
@@ -18,13 +18,13 @@ public void CreateAndSetCreditorReference(string rawReference)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rawReference | String | Необработанная ссылка. |
+| rawReference | String | Сырая ссылка. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | ` rawReference` содержит недопустимые символы. |
+| ArgumentException | `сырая ссылка` содержит недопустимые символы. |
 
 ### Смотрите также
 

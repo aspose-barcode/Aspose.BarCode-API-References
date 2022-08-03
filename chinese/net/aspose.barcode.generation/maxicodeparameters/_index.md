@@ -18,14 +18,14 @@ public class MaxiCodeParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/maxicodeparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
+| [AspectRatio](../../aspose.barcode.generation/maxicodeparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
 | [MaxiCodeEncodeMode](../../aspose.barcode.generation/maxicodeparameters/maxicodeencodemode) { get; set; } | 获取或设置 MaxiCode 编码模式。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/maxicodeparameters/tostring)() | 返回此[`MaxiCodeParameters`](../maxicodeparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/maxicodeparameters/tostring)() | 返回一个人类可读的字符串表示[`MaxiCodeParameters`](../maxicodeparameters). |
 
 ### 也可以看看
 

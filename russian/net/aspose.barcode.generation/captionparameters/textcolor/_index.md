@@ -1,14 +1,14 @@
 ---
 title: TextColor
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Цвет текста подписи. Значение по умолчаниюColor.Black.
+description: Цвет текста подписи. Значение по умолчанию Color.Black.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/captionparameters/textcolor/
 ---
 ## CaptionParameters.TextColor property
 
-Цвет текста подписи. Значение по умолчанию:Color.Black.
+Цвет текста подписи. Значение по умолчанию: Color.Black.
 
 ```csharp
 public Color TextColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Шрифт подписи. Значение по умолчаниюArial 8pt обычный.
+description: Шрифт подписи. Значение по умолчанию Arial 8pt обычный.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/captionparameters/font/
 ---
 ## CaptionParameters.Font property
 
-Шрифт подписи. Значение по умолчанию:Arial 8pt обычный.
+Шрифт подписи. Значение по умолчанию: Arial 8pt обычный.
 
 ```csharp
 public FontUnit Font { get; }

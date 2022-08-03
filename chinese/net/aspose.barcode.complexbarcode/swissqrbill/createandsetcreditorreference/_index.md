@@ -1,14 +1,14 @@
 ---
 title: CreateAndSetCreditorReference
 second_title: Aspose.BarCode for .NET API 参考
-description: 从原始字符串创建和设置 ISO11649 债权人参考方法是在 字符串前面加上RF和模 97 校验和
+description: 从原始字符串中创建并设置 ISO11649 债权人参考方法是为带有RF和模 97 校验和的字符串添加前缀 
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/
 ---
 ## SwissQRBill.CreateAndSetCreditorReference method
 
-从原始字符串创建和设置 ISO11649 债权人参考，方法是在 字符串前面加上“RF”和模 97 校验和。
+从原始字符串中创建并设置 ISO11649 债权人参考，方法是为带有“RF”和模 97 校验和的字符串添加前缀 。
 
 从引用中删除空格
 
@@ -24,7 +24,7 @@ public void CreateAndSetCreditorReference(string rawReference)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | ` rawReference` 包含无效字符。 |
+| ArgumentException | `原始参考`包含无效字符。 |
 
 ### 也可以看看
 

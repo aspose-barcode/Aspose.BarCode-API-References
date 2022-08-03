@@ -1,14 +1,14 @@
 ---
 title: OneD
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает специальные данныеOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters1D распознанного штрих-кода
+description: Получает специальные данныеOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters 1D распознанного штрих-кода
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/
 ---
 ## BarCodeExtendedParameters.OneD property
 
-Получает специальные данные[`OneDExtendedParameters`](../../onedextendedparameters)1D распознанного штрих-кода
+Получает специальные данные[`OneDExtendedParameters`](../../onedextendedparameters) 1D распознанного штрих-кода
 
 ```csharp
 public OneDExtendedParameters OneD { get; }
@@ -16,7 +16,7 @@ public OneDExtendedParameters OneD { get; }
 
 ### Стоимость имущества
 
-A специальные данные[`OneDExtendedParameters`](../../onedextendedparameters)распознанного штрих-кода 1D
+Специальные данные[`OneDExtendedParameters`](../../onedextendedparameters) 1D распознанного штрих-кода
 
 ### Смотрите также
 

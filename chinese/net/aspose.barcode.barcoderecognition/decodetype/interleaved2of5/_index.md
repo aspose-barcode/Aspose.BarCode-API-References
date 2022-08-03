@@ -1,14 +1,14 @@
 ---
 title: Interleaved2of5
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该使用 INTERLEAVED 2 of 5 条形码规范
+description: 指定数据应该被解码 交错的 2 的 5条码规格
 type: docs
 weight: 370
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/interleaved2of5/
 ---
 ## DecodeType.Interleaved2of5 field
 
-指定数据应该使用 **INTERLEAVED 2 of 5** 条形码规范
+指定数据应该被解码 **交错的 2 的 5**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Interleaved2of5;

@@ -1,14 +1,14 @@
 ---
 title: GetString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Строковый форматИндекс-1 ИмяНет.
+description: Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Формат строки Индекс -1 Имя Нет.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/singledecodetype/getstring/
 ---
 ## GetString()
 
-Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет".
+Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет".
 
 ```csharp
 public string GetString()
@@ -16,7 +16,7 @@ public string GetString()
 
 ### Возвращаемое значение
 
-Строка, представляющая полное значение одного типа декодирования
+Строка, представляющая полное значение одного типа декодирования.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public string GetString()
 
 ## GetString(SingleDecodeType)
 
-Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет".
+Преобразует экземпляр SingleDecodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет".
 
 ```csharp
 public static string GetString(SingleDecodeType instance)
@@ -40,7 +40,7 @@ public static string GetString(SingleDecodeType instance)
 
 ### Возвращаемое значение
 
-Строка, представляющая полное значение заданного одиночного типа декодирования
+Строка, представляющая полное значение данного одного типа декодирования.
 
 ### Смотрите также
 

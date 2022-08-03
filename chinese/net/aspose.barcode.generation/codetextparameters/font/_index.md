@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定显示代码文本的字体 默认值Arial 5pt 常规 如果 FontMode 设置为 FontMode.Auto则忽略
+description: 指定显示 CodeText 的字体 默认值Arial 5pt 常规 如果 FontMode 设置为 FontMode.Auto则忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/codetextparameters/font/
 ---
 ## CodetextParameters.Font property
 
-指定显示代码文本的字体。 默认值:Arial 5pt 常规。 如果 FontMode 设置为 FontMode.Auto，则忽略。
+指定显示 CodeText 的字体。 默认值：Arial 5pt 常规。 如果 FontMode 设置为 FontMode.Auto，则忽略。
 
 ```csharp
 public FontUnit Font { get; }

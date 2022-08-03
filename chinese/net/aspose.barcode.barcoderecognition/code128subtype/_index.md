@@ -1,14 +1,14 @@
 ---
 title: Code128SubType
 second_title: Aspose.BarCode for .NET API 参考
-description: 包含 Code128 子集的类型
+description: 包含 Code128 的类型子集
 type: docs
 weight: 170
 url: /zh/net/aspose.barcode.barcoderecognition/code128subtype/
 ---
 ## Code128SubType enumeration
 
-包含 Code128 子集的类型
+包含 Code128 的类型子集
 
 ```csharp
 public enum Code128SubType

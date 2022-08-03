@@ -1,14 +1,14 @@
 ---
 title: Code128DataPortion
 second_title: Aspose.BarCode for .NET API 参考
-description: 包含 Code128 类型条码的子类型数据
+description: 包含 Code128 类型条形码的子类型数据
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.barcoderecognition/code128dataportion/
 ---
 ## Code128DataPortion class
 
-包含 Code128 类型条码的子类型数据
+包含 Code128 类型条形码的子类型数据
 
 ```csharp
 public class Code128DataPortion
@@ -18,18 +18,18 @@ public class Code128DataPortion
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Code128SubType](../../aspose.barcode.barcoderecognition/code128dataportion/code128subtype) { get; } | 获取 Code128 子集的类型 |
-| [Data](../../aspose.barcode.barcoderecognition/code128dataportion/data) { get; } | 获取与子类型相关的代码文本部分。 |
+| [Code128SubType](../../aspose.barcode.barcoderecognition/code128dataportion/code128subtype) { get; } | 获取 Code128 的类型子集 |
+| [Data](../../aspose.barcode.barcoderecognition/code128dataportion/data) { get; } | 获取与子类型相关的部分代码文本。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/code128dataportion/equals)(object) | 返回一个值，该值指示此实例是否等于指定的[`Code128DataPortion`](../code128dataportion)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128dataportion/equals)(object) | 返回一个值，指示此实例是否等于指定的[`Code128DataPortion`](../code128dataportion)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/code128dataportion/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/code128dataportion/tostring)() | 返回此[`Code128DataPortion`](../code128dataportion)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/code128dataportion/op_equality) | 返回一个值，指示第一个[`Code128DataPortion`](../code128dataportion)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/code128dataportion/op_inequality) | 返回一个值，指示第一个[`Code128DataPortion`](../code128dataportion)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128dataportion/tostring)() | 返回一个人类可读的字符串表示[`Code128DataPortion`](../code128dataportion). |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128dataportion/op_equality) | 返回一个值，指示是否第一个[`Code128DataPortion`](../code128dataportion)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128dataportion/op_inequality) | 返回一个值，指示是否第一个[`Code128DataPortion`](../code128dataportion)值与第二个不同。 |
 
 ### 也可以看看
 

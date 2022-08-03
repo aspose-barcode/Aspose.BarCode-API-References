@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет содержится ли указанныйPointв этомЧетырехугольниккласс.
+description: Определяет является ли указанныйPoint содержится в этомQuadrangleaspose.barcode.barcoderecognition/quadrangle класс.
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/contains/
 ---
 ## Contains(Point) {#contains_2}
 
-Определяет, содержится ли указанныйPointв этомЧетырехугольниккласс.
+Определяет, является ли указанныйPoint содержится в этом[`Quadrangle`](../../quadrangle) класс.
 
 ```csharp
 public bool Contains(Point pt)
@@ -16,11 +16,11 @@ public bool Contains(Point pt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pt | Point | Pointдля проверки. |
+| pt | Point | Point тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** еслиPointсодержится в этом классе[`Quadrangle`](../../quadrangle); в противном случае **false** .
+Возвращает **истинный** еслиPoint содержится в этом[`Quadrangle`](../../quadrangle) учебный класс; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public bool Contains(Point pt)
 
 ## Contains(int, int) {#contains_1}
 
-Определяет, содержится ли указанная точка в этом классе[`Quadrangle`](../../quadrangle).
+Определяет, содержится ли указанная точка в этом[`Quadrangle`](../../quadrangle) класс.
 
 ```csharp
 public bool Contains(int x, int y)
@@ -41,11 +41,11 @@ public bool Contains(int x, int y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | Координата точки x. |
-| y | Int32 | Координата точки y. |
+| y | Int32 | Координата точки Y. |
 
 ### Возвращаемое значение
 
-Возвращает **true** , если точка содержится внутри этого[`Quadrangle`](../../quadrangle)класс; в противном случае **false** .
+Возвращает **истинный**если точка содержится в этом[`Quadrangle`](../../quadrangle) учебный класс; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -57,7 +57,7 @@ public bool Contains(int x, int y)
 
 ## Contains(Quadrangle) {#contains}
 
-Определяет, содержится ли указанный[`Quadrangle`](../../quadrangle)или пересекается с этим[`Quadrangle`](../../quadrangle)class.
+Определяет, является ли указанный[`Quadrangle`](../../quadrangle) содержится или пересекает это[`Quadrangle`](../../quadrangle) класс.
 
 ```csharp
 public bool Contains(Quadrangle quad)
@@ -65,11 +65,11 @@ public bool Contains(Quadrangle quad)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| quad | Quadrangle | [`Quadrangle`](../../quadrangle)для тестирования. |
+| quad | Quadrangle | [`Quadrangle`](../../quadrangle) тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** if[`Quadrangle`](../../quadrangle)содержится или пересекается с этим[`Quadrangle`](../../quadrangle)class; в противном случае **false** .
+Возвращает **истинный** если[`Quadrangle`](../../quadrangle) содержится или пересекает это[`Quadrangle`](../../quadrangle) учебный класс; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -81,7 +81,7 @@ public bool Contains(Quadrangle quad)
 
 ## Contains(Rectangle) {#contains_3}
 
-Определяет, содержится ли указанныйRectangleв этомQuadrangleclass.
+Определяет, является ли указанныйRectangle содержится или пересекает это[`Quadrangle`](../../quadrangle) класс.
 
 ```csharp
 public bool Contains(Rectangle rect)
@@ -89,11 +89,11 @@ public bool Contains(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Rectangleдля тестирования. |
+| rect | Rectangle | Rectangle тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** ifRectangleсодержится или пересекается с этим классом[`Quadrangle`](../../quadrangle); в противном случае **false** .
+Возвращает **истинный** еслиRectangle содержится или пересекает это[`Quadrangle`](../../quadrangle) учебный класс; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

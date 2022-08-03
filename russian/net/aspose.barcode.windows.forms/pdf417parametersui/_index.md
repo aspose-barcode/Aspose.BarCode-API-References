@@ -1,14 +1,14 @@
 ---
 title: Pdf417ParametersUI
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Оболочка пользовательского интерфейса дляPdf417Parameters../aspose.barcode.generation/pdf417parametersclass.
+description: UI-оболочка дляPdf417Parameters../aspose.barcode.generation/pdf417parameters класс.
 type: docs
 weight: 1100
 url: /ru/net/aspose.barcode.windows.forms/pdf417parametersui/
 ---
 ## Pdf417ParametersUI class
 
-Оболочка пользовательского интерфейса для[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters)class.
+UI-оболочка для[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters) класс.
 
 ```csharp
 public class Pdf417ParametersUI
@@ -21,19 +21,19 @@ public class Pdf417ParametersUI
 | [AspectRatio](../../aspose.barcode.windows.forms/pdf417parametersui/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. |
 | [CodeTextEncoding](../../aspose.barcode.windows.forms/pdf417parametersui/codetextencoding) { get; set; } | Получает или задает кодировку кодового текста. |
 | [Columns](../../aspose.barcode.windows.forms/pdf417parametersui/columns) { get; set; } | Количество столбцов. |
-| [Pdf417CompactionMode](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417compactionmode) { get; set; } | Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчанию:Pdf417CompactionMode.Auto. |
-| [Pdf417ErrorLevel](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417errorlevel) { get; set; } | Получает или устанавливает тип символики Pdf417 уровня исправления ошибок штрих-кода в диапазоне от level0 до level8, level0 означает отсутствие информации об исправлении ошибок, level8 означает наилучшее исправление ошибок, что означает большую картинку. |
-| [Pdf417MacroFileID](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417macrofileid) { get; set; } | Получает или устанавливает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417. |
-| [Pdf417MacroSegmentID](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentid) { get; set; } | Получает или устанавливает идентификатор сегмента штрих-кода макроса Pdf417, который начинается с 0, на MacroSegmentsCount - 1. |
+| [Pdf417CompactionMode](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417compactionmode) { get; set; } | Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчанию: Pdf417CompactionMode.Auto. |
+| [Pdf417ErrorLevel](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417errorlevel) { get; set; } | Получает или задает тип символики Pdf417 для исправления ошибок штрих-кода level в диапазоне от level0 до level8, level0 означает отсутствие информации об исправлении ошибок, level8 означает наилучшее исправление ошибок, что означает увеличение изображения. |
+| [Pdf417MacroFileID](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417macrofileid) { get; set; } | Получает или задает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417. |
+| [Pdf417MacroSegmentID](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentid) { get; set; } | Получает или задает идентификатор сегмента штрих-кода макроса Pdf417, который начинается с 0, в MacroSegmentsCount — 1. |
 | [Pdf417MacroSegmentsCount](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentscount) { get; set; } | Получает или задает количество сегментов штрих-кода макроса Pdf417. |
-| [Pdf417Truncate](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417truncate) { get; set; } | Усекается ли символьный тип штрих-кода Pdf417 (для уменьшения пространства). |
+| [Pdf417Truncate](../../aspose.barcode.windows.forms/pdf417parametersui/pdf417truncate) { get; set; } | Усекается ли тип символов штрих-кода Pdf417 (для уменьшения пространства). |
 | [Rows](../../aspose.barcode.windows.forms/pdf417parametersui/rows) { get; set; } | Количество строк. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/pdf417parametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters). |
+| override [ToString](../../aspose.barcode.windows.forms/pdf417parametersui/tostring)() | Возвращает удобочитаемое строковое представление этого[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters) . |
 
 ### Смотрите также
 

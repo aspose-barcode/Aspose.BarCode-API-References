@@ -1,14 +1,14 @@
 ---
 title: ReturnToSenderPostCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 包含返回发件人邮政编码但没有 DPS PC无 DPS必须符合 PAF 格式
+description: 包含退回发件人邮政编码但没有 DPS PC无 DPS必须符合 PAF 格式
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/returntosenderpostcode/
 ---
 ## Mailmark2DCodetext.ReturnToSenderPostCode property
 
-包含返回发件人邮政编码但没有 DPS。 PC（无 DPS）必须符合 PAF® 格式。
+包含退回发件人邮政编码，但没有 DPS。 PC（无 DPS）必须符合 PAF® 格式。
 
 ```csharp
 public string ReturnToSenderPostCode { get; set; }

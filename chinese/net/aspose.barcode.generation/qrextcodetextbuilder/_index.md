@@ -26,9 +26,9 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | 添加带有扩展通道标识符的代码文本 |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | 添加带有扩展频道标识符的代码文本 |
 | [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition)() | 将 FNC1 添加到扩展代码文本项的第一个位置 |
-| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator)() | 将组分隔符 (GS - '\\u001D') 添加到扩展的代码文本项 |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator)() | 将组分隔符 (GS - '\\u001D') 添加到扩展代码文本 items |
 | [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition)(string) | 将 FNC1 添加到扩展代码文本项的第二个位置 |
 | [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext)(string) | 将纯代码文本添加到扩展代码文本项 |
 | virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear)() | 清除扩展代码文本项 |
@@ -36,21 +36,21 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 ### 例子
 
-此示例说明如何在扩展模式下使用 FNC1 首个位置。
+此示例展示了如何在扩展模式下使用 FNC1 第一个位置。
 
 ```csharp
 [C#]
-//创建代码text
+//创建代码文本
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
-TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
-TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
-TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
-TextBuilder.AddPlainCodetext(@"t\e\\st");   
+lTextBuilder.AddFNC1FirstPosition();
+lTextBuilder.AddPlainCodetext("000%89%%0");
+lTextBuilder.AddFNC1GroupSeparator();
+lTextBuilder.AddPlainCodetext("12345<FNC1>");
 
-//生成代码text
+//生成代码文本
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-//生成
+//产生
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
@@ -61,21 +61,19 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 }
 ```
 
-此示例展示了如何在扩展模式下使用 FNC1 第二个位置。
+这个示例展示了如何在扩展模式下使用 FNC1 第二个位置。
 
 ```csharp
 [C#]
-//创建代码text
+//创建代码文本
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
-TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
-TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
-TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
-TextBuilder.AddPlainCodetext(@"t\e\\st");   
+TextBuilder.AddFNC1SecondPosition("12");
+TextBuilder.AddPlainCodetext("TRUE3456"); 
 
-//生成代码text
+//生成代码文本
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-//生成
+//产生
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
@@ -90,17 +88,17 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 
 ```csharp
 [C#]
-//创建代码text
+//创建代码文本
 QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
 TextBuilder.AddPlainCodetext(@"t\e\\st");   
 
-//生成代码text
+//生成代码文本
 string lCodetext = lTextBuilder.GetExtendedCodetext();
 
-//生成
+//产生
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;

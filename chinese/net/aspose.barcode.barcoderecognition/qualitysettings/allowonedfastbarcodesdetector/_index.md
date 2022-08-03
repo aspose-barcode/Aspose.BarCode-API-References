@@ -1,14 +1,14 @@
 ---
 title: AllowOneDFastBarcodesDetector
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许一维条码引擎快速识别几乎填满整个图像的高质量条码 模式有助于快速识别从互联网生成的条码
+description: 允许一维条码引擎快速识别几乎填满整个图像的高质量条码 模式有助于快速识别从 Internet 生成的条码
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowonedfastbarcodesdetector/
 ---
 ## QualitySettings.AllowOneDFastBarcodesDetector property
 
-允许一维条码引擎快速识别几乎填满整个图像的高质量条码。 模式有助于快速识别从互联网生成的条码。
+允许一维条码引擎快速识别几乎填满整个图像的高质量条码。 模式有助于快速识别从 Internet 生成的条码。
 
 ```csharp
 public bool AllowOneDFastBarcodesDetector { get; set; }
@@ -16,7 +16,7 @@ public bool AllowOneDFastBarcodesDetector { get; set; }
 
 ### 适当的价值
 
-允许一维条码引擎快速识别高质量条码。
+允许一维条码引擎快速识别高质量的条码。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MicrE13B
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该用 MICR E-13B 空白规范
+description: 指定数据应该被解码 MICR E-13B空白规范
 type: docs
 weight: 480
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/micre13b/
 ---
 ## DecodeType.MicrE13B field
 
-指定数据应该用 **MICR E-13B** 空白规范
+指定数据应该被解码 **MICR E-13B**空白规范
 
 ```csharp
 public static readonly SingleDecodeType MicrE13B;

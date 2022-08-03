@@ -1,14 +1,14 @@
 ---
 title: BarHeight
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Высота штрихов 1D штрих-кода в пикселях. Игнорируется в режимах AutoSizeMode.Nearest и AutoSizeMode.Interpolation.
+description: Высота штрихов одномерных штрих-кодов в пикселях. Игнорируется в режимах AutoSizeMode.Nearest и AutoSizeMode.Interpolation.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/barheight/
 ---
 ## BarcodeGeneratorElement.BarHeight property
 
-Высота штрихов 1D штрих-кода в пикселях. Игнорируется в режимах AutoSizeMode.Nearest и AutoSizeMode.Interpolation.
+Высота штрихов одномерных штрих-кодов в пикселях. Игнорируется в режимах AutoSizeMode.Nearest и AutoSizeMode.Interpolation.
 
 ```csharp
 public float BarHeight { get; set; }

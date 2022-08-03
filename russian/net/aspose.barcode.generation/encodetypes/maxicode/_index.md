@@ -1,14 +1,14 @@
 ---
 title: MaxiCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью MaxiCode спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с МаксиКод спецификация штрих-кода
 type: docs
 weight: 470
 url: /ru/net/aspose.barcode.generation/encodetypes/maxicode/
 ---
 ## EncodeTypes.MaxiCode field
 
-Указывает, что данные должны быть закодированы с помощью **MaxiCode** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **МаксиКод** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType MaxiCode;

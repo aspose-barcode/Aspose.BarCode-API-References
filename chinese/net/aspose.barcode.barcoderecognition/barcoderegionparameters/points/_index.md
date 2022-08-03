@@ -16,7 +16,7 @@ public Point[] Points { get; }
 
 ### 适当的价值
 
-返回Points 数组边界条码区域
+退货Points 数组边界条码区域
 
 ### 也可以看看
 

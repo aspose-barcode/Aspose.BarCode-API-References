@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype值
+description: 返回一个值指示此实例是否等于指定的SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype值.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/singledecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值。
+返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值.
 
 ```csharp
 public override bool Equals(SingleDecodeType other)
@@ -16,11 +16,11 @@ public override bool Equals(SingleDecodeType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | SingleDecodeType | 一个[`SingleDecodeType`](../../singledecodetype)值与此实例进行比较。 |
+| other | SingleDecodeType | 一个[`SingleDecodeType`](../../singledecodetype)与此实例进行比较的值。 |
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public override bool Equals(SingleDecodeType other)
 
 ## Equals(object) {#equals_3}
 
-返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值。
+返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

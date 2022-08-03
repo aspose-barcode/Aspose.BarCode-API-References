@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает было ли преобразование успешным или нет.
+description: Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает успешно ли выполнено преобразование.
 type: docs
 weight: 720
 url: /ru/net/aspose.barcode.generation/encodetypes/parse/
 ---
 ## EncodeTypes.Parse method
 
-Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление BaseEncodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool Parse(string parsingType, out BaseEncodeType result)
@@ -21,7 +21,7 @@ public static bool Parse(string parsingType, out BaseEncodeType result)
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

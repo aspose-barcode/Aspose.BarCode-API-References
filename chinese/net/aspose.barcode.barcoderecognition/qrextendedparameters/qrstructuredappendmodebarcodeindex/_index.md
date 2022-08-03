@@ -16,7 +16,7 @@ public int QRStructuredAppendModeBarCodeIndex { get; }
 
 ### 适当的价值
 
-QR结构化附加模式条码的数量。
+QR 结构化附加模式条码的数量。
 
 ### 也可以看看
 

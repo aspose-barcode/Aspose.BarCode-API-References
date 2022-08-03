@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Aztec 条形码规范 进行编码
+description: 指定数据应该用 阿兹台克人条码规格
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/encodetypes/aztec/
 ---
 ## EncodeTypes.Aztec field
 
-指定数据应使用 **Aztec** 条形码规范 进行编码
+指定数据应该用 **阿兹台克人**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Aztec;

@@ -1,14 +1,14 @@
 ---
 title: DotCodeMask
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Маска штрихкода Dotcode. Значение по умолчанию-1.
+description: Маска штрих-кода Dotcode. Значение по умолчанию -1.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/dotcodeparameters/dotcodemask/
 ---
 ## DotCodeParameters.DotCodeMask property
 
-Маска штрихкода Dotcode. Значение по умолчанию:-1.
+Маска штрих-кода Dotcode. Значение по умолчанию: -1.
 
 ```csharp
 public int DotCodeMask { get; set; }

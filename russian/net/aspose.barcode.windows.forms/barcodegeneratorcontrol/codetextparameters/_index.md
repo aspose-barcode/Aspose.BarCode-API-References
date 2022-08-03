@@ -1,14 +1,14 @@
 ---
 title: CodeTextParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры CodeTextCodetextParametersaspose.barcode.generation/codetextparameters.
+description: Получает или задает параметры CodeTextCodetextParametersaspose.barcode.generation/codetextparameters .
 type: docs
 weight: 150
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/codetextparameters/
 ---
 ## BarCodeGeneratorControl.CodeTextParameters property
 
-Получает или устанавливает параметры CodeText[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters).
+Получает или задает параметры CodeText[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters) .
 
 ```csharp
 public CodetextParametersUI CodeTextParameters { get; }

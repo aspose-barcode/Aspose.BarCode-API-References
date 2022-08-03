@@ -1,14 +1,14 @@
 ---
 title: SetBarCodeImage
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Устанавливает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes.
+description: Задает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
 ## SetBarCodeImage(Bitmap) {#setbarcodeimage}
 
-Устанавливает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes().
+Задает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes().
 
 ```csharp
 public void SetBarCodeImage(Bitmap value)
@@ -71,7 +71,7 @@ public void SetBarCodeImage(Bitmap value, Rectangle[] areas)
 
 ### Примеры
 
-Этот пример показывает, как обнаруживать штрих-коды Code39 и Code128.
+В этом примере показано, как обнаруживать штрих-коды Code39 и Code128.
 
 ```csharp
 [C#]
@@ -118,11 +118,11 @@ public void SetBarCodeImage(Bitmap value, Rectangle area)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | Bitmap | Растровое изображение для распознавания. |
-| area | Rectangle | область для распознавания |
+| area | Rectangle | зона признания |
 
 ### Примеры
 
-Этот пример показывает, как обнаружить Штрих-коды Code39 и Code128.
+В этом примере показано, как обнаруживать штрих-коды Code39 и Code128.
 
 ```csharp
 [C#]
@@ -207,7 +207,7 @@ End Using
 
 ## SetBarCodeImage(Stream) {#setbarcodeimage_3}
 
-Устанавливает поток изображений для распознавания. Должен вызываться перед методом ReadBarCodes().
+Задает поток изображения для распознавания. Должен вызываться перед методом ReadBarCodes().
 
 ```csharp
 public void SetBarCodeImage(Stream stream)

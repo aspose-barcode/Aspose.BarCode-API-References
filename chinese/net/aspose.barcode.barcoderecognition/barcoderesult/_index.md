@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Aspose.BarCode for .NET API 参考
-description: 存储已识别的条形码数据例如SingleDecodeType./singledecodetypetypeStringcodetext BarCodeRegionParameters./barcoderegionparameters区域和其他参数
+description: 存储已识别的条形码数据例如SingleDecodeType./singledecodetype类型String代码文本 BarCodeRegionParameters./barcoderegionparameters区域和其他参数
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 ## BarCodeResult class
 
-存储已识别的条形码数据，例如[`SingleDecodeType`](../singledecodetype)type,Stringcodetext, [`BarCodeRegionParameters`](../barcoderegionparameters)区域和其他参数
+存储已识别的条形码数据，例如[`SingleDecodeType`](../singledecodetype)类型，String代码文本， [`BarCodeRegionParameters`](../barcoderegionparameters)区域和其他参数
 
 ```csharp
 public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
@@ -18,7 +18,7 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BarCodeResult](barcoderesult)(BarCodeResult) | 创建[`BarCodeResult`](../barcoderesult)类的副本。 |
+| [BarCodeResult](barcoderesult)(BarCodeResult) | 创建一个副本[`BarCodeResult`](../barcoderesult)类. |
 
 ## 特性
 
@@ -27,9 +27,9 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 | [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes) { get; } | 获取编码的代码字节 |
 | [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | 获取代码文本 |
 | [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype) { get; } | 获取条码类型 |
-| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | 获取条码类型名称 |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | 获取条形码类型的名称 |
 | [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence) { get; } | 获取已识别条码的识别置信度 |
-| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended) { get; } | 获取识别条码扩展参数 |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended) { get; } | 获取识别条码的扩展参数 |
 | [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality) { get; } | 获取阅读质量。适用于一维条码和邮政条码。 |
 | [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region) { get; } | 获取条码区域 |
 
@@ -37,18 +37,18 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | 创建[`BarCodeResult`](../barcoderesult)类的副本。 |
-| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals)(BarCodeResult) | 返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../barcoderesult)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../barcoderesult)值。 |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | 创建一个副本[`BarCodeResult`](../barcoderesult)类. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals)(BarCodeResult) | 返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../barcoderesult)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../barcoderesult)值. |
 | [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | 获取带编码的代码文本。 |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | 返回此[`BarCodeResult`](../barcoderesult)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | 返回一个值，指示第一个[`BarCodeResult`](../barcoderesult)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | 返回一个值，指示第一个[`BarCodeResult`](../barcoderesult)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | 返回一个人类可读的字符串表示[`BarCodeResult`](../barcoderesult). |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | 返回一个值，指示是否第一个[`BarCodeResult`](../barcoderesult)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | 返回一个值，指示是否第一个[`BarCodeResult`](../barcoderesult)值与第二个不同。 |
 
 ### 例子
 
-此示例说明如何获取 BarCodeResult。
+此示例显示如何获取 BarCodeResult.
 
 ```csharp
 [C#]

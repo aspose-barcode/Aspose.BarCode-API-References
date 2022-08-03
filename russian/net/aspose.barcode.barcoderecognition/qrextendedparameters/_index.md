@@ -1,14 +1,14 @@
 ---
 title: QRExtendedParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Сохраняет QR-структурированное добавление информации о распознанном штрих-коде
+description: Сохраняет структурированное добавление QR-информации о распознанном штрих-коде
 type: docs
 weight: 230
 url: /ru/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Сохраняет QR-структурированное добавление информации о распознанном штрих-коде
+Сохраняет структурированное добавление QR-информации о распознанном штрих-коде
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
@@ -20,22 +20,22 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Проверяет, имеют ли все параметры только значения по умолчанию |
 | [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex) { get; } | Получает индекс штрих-кода режима структурированного добавления QR. Индекс начинается с 0. Значение по умолчанию равно -1. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity) { get; } | Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию:-1. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata) { get; } | Получает данные четности в режиме структурированного добавления QR. Значение по умолчанию:-1. |
+| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity) { get; } | Получает количество штрих-кодов режима структурированного добавления QR. Значение по умолчанию: -1. |
+| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata) { get; } | Получает данные о четности в режиме добавления со структурой QR. Значение по умолчанию: -1. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`QRExtendedParameters`](../qrextendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`QRExtendedParameters`](../qrextendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`QRExtendedParameters`](../qrextendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`QRExtendedParameters`](../qrextendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`QRExtendedParameters`](../qrextendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`QRExtendedParameters`](../qrextendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`QRExtendedParameters`](../qrextendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`QRExtendedParameters`](../qrextendedparameters) значение отличается от второго. |
 
 ### Примеры
 
-В этом примере показано, как получить данные QR Structured Append
+В этом примере показано, как получить структурированное добавление QR data
 
 ```csharp
 [C#]

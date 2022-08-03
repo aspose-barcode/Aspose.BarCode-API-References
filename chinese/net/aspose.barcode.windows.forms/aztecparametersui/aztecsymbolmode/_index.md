@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolMode
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置阿兹特克符号模式 默认值AztecSymbolMode.Auto
+description: 获取或设置 Aztec 符号模式 默认值AztecSymbolMode.Auto.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.windows.forms/aztecparametersui/aztecsymbolmode/
 ---
 ## AztecParametersUI.AztecSymbolMode property
 
-获取或设置阿兹特克符号模式。 默认值:AztecSymbolMode.Auto。
+获取或设置 Aztec 符号模式。 默认值：AztecSymbolMode.Auto.
 
 ```csharp
 public AztecSymbolMode AztecSymbolMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Отступы штрих-кода.
+description: Прокладки штрих-кода.
 type: docs
 weight: 730
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/padding/
 ---
 ## BarcodeGeneratorElement.Padding property
 
-Отступы штрих-кода.
+Прокладки штрих-кода.
 
 ```csharp
 public Thickness Padding { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Parameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 生成参数
+description: 生成参数.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.complexbarcode/complexbarcodegenerator/parameters/
 ---
 ## ComplexBarcodeGenerator.Parameters property
 
-生成参数。
+生成参数.
 
 ```csharp
 public BaseGenerationParameters Parameters { get; }

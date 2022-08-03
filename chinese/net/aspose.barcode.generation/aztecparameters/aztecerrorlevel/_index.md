@@ -1,14 +1,14 @@
 ---
 title: AztecErrorLevel
 second_title: Aspose.BarCode for .NET API 参考
-description: Aztec 类型条码的纠错级别 值应介于 5 到 95 之间
+description: Aztec 类型条码的纠错级别 值应在 5 到 95 之间
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/aztecparameters/aztecerrorlevel/
 ---
 ## AztecParameters.AztecErrorLevel property
 
-Aztec 类型条码的纠错级别。 值应介于 5 到 95 之间。
+Aztec 类型条码的纠错级别。 值应在 5 到 95 之间。
 
 ```csharp
 public int AztecErrorLevel { get; set; }

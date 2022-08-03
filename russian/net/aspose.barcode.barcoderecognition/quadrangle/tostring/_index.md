@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоQuadrangleaspose.barcode.barcoderecognition/quadrangle.
+description: Возвращает удобочитаемое строковое представление этогоQuadrangleaspose.barcode.barcoderecognition/quadrangle .
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/tostring/
 ---
 ## Quadrangle.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`Quadrangle`](../../quadrangle).
+Возвращает удобочитаемое строковое представление этого[`Quadrangle`](../../quadrangle) .
 
 ```csharp
 public override string ToString()

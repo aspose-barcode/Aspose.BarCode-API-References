@@ -1,14 +1,14 @@
 ---
 title: UpcaGs1Code128Coupon
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью купона UPC с расширенным кодом GS1-128 спецификации штрих-кода. Пример входной строки BarcodeGenerator.Codetext  514141100906810203 где часть UPCA 514141100906 часть GS1Code128 это 810203.
+description: Указывает что данные должны быть закодированы с Купон UPC с расширенным кодом GS1-128 спецификация штрих-кода. Пример входной строки BarcodeGenerator.Codetext  514141100906810203 где часть UPCA - 514141100906 часть GS1Code128 - 810203.
 type: docs
 weight: 670
 url: /ru/net/aspose.barcode.generation/encodetypes/upcags1code128coupon/
 ---
 ## EncodeTypes.UpcaGs1Code128Coupon field
 
-Указывает, что данные должны быть закодированы с помощью купона **UPC с расширенным кодом GS1-128** спецификации штрих-кода. Пример входной строки: BarcodeGenerator.Codetext = "514141100906(8102)03", где часть UPCA "514141100906", часть GS1Code128 это (8102)03.
+Указывает, что данные должны быть закодированы с **Купон UPC с расширенным кодом GS1-128** спецификация штрих-кода. Пример входной строки: BarcodeGenerator.Codetext = "514141100906(8102)03", где часть UPCA - "514141100906", часть GS1Code128 - (8102)03.
 
 ```csharp
 public static readonly SymbologyEncodeType UpcaGs1Code128Coupon;

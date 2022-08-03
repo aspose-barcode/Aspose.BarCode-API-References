@@ -1,14 +1,14 @@
 ---
 title: AutoSizeMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет различные типы режимов автоматического изменения размера.
+description: Указывает различные типы режимов автоматического изменения размера.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/autosizemode/
 ---
 ## BarcodeGeneratorElement.AutoSizeMode property
 
-Определяет различные типы режимов автоматического изменения размера.
+Указывает различные типы режимов автоматического изменения размера.
 
 ```csharp
 public AutoSizeMode AutoSizeMode { get; set; }

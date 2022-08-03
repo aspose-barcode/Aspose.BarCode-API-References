@@ -1,14 +1,14 @@
 ---
 title: AztecErrorLevel
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Уровень исправления ошибок ацтекских типов штрих-кода. Значение должно быть от 10 до 95.
+description: Уровень исправления ошибок штрих-кодов ацтекских типов. Значение должно быть от 10 до 95.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.windows.forms/aztecparametersui/aztecerrorlevel/
 ---
 ## AztecParametersUI.AztecErrorLevel property
 
-Уровень исправления ошибок ацтекских типов штрих-кода. Значение должно быть от 10 до 95.
+Уровень исправления ошибок штрих-кодов ацтекских типов. Значение должно быть от 10 до 95.
 
 ```csharp
 public int AztecErrorLevel { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AllSupportedTypes
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用所有可用符号系统检查数据
+description: 指定将使用所有可用符号检查数据
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/allsupportedtypes/
 ---
 ## DecodeType.AllSupportedTypes field
 
-指定将使用所有可用符号系统检查数据
+指定将使用所有可用符号检查数据
 
 ```csharp
 public static readonly MultyDecodeType AllSupportedTypes;

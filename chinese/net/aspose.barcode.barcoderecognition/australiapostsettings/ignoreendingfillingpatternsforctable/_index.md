@@ -1,14 +1,14 @@
 ---
 title: IgnoreEndingFillingPatternsForCTable
 second_title: Aspose.BarCode for .NET API 参考
-description: 强制AustraliaPost解码器在解码过程中忽略客户信息字段中的最后填充模式作为CTable方法的标志 CTable编码方式在编码表中没有任何间隙填充模式的序列333被解码为字母z
+description: 强制AustraliaPost解码器在解码为CTable方法时忽略Customer Information Field中最后的填充模式的标志 CTable编码方法在编码表中没有任何间隙并且填充模式的序列333被解码为字母z
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable/
 ---
 ## AustraliaPostSettings.IgnoreEndingFillingPatternsForCTable property
 
-强制AustraliaPost解码器在解码过程中忽略客户信息字段中的最后填充模式作为CTable方法的标志。 CTable编码方式在编码表中没有任何间隙，填充模式的序列“333”被解码为字母“z”。
+强制AustraliaPost解码器在解码为CTable方法时忽略Customer Information Field中最后的填充模式的标志。 CTable编码方法在编码表中没有任何间隙，并且填充模式的序列“333”被解码为字母“z”。
 
 ```csharp
 public bool IgnoreEndingFillingPatternsForCTable { get; set; }
@@ -16,11 +16,11 @@ public bool IgnoreEndingFillingPatternsForCTable { get; set; }
 
 ### 适当的价值
 
-强制AustraliaPost解码器在CTable方法解码期间忽略最后填充模式的标志
+强制 AustraliaPost 解码器在 CTable 方法解码期间忽略最后填充模式的标志
 
 ### 例子
 
-此示例展示了如何生成和识别带有 CTable 解释类型并忽略填充模式的澳大利亚邮政条形码。
+此示例展示了如何使用 CTable 解释类型和忽略填充模式生成和识别澳大利亚邮政条形码。
 
 ```csharp
 [C#]

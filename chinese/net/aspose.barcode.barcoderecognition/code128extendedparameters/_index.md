@@ -1,14 +1,14 @@
 ---
 title: Code128ExtendedParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 存储 Code128 识别条码的特殊数据
+description: 存储Code128识别条码的特殊数据
 type: docs
 weight: 160
 url: /zh/net/aspose.barcode.barcoderecognition/code128extendedparameters/
 ---
 ## Code128ExtendedParameters class
 
-存储 Code128 识别条码的特殊数据
+存储Code128识别条码的特殊数据
 
 表示识别条码的区域和条码角度
 
@@ -20,22 +20,22 @@ public sealed class Code128ExtendedParameters : BaseExtendedParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Code128DataPortions](../../aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions) { get; } | 获取[`Code128DataPortion`](../code128dataportion)已识别 Code128 条码数组 |
+| [Code128DataPortions](../../aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions) { get; } | 获取[`Code128DataPortion`](../code128dataportion)已识别的 Code128 条码数组 |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | 测试所有参数是否只有默认值 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/code128extendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`Code128ExtendedParameters`](../code128extendedparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128extendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`Code128ExtendedParameters`](../code128extendedparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/code128extendedparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/code128extendedparameters/tostring)() | 返回此[`Code128ExtendedParameters`](../code128extendedparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_equality) | 返回一个值，指示第一个[`Code128ExtendedParameters`](../code128extendedparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_inequality) | 返回一个值，指示第一个[`Code128ExtendedParameters`](../code128extendedparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128extendedparameters/tostring)() | 返回一个人类可读的字符串表示[`Code128ExtendedParameters`](../code128extendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_equality) | 返回一个值，指示是否第一个[`Code128ExtendedParameters`](../code128extendedparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_inequality) | 返回一个值，指示是否第一个[`Code128ExtendedParameters`](../code128extendedparameters)值与第二个不同。 |
 
 ### 例子
 
-此示例展示了如何获取 code128 原始值
+此示例显示如何获取 code128 原始值
 
 ```csharp
 [C#]

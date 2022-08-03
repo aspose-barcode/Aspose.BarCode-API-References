@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Хранит набор из четырех символовPoint представляющихQuadrangle./quadrangleобласть.
+description: Сохраняет набор из четырехPoint s которые представляют собойQuadrangle./quadrangle регион.
 type: docs
 weight: 240
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
 
-Хранит набор из четырех символовPoint, представляющих[`Quadrangle`](../quadrangle)область.
+Сохраняет набор из четырехPoint s, которые представляют собой[`Quadrangle`](../quadrangle) регион.
 
 ```csharp
 public class Quadrangle : IEquatable<Quadrangle>
@@ -18,40 +18,40 @@ public class Quadrangle : IEquatable<Quadrangle>
 
 | Имя | Описание |
 | --- | --- |
-| [Quadrangle](quadrangle#constructor)() | Инициализирует новый пустой экземпляр класса[`Quadrangle`](../quadrangle). |
-| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | Инициализирует новый экземпляр класса[`Quadrangle`](../quadrangle)с описанием точек. |
+| [Quadrangle](quadrangle#constructor)() | Инициализирует новый пустой экземпляр[`Quadrangle`](../quadrangle) класс. |
+| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | Инициализирует новый экземпляр[`Quadrangle`](../quadrangle)класс с описанием точек. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle) { get; } | ПолучаетRectangleограничивающий это[`Quadrangle`](../quadrangle) |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty) { get; } | Проверяет, все лиPoints этого[`Quadrangle`](../quadrangle)имеют нулевые значения . |
-| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom) { get; set; } | Получает левый нижний уголPointof[`Quadrangle`](../quadrangle)region |
-| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop) { get; set; } | Получает левый верхний уголPointof[`Quadrangle`](../quadrangle)region |
-| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom) { get; set; } | Получает правый нижний уголPointof[`Quadrangle`](../quadrangle)region |
-| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop) { get; set; } | Получает правый верхний уголPointof[`Quadrangle`](../quadrangle)region |
+| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle) { get; } | ПолучаетRectangle ограничивая это[`Quadrangle`](../quadrangle) |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty) { get; } | Проверяет, все лиPoint с этого[`Quadrangle`](../quadrangle) имеют нулевые значения. |
+| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom) { get; set; } | Получает левый нижний уголPoint из[`Quadrangle`](../quadrangle) область, край |
+| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop) { get; set; } | Получает левый верхний уголPoint из[`Quadrangle`](../quadrangle) область, край |
+| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom) { get; set; } | Получает правый нижний уголPoint из[`Quadrangle`](../quadrangle) область, край |
+| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop) { get; set; } | Получает правый верхний уголPoint из[`Quadrangle`](../quadrangle) область, край |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_2)(Point) | Определяет, содержится ли указанныйPointв этомЧетырехугольниккласс. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains)(Quadrangle) | Определяет, содержится ли указанный[`Quadrangle`](../quadrangle)или пересекается с этим[`Quadrangle`](../quadrangle)class. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_3)(Rectangle) | Определяет, содержится ли указанныйRectangleв этомQuadrangleclass. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_1)(int, int) | Определяет, содержится ли указанная точка в этом классе[`Quadrangle`](../quadrangle). |
-| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Quadrangle`](../quadrangle)значению. |
-| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals)(Quadrangle) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Quadrangle`](../quadrangle)значению. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_2)(Point) | Определяет, является ли указанныйPoint содержится в этом[`Quadrangle`](../quadrangle) класс. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains)(Quadrangle) | Определяет, является ли указанный[`Quadrangle`](../quadrangle) содержится или пересекает это[`Quadrangle`](../quadrangle) класс. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_3)(Rectangle) | Определяет, является ли указанныйRectangle содержится или пересекает это[`Quadrangle`](../quadrangle) класс. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_1)(int, int) | Определяет, содержится ли указанная точка в этом[`Quadrangle`](../quadrangle) класс. |
+| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Quadrangle`](../quadrangle) значение. |
+| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals)(Quadrangle) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Quadrangle`](../quadrangle) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/quadrangle/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring)() | Возвращает удобочитаемое строковое представление этого[`Quadrangle`](../quadrangle). |
-| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`Quadrangle`](../quadrangle)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`Quadrangle`](../quadrangle)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring)() | Возвращает удобочитаемое строковое представление этого[`Quadrangle`](../quadrangle) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | Возвращает значение, указывающее, является ли первый[`Quadrangle`](../quadrangle) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | Возвращает значение, указывающее, был ли первый[`Quadrangle`](../quadrangle) значение отличается от второго. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | Представляет класс[`Quadrangle`](../quadrangle), свойства которого не инициализированы. |
+| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | Представляет[`Quadrangle`](../quadrangle) class с неинициализированными свойствами. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ExportToXml
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Экспортирует свойства BarCode в указанный xml-файл
+description: Экспорт свойств штрих-кода в указанный xml-файл
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/exporttoxml/
 ---
 ## ExportToXml(string) {#exporttoxml_1}
 
-Экспортирует свойства BarCode в указанный xml-файл
+Экспорт свойств штрих-кода в указанный xml-файл
 
 ```csharp
 public bool ExportToXml(string xmlFile)
@@ -16,13 +16,13 @@ public bool ExportToXml(string xmlFile)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlFile | String | имя файла |
+| xmlFile | String | Имя файла |
 
 ### Возвращаемое значение
 
 Независимо от того, успешно ли завершен экспорт.
 
-Возвращает **True** в случае успеха; **False** Иначе
+Возвращает **Истинный** в случае успеха; **ЛОЖЬ** В противном случае
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public bool ExportToXml(string xmlFile)
 
 ## ExportToXml(Stream) {#exporttoxml}
 
-Экспортирует свойства BarCode в указанный xml-поток
+Экспортирует свойства штрих-кода в указанный xml-поток
 
 ```csharp
 public bool ExportToXml(Stream xmlStream)
@@ -42,13 +42,13 @@ public bool ExportToXml(Stream xmlStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlStream | Stream | xml-stream для сохранения |
+| xmlStream | Stream | xml-поток для сохранения |
 
 ### Возвращаемое значение
 
 Независимо от того, успешно ли завершен экспорт.
 
-Возвращает **True** в случае успеха; **False** Иначе
+Возвращает **Истинный** в случае успеха; **ЛОЖЬ** В противном случае
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BorderColorProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: BorderColorProperty
+description: 边框颜色属性
 type: docs
 weight: 1130
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/bordercolorproperty/
 ---
 ## BarcodeGeneratorElement.BorderColorProperty field
 
-BorderColorProperty
+边框颜色属性
 
 ```csharp
 public static DependencyProperty BorderColorProperty;

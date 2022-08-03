@@ -1,16 +1,16 @@
 ---
 title: ScanWindowSizes
 second_title: Aspose.BarCode for .NET API 参考
-description: 扫描窗口大小以像素为单位
+description: 以像素为单位的扫描窗口大小
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes/
 ---
 ## BarcodeSvmDetectorSettings.ScanWindowSizes property
 
-扫描窗口大小（以像素为单位）。
+以像素为单位的扫描窗口大小。
 
-允许的尺寸为 10, 15, 20, 25, 30。 使用小窗口尺寸进行扫描需要更多时间并提供更高的准确性，但可能无法检测到非常大的条形码。 结合几个窗口大小可以提高检测质量。
+允许的尺寸为 10、15、20、25、30。 使用小窗口尺寸进行扫描需要更多时间并提供更高的准确性，但可能无法检测到非常大的条形码。 结合使用多个窗口尺寸可以提高检测质量。
 
 ```csharp
 public List<int> ScanWindowSizes { get; set; }

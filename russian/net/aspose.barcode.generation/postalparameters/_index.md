@@ -24,7 +24,7 @@ public class PostalParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/postalparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`PostalParameters`](../postalparameters). |
+| override [ToString](../../aspose.barcode.generation/postalparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`PostalParameters`](../postalparameters) . |
 
 ### Смотрите также
 

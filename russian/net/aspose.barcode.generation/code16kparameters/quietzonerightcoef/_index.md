@@ -1,14 +1,14 @@
 ---
 title: QuietZoneRightCoef
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Размер правой тихой зоны в xDimension. Значение по умолчанию1 что означает что если xDimension  2px то правая тихая зона будет 2px.
+description: Размер правой тихой зоны в xDimension. Значение по умолчанию 1 что означает что если xDimension  2px то правая неактивная зона будет 2px.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/code16kparameters/quietzonerightcoef/
 ---
 ## Code16KParameters.QuietZoneRightCoef property
 
-Размер правой тихой зоны в xDimension. Значение по умолчанию:1, что означает, что если xDimension = 2px, то правая тихая зона будет 2px.
+Размер правой тихой зоны в xDimension. Значение по умолчанию: 1, что означает, что если xDimension = 2px, то правая неактивная зона будет 2px.
 
 ```csharp
 public int QuietZoneRightCoef { get; set; }

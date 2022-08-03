@@ -1,14 +1,14 @@
 ---
 title: SupplementSpace
 second_title: Aspose.BarCode for .NET API 参考
-description: Unitaspose.barcode.generation/unit值中主要条形码和补充条形码之间的空间
+description: 主条码和补充条码之间的空格Unitaspose.barcode.generation/unit值.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/supplementparameters/supplementspace/
 ---
 ## SupplementParameters.SupplementSpace property
 
-[`Unit`](../../unit)值中主要条形码和补充条形码之间的空间。
+主条码和补充条码之间的空格[`Unit`](../../unit)值.
 
 ```csharp
 public Unit SupplementSpace { get; }
@@ -18,7 +18,7 @@ public Unit SupplementSpace { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | **空格** 参数值小于 0。 |
+| ArgumentException | 这 **空间**参数值小于 0。 |
 
 ### 也可以看看
 

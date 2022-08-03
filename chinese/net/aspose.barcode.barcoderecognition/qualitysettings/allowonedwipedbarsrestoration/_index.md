@@ -16,7 +16,7 @@ public bool AllowOneDWipedBarsRestoration { get; set; }
 
 ### 适当的价值
 
-允许一维条码引擎识别模式中带有单个擦拭/胶合条的条码。
+允许一维条码引擎识别图案中带有单个擦拭/胶合条的条码。
 
 ### 也可以看看
 

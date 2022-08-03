@@ -1,14 +1,14 @@
 ---
 title: Pdf417Truncate
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Усекается ли символьный тип штрих-кода Pdf417 для уменьшения пространства.
+description: Усекается ли тип символов штрих-кода Pdf417 для уменьшения пространства.
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.windows.forms/pdf417parametersui/pdf417truncate/
 ---
 ## Pdf417ParametersUI.Pdf417Truncate property
 
-Усекается ли символьный тип штрих-кода Pdf417 (для уменьшения пространства).
+Усекается ли тип символов штрих-кода Pdf417 (для уменьшения пространства).
 
 ```csharp
 public bool Pdf417Truncate { get; set; }

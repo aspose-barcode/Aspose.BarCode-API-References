@@ -1,14 +1,14 @@
 ---
 title: Code128DataPortions
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ПолучаетCode128DataPortionaspose.barcode.barcoderecognition/code128dataportionмассив распознанных штрих-кодов Code128
+description: ПолучаетCode128DataPortionaspose.barcode.barcoderecognition/code128dataportion массив распознанных штрих-кодов Code128
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions/
 ---
 ## Code128ExtendedParameters.Code128DataPortions property
 
-Получает[`Code128DataPortion`](../../code128dataportion)массив распознанных штрих-кодов Code128
+Получает[`Code128DataPortion`](../../code128dataportion) массив распознанных штрих-кодов Code128
 
 ```csharp
 public Code128DataPortion[] Code128DataPortions { get; }

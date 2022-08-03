@@ -1,14 +1,14 @@
 ---
 title: TryDecodeMailmark
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Декодирует кодовый текст Mailmark Barcode C и L.
+description: Декодирует штрих-код почтовых марок C и кодовый текст L.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark method
 
-Декодирует кодовый текст Mailmark Barcode C и L.
+Декодирует штрих-код почтовых марок C и кодовый текст L.
 
 ```csharp
 public static MailmarkCodetext TryDecodeMailmark(string encodedCodetext)
@@ -20,7 +20,7 @@ public static MailmarkCodetext TryDecodeMailmark(string encodedCodetext)
 
 ### Возвращаемое значение
 
-Dcoded Mailmark Штрихкод C и L или нулевой.
+Dcoded Mailmark Штрих-код C и L или ноль.
 
 ### Смотрите также
 

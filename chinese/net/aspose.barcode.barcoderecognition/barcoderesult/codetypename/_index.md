@@ -1,14 +1,14 @@
 ---
 title: CodeTypeName
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取条码类型名称
+description: 获取条形码类型的名称
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/codetypename/
 ---
 ## BarCodeResult.CodeTypeName property
 
-获取条码类型名称
+获取条形码类型的名称
 
 ```csharp
 public string CodeTypeName { get; }
@@ -16,7 +16,7 @@ public string CodeTypeName { get; }
 
 ### 适当的价值
 
-识别条码类型名称
+识别条码的类型名称
 
 ### 也可以看看
 

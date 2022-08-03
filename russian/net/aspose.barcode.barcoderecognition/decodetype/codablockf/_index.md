@@ -1,14 +1,14 @@
 ---
 title: CodablockF
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с CodablockF спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с КодаблокF спецификация штрих-кода
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/codablockf/
 ---
 ## DecodeType.CodablockF field
 
-Указывает, что данные должны быть декодированы с **CodablockF** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **КодаблокF** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType CodablockF;

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters.
+description: Возвращает удобочитаемое строковое представление этогоOneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters .
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.barcoderecognition/onedextendedparameters/tostring/
 ---
 ## OneDExtendedParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`OneDExtendedParameters`](../../onedextendedparameters).
+Возвращает удобочитаемое строковое представление этого[`OneDExtendedParameters`](../../onedextendedparameters) .
 
 ```csharp
 public override string ToString()

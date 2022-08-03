@@ -1,14 +1,14 @@
 ---
 title: CodeTextFontFamilyProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: CodeTextFontFamilyProperty
+description: CodeTextFamilyProperty
 type: docs
 weight: 1430
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextfontfamilyproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextFontFamilyProperty field
 
-CodeTextFontFamilyProperty
+CodeTextFamilyProperty
 
 ```csharp
 public static readonly DependencyProperty CodeTextFontFamilyProperty;

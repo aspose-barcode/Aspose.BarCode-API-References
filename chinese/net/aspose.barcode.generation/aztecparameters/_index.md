@@ -1,14 +1,14 @@
 ---
 title: AztecParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: Aztec 参数
+description: 阿兹台克参数.
 type: docs
 weight: 450
 url: /zh/net/aspose.barcode.generation/aztecparameters/
 ---
 ## AztecParameters class
 
-Aztec 参数。
+阿兹台克参数.
 
 ```csharp
 public class AztecParameters
@@ -18,16 +18,16 @@ public class AztecParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/aztecparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [AztecErrorLevel](../../aspose.barcode.generation/aztecparameters/aztecerrorlevel) { get; set; } | Aztec 类型条码的纠错级别。 值应介于 5 到 95 之间。 |
-| [AztecSymbolMode](../../aspose.barcode.generation/aztecparameters/aztecsymbolmode) { get; set; } | 获取或设置阿兹特克符号模式。 默认值:AztecSymbolMode.Auto。 |
-| [CodeTextEncoding](../../aspose.barcode.generation/aztecparameters/codetextencoding) { get; set; } | 获取或设置代码文本的编码。 默认值:UTF-8 |
+| [AspectRatio](../../aspose.barcode.generation/aztecparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [AztecErrorLevel](../../aspose.barcode.generation/aztecparameters/aztecerrorlevel) { get; set; } | Aztec 类型条码的纠错级别。 值应在 5 到 95 之间。 |
+| [AztecSymbolMode](../../aspose.barcode.generation/aztecparameters/aztecsymbolmode) { get; set; } | 获取或设置 Aztec 符号模式。 默认值：AztecSymbolMode.Auto. |
+| [CodeTextEncoding](../../aspose.barcode.generation/aztecparameters/codetextencoding) { get; set; } | 获取或设置codetext的编码。 默认值：UTF-8 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/aztecparameters/tostring)() | 返回此[`AztecParameters`](../aztecparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/aztecparameters/tostring)() | 返回一个人类可读的字符串表示[`AztecParameters`](../aztecparameters). |
 
 ### 也可以看看
 

@@ -18,13 +18,13 @@ public class CaptionParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.barcode.generation/captionparameters/alignment) { get; set; } | 字幕测试水平对齐。 默认值:StringAlignment.Center。 |
-| [Font](../../aspose.barcode.generation/captionparameters/font) { get; } | 字幕字体。 默认值:Arial 8pt 常规。 |
-| [NoWrap](../../aspose.barcode.generation/captionparameters/nowrap) { get; set; } | 在文本中指定自动换行（换行）。 默认值:假。 |
-| [Padding](../../aspose.barcode.generation/captionparameters/padding) { get; set; } | 字幕填充。 CaptionAbove 的默认值:5pt 5pt 0 5pt。 CaptionBelow 的默认值:0 5pt 5pt 5pt。 |
-| [Text](../../aspose.barcode.generation/captionparameters/text) { get; set; } | 说明文字。 默认值:空字符串。 |
-| [TextColor](../../aspose.barcode.generation/captionparameters/textcolor) { get; set; } | 字幕文本颜色。 默认值:Color.Black。 |
-| [Visible](../../aspose.barcode.generation/captionparameters/visible) { get; set; } | 字幕文本可见性。 默认值:假。 |
+| [Alignment](../../aspose.barcode.generation/captionparameters/alignment) { get; set; } | 字幕测试水平对齐。 默认值：StringAlignment.Center. |
+| [Font](../../aspose.barcode.generation/captionparameters/font) { get; } | 字幕字体。 默认值：Arial 8pt 常规字体。 |
+| [NoWrap](../../aspose.barcode.generation/captionparameters/nowrap) { get; set; } | 在文本中指定自动换行（换行）。 默认值：false。 |
+| [Padding](../../aspose.barcode.generation/captionparameters/padding) { get; set; } | Captions paddings. CaptionAbove 的默认值：5pt 5pt 0 5pt. CaptionBelow 的默认值：0 5pt 5pt 5pt. |
+| [Text](../../aspose.barcode.generation/captionparameters/text) { get; set; } | 说明文字。 默认值：空字符串。 |
+| [TextColor](../../aspose.barcode.generation/captionparameters/textcolor) { get; set; } | 说明文字颜色. 默认值：Color.Black. |
+| [Visible](../../aspose.barcode.generation/captionparameters/visible) { get; set; } | 字幕文本可见性。 默认值：false。 |
 
 ### 也可以看看
 

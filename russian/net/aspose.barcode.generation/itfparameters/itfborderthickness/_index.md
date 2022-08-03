@@ -1,14 +1,14 @@
 ---
 title: ItfBorderThickness
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает толщину границы ITF несущего стержня в значении Unit. Значение по умолчанию12pt.
+description: Получает или задает толщину границы ITF несущего стержня в единицах измерения. Значение по умолчанию 12pt.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/itfparameters/itfborderthickness/
 ---
 ## ITFParameters.ItfBorderThickness property
 
-Получает или задает толщину границы ITF (несущего стержня) в значении Unit. Значение по умолчанию:12pt.
+Получает или задает толщину границы ITF (несущего стержня) в единицах измерения. Значение по умолчанию: 12pt.
 
 ```csharp
 public Unit ItfBorderThickness { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры DotCodeDotCodeParametersaspose.barcode.generation/dotcodeparameters. Используется для DotCode.
+description: Получает или задает параметры DotCodeDotCodeParametersaspose.barcode.generation/dotcodeparameters . Используется для DotCode.
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/dotcode/
 ---
 ## SpecificParametersUI.DotCode property
 
-Получает или устанавливает параметры DotCode[`DotCodeParameters`](../../../aspose.barcode.generation/dotcodeparameters). Используется для DotCode.
+Получает или задает параметры DotCode[`DotCodeParameters`](../../../aspose.barcode.generation/dotcodeparameters) . Используется для DotCode.
 
 ```csharp
 public DotCodeParameters DotCode { get; }

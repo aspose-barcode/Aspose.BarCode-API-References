@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveVisible
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Надпись выше видимости.
+description: Надпись над видимостью.
 type: docs
 weight: 230
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovevisible/
 ---
 ## BarcodeGeneratorElement.CaptionAboveVisible property
 
-Надпись выше видимости.
+Надпись над видимостью.
 
 ```csharp
 public bool CaptionAboveVisible { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PatchCodeParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры PatchCode.
+description: параметры PatchCode.
 type: docs
 weight: 820
 url: /ru/net/aspose.barcode.generation/patchcodeparameters/
 ---
 ## PatchCodeParameters class
 
-Параметры PatchCode.
+параметры PatchCode.
 
 ```csharp
 public class PatchCodeParameters
@@ -19,13 +19,13 @@ public class PatchCodeParameters
 | Имя | Описание |
 | --- | --- |
 | [ExtraBarcodeText](../../aspose.barcode.generation/patchcodeparameters/extrabarcodetext) { get; set; } | Указывает кодовый текст для дополнительного штрих-кода QR, когда PatchCode генерируется в страничном режиме. |
-| [PatchFormat](../../aspose.barcode.generation/patchcodeparameters/patchformat) { get; set; } | Формат PatchCode. Выберите PatchOnly, чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ. Значение по умолчанию:PatchFormat.PatchOnly |
+| [PatchFormat](../../aspose.barcode.generation/patchcodeparameters/patchformat) { get; set; } | Формат кода исправления. Выберите PatchOnly, чтобы сгенерировать один PatchCode. Используйте формат страницы для создания страницы исправлений с кодами исправлений в качестве границ. Значение по умолчанию: PatchFormat.PatchOnly |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/patchcodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`PatchCodeParameters`](../patchcodeparameters). |
+| override [ToString](../../aspose.barcode.generation/patchcodeparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`PatchCodeParameters`](../patchcodeparameters) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Space
 second_title: Aspose.BarCode for .NET API 参考
-description: CodeText 和条形码之间的空间Unitaspose.barcode.generation/unit值 默认值2pt 忽略 EAN8EAN13UPCEUPCAISBNISMNISSNUpcaGs1DatabarCoupon
+description: CodeText 和 BarCode 之间的空间Unitaspose.barcode.generation/unitvalue. 默认值2pt. 忽略 EAN8EAN13UPCEUPCAISBNISMNISSNUpcaGs1DatabarCoupon.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.windows.forms/codetextparametersui/space/
 ---
 ## CodetextParametersUI.Space property
 
-CodeText 和条形码之间的空间[`Unit`](../../../aspose.barcode.generation/unit)值。 默认值:2pt。 忽略 EAN8、EAN13、UPCE、UPCA、ISBN、ISMN、ISSN、UpcaGs1DatabarCoupon。
+CodeText 和 BarCode 之间的空间[`Unit`](../../../aspose.barcode.generation/unit)value. 默认值：2pt. 忽略 EAN8、EAN13、UPCE、UPCA、ISBN、ISMN、ISSN、UpcaGs1DatabarCoupon.
 
 ```csharp
 public Unit Space { get; }

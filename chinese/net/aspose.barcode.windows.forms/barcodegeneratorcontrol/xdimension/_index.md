@@ -1,14 +1,14 @@
 ---
 title: XDimension
 second_title: Aspose.BarCode for .NET API 参考
-description: X 维度是条码条或空格单位的最小宽度 增加这将增加整个条码图像的宽度 如果AutoSizeModeaspose.barcode.generation/autosizemode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation则忽略
+description: X-dimension 是 BarCode 条或空格单位的最小宽度 增加这将增加整个条形码图像的宽度 忽略如果AutoSizeModeaspose.barcode.generation/autosizemode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 type: docs
 weight: 250
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/xdimension/
 ---
 ## BarCodeGeneratorControl.XDimension property
 
-X 维度是条码条或空格单位的最小宽度。 增加这将增加整个条码图像的宽度。 如果[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation，则忽略。
+X-dimension 是 BarCode 条或空格单位的最小宽度。 增加这将增加整个条形码图像的宽度。 忽略如果[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit XDimension { get; }

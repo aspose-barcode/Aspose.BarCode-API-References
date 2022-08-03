@@ -1,14 +1,14 @@
 ---
 title: Codablock
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры CodablockCodablockParametersaspose.barcode.generation/codablockparameters. Используется для CodablockF.
+description: Получает или устанавливает параметры CodablockCodablockParametersaspose.barcode.generation/codablockparameters . Используется для CodablockF.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/codablock/
 ---
 ## SpecificParametersUI.Codablock property
 
-Получает или устанавливает параметры Codablock[`CodablockParameters`](../../../aspose.barcode.generation/codablockparameters). Используется для CodablockF.
+Получает или устанавливает параметры Codablock[`CodablockParameters`](../../../aspose.barcode.generation/codablockparameters) . Используется для CodablockF.
 
 ```csharp
 public CodablockParameters Codablock { get; }

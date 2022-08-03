@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задаетшрифтзаголовок .
+description: Получает или задаетшрифт принадлежащийподпись .
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.windows.forms/captionui/font/
 ---
 ## CaptionUI.Font property
 
-Получает или задаетшрифтзаголовок .
+Получает или задаетшрифт принадлежащийподпись .
 
 ```csharp
 public Font Font { get; set; }

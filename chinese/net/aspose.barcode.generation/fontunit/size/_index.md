@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置此 FontUnit 的大小以 Unit 为单位
+description: 以单位值获取或设置此 FontUnit 的大小
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/fontunit/size/
 ---
 ## FontUnit.Size property
 
-获取或设置此 FontUnit 的大小（以 Unit 为单位）。
+以单位值获取或设置此 FontUnit 的大小。
 
 ```csharp
 public Unit Size { get; }
@@ -18,7 +18,7 @@ public Unit Size { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | **大小** 参数值小于等于0。 |
+| ArgumentException | 这 **尺寸**参数值小于或等于 0。 |
 
 ### 也可以看看
 

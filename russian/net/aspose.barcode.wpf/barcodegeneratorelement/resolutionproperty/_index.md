@@ -1,14 +1,14 @@
 ---
 title: ResolutionProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ResolutionProperty
+description: РезолюшнСвойство
 type: docs
 weight: 1970
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/resolutionproperty/
 ---
 ## BarcodeGeneratorElement.ResolutionProperty field
 
-ResolutionProperty
+РезолюшнСвойство
 
 ```csharp
 public static DependencyProperty ResolutionProperty;

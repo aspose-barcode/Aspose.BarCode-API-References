@@ -1,14 +1,14 @@
 ---
 title: BarcodeSettings
 second_title: Aspose.BarCode for .NET API 参考
-description: 主要条码解码参数包含影响已识别数据的参数
+description: 主要条码解码参数包含影响识别数据的参数
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/barcodesettings/
 ---
 ## BarCodeReader.BarcodeSettings property
 
-主要条码解码参数。包含影响已识别数据的参数。
+主要条码解码参数。包含影响识别数据的参数。
 
 ```csharp
 public BarcodeSettings BarcodeSettings { get; }
@@ -16,7 +16,7 @@ public BarcodeSettings BarcodeSettings { get; }
 
 ### 适当的价值
 
-主要条码解码参数
+BarCode 主要解码参数
 
 ### 也可以看看
 

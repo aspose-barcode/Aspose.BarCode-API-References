@@ -1,14 +1,14 @@
 ---
 title: FilledBars
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置指示条是否填充的值
+description: 获取或设置一个值该值指示条形是否填充
 type: docs
 weight: 660
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/filledbars/
 ---
 ## BarcodeGeneratorElement.FilledBars property
 
-获取或设置指示条是否填充的值。
+获取或设置一个值，该值指示条形是否填充。
 
 ```csharp
 public bool FilledBars { get; set; }

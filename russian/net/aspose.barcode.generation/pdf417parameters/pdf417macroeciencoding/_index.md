@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroECIEncoding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Идентификаторы расширенной интерпретации канала. Применяется для текстовых полей Macro PDF417.
+description: Расширенные идентификаторы интерпретации канала. Применяется для текстовых полей Macro PDF417.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417macroeciencoding/
 ---
 ## Pdf417Parameters.Pdf417MacroECIEncoding property
 
-Идентификаторы расширенной интерпретации канала. Применяется для текстовых полей Macro PDF417.
+Расширенные идентификаторы интерпретации канала. Применяется для текстовых полей Macro PDF417.
 
 ```csharp
 public ECIEncodings Pdf417MacroECIEncoding { get; set; }

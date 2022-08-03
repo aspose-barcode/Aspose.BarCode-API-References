@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Очищает все поля и устанавливает типUndetermined.
+description: Очищает все поля и устанавливает типUndetermined .
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.complexbarcode/address/clear/
 ---
 ## Address.Clear method
 
-Очищает все поля и устанавливает типUndetermined.
+Очищает все поля и устанавливает типUndetermined .
 
 ```csharp
 public void Clear()

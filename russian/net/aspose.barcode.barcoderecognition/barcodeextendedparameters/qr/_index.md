@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает информацию о структурированном дополнении QRQRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparametersраспознанного штрих-кода
+description: Получает информацию о структурированном дополнении QRQRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters распознанного штрих-кода
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/
 ---
 ## BarCodeExtendedParameters.QR property
 
-Получает информацию о структурированном дополнении QR[`QRExtendedParameters`](../../qrextendedparameters)распознанного штрих-кода
+Получает информацию о структурированном дополнении QR[`QRExtendedParameters`](../../qrextendedparameters) распознанного штрих-кода
 
 ```csharp
 public QRExtendedParameters QR { get; }
@@ -16,7 +16,7 @@ public QRExtendedParameters QR { get; }
 
 ### Стоимость имущества
 
-Информация о структурированном дополнении QR[`QRExtendedParameters`](../../qrextendedparameters)распознанного штрих-кода
+Информация о структурированном добавлении QR[`QRExtendedParameters`](../../qrextendedparameters) распознанного штрих-кода
 
 ### Смотрите также
 

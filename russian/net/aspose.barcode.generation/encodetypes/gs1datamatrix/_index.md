@@ -1,14 +1,14 @@
 ---
 title: GS1DataMatrix
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Символика 2D штрих-кода DataMatrix со строковым форматом GS1
+description: Символика 2D-штрих-кода DataMatrix со строковым форматом GS1
 type: docs
 weight: 340
 url: /ru/net/aspose.barcode.generation/encodetypes/gs1datamatrix/
 ---
 ## EncodeTypes.GS1DataMatrix field
 
-Символика 2D штрих-кода DataMatrix со строковым форматом GS1
+Символика 2D-штрих-кода DataMatrix со строковым форматом GS1
 
 ```csharp
 public static readonly SymbologyEncodeType GS1DataMatrix;

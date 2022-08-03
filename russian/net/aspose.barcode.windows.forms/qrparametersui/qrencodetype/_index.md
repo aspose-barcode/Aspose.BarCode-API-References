@@ -1,14 +1,14 @@
 ---
 title: QrEncodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Режим выбора QR/MicroQR. Выберите ForceQR для стандартных символов QR Auto для MicroQR.
+description: Режим выбора QR / MicroQR. Выберите ForceQR для стандартных символов QR Auto для MicroQR.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.windows.forms/qrparametersui/qrencodetype/
 ---
 ## QrParametersUI.QrEncodeType property
 
-Режим выбора QR/MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR.
+Режим выбора QR / MicroQR. Выберите ForceQR для стандартных символов QR, Auto для MicroQR.
 
 ```csharp
 public QREncodeType QrEncodeType { get; set; }

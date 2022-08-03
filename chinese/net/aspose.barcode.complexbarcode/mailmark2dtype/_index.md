@@ -1,14 +1,14 @@
 ---
 title: Mailmark2DType
 second_title: Aspose.BarCode for .NET API 参考
-description: 2D Mailmark Type 定义 Data Matrix 条码的大小
+description: 2D Mailmark Type 定义 Data Matrix 条形码的大小
 type: docs
 weight: 370
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 ## Mailmark2DType enumeration
 
-2D Mailmark Type 定义 Data Matrix 条码的大小
+2D Mailmark Type 定义 Data Matrix 条形码的大小
 
 ```csharp
 public enum Mailmark2DType
@@ -20,7 +20,7 @@ public enum Mailmark2DType
 | --- | --- | --- |
 | Auto | `0` | 自动确定 |
 | Type_7 | `1` | 24 x 24 模块 |
-| Type_9 | `2` | 32 x 32 模块 |
+| Type_9 | `2` | 32 x 32 个模块 |
 | Type_29 | `3` | 16 x 48 模块 |
 
 ### 也可以看看

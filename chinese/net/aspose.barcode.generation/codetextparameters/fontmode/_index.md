@@ -1,14 +1,14 @@
 ---
 title: FontMode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定字体模式如果 FontMode 设置为 Auto字体大小将根据 xDimension 值自动计算 建议使用 FontMode.Auto 尤其是在 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation 中 默认值FontMode.Auto
+description: 指定字体模式如果 FontMode 设置为 Auto则会根据 xDimension 值自动计算字体大小 建议使用 FontMode.Auto尤其是在 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation. 默认值FontMode.Auto.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/codetextparameters/fontmode/
 ---
 ## CodetextParameters.FontMode property
 
-指定字体模式。如果 FontMode 设置为 Auto，字体大小将根据 xDimension 值自动计算。 建议使用 FontMode.Auto 尤其是在 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation 中。 默认值:FontMode.Auto。
+指定字体模式。如果 FontMode 设置为 Auto，则会根据 xDimension 值自动计算字体大小。 建议使用 FontMode.Auto，尤其是在 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation. 默认值：FontMode.Auto.
 
 ```csharp
 public FontMode FontMode { get; set; }

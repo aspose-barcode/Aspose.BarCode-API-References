@@ -1,14 +1,14 @@
 ---
 title: PatchCodePatchFormat
 second_title: Aspose.BarCode for .NET API 参考
-description: PatchCode 格式选择 PatchOnly 以生成单个 PatchCode使用页面格式生成以 PatchCodes 为边框的 Patch 页面
+description: 补丁码格式选择 PatchOnly 以生成单个 PatchCode使用页面格式生成以 PatchCodes 为边框的 Patch 页面
 type: docs
 weight: 750
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformat/
 ---
 ## BarcodeGeneratorElement.PatchCodePatchFormat property
 
-PatchCode 格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。
+补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。
 
 ```csharp
 public PatchFormat PatchCodePatchFormat { get; set; }

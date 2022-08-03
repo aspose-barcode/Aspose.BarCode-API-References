@@ -25,11 +25,11 @@ public class Code128DataPortion
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/code128dataportion/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному значению[`Code128DataPortion`](../code128dataportion). |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128dataportion/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Code128DataPortion`](../code128dataportion) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/code128dataportion/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/code128dataportion/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code128DataPortion`](../code128dataportion). |
-| [operator ==](../../aspose.barcode.barcoderecognition/code128dataportion/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`Code128DataPortion`](../code128dataportion)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/code128dataportion/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`Code128DataPortion`](../code128dataportion)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128dataportion/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code128DataPortion`](../code128dataportion) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128dataportion/op_equality) | Возвращает значение, указывающее, является ли первый[`Code128DataPortion`](../code128dataportion) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128dataportion/op_inequality) | Возвращает значение, указывающее, был ли первый[`Code128DataPortion`](../code128dataportion) значение отличается от второго. |
 
 ### Смотрите также
 

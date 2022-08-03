@@ -1,14 +1,14 @@
 ---
 title: ScanSets
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите наборы сканирования по типам штрих-кодов
+description: Указать наборы сканов по barcodeTypes
 type: docs
 weight: 800
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/scansets/
 ---
 ## DecodeType.ScanSets method
 
-Укажите наборы сканирования по типам штрих-кодов
+Указать наборы сканов по barcodeTypes
 
 ```csharp
 public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
@@ -16,7 +16,7 @@ public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | Массив одиночных и множественных типы декодирования |
+| barcodeTypes | BaseDecodeType[] | Массив типов одиночного и множественного декодирования |
 
 ### Возвращаемое значение
 

@@ -18,22 +18,22 @@ public sealed class ComplexBarcodeGenerator : Component
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComplexBarcodeGenerator](complexbarcodegenerator)(IComplexCodetext) | 创建 ComplexBarcodeGenerator 的实例。 |
+| [ComplexBarcodeGenerator](complexbarcodegenerator)(IComplexCodetext) | 创建一个 ComplexBarcodeGenerator 的实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Parameters](../../aspose.barcode.complexbarcode/complexbarcodegenerator/parameters) { get; } | 生成参数。 |
+| [Parameters](../../aspose.barcode.complexbarcode/complexbarcodegenerator/parameters) { get; } | 生成参数. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GenerateBarCodeImage](../../aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage)() | 在当前设置下生成复杂条码图像。 |
-| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_1)(string) | 在当前设置下生成并保存复杂条码图像。 |
-| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save)(Stream, BarCodeImageFormat) | 在当前设置下生成并保存复杂条码图像。 |
-| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_2)(string, BarCodeImageFormat) | 在当前设置下生成并保存复杂条码图像。 |
+| [GenerateBarCodeImage](../../aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage)() | 在当前设置下生成复杂的条码图像。 |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_1)(string) | 在当前设置下生成并保存复杂的条码图像。 |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save)(Stream, BarCodeImageFormat) | 在当前设置下生成并保存复杂的条码图像。 |
+| [Save](../../aspose.barcode.complexbarcode/complexbarcodegenerator/save#save_2)(string, BarCodeImageFormat) | 在当前设置下生成并保存复杂的条码图像。 |
 
 ### 例子
 
@@ -44,7 +44,7 @@ public sealed class ComplexBarcodeGenerator : Component
   var swissQRCodetext = new SwissQRCodetext();
   swissQRCodetext.Bill.Account = "Account";
   swissQRCodetext.Bill.BillInformation = "BillInformation";
-    // 初始化其余字段
+  // 初始化其余字段
   using (var cg = new ComplexBarcodeGenerator(swissQRCodetext))
   {
     var res = cg.GenerateBarCodeImage();

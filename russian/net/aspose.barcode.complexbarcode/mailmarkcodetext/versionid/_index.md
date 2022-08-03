@@ -8,7 +8,7 @@ url: /ru/net/aspose.barcode.complexbarcode/mailmarkcodetext/versionid/
 ---
 ## MailmarkCodetext.VersionID property
 
-В настоящее время "1" - для штрих-кода Mailmark (от 0 и 2 до 9 и от A до Z запасные для использования в будущем)
+В настоящее время «1» - для штрих-кода Mailmark (от 0 и 2 до 9 и от A до Z запасные для использования в будущем)
 
 ```csharp
 public int VersionID { get; set; }

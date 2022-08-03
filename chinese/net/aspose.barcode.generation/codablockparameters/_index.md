@@ -18,7 +18,7 @@ public class CodablockParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/codablockparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
+| [AspectRatio](../../aspose.barcode.generation/codablockparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
 | [Columns](../../aspose.barcode.generation/codablockparameters/columns) { get; set; } | 列数。 |
 | [Rows](../../aspose.barcode.generation/codablockparameters/rows) { get; set; } | 行数。 |
 
@@ -26,7 +26,7 @@ public class CodablockParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/codablockparameters/tostring)() | 返回此[`CodablockParameters`](../codablockparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/codablockparameters/tostring)() | 返回一个人类可读的字符串表示[`CodablockParameters`](../codablockparameters). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DataLogic2of5
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы DataLogic 2 из 5 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с ДатаЛоджик 2 из 5 спецификация штрих-кода
 type: docs
 weight: 220
 url: /ru/net/aspose.barcode.generation/encodetypes/datalogic2of5/
 ---
 ## EncodeTypes.DataLogic2of5 field
 
-Указывает, что данные должны быть закодированы **DataLogic 2 из 5** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **ДатаЛоджик 2 из 5** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType DataLogic2of5;

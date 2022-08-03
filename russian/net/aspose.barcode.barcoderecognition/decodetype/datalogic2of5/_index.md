@@ -1,14 +1,14 @@
 ---
 title: DataLogic2of5
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с DataLogic 2 из 5 пустая спецификация
+description: Указывает что данные должны быть декодированы с ДатаЛоджик 2 из 5 пустая спецификация
 type: docs
 weight: 240
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/datalogic2of5/
 ---
 ## DecodeType.DataLogic2of5 field
 
-Указывает, что данные должны быть декодированы с **DataLogic 2 из 5** пустая спецификация
+Указывает, что данные должны быть декодированы с **ДатаЛоджик 2 из 5** пустая спецификация
 
 ```csharp
 public static readonly SingleDecodeType DataLogic2of5;

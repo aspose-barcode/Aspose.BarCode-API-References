@@ -1,14 +1,14 @@
 ---
 title: Code128ExtendedParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Хранит специальные данные распознанного Code128 штрих-кода
+description: Хранит специальные данные распознанного штрих-кода Code128
 type: docs
 weight: 160
 url: /ru/net/aspose.barcode.barcoderecognition/code128extendedparameters/
 ---
 ## Code128ExtendedParameters class
 
-Хранит специальные данные распознанного Code128 штрих-кода
+Хранит специальные данные распознанного штрих-кода Code128
 
 Представляет область распознанного штрих-кода и угол штрих-кода
 
@@ -20,18 +20,18 @@ public sealed class Code128ExtendedParameters : BaseExtendedParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Code128DataPortions](../../aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions) { get; } | Получает[`Code128DataPortion`](../code128dataportion)массив распознанных штрих-кодов Code128 |
+| [Code128DataPortions](../../aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions) { get; } | Получает[`Code128DataPortion`](../code128dataportion) массив распознанных штрих-кодов Code128 |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Проверяет, имеют ли все параметры только значения по умолчанию |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/code128extendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Code128ExtendedParameters`](../code128extendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/code128extendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Code128ExtendedParameters`](../code128extendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/code128extendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/code128extendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code128ExtendedParameters`](../code128extendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`Code128ExtendedParameters`](../code128extendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`Code128ExtendedParameters`](../code128extendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/code128extendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Code128ExtendedParameters`](../code128extendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`Code128ExtendedParameters`](../code128extendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/code128extendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`Code128ExtendedParameters`](../code128extendedparameters) значение отличается от второго. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: DeutschePostLeitcode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Представляет собой штрих-код лейткода немецкой почты также известный как лейткод немецкой почты 2 из 5 кодлейткод лейткод Deutsch Post AG DHL.
+description: Представляет собой штрих-код лейткода Deutsch Post также известный как лейткод 2 из 5 почтовых индексов Германии CodeLeitcode Leitcode Deutsch Post AG DHL.
 type: docs
 weight: 250
 url: /ru/net/aspose.barcode.generation/encodetypes/deutschepostleitcode/
 ---
 ## EncodeTypes.DeutschePostLeitcode field
 
-Представляет собой штрих-код лейткода немецкой почты, также известный как лейткод немецкой почты 2 из 5, кодлейткод, лейткод, Deutsch Post AG (DHL).
+Представляет собой штрих-код лейткода Deutsch Post, также известный как лейткод 2 из 5 почтовых индексов Германии, CodeLeitcode, Leitcode, Deutsch Post AG (DHL).
 
 ```csharp
 public static readonly SymbologyEncodeType DeutschePostLeitcode;

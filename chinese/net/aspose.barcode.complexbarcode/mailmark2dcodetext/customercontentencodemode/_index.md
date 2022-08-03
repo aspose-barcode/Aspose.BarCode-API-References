@@ -1,14 +1,14 @@
 ---
 title: CustomerContentEncodeMode
 second_title: Aspose.BarCode for .NET API 参考
-description: Datamatrix 条码的编码方式 默认值DataMatrixEncodeMode.C40
+description: Datamatrix条码的编码模式 默认值DataMatrixEncodeMode.C40.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode/
 ---
 ## Mailmark2DCodetext.CustomerContentEncodeMode property
 
-Datamatrix 条码的编码方式。 默认值:DataMatrixEncodeMode.C40。
+Datamatrix条码的编码模式。 默认值：DataMatrixEncodeMode.C40.
 
 ```csharp
 public DataMatrixEncodeMode CustomerContentEncodeMode { get; set; }

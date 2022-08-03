@@ -1,14 +1,14 @@
 ---
 title: BarColor
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Цвет полос. Значение по умолчаниюColor.Black.
+description: Цвет полос. Значение по умолчанию Color.Black.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/barcodeparameters/barcolor/
 ---
 ## BarcodeParameters.BarColor property
 
-Цвет полос. Значение по умолчанию:Color.Black.
+Цвет полос. Значение по умолчанию: Color.Black.
 
 ```csharp
 public Color BarColor { get; set; }

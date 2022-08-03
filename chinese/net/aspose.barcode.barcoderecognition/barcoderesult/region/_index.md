@@ -16,7 +16,7 @@ public BarCodeRegionParameters Region { get; }
 
 ### 适当的价值
 
-识别的条码区域
+识别条码的区域
 
 ### 也可以看看
 

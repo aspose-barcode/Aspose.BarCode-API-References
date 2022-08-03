@@ -1,14 +1,14 @@
 ---
 title: Code16K
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры Code16KCode16KParametersaspose.barcode.generation/code16kparameters. Используется для Code16K.
+description: Получает или задает параметры Code16KCode16KParametersaspose.barcode.generation/code16kparameters . Используется для Code16K.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/code16k/
 ---
 ## SpecificParametersUI.Code16K property
 
-Получает или устанавливает параметры Code16K[`Code16KParameters`](../../../aspose.barcode.generation/code16kparameters). Используется для Code16K.
+Получает или задает параметры Code16K[`Code16KParameters`](../../../aspose.barcode.generation/code16kparameters) . Используется для Code16K.
 
 ```csharp
 public Code16KParameters Code16K { get; }

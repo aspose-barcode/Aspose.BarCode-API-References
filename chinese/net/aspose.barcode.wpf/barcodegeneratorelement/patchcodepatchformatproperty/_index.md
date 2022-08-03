@@ -1,14 +1,14 @@
 ---
 title: PatchCodePatchFormatProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: PatchCodePatchFormatProperty
+description: PatchCodePatchFormat 属性
 type: docs
 weight: 1760
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformatproperty/
 ---
 ## BarcodeGeneratorElement.PatchCodePatchFormatProperty field
 
-PatchCodePatchFormatProperty
+PatchCodePatchFormat 属性
 
 ```csharp
 public static DependencyProperty PatchCodePatchFormatProperty;

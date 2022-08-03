@@ -16,7 +16,7 @@ public string CodeText { get; }
 
 ### 适当的价值
 
-条码代码文本
+条码的代码文本
 
 ### 也可以看看
 

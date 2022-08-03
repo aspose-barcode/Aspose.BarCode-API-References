@@ -18,13 +18,13 @@ public sealed class ComplexCodetextReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark)(string) | 解码 Mailmark Barcode C 和 L 代码文本。 |
-| static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d)(string) | 解码 Royal Mail Mailmark 2D 代码文本。 |
-| static [TryDecodeSwissQR](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr)(string) | 解码 SwissQR 代码文本。 |
+| static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark)(string) | 解码 Mailmark 条码 C 和 L 代码文本。 |
+| static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d)(string) | 解码 Royal Mail Mailmark 2D codetext. |
+| static [TryDecodeSwissQR](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr)(string) | 解码 SwissQR codetext. |
 
 ### 例子
 
-此示例展示了如何识别和解码 SwissQR 图像。
+这个示例展示了如何识别和解码 SwissQR 图像。
 
 ```csharp
 [C#]

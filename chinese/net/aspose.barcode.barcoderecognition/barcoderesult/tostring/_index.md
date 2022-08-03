@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此BarCodeResultaspose.barcode.barcoderecognition/barcoderesult的人类可读字符串表示
+description: 返回一个人类可读的字符串表示BarCodeResultaspose.barcode.barcoderecognition/barcoderesult.
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/tostring/
 ---
 ## BarCodeResult.ToString method
 
-返回此[`BarCodeResult`](../../barcoderesult)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`BarCodeResult`](../../barcoderesult).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`BarCodeResult`](../../barcoderesult)的字符串。
+代表这个的字符串[`BarCodeResult`](../../barcoderesult).
 
 ### 也可以看看
 

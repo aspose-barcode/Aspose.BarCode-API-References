@@ -1,14 +1,14 @@
 ---
 title: Code93Standard
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Standard CODE 93 条码规范 解码
+description: 指定数据应该被解码 标准代码 93条码规格
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code93standard/
 ---
 ## DecodeType.Code93Standard field
 
-指定数据应使用 **Standard CODE 93** 条码规范 解码
+指定数据应该被解码 **标准代码 93**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Code93Standard;

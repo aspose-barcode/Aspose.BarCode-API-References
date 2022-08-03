@@ -1,14 +1,14 @@
 ---
 title: AustralianPostEncodingTable
 second_title: Aspose.BarCode for .NET API 参考
-description: 澳大利亚邮政客户信息的解释类型默认为 CustomerInformationInterpretingType.Other
+description: AustralianPost客户信息的解释类型默认为CustomerInformationInterpretingType.Other
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/australianpostparameters/australianpostencodingtable/
 ---
 ## AustralianPostParameters.AustralianPostEncodingTable property
 
-澳大利亚邮政客户信息的解释类型，默认为 CustomerInformationInterpretingType.Other"
+AustralianPost客户信息的解释类型，默认为CustomerInformationInterpretingType.Other"
 
 ```csharp
 public CustomerInformationInterpretingType AustralianPostEncodingTable { get; set; }

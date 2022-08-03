@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示第一个BarCodeResultaspose.barcode.barcoderecognition/barcoderesult值是否等于第二个
+description: 返回一个值指示是否第一个BarCodeResultaspose.barcode.barcoderecognition/barcoderesult值等于第二个
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/op_equality/
 ---
 ## BarCodeResult Equality operator
 
-返回一个值，指示第一个[`BarCodeResult`](../../barcoderesult)值是否等于第二个。
+返回一个值，指示是否第一个[`BarCodeResult`](../../barcoderesult)值等于第二个。
 
 ```csharp
 public static bool operator ==(BarCodeResult first, BarCodeResult second)
@@ -16,12 +16,12 @@ public static bool operator ==(BarCodeResult first, BarCodeResult second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | BarCodeResult | 第一个比较值 |
-| second | BarCodeResult | 第二个比较value |
+| first | BarCodeResult | 第一比较值 |
+| second | BarCodeResult | 第二个比较值 |
 
 ### 返回值
 
-**true** 如果 first 与 second 具有相同的值；否则， **false** 。
+**真的**如果 first 与 second 具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

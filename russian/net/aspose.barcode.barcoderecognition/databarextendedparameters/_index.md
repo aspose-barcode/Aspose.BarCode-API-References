@@ -18,18 +18,18 @@ public sealed class DataBarExtendedParameters : BaseExtendedParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Is2DCompositeComponent](../../aspose.barcode.barcoderecognition/databarextendedparameters/is2dcompositecomponent) { get; } | Получает флаг композитного компонента DataBar 2D. Значение по умолчанию — ложь. |
+| [Is2DCompositeComponent](../../aspose.barcode.barcoderecognition/databarextendedparameters/is2dcompositecomponent) { get; } | Получает флаг составного компонента DataBar 2D. Значение по умолчанию — ложь. |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Проверяет, имеют ли все параметры только значения по умолчанию |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/databarextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`DataBarExtendedParameters`](../databarextendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/databarextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`DataBarExtendedParameters`](../databarextendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/databarextendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/databarextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarExtendedParameters`](../databarextendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`DataBarExtendedParameters`](../databarextendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`DataBarExtendedParameters`](../databarextendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/databarextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarExtendedParameters`](../databarextendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`DataBarExtendedParameters`](../databarextendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`DataBarExtendedParameters`](../databarextendedparameters) значение отличается от второго. |
 
 ### Примеры
 

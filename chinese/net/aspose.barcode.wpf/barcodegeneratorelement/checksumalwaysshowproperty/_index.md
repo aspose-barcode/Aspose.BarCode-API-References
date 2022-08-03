@@ -1,14 +1,14 @@
 ---
 title: ChecksumAlwaysShowProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: ChecksumAlwaysShowProperty
+description: 校验和始终显示属性
 type: docs
 weight: 1330
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/checksumalwaysshowproperty/
 ---
 ## BarcodeGeneratorElement.ChecksumAlwaysShowProperty field
 
-ChecksumAlwaysShowProperty
+校验和始终显示属性
 
 ```csharp
 public static DependencyProperty ChecksumAlwaysShowProperty;

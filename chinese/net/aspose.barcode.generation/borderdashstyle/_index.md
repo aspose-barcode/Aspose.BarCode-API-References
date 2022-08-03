@@ -21,7 +21,7 @@ public enum BorderDashStyle
 | Solid | `0` | 指定实线。 |
 | Dash | `1` | 指定由破折号组成的行。 |
 | Dot | `2` | 指定由点组成的线。 |
-| DashDot | `3` | 指定由重复的点划线模式组成的行。 |
+| DashDot | `3` | 指定由重复的点划线图案组成的线。 |
 | DashDotDot | `4` | 指定由重复的点划线图案组成的线。 |
 
 ### 也可以看看

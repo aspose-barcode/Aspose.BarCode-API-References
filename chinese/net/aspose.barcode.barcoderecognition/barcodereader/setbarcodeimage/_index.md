@@ -67,11 +67,11 @@ public void SetBarCodeImage(Bitmap value, Rectangle[] areas)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | Bitmap | 用于识别的位图图像。 |
-| areas | Rectangle[] | 识别区域列表 |
+| areas | Rectangle[] | 认可领域清单 |
 
 ### 例子
 
-此示例说明如何检测 Code39 和 Code128 条码。
+此示例展示了如何检测 Code39 和 Code128 条码。
 
 ```csharp
 [C#]
@@ -118,11 +118,11 @@ public void SetBarCodeImage(Bitmap value, Rectangle area)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | Bitmap | 用于识别的位图图像。 |
-| area | Rectangle | 识别区域 |
+| area | Rectangle | 认可区域 |
 
 ### 例子
 
-此示例显示如何检测Code39 和 Code128 条码。
+此示例展示了如何检测 Code39 和 Code128 条码。
 
 ```csharp
 [C#]
@@ -160,7 +160,7 @@ End Using
 
 ## SetBarCodeImage(string) {#setbarcodeimage_4}
 
-设置要识别的图像文件。 必须在 ReadBarCodes() 方法之前调用。
+设置用于识别的图像文件。 必须在 ReadBarCodes() 方法之前调用。
 
 ```csharp
 public void SetBarCodeImage(string filename)

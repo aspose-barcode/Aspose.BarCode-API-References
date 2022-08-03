@@ -1,14 +1,14 @@
 ---
 title: CheckMore1DVariants
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎通过检查更多识别变体来识别带有校验和的一维条码默认值假
+description: 允许引擎通过检查更多识别变体来识别带有校验和的一维条码默认值False.
 type: docs
 weight: 210
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/checkmore1dvariants/
 ---
 ## QualitySettings.CheckMore1DVariants property
 
-允许引擎通过检查更多识别变体来识别带有校验和的一维条码。默认值:假。
+允许引擎通过检查更多识别变体来识别带有校验和的一维条码。默认值：False.
 
 ```csharp
 public bool CheckMore1DVariants { get; set; }
@@ -16,7 +16,7 @@ public bool CheckMore1DVariants { get; set; }
 
 ### 适当的价值
 
-如果为真，则允许引擎识别带有校验和的一维条码。
+如果为真，则允许引擎使用校验和识别一维条码。
 
 ### 也可以看看
 

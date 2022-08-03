@@ -1,14 +1,14 @@
 ---
 title: BarHeight
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Высота баров 1D штрихкодов вUnitaspose.barcode.generation/unitзначение. Игнорируется если для свойстваAutoSizeModeустановлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+description: Высота штрихов 1D штрих-кодов вUnitaspose.barcode.generation/unit value. Игнорируется еслиAutoSizeMode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/barcodeparameters/barheight/
 ---
 ## BarcodeParameters.BarHeight property
 
-Высота баров 1D штрихкодов в[`Unit`](../../unit)значение. Игнорируется, если для свойстваAutoSizeModeустановлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+Высота штрихов 1D штрих-кодов в[`Unit`](../../unit) value. Игнорируется, еслиAutoSizeMode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit BarHeight { get; set; }

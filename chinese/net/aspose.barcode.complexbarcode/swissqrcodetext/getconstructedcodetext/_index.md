@@ -1,14 +1,14 @@
 ---
 title: GetConstructedCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 从 SwissQR 账单数据构造代码文本
+description: 从 SwissQR 账单数据构建代码文本
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext/
 ---
 ## SwissQRCodetext.GetConstructedCodetext method
 
-从 SwissQR 账单数据构造代码文本
+从 SwissQR 账单数据构建代码文本
 
 ```csharp
 public string GetConstructedCodetext()
@@ -16,7 +16,7 @@ public string GetConstructedCodetext()
 
 ### 返回值
 
-构造代码文本
+构造的代码文本
 
 ### 也可以看看
 

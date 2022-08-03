@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolMode
 second_title: Aspose.BarCode for .NET API 参考
-description: Aztec 符号模式
+description: 阿兹台克符号模式
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmode/
 ---
 ## BarcodeGeneratorElement.AztecSymbolMode property
 
-Aztec 符号模式。
+阿兹台克符号模式。
 
 ```csharp
 public AztecSymbolMode AztecSymbolMode { get; set; }

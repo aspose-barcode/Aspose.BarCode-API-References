@@ -1,14 +1,14 @@
 ---
 title: QREncodeTypeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: QREncodeTypeProperty
+description: QREncodeType 属性
 type: docs
 weight: 1940
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/qrencodetypeproperty/
 ---
 ## BarcodeGeneratorElement.QREncodeTypeProperty field
 
-QREncodeTypeProperty
+QREncodeType 属性
 
 ```csharp
 public static DependencyProperty QREncodeTypeProperty;

@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveFontSize
 second_title: Aspose.BarCode for .NET API 参考
-description: 字体大小以上的标题
+description: 字体大小上方的标题
 type: docs
 weight: 180
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovefontsize/
 ---
 ## BarcodeGeneratorElement.CaptionAboveFontSize property
 
-字体大小以上的标题。
+字体大小上方的标题。
 
 ```csharp
 public float CaptionAboveFontSize { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ItalianPost25
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Italian Post 25 条码规范 解码
+description: 指定数据应该被解码 意大利邮政 25条码规格
 type: docs
 weight: 410
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/italianpost25/
 ---
 ## DecodeType.ItalianPost25 field
 
-指定数据应使用 **Italian Post 25** 条码规范 解码
+指定数据应该被解码 **意大利邮政 25**条码规格
 
 ```csharp
 public static readonly SingleDecodeType ItalianPost25;

@@ -1,14 +1,14 @@
 ---
 title: GS1Code128
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1 CODE 128 条码规范 解码
+description: 指定数据应该被解码 GS1 代码 128条码规格
 type: docs
 weight: 330
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/gs1code128/
 ---
 ## DecodeType.GS1Code128 field
 
-指定数据应使用 **GS1 CODE 128** 条码规范 解码
+指定数据应该被解码 **GS1 代码 128**条码规格
 
 ```csharp
 public static readonly SingleDecodeType GS1Code128;

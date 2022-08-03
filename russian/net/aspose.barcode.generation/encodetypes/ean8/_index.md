@@ -1,14 +1,14 @@
 ---
 title: EAN8
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью EAN-8 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с EAN-8 спецификация штрих-кода
 type: docs
 weight: 300
 url: /ru/net/aspose.barcode.generation/encodetypes/ean8/
 ---
 ## EncodeTypes.EAN8 field
 
-Указывает, что данные должны быть закодированы с помощью **EAN-8** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **EAN-8** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType EAN8;

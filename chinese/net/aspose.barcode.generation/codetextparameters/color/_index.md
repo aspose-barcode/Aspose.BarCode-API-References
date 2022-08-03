@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定显示代码文本的颜色 默认值Color.Black
+description: 指定显示CodeText的颜色 默认值Color.Black.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/codetextparameters/color/
 ---
 ## CodetextParameters.Color property
 
-指定显示代码文本的颜色。 默认值:Color.Black。
+指定显示CodeText的颜色。 默认值：Color.Black.
 
 ```csharp
 public Color Color { get; set; }

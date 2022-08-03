@@ -1,14 +1,14 @@
 ---
 title: UseAllCores
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Нужен для использования всех ядер.
+description: Необходим для использования всех ядер.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.common/processorsettings/useallcores/
 ---
 ## ProcessorSettings.UseAllCores property
 
-Нужен для использования всех ядер.
+Необходим для использования всех ядер.
 
 ```csharp
 public bool UseAllCores { get; set; }

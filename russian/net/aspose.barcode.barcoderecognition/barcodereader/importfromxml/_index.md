@@ -20,9 +20,9 @@ public static BarCodeReader ImportFromXml(string xmlFile)
 
 ### Возвращаемое значение
 
-Возвращает **True** в случае успеха;
+Возвращает **Истинный** в случае успеха;
 
-**False** Иначе
+**ЛОЖЬ** В противном случае
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static BarCodeReader ImportFromXml(string xmlFile)
 
 ## ImportFromXml(Stream) {#importfromxml}
 
-Импортирует свойства BarCode из указанного xml-потока и применяет их к текущему экземпляру BarCodeReader.
+Импортирует свойства BarCode из указанного XML-потока и применяет их к текущему экземпляру BarCodeReader.
 
 ```csharp
 public static BarCodeReader ImportFromXml(Stream xmlStream)
@@ -46,9 +46,9 @@ public static BarCodeReader ImportFromXml(Stream xmlStream)
 
 ### Возвращаемое значение
 
-Возвращает **True** в случае успеха;
+Возвращает **Истинный** в случае успеха;
 
-**False** Иначе
+**ЛОЖЬ** В противном случае
 
 ### Смотрите также
 

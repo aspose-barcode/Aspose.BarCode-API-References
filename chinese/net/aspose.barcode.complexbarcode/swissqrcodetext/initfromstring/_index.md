@@ -1,14 +1,14 @@
 ---
 title: InitFromString
 second_title: Aspose.BarCode for .NET API 参考
-description: 用构造的代码文本初始化比尔
+description: 使用构造的代码文本初始化比尔
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.complexbarcode/swissqrcodetext/initfromstring/
 ---
 ## SwissQRCodetext.InitFromString method
 
-用构造的代码文本初始化比尔。
+使用构造的代码文本初始化比尔。
 
 ```csharp
 public void InitFromString(string constructedCodetext)
@@ -16,7 +16,7 @@ public void InitFromString(string constructedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constructedCodetext | String | 构造代码文本。 |
+| constructedCodetext | String | 构造的代码文本。 |
 
 ### 也可以看看
 

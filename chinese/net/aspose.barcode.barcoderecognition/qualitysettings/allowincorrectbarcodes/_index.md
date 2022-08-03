@@ -1,14 +1,14 @@
 ---
 title: AllowIncorrectBarcodes
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎识别校验和或值不正确的条形码 模式可用于识别文本不正确的损坏条码
+description: 允许引擎识别校验和或值不正确的条形码 模式可用于识别文本不正确的损坏条形码
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes/
 ---
 ## QualitySettings.AllowIncorrectBarcodes property
 
-允许引擎识别校验和或值不正确的条形码。 模式可用于识别文本不正确的损坏条码。
+允许引擎识别校验和或值不正确的条形码。 模式可用于识别文本不正确的损坏条形码。
 
 ```csharp
 public bool AllowIncorrectBarcodes { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetBarCodeReadType
 second_title: Aspose.BarCode for .NET API 参考
-description: 设置SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype类型数组进行识别 必须在 ReadBarCodes 方法之前调用
+description: 套SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype类型数组进行识别 必须在 ReadBarCodes 方法之前调用
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
 ---
 ## SetBarCodeReadType(params SingleDecodeType[]) {#setbarcodereadtype_1}
 
-设置[`SingleDecodeType`](../../singledecodetype)类型数组进行识别。 必须在 ReadBarCodes() 方法之前调用。
+套[`SingleDecodeType`](../../singledecodetype)类型数组进行识别。 必须在 ReadBarCodes() 方法之前调用。
 
 ```csharp
 public void SetBarCodeReadType(params SingleDecodeType[] barcodeTypes)
@@ -16,7 +16,7 @@ public void SetBarCodeReadType(params SingleDecodeType[] barcodeTypes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| barcodeTypes | SingleDecodeType[] | [`SingleDecodeType`](../../singledecodetype)要读取的类型数组。 |
+| barcodeTypes | SingleDecodeType[] | 这[`SingleDecodeType`](../../singledecodetype)要读取的类型数组。 |
 
 ### 例子
 

@@ -8,9 +8,9 @@ url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/amount/
 ---
 ## SwissQRBill.Amount property
 
-获取或设置支付金额。
+获取或设置支付金额
 
-有效值介于 0.01 和 999,999,999.99 之间。
+有效值介于 0.01 和 999,999,999.99. 之间
 
 ```csharp
 public decimal Amount { get; set; }
@@ -18,7 +18,7 @@ public decimal Amount { get; set; }
 
 ### 适当的价值
 
-支付金额。
+付款金额。
 
 ### 也可以看看
 

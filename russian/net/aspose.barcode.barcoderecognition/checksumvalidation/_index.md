@@ -1,22 +1,22 @@
 ---
 title: ChecksumValidation
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Включить проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов.
+description: Включите проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов.
 type: docs
 weight: 140
 url: /ru/net/aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 ## ChecksumValidation enumeration
 
-Включить проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов.
+Включите проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов.
 
-Значение по умолчанию трактуется как Да для кодировок, которые должны содержать контрольную сумму, и как Нет, если возможна только контрольная сумма.
+Значение по умолчанию трактуется как «Да» для кодировок, которые должны содержать контрольную сумму, и как «Нет», если возможна только контрольная сумма.
 
-Контрольная сумма никогда не использовалась:Codabar, PatchCode, Pharmacode, DataLogic2of5
+Контрольная сумма никогда не использовалась: Codabar, PatchCode, Pharmacode, DataLogic2of5
 
-Контрольная сумма возможна:Code39 Standard/ Расширенный, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN
+Возможна контрольная сумма: Code39 Standard/Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN
 
-Контрольная сумма всегда используется:Остальные символы
+Контрольная сумма всегда используется: Остальные символы
 
 ```csharp
 public enum ChecksumValidation
@@ -32,7 +32,7 @@ public enum ChecksumValidation
 
 ### Примеры
 
-В этом примере показано влияние ChecksumValidation на качество и результаты распознавания
+В этом примере показано влияние ChecksumValidation на качество распознавания и результаты
 
 ```csharp
 [C#]
@@ -42,7 +42,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN13, "123
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-     // контрольная сумма disabled
+    // контрольная сумма отключена
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -53,7 +53,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-     // контрольная сумма enabled
+    // контрольная сумма включена
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -67,7 +67,7 @@ Using generator As New BarcodeGenerator(EncodeTypes.EAN13, "1234567890128")
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    'checksum инвалид
+    'контрольная сумма отключена
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -76,7 +76,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    'checksum включено
+    'контрольная сумма включена
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

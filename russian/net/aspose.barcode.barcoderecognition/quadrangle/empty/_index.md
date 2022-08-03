@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Представляет классQuadrangleaspose.barcode.barcoderecognition/quadrangle свойства которого не инициализированы.
+description: ПредставляетQuadrangleaspose.barcode.barcoderecognition/quadrangle class с неинициализированными свойствами.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/empty/
 ---
 ## Quadrangle.Empty field
 
-Представляет класс[`Quadrangle`](../../quadrangle), свойства которого не инициализированы.
+Представляет[`Quadrangle`](../../quadrangle) class с неинициализированными свойствами.
 
 ```csharp
 public static readonly Quadrangle Empty;

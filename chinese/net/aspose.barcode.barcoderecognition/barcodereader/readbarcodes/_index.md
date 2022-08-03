@@ -1,14 +1,14 @@
 ---
 title: ReadBarCodes
 second_title: Aspose.BarCode for .NET API 参考
-description: 读取 BarCodeResultaspose.barcode.barcoderecognition/barcoderesult 从图像
+description: 读取BarCodeResultaspose.barcode.barcoderecognition/barcoderesult 来自图像.
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/readbarcodes/
 ---
 ## BarCodeReader.ReadBarCodes method
 
-读取 [`BarCodeResult`](../../barcoderesult) 从图像。
+读取[`BarCodeResult`](../../barcoderesult) 来自图像.
 
 ```csharp
 public BarCodeResult[] ReadBarCodes()
@@ -16,7 +16,7 @@ public BarCodeResult[] ReadBarCodes()
 
 ### 返回值
 
-返回已识别的数组 [`BarCodeResult`](../../barcoderesult)s 在图像上。 如果未识别任何内容，则返回零数组。
+返回已识别的数组[`BarCodeResult`](../../barcoderesult)在图像上。如果未识别任何内容，则返回零数组。
 
 ### 例子
 

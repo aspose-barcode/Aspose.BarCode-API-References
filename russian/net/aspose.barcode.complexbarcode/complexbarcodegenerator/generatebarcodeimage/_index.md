@@ -1,14 +1,14 @@
 ---
 title: GenerateBarCodeImage
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Генерирует сложное изображение штрих-кода при текущих настройках.
+description: Генерирует сложное изображение штрих-кода с текущими настройками.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage/
 ---
 ## ComplexBarcodeGenerator.GenerateBarCodeImage method
 
-Генерирует сложное изображение штрих-кода при текущих настройках.
+Генерирует сложное изображение штрих-кода с текущими настройками.
 
 ```csharp
 public Bitmap GenerateBarCodeImage()
@@ -16,7 +16,7 @@ public Bitmap GenerateBarCodeImage()
 
 ### Возвращаемое значение
 
-Изображение штрих-кода. См.Bitmap.
+Изображение штрих-кода. ВидетьBitmap.
 
 ### Смотрите также
 

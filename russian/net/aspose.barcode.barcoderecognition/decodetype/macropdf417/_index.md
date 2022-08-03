@@ -1,14 +1,14 @@
 ---
 title: MacroPdf417
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с помощью MacroPdf417 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с макросPDf417 спецификация штрих-кода
 type: docs
 weight: 440
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/macropdf417/
 ---
 ## DecodeType.MacroPdf417 field
 
-Указывает, что данные должны быть декодированы с помощью **MacroPdf417** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **макросPDf417** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType MacroPdf417;

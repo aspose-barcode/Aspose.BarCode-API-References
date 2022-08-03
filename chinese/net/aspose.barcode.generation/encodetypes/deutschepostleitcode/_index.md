@@ -1,14 +1,14 @@
 ---
 title: DeutschePostLeitcode
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示 Deutsch Post Leitcode Barcode也称为 German Postal 2 of 5 LeitcodeCodeLeitcodeLeitcodeDeutsch Post AG DHL
+description: 代表 Deutsch Post Leitcode Barcode也称为 German Postal 2 of 5 LeitcodeCodeLeitcodeLeitcodeDeutsch Post AG DHL
 type: docs
 weight: 250
 url: /zh/net/aspose.barcode.generation/encodetypes/deutschepostleitcode/
 ---
 ## EncodeTypes.DeutschePostLeitcode field
 
-表示 Deutsch Post Leitcode Barcode，也称为 German Postal 2 of 5 Leitcode、CodeLeitcode、Leitcode、Deutsch Post AG (DHL)。
+代表 Deutsch Post Leitcode Barcode，也称为 German Postal 2 of 5 Leitcode、CodeLeitcode、Leitcode、Deutsch Post AG (DHL)。
 
 ```csharp
 public static readonly SymbologyEncodeType DeutschePostLeitcode;

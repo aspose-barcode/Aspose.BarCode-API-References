@@ -1,14 +1,14 @@
 ---
 title: AspectRatio
 second_title: Aspose.BarCode for .NET API 参考
-description: 二维条码模块的高/宽比 用于堆叠的 DataBar
+description: 2D BarCode 模块的高宽比 用于 DataBar 堆叠
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/databarparameters/aspectratio/
 ---
 ## DataBarParameters.AspectRatio property
 
-二维条码模块的高/宽比。 用于堆叠的 DataBar。
+2D BarCode 模块的高宽比。 用于 DataBar 堆叠。
 
 ```csharp
 public float AspectRatio { get; set; }

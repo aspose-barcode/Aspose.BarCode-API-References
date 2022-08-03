@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode.WPF
 second_title: Aspose.BarCode for .NET API 参考
-description: Aspose.BarCode.WPF 包含用于生成和绘制一维/二维条码的工具
+description: 的 Aspose.BarCode.WPF包含一维/二维条码生成和绘图的工具
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.wpf/
 ---
-**Aspose.BarCode.WPF** 包含用于生成和绘制一维/二维条码的工具。
+的 **Aspose.BarCode.WPF**包含一维/二维条码生成和绘图的工具。
 
 ## 课程
 

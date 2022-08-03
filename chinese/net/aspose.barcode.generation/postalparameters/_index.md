@@ -1,14 +1,14 @@
 ---
 title: PostalParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 邮政参数用于 PostnetPlanet
+description: 邮政参数用于 PostnetPlanet.
 type: docs
 weight: 870
 url: /zh/net/aspose.barcode.generation/postalparameters/
 ---
 ## PostalParameters class
 
-邮政参数。用于 Postnet、Planet。
+邮政参数。用于 Postnet、Planet.
 
 ```csharp
 public class PostalParameters
@@ -24,7 +24,7 @@ public class PostalParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/postalparameters/tostring)() | 返回此[`PostalParameters`](../postalparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/postalparameters/tostring)() | 返回一个人类可读的字符串表示[`PostalParameters`](../postalparameters). |
 
 ### 也可以看看
 

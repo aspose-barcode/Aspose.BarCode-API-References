@@ -1,14 +1,14 @@
 ---
 title: MicrE13B
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с MICR E-13B пустая спецификация
+description: Указывает что данные должны быть декодированы с МКР Э-13Б пустая спецификация
 type: docs
 weight: 480
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/micre13b/
 ---
 ## DecodeType.MicrE13B field
 
-Указывает, что данные должны быть декодированы с **MICR E-13B** пустая спецификация
+Указывает, что данные должны быть декодированы с **МКР Э-13Б** пустая спецификация
 
 ```csharp
 public static readonly SingleDecodeType MicrE13B;

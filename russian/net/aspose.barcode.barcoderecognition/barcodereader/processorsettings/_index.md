@@ -20,9 +20,9 @@ public static ProcessorSettings ProcessorSettings { get; }
 
 ```csharp
 [C#]
-//это позволяет использовать все ядра для одного BarCodeReader call
+//это позволяет использовать все ядра для одного вызова BarCodeReader
 BarCodeReader.ProcessorSettings.UseAllCores = true;
- //это позволяет использовать текущее количество ядер cores
+//это позволяет использовать текущее количество ядер
 BarCodeReader.ProcessorSettings.UseAllCores = false;
 BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.ProcessorCount / 2);
 [VB.NET]

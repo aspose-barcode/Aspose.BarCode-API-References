@@ -1,14 +1,14 @@
 ---
 title: TwoDComponentType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип 2D компонента
+description: Тип 2D-компонента
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/gs1compositebarparameters/twodcomponenttype/
 ---
 ## GS1CompositeBarParameters.TwoDComponentType property
 
-Тип 2D компонента
+Тип 2D-компонента
 
 ```csharp
 public TwoDComponentType TwoDComponentType { get; set; }

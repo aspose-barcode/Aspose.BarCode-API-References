@@ -10,7 +10,10 @@ url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/maxbarcodes/
 
 Предустановка качества распознавания MaxBarCodes. Этот пресет разработан для распознавания всех возможных штрих-кодов, даже неправильных штрих-кодов.
 
-&lt;код&gt; использование (считыватель BarCodeReader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.MaxBarCodes; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.MaxBarCodes;
+```
 
 ```csharp
 public static QualitySettings MaxBarCodes { get; }

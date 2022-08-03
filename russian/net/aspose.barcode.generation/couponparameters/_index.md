@@ -18,13 +18,13 @@ public class CouponParameters
 
 | Имя | Описание |
 | --- | --- |
-| [SupplementSpace](../../aspose.barcode.generation/couponparameters/supplementspace) { get; } | Пробел между основным штрих-кодом и дополнительным штрих-кодом в значении[`Unit`](../unit). |
+| [SupplementSpace](../../aspose.barcode.generation/couponparameters/supplementspace) { get; } | Пробел между основным штрих-кодом и дополнительным штрих-кодом в[`Unit`](../unit) значение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/couponparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CouponParameters`](../couponparameters). |
+| override [ToString](../../aspose.barcode.generation/couponparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CouponParameters`](../couponparameters) . |
 
 ### Смотрите также
 

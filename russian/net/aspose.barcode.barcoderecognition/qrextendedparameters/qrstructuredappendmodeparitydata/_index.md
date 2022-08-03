@@ -1,14 +1,14 @@
 ---
 title: QRStructuredAppendModeParityData
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает данные четности в режиме структурированного добавления QR. Значение по умолчанию-1.
+description: Получает данные о четности в режиме добавления со структурой QR. Значение по умолчанию -1.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata/
 ---
 ## QRExtendedParameters.QRStructuredAppendModeParityData property
 
-Получает данные четности в режиме структурированного добавления QR. Значение по умолчанию:-1.
+Получает данные о четности в режиме добавления со структурой QR. Значение по умолчанию: -1.
 
 ```csharp
 public int QRStructuredAppendModeParityData { get; }

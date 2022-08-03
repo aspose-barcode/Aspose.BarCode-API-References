@@ -1,14 +1,14 @@
 ---
 title: MaxAdditionalAllowedThreads
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите максимальное количество дополнительных потоков для параллельного выполнения кода
+description: Укажите максимальное количество дополнительных потоков для запуска кода в parallel
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.common/processorsettings/maxadditionalallowedthreads/
 ---
 ## ProcessorSettings.MaxAdditionalAllowedThreads property
 
-Укажите максимальное количество дополнительных потоков для параллельного выполнения кода
+Укажите максимальное количество дополнительных потоков для запуска кода в parallel
 
 ```csharp
 public int MaxAdditionalAllowedThreads { get; set; }

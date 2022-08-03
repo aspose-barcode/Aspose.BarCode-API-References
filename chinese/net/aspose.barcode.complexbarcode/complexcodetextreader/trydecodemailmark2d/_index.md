@@ -1,14 +1,14 @@
 ---
 title: TryDecodeMailmark2D
 second_title: Aspose.BarCode for .NET API 参考
-description: 解码 Royal Mail Mailmark 2D 代码文本
+description: 解码 Royal Mail Mailmark 2D codetext.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark2D method
 
-解码 Royal Mail Mailmark 2D 代码文本。
+解码 Royal Mail Mailmark 2D codetext.
 
 ```csharp
 public static Mailmark2DCodetext TryDecodeMailmark2D(string encodedCodetext)
@@ -16,11 +16,11 @@ public static Mailmark2DCodetext TryDecodeMailmark2D(string encodedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| encodedCodetext | String | 编码代码文本 |
+| encodedCodetext | String | 编码的代码文本 |
 
 ### 返回值
 
-解码 Royal Mail Mailmark 2D 或 null .
+解码的 Royal Mail Mailmark 2D 或 null。
 
 ### 也可以看看
 

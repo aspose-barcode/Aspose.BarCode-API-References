@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/address/
 
 债权人或债务人的地址。
 
-您可以设置街道、门牌号、邮政编码和城镇（类型 结构化地址 ) 或地址行 1 和 2（类型 组合地址元素 ）。一旦设置了这些字段中的任何一个，类型就会自动设置为 。在设置字段之前，地址类型为 undetermined 。 如果设置了两种类型的字段，则地址类型变为 冲突 。 必须始终设置名称和国家代码，除非所有字段都为空。
+您可以设置街道、门牌号、邮政编码和城镇（类型结构化地址) 或地址线 1 和 2（类型组合地址元素）。一旦设置了这些字段中的任何一个，该类型就会自动设置 。在设置字段之前，地址类型为未定. 如果设置了两种类型的字段，地址类型变为矛盾的. 必须始终设置名称和国家代码，除非所有字段都为空。
 
 ```csharp
 public sealed class Address : IEquatable<Address>
@@ -20,17 +20,17 @@ public sealed class Address : IEquatable<Address>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Address](address)() | 创建地址实例 |
+| [Address](address)() | 创建 Address 的实例 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | 获取或设置地址行 1。 |
-| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | 获取或设置地址行 2。 |
+| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | 获取或设置地址线 1. |
+| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | 获取或设置地址线2. |
 | [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode) { get; set; } | 获取或设置两个字母的 ISO 国家代码。 |
 | [HouseNo](../../aspose.barcode.complexbarcode/address/houseno) { get; set; } | 获取或设置门牌号。 |
-| [Name](../../aspose.barcode.complexbarcode/address/name) { get; set; } | 获取或设置姓名，可以是自然人的名字和姓氏，也可以是法人的 公司名称。 |
+| [Name](../../aspose.barcode.complexbarcode/address/name) { get; set; } | 获取或设置姓名，可以是自然人的姓名，也可以是法人的 公司名称。 |
 | [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode) { get; set; } | 获取或设置邮政编码。 |
 | [Street](../../aspose.barcode.complexbarcode/address/street) { get; set; } | 获取或设置街道。 |
 | [Town](../../aspose.barcode.complexbarcode/address/town) { get; set; } | 获取或设置城镇或城市。 |
@@ -40,9 +40,9 @@ public sealed class Address : IEquatable<Address>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | 清除所有字段并将类型设置为Undetermined。 |
-| [Equals](../../aspose.barcode.complexbarcode/address/equals#equals)(Address) | 判断指定地址是否等于当前地址。 |
-| override [Equals](../../aspose.barcode.complexbarcode/address/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
+| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | 清除所有字段并将类型设置为Undetermined. |
+| [Equals](../../aspose.barcode.complexbarcode/address/equals#equals)(Address) | 确定指定地址是否等于当前地址。 |
+| override [Equals](../../aspose.barcode.complexbarcode/address/equals#equals_1)(object) | 确定指定对象是否等于当前对象。 |
 | override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode)() | 获取此实例的哈希码。 |
 
 ### 也可以看看

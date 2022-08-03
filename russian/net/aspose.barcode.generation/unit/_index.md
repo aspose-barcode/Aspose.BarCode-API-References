@@ -21,17 +21,17 @@ public sealed class Unit
 | [Document](../../aspose.barcode.generation/unit/document) { get; set; } | Получает или задает значение размера в единицах измерения документа. |
 | [Inches](../../aspose.barcode.generation/unit/inches) { get; set; } | Получает или задает значение размера в дюймах. |
 | [Millimeters](../../aspose.barcode.generation/unit/millimeters) { get; set; } | Получает или задает значение размера в миллиметрах. |
-| [Pixels](../../aspose.barcode.generation/unit/pixels) { get; set; } | Получает или устанавливает значение размера в пикселях. |
-| [Point](../../aspose.barcode.generation/unit/point) { get; set; } | Получает или задает значение размера в пунктах. |
+| [Pixels](../../aspose.barcode.generation/unit/pixels) { get; set; } | Получает или задает значение размера в пикселях. |
+| [Point](../../aspose.barcode.generation/unit/point) { get; set; } | Получает или устанавливает значение размера в точке. |
 | [Resolution](../../aspose.barcode.generation/unit/resolution) { get; } | Разрешение |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.generation/unit/equals)(object) | Определяет, является ли этот экземпляр и указанный объект, который также должен быть[`Unit`](../unit)объект, имеют одинаковое значение. |
-| override [GetHashCode](../../aspose.barcode.generation/unit/gethashcode)() | Возвращает хеш-код для этого объекта. |
-| override [ToString](../../aspose.barcode.generation/unit/tostring)() | Возвращает удобочитаемое строковое представление этого[`Unit`](../unit). |
+| override [Equals](../../aspose.barcode.generation/unit/equals)(object) | Определяет, является ли этот экземпляр и указанный объект, , который также должен быть[`Unit`](../unit) объект, имеют одинаковое значение. |
+| override [GetHashCode](../../aspose.barcode.generation/unit/gethashcode)() | Возвращает хэш-код для этого объекта. |
+| override [ToString](../../aspose.barcode.generation/unit/tostring)() | Возвращает удобочитаемое строковое представление этого[`Unit`](../unit) . |
 
 ### Примеры
 

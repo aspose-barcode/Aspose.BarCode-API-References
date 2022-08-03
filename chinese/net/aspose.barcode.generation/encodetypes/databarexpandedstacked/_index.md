@@ -1,14 +1,14 @@
 ---
 title: DatabarExpandedStacked
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示 GS1 Databar 扩展堆叠条码
+description: 代表 GS1 Databar 扩展堆叠条码
 type: docs
 weight: 160
 url: /zh/net/aspose.barcode.generation/encodetypes/databarexpandedstacked/
 ---
 ## EncodeTypes.DatabarExpandedStacked field
 
-表示 GS1 Databar 扩展堆叠条码。
+代表 GS1 Databar 扩展堆叠条码。
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarExpandedStacked;

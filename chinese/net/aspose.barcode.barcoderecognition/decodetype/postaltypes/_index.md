@@ -1,14 +1,14 @@
 ---
 title: PostalTypes
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用所有 1.5D Postal 条形码符号来检查数据例如 Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
+description: 指定将使用所有 1.5D邮政条形码符号如 Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
 type: docs
 weight: 600
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/postaltypes/
 ---
 ## DecodeType.PostalTypes field
 
-指定将使用所有 **1.5D Postal** 条形码符号来检查数据，例如 **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
+指定将使用所有 **1.5D邮政**条形码符号，如 **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
 
 ```csharp
 public static readonly MultyDecodeType PostalTypes;

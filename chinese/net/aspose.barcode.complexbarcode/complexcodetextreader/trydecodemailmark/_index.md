@@ -1,14 +1,14 @@
 ---
 title: TryDecodeMailmark
 second_title: Aspose.BarCode for .NET API 参考
-description: 解码 Mailmark Barcode C 和 L 代码文本
+description: 解码 Mailmark 条码 C 和 L 代码文本
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark method
 
-解码 Mailmark Barcode C 和 L 代码文本。
+解码 Mailmark 条码 C 和 L 代码文本。
 
 ```csharp
 public static MailmarkCodetext TryDecodeMailmark(string encodedCodetext)
@@ -16,11 +16,11 @@ public static MailmarkCodetext TryDecodeMailmark(string encodedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| encodedCodetext | String | 编码代码文本 |
+| encodedCodetext | String | 编码的代码文本 |
 
 ### 返回值
 
-Dcoded Mailmark Barcode C 和 L 或无效的。
+Dcoded Mailmark Barcode C 和 L 或 null。
 
 ### 也可以看看
 

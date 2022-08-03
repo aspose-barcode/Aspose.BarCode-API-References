@@ -1,14 +1,14 @@
 ---
 title: GS1QR
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1 QR 条码规范 解码
+description: 指定数据应该被解码 GS1 二维码条码规格
 type: docs
 weight: 350
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/gs1qr/
 ---
 ## DecodeType.GS1QR field
 
-指定数据应使用 **GS1 QR** 条码规范 解码
+指定数据应该被解码 **GS1 二维码**条码规格
 
 ```csharp
 public static readonly SingleDecodeType GS1QR;

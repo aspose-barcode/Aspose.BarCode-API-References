@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/patchcodeparameters/patchformat/
 ---
 ## PatchCodeParameters.PatchFormat property
 
-补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。 默认值:PatchFormat.PatchOnly
+补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。 默认值：PatchFormat.PatchOnly
 
 ```csharp
 public PatchFormat PatchFormat { get; set; }

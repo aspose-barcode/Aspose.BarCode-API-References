@@ -19,7 +19,7 @@ public enum TwoDComponentType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Auto | `0` | 自动选择二维组件的类型 |
-| CC_A | `1` | CC-A 类型的 2D 组件。它是 MicroPDF417 |
+| CC_A | `1` | CC-A 类型的 2D 组件。它是 MicroPDF417 的结构变体 |
 | CC_B | `2` | CC-B 类型的 2D 组件。它是一个 MicroPDF417 符号。 |
 | CC_C | `3` | CC-C 类型的 2D 组件。它是一个 PDF417 符号。 |
 

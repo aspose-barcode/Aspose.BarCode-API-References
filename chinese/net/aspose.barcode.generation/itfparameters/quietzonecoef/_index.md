@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/itfparameters/quietzonecoef/
 ---
 ## ITFParameters.QuietZoneCoef property
 
-xDimension 中静区的大小。 默认值:10，这意味着如果 xDimension = 2px，则静区将为 20px。
+xDimension 中静区的大小。 默认值：10，这意味着如果 xDimension = 2px，则静区将为 20px。
 
 ```csharp
 public int QuietZoneCoef { get; set; }
@@ -18,7 +18,7 @@ public int QuietZoneCoef { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | **QuietZoneCoef** 参数值小于 10。 |
+| ArgumentException | 这 **QuietZoneCoef**参数值小于 10。 |
 
 ### 也可以看看
 

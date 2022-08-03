@@ -1,14 +1,14 @@
 ---
 title: BarColor
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Цвет полос.
+description: Цвет баров.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/barcolor/
 ---
 ## BarcodeGeneratorElement.BarColor property
 
-Цвет полос.
+Цвет баров.
 
 ```csharp
 public Color BarColor { get; set; }

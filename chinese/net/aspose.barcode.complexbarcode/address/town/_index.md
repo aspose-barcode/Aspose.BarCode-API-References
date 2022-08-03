@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/address/town/
 
 获取或设置城镇或城市。
 
-设置此字段会将地址类型设置为Structured除非它已经是 CombinedElements，在这种情况下它变成Conflicting。
+设置此字段会将地址类型设置为Structured除非它已经 CombinedElements , 在这种情况下它变成Conflicting.
 
 此字段仅用于结构化地址。对于这种类型，它是强制性的。
 

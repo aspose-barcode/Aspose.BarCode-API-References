@@ -1,14 +1,14 @@
 ---
 title: FoundBarCodes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: РаспознаетсяBarCodeResultaspose.barcode.barcoderecognition/barcoderesults array
+description: Получает признаниеBarCodeResultaspose.barcode.barcoderecognition/barcoderesults массив
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/
 ---
 ## BarCodeReader.FoundBarCodes property
 
-Распознается[`BarCodeResult`](../../barcoderesult)s array
+Получает признание[`BarCodeResult`](../../barcoderesult)s массив
 
 ```csharp
 public BarCodeResult[] FoundBarCodes { get; }
@@ -16,11 +16,11 @@ public BarCodeResult[] FoundBarCodes { get; }
 
 ### Стоимость имущества
 
-Распознанный[`BarCodeResult`](../../barcoderesult)s array
+Признанный[`BarCodeResult`](../../barcoderesult)s массив
 
 ### Примеры
 
-В этом примере показано, как читать штрих-коды с помощью BarCodeReader
+В этом примере показано, как считывать штрих-коды с помощью BarCodeReader
 
 ```csharp
 [C#]

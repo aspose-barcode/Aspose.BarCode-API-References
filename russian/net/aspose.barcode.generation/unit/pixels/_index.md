@@ -1,14 +1,14 @@
 ---
 title: Pixels
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает значение размера в пикселях.
+description: Получает или задает значение размера в пикселях.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/unit/pixels/
 ---
 ## Unit.Pixels property
 
-Получает или устанавливает значение размера в пикселях.
+Получает или задает значение размера в пикселях.
 
 ```csharp
 public float Pixels { get; set; }

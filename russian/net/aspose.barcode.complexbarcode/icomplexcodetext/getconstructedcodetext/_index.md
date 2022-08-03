@@ -1,14 +1,14 @@
 ---
 title: GetConstructedCodetext
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Составление кодового текста для сложного штрих-кода
+description: Построить кодовый текст для сложного штрих-кода
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext/
 ---
 ## IComplexCodetext.GetConstructedCodetext method
 
-Составление кодового текста для сложного штрих-кода
+Построить кодовый текст для сложного штрих-кода
 
 ```csharp
 public string GetConstructedCodetext()
@@ -16,7 +16,7 @@ public string GetConstructedCodetext()
 
 ### Возвращаемое значение
 
-Составление кодового текста
+Сконструированный кодовый текст
 
 ### Смотрите также
 

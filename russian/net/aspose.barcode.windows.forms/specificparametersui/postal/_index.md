@@ -1,14 +1,14 @@
 ---
 title: Postal
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры PostalPostalParametersaspose.barcode.generation/postalparameters. Используется для Postnet Planet.
+description: Получает или задает параметры PostalPostalParametersaspose.barcode.generation/postalparameters. Используется для Postnet Planet.
 type: docs
 weight: 130
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/postal/
 ---
 ## SpecificParametersUI.Postal property
 
-Получает или устанавливает параметры Postal[`PostalParameters`](../../../aspose.barcode.generation/postalparameters). Используется для Postnet, Planet.
+Получает или задает параметры Postal[`PostalParameters`](../../../aspose.barcode.generation/postalparameters). Используется для Postnet, Planet.
 
 ```csharp
 public PostalParameters Postal { get; }

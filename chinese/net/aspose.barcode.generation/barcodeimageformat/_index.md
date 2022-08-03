@@ -21,9 +21,9 @@ public enum BarCodeImageFormat
 | Bmp | `0` | 指定位图 (BMP) 图像格式。 |
 | Gif | `1` | 指定图形交换格式 (GIF) 图像格式。 |
 | Jpeg | `2` | 指定联合图像专家组 (JPEG) 图像格式。 |
-| Png | `3` | 指定 W3C 可移植网络图形 (PNG) 图像格式。 |
+| Png | `3` | 指定 W3C 便携式网络图形 (PNG) 图像格式。 |
 | Tiff | `4` | 指定标记图像文件格式 (TIFF) 图像格式。 |
-| TiffInCmyk | `5` | 指定 CMYK 颜色模型中的标记图像文件格式 (TIFF) 图像格式。 （仅在 Windows 平台上支持，在 *nix 平台上保存为 Tiff） |
+| TiffInCmyk | `5` | 指定 CMYK 颜色模型中的标记图像文件格式 (TIFF) 图像格式。 （仅Windows平台支持，*nix平台保存为Tiff） |
 | Emf | `6` | 指定增强元文件 (EMF) 图像格式。 （仅在 Windows 平台上支持，在 *nix 平台上保存为 PNG） |
 | Svg | `7` | 指定可缩放矢量图形 (SVG) 图像格式。 |
 

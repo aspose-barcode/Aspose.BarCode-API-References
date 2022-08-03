@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.BarCode for .NET API 参考
-description: 测试此Quadrangleaspose.barcode.barcoderecognition/quadrangle的所有Point是否具有零值.
+description: 测试是否所有Point这个的Quadrangleaspose.barcode.barcoderecognition/quadrangle具有零值
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/isempty/
 ---
 ## Quadrangle.IsEmpty property
 
-测试此[`Quadrangle`](../../quadrangle)的所有Point是否具有零值.
+测试是否所有Point这个的[`Quadrangle`](../../quadrangle)具有零值。
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 适当的价值
 
-返回 **true** 如果都是Point 这个的 [`Quadrangle`](../../quadrangle)值为零；否则， **false** 。
+退货 **真的**我摔倒Point这个的[`Quadrangle`](../../quadrangle)值为零；否则， **错误的**.
 
 ### 也可以看看
 

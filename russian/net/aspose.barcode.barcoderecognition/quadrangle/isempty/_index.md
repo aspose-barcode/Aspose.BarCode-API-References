@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Проверяет все лиPoints этогоQuadrangleaspose.barcode.barcoderecognition/quadrangleимеют нулевые значения .
+description: Проверяет все лиPoint с этогоQuadrangleaspose.barcode.barcoderecognition/quadrangle имеют нулевые значения.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/isempty/
 ---
 ## Quadrangle.IsEmpty property
 
-Проверяет, все лиPoints этого[`Quadrangle`](../../quadrangle)имеют нулевые значения .
+Проверяет, все лиPoint с этого[`Quadrangle`](../../quadrangle) имеют нулевые значения.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Стоимость имущества
 
-Возвращает **true** если всеPoints этого[`Quadrangle`](../../quadrangle)имеют нулевые значения; в противном случае **false** .
+Возвращает **истинный** я упалPoint с этого[`Quadrangle`](../../quadrangle) имеют нулевые значения; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

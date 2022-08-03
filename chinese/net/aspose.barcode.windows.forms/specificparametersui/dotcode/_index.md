@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 DotCode 参数DotCodeParametersaspose.barcode.generation/dotcodeparameters 用于点码
+description: 获取或设置 DotCode 参数DotCodeParametersaspose.barcode.generation/dotcodeparameters. 用于点码
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/dotcode/
 ---
 ## SpecificParametersUI.DotCode property
 
-获取或设置 DotCode 参数[`DotCodeParameters`](../../../aspose.barcode.generation/dotcodeparameters)。 用于点码。
+获取或设置 DotCode 参数[`DotCodeParameters`](../../../aspose.barcode.generation/dotcodeparameters). 用于点码。
 
 ```csharp
 public DotCodeParameters DotCode { get; }

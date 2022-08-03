@@ -1,14 +1,14 @@
 ---
 title: DataMatrix
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 DataMatrix 条形码符号系统 进行解码
+description: 指定数据应该被解码 数据矩阵条码符号
 type: docs
 weight: 250
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/datamatrix/
 ---
 ## DecodeType.DataMatrix field
 
-指定数据应使用 **DataMatrix** 条形码符号系统 进行解码
+指定数据应该被解码 **数据矩阵**条码符号
 
 ```csharp
 public static readonly SingleDecodeType DataMatrix;

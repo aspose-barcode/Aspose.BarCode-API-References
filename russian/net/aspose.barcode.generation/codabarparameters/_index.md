@@ -18,15 +18,15 @@ public class CodabarParameters
 
 | Имя | Описание |
 | --- | --- |
-| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode) { get; set; } | Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчанию:CodabarChecksumMode.Mod16. Для включения подсчета контрольной суммы установите значение EnableChecksum.Yes для свойства EnableChecksum. См.[`CodabarChecksumMode`](./codabarchecksummode). |
-| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol) { get; set; } | Начальный символ (персонаж) символики Codabar. Значение по умолчанию:CodabarSymbol.A |
-| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol) { get; set; } | Стоп-символ (символ) системы символов Codabar. Значение по умолчанию:CodabarSymbol.A |
+| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode) { get; set; } | Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчанию: CodabarChecksumMode.Mod16. Чтобы включить вычисление контрольной суммы, установите значение EnableChecksum.Yes для свойства EnableChecksum. См.[`CodabarChecksumMode`](./codabarchecksummode) . |
+| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol) { get; set; } | Начальный символ (символ) системы символов Codabar. Значение по умолчанию: CodabarSymbol.A |
+| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol) { get; set; } | Стоп-символ (символ) символики Codabar. Значение по умолчанию: CodabarSymbol.A |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/codabarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodabarParameters`](../codabarparameters). |
+| override [ToString](../../aspose.barcode.generation/codabarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodabarParameters`](../codabarparameters) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ItemID
 second_title: Aspose.BarCode for .NET API 参考
-description: 标识供应链 ID 中的唯一项目 每个 Mailmark 条码都需要带有一个 ID 因此它可以在至少 90 天内被唯一识别 最大值99999999
+description: 标识供应链 ID 中的唯一项目 每个 Mailmark 条码都需要携带一个 ID 因此它可以被唯一标识至少 90 天 最大值99999999.
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/itemid/
 ---
 ## Mailmark2DCodetext.ItemID property
 
-标识供应链 ID 中的唯一项目。 每个 Mailmark 条码都需要带有一个 ID ，因此它可以在至少 90 天内被唯一识别。 最大值:99999999。
+标识供应链 ID 中的唯一项目。 每个 Mailmark 条码都需要携带一个 ID ，因此它可以被唯一标识至少 90 天。 最大值：99999999.
 
 ```csharp
 public int ItemID { get; set; }

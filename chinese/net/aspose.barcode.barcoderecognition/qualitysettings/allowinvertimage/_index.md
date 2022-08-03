@@ -1,14 +1,14 @@
 ---
 title: AllowInvertImage
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎将反色图像识别为附加扫描当条形码为黑色背景上的白色时可以使用模式
+description: 允许引擎将反色图像识别为附加扫描当条码为黑底白字时可以使用模式
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowinvertimage/
 ---
 ## QualitySettings.AllowInvertImage property
 
-允许引擎将反色图像识别为附加扫描。当条形码为黑色背景上的白色时，可以使用模式。
+允许引擎将反色图像识别为附加扫描。当条码为黑底白字时可以使用模式。
 
 ```csharp
 public bool AllowInvertImage { get; set; }

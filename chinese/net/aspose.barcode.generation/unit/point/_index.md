@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Aspose.BarCode for .NET API 参考
-description: 以点为单位获取或设置大小值
+description: 获取或设置点的大小值
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.generation/unit/point/
 ---
 ## Unit.Point property
 
-以点为单位获取或设置大小值。
+获取或设置点的大小值。
 
 ```csharp
 public float Point { get; set; }

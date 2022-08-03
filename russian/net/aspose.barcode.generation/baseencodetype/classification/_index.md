@@ -1,14 +1,14 @@
 ---
 title: Classification
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает классификацию этих символов.
+description: Получает классификацию этого символа.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/baseencodetype/classification/
 ---
 ## BaseEncodeType.Classification property
 
-Получает классификацию этих символов.
+Получает классификацию этого символа.
 
 ```csharp
 public BarcodeClassifications Classification { get; }

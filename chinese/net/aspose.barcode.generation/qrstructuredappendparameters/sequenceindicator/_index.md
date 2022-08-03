@@ -1,14 +1,14 @@
 ---
 title: SequenceIndicator
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 QR 结构化附加模式条码的索引索引从 0 开始
+description: 获取或设置 QR 结构化附加模式条码的索引索引从 0. 开始
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/qrstructuredappendparameters/sequenceindicator/
 ---
 ## QrStructuredAppendParameters.SequenceIndicator property
 
-获取或设置 QR 结构化附加模式条码的索引。索引从 0 开始。
+获取或设置 QR 结构化附加模式条码的索引。索引从 0. 开始
 
 ```csharp
 public int SequenceIndicator { get; set; }

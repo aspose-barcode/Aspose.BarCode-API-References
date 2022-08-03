@@ -1,14 +1,14 @@
 ---
 title: InvalidCodeException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Исключение будет вызвано если в тексте кода содержатся недопустимые символы.
+description: Исключение будет вызвано если в кодовом тексте содержатся недопустимые символы.
 type: docs
 weight: 1000
 url: /ru/net/aspose.barcode/invalidcodeexception/
 ---
 ## InvalidCodeException class
 
-Исключение будет вызвано, если в тексте кода содержатся недопустимые символы.
+Исключение будет вызвано, если в кодовом тексте содержатся недопустимые символы.
 
 ```csharp
 public class InvalidCodeException : BarCodeException

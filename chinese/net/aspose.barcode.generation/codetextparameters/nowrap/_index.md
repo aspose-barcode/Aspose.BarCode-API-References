@@ -1,14 +1,14 @@
 ---
 title: NoWrap
 second_title: Aspose.BarCode for .NET API 参考
-description: 在文本中指定自动换行换行 默认值假
+description: 在文本中指定自动换行换行 默认值false
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.generation/codetextparameters/nowrap/
 ---
 ## CodetextParameters.NoWrap property
 
-在文本中指定自动换行（换行）。 默认值:假。
+在文本中指定自动换行（换行）。 默认值：false。
 
 ```csharp
 public bool NoWrap { get; set; }

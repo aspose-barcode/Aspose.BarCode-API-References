@@ -8,7 +8,7 @@ url: /ru/net/aspose.barcode.common/processorsettings/useonlythiscorescount/
 ---
 ## ProcessorSettings.UseOnlyThisCoresCount property
 
-Укажите количество используемых ядер. Вам нужно изменить свойство "UseAllCores" на "false".
+Укажите количество используемых ядер. Вам нужно изменить свойство «UseAllCores» на «false».
 
 ```csharp
 public int UseOnlyThisCoresCount { get; set; }

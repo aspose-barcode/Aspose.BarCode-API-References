@@ -1,14 +1,14 @@
 ---
 title: Coupon
 second_title: Aspose.BarCode for .NET API 参考
-description: 优惠券参数用于 UpcaGs1DatabarCouponUpcaGs1Code128Coupon
+description: 优惠券参数用于 UpcaGs1DatabarCouponUpcaGs1Code128Coupon.
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.generation/barcodeparameters/coupon/
 ---
 ## BarcodeParameters.Coupon property
 
-优惠券参数。用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon。
+优惠券参数。用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon.
 
 ```csharp
 public CouponParameters Coupon { get; }

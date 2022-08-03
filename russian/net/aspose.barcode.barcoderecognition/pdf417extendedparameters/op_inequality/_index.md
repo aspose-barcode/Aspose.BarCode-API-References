@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее отличается ли первое значениеPdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparametersот второго.
+description: Возвращает значение указывающее был ли первыйPdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters значение отличается от второго.
 type: docs
 weight: 140
 url: /ru/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality/
 ---
 ## Pdf417ExtendedParameters Inequality operator
 
-Возвращает значение, указывающее, отличается ли первое значение[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)от второго.
+Возвращает значение, указывающее, был ли первый[`Pdf417ExtendedParameters`](../../pdf417extendedparameters) значение отличается от второго.
 
 ```csharp
 public static bool operator !=(Pdf417ExtendedParameters first, Pdf417ExtendedParameters second)
@@ -17,11 +17,11 @@ public static bool operator !=(Pdf417ExtendedParameters first, Pdf417ExtendedPar
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | Pdf417ExtendedParameters | Первое сравниваемое значение |
-| second | Pdf417ExtendedParameters | Второе сравниваемое значение значение |
+| second | Pdf417ExtendedParameters | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет значение, отличное от второго; в противном случае **false** .
+**истинный** если первое имеет значение, отличное от второго; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

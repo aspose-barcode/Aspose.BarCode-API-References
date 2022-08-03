@@ -16,7 +16,7 @@ public BarcodeGenerator(BaseEncodeType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | BaseEncodeType | 条码符号类型。使用[`EncodeTypes`](../../encodetypes)类来设置符号系统。 |
+| type | BaseEncodeType | 条码符号类型。利用[`EncodeTypes`](../../encodetypes)类来设置符号系统。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public BarcodeGenerator(BaseEncodeType type, string codeText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | BaseEncodeType | 条码符号类型。使用[`EncodeTypes`](../../encodetypes)类来设置符号系统。 |
+| type | BaseEncodeType | 条码符号类型。利用[`EncodeTypes`](../../encodetypes)类来设置符号系统。 |
 | codeText | String | 要编码的文本。 |
 
 ### 也可以看看

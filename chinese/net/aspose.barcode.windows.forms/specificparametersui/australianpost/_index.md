@@ -1,14 +1,14 @@
 ---
 title: AustralianPost
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置澳大利亚邮政参数AustralianPostParametersaspose.barcode.generation/australianpostparameters 用于澳大利亚邮政
+description: 获取或设置澳大利亚邮政参数AustralianPostParametersaspose.barcode.generation/australianpostparameters. 用于澳大利亚邮政
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/australianpost/
 ---
 ## SpecificParametersUI.AustralianPost property
 
-获取或设置澳大利亚邮政参数[`AustralianPostParameters`](../../../aspose.barcode.generation/australianpostparameters)。 用于澳大利亚邮政。
+获取或设置澳大利亚邮政参数[`AustralianPostParameters`](../../../aspose.barcode.generation/australianpostparameters). 用于澳大利亚邮政。
 
 ```csharp
 public AustralianPostParameters AustralianPost { get; }

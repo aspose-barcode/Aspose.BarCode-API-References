@@ -1,14 +1,14 @@
 ---
 title: SSCC18
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该用 SSCC18 条码规范 解码
+description: 指定数据应该被解码 SSCC18条码规格
 type: docs
 weight: 660
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/sscc18/
 ---
 ## DecodeType.SSCC18 field
 
-指定数据应该用 **SSCC18** 条码规范 解码
+指定数据应该被解码 **SSCC18**条码规格
 
 ```csharp
 public static readonly SingleDecodeType SSCC18;

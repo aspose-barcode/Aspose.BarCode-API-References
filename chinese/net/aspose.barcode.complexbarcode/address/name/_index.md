@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置姓名可以是自然人的名字和姓氏也可以是法人的 公司名称
+description: 获取或设置姓名可以是自然人的姓名也可以是法人的 公司名称
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.complexbarcode/address/name/
 ---
 ## Address.Name property
 
-获取或设置姓名，可以是自然人的名字和姓氏，也可以是法人的 公司名称。
+获取或设置姓名，可以是自然人的姓名，也可以是法人的 公司名称。
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### 适当的价值
 
-名称。
+名字。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры AztecAztecParametersaspose.barcode.generation/aztecparameters. Используется для ацтеков.
+description: Получает или задает параметры AztecAztecParametersaspose.barcode.generation/aztecparameters . Используется для ацтеков.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/aztec/
 ---
 ## SpecificParametersUI.Aztec property
 
-Получает или устанавливает параметры Aztec[`AztecParameters`](../../../aspose.barcode.generation/aztecparameters). Используется для ацтеков.
+Получает или задает параметры Aztec[`AztecParameters`](../../../aspose.barcode.generation/aztecparameters) . Используется для ацтеков.
 
 ```csharp
 public AztecParametersUI Aztec { get; }

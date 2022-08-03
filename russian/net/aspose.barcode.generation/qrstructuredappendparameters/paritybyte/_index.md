@@ -1,14 +1,14 @@
 ---
 title: ParityByte
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает данные четности в режиме структурированного добавления QR.
+description: Получает или задает данные четности режима структурированного добавления QR.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/qrstructuredappendparameters/paritybyte/
 ---
 ## QrStructuredAppendParameters.ParityByte property
 
-Получает или задает данные четности в режиме структурированного добавления QR.
+Получает или задает данные четности режима структурированного добавления QR.
 
 ```csharp
 public byte ParityByte { get; set; }

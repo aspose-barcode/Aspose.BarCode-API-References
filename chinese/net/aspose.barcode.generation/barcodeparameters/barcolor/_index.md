@@ -1,14 +1,14 @@
 ---
 title: BarColor
 second_title: Aspose.BarCode for .NET API 参考
-description: 条形颜色 默认值Color.Black
+description: 条形颜色. 默认值Color.Black.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/barcodeparameters/barcolor/
 ---
 ## BarcodeParameters.BarColor property
 
-条形颜色。 默认值:Color.Black。
+条形颜色. 默认值：Color.Black.
 
 ```csharp
 public Color BarColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RecognitionAbortedException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый экземпляр классаRecognitionAbortedExceptionaspose.barcode.barcoderecognition/recognitionabortedexceptionс указанным сообщением о прекращении распознавания.
+description: Инициализирует новый экземплярRecognitionAbortedExceptionaspose.barcode.barcoderecognition/recognitionabortedexception класс с указанным сообщением о прекращении распознавания.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/recognitionabortedexception/recognitionabortedexception/
 ---
 ## RecognitionAbortedException() {#constructor}
 
-Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../../recognitionabortedexception)с указанным сообщением о прекращении распознавания.
+Инициализирует новый экземпляр[`RecognitionAbortedException`](../../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания.
 
 ```csharp
 public RecognitionAbortedException()
@@ -24,7 +24,7 @@ public RecognitionAbortedException()
 
 ## RecognitionAbortedException(int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../../recognitionabortedexception)с указанным сообщением о прекращении распознавания.
+Инициализирует новый экземпляр[`RecognitionAbortedException`](../../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания.
 
 ```csharp
 public RecognitionAbortedException(int executionTime)
@@ -44,7 +44,7 @@ public RecognitionAbortedException(int executionTime)
 
 ## RecognitionAbortedException(string, int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`RecognitionAbortedException`](../../recognitionabortedexception)с указанным сообщением о прекращении распознавания.
+Инициализирует новый экземпляр[`RecognitionAbortedException`](../../recognitionabortedexception) класс с указанным сообщением о прекращении распознавания.
 
 ```csharp
 public RecognitionAbortedException(string message, int executionTime)

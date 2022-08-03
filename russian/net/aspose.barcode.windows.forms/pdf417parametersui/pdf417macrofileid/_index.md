@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroFileID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417.
+description: Получает или задает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/pdf417parametersui/pdf417macrofileid/
 ---
 ## Pdf417ParametersUI.Pdf417MacroFileID property
 
-Получает или устанавливает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417.
+Получает или задает идентификатор файла штрих-кода макроса Pdf417. Используется для MacroPdf417.
 
 ```csharp
 public int Pdf417MacroFileID { get; set; }

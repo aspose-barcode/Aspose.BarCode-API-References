@@ -1,14 +1,14 @@
 ---
 title: BarCodeException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый экземпляр классаBarCodeExceptionaspose.barcode/barcodeexception.
+description: Инициализирует новый экземплярBarCodeExceptionaspose.barcode/barcodeexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode/barcodeexception/barcodeexception/
 ---
 ## BarCodeException() {#constructor}
 
-Инициализирует новый экземпляр класса[`BarCodeException`](../../barcodeexception).
+Инициализирует новый экземпляр[`BarCodeException`](../../barcodeexception) класс.
 
 ```csharp
 public BarCodeException()
@@ -24,7 +24,7 @@ public BarCodeException()
 
 ## BarCodeException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BarCodeException`](../../barcodeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`BarCodeException`](../../barcodeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public BarCodeException(string message)
@@ -44,7 +44,7 @@ public BarCodeException(string message)
 
 ## BarCodeException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`BarCodeException`](../../barcodeexception)с указанным сообщением об ошибке и текущим исключением.
+Инициализирует новый экземпляр[`BarCodeException`](../../barcodeexception) класс с указанным сообщением об ошибке и текущим исключением.
 
 ```csharp
 public BarCodeException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public BarCodeException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке исключения. |
-| innerException | Exception | Выдается текущее исключение. |
+| innerException | Exception | Выбрасывается текущее исключение. |
 
 ### Смотрите также
 

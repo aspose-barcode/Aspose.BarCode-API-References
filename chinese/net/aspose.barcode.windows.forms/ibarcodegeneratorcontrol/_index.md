@@ -1,14 +1,14 @@
 ---
 title: IBarCodeGeneratorControl
 second_title: Aspose.BarCode for .NET API 参考
-description: IBarCodeGeneratorControl for TypeConverters
+description: TypeConverters 的 IBarCodeGeneratorControl
 type: docs
 weight: 1090
 url: /zh/net/aspose.barcode.windows.forms/ibarcodegeneratorcontrol/
 ---
 ## IBarCodeGeneratorControl interface
 
-IBarCodeGeneratorControl for TypeConverters
+TypeConverters 的 IBarCodeGeneratorControl
 
 ```csharp
 public interface IBarCodeGeneratorControl
@@ -19,7 +19,7 @@ public interface IBarCodeGeneratorControl
 | 姓名 | 描述 |
 | --- | --- |
 | [EncodeType](../../aspose.barcode.windows.forms/ibarcodegeneratorcontrol/encodetype) { get; set; } | 条码的编码类型（符号）。 |
-| [RotationAngle](../../aspose.barcode.windows.forms/ibarcodegeneratorcontrol/rotationangle) { get; set; } | 条码图像旋转角度，以度为单位，例如 RotationAngle = 0 或 RotationAngle = 360 表示不旋转。 如果 RotationAngle 不等于 90、180、270 或 0，可能会增加扫描仪读取图像的难度。 |
+| [RotationAngle](../../aspose.barcode.windows.forms/ibarcodegeneratorcontrol/rotationangle) { get; set; } | BarCode 图像旋转角度，以度为单位，例如 RotationAngle = 0 或 RotationAngle = 360 表示不旋转。 如果 RotationAngle 不等于 90、180、270 或 0，可能会增加扫描仪读取图像的难度。 |
 
 ### 也可以看看
 

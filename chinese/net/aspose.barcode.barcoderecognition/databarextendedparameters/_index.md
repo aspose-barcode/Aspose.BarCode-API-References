@@ -25,15 +25,15 @@ public sealed class DataBarExtendedParameters : BaseExtendedParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/databarextendedparameters/equals)(object) | 返回一个值，该值指示此实例是否等于指定的[`DataBarExtendedParameters`](../databarextendedparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/databarextendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`DataBarExtendedParameters`](../databarextendedparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/databarextendedparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/databarextendedparameters/tostring)() | 返回此[`DataBarExtendedParameters`](../databarextendedparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_equality) | 返回一个值，指示第一个[`DataBarExtendedParameters`](../databarextendedparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_inequality) | 返回一个值，指示第一个[`DataBarExtendedParameters`](../databarextendedparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/databarextendedparameters/tostring)() | 返回一个人类可读的字符串表示[`DataBarExtendedParameters`](../databarextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_equality) | 返回一个值，指示是否第一个[`DataBarExtendedParameters`](../databarextendedparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/databarextendedparameters/op_inequality) | 返回一个值，指示是否第一个[`DataBarExtendedParameters`](../databarextendedparameters)值与第二个不同。 |
 
 ### 例子
 
-此示例显示如何获取 DataBar 附加信息
+这个示例展示了如何获取 DataBar 附加信息
 
 ```csharp
 [C#]

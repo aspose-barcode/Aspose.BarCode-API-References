@@ -1,14 +1,14 @@
 ---
 title: Specific
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Специальные параметры
+description: Особые параметры
 type: docs
 weight: 220
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/specific/
 ---
 ## BarCodeGeneratorControl.Specific property
 
-Специальные параметры
+Особые параметры
 
 ```csharp
 public SpecificParametersUI Specific { get; }

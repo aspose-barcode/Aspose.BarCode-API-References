@@ -1,14 +1,14 @@
 ---
 title: QRVersionProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: QRVersionProperty
+description: QRVersion 属性
 type: docs
 weight: 1960
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/qrversionproperty/
 ---
 ## BarcodeGeneratorElement.QRVersionProperty field
 
-QRVersionProperty
+QRVersion 属性
 
 ```csharp
 public static DependencyProperty QRVersionProperty;

@@ -10,7 +10,7 @@ url: /ru/net/aspose.barcode.complexbarcode/address/houseno/
 
 Получает или задает номер дома.
 
-Установка этого поля устанавливает тип адресаStructuredесли это уже CombinedElements, и в этом случае он становитсяConflicting.
+Установка этого поля устанавливает тип адресаStructured если это уже не CombinedElements , в этом случае становитсяConflicting .
 
 Это поле используется только для структурированных адресов и является необязательным.
 

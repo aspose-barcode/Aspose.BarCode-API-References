@@ -1,18 +1,18 @@
 ---
 title: Street
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает улицу.
+description: Получает или задает улицу.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.complexbarcode/address/street/
 ---
 ## Address.Street property
 
-Получает или устанавливает улицу.
+Получает или задает улицу.
 
 Улица должна быть указана без номера дома.
 
-Установка этого поля устанавливает тип адресаStructuredесли он уже не CombinedElements, в этом случае он становитсяConflicting.
+Установка этого поля устанавливает тип адресаStructured если это уже не CombinedElements , в этом случае становитсяConflicting .
 
 Это поле используется только для структурированных адресов и является необязательным.
 

@@ -1,14 +1,14 @@
 ---
 title: Code39Standard
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Standard CODE 39 条码规范 解码
+description: 指定数据应该被解码 标准代码 39条码规格
 type: docs
 weight: 130
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code39standard/
 ---
 ## DecodeType.Code39Standard field
 
-指定数据应使用 **Standard CODE 39** 条码规范 解码
+指定数据应该被解码 **标准代码 39**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Code39Standard;

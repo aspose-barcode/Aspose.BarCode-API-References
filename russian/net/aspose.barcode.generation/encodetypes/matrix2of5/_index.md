@@ -1,14 +1,14 @@
 ---
 title: Matrix2of5
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Представляет штрих-код матрицы 2 из 5
+description: Представляет матрицу 2 из 5 BarCode
 type: docs
 weight: 460
 url: /ru/net/aspose.barcode.generation/encodetypes/matrix2of5/
 ---
 ## EncodeTypes.Matrix2of5 field
 
-Представляет штрих-код матрицы 2 из 5
+Представляет матрицу 2 из 5 BarCode
 
 ```csharp
 public static readonly SymbologyEncodeType Matrix2of5;

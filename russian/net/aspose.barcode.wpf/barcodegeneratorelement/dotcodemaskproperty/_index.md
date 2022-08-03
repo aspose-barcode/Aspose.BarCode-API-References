@@ -1,14 +1,14 @@
 ---
 title: DotCodeMaskProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: DotCodeMaskProperty
+description: Доткодескпроперти
 type: docs
 weight: 1640
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/dotcodemaskproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeMaskProperty field
 
-DotCodeMaskProperty
+Доткодескпроперти
 
 ```csharp
 public static DependencyProperty DotCodeMaskProperty;

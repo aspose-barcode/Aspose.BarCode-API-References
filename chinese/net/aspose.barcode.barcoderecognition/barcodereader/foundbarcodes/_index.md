@@ -1,14 +1,14 @@
 ---
 title: FoundBarCodes
 second_title: Aspose.BarCode for .NET API 参考
-description: 被识别BarCodeResultaspose.barcode.barcoderecognition/barcoderesults 数组
+description: 得到认可BarCodeResultaspose.barcode.barcoderecognition/barcoderesult数组
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/
 ---
 ## BarCodeReader.FoundBarCodes property
 
-被识别[`BarCodeResult`](../../barcoderesult)s 数组
+得到认可[`BarCodeResult`](../../barcoderesult)数组
 
 ```csharp
 public BarCodeResult[] FoundBarCodes { get; }
@@ -16,7 +16,7 @@ public BarCodeResult[] FoundBarCodes { get; }
 
 ### 适当的价值
 
-被识别的[`BarCodeResult`](../../barcoderesult)s 数组
+公认的[`BarCodeResult`](../../barcoderesult)数组
 
 ### 例子
 

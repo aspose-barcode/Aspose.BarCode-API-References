@@ -1,14 +1,14 @@
 ---
 title: GetConstructedCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 为复杂条形码构造代码文本
+description: 为复杂条码构造代码文本
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext/
 ---
 ## IComplexCodetext.GetConstructedCodetext method
 
-为复杂条形码构造代码文本
+为复杂条码构造代码文本
 
 ```csharp
 public string GetConstructedCodetext()
@@ -16,7 +16,7 @@ public string GetConstructedCodetext()
 
 ### 返回值
 
-构造代码文本
+构造的代码文本
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Extended
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取识别条码扩展参数
+description: 获取识别条码的扩展参数
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/extended/
 ---
 ## BarCodeResult.Extended property
 
-获取识别条码扩展参数
+获取识别条码的扩展参数
 
 ```csharp
 public BarCodeExtendedParameters Extended { get; }

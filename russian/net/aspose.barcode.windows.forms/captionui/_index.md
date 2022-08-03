@@ -1,14 +1,14 @@
 ---
 title: CaptionUI
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Оболочка пользовательского интерфейса для классаCaptionParameters../aspose.barcode.generation/captionparameters.
+description: UI-оболочка дляCaptionParameters../aspose.barcode.generation/captionparameters класс.
 type: docs
 weight: 1060
 url: /ru/net/aspose.barcode.windows.forms/captionui/
 ---
 ## CaptionUI class
 
-Оболочка пользовательского интерфейса для класса[`CaptionParameters`](../../aspose.barcode.generation/captionparameters).
+UI-оболочка для[`CaptionParameters`](../../aspose.barcode.generation/captionparameters) класс.
 
 ```csharp
 public sealed class CaptionUI
@@ -18,18 +18,18 @@ public sealed class CaptionUI
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.barcode.windows.forms/captionui/alignment) { get; set; } | Получает или задает текст[`alignment`](../../aspose.barcode.generation/textalignment) заголовка. |
-| [Color](../../aspose.barcode.windows.forms/captionui/color) { get; set; } | Получает или задаетforecolor[`caption`](../../aspose.barcode.generation/captionparameters) . |
-| [Font](../../aspose.barcode.windows.forms/captionui/font) { get; set; } | Получает или задаетшрифтзаголовок . |
-| [Padding](../../aspose.barcode.windows.forms/captionui/padding) { get; } | Получает или устанавливает отступы заголовка[`Padding`](../../aspose.barcode.generation/padding). |
+| [Alignment](../../aspose.barcode.windows.forms/captionui/alignment) { get; set; } | Получает или задает текст[`выравнивание`](../../aspose.barcode.generation/textalignment) заголовка. |
+| [Color](../../aspose.barcode.windows.forms/captionui/color) { get; set; } | Получает или задаетпередний цвет принадлежащий[`подпись`](../../aspose.barcode.generation/captionparameters) . |
+| [Font](../../aspose.barcode.windows.forms/captionui/font) { get; set; } | Получает или задаетшрифт принадлежащийподпись . |
+| [Padding](../../aspose.barcode.windows.forms/captionui/padding) { get; } | Получает или устанавливает заполнение подписи[`Padding`](../../aspose.barcode.generation/padding) . |
 | [Text](../../aspose.barcode.windows.forms/captionui/text) { get; set; } | Получает или задает содержимое заголовка. |
-| [Visible](../../aspose.barcode.windows.forms/captionui/visible) { get; set; } | Получает или задает значение, указывающее, является ли[`caption`](../../aspose.barcode.generation/captionparameters) видимый. |
+| [Visible](../../aspose.barcode.windows.forms/captionui/visible) { get; set; } | Получает или задает значение, указывающее, является ли[`подпись`](../../aspose.barcode.generation/captionparameters)видно. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/captionui/tostring)() | Возвращает удобочитаемое строковое представление этого[`CaptionUI`](../captionui). |
+| override [ToString](../../aspose.barcode.windows.forms/captionui/tostring)() | Возвращает удобочитаемое строковое представление этого[`CaptionUI`](../captionui) . |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public bool AllowComplexBackground { get; set; }
 
 ### 适当的价值
 
-允许引擎识别彩色背景上的彩色条形码。
+允许引擎识别彩色背景上的彩色条码。
 
 ### 也可以看看
 

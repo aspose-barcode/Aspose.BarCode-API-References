@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Символьный режим ацтеков.
+description: Режим символов ацтеков.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmode/
 ---
 ## BarcodeGeneratorElement.AztecSymbolMode property
 
-Символьный режим ацтеков.
+Режим символов ацтеков.
 
 ```csharp
 public AztecSymbolMode AztecSymbolMode { get; set; }

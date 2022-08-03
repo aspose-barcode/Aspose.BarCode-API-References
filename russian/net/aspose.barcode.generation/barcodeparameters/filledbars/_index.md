@@ -1,14 +1,14 @@
 ---
 title: FilledBars
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает значение указывающее заполнены ли бары. Только для одномерных штрих-кодов. Значение по умолчаниюtrue.
+description: Получает или задает значение указывающее заполнены ли столбцы. Только для одномерных штрих-кодов. Значение по умолчанию true.
 type: docs
 weight: 160
 url: /ru/net/aspose.barcode.generation/barcodeparameters/filledbars/
 ---
 ## BarcodeParameters.FilledBars property
 
-Получает или задает значение, указывающее, заполнены ли бары. Только для одномерных штрих-кодов. Значение по умолчанию:true.
+Получает или задает значение, указывающее, заполнены ли столбцы. Только для одномерных штрих-кодов. Значение по умолчанию: true.
 
 ```csharp
 public bool FilledBars { get; set; }

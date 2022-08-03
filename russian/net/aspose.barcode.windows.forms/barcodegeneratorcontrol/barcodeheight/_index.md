@@ -1,14 +1,14 @@
 ---
 title: BarCodeHeight
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Высота изображения штрих-кода когда свойствоAutoSizeModeaspose.barcode.generation/autosizemodeустановлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+description: Высота изображения штрих-кода приAutoSizeModeaspose.barcode.generation/autosizemode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/barcodeheight/
 ---
 ## BarCodeGeneratorControl.BarCodeHeight property
 
-Высота изображения штрих-кода, когда свойство[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)установлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+Высота изображения штрих-кода при[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit BarCodeHeight { get; }

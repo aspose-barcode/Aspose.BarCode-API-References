@@ -1,14 +1,14 @@
 ---
 title: DeutschePostIdentcode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 DeutschePost Ident code 条形码规范 解码
+description: 指定数据应该被解码 德国邮政识别码条码规格
 type: docs
 weight: 260
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/deutschepostidentcode/
 ---
 ## DecodeType.DeutschePostIdentcode field
 
-指定数据应使用 **DeutschePost Ident code** 条形码规范 解码
+指定数据应该被解码 **德国邮政识别码**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DeutschePostIdentcode;

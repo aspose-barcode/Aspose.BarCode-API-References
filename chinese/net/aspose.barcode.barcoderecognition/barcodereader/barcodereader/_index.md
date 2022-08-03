@@ -1,14 +1,14 @@
 ---
 title: BarCodeReader
 second_title: Aspose.BarCode for .NET API 参考
-description: 使用默认值初始化BarCodeReaderaspose.barcode.barcoderecognition/barcodereader类的新实例 在调用 ReadBarCodes 方法之前需要设置图像 SetBitmapImage
+description: 初始化BarCodeReaderaspose.barcode.barcoderecognition/barcodereader具有默认值的类 需要在调用 ReadBarCodes 方法之前设置图像 SetBitmapImage
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader() {#constructor}
 
-使用默认值初始化[`BarCodeReader`](../../barcodereader)类的新实例。 在调用 ReadBarCodes() 方法之前需要设置图像 (SetBitmapImage())。
+初始化[`BarCodeReader`](../../barcodereader)具有默认值的类。 需要在调用 ReadBarCodes() 方法之前设置图像 (SetBitmapImage())。
 
 ```csharp
 public BarCodeReader()
@@ -51,7 +51,7 @@ End Using
 
 ## BarCodeReader(Bitmap) {#constructor_1}
 
-从图像初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)图像中的类.
 
 ```csharp
 public BarCodeReader(Bitmap image)
@@ -59,7 +59,7 @@ public BarCodeReader(Bitmap image)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Bitmap | 包含图像的位图实例 |
+| image | Bitmap | 包含图像的 Bitmap 实例 |
 
 ### 例子
 
@@ -99,7 +99,7 @@ End Using
 
 ## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
@@ -107,7 +107,7 @@ public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Bitmap | 图像。 |
+| image | Bitmap | 图片。 |
 | decodeTypes | BaseDecodeType[] | 解码类型。 |
 
 ### 例子
@@ -147,7 +147,7 @@ End Using
 
 ## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
@@ -155,12 +155,12 @@ public BarCodeReader(Bitmap image, BaseDecodeType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Bitmap | 图像。 |
+| image | Bitmap | 图片。 |
 | type | BaseDecodeType | 解码类型1。它可以是单个或多个 |
 
 ### 例子
 
-此示例显示如何检测 Code39 和 Code128 条码。
+此示例展示了如何检测 Code39 和 Code128 条码。
 
 ```csharp
 [C#]
@@ -195,7 +195,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
@@ -203,7 +203,7 @@ public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Bitmap | 图像。 |
+| image | Bitmap | 图片。 |
 | area | Rectangle | 识别区域。 |
 | decodeTypes | BaseDecodeType[] | 解码类型。 |
 
@@ -244,7 +244,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
@@ -252,7 +252,7 @@ public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Bitmap | 图像。 |
+| image | Bitmap | 图片。 |
 | area | Rectangle | 识别区域。 |
 | type | BaseDecodeType | 解码类型。 |
 
@@ -293,7 +293,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
@@ -302,7 +302,7 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] de
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | Bitmap | 要读取的图像 |
-| areas | Rectangle[] | 的数组识别区域 |
+| areas | Rectangle[] | 识别区域阵列 |
 | decodeTypes | BaseDecodeType[] | 适用于所有指定区域的解码类型。 |
 
 ### 例子
@@ -342,7 +342,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
@@ -351,7 +351,7 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | Bitmap | 要读取的图像 |
-| areas | Rectangle[] | 的数组识别区域 |
+| areas | Rectangle[] | 识别区域阵列 |
 | type | BaseDecodeType | 适用于所有指定区域的解码类型。 |
 
 ### 例子
@@ -391,7 +391,7 @@ End Using
 
 ## BarCodeReader(string) {#constructor_11}
 
-从文件中初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)文件中的类.
 
 ```csharp
 public BarCodeReader(string filename)
@@ -436,7 +436,7 @@ End Using
 
 ## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
@@ -481,7 +481,7 @@ End Using
 
 ## BarCodeReader(string, BaseDecodeType) {#constructor_12}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
@@ -526,7 +526,7 @@ End Using
 
 ## BarCodeReader(Stream) {#constructor_8}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Stream stream)
@@ -574,7 +574,7 @@ End Using
 
 ## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
@@ -622,7 +622,7 @@ End Using
 
 ## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
 
-初始化[`BarCodeReader`](../../barcodereader)类的新实例。
+初始化[`BarCodeReader`](../../barcodereader)类.
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)

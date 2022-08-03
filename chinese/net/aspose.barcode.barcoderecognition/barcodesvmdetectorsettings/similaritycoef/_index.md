@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/simila
 
 相似系数取决于条码的同质程度。
 
-对清晰的条码使用高值。 使用低值来检测部分损坏或不均匀变亮的条形码。 相似系数必须在 [0.5, 0.9] 之间
+为清晰的条形码使用高值。 使用低值检测部分损坏或不均匀变亮的条形码。 相似系数必须在 [0.5, 0.9] 之间
 
 ```csharp
 public float SimilarityCoef { get; set; }

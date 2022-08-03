@@ -1,14 +1,14 @@
 ---
 title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for .NET API 参考
-description: pdf417条码的纠错级别从0级到9级0级表示不纠错9级表示最佳纠错
+description: pdf417条码的纠错级别从0级到9级0级表示无纠错9级表示最佳纠错
 type: docs
 weight: 850
 url: /zh/net/aspose.barcode.generation/pdf417errorlevel/
 ---
 ## Pdf417ErrorLevel enumeration
 
-pdf417条码的纠错级别，从0级到9级，0级表示不纠错，9级表示最佳纠错
+pdf417条码的纠错级别，从0级到9级，0级表示无纠错，9级表示最佳纠错
 
 ```csharp
 public enum Pdf417ErrorLevel
@@ -18,15 +18,15 @@ public enum Pdf417ErrorLevel
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Level0 | `0` | 级别 = 0。 |
-| Level1 | `1` | 级别 = 1。 |
-| Level2 | `2` | 级别 = 2。 |
-| Level3 | `3` | 级别 = 3。 |
-| Level4 | `4` | 级别 = 4。 |
-| Level5 | `5` | 级别 = 5。 |
-| Level6 | `6` | 等级 = 6。 |
-| Level7 | `7` | 级别 = 7。 |
-| Level8 | `8` | 级别 = 8。 |
+| Level0 | `0` | 级别 = 0. |
+| Level1 | `1` | 级别 = 1. |
+| Level2 | `2` | 等级 = 2. |
+| Level3 | `3` | 等级 = 3. |
+| Level4 | `4` | 等级 = 4. |
+| Level5 | `5` | 等级 = 5. |
+| Level6 | `6` | 等级 = 6. |
+| Level7 | `7` | 等级 = 7. |
+| Level8 | `8` | 等级 = 8. |
 
 ### 也可以看看
 
