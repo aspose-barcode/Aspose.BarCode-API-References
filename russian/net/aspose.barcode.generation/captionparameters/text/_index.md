@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Текст заголовка. Значение по умолчаниюпустая строка.
+description: Текст подписи. Значение по умолчанию пустая строка.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/captionparameters/text/
 ---
 ## CaptionParameters.Text property
 
-Текст заголовка. Значение по умолчанию:пустая строка.
+Текст подписи. Значение по умолчанию: пустая строка.
 
 ```csharp
 public string Text { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AllEncodeTypes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные будут проверены со всеми доступными символами.
+description: Указывает что данные будут проверяться со всеми доступными символами.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/encodetypes/allencodetypes/
 ---
 ## EncodeTypes.AllEncodeTypes property
 
-Указывает, что данные будут проверены со всеми доступными символами.
+Указывает, что данные будут проверяться со всеми доступными символами.
 
 ```csharp
 public static BaseEncodeType[] AllEncodeTypes { get; }

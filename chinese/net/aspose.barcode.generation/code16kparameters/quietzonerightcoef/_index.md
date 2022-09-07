@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/code16kparameters/quietzonerightcoef/
 ---
 ## Code16KParameters.QuietZoneRightCoef property
 
-xDimension 中右侧静区的大小。 默认值:1，表示如果 xDimension = 2px，则右侧静区将为 2px。
+xDimension 中右侧静区的大小。 默认值：1，表示如果 xDimension = 2px，则右侧静区将为 2px。
 
 ```csharp
 public int QuietZoneRightCoef { get; set; }

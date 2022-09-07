@@ -1,14 +1,14 @@
 ---
 title: Types1D
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные будут проверяться со всеми символами штрих-кода 1D
+description: Указывает что данные будут проверяться со всеми 1D символы штрих-кода
 type: docs
 weight: 700
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/types1d/
 ---
 ## DecodeType.Types1D field
 
-Указывает, что данные будут проверяться со всеми символами штрих-кода **1D**
+Указывает, что данные будут проверяться со всеми **1D** символы штрих-кода
 
 ```csharp
 public static readonly MultyDecodeType Types1D;

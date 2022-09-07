@@ -1,14 +1,14 @@
 ---
 title: BarCodeImageFormat
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает формат файла изображения.
+description: Определяет формат файла изображения.
 type: docs
 weight: 470
 url: /ru/net/aspose.barcode.generation/barcodeimageformat/
 ---
 ## BarCodeImageFormat enumeration
 
-Указывает формат файла изображения.
+Определяет формат файла изображения.
 
 ```csharp
 public enum BarCodeImageFormat
@@ -19,12 +19,12 @@ public enum BarCodeImageFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Bmp | `0` | Задает формат растрового изображения (BMP). |
-| Gif | `1` | Указывает формат изображения Graphics Interchange Format (GIF). |
+| Gif | `1` | Определяет формат изображения Graphics Interchange Format (GIF). |
 | Jpeg | `2` | Определяет формат изображения Объединенной группы экспертов по фотографии (JPEG). |
 | Png | `3` | Указывает формат изображения W3C Portable Network Graphics (PNG). |
-| Tiff | `4` | Задает формат изображения Tagged Image File Format (TIFF). |
-| TiffInCmyk | `5` | Указывает формат изображения Tagged Image File Format (TIFF) в цветовой модели CMYK. (Поддерживается только на платформе Windows, на платформах *nix сохраняется как Tiff) |
-| Emf | `6` | Указывает формат изображения расширенного метафайла (EMF). (Поддерживается только на платформе Windows, на платформах *nix сохраняется как PNG) |
+| Tiff | `4` | Указывает формат изображения Tagged Image File Format (TIFF). |
+| TiffInCmyk | `5` | Задает формат изображения Tagged Image File Format (TIFF) в цветовой модели CMYK. (Поддерживается только на платформе Windows, на платформах *nix сохраняется как Tiff) |
+| Emf | `6` | Указывает формат изображения расширенного метафайла (EMF). (поддерживается только на платформе Windows, на платформах *nix сохраняется как PNG) |
 | Svg | `7` | Задает формат изображения масштабируемой векторной графики (SVG). |
 
 ### Смотрите также

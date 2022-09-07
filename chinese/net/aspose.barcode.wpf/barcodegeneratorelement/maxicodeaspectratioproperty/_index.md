@@ -1,14 +1,14 @@
 ---
 title: MaxiCodeAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: MaxiCodeAspectRatioProperty
+description: MaxiCodeAspectRatio 属性
 type: docs
 weight: 1720
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/maxicodeaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.MaxiCodeAspectRatioProperty field
 
-MaxiCodeAspectRatioProperty
+MaxiCodeAspectRatio 属性
 
 ```csharp
 public static DependencyProperty MaxiCodeAspectRatioProperty;

@@ -10,9 +10,9 @@ url: /zh/net/aspose.barcode.complexbarcode/address/street/
 
 获取或设置街道。
 
-街道必须指定没有门牌号。
+必须指定街道，没有门牌号。
 
-设置此字段会将地址类型设置为Structured除非它已经是 CombinedElements，在这种情况下它变成Conflicting。
+设置此字段会将地址类型设置为Structured除非它已经 CombinedElements , 在这种情况下它变成Conflicting.
 
 该字段仅用于结构化地址，是可选的。
 

@@ -18,15 +18,15 @@ public class ITFParameters
 
 | Имя | Описание |
 | --- | --- |
-| [ItfBorderThickness](../../aspose.barcode.generation/itfparameters/itfborderthickness) { get; set; } | Получает или задает толщину границы ITF (несущего стержня) в значении Unit. Значение по умолчанию:12pt. |
-| [ItfBorderType](../../aspose.barcode.generation/itfparameters/itfbordertype) { get; set; } | Тип границы штрих-кода ITF. Значение по умолчанию:ITF14BorderType.Bar. |
-| [QuietZoneCoef](../../aspose.barcode.generation/itfparameters/quietzonecoef) { get; set; } | Размер тихих зон в xDimension. Значение по умолчанию:10, что означает, что если xDimension = 2px, то тихие зоны будут 20px. |
+| [ItfBorderThickness](../../aspose.barcode.generation/itfparameters/itfborderthickness) { get; set; } | Получает или задает толщину границы ITF (несущего стержня) в единицах измерения. Значение по умолчанию: 12pt. |
+| [ItfBorderType](../../aspose.barcode.generation/itfparameters/itfbordertype) { get; set; } | Тип границы штрих-кода ITF. Значение по умолчанию: ITF14BorderType.Bar. |
+| [QuietZoneCoef](../../aspose.barcode.generation/itfparameters/quietzonecoef) { get; set; } | Размер тихих зон в xDimension. Значение по умолчанию: 10, что означает, что если xDimension = 2px, то тихие зоны будут 20px. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/itfparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`ITFParameters`](../itfparameters). |
+| override [ToString](../../aspose.barcode.generation/itfparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`ITFParameters`](../itfparameters) . |
 
 ### Смотрите также
 

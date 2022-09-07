@@ -1,14 +1,14 @@
 ---
 title: BarcodePaddings
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает параметры заполнения штрих-кодаPaddingaspose.barcode.generation/padding.
+description: Получает или задает параметры заполнения штрих-кодаPaddingaspose.barcode.generation/padding .
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/barcodepaddings/
 ---
 ## BarCodeGeneratorControl.BarcodePaddings property
 
-Получает или задает параметры заполнения штрих-кода[`Padding`](../../../aspose.barcode.generation/padding).
+Получает или задает параметры заполнения штрих-кода[`Padding`](../../../aspose.barcode.generation/padding) .
 
 ```csharp
 public Padding BarcodePaddings { get; }

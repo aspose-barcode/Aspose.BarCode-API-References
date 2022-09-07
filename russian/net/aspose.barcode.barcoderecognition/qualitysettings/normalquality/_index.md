@@ -1,16 +1,19 @@
 ---
 title: NormalQuality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Стандарт качества распознавания NormalQuality. Подходит для большинства штрих-кодов
+description: Предустановка качества распознавания NormalQuality. Подходит для большинства штрих-кодов
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/normalquality/
 ---
 ## QualitySettings.NormalQuality property
 
-Стандарт качества распознавания NormalQuality. Подходит для большинства штрих-кодов
+Предустановка качества распознавания NormalQuality. Подходит для большинства штрих-кодов
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.NormalQuality; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.NormalQuality;
+```
 
 ```csharp
 public static QualitySettings NormalQuality { get; }

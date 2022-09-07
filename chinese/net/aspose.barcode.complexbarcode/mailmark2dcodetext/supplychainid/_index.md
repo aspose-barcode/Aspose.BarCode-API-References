@@ -1,14 +1,14 @@
 ---
 title: SupplyChainID
 second_title: Aspose.BarCode for .NET API 参考
-description: 标识邮件中涉及的唯一客户组 最大值9999999
+description: 标识参与邮寄的唯一客户组 最大值9999999
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid/
 ---
 ## Mailmark2DCodetext.SupplyChainID property
 
-标识邮件中涉及的唯一客户组。 最大值:9999999。
+标识参与邮寄的唯一客户组。 最大值：9999999。
 
 ```csharp
 public int SupplyChainID { get; set; }

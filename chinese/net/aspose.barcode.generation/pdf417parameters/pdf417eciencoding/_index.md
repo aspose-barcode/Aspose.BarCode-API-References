@@ -1,14 +1,14 @@
 ---
 title: Pdf417ECIEncoding
 second_title: Aspose.BarCode for .NET API 参考
-description: 扩展频道解释标识符它用于告诉条形码阅读器详细信息 关于用于编码符号中数据的参考不适用于宏 PDF417 文本字段 当前实现包含所有众所周知的字符集编码
+description: 扩展频道解释标识符它用于告诉条形码阅读器 details 用于对符号中的数据进行编码的参考不适用于宏 PDF417 文本字段 当前实现包含所有众所周知的字符集编码
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417eciencoding/
 ---
 ## Pdf417Parameters.Pdf417ECIEncoding property
 
-扩展频道解释标识符。它用于告诉条形码阅读器详细信息 关于用于编码符号中数据的参考。不适用于宏 PDF417 文本字段。 当前实现包含所有众所周知的字符集编码。
+扩展频道解释标识符。它用于告诉条形码阅读器 details 用于对符号中的数据进行编码的参考。不适用于宏 PDF417 文本字段。 当前实现包含所有众所周知的字符集编码。
 
 ```csharp
 public ECIEncodings Pdf417ECIEncoding { get; set; }

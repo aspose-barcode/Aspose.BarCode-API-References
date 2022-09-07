@@ -1,14 +1,14 @@
 ---
 title: UPUCountryID
 second_title: Aspose.BarCode for .NET API 参考
-description: 标识万国邮联国家 ID最大长度4 个字符
+description: 标识 UPU 国家 ID最大长度4 个字符
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid/
 ---
 ## Mailmark2DCodetext.UPUCountryID property
 
-标识万国邮联国家 ID。最大长度:4 个字符。
+标识 UPU 国家 ID。最大长度：4 个字符。
 
 ```csharp
 public string UPUCountryID { get; set; }

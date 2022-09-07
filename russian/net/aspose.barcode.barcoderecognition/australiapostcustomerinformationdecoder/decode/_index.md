@@ -1,14 +1,14 @@
 ---
 title: Decode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Декодировать поле информации о клиенте из символики AustraliaPost. Может использоваться для различной интерпретации данных кодирования NTable и CTable. Данные предоставляются в виде строки значений бара0 1 2 или 3.
+description: Декодировать поле информации о клиенте из системы символов AustraliaPost. Может использоваться для интерпретации данных отличных от кодирования NTable и CTable. Данные предоставляются в виде строки значений столбца 0 1 2 или 3.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode/
 ---
 ## AustraliaPostCustomerInformationDecoder.Decode method
 
-Декодировать поле информации о клиенте из символики AustraliaPost. Может использоваться для различной интерпретации данных кодирования NTable и CTable. Данные предоставляются в виде строки значений бара:0, 1, 2 или 3.
+Декодировать поле информации о клиенте из системы символов AustraliaPost. Может использоваться для интерпретации данных, отличных от кодирования NTable и CTable. Данные предоставляются в виде строки значений столбца: 0, 1, 2 или 3.
 
 ```csharp
 public string Decode(string customerInformationField)
@@ -16,7 +16,7 @@ public string Decode(string customerInformationField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| customerInformationField | String | Поле информации о клиенте, закодированное в виде строки необработанных значений бара:0, 1, 2 или 3 |
+| customerInformationField | String | Поле информации о покупателе, закодированное в виде строки необработанных значений бара: 0, 1, 2 или 3. |
 
 ### Возвращаемое значение
 

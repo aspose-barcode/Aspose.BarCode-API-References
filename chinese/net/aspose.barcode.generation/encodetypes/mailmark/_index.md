@@ -1,14 +1,14 @@
 ---
 title: Mailmark
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示 Royal Mail Mailmark 条形码
+description: 代表 Royal Mail Mailmark 条形码
 type: docs
 weight: 450
 url: /zh/net/aspose.barcode.generation/encodetypes/mailmark/
 ---
 ## EncodeTypes.Mailmark field
 
-表示 Royal Mail Mailmark 条形码。
+代表 Royal Mail Mailmark 条形码。
 
 ```csharp
 public static readonly SymbologyEncodeType Mailmark;

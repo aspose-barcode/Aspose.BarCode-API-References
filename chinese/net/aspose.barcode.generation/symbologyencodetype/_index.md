@@ -1,14 +1,14 @@
 ---
 title: SymbologyEncodeType
 second_title: Aspose.BarCode for .NET API 参考
-description: 符号编码类型请参阅 EncodeTypes 以获取实例
+description: 符号编码类型请参阅 EncodeTypes 以获取 instance.
 type: docs
 weight: 960
 url: /zh/net/aspose.barcode.generation/symbologyencodetype/
 ---
 ## SymbologyEncodeType class
 
-符号编码类型。请参阅 EncodeTypes 以获取实例。
+符号编码类型。请参阅 EncodeTypes 以获取 instance.
 
 ```csharp
 public class SymbologyEncodeType : BaseEncodeType
@@ -26,15 +26,15 @@ public class SymbologyEncodeType : BaseEncodeType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals)(BaseEncodeType) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值。 |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals)(object) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值。 |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals)(BaseEncodeType) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals)(object) | 返回一个值，指示此实例是否等于指定的[`BaseEncodeType`](../baseencodetype)值. |
 | override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | 返回此实例的哈希码。 |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为:"Index:0; Name:Codabar"。 |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | 将 BaseEncodeType 的实例转换为其等效的字符串表示形式。 字符串格式为：“索引：0；名称：Codabar”。 |
 | override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | 以字符串形式返回给定 BaseEncodeType 的名称。 |
 
 ### 例子
 
-此示例展示了如何获取 SymbologyEncodeType 类的实例。
+这个示例展示了如何获取 SymbologyEncodeType 类的实例。
 
 ```csharp
 [C#]

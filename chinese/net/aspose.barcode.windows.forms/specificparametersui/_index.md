@@ -1,14 +1,14 @@
 ---
 title: SpecificParametersUI
 second_title: Aspose.BarCode for .NET API 参考
-description: 具体参数
+description: 具体参数.
 type: docs
 weight: 1120
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class
 
-具体参数。
+具体参数.
 
 ```csharp
 public class SpecificParametersUI
@@ -18,27 +18,27 @@ public class SpecificParametersUI
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AustralianPost](../../aspose.barcode.windows.forms/specificparametersui/australianpost) { get; } | 获取或设置澳大利亚邮政参数[`AustralianPostParameters`](../../aspose.barcode.generation/australianpostparameters)。 用于澳大利亚邮政。 |
-| [Aztec](../../aspose.barcode.windows.forms/specificparametersui/aztec) { get; } | 获取或设置 Aztec 参数[`AztecParameters`](../../aspose.barcode.generation/aztecparameters)。 用于阿兹特克。 |
-| [Codabar](../../aspose.barcode.windows.forms/specificparametersui/codabar) { get; } | 获取或设置 Codabar 参数[`CodabarParameters`](../../aspose.barcode.generation/codabarparameters)。 用于 Codabar。 |
-| [Codablock](../../aspose.barcode.windows.forms/specificparametersui/codablock) { get; } | 获取或设置 Codablock 参数[`CodablockParameters`](../../aspose.barcode.generation/codablockparameters)。 用于 CodablockF。 |
-| [Code16K](../../aspose.barcode.windows.forms/specificparametersui/code16k) { get; } | 获取或设置 Code16K 参数[`Code16KParameters`](../../aspose.barcode.generation/code16kparameters)。 用于 Code16K。 |
-| [Coupon](../../aspose.barcode.windows.forms/specificparametersui/coupon) { get; } | 获取或设置优惠券参数[`CouponParameters`](../../aspose.barcode.generation/couponparameters)。 用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon。 |
-| [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar) { get; } | 获取或设置 DataBar 参数[`DataBarParameters`](../../aspose.barcode.generation/databarparameters)。 用于 DataBar 符号。 |
-| [DataMatrix](../../aspose.barcode.windows.forms/specificparametersui/datamatrix) { get; } | 获取或设置 DataMatrix 参数[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters)。 用于数据矩阵。 |
-| [DotCode](../../aspose.barcode.windows.forms/specificparametersui/dotcode) { get; } | 获取或设置 DotCode 参数[`DotCodeParameters`](../../aspose.barcode.generation/dotcodeparameters)。 用于点码。 |
-| [ITF](../../aspose.barcode.windows.forms/specificparametersui/itf) { get; } | 获取或设置 ITF 参数[`ITFParameters`](../../aspose.barcode.generation/itfparameters)。 用于 ITF6、ITF14。 |
-| [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode) { get; } | 获取或设置 MaxiCode 参数[`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters)。 用于 MaxiCode。 |
-| [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417) { get; } | 获取或设置 Pdf417 参数[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters)。 用于 Pdf417。 |
-| [Postal](../../aspose.barcode.windows.forms/specificparametersui/postal) { get; } | 获取或设置邮政参数[`PostalParameters`](../../aspose.barcode.generation/postalparameters)。 用于 Postnet、Planet。 |
-| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr) { get; } | 获取或设置二维码参数[`QrParameters`](../../aspose.barcode.generation/qrparameters)。 用于二维码。 |
-| [Supplement](../../aspose.barcode.windows.forms/specificparametersui/supplement) { get; } | 获取或设置补充参数[`SupplementParameters`](../../aspose.barcode.generation/supplementparameters)。 用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN。 |
+| [AustralianPost](../../aspose.barcode.windows.forms/specificparametersui/australianpost) { get; } | 获取或设置澳大利亚邮政参数[`AustralianPostParameters`](../../aspose.barcode.generation/australianpostparameters). 用于澳大利亚邮政。 |
+| [Aztec](../../aspose.barcode.windows.forms/specificparametersui/aztec) { get; } | 获取或设置 Aztec 参数[`AztecParameters`](../../aspose.barcode.generation/aztecparameters). 用于阿兹台克人. |
+| [Codabar](../../aspose.barcode.windows.forms/specificparametersui/codabar) { get; } | 获取或设置 Codabar 参数[`CodabarParameters`](../../aspose.barcode.generation/codabarparameters). 用于 Codabar. |
+| [Codablock](../../aspose.barcode.windows.forms/specificparametersui/codablock) { get; } | 获取或设置 Codablock 参数[`CodablockParameters`](../../aspose.barcode.generation/codablockparameters). 用于 CodablockF. |
+| [Code16K](../../aspose.barcode.windows.forms/specificparametersui/code16k) { get; } | 获取或设置 Code16K 参数[`Code16KParameters`](../../aspose.barcode.generation/code16kparameters). 用于 Code16K. |
+| [Coupon](../../aspose.barcode.windows.forms/specificparametersui/coupon) { get; } | 获取或设置优惠券参数[`CouponParameters`](../../aspose.barcode.generation/couponparameters). 用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon. |
+| [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar) { get; } | 获取或设置DataBar参数[`DataBarParameters`](../../aspose.barcode.generation/databarparameters). 用于 DataBar 符号。 |
+| [DataMatrix](../../aspose.barcode.windows.forms/specificparametersui/datamatrix) { get; } | 获取或设置 DataMatrix 参数[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters). 用于 DataMatrix. |
+| [DotCode](../../aspose.barcode.windows.forms/specificparametersui/dotcode) { get; } | 获取或设置 DotCode 参数[`DotCodeParameters`](../../aspose.barcode.generation/dotcodeparameters). 用于点码。 |
+| [ITF](../../aspose.barcode.windows.forms/specificparametersui/itf) { get; } | 获取或设置 ITF 参数[`ITFParameters`](../../aspose.barcode.generation/itfparameters). 用于 ITF6、ITF14. |
+| [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode) { get; } | 获取或设置 MaxiCode 参数[`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters). 用于 MaxiCode. |
+| [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417) { get; } | 获取或设置 Pdf417 参数[`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters). 用于 Pdf417. |
+| [Postal](../../aspose.barcode.windows.forms/specificparametersui/postal) { get; } | 获取或设置邮政参数[`PostalParameters`](../../aspose.barcode.generation/postalparameters). 用于 Postnet、Planet. |
+| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr) { get; } | 获取或设置二维码参数[`QrParameters`](../../aspose.barcode.generation/qrparameters). 用于二维码。 |
+| [Supplement](../../aspose.barcode.windows.forms/specificparametersui/supplement) { get; } | 获取或设置补充参数[`SupplementParameters`](../../aspose.barcode.generation/supplementparameters). 用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/specificparametersui/tostring)() | 返回此[`SpecificParametersUI`](../specificparametersui)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.windows.forms/specificparametersui/tostring)() | 返回一个人类可读的字符串表示[`SpecificParametersUI`](../specificparametersui). |
 
 ### 也可以看看
 

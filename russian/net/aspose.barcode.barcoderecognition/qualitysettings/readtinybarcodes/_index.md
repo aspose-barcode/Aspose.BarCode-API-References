@@ -1,14 +1,14 @@
 ---
 title: ReadTinyBarcodes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Позволяет движку распознавать крошечные штрих-коды на больших изображениях. Игнорируется еслиAllowIncorrectBarcodesaspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodesимеет значение True. Значение по умолчаниюЛожь.
+description: Позволяет движку распознавать крошечные штрих-коды на больших изображениях. Игнорируется еслиAllowIncorrectBarcodesaspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes установлено значение Истина. Значение по умолчанию Ложь.
 type: docs
 weight: 250
 url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/readtinybarcodes/
 ---
 ## QualitySettings.ReadTinyBarcodes property
 
-Позволяет движку распознавать крошечные штрих-коды на больших изображениях. Игнорируется, если[`AllowIncorrectBarcodes`](../allowincorrectbarcodes)имеет значение True. Значение по умолчанию:Ложь.
+Позволяет движку распознавать крошечные штрих-коды на больших изображениях. Игнорируется, если[`AllowIncorrectBarcodes`](../allowincorrectbarcodes) установлено значение «Истина». Значение по умолчанию: Ложь.
 
 ```csharp
 public bool ReadTinyBarcodes { get; set; }

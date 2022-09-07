@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает выравнивание текста кода. Значение по умолчаниюStringAlignment.Center.
+description: Получает или задает выравнивание текста кода. Значение по умолчанию StringAlignment.Center.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.windows.forms/codetextparametersui/alignment/
 ---
 ## CodetextParametersUI.Alignment property
 
-Получает или задает выравнивание текста кода. Значение по умолчанию:StringAlignment.Center.
+Получает или задает выравнивание текста кода. Значение по умолчанию: StringAlignment.Center.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

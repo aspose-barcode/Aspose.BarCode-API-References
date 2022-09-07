@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 SwissQR 账单标准的版本
+description: 获取或设置SwissQR账单标准的版本
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/version/
 ---
 ## SwissQRBill.Version property
 
-获取或设置 SwissQR 账单标准的版本。
+获取或设置SwissQR账单标准的版本。
 
 ```csharp
 public QrBillStandardVersion Version { get; set; }
@@ -16,7 +16,7 @@ public QrBillStandardVersion Version { get; set; }
 
 ### 适当的价值
 
-SwissQR 票据标准版本。
+SwissQR 账单标准版。
 
 ### 也可以看看
 

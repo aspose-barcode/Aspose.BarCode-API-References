@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуPdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparametersзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуPdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters значение.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/equals/
 ---
 ## Pdf417ExtendedParameters.Equals method
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Pdf417ExtendedParameters`](../../pdf417extendedparameters) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

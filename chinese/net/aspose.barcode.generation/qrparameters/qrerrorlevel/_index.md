@@ -1,14 +1,14 @@
 ---
 title: QrErrorLevel
 second_title: Aspose.BarCode for .NET API 参考
-description: QR 条码的 Reed-Solomon 纠错级别 从低到高LevelLLevelMLevelQLevelH参见 QRErrorLevel
+description: QR 条码的 Reed-Solomon 纠错级别 从低到高LevelLLevelMLevelQLevelH见 QRErrorLevel.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.generation/qrparameters/qrerrorlevel/
 ---
 ## QrParameters.QrErrorLevel property
 
-QR 条码的 Reed-Solomon 纠错级别。 从低到高:LevelL、LevelM、LevelQ、LevelH。参见 QRErrorLevel。
+QR 条码的 Reed-Solomon 纠错级别。 从低到高：LevelL、LevelM、LevelQ、LevelH。见 QRErrorLevel.
 
 ```csharp
 public QRErrorLevel QrErrorLevel { get; set; }

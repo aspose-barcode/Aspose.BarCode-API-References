@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Pdf417 参数Pdf417Parametersaspose.barcode.generation/pdf417parameters 用于 Pdf417
+description: 获取或设置 Pdf417 参数Pdf417Parametersaspose.barcode.generation/pdf417parameters. 用于 Pdf417.
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/pdf417/
 ---
 ## SpecificParametersUI.Pdf417 property
 
-获取或设置 Pdf417 参数[`Pdf417Parameters`](../../../aspose.barcode.generation/pdf417parameters)。 用于 Pdf417。
+获取或设置 Pdf417 参数[`Pdf417Parameters`](../../../aspose.barcode.generation/pdf417parameters). 用于 Pdf417.
 
 ```csharp
 public Pdf417ParametersUI Pdf417 { get; }

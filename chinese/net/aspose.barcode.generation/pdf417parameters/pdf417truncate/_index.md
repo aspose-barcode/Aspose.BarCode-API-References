@@ -1,14 +1,14 @@
 ---
 title: Pdf417Truncate
 second_title: Aspose.BarCode for .NET API 参考
-description: 条形码的 Pdf417 符号类型是否被截断以减少空间 也称为 CompactPDF417在此模式下右行指示器和右停止模式被删除
+description: 条形码的 Pdf417 符号类型是否被截断以减少空间 也称为 CompactPDF417在此模式下删除了右行指示器和右停止模式
 type: docs
 weight: 190
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417truncate/
 ---
 ## Pdf417Parameters.Pdf417Truncate property
 
-条形码的 Pdf417 符号类型是否被截断（以减少空间）。 也称为 CompactPDF417。在此模式下，右行指示器和右停止模式被删除。
+条形码的 Pdf417 符号类型是否被截断（以减少空间）。 也称为 CompactPDF417。在此模式下删除了右行指示器和右停止模式。
 
 ```csharp
 public bool Pdf417Truncate { get; set; }

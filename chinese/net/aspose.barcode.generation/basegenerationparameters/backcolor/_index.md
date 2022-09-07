@@ -1,14 +1,14 @@
 ---
 title: BackColor
 second_title: Aspose.BarCode for .NET API 参考
-description: 条形码图像的背景颜色 默认值Color.White 见Color
+description: 条码图像的背景色 默认值Color.White 见Color.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/basegenerationparameters/backcolor/
 ---
 ## BaseGenerationParameters.BackColor property
 
-条形码图像的背景颜色。 默认值:Color.White。 见Color。
+条码图像的背景色。 默认值：Color.White。 见Color.
 
 ```csharp
 public Color BackColor { get; set; }

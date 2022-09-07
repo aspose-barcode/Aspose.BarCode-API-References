@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentID
 second_title: Aspose.BarCode for .NET API 参考
-description: MacroPdf417 条码的段 ID必填字段从 0 开始到 MacroSegmentsCount - 1 MicroPDF417 条码的段 ID结构化的必填字段追加模式
+description: MacroPdf417 条码的段 ID必填字段从 0 开始到 MacroSegmentsCount - 1. MicroPDF417 条码的段 ID结构化附加模式的必填字段
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417macrosegmentid/
 ---
 ## Pdf417Parameters.Pdf417MacroSegmentID property
 
-MacroPdf417 条码的段 ID（必填字段），从 0 开始，到 MacroSegmentsCount - 1。 MicroPDF417 条码的段 ID（结构化的必填字段追加模式)
+MacroPdf417 条码的段 ID（必填字段），从 0 开始，到 MacroSegmentsCount - 1. MicroPDF417 条码的段 ID（结构化附加模式的必填字段）
 
 ```csharp
 public int Pdf417MacroSegmentID { get; set; }

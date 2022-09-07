@@ -1,14 +1,14 @@
 ---
 title: Border
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置边框参数BorderParametersaspose.barcode.generation/borderparameters
+description: 获取或设置边框参数BorderParametersaspose.barcode.generation/borderparameters.
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/border/
 ---
 ## BarCodeGeneratorControl.Border property
 
-获取或设置边框参数[`BorderParameters`](../../../aspose.barcode.generation/borderparameters)。
+获取或设置边框参数[`BorderParameters`](../../../aspose.barcode.generation/borderparameters).
 
 ```csharp
 public BorderParameters Border { get; }

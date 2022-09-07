@@ -1,14 +1,14 @@
 ---
 title: UseOldBarcodeDetector
 second_title: Aspose.BarCode for .NET API 参考
-description: 切换到旧的条码检测器
+description: 切换到旧条码检测器
 type: docs
 weight: 260
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/useoldbarcodedetector/
 ---
 ## QualitySettings.UseOldBarcodeDetector property
 
-切换到旧的条码检测器。
+切换到旧条码检测器。
 
 ```csharp
 public bool UseOldBarcodeDetector { get; set; }

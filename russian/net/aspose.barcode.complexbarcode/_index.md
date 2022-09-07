@@ -1,21 +1,21 @@
 ---
 title: Aspose.BarCode.ComplexBarcode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Набор Aspose.BarCode.ComplexBarcode  содержащий общие классы для реализации сложных функций генерации штрих-кода.
+description: Aspose.BarCode.ComplexBarcode содержащие общие классы для реализации сложных функций генерации штрих-кода.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.complexbarcode/
 ---
-Набор **Aspose.BarCode.ComplexBarcode** , содержащий общие классы для реализации сложных функций генерации штрих-кода.
+**Aspose.BarCode.ComplexBarcode** содержащие общие классы для реализации сложных функций генерации штрих-кода.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [Address](./address) | Адрес кредитора или должника. |
-| [AlternativeScheme](./alternativescheme) | Инструкция по альтернативной схеме оплаты |
+| [AlternativeScheme](./alternativescheme) | Инструкции по альтернативной схеме оплаты |
 | [ComplexBarcodeGenerator](./complexbarcodegenerator) | ComplexBarcodeGenerator для генерации сложных изображений штрих-кода (например, SwissQR). |
-| [ComplexCodetextReader](./complexcodetextreader) | ComplexCodetextReader декодирует кодовый текст в заданный тип сложного штрих-кода. |
+| [ComplexCodetextReader](./complexcodetextreader) | ComplexCodetextReader декодирует кодовый текст в указанный тип сложного штрих-кода. |
 | [Mailmark2DCodetext](./mailmark2dcodetext) | Класс для кодирования и декодирования текста, встроенного в код Royal Mail 2D Mailmark. |
 | [MailmarkCodetext](./mailmarkcodetext) | Класс для кодирования и декодирования текста, встроенного в код Royal Mailmark с 4 состояниями. |
 | [SwissQRBill](./swissqrbill) | Данные счета SwissQR |

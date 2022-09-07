@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-BarCode:SymbologyType:CodeText
+Штриховой код: СимволыТип: CodeText
 
 ### Смотрите также
 

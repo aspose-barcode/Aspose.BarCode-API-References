@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 DataBar 参数DataBarParametersaspose.barcode.generation/databarparameters 用于 DataBar 符号
+description: 获取或设置DataBar参数DataBarParametersaspose.barcode.generation/databarparameters. 用于 DataBar 符号
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/databar/
 ---
 ## SpecificParametersUI.DataBar property
 
-获取或设置 DataBar 参数[`DataBarParameters`](../../../aspose.barcode.generation/databarparameters)。 用于 DataBar 符号。
+获取或设置DataBar参数[`DataBarParameters`](../../../aspose.barcode.generation/databarparameters). 用于 DataBar 符号。
 
 ```csharp
 public DataBarParameters DataBar { get; }

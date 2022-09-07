@@ -1,14 +1,14 @@
 ---
 title: UPCA
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью UPC-A спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с СКП-А спецификация штрих-кода
 type: docs
 weight: 660
 url: /ru/net/aspose.barcode.generation/encodetypes/upca/
 ---
 ## EncodeTypes.UPCA field
 
-Указывает, что данные должны быть закодированы с помощью **UPC-A** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **СКП-А** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType UPCA;

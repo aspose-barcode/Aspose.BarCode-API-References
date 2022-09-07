@@ -1,14 +1,14 @@
 ---
 title: GS1DataMatrix
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1DataMatrix 条码符号 解码
+description: 指定数据应该被解码 GS1DataMatrix条码符号
 type: docs
 weight: 340
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/
 ---
 ## DecodeType.GS1DataMatrix field
 
-指定数据应使用 **GS1DataMatrix** 条码符号 解码
+指定数据应该被解码 **GS1DataMatrix**条码符号
 
 ```csharp
 public static readonly SingleDecodeType GS1DataMatrix;

@@ -1,14 +1,14 @@
 ---
 title: Code93Standard
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Standard CODE 93 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Стандартный КОД 93 спецификация штрих-кода
 type: docs
 weight: 150
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/code93standard/
 ---
 ## DecodeType.Code93Standard field
 
-Указывает, что данные должны быть декодированы с **Standard CODE 93** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Стандартный КОД 93** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Code93Standard;

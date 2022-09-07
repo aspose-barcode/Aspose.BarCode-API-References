@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Aspose.BarCode for .NET API 参考
-description: 字幕填充 CaptionAbove 的默认值5pt 5pt 0 5pt CaptionBelow 的默认值0 5pt 5pt 5pt
+description: Captions paddings. CaptionAbove 的默认值5pt 5pt 0 5pt. CaptionBelow 的默认值0 5pt 5pt 5pt.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/captionparameters/padding/
 ---
 ## CaptionParameters.Padding property
 
-字幕填充。 CaptionAbove 的默认值:5pt 5pt 0 5pt。 CaptionBelow 的默认值:0 5pt 5pt 5pt。
+Captions paddings. CaptionAbove 的默认值：5pt 5pt 0 5pt. CaptionBelow 的默认值：0 5pt 5pt 5pt.
 
 ```csharp
 public Padding Padding { get; set; }

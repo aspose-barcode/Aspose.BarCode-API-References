@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает информацию о метаданных MacroPdf417Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparametersраспознанного штрих-кода
+description: Получает информацию о метаданных MacroPdf417.Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters распознанного штрих-кода
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/
 ---
 ## BarCodeExtendedParameters.Pdf417 property
 
-Получает информацию о метаданных MacroPdf417[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)распознанного штрих-кода
+Получает информацию о метаданных MacroPdf417.[`Pdf417ExtendedParameters`](../../pdf417extendedparameters) распознанного штрих-кода
 
 ```csharp
 public Pdf417ExtendedParameters Pdf417 { get; }
@@ -16,7 +16,7 @@ public Pdf417ExtendedParameters Pdf417 { get; }
 
 ### Стоимость имущества
 
-A Информация о метаданных MacroPdf417[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)распознанного штрих-кода
+Информация о метаданных MacroPdf417[`Pdf417ExtendedParameters`](../../pdf417extendedparameters) распознанного штрих-кода
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CodabarStartSymbol
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Начальный символ персонаж символики Codabar. Значение по умолчаниюCodabarSymbol.A
+description: Начальный символ символ системы символов Codabar. Значение по умолчанию CodabarSymbol.A
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/codabarparameters/codabarstartsymbol/
 ---
 ## CodabarParameters.CodabarStartSymbol property
 
-Начальный символ (персонаж) символики Codabar. Значение по умолчанию:CodabarSymbol.A
+Начальный символ (символ) системы символов Codabar. Значение по умолчанию: CodabarSymbol.A
 
 ```csharp
 public CodabarSymbol CodabarStartSymbol { get; set; }

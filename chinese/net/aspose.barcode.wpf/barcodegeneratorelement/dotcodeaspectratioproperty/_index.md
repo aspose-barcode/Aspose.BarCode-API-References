@@ -1,14 +1,14 @@
 ---
 title: DotCodeAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DotCodeAspectRatioProperty
+description: 点码纵横比属性
 type: docs
 weight: 1630
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeAspectRatioProperty field
 
-DotCodeAspectRatioProperty
+点码纵横比属性
 
 ```csharp
 public static DependencyProperty DotCodeAspectRatioProperty;

@@ -1,14 +1,14 @@
 ---
 title: DatabarTruncated
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с GS1 Databar усеченным спецификацией штрих-кода.
+description: Указывает что данные должны быть закодированы с Панель данных GS1 усечена Спецификация штрих-кода.
 type: docs
 weight: 210
 url: /ru/net/aspose.barcode.generation/encodetypes/databartruncated/
 ---
 ## EncodeTypes.DatabarTruncated field
 
-Указывает, что данные должны быть закодированы с **GS1 Databar усеченным** спецификацией штрих-кода.
+Указывает, что данные должны быть закодированы с **Панель данных GS1 усечена** Спецификация штрих-кода.
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarTruncated;

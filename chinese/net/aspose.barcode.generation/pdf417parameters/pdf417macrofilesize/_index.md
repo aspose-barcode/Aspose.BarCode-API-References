@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroFileSize
 second_title: Aspose.BarCode for .NET API 参考
-description: MacroPdf417 文件大小可选字段 MicroPDF417 文件大小结构化附加模式的可选字段 文件大小字段包含整个源文件的字节大小
+description: MacroPdf417 文件大小可选字段 MicroPDF417 文件大小结构化附加模式的可选字段 文件大小字段包含整个源文件的大小以字节为单位
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417macrofilesize/
 ---
 ## Pdf417Parameters.Pdf417MacroFileSize property
 
-MacroPdf417 文件大小（可选字段）。 MicroPDF417 文件大小（结构化附加模式的可选字段） 文件大小字段包含整个源文件的字节大小。
+MacroPdf417 文件大小（可选字段）。 MicroPDF417 文件大小（结构化附加模式的可选字段） 文件大小字段包含整个源文件的大小（以字节为单位）。
 
 ```csharp
 public int Pdf417MacroFileSize { get; set; }

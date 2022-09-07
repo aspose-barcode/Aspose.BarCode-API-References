@@ -1,14 +1,14 @@
 ---
 title: BarCodeException
 second_title: Aspose.BarCode for .NET API 参考
-description: 初始化BarCodeExceptionaspose.barcode/barcodeexception类的新实例
+description: 初始化BarCodeExceptionaspose.barcode/barcodeexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode/barcodeexception/barcodeexception/
 ---
 ## BarCodeException() {#constructor}
 
-初始化[`BarCodeException`](../../barcodeexception)类的新实例。
+初始化[`BarCodeException`](../../barcodeexception)类.
 
 ```csharp
 public BarCodeException()
@@ -24,7 +24,7 @@ public BarCodeException()
 
 ## BarCodeException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`BarCodeException`](../../barcodeexception)类的新实例。
+初始化[`BarCodeException`](../../barcodeexception)具有指定错误消息的类。
 
 ```csharp
 public BarCodeException(string message)
@@ -32,7 +32,7 @@ public BarCodeException(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 异常的错误信息。 |
+| message | String | 异常的错误消息。 |
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public BarCodeException(string message)
 
 ## BarCodeException(string, Exception) {#constructor_2}
 
-使用指定的错误消息和当前异常初始化[`BarCodeException`](../../barcodeexception)类的新实例。
+初始化[`BarCodeException`](../../barcodeexception)具有指定错误消息和当前异常的类。
 
 ```csharp
 public BarCodeException(string message, Exception innerException)
@@ -52,8 +52,8 @@ public BarCodeException(string message, Exception innerException)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 异常的错误信息。 |
-| innerException | Exception | 当前异常被抛出。 |
+| message | String | 异常的错误消息。 |
+| innerException | Exception | 抛出当前异常。 |
 
 ### 也可以看看
 

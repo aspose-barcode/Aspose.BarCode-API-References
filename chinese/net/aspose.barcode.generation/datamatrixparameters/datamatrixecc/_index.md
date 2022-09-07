@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEcc
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Datamatrix ECC 类型 默认值DataMatrixEccType.Ecc200
+description: 获取或设置Datamatrix ECC 类型 默认值DataMatrixEccType.Ecc200.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/datamatrixparameters/datamatrixecc/
 ---
 ## DataMatrixParameters.DataMatrixEcc property
 
-获取或设置 Datamatrix ECC 类型。 默认值:DataMatrixEccType.Ecc200。
+获取或设置Datamatrix ECC 类型。 默认值：DataMatrixEccType.Ecc200.
 
 ```csharp
 public DataMatrixEccType DataMatrixEcc { get; set; }

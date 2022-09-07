@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveFontFamily
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Заголовок над семейством шрифтов.
+description: Надпись над семейством шрифтов.
 type: docs
 weight: 170
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovefontfamily/
 ---
 ## BarcodeGeneratorElement.CaptionAboveFontFamily property
 
-Заголовок над семейством шрифтов.
+Надпись над семейством шрифтов.
 
 ```csharp
 public FontFamily CaptionAboveFontFamily { get; set; }

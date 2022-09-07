@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示第一个QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters值是否等于第二个
+description: 返回一个值指示是否第一个QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters值等于第二个
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/
 ---
 ## QRExtendedParameters Equality operator
 
-返回一个值，指示第一个[`QRExtendedParameters`](../../qrextendedparameters)值是否等于第二个。
+返回一个值，指示是否第一个[`QRExtendedParameters`](../../qrextendedparameters)值等于第二个。
 
 ```csharp
 public static bool operator ==(QRExtendedParameters first, QRExtendedParameters second)
@@ -16,12 +16,12 @@ public static bool operator ==(QRExtendedParameters first, QRExtendedParameters 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | QRExtendedParameters | 第一个比较值 |
-| second | QRExtendedParameters | 第二个比较value |
+| first | QRExtendedParameters | 第一比较值 |
+| second | QRExtendedParameters | 第二个比较值 |
 
 ### 返回值
 
-**true** 如果 first 与 second 具有相同的值；否则， **false** 。
+**真的**如果 first 与 second 具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

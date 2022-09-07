@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 字体 的 标题.
+description: 获取或设置字体的标题.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.windows.forms/captionui/font/
 ---
 ## CaptionUI.Font property
 
-获取或设置 字体 的 标题.
+获取或设置字体的标题.
 
 ```csharp
 public Font Font { get; set; }

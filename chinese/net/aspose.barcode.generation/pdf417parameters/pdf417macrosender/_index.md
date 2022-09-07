@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSender
 second_title: Aspose.BarCode for .NET API 参考
-description: MacroPdf417 条形码发件人名称可选字段 MicroPDF417 条码发送者姓名结构化附加模式的可选字段
+description: MacroPdf417 条形码发件人姓名可选字段 MicroPDF417 条形码发件人姓名结构化附加模式的可选字段
 type: docs
 weight: 170
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417macrosender/
 ---
 ## Pdf417Parameters.Pdf417MacroSender property
 
-MacroPdf417 条形码发件人名称（可选字段）。 MicroPDF417 条码发送者姓名（结构化附加模式的可选字段）
+MacroPdf417 条形码发件人姓名（可选字段）。 MicroPDF417 条形码发件人姓名（结构化附加模式的可选字段）
 
 ```csharp
 public string Pdf417MacroSender { get; set; }

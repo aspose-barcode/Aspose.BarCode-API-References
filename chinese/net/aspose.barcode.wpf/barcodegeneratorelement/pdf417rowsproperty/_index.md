@@ -1,14 +1,14 @@
 ---
 title: Pdf417RowsProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: Pdf417RowsProperty
+description: Pdf417Rows属性
 type: docs
 weight: 1870
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/pdf417rowsproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417RowsProperty field
 
-Pdf417RowsProperty
+Pdf417Rows属性
 
 ```csharp
 public static DependencyProperty Pdf417RowsProperty;

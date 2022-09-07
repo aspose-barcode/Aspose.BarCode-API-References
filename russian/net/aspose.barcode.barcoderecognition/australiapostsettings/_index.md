@@ -1,14 +1,14 @@
 ---
 title: AustraliaPostSettings
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры декодирования AustraliaPost. Содержит параметры влияющие на распознаваемые данные символики AustraliaPost.
+description: Параметры декодирования AustraliaPost. Содержит параметры влияющие на распознаваемые данные символов AustraliaPost.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/australiapostsettings/
 ---
 ## AustraliaPostSettings class
 
-Параметры декодирования AustraliaPost. Содержит параметры, влияющие на распознаваемые данные символики AustraliaPost.
+Параметры декодирования AustraliaPost. Содержит параметры, влияющие на распознаваемые данные символов AustraliaPost.
 
 ```csharp
 public sealed class AustraliaPostSettings
@@ -19,8 +19,8 @@ public sealed class AustraliaPostSettings
 | Имя | Описание |
 | --- | --- |
 | [CustomerInformationDecoder](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationdecoder) { get; set; } | Общедоступный интерфейс для декодирования поля информации о клиенте, который используется в символике AustraliaPost. |
-| [CustomerInformationInterpretingType](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype) { get; set; } | Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other. |
-| [IgnoreEndingFillingPatternsForCTable](../../aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable) { get; set; } | Флаг, который заставляет декодер AustraliaPost игнорировать последние шаблоны заполнения в поле информации о клиенте во время декодирования методом CTable. Метод кодирования CTable не имеет пробелов в таблице кодирования, а последовательность "333" шаблонов заполнения декодируется как буква "z". |
+| [CustomerInformationInterpretingType](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype) { get; set; } | Получает или задает тип интерпретации для информации о клиенте штрих-кода AustralianPost. По умолчанию используется значение CustomerInformationInterpretingType.Other. . |
+| [IgnoreEndingFillingPatternsForCTable](../../aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable) { get; set; } | Флаг, который заставляет декодер AustraliaPost игнорировать последние шаблоны заполнения в поле информации о клиенте во время декодирования как метод CTable. Метод кодирования CTable не имеет пробелов в таблице кодирования, а последовательность "333" шаблонов заполнения декодируется как буква "z". |
 
 ### Смотрите также
 

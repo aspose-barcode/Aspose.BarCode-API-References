@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Pdf417 条形码规范 进行编码
+description: 指定数据应该用 PDF417条码规格
 type: docs
 weight: 540
 url: /zh/net/aspose.barcode.generation/encodetypes/pdf417/
 ---
 ## EncodeTypes.Pdf417 field
 
-指定数据应使用 **Pdf417** 条形码规范 进行编码
+指定数据应该用 **PDF417**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Pdf417;

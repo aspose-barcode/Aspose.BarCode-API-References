@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/skipdi
 
 允许检测器跳过对角条形码的搜索。
 
-将其设置为 false 将增加检测时间，但允许找到可能会错过的对角条形码。 启用对角线搜索会导致更长的检测时间。
+将其设置为 false 将增加检测时间，但允许查找否则可能会遗漏的对角条形码。 启用对角搜索会导致更长的检测时间。
 
 ```csharp
 public bool SkipDiagonalSearch { get; set; }

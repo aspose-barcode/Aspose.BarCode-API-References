@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Aspose.BarCode for .NET API 参考
-description: 存储一组四个Point代表Quadrangle区域
+description: 存储一组四个Point 代表一个Quadrangle./quadrangle区域.
 type: docs
 weight: 240
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
 
-存储一组四个Point代表Quadrangle区域。
+存储一组四个Point 代表一个[`Quadrangle`](../quadrangle)区域.
 
 ```csharp
 public class Quadrangle : IEquatable<Quadrangle>
@@ -18,40 +18,40 @@ public class Quadrangle : IEquatable<Quadrangle>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Quadrangle](quadrangle#constructor)() | 初始化[`Quadrangle`](../quadrangle)类的新空实例。 |
-| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | 使用描述点初始化[`Quadrangle`](../quadrangle)类的新实例。 |
+| [Quadrangle](quadrangle#constructor)() | 初始化一个新的空实例[`Quadrangle`](../quadrangle)类. |
+| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | 初始化[`Quadrangle`](../quadrangle)具有描述点的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle) { get; } | 获取Rectangle边界[`Quadrangle`](../quadrangle) |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty) { get; } | 测试此[`Quadrangle`](../quadrangle)的所有Point是否具有零值. |
-| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom) { get; set; } | 获取左下角Pointof[`Quadrangle`](../quadrangle)region |
-| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop) { get; set; } | 获取左上角Pointof[`Quadrangle`](../quadrangle)region |
-| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom) { get; set; } | 获取右下角Pointof[`Quadrangle`](../quadrangle)region |
-| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop) { get; set; } | 获取右上角Pointof[`Quadrangle`](../quadrangle)region |
+| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle) { get; } | 获取Rectangle以此为界[`Quadrangle`](../quadrangle) |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty) { get; } | 测试是否所有Point这个的[`Quadrangle`](../quadrangle)具有零值。 |
+| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom) { get; set; } | 获取左下角Point的[`Quadrangle`](../quadrangle)地区 |
+| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop) { get; set; } | 获取左上角Point的[`Quadrangle`](../quadrangle)地区 |
+| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom) { get; set; } | 获取右下角Point的[`Quadrangle`](../quadrangle)地区 |
+| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop) { get; set; } | 获取右上角Point的[`Quadrangle`](../quadrangle)地区 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_2)(Point) | 确定指定的Point是否包含在此Quadrangle类。 |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains)(Quadrangle) | 确定指定的[`Quadrangle`](../quadrangle)是否包含或与此Quadrangle类。 |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_3)(Rectangle) | 确定指定的Rectangle是否包含或与此Quadrangle类。 |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_1)(int, int) | 确定指定点是否包含在此[`Quadrangle`](../quadrangle)类中。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`Quadrangle`](../quadrangle)值。 |
-| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals)(Quadrangle) | 返回一个值，指示此实例是否等于指定的[`Quadrangle`](../quadrangle)值。 |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_2)(Point) | 确定是否指定Point包含在这个[`Quadrangle`](../quadrangle)类. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains)(Quadrangle) | 确定是否指定[`Quadrangle`](../quadrangle)包含或与此相交[`Quadrangle`](../quadrangle)类. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_3)(Rectangle) | 确定是否指定Rectangle包含或与此相交[`Quadrangle`](../quadrangle)类. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_1)(int, int) | 确定指定点是否包含在此范围内[`Quadrangle`](../quadrangle)类. |
+| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals_1)(object) | 返回一个值，指示此实例是否等于指定的[`Quadrangle`](../quadrangle)值. |
+| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals)(Quadrangle) | 返回一个值，指示此实例是否等于指定的[`Quadrangle`](../quadrangle)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/quadrangle/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring)() | 返回此[`Quadrangle`](../quadrangle)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | 返回一个值，指示第一个[`Quadrangle`](../quadrangle)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | 返回一个值，指示第一个[`Quadrangle`](../quadrangle)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring)() | 返回一个人类可读的字符串表示[`Quadrangle`](../quadrangle). |
+| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | 返回一个值，指示是否第一个[`Quadrangle`](../quadrangle)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | 返回一个值，指示是否第一个[`Quadrangle`](../quadrangle)值与第二个不同。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | 表示[`Quadrangle`](../quadrangle)类，其属性未初始化。 |
+| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | 代表一个[`Quadrangle`](../quadrangle)其属性未初始化的类。 |
 
 ### 也可以看看
 

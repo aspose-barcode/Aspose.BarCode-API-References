@@ -1,14 +1,14 @@
 ---
 title: NoWrap
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите перенос слов разрывы строк в тексте. Значение по умолчаниюfalse.
+description: Укажите перенос слов разрывы строк в тексте. Значение по умолчанию false.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/codetextparameters/nowrap/
 ---
 ## CodetextParameters.NoWrap property
 
-Укажите перенос слов (разрывы строк) в тексте. Значение по умолчанию:false.
+Укажите перенос слов (разрывы строк) в тексте. Значение по умолчанию: false.
 
 ```csharp
 public bool NoWrap { get; set; }

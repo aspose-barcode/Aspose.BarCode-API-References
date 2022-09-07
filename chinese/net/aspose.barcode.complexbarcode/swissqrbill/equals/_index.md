@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 判断指定对象是否等于当前对象
+description: 确定指定对象是否等于当前对象
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/equals/
 ---
 ## Equals(object) {#equals_1}
 
-判断指定对象是否等于当前对象。
+确定指定对象是否等于当前对象。
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 与当前对象比较的对象。 |
+| obj | Object | 要与当前对象进行比较的对象。 |
 
 ### 返回值
 
-` true` 如果指定对象等于当前对象；否则，` false` 。
+`真的`如果指定对象等于当前对象；否则，`错误的`.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public bool Equals(SwissQRBill other)
 
 ### 返回值
 
-` true` 如果指定对象等于当前对象；否则，` false` 。
+`真的`如果指定对象等于当前对象；否则，`错误的`.
 
 ### 也可以看看
 

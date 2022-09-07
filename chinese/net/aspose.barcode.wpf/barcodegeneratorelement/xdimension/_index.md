@@ -1,14 +1,14 @@
 ---
 title: XDimension
 second_title: Aspose.BarCode for .NET API 参考
-description: x-dimension 是条码条或空格单位的最小宽度在 AutoSizeMode.Nearest 和 AutoSizeMode.Interpolation 模式中被忽略
+description: 维度是条码条或空格单位的最小宽度在 AutoSizeMode.Nearest 和 AutoSizeMode.Interpolation 模式中被忽略
 type: docs
 weight: 1010
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/xdimension/
 ---
 ## BarcodeGeneratorElement.XDimension property
 
-x-dimension 是条码条或空格单位的最小宽度。在 AutoSizeMode.Nearest 和 AutoSizeMode.Interpolation 模式中被忽略。
+维度是条码条或空格单位的最小宽度。在 AutoSizeMode.Nearest 和 AutoSizeMode.Interpolation 模式中被忽略。
 
 ```csharp
 public float XDimension { get; set; }

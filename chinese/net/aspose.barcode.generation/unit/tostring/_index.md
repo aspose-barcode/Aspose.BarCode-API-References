@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此Unitaspose.barcode.generation/unit的人类可读字符串表示
+description: 返回一个人类可读的字符串表示Unitaspose.barcode.generation/unit.
 type: docs
 weight: 90
 url: /zh/net/aspose.barcode.generation/unit/tostring/
 ---
 ## Unit.ToString method
 
-返回此[`Unit`](../../unit)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`Unit`](../../unit).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`Unit`](../../unit)的字符串。
+代表这个的字符串[`Unit`](../../unit).
 
 ### 也可以看看
 

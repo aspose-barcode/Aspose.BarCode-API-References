@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите отображаемое местоположение CodeText установите значение CodeLocation.None чтобы скрыть CodeText. Значение по умолчаниюCodeLocation.Below.
+description: Укажите отображаемое местоположение CodeText установите CodeLocation.None чтобы скрыть CodeText. Значение по умолчанию CodeLocation.Below.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/codetextparameters/location/
 ---
 ## CodetextParameters.Location property
 
-Укажите отображаемое местоположение CodeText, установите значение CodeLocation.None, чтобы скрыть CodeText. Значение по умолчанию:CodeLocation.Below.
+Укажите отображаемое местоположение CodeText, установите CodeLocation.None, чтобы скрыть CodeText. Значение по умолчанию: CodeLocation.Below.
 
 ```csharp
 public CodeLocation Location { get; set; }

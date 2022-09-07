@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоAztecParametersaspose.barcode.generation/aztecparameters.
+description: Возвращает удобочитаемое строковое представление этогоAztecParametersaspose.barcode.generation/aztecparameters .
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.windows.forms/aztecparametersui/tostring/
 ---
 ## AztecParametersUI.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`AztecParameters`](../../../aspose.barcode.generation/aztecparameters).
+Возвращает удобочитаемое строковое представление этого[`AztecParameters`](../../../aspose.barcode.generation/aztecparameters) .
 
 ```csharp
 public override string ToString()

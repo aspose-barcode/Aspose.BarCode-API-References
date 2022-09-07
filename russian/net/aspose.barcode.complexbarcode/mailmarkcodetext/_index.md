@@ -24,12 +24,12 @@ public sealed class MailmarkCodetext : IComplexCodetext
 
 | Имя | Описание |
 | --- | --- |
-| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class) { get; set; } | "0" - Null или Test "1" - 1C (Розница) "2" - 2C ( Retail) "3" - 3C (Retail) "4" - Premium (RetailPublishing Mail) (для возможного использования в будущем) "5" - Deferred (Retail) "6" - Air (Retail) (для возможного использования в будущем) "7" - Surface (Retail) (для возможного использования в будущем) "8" - Premium (сетевой доступ) "9" - Standard (сетевой доступ) |
-| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps) { get; set; } | ПК и DP должны соответствовать формату PAF. Строка из девяти символов, обозначающая международный "XY11" (обратите внимание на 5 пробелов в конце) или шаблон символов, обозначающий внутренний код сортировки. Внутренний код сортировки состоит из исходящего почтового индекса, входящего почтового индекса и суффикса точки доставки. |
-| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format) { get; set; } | "0" - нуль или тест "1" - буква "2" - большая буква |
+| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class) { get; set; } | «0» — Null или Test «1» — 1C (Retail) «2» — 2C (Retail) «3» — 3C (Retail) «4» — Premium (RetailPublishing Mail) (для возможного использования в будущем) "5" — Deferred (Retail) "6" — Air (Retail) (для возможного использования в будущем) "7" — Surface (Retail) (для возможного использования в будущем) "8" — Premium (сетевой доступ) "9" - Стандартный (доступ к сети) |
+| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps) { get; set; } | ПК и DP должны соответствовать формату PAF. Строка из девяти символов, обозначающая международный "XY11" (обратите внимание на 5 пробелов в конце) или шаблон символов, обозначающий внутренний код сортировки. Внутренний код сортировки состоит из исходящего почтового индекса, внутренний почтовый индекс и суффикс точки доставки. |
+| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format) { get; set; } | «0» — Null или Test «1» — Letter «2» — Large Letter |
 | [ItemID](../../aspose.barcode.complexbarcode/mailmarkcodetext/itemid) { get; set; } | Максимальное значение 99999999. |
-| [SupplychainID](../../aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid) { get; set; } | Максимальные значения:99 для штрих-кода C и 999999 для штрих-кода L. |
-| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid) { get; set; } | В настоящее время "1" - для штрих-кода Mailmark (от 0 и 2 до 9 и от A до Z запасные для использования в будущем) |
+| [SupplychainID](../../aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid) { get; set; } | Максимальные значения: 99 для штрих-кода C и 999999 для штрих-кода L. |
+| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid) { get; set; } | В настоящее время «1» - для штрих-кода Mailmark (от 0 и 2 до 9 и от A до Z запасные для использования в будущем) |
 
 ## Методы
 

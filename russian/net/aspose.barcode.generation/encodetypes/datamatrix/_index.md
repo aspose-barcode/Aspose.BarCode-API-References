@@ -1,14 +1,14 @@
 ---
 title: DataMatrix
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Символика 2D штрих-кода DataMatrix
+description: Символика 2D-штрих-кода DataMatrix
 type: docs
 weight: 230
 url: /ru/net/aspose.barcode.generation/encodetypes/datamatrix/
 ---
 ## EncodeTypes.DataMatrix field
 
-Символика 2D штрих-кода DataMatrix
+Символика 2D-штрих-кода DataMatrix
 
 ```csharp
 public static readonly SymbologyEncodeType DataMatrix;

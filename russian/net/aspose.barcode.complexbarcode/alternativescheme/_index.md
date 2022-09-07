@@ -1,14 +1,14 @@
 ---
 title: AlternativeScheme
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инструкция по альтернативной схеме оплаты
+description: Инструкции по альтернативной схеме оплаты
 type: docs
 weight: 320
 url: /ru/net/aspose.barcode.complexbarcode/alternativescheme/
 ---
 ## AlternativeScheme class
 
-Инструкция по альтернативной схеме оплаты
+Инструкции по альтернативной схеме оплаты
 
 ```csharp
 public sealed class AlternativeScheme : IEquatable<AlternativeScheme>

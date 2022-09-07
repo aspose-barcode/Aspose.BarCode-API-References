@@ -1,14 +1,14 @@
 ---
 title: GetString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый форматИндекс0 ИмяCodabar.
+description: Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки Index0 NameCodabar.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.generation/baseencodetype/getstring/
 ---
 ## GetString()
 
-Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:0; Имя:Codabar".
+Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки: "Index:0; Name:Codabar".
 
 ```csharp
 public string GetString()
@@ -16,7 +16,7 @@ public string GetString()
 
 ### Возвращаемое значение
 
-Строка, представляющая полное значение типа кодирования
+Строка, представляющая полное значение типа кодирования.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public string GetString()
 
 ## GetString(BaseEncodeType)
 
-Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:-1; Имя:Нет".
+Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки: "Индекс: -1; Имя: Нет".
 
 ```csharp
 public static string GetString(BaseEncodeType instance)

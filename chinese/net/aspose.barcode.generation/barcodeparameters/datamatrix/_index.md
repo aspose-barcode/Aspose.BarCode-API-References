@@ -1,14 +1,14 @@
 ---
 title: DataMatrix
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrix 参数
+description: 数据矩阵参数
 type: docs
 weight: 130
 url: /zh/net/aspose.barcode.generation/barcodeparameters/datamatrix/
 ---
 ## BarcodeParameters.DataMatrix property
 
-DataMatrix 参数。
+数据矩阵参数。
 
 ```csharp
 public DataMatrixParameters DataMatrix { get; }

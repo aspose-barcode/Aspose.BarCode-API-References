@@ -1,14 +1,14 @@
 ---
 title: RecognitionAbortedException
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示识别中止异常在使用 BarCodeReader 识别期间超时超过抛出
+description: 表示识别中止异常在使用 BarCodeReader 进行识别时超时超时
 type: docs
 weight: 260
 url: /zh/net/aspose.barcode.barcoderecognition/recognitionabortedexception/
 ---
 ## RecognitionAbortedException class
 
-表示识别中止异常，在使用 BarCodeReader 识别期间超时超过抛出。
+表示识别中止异常，在使用 BarCodeReader 进行识别时超时超时。
 
 ```csharp
 public class RecognitionAbortedException : BarCodeRecognitionException
@@ -18,9 +18,9 @@ public class RecognitionAbortedException : BarCodeRecognitionException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecognitionAbortedException](recognitionabortedexception#constructor)() | 使用指定的识别中止消息初始化[`RecognitionAbortedException`](../recognitionabortedexception)类的新实例。 |
-| [RecognitionAbortedException](recognitionabortedexception#constructor_1)(int) | 使用指定的识别中止消息初始化[`RecognitionAbortedException`](../recognitionabortedexception)类的新实例。 |
-| [RecognitionAbortedException](recognitionabortedexception#constructor_2)(string, int) | 使用指定的识别中止消息初始化[`RecognitionAbortedException`](../recognitionabortedexception)类的新实例。 |
+| [RecognitionAbortedException](recognitionabortedexception#constructor)() | 初始化[`RecognitionAbortedException`](../recognitionabortedexception)具有指定识别中止消息的类。 |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_1)(int) | 初始化[`RecognitionAbortedException`](../recognitionabortedexception)具有指定识别中止消息的类。 |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_2)(string, int) | 初始化[`RecognitionAbortedException`](../recognitionabortedexception)具有指定识别中止消息的类。 |
 
 ## 特性
 

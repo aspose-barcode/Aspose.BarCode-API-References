@@ -1,14 +1,14 @@
 ---
 title: CouponSupplementSpace
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Пробел между штрих-кодом и дополнением в пикселях.
+description: Расстояние между штрих-кодом и дополнением в пикселях.
 type: docs
 weight: 520
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/couponsupplementspace/
 ---
 ## BarcodeGeneratorElement.CouponSupplementSpace property
 
-Пробел между штрих-кодом и дополнением в пикселях.
+Расстояние между штрих-кодом и дополнением в пикселях.
 
 ```csharp
 public float CouponSupplementSpace { get; set; }

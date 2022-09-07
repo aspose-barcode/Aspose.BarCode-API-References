@@ -23,7 +23,7 @@ public sealed class BarcodeSvmDetectorSettings
 | static [MaxQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/maxquality) { get; } | 最大质量检测预设。 |
 | static [NormalQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/normalquality) { get; } | 正常质量检测预设。 |
 | [RegionLikelihoodThresholdPercent](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/regionlikelihoodthresholdpercent) { get; set; } | 为检测到的可能包含条形码的区域设置阈值。 |
-| [ScanWindowSizes](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes) { get; set; } | 扫描窗口大小（以像素为单位）。 |
+| [ScanWindowSizes](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes) { get; set; } | 以像素为单位的扫描窗口大小。 |
 | [SimilarityCoef](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/similaritycoef) { get; set; } | 相似系数取决于条码的同质程度。 |
 | [SkipDiagonalSearch](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/skipdiagonalsearch) { get; set; } | 允许检测器跳过对角条形码的搜索。 |
 

@@ -1,14 +1,14 @@
 ---
 title: ItfBorderThickness
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置单位值中的 ITF 边框承载条厚度 默认值12pt
+description: 以单位值获取或设置 ITF 边框承载条厚度 默认值12pt.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/itfparameters/itfborderthickness/
 ---
 ## ITFParameters.ItfBorderThickness property
 
-获取或设置单位值中的 ITF 边框（承载条）厚度。 默认值:12pt。
+以单位值获取或设置 ITF 边框（承载条）厚度。 默认值：12pt.
 
 ```csharp
 public Unit ItfBorderThickness { get; set; }

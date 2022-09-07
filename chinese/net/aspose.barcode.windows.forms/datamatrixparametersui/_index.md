@@ -1,14 +1,14 @@
 ---
 title: DataMatrixParametersUI
 second_title: Aspose.BarCode for .NET API 参考
-description: UI 包装器用于DataMatrixParameters../aspose.barcode.generation/datamatrixparameters类
+description: UI 包装器DataMatrixParameters../aspose.barcode.generation/datamatrixparameters类.
 type: docs
 weight: 1080
 url: /zh/net/aspose.barcode.windows.forms/datamatrixparametersui/
 ---
 ## DataMatrixParametersUI class
 
-UI 包装器用于[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters)类。
+UI 包装器[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters)类.
 
 ```csharp
 public class DataMatrixParametersUI
@@ -18,18 +18,18 @@ public class DataMatrixParametersUI
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.windows.forms/datamatrixparametersui/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [CodeTextEncoding](../../aspose.barcode.windows.forms/datamatrixparametersui/codetextencoding) { get; set; } | 获取或设置代码文本的编码。 |
+| [AspectRatio](../../aspose.barcode.windows.forms/datamatrixparametersui/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [CodeTextEncoding](../../aspose.barcode.windows.forms/datamatrixparametersui/codetextencoding) { get; set; } | 获取或设置codetext的编码。 |
 | [Columns](../../aspose.barcode.windows.forms/datamatrixparametersui/columns) { get; set; } | 列数。 |
-| [DataMatrixEcc](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc) { get; set; } | 获取或设置 Datamatrix ECC 类型。 默认值:DataMatrixEccType.Ecc200。 |
-| [DataMatrixEncodeMode](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixencodemode) { get; set; } | Datamatrix 条码的编码方式。 默认值:DataMatrixEncodeMode.Auto。 |
+| [DataMatrixEcc](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc) { get; set; } | 获取或设置Datamatrix ECC 类型。 默认值：DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixencodemode) { get; set; } | Datamatrix条码的编码模式。 默认值：DataMatrixEncodeMode.Auto. |
 | [Rows](../../aspose.barcode.windows.forms/datamatrixparametersui/rows) { get; set; } | 行数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/datamatrixparametersui/tostring)() | 返回此[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.windows.forms/datamatrixparametersui/tostring)() | 返回一个人类可读的字符串表示[`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters). |
 
 ### 也可以看看
 

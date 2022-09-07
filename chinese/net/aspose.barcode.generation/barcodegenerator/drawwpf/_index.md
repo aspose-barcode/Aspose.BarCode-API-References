@@ -20,7 +20,7 @@ public Size DrawWpf(DrawingContext context)
 
 ### 返回值
 
-实际图像大小
+实际图像尺寸
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Aspose.BarCode for .NET API 参考
-description: 边框破折号样式 默认值BorderDashStyle.Solid
+description: 边框虚线样式. 默认值BorderDashStyle.Solid.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/borderparameters/dashstyle/
 ---
 ## BorderParameters.DashStyle property
 
-边框破折号样式。 默认值:BorderDashStyle.Solid。
+边框虚线样式. 默认值：BorderDashStyle.Solid.
 
 ```csharp
 public BorderDashStyle DashStyle { get; set; }

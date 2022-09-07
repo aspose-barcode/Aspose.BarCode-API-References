@@ -1,14 +1,14 @@
 ---
 title: Product
 second_title: Aspose.BarCode for .NET API 参考
-description: 产品标题
+description: 产品名称
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product field
 
-产品标题。
+产品名称。
 
 ```csharp
 public static readonly string Product;

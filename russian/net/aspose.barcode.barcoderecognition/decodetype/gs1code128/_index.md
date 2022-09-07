@@ -1,14 +1,14 @@
 ---
 title: GS1Code128
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с GS1 CODE 128 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с КОД GS1 128 спецификация штрих-кода
 type: docs
 weight: 330
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/gs1code128/
 ---
 ## DecodeType.GS1Code128 field
 
-Указывает, что данные должны быть декодированы с **GS1 CODE 128** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **КОД GS1 128** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType GS1Code128;

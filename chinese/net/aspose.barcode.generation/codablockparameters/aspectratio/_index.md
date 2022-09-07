@@ -1,14 +1,14 @@
 ---
 title: AspectRatio
 second_title: Aspose.BarCode for .NET API 参考
-description: 二维条码模块的高/宽比
+description: 二维条码模块的高宽比
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/codablockparameters/aspectratio/
 ---
 ## CodablockParameters.AspectRatio property
 
-二维条码模块的高/宽比。
+二维条码模块的高宽比。
 
 ```csharp
 public float AspectRatio { get; set; }

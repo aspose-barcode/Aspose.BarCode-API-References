@@ -1,14 +1,14 @@
 ---
 title: DatabarStackedOmniDirectional
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с помощью GS1 Databar с накоплением всенаправленного спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с GS1 Databar многоплоскостной многонаправленный спецификация штрих-кода
 type: docs
 weight: 220
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/databarstackedomnidirectional/
 ---
 ## DecodeType.DatabarStackedOmniDirectional field
 
-Указывает, что данные должны быть декодированы с помощью **GS1 Databar с накоплением всенаправленного** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **GS1 Databar многоплоскостной многонаправленный** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType DatabarStackedOmniDirectional;

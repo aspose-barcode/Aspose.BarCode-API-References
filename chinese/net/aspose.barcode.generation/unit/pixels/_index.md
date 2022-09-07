@@ -1,14 +1,14 @@
 ---
 title: Pixels
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置大小值以像素为单位
+description: 获取或设置以像素为单位的大小值
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/unit/pixels/
 ---
 ## Unit.Pixels property
 
-获取或设置大小值（以像素为单位）。
+获取或设置以像素为单位的大小值。
 
 ```csharp
 public float Pixels { get; set; }

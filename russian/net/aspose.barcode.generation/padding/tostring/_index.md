@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоPaddingaspose.barcode.generation/padding.
+description: Возвращает удобочитаемое строковое представление этогоPaddingaspose.barcode.generation/padding .
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/padding/tostring/
 ---
 ## Padding.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`Padding`](../../padding).
+Возвращает удобочитаемое строковое представление этого[`Padding`](../../padding) .
 
 ```csharp
 public override string ToString()

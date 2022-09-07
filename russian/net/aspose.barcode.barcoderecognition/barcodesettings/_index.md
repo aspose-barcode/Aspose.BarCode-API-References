@@ -19,9 +19,9 @@ public sealed class BarcodeSettings
 | Имя | Описание |
 | --- | --- |
 | [AustraliaPost](../../aspose.barcode.barcoderecognition/barcodesettings/australiapost) { get; } | Получает параметры декодирования AustraliaPost |
-| [ChecksumValidation](../../aspose.barcode.barcoderecognition/barcodesettings/checksumvalidation) { get; set; } | Включить проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов. |
-| [DetectEncoding](../../aspose.barcode.barcoderecognition/barcodesettings/detectencoding) { get; set; } | Флаг, который заставляет движок определять кодировку кодового текста для наборов кодировок Unicode. Значение по умолчанию — истина. |
-| [StripFNC](../../aspose.barcode.barcoderecognition/barcodesettings/stripfnc) { get; set; } | Удаление символов FNC1, FNC2, FNC3 из кодового текста. Значение по умолчанию — ложь. |
+| [ChecksumValidation](../../aspose.barcode.barcoderecognition/barcodesettings/checksumvalidation) { get; set; } | Включите проверку контрольной суммы при распознавании одномерных и почтовых штрих-кодов. |
+| [DetectEncoding](../../aspose.barcode.barcoderecognition/barcodesettings/detectencoding) { get; set; } | Флаг, который заставляет движок определять кодировку кодового текста для кодовых наборов Unicode. Значение по умолчанию — true. |
+| [StripFNC](../../aspose.barcode.barcoderecognition/barcodesettings/stripfnc) { get; set; } | Удаление символов FNC1, FNC2, FNC3 из кодового текста. Значение по умолчанию — false. |
 
 ### Смотрите также
 

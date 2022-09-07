@@ -1,14 +1,14 @@
 ---
 title: BarHeight
 second_title: Aspose.BarCode for .NET API 参考
-description: Unitaspose.barcode.generation/unit值中一维条码条的高度 如果AutoSizeMode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation则忽略
+description: 一维条码条的高度Unitaspose.barcode.generation/unitvalue. 忽略如果AutoSizeMode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/barcodeparameters/barheight/
 ---
 ## BarcodeParameters.BarHeight property
 
-[`Unit`](../../unit)值中一维条码条的高度。 如果AutoSizeMode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation，则忽略。
+一维条码条的高度[`Unit`](../../unit)value. 忽略如果AutoSizeMode属性设置为 AutoSizeMode.Nearest 或 AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit BarHeight { get; set; }

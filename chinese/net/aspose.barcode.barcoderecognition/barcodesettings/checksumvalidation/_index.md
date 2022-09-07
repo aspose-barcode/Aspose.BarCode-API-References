@@ -10,13 +10,13 @@ url: /zh/net/aspose.barcode.barcoderecognition/barcodesettings/checksumvalidatio
 
 在识别一维和邮政条码期间启用校验和验证。
 
-对于必须包含校验和的符号，默认被视为是，在只有校验和可能的情况下被视为否。
+对于必须包含校验和的符号，默认被视为是，在仅可能校验和的情况下被视为否。
 
-从未使用过校验和:Codabar、PatchCode、Pharmacode、DataLogic2of5
+从未使用过校验和：Codabar、PatchCode、Pharmacode、DataLogic2of5
 
-校验和是可能的:Code39 标准/ Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN
+可以使用校验和：Code39 Standard/Extended、Standard2of5、Interleaved2of5、ItalianPost25、Matrix2of5、MSI、ItalianPost25、DeutschePostIdentcode、DeutschePostLeitcode、VIN
 
-始终使用校验和:其余符号
+始终使用校验和：其余符号
 
 ```csharp
 public ChecksumValidation ChecksumValidation { get; set; }
@@ -38,7 +38,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN13, "123
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-      //校验和 disabled
+    //校验和禁用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -49,7 +49,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.EAN13))
 {
-      //校验和启用
+    //校验和启用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -63,7 +63,7 @@ Using generator As New BarcodeGenerator(EncodeTypes.EAN13, "1234567890128")
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    ' 校验和禁用
+    '校验和禁用
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.Off
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -72,7 +72,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
-    ' 启用校验和
+    '启用校验和
     reader.BarcodeSettings.ChecksumValidation = ChecksumValidation.On
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

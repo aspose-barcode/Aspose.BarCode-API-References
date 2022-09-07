@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此CodabarParametersaspose.barcode.generation/codabarparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示CodabarParametersaspose.barcode.generation/codabarparameters.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/codabarparameters/tostring/
 ---
 ## CodabarParameters.ToString method
 
-返回此[`CodabarParameters`](../../codabarparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`CodabarParameters`](../../codabarparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`CodabarParameters`](../../codabarparameters)的字符串。
+代表这个的字符串[`CodabarParameters`](../../codabarparameters).
 
 ### 也可以看看
 

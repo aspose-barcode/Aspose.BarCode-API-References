@@ -1,14 +1,14 @@
 ---
 title: DatabarOmniDirectional
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应解码为 GS1 Databar 全向 条码规范
+description: 指定数据应该被解码 GS1 Databar 全向条码规格
 type: docs
 weight: 200
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databaromnidirectional/
 ---
 ## DecodeType.DatabarOmniDirectional field
 
-指定数据应解码为 **GS1 Databar 全向** 条码规范
+指定数据应该被解码 **GS1 Databar 全向**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarOmniDirectional;

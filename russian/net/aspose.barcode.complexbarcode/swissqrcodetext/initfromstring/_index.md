@@ -1,14 +1,14 @@
 ---
 title: InitFromString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует Bill построенным кодовым текстом.
+description: Инициализирует Bill с построенным кодовым текстом.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.complexbarcode/swissqrcodetext/initfromstring/
 ---
 ## SwissQRCodetext.InitFromString method
 
-Инициализирует Bill построенным кодовым текстом.
+Инициализирует Bill с построенным кодовым текстом.
 
 ```csharp
 public void InitFromString(string constructedCodetext)

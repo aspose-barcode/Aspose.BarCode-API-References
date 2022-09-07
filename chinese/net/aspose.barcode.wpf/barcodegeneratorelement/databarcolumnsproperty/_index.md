@@ -1,14 +1,14 @@
 ---
 title: DataBarColumnsProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataBarColumnsProperty
+description: DataBarColumns 属性
 type: docs
 weight: 1550
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/databarcolumnsproperty/
 ---
 ## BarcodeGeneratorElement.DataBarColumnsProperty field
 
-DataBarColumnsProperty
+DataBarColumns 属性
 
 ```csharp
 public static DependencyProperty DataBarColumnsProperty;

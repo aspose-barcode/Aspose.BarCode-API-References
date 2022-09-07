@@ -1,14 +1,14 @@
 ---
 title: ItfBorderType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип границы штрих-кода ITF. Значение по умолчаниюITF14BorderType.Bar.
+description: Тип границы штрих-кода ITF. Значение по умолчанию ITF14BorderType.Bar.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/itfparameters/itfbordertype/
 ---
 ## ITFParameters.ItfBorderType property
 
-Тип границы штрих-кода ITF. Значение по умолчанию:ITF14BorderType.Bar.
+Тип границы штрих-кода ITF. Значение по умолчанию: ITF14BorderType.Bar.
 
 ```csharp
 public ITF14BorderType ItfBorderType { get; set; }

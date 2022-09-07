@@ -18,9 +18,9 @@ public class BarCodeException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [BarCodeException](barcodeexception#constructor)() | Инициализирует новый экземпляр класса[`BarCodeException`](../barcodeexception). |
-| [BarCodeException](barcodeexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`BarCodeException`](../barcodeexception)с указанным сообщением об ошибке. |
-| [BarCodeException](barcodeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`BarCodeException`](../barcodeexception)с указанным сообщением об ошибке и текущим исключением. |
+| [BarCodeException](barcodeexception#constructor)() | Инициализирует новый экземпляр[`BarCodeException`](../barcodeexception) класс. |
+| [BarCodeException](barcodeexception#constructor_1)(string) | Инициализирует новый экземпляр[`BarCodeException`](../barcodeexception) класс с указанным сообщением об ошибке. |
+| [BarCodeException](barcodeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`BarCodeException`](../barcodeexception) класс с указанным сообщением об ошибке и текущим исключением. |
 
 ### Смотрите также
 

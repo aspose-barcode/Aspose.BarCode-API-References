@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveText
 second_title: Aspose.BarCode for .NET API 参考
-description: 说明文字
+description: 字幕文字
 type: docs
 weight: 210
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovetext/
 ---
 ## BarcodeGeneratorElement.CaptionAboveText property
 
-说明文字。
+字幕文字。
 
 ```csharp
 public string CaptionAboveText { get; set; }

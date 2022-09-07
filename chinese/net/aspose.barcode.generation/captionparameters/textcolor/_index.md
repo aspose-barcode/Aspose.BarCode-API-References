@@ -1,14 +1,14 @@
 ---
 title: TextColor
 second_title: Aspose.BarCode for .NET API 参考
-description: 字幕文本颜色 默认值Color.Black
+description: 说明文字颜色. 默认值Color.Black.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.generation/captionparameters/textcolor/
 ---
 ## CaptionParameters.TextColor property
 
-字幕文本颜色。 默认值:Color.Black。
+说明文字颜色. 默认值：Color.Black.
 
 ```csharp
 public Color TextColor { get; set; }

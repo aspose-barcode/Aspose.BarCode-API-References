@@ -1,14 +1,14 @@
 ---
 title: BoundingRectangle
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取Rectangle边界Quadrangleaspose.barcode.barcoderecognition/quadrangle
+description: 获取Rectangle以此为界Quadrangleaspose.barcode.barcoderecognition/quadrangle
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/boundingrectangle/
 ---
 ## Quadrangle.BoundingRectangle property
 
-获取Rectangle边界[`Quadrangle`](../../quadrangle)
+获取Rectangle以此为界[`Quadrangle`](../../quadrangle)
 
 ```csharp
 public Rectangle BoundingRectangle { get; }
@@ -16,7 +16,7 @@ public Rectangle BoundingRectangle { get; }
 
 ### 适当的价值
 
-返回Rectangle包围此[`Quadrangle`](../../quadrangle)
+退货Rectangle以此为界[`Quadrangle`](../../quadrangle)
 
 ### 也可以看看
 

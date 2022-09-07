@@ -1,14 +1,14 @@
 ---
 title: Pdf417AspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: Pdf417AspectRatioProperty
+description: Pdf417纵横比属性
 type: docs
 weight: 1770
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/pdf417aspectratioproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417AspectRatioProperty field
 
-Pdf417AspectRatioProperty
+Pdf417纵横比属性
 
 ```csharp
 public static DependencyProperty Pdf417AspectRatioProperty;

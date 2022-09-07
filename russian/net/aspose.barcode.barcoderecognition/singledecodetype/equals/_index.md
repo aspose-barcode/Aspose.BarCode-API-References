@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанномуSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetypeзначению.
+description: Возвращает значение указывающее равен ли этот экземпляр заданномуSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype значение.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.barcoderecognition/singledecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../../singledecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../../singledecodetype) значение.
 
 ```csharp
 public override bool Equals(SingleDecodeType other)
@@ -16,11 +16,11 @@ public override bool Equals(SingleDecodeType other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | SingleDecodeType | Значение[`SingleDecodeType`](../../singledecodetype)для сравнения с этим экземпляром. |
+| other | SingleDecodeType | Ан[`SingleDecodeType`](../../singledecodetype) значение для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -32,7 +32,7 @@ public override bool Equals(SingleDecodeType other)
 
 ## Equals(object) {#equals_3}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../../singledecodetype)значению.
+Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../../singledecodetype) значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-**true** , если obj имеет то же значение, что и этот экземпляр; в противном случае **false** .
+**истинный** если obj имеет то же значение, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

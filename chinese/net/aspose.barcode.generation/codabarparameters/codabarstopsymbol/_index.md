@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/codabarparameters/codabarstopsymbol/
 ---
 ## CodabarParameters.CodabarStopSymbol property
 
-Codabar 符号系统的停止符号（字符）。 默认值:CodabarSymbol.A
+Codabar 符号系统的停止符号（字符）。 默认值：CodabarSymbol.A
 
 ```csharp
 public CodabarSymbol CodabarStopSymbol { get; set; }

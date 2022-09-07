@@ -1,14 +1,14 @@
 ---
 title: SwissQRCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 创建 SwissQRCodetext 的实例
+description: 创建一个 SwissQRCodetext. 的实例
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.complexbarcode/swissqrcodetext/swissqrcodetext/
 ---
 ## SwissQRCodetext(SwissQRBill) {#constructor_1}
 
-创建 SwissQRCodetext 的实例。
+创建一个 SwissQRCodetext. 的实例
 
 ```csharp
 public SwissQRCodetext(SwissQRBill bill)
@@ -29,7 +29,7 @@ public SwissQRCodetext(SwissQRBill bill)
 
 ## SwissQRCodetext() {#constructor}
 
-创建 SwissQRCodetext 的实例。
+创建一个 SwissQRCodetext. 的实例
 
 ```csharp
 public SwissQRCodetext()

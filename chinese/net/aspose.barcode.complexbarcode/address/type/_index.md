@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/address/type/
 
 获取地址类型。
 
-地址类型通过设置街道/门牌号 或地址行 1 和 2 自动设置。设置字段，地址类型为 Undetermined 。 如果设置了两种类型的字段，则地址类型变为 冲突 。
+地址类型是通过设置街道/门牌号 或地址行 1 和 2 自动设置的。在设置字段之前，地址类型为未定. 如果设置了两种类型的字段，地址类型变为冲突的.
 
 ```csharp
 public AddressType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: Mailmark
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы со спецификацией штрих-кода Royal Mail Mailmark .
+description: Указывает что данные должны быть декодированы с Почтовый знак Королевской почты Спецификация штрих-кода.
 type: docs
 weight: 450
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/mailmark/
 ---
 ## DecodeType.Mailmark field
 
-Указывает, что данные должны быть декодированы со спецификацией штрих-кода **Royal Mail Mailmark** .
+Указывает, что данные должны быть декодированы с **Почтовый знак Королевской почты** Спецификация штрих-кода.
 
 ```csharp
 public static readonly SingleDecodeType Mailmark;

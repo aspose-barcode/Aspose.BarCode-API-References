@@ -1,14 +1,14 @@
 ---
 title: Code128
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 CODE 128 条码规范 编码
+description: 指定数据应该用 代码 128条码规格
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.generation/encodetypes/code128/
 ---
 ## EncodeTypes.Code128 field
 
-指定数据应使用 **CODE 128** 条码规范 编码
+指定数据应该用 **代码 128**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Code128;

@@ -1,14 +1,14 @@
 ---
 title: BorderWidthProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: BorderWidthProperty
+description: BorderWidth 属性
 type: docs
 weight: 1160
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/borderwidthproperty/
 ---
 ## BarcodeGeneratorElement.BorderWidthProperty field
 
-BorderWidthProperty
+BorderWidth 属性
 
 ```csharp
 public static DependencyProperty BorderWidthProperty;

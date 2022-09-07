@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Задает режим символов Aztec.
+description: Определяет режим символа Aztec.
 type: docs
 weight: 460
 url: /ru/net/aspose.barcode.generation/aztecsymbolmode/
 ---
 ## AztecSymbolMode enumeration
 
-Задает режим символов Aztec.
+Определяет режим символа Aztec.
 
 ```csharp
 public enum AztecSymbolMode
@@ -19,8 +19,8 @@ public enum AztecSymbolMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Auto | `0` | Указывает на автоматический выбор лучшего символа (компактного или полнодиапазонного) для Aztec. Это значение по умолчанию. |
-| Compact | `1` | Задает компактный символ для Aztec. Символ Aztec Compact допускает только 1, 2, 3 или 4 слоя. |
-| FullRange | `2` | Задает символ полного диапазона для Aztec. Полнодиапазонный символ Aztec позволяет использовать от 1 до 32 слоев. |
+| Compact | `1` | Задает символ Compact для Aztec. Символ Aztec Compact допускает только 1, 2, 3 или 4 слоя. |
+| FullRange | `2` | Задает символ полного диапазона для Aztec. Символ полного диапазона Aztec допускает от 1 до 32 слоев. |
 | Rune | `3` | Определяет символ руны для ацтеков. Ацтекские руны представляют собой серию небольших, но четких машиночитаемых знаков. Он допускает только числовое значение от 0 до 255. |
 
 ### Примеры

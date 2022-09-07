@@ -16,8 +16,8 @@ public override void GetObjectData(SerializationInfo info, StreamingContext cont
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| info | SerializationInfo | Содержит сериализованные данные объекта о сгенерированном исключении. |
-| context | StreamingContext | Содержит контекстную информацию об источнике или получателе. |
+| info | SerializationInfo | Содержит сериализованные данные объекта о выбрасываемом исключении. |
+| context | StreamingContext | Содержит контекстную информацию об источнике или назначении. |
 
 ### Смотрите также
 

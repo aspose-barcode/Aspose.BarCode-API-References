@@ -1,14 +1,14 @@
 ---
 title: CodeTextParametersTwoDDisplayText
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Текст который будет отображаться вместо кодового текста в 2D штрих-кодах.
+description: Текст который будет отображаться вместо кодового текста в 2D-штрих-кодах.
 type: docs
 weight: 510
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextparameterstwoddisplaytext/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersTwoDDisplayText property
 
-Текст, который будет отображаться вместо кодового текста в 2D штрих-кодах.
+Текст, который будет отображаться вместо кодового текста в 2D-штрих-кодах.
 
 ```csharp
 public string CodeTextParametersTwoDDisplayText { get; set; }

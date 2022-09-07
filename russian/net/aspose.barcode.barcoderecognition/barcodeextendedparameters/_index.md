@@ -18,21 +18,21 @@ public sealed class BarCodeExtendedParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128) { get; } | Получает специальные данные[`Code128ExtendedParameters`](../code128extendedparameters)распознанного Code128 штрих-кода |
-| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar) { get; } | Получает дополнительную информацию DataBar[`DataBarExtendedParameters`](../databarextendedparameters)распознанного штрих-кода |
-| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned) { get; } | Получает специальные данные[`OneDExtendedParameters`](../onedextendedparameters)1D распознанного штрих-кода |
-| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417) { get; } | Получает информацию о метаданных MacroPdf417[`Pdf417ExtendedParameters`](../pdf417extendedparameters)распознанного штрих-кода |
-| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr) { get; } | Получает информацию о структурированном дополнении QR[`QRExtendedParameters`](../qrextendedparameters)распознанного штрих-кода |
+| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128) { get; } | Получает специальные данные[`Code128ExtendedParameters`](../code128extendedparameters) распознанного штрих-кода Code128 |
+| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar) { get; } | Получает дополнительную информацию DataBar[`DataBarExtendedParameters`](../databarextendedparameters) распознанного штрих-кода |
+| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned) { get; } | Получает специальные данные[`OneDExtendedParameters`](../onedextendedparameters) 1D распознанного штрих-кода |
+| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417) { get; } | Получает информацию о метаданных MacroPdf417.[`Pdf417ExtendedParameters`](../pdf417extendedparameters) распознанного штрих-кода |
+| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr) { get; } | Получает информацию о структурированном дополнении QR[`QRExtendedParameters`](../qrextendedparameters) распознанного штрих-кода |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeExtendedParameters`](../barcodeextendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeExtendedParameters`](../barcodeextendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeExtendedParameters`](../barcodeextendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`BarCodeExtendedParameters`](../barcodeextendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`BarCodeExtendedParameters`](../barcodeextendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeExtendedParameters`](../barcodeextendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`BarCodeExtendedParameters`](../barcodeextendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`BarCodeExtendedParameters`](../barcodeextendedparameters) значение отличается от второго. |
 
 ### Смотрите также
 

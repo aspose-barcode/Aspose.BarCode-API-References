@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此AustralianPostParametersaspose.barcode.generation/australianpostparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示AustralianPostParametersaspose.barcode.generation/australianpostparameters.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/australianpostparameters/tostring/
 ---
 ## AustralianPostParameters.ToString method
 
-返回此[`AustralianPostParameters`](../../australianpostparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`AustralianPostParameters`](../../australianpostparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`AustralianPostParameters`](../../australianpostparameters)的字符串。
+代表这个的字符串[`AustralianPostParameters`](../../australianpostparameters).
 
 ### 也可以看看
 

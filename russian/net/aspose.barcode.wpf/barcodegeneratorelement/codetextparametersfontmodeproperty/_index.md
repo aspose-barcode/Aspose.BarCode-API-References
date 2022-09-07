@@ -1,14 +1,14 @@
 ---
 title: CodeTextParametersFontModeProperty
 second_title: Справочник по API Aspose.BarCode для .NET
-description: CodeTextParametersFontModeProperty
+description: Кодтекстпараметерсфонтмодепроперти
 type: docs
 weight: 1470
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersfontmodeproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersFontModeProperty field
 
-CodeTextParametersFontModeProperty
+Кодтекстпараметерсфонтмодепроперти
 
 ```csharp
 public static DependencyProperty CodeTextParametersFontModeProperty;

@@ -1,14 +1,14 @@
 ---
 title: Pdf417CompactionMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчаниюPdf417CompactionMode.Auto.
+description: Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчанию Pdf417CompactionMode.Auto.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417compactionmode/
 ---
 ## Pdf417Parameters.Pdf417CompactionMode property
 
-Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчанию:Pdf417CompactionMode.Auto.
+Тип символики Pdf417 режима уплотнения штрих-кода. Значение по умолчанию: Pdf417CompactionMode.Auto.
 
 ```csharp
 public Pdf417CompactionMode Pdf417CompactionMode { get; set; }

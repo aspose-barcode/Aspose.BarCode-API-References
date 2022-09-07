@@ -25,16 +25,16 @@ public sealed class Mailmark2DCodetext : IComplexCodetext
 | Имя | Описание |
 | --- | --- |
 | [Class](../../aspose.barcode.complexbarcode/mailmark2dcodetext/class) { get; set; } | Идентифицирует класс предмета. |
-| [CustomerContent](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontent) { get; set; } | Дополнительное пространство для использования заказчиком. |
-| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode) { get; set; } | Режим кодирования штрих-кода Datamatrix. Значение по умолчанию:DataMatrixEncodeMode.C40. |
+| [CustomerContent](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontent) { get; set; } | Дополнительное пространство для использования клиентом. |
+| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode) { get; set; } | Режим кодирования штрих-кода Datamatrix. Значение по умолчанию: DataMatrixEncodeMode.C40. |
 | [DataMatrixType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/datamatrixtype) { get; set; } | 2D Mailmark Type определяет размер штрих-кода Data Matrix. |
-| [DestinationPostCodeAndDPS](../../aspose.barcode.complexbarcode/mailmark2dcodetext/destinationpostcodeanddps) { get; set; } | Содержит почтовый индекс адреса доставки с DPS Если внутри страны, почтовый индекс/DP содержит следующее количество символов. Область (1 или 2 символа) Район (1 или 2 символа) Сектор (1 символ) Юнит (2 символа) ДПС (2 символа). Почтовый индекс и DPS должны соответствовать допустимому формату PAF®. |
+| [DestinationPostCodeAndDPS](../../aspose.barcode.complexbarcode/mailmark2dcodetext/destinationpostcodeanddps) { get; set; } | Содержит почтовый индекс адреса доставки с DPS Если внутри страны почтовый индекс/DP содержит следующее количество символов. Район (1 или 2 символа) Район (1 или 2 символа) Сектор (1 символ) Единица измерения (2 символа) DPS (2 символа). Почтовый индекс и DPS должны соответствовать допустимому формату PAF®. |
 | [InformationTypeID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/informationtypeid) { get; set; } | Идентифицирует полезную нагрузку штрих-кода Royal Mail Mailmark для каждого типа продукта. |
-| [ItemID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/itemid) { get; set; } | Идентифицирует уникальный элемент в рамках идентификатора цепочки поставок. Каждый штрих-код Mailmark должен содержать идентификатор , чтобы его можно было однозначно идентифицировать в течение как минимум 90 дней. Максимальное значение:99999999. |
+| [ItemID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/itemid) { get; set; } | Идентифицирует уникальный элемент в рамках идентификатора цепочки поставок. Каждый штрих-код Mailmark должен содержать идентификатор , чтобы его можно было однозначно идентифицировать в течение как минимум 90 дней. Максимальное значение: 99999999. |
 | [ReturnToSenderPostCode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/returntosenderpostcode) { get; set; } | Содержит почтовый индекс возврата отправителю, но не DPS. ПК (без DPS) должен соответствовать формату PAF®. |
 | [RTSFlag](../../aspose.barcode.complexbarcode/mailmark2dcodetext/rtsflag) { get; set; } | Флаг, указывающий, какой уровень услуги возврата отправителю запрашивается. |
-| [SupplyChainID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid) { get; set; } | Идентифицирует уникальную группу клиентов, участвующих в рассылке. Максимальное значение:9999999. |
-| [UPUCountryID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid) { get; set; } | Идентифицирует идентификатор страны ВПС. Максимальная длина:4 символа. |
+| [SupplyChainID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid) { get; set; } | Идентифицирует уникальную группу клиентов, участвующих в рассылке. Максимальное значение: 9999999. |
+| [UPUCountryID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid) { get; set; } | Идентифицирует идентификатор страны ВПС. Максимальная длина: 4 символа. |
 | [VersionID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/versionid) { get; set; } | Идентифицирует версию штрих-кода, относящуюся к каждому идентификатору типа информации. |
 
 ## Методы

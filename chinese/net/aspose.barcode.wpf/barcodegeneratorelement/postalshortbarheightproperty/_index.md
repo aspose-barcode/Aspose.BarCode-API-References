@@ -1,14 +1,14 @@
 ---
 title: PostalShortBarHeightProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: PostalShortBarHeightProperty
+description: PostalShortBarHeight 属性
 type: docs
 weight: 1890
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheightproperty/
 ---
 ## BarcodeGeneratorElement.PostalShortBarHeightProperty field
 
-PostalShortBarHeightProperty
+PostalShortBarHeight 属性
 
 ```csharp
 public static DependencyProperty PostalShortBarHeightProperty;

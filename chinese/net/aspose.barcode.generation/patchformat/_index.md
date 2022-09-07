@@ -1,14 +1,14 @@
 ---
 title: PatchFormat
 second_title: Aspose.BarCode for .NET API 参考
-description: 补丁码格式选择 PatchOnly 以生成单个 PatchCode使用页面格式生成以 PatchCodes 为边框的 Patch 页面
+description: 补丁码格式选择 PatchOnly 以生成单个 PatchCode使用页面格式生成 Patch 页面PatchCodes 为borders
 type: docs
 weight: 830
 url: /zh/net/aspose.barcode.generation/patchformat/
 ---
 ## PatchFormat enumeration
 
-补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面
+补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成 Patch 页面，PatchCodes 为borders
 
 ```csharp
 public enum PatchFormat
@@ -19,10 +19,10 @@ public enum PatchFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | PatchOnly | `0` | 仅生成 PatchCode |
-| A4 | `1` | 生成 A4 格式页面，以 PatchCodes 为边框和可选的 QR 在中心 |
-| A4_LANDSCAPE | `2` | 生成 A4 横向格式页面，以 PatchCodes 作为边框和可选的 QR 在中心 |
+| A4 | `1` | 生成 A4 格式的页面，以 PatchCodes 作为边框和可选的 QR 在中心 |
+| A4_LANDSCAPE | `2` | 生成 A4 横向格式页面，带有 PatchCodes 作为边框和可选的 QR 在中心 |
 | US_Letter | `3` | 生成以 PatchCodes 为边框和可选 QR 在中心的美国字母格式页面 |
-| US_Letter_LANDSCAPE | `4` | 生成美国字母横向格式页面，以 PatchCodes 作为边框和可选的 QR 在中心 |
+| US_Letter_LANDSCAPE | `4` | 生成带有 PatchCodes 作为边框和可选 QR 在中心的美国字母横向格式页面 |
 
 ### 也可以看看
 

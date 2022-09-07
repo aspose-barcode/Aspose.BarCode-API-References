@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/basegenerationparameters/autosizemode/
 ---
 ## BaseGenerationParameters.AutoSizeMode property
 
-指定不同类型的自动调整大小模式。 默认值:AutoSizeMode.None。
+指定不同类型的自动调整大小模式。 默认值：AutoSizeMode.None。
 
 ```csharp
 public AutoSizeMode AutoSizeMode { get; set; }

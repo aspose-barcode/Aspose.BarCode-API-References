@@ -18,14 +18,14 @@ public class SupplementParameters
 
 | Имя | Описание |
 | --- | --- |
-| [SupplementData](../../aspose.barcode.generation/supplementparameters/supplementdata) { get; set; } | Дополнить данные после штрих-кода. |
-| [SupplementSpace](../../aspose.barcode.generation/supplementparameters/supplementspace) { get; } | Пробел между основным штрих-кодом и дополнительным штрих-кодом в значении[`Unit`](../unit). |
+| [SupplementData](../../aspose.barcode.generation/supplementparameters/supplementdata) { get; set; } | Дополнительные данные после штрих-кода. |
+| [SupplementSpace](../../aspose.barcode.generation/supplementparameters/supplementspace) { get; } | Пробел между основным штрих-кодом и дополнительным штрих-кодом в[`Unit`](../unit) значение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/supplementparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`SupplementParameters`](../supplementparameters). |
+| override [ToString](../../aspose.barcode.generation/supplementparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`SupplementParameters`](../supplementparameters) . |
 
 ### Смотрите также
 

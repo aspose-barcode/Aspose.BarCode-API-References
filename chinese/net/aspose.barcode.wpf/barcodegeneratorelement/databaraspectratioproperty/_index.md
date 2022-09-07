@@ -1,14 +1,14 @@
 ---
 title: DataBarAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataBarAspectRatioProperty
+description: DataBarAspectRatio 属性
 type: docs
 weight: 1540
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/databaraspectratioproperty/
 ---
 ## BarcodeGeneratorElement.DataBarAspectRatioProperty field
 
-DataBarAspectRatioProperty
+DataBarAspectRatio 属性
 
 ```csharp
 public static DependencyProperty DataBarAspectRatioProperty;

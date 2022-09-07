@@ -1,14 +1,14 @@
 ---
 title: QRErrorLevelProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: QRErrorLevelProperty
+description: QRErrorLevel 属性
 type: docs
 weight: 1950
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevelproperty/
 ---
 ## BarcodeGeneratorElement.QRErrorLevelProperty field
 
-QRErrorLevelProperty
+QRErrorLevel 属性
 
 ```csharp
 public static DependencyProperty QRErrorLevelProperty;

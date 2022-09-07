@@ -1,14 +1,14 @@
 ---
 title: SupplyChainID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Идентифицирует уникальную группу клиентов участвующих в рассылке. Максимальное значение9999999.
+description: Идентифицирует уникальную группу клиентов участвующих в рассылке. Максимальное значение 9999999.
 type: docs
 weight: 110
 url: /ru/net/aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid/
 ---
 ## Mailmark2DCodetext.SupplyChainID property
 
-Идентифицирует уникальную группу клиентов, участвующих в рассылке. Максимальное значение:9999999.
+Идентифицирует уникальную группу клиентов, участвующих в рассылке. Максимальное значение: 9999999.
 
 ```csharp
 public int SupplyChainID { get; set; }

@@ -16,7 +16,7 @@ public BaseEncodeType GetBarcodeType()
 
 ### 返回值
 
-条形码类型。
+条码类型。
 
 ### 也可以看看
 

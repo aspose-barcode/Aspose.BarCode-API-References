@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取与子类型相关的代码文本部分
+description: 获取与子类型相关的部分代码文本
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/code128dataportion/data/
 ---
 ## Code128DataPortion.Data property
 
-获取与子类型相关的代码文本部分。
+获取与子类型相关的部分代码文本。
 
 ```csharp
 public string Data { get; }

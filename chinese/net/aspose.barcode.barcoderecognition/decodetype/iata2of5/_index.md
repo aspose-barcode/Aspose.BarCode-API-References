@@ -1,14 +1,14 @@
 ---
 title: IATA2of5
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 IATA 2 of 5 条形码规范进行解码 IATA国际航空运输协会使用此条码管理航空货物
+description: 指定数据应该被解码 国际航空运输协会 2 个共 5 个条码规范 IATA国际航空运输协会使用此条码管理空运货物
 type: docs
 weight: 360
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/iata2of5/
 ---
 ## DecodeType.IATA2of5 field
 
-指定数据应使用 **IATA 2 of 5** 条形码规范进行解码。 IATA（国际航空运输协会）使用此条码管理航空货物。
+指定数据应该被解码 **国际航空运输协会 2 个，共 5 个**条码规范。 IATA（国际航空运输协会）使用此条码管理空运货物。
 
 ```csharp
 public static readonly SingleDecodeType IATA2of5;

@@ -1,14 +1,14 @@
 ---
 title: Is1D
 second_title: Aspose.BarCode for .NET API 参考
-description: 确定指定的BaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype是否包含任何一维条码符号
+description: 确定是否指定BaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype包含任何一维条码 symbology
 type: docs
 weight: 760
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/is1d/
 ---
 ## DecodeType.Is1D method
 
-确定指定的[`BaseDecodeType`](../../basedecodetype)是否包含任何一维条码符号
+确定是否指定[`BaseDecodeType`](../../basedecodetype)包含任何一维条码 symbology
 
 ```csharp
 public static bool Is1D(BaseDecodeType symbology)
@@ -16,11 +16,11 @@ public static bool Is1D(BaseDecodeType symbology)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype)进行测试。 |
+| symbology | BaseDecodeType | 这[`BaseDecodeType`](../../basedecodetype)去测试。 |
 
 ### 返回值
 
-返回 **true** if[`BaseDecodeType`](../../basedecodetype)包含任何一维条码符号；否则，返回 **false** 。
+退货 **真的**如果[`BaseDecodeType`](../../basedecodetype)包含任何一维条码符号；否则，返回 **错误的**.
 
 ### 也可以看看
 

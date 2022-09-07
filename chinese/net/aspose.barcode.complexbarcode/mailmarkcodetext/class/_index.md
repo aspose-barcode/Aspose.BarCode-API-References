@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Aspose.BarCode for .NET API 参考
-description: 0 - Null 或测试 1 - 1C零售 2 - 2C 零售 3 - 3C零售 4 - 高级零售出版邮件供将来使用 5 -延迟零售 6 - 空气零售未来可能使用 7 - 表面零售未来可能使用 8 - 高级网络访问 9 - 标准网络访问
+description: 0 - 空或测试 1 - 1C零售 2 - 2C零售 3 - 3C零售 4 - 高级零售出版邮件供将来可能使用 5 - 延期零售 6 - 空中零售供将来可能使用 7 - 表面零售供将来可能使用 8 - 高级网络访问 9 - 标准网络访问
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/class/
 ---
 ## MailmarkCodetext.Class property
 
-"0" - Null 或测试 "1" - 1C（零售） "2" - 2C (零售） "3" - 3C（零售） "4" - 高级（零售出版邮件）（供将来使用） "5" -延迟（零售） "6" - 空气（零售）（未来可能使用） "7" - 表面（零售）（未来可能使用） "8" - 高级（网络访问） "9" - 标准（网络访问）
+“0” - 空或测试 “1” - 1C（零售） “2” - 2C（零售） “3” - 3C（零售） “4” - 高级（零售出版邮件）（供将来可能使用） “5” - 延期（零售） “6” - 空中（零售）（供将来可能使用） “7” - 表面（零售）（供将来可能使用） “8” - 高级（网络访问） “9” - 标准（网络访问）
 
 ```csharp
 public string Class { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоCodetextParametersaspose.barcode.generation/codetextparameters.
+description: Возвращает удобочитаемое строковое представление этогоCodetextParametersaspose.barcode.generation/codetextparameters .
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.windows.forms/codetextparametersui/tostring/
 ---
 ## CodetextParametersUI.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters).
+Возвращает удобочитаемое строковое представление этого[`CodetextParameters`](../../../aspose.barcode.generation/codetextparameters) .
 
 ```csharp
 public override string ToString()

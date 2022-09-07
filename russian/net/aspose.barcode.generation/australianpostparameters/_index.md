@@ -1,14 +1,14 @@
 ---
 title: AustralianPostParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры штрих-кода AustralianPost.
+description: Параметры штрих-кода Почты Австралии.
 type: docs
 weight: 430
 url: /ru/net/aspose.barcode.generation/australianpostparameters/
 ---
 ## AustralianPostParameters class
 
-Параметры штрих-кода AustralianPost.
+Параметры штрих-кода Почты Австралии.
 
 ```csharp
 public class AustralianPostParameters
@@ -25,7 +25,7 @@ public class AustralianPostParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/australianpostparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`AustralianPostParameters`](../australianpostparameters). |
+| override [ToString](../../aspose.barcode.generation/australianpostparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`AustralianPostParameters`](../australianpostparameters) . |
 
 ### Смотрите также
 

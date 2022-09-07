@@ -1,14 +1,14 @@
 ---
 title: DatabarStacked
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Представляет составной штрихкод GS1 Databar.
+description: Представляет сложенный штрих-код GS1 Databar.
 type: docs
 weight: 190
 url: /ru/net/aspose.barcode.generation/encodetypes/databarstacked/
 ---
 ## EncodeTypes.DatabarStacked field
 
-Представляет составной штрихкод GS1 Databar.
+Представляет сложенный штрих-код GS1 Databar.
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarStacked;

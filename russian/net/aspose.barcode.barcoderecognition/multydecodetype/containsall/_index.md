@@ -1,14 +1,14 @@
 ---
 title: ContainsAll
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Проверьте содержит ли это все типы из типов штрих-кода.
+description: Проверьте содержит ли он все типы из типов штрих-кода.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/multydecodetype/containsall/
 ---
 ## MultyDecodeType.ContainsAll method
 
-Проверьте, содержит ли это все типы из типов штрих-кода.
+Проверьте, содержит ли он все типы из типов штрих-кода.
 
 ```csharp
 public bool ContainsAll(params BaseDecodeType[] barcodeTypes)
@@ -16,11 +16,11 @@ public bool ContainsAll(params BaseDecodeType[] barcodeTypes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | Введите один или несколько типов штрихкодов |
+| barcodeTypes | BaseDecodeType[] | Ввод одного или нескольких типов штрих-кода |
 
 ### Возвращаемое значение
 
-Значение представляет собой true, если все типы включены в
+Значение является истинным, если все типы включены в
 
 ### Смотрите также
 

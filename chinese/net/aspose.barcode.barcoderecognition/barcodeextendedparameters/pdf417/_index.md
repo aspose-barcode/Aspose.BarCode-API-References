@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取一个 MacroPdf417 元数据信息Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters识别条码
+description: 获取一个 MacroPdf417 元数据信息Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters识别的条码
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/
 ---
 ## BarCodeExtendedParameters.Pdf417 property
 
-获取一个 MacroPdf417 元数据信息[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)识别条码
+获取一个 MacroPdf417 元数据信息[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)识别的条码
 
 ```csharp
 public Pdf417ExtendedParameters Pdf417 { get; }
@@ -16,7 +16,7 @@ public Pdf417ExtendedParameters Pdf417 { get; }
 
 ### 适当的价值
 
-A MacroPdf417 元数据信息[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)识别条码
+一个 MacroPdf417 元数据信息[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)识别的条码
 
 ### 也可以看看
 

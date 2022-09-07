@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Pdf417 символика штрих-кода
+description: Указывает что данные должны быть декодированы с PDF417 символика штрих-кода
 type: docs
 weight: 570
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/pdf417/
 ---
 ## DecodeType.Pdf417 field
 
-Указывает, что данные должны быть декодированы с **Pdf417** символика штрих-кода
+Указывает, что данные должны быть декодированы с **PDF417** символика штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Pdf417;

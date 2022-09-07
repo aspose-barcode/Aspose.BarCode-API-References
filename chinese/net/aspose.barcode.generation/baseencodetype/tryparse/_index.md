@@ -16,12 +16,12 @@ public static bool TryParse(string parsingType, out BaseEncodeType result)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parsingType | String | 要转换的格式为“Index:-1; Name:None”的字符串。 |
+| parsingType | String | 要转换的格式为 "Index:-1; Name:None" 的字符串。 |
 | result | BaseEncodeType& | 当转换成功完成时，返回一个实际的 SingleEncodeType； |
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 
@@ -41,12 +41,12 @@ public static bool TryParse(string parsingType, out SymbologyEncodeType result)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parsingType | String | 要转换的格式为“Index:-1; Name:None”的字符串。 |
+| parsingType | String | 要转换的格式为 "Index:-1; Name:None" 的字符串。 |
 | result | SymbologyEncodeType& | 当转换成功完成时，返回一个实际的 SingleEncodeType； |
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 

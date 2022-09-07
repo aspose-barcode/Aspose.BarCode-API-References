@@ -1,14 +1,14 @@
 ---
 title: IsPostal
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет содержит ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetypeлюбую символику почтового штрих-кода
+description: Определяет является ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype содержит любые почтовые штрих-коды symbology
 type: docs
 weight: 780
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/ispostal/
 ---
 ## DecodeType.IsPostal method
 
-Определяет, содержит ли указанный[`BaseDecodeType`](../../basedecodetype)любую символику почтового штрих-кода
+Определяет, является ли указанный[`BaseDecodeType`](../../basedecodetype) содержит любые почтовые штрих-коды symbology
 
 ```csharp
 public static bool IsPostal(BaseDecodeType symbology)
@@ -16,11 +16,11 @@ public static bool IsPostal(BaseDecodeType symbology)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype)для тестирования. |
+| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype) тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** if[`BaseDecodeType`](../../basedecodetype)содержит любую символику почтового штрих-кода; в противном случае возвращает **false** .
+Возвращает **истинный** если[`BaseDecodeType`](../../basedecodetype) содержит любую символику почтового штрих-кода; в противном случае возвращается **ЛОЖЬ**.
 
 ### Смотрите также
 

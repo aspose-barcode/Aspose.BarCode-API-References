@@ -1,14 +1,14 @@
 ---
 title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 BarCode 纠错级别的 Pdf417 符号类型 范围从 level0 到 level8 level0 表示没有纠错信息 level8 表示最佳纠错这意味着更大的图片
+description: 获取或设置条码纠错的Pdf417符号类型level 从level0到level8level0表示没有纠错信息 level8表示最好的纠错表示图片更大
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.generation/pdf417parameters/pdf417errorlevel/
 ---
 ## Pdf417Parameters.Pdf417ErrorLevel property
 
-获取或设置 BarCode 纠错级别的 Pdf417 符号类型 范围从 level0 到 level8, level0 表示没有纠错信息, level8 表示最佳纠错，这意味着更大的图片。
+获取或设置条码纠错的Pdf417符号类型level 从level0到level8，level0表示没有纠错信息， level8表示最好的纠错，表示图片更大。
 
 ```csharp
 public Pdf417ErrorLevel Pdf417ErrorLevel { get; set; }

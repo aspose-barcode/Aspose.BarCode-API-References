@@ -1,14 +1,14 @@
 ---
 title: RightBottom
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает правый нижний уголPointofQuadrangleaspose.barcode.barcoderecognition/quadrangleregion
+description: Получает правый нижний уголPoint изQuadrangleaspose.barcode.barcoderecognition/quadrangle область край
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/quadrangle/rightbottom/
 ---
 ## Quadrangle.RightBottom property
 
-Получает правый нижний уголPointof[`Quadrangle`](../../quadrangle)region
+Получает правый нижний уголPoint из[`Quadrangle`](../../quadrangle) область, край
 
 ```csharp
 public Point RightBottom { get; set; }
@@ -16,7 +16,7 @@ public Point RightBottom { get; set; }
 
 ### Стоимость имущества
 
-Правый нижний уголPointof[`Quadrangle`](../../quadrangle)регион
+Правый нижний уголPoint из[`Quadrangle`](../../quadrangle) область, край
 
 ### Смотрите также
 

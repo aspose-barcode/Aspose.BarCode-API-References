@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 CODABAR 条码规范 解码
+description: 指定数据应该被解码 科达巴条码规格
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/codabar/
 ---
 ## DecodeType.Codabar field
 
-指定数据应使用 **CODABAR** 条码规范 解码
+指定数据应该被解码 **科达巴**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Codabar;

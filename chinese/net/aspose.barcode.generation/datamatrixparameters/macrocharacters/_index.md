@@ -1,14 +1,14 @@
 ---
 title: MacroCharacters
 second_title: Aspose.BarCode for .NET API 参考
-description: 宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码 只能与 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto 一起使用 不能用于 EncodeTypes.GS1DataMatrix 默认值MacroCharacters.None
+description: 宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码 只能用于 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto. 不能用于 EncodeTypes.GS1DataMatrix 默认值MacroCharacters.None.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.generation/datamatrixparameters/macrocharacters/
 ---
 ## DataMatrixParameters.MacroCharacters property
 
-宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码。 只能与 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto 一起使用。 不能用于 EncodeTypes.GS1DataMatrix 默认值:MacroCharacters.None。
+宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码。 只能用于 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto. 不能用于 EncodeTypes.GS1DataMatrix 默认值：MacroCharacters.None.
 
 ```csharp
 public MacroCharacter MacroCharacters { get; set; }

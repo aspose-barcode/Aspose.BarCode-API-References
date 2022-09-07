@@ -18,29 +18,29 @@ public class BarCodeReader : Component
 
 | Имя | Описание |
 | --- | --- |
-| [BarCodeReader](barcodereader#constructor)() | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader)со значениями по умолчанию. Требуется установить изображение (SetBitmapImage()) перед вызовом метода ReadBarCodes(). |
-| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader)из изображения. |
-| [BarCodeReader](barcodereader#constructor_8)(Stream) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_11)(string) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader)из файла. |
-| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
-| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Инициализирует новый экземпляр класса[`BarCodeReader`](../barcodereader). |
+| [BarCodeReader](barcodereader#constructor)() | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс со значениями по умолчанию. Требуется установить изображение (SetBitmapImage()) перед вызовом метода ReadBarCodes(). |
+| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс из изображения. |
+| [BarCodeReader](barcodereader#constructor_8)(Stream) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_11)(string) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс из файла . |
+| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
+| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Инициализирует новый экземпляр[`BarCodeReader`](../barcodereader) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings) { get; } | Основные параметры декодирования штрих-кода. Содержит параметры, влияющие на распознаваемые данные. |
-| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | Распознается[`BarCodeResult`](../barcoderesult)s array |
+| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | Получает признание[`BarCodeResult`](../barcoderesult)s массив |
 | [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount) { get; } | Получает количество распознанных штрих-кодов |
-| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных пресетов:HighPerformance, NormalQuality, HighQuality, MaxBarCodes или вручную настроить отдельные параметры. Значением QualitySettings по умолчанию является NormalQuality. |
+| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings позволяет настроить качество и скорость распознавания вручную. Вы можете быстро настроить QualitySettings с помощью встроенных предустановок: HighPerformance, NormalQuality, HighQuality, MaxBarCodes или вручную настроить отдельные параметры. Значение QualitySettings по умолчанию — NormalQuality. |
 | [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout) { get; set; } | Получает или задает время ожидания процесса распознавания в миллисекундах. |
 | static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings) { get; } | Получает настройки использования ядер процессора. |
 
@@ -48,19 +48,19 @@ public class BarCodeReader : Component
 
 | Имя | Описание |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml)(Stream) | Импортирует свойства BarCode из указанного xml-потока и применяет их к текущему экземпляру BarCodeReader. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml)(Stream) | Импортирует свойства BarCode из указанного XML-потока и применяет их к текущему экземпляру BarCodeReader. |
 | static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml_1)(string) | Импортирует свойства BarCode из указанного xml-файла и применяет их к текущему экземпляру BarCodeReader. |
-| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | Функция запрашивает завершение текущего сеанса распознавания из другого потока. Abort является неблокируемым методом и возвращает управление сразу после вызова. Метод следует использовать, когда процесс распознавания слишком длительный. |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml)(Stream) | Экспортирует свойства BarCode в указанный xml-поток |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml_1)(string) | Экспортирует свойства BarCode в указанный xml-файл |
-| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | Читает[`BarCodeResult`](../barcoderesult)s из образа. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage)(Bitmap) | Устанавливает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes(). |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_3)(Stream) | Устанавливает поток изображений для распознавания. Должен вызываться перед методом ReadBarCodes(). |
+| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | Функция запрашивает завершение текущего сеанса распознавания из другого потока. Abort является неблокируемым методом и возвращает управление сразу после вызова. Метод следует использовать, когда процесс распознавания слишком долгий. |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml)(Stream) | Экспортирует свойства штрих-кода в указанный xml-поток |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml_1)(string) | Экспорт свойств штрих-кода в указанный xml-файл |
+| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | Читает[`BarCodeResult`](../barcoderesult) с изображения. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage)(Bitmap) | Задает растровое изображение для распознавания. Должен вызываться перед методом ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_3)(Stream) | Задает поток изображения для распознавания. Должен вызываться перед методом ReadBarCodes(). |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_4)(string) | Устанавливает файл изображения для распознавания. Должен вызываться перед методом ReadBarCodes(). |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_1)(Bitmap, Rectangle) | Задает растровое изображение и область для распознавания. Должен вызываться перед методом ReadBarCodes(). |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_2)(Bitmap, Rectangle[]) | Задает растровое изображение и области для распознавания. Должен вызываться перед методом ReadBarCodes(). |
 | [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype)(BaseDecodeType) | Устанавливает тип декодирования для распознавания. Должен вызываться перед методом ReadBarCodes(). |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype_1)(params SingleDecodeType[]) | Наборы[`SingleDecodeType`](../singledecodetype)массив типов для распознавания. Должен вызываться перед методом ReadBarCodes(). |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype_1)(params SingleDecodeType[]) | Наборы[`SingleDecodeType`](../singledecodetype) массив типов для распознавания. Должен вызываться перед методом ReadBarCodes(). |
 
 ### Примеры
 

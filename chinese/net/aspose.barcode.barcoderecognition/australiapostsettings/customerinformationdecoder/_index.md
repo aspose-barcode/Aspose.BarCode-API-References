@@ -1,14 +1,14 @@
 ---
 title: CustomerInformationDecoder
 second_title: Aspose.BarCode for .NET API 参考
-description: 用于澳大利亚邮政符号系统中的客户信息字段解码的公共接口
+description: 用于澳大利亚邮政符号系统的客户信息字段解码的公共接口
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/australiapostsettings/customerinformationdecoder/
 ---
 ## AustraliaPostSettings.CustomerInformationDecoder property
 
-用于澳大利亚邮政符号系统中的客户信息字段解码的公共接口。
+用于澳大利亚邮政符号系统的客户信息字段解码的公共接口。
 
 ```csharp
 public AustraliaPostCustomerInformationDecoder CustomerInformationDecoder { get; set; }
@@ -16,7 +16,7 @@ public AustraliaPostCustomerInformationDecoder CustomerInformationDecoder { get;
 
 ### 适当的价值
 
-用于澳大利亚邮政符号系统中的客户信息字段解码的公共接口。
+用于澳大利亚邮政符号系统的客户信息字段解码的公共接口。
 
 ### 也可以看看
 

@@ -10,7 +10,10 @@ url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/maxqualitydetecti
 
 Предустановка качества распознавания MaxQualityDetection. То же, что и NormalQuality, но с наивысшим качеством[`DetectorSettings`](../detectorsettings). Позволяет обнаруживать диагональные и поврежденные штрих-коды.
 
-&lt;код&gt; использование (считыватель BarCodeReader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.MaxQualityDetection; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.MaxQualityDetection;
+```
 
 ```csharp
 public static QualitySettings MaxQualityDetection { get; }

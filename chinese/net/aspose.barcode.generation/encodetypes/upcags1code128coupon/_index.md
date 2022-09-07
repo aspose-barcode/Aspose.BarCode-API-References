@@ -1,14 +1,14 @@
 ---
 title: UpcaGs1Code128Coupon
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 UPC coupon 和 GS1-128 Extended Code 条形码规范进行编码 输入字符串示例 BarcodeGenerator.Codetext  514141100906810203 其中 UPCA 部分为 514141100906 GS1Code128 部分是810203
+description: 指定数据应该用 带有 GS1-128 扩展代码的 UPC 优惠券条码规范. 输入字符串示例 BarcodeGenerator.Codetext  514141100906810203 其中UPCA部分为514141100906GS1Code128部分为810203.
 type: docs
 weight: 670
 url: /zh/net/aspose.barcode.generation/encodetypes/upcags1code128coupon/
 ---
 ## EncodeTypes.UpcaGs1Code128Coupon field
 
-指定数据应使用 **UPC coupon 和 GS1-128 Extended Code** 条形码规范进行编码。 输入字符串示例: BarcodeGenerator.Codetext = "514141100906(8102)03", 其中 UPCA 部分为 "514141100906", GS1Code128 部分是（8102）03。
+指定数据应该用 **带有 GS1-128 扩展代码的 UPC 优惠券**条码规范. 输入字符串示例： BarcodeGenerator.Codetext = "514141100906(8102)03", 其中UPCA部分为"514141100906"，GS1Code128部分为(8102)03.
 
 ```csharp
 public static readonly SymbologyEncodeType UpcaGs1Code128Coupon;

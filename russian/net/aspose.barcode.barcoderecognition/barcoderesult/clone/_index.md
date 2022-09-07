@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Создает копию классаBarCodeResultaspose.barcode.barcoderecognition/barcoderesult.
+description: Создает копиюBarCodeResultaspose.barcode.barcoderecognition/barcoderesult класс.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderesult/clone/
 ---
 ## BarCodeResult.Clone method
 
-Создает копию класса[`BarCodeResult`](../../barcoderesult).
+Создает копию[`BarCodeResult`](../../barcoderesult) класс.
 
 ```csharp
 public object Clone()
@@ -16,7 +16,7 @@ public object Clone()
 
 ### Возвращаемое значение
 
-Возвращает копию класса[`BarCodeResult`](../../barcoderesult).
+Возвращает копию[`BarCodeResult`](../../barcoderesult) учебный класс.
 
 ### Смотрите также
 

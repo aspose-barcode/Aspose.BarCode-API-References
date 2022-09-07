@@ -1,14 +1,14 @@
 ---
 title: QRVersion
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr.
+description: Версия QR-кода. От версии 1 до версии 40 для QR-кода и от M1 до M4 для MicroQr.
 type: docs
 weight: 910
 url: /ru/net/aspose.barcode.generation/qrversion/
 ---
 ## QRVersion enumeration
 
-Версия QR-кода. От Version1 до Version40 для QR-кода и от M1 до M4 для MicroQr.
+Версия QR-кода. От версии 1 до версии 40 для QR-кода и от M1 до M4 для MicroQr.
 
 ```csharp
 public enum QRVersion
@@ -18,7 +18,7 @@ public enum QRVersion
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Auto | `0` | Указывает автоматически подбирать лучшую версию для QR. Это значение по умолчанию. |
+| Auto | `0` | Указывает на автоматический выбор лучшей версии для QR. Это значение по умолчанию. |
 | Version01 | `1` | Указывает версию 1 с модулями 21 x 21. |
 | Version02 | `2` | Указывает версию 2 с модулями 25 x 25. |
 | Version03 | `3` | Указывает версию 3 с модулями 29 x 29. |
@@ -59,10 +59,10 @@ public enum QRVersion
 | Version38 | `38` | Указывает версию 38 с модулями 169 x 169. |
 | Version39 | `39` | Указывает версию 39 с модулями 173 x 173. |
 | Version40 | `40` | Указывает версию 40 с модулями 177 x 177. |
-| VersionM1 | `101` | Указывает версию M1 для Micro QR с модулями 11 x 11. |
-| VersionM2 | `102` | Указывает версию M2 для Micro QR с модулями 13 x 13. |
-| VersionM3 | `103` | Указывает версию M3 для Micro QR с модулями 15 x 15. |
-| VersionM4 | `104` | Указывает версию M4 для Micro QR с модулями 17 x 17. |
+| VersionM1 | `101` | Определяет версию M1 для Micro QR с модулями 11 x 11. |
+| VersionM2 | `102` | Определяет версию M2 для Micro QR с модулями 13 x 13. |
+| VersionM3 | `103` | Определяет версию M3 для Micro QR с модулями 15 x 15. |
+| VersionM4 | `104` | Определяет версию M4 для Micro QR с модулями 17 x 17. |
 
 ### Смотрите также
 

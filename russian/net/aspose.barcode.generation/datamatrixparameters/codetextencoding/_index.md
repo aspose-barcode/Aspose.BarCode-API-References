@@ -1,14 +1,14 @@
 ---
 title: CodeTextEncoding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает кодировку кодового текста. Значение по умолчаниюUTF-8
+description: Получает или задает кодировку кодового текста. Значение по умолчанию UTF-8
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/datamatrixparameters/codetextencoding/
 ---
 ## DataMatrixParameters.CodeTextEncoding property
 
-Получает или задает кодировку кодового текста. Значение по умолчанию:UTF-8
+Получает или задает кодировку кодового текста. Значение по умолчанию: UTF-8
 
 ```csharp
 public Encoding CodeTextEncoding { get; set; }

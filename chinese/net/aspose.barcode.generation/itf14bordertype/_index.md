@@ -1,14 +1,14 @@
 ---
 title: ITF14BorderType
 second_title: Aspose.BarCode for .NET API 参考
-description: ITF14 条码边框类型
+description: 条码的 ITF14 边框类型
 type: docs
 weight: 770
 url: /zh/net/aspose.barcode.generation/itf14bordertype/
 ---
 ## ITF14BorderType enumeration
 
-ITF14 条码边框类型
+条码的 ITF14 边框类型
 
 ```csharp
 public enum ITF14BorderType
@@ -18,11 +18,11 @@ public enum ITF14BorderType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 条形码没有边框 |
+| None | `0` | 没有包围条形码的边框 |
 | Frame | `1` | 包含条形码的框架 |
-| Bar | `2` | 两个横条包围条形码 |
-| FrameOut | `3` | 包含条形码的框架。它在条形码之外绘制，并且不影响高度 |
-| BarOut | `4` | 两个水平条包围条形码。它在条形码之外绘制，并且不影响高度 |
+| Bar | `2` | 包围条形码的两个水平条 |
+| FrameOut | `3` | 包含条形码的框架。它在条形码之外绘制，并且不影响 height |
+| BarOut | `4` | 包含条形码的两个水平条。它在条形码之外绘制，并且不影响 height |
 
 ### 也可以看看
 

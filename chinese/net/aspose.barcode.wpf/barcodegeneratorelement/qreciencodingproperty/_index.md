@@ -1,14 +1,14 @@
 ---
 title: QRECIEncodingProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: QRECIEncodingProperty
+description: QRECIEncoding 属性
 type: docs
 weight: 1920
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/qreciencodingproperty/
 ---
 ## BarcodeGeneratorElement.QRECIEncodingProperty field
 
-QRECIEncodingProperty
+QRECIEncoding 属性
 
 ```csharp
 public static DependencyProperty QRECIEncodingProperty;

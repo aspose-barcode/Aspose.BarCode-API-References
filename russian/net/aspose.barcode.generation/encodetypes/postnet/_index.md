@@ -1,14 +1,14 @@
 ---
 title: Postnet
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью Postnet спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с Постнет спецификация штрих-кода
 type: docs
 weight: 570
 url: /ru/net/aspose.barcode.generation/encodetypes/postnet/
 ---
 ## EncodeTypes.Postnet field
 
-Указывает, что данные должны быть закодированы с помощью **Postnet** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **Постнет** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Postnet;

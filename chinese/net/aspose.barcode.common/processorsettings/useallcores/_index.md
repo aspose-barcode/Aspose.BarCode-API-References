@@ -1,14 +1,14 @@
 ---
 title: UseAllCores
 second_title: Aspose.BarCode for .NET API 参考
-description: 需要使用所有内核
+description: 是使用所有内核所必需的
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.common/processorsettings/useallcores/
 ---
 ## ProcessorSettings.UseAllCores property
 
-需要使用所有内核。
+是使用所有内核所必需的。
 
 ```csharp
 public bool UseAllCores { get; set; }

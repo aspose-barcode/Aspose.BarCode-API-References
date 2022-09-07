@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/address/countrycode/
 
 获取或设置两个字母的 ISO 国家代码。
 
-国家代码是强制性的，除非整个地址包含` null` 或空值。
+国家代码是强制性的，除非整个地址包含`无效的`或空值。
 
 ```csharp
 public string CountryCode { get; set; }

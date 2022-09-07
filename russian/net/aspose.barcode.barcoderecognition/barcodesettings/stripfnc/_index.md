@@ -1,14 +1,14 @@
 ---
 title: StripFNC
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Удаление символов FNC1 FNC2 FNC3 из кодового текста. Значение по умолчанию  ложь.
+description: Удаление символов FNC1 FNC2 FNC3 из кодового текста. Значение по умолчанию  false.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/barcodesettings/stripfnc/
 ---
 ## BarcodeSettings.StripFNC property
 
-Удаление символов FNC1, FNC2, FNC3 из кодового текста. Значение по умолчанию — ложь.
+Удаление символов FNC1, FNC2, FNC3 из кодового текста. Значение по умолчанию — false.
 
 ```csharp
 public bool StripFNC { get; set; }
@@ -30,7 +30,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1Code128,
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code128))
 {
-     //Полоса FNC disabled
+    // StripFNC отключен
     reader.BarcodeSettings.StripFNC = false;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -39,7 +39,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code1
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code128))
 {
-     //StripFNC enabled
+    // StripFNC включен
     reader.BarcodeSettings.StripFNC = true;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -51,14 +51,14 @@ Using generator As New BarcodeGenerator(EncodeTypes.GS1Code128, "(02)04006664241
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    'StripFNC инвалид
+    'StripFNC отключен
     reader.BarcodeSettings.StripFNC = False
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    'StripFNC включено
+    'StripFNC включен
     reader.BarcodeSettings.StripFNC = True
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

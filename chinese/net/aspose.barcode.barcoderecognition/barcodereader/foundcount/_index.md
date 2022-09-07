@@ -1,14 +1,14 @@
 ---
 title: FoundCount
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取识别的条码数量
+description: 获取识别的条形码计数
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/foundcount/
 ---
 ## BarCodeReader.FoundCount property
 
-获取识别的条码数量
+获取识别的条形码计数
 
 ```csharp
 public int FoundCount { get; }
@@ -16,11 +16,11 @@ public int FoundCount { get; }
 
 ### 适当的价值
 
-识别的条码数量
+识别的条码计数
 
 ### 例子
 
-此示例显示如何使用 BarCodeReader
+此示例显示如何使用 BarCodeReader 读取条形码
 
 ```csharp
 [C#]

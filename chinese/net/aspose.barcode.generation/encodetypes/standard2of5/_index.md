@@ -1,14 +1,14 @@
 ---
 title: Standard2of5
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Standard 2 of 5 条形码规范
+description: 指定数据应该用 标准 2 的 5条码规格
 type: docs
 weight: 640
 url: /zh/net/aspose.barcode.generation/encodetypes/standard2of5/
 ---
 ## EncodeTypes.Standard2of5 field
 
-指定数据应使用 **Standard 2 of 5** 条形码规范
+指定数据应该用 **标准 2 的 5**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Standard2of5;

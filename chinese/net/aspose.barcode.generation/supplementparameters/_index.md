@@ -1,14 +1,14 @@
 ---
 title: SupplementParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 补充参数用于 Interleaved2of5Standard2of5EAN13EAN8UPCAUPCEISBNISSNISMN
+description: 补充参数用于 Interleaved2of5Standard2of5EAN13EAN8UPCAUPCEISBNISSNISMN.
 type: docs
 weight: 950
 url: /zh/net/aspose.barcode.generation/supplementparameters/
 ---
 ## SupplementParameters class
 
-补充参数。用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN。
+补充参数。用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN.
 
 ```csharp
 public class SupplementParameters
@@ -19,13 +19,13 @@ public class SupplementParameters
 | 姓名 | 描述 |
 | --- | --- |
 | [SupplementData](../../aspose.barcode.generation/supplementparameters/supplementdata) { get; set; } | 补充条形码后面的数据。 |
-| [SupplementSpace](../../aspose.barcode.generation/supplementparameters/supplementspace) { get; } | [`Unit`](../unit)值中主要条形码和补充条形码之间的空间。 |
+| [SupplementSpace](../../aspose.barcode.generation/supplementparameters/supplementspace) { get; } | 主条码和补充条码之间的空格[`Unit`](../unit)值. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/supplementparameters/tostring)() | 返回此[`SupplementParameters`](../supplementparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/supplementparameters/tostring)() | 返回一个人类可读的字符串表示[`SupplementParameters`](../supplementparameters). |
 
 ### 也可以看看
 

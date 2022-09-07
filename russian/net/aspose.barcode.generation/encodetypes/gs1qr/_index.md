@@ -1,14 +1,14 @@
 ---
 title: GS1QR
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Символика двухмерного штрих-кода QR со строковым форматом GS1
+description: Символика 2D-штрих-кода QR со строковым форматом GS1
 type: docs
 weight: 350
 url: /ru/net/aspose.barcode.generation/encodetypes/gs1qr/
 ---
 ## EncodeTypes.GS1QR field
 
-Символика двухмерного штрих-кода QR со строковым форматом GS1
+Символика 2D-штрих-кода QR со строковым форматом GS1
 
 ```csharp
 public static readonly SymbologyEncodeType GS1QR;

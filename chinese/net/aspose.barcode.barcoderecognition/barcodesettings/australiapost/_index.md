@@ -16,7 +16,7 @@ public AustraliaPostSettings AustraliaPost { get; }
 
 ### 适当的价值
 
-影响AustraliaPost解码参数澳大利亚邮政符号系统的公认数据
+影响澳大利亚邮政符号系统识别数据的澳大利亚邮政解码参数
 
 ### 也可以看看
 

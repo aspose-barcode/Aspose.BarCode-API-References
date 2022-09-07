@@ -1,14 +1,14 @@
 ---
 title: CompactPdf417
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 CompactPdf417 Pdf417Truncated 条形码规范进行解码
+description: 指定数据应该被解码 压缩PDF417pdf417截断 条码规范
 type: docs
 weight: 160
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/compactpdf417/
 ---
 ## DecodeType.CompactPdf417 field
 
-指定数据应使用 **CompactPdf417** (Pdf417Truncated) 条形码规范进行解码
+指定数据应该被解码 **压缩PDF417**(pdf417截断) 条码规范
 
 ```csharp
 public static readonly SingleDecodeType CompactPdf417;

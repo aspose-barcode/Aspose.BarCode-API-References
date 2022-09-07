@@ -16,7 +16,7 @@ public string GetConstructedCodetext()
 
 ### 返回值
 
-构造代码文本
+构造的代码文本
 
 ### 也可以看看
 

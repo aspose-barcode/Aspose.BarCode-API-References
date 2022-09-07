@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает параметры Pdf417Pdf417Parametersaspose.barcode.generation/pdf417parameters. Используется для Pdf417.
+description: Получает или задает параметры Pdf417Pdf417Parametersaspose.barcode.generation/pdf417parameters . Используется для PDF417.
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/pdf417/
 ---
 ## SpecificParametersUI.Pdf417 property
 
-Получает или задает параметры Pdf417[`Pdf417Parameters`](../../../aspose.barcode.generation/pdf417parameters). Используется для Pdf417.
+Получает или задает параметры Pdf417[`Pdf417Parameters`](../../../aspose.barcode.generation/pdf417parameters) . Используется для PDF417.
 
 ```csharp
 public Pdf417ParametersUI Pdf417 { get; }

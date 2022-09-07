@@ -10,7 +10,7 @@ url: /ru/net/aspose.barcode.complexbarcode/swissqrbill/amount/
 
 Получает или устанавливает сумму платежа.
 
-Допустимые значения находятся в диапазоне от 0,01 до 999 999 999,99.
+Допустимые значения от 0,01 до 999 999 999,99.
 
 ```csharp
 public decimal Amount { get; set; }

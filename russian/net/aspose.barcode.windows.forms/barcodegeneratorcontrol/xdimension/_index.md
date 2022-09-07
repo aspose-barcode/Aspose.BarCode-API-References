@@ -1,14 +1,14 @@
 ---
 title: XDimension
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Размер по оси X  это наименьшая ширина блока штрихов или пробелов штрих-кода. Увеличение этого параметра приведет к увеличению ширины всего изображения штрих-кода. Игнорируется если для свойстваAutoSizeModeaspose.barcode.generation/autosizemodeустановлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+description: Размер по оси X  это наименьшая ширина единицы штрихов или пробелов штрих-кода.AutoSizeModeaspose.barcode.generation/autosizemode установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 type: docs
 weight: 250
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/xdimension/
 ---
 ## BarCodeGeneratorControl.XDimension property
 
-Размер по оси X — это наименьшая ширина блока штрихов или пробелов штрих-кода. Увеличение этого параметра приведет к увеличению ширины всего изображения штрих-кода. Игнорируется, если для свойства[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode)установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
+Размер по оси X — это наименьшая ширина единицы штрихов или пробелов штрих-кода.[`AutoSizeMode`](../../../aspose.barcode.generation/autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation.
 
 ```csharp
 public Unit XDimension { get; }

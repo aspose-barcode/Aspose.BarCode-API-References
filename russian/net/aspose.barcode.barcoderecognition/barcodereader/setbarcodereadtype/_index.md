@@ -1,14 +1,14 @@
 ---
 title: SetBarCodeReadType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: НаборыSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetypeмассив типов для распознавания. Должен вызываться перед методом ReadBarCodes.
+description: НаборыSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype массив типов для распознавания. Должен вызываться перед методом ReadBarCodes.
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
 ---
 ## SetBarCodeReadType(params SingleDecodeType[]) {#setbarcodereadtype_1}
 
-Наборы[`SingleDecodeType`](../../singledecodetype)массив типов для распознавания. Должен вызываться перед методом ReadBarCodes().
+Наборы[`SingleDecodeType`](../../singledecodetype) массив типов для распознавания. Должен вызываться перед методом ReadBarCodes().
 
 ```csharp
 public void SetBarCodeReadType(params SingleDecodeType[] barcodeTypes)
@@ -16,7 +16,7 @@ public void SetBarCodeReadType(params SingleDecodeType[] barcodeTypes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| barcodeTypes | SingleDecodeType[] | Массив типов[`SingleDecodeType`](../../singledecodetype)для чтения. |
+| barcodeTypes | SingleDecodeType[] | [`SingleDecodeType`](../../singledecodetype) введите массив для чтения. |
 
 ### Примеры
 
@@ -64,7 +64,7 @@ public void SetBarCodeReadType(BaseDecodeType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | BaseDecodeType | Тип считываемого штрих-кода. |
+| type | BaseDecodeType | Тип штрих-кода для считывания. |
 
 ### Примеры
 

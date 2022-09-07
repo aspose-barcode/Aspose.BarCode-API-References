@@ -1,14 +1,14 @@
 ---
 title: DotCodeMask
 second_title: Aspose.BarCode for .NET API 参考
-description: Dotcode 条码掩码
+description: 点码条码的掩码
 type: docs
 weight: 630
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/dotcodemask/
 ---
 ## BarcodeGeneratorElement.DotCodeMask property
 
-Dotcode 条码掩码。
+点码条码的掩码。
 
 ```csharp
 public int DotCodeMask { get; set; }

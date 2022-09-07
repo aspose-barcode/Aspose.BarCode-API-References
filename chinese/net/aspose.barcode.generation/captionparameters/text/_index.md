@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/captionparameters/text/
 ---
 ## CaptionParameters.Text property
 
-说明文字。 默认值:空字符串。
+说明文字。 默认值：空字符串。
 
 ```csharp
 public string Text { get; set; }

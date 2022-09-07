@@ -16,7 +16,7 @@ public BarcodeGenerator(BaseEncodeType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | BaseEncodeType | Тип символики штрих-кода. Используйте класс[`EncodeTypes`](../../encodetypes)для настройки символов. |
+| type | BaseEncodeType | Тип символики штрих-кода. Использовать[`EncodeTypes`](../../encodetypes) класс для настройки символов. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public BarcodeGenerator(BaseEncodeType type, string codeText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | BaseEncodeType | Тип символики штрих-кода. Используйте класс[`EncodeTypes`](../../encodetypes)для настройки символов. |
+| type | BaseEncodeType | Тип символики штрих-кода. Использовать[`EncodeTypes`](../../encodetypes) класс для настройки символов. |
 | codeText | String | Текст для кодирования. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.BarCode for .NET API 参考
-description: 在当前设置下生成并保存复杂条码图像
+description: 在当前设置下生成并保存复杂的条码图像
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.complexbarcode/complexbarcodegenerator/save/
 ---
 ## Save(Stream, BarCodeImageFormat) {#save}
 
-在当前设置下生成并保存复杂条码图像。
+在当前设置下生成并保存复杂的条码图像。
 
 ```csharp
 public void Save(Stream stream, BarCodeImageFormat format)
@@ -30,7 +30,7 @@ public void Save(Stream stream, BarCodeImageFormat format)
 
 ## Save(string, BarCodeImageFormat) {#save_2}
 
-在当前设置下生成并保存复杂条码图像。
+在当前设置下生成并保存复杂的条码图像。
 
 ```csharp
 public void Save(string filename, BarCodeImageFormat format)
@@ -52,7 +52,7 @@ public void Save(string filename, BarCodeImageFormat format)
 
 ## Save(string) {#save_1}
 
-在当前设置下生成并保存复杂条码图像。
+在当前设置下生成并保存复杂的条码图像。
 
 ```csharp
 public void Save(string filename)

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает имя заданного SingleDecodeType в виде строки.
+description: Возвращает имя данного SingleDecodeType в виде строки.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.barcoderecognition/singledecodetype/tostring/
 ---
 ## SingleDecodeType.ToString method
 
-Возвращает имя заданного SingleDecodeType в виде строки.
+Возвращает имя данного SingleDecodeType в виде строки.
 
 ```csharp
 public override string ToString()

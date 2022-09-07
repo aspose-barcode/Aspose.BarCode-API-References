@@ -1,14 +1,14 @@
 ---
 title: FontUnit
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет определенный формат для текста включая начертание шрифта размер и атрибуты стиля где размер в свойстве Unit value.
+description: Определяет определенный формат для текста включая начертание шрифта размер и атрибуты стиля.  где размер в свойстве Unit value.
 type: docs
 weight: 750
 url: /ru/net/aspose.barcode.generation/fontunit/
 ---
 ## FontUnit class
 
-Определяет определенный формат для текста, включая начертание шрифта, размер и атрибуты стиля где размер в свойстве Unit value.
+Определяет определенный формат для текста, включая начертание шрифта, размер и атрибуты стиля. , где размер в свойстве Unit value.
 
 ```csharp
 public sealed class FontUnit
@@ -19,7 +19,7 @@ public sealed class FontUnit
 | Имя | Описание |
 | --- | --- |
 | [FamilyName](../../aspose.barcode.generation/fontunit/familyname) { get; set; } | Получает или задает имя шрифта этого шрифта. |
-| [Size](../../aspose.barcode.generation/fontunit/size) { get; } | Получает или устанавливает размер этого FontUnit в значении Unit. |
+| [Size](../../aspose.barcode.generation/fontunit/size) { get; } | Получает или задает размер этого FontUnit в значении Unit. |
 | [Style](../../aspose.barcode.generation/fontunit/style) { get; set; } | Получает или задает информацию о стиле для этого FontUnit. |
 
 ### Примеры

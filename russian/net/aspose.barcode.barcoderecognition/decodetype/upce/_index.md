@@ -1,14 +1,14 @@
 ---
 title: UPCE
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с UPC-E спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с СКП-Э спецификация штрих-кода
 type: docs
 weight: 730
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/upce/
 ---
 ## DecodeType.UPCE field
 
-Указывает, что данные должны быть декодированы с **UPC-E** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **СКП-Э** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType UPCE;

@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.BarCode for .NET API 参考
-description: 0  Null 或测试 1  字母 2  大字母
+description: 0 - 空或测试 1 - 字母 2 - 大字母
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/format/
 ---
 ## MailmarkCodetext.Format property
 
-"0" – Null 或测试 "1" – 字母 "2" – 大字母
+“0” - 空或测试 “1” - 字母 “2” - 大字母
 
 ```csharp
 public int Format { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion的人类可读字符串表示
+description: 返回一个人类可读的字符串表示Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/code128dataportion/tostring/
 ---
 ## Code128DataPortion.ToString method
 
-返回此[`Code128DataPortion`](../../code128dataportion)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`Code128DataPortion`](../../code128dataportion).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`Code128DataPortion`](../../code128dataportion)的字符串。
+代表这个的字符串[`Code128DataPortion`](../../code128dataportion).
 
 ### 也可以看看
 

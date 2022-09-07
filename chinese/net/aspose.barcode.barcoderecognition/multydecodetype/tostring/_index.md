@@ -16,9 +16,9 @@ public override string ToString()
 
 ### 返回值
 
-一个字符串，将 MultyDecodeType 实例表示为“singleDecodeType1, singleDecodeType2, ...”
+将 MultyDecodeType 实例表示为“singleDecodeType1, singleDecodeType2, ...”的字符串
 
-**"AllSupportedTypes"** 在包含所有类型时返回。
+**“所有支持的类型”**包含所有类型时返回。
 
 ### 也可以看看
 

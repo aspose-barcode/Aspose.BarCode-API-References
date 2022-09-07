@@ -22,7 +22,7 @@ public bool ExportToXml(string xmlFile)
 
 导出是否成功完成。
 
-返回 **True** 如果成功； **假** 否则
+退货 **真的**在成功的情况下； **错误的**否则
 
 ### 也可以看看
 
@@ -42,13 +42,13 @@ public bool ExportToXml(Stream xmlStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlStream | Stream | 用于保存的xml-stream |
+| xmlStream | Stream | 用于保存的 xml-stream |
 
 ### 返回值
 
 导出是否成功完成。
 
-返回 **True** 如果成功； **假** 否则
+退货 **真的**在成功的情况下； **错误的**否则
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /ru/net/aspose.barcode.generation/basegenerationparameters/border/
 ---
 ## BaseGenerationParameters.Border property
 
-Получает[`BorderParameters`](../../borderparameters), который содержит все свойства конфигурации для границы штрих-кода.
+Получает[`BorderParameters`](../../borderparameters) который содержит все свойства конфигурации для границы штрих-кода.
 
 ```csharp
 public BorderParameters Border { get; }

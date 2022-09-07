@@ -1,14 +1,14 @@
 ---
 title: DatabarStackedOmniDirectional
 second_title: Aspose.BarCode for .NET API 参考
-description: 代表 GS1 Databar 堆叠的全方位条码
+description: 代表GS1 Databar堆叠的全方位条码
 type: docs
 weight: 200
 url: /zh/net/aspose.barcode.generation/encodetypes/databarstackedomnidirectional/
 ---
 ## EncodeTypes.DatabarStackedOmniDirectional field
 
-代表 GS1 Databar 堆叠的全方位条码。
+代表GS1 Databar堆叠的全方位条码。
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarStackedOmniDirectional;

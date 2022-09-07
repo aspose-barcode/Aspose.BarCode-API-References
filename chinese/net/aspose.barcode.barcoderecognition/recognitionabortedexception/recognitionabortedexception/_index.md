@@ -1,14 +1,14 @@
 ---
 title: RecognitionAbortedException
 second_title: Aspose.BarCode for .NET API 参考
-description: 使用指定的识别中止消息初始化RecognitionAbortedExceptionaspose.barcode.barcoderecognition/recognitionabortedexception类的新实例
+description: 初始化RecognitionAbortedExceptionaspose.barcode.barcoderecognition/recognitionabortedexception具有指定识别中止消息的类
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/recognitionabortedexception/recognitionabortedexception/
 ---
 ## RecognitionAbortedException() {#constructor}
 
-使用指定的识别中止消息初始化[`RecognitionAbortedException`](../../recognitionabortedexception)类的新实例。
+初始化[`RecognitionAbortedException`](../../recognitionabortedexception)具有指定识别中止消息的类。
 
 ```csharp
 public RecognitionAbortedException()
@@ -24,7 +24,7 @@ public RecognitionAbortedException()
 
 ## RecognitionAbortedException(int) {#constructor_1}
 
-使用指定的识别中止消息初始化[`RecognitionAbortedException`](../../recognitionabortedexception)类的新实例。
+初始化[`RecognitionAbortedException`](../../recognitionabortedexception)具有指定识别中止消息的类。
 
 ```csharp
 public RecognitionAbortedException(int executionTime)
@@ -44,7 +44,7 @@ public RecognitionAbortedException(int executionTime)
 
 ## RecognitionAbortedException(string, int) {#constructor_2}
 
-使用指定的识别中止消息初始化[`RecognitionAbortedException`](../../recognitionabortedexception)类的新实例。
+初始化[`RecognitionAbortedException`](../../recognitionabortedexception)具有指定识别中止消息的类。
 
 ```csharp
 public RecognitionAbortedException(string message, int executionTime)
@@ -52,7 +52,7 @@ public RecognitionAbortedException(string message, int executionTime)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 异常的错误信息。 |
+| message | String | 异常的错误消息。 |
 | executionTime | Int32 | 当前识别会话的执行时间。 |
 
 ### 也可以看看

@@ -18,8 +18,8 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MultyDecodeType](multydecodetype#constructor)(params BaseDecodeType[]) | 初始化[`MultyDecodeType`](../multydecodetype)类的新实例。 |
-| [MultyDecodeType](multydecodetype#constructor_1)(params SingleDecodeType[]) | 初始化[`MultyDecodeType`](../multydecodetype)类的新实例。 |
+| [MultyDecodeType](multydecodetype#constructor)(params BaseDecodeType[]) | 初始化[`MultyDecodeType`](../multydecodetype)类. |
+| [MultyDecodeType](multydecodetype#constructor_1)(params SingleDecodeType[]) | 初始化[`MultyDecodeType`](../multydecodetype)类. |
 
 ## 特性
 
@@ -31,13 +31,13 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.barcode.barcoderecognition/multydecodetype/add)(SingleDecodeType) | 添加一个[`SingleDecodeType`](../singledecodetype)到 MultyDecodeType。 |
+| [Add](../../aspose.barcode.barcoderecognition/multydecodetype/add)(SingleDecodeType) | 再增加一个[`SingleDecodeType`](../singledecodetype)到 MultyDecodeType. |
 | [ContainsAll](../../aspose.barcode.barcoderecognition/multydecodetype/containsall)(params BaseDecodeType[]) | 检查这是否包含条形码类型中的所有类型。 |
 | override [ContainsAny](../../aspose.barcode.barcoderecognition/multydecodetype/containsany)(params BaseDecodeType[]) | 包含任何类型 |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_1)(MultyDecodeType) | 返回一个值，该值指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_3)(object) | 返回一个值，该值指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值。 |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值。 |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_1)(MultyDecodeType) | 返回一个值，指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals#equals_3)(object) | 返回一个值，指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/multydecodetype/gethashcode)() | 返回此实例的哈希码。 |
 | [GetSingleTypes](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypes)() | 表示单个类型的列表。 |
 | override [ToString](../../aspose.barcode.barcoderecognition/multydecodetype/tostring)() | 将 MultyDecodeType 表示为字符串的重写方法。 |
@@ -45,7 +45,7 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 ### 例子
 
-此示例演示如何创建组合 SingleDecodeType 和 MultiDecode 类型的复合 MultyDecode 类型。
+此示例展示了如何创建组合 SingleDecodeType 和 MultiDecode 类型的复合 MultyDecode 类型。
 
 ```csharp
 [C#]

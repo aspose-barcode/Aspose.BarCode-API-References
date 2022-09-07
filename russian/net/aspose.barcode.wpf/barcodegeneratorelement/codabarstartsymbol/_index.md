@@ -1,14 +1,14 @@
 ---
 title: CodabarStartSymbol
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Начальный символ.
+description: Стартовый символ.
 type: docs
 weight: 340
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codabarstartsymbol/
 ---
 ## BarcodeGeneratorElement.CodabarStartSymbol property
 
-Начальный символ.
+Стартовый символ.
 
 ```csharp
 public CodabarSymbol CodabarStartSymbol { get; set; }

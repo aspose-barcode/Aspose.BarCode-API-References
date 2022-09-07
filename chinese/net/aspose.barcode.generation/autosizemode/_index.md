@@ -18,9 +18,9 @@ public enum AutoSizeMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 自动调整大小被禁用。 |
-| Nearest | `1` | 将条码调整为最接近 BarCodeWidth 和 BarCodeHeight 属性指定的最小可能大小。 保留默认纵横比。 |
-| Interpolation | `2` | 将条码调整为指定大小。 大小可以通过 BarCodeWidth 和 BarCodeHeight 属性指定。 缩放后生成的条形码可能无效（不可读）。 |
+| None | `0` | 自动调整大小已禁用。 |
+| Nearest | `1` | 将条码调整为由 BarCodeWidth 和 BarCodeHeight 属性指定的最接近的最小尺寸。 保留默认纵横比。 |
+| Interpolation | `2` | 将条码调整为指定大小。 大小可以通过 BarCodeWidth 和 BarCodeHeight 属性指定。 缩放后生成的条码可能无效（不可读）。 |
 
 ### 也可以看看
 

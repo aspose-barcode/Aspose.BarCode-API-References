@@ -18,9 +18,9 @@ public class BarCodeRecognitionException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor)() | 初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)类的新实例。 |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor_1)(string) | 初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)类的新实例。 |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor_2)(string, Exception) | 使用指定的错误消息和当前异常初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)类的新实例。 |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor)() | 初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)类. |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor_1)(string) | 初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)类. |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor_2)(string, Exception) | 初始化[`BarCodeRecognitionException`](../barcoderecognitionexception)具有指定错误消息和当前异常的类。 |
 
 ### 也可以看看
 

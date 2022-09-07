@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает разрешение изображения штрих-кода. Одно значение для обоих измерений. Значение по умолчанию96 dpi.
+description: Получает или задает разрешение изображения штрих-кода. Одно значение для обоих размеров. Значение по умолчанию 96 dpi.
 type: docs
 weight: 90
 url: /ru/net/aspose.barcode.generation/basegenerationparameters/resolution/
 ---
 ## BaseGenerationParameters.Resolution property
 
-Получает или задает разрешение изображения штрих-кода. Одно значение для обоих измерений. Значение по умолчанию:96 dpi.
+Получает или задает разрешение изображения штрих-кода. Одно значение для обоих размеров. Значение по умолчанию: 96 dpi.
 
 ```csharp
 public float Resolution { get; set; }
@@ -18,7 +18,7 @@ public float Resolution { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Разрешениезначение параметра меньше или равно 0. |
+| ArgumentException | **Разрешение** значение параметра меньше или равно 0. |
 
 ### Смотрите также
 

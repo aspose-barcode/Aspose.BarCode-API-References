@@ -1,14 +1,14 @@
 ---
 title: Planet
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью Planet спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с планета спецификация штрих-кода
 type: docs
 weight: 560
 url: /ru/net/aspose.barcode.generation/encodetypes/planet/
 ---
 ## EncodeTypes.Planet field
 
-Указывает, что данные должны быть закодированы с помощью **Planet** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **планета** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Planet;

@@ -1,14 +1,14 @@
 ---
 title: DataMatrixParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrix 参数
+description: 数据矩阵参数
 type: docs
 weight: 680
 url: /zh/net/aspose.barcode.generation/datamatrixparameters/
 ---
 ## DataMatrixParameters class
 
-DataMatrix 参数。
+数据矩阵参数。
 
 ```csharp
 public class DataMatrixParameters
@@ -18,19 +18,19 @@ public class DataMatrixParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/datamatrixparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding) { get; set; } | 获取或设置代码文本的编码。 默认值:UTF-8 |
+| [AspectRatio](../../aspose.barcode.generation/datamatrixparameters/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding) { get; set; } | 获取或设置codetext的编码。 默认值：UTF-8 |
 | [Columns](../../aspose.barcode.generation/datamatrixparameters/columns) { get; set; } | 列数。 |
-| [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc) { get; set; } | 获取或设置 Datamatrix ECC 类型。 默认值:DataMatrixEccType.Ecc200。 |
-| [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode) { get; set; } | Datamatrix 条码的编码方式。 默认值:DataMatrixEncodeMode.Auto。 |
-| [MacroCharacters](../../aspose.barcode.generation/datamatrixparameters/macrocharacters) { get; set; } | 宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码。 只能与 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto 一起使用。 不能用于 EncodeTypes.GS1DataMatrix 默认值:MacroCharacters.None。 |
+| [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc) { get; set; } | 获取或设置Datamatrix ECC 类型。 默认值：DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode) { get; set; } | Datamatrix条码的编码模式。 默认值：DataMatrixEncodeMode.Auto. |
+| [MacroCharacters](../../aspose.barcode.generation/datamatrixparameters/macrocharacters) { get; set; } | 宏字符 05 和 06 值用于在特殊模式下获得更紧凑的编码。 只能用于 DataMatrixEccType.Ecc200 或 DataMatrixEccType.EccAuto. 不能用于 EncodeTypes.GS1DataMatrix 默认值：MacroCharacters.None. |
 | [Rows](../../aspose.barcode.generation/datamatrixparameters/rows) { get; set; } | 行数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/datamatrixparameters/tostring)() | 返回此[`DataMatrixParameters`](../datamatrixparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/datamatrixparameters/tostring)() | 返回一个人类可读的字符串表示[`DataMatrixParameters`](../datamatrixparameters). |
 
 ### 也可以看看
 

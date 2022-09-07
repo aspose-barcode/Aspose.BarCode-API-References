@@ -20,7 +20,7 @@ public static BaseEncodeType Parse(string stringEncodeType)
 
 ### 返回值
 
-的实例，如果转换成功；否则，它返回 。
+的实例 如果转换成功；否则，它返回.
 
 ### 也可以看看
 

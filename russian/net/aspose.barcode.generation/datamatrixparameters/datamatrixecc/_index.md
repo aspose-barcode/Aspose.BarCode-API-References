@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEcc
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает тип ECC Datamatrix. Значение по умолчаниюDataMatrixEccType.Ecc200.
+description: Получает или задает тип ECC Datamatrix. Значение по умолчанию DataMatrixEccType.Ecc200.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/datamatrixparameters/datamatrixecc/
 ---
 ## DataMatrixParameters.DataMatrixEcc property
 
-Получает или задает тип ECC Datamatrix. Значение по умолчанию:DataMatrixEccType.Ecc200.
+Получает или задает тип ECC Datamatrix. Значение по умолчанию: DataMatrixEccType.Ecc200.
 
 ```csharp
 public DataMatrixEccType DataMatrixEcc { get; set; }

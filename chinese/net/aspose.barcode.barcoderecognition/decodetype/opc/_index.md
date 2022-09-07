@@ -1,14 +1,14 @@
 ---
 title: OPC
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 OPC 条码规范 进行解码
+description: 指定数据应该被解码 OPC条码规格
 type: docs
 weight: 550
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/opc/
 ---
 ## DecodeType.OPC field
 
-指定数据应使用 **OPC** 条码规范 进行解码
+指定数据应该被解码 **OPC**条码规格
 
 ```csharp
 public static readonly SingleDecodeType OPC;

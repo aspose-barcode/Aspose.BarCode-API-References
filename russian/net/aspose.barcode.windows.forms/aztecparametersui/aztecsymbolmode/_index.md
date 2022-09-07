@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает режим ацтекского символа. Значение по умолчаниюAztecSymbolMode.Auto.
+description: Получает или задает режим символов ацтеков. Значение по умолчанию AztecSymbolMode.Auto.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.windows.forms/aztecparametersui/aztecsymbolmode/
 ---
 ## AztecParametersUI.AztecSymbolMode property
 
-Получает или задает режим ацтекского символа. Значение по умолчанию:AztecSymbolMode.Auto.
+Получает или задает режим символов ацтеков. Значение по умолчанию: AztecSymbolMode.Auto.
 
 ```csharp
 public AztecSymbolMode AztecSymbolMode { get; set; }

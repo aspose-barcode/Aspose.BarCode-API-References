@@ -1,14 +1,14 @@
 ---
 title: Code128
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取 Code128 识别条码的特殊数据Code128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparameters
+description: 获取特殊数据Code128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparametersCode128 识别条码
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/
 ---
 ## BarCodeExtendedParameters.Code128 property
 
-获取 Code128 识别条码的特殊数据[`Code128ExtendedParameters`](../../code128extendedparameters)
+获取特殊数据[`Code128ExtendedParameters`](../../code128extendedparameters)Code128 识别条码
 
 ```csharp
 public Code128ExtendedParameters Code128 { get; }
@@ -16,7 +16,7 @@ public Code128ExtendedParameters Code128 { get; }
 
 ### 适当的价值
 
-A特殊数据[`Code128ExtendedParameters`](../../code128extendedparameters)的 Code128 识别条码
+特殊数据[`Code128ExtendedParameters`](../../code128extendedparameters)Code128 识别条码
 
 ### 也可以看看
 

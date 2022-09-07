@@ -1,14 +1,14 @@
 ---
 title: Types1D
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用所有 1D 条形码符号检查数据
+description: 指定将使用所有 一维条码符号
 type: docs
 weight: 700
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/types1d/
 ---
 ## DecodeType.Types1D field
 
-指定将使用所有 **1D** 条形码符号检查数据
+指定将使用所有 **一维**条码符号
 
 ```csharp
 public static readonly MultyDecodeType Types1D;

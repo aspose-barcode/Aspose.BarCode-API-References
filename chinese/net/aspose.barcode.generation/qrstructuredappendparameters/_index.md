@@ -19,8 +19,8 @@ public class QrStructuredAppendParameters
 | 姓名 | 描述 |
 | --- | --- |
 | [ParityByte](../../aspose.barcode.generation/qrstructuredappendparameters/paritybyte) { get; set; } | 获取或设置 QR 结构化追加模式奇偶校验数据。 |
-| [SequenceIndicator](../../aspose.barcode.generation/qrstructuredappendparameters/sequenceindicator) { get; set; } | 获取或设置 QR 结构化附加模式条码的索引。索引从 0 开始。 |
-| [TotalCount](../../aspose.barcode.generation/qrstructuredappendparameters/totalcount) { get; set; } | 获取或设置 QR 结构化附加模式条码数量。最大值为 16。 |
+| [SequenceIndicator](../../aspose.barcode.generation/qrstructuredappendparameters/sequenceindicator) { get; set; } | 获取或设置 QR 结构化附加模式条码的索引。索引从 0. 开始 |
+| [TotalCount](../../aspose.barcode.generation/qrstructuredappendparameters/totalcount) { get; set; } | 获取或设置 QR 结构化附加模式条码数量。最大值为 16. |
 
 ### 也可以看看
 

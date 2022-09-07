@@ -20,7 +20,7 @@ public static BarcodeGenerator ImportFromXml(string xmlFile)
 
 ### 返回值
 
-BarcodeGenerator 实例
+条码生成器实例
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ BarcodeGenerator 实例
 
 ## ImportFromXml(Stream) {#importfromxml}
 
-从指定的 xml 流中导入 BarCode 属性并创建 BarcodeGenerator 实例。
+从指定的 xml 流导入 BarCode 属性并创建 BarcodeGenerator 实例。
 
 ```csharp
 public static BarcodeGenerator ImportFromXml(Stream xml)
@@ -44,7 +44,7 @@ public static BarcodeGenerator ImportFromXml(Stream xml)
 
 ### 返回值
 
-BarcodeGenerator 实例
+条码生成器实例
 
 ### 也可以看看
 

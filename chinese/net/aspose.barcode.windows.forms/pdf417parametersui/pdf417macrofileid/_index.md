@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroFileID
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置宏 Pdf417 条形码的文件 ID 用于 MacroPdf417
+description: 获取或设置宏 Pdf417 条码的文件 ID 用于 MacroPdf417.
 type: docs
 weight: 60
 url: /zh/net/aspose.barcode.windows.forms/pdf417parametersui/pdf417macrofileid/
 ---
 ## Pdf417ParametersUI.Pdf417MacroFileID property
 
-获取或设置宏 Pdf417 条形码的文件 ID。 用于 MacroPdf417。
+获取或设置宏 Pdf417 条码的文件 ID。 用于 MacroPdf417.
 
 ```csharp
 public int Pdf417MacroFileID { get; set; }

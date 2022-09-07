@@ -1,14 +1,14 @@
 ---
 title: Code32
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Code32 空白规范 进行解码
+description: 指定数据应该被解码 代码 32空白规范
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code32/
 ---
 ## DecodeType.Code32 field
 
-指定数据应使用 **Code32** 空白规范 进行解码
+指定数据应该被解码 **代码 32**空白规范
 
 ```csharp
 public static readonly SingleDecodeType Code32;

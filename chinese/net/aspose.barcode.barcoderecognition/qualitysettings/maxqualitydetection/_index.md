@@ -1,16 +1,19 @@
 ---
 title: MaxQualityDetection
 second_title: Aspose.BarCode for .NET API 参考
-description: MaxQualityDetection 识别质量预设与 NormalQuality 相同但质量最高DetectorSettingsaspose.barcode.barcoderecognition/qualitysettings/detectorsettings 允许检测对角和损坏的条码
+description: MaxQualityDetection 识别质量预设与 NormalQuality 相同但质量最高DetectorSettingsaspose.barcode.barcoderecognition/qualitysettings/detectorsettings. 允许检测对角和损坏的条码
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/maxqualitydetection/
 ---
 ## QualitySettings.MaxQualityDetection property
 
-MaxQualityDetection 识别质量预设。与 NormalQuality 相同，但质量最高[`DetectorSettings`](../detectorsettings)。 允许检测对角和损坏的条码。
+MaxQualityDetection 识别质量预设。与 NormalQuality 相同，但质量最高[`DetectorSettings`](../detectorsettings). 允许检测对角和损坏的条码。
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.MaxQualityDetection; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.MaxQualityDetection;
+```
 
 ```csharp
 public static QualitySettings MaxQualityDetection { get; }

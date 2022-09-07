@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоBorderParametersaspose.barcode.generation/borderparameters.
+description: Возвращает удобочитаемое строковое представление этогоBorderParametersaspose.barcode.generation/borderparameters .
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/borderparameters/tostring/
 ---
 ## BorderParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`BorderParameters`](../../borderparameters).
+Возвращает удобочитаемое строковое представление этого[`BorderParameters`](../../borderparameters) .
 
 ```csharp
 public override string ToString()

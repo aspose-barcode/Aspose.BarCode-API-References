@@ -1,14 +1,14 @@
 ---
 title: DataBarRowsProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataBarRowsProperty
+description: DataBarRows 属性
 type: docs
 weight: 1560
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/databarrowsproperty/
 ---
 ## BarcodeGeneratorElement.DataBarRowsProperty field
 
-DataBarRowsProperty
+DataBarRows 属性
 
 ```csharp
 public static DependencyProperty DataBarRowsProperty;

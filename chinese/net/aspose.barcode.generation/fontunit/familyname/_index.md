@@ -1,14 +1,14 @@
 ---
 title: FamilyName
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置此 Font 的面名
+description: 获取或设置此字体的面名
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/fontunit/familyname/
 ---
 ## FontUnit.FamilyName property
 
-获取或设置此 Font 的面名。
+获取或设置此字体的面名。
 
 ```csharp
 public string FamilyName { get; set; }

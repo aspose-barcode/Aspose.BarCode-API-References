@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Macro Идентификатор сегмента штрих-кода Pdf417.
+description: Идентификатор сегмента штрих-кода Macro Pdf417.
 type: docs
 weight: 840
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentid/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroSegmentID property
 
-Macro Идентификатор сегмента штрих-кода Pdf417.
+Идентификатор сегмента штрих-кода Macro Pdf417.
 
 ```csharp
 public int Pdf417MacroSegmentID { get; set; }

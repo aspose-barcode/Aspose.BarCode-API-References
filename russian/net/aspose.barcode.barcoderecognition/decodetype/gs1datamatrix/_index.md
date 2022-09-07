@@ -1,14 +1,14 @@
 ---
 title: GS1DataMatrix
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с помощью GS1DataMatrix символика штрих-кода
+description: Указывает что данные должны быть декодированы с GS1DataMatrix символика штрих-кода
 type: docs
 weight: 340
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/
 ---
 ## DecodeType.GS1DataMatrix field
 
-Указывает, что данные должны быть декодированы с помощью **GS1DataMatrix** символика штрих-кода
+Указывает, что данные должны быть декодированы с **GS1DataMatrix** символика штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType GS1DataMatrix;

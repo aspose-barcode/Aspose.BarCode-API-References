@@ -19,25 +19,25 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 | 姓名 | 描述 |
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | 测试所有参数是否只有默认值 |
-| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee) { get; } | 宏 PDF417 收件人名称（可选）。 |
+| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee) { get; } | 宏 PDF417 收件人姓名（可选）。 |
 | [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum) { get; } | 宏 PDF417 校验和（可选）。 |
 | [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid) { get; } | 获取条形码的文件 ID，仅适用于 MacroPdf417。 |
 | [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename) { get; } | 宏 PDF417 文件名（可选）。 |
 | [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize) { get; } | 宏 PDF417 文件大小（可选）。 |
 | [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | 获取条形码的段 ID，仅适用于 MacroPdf417。 |
 | [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | 获取宏 pdf417 条码段数。默认值为 -1。 |
-| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | 宏 PDF417 发件人名称（可选）。 |
+| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | 宏 PDF417 发件人姓名（可选）。 |
 | [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp) { get; } | 宏 PDF417 时间戳（可选）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | 返回此[`Pdf417ExtendedParameters`](../pdf417extendedparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | 返回一个值，指示第一个[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | 返回一个值，指示第一个[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | 返回一个人类可读的字符串表示[`Pdf417ExtendedParameters`](../pdf417extendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | 返回一个值，指示是否第一个[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | 返回一个值，指示是否第一个[`Pdf417ExtendedParameters`](../pdf417extendedparameters)值与第二个不同。 |
 
 ### 例子
 

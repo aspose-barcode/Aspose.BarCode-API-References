@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此CaptionUIaspose.barcode.windows.forms/captionui的人类可读字符串表示
+description: 返回一个人类可读的字符串表示CaptionUIaspose.barcode.windows.forms/captionui.
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.windows.forms/captionui/tostring/
 ---
 ## CaptionUI.ToString method
 
-返回此[`CaptionUI`](../../captionui)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`CaptionUI`](../../captionui).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`CaptionUI`](../../captionui)的字符串。
+代表这个的字符串[`CaptionUI`](../../captionui).
 
 ### 也可以看看
 

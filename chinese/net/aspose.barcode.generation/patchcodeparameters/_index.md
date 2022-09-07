@@ -18,14 +18,14 @@ public class PatchCodeParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtraBarcodeText](../../aspose.barcode.generation/patchcodeparameters/extrabarcodetext) { get; set; } | 在页面模式下生成 PatchCode 时，指定额外 QR 条码的代码文本。 |
-| [PatchFormat](../../aspose.barcode.generation/patchcodeparameters/patchformat) { get; set; } | 补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。 默认值:PatchFormat.PatchOnly |
+| [ExtraBarcodeText](../../aspose.barcode.generation/patchcodeparameters/extrabarcodetext) { get; set; } | 在页面模式下生成 PatchCode 时，为额外的 QR 条形码指定代码文本。 |
+| [PatchFormat](../../aspose.barcode.generation/patchcodeparameters/patchformat) { get; set; } | 补丁码格式。选择 PatchOnly 以生成单个 PatchCode。使用页面格式生成以 PatchCodes 为边框的 Patch 页面。 默认值：PatchFormat.PatchOnly |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/patchcodeparameters/tostring)() | 返回此[`PatchCodeParameters`](../patchcodeparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/patchcodeparameters/tostring)() | 返回一个人类可读的字符串表示[`PatchCodeParameters`](../patchcodeparameters). |
 
 ### 也可以看看
 

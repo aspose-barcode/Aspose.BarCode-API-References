@@ -1,14 +1,14 @@
 ---
 title: CaptionAbovePadding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Заголовок над отступами.
+description: Надпись над отступами.
 type: docs
 weight: 200
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovepadding/
 ---
 ## BarcodeGeneratorElement.CaptionAbovePadding property
 
-Заголовок над отступами.
+Надпись над отступами.
 
 ```csharp
 public Thickness CaptionAbovePadding { get; set; }

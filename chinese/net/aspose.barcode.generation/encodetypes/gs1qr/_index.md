@@ -1,14 +1,14 @@
 ---
 title: GS1QR
 second_title: Aspose.BarCode for .NET API 参考
-description: GS1 字符串格式的二维条码符号 QR
+description: 带有 GS1 字符串格式的二维条码符号 QR
 type: docs
 weight: 350
 url: /zh/net/aspose.barcode.generation/encodetypes/gs1qr/
 ---
 ## EncodeTypes.GS1QR field
 
-GS1 字符串格式的二维条码符号 QR
+带有 GS1 字符串格式的二维条码符号 QR
 
 ```csharp
 public static readonly SymbologyEncodeType GS1QR;

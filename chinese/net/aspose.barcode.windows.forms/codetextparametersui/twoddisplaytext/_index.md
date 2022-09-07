@@ -1,14 +1,14 @@
 ---
 title: TwoDDisplayText
 second_title: Aspose.BarCode for .NET API 参考
-description: 将显示的文本而不是二维条码中的代码文本 用于Aztec Pdf417 DataMatrix QR MaxiCode DotCode
+description: 将在二维条码中显示的文本而不是代码文本 用于AztecPdf417DataMatrixQRMaxiCodeDotCode
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.windows.forms/codetextparametersui/twoddisplaytext/
 ---
 ## CodetextParametersUI.TwoDDisplayText property
 
-将显示的文本，而不是二维条码中的代码文本。 用于:Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode
+将在二维条码中显示的文本而不是代码文本。 用于：Aztec、Pdf417、DataMatrix、QR、MaxiCode、DotCode
 
 ```csharp
 public string TwoDDisplayText { get; set; }

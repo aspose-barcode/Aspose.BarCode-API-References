@@ -1,14 +1,14 @@
 ---
 title: Is1D
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет содержит ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetypeлюбую символику одномерного штрих-кода
+description: Определяет является ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype содержит любой одномерный штрих-код symbology
 type: docs
 weight: 760
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/is1d/
 ---
 ## DecodeType.Is1D method
 
-Определяет, содержит ли указанный[`BaseDecodeType`](../../basedecodetype)любую символику одномерного штрих-кода
+Определяет, является ли указанный[`BaseDecodeType`](../../basedecodetype) содержит любой одномерный штрих-код symbology
 
 ```csharp
 public static bool Is1D(BaseDecodeType symbology)
@@ -16,11 +16,11 @@ public static bool Is1D(BaseDecodeType symbology)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype)для тестирования. |
+| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype) тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** if[`BaseDecodeType`](../../basedecodetype)содержит любую символику одномерного штрих-кода; в противном случае возвращает **false** .
+Возвращает **истинный** если[`BaseDecodeType`](../../basedecodetype) содержит любую символику одномерного штрих-кода; в противном случае возвращается **ЛОЖЬ**.
 
 ### Смотрите также
 

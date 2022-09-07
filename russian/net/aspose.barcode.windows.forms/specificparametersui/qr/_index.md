@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры QRQrParametersaspose.barcode.generation/qrparameters. Используется для QR.
+description: Получает или устанавливает параметры QRQrParametersaspose.barcode.generation/qrparameters . Используется для QR.
 type: docs
 weight: 140
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/qr/
 ---
 ## SpecificParametersUI.QR property
 
-Получает или устанавливает параметры QR[`QrParameters`](../../../aspose.barcode.generation/qrparameters). Используется для QR.
+Получает или устанавливает параметры QR[`QrParameters`](../../../aspose.barcode.generation/qrparameters) . Используется для QR.
 
 ```csharp
 public QrParametersUI QR { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает хеш-код для этого объекта.
+description: Возвращает хэш-код для этого объекта.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.generation/unit/gethashcode/
 ---
 ## Unit.GetHashCode method
 
-Возвращает хеш-код для этого объекта.
+Возвращает хэш-код для этого объекта.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-32-битный целочисленный хеш-код со знаком.
+32-битный целочисленный хэш-код со знаком.
 
 ### Смотрите также
 

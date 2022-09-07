@@ -1,14 +1,14 @@
 ---
 title: MultyDecodeType
 second_title: Aspose.BarCode for .NET API 参考
-description: 初始化MultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetype类的新实例
+description: 初始化MultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/multydecodetype/multydecodetype/
 ---
 ## MultyDecodeType(params SingleDecodeType[]) {#constructor_1}
 
-初始化[`MultyDecodeType`](../../multydecodetype)类的新实例。
+初始化[`MultyDecodeType`](../../multydecodetype)类.
 
 ```csharp
 public MultyDecodeType(params SingleDecodeType[] barcodeTypes)
@@ -29,7 +29,7 @@ public MultyDecodeType(params SingleDecodeType[] barcodeTypes)
 
 ## MultyDecodeType(params BaseDecodeType[]) {#constructor}
 
-初始化[`MultyDecodeType`](../../multydecodetype)类的新实例。
+初始化[`MultyDecodeType`](../../multydecodetype)类.
 
 ```csharp
 public MultyDecodeType(params BaseDecodeType[] barcodeTypes)
@@ -37,7 +37,7 @@ public MultyDecodeType(params BaseDecodeType[] barcodeTypes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | 多和单解码类型数组 |
+| barcodeTypes | BaseDecodeType[] | 多个和单个解码类型的数组 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CodabarStopSymbol
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Стоп-символ символ системы символов Codabar. Значение по умолчаниюCodabarSymbol.A
+description: Стоп-символ символ символики Codabar. Значение по умолчанию CodabarSymbol.A
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/codabarparameters/codabarstopsymbol/
 ---
 ## CodabarParameters.CodabarStopSymbol property
 
-Стоп-символ (символ) системы символов Codabar. Значение по умолчанию:CodabarSymbol.A
+Стоп-символ (символ) символики Codabar. Значение по умолчанию: CodabarSymbol.A
 
 ```csharp
 public CodabarSymbol CodabarStopSymbol { get; set; }

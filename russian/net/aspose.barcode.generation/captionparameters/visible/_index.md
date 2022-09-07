@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Видимость текста подписи. Значение по умолчаниюfalse.
+description: Видимость текста заголовка. Значение по умолчанию false.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.generation/captionparameters/visible/
 ---
 ## CaptionParameters.Visible property
 
-Видимость текста подписи. Значение по умолчанию:false.
+Видимость текста заголовка. Значение по умолчанию: false.
 
 ```csharp
 public bool Visible { get; set; }

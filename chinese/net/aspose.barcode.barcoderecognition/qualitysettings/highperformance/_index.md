@@ -1,16 +1,19 @@
 ---
 title: HighPerformance
 second_title: Aspose.BarCode for .NET API 参考
-description: 高性能识别质量预设在此模式下可以很好地识别高质量的条码
+description: 高性能识别质量预设在这种模式下可以很好地识别高质量的条形码
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/highperformance/
 ---
 ## QualitySettings.HighPerformance property
 
-高性能识别质量预设。在此模式下可以很好地识别高质量的条码。
+高性能识别质量预设。在这种模式下可以很好地识别高质量的条形码。
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.HighPerformance; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.HighPerformance;
+```
 
 ```csharp
 public static QualitySettings HighPerformance { get; }

@@ -1,14 +1,14 @@
 ---
 title: TotalCount
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение равно 16.
+description: Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение 16.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/qrstructuredappendparameters/totalcount/
 ---
 ## QrStructuredAppendParameters.TotalCount property
 
-Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение равно 16.
+Получает или задает количество штрих-кодов режима структурированного добавления QR. Максимальное значение 16.
 
 ```csharp
 public int TotalCount { get; set; }

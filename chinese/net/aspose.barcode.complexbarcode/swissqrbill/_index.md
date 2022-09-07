@@ -19,22 +19,22 @@ public sealed class SwissQRBill : IEquatable<SwissQRBill>
 | 姓名 | 描述 |
 | --- | --- |
 | [Account](../../aspose.barcode.complexbarcode/swissqrbill/account) { get; set; } | 获取或设置债权人的帐号。 |
-| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes) { get; set; } | 获取 ors 设置替代支付方案。 |
-| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount) { get; set; } | 获取或设置支付金额。 |
+| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes) { get; set; } | 获取或设置替代支付方案。 |
+| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount) { get; set; } | 获取或设置支付金额 |
 | [BillInformation](../../aspose.barcode.complexbarcode/swissqrbill/billinformation) { get; set; } | 获取或设置附加结构化账单信息。 |
 | [Creditor](../../aspose.barcode.complexbarcode/swissqrbill/creditor) { get; set; } | 获取或设置债权人地址。 |
 | [Currency](../../aspose.barcode.complexbarcode/swissqrbill/currency) { get; set; } | 获取或设置支付货币。 |
 | [Debtor](../../aspose.barcode.complexbarcode/swissqrbill/debtor) { get; set; } | 获取或设置债务人地址。 |
 | [Reference](../../aspose.barcode.complexbarcode/swissqrbill/reference) { get; set; } | 获取或设置债权人付款参考。 |
 | [UnstructuredMessage](../../aspose.barcode.complexbarcode/swissqrbill/unstructuredmessage) { get; set; } | 获取或设置附加的非结构化消息。 |
-| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version) { get; set; } | 获取或设置 SwissQR 账单标准的版本。 |
+| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version) { get; set; } | 获取或设置SwissQR账单标准的版本。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference)(string) | 从原始字符串创建和设置 ISO11649 债权人参考，方法是在 字符串前面加上“RF”和模 97 校验和。 |
-| override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals_1)(object) | 判断指定对象是否等于当前对象。 |
+| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference)(string) | 从原始字符串中创建并设置 ISO11649 债权人参考，方法是为带有“RF”和模 97 校验和的字符串添加前缀 。 |
+| override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals_1)(object) | 确定指定对象是否等于当前对象。 |
 | [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals)(SwissQRBill) | 判断指定账单是否等于当前账单。 |
 | override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode)() | 获取此实例的哈希码。 |
 

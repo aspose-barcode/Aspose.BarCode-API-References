@@ -18,15 +18,15 @@ public abstract class BaseDecodeType : IEquatable<BaseDecodeType>
 
 | Имя | Описание |
 | --- | --- |
-| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany)(params BaseDecodeType[]) | Определяет, входит ли какой-либо из заданных типов декодирования в |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../basedecodetype)значению. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_1)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`MultyDecodeType`](../multydecodetype)значению. |
-| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseDecodeType`](../basedecodetype)значению. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_2)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`SingleDecodeType`](../singledecodetype)значению. |
+| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany)(params BaseDecodeType[]) | Определяет, включен ли какой-либо из заданных типов декодирования в |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals)(BaseDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../basedecodetype) значение. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_1)(MultyDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`MultyDecodeType`](../multydecodetype) значение. |
+| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_3)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseDecodeType`](../basedecodetype) значение. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_2)(SingleDecodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`SingleDecodeType`](../singledecodetype) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse)(string, out BaseDecodeType) | Преобразует строковое представление BaseDecodeType в его экземпляр, определив конкретный тип. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse_1)(string, out MultyDecodeType) | Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse_2)(string, out SingleDecodeType) | Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse)(string, out BaseDecodeType) | Преобразует строковое представление BaseDecodeType в его экземпляр, определив конкретный тип. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse_1)(string, out MultyDecodeType) | Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse_2)(string, out SingleDecodeType) | Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEccProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrixEccProperty
+description: DataMatrixEcc 属性
 type: docs
 weight: 1600
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixeccproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixEccProperty field
 
-DataMatrixEccProperty
+DataMatrixEcc 属性
 
 ```csharp
 public static DependencyProperty DataMatrixEccProperty;

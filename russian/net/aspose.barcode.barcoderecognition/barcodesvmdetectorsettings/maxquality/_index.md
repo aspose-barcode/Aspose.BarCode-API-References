@@ -10,7 +10,7 @@ url: /ru/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/maxqua
 
 Предустановка обнаружения максимального качества.
 
-По умолчанию дляMaxQualityDetectionиMaxBarCodes
+По умолчанию дляMaxQualityDetection а такжеMaxBarCodes
 
 ```csharp
 public static BarcodeSvmDetectorSettings MaxQuality { get; }

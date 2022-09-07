@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/barcodeparameters/filledbars/
 ---
 ## BarcodeParameters.FilledBars property
 
-获取或设置指示条是否填充的值。 仅适用于一维条码。 默认值:true。
+获取或设置指示条是否填充的值。 仅适用于一维条码。 默认值：true。
 
 ```csharp
 public bool FilledBars { get; set; }

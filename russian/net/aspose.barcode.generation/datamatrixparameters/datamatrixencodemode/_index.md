@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEncodeMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Режим кодирования штрих-кода Datamatrix. Значение по умолчаниюDataMatrixEncodeMode.Auto.
+description: Режим кодирования штрих-кода Datamatrix. Значение по умолчанию DataMatrixEncodeMode.Auto.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/datamatrixparameters/datamatrixencodemode/
 ---
 ## DataMatrixParameters.DataMatrixEncodeMode property
 
-Режим кодирования штрих-кода Datamatrix. Значение по умолчанию:DataMatrixEncodeMode.Auto.
+Режим кодирования штрих-кода Datamatrix. Значение по умолчанию: DataMatrixEncodeMode.Auto.
 
 ```csharp
 public DataMatrixEncodeMode DataMatrixEncodeMode { get; set; }

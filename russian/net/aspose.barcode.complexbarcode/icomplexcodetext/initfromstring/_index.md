@@ -1,14 +1,14 @@
 ---
 title: InitFromString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует экземпляр со сконструированным кодовым текстом.
+description: Инициализирует экземпляр с построенным кодовым текстом.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.complexbarcode/icomplexcodetext/initfromstring/
 ---
 ## IComplexCodetext.InitFromString method
 
-Инициализирует экземпляр со сконструированным кодовым текстом.
+Инициализирует экземпляр с построенным кодовым текстом.
 
 ```csharp
 public void InitFromString(string constructedCodetext)

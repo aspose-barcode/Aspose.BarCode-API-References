@@ -1,14 +1,14 @@
 ---
 title: QRErrorLevel
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Уровень исправления ошибок Рида-Соломона. От низкого к высокомуLevelL LevelM LevelQ LevelH.
+description: Уровень исправления ошибок Рида-Соломона. От низкого к высокому LevelL LevelM LevelQ LevelH.
 type: docs
 weight: 900
 url: /ru/net/aspose.barcode.generation/qrerrorlevel/
 ---
 ## QRErrorLevel enumeration
 
-Уровень исправления ошибок Рида-Соломона. От низкого к высокому:LevelL, LevelM, LevelQ, LevelH.
+Уровень исправления ошибок Рида-Соломона. От низкого к высокому: LevelL, LevelM, LevelQ, LevelH.
 
 ```csharp
 public enum QRErrorLevel
@@ -18,10 +18,10 @@ public enum QRErrorLevel
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| LevelL | `0` | Позволяет восстановить 7% текста кода |
-| LevelM | `1` | Позволяет восстановить 15% текста кода |
-| LevelQ | `2` | Позволяет восстановить 25% текста кода |
-| LevelH | `3` | Позволяет восстановить 30% текста кода |
+| LevelL | `0` | Позволяет восстановить 7% кода text |
+| LevelM | `1` | Позволяет восстановить 15% кода text |
+| LevelQ | `2` | Позволяет восстановить 25% кода text |
+| LevelH | `3` | Позволяет восстановить 30% кода text |
 
 ### Смотрите также
 

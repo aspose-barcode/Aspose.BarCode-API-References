@@ -1,14 +1,14 @@
 ---
 title: StructuredAppend
 second_title: Справочник по API Aspose.BarCode для .NET
-description: QR структурированные параметры добавления.
+description: Параметры структурированного добавления QR.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.generation/qrparameters/structuredappend/
 ---
 ## QrParameters.StructuredAppend property
 
-QR структурированные параметры добавления.
+Параметры структурированного добавления QR.
 
 ```csharp
 public QrStructuredAppendParameters StructuredAppend { get; set; }

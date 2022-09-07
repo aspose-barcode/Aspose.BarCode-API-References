@@ -18,11 +18,11 @@ public abstract class BaseDecodeType : IEquatable<BaseDecodeType>
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany)(params BaseDecodeType[]) | 确定任何给定的解码类型是否包含在 |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值。 |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_1)(MultyDecodeType) | 返回一个值，该值指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值。 |
-| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_3)(object) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值。 |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_2)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值。 |
+| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany)(params BaseDecodeType[]) | 确定任何给定的解码类型是否包含在 中 |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals)(BaseDecodeType) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_1)(MultyDecodeType) | 返回一个值，指示此实例是否等于指定的[`MultyDecodeType`](../multydecodetype)值. |
+| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_3)(object) | 返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../basedecodetype)值. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals#equals_2)(SingleDecodeType) | 返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../singledecodetype)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode)() | 返回此实例的哈希码。 |
 | static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse)(string, out BaseDecodeType) | 在确定具体类型后，将 BaseDecodeType 的字符串表示形式转换为其实例。 返回值指示转换是成功还是失败。 |
 | static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse#tryparse_1)(string, out MultyDecodeType) | 将 MultyDecodeType 的字符串表示形式转换为其实例。 返回值指示转换是成功还是失败。 |

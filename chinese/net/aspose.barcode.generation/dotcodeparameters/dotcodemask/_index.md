@@ -1,14 +1,14 @@
 ---
 title: DotCodeMask
 second_title: Aspose.BarCode for .NET API 参考
-description: Dotcode 条码的掩码 默认值-1
+description: Dotcode 条码掩码. 默认值-1.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/dotcodeparameters/dotcodemask/
 ---
 ## DotCodeParameters.DotCodeMask property
 
-Dotcode 条码的掩码。 默认值:-1。
+Dotcode 条码掩码. 默认值：-1.
 
 ```csharp
 public int DotCodeMask { get; set; }

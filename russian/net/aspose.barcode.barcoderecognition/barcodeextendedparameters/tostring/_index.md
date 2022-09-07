@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоBarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters.
+description: Возвращает удобочитаемое строковое представление этогоBarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters .
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring/
 ---
 ## BarCodeExtendedParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`BarCodeExtendedParameters`](../../barcodeextendedparameters).
+Возвращает удобочитаемое строковое представление этого[`BarCodeExtendedParameters`](../../barcodeextendedparameters) .
 
 ```csharp
 public override string ToString()

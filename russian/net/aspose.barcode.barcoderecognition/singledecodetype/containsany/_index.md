@@ -1,14 +1,14 @@
 ---
 title: ContainsAny
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее включен ли данный экземпляр в указанный список.
+description: Возвращает значение указывающее включен ли этот экземпляр в указанный список.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/singledecodetype/containsany/
 ---
 ## SingleDecodeType.ContainsAny method
 
-Возвращает значение, указывающее, включен ли данный экземпляр в указанный список.
+Возвращает значение, указывающее, включен ли этот экземпляр в указанный список.
 
 ```csharp
 public override bool ContainsAny(params BaseDecodeType[] types)
@@ -20,7 +20,7 @@ public override bool ContainsAny(params BaseDecodeType[] types)
 
 ### Возвращаемое значение
 
-Значение равно true, если какие-либо типы включены в
+Значение является истинным, если какие-либо типы включены в
 
 ### Смотрите также
 

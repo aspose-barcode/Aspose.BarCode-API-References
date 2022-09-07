@@ -1,14 +1,14 @@
 ---
 title: Matrix2of5
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Matrix 2 of 5 条码规范
+description: 指定数据应该被解码 矩阵 2 的 5条码规格
 type: docs
 weight: 460
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/matrix2of5/
 ---
 ## DecodeType.Matrix2of5 field
 
-指定数据应使用 **Matrix 2 of 5** 条码规范
+指定数据应该被解码 **矩阵 2 的 5**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Matrix2of5;

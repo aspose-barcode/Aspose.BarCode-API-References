@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.generation/barcodegenerator/
 
 BarcodeGenerator 用于生成后端条形码图像。
 
-支持的符号: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, 二维码 ...
+supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14 , SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
 
 ```csharp
 public sealed class BarcodeGenerator : Component
@@ -29,13 +29,13 @@ public sealed class BarcodeGenerator : Component
 | --- | --- |
 | [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype) { get; set; } | 条码符号类型。 |
 | [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext) { get; set; } | 要编码的文本。 |
-| [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters) { get; } | 生成参数。 |
+| [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters) { get; } | 生成参数. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml)(Stream) | 从指定的 xml 流中导入 BarCode 属性并创建 BarcodeGenerator 实例。 |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml)(Stream) | 从指定的 xml 流导入 BarCode 属性并创建 BarcodeGenerator 实例。 |
 | static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml#importfromxml_1)(string) | 从指定的 xml 文件导入 BarCode 属性并创建 BarcodeGenerator 实例。 |
 | [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf)(DrawingContext) | 在 WPF 画布上绘制条形码图像。 |
 | [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml#exporttoxml)(Stream) | 将条形码属性导出到指定的 xml 流 |
@@ -47,7 +47,7 @@ public sealed class BarcodeGenerator : Component
 
 ### 例子
 
-此示例说明如何创建和保存条形码图像。
+此示例显示如何创建和保存条形码图像。
 
 ```csharp
 [C#]

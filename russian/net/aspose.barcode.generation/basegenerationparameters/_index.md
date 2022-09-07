@@ -18,16 +18,16 @@ public class BaseGenerationParameters
 
 | Имя | Описание |
 | --- | --- |
-| [AutoSizeMode](../../aspose.barcode.generation/basegenerationparameters/autosizemode) { get; set; } | Задает различные типы режимов автоматического изменения размера. Значение по умолчанию:AutoSizeMode.None. |
-| [BackColor](../../aspose.barcode.generation/basegenerationparameters/backcolor) { get; set; } | Цвет фона изображения штрих-кода. Значение по умолчанию:Color.White. См.Color. |
-| [Barcode](../../aspose.barcode.generation/basegenerationparameters/barcode) { get; } | Получает[`BarcodeParameters`](../barcodeparameters), содержащий все свойства штрих-кода. |
-| [Border](../../aspose.barcode.generation/basegenerationparameters/border) { get; } | Получает[`BorderParameters`](../borderparameters), который содержит все свойства конфигурации для границы штрих-кода. |
-| [CaptionAbove](../../aspose.barcode.generation/basegenerationparameters/captionabove) { get; } | Заголовок над изображением штрих-кода. См.[`CaptionParameters`](../captionparameters). |
-| [CaptionBelow](../../aspose.barcode.generation/basegenerationparameters/captionbelow) { get; } | Заголовок под изображением штрих-кода. См.[`CaptionParameters`](../captionparameters). |
-| [ImageHeight](../../aspose.barcode.generation/basegenerationparameters/imageheight) { get; set; } | Высота изображения штрих-кода, когда свойство[`AutoSizeMode`](./autosizemode)установлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. |
-| [ImageWidth](../../aspose.barcode.generation/basegenerationparameters/imagewidth) { get; set; } | Ширина изображения штрих-кода, когда свойство[`AutoSizeMode`](./autosizemode)установлено в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. |
-| [Resolution](../../aspose.barcode.generation/basegenerationparameters/resolution) { get; set; } | Получает или задает разрешение изображения штрих-кода. Одно значение для обоих измерений. Значение по умолчанию:96 dpi. |
-| [RotationAngle](../../aspose.barcode.generation/basegenerationparameters/rotationangle) { get; set; } | Угол поворота изображения штрих-кода, измеряемый в градусах, например, RotationAngle = 0 или RotationAngle = 360 означает отсутствие поворота. Если RotationAngle НЕ равен 90, 180, 270 или 0, сканеру может быть сложнее считывать изображение. Значение по умолчанию:0. |
+| [AutoSizeMode](../../aspose.barcode.generation/basegenerationparameters/autosizemode) { get; set; } | Определяет различные типы режимов автоматического изменения размера. Значение по умолчанию: AutoSizeMode.None. |
+| [BackColor](../../aspose.barcode.generation/basegenerationparameters/backcolor) { get; set; } | Цвет фона изображения штрих-кода. Значение по умолчанию: Color.White. См.Color . |
+| [Barcode](../../aspose.barcode.generation/basegenerationparameters/barcode) { get; } | Получает[`BarcodeParameters`](../barcodeparameters) который содержит все свойства штрих-кода. |
+| [Border](../../aspose.barcode.generation/basegenerationparameters/border) { get; } | Получает[`BorderParameters`](../borderparameters) который содержит все свойства конфигурации для границы штрих-кода. |
+| [CaptionAbove](../../aspose.barcode.generation/basegenerationparameters/captionabove) { get; } | Подпись над изображением штрих-кода. Видеть[`CaptionParameters`](../captionparameters) . |
+| [CaptionBelow](../../aspose.barcode.generation/basegenerationparameters/captionbelow) { get; } | Подпись под изображением штрих-кода. Видеть[`CaptionParameters`](../captionparameters) . |
+| [ImageHeight](../../aspose.barcode.generation/basegenerationparameters/imageheight) { get; set; } | Высота изображения штрих-кода при[`AutoSizeMode`](./autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation. |
+| [ImageWidth](../../aspose.barcode.generation/basegenerationparameters/imagewidth) { get; set; } | Ширина изображения штрих-кода при[`AutoSizeMode`](./autosizemode) установлено значение AutoSizeMode.Nearest или AutoSizeMode.Interpolation. |
+| [Resolution](../../aspose.barcode.generation/basegenerationparameters/resolution) { get; set; } | Получает или задает разрешение изображения штрих-кода. Одно значение для обоих размеров. Значение по умолчанию: 96 dpi. |
+| [RotationAngle](../../aspose.barcode.generation/basegenerationparameters/rotationangle) { get; set; } | Угол поворота изображения штрих-кода, измеряемый в градусах, например, RotationAngle = 0 или RotationAngle = 360 означает отсутствие поворота. Если RotationAngle НЕ равен 90, 180, 270 или 0, сканеру может быть сложнее считывать изображение. Значение по умолчанию: 0. |
 
 ### Смотрите также
 

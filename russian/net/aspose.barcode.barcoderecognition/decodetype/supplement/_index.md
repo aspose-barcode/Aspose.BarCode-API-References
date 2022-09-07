@@ -1,14 +1,14 @@
 ---
 title: Supplement
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с помощью SupplementEAN2 EAN5 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Дополнение EAN2 EAN5 спецификация штрих-кода
 type: docs
 weight: 680
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/supplement/
 ---
 ## DecodeType.Supplement field
 
-Указывает, что данные должны быть декодированы с помощью **Supplement(EAN2, EAN5)** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Дополнение (EAN2, EAN5)** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Supplement;

@@ -19,18 +19,18 @@ public class DataMatrixParameters
 | Имя | Описание |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/datamatrixparameters/aspectratio) { get; set; } | Соотношение высоты и ширины модуля 2D BarCode. |
-| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding) { get; set; } | Получает или задает кодировку кодового текста. Значение по умолчанию:UTF-8 |
+| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding) { get; set; } | Получает или задает кодировку кодового текста. Значение по умолчанию: UTF-8 |
 | [Columns](../../aspose.barcode.generation/datamatrixparameters/columns) { get; set; } | Количество столбцов. |
-| [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc) { get; set; } | Получает или задает тип ECC Datamatrix. Значение по умолчанию:DataMatrixEccType.Ecc200. |
-| [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode) { get; set; } | Режим кодирования штрих-кода Datamatrix. Значение по умолчанию:DataMatrixEncodeMode.Auto. |
-| [MacroCharacters](../../aspose.barcode.generation/datamatrixparameters/macrocharacters) { get; set; } | Макросимволы 05 и 06 значения используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчанию:MacroCharacters.None. |
+| [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc) { get; set; } | Получает или задает тип ECC Datamatrix. Значение по умолчанию: DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode) { get; set; } | Режим кодирования штрих-кода Datamatrix. Значение по умолчанию: DataMatrixEncodeMode.Auto. |
+| [MacroCharacters](../../aspose.barcode.generation/datamatrixparameters/macrocharacters) { get; set; } | Значения макросимволов 05 и 06 используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчанию: MacroCharacters.None. |
 | [Rows](../../aspose.barcode.generation/datamatrixparameters/rows) { get; set; } | Количество строк. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/datamatrixparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataMatrixParameters`](../datamatrixparameters). |
+| override [ToString](../../aspose.barcode.generation/datamatrixparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataMatrixParameters`](../datamatrixparameters) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Pharmacode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Pharmacode 条形码进行解码此符号也称为制药二进制代码
+description: 指定数据应该被解码 药典条码此符号系统也称为制药二进制代码
 type: docs
 weight: 580
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/pharmacode/
 ---
 ## DecodeType.Pharmacode field
 
-指定数据应使用 **Pharmacode** 条形码进行解码。此符号也称为制药二进制代码
+指定数据应该被解码 **药典**条码。此符号系统也称为制药二进制代码
 
 ```csharp
 public static readonly SingleDecodeType Pharmacode;

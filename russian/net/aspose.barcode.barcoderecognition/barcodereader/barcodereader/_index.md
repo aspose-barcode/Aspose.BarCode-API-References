@@ -1,14 +1,14 @@
 ---
 title: BarCodeReader
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый экземпляр классаBarCodeReaderaspose.barcode.barcoderecognition/barcodereaderсо значениями по умолчанию. Требуется установить изображение SetBitmapImage перед вызовом метода ReadBarCodes.
+description: Инициализирует новый экземплярBarCodeReaderaspose.barcode.barcoderecognition/barcodereader класс со значениями по умолчанию. Требуется установить изображение SetBitmapImage перед вызовом метода ReadBarCodes.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader() {#constructor}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader)со значениями по умолчанию. Требуется установить изображение (SetBitmapImage()) перед вызовом метода ReadBarCodes().
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс со значениями по умолчанию. Требуется установить изображение (SetBitmapImage()) перед вызовом метода ReadBarCodes().
 
 ```csharp
 public BarCodeReader()
@@ -51,7 +51,7 @@ End Using
 
 ## BarCodeReader(Bitmap) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader)из изображения.
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс из изображения.
 
 ```csharp
 public BarCodeReader(Bitmap image)
@@ -59,7 +59,7 @@ public BarCodeReader(Bitmap image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Bitmap | Экземпляр растрового изображения, содержащий изображение |
+| image | Bitmap | Экземпляр Bitmap, содержащий изображение |
 
 ### Примеры
 
@@ -99,7 +99,7 @@ End Using
 
 ## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
@@ -147,7 +147,7 @@ End Using
 
 ## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
@@ -195,7 +195,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
@@ -204,7 +204,7 @@ public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decod
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | Bitmap | Изображение. |
-| area | Rectangle | Область для распознавания. |
+| area | Rectangle | Зона признания. |
 | decodeTypes | BaseDecodeType[] | Типы декодирования. |
 
 ### Примеры
@@ -244,7 +244,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
@@ -253,7 +253,7 @@ public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | Bitmap | Изображение. |
-| area | Rectangle | Область для распознавания. |
+| area | Rectangle | Зона признания. |
 | type | BaseDecodeType | Тип декодирования. |
 
 ### Примеры
@@ -293,7 +293,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
@@ -302,7 +302,7 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] de
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | Bitmap | Изображение для чтения |
-| areas | Rectangle[] | Массив области распознавания |
+| areas | Rectangle[] | Массив областей распознавания |
 | decodeTypes | BaseDecodeType[] | Типы декодирования применимы ко всем указанным областям. |
 
 ### Примеры
@@ -342,7 +342,7 @@ End Using
 
 ## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
@@ -351,7 +351,7 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | Bitmap | Изображение для чтения |
-| areas | Rectangle[] | Массив области распознавания |
+| areas | Rectangle[] | Массив областей распознавания |
 | type | BaseDecodeType | Тип декодирования применим ко всем указанным областям. |
 
 ### Примеры
@@ -391,7 +391,7 @@ End Using
 
 ## BarCodeReader(string) {#constructor_11}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader)из файла.
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс из файла .
 
 ```csharp
 public BarCodeReader(string filename)
@@ -399,7 +399,7 @@ public BarCodeReader(string filename)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_файла | String | Имя файла. |
+| filename | String | Имя файла. |
 
 ### Примеры
 
@@ -436,7 +436,7 @@ End Using
 
 ## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
@@ -444,7 +444,7 @@ public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_файла | String | Имя файла. |
+| filename | String | Имя файла. |
 | decodeTypes | BaseDecodeType[] | Типы декодирования. |
 
 ### Примеры
@@ -481,7 +481,7 @@ End Using
 
 ## BarCodeReader(string, BaseDecodeType) {#constructor_12}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
@@ -489,7 +489,7 @@ public BarCodeReader(string filename, BaseDecodeType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_файла | String | Имя файла. |
+| filename | String | Имя файла. |
 | type | BaseDecodeType | Тип декодирования. |
 
 ### Примеры
@@ -526,7 +526,7 @@ End Using
 
 ## BarCodeReader(Stream) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Stream stream)
@@ -574,7 +574,7 @@ End Using
 
 ## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
@@ -622,7 +622,7 @@ End Using
 
 ## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`BarCodeReader`](../../barcodereader).
+Инициализирует новый экземпляр[`BarCodeReader`](../../barcodereader) класс.
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)

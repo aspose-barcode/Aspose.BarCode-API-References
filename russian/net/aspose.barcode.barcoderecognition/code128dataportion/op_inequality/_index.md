@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает значение указывающее отличается ли первое значениеCode128DataPortionaspose.barcode.barcoderecognition/code128dataportionот второго.
+description: Возвращает значение указывающее был ли первыйCode128DataPortionaspose.barcode.barcoderecognition/code128dataportion значение отличается от второго.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/code128dataportion/op_inequality/
 ---
 ## Code128DataPortion Inequality operator
 
-Возвращает значение, указывающее, отличается ли первое значение[`Code128DataPortion`](../../code128dataportion)от второго.
+Возвращает значение, указывающее, был ли первый[`Code128DataPortion`](../../code128dataportion) значение отличается от второго.
 
 ```csharp
 public static bool operator !=(Code128DataPortion first, Code128DataPortion second)
@@ -17,11 +17,11 @@ public static bool operator !=(Code128DataPortion first, Code128DataPortion seco
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | first | Code128DataPortion | Первое сравниваемое значение |
-| second | Code128DataPortion | Второе сравниваемое значение значение |
+| second | Code128DataPortion | Второе сравниваемое значение |
 
 ### Возвращаемое значение
 
-**true** если первое имеет значение, отличное от второго; в противном случае **false** .
+**истинный** если первое имеет значение, отличное от второго; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

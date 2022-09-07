@@ -16,7 +16,7 @@ public Quadrangle Quadrangle { get; }
 
 ### 适当的价值
 
-返回[`Quadrangle`](../../quadrangle)边界条码区域
+退货[`Quadrangle`](../../quadrangle)边界条码区域
 
 ### 也可以看看
 

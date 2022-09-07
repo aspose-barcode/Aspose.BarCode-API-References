@@ -1,14 +1,14 @@
 ---
 title: EncodeTypeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: EncodeTypeProperty
+description: 编码类型属性
 type: docs
 weight: 1660
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/
 ---
 ## BarcodeGeneratorElement.EncodeTypeProperty field
 
-EncodeTypeProperty
+编码类型属性
 
 ```csharp
 public static DependencyProperty EncodeTypeProperty;

@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Идентификатор сегмента штрих-кода MacroPdf417 Обязательное поле которое начинается с 0 до MacroSegmentsCount - 1. Идентификатор сегмента штрих-кода MicroPDF417 Обязательное поле для структурированного Режим добавления
+description: Идентификатор сегмента штрих-кода MacroPdf417 обязательное поле который начинается с 0 до MacroSegmentsCount - 1. Идентификатор сегмента штрих-кода MicroPDF417 обязательное поле для режима структурированного добавления
 type: docs
 weight: 150
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417macrosegmentid/
 ---
 ## Pdf417Parameters.Pdf417MacroSegmentID property
 
-Идентификатор сегмента штрих-кода MacroPdf417 (Обязательное поле), которое начинается с 0 до MacroSegmentsCount - 1. Идентификатор сегмента штрих-кода MicroPDF417 (Обязательное поле для структурированного Режим добавления)
+Идентификатор сегмента штрих-кода MacroPdf417 (обязательное поле), который начинается с 0, до MacroSegmentsCount - 1. Идентификатор сегмента штрих-кода MicroPDF417 (обязательное поле для режима структурированного добавления)
 
 ```csharp
 public int Pdf417MacroSegmentID { get; set; }

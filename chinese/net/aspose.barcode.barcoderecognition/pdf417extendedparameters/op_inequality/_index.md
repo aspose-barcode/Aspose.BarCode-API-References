@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示第一个Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters值是否与第二个不同
+description: 返回一个值指示是否第一个Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters值与第二个不同
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality/
 ---
 ## Pdf417ExtendedParameters Inequality operator
 
-返回一个值，指示第一个[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)值是否与第二个不同。
+返回一个值，指示是否第一个[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)值与第二个不同。
 
 ```csharp
 public static bool operator !=(Pdf417ExtendedParameters first, Pdf417ExtendedParameters second)
@@ -16,12 +16,12 @@ public static bool operator !=(Pdf417ExtendedParameters first, Pdf417ExtendedPar
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | Pdf417ExtendedParameters | 第一个比较值 |
-| second | Pdf417ExtendedParameters | 第二个比较value |
+| first | Pdf417ExtendedParameters | 第一比较值 |
+| second | Pdf417ExtendedParameters | 第二个比较值 |
 
 ### 返回值
 
-**true** 如果 first 与 second 具有不同的值；否则， **false** 。
+**真的**如果 first 的值与 second 不同；否则， **错误的**.
 
 ### 也可以看看
 

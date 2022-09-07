@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры CodabarCodabarParametersaspose.barcode.generation/codabarparameters. Используется для Codabar.
+description: Получает или задает параметры CodabarCodabarParametersaspose.barcode.generation/codabarparameters . Используется для Codabar.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/codabar/
 ---
 ## SpecificParametersUI.Codabar property
 
-Получает или устанавливает параметры Codabar[`CodabarParameters`](../../../aspose.barcode.generation/codabarparameters). Используется для Codabar.
+Получает или задает параметры Codabar[`CodabarParameters`](../../../aspose.barcode.generation/codabarparameters) . Используется для Codabar.
 
 ```csharp
 public CodabarParameters Codabar { get; }

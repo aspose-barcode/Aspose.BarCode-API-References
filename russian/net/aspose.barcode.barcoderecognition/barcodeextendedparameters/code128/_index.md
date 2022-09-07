@@ -1,14 +1,14 @@
 ---
 title: Code128
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает специальные данныеCode128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparametersраспознанного Code128 штрих-кода
+description: Получает специальные данныеCode128ExtendedParametersaspose.barcode.barcoderecognition/code128extendedparameters распознанного штрих-кода Code128
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/
 ---
 ## BarCodeExtendedParameters.Code128 property
 
-Получает специальные данные[`Code128ExtendedParameters`](../../code128extendedparameters)распознанного Code128 штрих-кода
+Получает специальные данные[`Code128ExtendedParameters`](../../code128extendedparameters) распознанного штрих-кода Code128
 
 ```csharp
 public Code128ExtendedParameters Code128 { get; }
@@ -16,7 +16,7 @@ public Code128ExtendedParameters Code128 { get; }
 
 ### Стоимость имущества
 
-A специальные данные[`Code128ExtendedParameters`](../../code128extendedparameters)распознанного штрих-кода Code128
+Специальные данные[`Code128ExtendedParameters`](../../code128extendedparameters) распознанного штрих-кода Code128
 
 ### Смотрите также
 

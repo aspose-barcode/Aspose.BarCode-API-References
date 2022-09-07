@@ -26,11 +26,11 @@ public sealed class OneDExtendedParameters : BaseExtendedParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`OneDExtendedParameters`](../onedextendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`OneDExtendedParameters`](../onedextendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/onedextendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`OneDExtendedParameters`](../onedextendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`OneDExtendedParameters`](../onedextendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`OneDExtendedParameters`](../onedextendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`OneDExtendedParameters`](../onedextendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`OneDExtendedParameters`](../onedextendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`OneDExtendedParameters`](../onedextendedparameters) значение отличается от второго. |
 
 ### Примеры
 

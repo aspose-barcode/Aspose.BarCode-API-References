@@ -1,14 +1,14 @@
 ---
 title: AustralianPostShortBarHeight
 second_title: Aspose.BarCode for .NET API 参考
-description: AustralianPost 短条高度以像素为单位
+description: 澳大利亚邮政短条高度以像素为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/australianpostshortbarheight/
 ---
 ## BarcodeGeneratorElement.AustralianPostShortBarHeight property
 
-AustralianPost 短条高度（以像素为单位）。
+澳大利亚邮政短条高度（以像素为单位）。
 
 ```csharp
 public float AustralianPostShortBarHeight { get; set; }

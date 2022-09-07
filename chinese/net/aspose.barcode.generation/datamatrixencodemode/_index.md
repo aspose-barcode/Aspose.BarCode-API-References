@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrix 编码器的编码方式默认为 Auto
+description: DataMatrix 编码器的编码模式默认为 Auto
 type: docs
 weight: 670
 url: /zh/net/aspose.barcode.generation/datamatrixencodemode/
 ---
 ## DataMatrixEncodeMode enumeration
 
-DataMatrix 编码器的编码方式，默认为 Auto
+DataMatrix 编码器的编码模式，默认为 Auto
 
 ```csharp
 public enum DataMatrixEncodeMode
@@ -18,10 +18,10 @@ public enum DataMatrixEncodeMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 自动选择Datamatrix编码的最佳编码模式 |
+| Auto | `0` | 自动为Datamatrix编码选择最佳编码模式 |
 | ASCII | `1` | 每字节编码一个字母数字或两个数字字符 |
 | Full | `6` | 编码 8 位值 |
-| Custom | `7` | 使用 BarcodeGenerator.Parameters.Barcode.DataMatrix.CodeTextEncoding |
+| Custom | `7` | 使用 BarcodeGenerator.Parameters.Barcode.DataMatrix.CodeTextEncoding 中指定的编码进行编码 |
 | C40 | `8` | 使用 C40 编码。编码大写字母数字、小写和特殊字符 |
 | Text | `9` | 使用文本编码。编码小写字母数字、大写和特殊字符 |
 | EDIFACT | `10` | 使用 EDIFACT 编码。每个字符使用六位，对数字、大写字母和许多标点符号进行编码，但不支持小写字母。 |

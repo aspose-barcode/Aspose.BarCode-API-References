@@ -1,14 +1,14 @@
 ---
 title: Supplement
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该使用 SupplementEAN2 EAN5 条码规范
+description: 指定数据应该被解码 补充EAN2EAN5条码规格
 type: docs
 weight: 680
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/supplement/
 ---
 ## DecodeType.Supplement field
 
-指定数据应该使用 **Supplement(EAN2, EAN5)** 条码规范
+指定数据应该被解码 **补充（EAN2，EAN5）**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Supplement;

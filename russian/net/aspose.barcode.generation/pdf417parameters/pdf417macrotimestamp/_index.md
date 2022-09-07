@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroTimeStamp
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Отметка времени штрих-кода MacroPdf417 необязательное поле. Временная метка штрих-кода MicroPDF417 необязательное поле для режима структурированного добавления
+description: Отметка времени штрих-кода MacroPdf417 необязательное поле. Отметка времени штрих-кода MicroPDF417 необязательное поле для режима структурированного добавления
 type: docs
 weight: 180
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417macrotimestamp/
 ---
 ## Pdf417Parameters.Pdf417MacroTimeStamp property
 
-Отметка времени штрих-кода MacroPdf417 (необязательное поле). Временная метка штрих-кода MicroPDF417 (необязательное поле для режима структурированного добавления)
+Отметка времени штрих-кода MacroPdf417 (необязательное поле). Отметка времени штрих-кода MicroPDF417 (необязательное поле для режима структурированного добавления)
 
 ```csharp
 public DateTime Pdf417MacroTimeStamp { get; set; }

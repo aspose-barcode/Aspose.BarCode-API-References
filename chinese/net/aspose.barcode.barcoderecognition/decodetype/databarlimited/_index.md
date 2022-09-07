@@ -1,14 +1,14 @@
 ---
 title: DatabarLimited
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 GS1 Databar limited 条码规范 解码
+description: 指定数据应该被解码 GS1 Databar 有限条码规格
 type: docs
 weight: 190
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databarlimited/
 ---
 ## DecodeType.DatabarLimited field
 
-指定数据应使用 **GS1 Databar limited** 条码规范 解码
+指定数据应该被解码 **GS1 Databar 有限**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarLimited;

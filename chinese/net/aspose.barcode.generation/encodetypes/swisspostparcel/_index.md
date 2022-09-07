@@ -1,14 +1,14 @@
 ---
 title: SwissPostParcel
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Swiss Post Parcel Barcode 条形码规范进行编码支持的类型国内邮件国际邮件附加服务新
+description: 指定数据应该用 瑞士邮政包裹条码条码规范支持的类型国内邮件国际邮件附加服务新
 type: docs
 weight: 650
 url: /zh/net/aspose.barcode.generation/encodetypes/swisspostparcel/
 ---
 ## EncodeTypes.SwissPostParcel field
 
-指定数据应使用 **Swiss Post Parcel Barcode** 条形码规范进行编码。支持的类型:国内邮件、国际邮件、附加服务（新）
+指定数据应该用 **瑞士邮政包裹条码**条码规范。支持的类型：国内邮件、国际邮件、附加服务（新）
 
 ```csharp
 public static readonly SymbologyEncodeType SwissPostParcel;

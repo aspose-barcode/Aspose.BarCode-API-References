@@ -1,14 +1,14 @@
 ---
 title: UPUCountryID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Идентифицирует идентификатор страны ВПС. Максимальная длина4 символа.
+description: Идентифицирует идентификатор страны ВПС. Максимальная длина 4 символа.
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid/
 ---
 ## Mailmark2DCodetext.UPUCountryID property
 
-Идентифицирует идентификатор страны ВПС. Максимальная длина:4 символа.
+Идентифицирует идентификатор страны ВПС. Максимальная длина: 4 символа.
 
 ```csharp
 public string UPUCountryID { get; set; }

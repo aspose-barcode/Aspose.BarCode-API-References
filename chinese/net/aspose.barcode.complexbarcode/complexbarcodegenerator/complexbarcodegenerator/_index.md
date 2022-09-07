@@ -1,14 +1,14 @@
 ---
 title: ComplexBarcodeGenerator
 second_title: Aspose.BarCode for .NET API 参考
-description: 创建 ComplexBarcodeGenerator 的实例
+description: 创建一个 ComplexBarcodeGenerator 的实例
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.complexbarcode/complexbarcodegenerator/complexbarcodegenerator/
 ---
 ## ComplexBarcodeGenerator constructor
 
-创建 ComplexBarcodeGenerator 的实例。
+创建一个 ComplexBarcodeGenerator 的实例。
 
 ```csharp
 public ComplexBarcodeGenerator(IComplexCodetext complexCodetext)
@@ -16,7 +16,7 @@ public ComplexBarcodeGenerator(IComplexCodetext complexCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| complexCodetext | IComplexCodetext | 复杂代码文本 |
+| complexCodetext | IComplexCodetext | 复杂的代码文本 |
 
 ### 也可以看看
 

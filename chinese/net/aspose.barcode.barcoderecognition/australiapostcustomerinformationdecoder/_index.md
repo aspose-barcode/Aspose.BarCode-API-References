@@ -18,7 +18,7 @@ public interface AustraliaPostCustomerInformationDecoder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Decode](../../aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode)(string) | 解码来自澳大利亚邮政符号系统的客户信息字段。 可用于 NTable 和 CTable 编码的不同数据解释。 数据以一行条形值的形式提供:0、1、2 或 3。 |
+| [Decode](../../aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode)(string) | 从澳大利亚邮政符号系统中解码客户信息字段。 可用于来自 NTable 和 CTable 编码的不同数据解释。 数据以一行条形值的形式提供：0、1、2 或 3。 |
 
 ### 也可以看看
 

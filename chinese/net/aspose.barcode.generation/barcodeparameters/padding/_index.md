@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码填充 默认值5pt 5pt 5pt 5pt
+description: 条形码填充. 默认值5pt 5pt 5pt 5pt.
 type: docs
 weight: 210
 url: /zh/net/aspose.barcode.generation/barcodeparameters/padding/
 ---
 ## BarcodeParameters.Padding property
 
-条码填充。 默认值:5pt 5pt 5pt 5pt。
+条形码填充. 默认值：5pt 5pt 5pt 5pt.
 
 ```csharp
 public Padding Padding { get; }

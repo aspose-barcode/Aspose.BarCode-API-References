@@ -1,14 +1,14 @@
 ---
 title: Barcode
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取包含所有条形码属性的BarcodeParametersaspose.barcode.generation/barcodeparameters
+description: 获取BarcodeParametersaspose.barcode.generation/barcodeparameters包含所有条形码属性
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/basegenerationparameters/barcode/
 ---
 ## BaseGenerationParameters.Barcode property
 
-获取包含所有条形码属性的[`BarcodeParameters`](../../barcodeparameters)。
+获取[`BarcodeParameters`](../../barcodeparameters)包含所有条形码属性。
 
 ```csharp
 public BarcodeParameters Barcode { get; }

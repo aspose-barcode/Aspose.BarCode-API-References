@@ -26,7 +26,7 @@ public class CodablockParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/codablockparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodablockParameters`](../codablockparameters). |
+| override [ToString](../../aspose.barcode.generation/codablockparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`CodablockParameters`](../codablockparameters) . |
 
 ### Смотрите также
 

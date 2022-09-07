@@ -1,14 +1,14 @@
 ---
 title: Interleaved2of5
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью INTERLEAVED 2 из 5 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с ПРОМЕЖУТОЧНЫЙ 2 из 5 спецификация штрих-кода
 type: docs
 weight: 370
 url: /ru/net/aspose.barcode.generation/encodetypes/interleaved2of5/
 ---
 ## EncodeTypes.Interleaved2of5 field
 
-Указывает, что данные должны быть закодированы с помощью **INTERLEAVED 2 из 5** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **ПРОМЕЖУТОЧНЫЙ 2 из 5** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Interleaved2of5;

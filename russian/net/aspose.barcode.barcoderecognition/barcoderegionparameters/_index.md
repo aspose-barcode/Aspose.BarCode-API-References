@@ -19,19 +19,19 @@ public sealed class BarCodeRegionParameters
 | Имя | Описание |
 | --- | --- |
 | [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle) { get; } | Получает угол штрихкода (0-360). |
-| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points) { get; } | ПолучаетPointмассив s, ограничивающий область штрих-кода |
-| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle) { get; } | Получает[`Quadrangle`](../quadrangle)ограничивающая область штрих-кода |
-| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle) { get; } | ПолучаетRectangleограничивающая область штрих-кода |
+| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points) { get; } | ПолучаетPoints массив, ограничивающий область штрих-кода |
+| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle) { get; } | Получает[`Quadrangle`](../quadrangle) ограничивающая область штрих-кода |
+| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle) { get; } | ПолучаетRectangle ограничивающая область штрих-кода |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BarCodeRegionParameters`](../barcoderegionparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BarCodeRegionParameters`](../barcoderegionparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeRegionParameters`](../barcoderegionparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`BarCodeRegionParameters`](../barcoderegionparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`BarCodeRegionParameters`](../barcoderegionparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BarCodeRegionParameters`](../barcoderegionparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`BarCodeRegionParameters`](../barcoderegionparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`BarCodeRegionParameters`](../barcoderegionparameters) значение отличается от второго. |
 
 ### Примеры
 

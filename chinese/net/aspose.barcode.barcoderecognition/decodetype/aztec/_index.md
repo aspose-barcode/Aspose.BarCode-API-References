@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Aztec 条码规范 进行解码
+description: 指定数据应该被解码 阿兹台克人条码规格
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/aztec/
 ---
 ## DecodeType.Aztec field
 
-指定数据应使用 **Aztec** 条码规范 进行解码
+指定数据应该被解码 **阿兹台克人**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Aztec;

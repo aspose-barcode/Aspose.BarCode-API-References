@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters值
+description: 返回一个值指示此实例是否等于指定的Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters值.
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/equals/
 ---
 ## Pdf417ExtendedParameters.Equals method
 
-返回一个值，指示此实例是否等于指定的[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)值。
+返回一个值，指示此实例是否等于指定的[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)值.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

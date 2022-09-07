@@ -1,14 +1,14 @@
 ---
 title: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置AustralianPost BarCode的客户信息的解释类型默认为CustomerInformationInterpretingType.Other
+description: 获取或设置AustralianPost BarCode的客户信息的解释类型默认为CustomerInformationInterpretingType.Other.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype/
 ---
 ## AustraliaPostSettings.CustomerInformationInterpretingType property
 
-获取或设置AustralianPost BarCode的客户信息的解释类型。默认为CustomerInformationInterpretingType.Other。
+获取或设置AustralianPost BarCode的客户信息的解释类型。默认为CustomerInformationInterpretingType.Other.
 
 ```csharp
 public CustomerInformationInterpretingType CustomerInformationInterpretingType { get; set; }

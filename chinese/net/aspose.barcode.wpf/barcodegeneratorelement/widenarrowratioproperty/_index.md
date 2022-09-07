@@ -1,14 +1,14 @@
 ---
 title: WideNarrowRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: WideNarrowRatioProperty
+description: WideNarrowRatio 属性
 type: docs
 weight: 2010
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/widenarrowratioproperty/
 ---
 ## BarcodeGeneratorElement.WideNarrowRatioProperty field
 
-WideNarrowRatioProperty
+WideNarrowRatio 属性
 
 ```csharp
 public static DependencyProperty WideNarrowRatioProperty;

@@ -1,14 +1,14 @@
 ---
 title: AustralianPost
 second_title: Aspose.BarCode for .NET API 参考
-description: 澳大利亚邮政条码参数
+description: 澳大利亚邮政条码参数.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/barcodeparameters/australianpost/
 ---
 ## BarcodeParameters.AustralianPost property
 
-澳大利亚邮政条码参数。
+澳大利亚邮政条码参数.
 
 ```csharp
 public AustralianPostParameters AustralianPost { get; }

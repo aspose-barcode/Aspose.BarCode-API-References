@@ -1,14 +1,14 @@
 ---
 title: CaptionBelowTextColor
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Цвет подписи под текстом.
+description: Подпись под цветом текста.
 type: docs
 weight: 300
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowtextcolor/
 ---
 ## BarcodeGeneratorElement.CaptionBelowTextColor property
 
-Цвет подписи под текстом.
+Подпись под цветом текста.
 
 ```csharp
 public Color CaptionBelowTextColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentID
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置宏 Pdf417 条码的段 ID从 0 开始到 MacroSegmentsCount - 1
+description: 获取或设置宏 Pdf417 条码的段 ID从 0 开始到 MacroSegmentsCount - 1.
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentid/
 ---
 ## Pdf417ParametersUI.Pdf417MacroSegmentID property
 
-获取或设置宏 Pdf417 条码的段 ID，从 0 开始，到 MacroSegmentsCount - 1。
+获取或设置宏 Pdf417 条码的段 ID，从 0 开始，到 MacroSegmentsCount - 1.
 
 ```csharp
 public int Pdf417MacroSegmentID { get; set; }

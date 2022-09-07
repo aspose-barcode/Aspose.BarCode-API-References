@@ -1,14 +1,14 @@
 ---
 title: Pdf417CompactionMode
 second_title: Aspose.BarCode for .NET API 参考
-description: Pdf417条码压缩模式
+description: pdf417条码压缩模式
 type: docs
 weight: 840
 url: /zh/net/aspose.barcode.generation/pdf417compactionmode/
 ---
 ## Pdf417CompactionMode enumeration
 
-Pdf417条码压缩模式
+pdf417条码压缩模式
 
 ```csharp
 public enum Pdf417CompactionMode

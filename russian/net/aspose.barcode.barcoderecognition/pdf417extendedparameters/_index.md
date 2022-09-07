@@ -1,14 +1,14 @@
 ---
 title: Pdf417ExtendedParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Сохраняет метаданные MacroPdf417 о распознанном штрих-коде
+description: Сохраняет метаданные MacroPdf417 распознанного штрих-кода
 type: docs
 weight: 220
 url: /ru/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
 
-Сохраняет метаданные MacroPdf417 о распознанном штрих-коде
+Сохраняет метаданные MacroPdf417 распознанного штрих-кода
 
 ```csharp
 public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
@@ -24,8 +24,8 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 | [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid) { get; } | Получает идентификатор файла штрих-кода, доступный только с MacroPdf417. |
 | [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename) { get; } | Имя файла макроса PDF417 (необязательно). |
 | [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize) { get; } | Размер файла макроса PDF417 (необязательно). |
-| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | Получает идентификатор сегмента штрих-кода, доступен только с MacroPdf417. |
-| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию:-1. |
+| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | Получает идентификатор сегмента штрих-кода, доступный только с MacroPdf417. |
+| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | Получает количество сегментов штрих-кода макроса pdf417. Значение по умолчанию: -1. |
 | [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | Имя отправителя макроса PDF417 (необязательно). |
 | [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp) { get; } | Отметка времени макроса PDF417 (необязательно). |
 
@@ -33,11 +33,11 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`Pdf417ExtendedParameters`](../pdf417extendedparameters)значению. |
+| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`Pdf417ExtendedParameters`](../pdf417extendedparameters) значение. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Pdf417ExtendedParameters`](../pdf417extendedparameters). |
-| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | Возвращает значение, указывающее, равно ли первое значение[`Pdf417ExtendedParameters`](../pdf417extendedparameters)второму. |
-| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | Возвращает значение, указывающее, отличается ли первое значение[`Pdf417ExtendedParameters`](../pdf417extendedparameters)от второго. |
+| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`Pdf417ExtendedParameters`](../pdf417extendedparameters) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | Возвращает значение, указывающее, является ли первый[`Pdf417ExtendedParameters`](../pdf417extendedparameters) значение равно секунде. |
+| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | Возвращает значение, указывающее, был ли первый[`Pdf417ExtendedParameters`](../pdf417extendedparameters) значение отличается от второго. |
 
 ### Примеры
 

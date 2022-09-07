@@ -1,14 +1,14 @@
 ---
 title: AllowWhiteSpotsRemoving
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许引擎识别没有小白点的图像作为附加扫描模式有助于识别噪声图像以及中值平滑滤波
+description: 允许引擎将没有小白点的图像识别为附加扫描模式有助于识别噪声图像以及中值平滑滤波
 type: docs
 weight: 200
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowwhitespotsremoving/
 ---
 ## QualitySettings.AllowWhiteSpotsRemoving property
 
-允许引擎识别没有小白点的图像作为附加扫描。模式有助于识别噪声图像以及中值平滑滤波。
+允许引擎将没有小白点的图像识别为附加扫描。模式有助于识别噪声图像以及中值平滑滤波。
 
 ```csharp
 public bool AllowWhiteSpotsRemoving { get; set; }

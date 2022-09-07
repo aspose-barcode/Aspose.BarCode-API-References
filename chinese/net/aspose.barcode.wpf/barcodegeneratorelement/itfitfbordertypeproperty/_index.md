@@ -1,14 +1,14 @@
 ---
 title: ITFItfBorderTypeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: ITFItfBorderTypeProperty
+description: ITFItfBorderType 属性
 type: docs
 weight: 1700
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/itfitfbordertypeproperty/
 ---
 ## BarcodeGeneratorElement.ITFItfBorderTypeProperty field
 
-ITFItfBorderTypeProperty
+ITFItfBorderType 属性
 
 ```csharp
 public static DependencyProperty ITFItfBorderTypeProperty;

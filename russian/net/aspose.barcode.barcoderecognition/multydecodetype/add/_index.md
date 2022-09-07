@@ -16,7 +16,7 @@ public void Add(SingleDecodeType singleType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| singleType | SingleDecodeType | Single DecodeType для добавления в список |
+| singleType | SingleDecodeType | Одиночный тип декодирования, который будет добавлен в список |
 
 ### Смотрите также
 

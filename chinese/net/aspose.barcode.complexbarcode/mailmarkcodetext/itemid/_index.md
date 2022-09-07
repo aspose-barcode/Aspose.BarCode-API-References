@@ -1,14 +1,14 @@
 ---
 title: ItemID
 second_title: Aspose.BarCode for .NET API 参考
-description: 最大值为 99999999
+description: 最大值为 99999999.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.complexbarcode/mailmarkcodetext/itemid/
 ---
 ## MailmarkCodetext.ItemID property
 
-最大值为 99999999。
+最大值为 99999999.
 
 ```csharp
 public int ItemID { get; set; }

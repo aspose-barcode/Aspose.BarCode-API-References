@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает дополнительную информацию DataBarDataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparametersраспознанного штрих-кода
+description: Получает дополнительную информацию DataBarDataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparameters распознанного штрих-кода
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/
 ---
 ## BarCodeExtendedParameters.DataBar property
 
-Получает дополнительную информацию DataBar[`DataBarExtendedParameters`](../../databarextendedparameters)распознанного штрих-кода
+Получает дополнительную информацию DataBar[`DataBarExtendedParameters`](../../databarextendedparameters) распознанного штрих-кода
 
 ```csharp
 public DataBarExtendedParameters DataBar { get; }
@@ -16,7 +16,7 @@ public DataBarExtendedParameters DataBar { get; }
 
 ### Стоимость имущества
 
-A Дополнительная информация DataBar[`DataBarExtendedParameters`](../../databarextendedparameters)распознанного штрих-кода
+Дополнительная информация DataBar[`DataBarExtendedParameters`](../../databarextendedparameters) распознанного штрих-кода
 
 ### Смотрите также
 

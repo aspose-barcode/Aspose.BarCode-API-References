@@ -1,14 +1,14 @@
 ---
 title: FilledBars
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает значение указывающее заполнены ли бары.
+description: Получает или задает значение указывающее заполнены ли столбцы.
 type: docs
 weight: 660
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/filledbars/
 ---
 ## BarcodeGeneratorElement.FilledBars property
 
-Получает или задает значение, указывающее, заполнены ли бары.
+Получает или задает значение, указывающее, заполнены ли столбцы.
 
 ```csharp
 public bool FilledBars { get; set; }

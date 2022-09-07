@@ -8,7 +8,7 @@ url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersnowrap
 ---
 ## BarcodeGeneratorElement.CodeTextParametersNoWrap property
 
-Переключает режим "без переноса".
+Переключает режим «без переноса».
 
 ```csharp
 public bool CodeTextParametersNoWrap { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取 DataBar 附加信息DataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparameters识别条码
+description: 获取 DataBar 附加信息DataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparameters识别的条码
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/
 ---
 ## BarCodeExtendedParameters.DataBar property
 
-获取 DataBar 附加信息[`DataBarExtendedParameters`](../../databarextendedparameters)识别条码
+获取 DataBar 附加信息[`DataBarExtendedParameters`](../../databarextendedparameters)识别的条码
 
 ```csharp
 public DataBarExtendedParameters DataBar { get; }
@@ -16,7 +16,7 @@ public DataBarExtendedParameters DataBar { get; }
 
 ### 适当的价值
 
-A DataBar 附加信息[`DataBarExtendedParameters`](../../databarextendedparameters)识别条码
+DataBar 附加信息[`DataBarExtendedParameters`](../../databarextendedparameters)识别的条码
 
 ### 也可以看看
 

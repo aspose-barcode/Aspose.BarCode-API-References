@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает текстalignmentaspose.barcode.generation/textalignment заголовка.
+description: Получает или задает текствыравниваниеaspose.barcode.generation/textalignment заголовка.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.windows.forms/captionui/alignment/
 ---
 ## CaptionUI.Alignment property
 
-Получает или задает текст[`alignment`](../../../aspose.barcode.generation/textalignment) заголовка.
+Получает или задает текст[`выравнивание`](../../../aspose.barcode.generation/textalignment) заголовка.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

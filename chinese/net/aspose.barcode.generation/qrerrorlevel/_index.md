@@ -1,14 +1,14 @@
 ---
 title: QRErrorLevel
 second_title: Aspose.BarCode for .NET API 参考
-description: Reed-Solomon 纠错级别从低到高LevelLLevelMLevelQLevelH
+description: Reed-Solomon 纠错级别从低到高LevelLLevelMLevelQLevelH.
 type: docs
 weight: 900
 url: /zh/net/aspose.barcode.generation/qrerrorlevel/
 ---
 ## QRErrorLevel enumeration
 
-Reed-Solomon 纠错级别。从低到高:LevelL、LevelM、LevelQ、LevelH。
+Reed-Solomon 纠错级别。从低到高：LevelL、LevelM、LevelQ、LevelH.
 
 ```csharp
 public enum QRErrorLevel
@@ -18,10 +18,10 @@ public enum QRErrorLevel
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LevelL | `0` | 允许恢复 7% 的代码文本 |
-| LevelM | `1` | 允许恢复 15% 的代码文本 |
-| LevelQ | `2` | 允许恢复 25% 的代码文本 |
-| LevelH | `3` | 允许恢复 30% 的代码文本 |
+| LevelL | `0` | 允许恢复 7% 的代码 text |
+| LevelM | `1` | 允许恢复 15% 的代码 text |
+| LevelQ | `2` | 允许恢复 25% 的代码 text |
+| LevelH | `3` | 允许恢复 30% 的代码 text |
 
 ### 也可以看看
 

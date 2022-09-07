@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Справочник по API Aspose.BarCode для .NET
-description: 0 - Null или Test 1 - 1C Розница 2 - 2C  Retail 3 - 3C Retail 4 - Premium RetailPublishing Mail для возможного использования в будущем 5 - Deferred Retail 6 - Air Retail для возможного использования в будущем 7 - Surface Retail для возможного использования в будущем 8 - Premium сетевой доступ 9 - Standard сетевой доступ
+description: 0  Null или Test 1  1C Retail 2  2C Retail 3  3C Retail 4  Premium RetailPublishing Mail для возможного использования в будущем 5  Deferred Retail 6  Air Retail для возможного использования в будущем 7  Surface Retail для возможного использования в будущем 8  Premium сетевой доступ 9 - Стандартный доступ к сети
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.complexbarcode/mailmarkcodetext/class/
 ---
 ## MailmarkCodetext.Class property
 
-"0" - Null или Test "1" - 1C (Розница) "2" - 2C ( Retail) "3" - 3C (Retail) "4" - Premium (RetailPublishing Mail) (для возможного использования в будущем) "5" - Deferred (Retail) "6" - Air (Retail) (для возможного использования в будущем) "7" - Surface (Retail) (для возможного использования в будущем) "8" - Premium (сетевой доступ) "9" - Standard (сетевой доступ)
+«0» — Null или Test «1» — 1C (Retail) «2» — 2C (Retail) «3» — 3C (Retail) «4» — Premium (RetailPublishing Mail) (для возможного использования в будущем) "5" — Deferred (Retail) "6" — Air (Retail) (для возможного использования в будущем) "7" — Surface (Retail) (для возможного использования в будущем) "8" — Premium (сетевой доступ) "9" - Стандартный (доступ к сети)
 
 ```csharp
 public string Class { get; set; }

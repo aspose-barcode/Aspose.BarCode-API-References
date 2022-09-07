@@ -1,14 +1,14 @@
 ---
 title: DatabarOmniDirectional
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с использованием Всенаправленная панель данных GS1 спецификация штрих-кода.
+description: Указывает что данные должны быть закодированы с Всенаправленная панель данных GS1 Спецификация штрих-кода.
 type: docs
 weight: 180
 url: /ru/net/aspose.barcode.generation/encodetypes/databaromnidirectional/
 ---
 ## EncodeTypes.DatabarOmniDirectional field
 
-Указывает, что данные должны быть закодированы с использованием **Всенаправленная панель данных GS1** спецификация штрих-кода.
+Указывает, что данные должны быть закодированы с **Всенаправленная панель данных GS1** Спецификация штрих-кода.
 
 ```csharp
 public static readonly SymbologyEncodeType DatabarOmniDirectional;

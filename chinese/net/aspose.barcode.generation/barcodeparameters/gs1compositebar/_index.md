@@ -1,14 +1,14 @@
 ---
 title: GS1CompositeBar
 second_title: Aspose.BarCode for .NET API 参考
-description: GS1 复合条形参数
+description: GS1 复合条参数
 type: docs
 weight: 170
 url: /zh/net/aspose.barcode.generation/barcodeparameters/gs1compositebar/
 ---
 ## BarcodeParameters.GS1CompositeBar property
 
-GS1 复合条形参数。
+GS1 复合条参数。
 
 ```csharp
 public GS1CompositeBarParameters GS1CompositeBar { get; set; }
@@ -16,7 +16,7 @@ public GS1CompositeBarParameters GS1CompositeBar { get; set; }
 
 ### 例子
 
-此示例展示了如何创建和保存 GS1 Composite Bar 图像。 注意一维代码文本和二维代码文本用符号'/'分隔
+此示例显示如何创建和保存 GS1 复合条图像。 请注意，一维代码文本和二维代码文本由符号“/”分隔
 
 ```csharp
 [C#]
@@ -29,10 +29,10 @@ public GS1CompositeBarParameters GS1CompositeBar { get; set; }
       // 2D组件的纵横比
       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
           
-        // 一维和二维组件的 X 维
+      // 一维和二维组件的 X 维
       generator.Parameters.Barcode.XDimension.Pixels = 3;
           
-        // 一维组件的高度
+      // 一维组件的高度
       generator.Parameters.Barcode.BarHeight.Pixels = 100;
       
       generator.Save("test.png");

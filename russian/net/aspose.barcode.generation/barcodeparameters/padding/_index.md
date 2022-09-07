@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Отступы штрих-кода. Значение по умолчанию5pt 5pt 5pt 5pt.
+description: Отступы штрих-кода. Значение по умолчанию 5pt 5pt 5pt 5pt.
 type: docs
 weight: 210
 url: /ru/net/aspose.barcode.generation/barcodeparameters/padding/
 ---
 ## BarcodeParameters.Padding property
 
-Отступы штрих-кода. Значение по умолчанию:5pt 5pt 5pt 5pt.
+Отступы штрих-кода. Значение по умолчанию: 5pt 5pt 5pt 5pt.
 
 ```csharp
 public Padding Padding { get; }

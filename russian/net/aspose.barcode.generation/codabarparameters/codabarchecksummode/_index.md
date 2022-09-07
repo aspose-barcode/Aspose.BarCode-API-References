@@ -1,14 +1,14 @@
 ---
 title: CodabarChecksumMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчаниюCodabarChecksumMode.Mod16. Для включения подсчета контрольной суммы установите значение EnableChecksum.Yes для свойства EnableChecksum. См.CodabarChecksumModeaspose.barcode.generation/codabarparameters/codabarchecksummode.
+description: Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчанию CodabarChecksumMode.Mod16. Чтобы включить вычисление контрольной суммы установите значение EnableChecksum.Yes для свойства EnableChecksum. См.CodabarChecksumModeaspose.barcode.generation/codabarparameters/codabarchecksummode .
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/codabarparameters/codabarchecksummode/
 ---
 ## CodabarParameters.CodabarChecksumMode property
 
-Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчанию:CodabarChecksumMode.Mod16. Для включения подсчета контрольной суммы установите значение EnableChecksum.Yes для свойства EnableChecksum. См.`CodabarChecksumMode`.
+Получить или установить алгоритм контрольной суммы для штрих-кодов Codabar. Значение по умолчанию: CodabarChecksumMode.Mod16. Чтобы включить вычисление контрольной суммы, установите значение EnableChecksum.Yes для свойства EnableChecksum. См.`CodabarChecksumMode` .
 
 ```csharp
 public CodabarChecksumMode CodabarChecksumMode { get; set; }

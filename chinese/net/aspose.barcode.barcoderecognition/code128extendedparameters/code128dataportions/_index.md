@@ -1,14 +1,14 @@
 ---
 title: Code128DataPortions
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion已识别 Code128 条码数组
+description: 获取Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion已识别的 Code128 条码数组
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/code128extendedparameters/code128dataportions/
 ---
 ## Code128ExtendedParameters.Code128DataPortions property
 
-获取[`Code128DataPortion`](../../code128dataportion)已识别 Code128 条码数组
+获取[`Code128DataPortion`](../../code128dataportion)已识别的 Code128 条码数组
 
 ```csharp
 public Code128DataPortion[] Code128DataPortions { get; }
@@ -16,7 +16,7 @@ public Code128DataPortion[] Code128DataPortions { get; }
 
 ### 适当的价值
 
-数组[`Code128DataPortion`](../../code128dataportion)。
+的数组[`Code128DataPortion`](../../code128dataportion).
 
 ### 也可以看看
 

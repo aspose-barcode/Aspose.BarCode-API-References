@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Стиль границы тире. Значение по умолчаниюBorderDashStyle.Solid.
+description: Стиль границы штриха. Значение по умолчанию BorderDashStyle.Solid.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/borderparameters/dashstyle/
 ---
 ## BorderParameters.DashStyle property
 
-Стиль границы тире. Значение по умолчанию:BorderDashStyle.Solid.
+Стиль границы штриха. Значение по умолчанию: BorderDashStyle.Solid.
 
 ```csharp
 public BorderDashStyle DashStyle { get; set; }

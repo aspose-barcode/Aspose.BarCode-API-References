@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 DotCode 条码规范 进行编码
+description: 指定数据应该用 点码条码规格
 type: docs
 weight: 260
 url: /zh/net/aspose.barcode.generation/encodetypes/dotcode/
 ---
 ## EncodeTypes.DotCode field
 
-指定数据应使用 **DotCode** 条码规范 进行编码
+指定数据应该用 **点码**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType DotCode;

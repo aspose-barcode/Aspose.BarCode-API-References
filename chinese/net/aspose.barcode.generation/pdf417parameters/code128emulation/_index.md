@@ -1,14 +1,14 @@
 ---
 title: Code128Emulation
 second_title: Aspose.BarCode for .NET API 参考
-description: Code 128 仿真的功能代码字仅适用于 MicroPDF417忽略 PDF417 和 MacroPDF417 条码
+description: Code 128 仿真的功能码字仅适用于 MicroPDF417忽略 PDF417 和 MacroPDF417 条码
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/pdf417parameters/code128emulation/
 ---
 ## Pdf417Parameters.Code128Emulation property
 
-Code 128 仿真的功能代码字。仅适用于 MicroPDF417。忽略 PDF417 和 MacroPDF417 条码。
+Code 128 仿真的功能码字。仅适用于 MicroPDF417。忽略 PDF417 和 MacroPDF417 条码。
 
 ```csharp
 public Code128Emulation Code128Emulation { get; set; }

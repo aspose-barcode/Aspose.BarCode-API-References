@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоDataMatrixParametersaspose.barcode.generation/datamatrixparameters.
+description: Возвращает удобочитаемое строковое представление этогоDataMatrixParametersaspose.barcode.generation/datamatrixparameters .
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.windows.forms/datamatrixparametersui/tostring/
 ---
 ## DataMatrixParametersUI.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters).
+Возвращает удобочитаемое строковое представление этого[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters) .
 
 ```csharp
 public override string ToString()

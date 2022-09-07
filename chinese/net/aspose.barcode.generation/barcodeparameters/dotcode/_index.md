@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Aspose.BarCode for .NET API 参考
-description: DotCode 参数
+description: 点码参数
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.generation/barcodeparameters/dotcode/
 ---
 ## BarcodeParameters.DotCode property
 
-DotCode 参数。
+点码参数。
 
 ```csharp
 public DotCodeParameters DotCode { get; }

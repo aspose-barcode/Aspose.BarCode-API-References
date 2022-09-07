@@ -1,14 +1,14 @@
 ---
 title: CodablockRowsProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CodablockRowsProperty
+description: CodablockRows 属性
 type: docs
 weight: 1390
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codablockrowsproperty/
 ---
 ## BarcodeGeneratorElement.CodablockRowsProperty field
 
-CodablockRowsProperty
+CodablockRows 属性
 
 ```csharp
 public static DependencyProperty CodablockRowsProperty;

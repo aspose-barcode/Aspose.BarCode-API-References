@@ -1,14 +1,14 @@
 ---
 title: FontMode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите режим шрифта. Если для параметра FontMode установлено значение Auto размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчаниюFontMode.Auto.
+description: Укажите режим шрифта. Если для параметра FontMode установлено значение Auto размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчанию FontMode.Auto.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/codetextparameters/fontmode/
 ---
 ## CodetextParameters.FontMode property
 
-Укажите режим шрифта. Если для параметра FontMode установлено значение Auto, размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto, особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчанию:FontMode.Auto.
+Укажите режим шрифта. Если для параметра FontMode установлено значение Auto, размер шрифта будет рассчитываться автоматически на основе значения xDimension. Рекомендуется использовать FontMode.Auto, особенно в AutoSizeMode.Nearest или AutoSizeMode.Interpolation. Значение по умолчанию: FontMode.Auto.
 
 ```csharp
 public FontMode FontMode { get; set; }

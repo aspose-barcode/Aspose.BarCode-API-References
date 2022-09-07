@@ -1,14 +1,14 @@
 ---
 title: DataMatrixAspectRatioProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrixAspectRatioProperty
+description: 数据矩阵纵横比属性
 type: docs
 weight: 1570
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixAspectRatioProperty field
 
-DataMatrixAspectRatioProperty
+数据矩阵纵横比属性
 
 ```csharp
 public static DependencyProperty DataMatrixAspectRatioProperty;

@@ -1,14 +1,14 @@
 ---
 title: TwoDComponentType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип 2D компонента
+description: Тип 2D-компонента
 type: docs
 weight: 980
 url: /ru/net/aspose.barcode.generation/twodcomponenttype/
 ---
 ## TwoDComponentType enumeration
 
-Тип 2D компонента
+Тип 2D-компонента
 
 ```csharp
 public enum TwoDComponentType
@@ -18,10 +18,10 @@ public enum TwoDComponentType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Auto | `0` | Автоматический выбор типа 2D компонента |
-| CC_A | `1` | CC-тип 2D компонента. Является структурным вариантом MicroPDF417 |
-| CC_B | `2` | CC-B тип 2D компонента. Это символ MicroPDF417. |
-| CC_C | `3` | CC-C тип 2D компонента. Это символ PDF417. |
+| Auto | `0` | Автоматический выбор типа 2D-компонента |
+| CC_A | `1` | CC-тип 2D-компонента. Это структурный вариант MicroPDF417 |
+| CC_B | `2` | Тип CC-B 2D-компонента. Это символ MicroPDF417. |
+| CC_C | `3` | Тип CC-C 2D-компонента. Это символ PDF417. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BaseExtendedParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Базовый класс для расширенных параметров хранения распознанных штрихкодов
+description: Базовый класс для хранения расширенных параметров распознанного штрих-кода
 type: docs
 weight: 130
 url: /ru/net/aspose.barcode.barcoderecognition/baseextendedparameters/
 ---
 ## BaseExtendedParameters class
 
-Базовый класс для расширенных параметров хранения распознанных штрихкодов
+Базовый класс для хранения расширенных параметров распознанного штрих-кода
 
 ```csharp
 public abstract class BaseExtendedParameters

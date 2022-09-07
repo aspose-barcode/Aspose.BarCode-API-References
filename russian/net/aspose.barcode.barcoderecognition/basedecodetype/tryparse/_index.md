@@ -1,14 +1,14 @@
 ---
 title: TryParse
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает было ли преобразование успешным или нет.
+description: Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает успешно ли выполнено преобразование.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/basedecodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_2}
 
-Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool TryParse(string parsingType, out SingleDecodeType result)
@@ -17,11 +17,11 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parsingType | String | Строка, содержащая представление SingleDecodeType для преобразования. |
-| result | SingleDecodeType& | Возвращается фактический SingleDecodeType, если преобразование завершилось успешно; |
+| result | SingleDecodeType& | Фактический SingleDecodeType возвращается после успешного завершения преобразования; |
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 ## TryParse(string, out MultyDecodeType) {#tryparse_1}
 
-Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool TryParse(string parsingType, out MultyDecodeType result)
@@ -43,11 +43,11 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parsingType | String | Строка, содержащая представление MultyDecodeType для преобразования. |
-| result | MultyDecodeType& | Возвращается фактический MultyDecodeType, когда преобразование успешно завершено; |
+| result | MultyDecodeType& | Фактический MultyDecodeType возвращается после успешного завершения преобразования; |
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -60,7 +60,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 ## TryParse(string, out BaseDecodeType) {#tryparse}
 
-Преобразует строковое представление BaseDecodeType в его экземпляр, определив конкретный тип. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление BaseDecodeType в его экземпляр, определив конкретный тип. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool TryParse(string parsingType, out BaseDecodeType result)
@@ -69,11 +69,11 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parsingType | String | Строка, содержащая представление MultyDecodeType для преобразования. |
-| result | BaseDecodeType& | Возвращается фактический MultyDecodeType, когда преобразование успешно завершено; |
+| result | BaseDecodeType& | Фактический MultyDecodeType возвращается после успешного завершения преобразования; |
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

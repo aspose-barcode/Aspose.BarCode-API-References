@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Подпись проверяет горизонтальное выравнивание. Значение по умолчаниюStringAlignment.Center.
+description: Заголовок проверяет горизонтальное выравнивание. Значение по умолчанию StringAlignment.Center.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/captionparameters/alignment/
 ---
 ## CaptionParameters.Alignment property
 
-Подпись проверяет горизонтальное выравнивание. Значение по умолчанию:StringAlignment.Center.
+Заголовок проверяет горизонтальное выравнивание. Значение по умолчанию: StringAlignment.Center.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ISSN
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 ISSN 条码规范 进行解码
+description: 指定数据应该被解码 ISSN条码规格
 type: docs
 weight: 400
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/issn/
 ---
 ## DecodeType.ISSN field
 
-指定数据应使用 **ISSN** 条码规范 进行解码
+指定数据应该被解码 **ISSN**条码规格
 
 ```csharp
 public static readonly SingleDecodeType ISSN;

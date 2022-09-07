@@ -1,14 +1,14 @@
 ---
 title: DatabarTruncated
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该被解码  GS1 数据栏被截断 条码规格
+description: 指定数据应该被解码 GS1 数据栏被截断条码规格
 type: docs
 weight: 230
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databartruncated/
 ---
 ## DecodeType.DatabarTruncated field
 
-指定数据应该被解码  **GS1 数据栏被截断** 条码规格
+指定数据应该被解码 **GS1 数据栏被截断**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarTruncated;

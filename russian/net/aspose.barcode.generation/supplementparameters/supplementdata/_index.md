@@ -1,14 +1,14 @@
 ---
 title: SupplementData
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Дополнить данные после штрих-кода.
+description: Дополнительные данные после штрих-кода.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/supplementparameters/supplementdata/
 ---
 ## SupplementParameters.SupplementData property
 
-Дополнить данные после штрих-кода.
+Дополнительные данные после штрих-кода.
 
 ```csharp
 public string SupplementData { get; set; }

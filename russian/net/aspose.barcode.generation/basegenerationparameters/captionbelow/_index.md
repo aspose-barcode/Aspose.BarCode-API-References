@@ -1,14 +1,14 @@
 ---
 title: CaptionBelow
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Заголовок под изображением штрих-кода. См.CaptionParametersaspose.barcode.generation/captionparameters.
+description: Подпись под изображением штрих-кода. ВидетьCaptionParametersaspose.barcode.generation/captionparameters .
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/basegenerationparameters/captionbelow/
 ---
 ## BaseGenerationParameters.CaptionBelow property
 
-Заголовок под изображением штрих-кода. См.[`CaptionParameters`](../../captionparameters).
+Подпись под изображением штрих-кода. Видеть[`CaptionParameters`](../../captionparameters) .
 
 ```csharp
 public CaptionParameters CaptionBelow { get; }

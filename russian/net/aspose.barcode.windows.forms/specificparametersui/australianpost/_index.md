@@ -1,14 +1,14 @@
 ---
 title: AustralianPost
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает параметры AustralianPostAustralanPostParameters. Используется для почты Австралии.
+description: Получает или задает параметры AustralianPostAustralianPostParametersaspose.barcode.generation/australianpostparameters . Используется для почты Австралии.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/australianpost/
 ---
 ## SpecificParametersUI.AustralianPost property
 
-Получает или задает параметры AustralianPostAustralanPostParameters. Используется для почты Австралии.
+Получает или задает параметры AustralianPost[`AustralianPostParameters`](../../../aspose.barcode.generation/australianpostparameters) . Используется для почты Австралии.
 
 ```csharp
 public AustralianPostParameters AustralianPost { get; }

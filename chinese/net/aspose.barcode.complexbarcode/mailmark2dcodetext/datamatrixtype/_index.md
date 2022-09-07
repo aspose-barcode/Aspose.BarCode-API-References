@@ -1,14 +1,14 @@
 ---
 title: DataMatrixType
 second_title: Aspose.BarCode for .NET API 参考
-description: 2D Mailmark Type 定义 Data Matrix 条码的大小
+description: 2D Mailmark Type 定义 Data Matrix 条形码的大小
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/datamatrixtype/
 ---
 ## Mailmark2DCodetext.DataMatrixType property
 
-2D Mailmark Type 定义 Data Matrix 条码的大小。
+2D Mailmark Type 定义 Data Matrix 条形码的大小。
 
 ```csharp
 public Mailmark2DType DataMatrixType { get; set; }

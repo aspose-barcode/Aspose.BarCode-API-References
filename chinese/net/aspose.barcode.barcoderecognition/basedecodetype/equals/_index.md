@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype值
+description: 返回一个值指示此实例是否等于指定的SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype值.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值。
+返回一个值，指示此实例是否等于指定的[`SingleDecodeType`](../../singledecodetype)值.
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
@@ -16,11 +16,11 @@ public virtual bool Equals(SingleDecodeType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | SingleDecodeType | 一个[`SingleDecodeType`](../../singledecodetype)值与此实例进行比较。 |
+| other | SingleDecodeType | 一个[`SingleDecodeType`](../../singledecodetype)与此实例进行比较的值。 |
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public virtual bool Equals(SingleDecodeType other)
 
 ## Equals(MultyDecodeType) {#equals_1}
 
-返回一个值，该值指示此实例是否等于指定的[`MultyDecodeType`](../../multydecodetype)值。
+返回一个值，指示此实例是否等于指定的[`MultyDecodeType`](../../multydecodetype)值.
 
 ```csharp
 public virtual bool Equals(MultyDecodeType other)
@@ -41,11 +41,11 @@ public virtual bool Equals(MultyDecodeType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | MultyDecodeType | 一个[`MultyDecodeType`](../../multydecodetype)值与此实例进行比较。 |
+| other | MultyDecodeType | 一个[`MultyDecodeType`](../../multydecodetype)与此实例进行比较的值。 |
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public virtual bool Equals(MultyDecodeType other)
 
 ## Equals(BaseDecodeType) {#equals}
 
-返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../../basedecodetype)值。
+返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../../basedecodetype)值.
 
 ```csharp
 public bool Equals(BaseDecodeType other)
@@ -66,11 +66,11 @@ public bool Equals(BaseDecodeType other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | BaseDecodeType | 一个[`BaseDecodeType`](../../basedecodetype)值与此实例进行比较。 |
+| other | BaseDecodeType | 一个[`BaseDecodeType`](../../basedecodetype)与此实例进行比较的值。 |
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -82,7 +82,7 @@ public bool Equals(BaseDecodeType other)
 
 ## Equals(object) {#equals_3}
 
-返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../../basedecodetype)值。
+返回一个值，指示此实例是否等于指定的[`BaseDecodeType`](../../basedecodetype)值.
 
 ```csharp
 public override bool Equals(object obj)
@@ -94,7 +94,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

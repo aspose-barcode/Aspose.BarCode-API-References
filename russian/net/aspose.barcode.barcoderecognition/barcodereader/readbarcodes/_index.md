@@ -1,14 +1,14 @@
 ---
 title: ReadBarCodes
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ЧитаетBarCodeResultaspose.barcode.barcoderecognition/barcoderesults из образа.
+description: ЧитаетBarCodeResultaspose.barcode.barcoderecognition/barcoderesult с изображения.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.barcoderecognition/barcodereader/readbarcodes/
 ---
 ## BarCodeReader.ReadBarCodes method
 
-Читает[`BarCodeResult`](../../barcoderesult)s из образа.
+Читает[`BarCodeResult`](../../barcoderesult) с изображения.
 
 ```csharp
 public BarCodeResult[] ReadBarCodes()
@@ -16,11 +16,11 @@ public BarCodeResult[] ReadBarCodes()
 
 ### Возвращаемое значение
 
-Возвращает массив распознанных[`BarCodeResult`](../../barcoderesult)s на изображении. Если ничего не распознано, возвращается нулевой массив.
+Возвращает массив распознанных[`BarCodeResult`](../../barcoderesult)с на изображении. Если ничего не распознано, возвращается нулевой массив.
 
 ### Примеры
 
-В этом примере показано, как читать штрих-коды с помощью BarCodeReader
+В этом примере показано, как считывать штрих-коды с помощью BarCodeReader
 
 ```csharp
 [C#]

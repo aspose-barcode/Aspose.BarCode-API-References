@@ -1,14 +1,14 @@
 ---
 title: GS1CompositeBarParameters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры композитного стержня GS1.
+description: Параметры составного стержня GS1.
 type: docs
 weight: 760
 url: /ru/net/aspose.barcode.generation/gs1compositebarparameters/
 ---
 ## GS1CompositeBarParameters class
 
-Параметры композитного стержня GS1.
+Параметры составного стержня GS1.
 
 ```csharp
 public class GS1CompositeBarParameters
@@ -19,13 +19,13 @@ public class GS1CompositeBarParameters
 | Имя | Описание |
 | --- | --- |
 | [LinearComponentType](../../aspose.barcode.generation/gs1compositebarparameters/linearcomponenttype) { get; set; } | Тип линейного компонента |
-| [TwoDComponentType](../../aspose.barcode.generation/gs1compositebarparameters/twodcomponenttype) { get; set; } | Тип 2D компонента |
+| [TwoDComponentType](../../aspose.barcode.generation/gs1compositebarparameters/twodcomponenttype) { get; set; } | Тип 2D-компонента |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/gs1compositebarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarParameters`](../databarparameters). |
+| override [ToString](../../aspose.barcode.generation/gs1compositebarparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`DataBarParameters`](../databarparameters) . |
 
 ### Смотрите также
 

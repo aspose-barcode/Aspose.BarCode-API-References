@@ -30,7 +30,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1Code128,
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code128))
 {
-      //StripFNC 禁用
+    //StripFNC 禁用
     reader.BarcodeSettings.StripFNC = false;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -39,7 +39,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code1
 }
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code128))
 {
-      //StripFNC 启用
+    //StripFNC启用
     reader.BarcodeSettings.StripFNC = true;
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -51,14 +51,14 @@ Using generator As New BarcodeGenerator(EncodeTypes.GS1Code128, "(02)04006664241
     generator.Save("c:\test.png")
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    ' StripFNC 禁用
+    'StripFNC 已禁用
     reader.BarcodeSettings.StripFNC = False
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
     Next
 End Using
 Using reader As New BarCodeReader("c:\test.png", DecodeType.Code128)
-    ' StripFNC 启用
+    '已启用 StripFNC
     reader.BarcodeSettings.StripFNC = True
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

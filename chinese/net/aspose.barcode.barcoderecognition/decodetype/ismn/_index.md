@@ -1,14 +1,14 @@
 ---
 title: ISMN
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该使用 ISMN 条码规范 进行解码
+description: 指定数据应该被解码 ISMN条码规格
 type: docs
 weight: 390
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/ismn/
 ---
 ## DecodeType.ISMN field
 
-指定数据应该使用 **ISMN** 条码规范 进行解码
+指定数据应该被解码 **ISMN**条码规格
 
 ```csharp
 public static readonly SingleDecodeType ISMN;

@@ -1,14 +1,14 @@
 ---
 title: DeutschePostIdentcode
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示 Deutsch Post 条码此符号也称为 IdentcodeCodeIdentcodeGerman Postal 2 of 5 Identcode Deutsch Post AG Identcode Deutsch Frachtpost Identcode Deutsch Post AG DHL
+description: 代表 Deutsch Post 条形码此符号也称为 IdentcodeCodeIdentcodeGerman Postal 2 of 5 Identcode Deutsch Post AG IdentcodeDeutsch Frachtpost IdentcodeDeutsch Post AG DHL
 type: docs
 weight: 240
 url: /zh/net/aspose.barcode.generation/encodetypes/deutschepostidentcode/
 ---
 ## EncodeTypes.DeutschePostIdentcode field
 
-表示 Deutsch Post 条码，此符号也称为 Identcode,CodeIdentcode,German Postal 2 of 5 Identcode, Deutsch Post AG Identcode, Deutsch Frachtpost Identcode, Deutsch Post AG (DHL)
+代表 Deutsch Post 条形码，此符号也称为 Identcode、CodeIdentcode、German Postal 2 of 5 Identcode、 Deutsch Post AG Identcode、Deutsch Frachtpost Identcode、Deutsch Post AG (DHL)
 
 ```csharp
 public static readonly SymbologyEncodeType DeutschePostIdentcode;

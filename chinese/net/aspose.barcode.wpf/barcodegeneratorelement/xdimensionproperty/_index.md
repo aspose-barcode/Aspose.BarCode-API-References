@@ -1,14 +1,14 @@
 ---
 title: XDimensionProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: XDimensionProperty
+description: XDimension 属性
 type: docs
 weight: 2020
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/xdimensionproperty/
 ---
 ## BarcodeGeneratorElement.XDimensionProperty field
 
-XDimensionProperty
+XDimension 属性
 
 ```csharp
 public static DependencyProperty XDimensionProperty;

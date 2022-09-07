@@ -1,14 +1,14 @@
 ---
 title: AustraliaPostSettings
 second_title: Aspose.BarCode for .NET API 参考
-description: AustraliaPost 解码参数包含对澳大利亚邮政符号系统的识别数据产生影响的参数
+description: AustraliaPost解码参数包含对澳大利亚邮政符号系统的识别数据产生影响的参数
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/australiapostsettings/
 ---
 ## AustraliaPostSettings class
 
-AustraliaPost 解码参数。包含对澳大利亚邮政符号系统的识别数据产生影响的参数。
+AustraliaPost解码参数。包含对澳大利亚邮政符号系统的识别数据产生影响的参数。
 
 ```csharp
 public sealed class AustraliaPostSettings
@@ -18,9 +18,9 @@ public sealed class AustraliaPostSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomerInformationDecoder](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationdecoder) { get; set; } | 用于澳大利亚邮政符号系统中的客户信息字段解码的公共接口。 |
-| [CustomerInformationInterpretingType](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype) { get; set; } | 获取或设置AustralianPost BarCode的客户信息的解释类型。默认为CustomerInformationInterpretingType.Other。 |
-| [IgnoreEndingFillingPatternsForCTable](../../aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable) { get; set; } | 强制AustraliaPost解码器在解码过程中忽略客户信息字段中的最后填充模式作为CTable方法的标志。 CTable编码方式在编码表中没有任何间隙，填充模式的序列“333”被解码为字母“z”。 |
+| [CustomerInformationDecoder](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationdecoder) { get; set; } | 用于澳大利亚邮政符号系统的客户信息字段解码的公共接口。 |
+| [CustomerInformationInterpretingType](../../aspose.barcode.barcoderecognition/australiapostsettings/customerinformationinterpretingtype) { get; set; } | 获取或设置AustralianPost BarCode的客户信息的解释类型。默认为CustomerInformationInterpretingType.Other. |
+| [IgnoreEndingFillingPatternsForCTable](../../aspose.barcode.barcoderecognition/australiapostsettings/ignoreendingfillingpatternsforctable) { get; set; } | 强制AustraliaPost解码器在解码为CTable方法时忽略Customer Information Field中最后的填充模式的标志。 CTable编码方法在编码表中没有任何间隙，并且填充模式的序列“333”被解码为字母“z”。 |
 
 ### 也可以看看
 

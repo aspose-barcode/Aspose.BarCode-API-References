@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回此Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters的人类可读字符串表示
+description: 返回一个人类可读的字符串表示Pdf417ExtendedParametersaspose.barcode.barcoderecognition/pdf417extendedparameters.
 type: docs
 weight: 120
 url: /zh/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring/
 ---
 ## Pdf417ExtendedParameters.ToString method
 
-返回此[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)的人类可读字符串表示。
+返回一个人类可读的字符串表示[`Pdf417ExtendedParameters`](../../pdf417extendedparameters).
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`Pdf417ExtendedParameters`](../../pdf417extendedparameters)的字符串。
+代表这个的字符串[`Pdf417ExtendedParameters`](../../pdf417extendedparameters).
 
 ### 也可以看看
 

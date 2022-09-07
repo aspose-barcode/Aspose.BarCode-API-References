@@ -1,14 +1,14 @@
 ---
 title: RTSFlag
 second_title: Aspose.BarCode for .NET API 参考
-description: 标志指示正在请求的返回发件人服务的级别
+description: 指示正在请求返回发件人服务级别的标志
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.complexbarcode/mailmark2dcodetext/rtsflag/
 ---
 ## Mailmark2DCodetext.RTSFlag property
 
-标志，指示正在请求的返回发件人服务的级别。
+指示正在请求返回发件人服务级别的标志。
 
 ```csharp
 public string RTSFlag { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ITF
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 ITF 参数ITFParametersaspose.barcode.generation/itfparameters 用于 ITF6ITF14
+description: 获取或设置 ITF 参数ITFParametersaspose.barcode.generation/itfparameters. 用于 ITF6ITF14.
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/itf/
 ---
 ## SpecificParametersUI.ITF property
 
-获取或设置 ITF 参数[`ITFParameters`](../../../aspose.barcode.generation/itfparameters)。 用于 ITF6、ITF14。
+获取或设置 ITF 参数[`ITFParameters`](../../../aspose.barcode.generation/itfparameters). 用于 ITF6、ITF14.
 
 ```csharp
 public ITFParameters ITF { get; }

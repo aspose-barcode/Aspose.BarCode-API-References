@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/region
 
 为检测到的可能包含条形码的区域设置阈值。
 
-值 0.7 表示底部 70% 的可能区域被过滤掉，不再进一步处理。 区域似然阈值必须在 [0.05, 0.9] 之间 对带有少量条形码的清晰图像使用高值。 对带有许多条形码的图像或嘈杂的图像使用较低的值。 低值可能导致更大的识别时间。
+值 0.7 表示底部 70% 的可能区域被过滤掉，不再进一步处理。 区域似然阈值必须在 [0.05, 0.9] 之间条形码或噪声图像。 低值可能导致更长的识别时间。
 
 ```csharp
 public float RegionLikelihoodThresholdPercent { get; set; }

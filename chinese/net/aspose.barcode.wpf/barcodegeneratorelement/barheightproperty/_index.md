@@ -1,14 +1,14 @@
 ---
 title: BarHeightProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: BarHeightProperty
+description: BarHeight 属性
 type: docs
 weight: 1120
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/barheightproperty/
 ---
 ## BarcodeGeneratorElement.BarHeightProperty field
 
-BarHeightProperty
+BarHeight 属性
 
 ```csharp
 public static DependencyProperty BarHeightProperty;

@@ -1,14 +1,14 @@
 ---
 title: RotationAngle
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码图像旋转角度以度为单位例如 RotationAngle  0 或 RotationAngle  360 表示不旋转 如果 RotationAngle 不等于 90180270 或 0可能会增加扫描仪读取图像的难度
+description: BarCode 图像旋转角度以度为单位例如 RotationAngle  0 或 RotationAngle  360 表示不旋转 如果 RotationAngle 不等于 90180270 或 0可能会增加扫描仪读取图像的难度
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.windows.forms/ibarcodegeneratorcontrol/rotationangle/
 ---
 ## IBarCodeGeneratorControl.RotationAngle property
 
-条码图像旋转角度，以度为单位，例如 RotationAngle = 0 或 RotationAngle = 360 表示不旋转。 如果 RotationAngle 不等于 90、180、270 或 0，可能会增加扫描仪读取图像的难度。
+BarCode 图像旋转角度，以度为单位，例如 RotationAngle = 0 或 RotationAngle = 360 表示不旋转。 如果 RotationAngle 不等于 90、180、270 或 0，可能会增加扫描仪读取图像的难度。
 
 ```csharp
 public float RotationAngle { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置二维码参数QrParametersaspose.barcode.generation/qrparameters 用于二维码
+description: 获取或设置二维码参数QrParametersaspose.barcode.generation/qrparameters. 用于二维码
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/qr/
 ---
 ## SpecificParametersUI.QR property
 
-获取或设置二维码参数[`QrParameters`](../../../aspose.barcode.generation/qrparameters)。 用于二维码。
+获取或设置二维码参数[`QrParameters`](../../../aspose.barcode.generation/qrparameters). 用于二维码。
 
 ```csharp
 public QrParametersUI QR { get; }

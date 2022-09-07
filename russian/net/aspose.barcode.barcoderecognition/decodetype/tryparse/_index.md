@@ -1,14 +1,14 @@
 ---
 title: TryParse
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает было ли преобразование успешным или нет.
+description: Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает успешно ли выполнено преобразование.
 type: docs
 weight: 810
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_1}
 
-Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление SingleDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool TryParse(string parsingType, out SingleDecodeType result)
@@ -21,7 +21,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 ## TryParse(string, out MultyDecodeType) {#tryparse}
 
-Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, было ли преобразование успешным или нет.
+Преобразует строковое представление MultyDecodeType в его экземпляр. Возвращаемое значение указывает, успешно ли выполнено преобразование.
 
 ```csharp
 public static bool TryParse(string parsingType, out MultyDecodeType result)
@@ -43,11 +43,11 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | parsingType | String | Строка в формате "AllSupportedTypes" или "EAN8,EAN13,CodaBar" для преобразования. |
-| result | MultyDecodeType& | Возвращается фактический MultyDecodeType, когда преобразование успешно завершено; |
+| result | MultyDecodeType& | Фактический MultyDecodeType возвращается после успешного завершения преобразования; |
 
 ### Возвращаемое значение
 
-**true** если s был успешно преобразован; в противном случае **false** .
+**истинный** если s был успешно преобразован; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

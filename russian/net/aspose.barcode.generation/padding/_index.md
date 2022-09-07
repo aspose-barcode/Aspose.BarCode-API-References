@@ -27,7 +27,7 @@ public class Padding
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/padding/tostring)() | Возвращает удобочитаемое строковое представление этого[`Padding`](../padding). |
+| override [ToString](../../aspose.barcode.generation/padding/tostring)() | Возвращает удобочитаемое строковое представление этого[`Padding`](../padding) . |
 
 ### Смотрите также
 

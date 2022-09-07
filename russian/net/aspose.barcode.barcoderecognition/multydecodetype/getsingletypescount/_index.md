@@ -1,14 +1,14 @@
 ---
 title: GetSingleTypesCount
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает несколько отдельных типов.
+description: Возвращает количество отдельных типов.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.barcoderecognition/multydecodetype/getsingletypescount/
 ---
 ## MultyDecodeType.GetSingleTypesCount property
 
-Возвращает несколько отдельных типов.
+Возвращает количество отдельных типов.
 
 ```csharp
 public int GetSingleTypesCount { get; }

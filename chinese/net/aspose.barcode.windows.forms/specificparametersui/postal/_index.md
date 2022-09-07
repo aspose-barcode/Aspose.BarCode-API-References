@@ -1,14 +1,14 @@
 ---
 title: Postal
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置邮政参数PostalParametersaspose.barcode.generation/postalparameters 用于 PostnetPlanet
+description: 获取或设置邮政参数PostalParametersaspose.barcode.generation/postalparameters. 用于 PostnetPlanet.
 type: docs
 weight: 130
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/postal/
 ---
 ## SpecificParametersUI.Postal property
 
-获取或设置邮政参数[`PostalParameters`](../../../aspose.barcode.generation/postalparameters)。 用于 Postnet、Planet。
+获取或设置邮政参数[`PostalParameters`](../../../aspose.barcode.generation/postalparameters). 用于 Postnet、Planet.
 
 ```csharp
 public PostalParameters Postal { get; }

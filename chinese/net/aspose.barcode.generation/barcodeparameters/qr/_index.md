@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Aspose.BarCode for .NET API 参考
-description: QR 参数
+description: 二维码参数.
 type: docs
 weight: 250
 url: /zh/net/aspose.barcode.generation/barcodeparameters/qr/
 ---
 ## BarcodeParameters.QR property
 
-QR 参数。
+二维码参数.
 
 ```csharp
 public QrParameters QR { get; }

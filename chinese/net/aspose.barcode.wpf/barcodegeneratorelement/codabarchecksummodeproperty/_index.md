@@ -1,14 +1,14 @@
 ---
 title: CodabarChecksumModeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CodabarChecksumModeProperty
+description: CodabarChecksumMode 属性
 type: docs
 weight: 1340
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codabarchecksummodeproperty/
 ---
 ## BarcodeGeneratorElement.CodabarChecksumModeProperty field
 
-CodabarChecksumModeProperty
+CodabarChecksumMode 属性
 
 ```csharp
 public static DependencyProperty CodabarChecksumModeProperty;

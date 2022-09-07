@@ -1,14 +1,14 @@
 ---
 title: ContainsAny
 second_title: Aspose.BarCode for .NET API 参考
-description: 确定任何给定的解码类型是否包含在
+description: 确定任何给定的解码类型是否包含在 中
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/basedecodetype/containsany/
 ---
 ## BaseDecodeType.ContainsAny method
 
-确定任何给定的解码类型是否包含在
+确定任何给定的解码类型是否包含在 中
 
 ```csharp
 public abstract bool ContainsAny(params BaseDecodeType[] types)
@@ -16,11 +16,11 @@ public abstract bool ContainsAny(params BaseDecodeType[] types)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| types | BaseDecodeType[] | 中 要验证的类型 |
+| types | BaseDecodeType[] | 要验证的类型 |
 
 ### 返回值
 
-如果任何类型包含在
+如果包含任何类型，则值为 true
 
 ### 也可以看看
 

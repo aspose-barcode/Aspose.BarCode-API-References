@@ -1,14 +1,14 @@
 ---
 title: QrEncodeMode
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码编码模式的二维码类型 默认值QREncodeMode.Auto
+description: 条码编码模式的二维码类型 默认值QREncodeMode.Auto.
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.generation/qrparameters/qrencodemode/
 ---
 ## QrParameters.QrEncodeMode property
 
-条码编码模式的二维码类型。 默认值:QREncodeMode.Auto。
+条码编码模式的二维码类型。 默认值：QREncodeMode.Auto.
 
 ```csharp
 public QREncodeMode QrEncodeMode { get; set; }

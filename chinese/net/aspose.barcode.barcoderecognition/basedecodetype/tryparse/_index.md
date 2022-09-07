@@ -21,7 +21,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 
@@ -73,7 +73,7 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоCaptionUIaspose.barcode.windows.forms/captionui.
+description: Возвращает удобочитаемое строковое представление этогоCaptionUIaspose.barcode.windows.forms/captionui .
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.windows.forms/captionui/tostring/
 ---
 ## CaptionUI.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`CaptionUI`](../../captionui).
+Возвращает удобочитаемое строковое представление этого[`CaptionUI`](../../captionui) .
 
 ```csharp
 public override string ToString()

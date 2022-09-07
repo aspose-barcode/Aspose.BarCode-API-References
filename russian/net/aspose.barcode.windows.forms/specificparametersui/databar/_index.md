@@ -1,14 +1,14 @@
 ---
 title: DataBar
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает параметры DataBarDataBarParametersaspose.barcode.generation/databarparameters. Используется для символик DataBar.
+description: Получает или задает параметры DataBarDataBarParametersaspose.barcode.generation/databarparameters . Используется для символов DataBar.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/databar/
 ---
 ## SpecificParametersUI.DataBar property
 
-Получает или устанавливает параметры DataBar[`DataBarParameters`](../../../aspose.barcode.generation/databarparameters). Используется для символик DataBar.
+Получает или задает параметры DataBar[`DataBarParameters`](../../../aspose.barcode.generation/databarparameters) . Используется для символов DataBar.
 
 ```csharp
 public DataBarParameters DataBar { get; }

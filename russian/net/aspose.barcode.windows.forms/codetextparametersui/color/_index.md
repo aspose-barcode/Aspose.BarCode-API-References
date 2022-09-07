@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите отображаемый цвет CodeText. Значение по умолчаниюColor.Black.
+description: Укажите отображаемый цвет CodeText. Значение по умолчанию Color.Black.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.windows.forms/codetextparametersui/color/
 ---
 ## CodetextParametersUI.Color property
 
-Укажите отображаемый цвет CodeText. Значение по умолчанию:Color.Black.
+Укажите отображаемый цвет CodeText. Значение по умолчанию: Color.Black.
 
 ```csharp
 public Color Color { get; set; }

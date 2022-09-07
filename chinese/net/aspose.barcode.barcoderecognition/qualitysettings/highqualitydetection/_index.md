@@ -1,16 +1,19 @@
 ---
 title: HighQualityDetection
 second_title: Aspose.BarCode for .NET API 参考
-description: HighQualityDetection 识别质量预设与 NormalQuality 相同但具有高质量DetectorSettingsaspose.barcode.barcoderecognition/qualitysettings/detectorsettings
+description: HighQualityDetection 识别质量预设与 NormalQuality 相同但质量较高DetectorSettingsaspose.barcode.barcoderecognition/qualitysettings/detectorsettings
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/highqualitydetection/
 ---
 ## QualitySettings.HighQualityDetection property
 
-HighQualityDetection 识别质量预设。与 NormalQuality 相同但具有高质量[`DetectorSettings`](../detectorsettings)
+HighQualityDetection 识别质量预设。与 NormalQuality 相同，但质量较高[`DetectorSettings`](../detectorsettings)
 
-&lt;code&gt; using (BarCodeReader reader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.HighQualityDetection; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.HighQualityDetection;
+```
 
 ```csharp
 public static QualitySettings HighQualityDetection { get; }
@@ -18,7 +21,7 @@ public static QualitySettings HighQualityDetection { get; }
 
 ### 适当的价值
 
-HighQualityDetection 识别质量预设。
+HighQualityDetection识别质量预设。
 
 ### 也可以看看
 

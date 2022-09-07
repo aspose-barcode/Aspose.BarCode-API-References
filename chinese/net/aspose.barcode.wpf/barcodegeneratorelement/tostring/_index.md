@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.BarCode for .NET API 参考
-description: BarcodeGenerator 类的字符串表示
+description: BarcodeGenerator 类的字符串表示形式
 type: docs
 weight: 1020
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/tostring/
 ---
 ## BarcodeGeneratorElement.ToString method
 
-BarcodeGenerator 类的字符串表示
+BarcodeGenerator 类的字符串表示形式
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-BarCode:SymbologyType:CodeText
+条码：符号类型：CodeText
 
 ### 也可以看看
 

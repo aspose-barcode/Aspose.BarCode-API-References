@@ -1,14 +1,14 @@
 ---
 title: VIN
 second_title: Aspose.BarCode for .NET API 参考
-description: 代表 VIN车辆识别号条形码
+description: 表示 VIN车辆识别号条形码
 type: docs
 weight: 700
 url: /zh/net/aspose.barcode.generation/encodetypes/vin/
 ---
 ## EncodeTypes.VIN field
 
-代表 VIN（车辆识别号）条形码。
+表示 VIN（车辆识别号）条形码。
 
 ```csharp
 public static readonly SymbologyEncodeType VIN;

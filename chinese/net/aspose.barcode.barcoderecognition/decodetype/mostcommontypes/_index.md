@@ -1,14 +1,14 @@
 ---
 title: MostCommonTypes
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用最常用的符号系统检查数据
+description: 指定将使用最常用的符号检查数据
 type: docs
 weight: 510
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/mostcommontypes/
 ---
 ## DecodeType.MostCommonTypes field
 
-指定将使用最常用的符号系统检查数据
+指定将使用最常用的符号检查数据
 
 ```csharp
 public static readonly MultyDecodeType MostCommonTypes;

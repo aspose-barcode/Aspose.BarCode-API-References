@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.BarCode for .NET API 参考
-description: 字幕字体 默认值Arial 8pt 常规
+description: 字幕字体 默认值Arial 8pt 常规字体
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/captionparameters/font/
 ---
 ## CaptionParameters.Font property
 
-字幕字体。 默认值:Arial 8pt 常规。
+字幕字体。 默认值：Arial 8pt 常规字体。
 
 ```csharp
 public FontUnit Font { get; }

@@ -1,20 +1,20 @@
 ---
 title: IsChecksumEnabled
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Включить контрольную сумму при генерации одномерных штрих-кодов.
+description: Включить контрольную сумму во время генерации штрих-кодов 1D.
 type: docs
 weight: 190
 url: /ru/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/ischecksumenabled/
 ---
 ## BarCodeGeneratorControl.IsChecksumEnabled property
 
-Включить контрольную сумму при генерации одномерных штрих-кодов.
+Включить контрольную сумму во время генерации штрих-кодов 1D.
 
-Значение по умолчанию трактуется как Да для символов, которые должны содержать контрольную сумму, и как Нет, если возможна только контрольная сумма.
+Значение по умолчанию трактуется как «Да» для символов, которые должны содержать контрольную сумму, и как «Нет», если возможна только контрольная сумма.
 
-Возможна контрольная сумма:Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN, Codabar
+Возможна контрольная сумма: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN, Codabar
 
-Контрольная сумма всегда используется:остальные символы
+Контрольная сумма всегда используется: остальные символы
 
 ```csharp
 public EnableChecksum IsChecksumEnabled { get; set; }

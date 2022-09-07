@@ -1,14 +1,14 @@
 ---
 title: CouponParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 优惠券参数用于 UpcaGs1DatabarCouponUpcaGs1Code128Coupon
+description: 优惠券参数用于 UpcaGs1DatabarCouponUpcaGs1Code128Coupon.
 type: docs
 weight: 640
 url: /zh/net/aspose.barcode.generation/couponparameters/
 ---
 ## CouponParameters class
 
-优惠券参数。用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon。
+优惠券参数。用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon.
 
 ```csharp
 public class CouponParameters
@@ -18,13 +18,13 @@ public class CouponParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SupplementSpace](../../aspose.barcode.generation/couponparameters/supplementspace) { get; } | [`Unit`](../unit)值中主要条形码和补充条形码之间的空间。 |
+| [SupplementSpace](../../aspose.barcode.generation/couponparameters/supplementspace) { get; } | 主条码和补充条码之间的空格[`Unit`](../unit)值. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/couponparameters/tostring)() | 返回此[`CouponParameters`](../couponparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/couponparameters/tostring)() | 返回一个人类可读的字符串表示[`CouponParameters`](../couponparameters). |
 
 ### 也可以看看
 

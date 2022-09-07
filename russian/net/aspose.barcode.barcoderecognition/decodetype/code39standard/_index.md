@@ -1,14 +1,14 @@
 ---
 title: Code39Standard
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Standard CODE 39 спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с Стандартный КОД 39 спецификация штрих-кода
 type: docs
 weight: 130
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/code39standard/
 ---
 ## DecodeType.Code39Standard field
 
-Указывает, что данные должны быть декодированы с **Standard CODE 39** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **Стандартный КОД 39** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Code39Standard;

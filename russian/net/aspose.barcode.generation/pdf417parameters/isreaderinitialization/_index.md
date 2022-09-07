@@ -1,14 +1,14 @@
 ---
 title: IsReaderInitialization
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Используется для указания считывателю интерпретировать данные содержащиеся в символе как программирование для инициализации считывателя.
+description: Используется для указания считывателю интерпретировать данные содержащиеся в символе  как программирование для инициализации считывателя.
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.generation/pdf417parameters/isreaderinitialization/
 ---
 ## Pdf417Parameters.IsReaderInitialization property
 
-Используется для указания считывателю интерпретировать данные, содержащиеся в символе как программирование для инициализации считывателя.
+Используется для указания считывателю интерпретировать данные, содержащиеся в символе , как программирование для инициализации считывателя.
 
 ```csharp
 public bool IsReaderInitialization { get; set; }

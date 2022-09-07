@@ -18,7 +18,7 @@ public sealed class BarCodeRegionParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle) { get; } | 获取条码的角度（0-360）。 |
+| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle) { get; } | 获取条形码的角度 (0-360)。 |
 | [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points) { get; } | 获取Points 数组边界条码区域 |
 | [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle) { get; } | 获取[`Quadrangle`](../quadrangle)边界条码区域 |
 | [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle) { get; } | 获取Rectangle边界条码区域 |
@@ -27,11 +27,11 @@ public sealed class BarCodeRegionParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`BarCodeRegionParameters`](../barcoderegionparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`BarCodeRegionParameters`](../barcoderegionparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | 返回此[`BarCodeRegionParameters`](../barcoderegionparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | 返回一个值，指示第一个[`BarCodeRegionParameters`](../barcoderegionparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | 返回一个值，指示第一个[`BarCodeRegionParameters`](../barcoderegionparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | 返回一个人类可读的字符串表示[`BarCodeRegionParameters`](../barcoderegionparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | 返回一个值，指示是否第一个[`BarCodeRegionParameters`](../barcoderegionparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | 返回一个值，指示是否第一个[`BarCodeRegionParameters`](../barcoderegionparameters)值与第二个不同。 |
 
 ### 例子
 

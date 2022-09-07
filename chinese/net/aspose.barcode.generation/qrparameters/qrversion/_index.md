@@ -1,14 +1,14 @@
 ---
 title: QrVersion
 second_title: Aspose.BarCode for .NET API 参考
-description: 二维码版本 QR 码从 Version1 到 Version40MicroQr 从 M1 到 M4 默认值为 QRVersion.Auto
+description: QR 码的版本 QR 码从 Version1 到 Version40MicroQr 从 M1 到 M4 默认值为 QRVersion.Auto.
 type: docs
 weight: 70
 url: /zh/net/aspose.barcode.generation/qrparameters/qrversion/
 ---
 ## QrParameters.QrVersion property
 
-二维码版本。 QR 码从 Version1 到 Version40，MicroQr 从 M1 到 M4。 默认值为 QRVersion.Auto。
+QR 码的版本。 QR 码从 Version1 到 Version40，MicroQr 从 M1 到 M4。 默认值为 QRVersion.Auto.
 
 ```csharp
 public QRVersion QrVersion { get; set; }

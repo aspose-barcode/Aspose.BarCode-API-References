@@ -1,14 +1,14 @@
 ---
 title: TypeIndex
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает индекс типа кодировки
+description: Получает индекс кодировки type
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/baseencodetype/typeindex/
 ---
 ## BaseEncodeType.TypeIndex property
 
-Получает индекс типа кодировки
+Получает индекс кодировки type
 
 ```csharp
 public short TypeIndex { get; }

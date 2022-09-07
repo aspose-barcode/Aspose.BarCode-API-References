@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroFileID
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Идентификатор файла штрих-кода MacroPdf417 Обязательное поле. Идентификатор файла штрих-кода MicroPDF417 обязательное поле для режима структурированного добавления
+description: Идентификатор файла штрих-кода MacroPdf417 обязательное поле. Идентификатор файла штрих-кода MicroPDF417 обязательное поле для режима структурированного добавления
 type: docs
 weight: 120
 url: /ru/net/aspose.barcode.generation/pdf417parameters/pdf417macrofileid/
 ---
 ## Pdf417Parameters.Pdf417MacroFileID property
 
-Идентификатор файла штрих-кода MacroPdf417 (Обязательное поле). Идентификатор файла штрих-кода MicroPDF417 (обязательное поле для режима структурированного добавления)
+Идентификатор файла штрих-кода MacroPdf417 (обязательное поле). Идентификатор файла штрих-кода MicroPDF417 (обязательное поле для режима структурированного добавления)
 
 ```csharp
 public int Pdf417MacroFileID { get; set; }

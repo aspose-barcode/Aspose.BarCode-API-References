@@ -1,14 +1,14 @@
 ---
 title: AllowSaltAndPaperFiltering
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Позволяет движку распознавать штрих-коды с шумом соли и бумаги. Режим может удалить небольшой шум с белыми и черными точками.
+description: Позволяет движку распознавать штрих-коды с шумом соли и бумаги. Режим может убрать небольшой шум с белыми и черными точками.
 type: docs
 weight: 190
 url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/allowsaltandpaperfiltering/
 ---
 ## QualitySettings.AllowSaltAndPaperFiltering property
 
-Позволяет движку распознавать штрих-коды с шумом соли и бумаги. Режим может удалить небольшой шум с белыми и черными точками.
+Позволяет движку распознавать штрих-коды с шумом соли и бумаги. Режим может убрать небольшой шум с белыми и черными точками.
 
 ```csharp
 public bool AllowSaltAndPaperFiltering { get; set; }

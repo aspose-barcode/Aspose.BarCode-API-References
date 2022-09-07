@@ -1,14 +1,14 @@
 ---
 title: QuietZoneLeftCoef
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Размер левой тихой зоны в xDimension. Значение по умолчанию10 что означает что если xDimension  2px то левая тихая зона будет 20px.
+description: Размер левой тихой зоны в xDimension. Значение по умолчанию 10 что означает что если xDimension  2px то левая неактивная зона будет 20px.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.generation/code16kparameters/quietzoneleftcoef/
 ---
 ## Code16KParameters.QuietZoneLeftCoef property
 
-Размер левой тихой зоны в xDimension. Значение по умолчанию:10, что означает, что если xDimension = 2px, то левая тихая зона будет 20px.
+Размер левой тихой зоны в xDimension. Значение по умолчанию: 10, что означает, что если xDimension = 2px, то левая неактивная зона будет 20px.
 
 ```csharp
 public int QuietZoneLeftCoef { get; set; }

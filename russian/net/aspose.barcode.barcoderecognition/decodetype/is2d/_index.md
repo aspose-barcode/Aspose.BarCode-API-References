@@ -1,14 +1,14 @@
 ---
 title: Is2D
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Определяет содержит ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetypeкакую-либо символику двумерного штрих-кода
+description: Определяет является ли указанныйBaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype содержит любой двумерный штрих-код symbology
 type: docs
 weight: 770
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/is2d/
 ---
 ## DecodeType.Is2D method
 
-Определяет, содержит ли указанный[`BaseDecodeType`](../../basedecodetype)какую-либо символику двумерного штрих-кода
+Определяет, является ли указанный[`BaseDecodeType`](../../basedecodetype) содержит любой двумерный штрих-код symbology
 
 ```csharp
 public static bool Is2D(BaseDecodeType symbology)
@@ -16,11 +16,11 @@ public static bool Is2D(BaseDecodeType symbology)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype)для тестирования. |
+| symbology | BaseDecodeType | [`BaseDecodeType`](../../basedecodetype) тестировать. |
 
 ### Возвращаемое значение
 
-Возвращает **true** if[`BaseDecodeType`](../../basedecodetype)содержит любую символику двумерного штрих-кода; в противном случае возвращает **false** .
+Возвращает **истинный** если[`BaseDecodeType`](../../basedecodetype) содержит любую символику двумерного штрих-кода; в противном случае возвращается **ЛОЖЬ**.
 
 ### Смотрите также
 

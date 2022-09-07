@@ -1,14 +1,14 @@
 ---
 title: DatabarStacked
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应该被解码  GS1 Databar 堆叠 条码规格
+description: 指定数据应该被解码 GS1 Databar 堆叠条码规格
 type: docs
 weight: 210
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databarstacked/
 ---
 ## DecodeType.DatabarStacked field
 
-指定数据应该被解码  **GS1 Databar 堆叠** 条码规格
+指定数据应该被解码 **GS1 Databar 堆叠**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarStacked;

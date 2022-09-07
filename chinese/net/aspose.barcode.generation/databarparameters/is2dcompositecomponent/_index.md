@@ -1,14 +1,14 @@
 ---
 title: Is2DCompositeComponent
 second_title: Aspose.BarCode for .NET API 参考
-description: 启用带有 DataBar 条形码的 2D 复合组件的标志
+description: 使用 DataBar 条形码启用 2D 复合组件的标志
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/databarparameters/is2dcompositecomponent/
 ---
 ## DataBarParameters.Is2DCompositeComponent property
 
-启用带有 DataBar 条形码的 2D 复合组件的标志
+使用 DataBar 条形码启用 2D 复合组件的标志
 
 ```csharp
 public bool Is2DCompositeComponent { get; set; }

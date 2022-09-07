@@ -1,14 +1,14 @@
 ---
 title: SwissQRCodetext
 second_title: Aspose.BarCode for .NET API 参考
-description: 用于编码和解码嵌入在 SwissQR 码中的文本的类
+description: 用于对嵌入在 SwissQR 码中的文本进行编码和解码的类
 type: docs
 weight: 410
 url: /zh/net/aspose.barcode.complexbarcode/swissqrcodetext/
 ---
 ## SwissQRCodetext class
 
-用于编码和解码嵌入在 SwissQR 码中的文本的类。
+用于对嵌入在 SwissQR 码中的文本进行编码和解码的类。
 
 ```csharp
 public sealed class SwissQRCodetext : IComplexCodetext
@@ -18,8 +18,8 @@ public sealed class SwissQRCodetext : IComplexCodetext
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SwissQRCodetext](swissqrcodetext#constructor)() | 创建 SwissQRCodetext 的实例。 |
-| [SwissQRCodetext](swissqrcodetext#constructor_1)(SwissQRBill) | 创建 SwissQRCodetext 的实例。 |
+| [SwissQRCodetext](swissqrcodetext#constructor)() | 创建一个 SwissQRCodetext. 的实例 |
+| [SwissQRCodetext](swissqrcodetext#constructor_1)(SwissQRBill) | 创建一个 SwissQRCodetext. 的实例 |
 
 ## 特性
 
@@ -32,8 +32,8 @@ public sealed class SwissQRCodetext : IComplexCodetext
 | 姓名 | 描述 |
 | --- | --- |
 | [GetBarcodeType](../../aspose.barcode.complexbarcode/swissqrcodetext/getbarcodetype)() | 获取条码类型。 |
-| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext)() | 从 SwissQR 账单数据构造代码文本 |
-| [InitFromString](../../aspose.barcode.complexbarcode/swissqrcodetext/initfromstring)(string) | 用构造的代码文本初始化比尔。 |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext)() | 从 SwissQR 账单数据构建代码文本 |
+| [InitFromString](../../aspose.barcode.complexbarcode/swissqrcodetext/initfromstring)(string) | 使用构造的代码文本初始化比尔。 |
 
 ### 也可以看看
 

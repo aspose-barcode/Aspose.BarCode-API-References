@@ -1,14 +1,14 @@
 ---
 title: SymbologyEncodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Тип кодирования символов. См. EncodeTypes чтобы получить экземпляр.
+description: Тип кодирования символов. См. EncodeTypes чтобы получить instance.
 type: docs
 weight: 960
 url: /ru/net/aspose.barcode.generation/symbologyencodetype/
 ---
 ## SymbologyEncodeType class
 
-Тип кодирования символов. См. EncodeTypes, чтобы получить экземпляр.
+Тип кодирования символов. См. EncodeTypes, чтобы получить instance.
 
 ```csharp
 public class SymbologyEncodeType : BaseEncodeType
@@ -18,18 +18,18 @@ public class SymbologyEncodeType : BaseEncodeType
 
 | Имя | Описание |
 | --- | --- |
-| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Получает классификацию этих символов. |
-| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Получает индекс типа кодировки |
+| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Получает классификацию этого символа. |
+| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Получает индекс кодировки type |
 | [TypeName](../../aspose.barcode.generation/baseencodetype/typename) { get; } | Получает имя типа кодировки |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals)(BaseEncodeType) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../baseencodetype)значению. |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному[`BaseEncodeType`](../baseencodetype)значению. |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals)(BaseEncodeType) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../baseencodetype) значение. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals)(object) | Возвращает значение, указывающее, равен ли этот экземпляр заданному[`BaseEncodeType`](../baseencodetype) значение. |
 | override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Строковый формат:"Индекс:0; Имя:Codabar". |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Преобразует экземпляр BaseEncodeType в его эквивалентное строковое представление. Формат строки: "Index:0; Name:Codabar". |
 | override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | Возвращает имя заданного BaseEncodeType в виде строки. |
 
 ### Примеры

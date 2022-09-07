@@ -18,15 +18,15 @@ public class CodabarParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode) { get; set; } | 获取或设置 Codabar 条码的校验和算法。 默认值:CodabarChecksumMode.Mod16。 要启用校验和计算，请将值 EnableChecksum.Yes 设置为属性 EnableChecksum。 见[`CodabarChecksumMode`](./codabarchecksummode)。 |
-| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol) { get; set; } | Codabar 符号系统的起始符号（字符）。 默认值:CodabarSymbol.A |
-| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol) { get; set; } | Codabar 符号系统的停止符号（字符）。 默认值:CodabarSymbol.A |
+| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode) { get; set; } | 获取或设置 Codabar 条码的校验和算法。 默认值：CodabarChecksumMode.Mod16. 启用校验和计算设置值 EnableChecksum.Yes 属性 EnableChecksum. 见[`CodabarChecksumMode`](./codabarchecksummode). |
+| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol) { get; set; } | Codabar 符号系统的起始符号（字符）。 默认值：CodabarSymbol.A |
+| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol) { get; set; } | Codabar 符号系统的停止符号（字符）。 默认值：CodabarSymbol.A |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/codabarparameters/tostring)() | 返回此[`CodabarParameters`](../codabarparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/codabarparameters/tostring)() | 返回一个人类可读的字符串表示[`CodabarParameters`](../codabarparameters). |
 
 ### 也可以看看
 

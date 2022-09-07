@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取条码的角度0-360
+description: 获取条形码的角度 0-360
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderegionparameters/angle/
 ---
 ## BarCodeRegionParameters.Angle property
 
-获取条码的角度（0-360）。
+获取条形码的角度 (0-360)。
 
 ```csharp
 public double Angle { get; }

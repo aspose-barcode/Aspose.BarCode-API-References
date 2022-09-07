@@ -1,14 +1,14 @@
 ---
 title: Code32
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть закодированы с помощью Code32 спецификация штрих-кода
+description: Указывает что данные должны быть закодированы с Код32 спецификация штрих-кода
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.generation/encodetypes/code32/
 ---
 ## EncodeTypes.Code32 field
 
-Указывает, что данные должны быть закодированы с помощью **Code32** спецификация штрих-кода
+Указывает, что данные должны быть закодированы с **Код32** спецификация штрих-кода
 
 ```csharp
 public static readonly SymbologyEncodeType Code32;

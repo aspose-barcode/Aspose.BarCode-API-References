@@ -16,11 +16,11 @@ public bool ContainsAll(params BaseDecodeType[] barcodeTypes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | 输入单个或多个条形码类型 |
+| barcodeTypes | BaseDecodeType[] | 输入单个或多个条码类型 |
 
 ### 返回值
 
-值是如果所有类型都包含在
+如果所有类型都包含在其中，则值为 true
 
 ### 也可以看看
 

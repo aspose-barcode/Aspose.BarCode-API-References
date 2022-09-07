@@ -1,14 +1,14 @@
 ---
 title: Code93Extended
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Extended CODE 93 条码规范 解码
+description: 指定数据应该被解码 扩展代码 93条码规格
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/code93extended/
 ---
 ## DecodeType.Code93Extended field
 
-指定数据应使用 **Extended CODE 93** 条码规范 解码
+指定数据应该被解码 **扩展代码 93**条码规格
 
 ```csharp
 public static readonly SingleDecodeType Code93Extended;

@@ -20,7 +20,7 @@ public override bool ContainsAny(params BaseDecodeType[] decodeTypes)
 
 ### 返回值
 
-如果任何类型包含在
+如果包含任何类型，则值为 true
 
 ### 也可以看看
 

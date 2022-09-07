@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示此实例是否等于指定的BarCodeResultaspose.barcode.barcoderecognition/barcoderesult值
+description: 返回一个值指示此实例是否等于指定的BarCodeResultaspose.barcode.barcoderecognition/barcoderesult值.
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/equals/
 ---
 ## Equals(BarCodeResult) {#equals}
 
-返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../../barcoderesult)值。
+返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../../barcoderesult)值.
 
 ```csharp
 public bool Equals(BarCodeResult other)
@@ -16,11 +16,11 @@ public bool Equals(BarCodeResult other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | BarCodeResult | 一个[`BarCodeResult`](../../barcoderesult)值与此实例进行比较。 |
+| other | BarCodeResult | 一个[`BarCodeResult`](../../barcoderesult)与此实例进行比较的值。 |
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(BarCodeResult other)
 
 ## Equals(object) {#equals_1}
 
-返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../../barcoderesult)值。
+返回一个值，指示此实例是否等于指定的[`BarCodeResult`](../../barcoderesult)值.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

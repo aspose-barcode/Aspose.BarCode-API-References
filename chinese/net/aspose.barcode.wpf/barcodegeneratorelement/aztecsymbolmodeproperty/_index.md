@@ -1,14 +1,14 @@
 ---
 title: AztecSymbolModeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: AztecSymbolModeProperty
+description: AztecSymbolMode 属性
 type: docs
 weight: 1090
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmodeproperty/
 ---
 ## BarcodeGeneratorElement.AztecSymbolModeProperty field
 
-AztecSymbolModeProperty
+AztecSymbolMode 属性
 
 ```csharp
 public static DependencyProperty AztecSymbolModeProperty;

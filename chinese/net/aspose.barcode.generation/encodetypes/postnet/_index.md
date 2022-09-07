@@ -1,14 +1,14 @@
 ---
 title: Postnet
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 Postnet 条形码规范 进行编码
+description: 指定数据应该用 邮政网条码规格
 type: docs
 weight: 570
 url: /zh/net/aspose.barcode.generation/encodetypes/postnet/
 ---
 ## EncodeTypes.Postnet field
 
-指定数据应使用 **Postnet** 条形码规范 进行编码
+指定数据应该用 **邮政网**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Postnet;

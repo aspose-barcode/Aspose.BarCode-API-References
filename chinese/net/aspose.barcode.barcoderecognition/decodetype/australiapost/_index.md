@@ -1,14 +1,14 @@
 ---
 title: AustraliaPost
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 澳大利亚邮政 条码规范 解码
+description: 指定数据应该被解码 澳大利亚邮政条码规格
 type: docs
 weight: 40
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/australiapost/
 ---
 ## DecodeType.AustraliaPost field
 
-指定数据应使用 **澳大利亚邮政** 条码规范 解码
+指定数据应该被解码 **澳大利亚邮政**条码规格
 
 ```csharp
 public static readonly SingleDecodeType AustraliaPost;

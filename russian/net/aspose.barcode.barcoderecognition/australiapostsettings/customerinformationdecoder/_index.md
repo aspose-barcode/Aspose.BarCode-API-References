@@ -16,7 +16,7 @@ public AustraliaPostCustomerInformationDecoder CustomerInformationDecoder { get;
 
 ### Стоимость имущества
 
-Открытый интерфейс для декодирования поля информации о клиенте, который используется в символике AustraliaPost.
+Общедоступный интерфейс для декодирования поля информации о клиенте, который используется в символике AustraliaPost.
 
 ### Смотрите также
 

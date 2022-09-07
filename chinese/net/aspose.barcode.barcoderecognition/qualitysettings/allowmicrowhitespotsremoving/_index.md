@@ -1,14 +1,14 @@
 ---
 title: AllowMicroWhiteSpotsRemoving
 second_title: Aspose.BarCode for .NET API 参考
-description: 允许邮政条码引擎识别轻微噪点的图像模式有助于识别轻微损坏的邮政条码
+description: 允许邮政条码引擎识别轻微噪点的图像模式有助于识别轻微损坏的邮政条形码
 type: docs
 weight: 140
 url: /zh/net/aspose.barcode.barcoderecognition/qualitysettings/allowmicrowhitespotsremoving/
 ---
 ## QualitySettings.AllowMicroWhiteSpotsRemoving property
 
-允许邮政条码引擎识别轻微噪点的图像。模式有助于识别轻微损坏的邮政条码。
+允许邮政条码引擎识别轻微噪点的图像。模式有助于识别轻微损坏的邮政条形码。
 
 ```csharp
 public bool AllowMicroWhiteSpotsRemoving { get; set; }
@@ -16,7 +16,7 @@ public bool AllowMicroWhiteSpotsRemoving { get; set; }
 
 ### 适当的价值
 
-允许邮政条码引擎识别轻微噪声图像。
+允许邮政条形码引擎识别轻微噪点的图像。
 
 ### 也可以看看
 

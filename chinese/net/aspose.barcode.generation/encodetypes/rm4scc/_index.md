@@ -1,14 +1,14 @@
 ---
 title: RM4SCC
 second_title: Aspose.BarCode for .NET API 参考
-description: 代表 RM4SCC 条码 RM4SCC皇家邮政四州客户代码用于英国的自动邮件分拣流程
+description: 代表 RM4SCC 条码 RM4SCC皇家邮政 4 州客户代码用于英国的自动邮件分类流程
 type: docs
 weight: 600
 url: /zh/net/aspose.barcode.generation/encodetypes/rm4scc/
 ---
 ## EncodeTypes.RM4SCC field
 
-代表 RM4SCC 条码。 RM4SCC（皇家邮政四州客户代码）用于英国的自动邮件分拣流程。
+代表 RM4SCC 条码。 RM4SCC（皇家邮政 4 州客户代码）用于英国的自动邮件分类流程。
 
 ```csharp
 public static readonly SymbologyEncodeType RM4SCC;

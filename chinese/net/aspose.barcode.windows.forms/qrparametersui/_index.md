@@ -1,14 +1,14 @@
 ---
 title: QrParametersUI
 second_title: Aspose.BarCode for .NET API 参考
-description: UI 包装器用于QrParameters../aspose.barcode.generation/qrparameters类
+description: UI 包装器QrParameters../aspose.barcode.generation/qrparameters类.
 type: docs
 weight: 1110
 url: /zh/net/aspose.barcode.windows.forms/qrparametersui/
 ---
 ## QrParametersUI class
 
-UI 包装器用于[`QrParameters`](../../aspose.barcode.generation/qrparameters)类。
+UI 包装器[`QrParameters`](../../aspose.barcode.generation/qrparameters)类.
 
 ```csharp
 public class QrParametersUI
@@ -18,18 +18,18 @@ public class QrParametersUI
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.windows.forms/qrparametersui/aspectratio) { get; set; } | 二维条码模块的高/宽比。 |
-| [CodeTextEncoding](../../aspose.barcode.windows.forms/qrparametersui/codetextencoding) { get; set; } | 获取或设置代码文本的编码。 |
-| [QrEncodeMode](../../aspose.barcode.windows.forms/qrparametersui/qrencodemode) { get; set; } | 条码编码模式的二维码类型。 默认值:QREncodeMode.Auto。 |
+| [AspectRatio](../../aspose.barcode.windows.forms/qrparametersui/aspectratio) { get; set; } | 二维条码模块的高宽比。 |
+| [CodeTextEncoding](../../aspose.barcode.windows.forms/qrparametersui/codetextencoding) { get; set; } | 获取或设置codetext的编码。 |
+| [QrEncodeMode](../../aspose.barcode.windows.forms/qrparametersui/qrencodemode) { get; set; } | 条码编码模式的二维码类型。 默认值：QREncodeMode.Auto. |
 | [QrEncodeType](../../aspose.barcode.windows.forms/qrparametersui/qrencodetype) { get; set; } | QR / MicroQR 选择器模式。为标准 QR 符号选择 ForceQR，为 MicroQR 选择 Auto。 |
-| [QrErrorLevel](../../aspose.barcode.windows.forms/qrparametersui/qrerrorlevel) { get; set; } | QR 条码的 Reed-Solomon 纠错级别。 从低到高:LevelL、LevelM、LevelQ、LevelH。参见 QRErrorLevel。 |
-| [QrVersion](../../aspose.barcode.windows.forms/qrparametersui/qrversion) { get; set; } | 二维码版本。 QR 码从 Version1 到 Version40，MicroQr 从 M1 到 M4。 默认值为 QRVersion.Auto。 |
+| [QrErrorLevel](../../aspose.barcode.windows.forms/qrparametersui/qrerrorlevel) { get; set; } | QR 条码的 Reed-Solomon 纠错级别。 从低到高：LevelL、LevelM、LevelQ、LevelH。见 QRErrorLevel. |
+| [QrVersion](../../aspose.barcode.windows.forms/qrparametersui/qrversion) { get; set; } | QR 码的版本。 QR 码从 Version1 到 Version40，MicroQr 从 M1 到 M4。 默认值为 QRVersion.Auto. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.windows.forms/qrparametersui/tostring)() | 返回此[`QrParameters`](../../aspose.barcode.generation/qrparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.windows.forms/qrparametersui/tostring)() | 返回一个人类可读的字符串表示[`QrParameters`](../../aspose.barcode.generation/qrparameters). |
 
 ### 也可以看看
 

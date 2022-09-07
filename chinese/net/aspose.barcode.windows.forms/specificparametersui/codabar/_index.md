@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 Codabar 参数CodabarParametersaspose.barcode.generation/codabarparameters 用于 Codabar
+description: 获取或设置 Codabar 参数CodabarParametersaspose.barcode.generation/codabarparameters. 用于 Codabar.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/codabar/
 ---
 ## SpecificParametersUI.Codabar property
 
-获取或设置 Codabar 参数[`CodabarParameters`](../../../aspose.barcode.generation/codabarparameters)。 用于 Codabar。
+获取或设置 Codabar 参数[`CodabarParameters`](../../../aspose.barcode.generation/codabarparameters). 用于 Codabar.
 
 ```csharp
 public CodabarParameters Codabar { get; }

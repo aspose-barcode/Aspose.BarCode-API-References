@@ -1,14 +1,14 @@
 ---
 title: AustralianPost
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Параметры штрих-кода AustralianPost.
+description: Параметры штрих-кода Почты Австралии.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/barcodeparameters/australianpost/
 ---
 ## BarcodeParameters.AustralianPost property
 
-Параметры штрих-кода AustralianPost.
+Параметры штрих-кода Почты Австралии.
 
 ```csharp
 public AustralianPostParameters AustralianPost { get; }

@@ -1,14 +1,14 @@
 ---
 title: PZN
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示 PZN 条形码此符号也称为 Pharmacy 中心编号Pharmazentralnummer
+description: 代表 PZN 条形码此符号也称为药房中心编号Pharmazentralnummer
 type: docs
 weight: 580
 url: /zh/net/aspose.barcode.generation/encodetypes/pzn/
 ---
 ## EncodeTypes.PZN field
 
-表示 PZN 条形码。此符号也称为 Pharmacy 中心编号，Pharmazentralnummer
+代表 PZN 条形码。此符号也称为药房中心编号，Pharmazentralnummer
 
 ```csharp
 public static readonly SymbologyEncodeType PZN;

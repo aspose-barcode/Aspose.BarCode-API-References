@@ -1,14 +1,14 @@
 ---
 title: DatabarExpandedStacked
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应解码为 GS1 Databar 扩展堆叠 条码规范
+description: 指定数据应该被解码 GS1 Databar 扩展堆叠条码规格
 type: docs
 weight: 180
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/databarexpandedstacked/
 ---
 ## DecodeType.DatabarExpandedStacked field
 
-指定数据应解码为 **GS1 Databar 扩展堆叠** 条码规范
+指定数据应该被解码 **GS1 Databar 扩展堆叠**条码规格
 
 ```csharp
 public static readonly SingleDecodeType DatabarExpandedStacked;

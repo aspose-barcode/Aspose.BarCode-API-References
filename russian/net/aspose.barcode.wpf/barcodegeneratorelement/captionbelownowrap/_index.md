@@ -1,14 +1,14 @@
 ---
 title: CaptionBelowNoWrap
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Укажите перенос слов разрывы строк в тексте.
+description: Укажите переносы слов разрывы строк в тексте.
 type: docs
 weight: 270
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/captionbelownowrap/
 ---
 ## BarcodeGeneratorElement.CaptionBelowNoWrap property
 
-Укажите перенос слов (разрывы строк) в тексте.
+Укажите переносы слов (разрывы строк) в тексте.
 
 ```csharp
 public bool CaptionBelowNoWrap { get; set; }

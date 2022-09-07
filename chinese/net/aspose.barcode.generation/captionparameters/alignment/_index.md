@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.BarCode for .NET API 参考
-description: 字幕测试水平对齐 默认值StringAlignment.Center
+description: 字幕测试水平对齐 默认值StringAlignment.Center.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/captionparameters/alignment/
 ---
 ## CaptionParameters.Alignment property
 
-字幕测试水平对齐。 默认值:StringAlignment.Center。
+字幕测试水平对齐。 默认值：StringAlignment.Center.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

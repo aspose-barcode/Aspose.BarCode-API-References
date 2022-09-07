@@ -1,14 +1,14 @@
 ---
 title: CaptionAboveTextProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CaptionAboveTextProperty
+description: CaptionAboveText 属性
 type: docs
 weight: 1230
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/captionabovetextproperty/
 ---
 ## BarcodeGeneratorElement.CaptionAboveTextProperty field
 
-CaptionAboveTextProperty
+CaptionAboveText 属性
 
 ```csharp
 public static DependencyProperty CaptionAboveTextProperty;

@@ -1,14 +1,14 @@
 ---
 title: MaxiCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 MaxiCode 条码规范 进行编码
+description: 指定数据应该用 大码条码规格
 type: docs
 weight: 470
 url: /zh/net/aspose.barcode.generation/encodetypes/maxicode/
 ---
 ## EncodeTypes.MaxiCode field
 
-指定数据应使用 **MaxiCode** 条码规范 进行编码
+指定数据应该用 **大码**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType MaxiCode;

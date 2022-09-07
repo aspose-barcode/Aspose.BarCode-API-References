@@ -18,17 +18,17 @@ public class DataBarParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/databarparameters/aspectratio) { get; set; } | 二维条码模块的高/宽比。 用于堆叠的 DataBar。 |
+| [AspectRatio](../../aspose.barcode.generation/databarparameters/aspectratio) { get; set; } | 2D BarCode 模块的高宽比。 用于 DataBar 堆叠。 |
 | [Columns](../../aspose.barcode.generation/databarparameters/columns) { get; set; } | 列数。 |
-| [Is2DCompositeComponent](../../aspose.barcode.generation/databarparameters/is2dcompositecomponent) { get; set; } | 启用带有 DataBar 条形码的 2D 复合组件的标志 |
-| [IsAllowOnlyGS1Encoding](../../aspose.barcode.generation/databarparameters/isallowonlygs1encoding) { get; set; } | 如果设置此标志，则它只允许 Databar 条码类型的 GS1 编码标准 |
+| [Is2DCompositeComponent](../../aspose.barcode.generation/databarparameters/is2dcompositecomponent) { get; set; } | 使用 DataBar 条形码启用 2D 复合组件的标志 |
+| [IsAllowOnlyGS1Encoding](../../aspose.barcode.generation/databarparameters/isallowonlygs1encoding) { get; set; } | 如果设置了这个标志，它只允许对Databar条码类型使用GS1编码标准 |
 | [Rows](../../aspose.barcode.generation/databarparameters/rows) { get; set; } | 行数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/databarparameters/tostring)() | 返回此[`DataBarParameters`](../databarparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/databarparameters/tostring)() | 返回一个人类可读的字符串表示[`DataBarParameters`](../databarparameters). |
 
 ### 也可以看看
 

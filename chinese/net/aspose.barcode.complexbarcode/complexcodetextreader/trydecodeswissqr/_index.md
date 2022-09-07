@@ -1,14 +1,14 @@
 ---
 title: TryDecodeSwissQR
 second_title: Aspose.BarCode for .NET API 参考
-description: 解码 SwissQR 代码文本
+description: 解码 SwissQR codetext.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr/
 ---
 ## ComplexCodetextReader.TryDecodeSwissQR method
 
-解码 SwissQR 代码文本。
+解码 SwissQR codetext.
 
 ```csharp
 public static SwissQRCodetext TryDecodeSwissQR(string encodedCodetext)
@@ -16,11 +16,11 @@ public static SwissQRCodetext TryDecodeSwissQR(string encodedCodetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| encodedCodetext | String | 编码代码文本 |
+| encodedCodetext | String | 编码的代码文本 |
 
 ### 返回值
 
-解码 SwissQRCodetext 或 null。
+解码的 SwissQRCodetext 或 null。
 
 ### 也可以看看
 

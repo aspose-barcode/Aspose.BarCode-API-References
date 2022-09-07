@@ -1,14 +1,14 @@
 ---
 title: CodetextProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: CodetextProperty
+description: 代码文本属性
 type: docs
 weight: 1520
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/codetextproperty/
 ---
 ## BarcodeGeneratorElement.CodetextProperty field
 
-CodetextProperty
+代码文本属性
 
 ```csharp
 public static DependencyProperty CodetextProperty;

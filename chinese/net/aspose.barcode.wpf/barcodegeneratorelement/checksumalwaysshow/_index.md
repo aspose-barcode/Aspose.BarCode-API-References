@@ -1,14 +1,14 @@
 ---
 title: ChecksumAlwaysShow
 second_title: Aspose.BarCode for .NET API 参考
-description: 始终在 Code128 和 GS1Code128 条形码的人类可读文本中显示校验和数字
+description: 始终在 Code128 和 GS1Code128 条码的人类可读文本中显示校验和数字
 type: docs
 weight: 320
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/checksumalwaysshow/
 ---
 ## BarcodeGeneratorElement.ChecksumAlwaysShow property
 
-始终在 Code128 和 GS1Code128 条形码的人类可读文本中显示校验和数字。
+始终在 Code128 和 GS1Code128 条码的人类可读文本中显示校验和数字。
 
 ```csharp
 public bool ChecksumAlwaysShow { get; set; }

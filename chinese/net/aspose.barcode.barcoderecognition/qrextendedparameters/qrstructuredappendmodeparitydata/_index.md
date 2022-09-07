@@ -16,7 +16,7 @@ public int QRStructuredAppendModeParityData { get; }
 
 ### 适当的价值
 
-QR结构化附加模式条码的索引。
+QR 结构化附加模式条码的索引。
 
 ### 也可以看看
 

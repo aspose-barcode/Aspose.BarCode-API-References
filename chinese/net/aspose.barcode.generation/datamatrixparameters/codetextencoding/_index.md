@@ -1,14 +1,14 @@
 ---
 title: CodeTextEncoding
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置代码文本的编码 默认值UTF-8
+description: 获取或设置codetext的编码 默认值UTF-8
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/datamatrixparameters/codetextencoding/
 ---
 ## DataMatrixParameters.CodeTextEncoding property
 
-获取或设置代码文本的编码。 默认值:UTF-8
+获取或设置codetext的编码。 默认值：UTF-8
 
 ```csharp
 public Encoding CodeTextEncoding { get; set; }

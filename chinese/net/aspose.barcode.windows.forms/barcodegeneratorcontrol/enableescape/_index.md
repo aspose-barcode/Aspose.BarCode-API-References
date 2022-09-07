@@ -1,14 +1,14 @@
 ---
 title: EnableEscape
 second_title: Aspose.BarCode for .NET API 参考
-description: 指示是否将字符解释为 CodeText 属性中的转义字符仅用于 Pdf417DataMatrixCode128 如果 EnableEscape 为真将解释为特殊转义字符否则作为普通字符  Aspose.BarCode 支持输入十进制 ascii 码和 ASCII 控制码字符的助记符例如013 和 CR 代表 CR
+description: 指示是否将字符解释为 CodeText 属性中的转义字符用于Pdf417DataMatrixCode128 only 如果EnableEscape为真将解释为特殊转义字符否则作为普通字符 Aspose.BarCode 支持输入十进制 ascii 码和 ASCII 控制码字符的助记符例如013 和 CR 代表 CR
 type: docs
 weight: 160
 url: /zh/net/aspose.barcode.windows.forms/barcodegeneratorcontrol/enableescape/
 ---
 ## BarCodeGeneratorControl.EnableEscape property
 
-指示是否将字符“\”解释为 CodeText 属性中的转义字符。仅用于 Pdf417、DataMatrix、Code128 如果 EnableEscape 为真，“\”将解释为特殊转义字符。否则，“\”作为普通字符。  Aspose.BarCode 支持输入十进制 ascii 码和 ASCII 控制码字符的助记符。例如，\013 和 \\CR 代表 CR。
+指示是否将字符“\”解释为 CodeText 属性中的转义字符。用于Pdf417、DataMatrix、Code128 only 如果EnableEscape为真，“\”将解释为特殊转义字符。否则，“\”作为普通字符。 Aspose.BarCode 支持输入十进制 ascii 码和 ASCII 控制码字符的助记符。例如，\013 和 \\CR 代表 CR。
 
 ```csharp
 public bool EnableEscape { get; set; }

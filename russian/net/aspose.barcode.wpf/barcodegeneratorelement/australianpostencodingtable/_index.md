@@ -1,14 +1,14 @@
 ---
 title: AustralianPostEncodingTable
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Таблица кодировки AustralianPost.
+description: Таблица кодирования почты Австралии.
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.wpf/barcodegeneratorelement/australianpostencodingtable/
 ---
 ## BarcodeGeneratorElement.AustralianPostEncodingTable property
 
-Таблица кодировки AustralianPost.
+Таблица кодирования почты Австралии.
 
 ```csharp
 public CustomerInformationInterpretingType AustralianPostEncodingTable { get; set; }

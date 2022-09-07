@@ -18,15 +18,15 @@ public class ITFParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ItfBorderThickness](../../aspose.barcode.generation/itfparameters/itfborderthickness) { get; set; } | 获取或设置单位值中的 ITF 边框（承载条）厚度。 默认值:12pt。 |
-| [ItfBorderType](../../aspose.barcode.generation/itfparameters/itfbordertype) { get; set; } | ITF 条码的边框类型。 默认值:ITF14BorderType.Bar。 |
-| [QuietZoneCoef](../../aspose.barcode.generation/itfparameters/quietzonecoef) { get; set; } | xDimension 中静区的大小。 默认值:10，这意味着如果 xDimension = 2px，则静区将为 20px。 |
+| [ItfBorderThickness](../../aspose.barcode.generation/itfparameters/itfborderthickness) { get; set; } | 以单位值获取或设置 ITF 边框（承载条）厚度。 默认值：12pt. |
+| [ItfBorderType](../../aspose.barcode.generation/itfparameters/itfbordertype) { get; set; } | ITF 条码的边框类型。 默认值：ITF14BorderType.Bar. |
+| [QuietZoneCoef](../../aspose.barcode.generation/itfparameters/quietzonecoef) { get; set; } | xDimension 中静区的大小。 默认值：10，这意味着如果 xDimension = 2px，则静区将为 20px。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/itfparameters/tostring)() | 返回此[`ITFParameters`](../itfparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/itfparameters/tostring)() | 返回一个人类可读的字符串表示[`ITFParameters`](../itfparameters). |
 
 ### 也可以看看
 

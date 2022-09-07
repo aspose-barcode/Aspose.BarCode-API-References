@@ -1,14 +1,14 @@
 ---
 title: DataMatrix
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 DataMatrix 参数DataMatrixParametersaspose.barcode.generation/datamatrixparameters 用于数据矩阵
+description: 获取或设置 DataMatrix 参数DataMatrixParametersaspose.barcode.generation/datamatrixparameters. 用于 DataMatrix.
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/datamatrix/
 ---
 ## SpecificParametersUI.DataMatrix property
 
-获取或设置 DataMatrix 参数[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters)。 用于数据矩阵。
+获取或设置 DataMatrix 参数[`DataMatrixParameters`](../../../aspose.barcode.generation/datamatrixparameters). 用于 DataMatrix.
 
 ```csharp
 public DataMatrixParametersUI DataMatrix { get; }

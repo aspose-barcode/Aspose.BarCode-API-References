@@ -21,21 +21,21 @@ public sealed class Unit
 | [Document](../../aspose.barcode.generation/unit/document) { get; set; } | 获取或设置文档单位的大小值。 |
 | [Inches](../../aspose.barcode.generation/unit/inches) { get; set; } | 获取或设置以英寸为单位的尺寸值。 |
 | [Millimeters](../../aspose.barcode.generation/unit/millimeters) { get; set; } | 获取或设置以毫米为单位的尺寸值。 |
-| [Pixels](../../aspose.barcode.generation/unit/pixels) { get; set; } | 获取或设置大小值（以像素为单位）。 |
-| [Point](../../aspose.barcode.generation/unit/point) { get; set; } | 以点为单位获取或设置大小值。 |
+| [Pixels](../../aspose.barcode.generation/unit/pixels) { get; set; } | 获取或设置以像素为单位的大小值。 |
+| [Point](../../aspose.barcode.generation/unit/point) { get; set; } | 获取或设置点的大小值。 |
 | [Resolution](../../aspose.barcode.generation/unit/resolution) { get; } | 分辨率 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.generation/unit/equals)(object) | 确定此实例是否与指定对象 也必须是[`Unit`](../unit)对象，具有相同的值。 |
+| override [Equals](../../aspose.barcode.generation/unit/equals)(object) | 判断这个实例是否和一个指定的对象， 其中也必须是一个[`Unit`](../unit)对象，具有相同的值。 |
 | override [GetHashCode](../../aspose.barcode.generation/unit/gethashcode)() | 返回此对象的哈希码。 |
-| override [ToString](../../aspose.barcode.generation/unit/tostring)() | 返回此[`Unit`](../unit)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/unit/tostring)() | 返回一个人类可读的字符串表示[`Unit`](../unit). |
 
 ### 例子
 
-此示例说明如何创建和保存条形码图像。
+此示例显示如何创建和保存条形码图像。
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值指示第一个DataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparameters值是否等于第二个
+description: 返回一个值指示是否第一个DataBarExtendedParametersaspose.barcode.barcoderecognition/databarextendedparameters值等于第二个
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/databarextendedparameters/op_equality/
 ---
 ## DataBarExtendedParameters Equality operator
 
-返回一个值，指示第一个[`DataBarExtendedParameters`](../../databarextendedparameters)值是否等于第二个。
+返回一个值，指示是否第一个[`DataBarExtendedParameters`](../../databarextendedparameters)值等于第二个。
 
 ```csharp
 public static bool operator ==(DataBarExtendedParameters first, DataBarExtendedParameters second)
@@ -16,12 +16,12 @@ public static bool operator ==(DataBarExtendedParameters first, DataBarExtendedP
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | DataBarExtendedParameters | 第一个比较值 |
-| second | DataBarExtendedParameters | 第二个比较value |
+| first | DataBarExtendedParameters | 第一比较值 |
+| second | DataBarExtendedParameters | 第二个比较值 |
 
 ### 返回值
 
-**true** 如果 first 与 second 具有相同的值；否则， **false** 。
+**真的**如果 first 与 second 具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

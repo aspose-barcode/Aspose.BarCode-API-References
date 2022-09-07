@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Видимость границ. Если false то параметр Ширина всегда игнорируется 0. Значение по умолчаниюfalse.
+description: Видимость границ. Если false то параметр Ширина всегда игнорируется 0. Значение по умолчанию false.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.generation/borderparameters/visible/
 ---
 ## BorderParameters.Visible property
 
-Видимость границ. Если false, то параметр Ширина всегда игнорируется (0). Значение по умолчанию:false.
+Видимость границ. Если false, то параметр Ширина всегда игнорируется (0). Значение по умолчанию: false.
 
 ```csharp
 public bool Visible { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоITFParametersaspose.barcode.generation/itfparameters.
+description: Возвращает удобочитаемое строковое представление этогоITFParametersaspose.barcode.generation/itfparameters .
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/itfparameters/tostring/
 ---
 ## ITFParameters.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`ITFParameters`](../../itfparameters).
+Возвращает удобочитаемое строковое представление этого[`ITFParameters`](../../itfparameters) .
 
 ```csharp
 public override string ToString()

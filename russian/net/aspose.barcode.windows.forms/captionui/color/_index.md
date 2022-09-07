@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задаетforecolorcaptionaspose.barcode.generation/captionparameters .
+description: Получает или задаетпередний цвет принадлежащийподписьaspose.barcode.generation/captionparameters .
 type: docs
 weight: 20
 url: /ru/net/aspose.barcode.windows.forms/captionui/color/
 ---
 ## CaptionUI.Color property
 
-Получает или задаетforecolor[`caption`](../../../aspose.barcode.generation/captionparameters) .
+Получает или задаетпередний цвет принадлежащий[`подпись`](../../../aspose.barcode.generation/captionparameters) .
 
 ```csharp
 public Color Color { get; set; }

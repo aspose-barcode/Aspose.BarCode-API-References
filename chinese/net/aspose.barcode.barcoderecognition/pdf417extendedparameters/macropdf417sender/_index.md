@@ -1,14 +1,14 @@
 ---
 title: MacroPdf417Sender
 second_title: Aspose.BarCode for .NET API 参考
-description: 宏 PDF417 发件人名称可选
+description: 宏 PDF417 发件人姓名可选
 type: docs
 weight: 80
 url: /zh/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender/
 ---
 ## Pdf417ExtendedParameters.MacroPdf417Sender property
 
-宏 PDF417 发件人名称（可选）。
+宏 PDF417 发件人姓名（可选）。
 
 ```csharp
 public string MacroPdf417Sender { get; }
@@ -16,7 +16,7 @@ public string MacroPdf417Sender { get; }
 
 ### 适当的价值
 
-发件人姓名
+发件者姓名
 
 ### 也可以看看
 

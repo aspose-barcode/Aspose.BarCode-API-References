@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置代码文本的对齐方式 默认值StringAlignment.Center
+description: 获取或设置代码文本的对齐方式 默认值StringAlignment.Center.
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.windows.forms/codetextparametersui/alignment/
 ---
 ## CodetextParametersUI.Alignment property
 
-获取或设置代码文本的对齐方式。 默认值:StringAlignment.Center。
+获取或设置代码文本的对齐方式。 默认值：StringAlignment.Center.
 
 ```csharp
 public TextAlignment Alignment { get; set; }

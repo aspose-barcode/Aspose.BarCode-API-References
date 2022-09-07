@@ -26,11 +26,11 @@ public sealed class OneDExtendedParameters : BaseExtendedParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`OneDExtendedParameters`](../onedextendedparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`OneDExtendedParameters`](../onedextendedparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/onedextendedparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | 返回此[`OneDExtendedParameters`](../onedextendedparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | 返回一个值，指示第一个[`OneDExtendedParameters`](../onedextendedparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | 返回一个值，指示第一个[`OneDExtendedParameters`](../onedextendedparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | 返回一个人类可读的字符串表示[`OneDExtendedParameters`](../onedextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | 返回一个值，指示是否第一个[`OneDExtendedParameters`](../onedextendedparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | 返回一个值，指示是否第一个[`OneDExtendedParameters`](../onedextendedparameters)值与第二个不同。 |
 
 ### 例子
 

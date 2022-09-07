@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или устанавливает отступы заголовкаPaddingaspose.barcode.generation/padding.
+description: Получает или устанавливает заполнение подписиPaddingaspose.barcode.generation/padding .
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.windows.forms/captionui/padding/
 ---
 ## CaptionUI.Padding property
 
-Получает или устанавливает отступы заголовка[`Padding`](../../../aspose.barcode.generation/padding).
+Получает или устанавливает заполнение подписи[`Padding`](../../../aspose.barcode.generation/padding) .
 
 ```csharp
 public Padding Padding { get; }

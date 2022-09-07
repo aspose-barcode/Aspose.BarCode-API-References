@@ -1,14 +1,14 @@
 ---
 title: NormalQuality
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Предустановка определения нормального качества.
+description: Предустановка обнаружения нормального качества.
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/normalquality/
 ---
 ## BarcodeSvmDetectorSettings.NormalQuality property
 
-Предустановка определения нормального качества.
+Предустановка обнаружения нормального качества.
 
 По умолчанию дляNormalQuality
 

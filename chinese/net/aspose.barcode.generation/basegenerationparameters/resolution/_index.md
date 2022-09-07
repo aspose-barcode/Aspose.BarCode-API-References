@@ -8,7 +8,7 @@ url: /zh/net/aspose.barcode.generation/basegenerationparameters/resolution/
 ---
 ## BaseGenerationParameters.Resolution property
 
-获取或设置条形码图像的分辨率。 两个维度的一个值。 默认值:96 dpi。
+获取或设置条形码图像的分辨率。 两个维度的一个值。 默认值：96 dpi。
 
 ```csharp
 public float Resolution { get; set; }
@@ -18,7 +18,7 @@ public float Resolution { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | **分辨率** 参数值小于等于0。 |
+| ArgumentException | 这 **解析度**参数值小于或等于 0。 |
 
 ### 也可以看看
 

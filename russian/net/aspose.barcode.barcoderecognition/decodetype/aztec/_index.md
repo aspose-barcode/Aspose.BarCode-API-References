@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с Aztec спецификация штрих-кода
+description: Указывает что данные должны быть декодированы с ацтек спецификация штрих-кода
 type: docs
 weight: 50
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/aztec/
 ---
 ## DecodeType.Aztec field
 
-Указывает, что данные должны быть декодированы с **Aztec** спецификация штрих-кода
+Указывает, что данные должны быть декодированы с **ацтек** спецификация штрих-кода
 
 ```csharp
 public static readonly SingleDecodeType Aztec;

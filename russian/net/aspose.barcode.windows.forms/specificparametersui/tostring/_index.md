@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Возвращает удобочитаемое строковое представление этогоSpecificParametersUIaspose.barcode.windows.forms/specificparametersui.
+description: Возвращает удобочитаемое строковое представление этогоSpecificParametersUIaspose.barcode.windows.forms/specificparametersui .
 type: docs
 weight: 160
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/tostring/
 ---
 ## SpecificParametersUI.ToString method
 
-Возвращает удобочитаемое строковое представление этого[`SpecificParametersUI`](../../specificparametersui).
+Возвращает удобочитаемое строковое представление этого[`SpecificParametersUI`](../../specificparametersui) .
 
 ```csharp
 public override string ToString()

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API 参考
-description: 返回一个值该值指示此实例是否等于指定的Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion值
+description: 返回一个值指示此实例是否等于指定的Code128DataPortionaspose.barcode.barcoderecognition/code128dataportion值.
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/code128dataportion/equals/
 ---
 ## Code128DataPortion.Equals method
 
-返回一个值，该值指示此实例是否等于指定的[`Code128DataPortion`](../../code128dataportion)值。
+返回一个值，指示此实例是否等于指定的[`Code128DataPortion`](../../code128dataportion)值.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果 obj 与此实例具有相同的值；否则， **false** 。
+**真的**如果 obj 与此实例具有相同的值；否则， **错误的**.
 
 ### 也可以看看
 

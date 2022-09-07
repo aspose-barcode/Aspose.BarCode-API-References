@@ -1,14 +1,14 @@
 ---
 title: MaxiCode
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置 MaxiCode 参数MaxiCodeParametersaspose.barcode.generation/maxicodeparameters 用于 MaxiCode
+description: 获取或设置 MaxiCode 参数MaxiCodeParametersaspose.barcode.generation/maxicodeparameters. 用于 MaxiCode.
 type: docs
 weight: 110
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/maxicode/
 ---
 ## SpecificParametersUI.MaxiCode property
 
-获取或设置 MaxiCode 参数[`MaxiCodeParameters`](../../../aspose.barcode.generation/maxicodeparameters)。 用于 MaxiCode。
+获取或设置 MaxiCode 参数[`MaxiCodeParameters`](../../../aspose.barcode.generation/maxicodeparameters). 用于 MaxiCode.
 
 ```csharp
 public MaxiCodeParameters MaxiCode { get; }

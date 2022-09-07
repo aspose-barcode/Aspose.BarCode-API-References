@@ -1,14 +1,14 @@
 ---
 title: DataMatrixEncodeModeProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: DataMatrixEncodeModeProperty
+description: 数据矩阵编码模式属性
 type: docs
 weight: 1610
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixEncodeModeProperty field
 
-DataMatrixEncodeModeProperty
+数据矩阵编码模式属性
 
 ```csharp
 public static DependencyProperty DataMatrixEncodeModeProperty;

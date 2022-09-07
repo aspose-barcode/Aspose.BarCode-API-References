@@ -1,14 +1,14 @@
 ---
 title: GenerateBarCodeImage
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Генерировать изображение штрих-кода с текущими настройками.
+description: Создать изображение штрих-кода с текущими настройками.
 type: docs
 weight: 80
 url: /ru/net/aspose.barcode.generation/barcodegenerator/generatebarcodeimage/
 ---
 ## BarcodeGenerator.GenerateBarCodeImage method
 
-Генерировать изображение штрих-кода с текущими настройками.
+Создать изображение штрих-кода с текущими настройками.
 
 ```csharp
 public Bitmap GenerateBarCodeImage()
@@ -16,7 +16,7 @@ public Bitmap GenerateBarCodeImage()
 
 ### Возвращаемое значение
 
-Изображение штрих-кода. См.Bitmap.
+Изображение штрих-кода. ВидетьBitmap.
 
 ### Примеры
 

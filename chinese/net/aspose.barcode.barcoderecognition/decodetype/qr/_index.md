@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应解码为 QR Code 条码规范
+description: 指定数据应该被解码 二维码条码规格
 type: docs
 weight: 630
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/qr/
 ---
 ## DecodeType.QR field
 
-指定数据应解码为 **QR Code** 条码规范
+指定数据应该被解码 **二维码**条码规格
 
 ```csharp
 public static readonly SingleDecodeType QR;

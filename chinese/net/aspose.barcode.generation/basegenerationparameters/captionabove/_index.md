@@ -1,14 +1,14 @@
 ---
 title: CaptionAbove
 second_title: Aspose.BarCode for .NET API 参考
-description: 条码图像上方的标题请参阅CaptionParametersaspose.barcode.generation/captionparameters
+description: 条码图像上方的标题看CaptionParametersaspose.barcode.generation/captionparameters.
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.generation/basegenerationparameters/captionabove/
 ---
 ## BaseGenerationParameters.CaptionAbove property
 
-条码图像上方的标题。请参阅[`CaptionParameters`](../../captionparameters)。
+条码图像上方的标题。看[`CaptionParameters`](../../captionparameters).
 
 ```csharp
 public CaptionParameters CaptionAbove { get; }

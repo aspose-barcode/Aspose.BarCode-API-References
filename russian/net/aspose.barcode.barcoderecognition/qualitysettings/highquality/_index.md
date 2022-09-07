@@ -10,7 +10,10 @@ url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/highquality/
 
 Предустановка качества распознавания HighQuality. Этот пресет разработан для штрих-кодов низкого качества. Позволяет обнаруживать диагональные и сильно поврежденные штрих-коды.
 
-&lt;код&gt; использование (считыватель BarCodeReader = new BarCodeReader(@"c:\test.png")) reader.QualitySettings = QualitySettings.HighQuality; &lt;/code&gt;
+```csharp
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
+    reader.QualitySettings = QualitySettings.HighQuality;
+```
 
 ```csharp
 public static QualitySettings HighQuality { get; }

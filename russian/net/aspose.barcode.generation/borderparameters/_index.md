@@ -18,16 +18,16 @@ public class BorderParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.barcode.generation/borderparameters/color) { get; set; } | Цвет рамки. Значение по умолчанию:Color.Black. |
-| [DashStyle](../../aspose.barcode.generation/borderparameters/dashstyle) { get; set; } | Стиль границы тире. Значение по умолчанию:BorderDashStyle.Solid. |
-| [Visible](../../aspose.barcode.generation/borderparameters/visible) { get; set; } | Видимость границ. Если false, то параметр Ширина всегда игнорируется (0). Значение по умолчанию:false. |
-| [Width](../../aspose.barcode.generation/borderparameters/width) { get; set; } | Ширина границы. Значение по умолчанию:0. Игнорируется, если для параметра Visible установлено значение false. |
+| [Color](../../aspose.barcode.generation/borderparameters/color) { get; set; } | Цвет границы. Значение по умолчанию: Color.Black. |
+| [DashStyle](../../aspose.barcode.generation/borderparameters/dashstyle) { get; set; } | Стиль границы штриха. Значение по умолчанию: BorderDashStyle.Solid. |
+| [Visible](../../aspose.barcode.generation/borderparameters/visible) { get; set; } | Видимость границ. Если false, то параметр Ширина всегда игнорируется (0). Значение по умолчанию: false. |
+| [Width](../../aspose.barcode.generation/borderparameters/width) { get; set; } | Ширина границы. Значение по умолчанию: 0. Игнорируется, если для параметра Visible установлено значение false. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/borderparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BorderParameters`](../borderparameters). |
+| override [ToString](../../aspose.barcode.generation/borderparameters/tostring)() | Возвращает удобочитаемое строковое представление этого[`BorderParameters`](../borderparameters) . |
 
 ### Смотрите также
 

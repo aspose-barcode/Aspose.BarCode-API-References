@@ -1,14 +1,14 @@
 ---
 title: BarCodeRecognitionException
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Общее исключение генерируемое BarCodeReader унаследованное от BarCodeException
+description: Общее исключение созданное BarCodeReader унаследованное от BarCodeException
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderecognitionexception/
 ---
 ## BarCodeRecognitionException class
 
-Общее исключение, генерируемое BarCodeReader, унаследованное от BarCodeException
+Общее исключение, созданное BarCodeReader, унаследованное от BarCodeException
 
 ```csharp
 public class BarCodeRecognitionException : Exception
@@ -18,9 +18,9 @@ public class BarCodeRecognitionException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor)() | Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../barcoderecognitionexception). |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../barcoderecognitionexception). |
-| [BarCodeRecognitionException](barcoderecognitionexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`BarCodeRecognitionException`](../barcoderecognitionexception)с указанным сообщением об ошибке и текущим исключением. |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor)() | Инициализирует новый экземпляр[`BarCodeRecognitionException`](../barcoderecognitionexception) класс. |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor_1)(string) | Инициализирует новый экземпляр[`BarCodeRecognitionException`](../barcoderecognitionexception) класс. |
+| [BarCodeRecognitionException](barcoderecognitionexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`BarCodeRecognitionException`](../barcoderecognitionexception) класс с указанным сообщением об ошибке и текущим исключением. |
 
 ### Смотрите также
 

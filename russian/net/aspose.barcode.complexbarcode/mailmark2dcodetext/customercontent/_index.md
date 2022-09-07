@@ -1,14 +1,14 @@
 ---
 title: CustomerContent
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Дополнительное пространство для использования заказчиком.
+description: Дополнительное пространство для использования клиентом.
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.complexbarcode/mailmark2dcodetext/customercontent/
 ---
 ## Mailmark2DCodetext.CustomerContent property
 
-Дополнительное пространство для использования заказчиком.
+Дополнительное пространство для использования клиентом.
 
 ```csharp
 public string CustomerContent { get; set; }
@@ -18,11 +18,11 @@ public string CustomerContent { get; set; }
 
 Максимальная длина по типу:
 
-Тип 7:6 символов
+Тип 7: 6 символов
 
-Тип 9:45 символов
+Тип 9: 45 символов
 
-Тип 29:25 символов
+Тип 29: 25 символов
 
 ### Смотрите также
 

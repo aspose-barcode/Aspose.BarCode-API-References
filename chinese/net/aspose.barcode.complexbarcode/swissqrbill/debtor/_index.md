@@ -10,7 +10,7 @@ url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/debtor/
 
 获取或设置债务人地址。
 
-债务人是可选的。如果省略，则将此字段设置为 ` null` 或设置所有地址` null` 或空值都可以。
+债务人是可选的。如果省略，则都将该字段设置为 `无效的`或设置所有地址`无效的`或空值是好的。
 
 ```csharp
 public Address Debtor { get; set; }

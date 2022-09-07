@@ -19,16 +19,16 @@ public enum BarCodeConfidence
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 条码的识别置信度，其中代码文本未被正确识别或条码被检测为可能的伪造 |
-| Moderate | `80` | 带有弱校验和甚至没有校验和的条码（主要是一维条码）的识别置信度。如果低 |
-| Strong | `100` | 识别置信度已通过 Reed-Solomon 等 BCH 代码得到确认。读取代码文本或虚假识别时不得有错误 |
+| Moderate | `80` | 带有弱校验和甚至没有校验和的条码（主要是一维条码）的识别置信度。可能在 codetext 中包含一些错误识别，如果低 |
+| Strong | `100` | 使用 BCH 代码（如 Reed-Solomon）确认的识别置信度。读取代码文本不得有错误或伪造识别 |
 
 ### 例子
 
-这示例显示 BarCodeConfidence 如何更改，具体取决于条形码类型
+此示例显示 BarCodeConfidence 如何更改，具体取决于条形码类型
 
 ```csharp
 [C#]
-  //中等置信度
+//中等信心
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "12345"))
 {
     generator.Save(@"c:\test.png");
@@ -44,7 +44,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 
-  //强大的信心
+//强大的信心
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "12345"))
 {
     generator.Save(@"c:\test.png");
@@ -60,7 +60,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-' 中等信心
+'中等信心
 Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
     generator.Save("c:\test.png")
 End Using
@@ -73,7 +73,7 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
     Next
 End Using
 
-' 强大的信心
+'强大的信心
 Using generator As New BarcodeGenerator(EncodeTypes.QR, "12345")
     generator.Save("c:\test.png")
 End Using

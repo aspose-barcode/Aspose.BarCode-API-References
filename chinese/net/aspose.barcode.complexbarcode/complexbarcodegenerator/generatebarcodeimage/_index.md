@@ -1,14 +1,14 @@
 ---
 title: GenerateBarCodeImage
 second_title: Aspose.BarCode for .NET API 参考
-description: 在当前设置下生成复杂条码图像
+description: 在当前设置下生成复杂的条码图像
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage/
 ---
 ## ComplexBarcodeGenerator.GenerateBarCodeImage method
 
-在当前设置下生成复杂条码图像。
+在当前设置下生成复杂的条码图像。
 
 ```csharp
 public Bitmap GenerateBarCodeImage()
@@ -16,7 +16,7 @@ public Bitmap GenerateBarCodeImage()
 
 ### 返回值
 
-条形码图像。请参阅Bitmap。
+条形码图像。看Bitmap.
 
 ### 也可以看看
 

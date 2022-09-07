@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 CODABAR 条码规范 进行编码
+description: 指定数据应该用 科达巴条码规格
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.generation/encodetypes/codabar/
 ---
 ## EncodeTypes.Codabar field
 
-指定数据应使用 **CODABAR** 条码规范 进行编码
+指定数据应该用 **科达巴**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType Codabar;

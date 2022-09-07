@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Справочник по API Aspose.BarCode для .NET
-description: ПолучаетQuadrangleaspose.barcode.barcoderecognition/quadrangleограничивающая область штрих-кода
+description: ПолучаетQuadrangleaspose.barcode.barcoderecognition/quadrangle ограничивающая область штрих-кода
 type: docs
 weight: 30
 url: /ru/net/aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle/
 ---
 ## BarCodeRegionParameters.Quadrangle property
 
-Получает[`Quadrangle`](../../quadrangle)ограничивающая область штрих-кода
+Получает[`Quadrangle`](../../quadrangle) ограничивающая область штрих-кода
 
 ```csharp
 public Quadrangle Quadrangle { get; }
@@ -16,7 +16,7 @@ public Quadrangle Quadrangle { get; }
 
 ### Стоимость имущества
 
-Возвращает[`Quadrangle`](../../quadrangle)ограничивающая область штрих-кода
+Возвращает[`Quadrangle`](../../quadrangle) ограничивающая область штрих-кода
 
 ### Смотрите также
 

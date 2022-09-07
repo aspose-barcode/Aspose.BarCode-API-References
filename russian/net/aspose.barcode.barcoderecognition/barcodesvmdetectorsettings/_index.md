@@ -19,11 +19,11 @@ public sealed class BarcodeSvmDetectorSettings
 | Имя | Описание |
 | --- | --- |
 | static [HighPerformance](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highperformance) { get; } | Предустановка высокопроизводительного обнаружения. |
-| static [HighQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highquality) { get; } | Предустановка высокого качества обнаружения. |
+| static [HighQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/highquality) { get; } | Предустановка обнаружения высокого качества. |
 | static [MaxQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/maxquality) { get; } | Предустановка обнаружения максимального качества. |
-| static [NormalQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/normalquality) { get; } | Предустановка определения нормального качества. |
+| static [NormalQuality](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/normalquality) { get; } | Предустановка обнаружения нормального качества. |
 | [RegionLikelihoodThresholdPercent](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/regionlikelihoodthresholdpercent) { get; set; } | Устанавливает порог для обнаруженных областей, которые могут содержать штрих-коды. |
-| [ScanWindowSizes](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes) { get; set; } | Размеры окна сканирования в пикселях. |
+| [ScanWindowSizes](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/scanwindowsizes) { get; set; } | Размер окна сканирования в пикселях. |
 | [SimilarityCoef](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/similaritycoef) { get; set; } | Коэффициент сходства зависит от того, насколько однородны штрих-коды. |
 | [SkipDiagonalSearch](../../aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/skipdiagonalsearch) { get; set; } | Позволяет детектору пропускать поиск диагональных штрих-кодов. |
 

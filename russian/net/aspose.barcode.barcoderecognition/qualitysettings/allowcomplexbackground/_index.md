@@ -1,14 +1,14 @@
 ---
 title: AllowComplexBackground
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Позволяет движку распознавать цветные штрих-коды на цветном фоне как дополнительное сканирование. Крайне медленный режим.
+description: Позволяет движку распознавать цветные штрих-коды на цветном фоне как дополнительное сканирование. Чрезвычайно медленный режим.
 type: docs
 weight: 70
 url: /ru/net/aspose.barcode.barcoderecognition/qualitysettings/allowcomplexbackground/
 ---
 ## QualitySettings.AllowComplexBackground property
 
-Позволяет движку распознавать цветные штрих-коды на цветном фоне как дополнительное сканирование. Крайне медленный режим.
+Позволяет движку распознавать цветные штрих-коды на цветном фоне как дополнительное сканирование. Чрезвычайно медленный режим.
 
 ```csharp
 public bool AllowComplexBackground { get; set; }

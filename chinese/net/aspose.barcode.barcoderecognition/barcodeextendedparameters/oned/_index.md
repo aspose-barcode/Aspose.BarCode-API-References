@@ -1,14 +1,14 @@
 ---
 title: OneD
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取一维识别条码的特殊数据OneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters
+description: 获取特殊数据OneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters一维识别条码
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/
 ---
 ## BarCodeExtendedParameters.OneD property
 
-获取一维识别条码的特殊数据[`OneDExtendedParameters`](../../onedextendedparameters)
+获取特殊数据[`OneDExtendedParameters`](../../onedextendedparameters)一维识别条码
 
 ```csharp
 public OneDExtendedParameters OneD { get; }
@@ -16,7 +16,7 @@ public OneDExtendedParameters OneD { get; }
 
 ### 适当的价值
 
-A特殊数据[`OneDExtendedParameters`](../../onedextendedparameters)的一维识别条码
+特殊数据[`OneDExtendedParameters`](../../onedextendedparameters)一维识别条码
 
 ### 也可以看看
 

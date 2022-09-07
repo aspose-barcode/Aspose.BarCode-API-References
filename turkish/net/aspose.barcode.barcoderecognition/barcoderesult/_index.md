@@ -1,0 +1,90 @@
+---
+title: BarCodeResult
+second_title: Aspose.BarCode for .NET API Referansı
+description: Aşağıdakiler gibi tanınan barkod verilerini depolarSingleDecodeType./singledecodetype tipString kod metni BarCodeRegionParameters./barcoderegionparameters bölge ve diğer parametreler
+type: docs
+weight: 90
+url: /tr/net/aspose.barcode.barcoderecognition/barcoderesult/
+---
+## BarCodeResult class
+
+Aşağıdakiler gibi tanınan barkod verilerini depolar:[`SingleDecodeType`](../singledecodetype) tip,String kod metni, [`BarCodeRegionParameters`](../barcoderegionparameters) bölge ve diğer parametreler
+
+```csharp
+public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
+```
+
+## yapıcılar
+
+| İsim | Tanım |
+| --- | --- |
+| [BarCodeResult](barcoderesult)(BarCodeResult) | [`BarCodeResult`](../barcoderesult) sınıf. |
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes) { get; } | Kodlanmış kod baytlarını alır |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | Kod metnini alır |
+| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype) { get; } | Barkod türünü alır |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | Barkod tipinin adını alır |
+| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence) { get; } | Tanınan barkodun tanıma güven düzeyini alır |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended) { get; } | Tanınan barkodun genişletilmiş parametrelerini alır |
+| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality) { get; } | Okuma kalitesini alır. 1D ve posta barkodları için çalışır. |
+| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region) { get; } | Barkod bölgesini alır |
+
+## yöntemler
+
+| İsim | Tanım |
+| --- | --- |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | Şunun bir kopyasını oluşturur:[`BarCodeResult`](../barcoderesult) sınıf. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals)(BarCodeResult) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`BarCodeResult`](../barcoderesult) değer. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals#equals_1)(object) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`BarCodeResult`](../barcoderesult) değer. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | Kod metnini kodlama ile alır. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode)() | Bu örnek için karma kodu döndürür. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | Bunun insan tarafından okunabilir bir dize temsilini döndürür[`BarCodeResult`](../barcoderesult) . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`BarCodeResult`](../barcoderesult) değer saniyeye eşittir. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`BarCodeResult`](../barcoderesult) değer ikinciden farklı. |
+
+### Örnekler
+
+Bu örnek, BarCodeResult. 'nin nasıl elde edileceğini gösterir.
+
+```csharp
+[C#]
+using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "12345"))
+{
+    generator.Save(@"c:\test.png");
+}
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+        Console.WriteLine("BarCode Confidence: " + result.Confidence);
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality);
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle);
+    }
+}
+[VB.NET]
+Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
+    generator.Save("c:\test.png")
+End Using
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    For Each result As BarCodeResult In reader.ReadBarCodes()
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
+        Console.WriteLine("BarCode CodeText: " + result.CodeText)
+        Console.WriteLine("BarCode Confidence: " + result.Confidence)
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality)
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle)
+    Next
+End Using
+```
+
+### Ayrıca bakınız
+
+* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
+* toplantı [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->

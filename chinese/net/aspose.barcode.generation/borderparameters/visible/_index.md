@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Aspose.BarCode for .NET API 参考
-description: 边框可见性如果为 false则始终忽略参数 Width 0 默认值假
+description: 边界可见性如果为假则始终忽略参数宽度 0 默认值假
 type: docs
 weight: 30
 url: /zh/net/aspose.barcode.generation/borderparameters/visible/
 ---
 ## BorderParameters.Visible property
 
-边框可见性。如果为 false，则始终忽略参数 Width (0)。 默认值:假。
+边界可见性。如果为假，则始终忽略参数宽度 (0)。 默认值：假。
 
 ```csharp
 public bool Visible { get; set; }

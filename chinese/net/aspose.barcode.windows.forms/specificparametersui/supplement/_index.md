@@ -1,14 +1,14 @@
 ---
 title: Supplement
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取或设置补充参数SupplementParametersaspose.barcode.generation/supplementparameters 用于 Interleaved2of5Standard2of5EAN13EAN8UPCAUPCEISBNISSNISMN
+description: 获取或设置补充参数SupplementParametersaspose.barcode.generation/supplementparameters. 用于 Interleaved2of5Standard2of5EAN13EAN8UPCAUPCEISBNISSNISMN
 type: docs
 weight: 150
 url: /zh/net/aspose.barcode.windows.forms/specificparametersui/supplement/
 ---
 ## SpecificParametersUI.Supplement property
 
-获取或设置补充参数[`SupplementParameters`](../../../aspose.barcode.generation/supplementparameters)。 用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN。
+获取或设置补充参数[`SupplementParameters`](../../../aspose.barcode.generation/supplementparameters). 用于 Interleaved2of5、Standard2of5、EAN13、EAN8、UPCA、UPCE、ISBN、ISSN、ISMN。
 
 ```csharp
 public SupplementParameters Supplement { get; }

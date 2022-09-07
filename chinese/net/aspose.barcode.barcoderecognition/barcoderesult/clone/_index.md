@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.BarCode for .NET API 参考
-description: 创建BarCodeResultaspose.barcode.barcoderecognition/barcoderesult类的副本
+description: 创建一个副本BarCodeResultaspose.barcode.barcoderecognition/barcoderesult类.
 type: docs
 weight: 100
 url: /zh/net/aspose.barcode.barcoderecognition/barcoderesult/clone/
 ---
 ## BarCodeResult.Clone method
 
-创建[`BarCodeResult`](../../barcoderesult)类的副本。
+创建一个副本[`BarCodeResult`](../../barcoderesult)类.
 
 ```csharp
 public object Clone()
@@ -16,7 +16,7 @@ public object Clone()
 
 ### 返回值
 
-返回[`BarCodeResult`](../../barcoderesult)类的副本。
+返回副本[`BarCodeResult`](../../barcoderesult)班级。
 
 ### 也可以看看
 

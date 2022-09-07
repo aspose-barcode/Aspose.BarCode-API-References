@@ -1,14 +1,14 @@
 ---
 title: SupplementSpace
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Пробел между основным штрих-кодом и дополнительным штрих-кодом в значенииUnitaspose.barcode.generation/unit.
+description: Пробел между основным штрих-кодом и дополнительным штрих-кодом вUnitaspose.barcode.generation/unit значение.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.generation/couponparameters/supplementspace/
 ---
 ## CouponParameters.SupplementSpace property
 
-Пробел между основным штрих-кодом и дополнительным штрих-кодом в значении[`Unit`](../../unit).
+Пробел между основным штрих-кодом и дополнительным штрих-кодом в[`Unit`](../../unit) значение.
 
 ```csharp
 public Unit SupplementSpace { get; }
@@ -18,7 +18,7 @@ public Unit SupplementSpace { get; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Пробелзначение параметра меньше 0. |
+| ArgumentException | **Пространство** значение параметра меньше 0. |
 
 ### Смотрите также
 

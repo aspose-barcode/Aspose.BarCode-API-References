@@ -1,14 +1,14 @@
 ---
 title: Pdf417MacroSegmentID
 second_title: Aspose.BarCode for .NET API 参考
-description: Macro Pdf417 条码的段 ID
+description: 宏 Pdf417 条码的段 ID
 type: docs
 weight: 840
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentid/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroSegmentID property
 
-Macro Pdf417 条码的段 ID。
+宏 Pdf417 条码的段 ID。
 
 ```csharp
 public int Pdf417MacroSegmentID { get; set; }

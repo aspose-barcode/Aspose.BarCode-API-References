@@ -10,9 +10,9 @@ url: /zh/net/aspose.barcode.complexbarcode/swissqrbill/reference/
 
 获取或设置债权人付款参考。
 
-SwissQR IBAN 的引用是强制性的，即范围 CHxx30000xxxxxx 到 CHxx31999xxxxxx 的 IBAN。
+SwissQR IBAN 的参考是强制性的，即范围为 CHxx30000xxxxxx 到 CHxx31999xxxxx 的IBAN。
 
-如果指定，引用必须是有效的 SwissQR 引用 (对应于 ISR 参考表）或有效的债权人参考 根据 ISO 11649（“RFxxxx”）。两者都可能包含用于格式化的空格。
+如果指定，参考必须是有效的 SwissQR 参考 （对应于 ISR 参考表）或根据 ISO 11649（“RFxxxx”）的有效债权人参考 。两者都可能包含用于格式化的空格。
 
 ```csharp
 public string Reference { get; set; }

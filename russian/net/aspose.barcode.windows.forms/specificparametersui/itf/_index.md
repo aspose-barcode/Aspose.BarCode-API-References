@@ -1,14 +1,14 @@
 ---
 title: ITF
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Получает или задает параметры ITFITFParametersaspose.barcode.generation/itfparameters. Используется для ITF6 ITF14.
+description: Получает или устанавливает параметры ITFITFParametersaspose.barcode.generation/itfparameters . Используется для ITF6 ITF14.
 type: docs
 weight: 100
 url: /ru/net/aspose.barcode.windows.forms/specificparametersui/itf/
 ---
 ## SpecificParametersUI.ITF property
 
-Получает или задает параметры ITF[`ITFParameters`](../../../aspose.barcode.generation/itfparameters). Используется для ITF6, ITF14.
+Получает или устанавливает параметры ITF[`ITFParameters`](../../../aspose.barcode.generation/itfparameters) . Используется для ITF6, ITF14.
 
 ```csharp
 public ITFParameters ITF { get; }

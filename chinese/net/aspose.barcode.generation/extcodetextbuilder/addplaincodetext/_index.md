@@ -16,7 +16,7 @@ public void AddPlainCodetext(string codetext)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| codetext | String | 代码文本 in unicode 添加为扩展代码文本项 |
+| codetext | String | unicode 中的代码文本添加为扩展代码文本项 |
 
 ### 也可以看看
 

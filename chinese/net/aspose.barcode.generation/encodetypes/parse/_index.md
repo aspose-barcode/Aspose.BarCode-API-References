@@ -16,12 +16,12 @@ public static bool Parse(string parsingType, out BaseEncodeType result)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parsingType | String | 包含要转换的 BaseEncodeType 表示的字符串。 |
+| parsingType | String | 包含要转换的 BaseEncodeType 表示形式的字符串。 |
 | result | BaseEncodeType& | 当转换成功完成时，返回一个实际的 BaseEncodeType； |
 
 ### 返回值
 
-**true** 如果 s 转换成功；否则， **false** 。
+**真的**如果 s 转换成功；否则， **错误的**.
 
 ### 也可以看看
 

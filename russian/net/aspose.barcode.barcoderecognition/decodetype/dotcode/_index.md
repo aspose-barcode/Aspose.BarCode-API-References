@@ -1,14 +1,14 @@
 ---
 title: DotCode
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Указывает что данные должны быть декодированы с DotCode пустая спецификация
+description: Указывает что данные должны быть декодированы с Точечный код пустая спецификация
 type: docs
 weight: 280
 url: /ru/net/aspose.barcode.barcoderecognition/decodetype/dotcode/
 ---
 ## DecodeType.DotCode field
 
-Указывает, что данные должны быть декодированы с **DotCode** пустая спецификация
+Указывает, что данные должны быть декодированы с **Точечный код** пустая спецификация
 
 ```csharp
 public static readonly SingleDecodeType DotCode;

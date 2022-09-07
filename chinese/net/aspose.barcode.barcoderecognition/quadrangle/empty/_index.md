@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.BarCode for .NET API 参考
-description: 表示Quadrangleaspose.barcode.barcoderecognition/quadrangle类其属性未初始化
+description: 代表一个Quadrangleaspose.barcode.barcoderecognition/quadrangle其属性未初始化的类
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.barcoderecognition/quadrangle/empty/
 ---
 ## Quadrangle.Empty field
 
-表示[`Quadrangle`](../../quadrangle)类，其属性未初始化。
+代表一个[`Quadrangle`](../../quadrangle)其属性未初始化的类。
 
 ```csharp
 public static readonly Quadrangle Empty;

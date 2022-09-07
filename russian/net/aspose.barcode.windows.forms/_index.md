@@ -1,25 +1,25 @@
 ---
 title: Aspose.BarCode.Windows.Forms
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Файл Aspose.BarCode.Windows.Forms содержит элементы управления WinForms для генерации 1D/2D штрих-кодов и Рисунок.
+description: Aspose.BarCode.Windows.Forms содержит элементы управления WinForms для создания и рисования 1D/2D штрих-кодов.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.windows.forms/
 ---
-Файл **Aspose.BarCode.Windows.Forms** содержит элементы управления WinForms для генерации 1D/2D штрих-кодов и Рисунок.
+**Aspose.BarCode.Windows.Forms** содержит элементы управления WinForms для создания и рисования 1D/2D штрих-кодов.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [AztecParametersUI](./aztecparametersui) | Оболочка пользовательского интерфейса для класса[`AztecParameters`](../aspose.barcode.generation/aztecparameters). |
-| [BarCodeGeneratorControl](./barcodegeneratorcontrol) | BarCode Windows Control, перейдите на панель инструментов и добавьте Aspose.BarCode.dll, и вы увидите, что BarcodeGeneratorControl появился. Просто перетащите его на форму Windows. см. см. |
-| [CaptionUI](./captionui) | Оболочка пользовательского интерфейса для класса[`CaptionParameters`](../aspose.barcode.generation/captionparameters). |
+| [AztecParametersUI](./aztecparametersui) | UI-оболочка для[`AztecParameters`](../aspose.barcode.generation/aztecparameters) класс. |
+| [BarCodeGeneratorControl](./barcodegeneratorcontrol) | BarCode Windows Control, перейдите на панель инструментов и добавьте Aspose.BarCode.dll, , и вы увидите, что BarcodeGeneratorControl появляется. см. |
+| [CaptionUI](./captionui) | UI-оболочка для[`CaptionParameters`](../aspose.barcode.generation/captionparameters) класс. |
 | [CodetextParametersUI](./codetextparametersui) | Параметры кодового текста. |
-| [DataMatrixParametersUI](./datamatrixparametersui) | Оболочка пользовательского интерфейса для класса[`DataMatrixParameters`](../aspose.barcode.generation/datamatrixparameters). |
-| [Pdf417ParametersUI](./pdf417parametersui) | Оболочка пользовательского интерфейса для[`Pdf417Parameters`](../aspose.barcode.generation/pdf417parameters)class. |
-| [QrParametersUI](./qrparametersui) | Оболочка пользовательского интерфейса для класса[`QrParameters`](../aspose.barcode.generation/qrparameters). |
-| [SpecificParametersUI](./specificparametersui) | Специальные параметры. |
+| [DataMatrixParametersUI](./datamatrixparametersui) | UI-оболочка для[`DataMatrixParameters`](../aspose.barcode.generation/datamatrixparameters) класс. |
+| [Pdf417ParametersUI](./pdf417parametersui) | UI-оболочка для[`Pdf417Parameters`](../aspose.barcode.generation/pdf417parameters) класс. |
+| [QrParametersUI](./qrparametersui) | UI-оболочка для[`QrParameters`](../aspose.barcode.generation/qrparameters) класс. |
+| [SpecificParametersUI](./specificparametersui) | Особые параметры. |
 ## Интерфейсы
 
 | Интерфейс | Описание |

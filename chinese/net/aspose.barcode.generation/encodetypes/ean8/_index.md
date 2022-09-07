@@ -1,14 +1,14 @@
 ---
 title: EAN8
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 EAN-8 条码规范 编码
+description: 指定数据应该用 EAN-8条码规格
 type: docs
 weight: 300
 url: /zh/net/aspose.barcode.generation/encodetypes/ean8/
 ---
 ## EncodeTypes.EAN8 field
 
-指定数据应使用 **EAN-8** 条码规范 编码
+指定数据应该用 **EAN-8**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType EAN8;

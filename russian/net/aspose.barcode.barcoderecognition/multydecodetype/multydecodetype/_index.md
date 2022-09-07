@@ -1,14 +1,14 @@
 ---
 title: MultyDecodeType
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Инициализирует новый экземпляр классаMultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetype.
+description: Инициализирует новый экземплярMultyDecodeTypeaspose.barcode.barcoderecognition/multydecodetype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.barcode.barcoderecognition/multydecodetype/multydecodetype/
 ---
 ## MultyDecodeType(params SingleDecodeType[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MultyDecodeType`](../../multydecodetype).
+Инициализирует новый экземпляр[`MultyDecodeType`](../../multydecodetype) класс.
 
 ```csharp
 public MultyDecodeType(params SingleDecodeType[] barcodeTypes)
@@ -29,7 +29,7 @@ public MultyDecodeType(params SingleDecodeType[] barcodeTypes)
 
 ## MultyDecodeType(params BaseDecodeType[]) {#constructor}
 
-Инициализирует новый экземпляр класса[`MultyDecodeType`](../../multydecodetype).
+Инициализирует новый экземпляр[`MultyDecodeType`](../../multydecodetype) класс.
 
 ```csharp
 public MultyDecodeType(params BaseDecodeType[] barcodeTypes)

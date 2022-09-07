@@ -1,14 +1,14 @@
 ---
 title: QRExtendedParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: 存储已识别条形码的 QR Structured Append 信息
+description: 存储已识别条形码的 QR 结构化附加信息
 type: docs
 weight: 230
 url: /zh/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-存储已识别条形码的 QR Structured Append 信息
+存储已识别条形码的 QR 结构化附加信息
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
@@ -27,11 +27,11 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`QRExtendedParameters`](../qrextendedparameters)值。 |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | 返回一个值，指示此实例是否等于指定的[`QRExtendedParameters`](../qrextendedparameters)值. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | 返回此[`QRExtendedParameters`](../qrextendedparameters)的人类可读字符串表示。 |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | 返回一个值，指示第一个[`QRExtendedParameters`](../qrextendedparameters)值是否等于第二个。 |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | 返回一个值，指示第一个[`QRExtendedParameters`](../qrextendedparameters)值是否与第二个不同。 |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | 返回一个人类可读的字符串表示[`QRExtendedParameters`](../qrextendedparameters). |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | 返回一个值，指示是否第一个[`QRExtendedParameters`](../qrextendedparameters)值等于第二个。 |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | 返回一个值，指示是否第一个[`QRExtendedParameters`](../qrextendedparameters)值与第二个不同。 |
 
 ### 例子
 

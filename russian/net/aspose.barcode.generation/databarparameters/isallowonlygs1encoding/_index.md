@@ -1,14 +1,14 @@
 ---
 title: IsAllowOnlyGS1Encoding
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Если этот флаг установлен он разрешает только стандарт кодирования GS1 для типов штрихкодов Databar
+description: Если этот флаг установлен он разрешает только стандарт кодирования GS1 для типов штрих-кодов Databar
 type: docs
 weight: 40
 url: /ru/net/aspose.barcode.generation/databarparameters/isallowonlygs1encoding/
 ---
 ## DataBarParameters.IsAllowOnlyGS1Encoding property
 
-Если этот флаг установлен, он разрешает только стандарт кодирования GS1 для типов штрихкодов Databar
+Если этот флаг установлен, он разрешает только стандарт кодирования GS1 для типов штрих-кодов Databar
 
 ```csharp
 public bool IsAllowOnlyGS1Encoding { get; set; }

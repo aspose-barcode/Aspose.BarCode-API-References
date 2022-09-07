@@ -19,8 +19,8 @@ public interface IComplexCodetext
 | Имя | Описание |
 | --- | --- |
 | [GetBarcodeType](../../aspose.barcode.complexbarcode/icomplexcodetext/getbarcodetype)() | Получает тип штрих-кода. |
-| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext)() | Составление кодового текста для сложного штрих-кода |
-| [InitFromString](../../aspose.barcode.complexbarcode/icomplexcodetext/initfromstring)(string) | Инициализирует экземпляр со сконструированным кодовым текстом. |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext)() | Построить кодовый текст для сложного штрих-кода |
+| [InitFromString](../../aspose.barcode.complexbarcode/icomplexcodetext/initfromstring)(string) | Инициализирует экземпляр с построенным кодовым текстом. |
 
 ### Смотрите также
 

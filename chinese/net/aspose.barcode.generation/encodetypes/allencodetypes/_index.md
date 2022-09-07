@@ -1,14 +1,14 @@
 ---
 title: AllEncodeTypes
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定将使用所有可用符号体系检查数据
+description: 指定将使用所有可用符号检查数据
 type: docs
 weight: 10
 url: /zh/net/aspose.barcode.generation/encodetypes/allencodetypes/
 ---
 ## EncodeTypes.AllEncodeTypes property
 
-指定将使用所有可用符号体系检查数据。
+指定将使用所有可用符号检查数据。
 
 ```csharp
 public static BaseEncodeType[] AllEncodeTypes { get; }

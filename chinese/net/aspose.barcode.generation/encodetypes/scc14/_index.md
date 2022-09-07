@@ -1,14 +1,14 @@
 ---
 title: SCC14
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 SCC14 条码规范 进行编码
+description: 指定数据应该用 SCC14条码规格
 type: docs
 weight: 610
 url: /zh/net/aspose.barcode.generation/encodetypes/scc14/
 ---
 ## EncodeTypes.SCC14 field
 
-指定数据应使用 **SCC14** 条码规范 进行编码
+指定数据应该用 **SCC14**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType SCC14;

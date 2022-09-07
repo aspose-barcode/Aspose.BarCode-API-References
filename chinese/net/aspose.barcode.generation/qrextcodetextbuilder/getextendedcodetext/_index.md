@@ -16,7 +16,7 @@ public override string GetExtendedCodetext()
 
 ### 返回值
 
-扩展代码文本为字符串
+将代码文本扩展为字符串
 
 ### 也可以看看
 

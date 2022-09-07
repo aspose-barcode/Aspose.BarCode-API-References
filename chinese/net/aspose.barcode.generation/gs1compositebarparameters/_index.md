@@ -1,14 +1,14 @@
 ---
 title: GS1CompositeBarParameters
 second_title: Aspose.BarCode for .NET API 参考
-description: GS1 复合柱参数
+description: GS1 复合柱参数.
 type: docs
 weight: 760
 url: /zh/net/aspose.barcode.generation/gs1compositebarparameters/
 ---
 ## GS1CompositeBarParameters class
 
-GS1 复合柱参数。
+GS1 复合柱参数.
 
 ```csharp
 public class GS1CompositeBarParameters
@@ -25,7 +25,7 @@ public class GS1CompositeBarParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/gs1compositebarparameters/tostring)() | 返回此[`DataBarParameters`](../databarparameters)的人类可读字符串表示。 |
+| override [ToString](../../aspose.barcode.generation/gs1compositebarparameters/tostring)() | 返回一个人类可读的字符串表示[`DataBarParameters`](../databarparameters). |
 
 ### 也可以看看
 

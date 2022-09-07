@@ -1,14 +1,14 @@
 ---
 title: ItfBorderType
 second_title: Aspose.BarCode for .NET API 参考
-description: ITF 条码的边框类型 默认值ITF14BorderType.Bar
+description: ITF 条码的边框类型 默认值ITF14BorderType.Bar.
 type: docs
 weight: 20
 url: /zh/net/aspose.barcode.generation/itfparameters/itfbordertype/
 ---
 ## ITFParameters.ItfBorderType property
 
-ITF 条码的边框类型。 默认值:ITF14BorderType.Bar。
+ITF 条码的边框类型。 默认值：ITF14BorderType.Bar.
 
 ```csharp
 public ITF14BorderType ItfBorderType { get; set; }

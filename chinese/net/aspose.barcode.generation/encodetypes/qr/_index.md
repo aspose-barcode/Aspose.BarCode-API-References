@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 QR Code 条码规范 编码
+description: 指定数据应该用 二维码条码规格
 type: docs
 weight: 590
 url: /zh/net/aspose.barcode.generation/encodetypes/qr/
 ---
 ## EncodeTypes.QR field
 
-指定数据应使用 **QR Code** 条码规范 编码
+指定数据应该用 **二维码**条码规格
 
 ```csharp
 public static readonly SymbologyEncodeType QR;

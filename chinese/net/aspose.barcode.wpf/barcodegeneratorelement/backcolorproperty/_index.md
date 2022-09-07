@@ -1,14 +1,14 @@
 ---
 title: BackColorProperty
 second_title: Aspose.BarCode for .NET API 参考
-description: BackColorProperty
+description: BackColor属性
 type: docs
 weight: 1100
 url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/backcolorproperty/
 ---
 ## BarcodeGeneratorElement.BackColorProperty field
 
-BackColorProperty
+BackColor属性
 
 ```csharp
 public static DependencyProperty BackColorProperty;

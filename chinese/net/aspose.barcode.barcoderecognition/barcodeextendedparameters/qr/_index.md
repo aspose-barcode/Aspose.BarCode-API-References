@@ -1,14 +1,14 @@
 ---
 title: QR
 second_title: Aspose.BarCode for .NET API 参考
-description: 获取 QR 结构化附加信息QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters识别条码
+description: 获取 QR 结构化附加信息QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters识别的条码
 type: docs
 weight: 50
 url: /zh/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/
 ---
 ## BarCodeExtendedParameters.QR property
 
-获取 QR 结构化附加信息[`QRExtendedParameters`](../../qrextendedparameters)识别条码
+获取 QR 结构化附加信息[`QRExtendedParameters`](../../qrextendedparameters)识别的条码
 
 ```csharp
 public QRExtendedParameters QR { get; }
@@ -16,7 +16,7 @@ public QRExtendedParameters QR { get; }
 
 ### 适当的价值
 
-一个二维码结构化附加信息[`QRExtendedParameters`](../../qrextendedparameters)识别条码
+QR 结构化附加信息[`QRExtendedParameters`](../../qrextendedparameters)识别的条码
 
 ### 也可以看看
 

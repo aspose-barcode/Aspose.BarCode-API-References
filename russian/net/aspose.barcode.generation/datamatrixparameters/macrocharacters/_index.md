@@ -1,14 +1,14 @@
 ---
 title: MacroCharacters
 second_title: Справочник по API Aspose.BarCode для .NET
-description: Макросимволы 05 и 06 значения используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчаниюMacroCharacters.None.
+description: Значения макросимволов 05 и 06 используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчанию MacroCharacters.None.
 type: docs
 weight: 60
 url: /ru/net/aspose.barcode.generation/datamatrixparameters/macrocharacters/
 ---
 ## DataMatrixParameters.MacroCharacters property
 
-Макросимволы 05 и 06 значения используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчанию:MacroCharacters.None.
+Значения макросимволов 05 и 06 используются для получения более компактного кодирования в специальных режимах. Может использоваться только с DataMatrixEccType.Ecc200 или DataMatrixEccType.EccAuto. Не может использоваться с EncodeTypes.GS1DataMatrix Значение по умолчанию: MacroCharacters.None.
 
 ```csharp
 public MacroCharacter MacroCharacters { get; set; }

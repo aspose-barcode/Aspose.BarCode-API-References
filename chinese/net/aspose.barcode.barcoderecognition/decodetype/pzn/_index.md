@@ -1,14 +1,14 @@
 ---
 title: PZN
 second_title: Aspose.BarCode for .NET API 参考
-description: 指定数据应使用 PZN 条形码规范进行解码此符号也称为 Pharma Zentral Nummer
+description: 指定数据应该被解码 PZN条码规范此符号系统也称为 Pharma Zentral Nummer
 type: docs
 weight: 620
 url: /zh/net/aspose.barcode.barcoderecognition/decodetype/pzn/
 ---
 ## DecodeType.PZN field
 
-指定数据应使用 **PZN** 条形码规范进行解码。此符号也称为 Pharma Zentral Nummer
+指定数据应该被解码 **PZN**条码规范。此符号系统也称为 Pharma Zentral Nummer
 
 ```csharp
 public static readonly SingleDecodeType PZN;
