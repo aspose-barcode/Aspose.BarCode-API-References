@@ -1,9 +1,9 @@
 ---
 title: MultyDecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: 
+description: Composite decode type.
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.barcode.barcoderecognition/multydecodetype/
 ---
 ## MultyDecodeType class
@@ -18,30 +18,30 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 | Name | Description |
 | --- | --- |
-| [MultyDecodeType](multydecodetype)(params BaseDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](../multydecodetype) class. |
-| [MultyDecodeType](multydecodetype)(params SingleDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](../multydecodetype) class. |
+| [MultyDecodeType](multydecodetype/#constructor)(params BaseDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
+| [MultyDecodeType](multydecodetype/#constructor_1)(params SingleDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [GetSingleTypesCount](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypescount) { get; } | Returns a number of single types. |
+| [GetSingleTypesCount](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypescount/) { get; } | Returns a number of single types. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.barcode.barcoderecognition/multydecodetype/add)(SingleDecodeType) | Adds one more [`SingleDecodeType`](../singledecodetype) to the MultyDecodeType. |
-| [ContainsAll](../../aspose.barcode.barcoderecognition/multydecodetype/containsall)(params BaseDecodeType[]) | Check if this contains all types from barcode types. |
-| override [ContainsAny](../../aspose.barcode.barcoderecognition/multydecodetype/containsany)(params BaseDecodeType[]) | Is contain any of types |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype) value. |
-| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype) value. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype) value. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/multydecodetype/gethashcode)() | Returns the hash code for this instance. |
-| [GetSingleTypes](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypes)() | Represents a list of single types. |
-| override [ToString](../../aspose.barcode.barcoderecognition/multydecodetype/tostring)() | Overridden method representing MultyDecodeType as a string. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/multydecodetype/tryparse)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
+| [Add](../../aspose.barcode.barcoderecognition/multydecodetype/add/)(SingleDecodeType) | Adds one more [`SingleDecodeType`](../singledecodetype/) to the MultyDecodeType. |
+| [ContainsAll](../../aspose.barcode.barcoderecognition/multydecodetype/containsall/)(params BaseDecodeType[]) | Check if this contains all types from barcode types. |
+| override [ContainsAny](../../aspose.barcode.barcoderecognition/multydecodetype/containsany/)(params BaseDecodeType[]) | Is contain any of types |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals/#equals_1)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](./multydecodetype/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals/#equals_3)(object) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](./multydecodetype/) value. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype/) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/multydecodetype/gethashcode/)() | Returns the hash code for this instance. |
+| [GetSingleTypes](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypes/)() | Represents a list of single types. |
+| override [ToString](../../aspose.barcode.barcoderecognition/multydecodetype/tostring/)() | Overridden method representing MultyDecodeType as a string. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/multydecodetype/tryparse/)(string, out MultyDecodeType) | Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed. |
 
 ### Examples
 
@@ -60,8 +60,8 @@ multyType2 = New MultyDecodeType(multyType1, DecodeType.Code128, DecodeType.Code
 
 ### See Also
 
-* class [BaseDecodeType](../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
+* class [BaseDecodeType](../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->

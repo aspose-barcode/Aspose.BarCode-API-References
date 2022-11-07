@@ -1,14 +1,14 @@
 ---
 title: BarCodeReader
 second_title: Aspose.BarCode for .NET API Reference
-description: 
+description: Initializes a new instance of the BarCodeReaderaspose.barcode.barcoderecognition/barcodereader/ class with default values. Requires to set image SetBitmapImage before to call ReadBarCodes method.
 type: docs
 weight: 10
 url: /net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
-## BarCodeReader constructor (1 of 14)
+## BarCodeReader() {#constructor}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method.
+Initializes a new instance of the [`BarCodeReader`](../) class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method.
 
 ```csharp
 public BarCodeReader()
@@ -43,15 +43,15 @@ End Using
 
 ### See Also
 
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (2 of 14)
+## BarCodeReader(Bitmap) {#constructor_1}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class from an image.
+Initializes a new instance of the [`BarCodeReader`](../) class from an image.
 
 ```csharp
 public BarCodeReader(Bitmap image)
@@ -91,15 +91,15 @@ End Using
 
 ### See Also
 
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (3 of 14)
+## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
@@ -138,16 +138,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (4 of 14)
+## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
@@ -186,16 +186,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (5 of 14)
+## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
@@ -235,16 +235,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (6 of 14)
+## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
@@ -284,16 +284,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (7 of 14)
+## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
@@ -333,16 +333,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (8 of 14)
+## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
@@ -382,16 +382,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (9 of 14)
+## BarCodeReader(string) {#constructor_11}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class from file.
+Initializes a new instance of the [`BarCodeReader`](../) class from file.
 
 ```csharp
 public BarCodeReader(string filename)
@@ -428,15 +428,15 @@ End Using
 
 ### See Also
 
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (10 of 14)
+## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
@@ -472,16 +472,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (11 of 14)
+## BarCodeReader(string, BaseDecodeType) {#constructor_12}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
@@ -517,16 +517,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (12 of 14)
+## BarCodeReader(Stream) {#constructor_8}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Stream stream)
@@ -566,15 +566,15 @@ End Using
 
 ### See Also
 
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (13 of 14)
+## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
@@ -613,16 +613,16 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader constructor (14 of 14)
+## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
 
-Initializes a new instance of the [`BarCodeReader`](../../barcodereader) class.
+Initializes a new instance of the [`BarCodeReader`](../) class.
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
@@ -661,9 +661,9 @@ End Using
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->

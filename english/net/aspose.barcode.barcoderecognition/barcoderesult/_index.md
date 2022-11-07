@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Aspose.BarCode for .NET API Reference
-description: 
+description: Stores recognized barcode data like SingleDecodeType./singledecodetype/ type String codetext BarCodeRegionParameters./barcoderegionparameters/ region and other parameters
 type: docs
 weight: 90
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 ## BarCodeResult class
 
-Stores recognized barcode data like [`SingleDecodeType`](../singledecodetype) type, String codetext, [`BarCodeRegionParameters`](../barcoderegionparameters) region and other parameters
+Stores recognized barcode data like [`SingleDecodeType`](../singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../barcoderegionparameters/) region and other parameters
 
 ```csharp
 public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
@@ -18,33 +18,33 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | Name | Description |
 | --- | --- |
-| [BarCodeResult](barcoderesult)(BarCodeResult) | Creates a a copy of the [`BarCodeResult`](../barcoderesult) class. |
+| [BarCodeResult](barcoderesult/)(BarCodeResult) | Creates a a copy of the [`BarCodeResult`](./barcoderesult/) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes) { get; } | Gets the encoded code bytes |
-| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext) { get; } | Gets the code text |
-| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype) { get; } | Gets the barcode type |
-| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename) { get; } | Gets the name of the barcode type |
-| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence) { get; } | Gets recognition confidence level of the recognized barcode |
-| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended) { get; } | Gets extended parameters of recognized barcode |
-| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality) { get; } | Gets the reading quality. Works for 1D and postal barcodes. |
-| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region) { get; } | Gets the barcode region |
+| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes/) { get; } | Gets the encoded code bytes |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext/) { get; } | Gets the code text |
+| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype/) { get; } | Gets the barcode type |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename/) { get; } | Gets the name of the barcode type |
+| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence/) { get; } | Gets recognition confidence level of the recognized barcode |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended/) { get; } | Gets extended parameters of recognized barcode |
+| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality/) { get; } | Gets the reading quality. Works for 1D and postal barcodes. |
+| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region/) { get; } | Gets the barcode region |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone)() | Creates a copy of [`BarCodeResult`](../barcoderesult) class. |
-| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals)(BarCodeResult) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](../barcoderesult) value. |
-| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext)(Encoding) | Gets the code text with encoding. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode)() | Returns the hash code for this instance. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring)() | Returns a human-readable string representation of this [`BarCodeResult`](../barcoderesult). |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality) | Returns a value indicating whether the first [`BarCodeResult`](../barcoderesult) value is equal to the second. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality) | Returns a value indicating if the first [`BarCodeResult`](../barcoderesult) value is different from the second. |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone/)() | Creates a copy of [`BarCodeResult`](./barcoderesult/) class. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals)(BarCodeResult) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](./barcoderesult/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified [`BarCodeResult`](./barcoderesult/) value. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext/)(Encoding) | Gets the code text with encoding. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode/)() | Returns the hash code for this instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring/)() | Returns a human-readable string representation of this [`BarCodeResult`](./barcoderesult/). |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality/) | Returns a value indicating whether the first [`BarCodeResult`](./barcoderesult/) value is equal to the second. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality/) | Returns a value indicating if the first [`BarCodeResult`](./barcoderesult/) value is different from the second. |
 
 ### Examples
 
@@ -84,7 +84,7 @@ End Using
 
 ### See Also
 
-* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
