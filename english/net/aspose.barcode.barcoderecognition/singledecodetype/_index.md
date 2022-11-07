@@ -1,9 +1,9 @@
 ---
 title: SingleDecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: 
+description: Single decode type. See decode type to get instance.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class
@@ -18,23 +18,23 @@ public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeTy
 
 | Name | Description |
 | --- | --- |
-| [TypeIndex](../../aspose.barcode.barcoderecognition/singledecodetype/typeindex) { get; } | Gets an index of decode type |
-| [TypeName](../../aspose.barcode.barcoderecognition/singledecodetype/typename) { get; } | Gets a name of decode type |
+| [TypeIndex](../../aspose.barcode.barcoderecognition/singledecodetype/typeindex/) { get; } | Gets an index of decode type |
+| [TypeName](../../aspose.barcode.barcoderecognition/singledecodetype/typename/) { get; } | Gets a name of decode type |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse)(string) | Converts the string representation of the name of a SingleDecodeType to its instance. |
-| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany)(params BaseDecodeType[]) | Returns a value indicating whether this instance is included into the list specified. |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype) value. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype) value. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals)(object) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype) value. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype) value. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode)() | Returns the hash code for this instance. |
-| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)() | Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
-| override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring)() | Returns the name of the given SingleDecodeType as a string. |
-| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring)(SingleDecodeType) | Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
+| static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse/)(string) | Converts the string representation of the name of a SingleDecodeType to its instance. |
+| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany/)(params BaseDecodeType[]) | Returns a value indicating whether this instance is included into the list specified. |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype/) value. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../multydecodetype/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_3)(object) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](./singledecodetype/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_2)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](./singledecodetype/) value. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode/)() | Returns the hash code for this instance. |
+| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)() | Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
+| override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring/)() | Returns the name of the given SingleDecodeType as a string. |
+| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)(SingleDecodeType) | Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None". |
 
 ### Examples
 
@@ -51,8 +51,8 @@ singleType = DecodeType.QR
 
 ### See Also
 
-* class [BaseDecodeType](../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
+* class [BaseDecodeType](../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.BarCode for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified SingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype/ value.
 type: docs
 weight: 20
 url: /net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
-## BaseDecodeType.Equals method (1 of 4)
+## Equals(SingleDecodeType) {#equals_2}
 
-Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../../singledecodetype) value.
+Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../../singledecodetype/) value.
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
@@ -16,24 +16,24 @@ public virtual bool Equals(SingleDecodeType other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | SingleDecodeType | An [`SingleDecodeType`](../../singledecodetype) value to compare to this instance. |
+| other | SingleDecodeType | An [`SingleDecodeType`](../../singledecodetype/) value to compare to this instance. |
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise, **false**.
+**true** if obj has the same value as this instance; otherwise,  **false**.
 
 ### See Also
 
-* class [SingleDecodeType](../../singledecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
+* class [SingleDecodeType](../../singledecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BaseDecodeType.Equals method (2 of 4)
+## Equals(MultyDecodeType) {#equals_1}
 
-Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../../multydecodetype) value.
+Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../../multydecodetype/) value.
 
 ```csharp
 public virtual bool Equals(MultyDecodeType other)
@@ -41,24 +41,24 @@ public virtual bool Equals(MultyDecodeType other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | MultyDecodeType | An [`MultyDecodeType`](../../multydecodetype) value to compare to this instance. |
+| other | MultyDecodeType | An [`MultyDecodeType`](../../multydecodetype/) value to compare to this instance. |
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise, **false**.
+**true** if obj has the same value as this instance; otherwise,  **false**.
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
+* class [MultyDecodeType](../../multydecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BaseDecodeType.Equals method (3 of 4)
+## Equals(BaseDecodeType) {#equals}
 
-Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../../basedecodetype) value.
+Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../) value.
 
 ```csharp
 public bool Equals(BaseDecodeType other)
@@ -66,23 +66,23 @@ public bool Equals(BaseDecodeType other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | BaseDecodeType | An [`BaseDecodeType`](../../basedecodetype) value to compare to this instance. |
+| other | BaseDecodeType | An [`BaseDecodeType`](../) value to compare to this instance. |
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise, **false**.
+**true** if obj has the same value as this instance; otherwise,  **false**.
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BaseDecodeType.Equals method (4 of 4)
+## Equals(object) {#equals_3}
 
-Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../../basedecodetype) value.
+Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../) value.
 
 ```csharp
 public override bool Equals(object obj)
@@ -94,12 +94,12 @@ public override bool Equals(object obj)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise, **false**.
+**true** if obj has the same value as this instance; otherwise,  **false**.
 
 ### See Also
 
-* class [BaseDecodeType](../../basedecodetype)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
