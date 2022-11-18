@@ -3,7 +3,7 @@ title: ChecksumAlwaysShowProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: ChecksumAlwaysShowProperty
 type: docs
-weight: 1360
+weight: 1420
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/checksumalwaysshowproperty/
 ---
 ## BarcodeGeneratorElement.ChecksumAlwaysShowProperty field

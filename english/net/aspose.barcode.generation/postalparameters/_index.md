@@ -3,7 +3,7 @@ title: PostalParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Postal parameters. Used for Postnet Planet.
 type: docs
-weight: 1000
+weight: 1140
 url: /net/aspose.barcode.generation/postalparameters/
 ---
 ## PostalParameters class

@@ -3,7 +3,7 @@ title: Types2D
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that data will be checked with all of  2D barcode symbologies
 type: docs
-weight: 710
+weight: 820
 url: /net/aspose.barcode.barcoderecognition/decodetype/types2d/
 ---
 ## DecodeType.Types2D field

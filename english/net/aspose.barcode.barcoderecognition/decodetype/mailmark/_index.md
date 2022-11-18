@@ -3,7 +3,7 @@ title: Mailmark
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  Royal Mail Mailmark barcode specification.
 type: docs
-weight: 450
+weight: 560
 url: /net/aspose.barcode.barcoderecognition/decodetype/mailmark/
 ---
 ## DecodeType.Mailmark field

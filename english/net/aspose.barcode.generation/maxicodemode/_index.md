@@ -3,7 +3,7 @@ title: MaxiCodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 910
+weight: 1050
 url: /net/aspose.barcode.generation/maxicodemode/
 ---
 ## MaxiCodeMode enumeration

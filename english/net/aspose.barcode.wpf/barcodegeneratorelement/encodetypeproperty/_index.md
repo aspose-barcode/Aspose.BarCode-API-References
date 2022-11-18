@@ -3,7 +3,7 @@ title: EncodeTypeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypeProperty
 type: docs
-weight: 1690
+weight: 1810
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/
 ---
 ## BarcodeGeneratorElement.EncodeTypeProperty field

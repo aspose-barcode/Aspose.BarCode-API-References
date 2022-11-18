@@ -3,7 +3,7 @@ title: QR
 second_title: Aspose.BarCode for .NET API Reference
 description: Gets a QR Structured Append information QRExtendedParametersaspose.barcode.barcoderecognition/qrextendedparameters/ of recognized barcode
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/
 ---
 ## BarCodeExtendedParameters.QR property

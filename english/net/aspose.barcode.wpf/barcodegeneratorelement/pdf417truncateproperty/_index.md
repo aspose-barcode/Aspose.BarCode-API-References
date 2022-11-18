@@ -3,7 +3,7 @@ title: Pdf417TruncateProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417TruncateProperty
 type: docs
-weight: 1940
+weight: 2060
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417truncateproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417TruncateProperty field

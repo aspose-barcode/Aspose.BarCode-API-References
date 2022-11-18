@@ -3,7 +3,7 @@ title: Pdf417ColumnsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ColumnsProperty
 type: docs
-weight: 1850
+weight: 1970
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417columnsproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417ColumnsProperty field

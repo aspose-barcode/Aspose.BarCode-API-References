@@ -3,7 +3,7 @@ title: IATA2of5
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  IATA 2 of 5 barcode specification. IATA International Air Transport Association uses this barcode for the management of air cargo.
 type: docs
-weight: 360
+weight: 470
 url: /net/aspose.barcode.barcoderecognition/decodetype/iata2of5/
 ---
 ## DecodeType.IATA2of5 field

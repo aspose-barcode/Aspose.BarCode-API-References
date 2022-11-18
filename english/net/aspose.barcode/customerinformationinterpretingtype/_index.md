@@ -3,7 +3,7 @@ title: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for .NET API Reference
 description: Defines the interpreting type CTable NTable or Other of customer information for AustralianPost BarCode.
 type: docs
-weight: 510
+weight: 630
 url: /net/aspose.barcode/customerinformationinterpretingtype/
 ---
 ## CustomerInformationInterpretingType enumeration

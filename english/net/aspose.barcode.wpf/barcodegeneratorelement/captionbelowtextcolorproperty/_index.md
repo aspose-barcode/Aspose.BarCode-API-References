@@ -3,7 +3,7 @@ title: CaptionBelowTextColorProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CaptionBelowTextColorProperty
 type: docs
-weight: 1330
+weight: 1390
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowtextcolorproperty/
 ---
 ## BarcodeGeneratorElement.CaptionBelowTextColorProperty field

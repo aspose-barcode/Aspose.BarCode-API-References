@@ -3,7 +3,7 @@ title: PatchCodeExtraBarcodeText
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies codetext for an extra QR barcode when PatchCode is generated in page mode.
 type: docs
-weight: 770
+weight: 830
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetext/
 ---
 ## BarcodeGeneratorElement.PatchCodeExtraBarcodeText property

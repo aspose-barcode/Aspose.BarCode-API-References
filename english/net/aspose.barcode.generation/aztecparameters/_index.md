@@ -3,7 +3,7 @@ title: AztecParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aztec parameters.
 type: docs
-weight: 540
+weight: 660
 url: /net/aspose.barcode.generation/aztecparameters/
 ---
 ## AztecParameters class

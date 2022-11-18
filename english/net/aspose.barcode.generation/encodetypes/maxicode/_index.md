@@ -3,7 +3,7 @@ title: MaxiCode
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  MaxiCode barcode specification
 type: docs
-weight: 470
+weight: 580
 url: /net/aspose.barcode.generation/encodetypes/maxicode/
 ---
 ## EncodeTypes.MaxiCode field

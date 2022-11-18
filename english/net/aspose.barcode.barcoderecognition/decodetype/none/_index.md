@@ -3,7 +3,7 @@ title: None
 second_title: Aspose.BarCode for .NET API Reference
 description: Unspecified decode type.
 type: docs
-weight: 530
+weight: 640
 url: /net/aspose.barcode.barcoderecognition/decodetype/none/
 ---
 ## DecodeType.None field

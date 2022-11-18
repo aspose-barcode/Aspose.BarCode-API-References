@@ -3,7 +3,7 @@ title: AztecErrorLevelProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecErrorLevelProperty
 type: docs
-weight: 1110
+weight: 1170
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecerrorlevelproperty/
 ---
 ## BarcodeGeneratorElement.AztecErrorLevelProperty field

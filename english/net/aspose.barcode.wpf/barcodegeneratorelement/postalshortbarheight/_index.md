@@ -3,7 +3,7 @@ title: PostalShortBarHeight
 second_title: Aspose.BarCode for .NET API Reference
 description: Postal short bar height in pixels.
 type: docs
-weight: 910
+weight: 970
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheight/
 ---
 ## BarcodeGeneratorElement.PostalShortBarHeight property

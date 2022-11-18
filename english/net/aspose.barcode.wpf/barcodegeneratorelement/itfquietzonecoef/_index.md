@@ -3,7 +3,7 @@ title: ITFQuietZoneCoef
 second_title: Aspose.BarCode for .NET API Reference
 description: Size of the quiet zones in xDimension.
 type: docs
-weight: 700
+weight: 760
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/itfquietzonecoef/
 ---
 ## BarcodeGeneratorElement.ITFQuietZoneCoef property

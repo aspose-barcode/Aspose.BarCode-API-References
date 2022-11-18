@@ -3,7 +3,7 @@ title: DataMatrixAspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixAspectRatioProperty
 type: docs
-weight: 1600
+weight: 1660
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixAspectRatioProperty field

@@ -3,7 +3,7 @@ title: DotCodeAspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeAspectRatioProperty
 type: docs
-weight: 1660
+weight: 1720
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeAspectRatioProperty field

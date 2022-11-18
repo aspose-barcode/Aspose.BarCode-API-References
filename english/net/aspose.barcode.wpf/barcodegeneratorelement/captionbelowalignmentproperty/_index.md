@@ -3,7 +3,7 @@ title: CaptionBelowAlignmentProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CaptionBelowAlignmentProperty
 type: docs
-weight: 1280
+weight: 1340
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowalignmentproperty/
 ---
 ## BarcodeGeneratorElement.CaptionBelowAlignmentProperty field

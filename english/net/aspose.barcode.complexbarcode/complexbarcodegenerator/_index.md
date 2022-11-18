@@ -3,7 +3,7 @@ title: ComplexBarcodeGenerator
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexBarcodeGenerator for backend complex barcode e.g. SwissQR images generation.
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.barcode.complexbarcode/complexbarcodegenerator/
 ---
 ## ComplexBarcodeGenerator class

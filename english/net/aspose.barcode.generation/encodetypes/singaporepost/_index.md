@@ -3,7 +3,7 @@ title: SingaporePost
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  Singapore Post Barcode barcode specification
 type: docs
-weight: 620
+weight: 730
 url: /net/aspose.barcode.generation/encodetypes/singaporepost/
 ---
 ## EncodeTypes.SingaporePost field

@@ -3,7 +3,7 @@ title: ScanSets
 second_title: Aspose.BarCode for .NET API Reference
 description: Specify scan sets by barcodeTypes
 type: docs
-weight: 800
+weight: 910
 url: /net/aspose.barcode.barcoderecognition/decodetype/scansets/
 ---
 ## DecodeType.ScanSets method

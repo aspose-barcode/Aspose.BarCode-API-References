@@ -3,7 +3,7 @@ title: SupplementSupplementSpace
 second_title: Aspose.BarCode for .NET API Reference
 description: Space between barcode and supplement in pixels.
 type: docs
-weight: 1010
+weight: 1070
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementspace/
 ---
 ## BarcodeGeneratorElement.SupplementSupplementSpace property

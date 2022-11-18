@@ -3,7 +3,7 @@ title: QREncodeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: QREncodeModeProperty
 type: docs
-weight: 1990
+weight: 2110
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qrencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.QREncodeModeProperty field

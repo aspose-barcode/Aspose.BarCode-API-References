@@ -3,7 +3,7 @@ title: SupplementSupplementSpaceProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: SupplementSupplementSpaceProperty
 type: docs
-weight: 2050
+weight: 2170
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementspaceproperty/
 ---
 ## BarcodeGeneratorElement.SupplementSupplementSpaceProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page.
 type: docs
-weight: 1160
+weight: 1300
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -85,7 +85,13 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [DataMatrixEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemode/) { get; set; } | Encode mode. |
 | [DataMatrixRows](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrows/) { get; set; } | Rows count. |
 | [DotCodeAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratio/) { get; set; } | Aspect ratio. |
-| [DotCodeMask](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodemask/) { get; set; } | Mask of Dotcode barcode. |
+| [DotCodeColumns](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodecolumns/) { get; set; } | DotCode columns count |
+| [DotCodeECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeeciencoding/) { get; set; } | DotCode ECI encoding |
+| [DotCodeEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeencodemode/) { get; set; } | DotCode Encode Mode |
+| [DotCodeIsReaderInitialization](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeisreaderinitialization/) { get; set; } | Is reader initialization |
+| [DotCodeRows](../../aspose.barcode.wpf/barcodegeneratorelement/dotcoderows/) { get; set; } | DotCode rows count |
+| [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodeid/) { get; set; } | Barcode ID for DotCode structured append mode |
+| [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodescount/) { get; set; } | Barcodes count for DotCode structured append mode |
 | [EnableEscape](../../aspose.barcode.wpf/barcodegeneratorelement/enableescape/) { get; set; } | Indicates whether explains the character '\' as an escape character in CodeText property. |
 | [EncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/encodetype/) { get; set; } | BarCode's encode type (symbology). |
 | [FilledBars](../../aspose.barcode.wpf/barcodegeneratorelement/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. |
@@ -199,7 +205,13 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [DataMatrixEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemodeproperty/) | DataMatrixEncodeModeProperty |
 | static [DataMatrixRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrowsproperty/) | DataMatrixRowsProperty |
 | static [DotCodeAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratioproperty/) | DotCodeAspectRatioProperty |
-| static [DotCodeMaskProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodemaskproperty/) | DotCodeMaskProperty |
+| static [DotCodeColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodecolumnsproperty/) | DotCodeColumnsProperty |
+| static [DotCodeECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeeciencodingproperty/) | DotCodeECIEncodingProperty |
+| static [DotCodeEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeencodemodeproperty/) | DotCodeEncodeModeProperty |
+| static [DotCodeIsReaderInitializationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeisreaderinitializationproperty/) | DotCodeIsReaderInitializationProperty |
+| static [DotCodeRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcoderowsproperty/) | DotCodeRowsProperty |
+| static [DotCodeStructuredAppendModeBarcodeIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodeidproperty/) | DotCodeStructuredAppendModeBarcodeIdProperty |
+| static [DotCodeStructuredAppendModeBarcodesCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodescountproperty/) | DotCodeStructuredAppendModeBarcodesCountProperty |
 | static [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/) | EnableEscapeProperty |
 | static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/) | EncodeTypeProperty |
 | static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/) | FilledBarsProperty |

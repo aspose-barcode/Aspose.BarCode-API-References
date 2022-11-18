@@ -3,7 +3,7 @@ title: BarCodeImageFormat
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the file format of the image.
 type: docs
-weight: 560
+weight: 680
 url: /net/aspose.barcode.generation/barcodeimageformat/
 ---
 ## BarCodeImageFormat enumeration

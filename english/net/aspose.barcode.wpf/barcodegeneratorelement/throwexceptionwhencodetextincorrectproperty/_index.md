@@ -3,7 +3,7 @@ title: ThrowExceptionWhenCodeTextIncorrectProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: ThrowExceptionWhenCodeTextIncorrectProperty
 type: docs
-weight: 2060
+weight: 2180
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/throwexceptionwhencodetextincorrectproperty/
 ---
 ## BarcodeGeneratorElement.ThrowExceptionWhenCodeTextIncorrectProperty field

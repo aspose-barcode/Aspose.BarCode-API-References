@@ -3,7 +3,7 @@ title: Is2D
 second_title: Aspose.BarCode for .NET API Reference
 description: Determines if the specified BaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype/ contains any 2D barcode symbology
 type: docs
-weight: 770
+weight: 880
 url: /net/aspose.barcode.barcoderecognition/decodetype/is2d/
 ---
 ## DecodeType.Is2D method

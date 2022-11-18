@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QR version.
 type: docs
-weight: 980
+weight: 1040
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qrversion/
 ---
 ## BarcodeGeneratorElement.QRVersion property

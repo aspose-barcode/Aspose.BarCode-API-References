@@ -3,7 +3,7 @@ title: BorderColorProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BorderColorProperty
 type: docs
-weight: 1160
+weight: 1220
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/bordercolorproperty/
 ---
 ## BarcodeGeneratorElement.BorderColorProperty field

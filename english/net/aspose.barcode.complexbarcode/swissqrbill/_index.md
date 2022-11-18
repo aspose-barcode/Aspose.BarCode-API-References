@@ -3,7 +3,7 @@ title: SwissQRBill
 second_title: Aspose.BarCode for .NET API Reference
 description: SwissQR bill data
 type: docs
-weight: 480
+weight: 600
 url: /net/aspose.barcode.complexbarcode/swissqrbill/
 ---
 ## SwissQRBill class

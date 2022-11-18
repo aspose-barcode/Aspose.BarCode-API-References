@@ -3,7 +3,7 @@ title: QrStructuredAppendParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: QR structured append parameters.
 type: docs
-weight: 1070
+weight: 1210
 url: /net/aspose.barcode.generation/qrstructuredappendparameters/
 ---
 ## QrStructuredAppendParameters class

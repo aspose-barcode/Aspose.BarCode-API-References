@@ -3,7 +3,7 @@ title: Pharmacode
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  Pharmacode barcode. This symbology is also known as Pharmaceutical Binary Code
 type: docs
-weight: 580
+weight: 690
 url: /net/aspose.barcode.barcoderecognition/decodetype/pharmacode/
 ---
 ## DecodeType.Pharmacode field

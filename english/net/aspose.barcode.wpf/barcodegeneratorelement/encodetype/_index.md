@@ -3,7 +3,7 @@ title: EncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodes encode type symbology.
 type: docs
-weight: 650
+weight: 710
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/encodetype/
 ---
 ## BarcodeGeneratorElement.EncodeType property

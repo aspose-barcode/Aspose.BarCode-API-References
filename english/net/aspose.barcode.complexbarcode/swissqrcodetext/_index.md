@@ -3,7 +3,7 @@ title: SwissQRCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Class for encoding and decoding the text embedded in the SwissQR code.
 type: docs
-weight: 500
+weight: 620
 url: /net/aspose.barcode.complexbarcode/swissqrcodetext/
 ---
 ## SwissQRCodetext class

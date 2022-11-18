@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: Returns a humanreadable string representation of this DotCodeParametersaspose.barcode.generation/dotcodeparameters/.
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.barcode.generation/dotcodeparameters/tostring/
 ---
 ## DotCodeParameters.ToString method

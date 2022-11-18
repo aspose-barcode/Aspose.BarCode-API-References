@@ -3,7 +3,7 @@ title: AutoSizeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the different types of automatic sizing modes.
 type: docs
-weight: 530
+weight: 650
 url: /net/aspose.barcode.generation/autosizemode/
 ---
 ## AutoSizeMode enumeration

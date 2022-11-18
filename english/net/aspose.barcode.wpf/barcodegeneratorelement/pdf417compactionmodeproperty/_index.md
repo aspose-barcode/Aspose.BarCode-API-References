@@ -3,7 +3,7 @@ title: Pdf417CompactionModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417CompactionModeProperty
 type: docs
-weight: 1860
+weight: 1980
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmodeproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417CompactionModeProperty field

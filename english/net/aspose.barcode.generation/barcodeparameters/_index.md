@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Barcode generation parameters.
 type: docs
-weight: 590
+weight: 710
 url: /net/aspose.barcode.generation/barcodeparameters/
 ---
 ## BarcodeParameters class

@@ -3,7 +3,7 @@ title: BorderVisibleProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BorderVisibleProperty
 type: docs
-weight: 1180
+weight: 1240
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/bordervisibleproperty/
 ---
 ## BarcodeGeneratorElement.BorderVisibleProperty field

@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: Returns a value indicating if the first BarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters/ value is different from the second.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/
 ---
 ## BarCodeExtendedParameters Inequality operator

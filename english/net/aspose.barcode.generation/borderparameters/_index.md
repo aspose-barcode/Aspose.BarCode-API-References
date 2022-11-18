@@ -3,7 +3,7 @@ title: BorderParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Barcode image border parameters
 type: docs
-weight: 630
+weight: 750
 url: /net/aspose.barcode.generation/borderparameters/
 ---
 ## BorderParameters class

@@ -3,7 +3,7 @@ title: TwoDComponentType
 second_title: Aspose.BarCode for .NET API Reference
 description: Type of 2D component
 type: docs
-weight: 1110
+weight: 1250
 url: /net/aspose.barcode.generation/twodcomponenttype/
 ---
 ## TwoDComponentType enumeration

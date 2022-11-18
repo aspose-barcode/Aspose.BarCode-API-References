@@ -3,7 +3,7 @@ title: CaptionBelowNoWrapProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CaptionBelowNoWrapProperty
 type: docs
-weight: 1310
+weight: 1370
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelownowrapproperty/
 ---
 ## BarcodeGeneratorElement.CaptionBelowNoWrapProperty field

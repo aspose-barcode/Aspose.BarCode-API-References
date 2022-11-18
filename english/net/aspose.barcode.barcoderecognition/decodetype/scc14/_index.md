@@ -3,7 +3,7 @@ title: SCC14
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  SCC14 barcode specification
 type: docs
-weight: 650
+weight: 760
 url: /net/aspose.barcode.barcoderecognition/decodetype/scc14/
 ---
 ## DecodeType.SCC14 field

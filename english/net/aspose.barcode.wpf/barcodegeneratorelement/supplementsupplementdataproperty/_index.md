@@ -3,7 +3,7 @@ title: SupplementSupplementDataProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: SupplementSupplementDataProperty
 type: docs
-weight: 2040
+weight: 2160
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdataproperty/
 ---
 ## BarcodeGeneratorElement.SupplementSupplementDataProperty field

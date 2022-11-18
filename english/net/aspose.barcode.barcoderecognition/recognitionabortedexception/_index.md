@@ -3,7 +3,7 @@ title: RecognitionAbortedException
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.barcode.barcoderecognition/recognitionabortedexception/
 ---
 ## RecognitionAbortedException class

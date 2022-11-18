@@ -3,7 +3,7 @@ title: AustralianPostParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: AustralianPost barcode parameters.
 type: docs
-weight: 520
+weight: 640
 url: /net/aspose.barcode.generation/australianpostparameters/
 ---
 ## AustralianPostParameters class

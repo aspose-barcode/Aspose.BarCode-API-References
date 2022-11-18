@@ -3,7 +3,7 @@ title: RM4SCC
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents RM4SCC barcode. RM4SCC Royal Mail 4state Customer Code is used for automated mail sort process in UK.
 type: docs
-weight: 600
+weight: 710
 url: /net/aspose.barcode.generation/encodetypes/rm4scc/
 ---
 ## EncodeTypes.RM4SCC field

@@ -3,7 +3,7 @@ title: DataMatrixEccProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixEccProperty
 type: docs
-weight: 1630
+weight: 1690
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixeccproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixEccProperty field

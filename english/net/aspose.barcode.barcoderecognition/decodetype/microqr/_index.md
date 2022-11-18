@@ -3,7 +3,7 @@ title: MicroQR
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  MicroQR Code barcode specification
 type: docs
-weight: 500
+weight: 610
 url: /net/aspose.barcode.barcoderecognition/decodetype/microqr/
 ---
 ## DecodeType.MicroQR field

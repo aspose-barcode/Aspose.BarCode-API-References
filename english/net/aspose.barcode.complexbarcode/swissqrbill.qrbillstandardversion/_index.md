@@ -3,7 +3,7 @@ title: SwissQRBill.QrBillStandardVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: SwissQR bill standard version
 type: docs
-weight: 490
+weight: 610
 url: /net/aspose.barcode.complexbarcode/swissqrbill.qrbillstandardversion/
 ---
 ## SwissQRBill.QrBillStandardVersion enumeration

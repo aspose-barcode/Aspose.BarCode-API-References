@@ -26,6 +26,7 @@ The  **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes
 | [Code128ExtendedParameters](./code128extendedparameters/) | Stores special data of Code128 recognized barcode |
 | [DataBarExtendedParameters](./databarextendedparameters/) | Stores a DataBar additional information of recognized barcode |
 | [DecodeType](./decodetype/) | Specify the type of barcode to read. |
+| [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultyDecodeType](./multydecodetype/) | Composite decode type. |
 | [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |

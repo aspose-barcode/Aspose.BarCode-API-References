@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: GS1 Composite bar parameters.
 type: docs
-weight: 850
+weight: 990
 url: /net/aspose.barcode.generation/gs1compositebarparameters/
 ---
 ## GS1CompositeBarParameters class

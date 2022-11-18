@@ -3,7 +3,7 @@ title: AddressType
 second_title: Aspose.BarCode for .NET API Reference
 description: Address type
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.barcode.complexbarcode/addresstype/
 ---
 ## AddressType enumeration

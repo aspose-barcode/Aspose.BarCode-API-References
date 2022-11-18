@@ -3,7 +3,7 @@ title: ISMN
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  ISMN barcode specification
 type: docs
-weight: 390
+weight: 500
 url: /net/aspose.barcode.generation/encodetypes/ismn/
 ---
 ## EncodeTypes.ISMN field

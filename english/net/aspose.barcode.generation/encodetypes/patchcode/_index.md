@@ -3,7 +3,7 @@ title: PatchCode
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents Patch code barcode
 type: docs
-weight: 530
+weight: 640
 url: /net/aspose.barcode.generation/encodetypes/patchcode/
 ---
 ## EncodeTypes.PatchCode field

@@ -3,7 +3,7 @@ title: FilledBars
 second_title: Aspose.BarCode for .NET API Reference
 description: Gets or sets a value indicating whether bars filled.
 type: docs
-weight: 660
+weight: 720
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/filledbars/
 ---
 ## BarcodeGeneratorElement.FilledBars property

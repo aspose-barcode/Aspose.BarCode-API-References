@@ -3,7 +3,7 @@ title: Pdf417IsReaderInitialization
 second_title: Aspose.BarCode for .NET API Reference
 description: Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization.
 type: docs
-weight: 850
+weight: 910
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417isreaderinitialization/
 ---
 ## BarcodeGeneratorElement.Pdf417IsReaderInitialization property

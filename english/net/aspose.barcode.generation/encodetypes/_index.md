@@ -3,7 +3,7 @@ title: EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the type of barcode to encode.
 type: docs
-weight: 810
+weight: 950
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class
@@ -65,7 +65,18 @@ public static class EncodeTypes
 | static readonly [GS1Code128](../../aspose.barcode.generation/encodetypes/gs1code128/) | Specifies that the data should be encoded with  **GS1 Code 128** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1CompositeBar](../../aspose.barcode.generation/encodetypes/gs1compositebar/) | Specifies that the data should be encoded with  **GS1 Composite Bar** barcode specification. The codetext must contains parentheses for AI. 1D codetext and 2D codetext must be separated with symbol '/' |
 | static readonly [GS1DataMatrix](../../aspose.barcode.generation/encodetypes/gs1datamatrix/) | 2D barcode symbology DataMatrix with GS1 string format |
+| static readonly [GS1DotCode](../../aspose.barcode.generation/encodetypes/gs1dotcode/) | Specifies that the data should be encoded with  **GS1 DotCode** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1QR](../../aspose.barcode.generation/encodetypes/gs1qr/) | 2D barcode symbology QR with GS1 string format |
+| static readonly [HIBCAztecLIC](../../aspose.barcode.generation/encodetypes/hibcazteclic/) | Specifies that the data should be encoded with  **HIBC LIC Aztec** barcode specification. |
+| static readonly [HIBCAztecPAS](../../aspose.barcode.generation/encodetypes/hibcaztecpas/) | Specifies that the data should be encoded with  **HIBC PAS Aztec** barcode specification. |
+| static readonly [HIBCCode128LIC](../../aspose.barcode.generation/encodetypes/hibccode128lic/) | Specifies that the data should be encoded with  **HIBC LIC Code128** barcode specification. |
+| static readonly [HIBCCode128PAS](../../aspose.barcode.generation/encodetypes/hibccode128pas/) | Specifies that the data should be encoded with  **HIBC PAS Code128** barcode specification. |
+| static readonly [HIBCCode39LIC](../../aspose.barcode.generation/encodetypes/hibccode39lic/) | Specifies that the data should be encoded with  **HIBC LIC Code39Standart** barcode specification. |
+| static readonly [HIBCCode39PAS](../../aspose.barcode.generation/encodetypes/hibccode39pas/) | Specifies that the data should be encoded with  **HIBC PAS Code39Standart** barcode specification. |
+| static readonly [HIBCDataMatrixLIC](../../aspose.barcode.generation/encodetypes/hibcdatamatrixlic/) | Specifies that the data should be encoded with  **HIBC LIC DataMatrix** barcode specification. |
+| static readonly [HIBCDataMatrixPAS](../../aspose.barcode.generation/encodetypes/hibcdatamatrixpas/) | Specifies that the data should be encoded with  **HIBC PAS DataMatrix** barcode specification. |
+| static readonly [HIBCQRLIC](../../aspose.barcode.generation/encodetypes/hibcqrlic/) | Specifies that the data should be encoded with  **HIBC LIC QR** barcode specification. |
+| static readonly [HIBCQRPAS](../../aspose.barcode.generation/encodetypes/hibcqrpas/) | Specifies that the data should be encoded with  **HIBC PAS QR** barcode specification. |
 | static readonly [IATA2of5](../../aspose.barcode.generation/encodetypes/iata2of5/) | Represents IATA 2 of 5 barcode.IATA (International Air Transport Assosiation) uses this barcode for the management of air cargo. |
 | static readonly [Interleaved2of5](../../aspose.barcode.generation/encodetypes/interleaved2of5/) | Specifies that the data should be encoded with  **INTERLEAVED 2 of 5** barcode specification |
 | static readonly [ISBN](../../aspose.barcode.generation/encodetypes/isbn/) | Specifies that the data should be encoded with  **ISBN** barcode specification |

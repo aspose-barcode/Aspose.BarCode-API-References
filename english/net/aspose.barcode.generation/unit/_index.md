@@ -3,7 +3,7 @@ title: Unit
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the size value in different units Pixel Inches etc..
 type: docs
-weight: 1120
+weight: 1260
 url: /net/aspose.barcode.generation/unit/
 ---
 ## Unit class

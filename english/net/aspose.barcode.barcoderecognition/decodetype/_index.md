@@ -70,7 +70,18 @@ public static class DecodeType
 | static readonly [EAN8](../../aspose.barcode.barcoderecognition/decodetype/ean8/) | Specifies that the data should be decoded with  **EAN-8** barcode specification |
 | static readonly [GS1Code128](../../aspose.barcode.barcoderecognition/decodetype/gs1code128/) | Specifies that the data should be decoded with  **GS1 CODE 128** barcode specification |
 | static readonly [GS1DataMatrix](../../aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/) | Specifies that the data should be decoded with  **GS1DataMatrix** barcode symbology |
+| static readonly [GS1DotCode](../../aspose.barcode.barcoderecognition/decodetype/gs1dotcode/) | Specifies that the data should be decoded with  **GS1 DotCode** blank specification |
 | static readonly [GS1QR](../../aspose.barcode.barcoderecognition/decodetype/gs1qr/) | Specifies that the data should be decoded with  **GS1 QR** barcode specification |
+| static readonly [HIBCAztecLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcazteclic/) | Specifies that the data should be decoded with  **HIBC LIC Aztec** blank specification |
+| static readonly [HIBCAztecPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcaztecpas/) | Specifies that the data should be decoded with  **HIBC PAS Aztec** blank specification |
+| static readonly [HIBCCode128LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode128lic/) | Specifies that the data should be decoded with  **HIBC LIC Code128** blank specification |
+| static readonly [HIBCCode128PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode128pas/) | Specifies that the data should be decoded with  **HIBC PAS Code128** blank specification |
+| static readonly [HIBCCode39LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode39lic/) | Specifies that the data should be decoded with  **HIBC LIC Code39** blank specification |
+| static readonly [HIBCCode39PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode39pas/) | Specifies that the data should be decoded with  **HIBC PAS Code39** blank specification |
+| static readonly [HIBCDataMatrixLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixlic/) | Specifies that the data should be decoded with  **HIBC LIC DataMatrix** blank specification |
+| static readonly [HIBCDataMatrixPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/) | Specifies that the data should be decoded with  **HIBC PAS DataMatrix** blank specification |
+| static readonly [HIBCQRLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcqrlic/) | Specifies that the data should be decoded with  **HIBC LIC QR** blank specification |
+| static readonly [HIBCQRPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcqrpas/) | Specifies that the data should be decoded with  **HIBC PAS QR** blank specification |
 | static readonly [IATA2of5](../../aspose.barcode.barcoderecognition/decodetype/iata2of5/) | Specifies that the data should be decoded with  **IATA 2 of 5** barcode specification. IATA (International Air Transport Association) uses this barcode for the management of air cargo. |
 | static readonly [Interleaved2of5](../../aspose.barcode.barcoderecognition/decodetype/interleaved2of5/) | Specifies that the data should be decoded with  **INTERLEAVED 2 of 5** barcode specification |
 | static readonly [ISBN](../../aspose.barcode.barcoderecognition/decodetype/isbn/) | Specifies that the data should be decoded with  **ISBN** barcode specification |

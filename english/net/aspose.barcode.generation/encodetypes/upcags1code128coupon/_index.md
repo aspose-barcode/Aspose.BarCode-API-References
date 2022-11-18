@@ -3,7 +3,7 @@ title: UpcaGs1Code128Coupon
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  UPC coupon with GS1128 Extended Code barcode specification. An example of the input string BarcodeGenerator.Codetext  514141100906810203 where UPCA part is 514141100906 GS1Code128 part is 810203.
 type: docs
-weight: 670
+weight: 780
 url: /net/aspose.barcode.generation/encodetypes/upcags1code128coupon/
 ---
 ## EncodeTypes.UpcaGs1Code128Coupon field

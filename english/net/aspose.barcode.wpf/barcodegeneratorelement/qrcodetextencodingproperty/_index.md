@@ -3,7 +3,7 @@ title: QRCodeTextEncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: QRCodeTextEncodingProperty
 type: docs
-weight: 1970
+weight: 2090
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qrcodetextencodingproperty/
 ---
 ## BarcodeGeneratorElement.QRCodeTextEncodingProperty field

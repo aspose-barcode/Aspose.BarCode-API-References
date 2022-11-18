@@ -3,7 +3,7 @@ title: Postnet
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  Postnet barcode specification
 type: docs
-weight: 570
+weight: 680
 url: /net/aspose.barcode.generation/encodetypes/postnet/
 ---
 ## EncodeTypes.Postnet field

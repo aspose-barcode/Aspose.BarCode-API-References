@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.BarCode for .NET API Reference
 description: Returns a value indicating whether the first BarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters/ value is equal to the second.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/
 ---
 ## BarCodeExtendedParameters Equality operator

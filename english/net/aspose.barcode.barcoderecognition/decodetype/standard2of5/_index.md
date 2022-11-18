@@ -3,7 +3,7 @@ title: Standard2of5
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  Standard 2 of 5 barcode specification
 type: docs
-weight: 670
+weight: 780
 url: /net/aspose.barcode.barcoderecognition/decodetype/standard2of5/
 ---
 ## DecodeType.Standard2of5 field

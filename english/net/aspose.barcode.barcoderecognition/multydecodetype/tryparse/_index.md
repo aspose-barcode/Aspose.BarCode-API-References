@@ -3,7 +3,7 @@ title: TryParse
 second_title: Aspose.BarCode for .NET API Reference
 description: Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/multydecodetype/tryparse/
 ---
 ## MultyDecodeType.TryParse method

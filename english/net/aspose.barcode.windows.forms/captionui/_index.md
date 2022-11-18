@@ -3,7 +3,7 @@ title: CaptionUI
 second_title: Aspose.BarCode for .NET API Reference
 description: UI wrapper for CaptionParameters../aspose.barcode.generation/captionparameters/ class.
 type: docs
-weight: 1190
+weight: 1330
 url: /net/aspose.barcode.windows.forms/captionui/
 ---
 ## CaptionUI class

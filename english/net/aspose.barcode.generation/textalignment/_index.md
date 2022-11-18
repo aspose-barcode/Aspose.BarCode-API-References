@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.BarCode for .NET API Reference
 description: Text alignment.
 type: docs
-weight: 1100
+weight: 1240
 url: /net/aspose.barcode.generation/textalignment/
 ---
 ## TextAlignment enumeration

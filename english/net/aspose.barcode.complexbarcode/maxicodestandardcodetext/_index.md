@@ -3,7 +3,7 @@ title: MaxiCodeStandardCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Class for encoding and decoding MaxiCode codetext for modes 4 5 and 6.
 type: docs
-weight: 440
+weight: 540
 url: /net/aspose.barcode.complexbarcode/maxicodestandardcodetext/
 ---
 ## MaxiCodeStandardCodetext class
