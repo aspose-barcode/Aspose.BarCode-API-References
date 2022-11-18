@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: Overridden method representing MultyDecodeType as a string.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/multydecodetype/tostring/
 ---
 ## MultyDecodeType.ToString method

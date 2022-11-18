@@ -3,7 +3,7 @@ title: MailmarkCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Class for encoding and decoding the text embedded in the 4state Royal Mailmark code.
 type: docs
-weight: 390
+weight: 490
 url: /net/aspose.barcode.complexbarcode/mailmarkcodetext/
 ---
 ## MailmarkCodetext class

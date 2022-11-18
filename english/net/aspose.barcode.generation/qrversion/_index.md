@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr.
 type: docs
-weight: 1040
+weight: 1180
 url: /net/aspose.barcode.generation/qrversion/
 ---
 ## QRVersion enumeration

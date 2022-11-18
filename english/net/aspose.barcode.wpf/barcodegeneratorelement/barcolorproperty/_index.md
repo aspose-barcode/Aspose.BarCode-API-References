@@ -3,7 +3,7 @@ title: BarColorProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarColorProperty
 type: docs
-weight: 1140
+weight: 1200
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/barcolorproperty/
 ---
 ## BarcodeGeneratorElement.BarColorProperty field

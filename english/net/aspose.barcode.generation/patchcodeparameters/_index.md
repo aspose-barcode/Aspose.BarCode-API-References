@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: PatchCode parameters.
 type: docs
-weight: 940
+weight: 1080
 url: /net/aspose.barcode.generation/patchcodeparameters/
 ---
 ## PatchCodeParameters class

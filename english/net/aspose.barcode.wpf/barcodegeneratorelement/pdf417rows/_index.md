@@ -3,7 +3,7 @@ title: Pdf417Rows
 second_title: Aspose.BarCode for .NET API Reference
 description: Rows count.
 type: docs
-weight: 890
+weight: 950
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417rows/
 ---
 ## BarcodeGeneratorElement.Pdf417Rows property

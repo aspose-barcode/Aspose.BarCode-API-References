@@ -3,7 +3,7 @@ title: CaptionAboveVisibleProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CaptionAboveVisibleProperty
 type: docs
-weight: 1270
+weight: 1330
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionabovevisibleproperty/
 ---
 ## BarcodeGeneratorElement.CaptionAboveVisibleProperty field

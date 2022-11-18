@@ -3,7 +3,7 @@ title: VIN
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents VIN Vehicle Identification Number Barcode.
 type: docs
-weight: 700
+weight: 810
 url: /net/aspose.barcode.generation/encodetypes/vin/
 ---
 ## EncodeTypes.VIN field

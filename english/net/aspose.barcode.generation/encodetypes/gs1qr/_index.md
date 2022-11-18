@@ -3,7 +3,7 @@ title: GS1QR
 second_title: Aspose.BarCode for .NET API Reference
 description: 2D barcode symbology QR with GS1 string format
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.barcode.generation/encodetypes/gs1qr/
 ---
 ## EncodeTypes.GS1QR field

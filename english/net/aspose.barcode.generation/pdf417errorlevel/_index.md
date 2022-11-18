@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: pdf417 barcodes error correction level from level 0 to level 9 level 0 means no error correction level 9 means best error correction
 type: docs
-weight: 970
+weight: 1110
 url: /net/aspose.barcode.generation/pdf417errorlevel/
 ---
 ## Pdf417ErrorLevel enumeration

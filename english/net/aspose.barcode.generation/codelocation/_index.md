@@ -3,7 +3,7 @@ title: CodeLocation
 second_title: Aspose.BarCode for .NET API Reference
 description: Codetext location
 type: docs
-weight: 710
+weight: 830
 url: /net/aspose.barcode.generation/codelocation/
 ---
 ## CodeLocation enumeration

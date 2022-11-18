@@ -3,7 +3,7 @@ title: DataMatrixEccType
 second_title: Aspose.BarCode for .NET API Reference
 description: Specify the type of the ECC to encode.
 type: docs
-weight: 750
+weight: 870
 url: /net/aspose.barcode.generation/datamatrixecctype/
 ---
 ## DataMatrixEccType enumeration

@@ -3,7 +3,7 @@ title: GetSingleTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents a list of single types.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/multydecodetype/getsingletypes/
 ---
 ## MultyDecodeType.GetSingleTypes method

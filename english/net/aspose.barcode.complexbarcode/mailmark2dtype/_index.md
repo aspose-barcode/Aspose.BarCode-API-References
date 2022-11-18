@@ -3,7 +3,7 @@ title: Mailmark2DType
 second_title: Aspose.BarCode for .NET API Reference
 description: 2D Mailmark Type defines size of Data Matrix barcode
 type: docs
-weight: 380
+weight: 480
 url: /net/aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 ## Mailmark2DType enumeration

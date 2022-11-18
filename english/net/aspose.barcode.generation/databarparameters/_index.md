@@ -3,7 +3,7 @@ title: DataBarParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Databar parameters.
 type: docs
-weight: 740
+weight: 860
 url: /net/aspose.barcode.generation/databarparameters/
 ---
 ## DataBarParameters class

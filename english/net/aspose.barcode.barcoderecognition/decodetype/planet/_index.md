@@ -3,7 +3,7 @@ title: Planet
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  Planet barcode specification
 type: docs
-weight: 590
+weight: 700
 url: /net/aspose.barcode.barcoderecognition/decodetype/planet/
 ---
 ## DecodeType.Planet field

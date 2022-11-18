@@ -3,7 +3,7 @@ title: TryDecodeMailmark2D
 second_title: Aspose.BarCode for .NET API Reference
 description: Decodes Royal Mail Mailmark 2D codetext.
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark2D method

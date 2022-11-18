@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: Returns a value indicating whether this instance is equal to a specified BarCodeExtendedParametersaspose.barcode.barcoderecognition/barcodeextendedparameters/ value.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/equals/
 ---
 ## BarCodeExtendedParameters.Equals method

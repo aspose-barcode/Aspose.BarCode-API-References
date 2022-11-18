@@ -3,7 +3,7 @@ title: DataMatrixColumnsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixColumnsProperty
 type: docs
-weight: 1620
+weight: 1680
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumnsproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixColumnsProperty field

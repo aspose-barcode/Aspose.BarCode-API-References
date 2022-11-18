@@ -3,7 +3,7 @@ title: IComplexCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Interface for complex codetext used with ComplexBarcodeGenerator.
 type: docs
-weight: 360
+weight: 460
 url: /net/aspose.barcode.complexbarcode/icomplexcodetext/
 ---
 ## IComplexCodetext interface

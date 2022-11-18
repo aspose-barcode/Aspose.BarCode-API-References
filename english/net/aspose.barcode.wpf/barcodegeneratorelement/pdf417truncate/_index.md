@@ -3,7 +3,7 @@ title: Pdf417Truncate
 second_title: Aspose.BarCode for .NET API Reference
 description: Whether Pdf417 symbology type of BarCode is truncated to reduce space.
 type: docs
-weight: 900
+weight: 960
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417truncate/
 ---
 ## BarcodeGeneratorElement.Pdf417Truncate property

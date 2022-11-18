@@ -3,7 +3,7 @@ title: Matrix2of5
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents Matrix 2 of 5 BarCode
 type: docs
-weight: 460
+weight: 570
 url: /net/aspose.barcode.generation/encodetypes/matrix2of5/
 ---
 ## EncodeTypes.Matrix2of5 field

@@ -3,7 +3,7 @@ title: Is1D
 second_title: Aspose.BarCode for .NET API Reference
 description: Determines if the specified BaseDecodeTypeaspose.barcode.barcoderecognition/basedecodetype/ contains any 1D barcode symbology
 type: docs
-weight: 760
+weight: 870
 url: /net/aspose.barcode.barcoderecognition/decodetype/is1d/
 ---
 ## DecodeType.Is1D method

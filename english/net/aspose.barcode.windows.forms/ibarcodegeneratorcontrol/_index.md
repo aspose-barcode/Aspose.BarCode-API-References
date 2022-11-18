@@ -3,7 +3,7 @@ title: IBarCodeGeneratorControl
 second_title: Aspose.BarCode for .NET API Reference
 description: IBarCodeGeneratorControl for TypeConverters
 type: docs
-weight: 1220
+weight: 1360
 url: /net/aspose.barcode.windows.forms/ibarcodegeneratorcontrol/
 ---
 ## IBarCodeGeneratorControl interface

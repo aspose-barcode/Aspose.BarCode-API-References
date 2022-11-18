@@ -3,7 +3,7 @@ title: BarHeightProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarHeightProperty
 type: docs
-weight: 1150
+weight: 1210
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/barheightproperty/
 ---
 ## BarcodeGeneratorElement.BarHeightProperty field

@@ -3,7 +3,7 @@ title: CodeTextParametersSpaceProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CodeTextParametersSpaceProperty
 type: docs
-weight: 1530
+weight: 1590
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersspaceproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersSpaceProperty field

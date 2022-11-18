@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrix encoders encoding mode default to Auto
 type: docs
-weight: 760
+weight: 880
 url: /net/aspose.barcode.generation/datamatrixencodemode/
 ---
 ## DataMatrixEncodeMode enumeration

@@ -3,7 +3,7 @@ title: Pdf417MacroSegmentsCountProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417MacroSegmentsCountProperty
 type: docs
-weight: 1920
+weight: 2040
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentscountproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroSegmentsCountProperty field

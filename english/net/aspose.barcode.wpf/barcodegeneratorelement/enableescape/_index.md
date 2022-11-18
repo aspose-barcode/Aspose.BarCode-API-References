@@ -3,7 +3,7 @@ title: EnableEscape
 second_title: Aspose.BarCode for .NET API Reference
 description: Indicates whether explains the character  as an escape character in CodeText property.
 type: docs
-weight: 640
+weight: 700
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/enableescape/
 ---
 ## BarcodeGeneratorElement.EnableEscape property

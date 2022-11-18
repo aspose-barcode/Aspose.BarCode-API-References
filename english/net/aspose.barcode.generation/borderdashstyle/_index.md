@@ -3,7 +3,7 @@ title: BorderDashStyle
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the style of dashed border lines.
 type: docs
-weight: 620
+weight: 740
 url: /net/aspose.barcode.generation/borderdashstyle/
 ---
 ## BorderDashStyle enumeration

@@ -3,7 +3,7 @@ title: OneD
 second_title: Aspose.BarCode for .NET API Reference
 description: Gets a special data OneDExtendedParametersaspose.barcode.barcoderecognition/onedextendedparameters/ of 1D recognized barcode
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/
 ---
 ## BarCodeExtendedParameters.OneD property

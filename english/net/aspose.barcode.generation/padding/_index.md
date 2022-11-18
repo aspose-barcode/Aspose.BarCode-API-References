@@ -3,7 +3,7 @@ title: Padding
 second_title: Aspose.BarCode for .NET API Reference
 description: Paddings parameters.
 type: docs
-weight: 930
+weight: 1070
 url: /net/aspose.barcode.generation/padding/
 ---
 ## Padding class

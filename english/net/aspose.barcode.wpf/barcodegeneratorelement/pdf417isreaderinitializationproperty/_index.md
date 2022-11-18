@@ -3,7 +3,7 @@ title: Pdf417IsReaderInitializationProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417IsReaderInitializationProperty
 type: docs
-weight: 1890
+weight: 2010
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417isreaderinitializationproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417IsReaderInitializationProperty field

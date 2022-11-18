@@ -3,7 +3,7 @@ title: SupplementParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Supplement parameters. Used for Interleaved2of5 Standard2of5 EAN13 EAN8 UPCA UPCE ISBN ISSN ISMN.
 type: docs
-weight: 1080
+weight: 1220
 url: /net/aspose.barcode.generation/supplementparameters/
 ---
 ## SupplementParameters class

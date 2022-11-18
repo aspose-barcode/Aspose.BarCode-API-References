@@ -3,7 +3,7 @@ title: CodeTextParametersLocationProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: CodeTextParametersLocationProperty
 type: docs
-weight: 1510
+weight: 1570
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparameterslocationproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersLocationProperty field

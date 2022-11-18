@@ -3,7 +3,7 @@ title: MaxiCodeStructuredAppendModeBarcodeCount
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCode barcodes count used in structured append mode.
 type: docs
-weight: 740
+weight: 800
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodecount/
 ---
 ## BarcodeGeneratorElement.MaxiCodeStructuredAppendModeBarcodeCount property

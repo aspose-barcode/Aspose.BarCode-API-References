@@ -3,7 +3,7 @@ title: CodabarChecksumMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the checksum algorithm for Codabar
 type: docs
-weight: 650
+weight: 770
 url: /net/aspose.barcode.generation/codabarchecksummode/
 ---
 ## CodabarChecksumMode enumeration

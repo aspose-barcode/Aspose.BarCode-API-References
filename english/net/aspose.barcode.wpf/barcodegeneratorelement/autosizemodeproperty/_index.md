@@ -3,7 +3,7 @@ title: AutoSizeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: AutoSizeModeProperty
 type: docs
-weight: 1080
+weight: 1140
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/autosizemodeproperty/
 ---
 ## BarcodeGeneratorElement.AutoSizeModeProperty field

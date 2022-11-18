@@ -3,7 +3,7 @@ title: Mailmark
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents Royal Mail Mailmark barcode.
 type: docs
-weight: 450
+weight: 560
 url: /net/aspose.barcode.generation/encodetypes/mailmark/
 ---
 ## EncodeTypes.Mailmark field

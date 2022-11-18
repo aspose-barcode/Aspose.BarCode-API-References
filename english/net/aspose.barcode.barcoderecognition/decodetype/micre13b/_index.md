@@ -3,7 +3,7 @@ title: MicrE13B
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  MICR E13B blank specification
 type: docs
-weight: 480
+weight: 590
 url: /net/aspose.barcode.barcoderecognition/decodetype/micre13b/
 ---
 ## DecodeType.MicrE13B field

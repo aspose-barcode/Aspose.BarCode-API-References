@@ -3,7 +3,7 @@ title: SupplementSupplementData
 second_title: Aspose.BarCode for .NET API Reference
 description: Supplement codetext.
 type: docs
-weight: 1000
+weight: 1060
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdata/
 ---
 ## BarcodeGeneratorElement.SupplementSupplementData property

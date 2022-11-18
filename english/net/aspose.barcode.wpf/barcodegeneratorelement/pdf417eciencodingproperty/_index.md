@@ -3,7 +3,7 @@ title: Pdf417ECIEncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ECIEncodingProperty
 type: docs
-weight: 1870
+weight: 1990
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencodingproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417ECIEncodingProperty field

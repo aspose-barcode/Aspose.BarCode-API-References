@@ -3,7 +3,7 @@ title: DataBarColumnsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: DataBarColumnsProperty
 type: docs
-weight: 1580
+weight: 1640
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/databarcolumnsproperty/
 ---
 ## BarcodeGeneratorElement.DataBarColumnsProperty field

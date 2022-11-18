@@ -3,7 +3,7 @@ title: XDimension
 second_title: Aspose.BarCode for .NET API Reference
 description: xdimension is the smallest width of the unit of BarCode bars or spaces. Ignored in AutoSizeMode.Nearest and AutoSizeMode.Interpolation modes.
 type: docs
-weight: 1040
+weight: 1100
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/xdimension/
 ---
 ## BarcodeGeneratorElement.XDimension property

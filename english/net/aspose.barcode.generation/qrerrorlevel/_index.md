@@ -3,7 +3,7 @@ title: QRErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: Level of ReedSolomon error correction. From low to high LevelL LevelM LevelQ LevelH.
 type: docs
-weight: 1030
+weight: 1170
 url: /net/aspose.barcode.generation/qrerrorlevel/
 ---
 ## QRErrorLevel enumeration

@@ -3,7 +3,7 @@ title: OPC
 second_title: Aspose.BarCode for .NET API Reference
 description: Represents OPCOptical Product Code Barcodealso known as  VCA Barcode VCA OPC Vision Council of America OPC Barcode.
 type: docs
-weight: 520
+weight: 630
 url: /net/aspose.barcode.generation/encodetypes/opc/
 ---
 ## EncodeTypes.OPC field

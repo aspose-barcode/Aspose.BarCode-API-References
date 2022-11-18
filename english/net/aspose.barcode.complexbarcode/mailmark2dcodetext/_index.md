@@ -3,7 +3,7 @@ title: Mailmark2DCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Class for encoding and decoding the text embedded in the Royal Mail 2D Mailmark code.
 type: docs
-weight: 370
+weight: 470
 url: /net/aspose.barcode.complexbarcode/mailmark2dcodetext/
 ---
 ## Mailmark2DCodetext class

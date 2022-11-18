@@ -3,7 +3,7 @@ title: FontMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Font size mode.
 type: docs
-weight: 830
+weight: 970
 url: /net/aspose.barcode.generation/fontmode/
 ---
 ## FontMode enumeration

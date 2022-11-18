@@ -3,7 +3,7 @@ title: Padding
 second_title: Aspose.BarCode for .NET API Reference
 description: Barcode paddings.
 type: docs
-weight: 760
+weight: 820
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/padding/
 ---
 ## BarcodeGeneratorElement.Padding property

@@ -3,7 +3,7 @@ title: QREncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncoding  Encoding.UTF8 for Latin symbols or digits and Utf8BOM for Unicode symbols.
 type: docs
-weight: 1010
+weight: 1150
 url: /net/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enumeration

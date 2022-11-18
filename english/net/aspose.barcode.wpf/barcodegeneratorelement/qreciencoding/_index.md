@@ -3,7 +3,7 @@ title: QRECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: ECI encoding.
 type: docs
-weight: 940
+weight: 1000
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qreciencoding/
 ---
 ## BarcodeGeneratorElement.QRECIEncoding property

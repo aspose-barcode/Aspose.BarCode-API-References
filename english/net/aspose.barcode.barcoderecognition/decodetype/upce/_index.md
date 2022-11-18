@@ -3,7 +3,7 @@ title: UPCE
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be decoded with  UPCE barcode specification
 type: docs
-weight: 730
+weight: 840
 url: /net/aspose.barcode.barcoderecognition/decodetype/upce/
 ---
 ## DecodeType.UPCE field

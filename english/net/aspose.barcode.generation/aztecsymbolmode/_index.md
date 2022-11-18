@@ -3,7 +3,7 @@ title: AztecSymbolMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the Aztec symbol mode.
 type: docs
-weight: 550
+weight: 670
 url: /net/aspose.barcode.generation/aztecsymbolmode/
 ---
 ## AztecSymbolMode enumeration

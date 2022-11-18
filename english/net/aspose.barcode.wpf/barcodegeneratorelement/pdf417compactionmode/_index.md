@@ -3,7 +3,7 @@ title: Pdf417CompactionMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Compaction mode.
 type: docs
-weight: 820
+weight: 880
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmode/
 ---
 ## BarcodeGeneratorElement.Pdf417CompactionMode property

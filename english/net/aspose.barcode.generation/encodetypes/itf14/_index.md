@@ -3,7 +3,7 @@ title: ITF14
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies that the data should be encoded with  ITF14 barcode specification
 type: docs
-weight: 420
+weight: 530
 url: /net/aspose.barcode.generation/encodetypes/itf14/
 ---
 ## EncodeTypes.ITF14 field

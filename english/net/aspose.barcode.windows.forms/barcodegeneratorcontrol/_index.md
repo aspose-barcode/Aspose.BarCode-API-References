@@ -3,7 +3,7 @@ title: BarCodeGeneratorControl
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCode Windows Control goto your toolbox panel and add Aspose.BarCode.dll and you will see BarcodeGeneratorControl appears. Just drag it and drop to your Windows form. see  see
 type: docs
-weight: 1180
+weight: 1320
 url: /net/aspose.barcode.windows.forms/barcodegeneratorcontrol/
 ---
 ## BarCodeGeneratorControl class

@@ -3,7 +3,7 @@ title: QREncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: QR / MicroQR selector mode. Select ForceQR for standard QR symbols Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible.
 type: docs
-weight: 1020
+weight: 1160
 url: /net/aspose.barcode.generation/qrencodetype/
 ---
 ## QREncodeType enumeration

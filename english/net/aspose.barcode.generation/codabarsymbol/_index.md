@@ -3,7 +3,7 @@ title: CodabarSymbol
 second_title: Aspose.BarCode for .NET API Reference
 description: Specifies the start or stop symbol of the Codabar barcode specification.
 type: docs
-weight: 670
+weight: 790
 url: /net/aspose.barcode.generation/codabarsymbol/
 ---
 ## CodabarSymbol enumeration

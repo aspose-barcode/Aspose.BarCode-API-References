@@ -3,7 +3,7 @@ title: BaseEncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Base class for SymbologyEncodeType.
 type: docs
-weight: 600
+weight: 720
 url: /net/aspose.barcode.generation/baseencodetype/
 ---
 ## BaseEncodeType class

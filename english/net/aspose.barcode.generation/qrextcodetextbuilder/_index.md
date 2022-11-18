@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode
 type: docs
-weight: 1050
+weight: 1190
 url: /net/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
