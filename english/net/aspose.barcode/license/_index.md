@@ -24,8 +24,8 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.barcode/license/setlicense/#setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.barcode/license/setlicense/#setlicense_1)(string) | Licenses the component. |
+| [SetLicense](../../aspose.barcode/license/setlicense/#setlicense)(Stream) | Licenses the library. |
+| [SetLicense](../../aspose.barcode/license/setlicense/#setlicense_1)(string) | Licenses the library. |
 
 ### Examples
 

@@ -1,14 +1,14 @@
 ---
 title: SetLicense
 second_title: Aspose.BarCode for .NET API Reference
-description: Licenses the component.
+description: Licenses the library.
 type: docs
 weight: 20
 url: /net/aspose.barcode/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 
-Licenses the component.
+Licenses the library.
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -51,7 +51,7 @@ Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
 
-Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode.
+Can be a full or short file name or name of an embedded resource.
 
 ### See Also
 
@@ -63,7 +63,7 @@ Can be a full or short file name or name of an embedded resource. Use an empty s
 
 ## SetLicense(Stream) {#setlicense}
 
-Licenses the component.
+Licenses the library.
 
 ```csharp
 public void SetLicense(Stream stream)
