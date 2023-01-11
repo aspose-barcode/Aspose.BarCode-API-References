@@ -12,30 +12,30 @@ The  **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes
 
 | Class | Description |
 | --- | --- |
-| [AustraliaPostSettings](./australiapostsettings/) | AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology. |
-| [BarCodeExtendedParameters](./barcodeextendedparameters/) | Stores extended parameters of recognized barcode |
-| [BarCodeReader](./barcodereader/) | BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes. |
+| [AustraliaPostSettings](./australiapostsettings/) | The AustraliaPostSettings class is AustraliaPost decoding parameters that contains parameters which make influence on recognized data of AustraliaPost symbology. |
+| [BarCodeExtendedParameters](./barcodeextendedparameters/) | The BarCodeExtendedParameters class stores extended parameters of recognized barcode such as Code128, DataBar, MaxiCode and Pdf417. |
+| [BarCodeReader](./barcodereader/) | The BarCodeReader class detects or reads one or multiple barcodes from an image. To read barcodes from an image or stream create an instance of this class and perform ReadBarCodes operation. |
 | [BarCodeRecognitionException](./barcoderecognitionexception/) | General exception thrown by BarCodeReader, inherited from BarCodeException |
-| [BarCodeRegionParameters](./barcoderegionparameters/) | Represents the recognized barcode's region and barcode angle |
-| [BarCodeResult](./barcoderesult/) | Stores recognized barcode data like [`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters/) region and other parameters |
-| [BarcodeSettings](./barcodesettings/) | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
-| [BarcodeSvmDetectorSettings](./barcodesvmdetectorsettings/) | Barcode detector settings. |
-| [BaseDecodeType](./basedecodetype/) | Base class for MultyDecodeType and SingleDecodeType. |
-| [BaseExtendedParameters](./baseextendedparameters/) | Basic class for extended parameters of recognized barcode storing |
-| [Code128DataPortion](./code128dataportion/) | Contains the data of subtype for Code128 type barcode |
-| [Code128ExtendedParameters](./code128extendedparameters/) | Stores special data of Code128 recognized barcode |
-| [DataBarExtendedParameters](./databarextendedparameters/) | Stores a DataBar additional information of recognized barcode |
-| [DecodeType](./decodetype/) | Specify the type of barcode to read. |
-| [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
-| [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
-| [MultyDecodeType](./multydecodetype/) | Composite decode type. |
-| [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |
-| [Pdf417ExtendedParameters](./pdf417extendedparameters/) | Stores a MacroPdf417 metadata information of recognized barcode |
-| [QRExtendedParameters](./qrextendedparameters/) | Stores a QR Structured Append information of recognized barcode |
-| [Quadrangle](./quadrangle/) | Stores a set of four Points that represent a [`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle/) region. |
-| [QualitySettings](./qualitysettings/) | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
-| [RecognitionAbortedException](./recognitionabortedexception/) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
-| [SingleDecodeType](./singledecodetype/) | Single decode type. See decode type to get instance. |
+| [BarCodeRegionParameters](./barcoderegionparameters/) | The BarCodeRegionParameters class represents the recognized barcode's region and barcode angle.  |
+| [BarCodeResult](./barcoderesult/) | The BarCodeResult class stores recognized barcode data like [`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters/) region and other parameters |
+| [BarcodeSettings](./barcodesettings/) | The BarcodeSettings class represents main BarCode decoding parameters that contain parameters which make an influence on recognized data such as AustraliaPost, ChecksumValidation, DetectEncoding and StripFNC. |
+| [BarcodeSvmDetectorSettings](./barcodesvmdetectorsettings/) | The BarcodeSvmDetectorSettings class provides quality, performance, threshold for detected regions, windows size, and other configurations to detect barcodes. |
+| [BaseDecodeType](./basedecodetype/) | The BaseDecodeType class is the base class for MultyDecodeType and SingleDecodeType. |
+| [BaseExtendedParameters](./baseextendedparameters/) | The BaseExtendedParameters is the basic class for extended parameters of recognized barcode storing. |
+| [Code128DataPortion](./code128dataportion/) | The Code128DataPortion class contains the data of subtype for Code128 type barcode. |
+| [Code128ExtendedParameters](./code128extendedparameters/) | The Code128ExtendedParameters class stores special data of Code128 recognized barcode. |
+| [DataBarExtendedParameters](./databarextendedparameters/) | The DataBarExtendedParameters class stores a DataBar additional information of recognized barcode. |
+| [DecodeType](./decodetype/) | The DecodeType class represents the barcode symbologies of barcode to read such as Aztec, Code128 and ISBN. |
+| [DotCodeExtendedParameters](./dotcodeextendedparameters/) | The DotCodeExtendedParameters class stores special data of DotCode recognized barcode. |
+| [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | The MaxiCodeExtendedParameters class stores a MaxiCode additional information of recognized barcode. |
+| [MultyDecodeType](./multydecodetype/) | The MultyDecodeType class represents a composite decode type that combines SingleDecodeType and MultiDecode types. |
+| [OneDExtendedParameters](./onedextendedparameters/) | The OneDExtendedParameters class stores special data of 1D recognized barcode like separate codetext and checksum. |
+| [Pdf417ExtendedParameters](./pdf417extendedparameters/) | The Pdf417ExtendedParameters class stores a MacroPdf417 metadata information of recognized barcode. |
+| [QRExtendedParameters](./qrextendedparameters/) | The QRExtendedParameters class stores a QR Structured Append information of recognized barcode. |
+| [Quadrangle](./quadrangle/) | The Quadrangle class stores a set of four Points that represent a [`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle/) region. |
+| [QualitySettings](./qualitysettings/) | The QualitySettings class allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
+| [RecognitionAbortedException](./recognitionabortedexception/) | The RecognitionAbortedException class represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
+| [SingleDecodeType](./singledecodetype/) | The SingleDecodeType class represents single decode type. See decode type to get instance. |
 ## Interfaces
 
 | Interface | Description |

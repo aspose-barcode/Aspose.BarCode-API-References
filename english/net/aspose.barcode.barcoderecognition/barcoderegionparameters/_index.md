@@ -1,14 +1,14 @@
 ---
 title: BarCodeRegionParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Represents the recognized barcodes region and barcode angle
+description: The BarCodeRegionParameters class represents the recognized barcode's region and barcode angle.
 type: docs
 weight: 80
 url: /net/aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 ## BarCodeRegionParameters class
 
-Represents the recognized barcode's region and barcode angle
+The BarCodeRegionParameters class represents the recognized barcode's region and barcode angle.
 
 ```csharp
 public sealed class BarCodeRegionParameters

@@ -1,14 +1,14 @@
 ---
 title: MultyDecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: Composite decode type.
+description: The MultyDecodeType class represents a composite decode type that combines SingleDecodeType and MultiDecode types.
 type: docs
 weight: 220
 url: /net/aspose.barcode.barcoderecognition/multydecodetype/
 ---
 ## MultyDecodeType class
 
-Composite decode type.
+The MultyDecodeType class represents a composite decode type that combines SingleDecodeType and MultiDecode types.
 
 ```csharp
 public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>

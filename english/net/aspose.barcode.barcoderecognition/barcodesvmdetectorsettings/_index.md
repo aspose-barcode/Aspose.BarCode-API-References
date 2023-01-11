@@ -1,14 +1,14 @@
 ---
 title: BarcodeSvmDetectorSettings
 second_title: Aspose.BarCode for .NET API Reference
-description: Barcode detector settings.
+description: The BarcodeSvmDetectorSettings class provides quality, performance, threshold for detected regions, windows size, and other configurations to detect barcodes.
 type: docs
 weight: 110
 url: /net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/
 ---
 ## BarcodeSvmDetectorSettings class
 
-Barcode detector settings.
+The BarcodeSvmDetectorSettings class provides quality, performance, threshold for detected regions, windows size, and other configurations to detect barcodes.
 
 ```csharp
 public sealed class BarcodeSvmDetectorSettings

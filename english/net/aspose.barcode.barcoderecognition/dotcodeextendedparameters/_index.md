@@ -1,14 +1,14 @@
 ---
 title: DotCodeExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores special data of DotCode recognized barcode
+description: The DotCodeExtendedParameters class stores special data of DotCode recognized barcode.
 type: docs
 weight: 200
 url: /net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 ## DotCodeExtendedParameters class
 
-Stores special data of DotCode recognized barcode
+The DotCodeExtendedParameters class stores special data of DotCode recognized barcode.
 
 ```csharp
 public sealed class DotCodeExtendedParameters : BaseExtendedParameters

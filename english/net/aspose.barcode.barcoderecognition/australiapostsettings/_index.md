@@ -1,14 +1,14 @@
 ---
 title: AustraliaPostSettings
 second_title: Aspose.BarCode for .NET API Reference
-description: AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology.
+description: The AustraliaPostSettings class is AustraliaPost decoding parameters that contains parameters which make influence on recognized data of AustraliaPost symbology.
 type: docs
 weight: 30
 url: /net/aspose.barcode.barcoderecognition/australiapostsettings/
 ---
 ## AustraliaPostSettings class
 
-AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology.
+The AustraliaPostSettings class is AustraliaPost decoding parameters that contains parameters which make influence on recognized data of AustraliaPost symbology.
 
 ```csharp
 public sealed class AustraliaPostSettings

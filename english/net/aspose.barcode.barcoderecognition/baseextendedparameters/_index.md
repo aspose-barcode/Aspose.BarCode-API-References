@@ -1,14 +1,14 @@
 ---
 title: BaseExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Basic class for extended parameters of recognized barcode storing
+description: The BaseExtendedParameters is the basic class for extended parameters of recognized barcode storing.
 type: docs
 weight: 130
 url: /net/aspose.barcode.barcoderecognition/baseextendedparameters/
 ---
 ## BaseExtendedParameters class
 
-Basic class for extended parameters of recognized barcode storing
+The BaseExtendedParameters is the basic class for extended parameters of recognized barcode storing.
 
 ```csharp
 public abstract class BaseExtendedParameters

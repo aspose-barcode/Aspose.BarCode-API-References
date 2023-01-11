@@ -1,14 +1,14 @@
 ---
 title: DataBarExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores a DataBar additional information of recognized barcode
+description: The DataBarExtendedParameters class stores a DataBar additional information of recognized barcode.
 type: docs
 weight: 180
 url: /net/aspose.barcode.barcoderecognition/databarextendedparameters/
 ---
 ## DataBarExtendedParameters class
 
-Stores a DataBar additional information of recognized barcode
+The DataBarExtendedParameters class stores a DataBar additional information of recognized barcode.
 
 ```csharp
 public sealed class DataBarExtendedParameters : BaseExtendedParameters

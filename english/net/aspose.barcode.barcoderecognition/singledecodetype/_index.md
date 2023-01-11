@@ -1,14 +1,14 @@
 ---
 title: SingleDecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: Single decode type. See decode type to get instance.
+description: The SingleDecodeType class represents single decode type. See decode type to get instance.
 type: docs
 weight: 290
 url: /net/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class
 
-Single decode type. See decode type to get instance.
+The SingleDecodeType class represents single decode type. See decode type to get instance.
 
 ```csharp
 public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeType>

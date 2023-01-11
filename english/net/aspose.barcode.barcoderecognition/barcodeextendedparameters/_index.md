@@ -1,14 +1,14 @@
 ---
 title: BarCodeExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores extended parameters of recognized barcode
+description: The BarCodeExtendedParameters class stores extended parameters of recognized barcode such as Code128, DataBar, MaxiCode and Pdf417.
 type: docs
 weight: 50
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/
 ---
 ## BarCodeExtendedParameters class
 
-Stores extended parameters of recognized barcode
+The BarCodeExtendedParameters class stores extended parameters of recognized barcode such as Code128, DataBar, MaxiCode and Pdf417.
 
 ```csharp
 public sealed class BarCodeExtendedParameters
