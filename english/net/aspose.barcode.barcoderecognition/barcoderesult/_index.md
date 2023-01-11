@@ -1,14 +1,14 @@
 ---
 title: BarCodeResult
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores recognized barcode data like SingleDecodeType./singledecodetype/ type String codetext BarCodeRegionParameters./barcoderegionparameters/ region and other parameters
+description: The BarCodeResult class stores recognized barcode data like SingleDecodeType./singledecodetype/ type String codetext BarCodeRegionParameters./barcoderegionparameters/ region and other parameters
 type: docs
 weight: 90
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 ## BarCodeResult class
 
-Stores recognized barcode data like [`SingleDecodeType`](../singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../barcoderegionparameters/) region and other parameters
+The BarCodeResult class stores recognized barcode data like [`SingleDecodeType`](../singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../barcoderegionparameters/) region and other parameters
 
 ```csharp
 public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>

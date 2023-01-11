@@ -1,14 +1,14 @@
 ---
 title: QRExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores a QR Structured Append information of recognized barcode
+description: The QRExtendedParameters class stores a QR Structured Append information of recognized barcode.
 type: docs
 weight: 250
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Stores a QR Structured Append information of recognized barcode
+The QRExtendedParameters class stores a QR Structured Append information of recognized barcode.
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters

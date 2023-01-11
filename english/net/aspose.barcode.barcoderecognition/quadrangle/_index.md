@@ -1,14 +1,14 @@
 ---
 title: Quadrangle
 second_title: Aspose.BarCode for .NET API Reference
-description: Stores a set of four Points that represent a Quadrangle./quadrangle/ region.
+description: The Quadrangle class stores a set of four Points that represent a Quadrangle./quadrangle/ region.
 type: docs
 weight: 260
 url: /net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
 
-Stores a set of four Points that represent a [`Quadrangle`](./quadrangle/) region.
+The Quadrangle class stores a set of four Points that represent a [`Quadrangle`](./quadrangle/) region.
 
 ```csharp
 public class Quadrangle : IEquatable<Quadrangle>

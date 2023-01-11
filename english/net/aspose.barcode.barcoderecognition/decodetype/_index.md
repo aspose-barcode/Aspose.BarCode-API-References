@@ -1,14 +1,14 @@
 ---
 title: DecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: Specify the type of barcode to read.
+description: The DecodeType class represents the barcode symbologies of barcode to read such as Aztec, Code128 and ISBN
 type: docs
 weight: 190
 url: /net/aspose.barcode.barcoderecognition/decodetype/
 ---
 ## DecodeType class
 
-Specify the type of barcode to read.
+The DecodeType class represents the barcode symbologies of barcode to read such as Aztec, Code128 and ISBN
 
 ```csharp
 public static class DecodeType

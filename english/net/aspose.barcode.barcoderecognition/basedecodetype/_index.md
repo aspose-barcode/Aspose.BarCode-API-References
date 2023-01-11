@@ -1,14 +1,14 @@
 ---
 title: BaseDecodeType
 second_title: Aspose.BarCode for .NET API Reference
-description: Base class for MultyDecodeType and SingleDecodeType.
+description: The BaseDecodeType class is the base class for MultyDecodeType and SingleDecodeType.
 type: docs
 weight: 120
 url: /net/aspose.barcode.barcoderecognition/basedecodetype/
 ---
 ## BaseDecodeType class
 
-Base class for MultyDecodeType and SingleDecodeType.
+The BaseDecodeType class is the base class for MultyDecodeType and SingleDecodeType.
 
 ```csharp
 public abstract class BaseDecodeType : IEquatable<BaseDecodeType>

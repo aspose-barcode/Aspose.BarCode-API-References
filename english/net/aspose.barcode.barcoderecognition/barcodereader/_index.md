@@ -1,14 +1,14 @@
 ---
 title: BarCodeReader
 second_title: Aspose.BarCode for .NET API Reference
-description: BarCodeReader encapsulates an image which may contain one or several barcodes it then can perform ReadBarCodes operation to detect barcodes.
+description: The BarCodeReader class detects or reads one or multiple barcodes from an image. To read barcodes from an image or stream create an instance of this class and perform ReadBarCodes operation. 
 type: docs
 weight: 60
 url: /net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 ## BarCodeReader class
 
-BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes.
+The BarCodeReader class detects or reads one or multiple barcodes from an image. To read barcodes from an image or stream create an instance of this class and perform ReadBarCodes operation. 
 
 ```csharp
 public class BarCodeReader : Component

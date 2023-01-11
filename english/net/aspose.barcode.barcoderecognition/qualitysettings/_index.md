@@ -1,14 +1,14 @@
 ---
 title: QualitySettings
 second_title: Aspose.BarCode for .NET API Reference
-description: QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets HighPerformance NormalQuality HighQuality MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality.
+description: The QualitySettings class allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets HighPerformance NormalQuality HighQuality MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality.
 type: docs
 weight: 270
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/
 ---
 ## QualitySettings class
 
-QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality.
+The QualitySettings class allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality.
 
 ```csharp
 public sealed class QualitySettings

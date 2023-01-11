@@ -1,14 +1,14 @@
 ---
 title: BarcodeSettings
 second_title: Aspose.BarCode for .NET API Reference
-description: The main BarCode decoding parameters. Contains parameters which make influence on recognized data.
+description: The BarcodeSettings class represents main BarCode decoding parameters that contain parameters which make an influence on recognized data such as AustraliaPost, ChecksumValidation, DetectEncoding and StripFNC.
 type: docs
 weight: 100
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/
 ---
 ## BarcodeSettings class
 
-The main BarCode decoding parameters. Contains parameters which make influence on recognized data.
+The BarcodeSettings class represents main BarCode decoding parameters that contain parameters which make an influence on recognized data such as AustraliaPost, ChecksumValidation, DetectEncoding and StripFNC.
 
 ```csharp
 public sealed class BarcodeSettings

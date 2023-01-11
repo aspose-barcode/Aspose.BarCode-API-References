@@ -1,14 +1,14 @@
 ---
 title: Code128DataPortion
 second_title: Aspose.BarCode for .NET API Reference
-description: Contains the data of subtype for Code128 type barcode
+description: The Code128DataPortion class contains the data of subtype for Code128 type barcode.
 type: docs
 weight: 150
 url: /net/aspose.barcode.barcoderecognition/code128dataportion/
 ---
 ## Code128DataPortion class
 
-Contains the data of subtype for Code128 type barcode
+The Code128DataPortion class contains the data of subtype for Code128 type barcode.
 
 ```csharp
 public class Code128DataPortion
