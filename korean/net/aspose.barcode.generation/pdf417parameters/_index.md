@@ -1,0 +1,54 @@
+---
+title: Pdf417Parameters
+second_title: .NET API 참조용 Aspose.BarCode
+description: PDF417 매개변수. PDF417 MacroPDF417 및 MicroPDF417 매개변수를 포함합니다. MacroPDF417에는 Pdf417MacroFileID 및 Pdf417MacroSegmentID의 두 필드가 필요합니다. 다른 모든 필드는 선택 사항입니다. Structured Append 모드MacroPDF417 모드와 동일의 MicroPDF417에는 Pdf417MacroFileID 및 Pdf417MacroSegmentID의 두 필드가 필요합니다. 다른 모든 필드는 선택 사항입니다.
+type: docs
+weight: 1130
+url: /ko/net/aspose.barcode.generation/pdf417parameters/
+---
+## Pdf417Parameters class
+
+PDF417 매개변수. PDF417, MacroPDF417 및 MicroPDF417 매개변수를 포함합니다. MacroPDF417에는 Pdf417MacroFileID 및 Pdf417MacroSegmentID의 두 필드가 필요합니다. 다른 모든 필드는 선택 사항입니다. Structured Append 모드(MacroPDF417 모드와 동일)의 MicroPDF417에는 Pdf417MacroFileID 및 Pdf417MacroSegmentID의 두 필드가 필요합니다. 다른 모든 필드는 선택 사항입니다.
+
+```csharp
+public class Pdf417Parameters
+```
+
+## 속성
+
+| 이름 | 설명 |
+| --- | --- |
+| [AspectRatio](../../aspose.barcode.generation/pdf417parameters/aspectratio/) { get; set; } | 2D 바코드 모듈의 높이/너비 비율. |
+| [Code128Emulation](../../aspose.barcode.generation/pdf417parameters/code128emulation/) { get; set; } | Code 128 에뮬레이션용 함수 코드워드입니다. MicroPDF417에만 적용됩니다. PDF417 및 MacroPDF417 바코드는 무시됩니다. |
+| [CodeTextEncoding](../../aspose.barcode.generation/pdf417parameters/codetextencoding/) { get; set; } | 코드 텍스트의 인코딩을 가져오거나 설정합니다. 기본값: UTF-8 |
+| [Columns](../../aspose.barcode.generation/pdf417parameters/columns/) { get; set; } | 열 수. |
+| [IsReaderInitialization](../../aspose.barcode.generation/pdf417parameters/isreaderinitialization/) { get; set; } | 판독기 초기화를 위한 프로그래밍으로 symbol 내에 포함된 데이터를 해석하도록 판독기에 지시하는 데 사용됩니다. |
+| [Pdf417CompactionMode](../../aspose.barcode.generation/pdf417parameters/pdf417compactionmode/) { get; set; } | 바코드 압축 모드의 Pdf417 기호 유형. 기본값: Pdf417CompactionMode.Auto. |
+| [Pdf417ECIEncoding](../../aspose.barcode.generation/pdf417parameters/pdf417eciencoding/) { get; set; } | 확장 채널 해석 식별자. 바코드 판독기 details 에 기호의 데이터 인코딩에 사용된 참조에 대해 알리는 데 사용됩니다. 매크로 PDF417 텍스트 필드에는 적용되지 않습니다. 현재 구현은 잘 알려진 모든 문자 집합 인코딩으로 구성됩니다. |
+| [Pdf417ErrorLevel](../../aspose.barcode.generation/pdf417parameters/pdf417errorlevel/) { get; set; } | 바코드 오류 수정의 Pdf417 기호 유형을 가져오거나 설정합니다. |
+| [Pdf417MacroAddressee](../../aspose.barcode.generation/pdf417parameters/pdf417macroaddressee/) { get; set; } | MacroPdf417 바코드 수신자 이름(옵션 필드). MicroPDF417 바코드 수신자 이름(Structured Append 모드에 대한 선택적 필드) |
+| [Pdf417MacroChecksum](../../aspose.barcode.generation/pdf417parameters/pdf417macrochecksum/) { get; set; } | MacroPdf417 바코드 체크섬(옵션 필드). MicroPDF417 바코드 체크섬(Structured Append 모드의 옵션 필드) 체크섬 필드에는 CCITT-16 다항식을 사용하는 16비트(2바이트) CRC 체크섬 값이 포함됩니다. x^16 + x^12 + x^5 + 1 |
+| [Pdf417MacroECIEncoding](../../aspose.barcode.generation/pdf417parameters/pdf417macroeciencoding/) { get; set; } | 확장 채널 해석 식별자. 매크로 PDF417 텍스트 필드에 적용됩니다. |
+| [Pdf417MacroFileID](../../aspose.barcode.generation/pdf417parameters/pdf417macrofileid/) { get; set; } | MacroPdf417 바코드의 파일 ID(필수 필드). MicroPDF417 바코드의 파일 ID(Structured Append 모드의 필수 필드) |
+| [Pdf417MacroFileName](../../aspose.barcode.generation/pdf417parameters/pdf417macrofilename/) { get; set; } | MacroPdf417 바코드 파일 이름(옵션 필드). MicroPDF417 바코드 파일 이름(Structured Append 모드의 경우 옵션 필드) |
+| [Pdf417MacroFileSize](../../aspose.barcode.generation/pdf417parameters/pdf417macrofilesize/) { get; set; } | MacroPdf417 파일 크기(옵션 필드). MicroPDF417 파일 크기(Structured Append 모드의 경우 옵션 필드) 파일 크기 필드에는 전체 소스 파일의 크기(바이트)가 포함됩니다. |
+| [Pdf417MacroSegmentID](../../aspose.barcode.generation/pdf417parameters/pdf417macrosegmentid/) { get; set; } | MacroPdf417 바코드의 세그먼트 ID(필수 필드), 0에서 시작하여 MacroSegmentsCount - 1. MicroPDF417 바코드의 세그먼트 ID(Structured Append 모드의 필수 필드) |
+| [Pdf417MacroSegmentsCount](../../aspose.barcode.generation/pdf417parameters/pdf417macrosegmentscount/) { get; set; } | MacroPdf417 바코드 세그먼트 수(선택 필드). MicroPDF417 바코드 세그먼트 수(구조적 추가 모드의 선택적 필드) |
+| [Pdf417MacroSender](../../aspose.barcode.generation/pdf417parameters/pdf417macrosender/) { get; set; } | MacroPdf417 바코드 발신자 이름(옵션 필드). MicroPDF417 바코드 발신자 이름(Structured Append 모드에 대한 선택적 필드) |
+| [Pdf417MacroTerminator](../../aspose.barcode.generation/pdf417parameters/pdf417macroterminator/) { get; set; } | 매크로 PDF417 터미네이터(코드워드 922)를 세그먼트에 추가할지 여부를 인코더에 알리는 데 사용됩니다. 매크로 PDF417에만 적용됨. |
+| [Pdf417MacroTimeStamp](../../aspose.barcode.generation/pdf417parameters/pdf417macrotimestamp/) { get; set; } | MacroPdf417 바코드 타임 스탬프(옵션 필드). MicroPDF417 바코드 타임 스탬프(구조적 추가 모드의 옵션 필드) |
+| [Pdf417Truncate](../../aspose.barcode.generation/pdf417parameters/pdf417truncate/) { get; set; } | BarCode의 Pdf417 기호 유형이 잘렸는지 여부(공간을 줄이기 위해). CompactPDF417이라고도 합니다. 이 모드에서는 오른쪽 행 표시기와 오른쪽 정지 패턴이 제거됩니다. |
+| [Rows](../../aspose.barcode.generation/pdf417parameters/rows/) { get; set; } | 행 수. |
+
+## 행동 양식
+
+| 이름 | 설명 |
+| --- | --- |
+| override [ToString](../../aspose.barcode.generation/pdf417parameters/tostring/)() | 사람이 읽을 수 있는 문자열 표현을 반환합니다.`Pdf417Parameters` . |
+
+### 또한보십시오
+
+* 네임스페이스 [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* 집회 [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
