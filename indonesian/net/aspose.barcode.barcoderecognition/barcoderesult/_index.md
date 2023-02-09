@@ -1,0 +1,90 @@
+---
+title: BarCodeResult
+second_title: Aspose.BarCode untuk .NET API Referensi
+description: Menyimpan data kode batang yang dikenali sepertiSingleDecodeType./singledecodetype/ jenisString teks kode BarCodeRegionParameters./barcoderegionparameters/ wilayah dan parameter lainnya
+type: docs
+weight: 90
+url: /id/net/aspose.barcode.barcoderecognition/barcoderesult/
+---
+## BarCodeResult class
+
+Menyimpan data kode batang yang dikenali seperti[`SingleDecodeType`](../singledecodetype/) jenis,String teks kode, [`BarCodeRegionParameters`](../barcoderegionparameters/) wilayah dan parameter lainnya
+
+```csharp
+public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
+```
+
+## Konstruktor
+
+| Nama | Keterangan |
+| --- | --- |
+| [BarCodeResult](barcoderesult/)(BarCodeResult) | Membuat salinan dari`BarCodeResult` kelas. |
+
+## Properti
+
+| Nama | Keterangan |
+| --- | --- |
+| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes/) { get; } | Mendapat byte kode yang disandikan |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext/) { get; } | Mendapat teks kode |
+| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype/) { get; } | Mendapatkan jenis kode batang |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename/) { get; } | Mendapat nama jenis kode batang |
+| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence/) { get; } | Mendapat tingkat kepercayaan pengenalan dari kode batang yang dikenali |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended/) { get; } | Mendapat parameter tambahan dari kode batang yang dikenali |
+| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality/) { get; } | Mendapatkan kualitas membaca. Berfungsi untuk kode batang 1D dan pos. |
+| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region/) { get; } | Mendapatkan wilayah kode batang |
+
+## Metode
+
+| Nama | Keterangan |
+| --- | --- |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone/)() | Membuat salinan dari`BarCodeResult` kelas. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals)(BarCodeResult) | Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan yang ditentukan`BarCodeResult` nilai. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals_1)(object) | Mengembalikan nilai yang menunjukkan apakah instance ini sama dengan yang ditentukan`BarCodeResult` nilai. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext/)(Encoding) | Mendapat teks kode dengan penyandian. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode/)() | Mengembalikan kode hash untuk instance ini. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring/)() | Mengembalikan representasi string yang dapat dibaca manusia dari ini`BarCodeResult` . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality/) | Mengembalikan nilai yang menunjukkan apakah yang pertama`BarCodeResult` nilainya sama dengan detik. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality/) | Mengembalikan nilai yang menunjukkan jika yang pertama`BarCodeResult` nilainya berbeda dengan yang kedua. |
+
+### Contoh
+
+Contoh ini menunjukkan cara mendapatkan BarCodeResult.
+
+```csharp
+[C#]
+using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "12345"))
+{
+    generator.Save(@"c:\test.png");
+}
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+        Console.WriteLine("BarCode Confidence: " + result.Confidence);
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality);
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle);
+    }
+}
+[VB.NET]
+Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
+    generator.Save("c:\test.png")
+End Using
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    For Each result As BarCodeResult In reader.ReadBarCodes()
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
+        Console.WriteLine("BarCode CodeText: " + result.CodeText)
+        Console.WriteLine("BarCode Confidence: " + result.Confidence)
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality)
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle)
+    Next
+End Using
+```
+
+### Lihat juga
+
+* ruang nama [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* perakitan [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->

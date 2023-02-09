@@ -1,0 +1,90 @@
+---
+title: BarCodeResult
+second_title: Aspose.BarCode voor .NET API-referentie
+description: Slaat herkende streepjescodegegevens op zoalsSingleDecodeType./singledecodetype/ typeString codetekst BarCodeRegionParameters./barcoderegionparameters/ regio en andere parameters
+type: docs
+weight: 90
+url: /nl/net/aspose.barcode.barcoderecognition/barcoderesult/
+---
+## BarCodeResult class
+
+Slaat herkende streepjescodegegevens op zoals[`SingleDecodeType`](../singledecodetype/) type,String codetekst, [`BarCodeRegionParameters`](../barcoderegionparameters/) regio en andere parameters
+
+```csharp
+public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
+```
+
+## Constructeurs
+
+| Naam | Beschrijving |
+| --- | --- |
+| [BarCodeResult](barcoderesult/)(BarCodeResult) | Maakt een kopie van het`BarCodeResult` klasse. |
+
+## Eigenschappen
+
+| Naam | Beschrijving |
+| --- | --- |
+| [CodeBytes](../../aspose.barcode.barcoderecognition/barcoderesult/codebytes/) { get; } | Haalt de gecodeerde codebytes op |
+| [CodeText](../../aspose.barcode.barcoderecognition/barcoderesult/codetext/) { get; } | Krijgt de codetekst |
+| [CodeType](../../aspose.barcode.barcoderecognition/barcoderesult/codetype/) { get; } | Krijgt het streepjescodetype |
+| [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename/) { get; } | Krijgt de naam van het streepjescodetype |
+| [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence/) { get; } | Krijgt herkenningsbetrouwbaarheidsniveau van de herkende streepjescode |
+| [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended/) { get; } | Krijgt uitgebreide parameters van herkende streepjescode |
+| [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality/) { get; } | Krijgt de leeskwaliteit. Werkt voor 1D- en postbarcodes. |
+| [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region/) { get; } | Haalt het streepjescodegebied op |
+
+## methoden
+
+| Naam | Beschrijving |
+| --- | --- |
+| [Clone](../../aspose.barcode.barcoderecognition/barcoderesult/clone/)() | Maakt een kopie van`BarCodeResult` klasse. |
+| [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals)(BarCodeResult) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`BarCodeResult` waarde. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderesult/equals/#equals_1)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`BarCodeResult` waarde. |
+| [GetCodeText](../../aspose.barcode.barcoderecognition/barcoderesult/getcodetext/)(Encoding) | Krijgt de codetekst met codering. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderesult/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderesult/tostring/)() | Retourneert hiervan een door mensen leesbare tekenreeksrepresentatie`BarCodeResult` . |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderesult/op_equality/) | Retourneert een waarde die aangeeft of de eerste`BarCodeResult` waarde is gelijk aan de seconde. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderesult/op_inequality/) | Retourneert een waarde die aangeeft of de eerste`BarCodeResult` waarde is anders dan de tweede. |
+
+### Voorbeelden
+
+Dit voorbeeld laat zien hoe u BarCodeResult verkrijgt.
+
+```csharp
+[C#]
+using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "12345"))
+{
+    generator.Save(@"c:\test.png");
+}
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+        Console.WriteLine("BarCode Confidence: " + result.Confidence);
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality);
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle);
+    }
+}
+[VB.NET]
+Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
+    generator.Save("c:\test.png")
+End Using
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    For Each result As BarCodeResult In reader.ReadBarCodes()
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
+        Console.WriteLine("BarCode CodeText: " + result.CodeText)
+        Console.WriteLine("BarCode Confidence: " + result.Confidence)
+        Console.WriteLine("BarCode ReadingQuality: " + result.ReadingQuality)
+        Console.WriteLine("BarCode Angle: " + result.Region.Angle)
+    Next
+End Using
+```
+
+### Zie ook
+
+* naamruimte [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* montage [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
