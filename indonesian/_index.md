@@ -15,11 +15,11 @@ url: /id/
 
 **Selamat datang di Aspose.BarCode untuk .NET**
 
-*** Aspose.BarCode untuk .NET*** adalah perpustakaan yang kuat dengan serangkaian pembuatan kode batang dan komponen pengenalan yang ditujukan untuk menerapkan fungsionalitas kode batang dalam aplikasi .NET. Ini menyediakan sekelompok kelas untuk bekerja dengan kode batang di backend, serta kontrol berbasis GUI untuk memproses kode batang di Windows Forms dan WPF. *** Aspose.BarCode untuk .NET*** memungkinkan kompatibilitas dengan sebagian besar standar dan spesifikasi kode batang yang ada. Ini tidak hanya memungkinkan pembuatan barcode tetapi juga menyediakan kerangka kerja yang luas untuk mengontrol aspek kunci dari pemrosesan barcode.
+***Aspose.BarCode untuk .NET*** adalah perpustakaan yang kuat dengan serangkaian pembuatan kode batang dan komponen pengenalan yang ditujukan untuk menerapkan fungsionalitas kode batang dalam aplikasi .NET. Ini menyediakan sekelompok kelas untuk bekerja dengan kode batang di backend, serta kontrol berbasis GUI untuk memproses kode batang di Windows Forms dan WPF. ***Aspose.BarCode untuk .NET*** memungkinkan kompatibilitas dengan sebagian besar standar dan spesifikasi kode batang yang ada. Ini tidak hanya memungkinkan pembuatan barcode tetapi juga menyediakan kerangka kerja yang luas untuk mengontrol aspek kunci dari pemrosesan barcode.
 
-Mengapa memilih *** Aspose.BarCode untuk .NET*** untuk mengelola kode batang? Pertama, ini memungkinkan pengaturan variabel mesin pengenalan barcode untuk mendapatkan trade-off yang diinginkan antara kualitas dan kecepatan membaca. Ini berarti Anda dapat mengaktifkan pengenalan bahkan kode batang yang rusak parah.
+Mengapa memilih ***Aspose.BarCode untuk .NET*** untuk mengelola kode batang? Pertama, ini memungkinkan pengaturan variabel mesin pengenalan barcode untuk mendapatkan trade-off yang diinginkan antara kualitas dan kecepatan membaca. Ini berarti Anda dapat mengaktifkan pengenalan bahkan kode batang yang rusak parah.
 Kemudian, dimungkinkan untuk menyesuaikan berbagai parameter kode batang dan tampilannya, seperti warna latar belakang, warna batang, sudut rotasi, dimensi-X, kualitas gambar, resolusi, keterangan, ukuran, dan lainnya.
-Selain itu, *** Aspose.BarCode untuk .NET*** mendukung berbagai simbol dan memungkinkan beberapa fungsi pembacaan dan pembuatan kode batang sehingga Anda dapat menerapkan fungsi kode batang sesuai kebutuhan untuk proses dan kebutuhan bisnis Anda.
+Selain itu, ***Aspose.BarCode untuk .NET*** mendukung berbagai simbol dan memungkinkan beberapa fungsi pembacaan dan pembuatan kode batang sehingga Anda dapat menerapkan fungsi kode batang sesuai kebutuhan untuk proses dan kebutuhan bisnis Anda.
 
 {{% /alert %}} 
 

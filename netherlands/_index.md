@@ -15,11 +15,11 @@ url: /nl/
 
 **Welkom bij Aspose.BarCode voor .NET**
 
-*** Aspose.BarCode voor .NET*** is een krachtige bibliotheek met een set componenten voor het genereren en herkennen van streepjescodes, bedoeld om streepjescodefunctionaliteit in .NET-toepassingen in te zetten. Het biedt een groep klassen om met streepjescodes op de backend te werken, evenals GUI-gebaseerde besturingselementen om streepjescodes in Windows Forms en WPF te verwerken. *** Aspose.BarCode for .NET*** maakt compatibiliteit mogelijk met de meeste bestaande barcodestandaarden en -specificaties. Het maakt niet alleen het genereren van streepjescodes mogelijk, maar biedt ook een uitgebreid raamwerk om de belangrijkste aspecten van streepjescodeverwerking te beheersen.
+***Aspose.BarCode voor .NET*** is een krachtige bibliotheek met een set componenten voor het genereren en herkennen van streepjescodes, bedoeld om streepjescodefunctionaliteit in .NET-toepassingen in te zetten. Het biedt een groep klassen om met streepjescodes op de backend te werken, evenals GUI-gebaseerde besturingselementen om streepjescodes in Windows Forms en WPF te verwerken. ***Aspose.BarCode for .NET*** maakt compatibiliteit mogelijk met de meeste bestaande barcodestandaarden en -specificaties. Het maakt niet alleen het genereren van streepjescodes mogelijk, maar biedt ook een uitgebreid raamwerk om de belangrijkste aspecten van streepjescodeverwerking te beheersen.
 
-Waarom kiezen voor *** Aspose.BarCode for .NET*** om barcodes te beheren? Ten eerste maakt het het mogelijk om de variabelen van de engine voor streepjescodeherkenning in te stellen om de gewenste afweging te maken tussen leeskwaliteit en snelheid. Dit betekent dat u zelfs ernstig beschadigde streepjescodes kunt herkennen.
+Waarom kiezen voor ***Aspose.BarCode for .NET*** om barcodes te beheren? Ten eerste maakt het het mogelijk om de variabelen van de engine voor streepjescodeherkenning in te stellen om de gewenste afweging te maken tussen leeskwaliteit en snelheid. Dit betekent dat u zelfs ernstig beschadigde streepjescodes kunt herkennen.
 Vervolgens is het mogelijk om verschillende parameters van de streepjescode en het uiterlijk ervan aan te passen, zoals achtergrondkleur, balkkleur, rotatiehoek, X-dimensie, beeldkwaliteit, resolutie, bijschriften, grootte en andere.
-Bovendien ondersteunt *** Aspose.BarCode for .NET*** verschillende symbologieën en maakt het meerdere functies voor het lezen en genereren van streepjescodes mogelijk, zodat u de streepjescodefunctionaliteit kunt implementeren zoals vereist voor uw bedrijfsprocessen en behoeften.
+Bovendien ondersteunt ***Aspose.BarCode for .NET*** verschillende symbologieën en maakt het meerdere functies voor het lezen en genereren van streepjescodes mogelijk, zodat u de streepjescodefunctionaliteit kunt implementeren zoals vereist voor uw bedrijfsprocessen en behoeften.
 
 {{% /alert %}} 
 
