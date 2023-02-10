@@ -1,0 +1,125 @@
+---
+title: MaxiCodeCodetextMode3
+second_title: Aspose.BarCode .NET API संदर्भ के लिए
+description: मड 3. के लए मैक्सकड कड में एम्बेड कए गए पठ क एन्कडंग और डकड करने के लए क्लस
+type: docs
+weight: 520
+url: /hi/net/aspose.barcode.complexbarcode/maxicodecodetextmode3/
+---
+## MaxiCodeCodetextMode3 class
+
+मोड 3. के लिए मैक्सीकोड कोड में एम्बेड किए गए पाठ को एन्कोडिंग और डिकोड करने के लिए क्लास
+
+```csharp
+public class MaxiCodeCodetextMode3 : MaxiCodeStructuredCodetext
+```
+
+## कंस्ट्रक्टर्स
+
+| नाम | विवरण |
+| --- | --- |
+| [MaxiCodeCodetextMode3](maxicodecodetextmode3/)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [CountryCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/countrycode/) { get; set; } | 3 अंकों वाले देश कोड की पहचान करता है. |
+| [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | ईसीआई एन्कोडिंग प्राप्त या सेट करता है। MaxiCodeEncodeMode Auto. होने पर उपयोग किया जाता है_ डिफ़ॉल्ट मान: ISO-8859-1 |
+| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | मैक्सीकोड एन्कोड मोड प्राप्त या सेट करता है। डिफ़ॉल्ट मान: Auto. |
+| [PostalCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/postalcode/) { get; set; } | डाक कोड की पहचान करता है। मोड 2 में 9 अंक या मोड 3. में 6 अक्षरांकीय प्रतीक होने चाहिए |
+| [SecondMessage](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/secondmessage/) { get; set; } | बारकोड के दूसरे संदेश की पहचान करता है. |
+| [ServiceCategory](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/servicecategory/) { get; set; } | 3 अंकों की सेवा श्रेणी की पहचान करता है। |
+
+## तरीकों
+
+| नाम | विवरण |
+| --- | --- |
+| override [Equals](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`MaxiCodeStructuredCodetext`](../maxicodestructuredcodetext/) मान. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/)() | बारकोड प्रकार प्राप्त करता है। |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/getconstructedcodetext/)() | कोडटेक्स्ट बनाता है |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/gethashcode/)() | इस उदाहरण के लिए हैश कोड लौटाता है। |
+| override [GetMode](../../aspose.barcode.complexbarcode/maxicodecodetextmode3/getmode/)() | मैक्सीकोड मोड प्राप्त करता है। |
+| override [InitFromString](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/initfromstring/)(string) | निर्मित कोडटेक्स्ट से उदाहरण आरंभ करता है। |
+
+### उदाहरण
+
+यह नमूना दिखाता है कि मोड 3. के लिए मैक्सीकोड कोडटेक्स्ट को कैसे एनकोड और डीकोड करना है
+
+```csharp
+[C#]
+// मोड 3 standart दूसरे संदेश के साथ
+MaxiCodeCodetextMode3 maxiCodeCodetext = new MaxiCodeCodetextMode3();
+maxiCodeCodetext.PostalCode = "B1050";
+maxiCodeCodetext.CountryCode = 056;
+maxiCodeCodetext.ServiceCategory = 999;
+MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
+maxiCodeStandartSecondMessage.Message = "Test message";
+maxiCodeCodetext.SecondMessage = maxiCodeStandartSecondMessage;
+using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
+{
+    complexGenerator.GenerateBarCodeImage();
+}
+// मोड 3 संरचित दूसरे संदेश के साथ
+MaxiCodeCodetextMode3 maxiCodeCodetext = new MaxiCodeCodetextMode3();
+maxiCodeCodetext.PostalCode = "B1050";
+maxiCodeCodetext.CountryCode = 056;
+maxiCodeCodetext.ServiceCategory = 999;
+MaxiCodeStructuredSecondMessage maxiCodeStructuredSecondMessage = new MaxiCodeStructuredSecondMessage();
+maxiCodeStructuredSecondMessage.Add("634 ALPHA DRIVE");
+maxiCodeStructuredSecondMessage.Add("PITTSBURGH");
+maxiCodeStructuredSecondMessage.Add("PA");
+maxiCodeStructuredSecondMessage.Year = 99;
+maxiCodeCodetext.SecondMessage = maxiCodeStructuredSecondMessage;
+using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
+{
+    complexGenerator.GenerateBarCodeImage();
+}
+// मानक दूसरे संदेश के साथ कच्चे कोड टेक्स्ट को डिकोड करना
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiCode))
+{
+     foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.TryDecodeMaxiCode(result.Extended.MaxiCode.MaxiCodeMode, result.CodeText);
+        if (resultMaxiCodeCodetext is MaxiCodeCodetextMode3){
+            MaxiCodeCodetextMode3 maxiCodeStructuredCodetext = (MaxiCodeCodetextMode3)resultMaxiCodeCodetext;
+            Console.WriteLine("BarCode Type: " + maxiCodeStructuredCodetext.PostalCode);
+            Console.WriteLine("MaxiCode mode: " + maxiCodeStructuredCodetext.CountryCode);
+            Console.WriteLine("BarCode CodeText: " + maxiCodeStructuredCodetext.ServiceCategory);
+            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStandartSecondMessage){
+                MaxiCodeStandartSecondMessage secondMessage = (MaxiCodeStandartSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
+                Console.WriteLine("Message: " + secondMessage.Message);
+            }
+        }
+    }
+}
+// संरचित दूसरे संदेश के साथ कच्चे कोडटेक्स्ट को डिकोड करना
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiCode))
+{
+     foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.TryDecodeMaxiCode(result.Extended.MaxiCode.MaxiCodeMode, result.CodeText);
+        if (resultMaxiCodeCodetext is MaxiCodeCodetextMode3){
+            MaxiCodeCodetextMode3 maxiCodeStructuredCodetext = (MaxiCodeCodetextMode3)resultMaxiCodeCodetext;
+            Console.WriteLine("BarCode Type: " + maxiCodeStructuredCodetext.PostalCode);
+            Console.WriteLine("MaxiCode mode: " + maxiCodeStructuredCodetext.CountryCode);
+            Console.WriteLine("BarCode CodeText: " + maxiCodeStructuredCodetext.ServiceCategory);
+            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStructuredSecondMessage){
+                MaxiCodeStructuredSecondMessage secondMessage = (MaxiCodeStructuredSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
+                Console.WriteLine("Message:");
+                foreach (var identifier in secondMessage.Identifiers){
+                    Console.WriteLine(identifier);
+                }
+            }
+        }
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [MaxiCodeStructuredCodetext](../maxicodestructuredcodetext/)
+* नाम स्थान [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* सभा [Aspose.BarCode](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
