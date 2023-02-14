@@ -11,17 +11,17 @@ url: /java/com.aspose.barcode.barcodecontrol/
 
 | Class | Description |
 | --- | --- |
-| [AztecParametersUI](../com.aspose.barcode.barcodecontrol/aztecparametersui) |  |
-| [BarCodeGeneratorControl](../com.aspose.barcode.barcodecontrol/barcodegeneratorcontrol) |  |
-| [CaptionUI](../com.aspose.barcode.barcodecontrol/captionui) |  |
-| [CodetextParametersUI](../com.aspose.barcode.barcodecontrol/codetextparametersui) |  |
-| [DataMatrixParametersUI](../com.aspose.barcode.barcodecontrol/datamatrixparametersui) |  |
-| [Pdf417ParametersUI](../com.aspose.barcode.barcodecontrol/pdf417parametersui) |  |
-| [QrParametersUI](../com.aspose.barcode.barcodecontrol/qrparametersui) |  |
-| [SpecificParametersUI](../com.aspose.barcode.barcodecontrol/specificparametersui) |  |
+| [AztecParametersUI](../com.aspose.barcode.barcodecontrol/aztecparametersui) | UI wrapper for AztecParameters class |
+| [BarCodeGeneratorControl](../com.aspose.barcode.barcodecontrol/barcodegeneratorcontrol) | Class is designed for use in Swing applications. |
+| [CaptionUI](../com.aspose.barcode.barcodecontrol/captionui) | UI wrapper for com.aspose.barcode.generation.CaptionParameters class. |
+| [CodetextParametersUI](../com.aspose.barcode.barcodecontrol/codetextparametersui) | UI wrapper for com.aspose.barcode.generation.CodetextParameters class. |
+| [DataMatrixParametersUI](../com.aspose.barcode.barcodecontrol/datamatrixparametersui) | UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class. |
+| [Pdf417ParametersUI](../com.aspose.barcode.barcodecontrol/pdf417parametersui) | UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class. |
+| [QrParametersUI](../com.aspose.barcode.barcodecontrol/qrparametersui) | UI wrapper for com.aspose.barcode.generation.QrParameters class. |
+| [SpecificParametersUI](../com.aspose.barcode.barcodecontrol/specificparametersui) | Class contains specific parameters for UI |
 
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IBarCodeGeneratorControl](../com.aspose.barcode.barcodecontrol/ibarcodegeneratorcontrol) |  |
+| [IBarCodeGeneratorControl](../com.aspose.barcode.barcodecontrol/ibarcodegeneratorcontrol) | Interface declares obligatory methods for classes intended for use in UI with generating barcode |

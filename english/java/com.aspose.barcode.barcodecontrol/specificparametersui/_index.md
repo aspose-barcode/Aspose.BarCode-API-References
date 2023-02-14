@@ -1,7 +1,7 @@
 ---
 title: SpecificParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: Class contains specific parameters for UI
 type: docs
 weight: 17
 url: /java/com.aspose.barcode.barcodecontrol/specificparametersui/
@@ -11,31 +11,33 @@ java.lang.Object
 ```
 public class SpecificParametersUI
 ```
+
+Class contains specific parameters for UI
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAustralianPost()](#getAustralianPost--) | Gets AustralianPost parameters . |
-| [getAztec()](#getAztec--) | Gets Aztec parameters . |
+| [getAustralianPost()](#getAustralianPost--) | Gets AustralianPost parameters com.aspose.barcode.generation.AustralianPostParameters . |
+| [getAztec()](#getAztec--) | Gets Aztec parameters com.aspose.barcode.generation.AztecParameters . |
 | [getClass()](#getClass--) |  |
-| [getCodabar()](#getCodabar--) | Gets Codabar parameters . |
-| [getCodablock()](#getCodablock--) | Gets Codablock parameters . |
-| [getCode16K()](#getCode16K--) | Gets Code16K parameters . |
-| [getCoupon()](#getCoupon--) | Gets Coupon parameters . |
-| [getDataBar()](#getDataBar--) | Gets DataBar parameters . |
-| [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters  Used for DataMatrix. |
+| [getCodabar()](#getCodabar--) | Gets Codabar parameters com.aspose.barcode.generation.CodabarParameters . |
+| [getCodablock()](#getCodablock--) | Gets Codablock parameters com.aspose.barcode.generation.CodablockParameters . |
+| [getCode16K()](#getCode16K--) | Gets Code16K parameters com.aspose.barcode.generation.Code16KParameters . |
+| [getCoupon()](#getCoupon--) | Gets Coupon parameters com.aspose.barcode.generation.CouponParameters . |
+| [getDataBar()](#getDataBar--) | Gets DataBar parameters com.aspose.barcode.generation.DataBarParameters . |
+| [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters com.aspose.barcode.generation.DataMatrixParameters Used for DataMatrix. |
 | [getDotCode()](#getDotCode--) | Gets DotCode parameters |
-| [getITF()](#getITF--) | Gets ITF parameters . |
-| [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters . |
-| [getPdf417()](#getPdf417--) | Gets Pdf417 parameters . |
-| [getPostal()](#getPostal--) | Gets Postal parameters . |
-| [getQR()](#getQR--) | Gets QR parameters . |
-| [getSupplement()](#getSupplement--) | Gets Supplement parameters . |
+| [getITF()](#getITF--) | Gets ITF parameters com.aspose.barcode.generation.ITFParameters . |
+| [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters com.aspose.barcode.generation.MaxiCodeParameters . |
+| [getPdf417()](#getPdf417--) | Gets Pdf417 parameters com.aspose.barcode.generation.Pdf417Parameters . |
+| [getPostal()](#getPostal--) | Gets Postal parameters com.aspose.barcode.generation.PostalParameters . |
+| [getQR()](#getQR--) | Gets QR parameters com.aspose.barcode.generation.QrParameters . |
+| [getSupplement()](#getSupplement--) | Gets Supplement parameters com.aspose.barcode.generation.SupplementParameters . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this SpecificParametersUI . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -60,7 +62,7 @@ public AustralianPostParameters getAustralianPost()
 ```
 
 
-Gets AustralianPost parameters . Used for AustralianPost.
+Gets AustralianPost parameters com.aspose.barcode.generation.AustralianPostParameters . Used for AustralianPost.
 
 **Returns:**
 [AustralianPostParameters](../../com.aspose.barcode.generation/australianpostparameters)
@@ -70,7 +72,7 @@ public AztecParametersUI getAztec()
 ```
 
 
-Gets Aztec parameters . Used for Aztec.
+Gets Aztec parameters com.aspose.barcode.generation.AztecParameters . Used for Aztec.
 
 **Returns:**
 [AztecParametersUI](../../com.aspose.barcode.barcodecontrol/aztecparametersui)
@@ -90,7 +92,7 @@ public CodabarParameters getCodabar()
 ```
 
 
-Gets Codabar parameters . Used for Codabar.
+Gets Codabar parameters com.aspose.barcode.generation.CodabarParameters . Used for Codabar.
 
 **Returns:**
 [CodabarParameters](../../com.aspose.barcode.generation/codabarparameters)
@@ -100,7 +102,7 @@ public CodablockParameters getCodablock()
 ```
 
 
-Gets Codablock parameters .
+Gets Codablock parameters com.aspose.barcode.generation.CodablockParameters .
 
 **Returns:**
 [CodablockParameters](../../com.aspose.barcode.generation/codablockparameters) - Used for CodablockF.
@@ -110,7 +112,7 @@ public Code16KParameters getCode16K()
 ```
 
 
-Gets Code16K parameters . Used for Code16K.
+Gets Code16K parameters com.aspose.barcode.generation.Code16KParameters . Used for Code16K.
 
 **Returns:**
 [Code16KParameters](../../com.aspose.barcode.generation/code16kparameters)
@@ -120,7 +122,7 @@ public CouponParameters getCoupon()
 ```
 
 
-Gets Coupon parameters . Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
+Gets Coupon parameters com.aspose.barcode.generation.CouponParameters . Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
 
 **Returns:**
 [CouponParameters](../../com.aspose.barcode.generation/couponparameters)
@@ -130,7 +132,7 @@ public DataBarParameters getDataBar()
 ```
 
 
-Gets DataBar parameters .
+Gets DataBar parameters com.aspose.barcode.generation.DataBarParameters .
 
 **Returns:**
 [DataBarParameters](../../com.aspose.barcode.generation/databarparameters) - Used for DataBar symbologies.
@@ -140,7 +142,7 @@ public DataMatrixParametersUI getDataMatrix()
 ```
 
 
-Gets DataMatrix parameters  Used for DataMatrix.
+Gets DataMatrix parameters com.aspose.barcode.generation.DataMatrixParameters Used for DataMatrix.
 
 **Returns:**
 [DataMatrixParametersUI](../../com.aspose.barcode.barcodecontrol/datamatrixparametersui)
@@ -160,7 +162,7 @@ public ITFParameters getITF()
 ```
 
 
-Gets ITF parameters . Used for ITF6, ITF14.
+Gets ITF parameters com.aspose.barcode.generation.ITFParameters . Used for ITF6, ITF14.
 
 **Returns:**
 [ITFParameters](../../com.aspose.barcode.generation/itfparameters)
@@ -170,7 +172,7 @@ public MaxiCodeParameters getMaxiCode()
 ```
 
 
-Gets MaxiCode parameters . Used for MaxiCode.
+Gets MaxiCode parameters com.aspose.barcode.generation.MaxiCodeParameters . Used for MaxiCode.
 
 **Returns:**
 [MaxiCodeParameters](../../com.aspose.barcode.generation/maxicodeparameters)
@@ -180,7 +182,7 @@ public Pdf417ParametersUI getPdf417()
 ```
 
 
-Gets Pdf417 parameters .
+Gets Pdf417 parameters com.aspose.barcode.generation.Pdf417Parameters .
 
 **Returns:**
 [Pdf417ParametersUI](../../com.aspose.barcode.barcodecontrol/pdf417parametersui) - Used for Pdf417.
@@ -190,7 +192,7 @@ public PostalParameters getPostal()
 ```
 
 
-Gets Postal parameters . Used for Postnet, Planet.
+Gets Postal parameters com.aspose.barcode.generation.PostalParameters . Used for Postnet, Planet.
 
 **Returns:**
 [PostalParameters](../../com.aspose.barcode.generation/postalparameters)
@@ -200,7 +202,7 @@ public QrParametersUI getQR()
 ```
 
 
-Gets QR parameters . Used for QR.
+Gets QR parameters com.aspose.barcode.generation.QrParameters . Used for QR.
 
 **Returns:**
 [QrParametersUI](../../com.aspose.barcode.barcodecontrol/qrparametersui)
@@ -210,7 +212,7 @@ public SupplementParameters getSupplement()
 ```
 
 
-Gets Supplement parameters . Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN.
+Gets Supplement parameters com.aspose.barcode.generation.SupplementParameters . Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN.
 
 **Returns:**
 [SupplementParameters](../../com.aspose.barcode.generation/supplementparameters)
@@ -246,10 +248,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this SpecificParametersUI .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this SpecificParametersUI .
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -176,7 +176,7 @@ public System.Collections.Generic.List<HIBCPASRecord> getRecords()
 Gets records list
 
 **Returns:**
-[List](../../com.aspose.ms.system.collections.generic/list) - List of records
+com.aspose.ms.System.Collections.Generic.List<com.aspose.barcode.complexbarcode.HIBCPASRecord> - List of records
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

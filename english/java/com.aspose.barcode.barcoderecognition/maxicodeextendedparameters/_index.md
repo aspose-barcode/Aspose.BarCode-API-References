@@ -17,7 +17,7 @@ Stores a MaxiCode additional information of recognized barcode
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeExtendedParameters value. |
 | [getClass()](#getClass--) |  |
 | [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
 | [getMaxiCodeMode()](#getMaxiCodeMode--) | Gets a MaxiCode encode mode. |
@@ -30,7 +30,7 @@ Stores a MaxiCode additional information of recognized barcode
 | [setMaxiCodeMode(int maxiCodeMode)](#setMaxiCodeMode-int-) | Sets a MaxiCode encode mode. |
 | [setMaxiCodeStructuredAppendModeBarcodeId(int value)](#setMaxiCodeStructuredAppendModeBarcodeId-int-) | Sets a MaxiCode barcode id in structured append mode. |
 | [setMaxiCodeStructuredAppendModeBarcodesCount(int value)](#setMaxiCodeStructuredAppendModeBarcodesCount-int-) | Sets a MaxiCode barcodes count in structured append mode. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this MaxiCodeExtendedParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -40,7 +40,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeExtendedParameters value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,10 +182,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this MaxiCodeExtendedParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this MaxiCodeExtendedParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

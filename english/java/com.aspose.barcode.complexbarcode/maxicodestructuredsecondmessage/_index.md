@@ -24,7 +24,7 @@ Class for encoding and decoding structured second message for MaxiCode barcode.
 | --- | --- |
 | [add(String identifier)](#add-java.lang.String-) | Adds new identifier |
 | [clear()](#clear--) | Clear identifiers list |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value. |
 | [getClass()](#getClass--) |  |
 | [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
 | [getIdentifiers()](#getIdentifiers--) | Gets identifiers list |
@@ -71,12 +71,12 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | "obj">An  value to compare to this instance. |
+| obj | java.lang.Object | "obj">An MaxiCodeStructuredSecondMessage value to compare to this instance. |
 
 **Returns:**
 boolean - **true** if obj has the same value as this instance; otherwise, **false**.
@@ -109,7 +109,7 @@ public List<String> getIdentifiers()
 Gets identifiers list
 
 **Returns:**
-[List](../../java.util/list) - List of identifiers
+java.util.List<java.lang.String> - List of identifiers
 ### getMessage() {#getMessage--}
 ```
 public String getMessage()

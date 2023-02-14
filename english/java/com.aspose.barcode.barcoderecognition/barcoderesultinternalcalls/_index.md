@@ -47,7 +47,7 @@ public static BarCodeResult ctor(CodeResult aResult)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aResult | [CodeResult](../../com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult/coderesult) |  |
+| aResult | com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult |  |
 
 **Returns:**
 [BarCodeResult](../../com.aspose.barcode.barcoderecognition/barcoderesult)

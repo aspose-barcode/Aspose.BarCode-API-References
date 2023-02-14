@@ -3,7 +3,7 @@ title: com.aspose.barcode.metered
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 15
 url: /java/com.aspose.barcode.metered/
 ---
 

@@ -24,7 +24,7 @@ public class GS1CompositeBarParameters
 | [notifyAll()](#notifyAll--) |  |
 | [setLinearComponentType(BaseEncodeType value)](#setLinearComponentType-com.aspose.barcode.generation.BaseEncodeType-) | Linear component type |
 | [setTwoDComponentType(TwoDComponentType value)](#setTwoDComponentType-com.aspose.barcode.generation.TwoDComponentType-) | 2D component type |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this DataBarParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -131,10 +131,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this DataBarParameters .
 
 **Returns:**
-java.lang.String - A string that represents this
+java.lang.String - A string that represents this DataBarParameters
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -178,7 +178,7 @@ public List<SingleDecodeType> getSingleTypes()
 Represents a list of single types.
 
 **Returns:**
-[List](../../java.util/list) - List of single types
+java.util.List<com.aspose.barcode.barcoderecognition.SingleDecodeType> - List of single types
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

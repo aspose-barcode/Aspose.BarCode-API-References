@@ -511,7 +511,7 @@ public boolean getReadTinyBarcodes()
 ```
 
 
-Allows engine to recognize tiny barcodes on large images. Ignored if  is set to True. Default value: False.
+Allows engine to recognize tiny barcodes on large images. Ignored if AllowIncorrectBarcodes is set to True. Default value: False.
 
 **Returns:**
 boolean - If True, allows engine to recognize tiny barcodes on large images.
@@ -838,7 +838,7 @@ public void setReadTinyBarcodes(boolean value)
 ```
 
 
-Allows engine to recognize tiny barcodes on large images. Ignored if  is set to True. Default value: False.
+Allows engine to recognize tiny barcodes on large images. Ignored if AllowIncorrectBarcodes is set to True. Default value: False.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,7 @@
 ---
 title: CodetextParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: UI wrapper for com.aspose.barcode.generation.CodetextParameters class.
 type: docs
 weight: 13
 url: /java/com.aspose.barcode.barcodecontrol/codetextparametersui/
@@ -11,6 +11,8 @@ java.lang.Object
 ```
 public class CodetextParametersUI
 ```
+
+UI wrapper for com.aspose.barcode.generation.CodetextParameters class.
 ## Methods
 
 | Method | Description |
@@ -33,7 +35,7 @@ public class CodetextParametersUI
 | [setFontMode(FontMode value)](#setFontMode-com.aspose.barcode.generation.FontMode-) | Specify FontMode. |
 | [setLocation(CodeLocation value)](#setLocation-com.aspose.barcode.generation.CodeLocation-) | Specify the displaying CodeText Location, set to CodeLocation.None to hide CodeText. |
 | [setTwoDDisplayText(String value)](#setTwoDDisplayText-java.lang.String-) | Text that will be displayed instead of codetext in 2D barcodes. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this CodetextParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -242,10 +244,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this CodetextParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this CodetextParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

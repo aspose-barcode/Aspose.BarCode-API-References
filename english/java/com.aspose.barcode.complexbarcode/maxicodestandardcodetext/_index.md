@@ -45,7 +45,7 @@ Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandardCodetext value. |
 | [getBarcodeType()](#getBarcodeType--) | Gets barcode type. |
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
@@ -78,12 +78,12 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStandardCodetext value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An  value to compare to this instance. |
+| obj | java.lang.Object | An MaxiCodeStandardCodetext value to compare to this instance. |
 
 **Returns:**
 boolean - if obj has the same value as this instance; otherwise, **false**.

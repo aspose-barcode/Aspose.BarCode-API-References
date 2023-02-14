@@ -3,7 +3,7 @@ title: com.aspose.barcode.generation
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 128
+weight: 14
 url: /java/com.aspose.barcode.generation/
 ---
 

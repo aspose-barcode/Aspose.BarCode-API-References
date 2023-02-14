@@ -148,7 +148,7 @@ Scan window sizes in pixels.
 Allowed sizes are 10, 15, 20, 25, 30. Scanning with small window size takes more time and provides more accuracy but may fail in detecting very big barcodes. Combining of several window sizes can improve detection quality.
 
 **Returns:**
-[List](../../java.util/list)
+java.util.List<java.lang.Integer>
 ### getSimilarityCoef() {#getSimilarityCoef--}
 ```
 public float getSimilarityCoef()

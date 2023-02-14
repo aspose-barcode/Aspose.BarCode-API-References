@@ -3,7 +3,7 @@ title: com.aspose.barcode.complexbarcode
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 109
+weight: 13
 url: /java/com.aspose.barcode.complexbarcode/
 ---
 
