@@ -1,11 +1,14 @@
 ---
 title: com.aspose.barcode.barcodecontrol
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: This package contains component for generating barcodes designed as control for placing onto customers Swing UI
 type: docs
 weight: 11
 url: /java/com.aspose.barcode.barcodecontrol/
 ---
+
+This package contains component for generating barcodes designed as control for placing onto customer's Swing UI
+
 
 ## Classes
 
