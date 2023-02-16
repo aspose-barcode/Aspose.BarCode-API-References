@@ -20,9 +20,9 @@ Stores extended parameters of recognized barcode
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  BarCodeExtendedParameters  value. |
 | [getClass()](#getClass--) |  |
 | [getCode128()](#getCode128--) | Gets a special data  Code128ExtendedParameters  of Code128 recognized barcode |
-| [getDataBar()](#getDataBar--) | Gets a DataBar additional information of recognized barcode |
+| [getDataBar()](#getDataBar--) | Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode |
 | [getDotCode()](#getDotCode--) | Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode |
-| [getMaxiCode()](#getMaxiCode--) | Gets a MaxiCode additional information of recognized barcode |
+| [getMaxiCode()](#getMaxiCode--) | Gets a MaxiCode additional information MaxiCodeExtendedParameters of recognized barcode |
 | [getOneD()](#getOneD--) | Gets a special data  OneDExtendedParameters  of 1D recognized barcode |
 | [getPdf417()](#getPdf417--) | Gets a MacroPdf417 metadata information  Pdf417ExtendedParameters  of recognized barcode |
 | [getQR()](#getQR--) | Gets a QR Structured Append information  QRExtendedParameters  of recognized barcode |
@@ -76,10 +76,10 @@ public DataBarExtendedParameters getDataBar()
 ```
 
 
-Gets a DataBar additional information of recognized barcode
+Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode
 
 **Returns:**
-[DataBarExtendedParameters](../../com.aspose.barcode.barcoderecognition/databarextendedparameters) - A DataBar additional information of recognized barcode
+[DataBarExtendedParameters](../../com.aspose.barcode.barcoderecognition/databarextendedparameters) - A DataBar additional informationDataBarExtendedParameters of recognized barcode
 ### getDotCode() {#getDotCode--}
 ```
 public DotCodeExtendedParameters getDotCode()
@@ -98,10 +98,10 @@ public MaxiCodeExtendedParameters getMaxiCode()
 ```
 
 
-Gets a MaxiCode additional information of recognized barcode
+Gets a MaxiCode additional information MaxiCodeExtendedParameters of recognized barcode
 
 **Returns:**
-[MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) - A MaxiCode additional information of recognized barcode
+[MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) - A MaxiCode additional information MaxiCodeExtendedParameters of recognized barcode
 ### getOneD() {#getOneD--}
 ```
 public OneDExtendedParameters getOneD()

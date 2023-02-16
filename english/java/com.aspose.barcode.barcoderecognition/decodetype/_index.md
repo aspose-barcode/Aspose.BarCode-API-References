@@ -128,9 +128,9 @@ Specify the type of barcode to read.
 | [getClass()](#getClass--) |  |
 | [getNames()](#getNames--) | Retrieves an array of the names of the decode types. |
 | [hashCode()](#hashCode--) |  |
-| [is1D(BaseDecodeType symbology)](#is1D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any 1D barcode symbology |
-| [is2D(BaseDecodeType symbology)](#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any 2D barcode symbology |
-| [isPostal(BaseDecodeType symbology)](#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any Postal barcode symbology |
+| [is1D(BaseDecodeType symbology)](#is1D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any 1D barcode symbology |
+| [is2D(BaseDecodeType symbology)](#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any 2D barcode symbology |
+| [isPostal(BaseDecodeType symbology)](#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any Postal barcode symbology |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parse(String parsingType)](#parse-java.lang.String-) | Converts the string representation of a SingleDecodeType to its instance. |
@@ -881,45 +881,45 @@ public static boolean is1D(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any 1D barcode symbology
+Determines if the specified BaseDecodeType contains any 1D barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test. |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test. |
 
 **Returns:**
-boolean - Returns **true** if  contains any 1D barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeType contains any 1D barcode symbology; otherwise, returns **false**.
 ### is2D(BaseDecodeType symbology) {#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
 ```
 public static boolean is2D(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any 2D barcode symbology
+Determines if the specified BaseDecodeType contains any 2D barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test. |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test. |
 
 **Returns:**
-boolean - Returns **true** if  contains any 2D barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeTypeddddddddw contains any 2D barcode symbology; otherwise, returns **false**.
 ### isPostal(BaseDecodeType symbology) {#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
 ```
 public static boolean isPostal(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any Postal barcode symbology
+Determines if the specified BaseDecodeType contains any Postal barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test |
 
 **Returns:**
-boolean - Returns **true** if  contains any Postal barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeType contains any Postal barcode symbology; otherwise, returns **false**.
 ### notify() {#notify--}
 ```
 public final native void notify()

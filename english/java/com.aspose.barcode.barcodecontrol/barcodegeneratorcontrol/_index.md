@@ -1,7 +1,7 @@
 ---
 title: BarCodeGeneratorControl
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: Class is designed for use in Swing applications.
 type: docs
 weight: 11
 url: /java/com.aspose.barcode.barcodecontrol/barcodegeneratorcontrol/
@@ -14,11 +14,13 @@ java.lang.Object, java.awt.Component, java.awt.Container, javax.swing.JComponent
 ```
 public class BarCodeGeneratorControl extends JLabel implements IBarCodeGeneratorControl
 ```
+
+Class is designed for use in Swing applications. It extends Swing class JLabel and can be placed onto UI
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BarCodeGeneratorControl()](#BarCodeGeneratorControl--) | Initializes a new instance of the  class. |
+| [BarCodeGeneratorControl()](#BarCodeGeneratorControl--) | Initializes a new instance of the BarCodeGeneratorControl class. |
 ## Fields
 
 | Field | Description |
@@ -102,16 +104,16 @@ public class BarCodeGeneratorControl extends JLabel implements IBarCodeGenerator
 | [getAutoscrolls()](#getAutoscrolls--) |  |
 | [getBackground()](#getBackground--) |  |
 | [getBackgroundColor()](#getBackgroundColor--) | Background color of the barcode image. |
-| [getBarCodeHeight()](#getBarCodeHeight--) | BarCode image height when  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
-| [getBarCodeWidth()](#getBarCodeWidth--) | BarCode image width when  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
+| [getBarCodeHeight()](#getBarCodeHeight--) | BarCode image height when com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
+| [getBarCodeWidth()](#getBarCodeWidth--) | BarCode image width when com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [getBarColor()](#getBarColor--) | Bars color. |
 | [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars. |
-| [getBarcodePaddings()](#getBarcodePaddings--) | Gets Barcode paddings parameters . |
+| [getBarcodePaddings()](#getBarcodePaddings--) | Gets Barcode paddings parameters com.aspose.barcode.generation.Padding . |
 | [getBarcodeType()](#getBarcodeType--) | BarCode's encode type (symbology). |
 | [getBaseline(int arg0, int arg1)](#getBaseline-int-int-) |  |
 | [getBaselineResizeBehavior()](#getBaselineResizeBehavior--) |  |
 | [getBorder()](#getBorder--) |  |
-| [getBorderParameters()](#getBorderParameters--) | Gets Border parameters . |
+| [getBorderParameters()](#getBorderParameters--) | Gets Border parameters com.aspose.barcode.generation.BorderParameters . |
 | [getBounds()](#getBounds--) |  |
 | [getBounds(Rectangle arg0)](#getBounds-java.awt.Rectangle-) |  |
 | [getCaptionAbove()](#getCaptionAbove--) | Caption Above the BarCode image. |
@@ -120,7 +122,7 @@ public class BarCodeGeneratorControl extends JLabel implements IBarCodeGenerator
 | [getClass()](#getClass--) |  |
 | [getClientProperty(Object arg0)](#getClientProperty-java.lang.Object-) |  |
 | [getCodeText()](#getCodeText--) | Data to be encoded, different types of BarCode may have different CodeText length restrictions. |
-| [getCodeTextParameters()](#getCodeTextParameters--) | Gets CodeText parameters . |
+| [getCodeTextParameters()](#getCodeTextParameters--) | Gets CodeText parameters com.aspose.barcode.generation.CodetextParameters . |
 | [getColorModel()](#getColorModel--) |  |
 | [getComponent(int arg0)](#getComponent-int-) |  |
 | [getComponentAt(int arg0, int arg1)](#getComponentAt-int-int-) |  |
@@ -428,7 +430,7 @@ public BarCodeGeneratorControl()
 ```
 
 
-Initializes a new instance of the  class.
+Initializes a new instance of the BarCodeGeneratorControl class.
 
 ### BOTTOM_ALIGNMENT {#BOTTOM-ALIGNMENT}
 ```
@@ -1354,7 +1356,7 @@ public Unit getBarCodeHeight()
 ```
 
 
-BarCode image height when  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+BarCode image height when com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
@@ -1364,7 +1366,7 @@ public Unit getBarCodeWidth()
 ```
 
 
-BarCode image width when  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+BarCode image width when com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
@@ -1384,7 +1386,7 @@ public Unit getBarHeight()
 ```
 
 
-Height of 1D barcodes' bars. Ignored if  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+Height of 1D barcodes' bars. Ignored if com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
@@ -1394,7 +1396,7 @@ public Padding getBarcodePaddings()
 ```
 
 
-Gets Barcode paddings parameters .
+Gets Barcode paddings parameters com.aspose.barcode.generation.Padding .
 
 **Returns:**
 [Padding](../../com.aspose.barcode.generation/padding)
@@ -1404,7 +1406,7 @@ public String getBarcodeType()
 ```
 
 
-BarCode's encode type (symbology). Use  to get current symbology.
+BarCode's encode type (symbology). Use com.aspose.barcode.generation.EncodeTypes to get current symbology.
 
 **Returns:**
 java.lang.String
@@ -1450,7 +1452,7 @@ public BorderParameters getBorderParameters()
 ```
 
 
-Gets Border parameters .
+Gets Border parameters com.aspose.barcode.generation.BorderParameters .
 
 **Returns:**
 [BorderParameters](../../com.aspose.barcode.generation/borderparameters)
@@ -1485,7 +1487,7 @@ public CaptionUI getCaptionAbove()
 ```
 
 
-Caption Above the BarCode image. See .
+Caption Above the BarCode image. See com.aspose.barcode.generation.CaptionParameters .
 
 **Returns:**
 [CaptionUI](../../com.aspose.barcode.barcodecontrol/captionui)
@@ -1495,7 +1497,7 @@ public CaptionUI getCaptionBelow()
 ```
 
 
-Caption Above the BarCode image. See .
+Caption Above the BarCode image. See com.aspose.barcode.generation.CaptionParameters .
 
 **Returns:**
 [CaptionUI](../../com.aspose.barcode.barcodecontrol/captionui)
@@ -1550,7 +1552,7 @@ public CodetextParametersUI getCodeTextParameters()
 ```
 
 
-Gets CodeText parameters .
+Gets CodeText parameters com.aspose.barcode.generation.CodetextParameters .
 
 **Returns:**
 [CodetextParametersUI](../../com.aspose.barcode.barcodecontrol/codetextparametersui)
@@ -1786,7 +1788,7 @@ public BaseEncodeType getEncodeType()
 ```
 
 
-BarCode's encode type (symbology). Use  to get current symbology.
+BarCode's encode type (symbology). Use com.aspose.barcode.generation.EncodeTypes to get current symbology.
 
 **Returns:**
 [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype)
@@ -2601,7 +2603,7 @@ public Unit getXDimension()
 ```
 
 
-X-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+X-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if com.aspose.barcode.generation.AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
@@ -4124,7 +4126,7 @@ public void setBarcodeType(String value)
 ```
 
 
-BarCode's encode type (symbology). Use  to get current symbology.
+BarCode's encode type (symbology). Use com.aspose.barcode.generation.EncodeTypes to get current symbology.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -4401,7 +4403,7 @@ public void setEncodeType(BaseEncodeType value)
 ```
 
 
-BarCode's encode type (symbology). Use  to get current symbology.
+BarCode's encode type (symbology). Use com.aspose.barcode.generation.EncodeTypes to get current symbology.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,7 @@
 ---
 title: DataMatrixParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class.
 type: docs
 weight: 14
 url: /java/com.aspose.barcode.barcodecontrol/datamatrixparametersui/
@@ -11,6 +11,8 @@ java.lang.Object
 ```
 public class DataMatrixParametersUI
 ```
+
+UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class.
 ## Methods
 
 | Method | Description |
@@ -32,7 +34,7 @@ public class DataMatrixParametersUI
 | [setDataMatrixEcc(DataMatrixEccType value)](#setDataMatrixEcc-com.aspose.barcode.generation.DataMatrixEccType-) | Gets a Datamatrix ECC type. |
 | [setDataMatrixEncodeMode(DataMatrixEncodeMode value)](#setDataMatrixEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-) | Encode mode of Datamatrix barcode. |
 | [setRows(int value)](#setRows-int-) | Rows count. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this DataMatrixParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -231,10 +233,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this DataMatrixParameters .
 
 **Returns:**
-java.lang.String - A string that represents this
+java.lang.String - A string that represents this DataMatrixParameters
 ### wait() {#wait--}
 ```
 public final void wait()

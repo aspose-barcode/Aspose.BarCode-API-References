@@ -10,7 +10,7 @@ url: /java/com.aspose.barcode.generation/textmeasurer/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.barcode.internal.ITextMeasurer](../../com.aspose.barcode.internal/itextmeasurer), com.aspose.ms.System.IDisposable
+com.aspose.barcode.internal.ITextMeasurer, com.aspose.ms.System.IDisposable
 ```
 public class TextMeasurer implements ITextMeasurer, System.IDisposable
 ```
@@ -20,7 +20,7 @@ Represents text measurer. Full Framework implementation. TODO: Cache bitmap and 
 
 | Constructor | Description |
 | --- | --- |
-| [TextMeasurer(float dpiX, float dpiY)](#TextMeasurer-float-float-) | Initializes new instance of class [TextMeasurer](../../com.aspose.barcode.generation/textmeasurer). |
+| [TextMeasurer(float dpiX, float dpiY)](#TextMeasurer-float-float-) | Initializes new instance of class TextMeasurer. |
 ## Methods
 
 | Method | Description |
@@ -42,7 +42,7 @@ public TextMeasurer(float dpiX, float dpiY)
 ```
 
 
-Initializes new instance of class [TextMeasurer](../../com.aspose.barcode.generation/textmeasurer).
+Initializes new instance of class TextMeasurer.
 
 **Parameters:**
 | Parameter | Type | Description |

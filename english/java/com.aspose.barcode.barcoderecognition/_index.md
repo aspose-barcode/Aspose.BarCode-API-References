@@ -1,11 +1,14 @@
 ---
 title: com.aspose.barcode.barcoderecognition
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: This package contains tools for 1D/2D barcode recognition.
 type: docs
 weight: 12
 url: /java/com.aspose.barcode.barcoderecognition/
 ---
+
+This package contains tools for 1D/2D barcode recognition.
+
 
 ## Classes
 

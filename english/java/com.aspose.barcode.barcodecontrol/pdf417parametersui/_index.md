@@ -1,7 +1,7 @@
 ---
 title: Pdf417ParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class.
 type: docs
 weight: 15
 url: /java/com.aspose.barcode.barcodecontrol/pdf417parametersui/
@@ -11,11 +11,13 @@ java.lang.Object
 ```
 public class Pdf417ParametersUI
 ```
+
+UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [ToString()](#ToString--) | Returns a human-readable string representation of this . |
+| [ToString()](#ToString--) | Returns a human-readable string representation of this Pdf417Parameters . |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
@@ -51,10 +53,10 @@ public String ToString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this Pdf417Parameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this Pdf417Parameters .
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

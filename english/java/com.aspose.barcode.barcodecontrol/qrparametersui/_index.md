@@ -1,7 +1,7 @@
 ---
 title: QrParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: UI wrapper for com.aspose.barcode.generation.QrParameters class.
 type: docs
 weight: 16
 url: /java/com.aspose.barcode.barcodecontrol/qrparametersui/
@@ -11,6 +11,8 @@ java.lang.Object
 ```
 public class QrParametersUI
 ```
+
+UI wrapper for com.aspose.barcode.generation.QrParameters class.
 ## Methods
 
 | Method | Description |
@@ -32,7 +34,7 @@ public class QrParametersUI
 | [setQrEncodeType(QREncodeType value)](#setQrEncodeType-com.aspose.barcode.generation.QREncodeType-) | QR / MicroQR selector mode. |
 | [setQrErrorLevel(QRErrorLevel value)](#setQrErrorLevel-com.aspose.barcode.generation.QRErrorLevel-) | Level of Reed-Solomon error correction for QR barcode. |
 | [setQrVersion(QRVersion value)](#setQrVersion-com.aspose.barcode.generation.QRVersion-) | Version of QR Code. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this QrParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -231,10 +233,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this QrParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this QrParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

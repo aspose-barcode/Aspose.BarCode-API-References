@@ -26,7 +26,7 @@ PatchCode parameters.
 | [notifyAll()](#notifyAll--) |  |
 | [setExtraBarcodeText(String value)](#setExtraBarcodeText-java.lang.String-) | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
 | [setPatchFormat(PatchFormat value)](#setPatchFormat-com.aspose.barcode.generation.PatchFormat-) | PatchCode format. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this PatchCodeParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -133,10 +133,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this PatchCodeParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this PatchCodeParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

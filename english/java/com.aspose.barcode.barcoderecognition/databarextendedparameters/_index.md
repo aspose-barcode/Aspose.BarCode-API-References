@@ -17,14 +17,14 @@ Stores a DataBar additional information of recognized barcode BarCodeReader read
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [is2DCompositeComponent()](#is2DCompositeComponent--) | Gets the DataBar 2D composite component flag. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this DataBarExtendedParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -34,7 +34,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -107,10 +107,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this DataBarExtendedParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this DataBarExtendedParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

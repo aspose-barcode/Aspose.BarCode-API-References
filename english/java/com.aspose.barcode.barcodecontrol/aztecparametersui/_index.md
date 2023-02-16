@@ -1,7 +1,7 @@
 ---
 title: AztecParametersUI
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: UI wrapper for AztecParameters class
 type: docs
 weight: 10
 url: /java/com.aspose.barcode.barcodecontrol/aztecparametersui/
@@ -11,6 +11,8 @@ java.lang.Object
 ```
 public class AztecParametersUI
 ```
+
+UI wrapper for AztecParameters class
 ## Methods
 
 | Method | Description |
@@ -28,7 +30,7 @@ public class AztecParametersUI
 | [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
 | [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
 | [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this AztecParameters. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -63,7 +65,7 @@ public int getAztecErrorLevel()
 ```
 
 
-Level of error correction of Aztec types of barcode. Value should between 10 to 95.
+Level of error correction of Aztec types of barcode. Value should between 10 and 95.
 
 **Returns:**
 int
@@ -142,7 +144,7 @@ public void setAztecErrorLevel(int value)
 ```
 
 
-Level of error correction of Aztec types of barcode. Value should between 10 to 95.
+Level of error correction of Aztec types of barcode. Value should between 10 and 95.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,10 +183,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this AztecParameters.
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this AztecParameters
 ### wait() {#wait--}
 ```
 public final void wait()

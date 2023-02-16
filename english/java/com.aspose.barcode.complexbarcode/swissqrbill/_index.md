@@ -104,7 +104,7 @@ A maximum of two schemes with parameters are allowed.
 Value: The alternative payment schemes.
 
 **Returns:**
-[List](../../java.util/list)
+java.util.List<com.aspose.barcode.complexbarcode.AlternativeScheme>
 ### getAmount() {#getAmount--}
 ```
 public double getAmount()
