@@ -18,7 +18,7 @@ public sealed class AlternativeScheme : IEquatable<AlternativeScheme>
 
 | Name | Description |
 | --- | --- |
-| [AlternativeScheme](alternativescheme/)() | The default constructor. |
+| [AlternativeScheme](alternativescheme)() | The default constructor. |
 
 ## Properties
 

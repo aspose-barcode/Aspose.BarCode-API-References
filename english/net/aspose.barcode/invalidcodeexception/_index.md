@@ -18,7 +18,7 @@ public class InvalidCodeException : BarCodeException
 
 | Name | Description |
 | --- | --- |
-| [InvalidCodeException](invalidcodeexception/)(string) | Initializes a new instance of the InvalidCodeException class with a specified error message. |
+| [InvalidCodeException](invalidcodeexception)(string) | Initializes a new instance of the InvalidCodeException class with a specified error message. |
 
 ### See Also
 

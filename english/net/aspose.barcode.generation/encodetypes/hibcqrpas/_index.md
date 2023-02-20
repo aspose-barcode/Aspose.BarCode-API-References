@@ -1,14 +1,14 @@
 ---
 title: HIBCQRPAS
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  HIBC PAS QR barcode specification.
+description: Specifies that the data should be encoded with HIBC PAS QR barcode specification.
 type: docs
 weight: 460
 url: /net/aspose.barcode.generation/encodetypes/hibcqrpas/
 ---
 ## EncodeTypes.HIBCQRPAS field
 
-Specifies that the data should be encoded with  **HIBC PAS QR** barcode specification.
+Specifies that the data should be encoded with **HIBC PAS QR** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType HIBCQRPAS;

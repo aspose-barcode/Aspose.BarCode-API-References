@@ -1,14 +1,14 @@
 ---
 title: Aztec
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Aztec barcode specification
+description: Specifies that the data should be decoded with Aztec barcode specification
 type: docs
 weight: 50
 url: /net/aspose.barcode.barcoderecognition/decodetype/aztec/
 ---
 ## DecodeType.Aztec field
 
-Specifies that the data should be decoded with  **Aztec** barcode specification
+Specifies that the data should be decoded with **Aztec** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType Aztec;

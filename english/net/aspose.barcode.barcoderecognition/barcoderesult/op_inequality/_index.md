@@ -21,7 +21,7 @@ public static bool operator !=(BarCodeResult first, BarCodeResult second)
 
 ### Return Value
 
-**true** if first has the different value from second; otherwise,  **false**.
+**true** if first has the different value from second; otherwise, **false**.
 
 ### See Also
 

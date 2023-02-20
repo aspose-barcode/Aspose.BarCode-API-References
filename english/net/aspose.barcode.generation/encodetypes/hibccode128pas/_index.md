@@ -1,14 +1,14 @@
 ---
 title: HIBCCode128PAS
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  HIBC PAS Code128 barcode specification.
+description: Specifies that the data should be encoded with HIBC PAS Code128 barcode specification.
 type: docs
 weight: 400
 url: /net/aspose.barcode.generation/encodetypes/hibccode128pas/
 ---
 ## EncodeTypes.HIBCCode128PAS field
 
-Specifies that the data should be encoded with  **HIBC PAS Code128** barcode specification.
+Specifies that the data should be encoded with **HIBC PAS Code128** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType HIBCCode128PAS;

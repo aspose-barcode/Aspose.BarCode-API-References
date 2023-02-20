@@ -18,8 +18,8 @@ public class HIBCPASRecord
 
 | Name | Description |
 | --- | --- |
-| [HIBCPASRecord](hibcpasrecord/#constructor)() | HIBCPASRecord constructor |
-| [HIBCPASRecord](hibcpasrecord/#constructor_1)(HIBCPASDataType, string) | HIBCPASRecord constructor |
+| [HIBCPASRecord](hibcpasrecord#constructor)() | HIBCPASRecord constructor |
+| [HIBCPASRecord](hibcpasrecord#constructor_1)(HIBCPASDataType, string) | HIBCPASRecord constructor |
 
 ## Properties
 

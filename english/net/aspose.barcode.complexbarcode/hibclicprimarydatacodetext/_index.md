@@ -18,7 +18,7 @@ public class HIBCLICPrimaryDataCodetext : HIBCLICComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [HIBCLICPrimaryDataCodetext](hibclicprimarydatacodetext/)() | The default constructor. |
+| [HIBCLICPrimaryDataCodetext](hibclicprimarydatacodetext)() | The default constructor. |
 
 ## Properties
 

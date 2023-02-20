@@ -20,7 +20,7 @@ public virtual bool Equals(SingleDecodeType other)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 
@@ -45,7 +45,7 @@ public virtual bool Equals(MultyDecodeType other)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 
@@ -70,7 +70,7 @@ public bool Equals(BaseDecodeType other)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 
@@ -94,7 +94,7 @@ public override bool Equals(object obj)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 

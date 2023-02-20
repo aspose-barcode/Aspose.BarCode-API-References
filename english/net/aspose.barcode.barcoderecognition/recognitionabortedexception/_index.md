@@ -18,9 +18,9 @@ public class RecognitionAbortedException : BarCodeRecognitionException
 
 | Name | Description |
 | --- | --- |
-| [RecognitionAbortedException](recognitionabortedexception/#constructor)() | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
-| [RecognitionAbortedException](recognitionabortedexception/#constructor_1)(int) | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
-| [RecognitionAbortedException](recognitionabortedexception/#constructor_2)(string, int) | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor)() | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_1)(int) | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
+| [RecognitionAbortedException](recognitionabortedexception#constructor_2)(string, int) | Initializes a new instance of the [`RecognitionAbortedException`](./recognitionabortedexception/) class with specified recognition abort message. |
 
 ## Properties
 

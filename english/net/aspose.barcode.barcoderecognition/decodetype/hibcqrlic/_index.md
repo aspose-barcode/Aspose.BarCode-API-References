@@ -1,14 +1,14 @@
 ---
 title: HIBCQRLIC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  HIBC LIC QR blank specification
+description: Specifies that the data should be decoded with HIBC LIC QR blank specification
 type: docs
 weight: 450
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcqrlic/
 ---
 ## DecodeType.HIBCQRLIC field
 
-Specifies that the data should be decoded with  **HIBC LIC QR** blank specification
+Specifies that the data should be decoded with **HIBC LIC QR** blank specification
 
 ```csharp
 public static readonly SingleDecodeType HIBCQRLIC;

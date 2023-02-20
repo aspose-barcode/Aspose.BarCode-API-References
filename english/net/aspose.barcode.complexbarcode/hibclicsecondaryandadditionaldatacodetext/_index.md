@@ -18,7 +18,7 @@ public class HIBCLICSecondaryAndAdditionalDataCodetext : HIBCLICComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext/)() | The default constructor. |
+| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public sealed class MailmarkCodetext : IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [MailmarkCodetext](mailmarkcodetext/)() | The default constructor. |
+| [MailmarkCodetext](mailmarkcodetext)() | The default constructor. |
 
 ## Properties
 

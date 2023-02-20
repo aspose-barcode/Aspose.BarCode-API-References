@@ -21,7 +21,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise,  **false**.
+**true** if s was converted successfully; otherwise, **false**.
 
 ### See Also
 
@@ -47,7 +47,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise,  **false**.
+**true** if s was converted successfully; otherwise, **false**.
 
 ### See Also
 
@@ -73,7 +73,7 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise,  **false**.
+**true** if s was converted successfully; otherwise, **false**.
 
 ### See Also
 

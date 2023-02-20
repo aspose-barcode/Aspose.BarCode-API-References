@@ -42,7 +42,7 @@ public sealed class SwissQRBill : IEquatable<SwissQRBill>
 
 | Name | Description |
 | --- | --- |
-| enum [QrBillStandardVersion](swissqrbill.qrbillstandardversion/) | SwissQR bill standard version |
+| enum [QrBillStandardVersion](../../aspose.barcode.complexbarcode/swissqrbill.qrbillstandardversion) | SwissQR bill standard version |
 
 ### See Also
 

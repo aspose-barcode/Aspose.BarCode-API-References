@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode.BarCodeRecognition
 second_title: Aspose.BarCode for .NET API Reference
-description: The  Aspose.BarCode.BarCodeRecognition contains tools for the 1D/2D barcodes recognition.
+description: The Aspose.BarCode.BarCodeRecognition contains tools for the 1D/2D barcodes recognition.
 type: docs
 weight: 20
 url: /net/aspose.barcode.barcoderecognition/
 ---
-The  **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes recognition.
+The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes recognition.
 
 ## Classes
 

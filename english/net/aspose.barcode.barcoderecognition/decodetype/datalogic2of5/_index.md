@@ -1,14 +1,14 @@
 ---
 title: DataLogic2of5
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  DataLogic 2 of 5 blank specification
+description: Specifies that the data should be decoded with DataLogic 2 of 5 blank specification
 type: docs
 weight: 240
 url: /net/aspose.barcode.barcoderecognition/decodetype/datalogic2of5/
 ---
 ## DecodeType.DataLogic2of5 field
 
-Specifies that the data should be decoded with  **DataLogic 2 of 5** blank specification
+Specifies that the data should be decoded with **DataLogic 2 of 5** blank specification
 
 ```csharp
 public static readonly SingleDecodeType DataLogic2of5;

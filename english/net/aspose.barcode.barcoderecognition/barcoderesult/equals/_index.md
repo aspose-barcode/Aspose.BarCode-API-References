@@ -20,7 +20,7 @@ public bool Equals(BarCodeResult other)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### Return Value
 
-**true** if obj has the same value as this instance; otherwise,  **false**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### See Also
 

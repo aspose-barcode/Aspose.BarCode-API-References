@@ -1,14 +1,14 @@
 ---
 title: DatabarExpandedStacked
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  GS1 Databar expanded stacked barcode specification
+description: Specifies that the data should be decoded with GS1 Databar expanded stacked barcode specification
 type: docs
 weight: 180
 url: /net/aspose.barcode.barcoderecognition/decodetype/databarexpandedstacked/
 ---
 ## DecodeType.DatabarExpandedStacked field
 
-Specifies that the data should be decoded with  **GS1 Databar expanded stacked** barcode specification
+Specifies that the data should be decoded with **GS1 Databar expanded stacked** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType DatabarExpandedStacked;

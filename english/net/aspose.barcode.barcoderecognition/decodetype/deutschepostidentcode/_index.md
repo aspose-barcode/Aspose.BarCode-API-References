@@ -1,14 +1,14 @@
 ---
 title: DeutschePostIdentcode
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  DeutschePost Ident code barcode specification
+description: Specifies that the data should be decoded with DeutschePost Ident code barcode specification
 type: docs
 weight: 260
 url: /net/aspose.barcode.barcoderecognition/decodetype/deutschepostidentcode/
 ---
 ## DecodeType.DeutschePostIdentcode field
 
-Specifies that the data should be decoded with  **DeutschePost Ident code** barcode specification
+Specifies that the data should be decoded with **DeutschePost Ident code** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType DeutschePostIdentcode;

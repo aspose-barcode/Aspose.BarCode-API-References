@@ -1,14 +1,14 @@
 ---
 title: DatabarTruncated
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  GS1 Databar truncated barcode specification
+description: Specifies that the data should be decoded with GS1 Databar truncated barcode specification
 type: docs
 weight: 230
 url: /net/aspose.barcode.barcoderecognition/decodetype/databartruncated/
 ---
 ## DecodeType.DatabarTruncated field
 
-Specifies that the data should be decoded with  **GS1 Databar truncated** barcode specification
+Specifies that the data should be decoded with **GS1 Databar truncated** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType DatabarTruncated;

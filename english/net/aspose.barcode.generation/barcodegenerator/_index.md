@@ -20,8 +20,8 @@ public sealed class BarcodeGenerator : Component
 
 | Name | Description |
 | --- | --- |
-| [BarcodeGenerator](barcodegenerator/#constructor)(BaseEncodeType) | Creates an instance of BarcodeGenerator. |
-| [BarcodeGenerator](barcodegenerator/#constructor_1)(BaseEncodeType, string) | Creates an instance of BarcodeGenerator. |
+| [BarcodeGenerator](barcodegenerator#constructor)(BaseEncodeType) | Creates an instance of BarcodeGenerator. |
+| [BarcodeGenerator](barcodegenerator#constructor_1)(BaseEncodeType, string) | Creates an instance of BarcodeGenerator. |
 
 ## Properties
 

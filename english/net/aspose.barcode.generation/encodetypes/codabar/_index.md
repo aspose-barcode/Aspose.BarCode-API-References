@@ -1,14 +1,14 @@
 ---
 title: Codabar
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  CODABAR barcode specification
+description: Specifies that the data should be encoded with CODABAR barcode specification
 type: docs
 weight: 50
 url: /net/aspose.barcode.generation/encodetypes/codabar/
 ---
 ## EncodeTypes.Codabar field
 
-Specifies that the data should be encoded with  **CODABAR** barcode specification
+Specifies that the data should be encoded with **CODABAR** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Codabar;
