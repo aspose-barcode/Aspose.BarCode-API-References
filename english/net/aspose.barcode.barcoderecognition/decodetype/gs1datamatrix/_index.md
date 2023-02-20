@@ -1,14 +1,14 @@
 ---
 title: GS1DataMatrix
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  GS1DataMatrix barcode symbology
+description: Specifies that the data should be decoded with GS1DataMatrix barcode symbology
 type: docs
 weight: 340
 url: /net/aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/
 ---
 ## DecodeType.GS1DataMatrix field
 
-Specifies that the data should be decoded with  **GS1DataMatrix** barcode symbology
+Specifies that the data should be decoded with **GS1DataMatrix** barcode symbology
 
 ```csharp
 public static readonly SingleDecodeType GS1DataMatrix;

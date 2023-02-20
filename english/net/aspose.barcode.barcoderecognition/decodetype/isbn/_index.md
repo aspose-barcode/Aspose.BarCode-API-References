@@ -1,14 +1,14 @@
 ---
 title: ISBN
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  ISBN barcode specification
+description: Specifies that the data should be decoded with ISBN barcode specification
 type: docs
 weight: 490
 url: /net/aspose.barcode.barcoderecognition/decodetype/isbn/
 ---
 ## DecodeType.ISBN field
 
-Specifies that the data should be decoded with  **ISBN** barcode specification
+Specifies that the data should be decoded with **ISBN** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType ISBN;

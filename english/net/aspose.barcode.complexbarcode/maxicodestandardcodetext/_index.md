@@ -18,7 +18,7 @@ public class MaxiCodeStandardCodetext : MaxiCodeCodetext
 
 | Name | Description |
 | --- | --- |
-| [MaxiCodeStandardCodetext](maxicodestandardcodetext/)() | The default constructor. |
+| [MaxiCodeStandardCodetext](maxicodestandardcodetext)() | The default constructor. |
 
 ## Properties
 

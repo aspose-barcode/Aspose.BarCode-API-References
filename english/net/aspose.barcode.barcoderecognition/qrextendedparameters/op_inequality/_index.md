@@ -21,7 +21,7 @@ public static bool operator !=(QRExtendedParameters first, QRExtendedParameters 
 
 ### Return Value
 
-**true** if first has the different value from second; otherwise,  **false**.
+**true** if first has the different value from second; otherwise, **false**.
 
 ### See Also
 

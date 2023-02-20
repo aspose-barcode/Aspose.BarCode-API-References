@@ -1,14 +1,14 @@
 ---
 title: Types1D
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that data will be checked with all of  1D barcode symbologies
+description: Specifies that data will be checked with all of 1D barcode symbologies
 type: docs
 weight: 810
 url: /net/aspose.barcode.barcoderecognition/decodetype/types1d/
 ---
 ## DecodeType.Types1D field
 
-Specifies that data will be checked with all of  **1D** barcode symbologies
+Specifies that data will be checked with all of **1D** barcode symbologies
 
 ```csharp
 public static readonly MultyDecodeType Types1D;

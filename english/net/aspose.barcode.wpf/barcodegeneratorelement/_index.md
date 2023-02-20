@@ -18,7 +18,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 
 | Name | Description |
 | --- | --- |
-| [BarcodeGeneratorElement](barcodegeneratorelement/)() | Default constructor. |
+| [BarcodeGeneratorElement](barcodegeneratorelement)() | Default constructor. |
 
 ## Properties
 

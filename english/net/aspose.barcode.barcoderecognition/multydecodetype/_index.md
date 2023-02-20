@@ -18,8 +18,8 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 
 | Name | Description |
 | --- | --- |
-| [MultyDecodeType](multydecodetype/#constructor)(params BaseDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
-| [MultyDecodeType](multydecodetype/#constructor_1)(params SingleDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
+| [MultyDecodeType](multydecodetype#constructor)(params BaseDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
+| [MultyDecodeType](multydecodetype#constructor_1)(params SingleDecodeType[]) | Initializes a new instance of the [`MultyDecodeType`](./multydecodetype/) class. |
 
 ## Properties
 

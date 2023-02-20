@@ -18,9 +18,9 @@ public class BarCodeException : Exception
 
 | Name | Description |
 | --- | --- |
-| [BarCodeException](barcodeexception/#constructor)() | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class. |
-| [BarCodeException](barcodeexception/#constructor_1)(string) | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class with specified error message. |
-| [BarCodeException](barcodeexception/#constructor_2)(string, Exception) | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class with the specified error message and the current exception. |
+| [BarCodeException](barcodeexception#constructor)() | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class. |
+| [BarCodeException](barcodeexception#constructor_1)(string) | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class with specified error message. |
+| [BarCodeException](barcodeexception#constructor_2)(string, Exception) | Initializes a new instance of the [`BarCodeException`](./barcodeexception/) class with the specified error message and the current exception. |
 
 ### See Also
 

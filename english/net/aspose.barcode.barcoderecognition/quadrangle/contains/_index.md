@@ -20,7 +20,7 @@ public bool Contains(Point pt)
 
 ### Return Value
 
-Returns  **true** if Point is contained within this [`Quadrangle`](../) class; otherwise,  **false**.
+Returns **true** if Point is contained within this [`Quadrangle`](../) class; otherwise, **false**.
 
 ### See Also
 
@@ -45,7 +45,7 @@ public bool Contains(int x, int y)
 
 ### Return Value
 
-Returns  **true** if point is contained within this [`Quadrangle`](../) class; otherwise,  **false**.
+Returns **true** if point is contained within this [`Quadrangle`](../) class; otherwise, **false**.
 
 ### See Also
 
@@ -69,7 +69,7 @@ public bool Contains(Quadrangle quad)
 
 ### Return Value
 
-Returns  **true** if [`Quadrangle`](../) is contained or intersect this [`Quadrangle`](../) class; otherwise,  **false**.
+Returns **true** if [`Quadrangle`](../) is contained or intersect this [`Quadrangle`](../) class; otherwise, **false**.
 
 ### See Also
 
@@ -93,7 +93,7 @@ public bool Contains(Rectangle rect)
 
 ### Return Value
 
-Returns  **true** if Rectangle is contained or intersect this [`Quadrangle`](../) class; otherwise,  **false**.
+Returns **true** if Rectangle is contained or intersect this [`Quadrangle`](../) class; otherwise, **false**.
 
 ### See Also
 

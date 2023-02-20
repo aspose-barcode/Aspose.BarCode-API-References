@@ -1,14 +1,14 @@
 ---
 title: ITF6
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  ITF6 barcode specification
+description: Specifies that the data should be decoded with ITF6 barcode specification
 type: docs
 weight: 540
 url: /net/aspose.barcode.barcoderecognition/decodetype/itf6/
 ---
 ## DecodeType.ITF6 field
 
-Specifies that the data should be decoded with  **ITF6** barcode specification
+Specifies that the data should be decoded with **ITF6** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType ITF6;

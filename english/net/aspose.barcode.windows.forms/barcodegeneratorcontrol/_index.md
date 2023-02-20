@@ -18,7 +18,7 @@ public sealed class BarCodeGeneratorControl : Control, IBarCodeGeneratorControl
 
 | Name | Description |
 | --- | --- |
-| [BarCodeGeneratorControl](barcodegeneratorcontrol/)() | The default constructor. |
+| [BarCodeGeneratorControl](barcodegeneratorcontrol)() | The default constructor. |
 
 ## Properties
 

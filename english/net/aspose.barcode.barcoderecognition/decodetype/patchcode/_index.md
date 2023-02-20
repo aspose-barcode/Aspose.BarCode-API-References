@@ -1,14 +1,14 @@
 ---
 title: PatchCode
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Patch code barcode specification. Barcode symbology is used for automated scanning
+description: Specifies that the data should be decoded with Patch code barcode specification. Barcode symbology is used for automated scanning
 type: docs
 weight: 670
 url: /net/aspose.barcode.barcoderecognition/decodetype/patchcode/
 ---
 ## DecodeType.PatchCode field
 
-Specifies that the data should be decoded with  **Patch code** barcode specification. Barcode symbology is used for automated scanning
+Specifies that the data should be decoded with **Patch code** barcode specification. Barcode symbology is used for automated scanning
 
 ```csharp
 public static readonly SingleDecodeType PatchCode;

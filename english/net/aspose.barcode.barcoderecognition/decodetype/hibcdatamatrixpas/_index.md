@@ -1,14 +1,14 @@
 ---
 title: HIBCDataMatrixPAS
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  HIBC PAS DataMatrix blank specification
+description: Specifies that the data should be decoded with HIBC PAS DataMatrix blank specification
 type: docs
 weight: 440
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/
 ---
 ## DecodeType.HIBCDataMatrixPAS field
 
-Specifies that the data should be decoded with  **HIBC PAS DataMatrix** blank specification
+Specifies that the data should be decoded with **HIBC PAS DataMatrix** blank specification
 
 ```csharp
 public static readonly SingleDecodeType HIBCDataMatrixPAS;

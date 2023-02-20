@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode.ComplexBarcode
 second_title: Aspose.BarCode for .NET API Reference
-description: The  Aspose.BarCode.ComplexBarcode containing general classes for the implementation of complex BarCode generation functions.
+description: The Aspose.BarCode.ComplexBarcode containing general classes for the implementation of complex BarCode generation functions.
 type: docs
 weight: 40
 url: /net/aspose.barcode.complexbarcode/
 ---
-The  **Aspose.BarCode.ComplexBarcode** containing general classes for the implementation of complex BarCode generation functions.
+The **Aspose.BarCode.ComplexBarcode** containing general classes for the implementation of complex BarCode generation functions.
 
 ## Classes
 

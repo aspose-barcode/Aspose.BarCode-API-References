@@ -1,14 +1,14 @@
 ---
 title: Pdf417
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  Pdf417 barcode specification
+description: Specifies that the data should be encoded with Pdf417 barcode specification
 type: docs
 weight: 650
 url: /net/aspose.barcode.generation/encodetypes/pdf417/
 ---
 ## EncodeTypes.Pdf417 field
 
-Specifies that the data should be encoded with  **Pdf417** barcode specification
+Specifies that the data should be encoded with **Pdf417** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Pdf417;

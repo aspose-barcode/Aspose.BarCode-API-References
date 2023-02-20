@@ -1,14 +1,14 @@
 ---
 title: CodablockF
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  CodablockF barcode specification.
+description: Specifies that the data should be encoded with CodablockF barcode specification.
 type: docs
 weight: 60
 url: /net/aspose.barcode.generation/encodetypes/codablockf/
 ---
 ## EncodeTypes.CodablockF field
 
-Specifies that the data should be encoded with  **Codablock-F** barcode specification.
+Specifies that the data should be encoded with **Codablock-F** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType CodablockF;

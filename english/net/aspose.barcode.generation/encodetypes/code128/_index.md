@@ -1,14 +1,14 @@
 ---
 title: Code128
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  CODE 128 barcode specification
+description: Specifies that the data should be encoded with CODE 128 barcode specification
 type: docs
 weight: 80
 url: /net/aspose.barcode.generation/encodetypes/code128/
 ---
 ## EncodeTypes.Code128 field
 
-Specifies that the data should be encoded with  **CODE 128** barcode specification
+Specifies that the data should be encoded with **CODE 128** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Code128;

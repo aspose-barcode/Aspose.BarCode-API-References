@@ -22,7 +22,7 @@ public bool ExportToXml(string xmlFile)
 
 Whether or not export completed successfully.
 
-Returns  **True** in case of success;  **False** Otherwise
+Returns **True** in case of success; **False** Otherwise
 
 ### See Also
 
@@ -48,7 +48,7 @@ public bool ExportToXml(Stream xml)
 
 Whether or not export completed successfully.
 
-Returns  **True** in case of success;  **False** Otherwise
+Returns **True** in case of success; **False** Otherwise
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: CompactPdf417
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  CompactPdf417 Pdf417Truncated barcode specification
+description: Specifies that the data should be decoded with CompactPdf417 Pdf417Truncated barcode specification
 type: docs
 weight: 160
 url: /net/aspose.barcode.barcoderecognition/decodetype/compactpdf417/
 ---
 ## DecodeType.CompactPdf417 field
 
-Specifies that the data should be decoded with  **CompactPdf417** (Pdf417Truncated) barcode specification
+Specifies that the data should be decoded with **CompactPdf417** (Pdf417Truncated) barcode specification
 
 ```csharp
 public static readonly SingleDecodeType CompactPdf417;

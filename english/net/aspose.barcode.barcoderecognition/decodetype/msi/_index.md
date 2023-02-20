@@ -1,14 +1,14 @@
 ---
 title: MSI
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  MSI Plessey barcode specification
+description: Specifies that the data should be decoded with MSI Plessey barcode specification
 type: docs
 weight: 630
 url: /net/aspose.barcode.barcoderecognition/decodetype/msi/
 ---
 ## DecodeType.MSI field
 
-Specifies that the data should be decoded with  **MSI Plessey** barcode specification
+Specifies that the data should be decoded with **MSI Plessey** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType MSI;

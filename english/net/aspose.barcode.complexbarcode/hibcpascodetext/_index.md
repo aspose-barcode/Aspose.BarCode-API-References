@@ -18,7 +18,7 @@ public class HIBCPASCodetext : IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [HIBCPASCodetext](hibcpascodetext/)() | The default constructor. |
+| [HIBCPASCodetext](hibcpascodetext)() | The default constructor. |
 
 ## Properties
 

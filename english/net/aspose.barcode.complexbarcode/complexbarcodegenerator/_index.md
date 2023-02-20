@@ -18,7 +18,7 @@ public sealed class ComplexBarcodeGenerator : Component
 
 | Name | Description |
 | --- | --- |
-| [ComplexBarcodeGenerator](complexbarcodegenerator/)(IComplexCodetext) | Creates an instance of ComplexBarcodeGenerator. |
+| [ComplexBarcodeGenerator](complexbarcodegenerator)(IComplexCodetext) | Creates an instance of ComplexBarcodeGenerator. |
 
 ## Properties
 

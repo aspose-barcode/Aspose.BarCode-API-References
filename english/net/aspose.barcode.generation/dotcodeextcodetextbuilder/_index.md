@@ -18,7 +18,7 @@ public class DotCodeExtCodetextBuilder : ExtCodetextBuilder
 
 | Name | Description |
 | --- | --- |
-| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | The default constructor. |
+| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder)() | The default constructor. |
 
 ## Methods
 

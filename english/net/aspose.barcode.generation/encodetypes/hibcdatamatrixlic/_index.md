@@ -1,14 +1,14 @@
 ---
 title: HIBCDataMatrixLIC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  HIBC LIC DataMatrix barcode specification.
+description: Specifies that the data should be encoded with HIBC LIC DataMatrix barcode specification.
 type: docs
 weight: 430
 url: /net/aspose.barcode.generation/encodetypes/hibcdatamatrixlic/
 ---
 ## EncodeTypes.HIBCDataMatrixLIC field
 
-Specifies that the data should be encoded with  **HIBC LIC DataMatrix** barcode specification.
+Specifies that the data should be encoded with **HIBC LIC DataMatrix** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType HIBCDataMatrixLIC;

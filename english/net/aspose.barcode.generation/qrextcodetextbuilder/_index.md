@@ -20,7 +20,7 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 | Name | Description |
 | --- | --- |
-| [QrExtCodetextBuilder](qrextcodetextbuilder/)() | The default constructor. |
+| [QrExtCodetextBuilder](qrextcodetextbuilder)() | The default constructor. |
 
 ## Methods
 

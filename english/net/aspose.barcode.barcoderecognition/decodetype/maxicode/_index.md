@@ -1,14 +1,14 @@
 ---
 title: MaxiCode
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  MaxiCode barcode specification
+description: Specifies that the data should be decoded with MaxiCode barcode specification
 type: docs
 weight: 580
 url: /net/aspose.barcode.barcoderecognition/decodetype/maxicode/
 ---
 ## DecodeType.MaxiCode field
 
-Specifies that the data should be decoded with  **MaxiCode** barcode specification
+Specifies that the data should be decoded with **MaxiCode** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType MaxiCode;

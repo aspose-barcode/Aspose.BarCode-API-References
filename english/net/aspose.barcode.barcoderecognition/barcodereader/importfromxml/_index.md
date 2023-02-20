@@ -20,7 +20,7 @@ public static BarCodeReader ImportFromXml(string xmlFile)
 
 ### Return Value
 
-Returns  **True** in case of success;
+Returns **True** in case of success;
 
 **False** Otherwise
 
@@ -46,7 +46,7 @@ public static BarCodeReader ImportFromXml(Stream xmlStream)
 
 ### Return Value
 
-Returns  **True** in case of success;
+Returns **True** in case of success;
 
 **False** Otherwise
 

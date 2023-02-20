@@ -1,14 +1,14 @@
 ---
 title: ISMN
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  ISMN barcode specification
+description: Specifies that the data should be decoded with ISMN barcode specification
 type: docs
 weight: 500
 url: /net/aspose.barcode.barcoderecognition/decodetype/ismn/
 ---
 ## DecodeType.ISMN field
 
-Specifies that the data should be decoded with  **ISMN** barcode specification
+Specifies that the data should be decoded with **ISMN** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType ISMN;

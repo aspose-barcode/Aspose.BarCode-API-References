@@ -18,20 +18,20 @@ public class BarCodeReader : Component
 
 | Name | Description |
 | --- | --- |
-| [BarCodeReader](barcodereader/#constructor)() | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method. |
-| [BarCodeReader](barcodereader/#constructor_1)(Bitmap) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from an image. |
-| [BarCodeReader](barcodereader/#constructor_8)(Stream) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_11)(string) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from file. |
-| [BarCodeReader](barcodereader/#constructor_2)(Bitmap, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_3)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_9)(Stream, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_10)(Stream, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_12)(string, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_13)(string, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader/#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor)() | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method. |
+| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from an image. |
+| [BarCodeReader](barcodereader#constructor_8)(Stream) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_11)(string) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from file. |
+| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
 
 ## Properties
 

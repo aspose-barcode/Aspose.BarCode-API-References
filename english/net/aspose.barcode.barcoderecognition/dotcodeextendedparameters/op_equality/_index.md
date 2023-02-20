@@ -21,7 +21,7 @@ public static bool operator ==(DotCodeExtendedParameters first, DotCodeExtendedP
 
 ### Return Value
 
-**true** if first has the same value as second; otherwise,  **false**.
+**true** if first has the same value as second; otherwise, **false**.
 
 ### See Also
 

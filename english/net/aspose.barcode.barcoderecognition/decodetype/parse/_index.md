@@ -21,7 +21,7 @@ public static bool Parse(string parsingType, out SingleDecodeType result)
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise,  **false**.
+**true** if s was converted successfully; otherwise, **false**.
 
 ### See Also
 

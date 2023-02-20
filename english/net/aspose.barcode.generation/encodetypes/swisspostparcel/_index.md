@@ -1,14 +1,14 @@
 ---
 title: SwissPostParcel
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  Swiss Post Parcel Barcode barcode specification. Supported types Domestic Mail International Mail Additional Services new
+description: Specifies that the data should be encoded with Swiss Post Parcel Barcode barcode specification. Supported types Domestic Mail International Mail Additional Services new
 type: docs
 weight: 760
 url: /net/aspose.barcode.generation/encodetypes/swisspostparcel/
 ---
 ## EncodeTypes.SwissPostParcel field
 
-Specifies that the data should be encoded with  **Swiss Post Parcel Barcode** barcode specification. Supported types: Domestic Mail, International Mail, Additional Services (new)
+Specifies that the data should be encoded with **Swiss Post Parcel Barcode** barcode specification. Supported types: Domestic Mail, International Mail, Additional Services (new)
 
 ```csharp
 public static readonly SymbologyEncodeType SwissPostParcel;

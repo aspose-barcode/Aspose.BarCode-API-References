@@ -18,7 +18,7 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 
 | Name | Description |
 | --- | --- |
-| [BarCodeResult](barcoderesult/)(BarCodeResult) | Creates a a copy of the [`BarCodeResult`](./barcoderesult/) class. |
+| [BarCodeResult](barcoderesult)(BarCodeResult) | Creates a a copy of the [`BarCodeResult`](./barcoderesult/) class. |
 
 ## Properties
 

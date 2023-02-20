@@ -1,14 +1,14 @@
 ---
 title: EAN14
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  EAN14 barcode specification
+description: Specifies that the data should be encoded with EAN14 barcode specification
 type: docs
 weight: 290
 url: /net/aspose.barcode.generation/encodetypes/ean14/
 ---
 ## EncodeTypes.EAN14 field
 
-Specifies that the data should be encoded with  **EAN14** barcode specification
+Specifies that the data should be encoded with **EAN14** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType EAN14;

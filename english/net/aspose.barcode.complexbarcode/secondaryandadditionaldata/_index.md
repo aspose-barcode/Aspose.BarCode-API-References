@@ -18,7 +18,7 @@ public class SecondaryAndAdditionalData
 
 | Name | Description |
 | --- | --- |
-| [SecondaryAndAdditionalData](secondaryandadditionaldata/)() | The default constructor. |
+| [SecondaryAndAdditionalData](secondaryandadditionaldata)() | The default constructor. |
 
 ## Properties
 

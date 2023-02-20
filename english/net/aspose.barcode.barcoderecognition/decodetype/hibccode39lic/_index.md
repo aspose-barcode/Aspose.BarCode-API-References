@@ -1,14 +1,14 @@
 ---
 title: HIBCCode39LIC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  HIBC LIC Code39 blank specification
+description: Specifies that the data should be decoded with HIBC LIC Code39 blank specification
 type: docs
 weight: 410
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibccode39lic/
 ---
 ## DecodeType.HIBCCode39LIC field
 
-Specifies that the data should be decoded with  **HIBC LIC Code39** blank specification
+Specifies that the data should be decoded with **HIBC LIC Code39** blank specification
 
 ```csharp
 public static readonly SingleDecodeType HIBCCode39LIC;

@@ -1,14 +1,14 @@
 ---
 title: Code93Standard
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  Standard CODE 93 barcode specification
+description: Specifies that the data should be encoded with Standard CODE 93 barcode specification
 type: docs
 weight: 140
 url: /net/aspose.barcode.generation/encodetypes/code93standard/
 ---
 ## EncodeTypes.Code93Standard field
 
-Specifies that the data should be encoded with  **Standard CODE 93** barcode specification
+Specifies that the data should be encoded with **Standard CODE 93** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Code93Standard;

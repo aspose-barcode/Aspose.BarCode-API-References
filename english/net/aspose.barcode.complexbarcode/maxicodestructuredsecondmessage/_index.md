@@ -18,7 +18,7 @@ public class MaxiCodeStructuredSecondMessage : MaxiCodeSecondMessage
 
 | Name | Description |
 | --- | --- |
-| [MaxiCodeStructuredSecondMessage](maxicodestructuredsecondmessage/)() | The default constructor. |
+| [MaxiCodeStructuredSecondMessage](maxicodestructuredsecondmessage)() | The default constructor. |
 
 ## Properties
 

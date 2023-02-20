@@ -18,7 +18,7 @@ public class PrimaryData
 
 | Name | Description |
 | --- | --- |
-| [PrimaryData](primarydata/)() | The default constructor. |
+| [PrimaryData](primarydata)() | The default constructor. |
 
 ## Properties
 

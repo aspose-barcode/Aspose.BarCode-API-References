@@ -1,14 +1,14 @@
 ---
 title: DatabarLimited
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  GS1 Databar limited barcode specification
+description: Specifies that the data should be decoded with GS1 Databar limited barcode specification
 type: docs
 weight: 190
 url: /net/aspose.barcode.barcoderecognition/decodetype/databarlimited/
 ---
 ## DecodeType.DatabarLimited field
 
-Specifies that the data should be decoded with  **GS1 Databar limited** barcode specification
+Specifies that the data should be decoded with **GS1 Databar limited** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType DatabarLimited;

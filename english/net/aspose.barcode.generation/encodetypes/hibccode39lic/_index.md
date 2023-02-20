@@ -1,14 +1,14 @@
 ---
 title: HIBCCode39LIC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  HIBC LIC Code39Standart barcode specification.
+description: Specifies that the data should be encoded with HIBC LIC Code39Standart barcode specification.
 type: docs
 weight: 410
 url: /net/aspose.barcode.generation/encodetypes/hibccode39lic/
 ---
 ## EncodeTypes.HIBCCode39LIC field
 
-Specifies that the data should be encoded with  **HIBC LIC Code39Standart** barcode specification.
+Specifies that the data should be encoded with **HIBC LIC Code39Standart** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType HIBCCode39LIC;

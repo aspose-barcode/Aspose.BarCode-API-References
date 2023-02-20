@@ -1,14 +1,14 @@
 ---
 title: HIBCCode128LIC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  HIBC LIC Code128 barcode specification.
+description: Specifies that the data should be encoded with HIBC LIC Code128 barcode specification.
 type: docs
 weight: 390
 url: /net/aspose.barcode.generation/encodetypes/hibccode128lic/
 ---
 ## EncodeTypes.HIBCCode128LIC field
 
-Specifies that the data should be encoded with  **HIBC LIC Code128** barcode specification.
+Specifies that the data should be encoded with **HIBC LIC Code128** barcode specification.
 
 ```csharp
 public static readonly SymbologyEncodeType HIBCCode128LIC;

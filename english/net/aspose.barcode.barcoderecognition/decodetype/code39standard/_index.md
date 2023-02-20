@@ -1,14 +1,14 @@
 ---
 title: Code39Standard
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Standard CODE 39 barcode specification
+description: Specifies that the data should be decoded with Standard CODE 39 barcode specification
 type: docs
 weight: 130
 url: /net/aspose.barcode.barcoderecognition/decodetype/code39standard/
 ---
 ## DecodeType.Code39Standard field
 
-Specifies that the data should be decoded with  **Standard CODE 39** barcode specification
+Specifies that the data should be decoded with **Standard CODE 39** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType Code39Standard;

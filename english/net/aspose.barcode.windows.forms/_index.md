@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode.Windows.Forms
 second_title: Aspose.BarCode for .NET API Reference
-description: The  Aspose.BarCode.Windows.Forms contains WinForms controls for the 1D/2D barcodes generation and drawing.
+description: The Aspose.BarCode.Windows.Forms contains WinForms controls for the 1D/2D barcodes generation and drawing.
 type: docs
 weight: 60
 url: /net/aspose.barcode.windows.forms/
 ---
-The  **Aspose.BarCode.Windows.Forms** contains WinForms controls for the 1D/2D barcodes generation and drawing.
+The **Aspose.BarCode.Windows.Forms** contains WinForms controls for the 1D/2D barcodes generation and drawing.
 
 ## Classes
 

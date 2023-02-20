@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Property Value
 
-Returns  **true** if all parameters has only default values; otherwise,  **false**.
+Returns **true** if all parameters has only default values; otherwise, **false**.
 
 ### See Also
 
