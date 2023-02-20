@@ -1,14 +1,14 @@
 ---
 title: PZN
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  PZN barcode specification. This symbology is also known as Pharma Zentral Nummer
+description: Specifies that the data should be decoded with PZN barcode specification. This symbology is also known as Pharma Zentral Nummer
 type: docs
 weight: 730
 url: /net/aspose.barcode.barcoderecognition/decodetype/pzn/
 ---
 ## DecodeType.PZN field
 
-Specifies that the data should be decoded with  **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer
+Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer
 
 ```csharp
 public static readonly SingleDecodeType PZN;

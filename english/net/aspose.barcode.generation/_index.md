@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode.Generation
 second_title: Aspose.BarCode for .NET API Reference
-description: The  Aspose.BarCode.Generation containing general classes for the implementation of BarCode generation functions.
+description: The Aspose.BarCode.Generation containing general classes for the implementation of BarCode generation functions.
 type: docs
 weight: 50
 url: /net/aspose.barcode.generation/
 ---
-The  **Aspose.BarCode.Generation** containing general classes for the implementation of BarCode generation functions.
+The **Aspose.BarCode.Generation** containing general classes for the implementation of BarCode generation functions.
 
 ## Classes
 

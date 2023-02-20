@@ -18,7 +18,7 @@ public float Resolution { get; set; }
 
 | exception | condition |
 | --- | --- |
-| [BarCodeException](../../../aspose.barcode/barcodeexception/) | The  **Resolution** parameter value is less than or equal to 0. |
+| [BarCodeException](../../../aspose.barcode/barcodeexception/) | The **Resolution** parameter value is less than or equal to 0. |
 
 ### See Also
 

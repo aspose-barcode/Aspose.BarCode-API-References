@@ -18,7 +18,7 @@ public int QuietZoneCoef { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | The  **QuietZoneCoef** parameter value is less than 10. |
+| ArgumentException | The **QuietZoneCoef** parameter value is less than 10. |
 
 ### See Also
 

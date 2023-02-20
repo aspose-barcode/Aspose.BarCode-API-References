@@ -18,7 +18,7 @@ public float WideNarrowRatio { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | The  **WideNarrowRatio** parameter value is less than or equal to 0. |
+| ArgumentException | The **WideNarrowRatio** parameter value is less than or equal to 0. |
 
 ### See Also
 

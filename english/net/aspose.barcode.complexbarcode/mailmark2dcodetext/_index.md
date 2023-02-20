@@ -18,7 +18,7 @@ public sealed class Mailmark2DCodetext : IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [Mailmark2DCodetext](mailmark2dcodetext/)() | The default constructor. |
+| [Mailmark2DCodetext](mailmark2dcodetext)() | The default constructor. |
 
 ## Properties
 

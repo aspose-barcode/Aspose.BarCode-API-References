@@ -18,7 +18,7 @@ public float Resolution { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | The  **Resolution** parameter value is less than or equal to 0. |
+| ArgumentException | The **Resolution** parameter value is less than or equal to 0. |
 
 ### See Also
 

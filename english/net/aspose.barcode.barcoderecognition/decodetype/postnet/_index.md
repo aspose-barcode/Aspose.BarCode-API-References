@@ -1,14 +1,14 @@
 ---
 title: Postnet
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Postnet barcode specification
+description: Specifies that the data should be decoded with Postnet barcode specification
 type: docs
 weight: 720
 url: /net/aspose.barcode.barcoderecognition/decodetype/postnet/
 ---
 ## DecodeType.Postnet field
 
-Specifies that the data should be decoded with  **Postnet** barcode specification
+Specifies that the data should be decoded with **Postnet** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType Postnet;

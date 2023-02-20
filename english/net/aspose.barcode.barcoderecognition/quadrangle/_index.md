@@ -18,8 +18,8 @@ public class Quadrangle : IEquatable<Quadrangle>
 
 | Name | Description |
 | --- | --- |
-| [Quadrangle](quadrangle/#constructor)() | Initializes a new empty instance of the [`Quadrangle`](./quadrangle/) class. |
-| [Quadrangle](quadrangle/#constructor_1)(Point, Point, Point, Point) | Initializes a new instance of the [`Quadrangle`](./quadrangle/) class with the describing points. |
+| [Quadrangle](quadrangle#constructor)() | Initializes a new empty instance of the [`Quadrangle`](./quadrangle/) class. |
+| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | Initializes a new instance of the [`Quadrangle`](./quadrangle/) class with the describing points. |
 
 ## Properties
 

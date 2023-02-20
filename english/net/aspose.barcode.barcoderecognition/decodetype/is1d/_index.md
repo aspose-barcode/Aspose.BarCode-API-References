@@ -20,7 +20,7 @@ public static bool Is1D(BaseDecodeType symbology)
 
 ### Return Value
 
-Returns  **true** if [`BaseDecodeType`](../../basedecodetype/) contains any 1D barcode symbology; otherwise, returns  **false**.
+Returns **true** if [`BaseDecodeType`](../../basedecodetype/) contains any 1D barcode symbology; otherwise, returns **false**.
 
 ### See Also
 

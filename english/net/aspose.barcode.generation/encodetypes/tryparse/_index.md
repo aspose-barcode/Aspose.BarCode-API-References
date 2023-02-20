@@ -21,7 +21,7 @@ public static bool TryParse(string parsingType, out BaseEncodeType result)
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise,  **false**.
+**true** if s was converted successfully; otherwise, **false**.
 
 ### See Also
 

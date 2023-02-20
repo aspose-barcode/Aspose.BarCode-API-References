@@ -1,14 +1,14 @@
 ---
 title: Code32
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Code32 blank specification
+description: Specifies that the data should be decoded with Code32 blank specification
 type: docs
 weight: 110
 url: /net/aspose.barcode.barcoderecognition/decodetype/code32/
 ---
 ## DecodeType.Code32 field
 
-Specifies that the data should be decoded with  **Code32** blank specification
+Specifies that the data should be decoded with **Code32** blank specification
 
 ```csharp
 public static readonly SingleDecodeType Code32;

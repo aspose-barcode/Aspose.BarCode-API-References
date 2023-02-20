@@ -1,14 +1,14 @@
 ---
 title: PostalTypes
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that data will be checked with all of  1.5D Postal barcode symbologies like  Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
+description: Specifies that data will be checked with all of 1.5D Postal barcode symbologies like Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
 type: docs
 weight: 710
 url: /net/aspose.barcode.barcoderecognition/decodetype/postaltypes/
 ---
 ## DecodeType.PostalTypes field
 
-Specifies that data will be checked with all of  **1.5D Postal** barcode symbologies, like  **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
+Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
 
 ```csharp
 public static readonly MultyDecodeType PostalTypes;

@@ -18,7 +18,7 @@ public Unit Size { get; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | The  **Size** parameter value is less than or equal to 0. |
+| ArgumentException | The **Size** parameter value is less than or equal to 0. |
 
 ### See Also
 

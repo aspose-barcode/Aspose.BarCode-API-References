@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Property Value
 
-Returns  **true** if all Points of this [`Quadrangle`](../) have values of zero; otherwise,  **false**.
+Returns **true** if all Points of this [`Quadrangle`](../) have values of zero; otherwise, **false**.
 
 ### See Also
 

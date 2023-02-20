@@ -1,14 +1,14 @@
 ---
 title: AustralianPosteParcel
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Australian Post Domestic eParcel Barcode barcode specification
+description: Specifies that the data should be decoded with Australian Post Domestic eParcel Barcode barcode specification
 type: docs
 weight: 30
 url: /net/aspose.barcode.barcoderecognition/decodetype/australianposteparcel/
 ---
 ## DecodeType.AustralianPosteParcel field
 
-Specifies that the data should be decoded with  **Australian Post Domestic eParcel Barcode** barcode specification
+Specifies that the data should be decoded with **Australian Post Domestic eParcel Barcode** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType AustralianPosteParcel;

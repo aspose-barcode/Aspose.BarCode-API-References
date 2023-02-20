@@ -1,12 +1,12 @@
 ---
 title: Aspose.BarCode
 second_title: Aspose.BarCode for .NET API Reference
-description: The  Aspose.BarCode contains tools for the 1D/2D barcodes generation and drawing.
+description: The Aspose.BarCode contains tools for the 1D/2D barcodes generation and drawing.
 type: docs
 weight: 10
 url: /net/aspose.barcode/
 ---
-The  **Aspose.BarCode** contains tools for the 1D/2D barcodes generation and drawing.
+The **Aspose.BarCode** contains tools for the 1D/2D barcodes generation and drawing.
 
 ## Classes
 

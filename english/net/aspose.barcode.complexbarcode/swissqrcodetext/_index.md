@@ -18,8 +18,8 @@ public sealed class SwissQRCodetext : IComplexCodetext
 
 | Name | Description |
 | --- | --- |
-| [SwissQRCodetext](swissqrcodetext/#constructor)() | Creates an instance of SwissQRCodetext. |
-| [SwissQRCodetext](swissqrcodetext/#constructor_1)(SwissQRBill) | Creates an instance of SwissQRCodetext. |
+| [SwissQRCodetext](swissqrcodetext#constructor)() | Creates an instance of SwissQRCodetext. |
+| [SwissQRCodetext](swissqrcodetext#constructor_1)(SwissQRBill) | Creates an instance of SwissQRCodetext. |
 
 ## Properties
 

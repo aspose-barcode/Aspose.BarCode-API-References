@@ -1,14 +1,14 @@
 ---
 title: DatabarOmniDirectional
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  GS1 Databar omnidirectional barcode specification
+description: Specifies that the data should be decoded with GS1 Databar omnidirectional barcode specification
 type: docs
 weight: 200
 url: /net/aspose.barcode.barcoderecognition/decodetype/databaromnidirectional/
 ---
 ## DecodeType.DatabarOmniDirectional field
 
-Specifies that the data should be decoded with  **GS1 Databar omni-directional** barcode specification
+Specifies that the data should be decoded with **GS1 Databar omni-directional** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType DatabarOmniDirectional;

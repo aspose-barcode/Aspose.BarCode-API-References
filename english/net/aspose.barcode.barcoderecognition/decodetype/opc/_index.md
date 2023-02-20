@@ -1,14 +1,14 @@
 ---
 title: OPC
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  OPC barcode specification
+description: Specifies that the data should be decoded with OPC barcode specification
 type: docs
 weight: 660
 url: /net/aspose.barcode.barcoderecognition/decodetype/opc/
 ---
 ## DecodeType.OPC field
 
-Specifies that the data should be decoded with  **OPC** barcode specification
+Specifies that the data should be decoded with **OPC** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType OPC;

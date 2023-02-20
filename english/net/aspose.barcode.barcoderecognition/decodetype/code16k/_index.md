@@ -1,14 +1,14 @@
 ---
 title: Code16K
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  SCode16K barcode specification
+description: Specifies that the data should be decoded with SCode16K barcode specification
 type: docs
 weight: 100
 url: /net/aspose.barcode.barcoderecognition/decodetype/code16k/
 ---
 ## DecodeType.Code16K field
 
-Specifies that the data should be decoded with  **SCode16K** barcode specification
+Specifies that the data should be decoded with **SCode16K** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType Code16K;

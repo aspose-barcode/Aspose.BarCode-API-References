@@ -20,7 +20,7 @@ public class MaxiCodeExtCodetextBuilder : ExtCodetextBuilder
 
 | Name | Description |
 | --- | --- |
-| [MaxiCodeExtCodetextBuilder](maxicodeextcodetextbuilder/)() | The default constructor. |
+| [MaxiCodeExtCodetextBuilder](maxicodeextcodetextbuilder)() | The default constructor. |
 
 ## Methods
 

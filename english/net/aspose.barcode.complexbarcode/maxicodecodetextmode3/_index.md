@@ -18,7 +18,7 @@ public class MaxiCodeCodetextMode3 : MaxiCodeStructuredCodetext
 
 | Name | Description |
 | --- | --- |
-| [MaxiCodeCodetextMode3](maxicodecodetextmode3/)() | The default constructor. |
+| [MaxiCodeCodetextMode3](maxicodecodetextmode3)() | The default constructor. |
 
 ## Properties
 

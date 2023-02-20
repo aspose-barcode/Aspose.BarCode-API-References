@@ -18,7 +18,7 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [Metered](metered/)() | The default constructor. |
+| [Metered](metered)() | The default constructor. |
 
 ## Methods
 

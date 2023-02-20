@@ -1,14 +1,14 @@
 ---
 title: Planet
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  Planet barcode specification
+description: Specifies that the data should be encoded with Planet barcode specification
 type: docs
 weight: 670
 url: /net/aspose.barcode.generation/encodetypes/planet/
 ---
 ## EncodeTypes.Planet field
 
-Specifies that the data should be encoded with  **Planet** barcode specification
+Specifies that the data should be encoded with **Planet** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Planet;

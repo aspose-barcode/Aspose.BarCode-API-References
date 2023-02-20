@@ -1,14 +1,14 @@
 ---
 title: HIBCCode128PAS
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  HIBC PAS Code128 blank specification
+description: Specifies that the data should be decoded with HIBC PAS Code128 blank specification
 type: docs
 weight: 400
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibccode128pas/
 ---
 ## DecodeType.HIBCCode128PAS field
 
-Specifies that the data should be decoded with  **HIBC PAS Code128** blank specification
+Specifies that the data should be decoded with **HIBC PAS Code128** blank specification
 
 ```csharp
 public static readonly SingleDecodeType HIBCCode128PAS;

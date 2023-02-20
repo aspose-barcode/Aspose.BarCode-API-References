@@ -20,7 +20,7 @@ public sealed class Address : IEquatable<Address>
 
 | Name | Description |
 | --- | --- |
-| [Address](address/)() | Creates instance of Address |
+| [Address](address)() | Creates instance of Address |
 
 ## Properties
 

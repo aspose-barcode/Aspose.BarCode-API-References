@@ -18,7 +18,7 @@ public Unit SupplementSpace { get; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | The  **Space** parameter value is less than 0. |
+| ArgumentException | The **Space** parameter value is less than 0. |
 
 ### See Also
 

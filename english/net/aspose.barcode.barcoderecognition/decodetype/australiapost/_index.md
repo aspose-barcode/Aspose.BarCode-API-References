@@ -1,14 +1,14 @@
 ---
 title: AustraliaPost
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be decoded with  Australia Post barcode specification
+description: Specifies that the data should be decoded with Australia Post barcode specification
 type: docs
 weight: 40
 url: /net/aspose.barcode.barcoderecognition/decodetype/australiapost/
 ---
 ## DecodeType.AustraliaPost field
 
-Specifies that the data should be decoded with  **Australia Post** barcode specification
+Specifies that the data should be decoded with **Australia Post** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType AustraliaPost;

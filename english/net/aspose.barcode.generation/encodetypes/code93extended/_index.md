@@ -1,14 +1,14 @@
 ---
 title: Code93Extended
 second_title: Aspose.BarCode for .NET API Reference
-description: Specifies that the data should be encoded with  Extended CODE 93 barcode specification
+description: Specifies that the data should be encoded with Extended CODE 93 barcode specification
 type: docs
 weight: 130
 url: /net/aspose.barcode.generation/encodetypes/code93extended/
 ---
 ## EncodeTypes.Code93Extended field
 
-Specifies that the data should be encoded with  **Extended CODE 93** barcode specification
+Specifies that the data should be encoded with **Extended CODE 93** barcode specification
 
 ```csharp
 public static readonly SymbologyEncodeType Code93Extended;
