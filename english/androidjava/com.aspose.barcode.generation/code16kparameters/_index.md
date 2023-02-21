@@ -1,10 +1,10 @@
 ---
 title: Code16KParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Code16K parameters.
 type: docs
 weight: 22
-url: /java/com.aspose.barcode.generation/code16kparameters/
+url: /androidjava/com.aspose.barcode.generation/code16kparameters/
 ---
 **Inheritance:**
 java.lang.Object

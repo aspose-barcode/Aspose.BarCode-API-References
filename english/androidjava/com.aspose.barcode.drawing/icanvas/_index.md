@@ -1,10 +1,10 @@
 ---
 title: ICanvas
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents generic canvas for barcode generation drawing.
 type: docs
 weight: 24
-url: /java/com.aspose.barcode.drawing/icanvas/
+url: /androidjava/com.aspose.barcode.drawing/icanvas/
 ---```
 public interface ICanvas
 ```

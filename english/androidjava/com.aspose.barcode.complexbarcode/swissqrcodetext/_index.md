@@ -1,10 +1,10 @@
 ---
 title: SwissQRCodetext
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the SwissQR code.
 type: docs
 weight: 36
-url: /java/com.aspose.barcode.complexbarcode/swissqrcodetext/
+url: /androidjava/com.aspose.barcode.complexbarcode/swissqrcodetext/
 ---
 **Inheritance:**
 java.lang.Object

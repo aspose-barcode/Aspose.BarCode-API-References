@@ -1,10 +1,10 @@
 ---
 title: DataMatrixEncodeMode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: DataMatrix encoders encoding mode default to AUTO
 type: docs
 weight: 66
-url: /java/com.aspose.barcode.generation/datamatrixencodemode/
+url: /androidjava/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

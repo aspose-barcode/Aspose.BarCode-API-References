@@ -1,10 +1,10 @@
 ---
 title: FontBuilder
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents factory for Font class.
 type: docs
 weight: 16
-url: /java/com.aspose.barcode.drawing/fontbuilder/
+url: /androidjava/com.aspose.barcode.drawing/fontbuilder/
 ---
 **Inheritance:**
 java.lang.Object

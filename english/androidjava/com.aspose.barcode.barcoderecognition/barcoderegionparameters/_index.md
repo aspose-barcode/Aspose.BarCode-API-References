@@ -1,10 +1,10 @@
 ---
 title: BarCodeRegionParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents the recognized barcodes region and barcode angle
 type: docs
 weight: 15
-url: /java/com.aspose.barcode.barcoderecognition/barcoderegionparameters/
+url: /androidjava/com.aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 **Inheritance:**
 java.lang.Object

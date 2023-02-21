@@ -1,10 +1,10 @@
 ---
 title: AztecParametersUI
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: UI wrapper for com.aspose.barcode.generation.AztecParameters class.
 type: docs
 weight: 10
-url: /java/com.aspose.barcode.component/aztecparametersui/
+url: /androidjava/com.aspose.barcode.component/aztecparametersui/
 ---
 **Inheritance:**
 java.lang.Object

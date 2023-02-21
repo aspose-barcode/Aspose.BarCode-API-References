@@ -1,10 +1,10 @@
 ---
 title: DefaultValues
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 14
-url: /java/com.aspose.barcode/defaultvalues/
+url: /androidjava/com.aspose.barcode/defaultvalues/
 ---
 **Inheritance:**
 java.lang.Object

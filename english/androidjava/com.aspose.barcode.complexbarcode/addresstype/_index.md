@@ -1,10 +1,10 @@
 ---
 title: AddressType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Address type
 type: docs
 weight: 38
-url: /java/com.aspose.barcode.complexbarcode/addresstype/
+url: /androidjava/com.aspose.barcode.complexbarcode/addresstype/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

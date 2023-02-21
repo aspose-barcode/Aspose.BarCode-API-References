@@ -1,10 +1,10 @@
 ---
 title: HIBCLICPrimaryDataCodetext
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data.
 type: docs
 weight: 16
-url: /java/com.aspose.barcode.complexbarcode/hibclicprimarydatacodetext/
+url: /androidjava/com.aspose.barcode.complexbarcode/hibclicprimarydatacodetext/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.complexbarcode.HIBCLICComplexCodetext](../../com.aspose.barcode.complexbarcode/hibcliccomplexcodetext)

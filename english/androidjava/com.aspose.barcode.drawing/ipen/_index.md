@@ -1,10 +1,10 @@
 ---
 title: IPen
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents generic solid pen for barcode generation drawing.
 type: docs
 weight: 26
-url: /java/com.aspose.barcode.drawing/ipen/
+url: /androidjava/com.aspose.barcode.drawing/ipen/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable

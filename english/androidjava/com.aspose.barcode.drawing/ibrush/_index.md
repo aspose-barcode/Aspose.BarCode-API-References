@@ -1,10 +1,10 @@
 ---
 title: IBrush
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents generic solid brush for barcode generation drawing.
 type: docs
 weight: 23
-url: /java/com.aspose.barcode.drawing/ibrush/
+url: /androidjava/com.aspose.barcode.drawing/ibrush/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable

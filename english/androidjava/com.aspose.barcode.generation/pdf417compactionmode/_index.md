@@ -1,10 +1,10 @@
 ---
 title: Pdf417CompactionMode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Pdf417 barcodes compation mode
 type: docs
 weight: 75
-url: /java/com.aspose.barcode.generation/pdf417compactionmode/
+url: /androidjava/com.aspose.barcode.generation/pdf417compactionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

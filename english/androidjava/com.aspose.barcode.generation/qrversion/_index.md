@@ -1,10 +1,10 @@
 ---
 title: QRVersion
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Version of QR Code.
 type: docs
 weight: 81
-url: /java/com.aspose.barcode.generation/qrversion/
+url: /androidjava/com.aspose.barcode.generation/qrversion/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

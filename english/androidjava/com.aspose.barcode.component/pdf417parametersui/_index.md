@@ -1,10 +1,10 @@
 ---
 title: Pdf417ParametersUI
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class.
 type: docs
 weight: 15
-url: /java/com.aspose.barcode.component/pdf417parametersui/
+url: /androidjava/com.aspose.barcode.component/pdf417parametersui/
 ---
 **Inheritance:**
 java.lang.Object

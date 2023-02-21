@@ -1,10 +1,10 @@
 ---
 title: HorizontalTextAlignment
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 20
-url: /java/com.aspose.barcode.drawing/horizontaltextalignment/
+url: /androidjava/com.aspose.barcode.drawing/horizontaltextalignment/
 ---
 **Inheritance:**
 java.lang.Object

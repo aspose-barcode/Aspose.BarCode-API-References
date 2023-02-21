@@ -1,10 +1,10 @@
 ---
 title: Metered
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Provides methods to set metered key.
 type: docs
 weight: 10
-url: /java/com.aspose.barcode.metered/metered/
+url: /androidjava/com.aspose.barcode.metered/metered/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: Address
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Address of creditor or debtor.
 type: docs
 weight: 10
-url: /java/com.aspose.barcode.complexbarcode/address/
+url: /androidjava/com.aspose.barcode.complexbarcode/address/
 ---
 **Inheritance:**
 java.lang.Object

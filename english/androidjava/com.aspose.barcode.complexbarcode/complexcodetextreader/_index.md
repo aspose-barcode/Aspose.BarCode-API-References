@@ -1,10 +1,10 @@
 ---
 title: ComplexCodetextReader
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: ComplexCodetextReader decodes codetext to specified complex barcode type.
 type: docs
 weight: 13
-url: /java/com.aspose.barcode.complexbarcode/complexcodetextreader/
+url: /androidjava/com.aspose.barcode.complexbarcode/complexcodetextreader/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: MailmarkCodetext
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the 4-state Royal Mailmark code.
 type: docs
 weight: 24
-url: /java/com.aspose.barcode.complexbarcode/mailmarkcodetext/
+url: /androidjava/com.aspose.barcode.complexbarcode/mailmarkcodetext/
 ---
 **Inheritance:**
 java.lang.Object

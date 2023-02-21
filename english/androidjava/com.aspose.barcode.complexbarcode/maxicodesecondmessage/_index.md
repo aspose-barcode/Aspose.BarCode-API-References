@@ -1,10 +1,10 @@
 ---
 title: MaxiCodeSecondMessage
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Base class for encoding and decoding second message for MaxiCode barcode.
 type: docs
 weight: 28
-url: /java/com.aspose.barcode.complexbarcode/maxicodesecondmessage/
+url: /androidjava/com.aspose.barcode.complexbarcode/maxicodesecondmessage/
 ---
 **Inheritance:**
 java.lang.Object

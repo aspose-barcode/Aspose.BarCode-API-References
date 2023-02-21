@@ -1,10 +1,10 @@
 ---
 title: DataMatrixParametersUI
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class.
 type: docs
 weight: 14
-url: /java/com.aspose.barcode.component/datamatrixparametersui/
+url: /androidjava/com.aspose.barcode.component/datamatrixparametersui/
 ---
 **Inheritance:**
 java.lang.Object

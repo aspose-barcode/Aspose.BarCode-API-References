@@ -1,10 +1,10 @@
 ---
 title: EncodeTypes
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the type of barcode to encode.
 type: docs
 weight: 32
-url: /java/com.aspose.barcode.generation/encodetypes/
+url: /androidjava/com.aspose.barcode.generation/encodetypes/
 ---
 **Inheritance:**
 java.lang.Object

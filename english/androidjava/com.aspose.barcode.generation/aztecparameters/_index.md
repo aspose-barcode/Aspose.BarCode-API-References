@@ -1,10 +1,10 @@
 ---
 title: AztecParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Aztec parameters.
 type: docs
 weight: 11
-url: /java/com.aspose.barcode.generation/aztecparameters/
+url: /androidjava/com.aspose.barcode.generation/aztecparameters/
 ---
 **Inheritance:**
 java.lang.Object

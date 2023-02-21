@@ -1,10 +1,10 @@
 ---
 title: BarCodeImageFormatExporter
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents helper for export barcode with .
 type: docs
 weight: 10
-url: /java/com.aspose.barcode.drawing/barcodeimageformatexporter/
+url: /androidjava/com.aspose.barcode.drawing/barcodeimageformatexporter/
 ---
 **Inheritance:**
 java.lang.Object

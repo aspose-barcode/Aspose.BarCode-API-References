@@ -1,10 +1,10 @@
 ---
 title: BarcodeSvmDetectorSettings
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Barcode detector settings.
 type: docs
 weight: 19
-url: /java/com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/
+url: /androidjava/com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/
 ---
 **Inheritance:**
 java.lang.Object

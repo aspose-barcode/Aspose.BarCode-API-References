@@ -1,10 +1,10 @@
 ---
 title: CouponParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Coupon parameters.
 type: docs
 weight: 26
-url: /java/com.aspose.barcode.generation/couponparameters/
+url: /androidjava/com.aspose.barcode.generation/couponparameters/
 ---
 **Inheritance:**
 java.lang.Object

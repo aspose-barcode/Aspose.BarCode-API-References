@@ -1,10 +1,10 @@
 ---
 title: Code128DataPortion
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Contains the data of subtype for Code128 type barcode
 type: docs
 weight: 22
-url: /java/com.aspose.barcode.barcoderecognition/code128dataportion/
+url: /androidjava/com.aspose.barcode.barcoderecognition/code128dataportion/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: QREncodeMode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for QR barcodes.
 type: docs
 weight: 78
-url: /java/com.aspose.barcode.generation/qrencodemode/
+url: /androidjava/com.aspose.barcode.generation/qrencodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

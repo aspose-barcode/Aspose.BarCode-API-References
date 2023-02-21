@@ -1,10 +1,10 @@
 ---
 title: DataBarExtendedParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a DataBar additional information of recognized barcode BarCodeReader reader  new BarCodeReadertest.png DecodeType.DATABAR_OMNI_DIRECTIONAL forBarCodeResult result  reader.readBarCodes    System.out.printlnBarCode Type   result.getCodeTypeName    System.out.printlnBarCode CodeText   result.getCodeText    System.out.printlnQR Structured Append Quantity   result.getExtended.getQR.getQRStructuredAppendModeBarCodesQuantity
 type: docs
 weight: 25
-url: /java/com.aspose.barcode.barcoderecognition/databarextendedparameters/
+url: /androidjava/com.aspose.barcode.barcoderecognition/databarextendedparameters/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseExtendedParameters](../../com.aspose.barcode.barcoderecognition/baseextendedparameters)

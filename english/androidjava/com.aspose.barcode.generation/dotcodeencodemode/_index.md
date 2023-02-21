@@ -1,10 +1,10 @@
 ---
 title: DotCodeEncodeMode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for DotCode barcodes.
 type: docs
 weight: 67
-url: /java/com.aspose.barcode.generation/dotcodeencodemode/
+url: /androidjava/com.aspose.barcode.generation/dotcodeencodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

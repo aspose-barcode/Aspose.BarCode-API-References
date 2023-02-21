@@ -1,10 +1,10 @@
 ---
 title: TextOptions
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents text drawing options
 type: docs
 weight: 21
-url: /java/com.aspose.barcode.drawing/textoptions/
+url: /androidjava/com.aspose.barcode.drawing/textoptions/
 ---
 **Inheritance:**
 java.lang.Object

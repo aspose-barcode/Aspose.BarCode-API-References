@@ -1,10 +1,10 @@
 ---
 title: MaxiCodeCodetextMode3
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the MaxiCode code for modes 3.
 type: docs
 weight: 27
-url: /java/com.aspose.barcode.complexbarcode/maxicodecodetextmode3/
+url: /androidjava/com.aspose.barcode.complexbarcode/maxicodecodetextmode3/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeCodetext](../../com.aspose.barcode.complexbarcode/maxicodecodetext), [com.aspose.barcode.complexbarcode.MaxiCodeStructuredCodetext](../../com.aspose.barcode.complexbarcode/maxicodestructuredcodetext)

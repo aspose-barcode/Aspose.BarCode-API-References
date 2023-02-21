@@ -1,10 +1,10 @@
 ---
 title: FakePen
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents pen for FakePen.
 type: docs
 weight: 15
-url: /java/com.aspose.barcode.drawing/fakepen/
+url: /androidjava/com.aspose.barcode.drawing/fakepen/
 ---
 **Inheritance:**
 java.lang.Object

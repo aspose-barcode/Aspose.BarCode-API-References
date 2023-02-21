@@ -1,10 +1,10 @@
 ---
 title: MaxiCodeCodetext
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Base class for encoding and decoding the text embedded in the MaxiCode code.
 type: docs
 weight: 25
-url: /java/com.aspose.barcode.complexbarcode/maxicodecodetext/
+url: /androidjava/com.aspose.barcode.complexbarcode/maxicodecodetext/
 ---
 **Inheritance:**
 java.lang.Object

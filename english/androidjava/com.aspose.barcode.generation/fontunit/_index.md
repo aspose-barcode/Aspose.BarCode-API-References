@@ -1,10 +1,10 @@
 ---
 title: FontUnit
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Defines a particular format for text including font face size and style attributes  where size in Unit value property.
 type: docs
 weight: 35
-url: /java/com.aspose.barcode.generation/fontunit/
+url: /androidjava/com.aspose.barcode.generation/fontunit/
 ---
 **Inheritance:**
 java.lang.Object

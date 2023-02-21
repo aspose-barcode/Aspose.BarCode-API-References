@@ -1,10 +1,10 @@
 ---
 title: ImageUnitConverter
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 39
-url: /java/com.aspose.barcode.generation/imageunitconverter/
+url: /androidjava/com.aspose.barcode.generation/imageunitconverter/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: com.aspose.barcode.complexbarcode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: This package contains tools for processing complex barcode
 type: docs
 weight: 12
-url: /java/com.aspose.barcode.complexbarcode/
+url: /androidjava/com.aspose.barcode.complexbarcode/
 ---
 
 This package contains tools for processing complex barcode

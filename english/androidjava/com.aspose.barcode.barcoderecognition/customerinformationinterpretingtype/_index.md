@@ -1,10 +1,10 @@
 ---
 title: CustomerInformationInterpretingType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Defines the interpreting typeC_TABLE or N_TABLE of customer information for AustralianPost BarCode.
 type: docs
 weight: 41
-url: /java/com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype/
+url: /androidjava/com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

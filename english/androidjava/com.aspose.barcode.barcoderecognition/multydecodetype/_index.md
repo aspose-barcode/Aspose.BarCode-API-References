@@ -1,10 +1,10 @@
 ---
 title: MultyDecodeType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Composite decode type.
 type: docs
 weight: 30
-url: /java/com.aspose.barcode.barcoderecognition/multydecodetype/
+url: /androidjava/com.aspose.barcode.barcoderecognition/multydecodetype/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype)

@@ -1,10 +1,10 @@
 ---
 title: SpecificParametersUI
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Specific parameters.
 type: docs
 weight: 17
-url: /java/com.aspose.barcode.component/specificparametersui/
+url: /androidjava/com.aspose.barcode.component/specificparametersui/
 ---
 **Inheritance:**
 java.lang.Object

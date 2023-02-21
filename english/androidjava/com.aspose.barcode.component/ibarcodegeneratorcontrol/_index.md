@@ -1,10 +1,10 @@
 ---
 title: IBarCodeGeneratorControl
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: IBarCodeGeneratorControl for TypeConverters
 type: docs
 weight: 18
-url: /java/com.aspose.barcode.component/ibarcodegeneratorcontrol/
+url: /androidjava/com.aspose.barcode.component/ibarcodegeneratorcontrol/
 ---```
 public interface IBarCodeGeneratorControl
 ```

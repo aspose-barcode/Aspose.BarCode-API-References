@@ -1,10 +1,10 @@
 ---
 title: MaxiCodeExtCodetextBuilder
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters.
 type: docs
 weight: 41
-url: /java/com.aspose.barcode.generation/maxicodeextcodetextbuilder/
+url: /androidjava/com.aspose.barcode.generation/maxicodeextcodetextbuilder/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.generation.ExtCodetextBuilder](../../com.aspose.barcode.generation/extcodetextbuilder)

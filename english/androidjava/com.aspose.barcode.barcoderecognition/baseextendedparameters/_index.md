@@ -1,10 +1,10 @@
 ---
 title: BaseExtendedParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Basic class for extended parameters of recognized barcode storing
 type: docs
 weight: 21
-url: /java/com.aspose.barcode.barcoderecognition/baseextendedparameters/
+url: /androidjava/com.aspose.barcode.barcoderecognition/baseextendedparameters/
 ---
 **Inheritance:**
 java.lang.Object

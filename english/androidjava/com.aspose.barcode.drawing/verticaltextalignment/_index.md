@@ -1,10 +1,10 @@
 ---
 title: VerticalTextAlignment
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents vertical text alignment.
 type: docs
 weight: 22
-url: /java/com.aspose.barcode.drawing/verticaltextalignment/
+url: /androidjava/com.aspose.barcode.drawing/verticaltextalignment/
 ---
 **Inheritance:**
 java.lang.Object

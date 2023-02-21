@@ -1,10 +1,10 @@
 ---
 title: com.aspose.barcode.drawing
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: This package contains tools for drawing control
 type: docs
 weight: 14
-url: /java/com.aspose.barcode.drawing/
+url: /androidjava/com.aspose.barcode.drawing/
 ---
 
 This package contains tools for drawing control

@@ -1,10 +1,10 @@
 ---
 title: GraphicsPen
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents pen for GraphicsCanvas.
 type: docs
 weight: 18
-url: /java/com.aspose.barcode.drawing/graphicspen/
+url: /androidjava/com.aspose.barcode.drawing/graphicspen/
 ---
 **Inheritance:**
 java.lang.Object

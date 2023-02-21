@@ -1,10 +1,10 @@
 ---
 title: BarCodeException
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents the exception for creating barcode image.
 type: docs
 weight: 10
-url: /java/com.aspose.barcode/barcodeexception/
+url: /androidjava/com.aspose.barcode/barcodeexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException

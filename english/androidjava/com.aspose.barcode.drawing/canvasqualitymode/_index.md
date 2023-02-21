@@ -1,10 +1,10 @@
 ---
 title: CanvasQualityMode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 27
-url: /java/com.aspose.barcode.drawing/canvasqualitymode/
+url: /androidjava/com.aspose.barcode.drawing/canvasqualitymode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

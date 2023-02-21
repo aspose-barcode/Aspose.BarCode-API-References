@@ -1,10 +1,10 @@
 ---
 title: FontStyle
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies style information applied to text.
 type: docs
 weight: 34
-url: /java/com.aspose.barcode.generation/fontstyle/
+url: /androidjava/com.aspose.barcode.generation/fontstyle/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

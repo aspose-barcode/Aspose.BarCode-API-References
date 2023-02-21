@@ -1,10 +1,10 @@
 ---
 title: ComplexBarcodeGenerator
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: ComplexBarcodeGenerator for backend complex barcode e.g.
 type: docs
 weight: 12
-url: /java/com.aspose.barcode.complexbarcode/complexbarcodegenerator/
+url: /androidjava/com.aspose.barcode.complexbarcode/complexbarcodegenerator/
 ---
 **Inheritance:**
 java.lang.Object

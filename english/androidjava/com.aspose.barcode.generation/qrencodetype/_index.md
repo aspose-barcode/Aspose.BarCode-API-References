@@ -1,10 +1,10 @@
 ---
 title: QREncodeType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: QR / MicroQR selector mode.
 type: docs
 weight: 79
-url: /java/com.aspose.barcode.generation/qrencodetype/
+url: /androidjava/com.aspose.barcode.generation/qrencodetype/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

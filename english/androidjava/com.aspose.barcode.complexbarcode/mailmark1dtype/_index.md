@@ -1,10 +1,10 @@
 ---
 title: Mailmark1DType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Types of 4-state Mailmark Barcode
 type: docs
 weight: 22
-url: /java/com.aspose.barcode.complexbarcode/mailmark1dtype/
+url: /androidjava/com.aspose.barcode.complexbarcode/mailmark1dtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

@@ -1,10 +1,10 @@
 ---
 title: ECIEncodings
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Extended Channel Interpretation Identifiers.
 type: docs
 weight: 31
-url: /java/com.aspose.barcode.generation/eciencodings/
+url: /androidjava/com.aspose.barcode.generation/eciencodings/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

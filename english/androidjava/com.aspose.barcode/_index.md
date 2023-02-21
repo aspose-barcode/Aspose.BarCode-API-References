@@ -1,10 +1,10 @@
 ---
 title: com.aspose.barcode
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: This package contains classes with general purposes for barcodes generation and drawing
 type: docs
 weight: 10
-url: /java/com.aspose.barcode/
+url: /androidjava/com.aspose.barcode/
 ---
 
 This package contains classes with general purposes for barcodes generation and drawing

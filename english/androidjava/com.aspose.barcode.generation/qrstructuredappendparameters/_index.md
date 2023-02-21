@@ -1,10 +1,10 @@
 ---
 title: QrStructuredAppendParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: QR structured append parameters.
 type: docs
 weight: 50
-url: /java/com.aspose.barcode.generation/qrstructuredappendparameters/
+url: /androidjava/com.aspose.barcode.generation/qrstructuredappendparameters/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: CaptionParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Caption parameters.
 type: docs
 weight: 17
-url: /java/com.aspose.barcode.generation/captionparameters/
+url: /androidjava/com.aspose.barcode.generation/captionparameters/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: HIBCPASCodetext
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the HIBC PAS code.
 type: docs
 weight: 18
-url: /java/com.aspose.barcode.complexbarcode/hibcpascodetext/
+url: /androidjava/com.aspose.barcode.complexbarcode/hibcpascodetext/
 ---
 **Inheritance:**
 java.lang.Object

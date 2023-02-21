@@ -1,10 +1,10 @@
 ---
 title: QRExtendedParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a QR Structured Append information of recognized barcode
 type: docs
 weight: 34
-url: /java/com.aspose.barcode.barcoderecognition/qrextendedparameters/
+url: /androidjava/com.aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseExtendedParameters](../../com.aspose.barcode.barcoderecognition/baseextendedparameters)

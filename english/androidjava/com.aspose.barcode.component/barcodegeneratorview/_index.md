@@ -1,10 +1,10 @@
 ---
 title: BarcodeGeneratorView
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: BarCode Android View.
 type: docs
 weight: 11
-url: /java/com.aspose.barcode.component/barcodegeneratorview/
+url: /androidjava/com.aspose.barcode.component/barcodegeneratorview/
 ---
 **Inheritance:**
 java.lang.Object, android.view.View, android.widget.ImageView, androidx.appcompat.widget.AppCompatImageView

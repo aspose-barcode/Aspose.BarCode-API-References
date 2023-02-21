@@ -1,10 +1,10 @@
 ---
 title: HIBCPASDataType
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: HIBC PAS records data types.
 type: docs
 weight: 20
-url: /java/com.aspose.barcode.complexbarcode/hibcpasdatatype/
+url: /androidjava/com.aspose.barcode.complexbarcode/hibcpasdatatype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

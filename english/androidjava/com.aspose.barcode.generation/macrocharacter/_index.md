@@ -1,10 +1,10 @@
 ---
 title: MacroCharacter
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 72
-url: /java/com.aspose.barcode.generation/macrocharacter/
+url: /androidjava/com.aspose.barcode.generation/macrocharacter/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

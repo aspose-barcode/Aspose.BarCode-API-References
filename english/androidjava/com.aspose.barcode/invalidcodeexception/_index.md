@@ -1,10 +1,10 @@
 ---
 title: InvalidCodeException
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: The Exception will be thrown when invalid characters contained in the code text.
 type: docs
 weight: 15
-url: /java/com.aspose.barcode/invalidcodeexception/
+url: /androidjava/com.aspose.barcode/invalidcodeexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, [com.aspose.barcode.BarCodeException](../../com.aspose.barcode/barcodeexception)

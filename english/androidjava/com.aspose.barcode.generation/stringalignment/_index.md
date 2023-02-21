@@ -1,10 +1,10 @@
 ---
 title: StringAlignment
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 82
-url: /java/com.aspose.barcode.generation/stringalignment/
+url: /androidjava/com.aspose.barcode.generation/stringalignment/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum

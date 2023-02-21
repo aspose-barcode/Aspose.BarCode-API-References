@@ -1,10 +1,10 @@
 ---
 title: FakeBrush
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents Fake brush.
 type: docs
 weight: 14
-url: /java/com.aspose.barcode.drawing/fakebrush/
+url: /androidjava/com.aspose.barcode.drawing/fakebrush/
 ---
 **Inheritance:**
 java.lang.Object

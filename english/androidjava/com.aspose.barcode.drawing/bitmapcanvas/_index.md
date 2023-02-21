@@ -1,10 +1,10 @@
 ---
 title: BitmapCanvas
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents GDI bitmap canvas.
 type: docs
 weight: 12
-url: /java/com.aspose.barcode.drawing/bitmapcanvas/
+url: /androidjava/com.aspose.barcode.drawing/bitmapcanvas/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.barcode.drawing.GraphicsCanvas

@@ -1,10 +1,10 @@
 ---
 title: MaxiCodeExtendedParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a MaxiCode additional information of recognized barcode
 type: docs
 weight: 29
-url: /java/com.aspose.barcode.barcoderecognition/maxicodeextendedparameters/
+url: /androidjava/com.aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseExtendedParameters](../../com.aspose.barcode.barcoderecognition/baseextendedparameters)

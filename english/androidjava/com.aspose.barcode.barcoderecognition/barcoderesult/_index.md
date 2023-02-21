@@ -1,10 +1,10 @@
 ---
 title: BarCodeResult
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores recognized barcode data like SingleDecodeType type string codetext BarCodeRegionParameters region and other parameters
 type: docs
 weight: 16
-url: /java/com.aspose.barcode.barcoderecognition/barcoderesult/
+url: /androidjava/com.aspose.barcode.barcoderecognition/barcoderesult/
 ---
 **Inheritance:**
 java.lang.Object

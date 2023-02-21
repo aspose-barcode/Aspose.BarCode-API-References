@@ -1,10 +1,10 @@
 ---
 title: QrExtCodetextBuilder
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters.
 type: docs
 weight: 48
-url: /java/com.aspose.barcode.generation/qrextcodetextbuilder/
+url: /androidjava/com.aspose.barcode.generation/qrextcodetextbuilder/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.generation.ExtCodetextBuilder](../../com.aspose.barcode.generation/extcodetextbuilder)

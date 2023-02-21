@@ -1,10 +1,10 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: Provides information about the current product name and version.
 type: docs
 weight: 12
-url: /java/com.aspose.barcode/buildversioninfo/
+url: /androidjava/com.aspose.barcode/buildversioninfo/
 ---
 **Inheritance:**
 java.lang.Object

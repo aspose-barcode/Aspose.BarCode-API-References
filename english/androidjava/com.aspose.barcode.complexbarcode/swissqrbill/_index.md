@@ -1,10 +1,10 @@
 ---
 title: SwissQRBill
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: SwissQR bill data
 type: docs
 weight: 35
-url: /java/com.aspose.barcode.complexbarcode/swissqrbill/
+url: /androidjava/com.aspose.barcode.complexbarcode/swissqrbill/
 ---
 **Inheritance:**
 java.lang.Object

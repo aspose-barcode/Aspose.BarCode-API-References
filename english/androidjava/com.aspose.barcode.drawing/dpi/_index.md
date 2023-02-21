@@ -1,10 +1,10 @@
 ---
 title: Dpi
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 13
-url: /java/com.aspose.barcode.drawing/dpi/
+url: /androidjava/com.aspose.barcode.drawing/dpi/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct

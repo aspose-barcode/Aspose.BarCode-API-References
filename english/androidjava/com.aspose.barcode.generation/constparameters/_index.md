@@ -1,10 +1,10 @@
 ---
 title: ConstParameters
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 25
-url: /java/com.aspose.barcode.generation/constparameters/
+url: /androidjava/com.aspose.barcode.generation/constparameters/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: ChecksumValidation
-second_title: Aspose.BarCode for Java API Reference
+second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
 weight: 40
-url: /java/com.aspose.barcode.barcoderecognition/checksumvalidation/
+url: /androidjava/com.aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
