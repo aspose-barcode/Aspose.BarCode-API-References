@@ -33,7 +33,6 @@ Specifies the unit of measure for the given data.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
-| [getGraphicsUnitName(int graphicsUnit)](#getGraphicsUnitName-int-) |  |
 | [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
@@ -168,21 +167,6 @@ public final Class<E> getDeclaringClass()
 
 **Returns:**
 java.lang.Class<E>
-### getGraphicsUnitName(int graphicsUnit) {#getGraphicsUnitName-int-}
-```
-public static String getGraphicsUnitName(int graphicsUnit)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| graphicsUnit | int |  |
-
-**Returns:**
-java.lang.String
 ### getValue() {#getValue--}
 ```
 public int getValue()

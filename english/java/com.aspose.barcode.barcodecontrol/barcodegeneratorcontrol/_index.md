@@ -259,6 +259,7 @@ Class is designed for use in Swing applications. It extends Swing class JLabel a
 | [isPreferredSizeSet()](#isPreferredSizeSet--) |  |
 | [isRequestFocusEnabled()](#isRequestFocusEnabled--) |  |
 | [isShowing()](#isShowing--) |  |
+| [isUseAntiAlias()](#isUseAntiAlias--) | Gets a value indicating whether is used anti-aliasing mode to render image. |
 | [isValid()](#isValid--) |  |
 | [isValidateRoot()](#isValidateRoot--) |  |
 | [isVisible()](#isVisible--) |  |
@@ -404,6 +405,7 @@ Class is designed for use in Swing applications. It extends Swing class JLabel a
 | [setToolTipText(String arg0)](#setToolTipText-java.lang.String-) |  |
 | [setTransferHandler(TransferHandler arg0)](#setTransferHandler-javax.swing.TransferHandler-) |  |
 | [setUI(LabelUI arg0)](#setUI-javax.swing.plaf.LabelUI-) |  |
+| [setUseAntiAlias(boolean value)](#setUseAntiAlias-boolean-) | Sets a value indicating whether is used anti-aliasing mode to render image. |
 | [setVerifyInputWhenFocusTarget(boolean arg0)](#setVerifyInputWhenFocusTarget-boolean-) |  |
 | [setVerticalAlignment(int arg0)](#setVerticalAlignment-int-) |  |
 | [setVerticalTextPosition(int arg0)](#setVerticalTextPosition-int-) |  |
@@ -3033,6 +3035,16 @@ public boolean isShowing()
 
 **Returns:**
 boolean
+### isUseAntiAlias() {#isUseAntiAlias--}
+```
+public boolean isUseAntiAlias()
+```
+
+
+Gets a value indicating whether is used anti-aliasing mode to render image.
+
+**Returns:**
+boolean
 ### isValid() {#isValid--}
 ```
 public boolean isValid()
@@ -4920,6 +4932,19 @@ public void setUI(LabelUI arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | javax.swing.plaf.LabelUI |  |
+
+### setUseAntiAlias(boolean value) {#setUseAntiAlias-boolean-}
+```
+public void setUseAntiAlias(boolean value)
+```
+
+
+Sets a value indicating whether is used anti-aliasing mode to render image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setVerifyInputWhenFocusTarget(boolean arg0) {#setVerifyInputWhenFocusTarget-boolean-}
 ```

@@ -20,11 +20,8 @@ Barcode generation parameters.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) |  |
 | [getAustralianPost()](#getAustralianPost--) | AustralianPost barcode parameters. |
-| [getAutoSizeMode()](#getAutoSizeMode--) | Specifies the different types of automatic sizing modes. |
 | [getAztec()](#getAztec--) | Aztec parameters. |
 | [getBackColor()](#getBackColor--) |  |
-| [getBarCodeHeight()](#getBarCodeHeight--) | BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
-| [getBarCodeWidth()](#getBarCodeWidth--) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [getBarColor()](#getBarColor--) | Bars color. |
 | [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars in  Unit  value. |
 | [getBarWidthReduction()](#getBarWidthReduction--) | Get bars reduction value that is used to compensate ink spread while printing. |
@@ -45,7 +42,6 @@ Barcode generation parameters.
 | [getDotCode()](#getDotCode--) | DotCode parameters. |
 | [getEnableEscape()](#getEnableEscape--) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [getFilledBars()](#getFilledBars--) | Gets a value indicating whether bars filled. |
-| [getForeColor()](#getForeColor--) | Bars color. |
 | [getGS1CompositeBar()](#getGS1CompositeBar--) | GS1 Composite Bar parameters. |
 | [getITF()](#getITF--) | ITF parameters. |
 | [getMaxiCode()](#getMaxiCode--) | MaxiCode parameters. |
@@ -67,9 +63,6 @@ Barcode generation parameters.
 | [isChecksumEnabled()](#isChecksumEnabled--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoSizeMode(AutoSizeMode value)](#setAutoSizeMode-com.aspose.barcode.generation.AutoSizeMode-) | Specifies the different types of automatic sizing modes. |
-| [setBarCodeHeight(Unit value)](#setBarCodeHeight-com.aspose.barcode.generation.Unit-) | BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
-| [setBarCodeWidth(Unit value)](#setBarCodeWidth-com.aspose.barcode.generation.Unit-) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [setBarColor(Color value)](#setBarColor-java.awt.Color-) | Bars color. |
 | [setBarHeight(Unit value)](#setBarHeight-com.aspose.barcode.generation.Unit-) | Height of 1D barcodes' bars in  Unit  value. |
 | [setBarWidthReduction(Unit value)](#setBarWidthReduction-com.aspose.barcode.generation.Unit-) | Sets bars reduction value that is used to compensate ink spread while printing. |
@@ -79,7 +72,6 @@ Barcode generation parameters.
 | [setCodeText(String value)](#setCodeText-java.lang.String-) |  |
 | [setEnableEscape(boolean value)](#setEnableEscape-boolean-) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [setFilledBars(boolean value)](#setFilledBars-boolean-) | Sets a value indicating whether bars filled. |
-| [setForeColor(Color value)](#setForeColor-java.awt.Color-) | Bars color. |
 | [setGS1CompositeBar(GS1CompositeBarParameters value)](#setGS1CompositeBar-com.aspose.barcode.generation.GS1CompositeBarParameters-) | GS1 Composite Bar parameters. |
 | [setThrowExceptionWhenCodeTextIncorrect(boolean value)](#setThrowExceptionWhenCodeTextIncorrect-boolean-) | Only for 1D barcodes. |
 | [setWideNarrowRatio(float value)](#setWideNarrowRatio-float-) | Wide bars to Narrow bars ratio. |
@@ -123,16 +115,6 @@ AustralianPost barcode parameters.
 
 **Returns:**
 [AustralianPostParameters](../../com.aspose.barcode.generation/australianpostparameters)
-### getAutoSizeMode() {#getAutoSizeMode--}
-```
-public AutoSizeMode getAutoSizeMode()
-```
-
-
-Specifies the different types of automatic sizing modes. Default value: AutoSizeMode.NONE.
-
-**Returns:**
-[AutoSizeMode](../../com.aspose.barcode.generation/autosizemode)
 ### getAztec() {#getAztec--}
 ```
 public AztecParameters getAztec()
@@ -153,26 +135,6 @@ public Color getBackColor()
 
 **Returns:**
 java.awt.Color
-### getBarCodeHeight() {#getBarCodeHeight--}
-```
-public Unit getBarCodeHeight()
-```
-
-
-BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
-
-**Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
-### getBarCodeWidth() {#getBarCodeWidth--}
-```
-public Unit getBarCodeWidth()
-```
-
-
-BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
-
-**Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
 ### getBarColor() {#getBarColor--}
 ```
 public Color getBarColor()
@@ -377,16 +339,6 @@ Gets a value indicating whether bars filled. Only for 1D barcodes. Default value
 
 **Returns:**
 boolean
-### getForeColor() {#getForeColor--}
-```
-public Color getForeColor()
-```
-
-
-Bars color. Default value: Color.Black.
-
-**Returns:**
-java.awt.Color
 ### getGS1CompositeBar() {#getGS1CompositeBar--}
 ```
 public GS1CompositeBarParameters getGS1CompositeBar()
@@ -553,7 +505,7 @@ public Unit getXDimension()
 ```
 
 
-x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
@@ -598,45 +550,6 @@ public final native void notifyAll()
 
 
 
-
-### setAutoSizeMode(AutoSizeMode value) {#setAutoSizeMode-com.aspose.barcode.generation.AutoSizeMode-}
-```
-public void setAutoSizeMode(AutoSizeMode value)
-```
-
-
-Specifies the different types of automatic sizing modes. Default value: AutoSizeMode.NONE.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [AutoSizeMode](../../com.aspose.barcode.generation/autosizemode) |  |
-
-### setBarCodeHeight(Unit value) {#setBarCodeHeight-com.aspose.barcode.generation.Unit-}
-```
-public void setBarCodeHeight(Unit value)
-```
-
-
-BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
-
-### setBarCodeWidth(Unit value) {#setBarCodeWidth-com.aspose.barcode.generation.Unit-}
-```
-public void setBarCodeWidth(Unit value)
-```
-
-
-BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
 
 ### setBarColor(Color value) {#setBarColor-java.awt.Color-}
 ```
@@ -765,19 +678,6 @@ Sets a value indicating whether bars filled. Only for 1D barcodes. Default value
 | --- | --- | --- |
 | value | boolean |  |
 
-### setForeColor(Color value) {#setForeColor-java.awt.Color-}
-```
-public void setForeColor(Color value)
-```
-
-
-Bars color. Default value: Color.Black.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
 ### setGS1CompositeBar(GS1CompositeBarParameters value) {#setGS1CompositeBar-com.aspose.barcode.generation.GS1CompositeBarParameters-}
 ```
 public void setGS1CompositeBar(GS1CompositeBarParameters value)
@@ -823,7 +723,7 @@ public void setXDimension(Unit value)
 ```
 
 
-x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Parameters:**
 | Parameter | Type | Description |

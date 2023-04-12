@@ -39,6 +39,7 @@ Types of 4-state Mailmark Barcode
 | [getUnderlyingType(Class<?> arg0)](#getUnderlyingType-java.lang.Class----) |  |
 | [getValue(Class<?> arg0, String arg1)](#getValue-java.lang.Class----java.lang.String-) |  |
 | [getValues(System.Type arg0)](#getValues-com.aspose.ms.System.Type-) |  |
+| [get_Caption()](#get-Caption--) |  |
 | [get_Value()](#get-Value--) |  |
 | [hashCode()](#hashCode--) |  |
 | [isDefined(System.Type arg0, Object arg1)](#isDefined-com.aspose.ms.System.Type-java.lang.Object-) |  |
@@ -298,6 +299,16 @@ public static System.Array getValues(System.Type arg0)
 
 **Returns:**
 com.aspose.ms.System.Array
+### get_Caption() {#get-Caption--}
+```
+public String get_Caption()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### get_Value() {#get-Value--}
 ```
 public long get_Value()

@@ -29,6 +29,7 @@ Barcode image generation parameters.
 | [getImageWidth()](#getImageWidth--) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [getResolution()](#getResolution--) | Gets the resolution of the BarCode image. |
 | [getRotationAngle()](#getRotationAngle--) | BarCode image rotation angle, measured in degree, e.g. |
+| [getUseAntiAlias()](#getUseAntiAlias--) | Gets a value indicating whether is used anti-aliasing mode to render image |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,6 +39,7 @@ Barcode image generation parameters.
 | [setImageWidth(Unit value)](#setImageWidth-com.aspose.barcode.generation.Unit-) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [setResolution(float value)](#setResolution-float-) | Sets the resolution of the BarCode image. |
 | [setRotationAngle(float value)](#setRotationAngle-float-) | BarCode image rotation angle, measured in degree, e.g. |
+| [setUseAntiAlias(boolean value)](#setUseAntiAlias-boolean-) | Sets a value indicating whether is used anti-aliasing mode to render image |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -177,6 +179,16 @@ BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or Rota
 
 **Returns:**
 float
+### getUseAntiAlias() {#getUseAntiAlias--}
+```
+public boolean getUseAntiAlias()
+```
+
+
+Gets a value indicating whether is used anti-aliasing mode to render image
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -290,6 +302,19 @@ BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or Rota
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### setUseAntiAlias(boolean value) {#setUseAntiAlias-boolean-}
+```
+public void setUseAntiAlias(boolean value)
+```
+
+
+Sets a value indicating whether is used anti-aliasing mode to render image
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```
