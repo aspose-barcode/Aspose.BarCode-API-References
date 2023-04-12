@@ -1,7 +1,7 @@
 ---
-title: BarCodeReader
+title: Class BarCodeReader
 second_title: Aspose.BarCode for .NET API Reference
-description: BarCodeReader encapsulates an image which may contain one or several barcodes it then can perform ReadBarCodes operation to detect barcodes.
+description: Aspose.BarCode.BarCodeRecognition.BarCodeReader class. BarCodeReader encapsulates an image which may contain one or several barcodes it then can perform ReadBarCodes operation to detect barcodes
 type: docs
 weight: 60
 url: /net/aspose.barcode.barcoderecognition/barcodereader/
@@ -18,20 +18,20 @@ public class BarCodeReader : Component
 
 | Name | Description |
 | --- | --- |
-| [BarCodeReader](barcodereader#constructor)() | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method. |
-| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from an image. |
-| [BarCodeReader](barcodereader#constructor_8)(Stream) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_11)(string) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class from file. |
-| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
-| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the [`BarCodeReader`](./barcodereader/) class. |
+| [BarCodeReader](barcodereader/#constructor)() | Initializes a new instance of the `BarCodeReader` class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method. |
+| [BarCodeReader](barcodereader/#constructor_1)(Bitmap) | Initializes a new instance of the `BarCodeReader` class from an image. |
+| [BarCodeReader](barcodereader/#constructor_8)(Stream) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_11)(string) | Initializes a new instance of the `BarCodeReader` class from file. |
+| [BarCodeReader](barcodereader/#constructor_2)(Bitmap, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_3)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_9)(Stream, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_10)(Stream, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_12)(string, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_13)(string, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
 
 ## Properties
 
@@ -62,7 +62,7 @@ public class BarCodeReader : Component
 | [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Must be called before ReadBarCodes() method. |
 | [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype_1)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method. |
 
-### Examples
+## Examples
 
 This sample shows how to detect Code39 and Code128 barcodes.
 
@@ -90,4 +90,4 @@ End Using
 * namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
