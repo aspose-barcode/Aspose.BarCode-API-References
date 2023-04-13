@@ -53,15 +53,11 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 | [exportToXml(String xmlFile)](#exportToXml-java.lang.String-) | Exports BarCode properties to the xml-file specified |
 | [getBarCodeDecodeType()](#getBarCodeDecodeType--) |  |
 | [getBarcodeSettings()](#getBarcodeSettings--) | The main BarCode decoding parameters. |
-| [getChecksumValidation()](#getChecksumValidation--) |  |
 | [getClass()](#getClass--) |  |
-| [getCustomerInformationInterpretingType()](#getCustomerInformationInterpretingType--) | Gets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER. |
-| [getDetectEncoding()](#getDetectEncoding--) | A flag which force engine to detect codetext encoding for Unicode codesets. |
 | [getFoundBarCodes()](#getFoundBarCodes--) | Gets recognized  BarCodeResult s array |
 | [getFoundCount()](#getFoundCount--) | Gets recognized barcodes count |
 | [getProcessorSettings()](#getProcessorSettings--) | Gets a settings of using processor cores. |
 | [getQualitySettings()](#getQualitySettings--) | QualitySettings allows to configure recognition quality and speed manually. |
-| [getStripFNC()](#getStripFNC--) | Strip FNC1, FNC2, FNC3 characters from codetext. |
 | [getTimeout()](#getTimeout--) | Gets the timeout of recognition process in milliseconds. |
 | [hashCode()](#hashCode--) |  |
 | [importFromXml(InputStream xmlStream)](#importFromXml-java.io.InputStream-) | Imports BarCode properties from the xml-stream specified and applies them to the current BarCodeReader instance. |
@@ -76,13 +72,7 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 | [setBarCodeImage(String filename)](#setBarCodeImage-java.lang.String-) | Sets image file for recognition. |
 | [setBarCodeReadType(BaseDecodeType type)](#setBarCodeReadType-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Sets decode type for recognition. |
 | [setBarCodeReadType(SingleDecodeType[] barcodeTypes)](#setBarCodeReadType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Sets  SingleDecodeType  type array for recognition. |
-| [setChecksumValidation(ChecksumValidation value)](#setChecksumValidation-com.aspose.barcode.barcoderecognition.ChecksumValidation-) |  |
-| [setChecksumValidation(int value)](#setChecksumValidation-int-) | Enable checksum validation during recognition for 1D barcodes. |
-| [setCustomerInformationInterpretingType(CustomerInformationInterpretingType value)](#setCustomerInformationInterpretingType-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-) | Sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER. |
-| [setCustomerInformationInterpretingType(int value)](#setCustomerInformationInterpretingType-int-) | Sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER. |
-| [setDetectEncoding(boolean value)](#setDetectEncoding-boolean-) | A flag which force engine to detect codetext encoding for Unicode codesets. |
 | [setQualitySettings(QualitySettings value)](#setQualitySettings-com.aspose.barcode.barcoderecognition.QualitySettings-) | QualitySettings allows to configure recognition quality and speed manually. |
-| [setStripFNC(boolean value)](#setStripFNC-boolean-) | Strip FNC1, FNC2, FNC3 characters from codetext. |
 | [setTimeout(int value)](#setTimeout-int-) | Sets the timeout of recognition process in milliseconds. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -525,53 +515,6 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 
 **Returns:**
 [BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings) - The main BarCode decoding parameters
-### getChecksumValidation() {#getChecksumValidation--}
-```
-public ChecksumValidation getChecksumValidation()
-```
-
-
-Enable checksum validation during recognition for 1D barcodes.
-
-Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible.
-
-Checksum never used: Codabar
-
-Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN
-
-Checksum always used: Rest symbologies
-
---------------------
-
-> ```
-> This sample shows influence of ChecksumValidation on recognition quality and results
->  
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "1234567890128");
->  generator.save("c:\\test.png");
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
->  //checksum disabled
->  reader.setChecksumValidation(ChecksumValidation.OFF);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->      System.out.println("BarCode CodeText: " + result.getCodeText());
->      System.out.println("BarCode Value: " + result.getExtended().getOneD().getValue());
->      System.out.println("BarCode Checksum: " + result.getExtended().getOneD().getCheckSum());
->   }
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
->  //checksum enabled
->  reader.setChecksumValidation(ChecksumValidation.ON);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->     System.out.println("BarCode Value: " + result.getExtended().getOneD().getValue());
->     System.out.println("BarCode Checksum: " + result.getExtended().getOneD().getCheckSum());
->  }
-> ```
-
-Value: The checksum validation flag.
-
-**Returns:**
-[ChecksumValidation](../../com.aspose.barcode.barcoderecognition/checksumvalidation)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -582,47 +525,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCustomerInformationInterpretingType() {#getCustomerInformationInterpretingType--}
-```
-public CustomerInformationInterpretingType getCustomerInformationInterpretingType()
-```
-
-
-Gets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER.
-
-**Returns:**
-[CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype)
-### getDetectEncoding() {#getDetectEncoding--}
-```
-public boolean getDetectEncoding()
-```
-
-
-A flag which force engine to detect codetext encoding for Unicode codesets.
-
---------------------
-
-> ```
-> This sample shows how to detect text encoding on the fly if DetectEncoding is enabled
->  
->  ByteArrayOutputStream ms = new ByteArrayOutputStream();
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\ufffd\ufffd\ufffd\ufffd\ufffd"))
->  generator.getParameters().getBarcode().getQR().setCodeTextEncoding(Charset.forName("UTF-8");
->  generator.save(ms, BarCodeImageFormat.getPng());
->      //detects encoding for Unicode codesets is enabled
->  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
->  reader.setDetectEncoding(true);
->  for(BarCodeResult result : reader.readBarCodes())
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->      //detect encoding is disabled
->  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
->  reader.setDetectEncoding(false);
->  for(BarCodeResult result : reader.readBarCodes())
->     System.out.println("BarCode CodeText: " + result.getCodeText());
-> ```
-
-**Returns:**
-boolean
 ### getFoundBarCodes() {#getFoundBarCodes--}
 ```
 public BarCodeResult[] getFoundBarCodes()
@@ -729,39 +631,6 @@ Value: QualitySettings to configure recognition quality and speed.
 
 **Returns:**
 [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings)
-### getStripFNC() {#getStripFNC--}
-```
-public boolean getStripFNC()
-```
-
-
-Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
-
---------------------
-
-> ```
-> This sample shows how to strip FNC characters
->  
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1Code128, "(02)04006664241007(37)1(400)7019590754"))
->  generator.save("c:\\test.png");
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_128);
->  //StripFNC disabled
->  reader.setStripFNC(false);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->      System.out.println("BarCode CodeText: " + result.getCodeText());
->  }
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_128);
->  //StripFNC enabled
->  reader.setStripFNC(true);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->  }
-> ```
-
-**Returns:**
-boolean
 ### getTimeout() {#getTimeout--}
 ```
 public int getTimeout()
@@ -1069,131 +938,6 @@ Sets  SingleDecodeType  type array for recognition. Must be called before ReadBa
 | --- | --- | --- |
 | barcodeTypes | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) | The  SingleDecodeType  type array to read. |
 
-### setChecksumValidation(ChecksumValidation value) {#setChecksumValidation-com.aspose.barcode.barcoderecognition.ChecksumValidation-}
-```
-public void setChecksumValidation(ChecksumValidation value)
-```
-
-
-Enable checksum validation during recognition for 1D barcodes.
-
-Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible.
-
-Checksum never used: Codabar
-
-Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN
-
-Checksum always used: Rest symbologies
-
---------------------
-
-> ```
-> This sample shows influence of ChecksumValidation on recognition quality and results
->  
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "1234567890128");
->  generator.save("c:\\test.png");
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
->  //checksum disabled
->  reader.setChecksumValidation(ChecksumValidation.OFF);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->     System.out.println("BarCode Value: " + result.getExtended().getOneD().getValue());
->     System.out.println("BarCode Checksum: " + result.getExtended().getOneD().getCheckSum());
->  }
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
->  {
->      //checksum enabled
->      reader.setChecksumValidation(ChecksumValidation.ON);
->      for(BarCodeResult result : reader.readBarCodes())
->      {
->          System.out.println("BarCode CodeText: " + result.getCodeText());
->          System.out.println("BarCode Value: " + result.getExtended().getOneD().getValue());
->          System.out.println("BarCode Checksum: " + result.getExtended().getOneD().getCheckSum());
->      }
->  }
-> ```
-
-Value: The checksum validation flag.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ChecksumValidation](../../com.aspose.barcode.barcoderecognition/checksumvalidation) |  |
-
-### setChecksumValidation(int value) {#setChecksumValidation-int-}
-```
-public void setChecksumValidation(int value)
-```
-
-
-Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | The checksum validation flag. |
-
-### setCustomerInformationInterpretingType(CustomerInformationInterpretingType value) {#setCustomerInformationInterpretingType-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-}
-```
-public void setCustomerInformationInterpretingType(CustomerInformationInterpretingType value)
-```
-
-
-Sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype) |  |
-
-### setCustomerInformationInterpretingType(int value) {#setCustomerInformationInterpretingType-int-}
-```
-public void setCustomerInformationInterpretingType(int value)
-```
-
-
-Sets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.OTHER.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setDetectEncoding(boolean value) {#setDetectEncoding-boolean-}
-```
-public void setDetectEncoding(boolean value)
-```
-
-
-A flag which force engine to detect codetext encoding for Unicode codesets.
-
---------------------
-
-> ```
-> This sample shows how to detect text encoding on the fly if DetectEncoding is enabled
->  
->  ByteArrayOutputStream ms = new ByteArrayOutputStream();
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\ufffd\ufffd\ufffd\ufffd\ufffd");
->  generator.getParameters().getBarcode().getQR().setCodeTextEncoding(Charset.forName("UTF-8");
->  generator.save(ms, BarCodeImageFormat.getPng());
->  //detects encoding for Unicode codesets is enabled
->  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
->  reader.setDetectEncoding(true);
->  for(BarCodeResult result : reader.readBarCodes())
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->  //detect encoding is disabled
->  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
->  reader.setDetectEncoding(true);
->  for(BarCodeResult result : reader.readBarCodes())
->     System.out.println("BarCode CodeText: " + result.getCodeText());
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setQualitySettings(QualitySettings value) {#setQualitySettings-com.aspose.barcode.barcoderecognition.QualitySettings-}
 ```
 public final void setQualitySettings(QualitySettings value)
@@ -1232,42 +976,6 @@ Value: QualitySettings to configure recognition quality and speed.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings) |  |
-
-### setStripFNC(boolean value) {#setStripFNC-boolean-}
-```
-public void setStripFNC(boolean value)
-```
-
-
-Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
-
---------------------
-
-> ```
-> This sample shows how to strip FNC characters
->  
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1Code128, "(02)04006664241007(37)1(400)7019590754");
->  generator.save("c:\\test.png");
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_128);
->  //StripFNC disabled
->  reader.setStripFNC(false);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->  }
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_128);
->  //StripFNC enabled
->  reader.setStripFNC(true);
->  for(BarCodeResult result : reader.readBarCodes())
->  {
->     System.out.println("BarCode CodeText: " + result.getCodeText());
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setTimeout(int value) {#setTimeout-int-}
 ```

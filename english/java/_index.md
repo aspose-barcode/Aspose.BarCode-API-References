@@ -10,7 +10,7 @@ is_root: true
 | Package | Description |
 | --- | --- |
 | [com.aspose.barcode](./com.aspose.barcode) | This package contains classes with general purposes for barcodes generation and drawing |
-| [com.aspose.barcode.barcodecontrol](./com.aspose.barcode.barcodecontrol) | This package contains component for generating barcodes designed as control for placing onto customer's Swing UI |
+| [com.aspose.barcode.barcodecontrol](./com.aspose.barcode.barcodecontrol) | This package contains component designed as control for placing onto customer's Swing UI |
 | [com.aspose.barcode.barcoderecognition](./com.aspose.barcode.barcoderecognition) | This package contains tools for 1D/2D barcode recognition. |
 | [com.aspose.barcode.complexbarcode](./com.aspose.barcode.complexbarcode) | This package contains tools for processing complex barcode |
 | [com.aspose.barcode.generation](./com.aspose.barcode.generation) | This package contains tools for generating barcode. |
