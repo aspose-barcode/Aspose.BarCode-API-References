@@ -3,7 +3,7 @@ title: SpecificParametersUI.DataMatrix
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets DataMatrix parameters DataMatrixParameters. Used for DataMatrix
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.windows.forms/specificparametersui/datamatrix/
 ---
 ## SpecificParametersUI.DataMatrix property

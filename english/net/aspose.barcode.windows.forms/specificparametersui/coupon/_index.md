@@ -3,7 +3,7 @@ title: SpecificParametersUI.Coupon
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets Coupon parameters CouponParameters. Used for UpcaGs1DatabarCoupon UpcaGs1Code128Coupon
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.windows.forms/specificparametersui/coupon/
 ---
 ## SpecificParametersUI.Coupon property

@@ -3,7 +3,7 @@ title: Class QrParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.QrParametersUI class. UI wrapper for QrParameters class
 type: docs
-weight: 1380
+weight: 1400
 url: /net/aspose.barcode.windows.forms/qrparametersui/
 ---
 ## QrParametersUI class

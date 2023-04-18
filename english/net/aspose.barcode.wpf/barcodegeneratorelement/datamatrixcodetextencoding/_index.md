@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixCodeTextEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Text encoding
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixcodetextencoding/
 ---
 ## BarcodeGeneratorElement.DataMatrixCodeTextEncoding property

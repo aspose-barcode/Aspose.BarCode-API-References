@@ -3,7 +3,7 @@ title: SpecificParametersUI.QR
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets QR parameters QrParameters. Used for QR
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.barcode.windows.forms/specificparametersui/qr/
 ---
 ## SpecificParametersUI.QR property

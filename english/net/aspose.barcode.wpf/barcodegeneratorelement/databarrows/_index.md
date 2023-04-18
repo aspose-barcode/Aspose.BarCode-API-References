@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataBarRows
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. DataBar rows count
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/databarrows/
 ---
 ## BarcodeGeneratorElement.DataBarRows property

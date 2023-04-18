@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement method. String representation of the BarcodeGenerator class
 type: docs
-weight: 1120
+weight: 1130
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/tostring/
 ---
 ## BarcodeGeneratorElement.ToString method
