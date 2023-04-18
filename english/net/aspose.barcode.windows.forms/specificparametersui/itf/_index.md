@@ -3,7 +3,7 @@ title: SpecificParametersUI.ITF
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets ITF parameters ITFParameters. Used for ITF6 ITF14
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.windows.forms/specificparametersui/itf/
 ---
 ## SpecificParametersUI.ITF property

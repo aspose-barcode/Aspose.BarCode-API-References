@@ -3,7 +3,7 @@ title: SpecificParametersUI.DotCode
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets DotCode parameters DotCodeParameters. Used for DotCode
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.windows.forms/specificparametersui/dotcode/
 ---
 ## SpecificParametersUI.DotCode property

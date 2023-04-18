@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1300
+weight: 1320
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -61,6 +61,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [CodablockAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/codablockaspectratio/) { get; set; } | Aspect ratio. |
 | [CodablockColumns](../../aspose.barcode.wpf/barcodegeneratorelement/codablockcolumns/) { get; set; } | Columns count. |
 | [CodablockRows](../../aspose.barcode.wpf/barcodegeneratorelement/codablockrows/) { get; set; } | Rows count. |
+| [Code128EncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/code128encodemode/) { get; set; } | Code128 encode mode. |
 | [Code16KAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/code16kaspectratio/) { get; set; } | Aspect ratio. |
 | [Code16KQuietZoneLeftCoef](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzoneleftcoef/) { get; set; } | Size of the left quiet zone in xDimension. |
 | [Code16KQuietZoneRightCoef](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzonerightcoef/) { get; set; } | Size of the right quiet zone in xDimension. |
@@ -182,6 +183,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [CodablockAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockaspectratioproperty/) | CodablockAspectRatioProperty |
 | static [CodablockColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockcolumnsproperty/) | CodablockColumnsProperty |
 | static [CodablockRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/codablockrowsproperty/) | CodablockRowsProperty |
+| static [Code128EncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code128encodemodeproperty/) | Code128EncodeModeProperty |
 | static [Code16KAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kaspectratioproperty/) | Code16KAspectRatioProperty |
 | static [Code16KQuietZoneLeftCoefProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzoneleftcoefproperty/) | Code16KQuietZoneLeftCoefProperty |
 | static [Code16KQuietZoneRightCoefProperty](../../aspose.barcode.wpf/barcodegeneratorelement/code16kquietzonerightcoefproperty/) | Code16KQuietZoneRightCoefProperty |

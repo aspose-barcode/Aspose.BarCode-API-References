@@ -3,7 +3,7 @@ title: BarcodeParameters.DotCode
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. DotCode parameters
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.barcode.generation/barcodeparameters/dotcode/
 ---
 ## BarcodeParameters.DotCode property

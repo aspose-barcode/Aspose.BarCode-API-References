@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeStructuredAppendModeBarcodesCount
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Barcodes count for DotCode structured append mode
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodescount/
 ---
 ## BarcodeGeneratorElement.DotCodeStructuredAppendModeBarcodesCount property

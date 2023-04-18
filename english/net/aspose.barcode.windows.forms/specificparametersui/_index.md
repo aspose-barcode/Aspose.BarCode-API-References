@@ -3,7 +3,7 @@ title: Class SpecificParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.SpecificParametersUI class. Specific parameters
 type: docs
-weight: 1390
+weight: 1410
 url: /net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class
@@ -22,6 +22,7 @@ public class SpecificParametersUI
 | [Aztec](../../aspose.barcode.windows.forms/specificparametersui/aztec/) { get; } | Gets or sets Aztec parameters [`AztecParameters`](../../aspose.barcode.generation/aztecparameters/). Used for Aztec. |
 | [Codabar](../../aspose.barcode.windows.forms/specificparametersui/codabar/) { get; } | Gets or sets Codabar parameters [`CodabarParameters`](../../aspose.barcode.generation/codabarparameters/). Used for Codabar. |
 | [Codablock](../../aspose.barcode.windows.forms/specificparametersui/codablock/) { get; } | Gets or sets Codablock parameters [`CodablockParameters`](../../aspose.barcode.generation/codablockparameters/). Used for CodablockF. |
+| [Code128](../../aspose.barcode.windows.forms/specificparametersui/code128/) { get; } | Gets or sets Code128 parameters [`Code128Parameters`](../../aspose.barcode.generation/code128parameters/). Used for Code128. |
 | [Code16K](../../aspose.barcode.windows.forms/specificparametersui/code16k/) { get; } | Gets or sets Code16K parameters [`Code16KParameters`](../../aspose.barcode.generation/code16kparameters/). Used for Code16K. |
 | [Coupon](../../aspose.barcode.windows.forms/specificparametersui/coupon/) { get; } | Gets or sets Coupon parameters [`CouponParameters`](../../aspose.barcode.generation/couponparameters/). Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
 | [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar/) { get; } | Gets or sets DataBar parameters [`DataBarParameters`](../../aspose.barcode.generation/databarparameters/). Used for DataBar symbologies. |

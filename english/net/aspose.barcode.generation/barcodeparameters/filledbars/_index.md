@@ -3,7 +3,7 @@ title: BarcodeParameters.FilledBars
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. Gets or sets a value indicating whether bars filled. Only for 1D barcodes. Default value true
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.barcode.generation/barcodeparameters/filledbars/
 ---
 ## BarcodeParameters.FilledBars property
