@@ -3,7 +3,7 @@ title: com.aspose.barcode.generation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: This package contains tools for generating barcode.
 type: docs
-weight: 15
+weight: 14
 url: /androidjava/com.aspose.barcode.generation/
 ---
 

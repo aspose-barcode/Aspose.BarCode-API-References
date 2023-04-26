@@ -3,7 +3,7 @@ title: com.aspose.barcode.metered
 second_title: Aspose.BarCode for Android via Java API Reference
 description: This package provides the functionality related to metered billing service.
 type: docs
-weight: 16
+weight: 15
 url: /androidjava/com.aspose.barcode.metered/
 ---
 
