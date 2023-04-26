@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeRowsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DotCodeRowsProperty
 type: docs
-weight: 1780
+weight: 1800
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcoderowsproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeRowsProperty field

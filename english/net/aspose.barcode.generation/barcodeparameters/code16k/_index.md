@@ -3,7 +3,7 @@ title: BarcodeParameters.Code16K
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. Code16K parameters
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.generation/barcodeparameters/code16k/
 ---
 ## BarcodeParameters.Code16K property

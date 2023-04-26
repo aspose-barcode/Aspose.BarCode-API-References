@@ -22,6 +22,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [CaptionParameters](./captionparameters/) | Caption parameters. |
 | [CodabarParameters](./codabarparameters/) | Codabar parameters. |
 | [CodablockParameters](./codablockparameters/) | Codablock parameters. |
+| [Code128Parameters](./code128parameters/) | Code128 parameters. |
 | [Code16KParameters](./code16kparameters/) | Code16K parameters. |
 | [CodetextParameters](./codetextparameters/) | Codetext parameters. |
 | [CouponParameters](./couponparameters/) | Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
@@ -58,6 +59,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [CodabarChecksumMode](./codabarchecksummode/) | Specifies the checksum algorithm for Codabar |
 | [CodabarSymbol](./codabarsymbol/) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [Code128Emulation](./code128emulation/) | Function codewords for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes. |
+| [Code128EncodeMode](./code128encodemode/) | Encoding mode for Code128 barcodes. [Code 128](https://en.wikipedia.org/wiki/Code_128) specification. |
 | [CodeLocation](./codelocation/) | Codetext location |
 | [DataMatrixEccType](./datamatrixecctype/) | Specify the type of the ECC to encode. |
 | [DataMatrixEncodeMode](./datamatrixencodemode/) | DataMatrix encoder's encoding mode, default to Auto |
@@ -71,7 +73,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
 | [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
-| [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction |
+| [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [Pdf417MacroTerminator](./pdf417macroterminator/) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417. |
 | [QREncodeMode](./qrencodemode/) | Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncoding = Encoding.UTF8 for Latin symbols or digits and Utf8BOM for Unicode symbols. |
 | [QREncodeType](./qrencodetype/) | QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible. |

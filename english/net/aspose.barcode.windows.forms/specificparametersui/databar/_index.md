@@ -3,7 +3,7 @@ title: SpecificParametersUI.DataBar
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets DataBar parameters DataBarParameters. Used for DataBar symbologies
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.barcode.windows.forms/specificparametersui/databar/
 ---
 ## SpecificParametersUI.DataBar property

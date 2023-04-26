@@ -26,6 +26,7 @@ public class BarcodeParameters
 | [ChecksumAlwaysShow](../../aspose.barcode.generation/barcodeparameters/checksumalwaysshow/) { get; set; } | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [Codabar](../../aspose.barcode.generation/barcodeparameters/codabar/) { get; } | Codabar parameters. |
 | [Codablock](../../aspose.barcode.generation/barcodeparameters/codablock/) { get; } | Codablock parameters. |
+| [Code128](../../aspose.barcode.generation/barcodeparameters/code128/) { get; } | Code128 parameters. |
 | [Code16K](../../aspose.barcode.generation/barcodeparameters/code16k/) { get; } | Code16K parameters. |
 | [CodeTextParameters](../../aspose.barcode.generation/barcodeparameters/codetextparameters/) { get; } | Codetext parameters. |
 | [Coupon](../../aspose.barcode.generation/barcodeparameters/coupon/) { get; } | Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
