@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.BorderDashStyleProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. BorderDashStyleProperty
 type: docs
-weight: 1250
+weight: 1290
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/borderdashstyleproperty/
 ---
 ## BarcodeGeneratorElement.BorderDashStyleProperty field

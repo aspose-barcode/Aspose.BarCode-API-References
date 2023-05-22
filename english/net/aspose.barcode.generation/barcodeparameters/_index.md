@@ -36,6 +36,7 @@ public class BarcodeParameters
 | [EnableEscape](../../aspose.barcode.generation/barcodeparameters/enableescape/) { get; set; } | Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \013 and \\CR stands for CR. |
 | [FilledBars](../../aspose.barcode.generation/barcodeparameters/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
 | [GS1CompositeBar](../../aspose.barcode.generation/barcodeparameters/gs1compositebar/) { get; set; } | GS1 Composite Bar parameters. |
+| [HanXin](../../aspose.barcode.generation/barcodeparameters/hanxin/) { get; } | HanXin parameters. |
 | [IsChecksumEnabled](../../aspose.barcode.generation/barcodeparameters/ischecksumenabled/) { get; set; } | Enable checksum during generation 1D barcodes. |
 | [ITF](../../aspose.barcode.generation/barcodeparameters/itf/) { get; } | ITF parameters. |
 | [MaxiCode](../../aspose.barcode.generation/barcodeparameters/maxicode/) { get; } | MaxiCode parameters. |

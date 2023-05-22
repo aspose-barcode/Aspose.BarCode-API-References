@@ -66,7 +66,9 @@ public static class EncodeTypes
 | static readonly [GS1CompositeBar](../../aspose.barcode.generation/encodetypes/gs1compositebar/) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. The codetext must contains parentheses for AI. 1D codetext and 2D codetext must be separated with symbol '/' |
 | static readonly [GS1DataMatrix](../../aspose.barcode.generation/encodetypes/gs1datamatrix/) | 2D barcode symbology DataMatrix with GS1 string format |
 | static readonly [GS1DotCode](../../aspose.barcode.generation/encodetypes/gs1dotcode/) | Specifies that the data should be encoded with **GS1 DotCode** barcode specification. The codetext must contains parentheses for AI. |
+| static readonly [GS1HanXin](../../aspose.barcode.generation/encodetypes/gs1hanxin/) | 2D barcode symbology QR with GS1 string format |
 | static readonly [GS1QR](../../aspose.barcode.generation/encodetypes/gs1qr/) | 2D barcode symbology QR with GS1 string format |
+| static readonly [HanXin](../../aspose.barcode.generation/encodetypes/hanxin/) | Specifies that the data should be encoded with **Han Xin** barcode specification |
 | static readonly [HIBCAztecLIC](../../aspose.barcode.generation/encodetypes/hibcazteclic/) | Specifies that the data should be encoded with **HIBC LIC Aztec** barcode specification. |
 | static readonly [HIBCAztecPAS](../../aspose.barcode.generation/encodetypes/hibcaztecpas/) | Specifies that the data should be encoded with **HIBC PAS Aztec** barcode specification. |
 | static readonly [HIBCCode128LIC](../../aspose.barcode.generation/encodetypes/hibccode128lic/) | Specifies that the data should be encoded with **HIBC LIC Code128** barcode specification. |

@@ -3,7 +3,7 @@ title: EncodeTypes.SCC14
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with SCC14 barcode specification
 type: docs
-weight: 720
+weight: 740
 url: /net/aspose.barcode.generation/encodetypes/scc14/
 ---
 ## EncodeTypes.SCC14 field

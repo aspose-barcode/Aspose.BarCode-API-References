@@ -3,7 +3,7 @@ title: SpecificParametersUI.MaxiCode
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets MaxiCode parameters MaxiCodeParameters. Used for MaxiCode
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.barcode.windows.forms/specificparametersui/maxicode/
 ---
 ## SpecificParametersUI.MaxiCode property

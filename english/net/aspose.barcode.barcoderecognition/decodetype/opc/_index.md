@@ -3,7 +3,7 @@ title: DecodeType.OPC
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with OPC barcode specification
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.barcode.barcoderecognition/decodetype/opc/
 ---
 ## DecodeType.OPC field

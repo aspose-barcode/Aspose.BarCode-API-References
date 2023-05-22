@@ -3,7 +3,7 @@ title: SpecificParametersUI.Pdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets Pdf417 parameters Pdf417Parameters. Used for Pdf417
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.barcode.windows.forms/specificparametersui/pdf417/
 ---
 ## SpecificParametersUI.Pdf417 property

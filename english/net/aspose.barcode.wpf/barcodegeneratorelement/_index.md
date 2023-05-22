@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1320
+weight: 1360
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -96,6 +96,10 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [EnableEscape](../../aspose.barcode.wpf/barcodegeneratorelement/enableescape/) { get; set; } | Indicates whether explains the character '\' as an escape character in CodeText property. |
 | [EncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/encodetype/) { get; set; } | BarCode's encode type (symbology). |
 | [FilledBars](../../aspose.barcode.wpf/barcodegeneratorelement/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. |
+| [HanXinECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencoding/) { get; set; } | ECI encoding. |
+| [HanXinEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinencodemode/) { get; set; } | Encode mode. |
+| [HanXinErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinerrorlevel/) { get; set; } | Error level. |
+| [HanXinVersion](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinversion/) { get; set; } | HanXin version. |
 | [IsChecksumEnabled](../../aspose.barcode.wpf/barcodegeneratorelement/ischecksumenabled/) { get; set; } | Enable checksum during generation 1D barcodes. |
 | [ITFItfBorderThickness](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfborderthickness/) { get; set; } | ITF border thickness in pixels. |
 | [ITFItfBorderType](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfbordertype/) { get; set; } | ITF border type. |
@@ -218,6 +222,10 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/) | EnableEscapeProperty |
 | static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/) | EncodeTypeProperty |
 | static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/) | FilledBarsProperty |
+| static [HanXinECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencodingproperty/) | HanXinECIEncodingProperty |
+| static [HanXinEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinencodemodeproperty/) | HanXinEncodeModeProperty |
+| static [HanXinErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinerrorlevelproperty/) | HanXinErrorLevelProperty |
+| static [HanXinVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinversionproperty/) | HanXinVersionProperty |
 | static [IsChecksumEnabledProperty](../../aspose.barcode.wpf/barcodegeneratorelement/ischecksumenabledproperty/) | IsChecksumEnabledProperty |
 | static [ITFItfBorderThicknessProperty](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfborderthicknessproperty/) | ITFItfBorderThicknessProperty |
 | static [ITFItfBorderTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/itfitfbordertypeproperty/) | ITFItfBorderTypeProperty |

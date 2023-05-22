@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeECIEncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DotCodeECIEncodingProperty
 type: docs
-weight: 1770
+weight: 1810
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeeciencodingproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeECIEncodingProperty field

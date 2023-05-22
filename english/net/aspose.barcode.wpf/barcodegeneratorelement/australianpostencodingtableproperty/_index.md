@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AustralianPostEncodingTableProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AustralianPostEncodingTableProperty
 type: docs
-weight: 1140
+weight: 1180
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/australianpostencodingtableproperty/
 ---
 ## BarcodeGeneratorElement.AustralianPostEncodingTableProperty field

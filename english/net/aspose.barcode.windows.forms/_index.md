@@ -17,6 +17,7 @@ The **Aspose.BarCode.Windows.Forms** contains WinForms controls for the 1D/2D ba
 | [CaptionUI](./captionui/) | UI wrapper for [`CaptionParameters`](../aspose.barcode.generation/captionparameters/) class. |
 | [CodetextParametersUI](./codetextparametersui/) | Codetext parameters. |
 | [DataMatrixParametersUI](./datamatrixparametersui/) | UI wrapper for [`DataMatrixParameters`](../aspose.barcode.generation/datamatrixparameters/) class. |
+| [HanXinParametersUI](./hanxinparametersui/) | UI wrapper for [`HanXinParameters`](../aspose.barcode.generation/hanxinparameters/) class. |
 | [Pdf417ParametersUI](./pdf417parametersui/) | UI wrapper for [`Pdf417Parameters`](../aspose.barcode.generation/pdf417parameters/) class. |
 | [QrParametersUI](./qrparametersui/) | UI wrapper for [`QrParameters`](../aspose.barcode.generation/qrparameters/) class. |
 | [SpecificParametersUI](./specificparametersui/) | Specific parameters. |
