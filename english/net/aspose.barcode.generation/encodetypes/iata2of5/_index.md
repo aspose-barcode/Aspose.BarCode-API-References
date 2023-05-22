@@ -3,7 +3,7 @@ title: EncodeTypes.IATA2of5
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Represents IATA 2 of 5 barcode.IATA International Air Transport Assosiation uses this barcode for the management of air cargo
 type: docs
-weight: 470
+weight: 490
 url: /net/aspose.barcode.generation/encodetypes/iata2of5/
 ---
 ## EncodeTypes.IATA2of5 field

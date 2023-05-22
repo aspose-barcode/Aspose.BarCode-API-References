@@ -3,7 +3,7 @@ title: DecodeType.Is1D
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Determines if the specified BaseDecodeType contains any 1D barcode symbology
 type: docs
-weight: 870
+weight: 890
 url: /net/aspose.barcode.barcoderecognition/decodetype/is1d/
 ---
 ## DecodeType.Is1D method

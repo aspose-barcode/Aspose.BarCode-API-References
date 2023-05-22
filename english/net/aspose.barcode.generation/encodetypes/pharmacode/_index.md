@@ -3,7 +3,7 @@ title: EncodeTypes.Pharmacode
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Represents Pharmacode barcode
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.barcode.generation/encodetypes/pharmacode/
 ---
 ## EncodeTypes.Pharmacode field

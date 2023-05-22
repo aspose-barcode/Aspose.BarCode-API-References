@@ -3,7 +3,7 @@ title: DecodeType.MSI
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with MSI Plessey barcode specification
 type: docs
-weight: 630
+weight: 650
 url: /net/aspose.barcode.barcoderecognition/decodetype/msi/
 ---
 ## DecodeType.MSI field

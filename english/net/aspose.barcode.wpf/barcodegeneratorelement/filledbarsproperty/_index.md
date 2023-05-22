@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.FilledBarsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. FilledBarsProperty
 type: docs
-weight: 1850
+weight: 1890
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/
 ---
 ## BarcodeGeneratorElement.FilledBarsProperty field

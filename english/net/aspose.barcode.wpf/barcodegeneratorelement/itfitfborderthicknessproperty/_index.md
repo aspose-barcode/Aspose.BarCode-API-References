@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ITFItfBorderThicknessProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. ITFItfBorderThicknessProperty
 type: docs
-weight: 1870
+weight: 1950
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/itfitfborderthicknessproperty/
 ---
 ## BarcodeGeneratorElement.ITFItfBorderThicknessProperty field

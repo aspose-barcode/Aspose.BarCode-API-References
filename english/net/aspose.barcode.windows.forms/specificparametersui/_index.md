@@ -3,7 +3,7 @@ title: Class SpecificParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.SpecificParametersUI class. Specific parameters
 type: docs
-weight: 1410
+weight: 1460
 url: /net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class
@@ -28,6 +28,7 @@ public class SpecificParametersUI
 | [DataBar](../../aspose.barcode.windows.forms/specificparametersui/databar/) { get; } | Gets or sets DataBar parameters [`DataBarParameters`](../../aspose.barcode.generation/databarparameters/). Used for DataBar symbologies. |
 | [DataMatrix](../../aspose.barcode.windows.forms/specificparametersui/datamatrix/) { get; } | Gets or sets DataMatrix parameters [`DataMatrixParameters`](../../aspose.barcode.generation/datamatrixparameters/). Used for DataMatrix. |
 | [DotCode](../../aspose.barcode.windows.forms/specificparametersui/dotcode/) { get; } | Gets or sets DotCode parameters [`DotCodeParameters`](../../aspose.barcode.generation/dotcodeparameters/). Used for DotCode. |
+| [HanXin](../../aspose.barcode.windows.forms/specificparametersui/hanxin/) { get; } | Gets or sets HanXin parameters [`HanXinParameters`](../../aspose.barcode.generation/hanxinparameters/). Used for HanXin. |
 | [ITF](../../aspose.barcode.windows.forms/specificparametersui/itf/) { get; } | Gets or sets ITF parameters [`ITFParameters`](../../aspose.barcode.generation/itfparameters/). Used for ITF6, ITF14. |
 | [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode/) { get; } | Gets or sets MaxiCode parameters [`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters/). Used for MaxiCode. |
 | [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417/) { get; } | Gets or sets Pdf417 parameters [`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters/). Used for Pdf417. |

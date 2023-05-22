@@ -3,7 +3,7 @@ title: DecodeType.PostalTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that data will be checked with all of 1.5D Postal barcode symbologies like Planet Postnet AustraliaPost OneCode RM4SCC DutchKIX
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.barcode.barcoderecognition/decodetype/postaltypes/
 ---
 ## DecodeType.PostalTypes field

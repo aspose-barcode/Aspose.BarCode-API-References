@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextFontSizeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodeTextFontSizeProperty
 type: docs
-weight: 1560
+weight: 1600
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextfontsizeproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextFontSizeProperty field
