@@ -3,7 +3,7 @@ title: DecodeType.HIBCQRPAS
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC PAS QR blank specification
 type: docs
-weight: 460
+weight: 480
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcqrpas/
 ---
 ## DecodeType.HIBCQRPAS field

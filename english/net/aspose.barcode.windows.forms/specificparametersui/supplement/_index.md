@@ -3,7 +3,7 @@ title: SpecificParametersUI.Supplement
 second_title: Aspose.BarCode for .NET API Reference
 description: SpecificParametersUI property. Gets or sets Supplement parameters SupplementParameters. Used for Interleaved2of5 Standard2of5 EAN13 EAN8 UPCA UPCE ISBN ISSN ISMN
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.barcode.windows.forms/specificparametersui/supplement/
 ---
 ## SpecificParametersUI.Supplement property

@@ -3,7 +3,7 @@ title: BarcodeParameters.ITF
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. ITF parameters
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.barcode.generation/barcodeparameters/itf/
 ---
 ## BarcodeParameters.ITF property
