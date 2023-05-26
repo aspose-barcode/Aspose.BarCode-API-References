@@ -23,6 +23,7 @@ Class contains specific parameters for UI
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Gets Codabar parameters com.aspose.barcode.generation.CodabarParameters . |
 | [getCodablock()](#getCodablock--) | Gets Codablock parameters com.aspose.barcode.generation.CodablockParameters . |
+| [getCode128()](#getCode128--) | Gets Code128 parameters . |
 | [getCode16K()](#getCode16K--) | Gets Code16K parameters com.aspose.barcode.generation.Code16KParameters . |
 | [getCoupon()](#getCoupon--) | Gets Coupon parameters com.aspose.barcode.generation.CouponParameters . |
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters com.aspose.barcode.generation.DataBarParameters . |
@@ -106,6 +107,16 @@ Gets Codablock parameters com.aspose.barcode.generation.CodablockParameters .
 
 **Returns:**
 [CodablockParameters](../../com.aspose.barcode.generation/codablockparameters) - Used for CodablockF.
+### getCode128() {#getCode128--}
+```
+public Code128Parameters getCode128()
+```
+
+
+Gets Code128 parameters . Used for Code128.
+
+**Returns:**
+com.aspose.barcode.generation.Code128Parameters
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()

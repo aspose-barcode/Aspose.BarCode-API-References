@@ -13,6 +13,53 @@ public enum CustomerInformationInterpretingType extends Enum<CustomerInformation
 ```
 
 Defines the interpreting type(C\_TABLE or N\_TABLE) of customer information for AustralianPost BarCode.
+
+This sample shows how to generate and recognize Australia Post barcode with CTable Interpreting Type
+
+--------------------
+
+> ```
+> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678ABCde");
+>   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.C_TABLE);
+>   BufferedImage image = generator.generateBarCodeImage();
+>   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
+>   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.C_TABLE);
+>   for(BarCodeResult result : reader.readBarCodes())
+>   {
+>       System.out.println("BarCode Type: " + result.getCodeType());
+>       System.out.println("BarCode CodeText: " + result.getCodeText());
+>   }
+> ```
+
+--------------------
+
+> ```
+> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "59123456781234567"))
+>   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.N_TABLE);
+>   BufferedImage image = generator.generateBarCodeImage();
+>   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST))
+>   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.N_TABLE);
+>   for(BarCodeResult result : reader.readBarCodes())
+>   {
+>       System.out.println("BarCode Type: " + result.getCodeType());
+>       System.out.println("BarCode CodeText: " + result.getCodeText());
+>   }
+> ```
+
+--------------------
+
+> ```
+> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "59123456780123012301230123");
+>   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.OTHER);
+>   BufferedImage image = generator.generateBarCodeImage();
+>   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
+>   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.OTHER);
+>   for(BarCodeResult result : reader.readBarCodes())
+>   {
+>       System.out.println("BarCode Type: " + result.getCodeType());
+>       System.out.println("BarCode CodeText: " + result.getCodeText());
+>   }
+> ```
 ## Fields
 
 | Field | Description |
@@ -49,21 +96,6 @@ public static final CustomerInformationInterpretingType C_TABLE
 
 Use C\_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and \# sing.
 
---------------------
-
-> ```
-> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678ABCde");
->   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.C_TABLE);
->   BufferedImage image = generator.generateBarCodeImage();
->   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
->   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.C_TABLE);
->   for(BarCodeResult result : reader.readBarCodes())
->   {
->       System.out.println("BarCode Type: " + result.getCodeType());
->       System.out.println("BarCode CodeText: " + result.getCodeText());
->   }
-> ```
-
 ### N_TABLE {#N-TABLE}
 ```
 public static final CustomerInformationInterpretingType N_TABLE
@@ -72,21 +104,6 @@ public static final CustomerInformationInterpretingType N_TABLE
 
 Use N\_TABLE to interpret the customer information. Allows digits.
 
---------------------
-
-> ```
-> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "59123456781234567"))
->   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.N_TABLE);
->   BufferedImage image = generator.generateBarCodeImage();
->   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST))
->   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.N_TABLE);
->   for(BarCodeResult result : reader.readBarCodes())
->   {
->       System.out.println("BarCode Type: " + result.getCodeType());
->       System.out.println("BarCode CodeText: " + result.getCodeText());
->   }
-> ```
-
 ### OTHER {#OTHER}
 ```
 public static final CustomerInformationInterpretingType OTHER
@@ -94,21 +111,6 @@ public static final CustomerInformationInterpretingType OTHER
 
 
 Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only.
-
---------------------
-
-> ```
-> BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "59123456780123012301230123");
->   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.OTHER);
->   BufferedImage image = generator.generateBarCodeImage();
->   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
->   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.OTHER);
->   for(BarCodeResult result : reader.readBarCodes())
->   {
->       System.out.println("BarCode Type: " + result.getCodeType());
->       System.out.println("BarCode CodeText: " + result.getCodeText());
->   }
-> ```
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

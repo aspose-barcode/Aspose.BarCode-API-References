@@ -3,7 +3,7 @@ title: QREncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for QR barcodes.
 type: docs
-weight: 78
+weight: 80
 url: /java/com.aspose.barcode.generation/qrencodemode/
 ---
 **Inheritance:**
@@ -13,6 +13,67 @@ public enum QREncodeMode extends Enum<QREncodeMode>
 ```
 
 Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncoding = Encoding.UTF8 for latin symbols or digits and UTF\_8\_BOM for unicode symbols.
+
+--------------------
+
+> ```
+> Example how to use ECI encoding
+>  
+>      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>      generator.setCodeText("12345TEXT");
+>      generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.ECI_ENCODING);
+>      generator.getParameters().getBarcode().getQR().setQrEncodeType(QREncodeType.FORCE_QR);
+>      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
+>      generator.save("test.png");
+> ```
+
+--------------------
+
+> ```
+> Example how to use FNC1 first position in Extended Mode
+>   
+>       QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+>       textBuilder.addPlainCodetext("000%89%%0");
+>       textBuilder.addFNC1GroupSeparator();
+>       textBuilder.addPlainCodetext("12345<FNC1>");
+>       //generate barcode
+>       BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>       generator.setCodeText(textBuilder.getExtendedCodetext());
+>       generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+>       generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+>       generator.save("d:/test.png");
+>  
+>       *
+>  This sample shows how to use FNC1 second position in Extended Mode.
+>  
+>     
+>     //create codetext
+>     QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+>     textBuilder.addFNC1SecondPosition("12");
+>     textBuilder.addPlainCodetext("TRUE3456");
+>     //generate barcode
+>     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>     generator.setCodeText(textBuilder.getExtendedCodetext());
+>     generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+>     generator.save("d:/test.png");
+>     
+>     
+>     This sample shows how to use multi ECI mode in Extended Mode.
+>     
+>    
+>    //create codetext
+>    QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+>    textBuilder.addECICodetext(ECIEncodings.Win1251, "Will");
+>    textBuilder.addECICodetext(ECIEncodings.UTF8, "Right");
+>    textBuilder.addECICodetext(ECIEncodings.UTF16BE, "Power");
+>    textBuilder.addPlainCodetext("t\e\\st");
+>    //generate barcode
+>    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>    generator.setCodeText(textBuilder.getExtendedCodetext());
+>    generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+>    generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+>    generator.save("d:/test.png");
+> ```
 ## Fields
 
 | Field | Description |
@@ -68,19 +129,6 @@ public static final QREncodeMode ECI_ENCODING
 
 Encode codetext with value set in the ECI\_ENCODING property. It can be problems with some old (pre 2006) barcode scaners.
 
---------------------
-
-> ```
-> Example how to use ECI encoding
->  
->      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->      generator.setCodeText("12345TEXT");
->      generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.ECI_ENCODING);
->      generator.getParameters().getBarcode().getQR().setQrEncodeType(QREncodeType.FORCE_QR);
->      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
->      generator.save("test.png");
-> ```
-
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```
 public static final QREncodeMode EXTENDED_CODETEXT
@@ -110,54 +158,6 @@ ECI identifiers are set as single slash and six digits identifier "\\000026" - U
 TO disable current ECI mode and convert to default JIS8 mode zero mode ECI indetifier is set. "\\000000"
 
 All unicode characters after ECI identifier are automatically encoded into correct character codeset.
-
---------------------
-
-> ```
-> Example how to use FNC1 first position in Extended Mode
->   
->       QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
->       textBuilder.addPlainCodetext("000%89%%0");
->       textBuilder.addFNC1GroupSeparator();
->       textBuilder.addPlainCodetext("12345<FNC1>");
->       //generate barcode
->       BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->       generator.setCodeText(textBuilder.getExtendedCodetext());
->       generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
->       generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
->       generator.save("d:/test.png");
->  
-> 
->  This sample shows how to use FNC1 second position in Extended Mode.
->  
->     
->     //create codetext
->     QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
->     textBuilder.addFNC1SecondPosition("12");
->     textBuilder.addPlainCodetext("TRUE3456");
->     //generate barcode
->     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->     generator.setCodeText(textBuilder.getExtendedCodetext());
->     generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
->     generator.save("d:/test.png");
->     
->     
->     This sample shows how to use multi ECI mode in Extended Mode.
->     
->    
->    //create codetext
->    QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
->    textBuilder.addECICodetext(ECIEncodings.Win1251, "Will");
->    textBuilder.addECICodetext(ECIEncodings.UTF8, "Right");
->    textBuilder.addECICodetext(ECIEncodings.UTF16BE, "Power");
->    textBuilder.addPlainCodetext("t\e\\st");
->    //generate barcode
->    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->    generator.setCodeText(textBuilder.getExtendedCodetext());
->    generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
->    generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
->    generator.save("d:/test.png");
-> ```
 
 ### UTF_16_BEBOM {#UTF-16-BEBOM}
 ```

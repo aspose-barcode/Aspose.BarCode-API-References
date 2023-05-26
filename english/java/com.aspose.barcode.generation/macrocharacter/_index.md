@@ -1,9 +1,9 @@
 ---
 title: MacroCharacter
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes.
 type: docs
-weight: 72
+weight: 74
 url: /java/com.aspose.barcode.generation/macrocharacter/
 ---
 **Inheritance:**
@@ -11,6 +11,8 @@ java.lang.Object, java.lang.Enum
 ```
 public enum MacroCharacter extends Enum<MacroCharacter>
 ```
+
+Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)>05" as decoded data header and "" as decoded data trailer. 06 Macro craracter is translated to "[)>06" as decoded data header and "" as decoded data trailer. //to generate autoidentified GS1 message like this "(10)123ABC(10)123ABC" in ISO 15434 format you need: BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA\_MATRIX, "10123ABC10123ABC"); generator.getParameters().getBarcode().getDataMatrix().setMacroCharacters(MacroCharacter.MACRO\_05); BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS\_1\_DATA\_MATRIX); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
 ## Fields
 
 | Field | Description |
@@ -46,7 +48,7 @@ public static final MacroCharacter MACRO_05
 ```
 
 
-05 Macro craracter is added to barcode data in first position. GS1 Data Identifier ISO 15434 Character is translated to "[)>05" as decoded data header and "" as decoded data trailer. //to generate autoidentified GS1 message like this "(10)123ABC(10)123ABC" in ISO 15434 format you need: BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA\_MATRIX, "10123ABC10123ABC"); generator.getParameters().getBarcode().getDataMatrix().setMacroCharacters(MacroCharacter.MACRO\_05); BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS\_1\_DATA\_MATRIX); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+05 Macro craracter is added to barcode data in first position. GS1 Data Identifier ISO 15434 Character is translated to "[)>05" as decoded data header and "" as decoded data trailer.
 
 ### MACRO_06 {#MACRO-06}
 ```

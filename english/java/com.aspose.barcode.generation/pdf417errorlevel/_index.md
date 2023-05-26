@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for Java API Reference
 description: pdf417 barcodes error correction level from level 0 to level 9 level 0 means no error correction level 9 means best error correction
 type: docs
-weight: 76
+weight: 78
 url: /java/com.aspose.barcode.generation/pdf417errorlevel/
 ---
 **Inheritance:**
@@ -17,15 +17,15 @@ pdf417 barcode's error correction level, from level 0 to level 9, level 0 means 
 
 | Field | Description |
 | --- | --- |
-| [LEVEL_0](#LEVEL-0) | level = 0. |
-| [LEVEL_1](#LEVEL-1) | level = 1. |
-| [LEVEL_2](#LEVEL-2) | level = 2. |
-| [LEVEL_3](#LEVEL-3) | level = 3. |
-| [LEVEL_4](#LEVEL-4) | level = 4. |
-| [LEVEL_5](#LEVEL-5) | level = 5. |
-| [LEVEL_6](#LEVEL-6) | level = 6. |
-| [LEVEL_7](#LEVEL-7) | level = 7. |
-| [LEVEL_8](#LEVEL-8) | level = 8. |
+| [LEVEL_0](#LEVEL-0) | Error Correction Level - 0. |
+| [LEVEL_1](#LEVEL-1) | Error Correction Level - 1. |
+| [LEVEL_2](#LEVEL-2) | Error Correction Level - 2. |
+| [LEVEL_3](#LEVEL-3) | Error Correction Level - 3. |
+| [LEVEL_4](#LEVEL-4) | Error Correction Level - 4. |
+| [LEVEL_5](#LEVEL-5) | Error Correction Level - 5. |
+| [LEVEL_6](#LEVEL-6) | Error Correction Level - 6. |
+| [LEVEL_7](#LEVEL-7) | Error Correction Level - 7. |
+| [LEVEL_8](#LEVEL-8) | Error Correction Level - 8. |
 ## Methods
 
 | Method | Description |
@@ -53,7 +53,7 @@ public static final Pdf417ErrorLevel LEVEL_0
 ```
 
 
-level = 0.
+Error Correction Level - 0. Error Correction Codewords - 2.
 
 ### LEVEL_1 {#LEVEL-1}
 ```
@@ -61,7 +61,7 @@ public static final Pdf417ErrorLevel LEVEL_1
 ```
 
 
-level = 1.
+Error Correction Level - 1. Error Correction Codewords - 4.
 
 ### LEVEL_2 {#LEVEL-2}
 ```
@@ -69,7 +69,7 @@ public static final Pdf417ErrorLevel LEVEL_2
 ```
 
 
-level = 2.
+Error Correction Level - 2. Error Correction Codewords - 8.
 
 ### LEVEL_3 {#LEVEL-3}
 ```
@@ -77,7 +77,7 @@ public static final Pdf417ErrorLevel LEVEL_3
 ```
 
 
-level = 3.
+Error Correction Level - 3. Error Correction Codewords - 16.
 
 ### LEVEL_4 {#LEVEL-4}
 ```
@@ -85,7 +85,7 @@ public static final Pdf417ErrorLevel LEVEL_4
 ```
 
 
-level = 4.
+Error Correction Level - 4. Error Correction Codewords - 32.
 
 ### LEVEL_5 {#LEVEL-5}
 ```
@@ -93,7 +93,7 @@ public static final Pdf417ErrorLevel LEVEL_5
 ```
 
 
-level = 5.
+Error Correction Level - 5. Error Correction Codewords - 64.
 
 ### LEVEL_6 {#LEVEL-6}
 ```
@@ -101,7 +101,7 @@ public static final Pdf417ErrorLevel LEVEL_6
 ```
 
 
-level = 6.
+Error Correction Level - 6. Error Correction Codewords - 128.
 
 ### LEVEL_7 {#LEVEL-7}
 ```
@@ -109,7 +109,7 @@ public static final Pdf417ErrorLevel LEVEL_7
 ```
 
 
-level = 7.
+Error Correction Level - 7. Error Correction Codewords - 256.
 
 ### LEVEL_8 {#LEVEL-8}
 ```
@@ -117,7 +117,7 @@ public static final Pdf417ErrorLevel LEVEL_8
 ```
 
 
-level = 8.
+Error Correction Level - 8. Error Correction Codewords - 512.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,91 +1,33 @@
 ---
-title: FontStyle
+title: Code128Parameters
 second_title: Aspose.BarCode for Java API Reference
-description: Specifies style information applied to text.
+description: Code128 parameters.
 type: docs
-weight: 35
-url: /java/com.aspose.barcode.generation/fontstyle/
+weight: 22
+url: /java/com.aspose.barcode.generation/code128parameters/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public final class FontStyle
+public class Code128Parameters
 ```
 
-Specifies style information applied to text.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontStyle()](#FontStyle--) |  |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [BOLD](#BOLD) | Bold text |
-| [ITALIC](#ITALIC) | Italic text |
-| [REGULAR](#REGULAR) | Normal text |
-| [STRIKEOUT](#STRIKEOUT) | Text with a line through the middle |
-| [UNDERLINE](#UNDERLINE) | Underlined text |
+Code128 parameters.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets or sets a Code128 encode mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
+| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Gets or sets a Code128 encode mode. |
+| [toString()](#toString--) | Returns a human-readable string representation of this  Code128Parameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FontStyle() {#FontStyle--}
-```
-public FontStyle()
-```
-
-
-### BOLD {#BOLD}
-```
-public static final int BOLD
-```
-
-
-Bold text
-
-### ITALIC {#ITALIC}
-```
-public static final int ITALIC
-```
-
-
-Italic text
-
-### REGULAR {#REGULAR}
-```
-public static final int REGULAR
-```
-
-
-Normal text
-
-### STRIKEOUT {#STRIKEOUT}
-```
-public static final int STRIKEOUT
-```
-
-
-Text with a line through the middle
-
-### UNDERLINE {#UNDERLINE}
-```
-public static final int UNDERLINE
-```
-
-
-Underlined text
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -111,6 +53,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCode128EncodeMode() {#getCode128EncodeMode--}
+```
+public Code128EncodeMode getCode128EncodeMode()
+```
+
+
+Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+
+**Returns:**
+com.aspose.barcode.generation.Code128EncodeMode
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,16 +89,29 @@ public final native void notifyAll()
 
 
 
+### setCode128EncodeMode(Code128EncodeMode value) {#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
+```
+public void setCode128EncodeMode(Code128EncodeMode value)
+```
+
+
+Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.barcode.generation.Code128EncodeMode |  |
+
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-
+Returns a human-readable string representation of this  Code128Parameters .
 
 **Returns:**
-java.lang.String
+java.lang.String - A string that represents this  Code128Parameters .
 ### wait() {#wait--}
 ```
 public final void wait()
