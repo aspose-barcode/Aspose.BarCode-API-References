@@ -1,26 +1,46 @@
 ---
-title: QRErrorLevel
+title: Code128EncodeMode
 second_title: Aspose.BarCode for Java API Reference
-description: Level of Reed-Solomon error correction.
+description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 82
-url: /java/com.aspose.barcode.generation/qrerrorlevel/
+weight: 65
+url: /java/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum QRErrorLevel extends Enum<QRErrorLevel>
+public enum Code128EncodeMode extends Enum<Code128EncodeMode>
 ```
 
-Level of Reed-Solomon error correction. From low to high: LEVEL\_L, LEVEL\_M, LEVEL\_Q, LEVEL\_H.
+Encoding mode for Code128 barcodes.  Code 128  specification.
+
+--------------------
+
+> ```
+> Thos code demonstrates how to generate code 128 with different encodings
+>  
+> 
+>  //Generate code 128 with ISO 15417 encoding
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
+>  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.AUTO);
+>  generator.save("d:\\code128Auto.png", BarCodeImageFormat.PNG);
+> 
+>  //Generate code 128 only with Codeset A encoding
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
+>  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.CODE_A);
+>  generator.save("d:\\code128CodeA.png", BarCodeImageFormat.PNG);
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [LEVEL_H](#LEVEL-H) | Allows recovery of 30% of the code text |
-| [LEVEL_L](#LEVEL-L) | Allows recovery of 7% of the code text |
-| [LEVEL_M](#LEVEL-M) | Allows recovery of 15% of the code text |
-| [LEVEL_Q](#LEVEL-Q) | Allows recovery of 25% of the code text |
+| [AUTO](#AUTO) | Encode codetext in classic ISO 15417 mode. |
+| [CODE_A](#CODE-A) | Encode codetext only in 128A codeset. |
+| [CODE_AB](#CODE-AB) | Encode codetext only in 128A and 128B codesets. |
+| [CODE_AC](#CODE-AC) | Encode codetext only in 128A and 128C codesets. |
+| [CODE_B](#CODE-B) | Encode codetext only in 128B codeset. |
+| [CODE_BC](#CODE-BC) | Encode codetext only in 128B and 128C codesets. |
+| [CODE_C](#CODE-C) | Encode codetext only in 128C codeset. |
 ## Methods
 
 | Method | Description |
@@ -37,42 +57,67 @@ Level of Reed-Solomon error correction. From low to high: LEVEL\_L, LEVEL\_M, LE
 | [notifyAll()](#notifyAll--) |  |
 | [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
+| [valueOf(int value)](#valueOf-int-) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### LEVEL_H {#LEVEL-H}
+### AUTO {#AUTO}
 ```
-public static final QRErrorLevel LEVEL_H
-```
-
-
-Allows recovery of 30% of the code text
-
-### LEVEL_L {#LEVEL-L}
-```
-public static final QRErrorLevel LEVEL_L
+public static final Code128EncodeMode AUTO
 ```
 
 
-Allows recovery of 7% of the code text
+Encode codetext in classic ISO 15417 mode. The mode should be used in all ordinary cases.
 
-### LEVEL_M {#LEVEL-M}
+### CODE_A {#CODE-A}
 ```
-public static final QRErrorLevel LEVEL_M
-```
-
-
-Allows recovery of 15% of the code text
-
-### LEVEL_Q {#LEVEL-Q}
-```
-public static final QRErrorLevel LEVEL_Q
+public static final Code128EncodeMode CODE_A
 ```
 
 
-Allows recovery of 25% of the code text
+Encode codetext only in 128A codeset.
+
+### CODE_AB {#CODE-AB}
+```
+public static final Code128EncodeMode CODE_AB
+```
+
+
+Encode codetext only in 128A and 128B codesets.
+
+### CODE_AC {#CODE-AC}
+```
+public static final Code128EncodeMode CODE_AC
+```
+
+
+Encode codetext only in 128A and 128C codesets.
+
+### CODE_B {#CODE-B}
+```
+public static final Code128EncodeMode CODE_B
+```
+
+
+Encode codetext only in 128B codeset.
+
+### CODE_BC {#CODE-BC}
+```
+public static final Code128EncodeMode CODE_BC
+```
+
+
+Encode codetext only in 128B and 128C codesets.
+
+### CODE_C {#CODE-C}
+```
+public static final Code128EncodeMode CODE_C
+```
+
+
+Encode codetext only in 128C codeset.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -206,9 +251,24 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### valueOf(int value) {#valueOf-int-}
+```
+public static Code128EncodeMode valueOf(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+com.aspose.barcode.generation.Code128EncodeMode
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static QRErrorLevel valueOf(String name)
+public static Code128EncodeMode valueOf(String name)
 ```
 
 
@@ -220,17 +280,17 @@ public static QRErrorLevel valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
+com.aspose.barcode.generation.Code128EncodeMode
 ### values() {#values--}
 ```
-public static QRErrorLevel[] values()
+public static Code128EncodeMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.QRErrorLevel[]
+com.aspose.barcode.generation.Code128EncodeMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

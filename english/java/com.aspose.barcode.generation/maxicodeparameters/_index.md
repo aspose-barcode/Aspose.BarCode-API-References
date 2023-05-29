@@ -3,7 +3,7 @@ title: MaxiCodeParameters
 second_title: Aspose.BarCode for Java API Reference
 description: MaxiCode parameters.
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.barcode.generation/maxicodeparameters/
 ---
 **Inheritance:**

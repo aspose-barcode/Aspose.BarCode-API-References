@@ -3,7 +3,7 @@ title: TextMeasurer
 second_title: Aspose.BarCode for Java API Reference
 description: Represents text measurer.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.barcode.generation/textmeasurer/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: DataMatrixEccType
 second_title: Aspose.BarCode for Java API Reference
 description: Specify the type of the ECC to encode.
 type: docs
-weight: 65
+weight: 67
 url: /java/com.aspose.barcode.generation/datamatrixecctype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: UnitInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.barcode.generation/unitinternal/
 ---
 **Inheritance:**
