@@ -3,7 +3,7 @@ title: ComplexBarcode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 24
+weight: 25
 url: /androidjava/com.aspose.barcode.generation/complexbarcode/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: DataMatrix encoders encoding mode default to AUTO
 type: docs
-weight: 66
+weight: 68
 url: /androidjava/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**
@@ -13,6 +13,8 @@ public enum DataMatrixEncodeMode extends Enum<DataMatrixEncodeMode>
 ```
 
 DataMatrix encoder's encoding mode, default to AUTO
+
+This sample shows how to do codetext in Extended Mode: com.aspose.barcode.generation.BarcodeGenerator generator = new com.aspose.barcode.generation.BarcodeGenerator(EncodeTypes.DATA\_MATRIX); generator.setCodeText("\\\\ansix12:ANSIX12TEXT\\\\ascii:backslash must be \\\\\\\\ doubled\\\\edifact:EdifactEncodedText"); generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED\_CODETEXT); generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text"); generator.save("test.png");
 ## Fields
 
 | Field | Description |
@@ -109,15 +111,6 @@ ExtendedCodetext mode allows to manually switch encodation schemes in codetext.
  Allowed encodation schemes are: EDIFACT, ANSIX12, ASCII, C40, Text, Auto.
  Extended codetext example: "\ansix12:ANSIX12TEXT\ascii:backslash must be \\ doubled\edifact:EdifactEncodedText"
 All backslashes (\) must be doubled in text.
-
- This sample shows how to do codetext in Extended Mode:
-  ```
-
-   com.aspose.barcode.generation.BarcodeGenerator generator = new com.aspose.barcode.generation.BarcodeGenerator(EncodeTypes.DATA_MATRIX);
-   generator.setCodeText("\\ansix12:ANSIX12TEXT\\ascii:backslash must be \\\\ doubled\\edifact:EdifactEncodedText");
-   generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
-   generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
-   generator.save("test.png");  
 ```
 
 ### FULL {#FULL}

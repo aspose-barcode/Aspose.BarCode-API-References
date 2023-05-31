@@ -23,6 +23,7 @@ Specific parameters.
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Gets Codabar parameters . |
 | [getCodablock()](#getCodablock--) | Gets Codablock parameters . |
+| [getCode128()](#getCode128--) | Gets Code128 parameters . |
 | [getCode16K()](#getCode16K--) | Gets Code16K parameters . |
 | [getCoupon()](#getCoupon--) | Gets Coupon parameters . |
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters . |
@@ -106,6 +107,16 @@ Gets Codablock parameters .
 
 **Returns:**
 [CodablockParameters](../../com.aspose.barcode.generation/codablockparameters) - Used for CodablockF.
+### getCode128() {#getCode128--}
+```
+public Code128Parameters getCode128()
+```
+
+
+Gets Code128 parameters . Used for Code128.
+
+**Returns:**
+com.aspose.barcode.generation.Code128Parameters
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()

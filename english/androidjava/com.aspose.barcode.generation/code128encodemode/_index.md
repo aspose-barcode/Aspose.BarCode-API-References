@@ -1,65 +1,46 @@
 ---
-title: MaxiCodeEncodeMode
+title: Code128EncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Encoding mode for MaxiCode barcodes.
+description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 75
-url: /androidjava/com.aspose.barcode.generation/maxicodeencodemode/
+weight: 65
+url: /androidjava/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum MaxiCodeEncodeMode extends Enum<MaxiCodeEncodeMode>
+public enum Code128EncodeMode extends Enum<Code128EncodeMode>
 ```
 
-Encoding mode for MaxiCode barcodes.
+Encoding mode for Code128 barcodes.  Code 128  specification.
 
-```
-//Auto mode
- String codetext = "\u72acRight\u72d7";
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MAXI_CODE, codetext);
- {
-     generator.getParameters().getBarcode().getMaxiCode().setECIEncoding(ECIEncodings.UTF8);
-     generator.save("test.bmp");
- }
+--------------------
 
- //Bytes mode
- byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
-
- //encode array to string
- StringBuilder strBld = new StringBuilder();
- for(byte bval : encodedArr)
-     strBld.append((char) bval);
- String codetext = strBld.ToString();
-
- BarcodeGenerator generator1 = new BarcodeGenerator(EncodeTypes.MAXI_CODE, codetext);
- generator.getParameters().getBarcode().getMaxiCode().setMaxiCodeEncodeMode(MaxiCodeEncodeMode.BYTES);
- generator.save("test.bmp");
-
- //Extended codetext mode
- //create codetext
- MaxiCodeExtCodetextBuilder textBuilder = new MaxiCodeExtCodetextBuilder();
- textBuilder.addECICodetext(ECIEncodings.Win1251, "Will");
- textBuilder.addECICodetext(ECIEncodings.UTF8, "\u72acRight\u72d7");
- textBuilder.addECICodetext(ECIEncodings.UTF16BE, "\u72acPower\u72d7");
- textBuilder.addPlainCodetext("Plain text");
-
- // generate codetext
- String codetext = textBuilder.getExtendedCodetext();
-
- //generate
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MaxiCode, codetext);
- generator.getParameters().getBarcode().getMaxiCode().setMaxiCodeEncodeMode(MaxiCodeEncodeMode.EXTENDED_CODETEXT);
-  generator.getParameters().getBarcode().getMaxiCode().setTwoDDisplayText("My Text");
- generator.save("test.bmp");
-```
+> ```
+> Following code demonstrates how to generate code 128 with different encodings
+>  
+> 
+>  //Generate code 128 with ISO 15417 encoding
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
+>  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.AUTO);
+>  generator.save(filePath, BarCodeImageFormat.PNG);
+> 
+>  //Generate code 128 only with Codeset A encoding
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
+>  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.CODE_A);
+>  generator.save(filePath, BarCodeImageFormat.PNG);
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Encode codetext with value set in the ECIEncoding property. |
-| [BYTES](#BYTES) | Encode codetext as plain bytes. |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) | Extended mode which supports multi ECI modes. |
+| [AUTO](#AUTO) | Encode codetext in classic ISO 15417 mode. |
+| [CODE_A](#CODE-A) | Encode codetext only in 128A codeset. |
+| [CODE_AB](#CODE-AB) | Encode codetext only in 128A and 128B codesets. |
+| [CODE_AC](#CODE-AC) | Encode codetext only in 128A and 128C codesets. |
+| [CODE_B](#CODE-B) | Encode codetext only in 128B codeset. |
+| [CODE_BC](#CODE-BC) | Encode codetext only in 128B and 128C codesets. |
+| [CODE_C](#CODE-C) | Encode codetext only in 128C codeset. |
 ## Methods
 
 | Method | Description |
@@ -76,6 +57,7 @@ Encoding mode for MaxiCode barcodes.
 | [notifyAll()](#notifyAll--) |  |
 | [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
+| [valueOf(int value)](#valueOf-int-) |  |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
 | [wait()](#wait--) |  |
@@ -83,27 +65,59 @@ Encoding mode for MaxiCode barcodes.
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final MaxiCodeEncodeMode AUTO
+public static final Code128EncodeMode AUTO
 ```
 
 
-Encode codetext with value set in the ECIEncoding property.
+Encode codetext in classic ISO 15417 mode. The mode should be used in all ordinary cases.
 
-### BYTES {#BYTES}
+### CODE_A {#CODE-A}
 ```
-public static final MaxiCodeEncodeMode BYTES
-```
-
-
-Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
-
-### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
-```
-public static final MaxiCodeEncodeMode EXTENDED_CODETEXT
+public static final Code128EncodeMode CODE_A
 ```
 
 
-Extended mode which supports multi ECI modes. It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+Encode codetext only in 128A codeset.
+
+### CODE_AB {#CODE-AB}
+```
+public static final Code128EncodeMode CODE_AB
+```
+
+
+Encode codetext only in 128A and 128B codesets.
+
+### CODE_AC {#CODE-AC}
+```
+public static final Code128EncodeMode CODE_AC
+```
+
+
+Encode codetext only in 128A and 128C codesets.
+
+### CODE_B {#CODE-B}
+```
+public static final Code128EncodeMode CODE_B
+```
+
+
+Encode codetext only in 128B codeset.
+
+### CODE_BC {#CODE-BC}
+```
+public static final Code128EncodeMode CODE_BC
+```
+
+
+Encode codetext only in 128B and 128C codesets.
+
+### CODE_C {#CODE-C}
+```
+public static final Code128EncodeMode CODE_C
+```
+
+
+Encode codetext only in 128C codeset.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -237,9 +251,24 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### valueOf(int value) {#valueOf-int-}
+```
+public static Code128EncodeMode valueOf(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static MaxiCodeEncodeMode valueOf(String name)
+public static Code128EncodeMode valueOf(String name)
 ```
 
 
@@ -251,17 +280,17 @@ public static MaxiCodeEncodeMode valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode)
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### values() {#values--}
 ```
-public static MaxiCodeEncodeMode[] values()
+public static Code128EncodeMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.MaxiCodeEncodeMode[]
+com.aspose.barcode.generation.Code128EncodeMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

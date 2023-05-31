@@ -1,30 +1,30 @@
 ---
-title: CouponParameters
+title: Code128Parameters
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Coupon parameters.
+description: Code128 parameters.
 type: docs
-weight: 27
-url: /androidjava/com.aspose.barcode.generation/couponparameters/
+weight: 22
+url: /androidjava/com.aspose.barcode.generation/code128parameters/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class CouponParameters
+public class Code128Parameters
 ```
 
-Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
+Code128 parameters.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSupplementSpace()](#getSupplementSpace--) | Space between main the BarCode and supplement BarCode in  Unit  value. |
+| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets or sets a Code128 encode mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSupplementSpace(Unit value)](#setSupplementSpace-com.aspose.barcode.generation.Unit-) | Space between main the BarCode and supplement BarCode in  Unit  value. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  CouponParameters . |
+| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Gets or sets a Code128 encode mode. |
+| [toString()](#toString--) | Returns a human-readable string representation of this  Code128Parameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,16 +53,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getSupplementSpace() {#getSupplementSpace--}
+### getCode128EncodeMode() {#getCode128EncodeMode--}
 ```
-public Unit getSupplementSpace()
+public Code128EncodeMode getCode128EncodeMode()
 ```
 
 
-Space between main the BarCode and supplement BarCode in  Unit  value.
+Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 
 **Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -89,18 +89,18 @@ public final native void notifyAll()
 
 
 
-### setSupplementSpace(Unit value) {#setSupplementSpace-com.aspose.barcode.generation.Unit-}
+### setCode128EncodeMode(Code128EncodeMode value) {#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
 ```
-public void setSupplementSpace(Unit value)
+public void setCode128EncodeMode(Code128EncodeMode value)
 ```
 
 
-Space between main the BarCode and supplement BarCode in  Unit  value.
+Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
+| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) |  |
 
 ### toString() {#toString--}
 ```
@@ -108,10 +108,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  CouponParameters .
+Returns a human-readable string representation of this  Code128Parameters .
 
 **Returns:**
-java.lang.String - A string that represents this  CouponParameters .
+java.lang.String - A string that represents this  Code128Parameters .
 ### wait() {#wait--}
 ```
 public final void wait()

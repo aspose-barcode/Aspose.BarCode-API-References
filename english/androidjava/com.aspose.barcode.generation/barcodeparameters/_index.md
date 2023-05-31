@@ -31,6 +31,7 @@ Barcode generation parameters.
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Codabar parameters. |
 | [getCodablock()](#getCodablock--) | Codablock parameters. |
+| [getCode128()](#getCode128--) | Code128 parameters. |
 | [getCode16K()](#getCode16K--) | Code16K parameters. |
 | [getCodeText()](#getCodeText--) |  |
 | [getCodeTextParameters()](#getCodeTextParameters--) | Codetext parameters. |
@@ -227,6 +228,16 @@ Codablock parameters.
 
 **Returns:**
 [CodablockParameters](../../com.aspose.barcode.generation/codablockparameters)
+### getCode128() {#getCode128--}
+```
+public Code128Parameters getCode128()
+```
+
+
+Code128 parameters.
+
+**Returns:**
+com.aspose.barcode.generation.Code128Parameters
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()
