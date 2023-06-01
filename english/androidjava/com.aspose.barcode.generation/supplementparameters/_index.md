@@ -3,7 +3,7 @@ title: SupplementParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Supplement parameters.
 type: docs
-weight: 51
+weight: 52
 url: /androidjava/com.aspose.barcode.generation/supplementparameters/
 ---
 **Inheritance:**

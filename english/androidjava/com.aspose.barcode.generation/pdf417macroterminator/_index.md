@@ -3,7 +3,7 @@ title: Pdf417MacroTerminator
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
 type: docs
-weight: 77
+weight: 79
 url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
 ---
 **Inheritance:**

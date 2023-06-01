@@ -543,6 +543,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [isTemporarilyDetached()](#isTemporarilyDetached--) |  |
 | [isTextAlignmentResolved()](#isTextAlignmentResolved--) |  |
 | [isTextDirectionResolved()](#isTextDirectionResolved--) |  |
+| [isUseAntiAlias()](#isUseAntiAlias--) | Gets a value indicating whether is used anti-aliasing mode to render image. |
 | [isVerticalFadingEdgeEnabled()](#isVerticalFadingEdgeEnabled--) |  |
 | [isVerticalScrollBarEnabled()](#isVerticalScrollBarEnabled--) |  |
 | [isVisibleToUserForAutofill(int arg0)](#isVisibleToUserForAutofill-int-) |  |
@@ -830,6 +831,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [setTranslationX(float arg0)](#setTranslationX-float-) |  |
 | [setTranslationY(float arg0)](#setTranslationY-float-) |  |
 | [setTranslationZ(float arg0)](#setTranslationZ-float-) |  |
+| [setUseAntiAlias(boolean value)](#setUseAntiAlias-boolean-) | Sets a value indicating whether is used anti-aliasing mode to render image. |
 | [setVerticalFadingEdgeEnabled(boolean arg0)](#setVerticalFadingEdgeEnabled-boolean-) |  |
 | [setVerticalScrollBarEnabled(boolean arg0)](#setVerticalScrollBarEnabled-boolean-) |  |
 | [setVerticalScrollbarPosition(int arg0)](#setVerticalScrollbarPosition-int-) |  |
@@ -5669,6 +5671,16 @@ public boolean isTextDirectionResolved()
 
 **Returns:**
 boolean
+### isUseAntiAlias() {#isUseAntiAlias--}
+```
+public boolean isUseAntiAlias()
+```
+
+
+Gets a value indicating whether is used anti-aliasing mode to render image.
+
+**Returns:**
+boolean
 ### isVerticalFadingEdgeEnabled() {#isVerticalFadingEdgeEnabled--}
 ```
 public boolean isVerticalFadingEdgeEnabled()
@@ -9433,6 +9445,19 @@ public void setTranslationZ(float arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | float |  |
+
+### setUseAntiAlias(boolean value) {#setUseAntiAlias-boolean-}
+```
+public void setUseAntiAlias(boolean value)
+```
+
+
+Sets a value indicating whether is used anti-aliasing mode to render image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setVerticalFadingEdgeEnabled(boolean arg0) {#setVerticalFadingEdgeEnabled-boolean-}
 ```

@@ -26,6 +26,7 @@ This package contains tools for generating barcode.
 | [CodabarParameters](../com.aspose.barcode.generation/codabarparameters) | Codabar parameters. |
 | [CodabarSymbol](../com.aspose.barcode.generation/codabarsymbol) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [CodablockParameters](../com.aspose.barcode.generation/codablockparameters) | Codablock parameters. |
+| [Code128Parameters](../com.aspose.barcode.generation/code128parameters) | Code128 parameters. |
 | [Code16KParameters](../com.aspose.barcode.generation/code16kparameters) | Code16K parameters. |
 | [CodetextParameters](../com.aspose.barcode.generation/codetextparameters) | Codetext parameters. |
 | [ComplexBarcode](../com.aspose.barcode.generation/complexbarcode) |  |
@@ -78,6 +79,7 @@ This package contains tools for generating barcode.
 | [BorderDashStyle](../com.aspose.barcode.generation/borderdashstyle) | Specifies the style of dashed border lines. |
 | [CodabarChecksumMode](../com.aspose.barcode.generation/codabarchecksummode) | Specifies the checksum algorithm for Codabar |
 | [Code128Emulation](../com.aspose.barcode.generation/code128emulation) | Function codewords for Code 128 emulation. |
+| [Code128EncodeMode](../com.aspose.barcode.generation/code128encodemode) | Encoding mode for Code128 barcodes. |
 | [CodeLocation](../com.aspose.barcode.generation/codelocation) | Codetext location |
 | [DataMatrixEccType](../com.aspose.barcode.generation/datamatrixecctype) | Specify the type of the ECC to encode. |
 | [DataMatrixEncodeMode](../com.aspose.barcode.generation/datamatrixencodemode) | DataMatrix encoder's encoding mode, default to AUTO |
@@ -86,7 +88,7 @@ This package contains tools for generating barcode.
 | [FontMode](../com.aspose.barcode.generation/fontmode) | Font size mode. |
 | [GraphicsUnit](../com.aspose.barcode.generation/graphicsunit) | Specifies the unit of measure for the given data. |
 | [ITF14BorderType](../com.aspose.barcode.generation/itf14bordertype) | ITF14 barcode's border type |
-| [MacroCharacter](../com.aspose.barcode.generation/macrocharacter) |  |
+| [MacroCharacter](../com.aspose.barcode.generation/macrocharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [MaxiCodeEncodeMode](../com.aspose.barcode.generation/maxicodeencodemode) | Encoding mode for MaxiCode barcodes. |
 | [PatchFormat](../com.aspose.barcode.generation/patchformat) | PatchCode format. |
 | [Pdf417CompactionMode](../com.aspose.barcode.generation/pdf417compactionmode) | Pdf417 barcode's compation mode |
@@ -99,4 +101,4 @@ This package contains tools for generating barcode.
 | [StringAlignment](../com.aspose.barcode.generation/stringalignment) |  |
 | [TextAlignment](../com.aspose.barcode.generation/textalignment) | Text alignment. |
 | [TextRenderingHint](../com.aspose.barcode.generation/textrenderinghint) |  |
-| [TwoDComponentType](../com.aspose.barcode.generation/twodcomponenttype) |  |
+| [TwoDComponentType](../com.aspose.barcode.generation/twodcomponenttype) | Type of 2D component This sample shows how to create and save a GS1 Composite Bar image. |
