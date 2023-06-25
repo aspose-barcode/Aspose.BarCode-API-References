@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.Pdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeExtendedParameters property. Gets a MacroPdf417 metadata information Pdf417ExtendedParameters of recognized barcode
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/
 ---
 ## BarCodeExtendedParameters.Pdf417 property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.PatchCodePatchFormat
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders
 type: docs
-weight: 890
+weight: 950
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformat/
 ---
 ## BarcodeGeneratorElement.PatchCodePatchFormat property

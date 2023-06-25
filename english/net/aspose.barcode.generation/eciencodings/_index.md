@@ -3,7 +3,7 @@ title: Enum ECIEncodings
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.ECIEncodings enum. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently it is used only for QR 2D barcode
 type: docs
-weight: 950
+weight: 980
 url: /net/aspose.barcode.generation/eciencodings/
 ---
 ## ECIEncodings enumeration

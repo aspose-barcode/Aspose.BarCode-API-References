@@ -27,6 +27,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [CodetextParameters](./codetextparameters/) | Codetext parameters. |
 | [CouponParameters](./couponparameters/) | Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
 | [DataBarParameters](./databarparameters/) | Databar parameters. |
+| [DataMatrixExtCodetextBuilder](./datamatrixextcodetextbuilder/) | Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode |
 | [DataMatrixParameters](./datamatrixparameters/) | DataMatrix parameters. |
 | [DotCodeExtCodetextBuilder](./dotcodeextcodetextbuilder/) | Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode |
 | [DotCodeParameters](./dotcodeparameters/) | DotCode parameters. |
@@ -64,6 +65,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [CodeLocation](./codelocation/) | Codetext location |
 | [DataMatrixEccType](./datamatrixecctype/) | Specify the type of the ECC to encode. |
 | [DataMatrixEncodeMode](./datamatrixencodemode/) | DataMatrix encoder's encoding mode, default to Auto |
+| [DataMatrixVersion](./datamatrixversion/) | Specify the type of the ECC to encode. |
 | [DotCodeEncodeMode](./dotcodeencodemode/) | Encoding mode for DotCode barcodes. |
 | [ECIEncodings](./eciencodings/) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently, it is used only for QR 2D barcode. |
 | [EnableChecksum](./enablechecksum/) | Enable checksum during generation for 1D barcodes. |

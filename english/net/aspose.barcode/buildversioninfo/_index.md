@@ -3,7 +3,7 @@ title: Class BuildVersionInfo
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BuildVersionInfo class. Contains the current build version information
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.barcode/buildversioninfo/
 ---
 ## BuildVersionInfo class

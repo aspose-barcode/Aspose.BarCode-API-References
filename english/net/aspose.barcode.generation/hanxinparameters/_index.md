@@ -3,7 +3,7 @@ title: Class HanXinParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HanXinParameters class. Han Xin parameters
 type: docs
-weight: 1040
+weight: 1070
 url: /net/aspose.barcode.generation/hanxinparameters/
 ---
 ## HanXinParameters class

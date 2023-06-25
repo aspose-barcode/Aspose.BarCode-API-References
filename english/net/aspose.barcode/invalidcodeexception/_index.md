@@ -3,7 +3,7 @@ title: Class InvalidCodeException
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.InvalidCodeException class. The Exception will be thrown when invalid characters contained in the code text
 type: docs
-weight: 1330
+weight: 1360
 url: /net/aspose.barcode/invalidcodeexception/
 ---
 ## InvalidCodeException class

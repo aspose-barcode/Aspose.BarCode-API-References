@@ -3,7 +3,7 @@ title: Enum AddressType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.AddressType enum. Address type
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.barcode.complexbarcode/addresstype/
 ---
 ## AddressType enumeration
