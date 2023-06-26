@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.EnableEscapeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. EnableEscapeProperty
 type: docs
-weight: 1870
+weight: 1990
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/
 ---
 ## BarcodeGeneratorElement.EnableEscapeProperty field

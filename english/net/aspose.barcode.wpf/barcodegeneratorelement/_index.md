@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1360
+weight: 1390
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -83,8 +83,14 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [DataMatrixCodeTextEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcodetextencoding/) { get; set; } | Text encoding. |
 | [DataMatrixColumns](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumns/) { get; set; } | Columns count. |
 | [DataMatrixEcc](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixecc/) { get; set; } | Datamatrix ECC type. |
+| [DataMatrixECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeciencoding/) { get; set; } | ECI encoding. Used when DataMatrixEncodeMode is Auto. |
 | [DataMatrixEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemode/) { get; set; } | Encode mode. |
+| [DataMatrixIsReaderProgramming](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogramming/) { get; set; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [DataMatrixRows](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrows/) { get; set; } | Rows count. |
+| [DataMatrixStructuredAppendBarcodeId](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodeid/) { get; set; } | Barcode ID for Structured Append mode. |
+| [DataMatrixStructuredAppendBarcodesCount](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodescount/) { get; set; } | Barcodes count for Structured Append mode. |
+| [DataMatrixStructuredAppendFileId](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendfileid/) { get; set; } | File ID for Structured Append mode. |
+| [DataMatrixVersion](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixversion/) { get; set; } | DataMatrix symbol size. |
 | [DotCodeAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratio/) { get; set; } | Aspect ratio. |
 | [DotCodeColumns](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodecolumns/) { get; set; } | DotCode columns count |
 | [DotCodeECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeeciencoding/) { get; set; } | DotCode ECI encoding |
@@ -209,8 +215,14 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [DataMatrixCodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcodetextencodingproperty/) | DataMatrixCodeTextEncodingProperty |
 | static [DataMatrixColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumnsproperty/) | DataMatrixColumnsProperty |
 | static [DataMatrixEccProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeccproperty/) | DataMatrixEccProperty |
+| static [DataMatrixECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeciencodingproperty/) | DataMatrixECIEncodingProperty |
 | static [DataMatrixEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemodeproperty/) | DataMatrixEncodeModeProperty |
+| static [DataMatrixIsReaderProgrammingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogrammingproperty/) | DataMatrixIsReaderProgrammingProperty |
 | static [DataMatrixRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrowsproperty/) | DataMatrixRowsProperty |
+| static [DataMatrixStructuredAppendBarcodeIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodeidproperty/) | DataMatrixStructuredAppendBarcodeIdProperty |
+| static [DataMatrixStructuredAppendBarcodesCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodescountproperty/) | DataMatrixStructuredAppendBarcodesCountProperty |
+| static [DataMatrixStructuredAppendFileIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendfileidproperty/) | DataMatrixStructuredAppendFileIdProperty |
+| static [DataMatrixVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixversionproperty/) | DataMatrixVersionProperty |
 | static [DotCodeAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratioproperty/) | DotCodeAspectRatioProperty |
 | static [DotCodeColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodecolumnsproperty/) | DotCodeColumnsProperty |
 | static [DotCodeECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodeeciencodingproperty/) | DotCodeECIEncodingProperty |

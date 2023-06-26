@@ -20,6 +20,7 @@ public sealed class BarCodeExtendedParameters
 | --- | --- |
 | [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | Gets a special data [`Code128ExtendedParameters`](../code128extendedparameters/) of Code128 recognized barcode |
 | [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | Gets a DataBar additional information[`DataBarExtendedParameters`](../databarextendedparameters/) of recognized barcode |
+| [DataMatrix](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/datamatrix/) { get; } | Gets a DotCode additional information[`DotCodeExtendedParameters`](../dotcodeextendedparameters/) of recognized barcode |
 | [DotCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/dotcode/) { get; } | Gets a DotCode additional information[`DotCodeExtendedParameters`](../dotcodeextendedparameters/) of recognized barcode |
 | [MaxiCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/maxicode/) { get; } | Gets a MaxiCode additional information[`MaxiCodeExtendedParameters`](../maxicodeextendedparameters/) of recognized barcode |
 | [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/) { get; } | Gets a special data [`OneDExtendedParameters`](../onedextendedparameters/) of 1D recognized barcode |

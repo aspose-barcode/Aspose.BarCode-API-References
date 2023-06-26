@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.QRErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Error level
 type: docs
-weight: 1080
+weight: 1140
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevel/
 ---
 ## BarcodeGeneratorElement.QRErrorLevel property

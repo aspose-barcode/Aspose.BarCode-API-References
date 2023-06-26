@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.PatchCodeExtraBarcodeTextProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. PatchCodeExtraBarcodeTextProperty
 type: docs
-weight: 2040
+weight: 2160
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetextproperty/
 ---
 ## BarcodeGeneratorElement.PatchCodeExtraBarcodeTextProperty field

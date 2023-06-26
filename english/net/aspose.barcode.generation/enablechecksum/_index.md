@@ -3,7 +3,7 @@ title: Enum EnableChecksum
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EnableChecksum enum. Enable checksum during generation for 1D barcodes
 type: docs
-weight: 960
+weight: 990
 url: /net/aspose.barcode.generation/enablechecksum/
 ---
 ## EnableChecksum enumeration

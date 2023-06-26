@@ -3,7 +3,7 @@ title: Enum Code128Emulation
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Code128Emulation enum. Function codewords for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.barcode.generation/code128emulation/
 ---
 ## Code128Emulation enumeration

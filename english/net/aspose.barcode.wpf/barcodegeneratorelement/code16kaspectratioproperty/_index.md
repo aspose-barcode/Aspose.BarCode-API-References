@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Code16KAspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Code16KAspectRatioProperty
 type: docs
-weight: 1560
+weight: 1620
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/code16kaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.Code16KAspectRatioProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ResolutionProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. ResolutionProperty
 type: docs
-weight: 2260
+weight: 2380
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/resolutionproperty/
 ---
 ## BarcodeGeneratorElement.ResolutionProperty field
