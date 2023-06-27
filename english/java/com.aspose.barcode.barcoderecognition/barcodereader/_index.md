@@ -51,7 +51,7 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportToXml(OutputStream xmlStream)](#exportToXml-java.io.OutputStream-) | Exports BarCode properties to the xml-stream specified |
 | [exportToXml(String xmlFile)](#exportToXml-java.lang.String-) | Exports BarCode properties to the xml-file specified |
-| [getBarCodeDecodeType()](#getBarCodeDecodeType--) |  |
+| [getBarCodeDecodeType()](#getBarCodeDecodeType--) | Gets the decode type of the input barcode decoding |
 | [getBarcodeSettings()](#getBarcodeSettings--) | The main BarCode decoding parameters. |
 | [getClass()](#getClass--) |  |
 | [getFoundBarCodes()](#getFoundBarCodes--) | Gets recognized  BarCodeResult s array |
@@ -501,7 +501,7 @@ public BaseDecodeType getBarCodeDecodeType()
 ```
 
 
-
+Gets the decode type of the input barcode decoding
 
 **Returns:**
 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype)

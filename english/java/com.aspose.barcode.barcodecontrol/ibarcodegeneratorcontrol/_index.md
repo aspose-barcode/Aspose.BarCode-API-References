@@ -3,7 +3,7 @@ title: IBarCodeGeneratorControl
 second_title: Aspose.BarCode for Java API Reference
 description: Interface declares obligatory methods for classes intended  for use in UI with generating barcode
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.barcode.barcodecontrol/ibarcodegeneratorcontrol/
 ---```
 public interface IBarCodeGeneratorControl

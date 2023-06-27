@@ -69,7 +69,9 @@ Specify the type of barcode to read.
 | [GS_1_CODE_128](#GS-1-CODE-128) | Specifies that the data should be decoded with  **GS1 CODE 128**  barcode specification |
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | Specifies that the data should be decoded with  **GS1DataMatrix**  barcode symbology |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be decoded with  **GS1 DotCode**  blank specification |
+| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
 | [GS_1_QR](#GS-1-QR) | Specifies that the data should be decoded with  **GS1 QR**  barcode specification |
+| [HAN_XIN](#HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
 | [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be decoded with  **HIBC LIC QR**  blank specification |
 | [HIBCQRPAS](#HIBCQRPAS) | Specifies that the data should be decoded with  **HIBC PAS QR**  blank specification |
 | [HIBC_AZTEC_LIC](#HIBC-AZTEC-LIC) | Specifies that the data should be decoded with  **HIBC LIC Aztec**  blank specification |
@@ -420,6 +422,14 @@ public static final SingleDecodeType GS_1_DOT_CODE
 
 Specifies that the data should be decoded with  **GS1 DotCode**  blank specification
 
+### GS_1_HAN_XIN {#GS-1-HAN-XIN}
+```
+public static final SingleDecodeType GS_1_HAN_XIN
+```
+
+
+Specifies that the data should be decoded with **Han Xin Code** blank specification
+
 ### GS_1_QR {#GS-1-QR}
 ```
 public static final SingleDecodeType GS_1_QR
@@ -427,6 +437,14 @@ public static final SingleDecodeType GS_1_QR
 
 
 Specifies that the data should be decoded with  **GS1 QR**  barcode specification
+
+### HAN_XIN {#HAN-XIN}
+```
+public static final SingleDecodeType HAN_XIN
+```
+
+
+Specifies that the data should be decoded with **Han Xin Code** blank specification
 
 ### HIBCQRLIC {#HIBCQRLIC}
 ```

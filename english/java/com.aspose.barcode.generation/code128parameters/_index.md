@@ -62,7 +62,7 @@ public Code128EncodeMode getCode128EncodeMode()
 Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 
 **Returns:**
-com.aspose.barcode.generation.Code128EncodeMode
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -100,7 +100,7 @@ Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.generation.Code128EncodeMode |  |
+| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) |  |
 
 ### toString() {#toString--}
 ```

@@ -3,7 +3,7 @@ title: Code128EncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 65
+weight: 68
 url: /java/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**
@@ -265,7 +265,7 @@ public static Code128EncodeMode valueOf(int value)
 | value | int |  |
 
 **Returns:**
-com.aspose.barcode.generation.Code128EncodeMode
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
 public static Code128EncodeMode valueOf(String name)
@@ -280,7 +280,7 @@ public static Code128EncodeMode valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-com.aspose.barcode.generation.Code128EncodeMode
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### values() {#values--}
 ```
 public static Code128EncodeMode[] values()

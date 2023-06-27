@@ -3,7 +3,7 @@ title: QrParametersUI
 second_title: Aspose.BarCode for Java API Reference
 description: UI wrapper for com.aspose.barcode.generation.QrParameters class.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.aspose.barcode.barcodecontrol/qrparametersui/
 ---
 **Inheritance:**

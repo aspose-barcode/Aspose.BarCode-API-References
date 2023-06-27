@@ -3,7 +3,7 @@ title: SpecificParametersUI
 second_title: Aspose.BarCode for Java API Reference
 description: Class contains specific parameters for UI
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.barcode.barcodecontrol/specificparametersui/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Class contains specific parameters for UI
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters com.aspose.barcode.generation.DataBarParameters . |
 | [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters com.aspose.barcode.generation.DataMatrixParameters Used for DataMatrix. |
 | [getDotCode()](#getDotCode--) | Gets DotCode parameters |
+| [getHanXin()](#getHanXin--) | Gets HanXin parameters . |
 | [getITF()](#getITF--) | Gets ITF parameters com.aspose.barcode.generation.ITFParameters . |
 | [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters com.aspose.barcode.generation.MaxiCodeParameters . |
 | [getPdf417()](#getPdf417--) | Gets Pdf417 parameters com.aspose.barcode.generation.Pdf417Parameters . |
@@ -116,7 +117,7 @@ public Code128Parameters getCode128()
 Gets Code128 parameters . Used for Code128.
 
 **Returns:**
-com.aspose.barcode.generation.Code128Parameters
+[Code128Parameters](../../com.aspose.barcode.generation/code128parameters)
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()
@@ -167,6 +168,16 @@ Gets DotCode parameters
 
 **Returns:**
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters) - Used for DotCode.
+### getHanXin() {#getHanXin--}
+```
+public HanXinParametersUI getHanXin()
+```
+
+
+Gets HanXin parameters .
+
+**Returns:**
+[HanXinParametersUI](../../com.aspose.barcode.barcodecontrol/hanxinparametersui) - 
 ### getITF() {#getITF--}
 ```
 public ITFParameters getITF()

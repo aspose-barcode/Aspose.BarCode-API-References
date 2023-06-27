@@ -3,7 +3,7 @@ title: Code128Emulation
 second_title: Aspose.BarCode for Java API Reference
 description: Function codewords for Code 128 emulation.
 type: docs
-weight: 64
+weight: 67
 url: /java/com.aspose.barcode.generation/code128emulation/
 ---
 **Inheritance:**
