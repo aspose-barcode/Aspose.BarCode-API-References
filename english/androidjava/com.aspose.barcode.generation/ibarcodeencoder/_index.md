@@ -3,7 +3,7 @@ title: IBarCodeEncoder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 57
+weight: 60
 url: /androidjava/com.aspose.barcode.generation/ibarcodeencoder/
 ---```
 public interface IBarCodeEncoder

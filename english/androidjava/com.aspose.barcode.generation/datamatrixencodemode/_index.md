@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: DataMatrix encoders encoding mode default to AUTO
 type: docs
-weight: 68
+weight: 71
 url: /androidjava/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**

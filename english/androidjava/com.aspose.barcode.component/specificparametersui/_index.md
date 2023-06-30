@@ -3,7 +3,7 @@ title: SpecificParametersUI
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specific parameters.
 type: docs
-weight: 17
+weight: 18
 url: /androidjava/com.aspose.barcode.component/specificparametersui/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Specific parameters.
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters . |
 | [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters  Used for DataMatrix. |
 | [getDotCode()](#getDotCode--) | Gets DotCode parameters |
+| [getHanXin()](#getHanXin--) | Gets HanXin parameters . |
 | [getITF()](#getITF--) | Gets ITF parameters . |
 | [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters . |
 | [getPdf417()](#getPdf417--) | Gets Pdf417 parameters . |
@@ -116,7 +117,7 @@ public Code128Parameters getCode128()
 Gets Code128 parameters . Used for Code128.
 
 **Returns:**
-com.aspose.barcode.generation.Code128Parameters
+[Code128Parameters](../../com.aspose.barcode.generation/code128parameters)
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()
@@ -167,6 +168,16 @@ Gets DotCode parameters
 
 **Returns:**
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters) - Used for DotCode.
+### getHanXin() {#getHanXin--}
+```
+public HanXinParametersUI getHanXin()
+```
+
+
+Gets HanXin parameters .
+
+**Returns:**
+[HanXinParametersUI](../../com.aspose.barcode.component/hanxinparametersui) - 
 ### getITF() {#getITF--}
 ```
 public ITFParameters getITF()

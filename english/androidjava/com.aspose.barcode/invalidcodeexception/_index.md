@@ -17,6 +17,7 @@ The Exception will be thrown when invalid characters contained in the code text.
 
 | Constructor | Description |
 | --- | --- |
+| [InvalidCodeException()](#InvalidCodeException--) | Initializes a new instance of the  class. |
 | [InvalidCodeException(String message)](#InvalidCodeException-java.lang.String-) | Initializes a new instance of the InvalidCodeException class with a specified error message. |
 ## Methods
 
@@ -43,6 +44,14 @@ The Exception will be thrown when invalid characters contained in the code text.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### InvalidCodeException() {#InvalidCodeException--}
+```
+public InvalidCodeException()
+```
+
+
+Initializes a new instance of the  class.
+
 ### InvalidCodeException(String message) {#InvalidCodeException-java.lang.String-}
 ```
 public InvalidCodeException(String message)

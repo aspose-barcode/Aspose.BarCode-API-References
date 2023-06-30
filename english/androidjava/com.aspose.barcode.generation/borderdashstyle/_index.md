@@ -3,7 +3,7 @@ title: BorderDashStyle
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the style of dashed border lines.
 type: docs
-weight: 62
+weight: 65
 url: /androidjava/com.aspose.barcode.generation/borderdashstyle/
 ---
 **Inheritance:**

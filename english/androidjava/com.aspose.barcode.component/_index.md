@@ -19,6 +19,7 @@ This package contains component designed for placing into layout of customer's a
 | [CaptionUI](../com.aspose.barcode.component/captionui) | UI wrapper for com.aspose.barcode.generation.CaptionParameters class. |
 | [CodetextParametersUI](../com.aspose.barcode.component/codetextparametersui) | Codetext parameters. |
 | [DataMatrixParametersUI](../com.aspose.barcode.component/datamatrixparametersui) | UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class. |
+| [HanXinParametersUI](../com.aspose.barcode.component/hanxinparametersui) |  |
 | [Pdf417ParametersUI](../com.aspose.barcode.component/pdf417parametersui) | UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class. |
 | [QrParametersUI](../com.aspose.barcode.component/qrparametersui) | UI wrapper for com.aspose.barcode.generation.QrParameters class. |
 | [SpecificParametersUI](../com.aspose.barcode.component/specificparametersui) | Specific parameters. |

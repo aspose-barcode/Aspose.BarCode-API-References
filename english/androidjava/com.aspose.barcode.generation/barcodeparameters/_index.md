@@ -44,6 +44,7 @@ Barcode generation parameters.
 | [getEnableEscape()](#getEnableEscape--) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [getFilledBars()](#getFilledBars--) | Gets a value indicating whether bars filled. |
 | [getGS1CompositeBar()](#getGS1CompositeBar--) | GS1 Composite Bar parameters. |
+| [getHanXin()](#getHanXin--) | HanXin parameters. |
 | [getITF()](#getITF--) | ITF parameters. |
 | [getMaxiCode()](#getMaxiCode--) | MaxiCode parameters. |
 | [getPadding()](#getPadding--) | Barcode paddings. |
@@ -237,7 +238,7 @@ public Code128Parameters getCode128()
 Code128 parameters.
 
 **Returns:**
-com.aspose.barcode.generation.Code128Parameters
+[Code128Parameters](../../com.aspose.barcode.generation/code128parameters)
 ### getCode16K() {#getCode16K--}
 ```
 public Code16KParameters getCode16K()
@@ -362,6 +363,16 @@ GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Com
 
 **Returns:**
 [GS1CompositeBarParameters](../../com.aspose.barcode.generation/gs1compositebarparameters) - GS1 Composite Bar parameters.
+### getHanXin() {#getHanXin--}
+```
+public HanXinParameters getHanXin()
+```
+
+
+HanXin parameters.
+
+**Returns:**
+[HanXinParameters](../../com.aspose.barcode.generation/hanxinparameters)
 ### getITF() {#getITF--}
 ```
 public ITFParameters getITF()

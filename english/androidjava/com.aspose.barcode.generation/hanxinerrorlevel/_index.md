@@ -1,24 +1,26 @@
 ---
-title: FontMode
+title: HanXinErrorLevel
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Font size mode.
+description: Level of Reed-Solomon error correction.
 type: docs
-weight: 74
-url: /androidjava/com.aspose.barcode.generation/fontmode/
+weight: 77
+url: /androidjava/com.aspose.barcode.generation/hanxinerrorlevel/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum FontMode extends Enum<FontMode>
+public enum HanXinErrorLevel extends Enum<HanXinErrorLevel>
 ```
 
-Font size mode.
+Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Automatically calculate Font size based on barcode size. |
-| [MANUAL](#MANUAL) | Use Font sized defined by user. |
+| [L1](#L1) | Allows recovery of 8% of the code text |
+| [L2](#L2) | Allows recovery of 15% of the code text |
+| [L3](#L3) | Allows recovery of 23% of the code text |
+| [L4](#L4) | Allows recovery of 30% of the code text |
 ## Methods
 
 | Method | Description |
@@ -40,21 +42,37 @@ Font size mode.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AUTO {#AUTO}
+### L1 {#L1}
 ```
-public static final FontMode AUTO
-```
-
-
-Automatically calculate Font size based on barcode size.
-
-### MANUAL {#MANUAL}
-```
-public static final FontMode MANUAL
+public static final HanXinErrorLevel L1
 ```
 
 
-Use Font sized defined by user.
+Allows recovery of 8% of the code text
+
+### L2 {#L2}
+```
+public static final HanXinErrorLevel L2
+```
+
+
+Allows recovery of 15% of the code text
+
+### L3 {#L3}
+```
+public static final HanXinErrorLevel L3
+```
+
+
+Allows recovery of 23% of the code text
+
+### L4 {#L4}
+```
+public static final HanXinErrorLevel L4
+```
+
+
+Allows recovery of 30% of the code text
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -190,7 +208,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static FontMode valueOf(String name)
+public static HanXinErrorLevel valueOf(String name)
 ```
 
 
@@ -202,17 +220,17 @@ public static FontMode valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[FontMode](../../com.aspose.barcode.generation/fontmode)
+[HanXinErrorLevel](../../com.aspose.barcode.generation/hanxinerrorlevel)
 ### values() {#values--}
 ```
-public static FontMode[] values()
+public static HanXinErrorLevel[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.FontMode[]
+com.aspose.barcode.generation.HanXinErrorLevel[]
 ### wait() {#wait--}
 ```
 public final void wait()
