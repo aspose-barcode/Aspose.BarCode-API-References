@@ -43,6 +43,9 @@ This package contains tools for generating barcode.
 | [FontUnit](../com.aspose.barcode.generation/fontunit) | Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. |
 | [FontUnitInternal](../com.aspose.barcode.generation/fontunitinternal) |  |
 | [GS1CompositeBarParameters](../com.aspose.barcode.generation/gs1compositebarparameters) |  |
+| [GS1HanXinEncoder](../com.aspose.barcode.generation/gs1hanxinencoder) | Contains functions for encoding GS1HanXin |
+| [HanXinEncoder](../com.aspose.barcode.generation/hanxinencoder) |  |
+| [HanXinParameters](../com.aspose.barcode.generation/hanxinparameters) | Han Xin parameters. |
 | [ITFParameters](../com.aspose.barcode.generation/itfparameters) | ITF parameters. |
 | [ImageUnitConverter](../com.aspose.barcode.generation/imageunitconverter) |  |
 | [MacroCharacterValues](../com.aspose.barcode.generation/macrocharactervalues) |  |
@@ -87,6 +90,10 @@ This package contains tools for generating barcode.
 | [EnableChecksum](../com.aspose.barcode.generation/enablechecksum) | Enable checksum during generation for 1D barcodes. |
 | [FontMode](../com.aspose.barcode.generation/fontmode) | Font size mode. |
 | [GraphicsUnit](../com.aspose.barcode.generation/graphicsunit) | Specifies the unit of measure for the given data. |
+| [HanXinEncodeMode](../com.aspose.barcode.generation/hanxinencodemode) | Han Xin Code encoding mode. |
+| [HanXinErrorLevel](../com.aspose.barcode.generation/hanxinerrorlevel) | Level of Reed-Solomon error correction. |
+| [HanXinModes](../com.aspose.barcode.generation/hanxinmodes) | Han Xin Code encoding mode. |
+| [HanXinVersion](../com.aspose.barcode.generation/hanxinversion) | Version of Han Xin Code. |
 | [ITF14BorderType](../com.aspose.barcode.generation/itf14bordertype) | ITF14 barcode's border type |
 | [MacroCharacter](../com.aspose.barcode.generation/macrocharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [MaxiCodeEncodeMode](../com.aspose.barcode.generation/maxicodeencodemode) | Encoding mode for MaxiCode barcodes. |
@@ -100,4 +107,4 @@ This package contains tools for generating barcode.
 | [QRVersion](../com.aspose.barcode.generation/qrversion) | Version of QR Code. |
 | [StringAlignment](../com.aspose.barcode.generation/stringalignment) |  |
 | [TextAlignment](../com.aspose.barcode.generation/textalignment) | Text alignment. |
-| [TwoDComponentType](../com.aspose.barcode.generation/twodcomponenttype) | Type of 2D component This sample shows how to create and save a GS1 Composite Bar image. |
+| [TwoDComponentType](../com.aspose.barcode.generation/twodcomponenttype) | Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. |

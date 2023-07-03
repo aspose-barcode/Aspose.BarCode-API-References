@@ -19,7 +19,7 @@ Specify the type of barcode to read.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -69,7 +69,9 @@ Specify the type of barcode to read.
 | [GS_1_CODE_128](#GS-1-CODE-128) | Specifies that the data should be decoded with  **GS1 CODE 128**  barcode specification |
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | Specifies that the data should be decoded with  **GS1DataMatrix**  barcode symbology |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be decoded with  **GS1 DotCode**  blank specification |
+| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
 | [GS_1_QR](#GS-1-QR) | Specifies that the data should be decoded with  **GS1 QR**  barcode specification |
+| [HAN_XIN](#HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
 | [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be decoded with  **HIBC LIC QR**  blank specification |
 | [HIBCQRPAS](#HIBCQRPAS) | Specifies that the data should be decoded with  **HIBC PAS QR**  blank specification |
 | [HIBC_AZTEC_LIC](#HIBC-AZTEC-LIC) | Specifies that the data should be decoded with  **HIBC LIC Aztec**  blank specification |
@@ -128,9 +130,9 @@ Specify the type of barcode to read.
 | [getClass()](#getClass--) |  |
 | [getNames()](#getNames--) | Retrieves an array of the names of the decode types. |
 | [hashCode()](#hashCode--) |  |
-| [is1D(BaseDecodeType symbology)](#is1D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any 1D barcode symbology |
-| [is2D(BaseDecodeType symbology)](#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any 2D barcode symbology |
-| [isPostal(BaseDecodeType symbology)](#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified  contains any Postal barcode symbology |
+| [is1D(BaseDecodeType symbology)](#is1D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any 1D barcode symbology |
+| [is2D(BaseDecodeType symbology)](#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any 2D barcode symbology |
+| [isPostal(BaseDecodeType symbology)](#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Determines if the specified BaseDecodeType contains any Postal barcode symbology |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parse(String parsingType)](#parse-java.lang.String-) | Converts the string representation of a SingleDecodeType to its instance. |
@@ -420,6 +422,14 @@ public static final SingleDecodeType GS_1_DOT_CODE
 
 Specifies that the data should be decoded with  **GS1 DotCode**  blank specification
 
+### GS_1_HAN_XIN {#GS-1-HAN-XIN}
+```
+public static final SingleDecodeType GS_1_HAN_XIN
+```
+
+
+Specifies that the data should be decoded with **Han Xin Code** blank specification
+
 ### GS_1_QR {#GS-1-QR}
 ```
 public static final SingleDecodeType GS_1_QR
@@ -427,6 +437,14 @@ public static final SingleDecodeType GS_1_QR
 
 
 Specifies that the data should be decoded with  **GS1 QR**  barcode specification
+
+### HAN_XIN {#HAN-XIN}
+```
+public static final SingleDecodeType HAN_XIN
+```
+
+
+Specifies that the data should be decoded with **Han Xin Code** blank specification
 
 ### HIBCQRLIC {#HIBCQRLIC}
 ```
@@ -881,45 +899,45 @@ public static boolean is1D(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any 1D barcode symbology
+Determines if the specified BaseDecodeType contains any 1D barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test. |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test. |
 
 **Returns:**
-boolean - Returns **true** if  contains any 1D barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeType contains any 1D barcode symbology; otherwise, returns **false**.
 ### is2D(BaseDecodeType symbology) {#is2D-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
 ```
 public static boolean is2D(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any 2D barcode symbology
+Determines if the specified BaseDecodeType contains any 2D barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test. |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test. |
 
 **Returns:**
-boolean - Returns **true** if  contains any 2D barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeTypeddddddddw contains any 2D barcode symbology; otherwise, returns **false**.
 ### isPostal(BaseDecodeType symbology) {#isPostal-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
 ```
 public static boolean isPostal(BaseDecodeType symbology)
 ```
 
 
-Determines if the specified  contains any Postal barcode symbology
+Determines if the specified BaseDecodeType contains any Postal barcode symbology
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The  to test |
+| symbology | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The BaseDecodeType to test |
 
 **Returns:**
-boolean - Returns **true** if  contains any Postal barcode symbology; otherwise, returns **false**.
+boolean - Returns **true** if BaseDecodeType contains any Postal barcode symbology; otherwise, returns **false**.
 ### notify() {#notify--}
 ```
 public final native void notify()

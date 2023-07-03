@@ -3,7 +3,7 @@ title: AutoSizeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the different types of automatic sizing modes.
 type: docs
-weight: 58
+weight: 61
 url: /java/com.aspose.barcode.generation/autosizemode/
 ---
 **Inheritance:**

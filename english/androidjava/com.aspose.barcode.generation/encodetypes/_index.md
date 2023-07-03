@@ -56,7 +56,9 @@ Specifies the type of barcode to encode.
 | [GS_1_COMPOSITE_BAR](#GS-1-COMPOSITE-BAR) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. |
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | 2D barcode symbology DataMatrix with GS1 string format |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be encoded with  **GS1 DotCode**  barcode specification. |
+| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | 2D barcode symbology QR with GS1 string format |
 | [GS_1_QR](#GS-1-QR) | 2D barcode symbology QR with GS1 string format |
+| [HAN_XIN](#HAN-XIN) | Specifies that the data should be encoded with **Han Xin** barcode specification |
 | [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be encoded with  **HIBC LIC QR**  barcode specification. |
 | [HIBCQRPAS](#HIBCQRPAS) | Specifies that the data should be encoded with  **HIBC PAS QR**  barcode specification. |
 | [HIBC_AZTEC_LIC](#HIBC-AZTEC-LIC) | Specifies that the data should be encoded with  **HIBC LIC Aztec**  barcode specification. |
@@ -398,6 +400,14 @@ public static final SymbologyEncodeType GS_1_DOT_CODE
 
 Specifies that the data should be encoded with  **GS1 DotCode**  barcode specification. The codetext must contains parentheses for AI.
 
+### GS_1_HAN_XIN {#GS-1-HAN-XIN}
+```
+public static final SymbologyEncodeType GS_1_HAN_XIN
+```
+
+
+2D barcode symbology QR with GS1 string format
+
 ### GS_1_QR {#GS-1-QR}
 ```
 public static final SymbologyEncodeType GS_1_QR
@@ -405,6 +415,14 @@ public static final SymbologyEncodeType GS_1_QR
 
 
 2D barcode symbology QR with GS1 string format
+
+### HAN_XIN {#HAN-XIN}
+```
+public static final SymbologyEncodeType HAN_XIN
+```
+
+
+Specifies that the data should be encoded with **Han Xin** barcode specification
 
 ### HIBCQRLIC {#HIBCQRLIC}
 ```
