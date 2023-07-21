@@ -3,7 +3,7 @@ title: QualitySettings.AllowDetectScanGap
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Allows engine to use gap between scans to increase recognition speed. Mode can make recognition problems with low height barcodes
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/allowdetectscangap/
 ---
 ## QualitySettings.AllowDetectScanGap property

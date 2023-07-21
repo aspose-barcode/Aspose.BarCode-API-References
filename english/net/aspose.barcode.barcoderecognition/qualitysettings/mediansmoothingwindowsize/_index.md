@@ -3,7 +3,7 @@ title: QualitySettings.MedianSmoothingWindowSize
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Window size for median smoothing. Typical values are 3 or 4. Default value is 3. AllowMedianSmoothing must be set
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/mediansmoothingwindowsize/
 ---
 ## QualitySettings.MedianSmoothingWindowSize property
