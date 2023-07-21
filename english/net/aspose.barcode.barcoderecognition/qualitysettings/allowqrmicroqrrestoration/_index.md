@@ -3,7 +3,7 @@ title: QualitySettings.AllowQRMicroQrRestoration
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Allows engine for QR/MicroQR to recognize damaged MicroQR barcodes
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/allowqrmicroqrrestoration/
 ---
 ## QualitySettings.AllowQRMicroQrRestoration property

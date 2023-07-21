@@ -35,6 +35,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [ExtCodetextBuilder](./extcodetextbuilder/) | Helper class for automatic codetext generation of the Extended Codetext Mode |
 | [FontUnit](./fontunit/) | Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. |
 | [GS1CompositeBarParameters](./gs1compositebarparameters/) | GS1 Composite bar parameters. |
+| [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode |
 | [HanXinParameters](./hanxinparameters/) | Han Xin parameters. |
 | [ITFParameters](./itfparameters/) | ITF parameters. |
 | [MaxiCodeExtCodetextBuilder](./maxicodeextcodetextbuilder/) | Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode |

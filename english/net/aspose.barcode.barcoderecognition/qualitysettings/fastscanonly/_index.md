@@ -3,7 +3,7 @@ title: QualitySettings.FastScanOnly
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Allows engine for 1D barcodes to quickly recognize middle slice of an image and return result without using any timeconsuming algorithms
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/fastscanonly/
 ---
 ## QualitySettings.FastScanOnly property
