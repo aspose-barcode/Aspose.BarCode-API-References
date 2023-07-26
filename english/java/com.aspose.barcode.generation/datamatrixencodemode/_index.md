@@ -1,9 +1,9 @@
 ---
 title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for Java API Reference
-description: DataMatrix encoders encoding mode default to AUTO
+description: DataMatrix encoders encoding mode default to Auto
 type: docs
-weight: 71
+weight: 72
 url: /java/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**
@@ -12,24 +12,56 @@ java.lang.Object, java.lang.Enum
 public enum DataMatrixEncodeMode extends Enum<DataMatrixEncodeMode>
 ```
 
-DataMatrix encoder's encoding mode, default to AUTO
+DataMatrix encoder's encoding mode, default to Auto
 
-This sample shows how to do codetext in Extended Mode: com.aspose.barcode.generation.BarcodeGenerator generator = new com.aspose.barcode.generation.BarcodeGenerator(EncodeTypes.DATA\_MATRIX); generator.setCodeText("\\\\ansix12:ANSIX12TEXT\\\\ascii:backslash must be \\\\\\\\ doubled\\\\edifact:EdifactEncodedText"); generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED\_CODETEXT); generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text"); generator.save("test.png");
+--------------------
+
+> ```
+> This sample shows how to do codetext in Extended Mode.
+>  
+>  //Auto mode
+>  String codetext = "\u72acRight\u72d7";
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
+>  generator.getParameters().getBarcode().getDataMatrix().setECIEncoding(ECIEncodings.UTF8);
+>  generator.save("test.bmp");
+>  //Bytes mode
+>  byte[] encodedArr = {(byte) 0xFF, (byte) 0xFE, (byte) 0xFD, (byte) 0xFC, (byte) 0xFB, (byte) 0xFA, (byte) 0xF9};
+>  //encode array to String
+>  StringBuilder strBld = new StringBuilder();
+>  for( byte bval : encodedArr)
+>  {
+>   strBld.append((char) bval);
+>   String codetext = strBld.toString();
+>   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
+>   generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BYTES);
+>   generator.save("test.bmp");
+> }
+>  //Extended codetext mode
+>  //create codetext
+> DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
+> codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
+> codetextBuilder.addPlainCodetext("Will");
+> codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
+> codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
+>  //generate codetext
+> String codetext=codetextBuilder.getExtendedCodetext();
+>  //generate
+> BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
+> generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+> generator.save("test.bmp");
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [ANSIX12](#ANSIX12) | Uses ANSI X12 encoding. |
 | [ASCII](#ASCII) | Encodes one alphanumeric or two numeric characters per byte |
-| [AUTO](#AUTO) | Automatically pick up the best encode mode for datamatrix encoding |
+| [AUTO](#AUTO) | Automatically pick up the best encode mode for Datamatrix encoding |
+| [BYTES](#BYTES) | Encode 8 bit values |
 | [C40](#C40) | Uses C40 encoding. |
-| [CUSTOM](#CUSTOM) | Encode with the encoding specified in BarCodeBuilder.CodeTextEncoding |
 | [EDIFACT](#EDIFACT) | Uses EDIFACT encoding. |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) | ```
-ExtendedCodetext mode allows to manually switch encodation schemes in codetext.
-``` |
-| [FULL](#FULL) | Encode 8 bit values |
-| [TEXT](#TEXT) | UUses TEXT encoding. |
+| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
+| [TEXT](#TEXT) | Uses Text encoding. |
 ## Methods
 
 | Method | Description |
@@ -73,7 +105,15 @@ public static final DataMatrixEncodeMode AUTO
 ```
 
 
-Automatically pick up the best encode mode for datamatrix encoding
+Automatically pick up the best encode mode for Datamatrix encoding
+
+### BYTES {#BYTES}
+```
+public static final DataMatrixEncodeMode BYTES
+```
+
+
+Encode 8 bit values
 
 ### C40 {#C40}
 ```
@@ -82,14 +122,6 @@ public static final DataMatrixEncodeMode C40
 
 
 Uses C40 encoding. Encodes Upper-case alphanumeric, Lower case and special characters
-
-### CUSTOM {#CUSTOM}
-```
-public static final DataMatrixEncodeMode CUSTOM
-```
-
-
-Encode with the encoding specified in BarCodeBuilder.CodeTextEncoding
 
 ### EDIFACT {#EDIFACT}
 ```
@@ -105,21 +137,21 @@ public static final DataMatrixEncodeMode EXTENDED_CODETEXT
 ```
 
 
-```
-ExtendedCodetext mode allows to manually switch encodation schemes in codetext.
- Format : "\Encodation_scheme_name:text\Encodation_scheme_name:text".
- Allowed encodation schemes are: EDIFACT, ANSIX12, ASCII, C40, Text, Auto.
- Extended codetext example: "\ansix12:ANSIX12TEXT\ascii:backslash must be \\ doubled\edifact:EdifactEncodedText"
-All backslashes (\) must be doubled in text.
-```
+ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext.
 
-### FULL {#FULL}
-```
-public static final DataMatrixEncodeMode FULL
-```
+It is better to use DataMatrixExtCodetextBuilder for extended codetext generation.
 
+Use Display2DText property to set visible text to removing managing characters.
 
-Encode 8 bit values
+ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
+
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+
+Encodation schemes are set in the next format : "\\Encodation\_scheme\_name:text\\Encodation\_scheme\_name:text".
+
+Allowed encodation schemes are: EDIFACT, ANSIX12, ASCII, C40, Text, Auto.
+
+All backslashes (\\) must be doubled in text.
 
 ### TEXT {#TEXT}
 ```
@@ -127,7 +159,7 @@ public static final DataMatrixEncodeMode TEXT
 ```
 
 
-UUses TEXT encoding. Encodes Lower-case alphanumeric, Upper case and special characters
+Uses Text encoding. Encodes Lower-case alphanumeric, Upper case and special characters
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -47,7 +47,7 @@ Contains recognition confidence level
 | Field | Description |
 | --- | --- |
 | [MODERATE](#MODERATE) | Recognition confidence of barcode (mostly 1D barcodes) with weak checksumm or even without it. |
-| [NONE](#NONE) | Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake |
+| [NONE](#NONE) | Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fakeBarCodeExtendedParameters |
 | [STRONG](#STRONG) | Recognition confidence which was confirmed with BCH codes like Reed\\u2013Solomon. |
 ## Methods
 
@@ -76,7 +76,7 @@ public static final int NONE
 ```
 
 
-Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake
+Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fakeBarCodeExtendedParameters
 
 ### STRONG {#STRONG}
 ```

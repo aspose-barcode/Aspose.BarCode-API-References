@@ -16,7 +16,6 @@ public class PleaseReportException extends RuntimeException
 | Constructor | Description |
 | --- | --- |
 | [PleaseReportException(String message)](#PleaseReportException-java.lang.String-) |  |
-| [PleaseReportException(String message, Throwable cause)](#PleaseReportException-java.lang.String-java.lang.Throwable-) |  |
 | [PleaseReportException()](#PleaseReportException--) |  |
 ## Methods
 
@@ -53,18 +52,6 @@ public PleaseReportException(String message)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String |  |
-
-### PleaseReportException(String message, Throwable cause) {#PleaseReportException-java.lang.String-java.lang.Throwable-}
-```
-public PleaseReportException(String message, Throwable cause)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| message | java.lang.String |  |
-| cause | java.lang.Throwable |  |
 
 ### PleaseReportException() {#PleaseReportException--}
 ```

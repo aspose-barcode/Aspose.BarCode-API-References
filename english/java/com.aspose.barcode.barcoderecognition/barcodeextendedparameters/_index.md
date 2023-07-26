@@ -21,6 +21,7 @@ Stores extended parameters of recognized barcode
 | [getClass()](#getClass--) |  |
 | [getCode128()](#getCode128--) | Gets a special data  Code128ExtendedParameters  of Code128 recognized barcode |
 | [getDataBar()](#getDataBar--) | Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode |
+| [getDataMatrix()](#getDataMatrix--) | Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode |
 | [getDotCode()](#getDotCode--) | Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode |
 | [getMaxiCode()](#getMaxiCode--) | Gets a MaxiCode additional information MaxiCodeExtendedParameters of recognized barcode |
 | [getOneD()](#getOneD--) | Gets a special data  OneDExtendedParameters  of 1D recognized barcode |
@@ -80,6 +81,18 @@ Gets a DataBar additional informationDataBarExtendedParameters of recognized bar
 
 **Returns:**
 [DataBarExtendedParameters](../../com.aspose.barcode.barcoderecognition/databarextendedparameters) - A DataBar additional informationDataBarExtendedParameters of recognized barcode
+### getDataMatrix() {#getDataMatrix--}
+```
+public DataMatrixExtendedParameters getDataMatrix()
+```
+
+
+Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode
+
+Value: A DotCode additional information DotCodeExtendedParameters  of recognized barcode
+
+**Returns:**
+[DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters)
 ### getDotCode() {#getDotCode--}
 ```
 public DotCodeExtendedParameters getDotCode()

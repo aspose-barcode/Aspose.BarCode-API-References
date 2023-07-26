@@ -33,6 +33,7 @@ This package contains tools for generating barcode.
 | [ConstParameters](../com.aspose.barcode.generation/constparameters) |  |
 | [CouponParameters](../com.aspose.barcode.generation/couponparameters) | Coupon parameters. |
 | [DataBarParameters](../com.aspose.barcode.generation/databarparameters) | Databar parameters. |
+| [DataMatrixExtCodetextBuilder](../com.aspose.barcode.generation/datamatrixextcodetextbuilder) |  |
 | [DataMatrixParameters](../com.aspose.barcode.generation/datamatrixparameters) | DataMatrix parameters. |
 | [DotCodeExtCodetextBuilder](../com.aspose.barcode.generation/dotcodeextcodetextbuilder) |  |
 | [DotCodeParameters](../com.aspose.barcode.generation/dotcodeparameters) | DotCode parameters. |
@@ -85,7 +86,8 @@ This package contains tools for generating barcode.
 | [Code128EncodeMode](../com.aspose.barcode.generation/code128encodemode) | Encoding mode for Code128 barcodes. |
 | [CodeLocation](../com.aspose.barcode.generation/codelocation) | Codetext location |
 | [DataMatrixEccType](../com.aspose.barcode.generation/datamatrixecctype) | Specify the type of the ECC to encode. |
-| [DataMatrixEncodeMode](../com.aspose.barcode.generation/datamatrixencodemode) | DataMatrix encoder's encoding mode, default to AUTO |
+| [DataMatrixEncodeMode](../com.aspose.barcode.generation/datamatrixencodemode) | DataMatrix encoder's encoding mode, default to Auto |
+| [DataMatrixVersion](../com.aspose.barcode.generation/datamatrixversion) | Specify the type of the ECC to encode. |
 | [DotCodeEncodeMode](../com.aspose.barcode.generation/dotcodeencodemode) | Encoding mode for DotCode barcodes. |
 | [EnableChecksum](../com.aspose.barcode.generation/enablechecksum) | Enable checksum during generation for 1D barcodes. |
 | [FontMode](../com.aspose.barcode.generation/fontmode) | Font size mode. |
