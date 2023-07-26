@@ -23,7 +23,7 @@ public enum HanXinEncodeMode
 | ECI | `2` | Extended Channel Interpretation (ECI) mode |
 | Unicode | `3` | Unicode mode designs a way to represent any text data reference to UTF8 encoding/charset in Han Xin Code. |
 | URI | `4` | URI mode indicates the data represented in Han Xin Code is Uniform Resource Identifier (URI) reference to RFC 3986. |
-| Extended | `5` | Extended mode will allow more flexible combinations of other modes, this mode is currently not implemented. |
+| Extended | `5` | Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, Common Chinese Region One, Common Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. Codetext can be built manually with prefixes and doubled backslashes, e.g.: @"\auto:abc\000009:ΑΒΓΔΕ\auto:ab\\c" or using the HanXinExtCodetextBuilder. If the codetext contains an ECI fragment, then only the following modes can be in that codetext after ECI fragment: Auto, Binary, Text, Numeric, URI, ECI. |
 
 ## Examples
 
@@ -36,7 +36,7 @@ using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
     generator.Save("test.bmp");
 }
 
-// Bytes mode
+// Binary mode
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 
 //encode array to string
@@ -47,7 +47,7 @@ var codetext = strBld.ToString();
 
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Bytes;
+    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Binary;
     generator.Save("test.bmp");
 }
 
@@ -76,8 +76,44 @@ using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
     generator.Save("test.bmp");
 }
 
-// Extended mode - TBD
+// Extended mode
+var str = @"\gb180302b:漄\gb180304b:㐁\region1:全\region2:螅\numeric:123\text:qwe\unicode:ıntəˈnæʃənəl" +
+    @"\000009:ΑΒΓΔΕ\auto:abc\binary:abc\uri:backslashes_should_be_doubled\\000555:test";
 
+var expectedStr = @"漄㐁全螅123qweıntəˈnæʃənəlΑΒΓΔΕabcabcbackslashes_should_be_doubled\000555:test";
+
+using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, str))
+{
+    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    generator.Save("test.bmp");
+}
+
+// Using HanXinExtCodetextBuilder for Extended mode (same codetext as in previous example)
+//create codetext
+var codeTextBuilder = new HanXinExtCodetextBuilder();
+codeTextBuilder.AddGB18030TwoByte("漄");
+codeTextBuilder.AddGB18030FourByte("㐁");
+codeTextBuilder.AddCommonChineseRegionOne("全");
+codeTextBuilder.AddCommonChineseRegionTwo("螅");
+codeTextBuilder.AddNumeric("123");
+codeTextBuilder.AddText("qwe");
+codeTextBuilder.AddUnicode("ıntəˈnæʃənəl");
+codeTextBuilder.AddECI("ΑΒΓΔΕ", 9);
+codeTextBuilder.AddAuto("abc");
+codeTextBuilder.AddBinary("abc");
+codeTextBuilder.AddURI(@"backslashes_should_be_doubled\000555:test");
+
+var expectedStr = @"漄㐁全螅123qweıntəˈnæʃənəlΑΒΓΔΕabcabcbackslashes_should_be_doubled\000555:test";
+
+//generate codetext
+var str = codeTextBuilder.GetExtendedCodetext();
+
+//generate
+using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, str))
+{
+    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    generator.Save("test.bmp");
+}
 ```
 
 ### See Also

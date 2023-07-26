@@ -3,7 +3,7 @@ title: Class Metered
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Metered class. Provides methods to set metered key
 type: docs
-weight: 1380
+weight: 1390
 url: /net/aspose.barcode/metered/
 ---
 ## Metered class

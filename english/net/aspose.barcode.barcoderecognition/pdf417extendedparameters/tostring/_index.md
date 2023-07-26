@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters method. Returns a humanreadable string representation of this Pdf417ExtendedParameters
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring/
 ---
 ## Pdf417ExtendedParameters.ToString method

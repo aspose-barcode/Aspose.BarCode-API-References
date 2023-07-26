@@ -3,7 +3,7 @@ title: QualitySettings.UseOldBarcodeDetector
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Switches to the old barcode detector
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/useoldbarcodedetector/
 ---
 ## QualitySettings.UseOldBarcodeDetector property

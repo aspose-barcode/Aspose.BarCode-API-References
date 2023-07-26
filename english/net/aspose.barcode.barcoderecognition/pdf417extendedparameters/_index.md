@@ -19,6 +19,7 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 | Name | Description |
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tests whether all parameters has only default values |
+| [IsReaderInitialization](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/isreaderinitialization/) { get; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee/) { get; } | Macro PDF417 addressee name (optional). |
 | [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum/) { get; } | Macro PDF417 checksum (optional). |
 | [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid/) { get; } | Gets the file ID of the barcode, only available with MacroPdf417. |

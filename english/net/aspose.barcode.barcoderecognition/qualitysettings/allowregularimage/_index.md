@@ -3,7 +3,7 @@ title: QualitySettings.AllowRegularImage
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Allows engine to recognize regular image without any restorations as main scan. Mode to recognize image as is
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/allowregularimage/
 ---
 ## QualitySettings.AllowRegularImage property
