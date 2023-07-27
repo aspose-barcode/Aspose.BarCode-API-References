@@ -3,7 +3,7 @@ title: QualitySettings
 second_title: Aspose.BarCode for Java API Reference
 description: QualitySettings allows to configure recognition quality and speed manually.
 type: docs
-weight: 35
+weight: 36
 url: /java/com.aspose.barcode.barcoderecognition/qualitysettings/
 ---
 **Inheritance:**

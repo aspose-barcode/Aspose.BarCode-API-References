@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Java API Reference
 description: PDF417 parameters.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.barcode.generation/pdf417parameters/
 ---
 **Inheritance:**

@@ -1,45 +1,48 @@
 ---
-title: MaxiCodeExtCodetextBuilder
+title: DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
-description: Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters.
+description: 
 type: docs
-weight: 46
-url: /java/com.aspose.barcode.generation/maxicodeextcodetextbuilder/
+weight: 29
+url: /java/com.aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.generation.ExtCodetextBuilder](../../com.aspose.barcode.generation/extcodetextbuilder)
 ```
-public class MaxiCodeExtCodetextBuilder extends ExtCodetextBuilder
+public class DataMatrixExtCodetextBuilder extends ExtCodetextBuilder
 ```
 
-Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. This sample shows how to use MaxiCodeExtCodetextBuilder in Extended Mode.
+Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode
 
-```
-//create codetext
- MaxiCodeExtCodetextBuilder textBuilder = new MaxiCodeExtCodetextBuilder();
- textBuilder.addECICodetext(ECIEncodings.Win1251, "Will");
- textBuilder.addECICodetext(ECIEncodings.UTF8, "\u72acRight\u72d7");
- textBuilder.addECICodetext(ECIEncodings.UTF16BE, "\u72acPower\u72d7");
- textBuilder.addPlainCodetext("Plain text");
+--------------------
 
- //generate codetext
- String codetext = textBuilder.getExtendedCodetext();
-
- //generate
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MAXI_CODE, codetext);
- generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
- generator.save("test.bmp");
-```
+> ```
+> //Extended codetext mode
+>  //create codetext
+>  DataMatrixExtCodetextBuilder textBuilder = new DataMatrixExtCodetextBuilder();
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251, DataMatrixEncodeMode.Bytes, "World");
+>  codetextBuilder.addPlainCodetext("Will");
+>  codetextBuilder.addECICodetext(ECIEncodings.UTF_8, "\u72acRight\u72d7");
+>  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C_40, "ABCDE");
+>  //generate codetext
+>  String codetext = textBuilder.getExtendedCodetext();
+>  //generate
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
+>  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+>  generator.save("test.bmp");
+> ```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MaxiCodeExtCodetextBuilder()](#MaxiCodeExtCodetextBuilder--) |  |
+| [DataMatrixExtCodetextBuilder()](#DataMatrixExtCodetextBuilder--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext)](#addCodetextWithEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-) | Adds codetext with defined encode mode to the extended codetext items |
 | [addECICodetext(int ECIEncoding, String codetext)](#addECICodetext-int-java.lang.String-) | Adds codetext with Extended Channel Identifier |
+| [addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext)](#addECICodetextWithEncodeMode-int-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-) | Adds codetext with Extended Channel Identifier with defined encode mode |
 | [addPlainCodetext(String codetext)](#addPlainCodetext-java.lang.String-) | Adds plain codetext to the extended codetext items |
 | [clear()](#clear--) | Clears extended codetext items |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -53,11 +56,25 @@ Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of M
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MaxiCodeExtCodetextBuilder() {#MaxiCodeExtCodetextBuilder--}
+### DataMatrixExtCodetextBuilder() {#DataMatrixExtCodetextBuilder--}
 ```
-public MaxiCodeExtCodetextBuilder()
+public DataMatrixExtCodetextBuilder()
 ```
 
+
+### addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext) {#addCodetextWithEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-}
+```
+public void addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext)
+```
+
+
+Adds codetext with defined encode mode to the extended codetext items
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| encodeMode | [DataMatrixEncodeMode](../../com.aspose.barcode.generation/datamatrixencodemode) | Encode mode value |
+| codetext | java.lang.String | Codetext in unicode to add as extended codetext item |
 
 ### addECICodetext(int ECIEncoding, String codetext) {#addECICodetext-int-java.lang.String-}
 ```
@@ -72,6 +89,21 @@ Adds codetext with Extended Channel Identifier
 | --- | --- | --- |
 | ECIEncoding | int | Extended Channel Identifier |
 | codetext | java.lang.String | Codetext in unicode to add as extended codetext item with Extended Channel Identifier |
+
+### addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext) {#addECICodetextWithEncodeMode-int-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-}
+```
+public void addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext)
+```
+
+
+Adds codetext with Extended Channel Identifier with defined encode mode
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ECIEncoding | int | Extended Channel Identifier |
+| encodeMode | [DataMatrixEncodeMode](../../com.aspose.barcode.generation/datamatrixencodemode) | Encode mode value |
+| codetext | java.lang.String | Codetext in unicode to add as extended codetext item with Extended Channel Identifier with defined encode mode |
 
 ### addPlainCodetext(String codetext) {#addPlainCodetext-java.lang.String-}
 ```

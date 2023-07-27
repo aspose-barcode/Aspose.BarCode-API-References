@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 91
+weight: 93
 url: /java/com.aspose.barcode.generation/stringalignment/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: HanXinParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Han Xin parameters.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.aspose.barcode.generation/hanxinparameters/
 ---
 **Inheritance:**

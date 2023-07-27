@@ -3,7 +3,7 @@ title: ECIEncodings
 second_title: Aspose.BarCode for Java API Reference
 description: Extended Channel Interpretation Identifiers.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.barcode.generation/eciencodings/
 ---
 **Inheritance:**

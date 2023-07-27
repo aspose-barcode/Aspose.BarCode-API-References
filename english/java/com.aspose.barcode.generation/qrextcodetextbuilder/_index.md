@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.barcode.generation/qrextcodetextbuilder/
 ---
 **Inheritance:**
@@ -32,6 +32,7 @@ Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEn
 | [getClass()](#getClass--) |  |
 | [getExtendedCodetext()](#getExtendedCodetext--) | Generates Extended codetext from the extended codetext list. |
 | [hashCode()](#hashCode--) |  |
+| [isNeedToShieldItemFromPrevECI(int Index)](#isNeedToShieldItemFromPrevECI-int-) | Checks necessity to shield previous item by "\\000000" |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -153,6 +154,21 @@ public native int hashCode()
 
 **Returns:**
 int
+### isNeedToShieldItemFromPrevECI(int Index) {#isNeedToShieldItemFromPrevECI-int-}
+```
+public boolean isNeedToShieldItemFromPrevECI(int Index)
+```
+
+
+Checks necessity to shield previous item by "\\000000"
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| Index | int | Index in m\_List |
+
+**Returns:**
+boolean - Necessity to shield
 ### notify() {#notify--}
 ```
 public final native void notify()
