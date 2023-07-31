@@ -3,7 +3,7 @@ title: ImageScalingModeInternal
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 28
+weight: 29
 url: /androidjava/com.aspose.barcode.barcoderecognition/imagescalingmodeinternal/
 ---
 **Inheritance:**

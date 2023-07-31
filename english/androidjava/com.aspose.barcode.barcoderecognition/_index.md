@@ -30,6 +30,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [Code128ExtendedParameters](../com.aspose.barcode.barcoderecognition/code128extendedparameters) | Stores special data of Code128 recognized barcode |
 | [Code128SubType](../com.aspose.barcode.barcoderecognition/code128subtype) | Contains types of Code128 subset |
 | [DataBarExtendedParameters](../com.aspose.barcode.barcoderecognition/databarextendedparameters) | Stores a DataBar additional information of recognized barcode BarCodeReader reader = new BarCodeReader("test.png", DecodeType.DATABAR\_OMNI\_DIRECTIONAL); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode Type: " + result.getCodeTypeName()); System.out.println("BarCode CodeText: " + result.getCodeText()); System.out.println("QR Structured Append Quantity: " + result.getExtended().getQR().getQRStructuredAppendModeBarCodesQuantity()); |
+| [DataMatrixExtendedParameters](../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | Stores special data of DataMatrix recognized barcode |
 | [DecodeType](../com.aspose.barcode.barcoderecognition/decodetype) | Specify the type of barcode to read. |
 | [DotCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/dotcodeextendedparameters) | Stores special data of DotCode recognized barcode |
 | [ImageScalingModeInternal](../com.aspose.barcode.barcoderecognition/imagescalingmodeinternal) |  |

@@ -3,7 +3,7 @@ title: Unit
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the size value in different units Pixel Inches etc..
 type: docs
-weight: 58
+weight: 59
 url: /androidjava/com.aspose.barcode.generation/unit/
 ---
 **Inheritance:**

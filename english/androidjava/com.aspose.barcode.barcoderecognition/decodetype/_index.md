@@ -3,7 +3,7 @@ title: DecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specify the type of barcode to read.
 type: docs
-weight: 26
+weight: 27
 url: /androidjava/com.aspose.barcode.barcoderecognition/decodetype/
 ---
 **Inheritance:**
