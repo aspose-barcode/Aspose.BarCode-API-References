@@ -3,7 +3,7 @@ title: AztecSymbolMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the Aztec symbol mode.
 type: docs
-weight: 62
+weight: 63
 url: /androidjava/com.aspose.barcode.generation/aztecsymbolmode/
 ---
 **Inheritance:**

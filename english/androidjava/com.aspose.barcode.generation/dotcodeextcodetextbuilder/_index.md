@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 31
 url: /androidjava/com.aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 **Inheritance:**
@@ -59,6 +59,7 @@ Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of
 | [getClass()](#getClass--) |  |
 | [getExtendedCodetext()](#getExtendedCodetext--) | Generates Extended codetext from the extended codetext list. |
 | [hashCode()](#hashCode--) |  |
+| [isNeedToShieldItemFromPrevECI(int Index)](#isNeedToShieldItemFromPrevECI-int-) | Checks necessity to shield previous item by "\\000000" |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -189,6 +190,21 @@ public native int hashCode()
 
 **Returns:**
 int
+### isNeedToShieldItemFromPrevECI(int Index) {#isNeedToShieldItemFromPrevECI-int-}
+```
+public boolean isNeedToShieldItemFromPrevECI(int Index)
+```
+
+
+Checks necessity to shield previous item by "\\000000"
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| Index | int | Index in m\_List |
+
+**Returns:**
+boolean - Necessity to shield
 ### notify() {#notify--}
 ```
 public final native void notify()

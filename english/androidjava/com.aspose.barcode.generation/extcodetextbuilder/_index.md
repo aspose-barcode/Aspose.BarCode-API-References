@@ -3,7 +3,7 @@ title: ExtCodetextBuilder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Helper class for automatic codetext generation of the Extended Codetext Mode
 type: docs
-weight: 34
+weight: 35
 url: /androidjava/com.aspose.barcode.generation/extcodetextbuilder/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Helper class for automatic codetext generation of the Extended Codetext Mode
 | [getClass()](#getClass--) |  |
 | [getExtendedCodetext()](#getExtendedCodetext--) | Generate extended codetext from generation items list |
 | [hashCode()](#hashCode--) |  |
+| [isNeedToShieldItemFromPrevECI(int Index)](#isNeedToShieldItemFromPrevECI-int-) | Checks necessity to shield previous item by "\\000000" |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -121,6 +122,21 @@ public native int hashCode()
 
 **Returns:**
 int
+### isNeedToShieldItemFromPrevECI(int Index) {#isNeedToShieldItemFromPrevECI-int-}
+```
+public boolean isNeedToShieldItemFromPrevECI(int Index)
+```
+
+
+Checks necessity to shield previous item by "\\000000"
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| Index | int | Index in m\_List |
+
+**Returns:**
+boolean - Necessity to shield
 ### notify() {#notify--}
 ```
 public final native void notify()
