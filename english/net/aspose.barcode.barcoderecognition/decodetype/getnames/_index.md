@@ -3,7 +3,7 @@ title: DecodeType.GetNames
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Retrieves an array of the names of the decode types
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.barcode.barcoderecognition/decodetype/getnames/
 ---
 ## DecodeType.GetNames method

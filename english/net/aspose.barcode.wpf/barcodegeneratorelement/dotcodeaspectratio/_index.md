@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeAspectRatio
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Aspect ratio
 type: docs
-weight: 690
+weight: 760
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeaspectratio/
 ---
 ## BarcodeGeneratorElement.DotCodeAspectRatio property

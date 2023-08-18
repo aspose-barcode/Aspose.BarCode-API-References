@@ -3,7 +3,7 @@ title: Class DecodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.DecodeType class. Specify the type of barcode to read
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.barcode.barcoderecognition/decodetype/
 ---
 ## DecodeType class
@@ -46,7 +46,7 @@ public static class DecodeType
 | static readonly [Code11](../../aspose.barcode.barcoderecognition/decodetype/code11/) | Specifies that the data should be decoded with **CODE 11** barcode specification |
 | static readonly [Code128](../../aspose.barcode.barcoderecognition/decodetype/code128/) | Specifies that the data should be decoded with **CODE 128** barcode specification |
 | static readonly [Code16K](../../aspose.barcode.barcoderecognition/decodetype/code16k/) | Specifies that the data should be decoded with **SCode16K** barcode specification |
-| static readonly [Code32](../../aspose.barcode.barcoderecognition/decodetype/code32/) | Specifies that the data should be decoded with **Code32** blank specification |
+| static readonly [Code32](../../aspose.barcode.barcoderecognition/decodetype/code32/) | Specifies that the data should be decoded with **Code32** barcode specification |
 | static readonly [Code39Extended](../../aspose.barcode.barcoderecognition/decodetype/code39extended/) | Specifies that the data should be decoded with **Extended CODE 39** barcode specification |
 | static readonly [Code39Standard](../../aspose.barcode.barcoderecognition/decodetype/code39standard/) | Specifies that the data should be decoded with **Standard CODE 39** barcode specification |
 | static readonly [Code93Extended](../../aspose.barcode.barcoderecognition/decodetype/code93extended/) | Specifies that the data should be decoded with **Extended CODE 93** barcode specification |
@@ -59,31 +59,33 @@ public static class DecodeType
 | static readonly [DatabarStacked](../../aspose.barcode.barcoderecognition/decodetype/databarstacked/) | Specifies that the data should be decoded with **GS1 Databar stacked** barcode specification |
 | static readonly [DatabarStackedOmniDirectional](../../aspose.barcode.barcoderecognition/decodetype/databarstackedomnidirectional/) | Specifies that the data should be decoded with **GS1 Databar stacked omni-directional** barcode specification |
 | static readonly [DatabarTruncated](../../aspose.barcode.barcoderecognition/decodetype/databartruncated/) | Specifies that the data should be decoded with **GS1 Databar truncated** barcode specification |
-| static readonly [DataLogic2of5](../../aspose.barcode.barcoderecognition/decodetype/datalogic2of5/) | Specifies that the data should be decoded with **DataLogic 2 of 5** blank specification |
+| static readonly [DataLogic2of5](../../aspose.barcode.barcoderecognition/decodetype/datalogic2of5/) | Specifies that the data should be decoded with **DataLogic 2 of 5** barcode specification |
 | static readonly [DataMatrix](../../aspose.barcode.barcoderecognition/decodetype/datamatrix/) | Specifies that the data should be decoded with **DataMatrix** barcode symbology |
 | static readonly [DeutschePostIdentcode](../../aspose.barcode.barcoderecognition/decodetype/deutschepostidentcode/) | Specifies that the data should be decoded with **DeutschePost Ident code** barcode specification |
 | static readonly [DeutschePostLeitcode](../../aspose.barcode.barcoderecognition/decodetype/deutschepostleitcode/) | Specifies that the data should be decoded with **DeutschePost Leit code** barcode specification |
-| static readonly [DotCode](../../aspose.barcode.barcoderecognition/decodetype/dotcode/) | Specifies that the data should be decoded with **DotCode** blank specification |
-| static readonly [DutchKIX](../../aspose.barcode.barcoderecognition/decodetype/dutchkix/) | Specifies that the data should be decoded with **DotCode** blank specification |
+| static readonly [DotCode](../../aspose.barcode.barcoderecognition/decodetype/dotcode/) | Specifies that the data should be decoded with **DotCode** barcode specification |
+| static readonly [DutchKIX](../../aspose.barcode.barcoderecognition/decodetype/dutchkix/) | Specifies that the data should be decoded with **DotCode** barcode specification |
 | static readonly [EAN13](../../aspose.barcode.barcoderecognition/decodetype/ean13/) | Specifies that the data should be decoded with **EAN-13** barcode specification |
 | static readonly [EAN14](../../aspose.barcode.barcoderecognition/decodetype/ean14/) | Specifies that the data should be decoded with **EAN14** barcode specification |
 | static readonly [EAN8](../../aspose.barcode.barcoderecognition/decodetype/ean8/) | Specifies that the data should be decoded with **EAN-8** barcode specification |
+| static readonly [GS1Aztec](../../aspose.barcode.barcoderecognition/decodetype/gs1aztec/) | Specifies that the data should be decoded with **GS1 Aztec** barcode specification |
 | static readonly [GS1Code128](../../aspose.barcode.barcoderecognition/decodetype/gs1code128/) | Specifies that the data should be decoded with **GS1 CODE 128** barcode specification |
+| static readonly [GS1CompositeBar](../../aspose.barcode.barcoderecognition/decodetype/gs1compositebar/) | Specifies that the data should be decoded with **GS1 Composite Bar** barcode specification |
 | static readonly [GS1DataMatrix](../../aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/) | Specifies that the data should be decoded with **GS1DataMatrix** barcode symbology |
-| static readonly [GS1DotCode](../../aspose.barcode.barcoderecognition/decodetype/gs1dotcode/) | Specifies that the data should be decoded with **GS1 DotCode** blank specification |
-| static readonly [GS1HanXin](../../aspose.barcode.barcoderecognition/decodetype/gs1hanxin/) | Specifies that the data should be decoded with **GS1 Han Xin Code** blank specification |
+| static readonly [GS1DotCode](../../aspose.barcode.barcoderecognition/decodetype/gs1dotcode/) | Specifies that the data should be decoded with **GS1 DotCode** barcode specification |
+| static readonly [GS1HanXin](../../aspose.barcode.barcoderecognition/decodetype/gs1hanxin/) | Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification |
 | static readonly [GS1QR](../../aspose.barcode.barcoderecognition/decodetype/gs1qr/) | Specifies that the data should be decoded with **GS1 QR** barcode specification |
-| static readonly [HanXin](../../aspose.barcode.barcoderecognition/decodetype/hanxin/) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
-| static readonly [HIBCAztecLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcazteclic/) | Specifies that the data should be decoded with **HIBC LIC Aztec** blank specification |
-| static readonly [HIBCAztecPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcaztecpas/) | Specifies that the data should be decoded with **HIBC PAS Aztec** blank specification |
-| static readonly [HIBCCode128LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode128lic/) | Specifies that the data should be decoded with **HIBC LIC Code128** blank specification |
-| static readonly [HIBCCode128PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode128pas/) | Specifies that the data should be decoded with **HIBC PAS Code128** blank specification |
-| static readonly [HIBCCode39LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode39lic/) | Specifies that the data should be decoded with **HIBC LIC Code39** blank specification |
-| static readonly [HIBCCode39PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode39pas/) | Specifies that the data should be decoded with **HIBC PAS Code39** blank specification |
-| static readonly [HIBCDataMatrixLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixlic/) | Specifies that the data should be decoded with **HIBC LIC DataMatrix** blank specification |
-| static readonly [HIBCDataMatrixPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/) | Specifies that the data should be decoded with **HIBC PAS DataMatrix** blank specification |
-| static readonly [HIBCQRLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcqrlic/) | Specifies that the data should be decoded with **HIBC LIC QR** blank specification |
-| static readonly [HIBCQRPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcqrpas/) | Specifies that the data should be decoded with **HIBC PAS QR** blank specification |
+| static readonly [HanXin](../../aspose.barcode.barcoderecognition/decodetype/hanxin/) | Specifies that the data should be decoded with **Han Xin Code** barcode specification |
+| static readonly [HIBCAztecLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcazteclic/) | Specifies that the data should be decoded with **HIBC LIC Aztec** barcode specification |
+| static readonly [HIBCAztecPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcaztecpas/) | Specifies that the data should be decoded with **HIBC PAS Aztec** barcode specification |
+| static readonly [HIBCCode128LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode128lic/) | Specifies that the data should be decoded with **HIBC LIC Code128** barcode specification |
+| static readonly [HIBCCode128PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode128pas/) | Specifies that the data should be decoded with **HIBC PAS Code128** barcode specification |
+| static readonly [HIBCCode39LIC](../../aspose.barcode.barcoderecognition/decodetype/hibccode39lic/) | Specifies that the data should be decoded with **HIBC LIC Code39** barcode specification |
+| static readonly [HIBCCode39PAS](../../aspose.barcode.barcoderecognition/decodetype/hibccode39pas/) | Specifies that the data should be decoded with **HIBC PAS Code39** barcode specification |
+| static readonly [HIBCDataMatrixLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixlic/) | Specifies that the data should be decoded with **HIBC LIC DataMatrix** barcode specification |
+| static readonly [HIBCDataMatrixPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/) | Specifies that the data should be decoded with **HIBC PAS DataMatrix** barcode specification |
+| static readonly [HIBCQRLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcqrlic/) | Specifies that the data should be decoded with **HIBC LIC QR** barcode specification |
+| static readonly [HIBCQRPAS](../../aspose.barcode.barcoderecognition/decodetype/hibcqrpas/) | Specifies that the data should be decoded with **HIBC PAS QR** barcode specification |
 | static readonly [IATA2of5](../../aspose.barcode.barcoderecognition/decodetype/iata2of5/) | Specifies that the data should be decoded with **IATA 2 of 5** barcode specification. IATA (International Air Transport Association) uses this barcode for the management of air cargo. |
 | static readonly [Interleaved2of5](../../aspose.barcode.barcoderecognition/decodetype/interleaved2of5/) | Specifies that the data should be decoded with **INTERLEAVED 2 of 5** barcode specification |
 | static readonly [ISBN](../../aspose.barcode.barcoderecognition/decodetype/isbn/) | Specifies that the data should be decoded with **ISBN** barcode specification |
@@ -96,7 +98,7 @@ public static class DecodeType
 | static readonly [Mailmark](../../aspose.barcode.barcoderecognition/decodetype/mailmark/) | Specifies that the data should be decoded with **Royal Mail Mailmark** barcode specification. |
 | static readonly [Matrix2of5](../../aspose.barcode.barcoderecognition/decodetype/matrix2of5/) | Specifies that the data should be decoded with **Matrix 2 of 5** barcode specification |
 | static readonly [MaxiCode](../../aspose.barcode.barcoderecognition/decodetype/maxicode/) | Specifies that the data should be decoded with **MaxiCode** barcode specification |
-| static readonly [MicrE13B](../../aspose.barcode.barcoderecognition/decodetype/micre13b/) | Specifies that the data should be decoded with **MICR E-13B** blank specification |
+| static readonly [MicrE13B](../../aspose.barcode.barcoderecognition/decodetype/micre13b/) | Specifies that the data should be decoded with **MICR E-13B** barcode specification |
 | static readonly [MicroPdf417](../../aspose.barcode.barcoderecognition/decodetype/micropdf417/) | Specifies that the data should be decoded with **MicroPdf417** barcode specification |
 | static readonly [MicroQR](../../aspose.barcode.barcoderecognition/decodetype/microqr/) | Specifies that the data should be decoded with **MicroQR Code** barcode specification |
 | static readonly [MostCommonTypes](../../aspose.barcode.barcoderecognition/decodetype/mostcommontypes/) | Specifies that data will be checked with most commonly used symbologies |

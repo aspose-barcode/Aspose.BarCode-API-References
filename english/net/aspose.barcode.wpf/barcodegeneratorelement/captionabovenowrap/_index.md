@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionAboveNoWrap
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Specify word wraps line breaks within text
 type: docs
-weight: 190
+weight: 260
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionabovenowrap/
 ---
 ## BarcodeGeneratorElement.CaptionAboveNoWrap property

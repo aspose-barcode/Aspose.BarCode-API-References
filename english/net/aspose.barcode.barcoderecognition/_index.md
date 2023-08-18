@@ -13,6 +13,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | Class | Description |
 | --- | --- |
 | [AustraliaPostSettings](./australiapostsettings/) | AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology. |
+| [AztecExtendedParameters](./aztecextendedparameters/) | Stores special data of Aztec recognized barcode |
 | [BarCodeExtendedParameters](./barcodeextendedparameters/) | Stores extended parameters of recognized barcode |
 | [BarCodeReader](./barcodereader/) | BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes. |
 | [BarCodeRecognitionException](./barcoderecognitionexception/) | General exception thrown by BarCodeReader, inherited from BarCodeException |
@@ -28,6 +29,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [DataMatrixExtendedParameters](./datamatrixextendedparameters/) | Stores special data of DataMatrix recognized barcode |
 | [DecodeType](./decodetype/) | Specify the type of barcode to read. |
 | [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
+| [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultyDecodeType](./multydecodetype/) | Composite decode type. |
 | [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |

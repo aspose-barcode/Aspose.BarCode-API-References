@@ -3,7 +3,7 @@ title: Class DataMatrixParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixParameters class. DataMatrix parameters
 type: docs
-weight: 930
+weight: 970
 url: /net/aspose.barcode.generation/datamatrixparameters/
 ---
 ## DataMatrixParameters class
@@ -19,7 +19,6 @@ public class DataMatrixParameters
 | Name | Description |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/datamatrixparameters/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [CodeTextEncoding](../../aspose.barcode.generation/datamatrixparameters/codetextencoding/) { get; set; } | Gets or sets the encoding of codetext. Default value: UTF-8 |
 | [DataMatrixEcc](../../aspose.barcode.generation/datamatrixparameters/datamatrixecc/) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
 | [DataMatrixEncodeMode](../../aspose.barcode.generation/datamatrixparameters/datamatrixencodemode/) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.Auto. |
 | [DataMatrixVersion](../../aspose.barcode.generation/datamatrixparameters/datamatrixversion/) { get; set; } | Gets or sets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto. |

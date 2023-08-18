@@ -3,7 +3,7 @@ title: Class BarcodeSettings
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.BarcodeSettings class. The main BarCode decoding parameters. Contains parameters which make influence on recognized data
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/
 ---
 ## BarcodeSettings class

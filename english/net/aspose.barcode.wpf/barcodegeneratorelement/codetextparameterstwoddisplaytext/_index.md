@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextParametersTwoDDisplayText
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Text that will be displayed instead of codetext in 2D barcodes
 type: docs
-weight: 520
+weight: 590
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparameterstwoddisplaytext/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersTwoDDisplayText property

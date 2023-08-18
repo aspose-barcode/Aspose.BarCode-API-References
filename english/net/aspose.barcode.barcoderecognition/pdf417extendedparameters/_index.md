@@ -3,7 +3,7 @@ title: Class Pdf417ExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.Pdf417ExtendedParameters class. Stores a MacroPdf417 metadata information of recognized barcode
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
@@ -19,6 +19,7 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 | Name | Description |
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tests whether all parameters has only default values |
+| [IsLinked](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/islinked/) { get; } | Flag that indicates that the barcode must be linked to 1D barcode. |
 | [IsReaderInitialization](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/isreaderinitialization/) { get; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee/) { get; } | Macro PDF417 addressee name (optional). |
 | [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum/) { get; } | Macro PDF417 checksum (optional). |

@@ -3,7 +3,7 @@ title: EncodeTypes.Interleaved2of5
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with INTERLEAVED 2 of 5 barcode specification
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.barcode.generation/encodetypes/interleaved2of5/
 ---
 ## EncodeTypes.Interleaved2of5 field

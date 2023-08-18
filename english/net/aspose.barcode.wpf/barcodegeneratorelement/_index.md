@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1400
+weight: 1440
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -29,7 +29,14 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [AutoSizeMode](../../aspose.barcode.wpf/barcodegeneratorelement/autosizemode/) { get; set; } | Specifies the different types of automatic sizing modes. |
 | [AztecAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/aztecaspectratio/) { get; set; } | Aspect ratio. |
 | [AztecCodeTextEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/azteccodetextencoding/) { get; set; } | Text encoding. |
+| [AztecECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/aztececiencoding/) { get; set; } | Aztec ECI encoding. |
+| [AztecEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/aztecencodemode/) { get; set; } | Aztec encode mode. |
 | [AztecErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/aztecerrorlevel/) { get; set; } | Error level. |
+| [AztecIsReaderInitialization](../../aspose.barcode.wpf/barcodegeneratorelement/aztecisreaderinitialization/) { get; set; } | Is reader initialization mode for Aztec barcode. |
+| [AztecLayersCount](../../aspose.barcode.wpf/barcodegeneratorelement/azteclayerscount/) { get; set; } | Aztec layers count. |
+| [AztecStructuredAppendBarcodeId](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodeid/) { get; set; } | Aztec barcode ID for structured append mode. |
+| [AztecStructuredAppendBarcodesCount](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodescount/) { get; set; } | Aztec barcodes count for structured append mode. |
+| [AztecStructuredAppendFileId](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendfileid/) { get; set; } | Aztec file ID for structured append mode. |
 | [AztecSymbolMode](../../aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmode/) { get; set; } | Aztec symbol mode. |
 | [BackColor](../../aspose.barcode.wpf/barcodegeneratorelement/backcolor/) { get; set; } | Background color of the barcode image. |
 | [BarColor](../../aspose.barcode.wpf/barcodegeneratorelement/barcolor/) { get; set; } | Bars color. |
@@ -102,6 +109,9 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [EnableEscape](../../aspose.barcode.wpf/barcodegeneratorelement/enableescape/) { get; set; } | Indicates whether explains the character '\' as an escape character in CodeText property. |
 | [EncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/encodetype/) { get; set; } | BarCode's encode type (symbology). |
 | [FilledBars](../../aspose.barcode.wpf/barcodegeneratorelement/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. |
+| [GS1CompositeBarIsAllowOnlyGS1Encoding](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarisallowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
+| [GS1CompositeBarLinearComponentType](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarlinearcomponenttype/) { get; set; } | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked. |
+| [GS1CompositeBarTwoDComponentType](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebartwodcomponenttype/) { get; set; } | 2D component type. |
 | [HanXinECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencoding/) { get; set; } | ECI encoding. |
 | [HanXinEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinencodemode/) { get; set; } | Encode mode. |
 | [HanXinErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinerrorlevel/) { get; set; } | Error level. |
@@ -161,7 +171,14 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [AutoSizeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/autosizemodeproperty/) | AutoSizeModeProperty |
 | static [AztecAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecaspectratioproperty/) | AztecAspectRatioProperty |
 | static [AztecCodeTextEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/azteccodetextencodingproperty/) | AztecCodeTextEncodingProperty |
+| static [AztecECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztececiencodingproperty/) | AztecECIEncodingProperty |
+| static [AztecEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecencodemodeproperty/) | AztecEncodeModeProperty |
 | static [AztecErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecerrorlevelproperty/) | AztecErrorLevelProperty |
+| static [AztecIsReaderInitializationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecisreaderinitializationproperty/) | AztecIsReaderInitializationProperty |
+| static [AztecLayersCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/azteclayerscountproperty/) | AztecLayersCountProperty |
+| static [AztecStructuredAppendBarcodeIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodeidproperty/) | AztecStructuredAppendBarcodeIdProperty |
+| static [AztecStructuredAppendBarcodesCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodescountproperty/) | AztecStructuredAppendBarcodesCountProperty |
+| static [AztecStructuredAppendFileIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendfileidproperty/) | AztecStructuredAppendFileIdProperty |
 | static [AztecSymbolModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmodeproperty/) | AztecSymbolModeProperty |
 | static [BackColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/backcolorproperty/) | BackColorProperty |
 | static [BarColorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/barcolorproperty/) | BarColorProperty |
@@ -234,6 +251,9 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/) | EnableEscapeProperty |
 | static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/) | EncodeTypeProperty |
 | static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/) | FilledBarsProperty |
+| static [GS1CompositeBarIsAllowOnlyGS1EncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarisallowonlygs1encodingproperty/) | GS1CompositeBarIsAllowOnlyGS1EncodingProperty |
+| static [GS1CompositeBarLinearComponentTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarlinearcomponenttypeproperty/) | GS1CompositeBarLinearComponentTypeProperty |
+| static [GS1CompositeBarTwoDComponentTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebartwodcomponenttypeproperty/) | GS1CompositeBarTwoDComponentTypeProperty |
 | static [HanXinECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencodingproperty/) | HanXinECIEncodingProperty |
 | static [HanXinEncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinencodemodeproperty/) | HanXinEncodeModeProperty |
 | static [HanXinErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxinerrorlevelproperty/) | HanXinErrorLevelProperty |

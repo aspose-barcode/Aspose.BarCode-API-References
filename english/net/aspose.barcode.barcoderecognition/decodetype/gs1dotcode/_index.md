@@ -1,14 +1,14 @@
 ---
 title: DecodeType.GS1DotCode
 second_title: Aspose.BarCode for .NET API Reference
-description: DecodeType field. Specifies that the data should be decoded with GS1 DotCode blank specification
+description: DecodeType field. Specifies that the data should be decoded with GS1 DotCode barcode specification
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.barcode.barcoderecognition/decodetype/gs1dotcode/
 ---
 ## DecodeType.GS1DotCode field
 
-Specifies that the data should be decoded with **GS1 DotCode** blank specification
+Specifies that the data should be decoded with **GS1 DotCode** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType GS1DotCode;

@@ -3,7 +3,7 @@ title: EncodeTypes.HanXin
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with Han Xin barcode specification
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.barcode.generation/encodetypes/hanxin/
 ---
 ## EncodeTypes.HanXin field

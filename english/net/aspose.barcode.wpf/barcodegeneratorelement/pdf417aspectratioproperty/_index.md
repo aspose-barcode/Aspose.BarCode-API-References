@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417AspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417AspectRatioProperty
 type: docs
-weight: 2180
+weight: 2380
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417aspectratioproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417AspectRatioProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.HanXinEncodeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. HanXinEncodeModeProperty
 type: docs
-weight: 2030
+weight: 2230
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/hanxinencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.HanXinEncodeModeProperty field

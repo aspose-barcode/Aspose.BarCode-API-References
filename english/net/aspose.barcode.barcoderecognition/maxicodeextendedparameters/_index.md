@@ -3,7 +3,7 @@ title: Class MaxiCodeExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.MaxiCodeExtendedParameters class. Stores a MaxiCode additional information of recognized barcode
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 ## MaxiCodeExtendedParameters class

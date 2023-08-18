@@ -3,7 +3,7 @@ title: Class Code128ExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.Code128ExtendedParameters class. Stores special data of Code128 recognized barcode
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.barcode.barcoderecognition/code128extendedparameters/
 ---
 ## Code128ExtendedParameters class

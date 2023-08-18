@@ -3,7 +3,7 @@ title: Class Address
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.Address class. Address of creditor or debtor
 type: docs
-weight: 330
+weight: 350
 url: /net/aspose.barcode.complexbarcode/address/
 ---
 ## Address class

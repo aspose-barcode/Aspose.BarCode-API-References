@@ -1,0 +1,23 @@
+---
+title: BarcodeGeneratorElement.AztecStructuredAppendFileIdProperty
+second_title: Aspose.BarCode for .NET API Reference
+description: BarcodeGeneratorElement field. AztecStructuredAppendFileIdProperty
+type: docs
+weight: 1460
+url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendfileidproperty/
+---
+## BarcodeGeneratorElement.AztecStructuredAppendFileIdProperty field
+
+AztecStructuredAppendFileIdProperty
+
+```csharp
+public static DependencyProperty AztecStructuredAppendFileIdProperty;
+```
+
+### See Also
+
+* class [BarcodeGeneratorElement](../)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* assembly [Aspose.BarCode](../../../)
+
+

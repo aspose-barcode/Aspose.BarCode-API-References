@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: GS1CompositeBarParameters method. Returns a humanreadable string representation of this DataBarParameters
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/gs1compositebarparameters/tostring/
 ---
 ## GS1CompositeBarParameters.ToString method

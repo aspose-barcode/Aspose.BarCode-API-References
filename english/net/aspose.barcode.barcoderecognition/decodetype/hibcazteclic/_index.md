@@ -1,14 +1,14 @@
 ---
 title: DecodeType.HIBCAztecLIC
 second_title: Aspose.BarCode for .NET API Reference
-description: DecodeType field. Specifies that the data should be decoded with HIBC LIC Aztec blank specification
+description: DecodeType field. Specifies that the data should be decoded with HIBC LIC Aztec barcode specification
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcazteclic/
 ---
 ## DecodeType.HIBCAztecLIC field
 
-Specifies that the data should be decoded with **HIBC LIC Aztec** blank specification
+Specifies that the data should be decoded with **HIBC LIC Aztec** barcode specification
 
 ```csharp
 public static readonly SingleDecodeType HIBCAztecLIC;

@@ -3,7 +3,7 @@ title: AztecParameters.AztecSymbolMode
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParameters property. Gets or sets a Aztec Symbol mode. Default value AztecSymbolMode.Auto
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/aztecparameters/aztecsymbolmode/
 ---
 ## AztecParameters.AztecSymbolMode property

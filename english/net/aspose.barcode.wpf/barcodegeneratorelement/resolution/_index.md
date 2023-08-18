@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Resolution
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Gets or sets the resolution of the BarCode image. One value for both dimensions
 type: docs
-weight: 1160
+weight: 1260
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/resolution/
 ---
 ## BarcodeGeneratorElement.Resolution property

@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.Code128
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeExtendedParameters property. Gets a special data Code128ExtendedParameters of Code128 recognized barcode
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/
 ---
 ## BarCodeExtendedParameters.Code128 property

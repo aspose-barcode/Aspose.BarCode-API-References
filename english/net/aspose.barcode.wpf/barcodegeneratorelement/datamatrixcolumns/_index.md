@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixColumns
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Columns count
 type: docs
-weight: 590
+weight: 660
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumns/
 ---
 ## BarcodeGeneratorElement.DataMatrixColumns property

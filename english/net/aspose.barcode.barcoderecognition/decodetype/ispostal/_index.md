@@ -3,7 +3,7 @@ title: DecodeType.IsPostal
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Determines if the specified BaseDecodeType contains any Postal barcode symbology
 type: docs
-weight: 910
+weight: 930
 url: /net/aspose.barcode.barcoderecognition/decodetype/ispostal/
 ---
 ## DecodeType.IsPostal method

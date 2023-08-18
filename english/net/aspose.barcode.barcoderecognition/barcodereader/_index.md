@@ -3,7 +3,7 @@ title: Class BarCodeReader
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.BarCodeReader class. BarCodeReader encapsulates an image which may contain one or several barcodes it then can perform ReadBarCodes operation to detect barcodes
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 ## BarCodeReader class

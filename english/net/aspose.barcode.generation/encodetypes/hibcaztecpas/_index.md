@@ -3,7 +3,7 @@ title: EncodeTypes.HIBCAztecPAS
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with HIBC PAS Aztec barcode specification
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.barcode.generation/encodetypes/hibcaztecpas/
 ---
 ## EncodeTypes.HIBCAztecPAS field

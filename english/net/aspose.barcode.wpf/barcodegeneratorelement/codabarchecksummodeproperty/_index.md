@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodabarChecksumModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodabarChecksumModeProperty
 type: docs
-weight: 1550
+weight: 1720
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codabarchecksummodeproperty/
 ---
 ## BarcodeGeneratorElement.CodabarChecksumModeProperty field

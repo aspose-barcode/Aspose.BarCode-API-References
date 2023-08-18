@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters method. Returns a value indicating whether this instance is equal to a specified Pdf417ExtendedParameters value
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/equals/
 ---
 ## Pdf417ExtendedParameters.Equals method

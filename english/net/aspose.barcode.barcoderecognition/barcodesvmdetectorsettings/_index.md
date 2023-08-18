@@ -3,7 +3,7 @@ title: Class BarcodeSvmDetectorSettings
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.BarcodeSvmDetectorSettings class. Barcode detector settings
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/
 ---
 ## BarcodeSvmDetectorSettings class

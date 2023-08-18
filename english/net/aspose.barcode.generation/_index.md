@@ -13,6 +13,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | Class | Description |
 | --- | --- |
 | [AustralianPostParameters](./australianpostparameters/) | AustralianPost barcode parameters. |
+| [AztecExtCodetextBuilder](./aztecextcodetextbuilder/) | Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode |
 | [AztecParameters](./aztecparameters/) | Aztec parameters. |
 | [BarcodeGenerator](./barcodegenerator/) | BarcodeGenerator for backend barcode images generation. |
 | [BarcodeParameters](./barcodeparameters/) | Barcode generation parameters. |
@@ -55,6 +56,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | Enumeration | Description |
 | --- | --- |
 | [AutoSizeMode](./autosizemode/) | Specifies the different types of automatic sizing modes. |
+| [AztecEncodeMode](./aztecencodemode/) | Encoding mode for Aztec barcodes. |
 | [AztecSymbolMode](./aztecsymbolmode/) | Specifies the Aztec symbol mode. |
 | [BarcodeClassifications](./barcodeclassifications/) | Symbology classification |
 | [BarCodeImageFormat](./barcodeimageformat/) | Specifies the file format of the image. |

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ChecksumAlwaysShow
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes
 type: docs
-weight: 320
+weight: 390
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/checksumalwaysshow/
 ---
 ## BarcodeGeneratorElement.ChecksumAlwaysShow property
