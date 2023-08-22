@@ -3,7 +3,7 @@ title: MaxiCodeEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 84
+weight: 85
 url: /java/com.aspose.barcode.generation/maxicodeencodemode/
 ---
 **Inheritance:**
@@ -50,7 +50,7 @@ Encoding mode for MaxiCode barcodes.
  //generate
  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MaxiCode, codetext);
  generator.getParameters().getBarcode().getMaxiCode().setMaxiCodeEncodeMode(MaxiCodeEncodeMode.EXTENDED_CODETEXT);
-  generator.getParameters().getBarcode().getMaxiCode().setTwoDDisplayText("My Text");
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
  generator.save("test.bmp");
 ```
 ## Fields

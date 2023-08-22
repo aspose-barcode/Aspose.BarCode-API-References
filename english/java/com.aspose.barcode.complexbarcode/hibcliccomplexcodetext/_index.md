@@ -42,7 +42,8 @@ Base class for encoding and decoding the text embedded in the HIBC LIC code.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBarcodeType()](#getBarcodeType--) | Gets or sets barcode type. |
+| [getBarcodeType()](#getBarcodeType--) | Gets barcode type. |
+| [getBarcodeType_Rename_Namesake()](#getBarcodeType-Rename-Namesake--) | Gets or sets barcode type. |
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [hashCode()](#hashCode--) |  |
@@ -78,6 +79,16 @@ boolean
 ### getBarcodeType() {#getBarcodeType--}
 ```
 public BaseEncodeType getBarcodeType()
+```
+
+
+Gets barcode type.
+
+**Returns:**
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
+### getBarcodeType_Rename_Namesake() {#getBarcodeType-Rename-Namesake--}
+```
+public BaseEncodeType getBarcodeType_Rename_Namesake()
 ```
 
 

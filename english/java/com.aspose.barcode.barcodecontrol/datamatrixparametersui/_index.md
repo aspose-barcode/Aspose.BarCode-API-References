@@ -136,7 +136,7 @@ public DataMatrixVersion getDataMatrixVersion()
 DataMatrix symbol size.
 
 **Returns:**
-[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) - DataMatrix symbol size.
+com.aspose.barcode.generation.DataMatrixVersion - DataMatrix symbol size.
 ### getECIEncoding() {#getECIEncoding--}
 ```
 public int getECIEncoding()
@@ -309,7 +309,7 @@ DataMatrix symbol size.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) | DataMatrix symbol size. |
+| value | com.aspose.barcode.generation.DataMatrixVersion | DataMatrix symbol size. |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```

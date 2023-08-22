@@ -3,7 +3,7 @@ title: TwoDComponentType
 second_title: Aspose.BarCode for Java API Reference
 description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
 type: docs
-weight: 95
+weight: 96
 url: /java/com.aspose.barcode.generation/twodcomponenttype/
 ---
 **Inheritance:**

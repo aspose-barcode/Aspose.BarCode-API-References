@@ -46,6 +46,7 @@ This package contains tools for generating barcode.
 | [GS1CompositeBarParameters](../com.aspose.barcode.generation/gs1compositebarparameters) |  |
 | [GS1HanXinEncoder](../com.aspose.barcode.generation/gs1hanxinencoder) | Contains functions for encoding GS1HanXin |
 | [HanXinEncoder](../com.aspose.barcode.generation/hanxinencoder) |  |
+| [HanXinExtCodetextBuilder](../com.aspose.barcode.generation/hanxinextcodetextbuilder) |  |
 | [HanXinParameters](../com.aspose.barcode.generation/hanxinparameters) | Han Xin parameters. |
 | [ITFParameters](../com.aspose.barcode.generation/itfparameters) | ITF parameters. |
 | [ImageUnitConverter](../com.aspose.barcode.generation/imageunitconverter) |  |

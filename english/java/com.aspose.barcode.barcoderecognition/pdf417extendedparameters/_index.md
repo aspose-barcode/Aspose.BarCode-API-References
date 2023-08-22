@@ -52,6 +52,7 @@ Stores a MacroPdf417 metadata information of recognized barcode
 | [getMacroPdf417TimeStamp()](#getMacroPdf417TimeStamp--) | Macro PDF417 time stamp (optional). |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
+| [isReaderInitialization()](#isReaderInitialization--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | Returns a human-readable string representation of this  Pdf417ExtendedParameters . |
@@ -208,6 +209,18 @@ public boolean isEmpty()
 Tests whether all parameters has only default values
 
 Value: Returns  **true**  if all parameters has only default values; otherwise,  **false** .
+
+**Returns:**
+boolean
+### isReaderInitialization() {#isReaderInitialization--}
+```
+public boolean isReaderInitialization()
+```
+
+
+Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization.
+
+Value: Reader initialization flag
 
 **Returns:**
 boolean
