@@ -3,7 +3,7 @@ title: EncodeTypes.GS1CodablockF
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with GS1 CodablockF barcode specification. The codetext must contains parentheses for AI
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.barcode.generation/encodetypes/gs1codablockf/
 ---
 ## EncodeTypes.GS1CodablockF field

@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.MacroPdf417SegmentID
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters property. Gets the segment ID of the barcodeonly available with MacroPdf417
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid/
 ---
 ## Pdf417ExtendedParameters.MacroPdf417SegmentID property

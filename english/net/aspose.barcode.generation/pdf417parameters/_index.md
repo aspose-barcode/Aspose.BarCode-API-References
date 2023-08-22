@@ -3,7 +3,7 @@ title: Class Pdf417Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417Parameters class. PDF417 parameters. Contains PDF417 MacroPDF417 and MicroPDF417 parameters. MacroPDF417 requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode same as MacroPDF417 mode requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional
 type: docs
-weight: 1230
+weight: 1270
 url: /net/aspose.barcode.generation/pdf417parameters/
 ---
 ## Pdf417Parameters class
@@ -20,7 +20,6 @@ public class Pdf417Parameters
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/pdf417parameters/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
 | [Code128Emulation](../../aspose.barcode.generation/pdf417parameters/code128emulation/) { get; set; } | Function codeword for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes. |
-| [CodeTextEncoding](../../aspose.barcode.generation/pdf417parameters/codetextencoding/) { get; set; } | Gets or sets the encoding of codetext. Default value: UTF-8 |
 | [Columns](../../aspose.barcode.generation/pdf417parameters/columns/) { get; set; } | Columns count. |
 | [IsReaderInitialization](../../aspose.barcode.generation/pdf417parameters/isreaderinitialization/) { get; set; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [Pdf417CompactionMode](../../aspose.barcode.generation/pdf417parameters/pdf417compactionmode/) { get; set; } | Pdf417 symbology type of BarCode's compaction mode. Default value: Pdf417CompactionMode.Auto. |

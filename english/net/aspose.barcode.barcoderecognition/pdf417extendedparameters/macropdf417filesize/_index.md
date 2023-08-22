@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.MacroPdf417FileSize
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters property. Macro PDF417 file size optional
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize/
 ---
 ## Pdf417ExtendedParameters.MacroPdf417FileSize property

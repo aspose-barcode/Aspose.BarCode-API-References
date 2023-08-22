@@ -3,7 +3,7 @@ title: DecodeType.TryParse
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 940
+weight: 960
 url: /net/aspose.barcode.barcoderecognition/decodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_1}

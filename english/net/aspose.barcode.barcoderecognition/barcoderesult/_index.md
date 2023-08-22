@@ -3,7 +3,7 @@ title: Class BarCodeResult
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.BarCodeResult class. Stores recognized barcode data like SingleDecodeType type String codetext BarCodeRegionParameters region and other parameters
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 ## BarCodeResult class

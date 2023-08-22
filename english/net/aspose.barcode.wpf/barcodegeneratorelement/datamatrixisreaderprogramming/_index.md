@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixIsReaderProgramming
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization
 type: docs
-weight: 630
+weight: 700
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogramming/
 ---
 ## BarcodeGeneratorElement.DataMatrixIsReaderProgramming property

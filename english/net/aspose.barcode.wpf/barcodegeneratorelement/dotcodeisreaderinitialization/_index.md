@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeIsReaderInitialization
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Is reader initialization
 type: docs
-weight: 730
+weight: 800
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeisreaderinitialization/
 ---
 ## BarcodeGeneratorElement.DotCodeIsReaderInitialization property

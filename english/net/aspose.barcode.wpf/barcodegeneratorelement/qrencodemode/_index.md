@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.QREncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Encode mode
 type: docs
-weight: 1120
+weight: 1220
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qrencodemode/
 ---
 ## BarcodeGeneratorElement.QREncodeMode property

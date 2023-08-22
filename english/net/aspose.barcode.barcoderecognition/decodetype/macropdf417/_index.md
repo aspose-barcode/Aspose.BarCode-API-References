@@ -3,7 +3,7 @@ title: DecodeType.MacroPdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with MacroPdf417 barcode specification
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.barcode.barcoderecognition/decodetype/macropdf417/
 ---
 ## DecodeType.MacroPdf417 field

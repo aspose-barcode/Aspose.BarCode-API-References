@@ -16,11 +16,11 @@ public GS1CompositeBarParameters GS1CompositeBar { get; set; }
 
 ## Examples
 
-This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/'
+This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '&#x7C;'
 
 ```csharp
 [C#]
-  var codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8";
+  var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
   using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
   {
       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;

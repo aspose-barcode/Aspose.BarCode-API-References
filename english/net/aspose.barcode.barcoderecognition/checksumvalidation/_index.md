@@ -3,7 +3,7 @@ title: Enum ChecksumValidation
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.ChecksumValidation enum. Enable checksum validation during recognition for 1D and Postal barcodes
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 ## ChecksumValidation enumeration

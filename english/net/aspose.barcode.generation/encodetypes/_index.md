@@ -3,7 +3,7 @@ title: Class EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EncodeTypes class. Specifies the type of barcode to encode
 type: docs
-weight: 1000
+weight: 1040
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class
@@ -61,6 +61,7 @@ public static class EncodeTypes
 | static readonly [EAN13](../../aspose.barcode.generation/encodetypes/ean13/) | Specifies that the data should be encoded with **EAN-13** barcode specification |
 | static readonly [EAN14](../../aspose.barcode.generation/encodetypes/ean14/) | Specifies that the data should be encoded with **EAN14** barcode specification |
 | static readonly [EAN8](../../aspose.barcode.generation/encodetypes/ean8/) | Specifies that the data should be encoded with **EAN-8** barcode specification |
+| static readonly [GS1Aztec](../../aspose.barcode.generation/encodetypes/gs1aztec/) | Specifies that the data should be encoded with **GS1 Aztec** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1CodablockF](../../aspose.barcode.generation/encodetypes/gs1codablockf/) | Specifies that the data should be encoded with **GS1 Codablock-F** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1Code128](../../aspose.barcode.generation/encodetypes/gs1code128/) | Specifies that the data should be encoded with **GS1 Code 128** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1CompositeBar](../../aspose.barcode.generation/encodetypes/gs1compositebar/) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. The codetext must contains parentheses for AI. 1D codetext and 2D codetext must be separated with symbol '/' |

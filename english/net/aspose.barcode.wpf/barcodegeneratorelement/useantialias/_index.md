@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.UseAntiAlias
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Gets or sets a value indicating whether is used antialiasing mode to render image
 type: docs
-weight: 1200
+weight: 1300
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/useantialias/
 ---
 ## BarcodeGeneratorElement.UseAntiAlias property
@@ -11,7 +11,7 @@ url: /net/aspose.barcode.wpf/barcodegeneratorelement/useantialias/
 Gets or sets a value indicating whether is used anti-aliasing mode to render image.
 
 ```csharp
-public float UseAntiAlias { get; set; }
+public bool UseAntiAlias { get; set; }
 ```
 
 ### See Also

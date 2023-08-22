@@ -3,7 +3,7 @@ title: AztecParametersUI.CodeTextEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParametersUI property. Gets or sets the encoding of codetext
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.windows.forms/aztecparametersui/codetextencoding/
 ---
 ## AztecParametersUI.CodeTextEncoding property

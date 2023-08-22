@@ -3,7 +3,7 @@ title: Class BarCodeRegionParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.BarCodeRegionParameters class. Represents the recognized barcodes region and barcode angle
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 ## BarCodeRegionParameters class

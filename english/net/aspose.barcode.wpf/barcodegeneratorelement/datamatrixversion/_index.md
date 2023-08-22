@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. DataMatrix symbol size
 type: docs
-weight: 680
+weight: 750
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixversion/
 ---
 ## BarcodeGeneratorElement.DataMatrixVersion property

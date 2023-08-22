@@ -1,14 +1,14 @@
 ---
 title: BarCodeExtendedParameters.DataMatrix
 second_title: Aspose.BarCode for .NET API Reference
-description: BarCodeExtendedParameters property. Gets a DotCode additional informationDataMatrixExtendedParameters of recognized barcode
+description: BarCodeExtendedParameters property. Gets a DataMatrix additional informationDataMatrixExtendedParameters of recognized barcode
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/datamatrix/
 ---
 ## BarCodeExtendedParameters.DataMatrix property
 
-Gets a DotCode additional information[`DataMatrixExtendedParameters`](../../datamatrixextendedparameters/) of recognized barcode
+Gets a DataMatrix additional information[`DataMatrixExtendedParameters`](../../datamatrixextendedparameters/) of recognized barcode
 
 ```csharp
 public DataMatrixExtendedParameters DataMatrix { get; }
@@ -16,7 +16,7 @@ public DataMatrixExtendedParameters DataMatrix { get; }
 
 ### Property Value
 
-A DotCode additional information[`DataMatrixExtendedParameters`](../../datamatrixextendedparameters/) of recognized barcode
+A DataMatrix additional information[`DataMatrixExtendedParameters`](../../datamatrixextendedparameters/) of recognized barcode
 
 ### See Also
 

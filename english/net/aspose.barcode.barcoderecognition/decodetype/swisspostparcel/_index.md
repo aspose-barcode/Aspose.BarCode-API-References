@@ -3,7 +3,7 @@ title: DecodeType.SwissPostParcel
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with Swiss Post Parcel Barcode barcode specification
 type: docs
-weight: 820
+weight: 840
 url: /net/aspose.barcode.barcoderecognition/decodetype/swisspostparcel/
 ---
 ## DecodeType.SwissPostParcel field
