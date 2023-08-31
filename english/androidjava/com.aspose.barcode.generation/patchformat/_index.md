@@ -3,7 +3,7 @@ title: PatchFormat
 second_title: Aspose.BarCode for Android via Java API Reference
 description: PatchCode format.
 type: docs
-weight: 85
+weight: 86
 url: /androidjava/com.aspose.barcode.generation/patchformat/
 ---
 **Inheritance:**

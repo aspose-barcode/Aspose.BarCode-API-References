@@ -75,6 +75,7 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 | [applyAll(QualitySettings Src)](#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-) | Function apply all values from Src setting to this |
 | [describeContents()](#describeContents--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAllowAdditionalRestorations()](#getAllowAdditionalRestorations--) | Allows engine using additional image restorations to recognize corrupted barcodes. |
 | [getAllowComplexBackground()](#getAllowComplexBackground--) | Allows engine to recognize color barcodes on color background as additional scan. |
 | [getAllowDatamatrixIndustrialBarcodes()](#getAllowDatamatrixIndustrialBarcodes--) | Allows engine for Datamatrix to recognize dashed industrial Datamatrix barcodes. |
 | [getAllowDecreasedImage()](#getAllowDecreasedImage--) | Allows engine to recognize decreased image as additional scan. |
@@ -107,6 +108,7 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAllowAdditionalRestorations(boolean value)](#setAllowAdditionalRestorations-boolean-) | Allows engine using additional image restorations to recognize corrupted barcodes. |
 | [setAllowComplexBackground(boolean value)](#setAllowComplexBackground-boolean-) | Allows engine to recognize color barcodes on color background as additional scan. |
 | [setAllowDatamatrixIndustrialBarcodes(boolean value)](#setAllowDatamatrixIndustrialBarcodes-boolean-) | Allows engine for Datamatrix to recognize dashed industrial Datamatrix barcodes. |
 | [setAllowDecreasedImage(boolean value)](#setAllowDecreasedImage-boolean-) | Allows engine to recognize decreased image as additional scan. |
@@ -196,6 +198,18 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAllowAdditionalRestorations() {#getAllowAdditionalRestorations--}
+```
+public boolean getAllowAdditionalRestorations()
+```
+
+
+Allows engine using additional image restorations to recognize corrupted barcodes. At this time, it is used only in MicroPdf417 barcode type.
+
+Value: Allows engine using additional image restorations to recognize corrupted barcodes.
 
 **Returns:**
 boolean
@@ -590,6 +604,21 @@ public final native void notifyAll()
 
 
 
+
+### setAllowAdditionalRestorations(boolean value) {#setAllowAdditionalRestorations-boolean-}
+```
+public void setAllowAdditionalRestorations(boolean value)
+```
+
+
+Allows engine using additional image restorations to recognize corrupted barcodes. At this time, it is used only in MicroPdf417 barcode type.
+
+Value: Allows engine using additional image restorations to recognize corrupted barcodes.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAllowComplexBackground(boolean value) {#setAllowComplexBackground-boolean-}
 ```

@@ -175,8 +175,8 @@ Returns a value indicating whether the first  DataMatrixExtendedParameters  valu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A first compared value |
-| second | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A second compared value |
+| first | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A first compared value |
+| second | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A second compared value |
 
 **Returns:**
 boolean -  **true**  if first has the same value as second; otherwise,  **false** .
@@ -191,8 +191,8 @@ Returns a value indicating if the first  DataMatrixExtendedParameters  value is 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A first compared value |
-| second | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A second compared value |
+| first | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A first compared value |
+| second | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A second compared value |
 
 **Returns:**
 boolean -  **true**  if first has the different value from second; otherwise,  **false** .
