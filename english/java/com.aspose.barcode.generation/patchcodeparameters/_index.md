@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for Java API Reference
 description: PatchCode parameters.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.barcode.generation/patchcodeparameters/
 ---
 **Inheritance:**

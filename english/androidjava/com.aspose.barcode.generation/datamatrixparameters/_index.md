@@ -136,7 +136,7 @@ public DataMatrixVersion getDataMatrixVersion()
 Gets or sets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto.
 
 **Returns:**
-com.aspose.barcode.generation.DataMatrixVersion
+[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion)
 ### getECIEncoding() {#getECIEncoding--}
 ```
 public int getECIEncoding()
@@ -309,7 +309,7 @@ Gets or sets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.generation.DataMatrixVersion |  |
+| value | [DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) |  |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```

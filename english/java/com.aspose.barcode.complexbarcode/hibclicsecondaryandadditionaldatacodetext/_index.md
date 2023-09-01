@@ -23,7 +23,8 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  HIBCLICSecondaryAndAdditionalDataCodetext  value. |
-| [getBarcodeType()](#getBarcodeType--) | Gets or sets barcode type. |
+| [getBarcodeType()](#getBarcodeType--) | Gets barcode type. |
+| [getBarcodeType_Rename_Namesake()](#getBarcodeType-Rename-Namesake--) | Gets or sets barcode type. |
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [getData()](#getData--) | Identifies secodary and additional supplemental data. |
@@ -63,6 +64,16 @@ boolean -  **true**  if obj has the same value as this instance; otherwise,  **f
 ### getBarcodeType() {#getBarcodeType--}
 ```
 public BaseEncodeType getBarcodeType()
+```
+
+
+Gets barcode type.
+
+**Returns:**
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
+### getBarcodeType_Rename_Namesake() {#getBarcodeType-Rename-Namesake--}
+```
+public BaseEncodeType getBarcodeType_Rename_Namesake()
 ```
 
 

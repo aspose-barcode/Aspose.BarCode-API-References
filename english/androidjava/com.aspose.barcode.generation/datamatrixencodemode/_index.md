@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: DataMatrix encoders encoding mode default to Auto
 type: docs
-weight: 72
+weight: 73
 url: /androidjava/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**
@@ -30,25 +30,25 @@ DataMatrix encoder's encoding mode, default to Auto
 >  StringBuilder strBld = new StringBuilder();
 >  for( byte bval : encodedArr)
 >  {
->   strBld.append((char) bval);
->   String codetext = strBld.toString();
->   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
->   generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BYTES);
->   generator.save("test.bmp");
-> }
+>    strBld.append((char) bval);
+>    String codetext = strBld.toString();
+>    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
+>    generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BYTES);
+>    generator.save("test.bmp");
+>  }
 >  //Extended codetext mode
 >  //create codetext
-> DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
-> codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
-> codetextBuilder.addPlainCodetext("Will");
-> codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
-> codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
+>  DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
+>  codetextBuilder.addPlainCodetext("Will");
+>  codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
+>  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
 >  //generate codetext
-> String codetext=codetextBuilder.getExtendedCodetext();
+>  String codetext=codetextBuilder.getExtendedCodetext();
 >  //generate
-> BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
-> generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
-> generator.save("test.bmp");
+>  BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
+>  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+>  generator.save("test.bmp");
 > ```
 ## Fields
 

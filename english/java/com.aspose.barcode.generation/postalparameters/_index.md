@@ -3,7 +3,7 @@ title: PostalParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Postal parameters.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.barcode.generation/postalparameters/
 ---
 **Inheritance:**

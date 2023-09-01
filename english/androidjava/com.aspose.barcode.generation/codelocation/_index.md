@@ -3,7 +3,7 @@ title: CodeLocation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Codetext location
 type: docs
-weight: 70
+weight: 71
 url: /androidjava/com.aspose.barcode.generation/codelocation/
 ---
 **Inheritance:**

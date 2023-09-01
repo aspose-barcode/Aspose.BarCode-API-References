@@ -3,7 +3,7 @@ title: TextRenderingHint
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 95
+weight: 96
 url: /androidjava/com.aspose.barcode.generation/textrenderinghint/
 ---
 **Inheritance:**

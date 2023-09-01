@@ -3,7 +3,7 @@ title: HanXinEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Han Xin Code encoding mode.
 type: docs
-weight: 78
+weight: 79
 url: /java/com.aspose.barcode.generation/hanxinencodemode/
 ---
 **Inheritance:**
@@ -22,7 +22,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN, codetext);
 >   generator.save("test.bmp");
 > 
->   // Bytes mode
+>   // Binary mode
 >   byte[] encodedArr = new byte[] {(byte) 0xFF, (byte) 0xFE, (byte) 0xFD, (byte) 0xFC, (byte) 0xFB, (byte) 0xFA, (byte) 0xF9};
 > 
 >   //encode array to string
@@ -32,7 +32,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   String codetext = strBld.toString();
 > 
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN, codetext);
->   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.BYTES);
+>   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.BINARY);
 >   generator.save("test.bmp");
 > 
 >   // ECI mode
@@ -48,7 +48,45 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.URI);
 >   generator.save("test.bmp");
 > 
->   // Extended mode - TBD
+> 
+>   // Extended mode
+>   String str = "\\gb180302b:\u6f04\\gb180304b:\u3401\\region1:\u5168\\region2:\u8785\\numeric:123\\text:qwe\\\\unicode:\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l" +
+>       "\\000009:\u0391\u0392\u0393\u0394\u0395\\auto:abc\\binary:abc\\\\uri:backslashes_should_be_doubled\\\\000555:test";
+>  
+>   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
+>  
+>   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
+>   {
+>       generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>       generator.save("test.bmp");
+>   }
+>  
+>   // Using HanXinExtCodetextBuilder for Extended mode (same codetext as in previous example)
+>   //create codetext
+>   HanXinExtCodetextBuilder codeTextBuilder = new HanXinExtCodetextBuilder();
+>   codeTextBuilder.addGB18030TwoByte("\u6f04");
+>   codeTextBuilder.addGB18030FourByte("\u3401");
+>   codeTextBuilder.addCommonChineseRegionOne("\u5168");
+>   codeTextBuilder.addCommonChineseRegionTwo("\u8785");
+>   codeTextBuilder.addNumeric("123");
+>   codeTextBuilder.addText("qwe");
+>   codeTextBuilder.addUnicode("\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l");
+>   codeTextBuilder.addECI("\u0391\u0392\u0393\u0394\u0395", 9);
+>   codeTextBuilder.addAuto("abc");
+>   codeTextBuilder.addBinary("abc");
+>   codeTextBuilder.addURI("backslashes_should_be_doubled\\000555:test");
+>  
+>   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
+>  
+>   //generate codetext
+>   String str = codeTextBuilder.getExtendedCodetext();
+>  
+>   //generate
+>   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
+>   {
+>       generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>       generator.save("test.bmp");
+>   }
 > ```
 ## Fields
 
@@ -57,7 +95,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 | [AUTO](#AUTO) | Sequence of Numeric, Text, ECI, Binary Bytes and 4 GB18030 modes changing automatically. |
 | [BINARY](#BINARY) | Binary byte mode encodes binary data in any form and encodes them in their binary byte. |
 | [ECI](#ECI) | Extended Channel Interpretation (ECI) mode |
-| [EXTENDED](#EXTENDED) | Extended mode will allow more flexible combinations of other modes, this mode is currently not implemented. |
+| [EXTENDED](#EXTENDED) | Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, Common Chinese Region One, Common Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. |
 | [UNICODE](#UNICODE) | Unicode mode designs a way to represent any text data reference to UTF8 encoding/charset in Han Xin Code. |
 | [URI](#URI) | URI mode indicates the data represented in Han Xin Code is Uniform Resource Identifier (URI) reference to RFC 3986. |
 ## Methods
@@ -111,7 +149,7 @@ public static final HanXinEncodeMode EXTENDED
 ```
 
 
-Extended mode will allow more flexible combinations of other modes, this mode is currently not implemented.
+Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, Common Chinese Region One, Common Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. Codetext can be built manually with prefixes and doubled backslashes, e.g.: @"\\auto:abc\\000009:\\u0391\\u0392\\u0393\\u0394\\u0395\\auto:ab\\\\c" or using the HanXinExtCodetextBuilder. If the codetext contains an ECI fragment, then only the following modes can be in that codetext after ECI fragment: Auto, Binary, Text, Numeric, URI, ECI.
 
 ### UNICODE {#UNICODE}
 ```

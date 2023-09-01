@@ -3,7 +3,7 @@ title: CodabarChecksumMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the checksum algorithm for Codabar
 type: docs
-weight: 67
+weight: 68
 url: /androidjava/com.aspose.barcode.generation/codabarchecksummode/
 ---
 **Inheritance:**
