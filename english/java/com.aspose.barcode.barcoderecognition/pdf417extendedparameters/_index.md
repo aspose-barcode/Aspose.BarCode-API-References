@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores a MacroPdf417 metadata information of recognized barcode
 type: docs
-weight: 32
+weight: 34
 url: /java/com.aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 **Inheritance:**
@@ -52,6 +52,7 @@ Stores a MacroPdf417 metadata information of recognized barcode
 | [getMacroPdf417TimeStamp()](#getMacroPdf417TimeStamp--) | Macro PDF417 time stamp (optional). |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
+| [isLinked()](#isLinked--) | Flag that indicates that the barcode must be linked to 1D barcode. |
 | [isReaderInitialization()](#isReaderInitialization--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -182,14 +183,14 @@ Indicates whether the segment is the last segment of a Macro PDF417 file.
 boolean - Terminator.
 ### getMacroPdf417TimeStamp() {#getMacroPdf417TimeStamp--}
 ```
-public Date getMacroPdf417TimeStamp()
+public LocalDateTime getMacroPdf417TimeStamp()
 ```
 
 
 Macro PDF417 time stamp (optional).
 
 **Returns:**
-java.util.Date - Time stamp.
+java.time.LocalDateTime - Time stamp.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -209,6 +210,18 @@ public boolean isEmpty()
 Tests whether all parameters has only default values
 
 Value: Returns  **true**  if all parameters has only default values; otherwise,  **false** .
+
+**Returns:**
+boolean
+### isLinked() {#isLinked--}
+```
+public boolean isLinked()
+```
+
+
+Flag that indicates that the barcode must be linked to 1D barcode.
+
+Value: Linkage flag
 
 **Returns:**
 boolean

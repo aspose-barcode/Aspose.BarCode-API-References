@@ -3,7 +3,7 @@ title: BarCodeReader
 second_title: Aspose.BarCode for Java API Reference
 description: BarCodeReader encapsulates an image which may contain one or several barcodes it then can perform ReadBarCodes operation to detect barcodes.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.aspose.barcode.barcoderecognition/barcodereader/
 ---
 **Inheritance:**

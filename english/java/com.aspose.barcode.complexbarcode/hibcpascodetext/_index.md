@@ -29,17 +29,15 @@ Class for encoding and decoding the text embedded in the HIBC PAS code.
 >   complexCodetext.addRecord(HIBCPASDataType.MANUFACTURER_SERIAL_NUMBER, "SERIAL123");
 >   complexCodetext.setBarcodeType(EncodeTypes.HIBC_DATA_MATRIX_PAS);
 >   ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCodetext);
->   {
->       BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.HIBC_DATA_MATRIX_PAS);
->       {
->           reader.readBarCodes();
->           String codetext = reader.getFoundBarCodes()[0].getCodeText();
->  			HIBCPASComplexCodetext readCodetext = ComplexCodetextReader.tryDecodeHIBCPAS(codetext);
->   		System.out.println("Data location: {0}", readCodetext.getDataLocation());
->           System.out.print("Data type: {0}. ", readCodetext.getRecords()[0].getDataType());
->           System.out.println("Data: {0}", readCodetext.getRecords()[0].getData());
->           System.out.print("Data type: {0}. ", readCodetext.getRecords()[1].getDataType());
->           System.out.println("Data: {0}", readCodetext.getRecords()[1].getData());
+>   BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.HIBC_DATA_MATRIX_PAS);
+>   reader.readBarCodes();
+>   String codetext = reader.getFoundBarCodes()[0].getCodeText();
+>  	HIBCPASComplexCodetext readCodetext = ComplexCodetextReader.tryDecodeHIBCPAS(codetext);
+>   System.out.println("Data location: {0}", readCodetext.getDataLocation());
+>   System.out.print("Data type: {0}. ", readCodetext.getRecords()[0].getDataType());
+>   System.out.println("Data: {0}", readCodetext.getRecords()[0].getData());
+>   System.out.print("Data type: {0}. ", readCodetext.getRecords()[1].getDataType());
+>   System.out.println("Data: {0}", readCodetext.getRecords()[1].getData());
 >       }
 >   }
 > ```

@@ -3,7 +3,7 @@ title: HanXinEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Han Xin Code encoding mode.
 type: docs
-weight: 79
+weight: 84
 url: /java/com.aspose.barcode.generation/hanxinencodemode/
 ---
 **Inheritance:**

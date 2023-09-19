@@ -3,7 +3,7 @@ title: DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 **Inheritance:**

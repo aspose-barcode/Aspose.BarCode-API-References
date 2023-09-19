@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of DotCode recognized barcode
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 **Inheritance:**
