@@ -3,7 +3,7 @@ title: MacroCharacter
 second_title: Aspose.BarCode for Java API Reference
 description: Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes.
 type: docs
-weight: 84
+weight: 89
 url: /java/com.aspose.barcode.generation/macrocharacter/
 ---
 **Inheritance:**

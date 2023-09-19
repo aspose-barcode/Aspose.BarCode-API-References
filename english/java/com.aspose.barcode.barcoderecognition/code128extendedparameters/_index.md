@@ -3,7 +3,7 @@ title: Code128ExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of Code128 recognized barcode
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.barcode.barcoderecognition/code128extendedparameters/
 ---
 **Inheritance:**

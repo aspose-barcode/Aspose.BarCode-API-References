@@ -3,7 +3,7 @@ title: BarcodeClassifications
 second_title: Aspose.BarCode for Java API Reference
 description: EncodeTypes classification
 type: docs
-weight: 66
+weight: 71
 url: /java/com.aspose.barcode.generation/barcodeclassifications/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: CaptionParametersInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.barcode.generation/captionparametersinternal/
 ---
 **Inheritance:**

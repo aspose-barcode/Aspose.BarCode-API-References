@@ -15,6 +15,7 @@ This package contains tools for 1D/2D barcode recognition.
 | Class | Description |
 | --- | --- |
 | [AustraliaPostSettings](../com.aspose.barcode.barcoderecognition/australiapostsettings) | AustraliaPost decoding parameters. |
+| [AztecExtendedParameters](../com.aspose.barcode.barcoderecognition/aztecextendedparameters) | Stores special data of Aztec recognized barcode |
 | [BarCodeConfidence](../com.aspose.barcode.barcoderecognition/barcodeconfidence) | Contains recognition confidence level |
 | [BarCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/barcodeextendedparameters) | Stores extended parameters of recognized barcode |
 | [BarCodeReader](../com.aspose.barcode.barcoderecognition/barcodereader) | BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes. |
@@ -33,6 +34,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [DataMatrixExtendedParameters](../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | Stores special data of DataMatrix recognized barcode |
 | [DecodeType](../com.aspose.barcode.barcoderecognition/decodetype) | Specify the type of barcode to read. |
 | [DotCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/dotcodeextendedparameters) | Stores special data of DotCode recognized barcode |
+| [GS1CompositeBarExtendedParameters](../com.aspose.barcode.barcoderecognition/gs1compositebarextendedparameters) | Stores special data of  **GS1 Composite Bar**  recognized barcode |
 | [MaxiCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | Stores a MaxiCode additional information of recognized barcode |
 | [MultyDecodeType](../com.aspose.barcode.barcoderecognition/multydecodetype) | Composite decode type. |
 | [OneDExtendedParameters](../com.aspose.barcode.barcoderecognition/onedextendedparameters) | Stores special data of 1D recognized barcode like separate codetext and checksum |

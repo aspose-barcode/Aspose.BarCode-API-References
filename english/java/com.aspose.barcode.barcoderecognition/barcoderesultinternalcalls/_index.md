@@ -3,7 +3,7 @@ title: BarCodeResultInternalCalls
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls/
 ---
 **Inheritance:**

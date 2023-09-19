@@ -3,7 +3,7 @@ title: DotCodeParameters
 second_title: Aspose.BarCode for Java API Reference
 description: DotCode parameters.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.barcode.generation/dotcodeparameters/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: DataMatrixVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Specify the type of the ECC to encode.
 type: docs
-weight: 74
+weight: 79
 url: /java/com.aspose.barcode.generation/datamatrixversion/
 ---
 **Inheritance:**
@@ -823,7 +823,7 @@ public static DataMatrixVersion valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-com.aspose.barcode.generation.DataMatrixVersion
+[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion)
 ### values() {#values--}
 ```
 public static DataMatrixVersion[] values()

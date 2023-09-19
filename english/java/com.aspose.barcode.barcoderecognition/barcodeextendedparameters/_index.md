@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores extended parameters of recognized barcode
 type: docs
-weight: 12
+weight: 13
 url: /java/com.aspose.barcode.barcoderecognition/barcodeextendedparameters/
 ---
 **Inheritance:**
@@ -18,11 +18,13 @@ Stores extended parameters of recognized barcode
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  BarCodeExtendedParameters  value. |
+| [getAztec()](#getAztec--) | Gets a Aztec additional information AztecExtendedParameters  of recognized barcode |
 | [getClass()](#getClass--) |  |
 | [getCode128()](#getCode128--) | Gets a special data  Code128ExtendedParameters  of Code128 recognized barcode |
 | [getDataBar()](#getDataBar--) | Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode |
-| [getDataMatrix()](#getDataMatrix--) | Gets a DotCode additional information DataMatrixExtendedParameters  of recognized barcode |
-| [getDotCode()](#getDotCode--) | Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode |
+| [getDataMatrix()](#getDataMatrix--) | Gets a DataMatrix additional information DataMatrixExtendedParameters  of recognized barcode |
+| [getDotCode()](#getDotCode--) | Gets a DataMatrix additional information DotCodeExtendedParameters  of recognized barcode |
+| [getGS1CompositeBar()](#getGS1CompositeBar--) | Gets a GS1CompositeBar additional information GS1CompositeBarExtendedParameters  of recognized barcode |
 | [getMaxiCode()](#getMaxiCode--) | Gets a MaxiCode additional information MaxiCodeExtendedParameters of recognized barcode |
 | [getOneD()](#getOneD--) | Gets a special data  OneDExtendedParameters  of 1D recognized barcode |
 | [getPdf417()](#getPdf417--) | Gets a MacroPdf417 metadata information  Pdf417ExtendedParameters  of recognized barcode |
@@ -49,6 +51,18 @@ Returns a value indicating whether this instance is equal to a specified  BarCod
 
 **Returns:**
 boolean -  **true**  if obj has the same value as this instance; otherwise,  **false** .
+### getAztec() {#getAztec--}
+```
+public AztecExtendedParameters getAztec()
+```
+
+
+Gets a Aztec additional information AztecExtendedParameters  of recognized barcode
+
+Value: A Aztec additional information AztecExtendedParameters  of recognized barcode
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.AztecExtendedParameters
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -87,24 +101,36 @@ public DataMatrixExtendedParameters getDataMatrix()
 ```
 
 
-Gets a DotCode additional information DataMatrixExtendedParameters  of recognized barcode
+Gets a DataMatrix additional information DataMatrixExtendedParameters  of recognized barcode
 
 Value: A DataMatrix additional information DataMatrixExtendedParameters  of recognized barcode
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters
+[DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters)
 ### getDotCode() {#getDotCode--}
 ```
 public DotCodeExtendedParameters getDotCode()
 ```
 
 
-Gets a DotCode additional information DotCodeExtendedParameters  of recognized barcode
+Gets a DataMatrix additional information DotCodeExtendedParameters  of recognized barcode
 
 Value: A DotCode additional information DotCodeExtendedParameters  of recognized barcode
 
 **Returns:**
 [DotCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/dotcodeextendedparameters)
+### getGS1CompositeBar() {#getGS1CompositeBar--}
+```
+public GS1CompositeBarExtendedParameters getGS1CompositeBar()
+```
+
+
+Gets a GS1CompositeBar additional information GS1CompositeBarExtendedParameters  of recognized barcode
+
+Value: A GS1CompositeBar additional information GS1CompositeBarExtendedParameters  of recognized barcode
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.GS1CompositeBarExtendedParameters
 ### getMaxiCode() {#getMaxiCode--}
 ```
 public MaxiCodeExtendedParameters getMaxiCode()

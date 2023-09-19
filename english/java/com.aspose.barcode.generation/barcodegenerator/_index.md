@@ -3,7 +3,7 @@ title: BarcodeGenerator
 second_title: Aspose.BarCode for Java API Reference
 description: BarcodeGenerator for backend barcode images generation.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.aspose.barcode.generation/barcodegenerator/
 ---
 **Inheritance:**

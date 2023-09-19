@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 42
+weight: 46
 url: /java/com.aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 **Inheritance:**
@@ -30,9 +30,9 @@ Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMo
 >  codeTextBuilder.addECI("\u0391\u0392\u0393\u0394\u0395", 9);
 >  codeTextBuilder.addAuto("abc");
 >  codeTextBuilder.addBinary("abc");
->  codeTextBuilder.addURI("backslashes_should_be_doubled\000555:test");
+>  codeTextBuilder.addURI("backslashes_should_be_doubled\\000555:test");
 >  codeTextBuilder.addGS1("(01)03453120000011(17)191125(10)ABCD1234(21)10");
->  String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\000555:test(01)03453120000011(17)191125(10)ABCD1234(21)10";
+>  String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test(01)03453120000011(17)191125(10)ABCD1234(21)10";
 >  //generate codetext
 >  String str = codeTextBuilder.getExtendedCodetext();
 >  //generate

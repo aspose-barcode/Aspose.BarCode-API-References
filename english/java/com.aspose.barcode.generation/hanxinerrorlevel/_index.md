@@ -3,7 +3,7 @@ title: HanXinErrorLevel
 second_title: Aspose.BarCode for Java API Reference
 description: Level of Reed-Solomon error correction.
 type: docs
-weight: 80
+weight: 85
 url: /java/com.aspose.barcode.generation/hanxinerrorlevel/
 ---
 **Inheritance:**

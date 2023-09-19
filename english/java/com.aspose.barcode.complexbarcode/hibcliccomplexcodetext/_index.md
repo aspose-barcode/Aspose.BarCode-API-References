@@ -23,13 +23,11 @@ Base class for encoding and decoding the text embedded in the HIBC LIC code.
 > This sample shows how to decode raw HIBC LIC codetext to HIBCLICComplexCodetext instance.
 >  
 >  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.HIBC_AZTEC_LIC);
+>  for(BarCodeResult result : reader.readBarCodes())
 >  {
->       for(BarCodeResult result : reader.readBarCodes())
->      {
->          HIBCLICComplexCodetext resultHIBCLICComplexCodetext = ComplexCodetextReader.tryDecodeHIBCLIC(result.getCodeText());
->          System.out.println("BarCode Type: " + resultMaxiCodeCodetext.getBarcodeType());
->          System.out.println("BarCode CodeText: " + resultMaxiCodeCodetext.getConstructedCodetext());
->      }
+>      HIBCLICComplexCodetext resultHIBCLICComplexCodetext = ComplexCodetextReader.tryDecodeHIBCLIC(result.getCodeText());
+>      System.out.println("BarCode Type: " + resultMaxiCodeCodetext.getBarcodeType());
+>      System.out.println("BarCode CodeText: " + resultMaxiCodeCodetext.getConstructedCodetext());
 >  }
 > ```
 ## Constructors
@@ -42,8 +40,7 @@ Base class for encoding and decoding the text embedded in the HIBC LIC code.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBarcodeType()](#getBarcodeType--) | Gets barcode type. |
-| [getBarcodeType_Rename_Namesake()](#getBarcodeType-Rename-Namesake--) | Gets or sets barcode type. |
+| [getBarcodeType()](#getBarcodeType--) | Gets or sets barcode type. |
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [hashCode()](#hashCode--) |  |
@@ -79,16 +76,6 @@ boolean
 ### getBarcodeType() {#getBarcodeType--}
 ```
 public BaseEncodeType getBarcodeType()
-```
-
-
-Gets barcode type.
-
-**Returns:**
-[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
-### getBarcodeType_Rename_Namesake() {#getBarcodeType-Rename-Namesake--}
-```
-public BaseEncodeType getBarcodeType_Rename_Namesake()
 ```
 
 

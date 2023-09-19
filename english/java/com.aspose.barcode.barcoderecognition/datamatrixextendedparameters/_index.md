@@ -3,7 +3,7 @@ title: DataMatrixExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of DataMatrix recognized barcode
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ---
 **Inheritance:**
@@ -21,18 +21,16 @@ Stores special data of DataMatrix recognized barcode
 >  
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, "12345");
 >  generator.save("c:\\test.png");
->  
+> 
 >  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.DATA_MATRIX);
+>  for(BarCodeResult result : reader.readBarCodes())
 >  {
->      for(BarCodeResult result : reader.readBarCodes())
->      {
->          System.out.println("BarCode type: " + result.getCodeTypeName());
->          System.out.println("BarCode codetext: " + result.getCodeText);
->          System.out.println("DataMatrix barcode ID: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodeId());
->          System.out.println("DataMatrix barcodes count: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodesCount());
->          System.out.println("DataMatrix file ID: " + result.getExtended().getDataMatrix().getStructuredAppendFileId());
->          System.out.println("DataMatrix is reader programming: " + result.getExtended().getDataMatrix().isReaderProgramming)_);
->      }
+>      System.out.println("BarCode type: " + result.getCodeTypeName());
+>      System.out.println("BarCode codetext: " + result.getCodeText);
+>      System.out.println("DataMatrix barcode ID: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodeId());
+>      System.out.println("DataMatrix barcodes count: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodesCount());
+>      System.out.println("DataMatrix file ID: " + result.getExtended().getDataMatrix().getStructuredAppendFileId());
+>      System.out.println("DataMatrix is reader programming: " + result.getExtended().getDataMatrix().isReaderProgramming));
 >  }
 > ```
 ## Methods
@@ -175,8 +173,8 @@ Returns a value indicating whether the first  DataMatrixExtendedParameters  valu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A first compared value |
-| second | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A second compared value |
+| first | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A first compared value |
+| second | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A second compared value |
 
 **Returns:**
 boolean -  **true**  if first has the same value as second; otherwise,  **false** .
@@ -191,8 +189,8 @@ Returns a value indicating if the first  DataMatrixExtendedParameters  value is 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A first compared value |
-| second | com.aspose.barcode.barcoderecognition.DataMatrixExtendedParameters | A second compared value |
+| first | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A first compared value |
+| second | [DataMatrixExtendedParameters](../../com.aspose.barcode.barcoderecognition/datamatrixextendedparameters) | A second compared value |
 
 **Returns:**
 boolean -  **true**  if first has the different value from second; otherwise,  **false** .

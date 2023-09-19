@@ -34,7 +34,9 @@ Class for storing HIBC LIC secondary and additional data.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parseFromString(String secondaryDataCodetext)](#parseFromString-java.lang.String-) | Instantiates secondary and additional supplemental data from string format according HIBC LIC specification. |
+| [setDateOfManufacture(LocalDateTime value)](#setDateOfManufacture-java.time.LocalDateTime-) | Identifies date of manufacture. |
 | [setDateOfManufacture(Date value)](#setDateOfManufacture-java.util.Date-) | Identifies date of manufacture. |
+| [setExpiryDate(LocalDateTime value)](#setExpiryDate-java.time.LocalDateTime-) | Identifies expiry date. |
 | [setExpiryDate(Date value)](#setExpiryDate-java.util.Date-) | Identifies expiry date. |
 | [setExpiryDateFormat(HIBCLICDateFormat value)](#setExpiryDateFormat-com.aspose.barcode.complexbarcode.HIBCLICDateFormat-) | Identifies expiry date format. |
 | [setLotNumber(String value)](#setLotNumber-java.lang.String-) | Identifies lot or batch number. |
@@ -77,24 +79,24 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getDateOfManufacture() {#getDateOfManufacture--}
 ```
-public Date getDateOfManufacture()
+public LocalDateTime getDateOfManufacture()
 ```
 
 
 Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Default value: DateTime.MinValue
 
 **Returns:**
-java.util.Date
+java.time.LocalDateTime
 ### getExpiryDate() {#getExpiryDate--}
 ```
-public Date getExpiryDate()
+public LocalDateTime getExpiryDate()
 ```
 
 
 Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
 
 **Returns:**
-java.util.Date
+java.time.LocalDateTime
 ### getExpiryDateFormat() {#getExpiryDateFormat--}
 ```
 public HIBCLICDateFormat getExpiryDateFormat()
@@ -174,6 +176,19 @@ Instantiates secondary and additional supplemental data from string format accor
 | --- | --- | --- |
 | secondaryDataCodetext | java.lang.String | Formatted string. |
 
+### setDateOfManufacture(LocalDateTime value) {#setDateOfManufacture-java.time.LocalDateTime-}
+```
+public void setDateOfManufacture(LocalDateTime value)
+```
+
+
+Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Default value: DateTime.MinValue
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDateTime |  |
+
 ### setDateOfManufacture(Date value) {#setDateOfManufacture-java.util.Date-}
 ```
 public void setDateOfManufacture(Date value)
@@ -186,6 +201,19 @@ Identifies date of manufacture. Date of manufacture can be set to DateTime.MinVa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
+
+### setExpiryDate(LocalDateTime value) {#setExpiryDate-java.time.LocalDateTime-}
+```
+public void setExpiryDate(LocalDateTime value)
+```
+
+
+Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDateTime |  |
 
 ### setExpiryDate(Date value) {#setExpiryDate-java.util.Date-}
 ```
