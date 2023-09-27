@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Barcode generation parameters.
 type: docs
-weight: 13
+weight: 14
 url: /androidjava/com.aspose.barcode.generation/barcodeparameters/
 ---
 **Inheritance:**
@@ -359,7 +359,7 @@ public GS1CompositeBarParameters getGS1CompositeBar()
 ```
 
 
-GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS\_1\_COMPOSITE\_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS\_1\_CODE\_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC\_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); /// // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); /// generator.save("test.png");
+GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|' String codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS\_1\_COMPOSITE\_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS\_1\_CODE\_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC\_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); /// // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); /// generator.save("test.png");
 
 **Returns:**
 [GS1CompositeBarParameters](../../com.aspose.barcode.generation/gs1compositebarparameters) - GS1 Composite Bar parameters.

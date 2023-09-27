@@ -3,7 +3,7 @@ title: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Defines the interpreting typeC_TABLE or N_TABLE of customer information for AustralianPost BarCode.
 type: docs
-weight: 42
+weight: 44
 url: /androidjava/com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype/
 ---
 **Inheritance:**
@@ -21,7 +21,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678ABCde");
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.C_TABLE);
->   BufferedImage image = generator.generateBarCodeImage();
+>   Bitmap image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.C_TABLE);
 >   for(BarCodeResult result : reader.readBarCodes())
@@ -36,7 +36,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "59123456781234567"))
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.N_TABLE);
->   BufferedImage image = generator.generateBarCodeImage();
+>   Bitmap image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST))
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.N_TABLE);
 >   for(BarCodeResult result : reader.readBarCodes())
@@ -51,7 +51,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "59123456780123012301230123");
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.OTHER);
->   BufferedImage image = generator.generateBarCodeImage();
+>   Bitmap image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.OTHER);
 >   for(BarCodeResult result : reader.readBarCodes())

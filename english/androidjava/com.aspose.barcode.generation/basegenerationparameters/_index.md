@@ -3,7 +3,7 @@ title: BaseGenerationParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Barcode image generation parameters.
 type: docs
-weight: 15
+weight: 16
 url: /androidjava/com.aspose.barcode.generation/basegenerationparameters/
 ---
 **Inheritance:**

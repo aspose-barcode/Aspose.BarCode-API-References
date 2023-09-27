@@ -3,7 +3,7 @@ title: GS1HanXinEncoder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Contains functions for encoding GS1HanXin
 type: docs
-weight: 40
+weight: 44
 url: /androidjava/com.aspose.barcode.generation/gs1hanxinencoder/
 ---
 **Inheritance:**

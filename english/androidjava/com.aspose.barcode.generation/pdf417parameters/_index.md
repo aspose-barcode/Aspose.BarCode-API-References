@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: PDF417 parameters.
 type: docs
-weight: 52
+weight: 56
 url: /androidjava/com.aspose.barcode.generation/pdf417parameters/
 ---
 **Inheritance:**
@@ -60,6 +60,7 @@ PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. Macr
 | [setPdf417MacroSegmentsCount(int value)](#setPdf417MacroSegmentsCount-int-) | MacroPdf417 barcode segments count (optional field). |
 | [setPdf417MacroSender(String value)](#setPdf417MacroSender-java.lang.String-) | MacroPdf417 barcode sender name (optional field). |
 | [setPdf417MacroTerminator(Pdf417MacroTerminator value)](#setPdf417MacroTerminator-com.aspose.barcode.generation.Pdf417MacroTerminator-) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
+| [setPdf417MacroTimeStamp(LocalDateTime value)](#setPdf417MacroTimeStamp-java.time.LocalDateTime-) | MacroPdf417 barcode time stamp (optional field). |
 | [setPdf417MacroTimeStamp(Date value)](#setPdf417MacroTimeStamp-java.util.Date-) | MacroPdf417 barcode time stamp (optional field). |
 | [setPdf417Truncate(boolean value)](#setPdf417Truncate-boolean-) | Whether Pdf417 symbology type of BarCode is truncated (to reduce space). |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
@@ -265,14 +266,14 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 [Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
 ### getPdf417MacroTimeStamp() {#getPdf417MacroTimeStamp--}
 ```
-public Date getPdf417MacroTimeStamp()
+public LocalDateTime getPdf417MacroTimeStamp()
 ```
 
 
 MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode)
 
 **Returns:**
-java.util.Date
+java.time.LocalDateTime
 ### getPdf417Truncate() {#getPdf417Truncate--}
 ```
 public boolean getPdf417Truncate()
@@ -549,6 +550,19 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator) |  |
+
+### setPdf417MacroTimeStamp(LocalDateTime value) {#setPdf417MacroTimeStamp-java.time.LocalDateTime-}
+```
+public void setPdf417MacroTimeStamp(LocalDateTime value)
+```
+
+
+MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDateTime |  |
 
 ### setPdf417MacroTimeStamp(Date value) {#setPdf417MacroTimeStamp-java.util.Date-}
 ```

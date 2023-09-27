@@ -3,7 +3,7 @@ title: DecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specify the type of barcode to read.
 type: docs
-weight: 27
+weight: 28
 url: /androidjava/com.aspose.barcode.barcoderecognition/decodetype/
 ---
 **Inheritance:**
@@ -44,7 +44,7 @@ Specify the type of barcode to read.
 | [CODE_11](#CODE-11) | Specifies that the data should be decoded with  **CODE 11**  barcode specification |
 | [CODE_128](#CODE-128) | Specifies that the data should be decoded with  **CODE 128**  barcode specification |
 | [CODE_16_K](#CODE-16-K) | Specifies that the data should be decoded with  **SCode16K**  barcode specification |
-| [CODE_32](#CODE-32) | Specifies that the data should be decoded with  **Code32**  blank specification |
+| [CODE_32](#CODE-32) | Specifies that the data should be decoded with  **Code32**  barcode specification |
 | [CODE_39_EXTENDED](#CODE-39-EXTENDED) | Specifies that the data should be decoded with  **Extended CODE 39**  barcode specification |
 | [CODE_39_STANDARD](#CODE-39-STANDARD) | Specifies that the data should be decoded with  **Standard CODE 39**  barcode specification |
 | [CODE_93_EXTENDED](#CODE-93-EXTENDED) | Specifies that the data should be decoded with  **Extended CODE 93**  barcode specification |
@@ -57,31 +57,33 @@ Specify the type of barcode to read.
 | [DATABAR_STACKED](#DATABAR-STACKED) | Specifies that the data should be decoded with  **GS1 DATABAR stacked**  barcode specification |
 | [DATABAR_STACKED_OMNI_DIRECTIONAL](#DATABAR-STACKED-OMNI-DIRECTIONAL) | Specifies that the data should be decoded with  **GS1 DATABAR stacked omni-directional**  barcode specification |
 | [DATABAR_TRUNCATED](#DATABAR-TRUNCATED) | Specifies that the data should be decoded with  **GS1 DATABAR truncated**  barcode specification |
-| [DATA_LOGIC_2_OF_5](#DATA-LOGIC-2-OF-5) | Specifies that the data should be decoded with  **DataLogic 2 of 5**  blank specification |
+| [DATA_LOGIC_2_OF_5](#DATA-LOGIC-2-OF-5) | Specifies that the data should be decoded with  **DataLogic 2 of 5**  barcode specification |
 | [DATA_MATRIX](#DATA-MATRIX) | Specifies that the data should be decoded with  **DataMatrix**  barcode symbology |
 | [DEUTSCHE_POST_IDENTCODE](#DEUTSCHE-POST-IDENTCODE) | Specifies that the data should be decoded with  **DeutschePost Ident code**  barcode specification |
 | [DEUTSCHE_POST_LEITCODE](#DEUTSCHE-POST-LEITCODE) | Specifies that the data should be decoded with  **DeutschePost Leit code**  barcode specification |
-| [DOT_CODE](#DOT-CODE) | Specifies that the data should be decoded with  **DotCode**  blank specification |
-| [DUTCH_KIX](#DUTCH-KIX) | Specifies that the data should be decoded with  **DotCode**  blank specification |
+| [DOT_CODE](#DOT-CODE) | Specifies that the data should be decoded with  **DotCode**  barcode specification |
+| [DUTCH_KIX](#DUTCH-KIX) | Specifies that the data should be decoded with  **DotCode**  barcode specification |
 | [EAN_13](#EAN-13) | Specifies that the data should be decoded with  **EAN-13**  barcode specification |
 | [EAN_14](#EAN-14) | Specifies that the data should be decoded with  **EAN14**  barcode specification |
 | [EAN_8](#EAN-8) | Specifies that the data should be decoded with  **EAN-8**  barcode specification |
+| [GS_1_AZTEC](#GS-1-AZTEC) | Specifies that the data should be decoded with  **GS1 Aztec**  barcode specification |
 | [GS_1_CODE_128](#GS-1-CODE-128) | Specifies that the data should be decoded with  **GS1 CODE 128**  barcode specification |
+| [GS_1_COMPOSITE_BAR](#GS-1-COMPOSITE-BAR) | Specifies that the data should be decoded with  **GS1 Composite Bar**  barcode specification |
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | Specifies that the data should be decoded with  **GS1DataMatrix**  barcode symbology |
-| [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be decoded with  **GS1 DotCode**  blank specification |
-| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | Specifies that the data should be decoded with **GS1 Han Xin Code** blank specification |
+| [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be decoded with  **GS1 DotCode**  barcode specification |
+| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification |
 | [GS_1_QR](#GS-1-QR) | Specifies that the data should be decoded with  **GS1 QR**  barcode specification |
-| [HAN_XIN](#HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** blank specification |
-| [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be decoded with  **HIBC LIC QR**  blank specification |
-| [HIBCQRPAS](#HIBCQRPAS) | Specifies that the data should be decoded with  **HIBC PAS QR**  blank specification |
-| [HIBC_AZTEC_LIC](#HIBC-AZTEC-LIC) | Specifies that the data should be decoded with  **HIBC LIC Aztec**  blank specification |
-| [HIBC_AZTEC_PAS](#HIBC-AZTEC-PAS) | Specifies that the data should be decoded with  **HIBC PAS Aztec**  blank specification |
-| [HIBC_CODE_128_LIC](#HIBC-CODE-128-LIC) | Specifies that the data should be decoded with  **HIBC LIC Code128**  blank specification |
-| [HIBC_CODE_128_PAS](#HIBC-CODE-128-PAS) | Specifies that the data should be decoded with  **HIBC PAS Code128**  blank specification |
-| [HIBC_CODE_39_LIC](#HIBC-CODE-39-LIC) | Specifies that the data should be decoded with  **HIBC LIC Code39**  blank specification |
-| [HIBC_CODE_39_PAS](#HIBC-CODE-39-PAS) | Specifies that the data should be decoded with  **HIBC PAS Code39**  blank specification |
-| [HIBC_DATA_MATRIX_LIC](#HIBC-DATA-MATRIX-LIC) | Specifies that the data should be decoded with  **HIBC LIC DataMatrix**  blank specification |
-| [HIBC_DATA_MATRIX_PAS](#HIBC-DATA-MATRIX-PAS) | Specifies that the data should be decoded with  **HIBC PAS DataMatrix**  blank specification |
+| [HAN_XIN](#HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** barcode specification |
+| [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be decoded with  **HIBC LIC QR**  barcode specification |
+| [HIBCQRPAS](#HIBCQRPAS) | Specifies that the data should be decoded with  **HIBC PAS QR**  barcode specification |
+| [HIBC_AZTEC_LIC](#HIBC-AZTEC-LIC) | Specifies that the data should be decoded with  **HIBC LIC Aztec**  barcode specification |
+| [HIBC_AZTEC_PAS](#HIBC-AZTEC-PAS) | Specifies that the data should be decoded with  **HIBC PAS Aztec**  barcode specification |
+| [HIBC_CODE_128_LIC](#HIBC-CODE-128-LIC) | Specifies that the data should be decoded with  **HIBC LIC Code128**  barcode specification |
+| [HIBC_CODE_128_PAS](#HIBC-CODE-128-PAS) | Specifies that the data should be decoded with  **HIBC PAS Code128**  barcode specification |
+| [HIBC_CODE_39_LIC](#HIBC-CODE-39-LIC) | Specifies that the data should be decoded with  **HIBC LIC Code39**  barcode specification |
+| [HIBC_CODE_39_PAS](#HIBC-CODE-39-PAS) | Specifies that the data should be decoded with  **HIBC PAS Code39**  barcode specification |
+| [HIBC_DATA_MATRIX_LIC](#HIBC-DATA-MATRIX-LIC) | Specifies that the data should be decoded with  **HIBC LIC DataMatrix**  barcode specification |
+| [HIBC_DATA_MATRIX_PAS](#HIBC-DATA-MATRIX-PAS) | Specifies that the data should be decoded with  **HIBC PAS DataMatrix**  barcode specification |
 | [IATA_2_OF_5](#IATA-2-OF-5) | Specifies that the data should be decoded with  **IATA 2 of 5**  barcode specification. |
 | [INTERLEAVED_2_OF_5](#INTERLEAVED-2-OF-5) | Specifies that the data should be decoded with  **INTERLEAVED 2 of 5**  barcode specification |
 | [ISBN](#ISBN) | Specifies that the data should be decoded with  **ISBN**  barcode specification |
@@ -96,7 +98,7 @@ Specify the type of barcode to read.
 | [MAXI_CODE](#MAXI-CODE) | Specifies that the data should be decoded with  **MaxiCode**  barcode specification |
 | [MICRO_PDF_417](#MICRO-PDF-417) | Specifies that the data should be decoded with  **MicroPdf417**  barcode specification |
 | [MICRO_QR](#MICRO-QR) | Specifies that the data should be decoded with  **MicroQR Code**  barcode specification |
-| [MICR_E_13_B](#MICR-E-13-B) | Specifies that the data should be decoded with  **MICR E-13B**  blank specification |
+| [MICR_E_13_B](#MICR-E-13-B) | Specifies that the data should be decoded with  **MICR E-13B**  barcode specification |
 | [MOST_COMMON_TYPES](#MOST-COMMON-TYPES) | Specifies that data will be checked with most commonly used symbologies |
 | [MSI](#MSI) | Specifies that the data should be decoded with  **MSI Plessey**  barcode specification |
 | [NONE](#NONE) | Unspecified decode type. |
@@ -228,7 +230,7 @@ public static final SingleDecodeType CODE_32
 ```
 
 
-Specifies that the data should be decoded with  **Code32**  blank specification
+Specifies that the data should be decoded with  **Code32**  barcode specification
 
 ### CODE_39_EXTENDED {#CODE-39-EXTENDED}
 ```
@@ -332,7 +334,7 @@ public static final SingleDecodeType DATA_LOGIC_2_OF_5
 ```
 
 
-Specifies that the data should be decoded with  **DataLogic 2 of 5**  blank specification
+Specifies that the data should be decoded with  **DataLogic 2 of 5**  barcode specification
 
 ### DATA_MATRIX {#DATA-MATRIX}
 ```
@@ -364,7 +366,7 @@ public static final SingleDecodeType DOT_CODE
 ```
 
 
-Specifies that the data should be decoded with  **DotCode**  blank specification
+Specifies that the data should be decoded with  **DotCode**  barcode specification
 
 ### DUTCH_KIX {#DUTCH-KIX}
 ```
@@ -372,7 +374,7 @@ public static final SingleDecodeType DUTCH_KIX
 ```
 
 
-Specifies that the data should be decoded with  **DotCode**  blank specification
+Specifies that the data should be decoded with  **DotCode**  barcode specification
 
 ### EAN_13 {#EAN-13}
 ```
@@ -398,6 +400,14 @@ public static final SingleDecodeType EAN_8
 
 Specifies that the data should be decoded with  **EAN-8**  barcode specification
 
+### GS_1_AZTEC {#GS-1-AZTEC}
+```
+public static final SingleDecodeType GS_1_AZTEC
+```
+
+
+Specifies that the data should be decoded with  **GS1 Aztec**  barcode specification
+
 ### GS_1_CODE_128 {#GS-1-CODE-128}
 ```
 public static final SingleDecodeType GS_1_CODE_128
@@ -405,6 +415,14 @@ public static final SingleDecodeType GS_1_CODE_128
 
 
 Specifies that the data should be decoded with  **GS1 CODE 128**  barcode specification
+
+### GS_1_COMPOSITE_BAR {#GS-1-COMPOSITE-BAR}
+```
+public static final SingleDecodeType GS_1_COMPOSITE_BAR
+```
+
+
+Specifies that the data should be decoded with  **GS1 Composite Bar**  barcode specification
 
 ### GS_1_DATA_MATRIX {#GS-1-DATA-MATRIX}
 ```
@@ -420,7 +438,7 @@ public static final SingleDecodeType GS_1_DOT_CODE
 ```
 
 
-Specifies that the data should be decoded with  **GS1 DotCode**  blank specification
+Specifies that the data should be decoded with  **GS1 DotCode**  barcode specification
 
 ### GS_1_HAN_XIN {#GS-1-HAN-XIN}
 ```
@@ -428,7 +446,7 @@ public static final SingleDecodeType GS_1_HAN_XIN
 ```
 
 
-Specifies that the data should be decoded with **GS1 Han Xin Code** blank specification
+Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification
 
 ### GS_1_QR {#GS-1-QR}
 ```
@@ -444,7 +462,7 @@ public static final SingleDecodeType HAN_XIN
 ```
 
 
-Specifies that the data should be decoded with **Han Xin Code** blank specification
+Specifies that the data should be decoded with **Han Xin Code** barcode specification
 
 ### HIBCQRLIC {#HIBCQRLIC}
 ```
@@ -452,7 +470,7 @@ public static final SingleDecodeType HIBCQRLIC
 ```
 
 
-Specifies that the data should be decoded with  **HIBC LIC QR**  blank specification
+Specifies that the data should be decoded with  **HIBC LIC QR**  barcode specification
 
 ### HIBCQRPAS {#HIBCQRPAS}
 ```
@@ -460,7 +478,7 @@ public static final SingleDecodeType HIBCQRPAS
 ```
 
 
-Specifies that the data should be decoded with  **HIBC PAS QR**  blank specification
+Specifies that the data should be decoded with  **HIBC PAS QR**  barcode specification
 
 ### HIBC_AZTEC_LIC {#HIBC-AZTEC-LIC}
 ```
@@ -468,7 +486,7 @@ public static final SingleDecodeType HIBC_AZTEC_LIC
 ```
 
 
-Specifies that the data should be decoded with  **HIBC LIC Aztec**  blank specification
+Specifies that the data should be decoded with  **HIBC LIC Aztec**  barcode specification
 
 ### HIBC_AZTEC_PAS {#HIBC-AZTEC-PAS}
 ```
@@ -476,7 +494,7 @@ public static final SingleDecodeType HIBC_AZTEC_PAS
 ```
 
 
-Specifies that the data should be decoded with  **HIBC PAS Aztec**  blank specification
+Specifies that the data should be decoded with  **HIBC PAS Aztec**  barcode specification
 
 ### HIBC_CODE_128_LIC {#HIBC-CODE-128-LIC}
 ```
@@ -484,7 +502,7 @@ public static final SingleDecodeType HIBC_CODE_128_LIC
 ```
 
 
-Specifies that the data should be decoded with  **HIBC LIC Code128**  blank specification
+Specifies that the data should be decoded with  **HIBC LIC Code128**  barcode specification
 
 ### HIBC_CODE_128_PAS {#HIBC-CODE-128-PAS}
 ```
@@ -492,7 +510,7 @@ public static final SingleDecodeType HIBC_CODE_128_PAS
 ```
 
 
-Specifies that the data should be decoded with  **HIBC PAS Code128**  blank specification
+Specifies that the data should be decoded with  **HIBC PAS Code128**  barcode specification
 
 ### HIBC_CODE_39_LIC {#HIBC-CODE-39-LIC}
 ```
@@ -500,7 +518,7 @@ public static final SingleDecodeType HIBC_CODE_39_LIC
 ```
 
 
-Specifies that the data should be decoded with  **HIBC LIC Code39**  blank specification
+Specifies that the data should be decoded with  **HIBC LIC Code39**  barcode specification
 
 ### HIBC_CODE_39_PAS {#HIBC-CODE-39-PAS}
 ```
@@ -508,7 +526,7 @@ public static final SingleDecodeType HIBC_CODE_39_PAS
 ```
 
 
-Specifies that the data should be decoded with  **HIBC PAS Code39**  blank specification
+Specifies that the data should be decoded with  **HIBC PAS Code39**  barcode specification
 
 ### HIBC_DATA_MATRIX_LIC {#HIBC-DATA-MATRIX-LIC}
 ```
@@ -516,7 +534,7 @@ public static final SingleDecodeType HIBC_DATA_MATRIX_LIC
 ```
 
 
-Specifies that the data should be decoded with  **HIBC LIC DataMatrix**  blank specification
+Specifies that the data should be decoded with  **HIBC LIC DataMatrix**  barcode specification
 
 ### HIBC_DATA_MATRIX_PAS {#HIBC-DATA-MATRIX-PAS}
 ```
@@ -524,7 +542,7 @@ public static final SingleDecodeType HIBC_DATA_MATRIX_PAS
 ```
 
 
-Specifies that the data should be decoded with  **HIBC PAS DataMatrix**  blank specification
+Specifies that the data should be decoded with  **HIBC PAS DataMatrix**  barcode specification
 
 ### IATA_2_OF_5 {#IATA-2-OF-5}
 ```
@@ -644,7 +662,7 @@ public static final SingleDecodeType MICR_E_13_B
 ```
 
 
-Specifies that the data should be decoded with  **MICR E-13B**  blank specification
+Specifies that the data should be decoded with  **MICR E-13B**  barcode specification
 
 ### MOST_COMMON_TYPES {#MOST-COMMON-TYPES}
 ```

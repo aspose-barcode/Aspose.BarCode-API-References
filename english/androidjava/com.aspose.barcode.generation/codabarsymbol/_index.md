@@ -3,7 +3,7 @@ title: CodabarSymbol
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the start or stop symbol of the Codabar barcode specification.
 type: docs
-weight: 20
+weight: 21
 url: /androidjava/com.aspose.barcode.generation/codabarsymbol/
 ---
 **Inheritance:**
