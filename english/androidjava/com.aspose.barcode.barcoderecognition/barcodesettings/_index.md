@@ -3,7 +3,7 @@ title: BarcodeSettings
 second_title: Aspose.BarCode for Android via Java API Reference
 description: The main BarCode decoding parameters.
 type: docs
-weight: 18
+weight: 19
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcodesettings/
 ---
 **Inheritance:**
@@ -170,7 +170,7 @@ public void setDetectEncoding(boolean value)
 ```
 
 
-The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\\u0421\\u043b\\u043e\\u0432\\u043e")) generator.getParameters().getBarcode().getQR().setCodeTextEncoding(Charset.forName("UTF-8")); BufferedImage im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\\u0421\\u043b\\u043e\\u0432\\u043e")) generator.getParameters().getBarcode().getQR().setCodeTextEncoding(Charset.forName("UTF-8")); Bitmap im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
 
 **Parameters:**
 | Parameter | Type | Description |

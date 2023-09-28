@@ -3,7 +3,7 @@ title: Code128Parameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Code128 parameters.
 type: docs
-weight: 22
+weight: 23
 url: /androidjava/com.aspose.barcode.generation/code128parameters/
 ---
 **Inheritance:**

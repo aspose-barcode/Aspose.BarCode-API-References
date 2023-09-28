@@ -3,7 +3,7 @@ title: HanXinVersion
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Version of Han Xin Code.
 type: docs
-weight: 82
+weight: 87
 url: /androidjava/com.aspose.barcode.generation/hanxinversion/
 ---
 **Inheritance:**

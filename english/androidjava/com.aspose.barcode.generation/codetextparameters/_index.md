@@ -3,7 +3,7 @@ title: CodetextParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Codetext parameters.
 type: docs
-weight: 24
+weight: 25
 url: /androidjava/com.aspose.barcode.generation/codetextparameters/
 ---
 **Inheritance:**

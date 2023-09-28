@@ -62,7 +62,7 @@ The product title. \*
 
 ### RELEASE_DATE {#RELEASE-DATE}
 ```
-public static Date RELEASE_DATE
+public static LocalDate RELEASE_DATE
 ```
 
 

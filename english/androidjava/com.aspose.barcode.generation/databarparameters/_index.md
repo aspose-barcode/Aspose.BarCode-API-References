@@ -3,7 +3,7 @@ title: DataBarParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Databar parameters.
 type: docs
-weight: 28
+weight: 29
 url: /androidjava/com.aspose.barcode.generation/databarparameters/
 ---
 **Inheritance:**

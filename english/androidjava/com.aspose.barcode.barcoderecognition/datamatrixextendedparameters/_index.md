@@ -3,7 +3,7 @@ title: DataMatrixExtendedParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores special data of DataMatrix recognized barcode
 type: docs
-weight: 26
+weight: 27
 url: /androidjava/com.aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ---
 **Inheritance:**
@@ -20,19 +20,17 @@ Stores special data of DataMatrix recognized barcode
 > This sample shows how to get DataMatrix raw values
 >  
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, "12345");
->  generator.Save("c:\\test.png");
->  
+>  generator.save("c:\\test.png");
+> 
 >  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.DATA_MATRIX);
+>  for(BarCodeResult result : reader.readBarCodes())
 >  {
->      for(BarCodeResult result : reader.readBarCodes())
->      {
->          System.out.println("BarCode type: " + result.getCodeTypeName());
->          System.out.println("BarCode codetext: " + result.getCodeText);
->          System.out.println("DataMatrix barcode ID: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodeId());
->          System.out.println("DataMatrix barcodes count: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodesCount());
->          System.out.println("DataMatrix file ID: " + result.getExtended().getDataMatrix().getStructuredAppendFileId());
->          System.out.println("DataMatrix is reader programming: " + result.getExtended().getDataMatrix().isReaderProgramming)_);
->      }
+>      System.out.println("BarCode type: " + result.getCodeTypeName());
+>      System.out.println("BarCode codetext: " + result.getCodeText);
+>      System.out.println("DataMatrix barcode ID: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodeId());
+>      System.out.println("DataMatrix barcodes count: " + result.getExtended().getDataMatrix().getStructuredAppendBarcodesCount());
+>      System.out.println("DataMatrix file ID: " + result.getExtended().getDataMatrix().getStructuredAppendFileId());
+>      System.out.println("DataMatrix is reader programming: " + result.getExtended().getDataMatrix().isReaderProgramming)_);
 >  }
 > ```
 ## Methods

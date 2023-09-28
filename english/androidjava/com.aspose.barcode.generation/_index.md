@@ -15,6 +15,7 @@ This package contains tools for generating barcode.
 | Class | Description |
 | --- | --- |
 | [AustralianPostParameters](../com.aspose.barcode.generation/australianpostparameters) | AustralianPost barcode parameters. |
+| [AztecExtCodetextBuilder](../com.aspose.barcode.generation/aztecextcodetextbuilder) |  |
 | [AztecParameters](../com.aspose.barcode.generation/aztecparameters) | Aztec parameters. |
 | [BarcodeGenerator](../com.aspose.barcode.generation/barcodegenerator) | BarcodeGenerator for backend barcode images generation. |
 | [BarcodeParameters](../com.aspose.barcode.generation/barcodeparameters) | Barcode generation parameters. |
@@ -39,7 +40,10 @@ This package contains tools for generating barcode.
 | [DotCodeParameters](../com.aspose.barcode.generation/dotcodeparameters) | DotCode parameters. |
 | [ECIEncodings](../com.aspose.barcode.generation/eciencodings) | Extended Channel Interpretation Identifiers. |
 | [EncodeTypes](../com.aspose.barcode.generation/encodetypes) | Specifies the type of barcode to encode. |
+| [ExtCodeItem](../com.aspose.barcode.generation/extcodeitem) | Base class of the extended codetext container |
 | [ExtCodetextBuilder](../com.aspose.barcode.generation/extcodetextbuilder) | Helper class for automatic codetext generation of the Extended Codetext Mode |
+| [ExtECICodetext](../com.aspose.barcode.generation/extecicodetext) | Extended Channel Codetext container |
+| [ExtPlainCodetext](../com.aspose.barcode.generation/extplaincodetext) | Plain (simple) codetext container |
 | [FontStyle](../com.aspose.barcode.generation/fontstyle) | Specifies style information applied to text. |
 | [FontUnit](../com.aspose.barcode.generation/fontunit) | Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. |
 | [FontUnitInternal](../com.aspose.barcode.generation/fontunitinternal) |  |
@@ -78,6 +82,7 @@ This package contains tools for generating barcode.
 | Enum | Description |
 | --- | --- |
 | [AutoSizeMode](../com.aspose.barcode.generation/autosizemode) | Specifies the different types of automatic sizing modes. |
+| [AztecEncodeMode](../com.aspose.barcode.generation/aztecencodemode) | Encoding mode for Aztec barcodes. |
 | [AztecSymbolMode](../com.aspose.barcode.generation/aztecsymbolmode) | Specifies the Aztec symbol mode. |
 | [BarCodeImageFormat](../com.aspose.barcode.generation/barcodeimageformat) | Specifies the file format of the image. |
 | [BarcodeClassifications](../com.aspose.barcode.generation/barcodeclassifications) | EncodeTypes classification |

@@ -3,7 +3,7 @@ title: EncodeTypes
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the type of barcode to encode.
 type: docs
-weight: 34
+weight: 35
 url: /androidjava/com.aspose.barcode.generation/encodetypes/
 ---
 **Inheritance:**
@@ -51,6 +51,7 @@ Specifies the type of barcode to encode.
 | [EAN_13](#EAN-13) | Specifies that the data should be encoded with **EAN-13** barcode specification |
 | [EAN_14](#EAN-14) | Specifies that the data should be encoded with **EAN14** barcode specification |
 | [EAN_8](#EAN-8) | Specifies that the data should be encoded with **EAN-8** barcode specification |
+| [GS_1_AZTEC](#GS-1-AZTEC) | Specifies that the data should be encoded with  **GS1 Aztec**  barcode specification. |
 | [GS_1_CODABLOCK_F](#GS-1-CODABLOCK-F) | Specifies that the data should be encoded with **GS1 Codablock-F** barcode specification. |
 | [GS_1_CODE_128](#GS-1-CODE-128) | Specifies that the data should be encoded with **GS1 Code 128** barcode specification. |
 | [GS_1_COMPOSITE_BAR](#GS-1-COMPOSITE-BAR) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. |
@@ -359,6 +360,14 @@ public static final SymbologyEncodeType EAN_8
 
 
 Specifies that the data should be encoded with **EAN-8** barcode specification
+
+### GS_1_AZTEC {#GS-1-AZTEC}
+```
+public static final SymbologyEncodeType GS_1_AZTEC
+```
+
+
+Specifies that the data should be encoded with  **GS1 Aztec**  barcode specification. The codetext must contains parentheses for AI.
 
 ### GS_1_CODABLOCK_F {#GS-1-CODABLOCK-F}
 ```
