@@ -3,7 +3,7 @@ title: EncodeTypes.UPCE
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with UPCE barcode specification
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.barcode.generation/encodetypes/upce/
 ---
 ## EncodeTypes.UPCE field

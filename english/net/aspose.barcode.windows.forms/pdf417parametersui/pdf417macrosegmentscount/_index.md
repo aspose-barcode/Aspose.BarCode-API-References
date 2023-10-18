@@ -3,7 +3,7 @@ title: Pdf417ParametersUI.Pdf417MacroSegmentsCount
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ParametersUI property. Gets or sets macro Pdf417 barcode segments count
 type: docs
-weight: 80
+weight: 180
 url: /net/aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentscount/
 ---
 ## Pdf417ParametersUI.Pdf417MacroSegmentsCount property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextParametersColorProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodeTextParametersColorProperty
 type: docs
-weight: 1850
+weight: 1960
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparameterscolorproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersColorProperty field

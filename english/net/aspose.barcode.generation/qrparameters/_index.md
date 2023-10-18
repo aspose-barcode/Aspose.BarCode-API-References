@@ -3,7 +3,7 @@ title: Class QrParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QrParameters class. QR parameters
 type: docs
-weight: 1340
+weight: 1330
 url: /net/aspose.barcode.generation/qrparameters/
 ---
 ## QrParameters class

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixIsReaderProgrammingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DataMatrixIsReaderProgrammingProperty
 type: docs
-weight: 2020
+weight: 2130
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogrammingproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixIsReaderProgrammingProperty field

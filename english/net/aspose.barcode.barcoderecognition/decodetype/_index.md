@@ -74,6 +74,7 @@ public static class DecodeType
 | static readonly [GS1DataMatrix](../../aspose.barcode.barcoderecognition/decodetype/gs1datamatrix/) | Specifies that the data should be decoded with **GS1DataMatrix** barcode symbology |
 | static readonly [GS1DotCode](../../aspose.barcode.barcoderecognition/decodetype/gs1dotcode/) | Specifies that the data should be decoded with **GS1 DotCode** barcode specification |
 | static readonly [GS1HanXin](../../aspose.barcode.barcoderecognition/decodetype/gs1hanxin/) | Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification |
+| static readonly [GS1MicroPdf417](../../aspose.barcode.barcoderecognition/decodetype/gs1micropdf417/) | Specifies that the data should be decoded with **MicroPdf417** barcode specification |
 | static readonly [GS1QR](../../aspose.barcode.barcoderecognition/decodetype/gs1qr/) | Specifies that the data should be decoded with **GS1 QR** barcode specification |
 | static readonly [HanXin](../../aspose.barcode.barcoderecognition/decodetype/hanxin/) | Specifies that the data should be decoded with **Han Xin Code** barcode specification |
 | static readonly [HIBCAztecLIC](../../aspose.barcode.barcoderecognition/decodetype/hibcazteclic/) | Specifies that the data should be decoded with **HIBC LIC Aztec** barcode specification |

@@ -3,7 +3,7 @@ title: DecodeType.ITF14
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with ITF14 barcode specification
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.barcode.barcoderecognition/decodetype/itf14/
 ---
 ## DecodeType.ITF14 field

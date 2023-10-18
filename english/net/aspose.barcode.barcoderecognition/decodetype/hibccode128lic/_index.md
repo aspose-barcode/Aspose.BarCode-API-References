@@ -3,7 +3,7 @@ title: DecodeType.HIBCCode128LIC
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC LIC Code128 barcode specification
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibccode128lic/
 ---
 ## DecodeType.HIBCCode128LIC field

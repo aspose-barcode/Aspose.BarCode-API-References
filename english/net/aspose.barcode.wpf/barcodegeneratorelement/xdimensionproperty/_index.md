@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.XDimensionProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. XDimensionProperty
 type: docs
-weight: 2640
+weight: 2860
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/xdimensionproperty/
 ---
 ## BarcodeGeneratorElement.XDimensionProperty field

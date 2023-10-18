@@ -43,7 +43,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeParameters](./maxicodeparameters/) | MaxiCode parameters. |
 | [Padding](./padding/) | Paddings parameters. |
 | [PatchCodeParameters](./patchcodeparameters/) | PatchCode parameters. |
-| [Pdf417Parameters](./pdf417parameters/) | PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
+| [Pdf417Parameters](./pdf417parameters/) | PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
 | [PostalParameters](./postalparameters/) | Postal parameters. Used for Postnet, Planet. |
 | [QrExtCodetextBuilder](./qrextcodetextbuilder/) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode |
 | [QrParameters](./qrparameters/) | QR parameters. |
@@ -63,7 +63,6 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [BorderDashStyle](./borderdashstyle/) | Specifies the style of dashed border lines. |
 | [CodabarChecksumMode](./codabarchecksummode/) | Specifies the checksum algorithm for Codabar |
 | [CodabarSymbol](./codabarsymbol/) | Specifies the start or stop symbol of the Codabar barcode specification. |
-| [Code128Emulation](./code128emulation/) | Function codewords for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes. |
 | [Code128EncodeMode](./code128encodemode/) | Encoding mode for Code128 barcodes. [Code 128](https://en.wikipedia.org/wiki/Code_128) specification. |
 | [CodeLocation](./codelocation/) | Codetext location |
 | [DataMatrixEccType](./datamatrixecctype/) | Specify the type of the ECC to encode. |

@@ -3,7 +3,7 @@ title: EncodeTypes.MicroPdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with MicroPdf417 barcode specification
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.barcode.generation/encodetypes/micropdf417/
 ---
 ## EncodeTypes.MicroPdf417 field

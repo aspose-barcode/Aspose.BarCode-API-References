@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeStructuredAppendModeBarcodeIdProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DotCodeStructuredAppendModeBarcodeIdProperty
 type: docs
-weight: 2140
+weight: 2250
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodeidproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeStructuredAppendModeBarcodeIdProperty field
