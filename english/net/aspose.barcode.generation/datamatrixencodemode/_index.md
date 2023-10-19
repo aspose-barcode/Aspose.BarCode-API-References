@@ -3,7 +3,7 @@ title: Enum DataMatrixEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixEncodeMode enum. DataMatrix encoders encoding mode default to Auto
 type: docs
-weight: 950
+weight: 940
 url: /net/aspose.barcode.generation/datamatrixencodemode/
 ---
 ## DataMatrixEncodeMode enumeration
@@ -25,7 +25,7 @@ public enum DataMatrixEncodeMode
 | Text | `9` | Uses Text encoding. Encodes Lower-case alphanumeric, Upper case and special characters |
 | EDIFACT | `10` | Uses EDIFACT encoding. Uses six bits per character, encodes digits, upper-case letters, and many punctuation marks, but has no support for lower-case letters. |
 | ANSIX12 | `11` | Uses ANSI X12 encoding. |
-| ExtendedCodetext | `12` | ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext.<br>It is better to use DataMatrixExtCodetextBuilder for extended codetext generation.<br>Use Display2DText property to set visible text to removing managing characters.<br>ECI identifiers are set as single slash and six digits identifier "\000026" - UTF8 ECI identifier<br>All unicode characters after ECI identifier are automatically encoded into correct character codeset.<br>Encodation schemes are set in the next format : "\Encodation_scheme_name:text\Encodation_scheme_name:text".<br>Allowed encodation schemes are: EDIFACT, ANSIX12, ASCII, C40, Text, Auto.<br>All backslashes (\) must be doubled in text. |
+| ExtendedCodetext | `12` | ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. |
 
 ## Examples
 

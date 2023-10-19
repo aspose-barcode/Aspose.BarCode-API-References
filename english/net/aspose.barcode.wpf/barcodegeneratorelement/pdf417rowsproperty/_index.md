@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417RowsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417RowsProperty
 type: docs
-weight: 2480
+weight: 2700
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417rowsproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417RowsProperty field

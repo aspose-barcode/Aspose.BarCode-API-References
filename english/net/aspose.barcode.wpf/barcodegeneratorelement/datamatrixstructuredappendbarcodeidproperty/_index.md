@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixStructuredAppendBarcodeIdProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DataMatrixStructuredAppendBarcodeIdProperty
 type: docs
-weight: 2040
+weight: 2150
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodeidproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixStructuredAppendBarcodeIdProperty field

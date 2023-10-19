@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters method. Returns a value indicating if the first Pdf417ExtendedParameters value is different from the second
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality/
 ---
 ## Pdf417ExtendedParameters Inequality operator

@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.MacroPdf417Sender
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ExtendedParameters property. Macro PDF417 sender name optional
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender/
 ---
 ## Pdf417ExtendedParameters.MacroPdf417Sender property

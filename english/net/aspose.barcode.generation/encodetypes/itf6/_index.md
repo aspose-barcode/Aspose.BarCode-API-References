@@ -3,7 +3,7 @@ title: EncodeTypes.ITF6
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Represents ITF6 Barcode
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.barcode.generation/encodetypes/itf6/
 ---
 ## EncodeTypes.ITF6 field

@@ -3,7 +3,7 @@ title: EncodeTypes.ISSN
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with ISSN barcode specification
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.barcode.generation/encodetypes/issn/
 ---
 ## EncodeTypes.ISSN field

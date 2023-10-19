@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.QRAspectRatio
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Aspect ratio
 type: docs
-weight: 1190
+weight: 1300
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qraspectratio/
 ---
 ## BarcodeGeneratorElement.QRAspectRatio property

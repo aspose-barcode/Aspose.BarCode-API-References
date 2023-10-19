@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.BorderWidthProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. BorderWidthProperty
 type: docs
-weight: 1540
+weight: 1650
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/borderwidthproperty/
 ---
 ## BarcodeGeneratorElement.BorderWidthProperty field

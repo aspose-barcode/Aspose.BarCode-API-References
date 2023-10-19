@@ -3,7 +3,7 @@ title: Pdf417Parameters.Pdf417MacroFileID
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. MacroPdf417 barcodes file ID Required field. MicroPDF417 barcodes file ID Required field for Structured Append mode
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.barcode.generation/pdf417parameters/pdf417macrofileid/
 ---
 ## Pdf417Parameters.Pdf417MacroFileID property

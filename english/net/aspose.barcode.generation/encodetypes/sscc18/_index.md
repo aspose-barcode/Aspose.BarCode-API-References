@@ -3,7 +3,7 @@ title: EncodeTypes.SSCC18
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with SSCC18 barcode specification
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.barcode.generation/encodetypes/sscc18/
 ---
 ## EncodeTypes.SSCC18 field

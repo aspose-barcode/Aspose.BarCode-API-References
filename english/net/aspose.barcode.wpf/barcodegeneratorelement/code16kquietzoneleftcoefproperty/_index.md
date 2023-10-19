@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Code16KQuietZoneLeftCoefProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Code16KQuietZoneLeftCoefProperty
 type: docs
-weight: 1800
+weight: 1910
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/code16kquietzoneleftcoefproperty/
 ---
 ## BarcodeGeneratorElement.Code16KQuietZoneLeftCoefProperty field

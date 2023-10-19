@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.WideNarrowRatio
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Wide bars to Narrow bars ratio
 type: docs
-weight: 1310
+weight: 1420
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/widenarrowratio/
 ---
 ## BarcodeGeneratorElement.WideNarrowRatio property

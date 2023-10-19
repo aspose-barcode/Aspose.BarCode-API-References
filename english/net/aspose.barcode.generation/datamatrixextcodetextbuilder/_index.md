@@ -3,7 +3,7 @@ title: Class DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixExtCodetextBuilder class. Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode
 type: docs
-weight: 960
+weight: 950
 url: /net/aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 ## DataMatrixExtCodetextBuilder class

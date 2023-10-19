@@ -3,7 +3,7 @@ title: Pdf417ParametersUI.Pdf417MacroSegmentID
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ParametersUI property. Gets or sets macro Pdf417 barcodes segment ID which starts from 0 to MacroSegmentsCount  1
 type: docs
-weight: 70
+weight: 170
 url: /net/aspose.barcode.windows.forms/pdf417parametersui/pdf417macrosegmentid/
 ---
 ## Pdf417ParametersUI.Pdf417MacroSegmentID property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ITFQuietZoneCoefProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. ITFQuietZoneCoefProperty
 type: docs
-weight: 2290
+weight: 2400
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/itfquietzonecoefproperty/
 ---
 ## BarcodeGeneratorElement.ITFQuietZoneCoefProperty field
