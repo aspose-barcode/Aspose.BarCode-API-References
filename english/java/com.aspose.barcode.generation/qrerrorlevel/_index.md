@@ -3,7 +3,7 @@ title: QRErrorLevel
 second_title: Aspose.BarCode for Java API Reference
 description: Level of Reed-Solomon error correction.
 type: docs
-weight: 97
+weight: 96
 url: /java/com.aspose.barcode.generation/qrerrorlevel/
 ---
 **Inheritance:**
