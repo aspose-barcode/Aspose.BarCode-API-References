@@ -3,7 +3,7 @@ title: DecodeType.QR
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with QR Code barcode specification
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.barcode.barcoderecognition/decodetype/qr/
 ---
 ## DecodeType.QR field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType QR;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

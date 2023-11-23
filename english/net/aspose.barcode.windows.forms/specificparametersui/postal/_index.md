@@ -18,7 +18,7 @@ public PostalParameters Postal { get; }
 
 * class [PostalParameters](../../../aspose.barcode.generation/postalparameters/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

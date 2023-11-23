@@ -21,7 +21,7 @@ A string that represents this [`ITFParameters`](../).
 ### See Also
 
 * class [ITFParameters](../)
-* namespace [Aspose.BarCode.Generation](../../itfparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

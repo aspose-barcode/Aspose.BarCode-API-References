@@ -3,7 +3,7 @@ title: DecodeType.PatchCode
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with Patch code barcode specification. Barcode symbology is used for automated scanning
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.barcode.barcoderecognition/decodetype/patchcode/
 ---
 ## DecodeType.PatchCode field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType PatchCode;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

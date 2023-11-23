@@ -21,7 +21,7 @@ public void ParseFromString(string primaryDataCodetext)
 ### See Also
 
 * class [PrimaryData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../primarydata/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

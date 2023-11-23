@@ -3,7 +3,7 @@ title: EncodeTypes.PZN
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Represents PZN barcode.This Symbology is also known as Pharmacy central number Pharmazentralnummer
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.barcode.generation/encodetypes/pzn/
 ---
 ## EncodeTypes.PZN field
@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType PZN;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

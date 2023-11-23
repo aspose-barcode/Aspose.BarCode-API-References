@@ -56,7 +56,7 @@ Can be a full or short file name or name of an embedded resource.
 ### See Also
 
 * class [License](../)
-* namespace [Aspose.BarCode](../../license/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -95,7 +95,7 @@ license.SetLicense(myStream)
 ### See Also
 
 * class [License](../)
-* namespace [Aspose.BarCode](../../license/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

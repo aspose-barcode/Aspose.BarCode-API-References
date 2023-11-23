@@ -21,7 +21,7 @@ A string that represents this [`Padding`](../).
 ### See Also
 
 * class [Padding](../)
-* namespace [Aspose.BarCode.Generation](../../padding/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

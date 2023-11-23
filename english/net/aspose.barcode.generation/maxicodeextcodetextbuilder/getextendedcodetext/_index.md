@@ -21,7 +21,7 @@ Extended codetext as string
 ### See Also
 
 * class [MaxiCodeExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../maxicodeextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: Class EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EncodeTypes class. Specifies the type of barcode to encode
 type: docs
-weight: 1040
+weight: 1030
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class
@@ -68,6 +68,7 @@ public static class EncodeTypes
 | static readonly [GS1DataMatrix](../../aspose.barcode.generation/encodetypes/gs1datamatrix/) | 2D barcode symbology DataMatrix with GS1 string format |
 | static readonly [GS1DotCode](../../aspose.barcode.generation/encodetypes/gs1dotcode/) | Specifies that the data should be encoded with **GS1 DotCode** barcode specification. The codetext must contains parentheses for AI. |
 | static readonly [GS1HanXin](../../aspose.barcode.generation/encodetypes/gs1hanxin/) | 2D barcode symbology QR with GS1 string format |
+| static readonly [GS1MicroPdf417](../../aspose.barcode.generation/encodetypes/gs1micropdf417/) | Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification |
 | static readonly [GS1QR](../../aspose.barcode.generation/encodetypes/gs1qr/) | 2D barcode symbology QR with GS1 string format |
 | static readonly [HanXin](../../aspose.barcode.generation/encodetypes/hanxin/) | Specifies that the data should be encoded with **Han Xin** barcode specification |
 | static readonly [HIBCAztecLIC](../../aspose.barcode.generation/encodetypes/hibcazteclic/) | Specifies that the data should be encoded with **HIBC LIC Aztec** barcode specification. |

@@ -18,7 +18,7 @@ public BarcodeSvmDetectorSettings DetectorSettings { get; set; }
 
 * class [BarcodeSvmDetectorSettings](../../barcodesvmdetectorsettings/)
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

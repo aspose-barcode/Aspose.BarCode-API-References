@@ -3,7 +3,7 @@ title: DecodeType.MostCommonTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that data will be checked with most commonly used symbologies
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.barcode.barcoderecognition/decodetype/mostcommontypes/
 ---
 ## DecodeType.MostCommonTypes field
@@ -18,7 +18,7 @@ public static readonly MultyDecodeType MostCommonTypes;
 
 * class [MultyDecodeType](../../multydecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

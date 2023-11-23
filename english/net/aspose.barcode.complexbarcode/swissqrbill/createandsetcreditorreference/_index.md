@@ -29,7 +29,7 @@ public void CreateAndSetCreditorReference(string rawReference)
 ### See Also
 
 * class [SwissQRBill](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrbill/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ Allows engine for 1D barcodes to recognize barcodes with single wiped/glued bars
 ### See Also
 
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

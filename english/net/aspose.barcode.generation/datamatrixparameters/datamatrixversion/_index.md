@@ -18,7 +18,7 @@ public DataMatrixVersion DataMatrixVersion { get; set; }
 
 * enum [DataMatrixVersion](../../datamatrixversion/)
 * class [DataMatrixParameters](../)
-* namespace [Aspose.BarCode.Generation](../../datamatrixparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CouponSupplementSpaceProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CouponSupplementSpaceProperty
 type: docs
-weight: 1920
+weight: 2030
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/couponsupplementspaceproperty/
 ---
 ## BarcodeGeneratorElement.CouponSupplementSpaceProperty field
@@ -17,7 +17,7 @@ public static DependencyProperty CouponSupplementSpaceProperty;
 ### See Also
 
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

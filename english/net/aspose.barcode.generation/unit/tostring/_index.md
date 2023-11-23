@@ -21,7 +21,7 @@ A string that represents this [`Unit`](../).
 ### See Also
 
 * class [Unit](../)
-* namespace [Aspose.BarCode.Generation](../../unit/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: EncodeTypes.Parse
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes method. Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.barcode.generation/encodetypes/parse/
 ---
 ## EncodeTypes.Parse method
@@ -27,7 +27,7 @@ public static bool Parse(string parsingType, out BaseEncodeType result)
 
 * class [BaseEncodeType](../../baseencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ A string that represents this [`SupplementParameters`](../).
 ### See Also
 
 * class [SupplementParameters](../)
-* namespace [Aspose.BarCode.Generation](../../supplementparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

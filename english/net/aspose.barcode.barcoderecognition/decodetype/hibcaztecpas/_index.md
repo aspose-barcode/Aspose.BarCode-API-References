@@ -3,7 +3,7 @@ title: DecodeType.HIBCAztecPAS
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC PAS Aztec barcode specification
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcaztecpas/
 ---
 ## DecodeType.HIBCAztecPAS field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType HIBCAztecPAS;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

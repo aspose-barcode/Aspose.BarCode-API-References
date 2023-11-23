@@ -18,7 +18,7 @@ public AztecParametersUI Aztec { get; }
 
 * class [AztecParametersUI](../../aztecparametersui/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

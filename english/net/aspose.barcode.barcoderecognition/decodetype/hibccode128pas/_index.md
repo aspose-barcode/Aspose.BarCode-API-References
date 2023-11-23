@@ -3,7 +3,7 @@ title: DecodeType.HIBCCode128PAS
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC PAS Code128 barcode specification
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibccode128pas/
 ---
 ## DecodeType.HIBCCode128PAS field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType HIBCCode128PAS;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

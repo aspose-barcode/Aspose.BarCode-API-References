@@ -3,7 +3,7 @@ title: DecodeType.TryParse
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.barcode.barcoderecognition/decodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_1}
@@ -27,7 +27,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -53,7 +53,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 * class [MultyDecodeType](../../multydecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public ECIEncodings QrECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../eciencodings/)
 * class [QrParameters](../)
-* namespace [Aspose.BarCode.Generation](../../qrparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

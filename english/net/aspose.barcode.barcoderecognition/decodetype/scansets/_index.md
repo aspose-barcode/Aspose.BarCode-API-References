@@ -3,7 +3,7 @@ title: DecodeType.ScanSets
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Specify scan sets by barcodeTypes
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.barcode.barcoderecognition/decodetype/scansets/
 ---
 ## DecodeType.ScanSets method
@@ -26,7 +26,7 @@ A multi decode type
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

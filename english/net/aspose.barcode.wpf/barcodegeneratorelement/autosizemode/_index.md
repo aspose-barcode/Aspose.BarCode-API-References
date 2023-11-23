@@ -18,7 +18,7 @@ public AutoSizeMode AutoSizeMode { get; set; }
 
 * enum [AutoSizeMode](../../../aspose.barcode.generation/autosizemode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

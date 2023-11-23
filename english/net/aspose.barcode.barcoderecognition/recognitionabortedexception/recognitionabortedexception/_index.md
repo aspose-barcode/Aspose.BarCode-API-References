@@ -17,7 +17,7 @@ public RecognitionAbortedException()
 ### See Also
 
 * class [RecognitionAbortedException](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../recognitionabortedexception/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -37,7 +37,7 @@ public RecognitionAbortedException(int executionTime)
 ### See Also
 
 * class [RecognitionAbortedException](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../recognitionabortedexception/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -58,7 +58,7 @@ public RecognitionAbortedException(string message, int executionTime)
 ### See Also
 
 * class [RecognitionAbortedException](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../recognitionabortedexception/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

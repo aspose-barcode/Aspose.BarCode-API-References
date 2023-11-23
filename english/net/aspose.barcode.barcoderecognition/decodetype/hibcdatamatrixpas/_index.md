@@ -3,7 +3,7 @@ title: DecodeType.HIBCDataMatrixPAS
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC PAS DataMatrix barcode specification
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/
 ---
 ## DecodeType.HIBCDataMatrixPAS field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType HIBCDataMatrixPAS;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

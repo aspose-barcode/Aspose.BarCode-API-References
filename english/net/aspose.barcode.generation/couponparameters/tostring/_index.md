@@ -21,7 +21,7 @@ A string that represents this [`CouponParameters`](../).
 ### See Also
 
 * class [CouponParameters](../)
-* namespace [Aspose.BarCode.Generation](../../couponparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

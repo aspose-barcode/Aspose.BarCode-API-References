@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1440
+weight: 1430
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -134,10 +134,21 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [Pdf417CompactionMode](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmode/) { get; set; } | Compaction mode. |
 | [Pdf417ECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencoding/) { get; set; } | ECI encoding. |
 | [Pdf417ErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevel/) { get; set; } | Error level. |
+| [Pdf417IsCode128Emulation](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417iscode128emulation/) { get; set; } | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
+| [Pdf417IsLinked](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417islinked/) { get; set; } | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 “Linked” UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [Pdf417IsReaderInitialization](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417isreaderinitialization/) { get; set; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
+| [Pdf417MacroAddressee](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroaddressee/) { get; set; } | MacroPdf417 barcode addressee name (optional field). |
+| [Pdf417MacroCharacters](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrocharacters/) { get; set; } | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
+| [Pdf417MacroChecksum](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrochecksum/) { get; set; } | MacroPdf417 barcode checksum (optional field) |
+| [Pdf417MacroECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroeciencoding/) { get; set; } | Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields. |
 | [Pdf417MacroFileID](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofileid/) { get; set; } | Macro Pdf417 barcode's file ID. |
+| [Pdf417MacroFileName](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofilename/) { get; set; } | MacroPdf417 barcode file name (optional field) |
+| [Pdf417MacroFileSize](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofilesize/) { get; set; } | MacroPdf417 file size (optional field). |
 | [Pdf417MacroSegmentID](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentid/) { get; set; } | Macro Pdf417 barcode's segment ID. |
 | [Pdf417MacroSegmentsCount](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentscount/) { get; set; } | Segments count. |
+| [Pdf417MacroSender](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosender/) { get; set; } | MacroPdf417 barcode sender name (optional field). |
+| [Pdf417MacroTerminator](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroterminator/) { get; set; } | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
+| [Pdf417MacroTimeStamp](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrotimestamp/) { get; set; } | MacroPdf417 barcode time stamp (optional field). |
 | [Pdf417Rows](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417rows/) { get; set; } | Rows count. |
 | [Pdf417Truncate](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417truncate/) { get; set; } | Whether Pdf417 symbology type of BarCode is truncated (to reduce space). |
 | [PostalShortBarHeight](../../aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheight/) { get; set; } | Postal short bar height in pixels. |
@@ -276,10 +287,21 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [Pdf417CompactionModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmodeproperty/) | Pdf417CompactionModeProperty |
 | static [Pdf417ECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencodingproperty/) | Pdf417ECIEncodingProperty |
 | static [Pdf417ErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevelproperty/) | Pdf417ErrorLevelProperty |
+| static [Pdf417IsCode128EmulationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417iscode128emulationproperty/) | Pdf417IsCode128EmulationProperty |
+| static [Pdf417IsLinkedProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417islinkedproperty/) | Pdf417IsLinkedProperty |
 | static [Pdf417IsReaderInitializationProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417isreaderinitializationproperty/) | Pdf417IsReaderInitializationProperty |
+| static [Pdf417MacroAddresseeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroaddresseeproperty/) | Pdf417MacroAddresseeProperty |
+| static [Pdf417MacroCharactersProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrocharactersproperty/) | Pdf417MacroCharactersProperty |
+| static [Pdf417MacroChecksumProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrochecksumproperty/) | Pdf417MacroChecksumProperty |
+| static [Pdf417MacroECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroeciencodingproperty/) | Pdf417MacroECIEncodingProperty |
 | static [Pdf417MacroFileIDProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofileidproperty/) | Pdf417MacroFileIDProperty |
+| static [Pdf417MacroFileNameProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofilenameproperty/) | Pdf417MacroFileNameProperty |
+| static [Pdf417MacroFileSizeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofilesizeproperty/) | Pdf417MacroFileSizeProperty |
 | static [Pdf417MacroSegmentIDProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentidproperty/) | Pdf417MacroSegmentIDProperty |
 | static [Pdf417MacroSegmentsCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentscountproperty/) | Pdf417MacroSegmentsCountProperty |
+| static [Pdf417MacroSenderProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosenderproperty/) | Pdf417MacroSenderProperty |
+| static [Pdf417MacroTerminatorProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macroterminatorproperty/) | Pdf417MacroTerminatorProperty |
+| static [Pdf417MacroTimeStampProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417macrotimestampproperty/) | Pdf417MacroTimeStampProperty |
 | static [Pdf417RowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417rowsproperty/) | Pdf417RowsProperty |
 | static [Pdf417TruncateProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417truncateproperty/) | Pdf417TruncateProperty |
 | static [PostalShortBarHeightProperty](../../aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheightproperty/) | PostalShortBarHeightProperty |

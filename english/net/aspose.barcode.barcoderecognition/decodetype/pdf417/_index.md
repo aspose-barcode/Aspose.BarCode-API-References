@@ -3,7 +3,7 @@ title: DecodeType.Pdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with Pdf417 barcode symbology
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.barcode.barcoderecognition/decodetype/pdf417/
 ---
 ## DecodeType.Pdf417 field
@@ -18,7 +18,7 @@ public static readonly SingleDecodeType Pdf417;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

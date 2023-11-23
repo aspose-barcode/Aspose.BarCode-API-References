@@ -26,7 +26,7 @@ decoded Royal Mail Mailmark 2D or null.
 
 * class [Mailmark2DCodetext](../../mailmark2dcodetext/)
 * class [ComplexCodetextReader](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexcodetextreader/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

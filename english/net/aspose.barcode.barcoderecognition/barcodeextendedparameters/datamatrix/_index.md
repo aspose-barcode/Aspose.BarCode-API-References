@@ -22,7 +22,7 @@ A DataMatrix additional information[`DataMatrixExtendedParameters`](../../datama
 
 * class [DataMatrixExtendedParameters](../../datamatrixextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

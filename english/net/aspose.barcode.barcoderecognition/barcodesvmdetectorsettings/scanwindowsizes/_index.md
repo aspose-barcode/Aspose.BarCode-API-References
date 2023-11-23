@@ -19,7 +19,7 @@ public List<int> ScanWindowSizes { get; set; }
 ### See Also
 
 * class [BarcodeSvmDetectorSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodesvmdetectorsettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: EncodeTypes.None
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Unspecified encode type
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.barcode.generation/encodetypes/none/
 ---
 ## EncodeTypes.None field
@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType None;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

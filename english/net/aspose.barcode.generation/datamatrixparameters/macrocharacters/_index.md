@@ -18,7 +18,7 @@ public MacroCharacter MacroCharacters { get; set; }
 
 * enum [MacroCharacter](../../macrocharacter/)
 * class [DataMatrixParameters](../)
-* namespace [Aspose.BarCode.Generation](../../datamatrixparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

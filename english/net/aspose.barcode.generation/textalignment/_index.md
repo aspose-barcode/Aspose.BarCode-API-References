@@ -3,7 +3,7 @@ title: Enum TextAlignment
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.TextAlignment enum. Text alignment
 type: docs
-weight: 1380
+weight: 1370
 url: /net/aspose.barcode.generation/textalignment/
 ---
 ## TextAlignment enumeration
