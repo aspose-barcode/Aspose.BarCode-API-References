@@ -26,7 +26,7 @@ NormalQuality recognition quality preset.
 ### See Also
 
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

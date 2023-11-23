@@ -21,7 +21,7 @@ public void AddGB18030FourByte(string text)
 ### See Also
 
 * class [HanXinExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../hanxinextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

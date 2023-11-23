@@ -17,7 +17,7 @@ public float AspectRatio { get; set; }
 ### See Also
 
 * class [QrParameters](../)
-* namespace [Aspose.BarCode.Generation](../../qrparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

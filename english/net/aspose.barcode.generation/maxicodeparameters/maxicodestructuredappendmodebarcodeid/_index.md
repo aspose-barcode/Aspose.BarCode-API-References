@@ -17,7 +17,7 @@ public int MaxiCodeStructuredAppendModeBarcodeId { get; set; }
 ### See Also
 
 * class [MaxiCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../maxicodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

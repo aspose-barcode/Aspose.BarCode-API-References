@@ -17,7 +17,7 @@ public int StructuredAppendBarcodesCount { get; set; }
 ### See Also
 
 * class [DataMatrixParameters](../)
-* namespace [Aspose.BarCode.Generation](../../datamatrixparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

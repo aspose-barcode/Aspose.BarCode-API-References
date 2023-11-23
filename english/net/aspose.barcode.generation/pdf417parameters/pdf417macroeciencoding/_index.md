@@ -18,7 +18,7 @@ public ECIEncodings Pdf417MacroECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../eciencodings/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

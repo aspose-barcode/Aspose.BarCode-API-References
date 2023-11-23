@@ -17,7 +17,7 @@ public string Data { get; set; }
 ### See Also
 
 * class [HIBCPASRecord](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibcpasrecord/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

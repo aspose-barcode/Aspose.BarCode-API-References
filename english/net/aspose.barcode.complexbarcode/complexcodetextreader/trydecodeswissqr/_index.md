@@ -26,7 +26,7 @@ decoded SwissQRCodetext or null.
 
 * class [SwissQRCodetext](../../swissqrcodetext/)
 * class [ComplexCodetextReader](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexcodetextreader/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

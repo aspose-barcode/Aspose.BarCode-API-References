@@ -22,7 +22,7 @@ A GS1CompositeBar additional information[`GS1CompositeBarExtendedParameters`](..
 
 * class [GS1CompositeBarExtendedParameters](../../gs1compositebarextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

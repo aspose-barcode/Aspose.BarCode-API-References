@@ -22,7 +22,7 @@ A MaxiCode additional information[`MaxiCodeExtendedParameters`](../../maxicodeex
 
 * class [MaxiCodeExtendedParameters](../../maxicodeextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

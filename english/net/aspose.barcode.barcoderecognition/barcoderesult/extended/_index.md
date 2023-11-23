@@ -22,7 +22,7 @@ The extended parameters of recognized barcode
 
 * class [BarCodeExtendedParameters](../../barcodeextendedparameters/)
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

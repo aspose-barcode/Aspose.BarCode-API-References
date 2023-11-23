@@ -18,7 +18,7 @@ public TextAlignment Alignment { get; set; }
 
 * enum [TextAlignment](../../../aspose.barcode.generation/textalignment/)
 * class [CodetextParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../codetextparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

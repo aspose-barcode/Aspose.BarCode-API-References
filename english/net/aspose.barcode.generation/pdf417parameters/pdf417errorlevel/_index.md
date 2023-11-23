@@ -18,7 +18,7 @@ public Pdf417ErrorLevel Pdf417ErrorLevel { get; set; }
 
 * enum [Pdf417ErrorLevel](../../pdf417errorlevel/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ Allows engine using additional image restorations to recognize corrupted barcode
 ### See Also
 
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

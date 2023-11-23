@@ -18,7 +18,7 @@ public Unit AustralianPostShortBarHeight { get; set; }
 
 * class [Unit](../../unit/)
 * class [AustralianPostParameters](../)
-* namespace [Aspose.BarCode.Generation](../../australianpostparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -26,7 +26,7 @@ public static bool operator !=(Code128ExtendedParameters first, Code128ExtendedP
 ### See Also
 
 * class [Code128ExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../code128extendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

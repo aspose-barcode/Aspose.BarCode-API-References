@@ -28,7 +28,7 @@ BarCodeReader.ProcessorSettings.UseOnlyThisCoresCount = Math.Max(1, Environment.
 ### See Also
 
 * class [ProcessorSettings](../)
-* namespace [Aspose.BarCode.Common](../../processorsettings/)
+* namespace [Aspose.BarCode.Common](../../../aspose.barcode.common/)
 * assembly [Aspose.BarCode](../../../)
 
 

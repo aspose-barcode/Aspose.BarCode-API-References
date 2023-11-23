@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [SecondaryAndAdditionalData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../secondaryandadditionaldata/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

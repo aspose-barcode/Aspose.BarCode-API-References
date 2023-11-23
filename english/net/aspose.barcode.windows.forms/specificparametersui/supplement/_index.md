@@ -18,7 +18,7 @@ public SupplementParameters Supplement { get; }
 
 * class [SupplementParameters](../../../aspose.barcode.generation/supplementparameters/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 
