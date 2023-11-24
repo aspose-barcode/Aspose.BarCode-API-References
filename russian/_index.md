@@ -25,6 +25,7 @@ url: /ru/
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.BarCode для .NET](/barcode/ru/net/)
+- [Учебные пособия по Aspose.BarCode для .NET API](/tutorials/barcode/ru/net/)
 
 
 ## Aspose.BarCode для Java
@@ -43,6 +44,7 @@ Aspose.BarCode for Java поддерживает самые известные �
 
 Это ссылки на некоторые полезные ресурсы:
 - [Справочник по API Aspose.BarCode для Java](/barcode/java/)
+- [Учебные пособия по Aspose.BarCode для Java API](/tutorials/barcode/ru/java/)
 
 
 ## Aspose.BarCode для C++

@@ -23,6 +23,7 @@ Ayrıca, ***Aspose.BarCode for .NET***, çeşitli sembolojileri destekler ve ço
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.BarCode for .NET API Referansı](/barcode/tr/net/)
+- [.NET API Eğitimleri için Aspose.BarCode](/tutorials/barcode/tr/net/)
 
 
 ## Java için Aspose.BarCode
@@ -41,6 +42,7 @@ Aspose.BarCode for Java, en yerleşik barkod standartlarını ve barkod özellik
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.BarCode for Java API Referansı](/barcode/java/)
+- [Java API Eğitimleri için Aspose.BarCode](/tutorials/barcode/tr/java/)
 
 
 ## C++ için Aspose.BarCode

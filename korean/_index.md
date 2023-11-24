@@ -25,6 +25,7 @@ url: /ko/
 
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 - [.NET API 참조용 Aspose.BarCode](/barcode/ko/net/)
+- [.NET API 튜토리얼용 Aspose.BarCode](/tutorials/barcode/net/)
 
 
 ## 자바용 Aspose.BarCode
@@ -43,6 +44,7 @@ Aspose.BarCode for Java는 가장 확립된 바코드 표준 및 바코드 사�
 
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 - [Java API 참조용 Aspose.BarCode](/barcode/java/)
+- [Java API 튜토리얼용 Aspose.BarCode](/tutorials/barcode/java/)
 
 
 ## C++용 Aspose .바코드

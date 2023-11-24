@@ -23,6 +23,7 @@ url: /ar/
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.BarCode لمرجع .NET API](/barcode/ar/net/)
+- [Aspose.BarCode لبرامج .NET API التعليمية](/tutorials/barcode/ar/net/)
 
 
 ## Aspose.BarCode للجافا
@@ -41,6 +42,7 @@ Aspose.BarCode for Java يدعم معايير الباركود ومواصفات 
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.BarCode لمرجع Java API](/barcode/java/)
+- [Aspose.BarCode لبرامج Java API التعليمية](/tutorials/barcode/ar/java/)
 
 
 ## Aspose.BarCode لـ C ++

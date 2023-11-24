@@ -25,6 +25,7 @@ url: /zh/
 
 这些是一些有用资源的链接:
 - [Aspose.BarCode for .NET API 参考](/barcode/zh/net/)
+- [Aspose.BarCode for .NET API 教程](/tutorials/barcode/zh/net/)
 
 
 ## Aspose.BarCode for Java
@@ -43,6 +44,7 @@ Aspose.BarCode for Java 支持最成熟的条码标准和条码规范。 它可�
 
 这些是一些有用资源的链接:
 - [Aspose.BarCode for Java API 参考](/barcode/java/)
+- [Aspose.BarCode Java API 教程](/tutorials/barcode/zh/java/)
 
 
 ## Aspose.BarCode for C++
