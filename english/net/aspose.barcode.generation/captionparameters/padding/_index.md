@@ -18,7 +18,7 @@ public Padding Padding { get; set; }
 
 * class [Padding](../../padding/)
 * class [CaptionParameters](../)
-* namespace [Aspose.BarCode.Generation](../../captionparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

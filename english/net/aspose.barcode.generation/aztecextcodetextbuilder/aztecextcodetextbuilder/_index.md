@@ -17,7 +17,7 @@ public AztecExtCodetextBuilder()
 ### See Also
 
 * class [AztecExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../aztecextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

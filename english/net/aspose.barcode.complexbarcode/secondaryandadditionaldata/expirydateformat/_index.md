@@ -18,7 +18,7 @@ public HIBCLICDateFormat ExpiryDateFormat { get; set; }
 
 * enum [HIBCLICDateFormat](../../hibclicdateformat/)
 * class [SecondaryAndAdditionalData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../secondaryandadditionaldata/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

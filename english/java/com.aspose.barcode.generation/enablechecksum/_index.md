@@ -3,7 +3,7 @@ title: EnableChecksum
 second_title: Aspose.BarCode for Java API Reference
 description: Enable checksum during generation for 1D barcodes.
 type: docs
-weight: 81
+weight: 80
 url: /java/com.aspose.barcode.generation/enablechecksum/
 ---
 **Inheritance:**

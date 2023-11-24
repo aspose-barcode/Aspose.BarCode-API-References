@@ -21,7 +21,7 @@ public void InitFromString(string constructedCodetext)
 ### See Also
 
 * interface [IComplexCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../icomplexcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

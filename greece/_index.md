@@ -25,6 +25,7 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Aspose.BarCode για Αναφορά API .NET](/barcode/el/net/)
+- [Aspose.BarCode for .NET API Tutorials](/tutorials/barcode/net/)
 
 
 ## Aspose.BarCode για Java
@@ -43,6 +44,7 @@ url: /el/
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 - [Αναφορά Aspose.BarCode για Java API](/barcode/java/)
+- [Aspose.BarCode for Java API Tutorials](/tutorials/barcode/java/)
 
 
 ## Aspose.BarCode για C++

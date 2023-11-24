@@ -25,7 +25,7 @@ Selain itu, ***Aspose.BarCode untuk .NET*** mendukung berbagai simbol dan memung
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.BarCode untuk Referensi .NET API](/barcode/id/net/)
-
+- [Aspose.BarCode untuk Tutorial .NET API](/tutorials/barcode/net/)
 
 ## Aspose.BarCode untuk Java
 
@@ -43,7 +43,7 @@ Aspose.BarCode untuk Java mendukung standar kode batang dan spesifikasi kode bat
 
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 - [Aspose.BarCode untuk Referensi API Java](/barcode/java/)
-
+- [Aspose.BarCode untuk Tutorial Java API](/tutorials/barcode/java/)
 
 ## Aspose.BarCode untuk C++
 {{% alert color="primary" %}}

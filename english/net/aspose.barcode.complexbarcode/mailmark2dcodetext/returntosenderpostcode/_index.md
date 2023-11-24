@@ -17,7 +17,7 @@ public string ReturnToSenderPostCode { get; set; }
 ### See Also
 
 * class [Mailmark2DCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../mailmark2dcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

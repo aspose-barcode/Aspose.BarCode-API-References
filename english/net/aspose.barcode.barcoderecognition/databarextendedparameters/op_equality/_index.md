@@ -26,7 +26,7 @@ public static bool operator ==(DataBarExtendedParameters first, DataBarExtendedP
 ### See Also
 
 * class [DataBarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../databarextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

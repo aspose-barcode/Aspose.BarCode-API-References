@@ -22,7 +22,7 @@ public ComplexBarcodeGenerator(IComplexCodetext complexCodetext)
 
 * interface [IComplexCodetext](../../icomplexcodetext/)
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

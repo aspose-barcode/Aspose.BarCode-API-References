@@ -43,7 +43,7 @@ This sample shows how to create and save a GS1 Composite Bar image. Note that 1D
 
 * class [GS1CompositeBarParameters](../../gs1compositebarparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

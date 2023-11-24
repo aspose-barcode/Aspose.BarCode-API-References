@@ -18,7 +18,7 @@ public ECIEncodings HanXinECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../eciencodings/)
 * class [HanXinParameters](../)
-* namespace [Aspose.BarCode.Generation](../../hanxinparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

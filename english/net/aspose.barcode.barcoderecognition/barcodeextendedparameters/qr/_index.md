@@ -22,7 +22,7 @@ A QR Structured Append information [`QRExtendedParameters`](../../qrextendedpara
 
 * class [QRExtendedParameters](../../qrextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

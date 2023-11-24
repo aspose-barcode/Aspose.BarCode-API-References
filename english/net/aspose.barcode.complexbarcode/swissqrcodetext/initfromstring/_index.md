@@ -21,7 +21,7 @@ public void InitFromString(string constructedCodetext)
 ### See Also
 
 * class [SwissQRCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

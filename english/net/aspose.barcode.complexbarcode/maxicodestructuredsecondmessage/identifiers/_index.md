@@ -21,7 +21,7 @@ List of identifiers
 ### See Also
 
 * class [MaxiCodeStructuredSecondMessage](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestructuredsecondmessage/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

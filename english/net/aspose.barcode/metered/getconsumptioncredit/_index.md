@@ -3,7 +3,7 @@ title: Metered.GetConsumptionCredit
 second_title: Aspose.BarCode for .NET API Reference
 description: Metered method. Gets consumption credit
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
@@ -21,7 +21,7 @@ consumption quantity
 ### See Also
 
 * class [Metered](../)
-* namespace [Aspose.BarCode](../../metered/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: MacroCharacter
 second_title: Aspose.BarCode for Java API Reference
 description: Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes.
 type: docs
-weight: 89
+weight: 88
 url: /java/com.aspose.barcode.generation/macrocharacter/
 ---
 **Inheritance:**
@@ -12,7 +12,33 @@ java.lang.Object, java.lang.Enum
 public enum MacroCharacter extends Enum<MacroCharacter>
 ```
 
-Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)>05" as decoded data header and "" as decoded data trailer. 06 Macro craracter is translated to "[)>06" as decoded data header and "" as decoded data trailer. //to generate autoidentified GS1 message like this "(10)123ABC(10)123ABC" in ISO 15434 format you need: BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA\_MATRIX, "10123ABC10123ABC"); generator.getParameters().getBarcode().getDataMatrix().setMacroCharacters(MacroCharacter.MACRO\_05); BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS\_1\_DATA\_MATRIX); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)>05" as decoded data header and "" as decoded data trailer. 06 Macro craracter is translated to "[)>06" as decoded data header and "" as decoded data trailer.
+
+```
+hese samples show how to encode Macro Characters in MicroPdf417 and DataMatrix
+ 
+
+ //to generate autoidentified GS1 message like this "(10)123ABC(10)123ABC" in ISO 15434 format you need:
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, "10123ABC10123ABC");
+ generator.getParameters().getBarcode().getDataMatrix().setMacroCharacters(MacroCharacter.MACRO_05);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS1DataMatrix);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println("BarCode CodeText: " + result.getCodeText());
+
+ //Encodes MicroPdf417 with 05 Macro the string: "[)>05abcde1234"
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
+ generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_05);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for(BarCodeResult result : reader.readBarCodes())
+    System.out.println(result.getCodeText());
+
+ //Encodes MicroPdf417 with 06 Macro the string: "[)>06abcde1234"
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
+ generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_06);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for(BarCodeResult result : reader.readBarCodes())
+    System.out.println(result.getCodeText());
+```
 ## Fields
 
 | Field | Description |

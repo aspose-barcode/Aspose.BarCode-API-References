@@ -27,7 +27,7 @@ The address line 2.
 ### See Also
 
 * class [Address](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../address/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -25,6 +25,7 @@ Inoltre, ***Aspose.BarCode for .NET*** supporta varie simbologie e consente la l
 
 Questi sono i link ad alcune risorse utili:
 - [Riferimento all'API Aspose.BarCode per .NET](/barcode/it/net/)
+- [Aspose.BarCode per tutorial sull'API .NET](/tutorials/barcode/it/net/)
 
 
 ## Aspose.BarCode per Java
@@ -43,6 +44,7 @@ Aspose.BarCode per Java supporta gli standard di codici a barre e le specifiche 
 
 Questi sono i link ad alcune risorse utili:
 - [Riferimento all'API di Aspose.BarCode per Java](/barcode/java/)
+- [Aspose.BarCode per tutorial API Java](/tutorials/barcode/it/java/)
 
 
 ## Aspose.BarCode per C++

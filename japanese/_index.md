@@ -25,6 +25,7 @@ url: /ja/
 
 これらは、いくつかの有用なリソースへのリンクです。
 - [Aspose.BarCode for .NET API リファレンス](/barcode/ja/net/)
+- [Aspose.BarCode for .NET API チュートリアル](/tutorials/barcode/net/)
 
 
 ## Aspose.BarCode for Java
@@ -43,6 +44,7 @@ Aspose.BarCode for Java は、最も確立されたバーコード規格とバ�
 
 これらは、いくつかの有用なリソースへのリンクです。
 - [Aspose.BarCode for Java API リファレンス](/barcode/java/)
+- [Aspose.BarCode for Java API チュートリアル](/tutorials/barcode/java/)
 
 
 ## C++ 用のAspose.BarCode

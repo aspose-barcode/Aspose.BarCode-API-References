@@ -25,6 +25,7 @@ url: /hi/
 
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 - [.NET API संदर्भ के लिए Aspose.BarCode](/barcode/hi/net/)
+- [.NET एपीआई ट्यूटोरियल के लिए Aspose.BarCode](/tutorials/barcode/net/)
 
 
 ## जावा के लिए Aspose.BarCode
@@ -43,6 +44,7 @@ Aspose.BarCode सर्वाधिक स्थापित बारकोड
 
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 - [जावा एपीआई संदर्भ के लिए Aspose.BarCode](/barcode/java/)
+- [जावा एपीआई ट्यूटोरियल के लिए Aspose.BarCode](/tutorials/barcode/java/)
 
 
 ## Aspose.C ++ के लिए बारकोड

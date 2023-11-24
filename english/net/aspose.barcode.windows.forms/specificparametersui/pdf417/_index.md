@@ -18,7 +18,7 @@ public Pdf417ParametersUI Pdf417 { get; }
 
 * class [Pdf417ParametersUI](../../pdf417parametersui/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 
