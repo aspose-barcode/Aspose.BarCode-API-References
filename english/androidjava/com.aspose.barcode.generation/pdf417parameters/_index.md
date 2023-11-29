@@ -12,7 +12,24 @@ java.lang.Object
 public class Pdf417Parameters
 ```
 
-PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional.
+PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional.
+
+```
+These samples show how to encode UCC/EAN-128 non Linked modes in GS1MicroPdf417
+ 
+
+ //Encodes GS1 UCC/EAN-128 non Linked mode 905 with AI 01 (GTIN)
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(01)12345678901231");
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+     for (BarCodeResult result : reader.readBarCodes())
+         System.out.println(result.getCodeText());
+
+ //Encodes GS1 UCC/EAN-128 non Linked modes 903, 904 with any AI
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(241)123456789012345(241)ABCD123456789012345");
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+     for (BarCodeResult result : reader.readBarCodes())
+         System.out.println(result.getCodeText());
+```
 ## Methods
 
 | Method | Description |
@@ -20,9 +37,9 @@ PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. Macr
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getCode128Emulation()](#getCode128Emulation--) | Function codeword for Code 128 emulation. |
 | [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getColumns()](#getColumns--) | Columns count. |
+| [getMacroCharacters()](#getMacroCharacters--) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [getPdf417CompactionMode()](#getPdf417CompactionMode--) | Pdf417 symbology type of BarCode's compaction mode. |
 | [getPdf417ECIEncoding()](#getPdf417ECIEncoding--) | Extended Channel Interpretation Identifiers. |
 | [getPdf417ErrorLevel()](#getPdf417ErrorLevel--) | Gets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
@@ -40,13 +57,17 @@ PDF417 parameters. Contains PDF417, MacroPDF417 and MicroPDF417 parameters. Macr
 | [getPdf417Truncate()](#getPdf417Truncate--) | Whether Pdf417 symbology type of BarCode is truncated (to reduce space). |
 | [getRows()](#getRows--) | Rows count. |
 | [hashCode()](#hashCode--) |  |
+| [isCode128Emulation()](#isCode128Emulation--) | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
+| [isLinked()](#isLinked--) | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\u201cLinked\\u201d UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [isReaderInitialization()](#isReaderInitialization--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setCode128Emulation(Code128Emulation value)](#setCode128Emulation-com.aspose.barcode.generation.Code128Emulation-) | Function codeword for Code 128 emulation. |
+| [setCode128Emulation(boolean value)](#setCode128Emulation-boolean-) | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
 | [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setColumns(int value)](#setColumns-int-) | Columns count. |
+| [setLinked(boolean value)](#setLinked-boolean-) | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\u201cLinked\\u201d UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
+| [setMacroCharacters(MacroCharacter value)](#setMacroCharacters-com.aspose.barcode.generation.MacroCharacter-) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [setPdf417CompactionMode(Pdf417CompactionMode value)](#setPdf417CompactionMode-com.aspose.barcode.generation.Pdf417CompactionMode-) | Pdf417 symbology type of BarCode's compaction mode. |
 | [setPdf417ECIEncoding(int value)](#setPdf417ECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
 | [setPdf417ErrorLevel(Pdf417ErrorLevel value)](#setPdf417ErrorLevel-com.aspose.barcode.generation.Pdf417ErrorLevel-) | Sets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
@@ -104,16 +125,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCode128Emulation() {#getCode128Emulation--}
-```
-public Code128Emulation getCode128Emulation()
-```
-
-
-Function codeword for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes.
-
-**Returns:**
-[Code128Emulation](../../com.aspose.barcode.generation/code128emulation)
 ### getCodeTextEncoding() {#getCodeTextEncoding--}
 ```
 public Charset getCodeTextEncoding()
@@ -134,6 +145,35 @@ Columns count.
 
 **Returns:**
 int
+### getMacroCharacters() {#getMacroCharacters--}
+```
+public MacroCharacter getMacroCharacters()
+```
+
+
+Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: MacroCharacters.None.
+
+--------------------
+
+> ```
+> These samples show how to encode Macro Characters in MicroPdf417
+>  
+>  //Encodes MicroPdf417 with 05 Macro the string: "[)>05abcde1234"
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+>  generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_05);
+>      BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>        for (BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText());
+>  //Encodes MicroPdf417 with 06 Macro the string: "[)>06abcde1234"
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+>  generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_06);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText());
+> ```
+
+**Returns:**
+[MacroCharacter](../../com.aspose.barcode.generation/macrocharacter)
 ### getPdf417CompactionMode() {#getPdf417CompactionMode--}
 ```
 public Pdf417CompactionMode getPdf417CompactionMode()
@@ -304,6 +344,114 @@ public native int hashCode()
 
 **Returns:**
 int
+### isCode128Emulation() {#isCode128Emulation--}
+```
+public boolean isCode128Emulation()
+```
+
+
+Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128
+
+--------------------
+
+> ```
+> These samples show how to encode Code 128 emulation modes with FNC1 in second position and without. In this way MicroPdf417 can be decoded as Code 128 barcode
+>  
+> 
+>  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "a", mode 908.
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "a1222322323");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + Boolean.parseBoolean(result.getExtended().getPdf417().isCode128Emulation()));
+>  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "99", mode 909.
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "991222322323");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + Boolean.parseBoolean(result.getExtended().getPdf417().isCode128Emulation()));
+>  //Encodes MicroPdf417 in Code 128 emulation mode, modes 910, 911
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + result.Extended.Pdf417.IsCode128Emulation().toString());
+> ```
+
+**Returns:**
+boolean
+### isLinked() {#isLinked--}
+```
+public boolean isLinked()
+```
+
+
+Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\u201cLinked\\u201d UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC
+
+--------------------
+
+> ```
+> These samples show how to encode "Linked" UCC/EAN-128 modes in GS1MicroPdf417 and Linkage Flag (918) in MicroPdf417 and Pdf417 barcodes
+>  
+> 
+>  //Encodes GS1 Linked mode 912 with date field AI 11 (Production date) and AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(11)991231(10)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 13 (Packaging date) and AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(13)991231(21)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 15 (Sell-by date) and AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(15)991231(10)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 17 (Expiration date) and AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(17)991231(21)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 914 with AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(10)ABCD12345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 915 with AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(21)ABCD12345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked modes 906, 907 with any AI
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(240)123456789012345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes MicroPdf417 NON EAN.UCC Linked mode 918
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "ABCDE123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes Pdf417 NON EAN.UCC Linked mode 918
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PDF_417, "ABCDE123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+> ```
+
+**Returns:**
+boolean
 ### isReaderInitialization() {#isReaderInitialization--}
 ```
 public boolean isReaderInitialization()
@@ -343,18 +491,44 @@ Height/Width ratio of 2D BarCode module.
 | --- | --- | --- |
 | value | float |  |
 
-### setCode128Emulation(Code128Emulation value) {#setCode128Emulation-com.aspose.barcode.generation.Code128Emulation-}
+### setCode128Emulation(boolean value) {#setCode128Emulation-boolean-}
 ```
-public void setCode128Emulation(Code128Emulation value)
+public void setCode128Emulation(boolean value)
 ```
 
 
-Function codeword for Code 128 emulation. Applied for MicroPDF417 only. Ignored for PDF417 and MacroPDF417 barcodes.
+Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128
+
+--------------------
+
+> ```
+> These samples show how to encode Code 128 emulation modes with FNC1 in second position and without. In this way MicroPdf417 can be decoded as Code 128 barcode
+>  
+> 
+>  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "a", mode 908.
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "a1222322323");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + result.Extended.Pdf417.IisCode128Emulation().toString());
+>  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "99", mode 909.
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "991222322323");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + Boolean.parseBoolean(result.getExtended().getPdf417().isCode128Emulation()));
+>  //Encodes MicroPdf417 in Code 128 emulation mode, modes 910, 911
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsCode128Emulation:" + Boolean.parseBoolean(result.getExtended().getPdf417().isCode128Emulation()));
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Code128Emulation](../../com.aspose.barcode.generation/code128emulation) |  |
+| value | boolean |  |
 
 ### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
 ```
@@ -381,6 +555,114 @@ Columns count.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setLinked(boolean value) {#setLinked-boolean-}
+```
+public void setLinked(boolean value)
+```
+
+
+Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\u201cLinked\\u201d UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC
+
+--------------------
+
+> ```
+> These samples show how to encode "Linked" UCC/EAN-128 modes in GS1MicroPdf417 and Linkage Flag (918) in MicroPdf417 and Pdf417 barcodes
+>  
+> 
+>  //Encodes GS1 Linked mode 912 with date field AI 11 (Production date) and AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(11)991231(10)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 13 (Packaging date) and AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(13)991231(21)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 15 (Sell-by date) and AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(15)991231(10)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 912 with date field AI 17 (Expiration date) and AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(17)991231(21)ABCD");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 914 with AI 10 (Lot number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(10)ABCD12345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked mode 915 with AI 21 (Serial number)
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(21)ABCD12345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes GS1 Linked modes 906, 907 with any AI
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(240)123456789012345");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes MicroPdf417 NON EAN.UCC Linked mode 918
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "ABCDE123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+>  //Encodes Pdf417 NON EAN.UCC Linked mode 918
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.PDF_417, "ABCDE123456789012345678");
+>  generator.getParameters().getBarcode().getPdf417().setLinked(true);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText() + " IsLinked:" + Boolean.parseBoolean(result.getExtended().getPdf417().isLinked()));
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setMacroCharacters(MacroCharacter value) {#setMacroCharacters-com.aspose.barcode.generation.MacroCharacter-}
+```
+public void setMacroCharacters(MacroCharacter value)
+```
+
+
+Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: MacroCharacters.None.
+
+--------------------
+
+> ```
+> These samples show how to encode Macro Characters in MicroPdf417
+>  
+> 
+>  //Encodes MicroPdf417 with 05 Macro the string: "[)>05abcde1234"
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+>  generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_05);
+>      BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>        for (BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText());
+>  //Encodes MicroPdf417 with 06 Macro the string: "[)>06abcde1234"
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+>  generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_06);
+>  BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+>      for(BarCodeResult result : reader.readBarCodes())
+>          System.out.println(result.getCodeText());
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MacroCharacter](../../com.aspose.barcode.generation/macrocharacter) |  |
 
 ### setPdf417CompactionMode(Pdf417CompactionMode value) {#setPdf417CompactionMode-com.aspose.barcode.generation.Pdf417CompactionMode-}
 ```

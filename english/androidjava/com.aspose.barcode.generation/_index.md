@@ -88,7 +88,7 @@ This package contains tools for generating barcode.
 | [BarcodeClassifications](../com.aspose.barcode.generation/barcodeclassifications) | EncodeTypes classification |
 | [BorderDashStyle](../com.aspose.barcode.generation/borderdashstyle) | Specifies the style of dashed border lines. |
 | [CodabarChecksumMode](../com.aspose.barcode.generation/codabarchecksummode) | Specifies the checksum algorithm for Codabar |
-| [Code128Emulation](../com.aspose.barcode.generation/code128emulation) | Function codewords for Code 128 emulation. |
+| [Code128Emulation](../com.aspose.barcode.generation/code128emulation) |  |
 | [Code128EncodeMode](../com.aspose.barcode.generation/code128encodemode) | Encoding mode for Code128 barcodes. |
 | [CodeLocation](../com.aspose.barcode.generation/codelocation) | Codetext location |
 | [DataMatrixEccType](../com.aspose.barcode.generation/datamatrixecctype) | Specify the type of the ECC to encode. |

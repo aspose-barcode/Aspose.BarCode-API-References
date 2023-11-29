@@ -51,6 +51,7 @@ Stores a MacroPdf417 metadata information of recognized barcode
 | [getMacroPdf417Terminator()](#getMacroPdf417Terminator--) | Indicates whether the segment is the last segment of a Macro PDF417 file. |
 | [getMacroPdf417TimeStamp()](#getMacroPdf417TimeStamp--) | Macro PDF417 time stamp (optional). |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
+| [isCode128Emulation()](#isCode128Emulation--) | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [isLinked()](#isLinked--) | Flag that indicates that the barcode must be linked to 1D barcode. |
 | [isReaderInitialization()](#isReaderInitialization--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
@@ -201,6 +202,16 @@ Returns the hash code for this instance.
 
 **Returns:**
 int - A 32-bit signed integer hash code.
+### isCode128Emulation() {#isCode128Emulation--}
+```
+public boolean isCode128Emulation()
+```
+
+
+Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords.
+
+**Returns:**
+boolean - Code 128 emulation flag
 ### isEmpty() {#isEmpty--}
 ```
 public boolean isEmpty()
