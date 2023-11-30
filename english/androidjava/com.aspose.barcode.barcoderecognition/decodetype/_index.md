@@ -72,6 +72,7 @@ Specify the type of barcode to read.
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | Specifies that the data should be decoded with  **GS1DataMatrix**  barcode symbology |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be decoded with  **GS1 DotCode**  barcode specification |
 | [GS_1_HAN_XIN](#GS-1-HAN-XIN) | Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification |
+| [GS_1_MICRO_PDF_417](#GS-1-MICRO-PDF-417) | Specifies that the data should be decoded with **MicroPdf417** barcode specification |
 | [GS_1_QR](#GS-1-QR) | Specifies that the data should be decoded with  **GS1 QR**  barcode specification |
 | [HAN_XIN](#HAN-XIN) | Specifies that the data should be decoded with **Han Xin Code** barcode specification |
 | [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be decoded with  **HIBC LIC QR**  barcode specification |
@@ -447,6 +448,14 @@ public static final SingleDecodeType GS_1_HAN_XIN
 
 
 Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification
+
+### GS_1_MICRO_PDF_417 {#GS-1-MICRO-PDF-417}
+```
+public static final SingleDecodeType GS_1_MICRO_PDF_417
+```
+
+
+Specifies that the data should be decoded with **MicroPdf417** barcode specification
 
 ### GS_1_QR {#GS-1-QR}
 ```

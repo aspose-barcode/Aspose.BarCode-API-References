@@ -31,7 +31,7 @@ Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing
 >  String codetext = textBuilder.getExtendedCodetext();
 >  //generate
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AZTEC, codetext);
->  generator.getParameters().getBarcode().getCodeTextParameters().setwoDDisplayText("My Text");
+>  generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >  generator.save("test.bmp");
 > ```
 ## Constructors

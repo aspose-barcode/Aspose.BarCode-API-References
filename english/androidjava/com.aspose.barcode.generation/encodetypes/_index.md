@@ -58,6 +58,7 @@ Specifies the type of barcode to encode.
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | 2D barcode symbology DataMatrix with GS1 string format |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be encoded with  **GS1 DotCode**  barcode specification. |
 | [GS_1_HAN_XIN](#GS-1-HAN-XIN) | 2D barcode symbology QR with GS1 string format |
+| [GS_1_MICRO_PDF_417](#GS-1-MICRO-PDF-417) | Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification |
 | [GS_1_QR](#GS-1-QR) | 2D barcode symbology QR with GS1 string format |
 | [HAN_XIN](#HAN-XIN) | Specifies that the data should be encoded with **Han Xin** barcode specification |
 | [HIBCQRLIC](#HIBCQRLIC) | Specifies that the data should be encoded with  **HIBC LIC QR**  barcode specification. |
@@ -416,6 +417,14 @@ public static final SymbologyEncodeType GS_1_HAN_XIN
 
 
 2D barcode symbology QR with GS1 string format
+
+### GS_1_MICRO_PDF_417 {#GS-1-MICRO-PDF-417}
+```
+public static final SymbologyEncodeType GS_1_MICRO_PDF_417
+```
+
+
+Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification
 
 ### GS_1_QR {#GS-1-QR}
 ```
