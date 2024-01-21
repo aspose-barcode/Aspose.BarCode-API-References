@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.HanXinVersionProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. HanXinVersionProperty
 type: docs
-weight: 2360
+weight: 2380
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/hanxinversionproperty/
 ---
 ## BarcodeGeneratorElement.HanXinVersionProperty field

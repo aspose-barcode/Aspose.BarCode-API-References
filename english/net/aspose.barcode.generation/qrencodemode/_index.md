@@ -3,7 +3,7 @@ title: Enum QREncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QREncodeMode enum. Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncoding  Encoding.UTF8 for Latin symbols or digits and Utf8BOM for Unicode symbols
 type: docs
-weight: 1280
+weight: 1330
 url: /net/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enumeration
@@ -22,7 +22,7 @@ public enum QREncodeMode
 | Bytes | `1` | Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first. |
 | Utf8BOM | `2` | Encode codetext with UTF8 encoding with first ByteOfMark character. |
 | Utf16BEBOM | `3` | Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scanners. |
-| ECIEncoding | `4` | Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. |
+| ECIEncoding | `4` | Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR barcodes. |
 | ExtendedCodetext | `5` | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
 
 ## Examples

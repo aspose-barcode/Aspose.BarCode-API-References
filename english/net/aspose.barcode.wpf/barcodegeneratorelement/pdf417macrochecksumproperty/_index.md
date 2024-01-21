@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroChecksumProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417MacroChecksumProperty
 type: docs
-weight: 2600
+weight: 2630
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrochecksumproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroChecksumProperty field

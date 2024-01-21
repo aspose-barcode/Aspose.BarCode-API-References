@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1430
+weight: 1490
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -125,6 +125,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [MaxiCodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodemode/) { get; set; } | MaxiCode mode. |
 | [MaxiCodeStructuredAppendModeBarcodeCount](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodecount/) { get; set; } | MaxiCode barcodes count used in structured append mode. |
 | [MaxiCodeStructuredAppendModeBarcodeId](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodeid/) { get; set; } | MaxiCode barcode's id used in structured append mode. |
+| [MicroQRVersion](../../aspose.barcode.wpf/barcodegeneratorelement/microqrversion/) { get; set; } | MicroQR version. |
 | [Padding](../../aspose.barcode.wpf/barcodegeneratorelement/padding/) { get; set; } | Barcode paddings. |
 | [PatchCodeExtraBarcodeText](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetext/) { get; set; } | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
 | [PatchCodePatchFormat](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformat/) { get; set; } | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. |
@@ -159,6 +160,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [QREncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodetype/) { get; set; } | Encode type. |
 | [QRErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevel/) { get; set; } | Error level. |
 | [QRVersion](../../aspose.barcode.wpf/barcodegeneratorelement/qrversion/) { get; set; } | QR version. |
+| [RectMicroQRVersion](../../aspose.barcode.wpf/barcodegeneratorelement/rectmicroqrversion/) { get; set; } | RectMicroQR version. |
 | [Resolution](../../aspose.barcode.wpf/barcodegeneratorelement/resolution/) { get; set; } | Gets or sets the resolution of the BarCode image. One value for both dimensions. |
 | [SupplementSupplementData](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdata/) { get; set; } | Supplement codetext. |
 | [SupplementSupplementSpace](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementspace/) { get; set; } | Space between barcode and supplement in pixels. |
@@ -278,6 +280,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [MaxiCodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodemodeproperty/) | MaxiCodeModeProperty |
 | static [MaxiCodeStructuredAppendModeBarcodeCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodecountproperty/) | MaxiCodeStructuredAppendModeBarcodeCountProperty |
 | static [MaxiCodeStructuredAppendModeBarcodeIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodeidproperty/) | MaxiCodeStructuredAppendModeBarcodeIdProperty |
+| static [MicroQRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/microqrversionproperty/) | MicroQRVersionProperty |
 | static [PaddingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/paddingproperty/) | PaddingProperty |
 | static [PatchCodeExtraBarcodeTextProperty](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodeextrabarcodetextproperty/) | PatchCodeExtraBarcodeTextProperty |
 | static [PatchCodePatchFormatProperty](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformatproperty/) | PatchCodePatchFormatProperty |
@@ -312,6 +315,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [QREncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodetypeproperty/) | QREncodeTypeProperty |
 | static [QRErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevelproperty/) | QRErrorLevelProperty |
 | static [QRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrversionproperty/) | QRVersionProperty |
+| static [RectMicroQRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/rectmicroqrversionproperty/) | RectMicroQRVersionProperty |
 | static [ResolutionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/resolutionproperty/) | ResolutionProperty |
 | static [SupplementSupplementDataProperty](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementdataproperty/) | SupplementSupplementDataProperty |
 | static [SupplementSupplementSpaceProperty](../../aspose.barcode.wpf/barcodegeneratorelement/supplementsupplementspaceproperty/) | SupplementSupplementSpaceProperty |

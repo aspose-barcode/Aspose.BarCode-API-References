@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextParametersFontModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodeTextParametersFontModeProperty
 type: docs
-weight: 1970
+weight: 1990
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersfontmodeproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersFontModeProperty field

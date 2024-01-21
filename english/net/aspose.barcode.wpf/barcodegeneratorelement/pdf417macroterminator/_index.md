@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroTerminator
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macroterminator/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroTerminator property

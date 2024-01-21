@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecEncodeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AztecEncodeModeProperty
 type: docs
-weight: 1510
+weight: 1530
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.AztecEncodeModeProperty field

@@ -3,7 +3,7 @@ title: Class EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EncodeTypes class. Specifies the type of barcode to encode
 type: docs
-weight: 1030
+weight: 1070
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class
@@ -67,7 +67,7 @@ public static class EncodeTypes
 | static readonly [GS1CompositeBar](../../aspose.barcode.generation/encodetypes/gs1compositebar/) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. The codetext must contains parentheses for AI. 1D codetext and 2D codetext must be separated with symbol '/' |
 | static readonly [GS1DataMatrix](../../aspose.barcode.generation/encodetypes/gs1datamatrix/) | 2D barcode symbology DataMatrix with GS1 string format |
 | static readonly [GS1DotCode](../../aspose.barcode.generation/encodetypes/gs1dotcode/) | Specifies that the data should be encoded with **GS1 DotCode** barcode specification. The codetext must contains parentheses for AI. |
-| static readonly [GS1HanXin](../../aspose.barcode.generation/encodetypes/gs1hanxin/) | 2D barcode symbology QR with GS1 string format |
+| static readonly [GS1HanXin](../../aspose.barcode.generation/encodetypes/gs1hanxin/) | 2D barcode symbology HanXin with GS1 string format |
 | static readonly [GS1MicroPdf417](../../aspose.barcode.generation/encodetypes/gs1micropdf417/) | Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification |
 | static readonly [GS1QR](../../aspose.barcode.generation/encodetypes/gs1qr/) | 2D barcode symbology QR with GS1 string format |
 | static readonly [HanXin](../../aspose.barcode.generation/encodetypes/hanxin/) | Specifies that the data should be encoded with **Han Xin** barcode specification |
@@ -94,6 +94,7 @@ public static class EncodeTypes
 | static readonly [Matrix2of5](../../aspose.barcode.generation/encodetypes/matrix2of5/) | Represents Matrix 2 of 5 BarCode |
 | static readonly [MaxiCode](../../aspose.barcode.generation/encodetypes/maxicode/) | Specifies that the data should be encoded with **MaxiCode** barcode specification |
 | static readonly [MicroPdf417](../../aspose.barcode.generation/encodetypes/micropdf417/) | Specifies that the data should be encoded with **MicroPdf417** barcode specification |
+| static readonly [MicroQR](../../aspose.barcode.generation/encodetypes/microqr/) | Specifies that the data should be encoded with **MicroQR Code** barcode specification |
 | static readonly [MSI](../../aspose.barcode.generation/encodetypes/msi/) | Specifies that the data should be encoded with **MSI Plessey** barcode specification |
 | static readonly [None](../../aspose.barcode.generation/encodetypes/none/) | Unspecified encode type. |
 | static readonly [OneCode](../../aspose.barcode.generation/encodetypes/onecode/) | Specifies that the data should be encoded with USPS **OneCode** barcode specification |
@@ -105,6 +106,7 @@ public static class EncodeTypes
 | static readonly [Postnet](../../aspose.barcode.generation/encodetypes/postnet/) | Specifies that the data should be encoded with **Postnet** barcode specification |
 | static readonly [PZN](../../aspose.barcode.generation/encodetypes/pzn/) | Represents PZN barcode.This Symbology is also known as Pharmacy central number, Pharmazentralnummer |
 | static readonly [QR](../../aspose.barcode.generation/encodetypes/qr/) | Specifies that the data should be encoded with **QR Code** barcode specification |
+| static readonly [RectMicroQR](../../aspose.barcode.generation/encodetypes/rectmicroqr/) | Specifies that the data should be encoded with **RectMicroQR (rMQR) Code** barcode specification |
 | static readonly [RM4SCC](../../aspose.barcode.generation/encodetypes/rm4scc/) | Represents RM4SCC barcode. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK. |
 | static readonly [SCC14](../../aspose.barcode.generation/encodetypes/scc14/) | Specifies that the data should be encoded with **SCC14** barcode specification |
 | static readonly [SingaporePost](../../aspose.barcode.generation/encodetypes/singaporepost/) | Specifies that the data should be encoded with **Singapore Post Barcode** barcode specification |

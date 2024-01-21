@@ -11,17 +11,26 @@ url: /net/aspose.barcode.barcoderecognition/qualitysettings/highperformance/
 HighPerformance recognition quality preset. High quality barcodes are recognized well in this mode.
 
 ```csharp
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
-    reader.QualitySettings = QualitySettings.HighPerformance;
-```
-
-```csharp
 public static QualitySettings HighPerformance { get; }
 ```
 
 ### Property Value
 
 HighPerformance recognition quality preset.
+
+## Examples
+
+This sample shows how to use HighPerformance mode
+
+```csharp
+[C#]
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Extended, DecodeType.Code128))
+{
+    reader.QualitySettings = QualitySettings.HighPerformance;
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
+}
+```
 
 ### See Also
 

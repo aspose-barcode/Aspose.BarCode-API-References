@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.UseAntiAliasProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. UseAntiAliasProperty
 type: docs
-weight: 2840
+weight: 2880
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/useantialiasproperty/
 ---
 ## BarcodeGeneratorElement.UseAntiAliasProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroSegmentIDProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417MacroSegmentIDProperty
 type: docs
-weight: 2650
+weight: 2680
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrosegmentidproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroSegmentIDProperty field

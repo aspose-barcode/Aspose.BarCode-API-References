@@ -3,7 +3,7 @@ title: EncodeTypes.TryParse
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes method. Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.barcode.generation/encodetypes/tryparse/
 ---
 ## EncodeTypes.TryParse method

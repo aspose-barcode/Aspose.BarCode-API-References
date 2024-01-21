@@ -3,7 +3,7 @@ title: QualitySettings.AllowIncorrectBarcodes
 second_title: Aspose.BarCode for .NET API Reference
 description: QualitySettings property. Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. Mode can be used to recognize damaged barcodes with incorrect text
 type: docs
-weight: 120
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes/
 ---
 ## QualitySettings.AllowIncorrectBarcodes property

@@ -20,7 +20,6 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [BarCodeRegionParameters](./barcoderegionparameters/) | Represents the recognized barcode's region and barcode angle |
 | [BarCodeResult](./barcoderesult/) | Stores recognized barcode data like [`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype/) type, String codetext, [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters/) region and other parameters |
 | [BarcodeSettings](./barcodesettings/) | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
-| [BarcodeSvmDetectorSettings](./barcodesvmdetectorsettings/) | Barcode detector settings. |
 | [BaseDecodeType](./basedecodetype/) | Base class for MultyDecodeType and SingleDecodeType. |
 | [BaseExtendedParameters](./baseextendedparameters/) | Basic class for extended parameters of recognized barcode storing |
 | [Code128DataPortion](./code128dataportion/) | Contains the data of subtype for Code128 type barcode |
@@ -36,7 +35,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [Pdf417ExtendedParameters](./pdf417extendedparameters/) | Stores a MacroPdf417 metadata information of recognized barcode |
 | [QRExtendedParameters](./qrextendedparameters/) | Stores a QR Structured Append information of recognized barcode |
 | [Quadrangle](./quadrangle/) | Stores a set of four Points that represent a [`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle/) region. |
-| [QualitySettings](./qualitysettings/) | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
+| [QualitySettings](./qualitysettings/) | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
 | [RecognitionAbortedException](./recognitionabortedexception/) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
 | [SingleDecodeType](./singledecodetype/) | Single decode type. See decode type to get instance. |
 ## Interfaces
@@ -49,7 +48,12 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | Enumeration | Description |
 | --- | --- |
 | [BarCodeConfidence](./barcodeconfidence/) | Contains recognition confidence level |
+| [BarcodeQualityMode](./barcodequalitymode/) | Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition. |
 | [ChecksumValidation](./checksumvalidation/) | Enable checksum validation during recognition for 1D and Postal barcodes. |
 | [Code128SubType](./code128subtype/) | Contains types of Code128 subset |
+| [ComplexBackgroundMode](./complexbackgroundmode/) | Mode which enables or disables additional recognition of color barcodes on color images. |
+| [DeconvolutionMode](./deconvolutionmode/) | Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convoluted) by any natural function like blur, during obtaining image by camera. Because we cannot detect image function which corrupt the image, we have to check most well know functions like sharp or mathematical morphology. |
+| [InverseImageMode](./inverseimagemode/) | Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance). |
+| [XDimensionMode](./xdimensionmode/) | Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
 
 

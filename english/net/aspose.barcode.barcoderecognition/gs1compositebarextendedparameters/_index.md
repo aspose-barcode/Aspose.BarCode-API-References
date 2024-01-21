@@ -3,7 +3,7 @@ title: Class GS1CompositeBarExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.GS1CompositeBarExtendedParameters class. Stores special data of GS1 Composite Bar recognized barcode
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/
 ---
 ## GS1CompositeBarExtendedParameters class

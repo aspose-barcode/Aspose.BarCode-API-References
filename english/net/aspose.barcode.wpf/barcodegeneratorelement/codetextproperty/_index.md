@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodetextProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodetextProperty
 type: docs
-weight: 2020
+weight: 2040
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextproperty/
 ---
 ## BarcodeGeneratorElement.CodetextProperty field

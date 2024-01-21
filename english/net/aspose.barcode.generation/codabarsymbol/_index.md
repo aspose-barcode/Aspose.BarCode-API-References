@@ -3,7 +3,7 @@ title: Enum CodabarSymbol
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodabarSymbol enum. Specifies the start or stop symbol of the Codabar barcode specification
 type: docs
-weight: 840
+weight: 880
 url: /net/aspose.barcode.generation/codabarsymbol/
 ---
 ## CodabarSymbol enumeration
