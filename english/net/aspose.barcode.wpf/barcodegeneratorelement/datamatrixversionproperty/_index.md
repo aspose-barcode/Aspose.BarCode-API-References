@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixVersionProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DataMatrixVersionProperty
 type: docs
-weight: 2180
+weight: 2200
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixversionproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixVersionProperty field

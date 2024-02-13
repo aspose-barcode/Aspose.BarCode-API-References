@@ -79,6 +79,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MacroCharacter](./macrocharacter/) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)&gt;\u001E05\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer. 06 Macro craracter is translated to "[)&gt;\u001E06\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer. |
 | [MaxiCodeEncodeMode](./maxicodeencodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
+| [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
 | [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
@@ -87,6 +88,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [QREncodeType](./qrencodetype/) | QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible. |
 | [QRErrorLevel](./qrerrorlevel/) | Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [QRVersion](./qrversion/) | Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. |
+| [RectMicroQRVersion](./rectmicroqrversion/) | Version of RectMicroQR Code. From version R7x43 to version R17x139. |
 | [TextAlignment](./textalignment/) | Text alignment. |
 | [TwoDComponentType](./twodcomponenttype/) | Type of 2D component |
 

@@ -3,7 +3,7 @@ title: Class HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HanXinExtCodetextBuilder class. Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode
 type: docs
-weight: 1100
+weight: 1140
 url: /net/aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 ## HanXinExtCodetextBuilder class

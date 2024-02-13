@@ -3,7 +3,7 @@ title: Class DataMatrixExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.DataMatrixExtendedParameters class. Stores special data of DataMatrix recognized barcode
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ---
 ## DataMatrixExtendedParameters class

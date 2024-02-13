@@ -3,7 +3,7 @@ title: Class SpecificParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.SpecificParametersUI class. Specific parameters
 type: docs
-weight: 1530
+weight: 1590
 url: /net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class
@@ -33,7 +33,7 @@ public class SpecificParametersUI
 | [MaxiCode](../../aspose.barcode.windows.forms/specificparametersui/maxicode/) { get; } | Gets or sets MaxiCode parameters [`MaxiCodeParameters`](../../aspose.barcode.generation/maxicodeparameters/). Used for MaxiCode. |
 | [Pdf417](../../aspose.barcode.windows.forms/specificparametersui/pdf417/) { get; } | Gets or sets Pdf417 parameters [`Pdf417Parameters`](../../aspose.barcode.generation/pdf417parameters/). Used for Pdf417. |
 | [Postal](../../aspose.barcode.windows.forms/specificparametersui/postal/) { get; } | Gets or sets Postal parameters [`PostalParameters`](../../aspose.barcode.generation/postalparameters/). Used for Postnet, Planet. |
-| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr/) { get; } | Gets or sets QR parameters [`QrParameters`](../../aspose.barcode.generation/qrparameters/). Used for QR. |
+| [QR](../../aspose.barcode.windows.forms/specificparametersui/qr/) { get; } | Gets or sets QR, MicroQR and RectMicroQR parameters [`QrParameters`](../../aspose.barcode.generation/qrparameters/). Used for QR. |
 | [Supplement](../../aspose.barcode.windows.forms/specificparametersui/supplement/) { get; } | Gets or sets Supplement parameters [`SupplementParameters`](../../aspose.barcode.generation/supplementparameters/). Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
 
 ## Methods

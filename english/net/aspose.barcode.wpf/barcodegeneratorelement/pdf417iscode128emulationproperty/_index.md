@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417IsCode128EmulationProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417IsCode128EmulationProperty
 type: docs
-weight: 2550
+weight: 2580
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417iscode128emulationproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417IsCode128EmulationProperty field

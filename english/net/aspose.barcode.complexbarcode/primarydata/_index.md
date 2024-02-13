@@ -3,7 +3,7 @@ title: Class PrimaryData
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.PrimaryData class. Class for storing HIBC LIC primary data
 type: docs
-weight: 610
+weight: 650
 url: /net/aspose.barcode.complexbarcode/primarydata/
 ---
 ## PrimaryData class

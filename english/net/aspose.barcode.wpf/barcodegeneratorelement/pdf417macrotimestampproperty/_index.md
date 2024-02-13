@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroTimeStampProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417MacroTimeStampProperty
 type: docs
-weight: 2690
+weight: 2720
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrotimestampproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroTimeStampProperty field

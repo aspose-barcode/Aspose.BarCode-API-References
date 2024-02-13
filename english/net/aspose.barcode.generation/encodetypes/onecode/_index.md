@@ -3,7 +3,7 @@ title: EncodeTypes.OneCode
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with USPS OneCode barcode specification
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.barcode.generation/encodetypes/onecode/
 ---
 ## EncodeTypes.OneCode field

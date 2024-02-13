@@ -3,7 +3,7 @@ title: DecodeType.Parse
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.barcode.barcoderecognition/decodetype/parse/
 ---
 ## DecodeType.Parse method
@@ -16,12 +16,12 @@ public static bool Parse(string parsingType, out SingleDecodeType result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | String | A string containing a SingleDecodeType representation to convert. |
-| result | SingleDecodeType& | An actual SingleDecodeType returns, when conversion has completed successfully; |
+| parsingType | String | A string containing a SingleDecodeType in the format as "EAN8" or "EAN13" or "CodaBar"... to convert. |
+| result | SingleDecodeType& | An actual SingleDecodeType returns, when conversion has completed successfully; otherwise it returns indefinite type: DecodeType.None. |
 
 ### Return Value
 
-**true** if s was converted successfully; otherwise, **false**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417ErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Error level
 type: docs
-weight: 1110
+weight: 1120
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevel/
 ---
 ## BarcodeGeneratorElement.Pdf417ErrorLevel property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.QRECIEncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. QRECIEncodingProperty
 type: docs
-weight: 2750
+weight: 2780
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/qreciencodingproperty/
 ---
 ## BarcodeGeneratorElement.QRECIEncodingProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecStructuredAppendBarcodesCountProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AztecStructuredAppendBarcodesCountProperty
 type: docs
-weight: 1560
+weight: 1580
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodescountproperty/
 ---
 ## BarcodeGeneratorElement.AztecStructuredAppendBarcodesCountProperty field

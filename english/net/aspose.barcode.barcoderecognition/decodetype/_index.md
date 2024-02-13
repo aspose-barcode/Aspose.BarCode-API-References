@@ -3,7 +3,7 @@ title: Class DecodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.DecodeType class. Specify the type of barcode to read
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.barcode.barcoderecognition/decodetype/
 ---
 ## DecodeType class
@@ -115,6 +115,7 @@ public static class DecodeType
 | static readonly [Postnet](../../aspose.barcode.barcoderecognition/decodetype/postnet/) | Specifies that the data should be decoded with **Postnet** barcode specification |
 | static readonly [PZN](../../aspose.barcode.barcoderecognition/decodetype/pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer |
 | static readonly [QR](../../aspose.barcode.barcoderecognition/decodetype/qr/) | Specifies that the data should be decoded with **QR Code** barcode specification |
+| static readonly [RectMicroQR](../../aspose.barcode.barcoderecognition/decodetype/rectmicroqr/) | Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barcode specification |
 | static readonly [RM4SCC](../../aspose.barcode.barcoderecognition/decodetype/rm4scc/) | Specifies that the data should be decoded with **RM4SCC** barcode specification. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK. |
 | static readonly [SCC14](../../aspose.barcode.barcoderecognition/decodetype/scc14/) | Specifies that the data should be decoded with **SCC14** barcode specification |
 | static readonly [SSCC18](../../aspose.barcode.barcoderecognition/decodetype/sscc18/) | Specifies that the data should be decoded with **SSCC18** barcode specification |

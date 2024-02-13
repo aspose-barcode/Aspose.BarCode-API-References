@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecAspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AztecAspectRatioProperty
 type: docs
-weight: 1480
+weight: 1500
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.AztecAspectRatioProperty field
