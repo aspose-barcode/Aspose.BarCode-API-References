@@ -1,26 +1,38 @@
 ---
-title: TwoDComponentType
+title: XDimensionMode
 second_title: Aspose.BarCode for Java API Reference
-description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
+description: 
 type: docs
-weight: 102
-url: /java/com.aspose.barcode.generation/twodcomponenttype/
+weight: 49
+url: /java/com.aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum TwoDComponentType extends Enum<TwoDComponentType>
+public enum XDimensionMode extends Enum<XDimensionMode>
 ```
 
-Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' `String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); generator.save("test.png");`
+Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar.
+
+--------------------
+
+> ```
+> This sample shows how to use XDimension mode
+>   
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setXDimension(XDimensionMode.SMALL);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Auto select type of 2D component |
-| [CC_A](#CC-A) | CC-A type of 2D component. |
-| [CC_B](#CC-B) | CC-B type of 2D component. |
-| [CC_C](#CC-C) | CC-C type of 2D component. |
+| [AUTO](#AUTO) | Value of XDimension is detected by AI (SVM). |
+| [LARGE](#LARGE) | Detects barcodes with large XDimension with quality from BarcodeQuality captured with high-resolution cameras. |
+| [NORMAL](#NORMAL) | Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes. |
+| [SMALL](#SMALL) | Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality |
+| [USE_MINIMAL_X_DIMENSION](#USE-MINIMAL-X-DIMENSION) | Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality |
 ## Methods
 
 | Method | Description |
@@ -28,6 +40,7 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -44,35 +57,43 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final TwoDComponentType AUTO
+public static final XDimensionMode AUTO
 ```
 
 
-Auto select type of 2D component
+Value of XDimension is detected by AI (SVM). At this time the same as Normal
 
-### CC_A {#CC-A}
+### LARGE {#LARGE}
 ```
-public static final TwoDComponentType CC_A
-```
-
-
-CC-A type of 2D component. It is a structural variant of MicroPDF417
-
-### CC_B {#CC-B}
-```
-public static final TwoDComponentType CC_B
+public static final XDimensionMode LARGE
 ```
 
 
-CC-B type of 2D component. It is a MicroPDF417 symbol.
+Detects barcodes with large XDimension with quality from BarcodeQuality captured with high-resolution cameras.
 
-### CC_C {#CC-C}
+### NORMAL {#NORMAL}
 ```
-public static final TwoDComponentType CC_C
+public static final XDimensionMode NORMAL
 ```
 
 
-CC-C type of 2D component. It is a PDF417 symbol.
+Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes.
+
+### SMALL {#SMALL}
+```
+public static final XDimensionMode SMALL
+```
+
+
+Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality
+
+### USE_MINIMAL_X_DIMENSION {#USE-MINIMAL-X-DIMENSION}
+```
+public static final XDimensionMode USE_MINIMAL_X_DIMENSION
+```
+
+
+Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -120,6 +141,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static XDimensionMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[XDimensionMode](../../com.aspose.barcode.barcoderecognition/xdimensionmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -208,7 +244,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static TwoDComponentType valueOf(String name)
+public static XDimensionMode valueOf(String name)
 ```
 
 
@@ -220,17 +256,17 @@ public static TwoDComponentType valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
+[XDimensionMode](../../com.aspose.barcode.barcoderecognition/xdimensionmode)
 ### values() {#values--}
 ```
-public static TwoDComponentType[] values()
+public static XDimensionMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.TwoDComponentType[]
+com.aspose.barcode.barcoderecognition.XDimensionMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

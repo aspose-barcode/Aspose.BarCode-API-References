@@ -52,7 +52,7 @@ Barcode generation parameters.
 | [getPdf417()](#getPdf417--) | PDF417 parameters. |
 | [getPostal()](#getPostal--) | Postal parameters. |
 | [getPostalShortBarHeight()](#getPostalShortBarHeight--) |  |
-| [getQR()](#getQR--) | QR parameters. |
+| [getQR()](#getQR--) | QR, MicroQR and RectMicroQR parameters. |
 | [getQuietZonesWidthInXDim()](#getQuietZonesWidthInXDim--) |  |
 | [getResolution()](#getResolution--) |  |
 | [getRows()](#getRows--) |  |
@@ -447,7 +447,7 @@ public QrParameters getQR()
 ```
 
 
-QR parameters.
+QR, MicroQR and RectMicroQR parameters.
 
 **Returns:**
 [QrParameters](../../com.aspose.barcode.generation/qrparameters)

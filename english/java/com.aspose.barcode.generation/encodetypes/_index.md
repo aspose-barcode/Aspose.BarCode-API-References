@@ -57,7 +57,7 @@ Specifies the type of barcode to encode.
 | [GS_1_COMPOSITE_BAR](#GS-1-COMPOSITE-BAR) | Specifies that the data should be encoded with **GS1 Composite Bar** barcode specification. |
 | [GS_1_DATA_MATRIX](#GS-1-DATA-MATRIX) | 2D barcode symbology DataMatrix with GS1 string format |
 | [GS_1_DOT_CODE](#GS-1-DOT-CODE) | Specifies that the data should be encoded with  **GS1 DotCode**  barcode specification. |
-| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | 2D barcode symbology QR with GS1 string format |
+| [GS_1_HAN_XIN](#GS-1-HAN-XIN) | 2D barcode symbology HabXin with GS1 string format |
 | [GS_1_MICRO_PDF_417](#GS-1-MICRO-PDF-417) | Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification |
 | [GS_1_QR](#GS-1-QR) | 2D barcode symbology QR with GS1 string format |
 | [HAN_XIN](#HAN-XIN) | Specifies that the data should be encoded with **Han Xin** barcode specification |
@@ -84,6 +84,7 @@ Specifies the type of barcode to encode.
 | [MATRIX_2_OF_5](#MATRIX-2-OF-5) | Represents Matrix 2 of 5 BarCode |
 | [MAXI_CODE](#MAXI-CODE) | Specifies that the data should be encoded with  MaxiCode  barcode specification |
 | [MICRO_PDF_417](#MICRO-PDF-417) | Specifies that the data should be encoded with **MicroPdf417** barcode specification |
+| [MICRO_QR](#MICRO-QR) | Specifies that the data should be encoded with **MicroQR Code** barcode specification |
 | [MSI](#MSI) | Specifies that the data should be encoded with **MSI Plessey** barcode specification |
 | [NONE](#NONE) | Unspecified encode type. |
 | [ONE_CODE](#ONE-CODE) | Specifies that the data should be encoded with USPS **OneCode** barcode specification |
@@ -95,6 +96,7 @@ Specifies the type of barcode to encode.
 | [POSTNET](#POSTNET) | Specifies that the data should be encoded with **Postnet** barcode specification |
 | [PZN](#PZN) | Represents PZN barcode.This EncodeType is also known as Pharmacy central number, Pharmazentralnummer |
 | [QR](#QR) | Specifies that the data should be encoded with **QR Code** barcode specification |
+| [RECT_MICRO_QR](#RECT-MICRO-QR) | Specifies that the data should be encoded with **RectMicroQR (rMQR) Code** barcode specification |
 | [RM_4_SCC](#RM-4-SCC) | Represents RM4SCC barcode. |
 | [SCC_14](#SCC-14) | Specifies that the data should be encoded with **SCC14** barcode specification |
 | [SINGAPORE_POST](#SINGAPORE-POST) | Specifies that the data should be encoded with **Singapore Post Barcode** barcode specification |
@@ -416,7 +418,7 @@ public static final SymbologyEncodeType GS_1_HAN_XIN
 ```
 
 
-2D barcode symbology QR with GS1 string format
+2D barcode symbology HabXin with GS1 string format
 
 ### GS_1_MICRO_PDF_417 {#GS-1-MICRO-PDF-417}
 ```
@@ -626,6 +628,14 @@ public static final SymbologyEncodeType MICRO_PDF_417
 
 Specifies that the data should be encoded with **MicroPdf417** barcode specification
 
+### MICRO_QR {#MICRO-QR}
+```
+public static final SymbologyEncodeType MICRO_QR
+```
+
+
+Specifies that the data should be encoded with **MicroQR Code** barcode specification
+
 ### MSI {#MSI}
 ```
 public static final SymbologyEncodeType MSI
@@ -713,6 +723,14 @@ public static final SymbologyEncodeType QR
 
 
 Specifies that the data should be encoded with **QR Code** barcode specification
+
+### RECT_MICRO_QR {#RECT-MICRO-QR}
+```
+public static final SymbologyEncodeType RECT_MICRO_QR
+```
+
+
+Specifies that the data should be encoded with **RectMicroQR (rMQR) Code** barcode specification
 
 ### RM_4_SCC {#RM-4-SCC}
 ```

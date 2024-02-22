@@ -76,7 +76,7 @@ High performance detection preset.
 Default for  QualitySettings.PresetType.HighPerformance 
 
 **Returns:**
-[BarcodeSvmDetectorSettings](../../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings)
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
 ### getHighQuality() {#getHighQuality--}
 ```
 public static BarcodeSvmDetectorSettings getHighQuality()
@@ -88,7 +88,7 @@ High quality detection preset.
 Default for  QualitySettings.PresetType.HighQualityDetection  and  QualitySettings.PresetType.HighQuality 
 
 **Returns:**
-[BarcodeSvmDetectorSettings](../../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings)
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
 ### getMaxQuality() {#getMaxQuality--}
 ```
 public static BarcodeSvmDetectorSettings getMaxQuality()
@@ -100,7 +100,7 @@ Max quality detection preset.
 Default for  QualitySettings.PresetType.MaxQualityDetection  and  QualitySettings.PresetType.MaxBarCodes 
 
 **Returns:**
-[BarcodeSvmDetectorSettings](../../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings)
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
 ### getMedianFilterWindowSize() {#getMedianFilterWindowSize--}
 ```
 public int getMedianFilterWindowSize()
@@ -124,7 +124,7 @@ Normal quality detection preset.
 Default for  QualitySettings.PresetType.NormalQuality 
 
 **Returns:**
-[BarcodeSvmDetectorSettings](../../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings)
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
 ### getRegionLikelihoodThresholdPercent() {#getRegionLikelihoodThresholdPercent--}
 ```
 public float getRegionLikelihoodThresholdPercent()

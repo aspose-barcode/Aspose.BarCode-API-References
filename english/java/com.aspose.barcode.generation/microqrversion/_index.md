@@ -1,26 +1,27 @@
 ---
-title: TwoDComponentType
+title: MicroQRVersion
 second_title: Aspose.BarCode for Java API Reference
-description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
+description: Version of MicroQR Code.
 type: docs
-weight: 102
-url: /java/com.aspose.barcode.generation/twodcomponenttype/
+weight: 90
+url: /java/com.aspose.barcode.generation/microqrversion/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum TwoDComponentType extends Enum<TwoDComponentType>
+public enum MicroQRVersion extends Enum<MicroQRVersion>
 ```
 
-Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' `String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); generator.save("test.png");`
+Version of MicroQR Code. From M1 to M4.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Auto select type of 2D component |
-| [CC_A](#CC-A) | CC-A type of 2D component. |
-| [CC_B](#CC-B) | CC-B type of 2D component. |
-| [CC_C](#CC-C) | CC-C type of 2D component. |
+| [AUTO](#AUTO) | Specifies to automatically pick up the best version for MicroQR. |
+| [M1](#M1) | Specifies version M1 for Micro QR with 11 x 11 modules. |
+| [M2](#M2) | Specifies version M2 for Micro QR with 13 x 13 modules. |
+| [M3](#M3) | Specifies version M3 for Micro QR with 15 x 15 modules. |
+| [M4](#M4) | Specifies version M4 for Micro QR with 17 x 17 modules. |
 ## Methods
 
 | Method | Description |
@@ -28,6 +29,7 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -44,35 +46,43 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final TwoDComponentType AUTO
+public static final MicroQRVersion AUTO
 ```
 
 
-Auto select type of 2D component
+Specifies to automatically pick up the best version for MicroQR. This is default value.
 
-### CC_A {#CC-A}
+### M1 {#M1}
 ```
-public static final TwoDComponentType CC_A
-```
-
-
-CC-A type of 2D component. It is a structural variant of MicroPDF417
-
-### CC_B {#CC-B}
-```
-public static final TwoDComponentType CC_B
+public static final MicroQRVersion M1
 ```
 
 
-CC-B type of 2D component. It is a MicroPDF417 symbol.
+Specifies version M1 for Micro QR with 11 x 11 modules.
 
-### CC_C {#CC-C}
+### M2 {#M2}
 ```
-public static final TwoDComponentType CC_C
+public static final MicroQRVersion M2
 ```
 
 
-CC-C type of 2D component. It is a PDF417 symbol.
+Specifies version M2 for Micro QR with 13 x 13 modules.
+
+### M3 {#M3}
+```
+public static final MicroQRVersion M3
+```
+
+
+Specifies version M3 for Micro QR with 15 x 15 modules.
+
+### M4 {#M4}
+```
+public static final MicroQRVersion M4
+```
+
+
+Specifies version M4 for Micro QR with 17 x 17 modules.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -120,6 +130,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static MicroQRVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -208,7 +233,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static TwoDComponentType valueOf(String name)
+public static MicroQRVersion valueOf(String name)
 ```
 
 
@@ -220,17 +245,17 @@ public static TwoDComponentType valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
+[MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### values() {#values--}
 ```
-public static TwoDComponentType[] values()
+public static MicroQRVersion[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.TwoDComponentType[]
+com.aspose.barcode.generation.MicroQRVersion[]
 ### wait() {#wait--}
 ```
 public final void wait()

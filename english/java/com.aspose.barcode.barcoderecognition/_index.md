@@ -44,6 +44,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [Quadrangle](../com.aspose.barcode.barcoderecognition/quadrangle) | Stores a set of four  Point s that represent a  Quadrangle  region. |
 | [QualitySettings](../com.aspose.barcode.barcoderecognition/qualitysettings) | QualitySettings allows to configure recognition quality and speed manually. |
 | [RecognitionAbortedException](../com.aspose.barcode.barcoderecognition/recognitionabortedexception) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
+| [RecognitionOptions](../com.aspose.barcode.barcoderecognition/recognitionoptions) |  |
 | [SingleDecodeType](../com.aspose.barcode.barcoderecognition/singledecodetype) | Single decode type. |
 
 ## Interfaces
@@ -56,5 +57,10 @@ This package contains tools for 1D/2D barcode recognition.
 
 | Enum | Description |
 | --- | --- |
+| [BarcodeQualityMode](../com.aspose.barcode.barcoderecognition/barcodequalitymode) |  |
 | [ChecksumValidation](../com.aspose.barcode.barcoderecognition/checksumvalidation) |  |
+| [ComplexBackgroundMode](../com.aspose.barcode.barcoderecognition/complexbackgroundmode) |  |
 | [CustomerInformationInterpretingType](../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype) | Defines the interpreting type(C\_TABLE or N\_TABLE) of customer information for AustralianPost BarCode. |
+| [DeconvolutionMode](../com.aspose.barcode.barcoderecognition/deconvolutionmode) |  |
+| [InverseImageMode](../com.aspose.barcode.barcoderecognition/inverseimagemode) |  |
+| [XDimensionMode](../com.aspose.barcode.barcoderecognition/xdimensionmode) |  |
