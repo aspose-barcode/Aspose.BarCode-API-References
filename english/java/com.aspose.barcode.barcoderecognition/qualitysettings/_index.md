@@ -260,7 +260,7 @@ MaxQuality recognition quality preset. This preset is developed to recognize all
 >   
 >   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   {
->       reader.setQualitySettings(QualitySettings.MaxQuality;
+>       reader.setQualitySettings(QualitySettings.getMaxQuality());
 >       for(BarCodeResult result : reader.readBarCodes())
 >           System.out.println(result.getCodeText());
 >   }
@@ -297,7 +297,7 @@ NormalQuality recognition quality preset. Suitable for the most of barcodes
 >   
 >   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   {
->       reader.setQualitySettings(QualitySettings.NormalQuality;
+>       reader.setQualitySettings(QualitySettings.getNormalQuality());
 >       for(BarCodeResult result : reader.readBarCodes())
 >           System.out.println(result.getCodeText());
 >   }
