@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for Java API Reference
 description: pdf417 barcodes error correction level from level 0 to level 9 level 0 means no error correction level 9 means best error correction
 type: docs
-weight: 92
+weight: 93
 url: /java/com.aspose.barcode.generation/pdf417errorlevel/
 ---
 **Inheritance:**

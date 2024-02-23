@@ -1,26 +1,36 @@
 ---
-title: TwoDComponentType
+title: BarcodeQualityMode
 second_title: Aspose.BarCode for Java API Reference
-description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
+description: 
 type: docs
-weight: 102
-url: /java/com.aspose.barcode.generation/twodcomponenttype/
+weight: 43
+url: /java/com.aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum TwoDComponentType extends Enum<TwoDComponentType>
+public enum BarcodeQualityMode extends Enum<BarcodeQualityMode>
 ```
 
-Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' `String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); generator.save("test.png");`
+Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition.
+
+--------------------
+
+> ```
+> This sample shows how to use BarcodeQuality mode
+>   
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setBarcodeQuality(BarcodeQualityMode.LOW);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Auto select type of 2D component |
-| [CC_A](#CC-A) | CC-A type of 2D component. |
-| [CC_B](#CC-B) | CC-B type of 2D component. |
-| [CC_C](#CC-C) | CC-C type of 2D component. |
+| [HIGH](#HIGH) | Enables recognition methods for High quality barcodes. |
+| [LOW](#LOW) | Enables recognition methods for Low quality barcodes. |
+| [NORMAL](#NORMAL) | Enables recognition methods for Common(Normal) quality barcodes. |
 ## Methods
 
 | Method | Description |
@@ -28,6 +38,7 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -42,37 +53,29 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AUTO {#AUTO}
+### HIGH {#HIGH}
 ```
-public static final TwoDComponentType AUTO
-```
-
-
-Auto select type of 2D component
-
-### CC_A {#CC-A}
-```
-public static final TwoDComponentType CC_A
+public static final BarcodeQualityMode HIGH
 ```
 
 
-CC-A type of 2D component. It is a structural variant of MicroPDF417
+Enables recognition methods for High quality barcodes.
 
-### CC_B {#CC-B}
+### LOW {#LOW}
 ```
-public static final TwoDComponentType CC_B
-```
-
-
-CC-B type of 2D component. It is a MicroPDF417 symbol.
-
-### CC_C {#CC-C}
-```
-public static final TwoDComponentType CC_C
+public static final BarcodeQualityMode LOW
 ```
 
 
-CC-C type of 2D component. It is a PDF417 symbol.
+Enables recognition methods for Low quality barcodes.
+
+### NORMAL {#NORMAL}
+```
+public static final BarcodeQualityMode NORMAL
+```
+
+
+Enables recognition methods for Common(Normal) quality barcodes.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -120,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarcodeQualityMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BarcodeQualityMode](../../com.aspose.barcode.barcoderecognition/barcodequalitymode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -208,7 +226,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static TwoDComponentType valueOf(String name)
+public static BarcodeQualityMode valueOf(String name)
 ```
 
 
@@ -220,17 +238,17 @@ public static TwoDComponentType valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
+[BarcodeQualityMode](../../com.aspose.barcode.barcoderecognition/barcodequalitymode)
 ### values() {#values--}
 ```
-public static TwoDComponentType[] values()
+public static BarcodeQualityMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.TwoDComponentType[]
+com.aspose.barcode.barcoderecognition.BarcodeQualityMode[]
 ### wait() {#wait--}
 ```
 public final void wait()
