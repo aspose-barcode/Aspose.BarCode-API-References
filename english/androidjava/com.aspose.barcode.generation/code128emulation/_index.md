@@ -1,25 +1,24 @@
 ---
-title: Pdf417MacroTerminator
+title: Code128Emulation
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: 
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 74
+url: /androidjava/com.aspose.barcode.generation/code128emulation/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum Code128Emulation extends Enum<Code128Emulation>
 ```
-
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [CODE_903](#CODE-903) |  |
+| [CODE_904](#CODE-904) |  |
+| [CODE_905](#CODE-905) |  |
+| [NONE](#NONE) |  |
 ## Methods
 
 | Method | Description |
@@ -36,34 +35,35 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [notifyAll()](#notifyAll--) |  |
 | [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
-| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [valueOf(int arg0)](#valueOf-int-) |  |
+| [valueOf(String arg0)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AUTO {#AUTO}
+### CODE_903 {#CODE-903}
 ```
-public static final Pdf417MacroTerminator AUTO
+public static final Code128Emulation CODE_903
 ```
 
 
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
+### CODE_904 {#CODE-904}
+```
+public static final Code128Emulation CODE_904
+```
+
+
+### CODE_905 {#CODE-905}
+```
+public static final Code128Emulation CODE_905
+```
+
 
 ### NONE {#NONE}
 ```
-public static final Pdf417MacroTerminator NONE
+public static final Code128Emulation NONE
 ```
 
-
-The terminator will not be added.
-
-### SET {#SET}
-```
-public static final Pdf417MacroTerminator SET
-```
-
-
-The terminator will be added.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -197,9 +197,9 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### valueOf(String name) {#valueOf-java.lang.String-}
+### valueOf(int arg0) {#valueOf-int-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static Code128Emulation valueOf(int arg0)
 ```
 
 
@@ -208,20 +208,35 @@ public static Pdf417MacroTerminator valueOf(String name)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String |  |
+| arg0 | int |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+com.aspose.barcode.generation.Code128Emulation
+### valueOf(String arg0) {#valueOf-java.lang.String-}
+```
+public static Code128Emulation valueOf(String arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.String |  |
+
+**Returns:**
+com.aspose.barcode.generation.Code128Emulation
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static Code128Emulation[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.generation.Code128Emulation[]
 ### wait() {#wait--}
 ```
 public final void wait()

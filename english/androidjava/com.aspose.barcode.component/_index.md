@@ -1,14 +1,11 @@
 ---
 title: com.aspose.barcode.component
 second_title: Aspose.BarCode for Android via Java API Reference
-description: This package contains component designed for placing into layout of customers application
+description: 
 type: docs
 weight: 13
 url: /androidjava/com.aspose.barcode.component/
 ---
-
-This package contains component designed for placing into layout of customer's application
-
 
 ## Classes
 

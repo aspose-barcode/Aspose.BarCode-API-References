@@ -3,7 +3,7 @@ title: QREncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for QR barcodes.
 type: docs
-weight: 95
+weight: 96
 url: /androidjava/com.aspose.barcode.generation/qrencodemode/
 ---
 **Inheritance:**
@@ -127,7 +127,7 @@ public static final QREncodeMode ECI_ENCODING
 ```
 
 
-Encode codetext with value set in the ECI\_ENCODING property. It can be problems with some old (pre 2006) barcode scaners.
+Encode codetext with value set in the ECI\_ENCODING property. It can be problems with some old (pre 2006) barcode scaners. This mode is not supported by MicroQR barcodes.
 
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```
@@ -158,6 +158,8 @@ ECI identifiers are set as single slash and six digits identifier "\\000026" - U
 TO disable current ECI mode and convert to default JIS8 mode zero mode ECI indetifier is set. "\\000000"
 
 All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+
+This mode is not supported by MicroQR barcodes.
 
 ### UTF_16_BEBOM {#UTF-16-BEBOM}
 ```

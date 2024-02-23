@@ -34,7 +34,7 @@ Specific parameters.
 | [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters . |
 | [getPdf417()](#getPdf417--) | Gets Pdf417 parameters . |
 | [getPostal()](#getPostal--) | Gets Postal parameters . |
-| [getQR()](#getQR--) | Gets QR parameters . |
+| [getQR()](#getQR--) | Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . |
 | [getSupplement()](#getSupplement--) | Gets Supplement parameters . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -224,7 +224,7 @@ public QrParametersUI getQR()
 ```
 
 
-Gets QR parameters . Used for QR.
+Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . Used for QR.
 
 **Returns:**
 [QrParametersUI](../../com.aspose.barcode.component/qrparametersui)

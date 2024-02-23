@@ -1,25 +1,38 @@
 ---
-title: Pdf417MacroTerminator
+title: XDimensionMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: 
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 51
+url: /androidjava/com.aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum XDimensionMode extends Enum<XDimensionMode>
 ```
 
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
+Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar.
+
+--------------------
+
+> ```
+> This sample shows how to use XDimension mode
+>   
+>   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setXDimension(XDimensionMode.SMALL);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [AUTO](#AUTO) | Value of XDimension is detected by AI (SVM). |
+| [LARGE](#LARGE) | Detects barcodes with large XDimension with quality from BarcodeQuality captured with high-resolution cameras. |
+| [NORMAL](#NORMAL) | Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes. |
+| [SMALL](#SMALL) | Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality |
+| [USE_MINIMAL_X_DIMENSION](#USE-MINIMAL-X-DIMENSION) | Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality |
 ## Methods
 
 | Method | Description |
@@ -27,6 +40,7 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -43,27 +57,43 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final Pdf417MacroTerminator AUTO
+public static final XDimensionMode AUTO
 ```
 
 
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
+Value of XDimension is detected by AI (SVM). At this time the same as Normal
 
-### NONE {#NONE}
+### LARGE {#LARGE}
 ```
-public static final Pdf417MacroTerminator NONE
-```
-
-
-The terminator will not be added.
-
-### SET {#SET}
-```
-public static final Pdf417MacroTerminator SET
+public static final XDimensionMode LARGE
 ```
 
 
-The terminator will be added.
+Detects barcodes with large XDimension with quality from BarcodeQuality captured with high-resolution cameras.
+
+### NORMAL {#NORMAL}
+```
+public static final XDimensionMode NORMAL
+```
+
+
+Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes.
+
+### SMALL {#SMALL}
+```
+public static final XDimensionMode SMALL
+```
+
+
+Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality
+
+### USE_MINIMAL_X_DIMENSION {#USE-MINIMAL-X-DIMENSION}
+```
+public static final XDimensionMode USE_MINIMAL_X_DIMENSION
+```
+
+
+Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,6 +141,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static XDimensionMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[XDimensionMode](../../com.aspose.barcode.barcoderecognition/xdimensionmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +244,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static XDimensionMode valueOf(String name)
 ```
 
 
@@ -211,17 +256,17 @@ public static Pdf417MacroTerminator valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+[XDimensionMode](../../com.aspose.barcode.barcoderecognition/xdimensionmode)
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static XDimensionMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.barcoderecognition.XDimensionMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

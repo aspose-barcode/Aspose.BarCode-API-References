@@ -19,7 +19,7 @@ Specify the type of barcode to read.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -113,6 +113,7 @@ Specify the type of barcode to read.
 | [POSTNET](#POSTNET) | Specifies that the data should be decoded with  **Postnet**  barcode specification |
 | [PZN](#PZN) | Specifies that the data should be decoded with  **PZN**  barcode specification. |
 | [QR](#QR) | Specifies that the data should be decoded with  **QR Code**  barcode specification |
+| [RECT_MICRO_QR](#RECT-MICRO-QR) | Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barcode specification |
 | [RM_4_SCC](#RM-4-SCC) | Specifies that the data should be decoded with  **RM4SCC**  barcode specification. |
 | [SCC_14](#SCC-14) | Specifies that the data should be decoded with  **SCC14**  barcode specification |
 | [SSCC_18](#SSCC-18) | Specifies that the data should be decoded with  **SSCC18**  barcode specification |
@@ -777,6 +778,14 @@ public static final SingleDecodeType QR
 
 Specifies that the data should be decoded with  **QR Code**  barcode specification
 
+### RECT_MICRO_QR {#RECT-MICRO-QR}
+```
+public static final SingleDecodeType RECT_MICRO_QR
+```
+
+
+Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barcode specification
+
 ### RM_4_SCC {#RM-4-SCC}
 ```
 public static final SingleDecodeType RM_4_SCC
@@ -1009,8 +1018,8 @@ Converts the string representation of a SingleDecodeType to its instance. A retu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a SingleDecodeType representation to convert. |
-| result | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) | An actual SingleDecodeType returns, when conversion has completed successfully; otherwise it returns indefinite type.  or SingleDecodeType (-1, "None"). |
+| parsingType | java.lang.String | A string containing a SingleDecodeType in the format as "EAN8" or "EAN13" or "CodaBar"... to convert. |
+| result | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) |  |
 
 **Returns:**
 boolean - **true** if s was converted successfully; otherwise, **false**.
@@ -1053,9 +1062,7 @@ Converts the string representation of a MultyDecodeType to its instance. A retur
 | parsingType | java.lang.String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
 
 **Returns:**
-[MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully;
-
-otherwise it returns indefinite type. or MultyDecodeType ("NONE").
+[MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultyDecodeType(DecodeType.None)
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
 ```
 public static SingleDecodeType tryParseSingleDecodeType(String parsingType)
@@ -1067,12 +1074,10 @@ Converts the string representation of a SingleDecodeType to its instance. A retu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string in the format as "Index:-1; Name:NONE" to convert. |
+| parsingType | java.lang.String | A string containing a SingleDecodeType in the format as "EAN8" or "EAN13" or "CodaBar"... to convert. |
 
 **Returns:**
-[SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) - An actual SingleDecodeType returns, when conversion has completed successfully;
-
-otherwise it returns indefinite type. or SingleDecodeType (-1, "NONE").
+[SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) - An actual SingleDecodeType returns, when conversion has completed successfully; otherwise it returns indefinite type: DecodeType.None.
 ### wait() {#wait--}
 ```
 public final void wait()

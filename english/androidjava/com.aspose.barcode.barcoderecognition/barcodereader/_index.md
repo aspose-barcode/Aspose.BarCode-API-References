@@ -35,6 +35,10 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 | [BarCodeReader(Bitmap image, BaseDecodeType[] decodeTypes)](#BarCodeReader-android.graphics.Bitmap-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the  BarCodeReader  class. |
 | [BarCodeReader(Bitmap image, BaseDecodeType type)](#BarCodeReader-android.graphics.Bitmap-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
 | [BarCodeReader(Bitmap image, Rect area, BaseDecodeType[] decodeTypes)](#BarCodeReader-android.graphics.Bitmap-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the  BarCodeReader  class. |
+| [BarCodeReader(String imagePath, Rect[] areas, BaseDecodeType type)](#BarCodeReader-java.lang.String-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
+| [BarCodeReader(InputStream stream, Rect area, BaseDecodeType type)](#BarCodeReader-java.io.InputStream-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
+| [BarCodeReader(String imagePath, Rect area, BaseDecodeType type)](#BarCodeReader-java.lang.String-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
+| [BarCodeReader(InputStream stream, Rect[] areas, BaseDecodeType type)](#BarCodeReader-java.io.InputStream-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
 | [BarCodeReader(Bitmap image, Rect[] areas, BaseDecodeType type)](#BarCodeReader-android.graphics.Bitmap-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-) | Initializes a new instance of the  BarCodeReader  class. |
 | [BarCodeReader(Bitmap image, Rect area, BaseDecodeType type)](#BarCodeReader-android.graphics.Bitmap-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType-) |  |
 | [BarCodeReader(String filename)](#BarCodeReader-java.lang.String-) | Initializes a new instance of the  BarCodeReader  class from file. |
@@ -214,6 +218,122 @@ Initializes a new instance of the  BarCodeReader  class.
 | image | android.graphics.Bitmap | The image. |
 | area | android.graphics.Rect | The area for recognition. |
 | decodeTypes | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) | Decode types. |
+
+### BarCodeReader(String imagePath, Rect[] areas, BaseDecodeType type) {#BarCodeReader-java.lang.String-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-}
+```
+public BarCodeReader(String imagePath, Rect[] areas, BaseDecodeType type)
+```
+
+
+Initializes a new instance of the  BarCodeReader  class.
+
+--------------------
+
+> ```
+> This sample shows how to detect Code39 and Code128 barcodes.
+>  
+>  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  for(BarCodeResult result : reader.readBarCodes())
+>  {
+>     System.out.println("BarCode Type: " + result.getCodeTypeName());
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imagePath | java.lang.String | The image path. |
+| areas | android.graphics.Rect[] | The area for recognition. |
+| type | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The decode type. |
+
+### BarCodeReader(InputStream stream, Rect area, BaseDecodeType type) {#BarCodeReader-java.io.InputStream-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
+```
+public BarCodeReader(InputStream stream, Rect area, BaseDecodeType type)
+```
+
+
+Initializes a new instance of the  BarCodeReader  class.
+
+--------------------
+
+> ```
+> This sample shows how to detect Code39 and Code128 barcodes.
+>  
+>  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  for(BarCodeResult result : reader.readBarCodes())
+>  {
+>     System.out.println("BarCode Type: " + result.getCodeTypeName());
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The image stream. |
+| area | android.graphics.Rect | The area for recognition. |
+| type | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The decode type. |
+
+### BarCodeReader(String imagePath, Rect area, BaseDecodeType type) {#BarCodeReader-java.lang.String-android.graphics.Rect-com.aspose.barcode.barcoderecognition.BaseDecodeType-}
+```
+public BarCodeReader(String imagePath, Rect area, BaseDecodeType type)
+```
+
+
+Initializes a new instance of the  BarCodeReader  class.
+
+--------------------
+
+> ```
+> This sample shows how to detect Code39 and Code128 barcodes.
+>  
+>  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  for(BarCodeResult result : reader.readBarCodes())
+>  {
+>     System.out.println("BarCode Type: " + result.getCodeTypeName());
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imagePath | java.lang.String | The image path. |
+| area | android.graphics.Rect | The area for recognition. |
+| type | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The decode type. |
+
+### BarCodeReader(InputStream stream, Rect[] areas, BaseDecodeType type) {#BarCodeReader-java.io.InputStream-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-}
+```
+public BarCodeReader(InputStream stream, Rect[] areas, BaseDecodeType type)
+```
+
+
+Initializes a new instance of the  BarCodeReader  class.
+
+--------------------
+
+> ```
+> This sample shows how to detect Code39 and Code128 barcodes.
+>  
+>  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  for(BarCodeResult result : reader.readBarCodes())
+>  {
+>     System.out.println("BarCode Type: " + result.getCodeTypeName());
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The image stream. |
+| areas | android.graphics.Rect[] | The area for recognition. |
+| type | [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) | The decode type. |
 
 ### BarCodeReader(Bitmap image, Rect[] areas, BaseDecodeType type) {#BarCodeReader-android.graphics.Bitmap-android.graphics.Rect---com.aspose.barcode.barcoderecognition.BaseDecodeType-}
 ```

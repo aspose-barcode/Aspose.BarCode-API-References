@@ -1,25 +1,27 @@
 ---
-title: Pdf417MacroTerminator
+title: MicroQRVersion
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: Version of MicroQR Code.
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 91
+url: /androidjava/com.aspose.barcode.generation/microqrversion/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum MicroQRVersion extends Enum<MicroQRVersion>
 ```
 
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
+Version of MicroQR Code. From M1 to M4.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [AUTO](#AUTO) | Specifies to automatically pick up the best version for MicroQR. |
+| [M1](#M1) | Specifies version M1 for Micro QR with 11 x 11 modules. |
+| [M2](#M2) | Specifies version M2 for Micro QR with 13 x 13 modules. |
+| [M3](#M3) | Specifies version M3 for Micro QR with 15 x 15 modules. |
+| [M4](#M4) | Specifies version M4 for Micro QR with 17 x 17 modules. |
 ## Methods
 
 | Method | Description |
@@ -27,6 +29,7 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -43,27 +46,43 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final Pdf417MacroTerminator AUTO
+public static final MicroQRVersion AUTO
 ```
 
 
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
+Specifies to automatically pick up the best version for MicroQR. This is default value.
 
-### NONE {#NONE}
+### M1 {#M1}
 ```
-public static final Pdf417MacroTerminator NONE
-```
-
-
-The terminator will not be added.
-
-### SET {#SET}
-```
-public static final Pdf417MacroTerminator SET
+public static final MicroQRVersion M1
 ```
 
 
-The terminator will be added.
+Specifies version M1 for Micro QR with 11 x 11 modules.
+
+### M2 {#M2}
+```
+public static final MicroQRVersion M2
+```
+
+
+Specifies version M2 for Micro QR with 13 x 13 modules.
+
+### M3 {#M3}
+```
+public static final MicroQRVersion M3
+```
+
+
+Specifies version M3 for Micro QR with 15 x 15 modules.
+
+### M4 {#M4}
+```
+public static final MicroQRVersion M4
+```
+
+
+Specifies version M4 for Micro QR with 17 x 17 modules.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,6 +130,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static MicroQRVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +233,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static MicroQRVersion valueOf(String name)
 ```
 
 
@@ -211,17 +245,17 @@ public static Pdf417MacroTerminator valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+[MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static MicroQRVersion[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.generation.MicroQRVersion[]
 ### wait() {#wait--}
 ```
 public final void wait()

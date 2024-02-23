@@ -1,25 +1,36 @@
 ---
-title: Pdf417MacroTerminator
+title: DeconvolutionMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: 
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 48
+url: /androidjava/com.aspose.barcode.barcoderecognition/deconvolutionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum DeconvolutionMode extends Enum<DeconvolutionMode>
 ```
 
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
+Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convoluted) by any natural function like blur, during obtaining image by camera. Because we cannot detect image function which corrupt the image, we have to check most well know functions like sharp or mathematical morphology.
+
+--------------------
+
+> ```
+> This sample shows how to use Deconvolution mode
+>   
+>   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setDeconvolution(DeconvolutionMode.SLOW);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [FAST](#FAST) | Enables fast deconvolution methods for high quality images. |
+| [NORMAL](#NORMAL) | Enables normal deconvolution methods for common images. |
+| [SLOW](#SLOW) | Enables slow deconvolution methods for low quality images. |
 ## Methods
 
 | Method | Description |
@@ -27,6 +38,7 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -41,29 +53,29 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AUTO {#AUTO}
+### FAST {#FAST}
 ```
-public static final Pdf417MacroTerminator AUTO
-```
-
-
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
-
-### NONE {#NONE}
-```
-public static final Pdf417MacroTerminator NONE
+public static final DeconvolutionMode FAST
 ```
 
 
-The terminator will not be added.
+Enables fast deconvolution methods for high quality images.
 
-### SET {#SET}
+### NORMAL {#NORMAL}
 ```
-public static final Pdf417MacroTerminator SET
+public static final DeconvolutionMode NORMAL
 ```
 
 
-The terminator will be added.
+Enables normal deconvolution methods for common images.
+
+### SLOW {#SLOW}
+```
+public static final DeconvolutionMode SLOW
+```
+
+
+Enables slow deconvolution methods for low quality images.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static DeconvolutionMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[DeconvolutionMode](../../com.aspose.barcode.barcoderecognition/deconvolutionmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +226,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static DeconvolutionMode valueOf(String name)
 ```
 
 
@@ -211,17 +238,17 @@ public static Pdf417MacroTerminator valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+[DeconvolutionMode](../../com.aspose.barcode.barcoderecognition/deconvolutionmode)
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static DeconvolutionMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.barcoderecognition.DeconvolutionMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

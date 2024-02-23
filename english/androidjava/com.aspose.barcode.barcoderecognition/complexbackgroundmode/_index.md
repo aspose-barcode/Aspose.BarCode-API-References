@@ -1,25 +1,36 @@
 ---
-title: Pdf417MacroTerminator
+title: ComplexBackgroundMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: 
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 46
+url: /androidjava/com.aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum ComplexBackgroundMode extends Enum<ComplexBackgroundMode>
 ```
 
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
+Mode which enables or disables additional recognition of color barcodes on color images.
+
+--------------------
+
+> ```
+> This sample shows how to use ComplexBackground mode
+>   
+>   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setComplexBackground(ComplexBackgroundMode.ENABLED);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [AUTO](#AUTO) | At this time the same as Disabled. |
+| [DISABLED](#DISABLED) | Disables additional recognition of color barcodes on color images. |
+| [ENABLED](#ENABLED) | Enables additional recognition of color barcodes on color images. |
 ## Methods
 
 | Method | Description |
@@ -27,6 +38,7 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -43,27 +55,27 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
-public static final Pdf417MacroTerminator AUTO
+public static final ComplexBackgroundMode AUTO
 ```
 
 
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
+At this time the same as Disabled. Disables additional recognition of color barcodes on color images.
 
-### NONE {#NONE}
+### DISABLED {#DISABLED}
 ```
-public static final Pdf417MacroTerminator NONE
-```
-
-
-The terminator will not be added.
-
-### SET {#SET}
-```
-public static final Pdf417MacroTerminator SET
+public static final ComplexBackgroundMode DISABLED
 ```
 
 
-The terminator will be added.
+Disables additional recognition of color barcodes on color images.
+
+### ENABLED {#ENABLED}
+```
+public static final ComplexBackgroundMode ENABLED
+```
+
+
+Enables additional recognition of color barcodes on color images.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static ComplexBackgroundMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[ComplexBackgroundMode](../../com.aspose.barcode.barcoderecognition/complexbackgroundmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +226,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static ComplexBackgroundMode valueOf(String name)
 ```
 
 
@@ -211,17 +238,17 @@ public static Pdf417MacroTerminator valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+[ComplexBackgroundMode](../../com.aspose.barcode.barcoderecognition/complexbackgroundmode)
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static ComplexBackgroundMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.barcoderecognition.ComplexBackgroundMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

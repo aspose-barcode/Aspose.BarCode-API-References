@@ -1,25 +1,36 @@
 ---
-title: Pdf417MacroTerminator
+title: BarcodeQualityMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment.
+description: 
 type: docs
-weight: 95
-url: /androidjava/com.aspose.barcode.generation/pdf417macroterminator/
+weight: 44
+url: /androidjava/com.aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum Pdf417MacroTerminator extends Enum<Pdf417MacroTerminator>
+public enum BarcodeQualityMode extends Enum<BarcodeQualityMode>
 ```
 
-Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417.
+Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition.
+
+--------------------
+
+> ```
+> This sample shows how to use BarcodeQuality mode
+>   
+>   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   reader.getQualitySettings().setBarcodeQuality(BarcodeQualityMode.LOW);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println(result.getCodeText());
+> ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. |
-| [NONE](#NONE) | The terminator will not be added. |
-| [SET](#SET) | The terminator will be added. |
+| [HIGH](#HIGH) | Enables recognition methods for High quality barcodes. |
+| [LOW](#LOW) | Enables recognition methods for Low quality barcodes. |
+| [NORMAL](#NORMAL) | Enables recognition methods for Common(Normal) quality barcodes. |
 ## Methods
 
 | Method | Description |
@@ -27,6 +38,7 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -41,29 +53,29 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AUTO {#AUTO}
+### HIGH {#HIGH}
 ```
-public static final Pdf417MacroTerminator AUTO
-```
-
-
-The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
-
-### NONE {#NONE}
-```
-public static final Pdf417MacroTerminator NONE
+public static final BarcodeQualityMode HIGH
 ```
 
 
-The terminator will not be added.
+Enables recognition methods for High quality barcodes.
 
-### SET {#SET}
+### LOW {#LOW}
 ```
-public static final Pdf417MacroTerminator SET
+public static final BarcodeQualityMode LOW
 ```
 
 
-The terminator will be added.
+Enables recognition methods for Low quality barcodes.
+
+### NORMAL {#NORMAL}
+```
+public static final BarcodeQualityMode NORMAL
+```
+
+
+Enables recognition methods for Common(Normal) quality barcodes.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarcodeQualityMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BarcodeQualityMode](../../com.aspose.barcode.barcoderecognition/barcodequalitymode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +226,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static Pdf417MacroTerminator valueOf(String name)
+public static BarcodeQualityMode valueOf(String name)
 ```
 
 
@@ -211,17 +238,17 @@ public static Pdf417MacroTerminator valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Pdf417MacroTerminator](../../com.aspose.barcode.generation/pdf417macroterminator)
+[BarcodeQualityMode](../../com.aspose.barcode.barcoderecognition/barcodequalitymode)
 ### values() {#values--}
 ```
-public static Pdf417MacroTerminator[] values()
+public static BarcodeQualityMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.Pdf417MacroTerminator[]
+com.aspose.barcode.barcoderecognition.BarcodeQualityMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

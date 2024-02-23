@@ -163,7 +163,7 @@ Converts the string representation of a SingleDecodeType to its instance. A retu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a SingleDecodeType representation to convert. |
+| parsingType | java.lang.String | A string containing a SingleDecodeType in the format as "EAN8" or "EAN13" or "CodaBar"... to convert. |
 
 **Returns:**
 [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) - An actual SingleDecodeType is returned, when conversion has completed successfully;

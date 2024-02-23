@@ -21,22 +21,26 @@ QR parameters.
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
 | [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
+| [getMicroQRVersion()](#getMicroQRVersion--) | Version of MicroQR Code. |
 | [getQrECIEncoding()](#getQrECIEncoding--) | Extended Channel Interpretation Identifiers. |
 | [getQrEncodeMode()](#getQrEncodeMode--) | QR symbology type of BarCode's encoding mode. |
 | [getQrEncodeType()](#getQrEncodeType--) | QR / MicroQR selector mode. |
 | [getQrErrorLevel()](#getQrErrorLevel--) | Level of Reed-Solomon error correction for QR barcode. |
 | [getQrVersion()](#getQrVersion--) | Version of QR Code. |
+| [getRectMicroQrVersion()](#getRectMicroQrVersion--) | Version of RectMicroQR Code. |
 | [getStructuredAppend()](#getStructuredAppend--) | QR structured append parameters. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
 | [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
+| [setMicroQRVersion(MicroQRVersion value)](#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-) | Version of MicroQR Code. |
 | [setQrECIEncoding(int value)](#setQrECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
 | [setQrEncodeMode(QREncodeMode value)](#setQrEncodeMode-com.aspose.barcode.generation.QREncodeMode-) | QR symbology type of BarCode's encoding mode. |
 | [setQrEncodeType(QREncodeType value)](#setQrEncodeType-com.aspose.barcode.generation.QREncodeType-) | QR / MicroQR selector mode. |
 | [setQrErrorLevel(QRErrorLevel value)](#setQrErrorLevel-com.aspose.barcode.generation.QRErrorLevel-) | Level of Reed-Solomon error correction for QR barcode. |
 | [setQrVersion(QRVersion value)](#setQrVersion-com.aspose.barcode.generation.QRVersion-) | Version of QR Code. |
+| [setRectMicroQrVersion(RectMicroQRVersion value)](#setRectMicroQrVersion-com.aspose.barcode.generation.RectMicroQRVersion-) | Version of RectMicroQR Code. |
 | [setStructuredAppend(QrStructuredAppendParameters value)](#setStructuredAppend-com.aspose.barcode.generation.QrStructuredAppendParameters-) | QR structured append parameters. |
 | [toString()](#toString--) | Returns a human-readable string representation of this  QrParameters . |
 | [wait()](#wait--) |  |
@@ -87,6 +91,16 @@ Gets the encoding of codetext. Default value: UTF-8
 
 **Returns:**
 java.nio.charset.Charset
+### getMicroQRVersion() {#getMicroQRVersion--}
+```
+public MicroQRVersion getMicroQRVersion()
+```
+
+
+Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto.
+
+**Returns:**
+[MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### getQrECIEncoding() {#getQrECIEncoding--}
 ```
 public int getQrECIEncoding()
@@ -133,17 +147,27 @@ public QRVersion getQrVersion()
 ```
 
 
-Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. Default value is QRVersion.AUTO.
+Version of QR Code. From Version1 to Version40. Default value is QRVersion.AUTO.
 
 **Returns:**
 [QRVersion](../../com.aspose.barcode.generation/qrversion)
+### getRectMicroQrVersion() {#getRectMicroQrVersion--}
+```
+public RectMicroQRVersion getRectMicroQrVersion()
+```
+
+
+Version of RectMicroQR Code. From version R7x59 to version R17x139. Default value is RectMicroQRVersion.Auto.
+
+**Returns:**
+[RectMicroQRVersion](../../com.aspose.barcode.generation/rectmicroqrversion)
 ### getStructuredAppend() {#getStructuredAppend--}
 ```
 public QrStructuredAppendParameters getStructuredAppend()
 ```
 
 
-QR structured append parameters.
+QR structured append parameters. Structured append mode is not suppported by MicroQR and RectMicroQR barcodes.
 
 **Returns:**
 [QrStructuredAppendParameters](../../com.aspose.barcode.generation/qrstructuredappendparameters)
@@ -198,6 +222,19 @@ Sets the encoding of codetext. Default value: UTF-8
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
+
+### setMicroQRVersion(MicroQRVersion value) {#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-}
+```
+public void setMicroQRVersion(MicroQRVersion value)
+```
+
+
+Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MicroQRVersion](../../com.aspose.barcode.generation/microqrversion) |  |
 
 ### setQrECIEncoding(int value) {#setQrECIEncoding-int-}
 ```
@@ -257,12 +294,25 @@ public void setQrVersion(QRVersion value)
 ```
 
 
-Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. Default value is QRVersion.AUTO.
+Version of QR Code. From Version1 to Version40. Default value is QRVersion.AUTO.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [QRVersion](../../com.aspose.barcode.generation/qrversion) |  |
+
+### setRectMicroQrVersion(RectMicroQRVersion value) {#setRectMicroQrVersion-com.aspose.barcode.generation.RectMicroQRVersion-}
+```
+public void setRectMicroQrVersion(RectMicroQRVersion value)
+```
+
+
+Version of RectMicroQR Code. From version R7x59 to version R17x139. Default value is RectMicroQRVersion.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [RectMicroQRVersion](../../com.aspose.barcode.generation/rectmicroqrversion) |  |
 
 ### setStructuredAppend(QrStructuredAppendParameters value) {#setStructuredAppend-com.aspose.barcode.generation.QrStructuredAppendParameters-}
 ```
@@ -270,7 +320,7 @@ public void setStructuredAppend(QrStructuredAppendParameters value)
 ```
 
 
-QR structured append parameters.
+QR structured append parameters. Structured append mode is not suppported by MicroQR and RectMicroQR barcodes.
 
 **Parameters:**
 | Parameter | Type | Description |
