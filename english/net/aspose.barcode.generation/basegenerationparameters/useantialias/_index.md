@@ -3,7 +3,7 @@ title: BaseGenerationParameters.UseAntiAlias
 second_title: Aspose.BarCode for .NET API Reference
 description: BaseGenerationParameters property. Gets or sets a value indicating whether is used antialiasing mode to render image
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.generation/basegenerationparameters/useantialias/
 ---
 ## BaseGenerationParameters.UseAntiAlias property

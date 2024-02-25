@@ -105,6 +105,7 @@ This package contains tools for generating barcode.
 | [ITF14BorderType](../com.aspose.barcode.generation/itf14bordertype) | ITF14 barcode's border type |
 | [MacroCharacter](../com.aspose.barcode.generation/macrocharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [MaxiCodeEncodeMode](../com.aspose.barcode.generation/maxicodeencodemode) | Encoding mode for MaxiCode barcodes. |
+| [MicroQRVersion](../com.aspose.barcode.generation/microqrversion) | Version of MicroQR Code. |
 | [PatchFormat](../com.aspose.barcode.generation/patchformat) | PatchCode format. |
 | [Pdf417CompactionMode](../com.aspose.barcode.generation/pdf417compactionmode) | Pdf417 barcode's compation mode |
 | [Pdf417ErrorLevel](../com.aspose.barcode.generation/pdf417errorlevel) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction |
@@ -113,6 +114,7 @@ This package contains tools for generating barcode.
 | [QREncodeType](../com.aspose.barcode.generation/qrencodetype) | QR / MicroQR selector mode. |
 | [QRErrorLevel](../com.aspose.barcode.generation/qrerrorlevel) | Level of Reed-Solomon error correction. |
 | [QRVersion](../com.aspose.barcode.generation/qrversion) | Version of QR Code. |
+| [RectMicroQRVersion](../com.aspose.barcode.generation/rectmicroqrversion) | Version of RectMicroQR Code. |
 | [StringAlignment](../com.aspose.barcode.generation/stringalignment) |  |
 | [TextAlignment](../com.aspose.barcode.generation/textalignment) | Text alignment. |
 | [TextRenderingHint](../com.aspose.barcode.generation/textrenderinghint) |  |

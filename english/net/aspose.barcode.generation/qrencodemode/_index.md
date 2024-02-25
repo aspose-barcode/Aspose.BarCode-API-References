@@ -3,7 +3,7 @@ title: Enum QREncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QREncodeMode enum. Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncoding  Encoding.UTF8 for Latin symbols or digits and Utf8BOM for Unicode symbols
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enumeration

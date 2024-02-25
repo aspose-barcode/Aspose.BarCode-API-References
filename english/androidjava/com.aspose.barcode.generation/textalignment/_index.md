@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Text alignment.
 type: docs
-weight: 100
+weight: 102
 url: /androidjava/com.aspose.barcode.generation/textalignment/
 ---
 **Inheritance:**

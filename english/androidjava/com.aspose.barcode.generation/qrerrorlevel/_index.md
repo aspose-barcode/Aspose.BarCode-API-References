@@ -3,7 +3,7 @@ title: QRErrorLevel
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Level of Reed-Solomon error correction.
 type: docs
-weight: 97
+weight: 98
 url: /androidjava/com.aspose.barcode.generation/qrerrorlevel/
 ---
 **Inheritance:**
@@ -17,10 +17,10 @@ Level of Reed-Solomon error correction. From low to high: LEVEL\_L, LEVEL\_M, LE
 
 | Field | Description |
 | --- | --- |
-| [LEVEL_H](#LEVEL-H) | Allows recovery of 30% of the code text |
-| [LEVEL_L](#LEVEL-L) | Allows recovery of 7% of the code text |
-| [LEVEL_M](#LEVEL-M) | Allows recovery of 15% of the code text |
-| [LEVEL_Q](#LEVEL-Q) | Allows recovery of 25% of the code text |
+| [LEVEL_H](#LEVEL-H) | Error correction Level H can be applied to QR and RectMicroQR barcodes. |
+| [LEVEL_L](#LEVEL-L) | Error correction Level L can by applied to QR and MicroQR barcodes. |
+| [LEVEL_M](#LEVEL-M) | Error correction Level M can be applied to QR barcodes, RectMicroQR barcodes and MicroQR barcodes with versions from M2 to M4. |
+| [LEVEL_Q](#LEVEL-Q) | Error correction Level Q can be applied to QR barcodes and MicroQR barcodes with version M4. |
 ## Methods
 
 | Method | Description |
@@ -48,7 +48,7 @@ public static final QRErrorLevel LEVEL_H
 ```
 
 
-Allows recovery of 30% of the code text
+Error correction Level H can be applied to QR and RectMicroQR barcodes. Allows recovery of 30% of the code text
 
 ### LEVEL_L {#LEVEL-L}
 ```
@@ -56,7 +56,7 @@ public static final QRErrorLevel LEVEL_L
 ```
 
 
-Allows recovery of 7% of the code text
+Error correction Level L can by applied to QR and MicroQR barcodes. Allows recovery of 7% of the code text.
 
 ### LEVEL_M {#LEVEL-M}
 ```
@@ -64,7 +64,7 @@ public static final QRErrorLevel LEVEL_M
 ```
 
 
-Allows recovery of 15% of the code text
+Error correction Level M can be applied to QR barcodes, RectMicroQR barcodes and MicroQR barcodes with versions from M2 to M4. Allows recovery of 15% of the code text
 
 ### LEVEL_Q {#LEVEL-Q}
 ```
@@ -72,7 +72,7 @@ public static final QRErrorLevel LEVEL_Q
 ```
 
 
-Allows recovery of 25% of the code text
+Error correction Level Q can be applied to QR barcodes and MicroQR barcodes with version M4. Allows recovery of 25% of the code text
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
