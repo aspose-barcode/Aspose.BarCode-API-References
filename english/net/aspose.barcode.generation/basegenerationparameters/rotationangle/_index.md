@@ -3,7 +3,7 @@ title: BaseGenerationParameters.RotationAngle
 second_title: Aspose.BarCode for .NET API Reference
 description: BaseGenerationParameters property. BarCode image rotation angle measured in degree e.g. RotationAngle  0 or RotationAngle  360 means no rotation. If RotationAngle NOT equal to 90 180 270 or 0 it may increase the difficulty for the scanner to read the image. Default value 0
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.generation/basegenerationparameters/rotationangle/
 ---
 ## BaseGenerationParameters.RotationAngle property

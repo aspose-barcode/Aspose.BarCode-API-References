@@ -24,6 +24,7 @@ public class BaseGenerationParameters
 | [Border](../../aspose.barcode.generation/basegenerationparameters/border/) { get; } | Gets the [`BorderParameters`](../borderparameters/) that contains all configuration properties for barcode border. |
 | [CaptionAbove](../../aspose.barcode.generation/basegenerationparameters/captionabove/) { get; } | Caption Above the BarCode image. See [`CaptionParameters`](../captionparameters/). |
 | [CaptionBelow](../../aspose.barcode.generation/basegenerationparameters/captionbelow/) { get; } | Caption Below the BarCode image. See [`CaptionParameters`](../captionparameters/). |
+| [Image](../../aspose.barcode.generation/basegenerationparameters/image/) { get; } | Image parameters. See [`ImageParameters`](../imageparameters/). |
 | [ImageHeight](../../aspose.barcode.generation/basegenerationparameters/imageheight/) { get; set; } | BarCode image height when [`AutoSizeMode`](./autosizemode/) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [ImageWidth](../../aspose.barcode.generation/basegenerationparameters/imagewidth/) { get; set; } | BarCode image width when [`AutoSizeMode`](./autosizemode/) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [Resolution](../../aspose.barcode.generation/basegenerationparameters/resolution/) { get; set; } | Gets or sets the resolution of the BarCode image. One value for both dimensions. Default value: 96 dpi. |

@@ -38,6 +38,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [GS1CompositeBarParameters](./gs1compositebarparameters/) | GS1 Composite bar parameters. |
 | [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode |
 | [HanXinParameters](./hanxinparameters/) | Han Xin parameters. |
+| [ImageParameters](./imageparameters/) | Image parameters. |
 | [ITFParameters](./itfparameters/) | ITF parameters. |
 | [MaxiCodeExtCodetextBuilder](./maxicodeextcodetextbuilder/) | Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode |
 | [MaxiCodeParameters](./maxicodeparameters/) | MaxiCode parameters. |
@@ -49,6 +50,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [QrParameters](./qrparameters/) | QR parameters. |
 | [QrStructuredAppendParameters](./qrstructuredappendparameters/) | QR structured append parameters. |
 | [SupplementParameters](./supplementparameters/) | Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
+| [SvgParameters](./svgparameters/) | SVG parameters. |
 | [SymbologyEncodeType](./symbologyencodetype/) | Symbology encode type. See EncodeTypes to get instance. |
 | [Unit](./unit/) | Specifies the size value in different units (Pixel, Inches, etc.). |
 ## Enumeration

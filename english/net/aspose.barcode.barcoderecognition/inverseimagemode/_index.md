@@ -18,7 +18,7 @@ public enum InverseImageMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | At this time the same as Disabled. Disables additional recognition of barcodes on inverse images. |
+| Auto | `0` | Disables additional recognition of barcodes on inverse images for all barcode types except QR Code. |
 | Disabled | `1` | Disables additional recognition of barcodes on inverse images. |
 | Enabled | `2` | Enables additional recognition of barcodes on inverse images |
 

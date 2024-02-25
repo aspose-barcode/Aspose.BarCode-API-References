@@ -3,7 +3,7 @@ title: BaseGenerationParameters.Resolution
 second_title: Aspose.BarCode for .NET API Reference
 description: BaseGenerationParameters property. Gets or sets the resolution of the BarCode image. One value for both dimensions. Default value 96 dpi
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.generation/basegenerationparameters/resolution/
 ---
 ## BaseGenerationParameters.Resolution property

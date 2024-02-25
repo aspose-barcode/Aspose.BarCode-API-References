@@ -3,7 +3,7 @@ title: BaseGenerationParameters.ImageWidth
 second_title: Aspose.BarCode for .NET API Reference
 description: BaseGenerationParameters property. BarCode image width when AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.generation/basegenerationparameters/imagewidth/
 ---
 ## BaseGenerationParameters.ImageWidth property
