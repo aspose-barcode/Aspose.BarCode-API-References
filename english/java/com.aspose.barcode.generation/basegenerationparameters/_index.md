@@ -25,6 +25,7 @@ Barcode image generation parameters.
 | [getCaptionAbove()](#getCaptionAbove--) | Caption Above the BarCode image. |
 | [getCaptionBelow()](#getCaptionBelow--) | Caption Below the BarCode image. |
 | [getClass()](#getClass--) |  |
+| [getImage()](#getImage--) | Image parameters. |
 | [getImageHeight()](#getImageHeight--) | BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [getImageWidth()](#getImageWidth--) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [getResolution()](#getResolution--) | Gets the resolution of the BarCode image. |
@@ -129,6 +130,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getImage() {#getImage--}
+```
+public ImageParameters getImage()
+```
+
+
+Image parameters. See .
+
+**Returns:**
+[ImageParameters](../../com.aspose.barcode.generation/imageparameters) - 
 ### getImageHeight() {#getImageHeight--}
 ```
 public Unit getImageHeight()

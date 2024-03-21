@@ -3,7 +3,7 @@ title: FontMode
 second_title: Aspose.BarCode for Java API Reference
 description: Font size mode.
 type: docs
-weight: 81
+weight: 83
 url: /java/com.aspose.barcode.generation/fontmode/
 ---
 **Inheritance:**

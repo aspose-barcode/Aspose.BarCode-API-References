@@ -29,7 +29,7 @@ Mode which enables or disables additional recognition of barcodes on images with
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | At this time the same as Disabled. |
+| [AUTO](#AUTO) | Disables additional recognition of barcodes on inverse images for all barcode types except QR Code |
 | [DISABLED](#DISABLED) | Disables additional recognition of barcodes on inverse images. |
 | [ENABLED](#ENABLED) | Enables additional recognition of barcodes on inverse images |
 ## Methods
@@ -60,7 +60,7 @@ public static final InverseImageMode AUTO
 ```
 
 
-At this time the same as Disabled. Disables additional recognition of barcodes on inverse images.
+Disables additional recognition of barcodes on inverse images for all barcode types except QR Code
 
 ### DISABLED {#DISABLED}
 ```
