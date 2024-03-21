@@ -53,6 +53,7 @@ This package contains tools for generating barcode.
 | [HanXinExtCodetextBuilder](../com.aspose.barcode.generation/hanxinextcodetextbuilder) |  |
 | [HanXinParameters](../com.aspose.barcode.generation/hanxinparameters) | Han Xin parameters. |
 | [ITFParameters](../com.aspose.barcode.generation/itfparameters) | ITF parameters. |
+| [ImageParameters](../com.aspose.barcode.generation/imageparameters) | Image parameters. |
 | [ImageUnitConverter](../com.aspose.barcode.generation/imageunitconverter) |  |
 | [MacroCharacterValues](../com.aspose.barcode.generation/macrocharactervalues) |  |
 | [MaxiCodeExtCodetextBuilder](../com.aspose.barcode.generation/maxicodeextcodetextbuilder) | Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. |
@@ -66,6 +67,7 @@ This package contains tools for generating barcode.
 | [QrParameters](../com.aspose.barcode.generation/qrparameters) | QR parameters. |
 | [QrStructuredAppendParameters](../com.aspose.barcode.generation/qrstructuredappendparameters) | QR structured append parameters. |
 | [SupplementParameters](../com.aspose.barcode.generation/supplementparameters) | Supplement parameters. |
+| [SvgParameters](../com.aspose.barcode.generation/svgparameters) | SVG parameters. |
 | [SymbologyEncodeType](../com.aspose.barcode.generation/symbologyencodetype) | Symbology encode type. |
 | [TextMeasurer](../com.aspose.barcode.generation/textmeasurer) | Represents text measurer. |
 | [Unit](../com.aspose.barcode.generation/unit) | Specifies the size value in different units (Pixel, Inches, etc.). |
