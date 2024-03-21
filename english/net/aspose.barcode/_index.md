@@ -17,10 +17,12 @@ The **Aspose.BarCode** contains tools for the 1D/2D barcodes generation and draw
 | [InvalidCodeException](./invalidcodeexception/) | The Exception will be thrown when invalid characters contained in the code text. |
 | [License](./license/) | Provides methods to license the component. |
 | [Metered](./metered/) | Provides methods to set metered key. |
+| [XmlSerializationAttribute](./xmlserializationattribute/) | Represents attribute for xml entity generator. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
 | [CustomerInformationInterpretingType](./customerinformationinterpretingtype/) | Defines the interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode. |
+| [XmlSerializationType](./xmlserializationtype/) | Represents type of xml serialization. |
 
 
