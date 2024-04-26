@@ -3,7 +3,7 @@ title: ExtPlainCodetext
 second_title: Aspose.BarCode for Java API Reference
 description: Plain simple codetext container
 type: docs
-weight: 39
+weight: 37
 url: /java/com.aspose.barcode.generation/extplaincodetext/
 ---
 **Inheritance:**

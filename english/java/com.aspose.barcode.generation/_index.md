@@ -23,7 +23,6 @@ This package contains tools for generating barcode.
 | [BaseGenerationParameters](../com.aspose.barcode.generation/basegenerationparameters) | Barcode image generation parameters. |
 | [BorderParameters](../com.aspose.barcode.generation/borderparameters) | Barcode image border parameters |
 | [CaptionParameters](../com.aspose.barcode.generation/captionparameters) | Caption parameters. |
-| [CaptionParametersInternal](../com.aspose.barcode.generation/captionparametersinternal) |  |
 | [CodabarParameters](../com.aspose.barcode.generation/codabarparameters) | Codabar parameters. |
 | [CodabarSymbol](../com.aspose.barcode.generation/codabarsymbol) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [CodablockParameters](../com.aspose.barcode.generation/codablockparameters) | Codablock parameters. |
@@ -31,7 +30,6 @@ This package contains tools for generating barcode.
 | [Code16KParameters](../com.aspose.barcode.generation/code16kparameters) | Code16K parameters. |
 | [CodetextParameters](../com.aspose.barcode.generation/codetextparameters) | Codetext parameters. |
 | [ComplexBarcode](../com.aspose.barcode.generation/complexbarcode) |  |
-| [ConstParameters](../com.aspose.barcode.generation/constparameters) |  |
 | [CouponParameters](../com.aspose.barcode.generation/couponparameters) | Coupon parameters. |
 | [DataBarParameters](../com.aspose.barcode.generation/databarparameters) | Databar parameters. |
 | [DataMatrixExtCodetextBuilder](../com.aspose.barcode.generation/datamatrixextcodetextbuilder) |  |
@@ -69,7 +67,6 @@ This package contains tools for generating barcode.
 | [SupplementParameters](../com.aspose.barcode.generation/supplementparameters) | Supplement parameters. |
 | [SvgParameters](../com.aspose.barcode.generation/svgparameters) | SVG parameters. |
 | [SymbologyEncodeType](../com.aspose.barcode.generation/symbologyencodetype) | Symbology encode type. |
-| [TextMeasurer](../com.aspose.barcode.generation/textmeasurer) | Represents text measurer. |
 | [Unit](../com.aspose.barcode.generation/unit) | Specifies the size value in different units (Pixel, Inches, etc.). |
 | [UnitInternal](../com.aspose.barcode.generation/unitinternal) |  |
 

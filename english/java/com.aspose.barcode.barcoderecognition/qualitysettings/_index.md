@@ -50,11 +50,6 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 >          System.out.println(result.getCodeText());
 >  }
 > ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [QualitySettings()](#QualitySettings--) | QualitySettings constructor |
 ## Methods
 
 | Method | Description |
@@ -87,14 +82,6 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### QualitySettings() {#QualitySettings--}
-```
-public QualitySettings()
-```
-
-
-QualitySettings constructor
-
 ### applyAll(QualitySettings Src) {#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-}
 ```
 public void applyAll(QualitySettings Src)

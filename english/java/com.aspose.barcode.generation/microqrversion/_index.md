@@ -3,7 +3,7 @@ title: MicroQRVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Version of MicroQR Code.
 type: docs
-weight: 92
+weight: 89
 url: /java/com.aspose.barcode.generation/microqrversion/
 ---
 **Inheritance:**

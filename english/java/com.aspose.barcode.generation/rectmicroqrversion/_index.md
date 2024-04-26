@@ -3,7 +3,7 @@ title: RectMicroQRVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Version of RectMicroQR Code.
 type: docs
-weight: 101
+weight: 98
 url: /java/com.aspose.barcode.generation/rectmicroqrversion/
 ---
 **Inheritance:**

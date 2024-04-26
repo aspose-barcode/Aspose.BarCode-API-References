@@ -3,7 +3,7 @@ title: IBarCodeEncoder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 68
+weight: 65
 url: /java/com.aspose.barcode.generation/ibarcodeencoder/
 ---```
 public interface IBarCodeEncoder

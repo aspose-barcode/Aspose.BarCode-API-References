@@ -3,7 +3,7 @@ title: SvgParameters
 second_title: Aspose.BarCode for Java API Reference
 description: SVG parameters.
 type: docs
-weight: 63
+weight: 61
 url: /java/com.aspose.barcode.generation/svgparameters/
 ---
 **Inheritance:**
