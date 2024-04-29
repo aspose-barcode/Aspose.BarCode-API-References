@@ -3,7 +3,7 @@ title: ImageParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Image parameters.
 type: docs
-weight: 49
+weight: 47
 url: /java/com.aspose.barcode.generation/imageparameters/
 ---
 **Inheritance:**

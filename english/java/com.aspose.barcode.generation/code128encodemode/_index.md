@@ -3,7 +3,7 @@ title: Code128EncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 76
+weight: 73
 url: /java/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**

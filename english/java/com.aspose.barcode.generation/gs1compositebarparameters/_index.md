@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters
 second_title: Aspose.BarCode for Java API Reference
 description: GS1 Composite bar parameters.
 type: docs
-weight: 43
+weight: 41
 url: /java/com.aspose.barcode.generation/gs1compositebarparameters/
 ---
 **Inheritance:**

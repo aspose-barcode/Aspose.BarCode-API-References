@@ -3,7 +3,7 @@ title: MaxiCodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 53
+weight: 51
 url: /java/com.aspose.barcode.generation/maxicodemode/
 ---
 **Inheritance:**

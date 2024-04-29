@@ -3,7 +3,7 @@ title: ImageUnitConverter
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 48
 url: /java/com.aspose.barcode.generation/imageunitconverter/
 ---
 **Inheritance:**

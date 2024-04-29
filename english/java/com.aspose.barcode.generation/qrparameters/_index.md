@@ -3,7 +3,7 @@ title: QrParameters
 second_title: Aspose.BarCode for Java API Reference
 description: QR parameters.
 type: docs
-weight: 60
+weight: 58
 url: /java/com.aspose.barcode.generation/qrparameters/
 ---
 **Inheritance:**

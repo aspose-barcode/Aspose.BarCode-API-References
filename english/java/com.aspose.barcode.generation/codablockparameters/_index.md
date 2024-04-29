@@ -3,7 +3,7 @@ title: CodablockParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Codablock parameters.
 type: docs
-weight: 22
+weight: 21
 url: /java/com.aspose.barcode.generation/codablockparameters/
 ---
 **Inheritance:**

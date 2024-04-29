@@ -3,7 +3,7 @@ title: ExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: Helper class for automatic codetext generation of the Extended Codetext Mode
 type: docs
-weight: 37
+weight: 35
 url: /java/com.aspose.barcode.generation/extcodetextbuilder/
 ---
 **Inheritance:**

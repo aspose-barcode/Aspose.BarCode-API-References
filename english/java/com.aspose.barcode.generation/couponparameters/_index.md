@@ -3,7 +3,7 @@ title: CouponParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Coupon parameters.
 type: docs
-weight: 28
+weight: 26
 url: /java/com.aspose.barcode.generation/couponparameters/
 ---
 **Inheritance:**
