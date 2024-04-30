@@ -90,7 +90,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value. |
 | [getBarcodeType()](#getBarcodeType--) | Gets barcode type. |
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
@@ -109,6 +109,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 | [setCountryCode(int value)](#setCountryCode-int-) | Identifies 3 digit country code. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
 | [setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
+| [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Identifies the postal code. |
 | [setSecondMessage(MaxiCodeSecondMessage value)](#setSecondMessage-com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage-) | Identifies second message of the barcode. |
 | [setServiceCategory(int value)](#setServiceCategory-int-) | Identifies 3 digit service category. |
 | [toString()](#toString--) |  |
@@ -127,12 +128,12 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An  value to compare to this instance |
+| obj | java.lang.Object | An MaxiCodeStructuredCodetext value to compare to this instance |
 
 **Returns:**
 boolean - **true** if obj has the same value as this instance; otherwise, **false**
@@ -323,6 +324,19 @@ Sets a MaxiCode encode mode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) |  |
+
+### setPostalCode(String value) {#setPostalCode-java.lang.String-}
+```
+public final void setPostalCode(String value)
+```
+
+
+Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setSecondMessage(MaxiCodeSecondMessage value) {#setSecondMessage-com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage-}
 ```
