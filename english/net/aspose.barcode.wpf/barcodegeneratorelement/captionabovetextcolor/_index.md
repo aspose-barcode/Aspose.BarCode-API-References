@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionAboveTextColor
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Caption above text color
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionabovetextcolor/
 ---
 ## BarcodeGeneratorElement.CaptionAboveTextColor property

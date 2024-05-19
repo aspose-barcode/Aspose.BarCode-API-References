@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecSymbolMode
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Aztec symbol mode
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecsymbolmode/
 ---
 ## BarcodeGeneratorElement.AztecSymbolMode property

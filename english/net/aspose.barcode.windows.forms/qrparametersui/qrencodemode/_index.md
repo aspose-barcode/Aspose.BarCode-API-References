@@ -3,7 +3,7 @@ title: QrParametersUI.QrEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParametersUI property. QR symbology type of BarCodes encoding mode. Default value QREncodeMode.Auto
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.barcode.windows.forms/qrparametersui/qrencodemode/
 ---
 ## QrParametersUI.QrEncodeMode property

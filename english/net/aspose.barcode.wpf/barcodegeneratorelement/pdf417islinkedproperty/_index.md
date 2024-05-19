@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417IsLinkedProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417IsLinkedProperty
 type: docs
-weight: 2590
+weight: 2540
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417islinkedproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417IsLinkedProperty field

@@ -3,7 +3,7 @@ title: Class MaxiCodeCodetextMode3
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.MaxiCodeCodetextMode3 class. Class for encoding and decoding the text embedded in the MaxiCode code for modes 3
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.barcode.complexbarcode/maxicodecodetextmode3/
 ---
 ## MaxiCodeCodetextMode3 class

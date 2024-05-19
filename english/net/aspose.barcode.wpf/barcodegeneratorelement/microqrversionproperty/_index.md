@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.MicroQRVersionProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. MicroQRVersionProperty
 type: docs
-weight: 2480
+weight: 2430
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/microqrversionproperty/
 ---
 ## BarcodeGeneratorElement.MicroQRVersionProperty field

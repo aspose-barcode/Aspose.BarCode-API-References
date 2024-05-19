@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.BackColor
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Background color of the barcode image
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/backcolor/
 ---
 ## BarcodeGeneratorElement.BackColor property

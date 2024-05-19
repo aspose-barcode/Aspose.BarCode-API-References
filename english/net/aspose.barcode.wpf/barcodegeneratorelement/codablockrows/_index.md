@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodablockRows
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Rows count
 type: docs
-weight: 450
+weight: 440
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codablockrows/
 ---
 ## BarcodeGeneratorElement.CodablockRows property

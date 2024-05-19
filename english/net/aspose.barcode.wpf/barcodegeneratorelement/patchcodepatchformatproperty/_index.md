@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.PatchCodePatchFormatProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. PatchCodePatchFormatProperty
 type: docs
-weight: 2510
+weight: 2460
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformatproperty/
 ---
 ## BarcodeGeneratorElement.PatchCodePatchFormatProperty field

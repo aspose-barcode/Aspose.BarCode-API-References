@@ -3,7 +3,7 @@ title: Class BarcodeGenerator
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarcodeGenerator class. BarcodeGenerator for backend barcode images generation
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.barcode.generation/barcodegenerator/
 ---
 ## BarcodeGenerator class
@@ -44,6 +44,8 @@ public sealed class BarcodeGenerator : Component
 | [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_1)(string) | Save barcode image to specific file. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | Save barcode image to stream in specific format. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | Save barcode image to specific file in specific format. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext)(byte[]) | Set codetext as sequence of bytes. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_1)(string, Encoding) | Encodes codetext with byte order mark (BOM) using specified encoding. |
 
 ## Examples
 

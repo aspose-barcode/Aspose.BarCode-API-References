@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.IsChecksumEnabled
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Enable checksum during generation 1D barcodes
 type: docs
-weight: 940
+weight: 920
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/ischecksumenabled/
 ---
 ## BarcodeGeneratorElement.IsChecksumEnabled property

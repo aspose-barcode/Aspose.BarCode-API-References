@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodabarStartSymbol
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Start symbol
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codabarstartsymbol/
 ---
 ## BarcodeGeneratorElement.CodabarStartSymbol property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixRowsProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DataMatrixRowsProperty
 type: docs
-weight: 2160
+weight: 2110
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixrowsproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixRowsProperty field

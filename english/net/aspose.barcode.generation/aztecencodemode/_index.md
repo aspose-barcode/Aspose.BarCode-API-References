@@ -3,7 +3,7 @@ title: Enum AztecEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AztecEncodeMode enum. Encoding mode for Aztec barcodes
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.barcode.generation/aztecencodemode/
 ---
 ## AztecEncodeMode enumeration
@@ -18,9 +18,12 @@ public enum AztecEncodeMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | Encode codetext with value set in the ECIEncoding property. |
+| Auto | `0` | In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. |
 | Bytes | `1` | Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first. |
 | ExtendedCodetext | `2` | Extended mode which supports multi ECI modes. |
+| Extended | `3` | Extended mode which supports multi ECI modes. |
+| Binary | `4` | In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown. |
+| ECI | `5` | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. |
 
 ## Examples
 
@@ -34,22 +37,15 @@ using (var generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
     generator.Save("test.bmp");
 }
 
-//Bytes mode
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
-
-//encode array to string
-StringBuilder strBld = new StringBuilder();
-foreach (byte bval in encodedArr)
-    strBld.Append((char) bval);
-var codetext = strBld.ToString();
-
-using (var generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
+using (var generator = new BarcodeGenerator(EncodeTypes.Aztec))
 {
-    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.Bytes;
+    generator.SetCodetext(encodedArr);
+    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.Binary;
     generator.Save("test.bmp");
 }
 
-//Extended codetext mode
+//Extended mode
 //create codetext
 AztecExtCodetextBuilder textBuilder = new AztecExtCodetextBuilder();
 textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
@@ -63,7 +59,7 @@ string codetext = textBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
 {
-    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.Extended;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }

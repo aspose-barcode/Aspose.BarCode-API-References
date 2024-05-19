@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.HanXinErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Error level
 type: docs
-weight: 920
+weight: 900
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/hanxinerrorlevel/
 ---
 ## BarcodeGeneratorElement.HanXinErrorLevel property

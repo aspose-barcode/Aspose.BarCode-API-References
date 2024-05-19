@@ -3,7 +3,7 @@ title: Class CouponParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CouponParameters class. Coupon parameters. Used for UpcaGs1DatabarCoupon UpcaGs1Code128Coupon
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.barcode.generation/couponparameters/
 ---
 ## CouponParameters class

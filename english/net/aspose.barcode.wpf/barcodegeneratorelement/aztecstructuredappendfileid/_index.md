@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecStructuredAppendFileId
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Aztec file ID for structured append mode
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendfileid/
 ---
 ## BarcodeGeneratorElement.AztecStructuredAppendFileId property

@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.DataMatrixEcc
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Gets or sets a Datamatrix ECC type. Default value DataMatrixEccType.Ecc200
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc/
 ---
 ## DataMatrixParametersUI.DataMatrixEcc property

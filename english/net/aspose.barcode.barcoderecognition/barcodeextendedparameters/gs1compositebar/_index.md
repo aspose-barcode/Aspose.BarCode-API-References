@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.GS1CompositeBar
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeExtendedParameters property. Gets a GS1CompositeBar additional informationGS1CompositeBarExtendedParameters of recognized barcode
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/barcodeextendedparameters/gs1compositebar/
 ---
 ## BarCodeExtendedParameters.GS1CompositeBar property

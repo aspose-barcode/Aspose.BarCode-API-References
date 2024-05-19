@@ -3,7 +3,7 @@ title: Class MaxiCodeCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.MaxiCodeCodetext class. Base class for encoding and decoding the text embedded in the MaxiCode code
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/
 ---
 ## MaxiCodeCodetext class

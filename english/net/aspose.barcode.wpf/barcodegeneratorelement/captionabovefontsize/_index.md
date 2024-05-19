@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionAboveFontSize
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Caption above font size
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionabovefontsize/
 ---
 ## BarcodeGeneratorElement.CaptionAboveFontSize property
