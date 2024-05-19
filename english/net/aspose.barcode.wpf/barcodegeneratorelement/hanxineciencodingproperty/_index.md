@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.HanXinECIEncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. HanXinECIEncodingProperty
 type: docs
-weight: 2350
+weight: 2300
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/hanxineciencodingproperty/
 ---
 ## BarcodeGeneratorElement.HanXinECIEncodingProperty field

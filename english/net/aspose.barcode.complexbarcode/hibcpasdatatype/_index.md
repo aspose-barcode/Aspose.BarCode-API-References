@@ -3,7 +3,7 @@ title: Enum HIBCPASDataType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCPASDataType enum. HIBC PAS records data types
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.barcode.complexbarcode/hibcpasdatatype/
 ---
 ## HIBCPASDataType enumeration

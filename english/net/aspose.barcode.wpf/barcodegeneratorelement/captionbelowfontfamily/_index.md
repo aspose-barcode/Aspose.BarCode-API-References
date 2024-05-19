@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionBelowFontFamily
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Caption below font family
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowfontfamily/
 ---
 ## BarcodeGeneratorElement.CaptionBelowFontFamily property

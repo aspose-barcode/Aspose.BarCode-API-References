@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields
 type: docs
-weight: 1190
+weight: 1170
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macroeciencoding/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroECIEncoding property

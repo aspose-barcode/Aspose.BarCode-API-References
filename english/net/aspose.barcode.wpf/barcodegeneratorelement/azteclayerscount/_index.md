@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecLayersCount
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Aztec layers count
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/azteclayerscount/
 ---
 ## BarcodeGeneratorElement.AztecLayersCount property

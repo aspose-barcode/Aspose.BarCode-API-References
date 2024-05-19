@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionBelowPadding
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Caption below paddings
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowpadding/
 ---
 ## BarcodeGeneratorElement.CaptionBelowPadding property

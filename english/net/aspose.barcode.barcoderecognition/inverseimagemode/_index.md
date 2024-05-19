@@ -3,7 +3,7 @@ title: Enum InverseImageMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.InverseImageMode enum. Mode which enables or disables additional recognition of barcodes on images with inverted colors luminance
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 ## InverseImageMode enumeration

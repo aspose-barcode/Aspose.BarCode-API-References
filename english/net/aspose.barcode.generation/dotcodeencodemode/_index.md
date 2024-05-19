@@ -3,7 +3,7 @@ title: Enum DotCodeEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DotCodeEncodeMode enum. Encoding mode for DotCode barcodes
 type: docs
-weight: 1020
+weight: 1030
 url: /net/aspose.barcode.generation/dotcodeencodemode/
 ---
 ## DotCodeEncodeMode enumeration
@@ -18,9 +18,12 @@ public enum DotCodeEncodeMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | Encode codetext with value set in the ECIEncoding property. |
+| Auto | `0` | In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. |
 | Bytes | `1` | Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first. |
 | ExtendedCodetext | `2` | Extended mode which supports multi ECI modes. |
+| Binary | `3` | In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown. |
+| ECI | `4` | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. |
+| Extended | `5` | Extended mode which supports multi ECI modes. |
 
 ## Examples
 
@@ -43,16 +46,10 @@ using (var generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 
 //Bytes mode
 byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
-
-//encode array to string
-StringBuilder strBld = new StringBuilder();
-foreach (byte bval in encodedArr)
-    strBld.Append((char) bval);
-var codetext = strBld.ToString();
-
-using (var generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
+using (var generator = new BarcodeGenerator(EncodeTypes.DotCode))
 {
-    generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Bytes;
+    generator.SetCodetext(encodedArr);
+    generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Binary;
     generator.Save("test.bmp");
 }
 
@@ -74,7 +71,7 @@ string codetext = textBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
-    generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.Extended;
 	generator.Save("test.bmp");
 }
 ```

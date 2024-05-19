@@ -1,14 +1,14 @@
 ---
 title: Enum ECIEncodings
 second_title: Aspose.BarCode for .NET API Reference
-description: Aspose.BarCode.Generation.ECIEncodings enum. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently it is used only for QR 2D barcode
+description: Aspose.BarCode.Generation.ECIEncodings enum. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.barcode.generation/eciencodings/
 ---
 ## ECIEncodings enumeration
 
-Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently, it is used only for QR 2D barcode.
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol.
 
 ```csharp
 public enum ECIEncodings
@@ -42,8 +42,15 @@ public enum ECIEncodings
 | UTF8 | `26` | ISO/IEC 10646 UTF-8 encoding. ECI Id:"\000026" |
 | US_ASCII | `27` | ISO/IEC 646:1991 International Reference Version of ISO 7-bit coded character set encoding. ECI Id:"\000027" |
 | Big5 | `28` | Big 5 (Taiwan) Chinese Character Set encoding. ECI Id:"\000028" |
-| GB18030 | `29` | GB (PRC) Chinese Character Set encoding. ECI Id:"\000029" |
+| GB2312 | `29` | GB2312 Chinese Character Set encoding. ECI Id:"\000029" |
 | EUC_KR | `30` | Korean Character Set encoding. ECI Id:"\000030" |
+| GBK | `31` | GBK (extension of GB2312 for Simplified Chinese) encoding. ECI Id:"\000031" |
+| GB18030 | `32` | GGB18030 Chinese Character Set encoding. ECI Id:"\000032" |
+| UTF16LE | `33` | ISO/IEC 10646 UTF-16LE encoding. ECI Id:"\000033" |
+| UTF32BE | `34` | ISO/IEC 10646 UTF-32BE encoding. ECI Id:"\000034" |
+| UTF32LE | `35` | ISO/IEC 10646 UTF-32LE encoding. ECI Id:"\000035" |
+| INVARIANT | `170` | ISO/IEC 646: ISO 7-bit coded character set - Invariant Characters set encoding. ECI Id:"\000170" |
+| BINARY | `899` | 8-bit binary data. ECI Id:"\000899" |
 | NONE | `0` | No Extended Channel Interpretation |
 
 ## Examples
@@ -56,7 +63,6 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
 {
     generator.CodeText = "12345TEXT";
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding;
-    generator.Parameters.Barcode.QR.QrEncodeType = QREncodeType.ForceQR;
     generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
@@ -64,7 +70,6 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = "12345TEXT"
     generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.QrEncodeType = QREncodeType.ForceQR
     generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
     generator.Save("test.png")
 End Using

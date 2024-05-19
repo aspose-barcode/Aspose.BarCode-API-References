@@ -3,7 +3,7 @@ title: Class QrParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.QrParametersUI class. UI wrapper for QrParameters class
 type: docs
-weight: 1600
+weight: 1610
 url: /net/aspose.barcode.windows.forms/qrparametersui/
 ---
 ## QrParametersUI class
@@ -19,7 +19,6 @@ public class QrParametersUI
 | Name | Description |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.windows.forms/qrparametersui/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
-| [CodeTextEncoding](../../aspose.barcode.windows.forms/qrparametersui/codetextencoding/) { get; set; } | Gets or sets the encoding of codetext. |
 | [MicroQrVersion](../../aspose.barcode.windows.forms/qrparametersui/microqrversion/) { get; set; } | Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto. |
 | [QrEncodeMode](../../aspose.barcode.windows.forms/qrparametersui/qrencodemode/) { get; set; } | QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.Auto. |
 | [QrEncodeType](../../aspose.barcode.windows.forms/qrparametersui/qrencodetype/) { get; set; } | QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR. |

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Code128EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Code128 encode mode
 type: docs
-weight: 460
+weight: 450
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/code128encodemode/
 ---
 ## BarcodeGeneratorElement.Code128EncodeMode property

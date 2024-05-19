@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417MacroFileSizeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. Pdf417MacroFileSizeProperty
 type: docs
-weight: 2670
+weight: 2620
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417macrofilesizeproperty/
 ---
 ## BarcodeGeneratorElement.Pdf417MacroFileSizeProperty field

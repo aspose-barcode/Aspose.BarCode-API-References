@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.Rows
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Rows count
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/rows/
 ---
 ## DataMatrixParametersUI.Rows property

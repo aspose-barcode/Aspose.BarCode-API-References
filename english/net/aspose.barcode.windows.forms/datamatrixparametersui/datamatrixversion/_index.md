@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.DataMatrixVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. DataMatrix symbol size
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/datamatrixversion/
 ---
 ## DataMatrixParametersUI.DataMatrixVersion property

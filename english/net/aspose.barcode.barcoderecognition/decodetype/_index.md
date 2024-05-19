@@ -3,7 +3,7 @@ title: Class DecodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.DecodeType class. Specify the type of barcode to read
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.barcode.barcoderecognition/decodetype/
 ---
 ## DecodeType class

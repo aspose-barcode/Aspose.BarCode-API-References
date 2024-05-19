@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.Columns
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Columns count
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/columns/
 ---
 ## DataMatrixParametersUI.Columns property

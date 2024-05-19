@@ -71,7 +71,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [DataMatrixEncodeMode](./datamatrixencodemode/) | DataMatrix encoder's encoding mode, default to Auto |
 | [DataMatrixVersion](./datamatrixversion/) | Specify the type of the ECC to encode. |
 | [DotCodeEncodeMode](./dotcodeencodemode/) | Encoding mode for DotCode barcodes. |
-| [ECIEncodings](./eciencodings/) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently, it is used only for QR 2D barcode. |
+| [ECIEncodings](./eciencodings/) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. |
 | [EnableChecksum](./enablechecksum/) | Enable checksum during generation for 1D barcodes. |
 | [FontMode](./fontmode/) | Font size mode. |
 | [HanXinEncodeMode](./hanxinencodemode/) | Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters. |
@@ -83,10 +83,10 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
-| [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
+| [Pdf417EncodeMode](./pdf417encodemode/) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [Pdf417MacroTerminator](./pdf417macroterminator/) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417. |
-| [QREncodeMode](./qrencodemode/) | Encoding mode for QR barcodes. It is recommended to Use Auto with CodeTextEncoding = Encoding.UTF8 for Latin symbols or digits and Utf8BOM for Unicode symbols. |
+| [QREncodeMode](./qrencodemode/) | Encoding mode for QR barcodes. |
 | [QREncodeType](./qrencodetype/) | QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible. |
 | [QRErrorLevel](./qrerrorlevel/) | Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [QRVersion](./qrversion/) | Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. |

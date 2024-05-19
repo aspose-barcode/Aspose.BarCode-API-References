@@ -19,6 +19,7 @@ public sealed class BarCodeExtendedParameters
 | Name | Description |
 | --- | --- |
 | [Aztec](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/aztec/) { get; } | Gets a Aztec additional information[`AztecExtendedParameters`](../aztecextendedparameters/) of recognized barcode |
+| [Codabar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/codabar/) { get; } | Gets a Codabar additional information[`CodabarExtendedParameters`](../codabarextendedparameters/) of recognized barcode |
 | [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | Gets a special data [`Code128ExtendedParameters`](../code128extendedparameters/) of Code128 recognized barcode |
 | [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | Gets a DataBar additional information[`DataBarExtendedParameters`](../databarextendedparameters/) of recognized barcode |
 | [DataMatrix](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/datamatrix/) { get; } | Gets a DataMatrix additional information[`DataMatrixExtendedParameters`](../datamatrixextendedparameters/) of recognized barcode |

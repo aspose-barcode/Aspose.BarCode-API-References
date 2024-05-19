@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeColumns
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. DotCode columns count
 type: docs
-weight: 770
+weight: 750
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodecolumns/
 ---
 ## BarcodeGeneratorElement.DotCodeColumns property

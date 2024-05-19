@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CouponSupplementSpace
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Space between barcode and supplement in pixels
 type: docs
-weight: 600
+weight: 590
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/couponsupplementspace/
 ---
 ## BarcodeGeneratorElement.CouponSupplementSpace property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CaptionBelowTextProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CaptionBelowTextProperty
 type: docs
-weight: 1820
+weight: 1780
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/captionbelowtextproperty/
 ---
 ## BarcodeGeneratorElement.CaptionBelowTextProperty field

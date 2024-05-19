@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.ITFItfBorderType
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. ITF border type
 type: docs
-weight: 960
+weight: 940
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/itfitfbordertype/
 ---
 ## BarcodeGeneratorElement.ITFItfBorderType property

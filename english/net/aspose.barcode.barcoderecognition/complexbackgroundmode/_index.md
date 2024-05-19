@@ -3,7 +3,7 @@ title: Enum ComplexBackgroundMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.ComplexBackgroundMode enum. Mode which enables or disables additional recognition of color barcodes on color images
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 ## ComplexBackgroundMode enumeration

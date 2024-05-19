@@ -26,9 +26,9 @@ This sample shows how to detect text encoding on the fly if DetectEncoding is en
 [C#]
 using (MemoryStream ms = new MemoryStream())
 {
-    using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "Слово"))
+    using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
     {
-        generator.Parameters.Barcode.QR.CodeTextEncoding = Encoding.UTF8;
+        generator.SetCodeText("Слово", Encoding.UTF8);
         generator.Save(ms, BarCodeImageFormat.Png);
     }
     //detects encoding for Unicode codesets is enabled
@@ -51,7 +51,7 @@ using (MemoryStream ms = new MemoryStream())
 [VB.NET]
 Using ms As New MemoryStream
     Using generator As New BarcodeGenerator(EncodeTypes.QR, "Слово")
-        generator.Parameters.Barcode.QR.CodeTextEncoding = System.Text.Encoding.UTF8
+        generator.SetCodeText("Слово", System.Text.Encoding.UTF8)
         generator.Save(ms, BarCodeImageFormat.Png)
     End Using
     'detects encoding for Unicode codesets is enabled

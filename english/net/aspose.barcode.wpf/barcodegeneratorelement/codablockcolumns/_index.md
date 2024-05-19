@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodablockColumns
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Columns count
 type: docs
-weight: 440
+weight: 430
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codablockcolumns/
 ---
 ## BarcodeGeneratorElement.CodablockColumns property

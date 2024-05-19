@@ -3,7 +3,7 @@ title: Pdf417ParametersUI.Pdf417ECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ParametersUI property. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Not applied for Macro PDF417 text fields. Current implementation consists all well known charset encodings
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.barcode.windows.forms/pdf417parametersui/pdf417eciencoding/
 ---
 ## Pdf417ParametersUI.Pdf417ECIEncoding property
