@@ -1,26 +1,27 @@
 ---
-title: BarCodeResultInternalCalls
+title: AustraliaPostSettingsInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 19
-url: /java/com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls/
+weight: 11
+url: /java/com.aspose.barcode.barcoderecognition/australiapostsettingsinternal/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class BarCodeResultInternalCalls
+public class AustraliaPostSettingsInternal
 ```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BarCodeResultInternalCalls()](#BarCodeResultInternalCalls--) |  |
+| [AustraliaPostSettingsInternal()](#AustraliaPostSettingsInternal--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [ctor(CodeResult aResult)](#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-) |  |
+| [AustraliaPostSettingsCtor()](#AustraliaPostSettingsCtor--) |  |
+| [AustraliaPostSettingsCtor(AustraliaPostSettings australiaPostSettings)](#AustraliaPostSettingsCtor-com.aspose.barcode.barcoderecognition.AustraliaPostSettings-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -30,15 +31,25 @@ public class BarCodeResultInternalCalls
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarCodeResultInternalCalls() {#BarCodeResultInternalCalls--}
+### AustraliaPostSettingsInternal() {#AustraliaPostSettingsInternal--}
 ```
-public BarCodeResultInternalCalls()
+public AustraliaPostSettingsInternal()
 ```
 
 
-### ctor(CodeResult aResult) {#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-}
+### AustraliaPostSettingsCtor() {#AustraliaPostSettingsCtor--}
 ```
-public static BarCodeResult ctor(CodeResult aResult)
+public static AustraliaPostSettings AustraliaPostSettingsCtor()
+```
+
+
+
+
+**Returns:**
+[AustraliaPostSettings](../../com.aspose.barcode.barcoderecognition/australiapostsettings)
+### AustraliaPostSettingsCtor(AustraliaPostSettings australiaPostSettings) {#AustraliaPostSettingsCtor-com.aspose.barcode.barcoderecognition.AustraliaPostSettings-}
+```
+public static AustraliaPostSettings AustraliaPostSettingsCtor(AustraliaPostSettings australiaPostSettings)
 ```
 
 
@@ -47,10 +58,10 @@ public static BarCodeResult ctor(CodeResult aResult)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aResult | com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult |  |
+| australiaPostSettings | [AustraliaPostSettings](../../com.aspose.barcode.barcoderecognition/australiapostsettings) |  |
 
 **Returns:**
-[BarCodeResult](../../com.aspose.barcode.barcoderecognition/barcoderesult)
+[AustraliaPostSettings](../../com.aspose.barcode.barcoderecognition/australiapostsettings)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

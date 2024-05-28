@@ -1,26 +1,27 @@
 ---
-title: BarCodeResultInternalCalls
+title: BarcodeSettingsInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 19
-url: /java/com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls/
+weight: 21
+url: /java/com.aspose.barcode.barcoderecognition/barcodesettingsinternal/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class BarCodeResultInternalCalls
+public class BarcodeSettingsInternal
 ```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BarCodeResultInternalCalls()](#BarCodeResultInternalCalls--) |  |
+| [BarcodeSettingsInternal()](#BarcodeSettingsInternal--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [ctor(CodeResult aResult)](#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-) |  |
+| [BarcodeSettingsCtor()](#BarcodeSettingsCtor--) |  |
+| [BarcodeSettingsCtor(BarcodeSettings barcodeSettings)](#BarcodeSettingsCtor-com.aspose.barcode.barcoderecognition.BarcodeSettings-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -30,15 +31,25 @@ public class BarCodeResultInternalCalls
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarCodeResultInternalCalls() {#BarCodeResultInternalCalls--}
+### BarcodeSettingsInternal() {#BarcodeSettingsInternal--}
 ```
-public BarCodeResultInternalCalls()
+public BarcodeSettingsInternal()
 ```
 
 
-### ctor(CodeResult aResult) {#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-}
+### BarcodeSettingsCtor() {#BarcodeSettingsCtor--}
 ```
-public static BarCodeResult ctor(CodeResult aResult)
+public static BarcodeSettings BarcodeSettingsCtor()
+```
+
+
+
+
+**Returns:**
+[BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings)
+### BarcodeSettingsCtor(BarcodeSettings barcodeSettings) {#BarcodeSettingsCtor-com.aspose.barcode.barcoderecognition.BarcodeSettings-}
+```
+public static BarcodeSettings BarcodeSettingsCtor(BarcodeSettings barcodeSettings)
 ```
 
 
@@ -47,10 +58,10 @@ public static BarCodeResult ctor(CodeResult aResult)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aResult | com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult |  |
+| barcodeSettings | [BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings) |  |
 
 **Returns:**
-[BarCodeResult](../../com.aspose.barcode.barcoderecognition/barcoderesult)
+[BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

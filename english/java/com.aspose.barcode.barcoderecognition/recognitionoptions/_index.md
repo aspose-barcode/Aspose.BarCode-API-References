@@ -3,7 +3,7 @@ title: RecognitionOptions
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 40
+weight: 44
 url: /java/com.aspose.barcode.barcoderecognition/recognitionoptions/
 ---
 **Inheritance:**

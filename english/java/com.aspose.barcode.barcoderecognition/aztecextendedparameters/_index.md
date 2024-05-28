@@ -3,7 +3,7 @@ title: AztecExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of Aztec recognized barcode
 type: docs
-weight: 11
+weight: 12
 url: /java/com.aspose.barcode.barcoderecognition/aztecextendedparameters/
 ---
 **Inheritance:**

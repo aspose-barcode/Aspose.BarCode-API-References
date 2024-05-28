@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores extended parameters of recognized barcode
 type: docs
-weight: 13
+weight: 14
 url: /java/com.aspose.barcode.barcoderecognition/barcodeextendedparameters/
 ---
 **Inheritance:**

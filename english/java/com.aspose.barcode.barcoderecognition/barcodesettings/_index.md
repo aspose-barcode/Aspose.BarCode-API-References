@@ -3,7 +3,7 @@ title: BarcodeSettings
 second_title: Aspose.BarCode for Java API Reference
 description: The main BarCode decoding parameters.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.barcode.barcoderecognition/barcodesettings/
 ---
 **Inheritance:**
@@ -13,12 +13,6 @@ public class BarcodeSettings
 ```
 
 The main BarCode decoding parameters. Contains parameters which make influence on recognized data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BarcodeSettings()](#BarcodeSettings--) | BarcodeSettings constructor |
-| [BarcodeSettings(BarcodeSettings settings)](#BarcodeSettings-com.aspose.barcode.barcoderecognition.BarcodeSettings-) | BarcodeSettings copy constructor |
 ## Methods
 
 | Method | Description |
@@ -39,27 +33,6 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarcodeSettings() {#BarcodeSettings--}
-```
-public BarcodeSettings()
-```
-
-
-BarcodeSettings constructor
-
-### BarcodeSettings(BarcodeSettings settings) {#BarcodeSettings-com.aspose.barcode.barcoderecognition.BarcodeSettings-}
-```
-public BarcodeSettings(BarcodeSettings settings)
-```
-
-
-BarcodeSettings copy constructor
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| settings | [BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings) | The source of the data |
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

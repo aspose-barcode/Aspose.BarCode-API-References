@@ -3,7 +3,7 @@ title: Code128DataPortion
 second_title: Aspose.BarCode for Java API Reference
 description: Contains the data of subtype for Code128 type barcode
 type: docs
-weight: 23
+weight: 25
 url: /java/com.aspose.barcode.barcoderecognition/code128dataportion/
 ---
 **Inheritance:**
@@ -13,11 +13,6 @@ public class Code128DataPortion
 ```
 
 Contains the data of subtype for Code128 type barcode
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Code128DataPortion(int code128SubType, String data)](#Code128DataPortion-int-java.lang.String-) | Creates a new instance of the  Code128DataPortion  class with start code symbol and decoded codetext. |
 ## Methods
 
 | Method | Description |
@@ -29,25 +24,10 @@ Contains the data of subtype for Code128 type barcode
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(String value)](#setData-java.lang.String-) | Gets the part of code text related to subtype. |
 | [toString()](#toString--) | Returns a human-readable string representation of this  Code128DataPortion . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Code128DataPortion(int code128SubType, String data) {#Code128DataPortion-int-java.lang.String-}
-```
-public Code128DataPortion(int code128SubType, String data)
-```
-
-
-Creates a new instance of the  Code128DataPortion  class with start code symbol and decoded codetext.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| code128SubType | int | A start encoding symbol |
-| data | java.lang.String | A partial codetext |
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -118,19 +98,6 @@ public final native void notifyAll()
 
 
 
-
-### setData(String value) {#setData-java.lang.String-}
-```
-public void setData(String value)
-```
-
-
-Gets the part of code text related to subtype.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

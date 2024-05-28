@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores a MacroPdf417 metadata information of recognized barcode
 type: docs
-weight: 34
+weight: 37
 url: /java/com.aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 **Inheritance:**

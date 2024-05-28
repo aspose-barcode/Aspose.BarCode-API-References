@@ -3,7 +3,7 @@ title: QualitySettings
 second_title: Aspose.BarCode for Java API Reference
 description: QualitySettings allows to configure recognition quality and speed manually.
 type: docs
-weight: 38
+weight: 41
 url: /java/com.aspose.barcode.barcoderecognition/qualitysettings/
 ---
 **Inheritance:**
@@ -54,7 +54,6 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 
 | Method | Description |
 | --- | --- |
-| [applyAll(QualitySettings Src)](#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-) | Function apply all values from Src setting to this |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowIncorrectBarcodes()](#getAllowIncorrectBarcodes--) | Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. |
 | [getBarcodeQuality()](#getBarcodeQuality--) | Mode which enables methods to recognize barcode elements with the selected quality. |
@@ -82,19 +81,6 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### applyAll(QualitySettings Src) {#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-}
-```
-public void applyAll(QualitySettings Src)
-```
-
-
-Function apply all values from Src setting to this
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| Src | [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings) | source settings |
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
