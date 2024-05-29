@@ -3,7 +3,7 @@ title: BaseDecodeType
 second_title: Aspose.BarCode for Java API Reference
 description: Base class for MultyDecodeType and SingleDecodeType.
 type: docs
-weight: 21
+weight: 23
 url: /java/com.aspose.barcode.barcoderecognition/basedecodetype/
 ---
 **Inheritance:**

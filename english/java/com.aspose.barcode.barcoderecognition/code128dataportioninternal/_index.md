@@ -1,44 +1,45 @@
 ---
-title: BarCodeResultInternalCalls
+title: Code128DataPortionInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 19
-url: /java/com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls/
+weight: 26
+url: /java/com.aspose.barcode.barcoderecognition/code128dataportioninternal/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class BarCodeResultInternalCalls
+public class Code128DataPortionInternal
 ```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BarCodeResultInternalCalls()](#BarCodeResultInternalCalls--) |  |
+| [Code128DataPortionInternal()](#Code128DataPortionInternal--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [ctor(CodeResult aResult)](#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-) |  |
+| [Code128DataPortionCtor(int code128SubType, String data)](#Code128DataPortionCtor-int-java.lang.String-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setData(Code128DataPortion code128DataPortion, String value)](#setData-com.aspose.barcode.barcoderecognition.Code128DataPortion-java.lang.String-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarCodeResultInternalCalls() {#BarCodeResultInternalCalls--}
+### Code128DataPortionInternal() {#Code128DataPortionInternal--}
 ```
-public BarCodeResultInternalCalls()
+public Code128DataPortionInternal()
 ```
 
 
-### ctor(CodeResult aResult) {#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-}
+### Code128DataPortionCtor(int code128SubType, String data) {#Code128DataPortionCtor-int-java.lang.String-}
 ```
-public static BarCodeResult ctor(CodeResult aResult)
+public static Code128DataPortion Code128DataPortionCtor(int code128SubType, String data)
 ```
 
 
@@ -47,10 +48,11 @@ public static BarCodeResult ctor(CodeResult aResult)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aResult | com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult |  |
+| code128SubType | int |  |
+| data | java.lang.String |  |
 
 **Returns:**
-[BarCodeResult](../../com.aspose.barcode.barcoderecognition/barcoderesult)
+[Code128DataPortion](../../com.aspose.barcode.barcoderecognition/code128dataportion)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -101,6 +103,20 @@ public final native void notifyAll()
 
 
 
+
+### setData(Code128DataPortion code128DataPortion, String value) {#setData-com.aspose.barcode.barcoderecognition.Code128DataPortion-java.lang.String-}
+```
+public static void setData(Code128DataPortion code128DataPortion, String value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| code128DataPortion | [Code128DataPortion](../../com.aspose.barcode.barcoderecognition/code128dataportion) |  |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

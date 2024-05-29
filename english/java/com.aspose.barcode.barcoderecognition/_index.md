@@ -15,6 +15,7 @@ This package contains tools for 1D/2D barcode recognition.
 | Class | Description |
 | --- | --- |
 | [AustraliaPostSettings](../com.aspose.barcode.barcoderecognition/australiapostsettings) | AustraliaPost decoding parameters. |
+| [AustraliaPostSettingsInternal](../com.aspose.barcode.barcoderecognition/australiapostsettingsinternal) |  |
 | [AztecExtendedParameters](../com.aspose.barcode.barcoderecognition/aztecextendedparameters) | Stores special data of Aztec recognized barcode |
 | [BarCodeConfidence](../com.aspose.barcode.barcoderecognition/barcodeconfidence) | Contains recognition confidence level |
 | [BarCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/barcodeextendedparameters) | Stores extended parameters of recognized barcode |
@@ -24,10 +25,12 @@ This package contains tools for 1D/2D barcode recognition.
 | [BarCodeResult](../com.aspose.barcode.barcoderecognition/barcoderesult) | Stores recognized barcode data like  SingleDecodeType  type,  string  codetext,  BarCodeRegionParameters  region and other parameters |
 | [BarCodeResultInternalCalls](../com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls) |  |
 | [BarcodeSettings](../com.aspose.barcode.barcoderecognition/barcodesettings) | The main BarCode decoding parameters. |
+| [BarcodeSettingsInternal](../com.aspose.barcode.barcoderecognition/barcodesettingsinternal) |  |
 | [BarcodeSvmDetectorSettings](../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings) | Barcode detector settings. |
 | [BaseDecodeType](../com.aspose.barcode.barcoderecognition/basedecodetype) | Base class for MultyDecodeType and SingleDecodeType. |
 | [BaseExtendedParameters](../com.aspose.barcode.barcoderecognition/baseextendedparameters) | Basic class for extended parameters of recognized barcode storing |
 | [Code128DataPortion](../com.aspose.barcode.barcoderecognition/code128dataportion) | Contains the data of subtype for Code128 type barcode |
+| [Code128DataPortionInternal](../com.aspose.barcode.barcoderecognition/code128dataportioninternal) |  |
 | [Code128ExtendedParameters](../com.aspose.barcode.barcoderecognition/code128extendedparameters) | Stores special data of Code128 recognized barcode |
 | [Code128SubType](../com.aspose.barcode.barcoderecognition/code128subtype) | Contains types of Code128 subset |
 | [DataBarExtendedParameters](../com.aspose.barcode.barcoderecognition/databarextendedparameters) | Stores a DataBar additional information of recognized barcode BarCodeReader reader = new BarCodeReader("c:\\\\test.png", DecodeType.DATABAR\_OMNI\_DIRECTIONAL); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode Type: " + result.getCodeTypeName()); System.out.println("BarCode CodeText: " + result.getCodeText()); System.out.println("QR Structured Append Quantity: " + result.getExtended().getQR().getQRStructuredAppendModeBarCodesQuantity()); |
@@ -43,6 +46,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [QRExtendedParameters](../com.aspose.barcode.barcoderecognition/qrextendedparameters) | Stores a QR Structured Append information of recognized barcode |
 | [Quadrangle](../com.aspose.barcode.barcoderecognition/quadrangle) | Stores a set of four  Point s that represent a  Quadrangle  region. |
 | [QualitySettings](../com.aspose.barcode.barcoderecognition/qualitysettings) | QualitySettings allows to configure recognition quality and speed manually. |
+| [QualitySettingsInternal](../com.aspose.barcode.barcoderecognition/qualitysettingsinternal) |  |
 | [RecognitionAbortedException](../com.aspose.barcode.barcoderecognition/recognitionabortedexception) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
 | [RecognitionOptions](../com.aspose.barcode.barcoderecognition/recognitionoptions) |  |
 | [SingleDecodeType](../com.aspose.barcode.barcoderecognition/singledecodetype) | Single decode type. |

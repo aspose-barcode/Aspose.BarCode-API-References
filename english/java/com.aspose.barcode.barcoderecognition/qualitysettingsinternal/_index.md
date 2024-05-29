@@ -1,26 +1,26 @@
 ---
-title: BarCodeResultInternalCalls
+title: QualitySettingsInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 19
-url: /java/com.aspose.barcode.barcoderecognition/barcoderesultinternalcalls/
+weight: 42
+url: /java/com.aspose.barcode.barcoderecognition/qualitysettingsinternal/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class BarCodeResultInternalCalls
+public class QualitySettingsInternal
 ```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BarCodeResultInternalCalls()](#BarCodeResultInternalCalls--) |  |
+| [QualitySettingsInternal()](#QualitySettingsInternal--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [ctor(CodeResult aResult)](#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-) |  |
+| [applyAll(QualitySettings Src, QualitySettings Dst)](#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-com.aspose.barcode.barcoderecognition.QualitySettings-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -30,15 +30,15 @@ public class BarCodeResultInternalCalls
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarCodeResultInternalCalls() {#BarCodeResultInternalCalls--}
+### QualitySettingsInternal() {#QualitySettingsInternal--}
 ```
-public BarCodeResultInternalCalls()
+public QualitySettingsInternal()
 ```
 
 
-### ctor(CodeResult aResult) {#ctor-com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult-}
+### applyAll(QualitySettings Src, QualitySettings Dst) {#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-com.aspose.barcode.barcoderecognition.QualitySettings-}
 ```
-public static BarCodeResult ctor(CodeResult aResult)
+public static void applyAll(QualitySettings Src, QualitySettings Dst)
 ```
 
 
@@ -47,10 +47,9 @@ public static BarCodeResult ctor(CodeResult aResult)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aResult | com.aspose.barcode.barcoderecognition.recognition.recognitionsession.coderesult.CodeResult |  |
+| Src | [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings) |  |
+| Dst | [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings) |  |
 
-**Returns:**
-[BarCodeResult](../../com.aspose.barcode.barcoderecognition/barcoderesult)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
