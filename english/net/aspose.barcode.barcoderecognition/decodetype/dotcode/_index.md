@@ -3,7 +3,7 @@ title: DecodeType.DotCode
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with DotCode barcode specification
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.barcode.barcoderecognition/decodetype/dotcode/
 ---
 ## DecodeType.DotCode field

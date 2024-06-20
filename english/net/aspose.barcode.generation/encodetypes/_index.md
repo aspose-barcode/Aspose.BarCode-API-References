@@ -41,10 +41,9 @@ public static class EncodeTypes
 | static readonly [Code128](../../aspose.barcode.generation/encodetypes/code128/) | Specifies that the data should be encoded with **CODE 128** barcode specification |
 | static readonly [Code16K](../../aspose.barcode.generation/encodetypes/code16k/) | Represents Code 16K barcode. |
 | static readonly [Code32](../../aspose.barcode.generation/encodetypes/code32/) | Specifies that the data should be encoded with **Code32** barcode specification |
-| static readonly [Code39Extended](../../aspose.barcode.generation/encodetypes/code39extended/) | Specifies that the data should be encoded with **Extended CODE 39** barcode specification |
-| static readonly [Code39Standard](../../aspose.barcode.generation/encodetypes/code39standard/) | Specifies that the data should be encoded with **Standard CODE 39** barcode specification |
-| static readonly [Code93Extended](../../aspose.barcode.generation/encodetypes/code93extended/) | Specifies that the data should be encoded with **Extended CODE 93** barcode specification |
-| static readonly [Code93Standard](../../aspose.barcode.generation/encodetypes/code93standard/) | Specifies that the data should be encoded with **Standard CODE 93** barcode specification |
+| static readonly [Code39](../../aspose.barcode.generation/encodetypes/code39/) | Specifies that the data should be encoded with **Code 39** basic charset barcode specification: ISO/IEC 16388 |
+| static readonly [Code39FullASCII](../../aspose.barcode.generation/encodetypes/code39fullascii/) | Specifies that the data should be encoded with **Code 39** full ASCII charset barcode specification: ISO/IEC 16388 |
+| static readonly [Code93](../../aspose.barcode.generation/encodetypes/code93/) | Specifies that the data should be encoded with **CODE 93** barcode specification |
 | static readonly [DatabarExpanded](../../aspose.barcode.generation/encodetypes/databarexpanded/) | Represents GS1 Databar expanded barcode. |
 | static readonly [DatabarExpandedStacked](../../aspose.barcode.generation/encodetypes/databarexpandedstacked/) | Represents GS1 Databar expanded stacked barcode. |
 | static readonly [DatabarLimited](../../aspose.barcode.generation/encodetypes/databarlimited/) | Represents GS1 Databar limited barcode. |

@@ -3,7 +3,7 @@ title: DecodeType.MicroPdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with MicroPdf417 barcode specification
 type: docs
-weight: 650
+weight: 640
 url: /net/aspose.barcode.barcoderecognition/decodetype/micropdf417/
 ---
 ## DecodeType.MicroPdf417 field

@@ -3,7 +3,7 @@ title: EncodeTypes.GS1HanXin
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. 2D barcode symbology HanXin with GS1 string format
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.barcode.generation/encodetypes/gs1hanxin/
 ---
 ## EncodeTypes.GS1HanXin field

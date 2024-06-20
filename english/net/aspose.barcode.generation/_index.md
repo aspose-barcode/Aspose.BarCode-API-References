@@ -38,6 +38,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [GS1CompositeBarParameters](./gs1compositebarparameters/) | GS1 Composite bar parameters. |
 | [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode |
 | [HanXinParameters](./hanxinparameters/) | Han Xin parameters. |
+| [HslaColor](./hslacolor/) | Class for representing HSLA color (Hue, Saturation, Lightness, Alpha) |
 | [ImageParameters](./imageparameters/) | Image parameters. |
 | [ITFParameters](./itfparameters/) | ITF parameters. |
 | [MaxiCodeExtCodetextBuilder](./maxicodeextcodetextbuilder/) | Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode |
@@ -91,6 +92,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [QRErrorLevel](./qrerrorlevel/) | Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [QRVersion](./qrversion/) | Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. |
 | [RectMicroQRVersion](./rectmicroqrversion/) | Version of RectMicroQR Code. From version R7x43 to version R17x139. |
+| [SvgColorMode](./svgcolormode/) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |
 | [TextAlignment](./textalignment/) | Text alignment. |
 | [TwoDComponentType](./twodcomponenttype/) | Type of 2D component |
 

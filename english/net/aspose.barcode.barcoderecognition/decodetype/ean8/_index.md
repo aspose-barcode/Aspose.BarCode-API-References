@@ -3,7 +3,7 @@ title: DecodeType.EAN8
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with EAN8 barcode specification
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.barcode.barcoderecognition/decodetype/ean8/
 ---
 ## DecodeType.EAN8 field

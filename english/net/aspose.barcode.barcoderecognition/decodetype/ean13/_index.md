@@ -3,7 +3,7 @@ title: DecodeType.EAN13
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with EAN13 barcode specification
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.barcode.barcoderecognition/decodetype/ean13/
 ---
 ## DecodeType.EAN13 field

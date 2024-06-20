@@ -3,7 +3,7 @@ title: EncodeTypes.DatabarExpanded
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Represents GS1 Databar expanded barcode
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.barcode.generation/encodetypes/databarexpanded/
 ---
 ## EncodeTypes.DatabarExpanded field

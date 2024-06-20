@@ -3,7 +3,7 @@ title: DecodeType.VIN
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with VIN Vehicle Identification Number barcode specification
 type: docs
-weight: 910
+weight: 900
 url: /net/aspose.barcode.barcoderecognition/decodetype/vin/
 ---
 ## DecodeType.VIN field

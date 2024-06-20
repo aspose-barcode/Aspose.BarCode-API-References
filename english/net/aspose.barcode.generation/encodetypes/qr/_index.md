@@ -3,7 +3,7 @@ title: EncodeTypes.QR
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with QR Code barcode specification
 type: docs
-weight: 750
+weight: 740
 url: /net/aspose.barcode.generation/encodetypes/qr/
 ---
 ## EncodeTypes.QR field

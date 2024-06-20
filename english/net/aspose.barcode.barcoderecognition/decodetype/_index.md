@@ -47,10 +47,9 @@ public static class DecodeType
 | static readonly [Code128](../../aspose.barcode.barcoderecognition/decodetype/code128/) | Specifies that the data should be decoded with **CODE 128** barcode specification |
 | static readonly [Code16K](../../aspose.barcode.barcoderecognition/decodetype/code16k/) | Specifies that the data should be decoded with **SCode16K** barcode specification |
 | static readonly [Code32](../../aspose.barcode.barcoderecognition/decodetype/code32/) | Specifies that the data should be decoded with **Code32** barcode specification |
-| static readonly [Code39Extended](../../aspose.barcode.barcoderecognition/decodetype/code39extended/) | Specifies that the data should be decoded with **Extended CODE 39** barcode specification |
-| static readonly [Code39Standard](../../aspose.barcode.barcoderecognition/decodetype/code39standard/) | Specifies that the data should be decoded with **Standard CODE 39** barcode specification |
-| static readonly [Code93Extended](../../aspose.barcode.barcoderecognition/decodetype/code93extended/) | Specifies that the data should be decoded with **Extended CODE 93** barcode specification |
-| static readonly [Code93Standard](../../aspose.barcode.barcoderecognition/decodetype/code93standard/) | Specifies that the data should be decoded with **Standard CODE 93** barcode specification |
+| static readonly [Code39](../../aspose.barcode.barcoderecognition/decodetype/code39/) | Specifies that the data should be decoded with **Code 39** basic charset barcode specification: ISO/IEC 16388 |
+| static readonly [Code39FullASCII](../../aspose.barcode.barcoderecognition/decodetype/code39fullascii/) | Specifies that the data should be decoded with **Code 39** full ASCII charset barcode specification: ISO/IEC 16388 |
+| static readonly [Code93](../../aspose.barcode.barcoderecognition/decodetype/code93/) | Specifies that the data should be decoded with **CODE 93** barcode specification |
 | static readonly [CompactPdf417](../../aspose.barcode.barcoderecognition/decodetype/compactpdf417/) | Specifies that the data should be decoded with **CompactPdf417** (Pdf417Truncated) barcode specification |
 | static readonly [DatabarExpanded](../../aspose.barcode.barcoderecognition/decodetype/databarexpanded/) | Specifies that the data should be decoded with **GS1 Databar expanded** barcode specification |
 | static readonly [DatabarExpandedStacked](../../aspose.barcode.barcoderecognition/decodetype/databarexpandedstacked/) | Specifies that the data should be decoded with **GS1 Databar expanded stacked** barcode specification |

@@ -3,7 +3,7 @@ title: DecodeType.DataMatrix
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with DataMatrix barcode symbology
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.barcode.barcoderecognition/decodetype/datamatrix/
 ---
 ## DecodeType.DataMatrix field

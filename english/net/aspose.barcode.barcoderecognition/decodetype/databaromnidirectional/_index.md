@@ -3,7 +3,7 @@ title: DecodeType.DatabarOmniDirectional
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with GS1 Databar omnidirectional barcode specification
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.barcode.barcoderecognition/decodetype/databaromnidirectional/
 ---
 ## DecodeType.DatabarOmniDirectional field
