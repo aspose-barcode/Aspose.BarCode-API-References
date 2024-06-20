@@ -3,7 +3,7 @@ title: DecodeType.Parse
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed
 type: docs
-weight: 960
+weight: 950
 url: /net/aspose.barcode.barcoderecognition/decodetype/parse/
 ---
 ## DecodeType.Parse method

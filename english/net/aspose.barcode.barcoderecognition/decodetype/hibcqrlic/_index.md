@@ -3,7 +3,7 @@ title: DecodeType.HIBCQRLIC
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with HIBC LIC QR barcode specification
 type: docs
-weight: 500
+weight: 490
 url: /net/aspose.barcode.barcoderecognition/decodetype/hibcqrlic/
 ---
 ## DecodeType.HIBCQRLIC field

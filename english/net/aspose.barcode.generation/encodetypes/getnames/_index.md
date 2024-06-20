@@ -3,7 +3,7 @@ title: EncodeTypes.GetNames
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes method. Retrieves an array of the names of the encode types
 type: docs
-weight: 880
+weight: 870
 url: /net/aspose.barcode.generation/encodetypes/getnames/
 ---
 ## EncodeTypes.GetNames method

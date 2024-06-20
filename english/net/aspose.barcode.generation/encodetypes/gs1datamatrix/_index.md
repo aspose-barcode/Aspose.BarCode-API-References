@@ -3,7 +3,7 @@ title: EncodeTypes.GS1DataMatrix
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. 2D barcode symbology DataMatrix with GS1 string format
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.barcode.generation/encodetypes/gs1datamatrix/
 ---
 ## EncodeTypes.GS1DataMatrix field

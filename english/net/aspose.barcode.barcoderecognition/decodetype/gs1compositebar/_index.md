@@ -3,7 +3,7 @@ title: DecodeType.GS1CompositeBar
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with GS1 Composite Bar barcode specification
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.barcode.barcoderecognition/decodetype/gs1compositebar/
 ---
 ## DecodeType.GS1CompositeBar field
