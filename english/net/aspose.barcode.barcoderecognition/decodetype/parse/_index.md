@@ -27,7 +27,7 @@ public static bool Parse(string parsingType, out SingleDecodeType result)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

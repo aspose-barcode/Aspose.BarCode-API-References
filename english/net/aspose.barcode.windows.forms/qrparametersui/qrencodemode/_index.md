@@ -18,7 +18,7 @@ public QREncodeMode QrEncodeMode { get; set; }
 
 * enum [QREncodeMode](../../../aspose.barcode.generation/qrencodemode/)
 * class [QrParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../qrparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

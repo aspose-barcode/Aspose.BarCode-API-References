@@ -11,6 +11,7 @@ url: /net/aspose.barcode.generation/pdf417parameters/pdf417compactionmode/
 Pdf417 symbology type of BarCode's compaction mode. Default value: Pdf417CompactionMode.Auto.
 
 ```csharp
+[Obsolete("This property is obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode property.")]
 public Pdf417CompactionMode Pdf417CompactionMode { get; set; }
 ```
 
@@ -18,7 +19,7 @@ public Pdf417CompactionMode Pdf417CompactionMode { get; set; }
 
 * enum [Pdf417CompactionMode](../../pdf417compactionmode/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

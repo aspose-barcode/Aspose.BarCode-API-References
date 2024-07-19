@@ -76,7 +76,7 @@ End Using
 ### See Also
 
 * class [BarcodeSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodesettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

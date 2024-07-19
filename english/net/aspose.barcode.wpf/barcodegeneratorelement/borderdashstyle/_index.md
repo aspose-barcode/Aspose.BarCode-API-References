@@ -18,7 +18,7 @@ public BorderDashStyle BorderDashStyle { get; set; }
 
 * enum [BorderDashStyle](../../../aspose.barcode.generation/borderdashstyle/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -17,7 +17,7 @@ public InvalidCodeException()
 ### See Also
 
 * class [InvalidCodeException](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../invalidcodeexception/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -37,7 +37,7 @@ public InvalidCodeException(string message)
 ### See Also
 
 * class [InvalidCodeException](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../invalidcodeexception/)
 * assembly [Aspose.BarCode](../../../)
 
 

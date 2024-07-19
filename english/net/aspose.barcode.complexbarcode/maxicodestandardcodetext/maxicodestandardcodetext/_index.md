@@ -17,7 +17,7 @@ public MaxiCodeStandardCodetext()
 ### See Also
 
 * class [MaxiCodeStandardCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestandardcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

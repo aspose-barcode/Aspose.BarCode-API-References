@@ -23,7 +23,7 @@ public void AddECICodetext(ECIEncodings ECIEncoding, string codetext)
 
 * enum [ECIEncodings](../../eciencodings/)
 * class [ExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../extcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

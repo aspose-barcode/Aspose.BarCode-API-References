@@ -21,7 +21,7 @@ Return string of extended codetext
 ### See Also
 
 * class [ExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../extcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

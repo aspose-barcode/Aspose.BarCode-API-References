@@ -17,7 +17,7 @@ public void AddFNC3SymbolSeparator()
 ### See Also
 
 * class [DotCodeExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../dotcodeextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

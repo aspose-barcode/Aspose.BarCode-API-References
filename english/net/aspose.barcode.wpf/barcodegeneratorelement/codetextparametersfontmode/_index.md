@@ -18,7 +18,7 @@ public FontMode CodeTextParametersFontMode { get; set; }
 
 * enum [FontMode](../../../aspose.barcode.generation/fontmode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

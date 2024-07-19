@@ -21,7 +21,7 @@ Extended codetext as string
 ### See Also
 
 * class [AztecExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../aztecextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

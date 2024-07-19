@@ -3,7 +3,7 @@ title: Enum Pdf417CompactionMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417CompactionMode enum. Pdf417 barcode compaction mode
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.barcode.generation/pdf417compactionmode/
 ---
 ## Pdf417CompactionMode enumeration
@@ -11,6 +11,7 @@ url: /net/aspose.barcode.generation/pdf417compactionmode/
 Pdf417 barcode compaction mode
 
 ```csharp
+[Obsolete("This properties are obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode properties.")]
 public enum Pdf417CompactionMode
 ```
 

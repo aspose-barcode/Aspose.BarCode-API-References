@@ -17,7 +17,7 @@ public MaxiCodeExtCodetextBuilder()
 ### See Also
 
 * class [MaxiCodeExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../maxicodeextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

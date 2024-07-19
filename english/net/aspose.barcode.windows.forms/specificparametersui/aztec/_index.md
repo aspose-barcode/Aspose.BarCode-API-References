@@ -1,14 +1,14 @@
 ---
 title: SpecificParametersUI.Aztec
 second_title: Aspose.BarCode for .NET API Reference
-description: SpecificParametersUI property. Gets or sets Aztec parameters AztecParameters. Used for Aztec
+description: SpecificParametersUI property. Gets or sets Aztec parameters AztecParametersUI. Used for Aztec
 type: docs
 weight: 20
 url: /net/aspose.barcode.windows.forms/specificparametersui/aztec/
 ---
 ## SpecificParametersUI.Aztec property
 
-Gets or sets Aztec parameters [`AztecParameters`](../../../aspose.barcode.generation/aztecparameters/). Used for Aztec.
+Gets or sets Aztec parameters [`AztecParametersUI`](../../aztecparametersui/). Used for Aztec.
 
 ```csharp
 public AztecParametersUI Aztec { get; }
@@ -18,7 +18,7 @@ public AztecParametersUI Aztec { get; }
 
 * class [AztecParametersUI](../../aztecparametersui/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

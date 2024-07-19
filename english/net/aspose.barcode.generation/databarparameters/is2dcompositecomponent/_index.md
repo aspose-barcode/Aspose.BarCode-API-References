@@ -17,7 +17,7 @@ public bool Is2DCompositeComponent { get; set; }
 ### See Also
 
 * class [DataBarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../databarparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

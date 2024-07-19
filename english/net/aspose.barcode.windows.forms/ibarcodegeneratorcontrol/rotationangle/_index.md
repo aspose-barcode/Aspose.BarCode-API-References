@@ -17,7 +17,7 @@ public float RotationAngle { get; set; }
 ### See Also
 
 * interface [IBarCodeGeneratorControl](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../ibarcodegeneratorcontrol/)
 * assembly [Aspose.BarCode](../../../)
 
 

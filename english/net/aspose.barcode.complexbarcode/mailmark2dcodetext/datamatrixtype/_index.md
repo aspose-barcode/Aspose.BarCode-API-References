@@ -18,7 +18,7 @@ public Mailmark2DType DataMatrixType { get; set; }
 
 * enum [Mailmark2DType](../../mailmark2dtype/)
 * class [Mailmark2DCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../mailmark2dcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

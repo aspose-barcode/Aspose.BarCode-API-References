@@ -18,7 +18,7 @@ public Pdf417EncodeMode Pdf417EncodeMode { get; set; }
 
 * enum [Pdf417EncodeMode](../../../aspose.barcode.generation/pdf417encodemode/)
 * class [Pdf417ParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../pdf417parametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

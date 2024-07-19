@@ -3,7 +3,7 @@ title: DataMatrixParameters.DataMatrixEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters property. Encode mode of Datamatrix barcode. Default value DataMatrixEncodeMode.Auto
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/datamatrixparameters/datamatrixencodemode/
 ---
 ## DataMatrixParameters.DataMatrixEncodeMode property
@@ -18,7 +18,7 @@ public DataMatrixEncodeMode DataMatrixEncodeMode { get; set; }
 
 * enum [DataMatrixEncodeMode](../../datamatrixencodemode/)
 * class [DataMatrixParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../datamatrixparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

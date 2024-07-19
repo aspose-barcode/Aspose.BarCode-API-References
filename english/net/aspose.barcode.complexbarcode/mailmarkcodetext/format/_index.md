@@ -17,7 +17,7 @@ public int Format { get; set; }
 ### See Also
 
 * class [MailmarkCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../mailmarkcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

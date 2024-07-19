@@ -54,7 +54,7 @@ End Using
 
 * class [BarCodeResult](../../barcoderesult/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 

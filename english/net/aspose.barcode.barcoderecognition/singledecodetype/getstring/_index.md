@@ -21,7 +21,7 @@ A string representing the complete value of the single decode type
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -45,7 +45,7 @@ A string representing the complete value of the given single decode type
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

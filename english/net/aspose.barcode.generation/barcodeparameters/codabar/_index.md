@@ -18,7 +18,7 @@ public CodabarParameters Codabar { get; }
 
 * class [CodabarParameters](../../codabarparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

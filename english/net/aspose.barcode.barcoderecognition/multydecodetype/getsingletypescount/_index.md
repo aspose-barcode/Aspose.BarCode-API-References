@@ -17,7 +17,7 @@ public int GetSingleTypesCount { get; }
 ### See Also
 
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

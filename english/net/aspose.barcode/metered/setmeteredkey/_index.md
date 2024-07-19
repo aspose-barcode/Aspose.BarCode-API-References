@@ -22,7 +22,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 ### See Also
 
 * class [Metered](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../metered/)
 * assembly [Aspose.BarCode](../../../)
 
 

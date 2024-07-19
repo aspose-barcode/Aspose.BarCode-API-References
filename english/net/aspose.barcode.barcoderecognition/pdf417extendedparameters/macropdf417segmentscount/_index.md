@@ -21,7 +21,7 @@ Segments count.
 ### See Also
 
 * class [Pdf417ExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../pdf417extendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

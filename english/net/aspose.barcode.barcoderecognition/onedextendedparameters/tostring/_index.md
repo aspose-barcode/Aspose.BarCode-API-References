@@ -21,7 +21,7 @@ A string that represents this [`OneDExtendedParameters`](../).
 ### See Also
 
 * class [OneDExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../onedextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

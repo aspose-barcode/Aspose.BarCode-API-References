@@ -17,7 +17,7 @@ public float Millimeters { get; set; }
 ### See Also
 
 * class [Unit](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../unit/)
 * assembly [Aspose.BarCode](../../../)
 
 

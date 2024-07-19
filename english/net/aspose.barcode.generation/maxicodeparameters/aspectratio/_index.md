@@ -17,7 +17,7 @@ public float AspectRatio { get; set; }
 ### See Also
 
 * class [MaxiCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../maxicodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

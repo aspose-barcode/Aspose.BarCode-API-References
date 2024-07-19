@@ -49,7 +49,7 @@ End Using
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -97,7 +97,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 

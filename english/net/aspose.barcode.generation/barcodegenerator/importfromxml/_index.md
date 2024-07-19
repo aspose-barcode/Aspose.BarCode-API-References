@@ -25,7 +25,7 @@ BarcodeGenerator instance
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ BarcodeGenerator instance
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 

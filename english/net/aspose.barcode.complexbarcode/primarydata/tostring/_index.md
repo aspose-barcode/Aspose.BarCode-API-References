@@ -21,7 +21,7 @@ Formatted string.
 ### See Also
 
 * class [PrimaryData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../primarydata/)
 * assembly [Aspose.BarCode](../../../)
 
 

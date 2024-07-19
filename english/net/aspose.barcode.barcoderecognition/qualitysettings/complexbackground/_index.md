@@ -22,7 +22,7 @@ Additional recognition of color barcodes on color images.
 
 * enum [ComplexBackgroundMode](../../complexbackgroundmode/)
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

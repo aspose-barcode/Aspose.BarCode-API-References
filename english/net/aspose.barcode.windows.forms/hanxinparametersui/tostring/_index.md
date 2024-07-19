@@ -21,7 +21,7 @@ A string that represents this [`HanXinParameters`](../../../aspose.barcode.gener
 ### See Also
 
 * class [HanXinParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../hanxinparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

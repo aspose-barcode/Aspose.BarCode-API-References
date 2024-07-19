@@ -3,7 +3,7 @@ title: DataMatrixParameters.Columns
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters property. Columns count
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.barcode.generation/datamatrixparameters/columns/
 ---
 ## DataMatrixParameters.Columns property
@@ -11,6 +11,7 @@ url: /net/aspose.barcode.generation/datamatrixparameters/columns/
 Columns count.
 
 ```csharp
+[Obsolete("This property is obsolete. Use DataMatrixVersion instead.")]
 public int Columns { get; set; }
 ```
 

@@ -18,7 +18,7 @@ public SecondaryAndAdditionalData SecondaryAndAdditionalData { get; set; }
 
 * class [SecondaryAndAdditionalData](../../secondaryandadditionaldata/)
 * class [HIBCLICCombinedCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibcliccombinedcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

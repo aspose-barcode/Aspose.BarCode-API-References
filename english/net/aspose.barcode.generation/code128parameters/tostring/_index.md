@@ -21,7 +21,7 @@ A string that represents this [`Code128Parameters`](../).
 ### See Also
 
 * class [Code128Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../code128parameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

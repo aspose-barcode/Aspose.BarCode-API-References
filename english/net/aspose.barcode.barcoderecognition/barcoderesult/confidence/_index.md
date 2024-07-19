@@ -22,7 +22,7 @@ Strong does not have fakes or misrecognitions, Moderate could sometimes have fak
 
 * enum [BarCodeConfidence](../../barcodeconfidence/)
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
 * assembly [Aspose.BarCode](../../../)
 
 

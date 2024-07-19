@@ -21,7 +21,7 @@ The index of the QR structured append mode barcode.
 ### See Also
 
 * class [QRExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qrextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

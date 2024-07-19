@@ -21,7 +21,7 @@ public void AddGS1(string text)
 ### See Also
 
 * class [HanXinExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../hanxinextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 
