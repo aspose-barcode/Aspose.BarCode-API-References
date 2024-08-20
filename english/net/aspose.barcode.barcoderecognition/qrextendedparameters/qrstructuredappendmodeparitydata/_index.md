@@ -3,7 +3,7 @@ title: QRExtendedParameters.QRStructuredAppendModeParityData
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Gets the QR structured append mode parity data. Default value is 1
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata/
 ---
 ## QRExtendedParameters.QRStructuredAppendModeParityData property

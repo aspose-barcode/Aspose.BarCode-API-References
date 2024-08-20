@@ -3,7 +3,7 @@ title: QRExtendedParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters method. Returns a humanreadable string representation of this QRExtendedParameters
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/tostring/
 ---
 ## QRExtendedParameters.ToString method
