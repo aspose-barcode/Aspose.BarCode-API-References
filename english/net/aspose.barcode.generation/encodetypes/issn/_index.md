@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType ISSN;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../encodetypes/)
 * assembly [Aspose.BarCode](../../../)
 
 

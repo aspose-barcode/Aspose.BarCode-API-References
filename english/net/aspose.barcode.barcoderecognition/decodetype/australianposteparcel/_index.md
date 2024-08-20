@@ -18,7 +18,7 @@ public static readonly SingleDecodeType AustralianPosteParcel;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

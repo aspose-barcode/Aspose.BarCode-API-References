@@ -17,7 +17,7 @@ public MaxiCodeCodetextMode2()
 ### See Also
 
 * class [MaxiCodeCodetextMode2](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodecodetextmode2/)
 * assembly [Aspose.BarCode](../../../)
 
 

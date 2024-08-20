@@ -18,7 +18,7 @@ public Unit BarWidthReduction { get; set; }
 
 * class [Unit](../../unit/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

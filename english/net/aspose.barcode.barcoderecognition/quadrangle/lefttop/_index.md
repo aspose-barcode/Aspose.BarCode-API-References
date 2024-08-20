@@ -21,7 +21,7 @@ A left-top corner Point of [`Quadrangle`](../) region
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
 * assembly [Aspose.BarCode](../../../)
 
 

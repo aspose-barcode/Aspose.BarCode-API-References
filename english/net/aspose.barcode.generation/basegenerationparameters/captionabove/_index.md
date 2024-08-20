@@ -18,7 +18,7 @@ public CaptionParameters CaptionAbove { get; }
 
 * class [CaptionParameters](../../captionparameters/)
 * class [BaseGenerationParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../basegenerationparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

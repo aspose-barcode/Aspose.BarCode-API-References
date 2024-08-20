@@ -26,7 +26,7 @@ public static bool TryParse(string parsingType, out BaseEncodeType result)
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -52,7 +52,7 @@ public static bool TryParse(string parsingType, out SymbologyEncodeType result)
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

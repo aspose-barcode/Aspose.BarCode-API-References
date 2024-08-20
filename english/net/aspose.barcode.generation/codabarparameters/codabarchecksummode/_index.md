@@ -18,7 +18,7 @@ public CodabarChecksumMode CodabarChecksumMode { get; set; }
 
 * enum [CodabarChecksumMode](../../codabarchecksummode/)
 * class [CodabarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../codabarparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

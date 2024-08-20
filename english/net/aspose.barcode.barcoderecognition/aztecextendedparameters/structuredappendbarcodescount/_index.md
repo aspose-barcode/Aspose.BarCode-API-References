@@ -21,7 +21,7 @@ The barcodes count of the Aztec structured append mode.
 ### See Also
 
 * class [AztecExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aztecextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

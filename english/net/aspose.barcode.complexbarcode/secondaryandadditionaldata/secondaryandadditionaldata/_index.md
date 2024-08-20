@@ -17,7 +17,7 @@ public SecondaryAndAdditionalData()
 ### See Also
 
 * class [SecondaryAndAdditionalData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../secondaryandadditionaldata/)
 * assembly [Aspose.BarCode](../../../)
 
 

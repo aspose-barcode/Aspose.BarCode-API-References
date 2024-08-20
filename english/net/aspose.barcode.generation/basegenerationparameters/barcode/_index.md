@@ -18,7 +18,7 @@ public BarcodeParameters Barcode { get; }
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * class [BaseGenerationParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../basegenerationparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

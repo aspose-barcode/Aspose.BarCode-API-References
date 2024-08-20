@@ -112,7 +112,7 @@ public static class DecodeType
 | static readonly [Planet](../../aspose.barcode.barcoderecognition/decodetype/planet/) | Specifies that the data should be decoded with **Planet** barcode specification |
 | static readonly [PostalTypes](../../aspose.barcode.barcoderecognition/decodetype/postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX** |
 | static readonly [Postnet](../../aspose.barcode.barcoderecognition/decodetype/postnet/) | Specifies that the data should be decoded with **Postnet** barcode specification |
-| static readonly [PZN](../../aspose.barcode.barcoderecognition/decodetype/pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer |
+| static readonly [PZN](../../aspose.barcode.barcoderecognition/decodetype/pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported. |
 | static readonly [QR](../../aspose.barcode.barcoderecognition/decodetype/qr/) | Specifies that the data should be decoded with **QR Code** barcode specification |
 | static readonly [RectMicroQR](../../aspose.barcode.barcoderecognition/decodetype/rectmicroqr/) | Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barcode specification |
 | static readonly [RM4SCC](../../aspose.barcode.barcoderecognition/decodetype/rm4scc/) | Specifies that the data should be decoded with **RM4SCC** barcode specification. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK. |

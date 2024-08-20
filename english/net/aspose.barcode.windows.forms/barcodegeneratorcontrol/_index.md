@@ -3,7 +3,7 @@ title: Class BarCodeGeneratorControl
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.BarCodeGeneratorControl class. BarCode Windows Control goto your toolbox panel and add Aspose.BarCode.dll and you will see BarcodeGeneratorControl appears. Just drag it and drop to your Windows form. see  see
 type: docs
-weight: 1560
+weight: 1570
 url: /net/aspose.barcode.windows.forms/barcodegeneratorcontrol/
 ---
 ## BarCodeGeneratorControl class
@@ -33,11 +33,11 @@ public sealed class BarCodeGeneratorControl : Control, IBarCodeGeneratorControl
 | [BarColor](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/barcolor/) { get; set; } | Bars color. |
 | [BarHeight](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/barheight/) { get; } | Height of 1D barcodes' bars. Ignored if [`AutoSizeMode`](../../aspose.barcode.generation/autosizemode/) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation. |
 | [Border](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/border/) { get; } | Gets or sets Border parameters [`BorderParameters`](../../aspose.barcode.generation/borderparameters/). |
-| [CaptionAbove](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/captionabove/) { get; } | Caption Above the BarCode image. See [`CaptionParameters`](../../aspose.barcode.generation/captionparameters/). |
-| [CaptionBelow](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/captionbelow/) { get; } | Caption Below the BarCode image. See [`CaptionParameters`](../../aspose.barcode.generation/captionparameters/). |
+| [CaptionAbove](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/captionabove/) { get; } | Caption Above the BarCode image. See [`CaptionUI`](../captionui/). |
+| [CaptionBelow](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/captionbelow/) { get; } | Caption Below the BarCode image. See [`CaptionUI`](../captionui/). |
 | [ChecksumAlwaysShow](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/checksumalwaysshow/) { get; set; } | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [CodeText](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/codetext/) { get; set; } | Data to be encoded, different types of BarCode may have different CodeText length restrictions. |
-| [CodeTextParameters](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/codetextparameters/) { get; } | Gets or sets CodeText parameters [`CodetextParameters`](../../aspose.barcode.generation/codetextparameters/). |
+| [CodeTextParameters](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/codetextparameters/) { get; } | Gets or sets CodeText parameters [`CodetextParametersUI`](../codetextparametersui/). |
 | [EnableEscape](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/enableescape/) { get; set; } | Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \013 and \\CR stands for CR. |
 | [EncodeType](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/encodetype/) { get; set; } | BarCode's encode type (symbology). Use [`EncodeTypes`](../../aspose.barcode.generation/encodetypes/) to get current symbology. |
 | [FilledBars](../../aspose.barcode.windows.forms/barcodegeneratorcontrol/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. Only for 1D barcodes. |

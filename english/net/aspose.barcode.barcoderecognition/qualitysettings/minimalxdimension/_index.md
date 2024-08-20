@@ -21,7 +21,7 @@ Minimal size of XDimension in pixels which is used with UseMinimalXDimension.
 ### See Also
 
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

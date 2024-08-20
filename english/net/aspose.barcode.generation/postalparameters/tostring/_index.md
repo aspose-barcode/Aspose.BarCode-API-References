@@ -21,7 +21,7 @@ A string that represents this [`PostalParameters`](../).
 ### See Also
 
 * class [PostalParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../postalparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

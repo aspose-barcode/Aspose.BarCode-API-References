@@ -3,7 +3,7 @@ title: QRExtendedParameters.op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters method. Returns a value indicating if the first QRExtendedParameters value is different from the second
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/
 ---
 ## QRExtendedParameters Inequality operator
@@ -26,7 +26,7 @@ public static bool operator !=(QRExtendedParameters first, QRExtendedParameters 
 ### See Also
 
 * class [QRExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qrextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

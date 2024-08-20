@@ -21,7 +21,7 @@ Extended codetext as string
 ### See Also
 
 * class [DataMatrixExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../datamatrixextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

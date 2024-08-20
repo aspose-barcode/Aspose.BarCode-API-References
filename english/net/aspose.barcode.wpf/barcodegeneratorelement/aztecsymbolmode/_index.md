@@ -18,7 +18,7 @@ public AztecSymbolMode AztecSymbolMode { get; set; }
 
 * enum [AztecSymbolMode](../../../aspose.barcode.generation/aztecsymbolmode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

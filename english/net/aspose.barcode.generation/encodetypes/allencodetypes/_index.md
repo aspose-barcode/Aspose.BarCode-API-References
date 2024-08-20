@@ -18,7 +18,7 @@ public static BaseEncodeType[] AllEncodeTypes { get; }
 
 * class [BaseEncodeType](../../baseencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../encodetypes/)
 * assembly [Aspose.BarCode](../../../)
 
 

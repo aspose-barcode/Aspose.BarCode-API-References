@@ -21,7 +21,7 @@ The checksum for 1D barcode.
 ### See Also
 
 * class [OneDExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../onedextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

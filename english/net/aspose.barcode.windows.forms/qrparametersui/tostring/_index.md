@@ -21,7 +21,7 @@ A string that represents this [`QrParameters`](../../../aspose.barcode.generatio
 ### See Also
 
 * class [QrParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../qrparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

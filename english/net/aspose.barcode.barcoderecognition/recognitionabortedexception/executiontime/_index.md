@@ -21,7 +21,7 @@ The execution time of current recognition session
 ### See Also
 
 * class [RecognitionAbortedException](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../recognitionabortedexception/)
 * assembly [Aspose.BarCode](../../../)
 
 

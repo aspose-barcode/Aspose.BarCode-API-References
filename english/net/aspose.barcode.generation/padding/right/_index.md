@@ -18,7 +18,7 @@ public Unit Right { get; set; }
 
 * class [Unit](../../unit/)
 * class [Padding](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../padding/)
 * assembly [Aspose.BarCode](../../../)
 
 

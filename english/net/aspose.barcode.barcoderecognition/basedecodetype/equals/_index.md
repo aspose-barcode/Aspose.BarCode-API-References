@@ -26,7 +26,7 @@ public virtual bool Equals(SingleDecodeType other)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -51,7 +51,7 @@ public virtual bool Equals(MultyDecodeType other)
 
 * class [MultyDecodeType](../../multydecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -75,7 +75,7 @@ public bool Equals(BaseDecodeType other)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -99,7 +99,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

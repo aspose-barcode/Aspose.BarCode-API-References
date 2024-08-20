@@ -25,7 +25,7 @@ true if obj is a [`Unit`](../) and its value is the same as this instance; other
 ### See Also
 
 * class [Unit](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../unit/)
 * assembly [Aspose.BarCode](../../../)
 
 

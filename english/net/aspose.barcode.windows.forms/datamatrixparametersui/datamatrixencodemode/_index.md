@@ -18,7 +18,7 @@ public DataMatrixEncodeMode DataMatrixEncodeMode { get; set; }
 
 * enum [DataMatrixEncodeMode](../../../aspose.barcode.generation/datamatrixencodemode/)
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

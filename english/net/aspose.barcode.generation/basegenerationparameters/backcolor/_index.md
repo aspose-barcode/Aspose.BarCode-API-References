@@ -17,7 +17,7 @@ public Color BackColor { get; set; }
 ### See Also
 
 * class [BaseGenerationParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../basegenerationparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

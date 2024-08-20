@@ -17,7 +17,7 @@ public int MaxiCodeStructuredAppendModeBarcodesCount { get; set; }
 ### See Also
 
 * class [MaxiCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../maxicodeextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

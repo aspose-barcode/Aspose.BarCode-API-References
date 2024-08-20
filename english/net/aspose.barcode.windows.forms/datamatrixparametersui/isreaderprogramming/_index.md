@@ -17,7 +17,7 @@ public bool IsReaderProgramming { get; set; }
 ### See Also
 
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

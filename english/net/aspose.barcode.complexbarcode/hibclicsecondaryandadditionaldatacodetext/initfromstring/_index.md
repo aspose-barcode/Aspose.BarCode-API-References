@@ -21,7 +21,7 @@ public override void InitFromString(string constructedCodetext)
 ### See Also
 
 * class [HIBCLICSecondaryAndAdditionalDataCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibclicsecondaryandadditionaldatacodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

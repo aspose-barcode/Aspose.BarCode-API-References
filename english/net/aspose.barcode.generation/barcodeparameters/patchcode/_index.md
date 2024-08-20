@@ -18,7 +18,7 @@ public PatchCodeParameters PatchCode { get; }
 
 * class [PatchCodeParameters](../../patchcodeparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

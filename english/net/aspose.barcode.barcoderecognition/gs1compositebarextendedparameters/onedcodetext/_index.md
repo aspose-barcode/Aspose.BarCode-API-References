@@ -21,7 +21,7 @@ public string OneDCodeText { get; }
 ### See Also
 
 * class [GS1CompositeBarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../gs1compositebarextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

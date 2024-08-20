@@ -18,7 +18,7 @@ public PatchFormat PatchFormat { get; set; }
 
 * enum [PatchFormat](../../patchformat/)
 * class [PatchCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../patchcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ A string that represents this [`DataBarParameters`](../).
 ### See Also
 
 * class [DataBarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../databarparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -25,7 +25,7 @@ public override bool Equals(SingleDecodeType other)
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

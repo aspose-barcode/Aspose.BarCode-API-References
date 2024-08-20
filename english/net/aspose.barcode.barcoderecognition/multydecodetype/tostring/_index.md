@@ -23,7 +23,7 @@ A string representing MultyDecodeType instance as "singleDecodeType1, singleDeco
 ### See Also
 
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public HanXinVersion HanXinVersion { get; set; }
 
 * enum [HanXinVersion](../../../aspose.barcode.generation/hanxinversion/)
 * class [HanXinParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../hanxinparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

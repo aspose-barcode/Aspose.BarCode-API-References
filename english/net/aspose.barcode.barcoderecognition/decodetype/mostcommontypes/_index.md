@@ -18,7 +18,7 @@ public static readonly MultyDecodeType MostCommonTypes;
 
 * class [MultyDecodeType](../../multydecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

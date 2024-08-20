@@ -17,7 +17,7 @@ public byte ParityByte { get; set; }
 ### See Also
 
 * class [QrStructuredAppendParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../qrstructuredappendparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

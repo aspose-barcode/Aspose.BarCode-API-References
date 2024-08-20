@@ -3,7 +3,7 @@ title: DataMatrixParameters.Rows
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters property. Rows count
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.barcode.generation/datamatrixparameters/rows/
 ---
 ## DataMatrixParameters.Rows property
@@ -11,6 +11,7 @@ url: /net/aspose.barcode.generation/datamatrixparameters/rows/
 Rows count.
 
 ```csharp
+[Obsolete("This property is obsolete. Use DataMatrixVersion instead.")]
 public int Rows { get; set; }
 ```
 

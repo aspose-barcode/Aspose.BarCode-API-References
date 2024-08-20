@@ -21,7 +21,7 @@ A string that represents this [`DataMatrixParameters`](../../../aspose.barcode.g
 ### See Also
 
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

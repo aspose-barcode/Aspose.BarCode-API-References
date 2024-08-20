@@ -17,7 +17,7 @@ public string CodeText { get; set; }
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 

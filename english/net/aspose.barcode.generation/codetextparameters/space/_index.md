@@ -18,7 +18,7 @@ public Unit Space { get; set; }
 
 * class [Unit](../../unit/)
 * class [CodetextParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../codetextparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

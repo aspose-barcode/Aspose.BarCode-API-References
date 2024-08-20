@@ -22,7 +22,7 @@ The interpreting type (CTable, NTable or Other) of customer information for Aust
 
 * enum [CustomerInformationInterpretingType](../../../aspose.barcode/customerinformationinterpretingtype/)
 * class [AustraliaPostSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../australiapostsettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

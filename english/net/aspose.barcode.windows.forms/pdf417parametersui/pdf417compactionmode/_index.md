@@ -16,8 +16,9 @@ public Pdf417CompactionMode Pdf417CompactionMode { get; set; }
 
 ### See Also
 
+* enum [Pdf417CompactionMode](../../../aspose.barcode.generation/pdf417compactionmode/)
 * class [Pdf417ParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../pdf417parametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

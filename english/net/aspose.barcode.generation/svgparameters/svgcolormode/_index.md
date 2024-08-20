@@ -18,7 +18,7 @@ public SvgColorMode SvgColorMode { get; set; }
 
 * enum [SvgColorMode](../../svgcolormode/)
 * class [SvgParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../svgparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 
