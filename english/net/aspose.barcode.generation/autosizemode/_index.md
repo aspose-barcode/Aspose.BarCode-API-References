@@ -19,8 +19,8 @@ public enum AutoSizeMode
 | Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Automatic resizing is disabled. |
-| Nearest | `1` | Resizes barcode to nearest lowest possible size specified by BarCodeWidth and BarCodeHeight properties. Preserves default aspect ratio. |
-| Interpolation | `2` | Resizes barcode to specified size. Size can be specified by BarCodeWidth and BarCodeHeight properties. Generated barcode may be invalid (not readable) after scaling. |
+| Nearest | `1` | Resizes barcode to nearest lowest possible size specified by ImageWidth and ImageHeight properties. Preserves default aspect ratio. |
+| Interpolation | `2` | Resizes barcode to specified size. Size can be specified by ImageWidth and ImageHeight properties. Generated barcode may be invalid (not readable) after scaling. |
 
 ### See Also
 
