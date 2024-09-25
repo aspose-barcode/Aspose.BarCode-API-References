@@ -3,7 +3,7 @@ title: MaxiCodeEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 88
+weight: 89
 url: /java/com.aspose.barcode.generation/maxicodeencodemode/
 ---
 **Inheritance:**
@@ -25,15 +25,9 @@ Encoding mode for MaxiCode barcodes.
 
  //Bytes mode
  byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
-
- //encode array to string
- StringBuilder strBld = new StringBuilder();
- for(byte bval : encodedArr)
-     strBld.append((char) bval);
- String codetext = strBld.ToString();
-
- BarcodeGenerator generator1 = new BarcodeGenerator(EncodeTypes.MAXI_CODE, codetext);
- generator.getParameters().getBarcode().getMaxiCode().setMaxiCodeEncodeMode(MaxiCodeEncodeMode.BYTES);
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MAXI_CODE);
+ generator.setCodetext(encodedArr);
+ generator.getParameters().getBarcode().getMaxiCode().setMaxiCodeEncodeMode(MaxiCodeEncodeMode.BINARY);
  generator.save("test.bmp");
 
  //Extended codetext mode
@@ -57,9 +51,12 @@ Encoding mode for MaxiCode barcodes.
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Encode codetext with value set in the ECIEncoding property. |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
 | [BYTES](#BYTES) | Encode codetext as plain bytes. |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) | Extended mode which supports multi ECI modes. |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
+| [EXTENDED](#EXTENDED) |  |
+| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 ## Methods
 
 | Method | Description |
@@ -87,7 +84,15 @@ public static final MaxiCodeEncodeMode AUTO
 ```
 
 
-Encode codetext with value set in the ECIEncoding property.
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown.
+
+### BINARY {#BINARY}
+```
+public static final MaxiCodeEncodeMode BINARY
+```
+
+
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
 ### BYTES {#BYTES}
 ```
@@ -97,13 +102,45 @@ public static final MaxiCodeEncodeMode BYTES
 
 Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
 
+### ECI {#ECI}
+```
+public static final MaxiCodeEncodeMode ECI
+```
+
+
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode.
+
+### EXTENDED {#EXTENDED}
+```
+public static final MaxiCodeEncodeMode EXTENDED
+```
+
+
+Extended mode which supports multi ECI modes.
+
+It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation.
+
+Use Display2DText property to set visible text to removing managing characters.
+
+ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
+
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```
 public static final MaxiCodeEncodeMode EXTENDED_CODETEXT
 ```
 
 
-Extended mode which supports multi ECI modes. It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+Extended mode which supports multi ECI modes.
+
+It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation.
+
+Use Display2DText property to set visible text to removing managing characters.
+
+ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
+
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

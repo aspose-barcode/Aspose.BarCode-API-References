@@ -17,9 +17,9 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 --------------------
 
 > ```
-> This sample shows how to encode and decode HIBC LIC using HIBCLICPrimaryCodetext.
+> This sample shows how to encode and decode HIBC LIC using HIBCLICPrimaryDataCodetext.
 >  
->  HIBCLICPrimaryCodetext complexCodetext  = new HIBCLICPrimaryCodetext();
+>  HIBCLICPrimaryCodetext complexCodetext  = new HIBCLICPrimaryDataCodetext();
 >  complexCodetext.setBarcodeType(EncodeTypes.HIBCQRLIC);
 >  complexCodetext.setData(new PrimaryData());
 >  complexCodetext.getData().setProductOrCatalogNumber("12345");

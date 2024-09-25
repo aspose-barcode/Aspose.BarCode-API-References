@@ -3,7 +3,7 @@ title: BarcodeQualityMode
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 **Inheritance:**

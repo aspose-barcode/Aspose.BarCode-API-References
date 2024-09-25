@@ -3,7 +3,7 @@ title: Code128DataPortionInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.barcode.barcoderecognition/code128dataportioninternal/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: DecodeType
 second_title: Aspose.BarCode for Java API Reference
 description: Specify the type of barcode to read.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.aspose.barcode.barcoderecognition/decodetype/
 ---
 **Inheritance:**
@@ -45,10 +45,9 @@ Specify the type of barcode to read.
 | [CODE_128](#CODE-128) | Specifies that the data should be decoded with  **CODE 128**  barcode specification |
 | [CODE_16_K](#CODE-16-K) | Specifies that the data should be decoded with  **SCode16K**  barcode specification |
 | [CODE_32](#CODE-32) | Specifies that the data should be decoded with  **Code32**  barcode specification |
-| [CODE_39_EXTENDED](#CODE-39-EXTENDED) | Specifies that the data should be decoded with  **Extended CODE 39**  barcode specification |
-| [CODE_39_STANDARD](#CODE-39-STANDARD) | Specifies that the data should be decoded with  **Standard CODE 39**  barcode specification |
-| [CODE_93_EXTENDED](#CODE-93-EXTENDED) | Specifies that the data should be decoded with  **Extended CODE 93**  barcode specification |
-| [CODE_93_STANDARD](#CODE-93-STANDARD) | Specifies that the data should be decoded with  **Standard CODE 93**  barcode specification |
+| [CODE_39](#CODE-39) | Specifies that the data should be decoded with  **Code 39**  basic charset barcode specification: ISO/IEC 16388 |
+| [CODE_39_FULL_ASCII](#CODE-39-FULL-ASCII) | Specifies that the data should be decoded with  **Code 39**  full ASCII charset barcode specification: ISO/IEC 16388 |
+| [CODE_93](#CODE-93) | Specifies that the data should be decoded with  **CODE 93**  barcode specification |
 | [COMPACT_PDF_417](#COMPACT-PDF-417) | Specifies that the data should be decoded with  **CompactPdf417**  (Pdf417Truncated) barcode specification |
 | [DATABAR_EXPANDED](#DATABAR-EXPANDED) | Specifies that the data should be decoded with  **GS1 DATABAR expanded**  barcode specification |
 | [DATABAR_EXPANDED_STACKED](#DATABAR-EXPANDED-STACKED) | Specifies that the data should be decoded with  **GS1 DATABAR expanded stacked**  barcode specification |
@@ -234,37 +233,29 @@ public static final SingleDecodeType CODE_32
 
 Specifies that the data should be decoded with  **Code32**  barcode specification
 
-### CODE_39_EXTENDED {#CODE-39-EXTENDED}
+### CODE_39 {#CODE-39}
 ```
-public static final SingleDecodeType CODE_39_EXTENDED
-```
-
-
-Specifies that the data should be decoded with  **Extended CODE 39**  barcode specification
-
-### CODE_39_STANDARD {#CODE-39-STANDARD}
-```
-public static final SingleDecodeType CODE_39_STANDARD
+public static final SingleDecodeType CODE_39
 ```
 
 
-Specifies that the data should be decoded with  **Standard CODE 39**  barcode specification
+Specifies that the data should be decoded with  **Code 39**  basic charset barcode specification: ISO/IEC 16388
 
-### CODE_93_EXTENDED {#CODE-93-EXTENDED}
+### CODE_39_FULL_ASCII {#CODE-39-FULL-ASCII}
 ```
-public static final SingleDecodeType CODE_93_EXTENDED
-```
-
-
-Specifies that the data should be decoded with  **Extended CODE 93**  barcode specification
-
-### CODE_93_STANDARD {#CODE-93-STANDARD}
-```
-public static final SingleDecodeType CODE_93_STANDARD
+public static final SingleDecodeType CODE_39_FULL_ASCII
 ```
 
 
-Specifies that the data should be decoded with  **Standard CODE 93**  barcode specification
+Specifies that the data should be decoded with  **Code 39**  full ASCII charset barcode specification: ISO/IEC 16388
+
+### CODE_93 {#CODE-93}
+```
+public static final SingleDecodeType CODE_93
+```
+
+
+Specifies that the data should be decoded with  **CODE 93**  barcode specification
 
 ### COMPACT_PDF_417 {#COMPACT-PDF-417}
 ```
@@ -768,7 +759,7 @@ public static final SingleDecodeType PZN
 ```
 
 
-Specifies that the data should be decoded with  **PZN**  barcode specification. This symbology is also known as Pharma Zentral Nummer
+Specifies that the data should be decoded with  **PZN**  barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported.
 
 ### QR {#QR}
 ```

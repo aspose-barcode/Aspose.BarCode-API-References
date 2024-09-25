@@ -1,28 +1,26 @@
 ---
-title: BarcodeClassifications
+title: SvgColorMode
 second_title: Aspose.BarCode for Java API Reference
-description: EncodeTypes classification
+description: Possible modes for filling color in svg file RGB is default and supported by SVG 1.1.
 type: docs
-weight: 71
-url: /java/com.aspose.barcode.generation/barcodeclassifications/
+weight: 102
+url: /java/com.aspose.barcode.generation/svgcolormode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum BarcodeClassifications extends Enum<BarcodeClassifications>
+public enum SvgColorMode extends Enum<SvgColorMode>
 ```
 
-EncodeTypes classification
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [COUPON](#COUPON) | Specifies COUPON-barcode |
-| [DATABAR](#DATABAR) | Specifies DataBar-barcode |
-| [NONE](#NONE) | Unspecified classification |
-| [POSTAL](#POSTAL) | Specifies POSTAL-barcode |
-| [TYPE_1D](#TYPE-1D) | Specifies 1D-barcode |
-| [TYPE_2D](#TYPE-2D) | Specifies 2D-barcode |
+| [HSL](#HSL) | HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73" |
+| [HSLA](#HSLA) | HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)" |
+| [RGB](#RGB) | RGB mode, example: fill="\#ff5511" fill-opacity="0.73". |
+| [RGBA](#RGBA) | RGBA mode, example: fill="rgba(255, 85, 17, 0.73)" |
 ## Methods
 
 | Method | Description |
@@ -44,53 +42,37 @@ EncodeTypes classification
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### COUPON {#COUPON}
+### HSL {#HSL}
 ```
-public static final BarcodeClassifications COUPON
-```
-
-
-Specifies COUPON-barcode
-
-### DATABAR {#DATABAR}
-```
-public static final BarcodeClassifications DATABAR
+public static final SvgColorMode HSL
 ```
 
 
-Specifies DataBar-barcode
+HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73"
 
-### NONE {#NONE}
+### HSLA {#HSLA}
 ```
-public static final BarcodeClassifications NONE
-```
-
-
-Unspecified classification
-
-### POSTAL {#POSTAL}
-```
-public static final BarcodeClassifications POSTAL
+public static final SvgColorMode HSLA
 ```
 
 
-Specifies POSTAL-barcode
+HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)"
 
-### TYPE_1D {#TYPE-1D}
+### RGB {#RGB}
 ```
-public static final BarcodeClassifications TYPE_1D
-```
-
-
-Specifies 1D-barcode
-
-### TYPE_2D {#TYPE-2D}
-```
-public static final BarcodeClassifications TYPE_2D
+public static final SvgColorMode RGB
 ```
 
 
-Specifies 2D-barcode
+RGB mode, example: fill="\#ff5511" fill-opacity="0.73". Default mode.
+
+### RGBA {#RGBA}
+```
+public static final SvgColorMode RGBA
+```
+
+
+RGBA mode, example: fill="rgba(255, 85, 17, 0.73)"
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -226,7 +208,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static BarcodeClassifications valueOf(String name)
+public static SvgColorMode valueOf(String name)
 ```
 
 
@@ -238,17 +220,17 @@ public static BarcodeClassifications valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[BarcodeClassifications](../../com.aspose.barcode.generation/barcodeclassifications)
+com.aspose.barcode.generation.SvgColorMode
 ### values() {#values--}
 ```
-public static BarcodeClassifications[] values()
+public static SvgColorMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.BarcodeClassifications[]
+com.aspose.barcode.generation.SvgColorMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

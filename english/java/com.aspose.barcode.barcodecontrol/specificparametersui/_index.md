@@ -19,22 +19,22 @@ Class contains specific parameters for UI
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAustralianPost()](#getAustralianPost--) | Gets AustralianPost parameters com.aspose.barcode.generation.AustralianPostParameters . |
-| [getAztec()](#getAztec--) | Gets Aztec parameters com.aspose.barcode.generation.AztecParameters . |
+| [getAztec()](#getAztec--) | Gets Aztec parameters com.aspose.barcode.barcodecontrol.AztecParametersUI . |
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Gets Codabar parameters com.aspose.barcode.generation.CodabarParameters . |
 | [getCodablock()](#getCodablock--) | Gets Codablock parameters com.aspose.barcode.generation.CodablockParameters . |
-| [getCode128()](#getCode128--) | Gets Code128 parameters . |
+| [getCode128()](#getCode128--) | Gets Code128 parameters com.aspose.barcode.generation.Code128Parameters. |
 | [getCode16K()](#getCode16K--) | Gets Code16K parameters com.aspose.barcode.generation.Code16KParameters . |
 | [getCoupon()](#getCoupon--) | Gets Coupon parameters com.aspose.barcode.generation.CouponParameters . |
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters com.aspose.barcode.generation.DataBarParameters . |
-| [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters com.aspose.barcode.generation.DataMatrixParameters Used for DataMatrix. |
-| [getDotCode()](#getDotCode--) | Gets DotCode parameters |
-| [getHanXin()](#getHanXin--) | Gets HanXin parameters . |
+| [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters com.aspose.barcode.barcodecontrol.DataMatrixParametersUI Used for DataMatrix. |
+| [getDotCode()](#getDotCode--) | Gets DotCode parameters com.aspose.barcode.generation.DotCodeParameters" |
+| [getHanXin()](#getHanXin--) | Gets HanXin parameters com.aspose.barcode.barcodecontrol.HanXinParametersUI. |
 | [getITF()](#getITF--) | Gets ITF parameters com.aspose.barcode.generation.ITFParameters . |
 | [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters com.aspose.barcode.generation.MaxiCodeParameters . |
-| [getPdf417()](#getPdf417--) | Gets Pdf417 parameters com.aspose.barcode.generation.Pdf417Parameters . |
+| [getPdf417()](#getPdf417--) | Gets Pdf417 parameters com.aspose.barcode.barcodecontrol.Pdf417ParametersUI . |
 | [getPostal()](#getPostal--) | Gets Postal parameters com.aspose.barcode.generation.PostalParameters . |
-| [getQR()](#getQR--) | Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . |
+| [getQR()](#getQR--) | Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.barcodecontrol.QrParametersUI . |
 | [getSupplement()](#getSupplement--) | Gets Supplement parameters com.aspose.barcode.generation.SupplementParameters . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -74,7 +74,7 @@ public AztecParametersUI getAztec()
 ```
 
 
-Gets Aztec parameters com.aspose.barcode.generation.AztecParameters . Used for Aztec.
+Gets Aztec parameters com.aspose.barcode.barcodecontrol.AztecParametersUI . Used for Aztec.
 
 **Returns:**
 [AztecParametersUI](../../com.aspose.barcode.barcodecontrol/aztecparametersui)
@@ -114,7 +114,7 @@ public Code128Parameters getCode128()
 ```
 
 
-Gets Code128 parameters . Used for Code128.
+Gets Code128 parameters com.aspose.barcode.generation.Code128Parameters. Used for Code128.
 
 **Returns:**
 [Code128Parameters](../../com.aspose.barcode.generation/code128parameters)
@@ -154,7 +154,7 @@ public DataMatrixParametersUI getDataMatrix()
 ```
 
 
-Gets DataMatrix parameters com.aspose.barcode.generation.DataMatrixParameters Used for DataMatrix.
+Gets DataMatrix parameters com.aspose.barcode.barcodecontrol.DataMatrixParametersUI Used for DataMatrix.
 
 **Returns:**
 [DataMatrixParametersUI](../../com.aspose.barcode.barcodecontrol/datamatrixparametersui)
@@ -164,7 +164,7 @@ public DotCodeParameters getDotCode()
 ```
 
 
-Gets DotCode parameters
+Gets DotCode parameters com.aspose.barcode.generation.DotCodeParameters"
 
 **Returns:**
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters) - Used for DotCode.
@@ -174,7 +174,7 @@ public HanXinParametersUI getHanXin()
 ```
 
 
-Gets HanXin parameters .
+Gets HanXin parameters com.aspose.barcode.barcodecontrol.HanXinParametersUI.
 
 **Returns:**
 [HanXinParametersUI](../../com.aspose.barcode.barcodecontrol/hanxinparametersui) - 
@@ -204,7 +204,7 @@ public Pdf417ParametersUI getPdf417()
 ```
 
 
-Gets Pdf417 parameters com.aspose.barcode.generation.Pdf417Parameters .
+Gets Pdf417 parameters com.aspose.barcode.barcodecontrol.Pdf417ParametersUI .
 
 **Returns:**
 [Pdf417ParametersUI](../../com.aspose.barcode.barcodecontrol/pdf417parametersui) - Used for Pdf417.
@@ -224,7 +224,7 @@ public QrParametersUI getQR()
 ```
 
 
-Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . Used for QR.
+Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.barcodecontrol.QrParametersUI . Used for QR.
 
 **Returns:**
 [QrParametersUI](../../com.aspose.barcode.barcodecontrol/qrparametersui)

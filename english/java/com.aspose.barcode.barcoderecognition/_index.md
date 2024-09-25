@@ -29,6 +29,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [BarcodeSvmDetectorSettings](../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings) | Barcode detector settings. |
 | [BaseDecodeType](../com.aspose.barcode.barcoderecognition/basedecodetype) | Base class for MultyDecodeType and SingleDecodeType. |
 | [BaseExtendedParameters](../com.aspose.barcode.barcoderecognition/baseextendedparameters) | Basic class for extended parameters of recognized barcode storing |
+| [CodabarExtendedParameters](../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | Stores a Codabar additional information of recognized barcode |
 | [Code128DataPortion](../com.aspose.barcode.barcoderecognition/code128dataportion) | Contains the data of subtype for Code128 type barcode |
 | [Code128DataPortionInternal](../com.aspose.barcode.barcoderecognition/code128dataportioninternal) |  |
 | [Code128ExtendedParameters](../com.aspose.barcode.barcoderecognition/code128extendedparameters) | Stores special data of Code128 recognized barcode |

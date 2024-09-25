@@ -50,6 +50,7 @@ This package contains tools for generating barcode.
 | [HanXinEncoder](../com.aspose.barcode.generation/hanxinencoder) |  |
 | [HanXinExtCodetextBuilder](../com.aspose.barcode.generation/hanxinextcodetextbuilder) |  |
 | [HanXinParameters](../com.aspose.barcode.generation/hanxinparameters) | Han Xin parameters. |
+| [HslaColor](../com.aspose.barcode.generation/hslacolor) | Class for representing HSLA color (Hue, Saturation, Lightness, Alpha) |
 | [ITFParameters](../com.aspose.barcode.generation/itfparameters) | ITF parameters. |
 | [ImageParameters](../com.aspose.barcode.generation/imageparameters) | Image parameters. |
 | [ImageUnitConverter](../com.aspose.barcode.generation/imageunitconverter) |  |
@@ -106,6 +107,7 @@ This package contains tools for generating barcode.
 | [MicroQRVersion](../com.aspose.barcode.generation/microqrversion) | Version of MicroQR Code. |
 | [PatchFormat](../com.aspose.barcode.generation/patchformat) | PatchCode format. |
 | [Pdf417CompactionMode](../com.aspose.barcode.generation/pdf417compactionmode) | Pdf417 barcode's compation mode |
+| [Pdf417EncodeMode](../com.aspose.barcode.generation/pdf417encodemode) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](../com.aspose.barcode.generation/pdf417errorlevel) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction |
 | [Pdf417MacroTerminator](../com.aspose.barcode.generation/pdf417macroterminator) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
 | [QREncodeMode](../com.aspose.barcode.generation/qrencodemode) | Encoding mode for QR barcodes. |
@@ -114,5 +116,6 @@ This package contains tools for generating barcode.
 | [QRVersion](../com.aspose.barcode.generation/qrversion) | Version of QR Code. |
 | [RectMicroQRVersion](../com.aspose.barcode.generation/rectmicroqrversion) | Version of RectMicroQR Code. |
 | [StringAlignment](../com.aspose.barcode.generation/stringalignment) |  |
+| [SvgColorMode](../com.aspose.barcode.generation/svgcolormode) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. |
 | [TextAlignment](../com.aspose.barcode.generation/textalignment) | Text alignment. |
 | [TwoDComponentType](../com.aspose.barcode.generation/twodcomponenttype) | Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. |

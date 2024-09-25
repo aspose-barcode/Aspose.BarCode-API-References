@@ -3,7 +3,7 @@ title: SvgParameters
 second_title: Aspose.BarCode for Java API Reference
 description: SVG parameters.
 type: docs
-weight: 61
+weight: 62
 url: /java/com.aspose.barcode.generation/svgparameters/
 ---
 **Inheritance:**
@@ -19,12 +19,14 @@ SVG parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getSvgColorMode()](#getSvgColorMode--) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. |
 | [hashCode()](#hashCode--) |  |
 | [isExplicitSizeInPixels()](#isExplicitSizeInPixels--) | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
 | [isTextDrawnInTextElement()](#isTextDrawnInTextElement--) | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setExplicitSizeInPixels(boolean explicitSizeInPixels)](#setExplicitSizeInPixels-boolean-) | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
+| [setSvgColorMode(SvgColorMode value)](#setSvgColorMode-com.aspose.barcode.generation.SvgColorMode-) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. |
 | [setTextDrawnInTextElement(boolean textDrawnInTextElement)](#setTextDrawnInTextElement-boolean-) | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -55,6 +57,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getSvgColorMode() {#getSvgColorMode--}
+```
+public SvgColorMode getSvgColorMode()
+```
+
+
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
+
+**Returns:**
+com.aspose.barcode.generation.SvgColorMode
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -113,6 +125,19 @@ Does SVG image contain explicit size in pixels (recommended) Default value: true
 | Parameter | Type | Description |
 | --- | --- | --- |
 | explicitSizeInPixels | boolean |  |
+
+### setSvgColorMode(SvgColorMode value) {#setSvgColorMode-com.aspose.barcode.generation.SvgColorMode-}
+```
+public void setSvgColorMode(SvgColorMode value)
+```
+
+
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.barcode.generation.SvgColorMode |  |
 
 ### setTextDrawnInTextElement(boolean textDrawnInTextElement) {#setTextDrawnInTextElement-boolean-}
 ```

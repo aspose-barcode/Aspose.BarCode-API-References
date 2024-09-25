@@ -29,7 +29,7 @@ Provides methods to license the component.
 | [notifyAll()](#notifyAll--) |  |
 | [setLicense(File licenseFile)](#setLicense-java.io.File-) | Licenses the component. |
 | [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
+| [setLicense(String licenseFilePath)](#setLicense-java.lang.String-) | Licenses the component. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,9 +119,9 @@ Licenses the component.
 | --- | --- | --- |
 | stream | java.io.InputStream | A stream that contains the license. |
 
-### setLicense(String licenseName) {#setLicense-java.lang.String-}
+### setLicense(String licenseFilePath) {#setLicense-java.lang.String-}
 ```
-public void setLicense(String licenseName)
+public void setLicense(String licenseFilePath)
 ```
 
 
@@ -130,7 +130,7 @@ Licenses the component.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name Use an empty string to switch to evaluation mode. |
+| licenseFilePath | java.lang.String | Can be a full or short file name Use an empty string to switch to evaluation mode. |
 
 ### toString() {#toString--}
 ```
