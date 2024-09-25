@@ -3,7 +3,7 @@ title: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for Java API Reference
 description: Defines the interpreting typeC_TABLE or N_TABLE of customer information for AustralianPost BarCode.
 type: docs
-weight: 50
+weight: 51
 url: /java/com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype/
 ---
 **Inheritance:**

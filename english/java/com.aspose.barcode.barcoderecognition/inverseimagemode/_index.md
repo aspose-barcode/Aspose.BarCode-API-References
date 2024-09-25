@@ -3,7 +3,7 @@ title: InverseImageMode
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 **Inheritance:**

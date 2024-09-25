@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: DataMatrix encoders encoding mode default to Auto
 type: docs
-weight: 76
+weight: 77
 url: /java/com.aspose.barcode.generation/datamatrixencodemode/
 ---
 **Inheritance:**
@@ -25,30 +25,24 @@ DataMatrix encoder's encoding mode, default to Auto
 >  generator.getParameters().getBarcode().getDataMatrix().setECIEncoding(ECIEncodings.UTF8);
 >  generator.save("test.bmp");
 >  //Bytes mode
->  byte[] encodedArr = {(byte) 0xFF, (byte) 0xFE, (byte) 0xFD, (byte) 0xFC, (byte) 0xFB, (byte) 0xFA, (byte) 0xF9};
->  //encode array to String
->  StringBuilder strBld = new StringBuilder();
->  for( byte bval : encodedArr)
->  {
->   strBld.append((char) bval);
->   String codetext = strBld.toString();
->   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
->   generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BYTES);
->   generator.save("test.bmp");
-> }
+>  byte[] encodedArr = { (byte)0xFF, (byte)0xFE, (byte)0xFD, (byte)0xFC, (byte)0xFB, (byte)0xFA, (byte)0xF9 };
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
+>  generator.setCodetext(encodedArr);
+>  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BINARY);
+>  generator.save("test.bmp");
 >  //Extended codetext mode
 >  //create codetext
-> DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
-> codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
-> codetextBuilder.addPlainCodetext("Will");
-> codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
-> codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
+>  DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
+>  codetextBuilder.addPlainCodetext("Will");
+>  codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
+>  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
 >  //generate codetext
-> String codetext=codetextBuilder.getExtendedCodetext();
+>  String codetext=codetextBuilder.getExtended();
 >  //generate
-> BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
-> generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
-> generator.save("test.bmp");
+>  BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
+>  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+>  generator.save("test.bmp");
 > ```
 ## Fields
 
@@ -56,10 +50,14 @@ DataMatrix encoder's encoding mode, default to Auto
 | --- | --- |
 | [ANSIX12](#ANSIX12) | Uses ANSI X12 encoding. |
 | [ASCII](#ASCII) | Encodes one alphanumeric or two numeric characters per byte |
-| [AUTO](#AUTO) | Automatically pick up the best encode mode for Datamatrix encoding |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BASE_256](#BASE-256) | Encode 8 bit values |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
 | [BYTES](#BYTES) | Encode 8 bit values |
 | [C40](#C40) | Uses C40 encoding. |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
 | [EDIFACT](#EDIFACT) | Uses EDIFACT encoding. |
+| [EXTENDED](#EXTENDED) | ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. |
 | [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 | [TEXT](#TEXT) | Uses Text encoding. |
 ## Methods
@@ -105,7 +103,23 @@ public static final DataMatrixEncodeMode AUTO
 ```
 
 
-Automatically pick up the best encode mode for Datamatrix encoding
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown.
+
+### BASE_256 {#BASE-256}
+```
+public static final DataMatrixEncodeMode BASE_256
+```
+
+
+Encode 8 bit values
+
+### BINARY {#BINARY}
+```
+public static final DataMatrixEncodeMode BINARY
+```
+
+
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
 ### BYTES {#BYTES}
 ```
@@ -123,6 +137,14 @@ public static final DataMatrixEncodeMode C40
 
 Uses C40 encoding. Encodes Upper-case alphanumeric, Lower case and special characters
 
+### ECI {#ECI}
+```
+public static final DataMatrixEncodeMode ECI
+```
+
+
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode.
+
 ### EDIFACT {#EDIFACT}
 ```
 public static final DataMatrixEncodeMode EDIFACT
@@ -130,6 +152,14 @@ public static final DataMatrixEncodeMode EDIFACT
 
 
 Uses EDIFACT encoding. Uses six bits per character, encodes digits, upper-case letters, and many punctuation marks, but has no support for lower-case letters.
+
+### EXTENDED {#EXTENDED}
+```
+public static final DataMatrixEncodeMode EXTENDED
+```
+
+
+ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. It is better to use DataMatrixExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier All unicode characters after ECI identifier are automatically encoded into correct character codeset. Encodation schemes are set in the next format : "\\Encodation\_scheme\_name:text\\Encodation\_scheme\_name:text". Allowed encodation schemes are: EDIFACT, ANSIX12, ASCII, C40, Text, Auto. All backslashes (\\) must be doubled in text.
 
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```

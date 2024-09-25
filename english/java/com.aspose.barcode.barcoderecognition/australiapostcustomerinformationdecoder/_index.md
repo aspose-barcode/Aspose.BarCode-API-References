@@ -3,7 +3,7 @@ title: AustraliaPostCustomerInformationDecoder
 second_title: Aspose.BarCode for Java API Reference
 description: Public interface for Customer Information Field decoding which is used in AustraliaPost symbology.
 type: docs
-weight: 46
+weight: 47
 url: /java/com.aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/
 ---```
 public interface AustraliaPostCustomerInformationDecoder

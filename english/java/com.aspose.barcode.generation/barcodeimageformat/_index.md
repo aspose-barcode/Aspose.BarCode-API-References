@@ -3,7 +3,7 @@ title: BarCodeImageFormat
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the file format of the image.
 type: docs
-weight: 69
+weight: 70
 url: /java/com.aspose.barcode.generation/barcodeimageformat/
 ---
 **Inheritance:**

@@ -1,28 +1,26 @@
 ---
-title: BarcodeClassifications
+title: Pdf417EncodeMode
 second_title: Aspose.BarCode for Java API Reference
-description: EncodeTypes classification
+description: Pdf417 barcode encode mode
 type: docs
-weight: 71
-url: /java/com.aspose.barcode.generation/barcodeclassifications/
+weight: 93
+url: /java/com.aspose.barcode.generation/pdf417encodemode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum BarcodeClassifications extends Enum<BarcodeClassifications>
+public enum Pdf417EncodeMode extends Enum<Pdf417EncodeMode>
 ```
 
-EncodeTypes classification
+Pdf417 barcode encode mode
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [COUPON](#COUPON) | Specifies COUPON-barcode |
-| [DATABAR](#DATABAR) | Specifies DataBar-barcode |
-| [NONE](#NONE) | Unspecified classification |
-| [POSTAL](#POSTAL) | Specifies POSTAL-barcode |
-| [TYPE_1D](#TYPE-1D) | Specifies 1D-barcode |
-| [TYPE_2D](#TYPE-2D) | Specifies 2D-barcode |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
+| [EXTENDED](#EXTENDED) |  |
 ## Methods
 
 | Method | Description |
@@ -30,6 +28,7 @@ EncodeTypes classification
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -44,53 +43,45 @@ EncodeTypes classification
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### COUPON {#COUPON}
+### AUTO {#AUTO}
 ```
-public static final BarcodeClassifications COUPON
-```
-
-
-Specifies COUPON-barcode
-
-### DATABAR {#DATABAR}
-```
-public static final BarcodeClassifications DATABAR
+public static final Pdf417EncodeMode AUTO
 ```
 
 
-Specifies DataBar-barcode
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown.
 
-### NONE {#NONE}
+### BINARY {#BINARY}
 ```
-public static final BarcodeClassifications NONE
-```
-
-
-Unspecified classification
-
-### POSTAL {#POSTAL}
-```
-public static final BarcodeClassifications POSTAL
+public static final Pdf417EncodeMode BINARY
 ```
 
 
-Specifies POSTAL-barcode
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
-### TYPE_1D {#TYPE-1D}
+### ECI {#ECI}
 ```
-public static final BarcodeClassifications TYPE_1D
-```
-
-
-Specifies 1D-barcode
-
-### TYPE_2D {#TYPE-2D}
-```
-public static final BarcodeClassifications TYPE_2D
+public static final Pdf417EncodeMode ECI
 ```
 
 
-Specifies 2D-barcode
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode.
+
+### EXTENDED {#EXTENDED}
+```
+public static final Pdf417EncodeMode EXTENDED
+```
+
+
+Extended mode which supports multi ECI modes.
+
+It is better to use Pdf417ExtCodetextBuilder for extended codetext generation.
+
+Use Display2DText property to set visible text to removing managing characters.
+
+ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
+
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -138,6 +129,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Pdf417EncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -226,7 +232,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static BarcodeClassifications valueOf(String name)
+public static Pdf417EncodeMode valueOf(String name)
 ```
 
 
@@ -238,17 +244,17 @@ public static BarcodeClassifications valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[BarcodeClassifications](../../com.aspose.barcode.generation/barcodeclassifications)
+[Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode)
 ### values() {#values--}
 ```
-public static BarcodeClassifications[] values()
+public static Pdf417EncodeMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.BarcodeClassifications[]
+com.aspose.barcode.generation.Pdf417EncodeMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Java API Reference
 description: PDF417 parameters.
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.barcode.generation/pdf417parameters/
 ---
 **Inheritance:**
@@ -37,11 +37,11 @@ These samples show how to encode UCC/EAN-128 non Linked modes in GS1MicroPdf417
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getColumns()](#getColumns--) | Columns count. |
 | [getMacroCharacters()](#getMacroCharacters--) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [getPdf417CompactionMode()](#getPdf417CompactionMode--) | Pdf417 symbology type of BarCode's compaction mode. |
 | [getPdf417ECIEncoding()](#getPdf417ECIEncoding--) | Extended Channel Interpretation Identifiers. |
+| [getPdf417EncodeMode()](#getPdf417EncodeMode--) | Identifies Pdf417 encode mode. |
 | [getPdf417ErrorLevel()](#getPdf417ErrorLevel--) | Gets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
 | [getPdf417MacroAddressee()](#getPdf417MacroAddressee--) | MacroPdf417 barcode addressee name (optional field). |
 | [getPdf417MacroChecksum()](#getPdf417MacroChecksum--) | MacroPdf417 barcode checksum (optional field). |
@@ -64,12 +64,12 @@ These samples show how to encode UCC/EAN-128 non Linked modes in GS1MicroPdf417
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
 | [setCode128Emulation(boolean value)](#setCode128Emulation-boolean-) | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setColumns(int value)](#setColumns-int-) | Columns count. |
 | [setLinked(boolean value)](#setLinked-boolean-) | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\u201cLinked\\u201d UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [setMacroCharacters(MacroCharacter value)](#setMacroCharacters-com.aspose.barcode.generation.MacroCharacter-) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [setPdf417CompactionMode(Pdf417CompactionMode value)](#setPdf417CompactionMode-com.aspose.barcode.generation.Pdf417CompactionMode-) | Pdf417 symbology type of BarCode's compaction mode. |
 | [setPdf417ECIEncoding(int value)](#setPdf417ECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
+| [setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode)](#setPdf417EncodeMode-com.aspose.barcode.generation.Pdf417EncodeMode-) | Identifies Pdf417 encode mode. |
 | [setPdf417ErrorLevel(Pdf417ErrorLevel value)](#setPdf417ErrorLevel-com.aspose.barcode.generation.Pdf417ErrorLevel-) | Sets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
 | [setPdf417MacroAddressee(String value)](#setPdf417MacroAddressee-java.lang.String-) | MacroPdf417 barcode addressee name (optional field). |
 | [setPdf417MacroChecksum(int value)](#setPdf417MacroChecksum-int-) | Sets macro Pdf417 barcode checksum. |
@@ -125,16 +125,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext. Default value: UTF-8
-
-**Returns:**
-java.nio.charset.Charset
 ### getColumns() {#getColumns--}
 ```
 public int getColumns()
@@ -194,6 +184,16 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 
 **Returns:**
 int
+### getPdf417EncodeMode() {#getPdf417EncodeMode--}
+```
+public Pdf417EncodeMode getPdf417EncodeMode()
+```
+
+
+Identifies Pdf417 encode mode. Default value: Auto.
+
+**Returns:**
+[Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode)
 ### getPdf417ErrorLevel() {#getPdf417ErrorLevel--}
 ```
 public Pdf417ErrorLevel getPdf417ErrorLevel()
@@ -530,19 +530,6 @@ Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encod
 | --- | --- | --- |
 | value | boolean |  |
 
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext. Default value: UTF-8
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
-
 ### setColumns(int value) {#setColumns-int-}
 ```
 public void setColumns(int value)
@@ -689,6 +676,19 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode) {#setPdf417EncodeMode-com.aspose.barcode.generation.Pdf417EncodeMode-}
+```
+public void setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode)
+```
+
+
+Identifies Pdf417 encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdf417EncodeMode | [Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode) |  |
 
 ### setPdf417ErrorLevel(Pdf417ErrorLevel value) {#setPdf417ErrorLevel-com.aspose.barcode.generation.Pdf417ErrorLevel-}
 ```

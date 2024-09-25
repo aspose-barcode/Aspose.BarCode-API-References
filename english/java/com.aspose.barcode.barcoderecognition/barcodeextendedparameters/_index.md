@@ -20,6 +20,7 @@ Stores extended parameters of recognized barcode
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  BarCodeExtendedParameters  value. |
 | [getAztec()](#getAztec--) | Gets a Aztec additional information AztecExtendedParameters  of recognized barcode |
 | [getClass()](#getClass--) |  |
+| [getCodabar()](#getCodabar--) | Gets a Codabar additional information CodabarExtendedParameters  of recognized barcode |
 | [getCode128()](#getCode128--) | Gets a special data  Code128ExtendedParameters  of Code128 recognized barcode |
 | [getDataBar()](#getDataBar--) | Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode |
 | [getDataMatrix()](#getDataMatrix--) | Gets a DataMatrix additional information DataMatrixExtendedParameters  of recognized barcode |
@@ -73,6 +74,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCodabar() {#getCodabar--}
+```
+public CodabarExtendedParameters getCodabar()
+```
+
+
+Gets a Codabar additional information CodabarExtendedParameters  of recognized barcode
+
+**Returns:**
+[CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) - A Codabar additional information CodabarExtendedParameters  of recognized barcode
 ### getCode128() {#getCode128--}
 ```
 public Code128ExtendedParameters getCode128()

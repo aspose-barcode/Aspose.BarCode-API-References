@@ -20,10 +20,10 @@ Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode
 > //Extended codetext mode
 >  //create codetext
 >  DataMatrixExtCodetextBuilder textBuilder = new DataMatrixExtCodetextBuilder();
->  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.UTF8, DataMatrixEncodeMode.Bytes, "World");
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251, DataMatrixEncodeMode.BYTES, "World");
 >  codetextBuilder.addPlainCodetext("Will");
->  codetextBuilder.addECICodetext(ECIEncodings.UTF_8, "\u72acRight\u72d7");
->  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C_40, "ABCDE");
+>  codetextBuilder.addECICodetext(ECIEncodings.UTF8, "\u72acRight\u72d7");
+>  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40, "ABCDE");
 >  //generate codetext
 >  String codetext = textBuilder.getExtendedCodetext();
 >  //generate

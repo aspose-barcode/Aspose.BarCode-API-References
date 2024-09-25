@@ -21,9 +21,9 @@ UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getColumns()](#getColumns--) | Columns count. |
 | [getPdf417CompactionMode()](#getPdf417CompactionMode--) | Pdf417 symbology type of BarCode's compaction mode. |
+| [getPdf417EncodeMode()](#getPdf417EncodeMode--) | Identifies Pdf417 encode mode. |
 | [getPdf417ErrorLevel()](#getPdf417ErrorLevel--) | Gets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
 | [getPdf417MacroFileID()](#getPdf417MacroFileID--) | Gets macro Pdf417 barcode's file ID. |
 | [getPdf417MacroSegmentID()](#getPdf417MacroSegmentID--) | Gets macro Pdf417 barcode's segment ID, which starts from 0, to MacroSegmentsCount - 1. |
@@ -34,9 +34,9 @@ UI wrapper for com.aspose.barcode.generation.Pdf417Parameters class.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setColumns(int value)](#setColumns-int-) | Columns count. |
 | [setPdf417CompactionMode(Pdf417CompactionMode value)](#setPdf417CompactionMode-com.aspose.barcode.generation.Pdf417CompactionMode-) | Pdf417 symbology type of BarCode's compaction mode. |
+| [setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode)](#setPdf417EncodeMode-com.aspose.barcode.generation.Pdf417EncodeMode-) | Identifies Pdf417 encode mode. |
 | [setPdf417ErrorLevel(Pdf417ErrorLevel value)](#setPdf417ErrorLevel-com.aspose.barcode.generation.Pdf417ErrorLevel-) | Sets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |
 | [setPdf417MacroFileID(int value)](#setPdf417MacroFileID-int-) | Sets macro Pdf417 barcode's file ID. |
 | [setPdf417MacroSegmentID(int value)](#setPdf417MacroSegmentID-int-) | Sets macro Pdf417 barcode's segment ID, which starts from 0, to MacroSegmentsCount - 1. |
@@ -92,16 +92,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext.
-
-**Returns:**
-java.nio.charset.Charset
 ### getColumns() {#getColumns--}
 ```
 public int getColumns()
@@ -122,6 +112,16 @@ Pdf417 symbology type of BarCode's compaction mode. Default value: Pdf417Compact
 
 **Returns:**
 [Pdf417CompactionMode](../../com.aspose.barcode.generation/pdf417compactionmode)
+### getPdf417EncodeMode() {#getPdf417EncodeMode--}
+```
+public Pdf417EncodeMode getPdf417EncodeMode()
+```
+
+
+Identifies Pdf417 encode mode. Default value: Auto.
+
+**Returns:**
+[Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode)
 ### getPdf417ErrorLevel() {#getPdf417ErrorLevel--}
 ```
 public Pdf417ErrorLevel getPdf417ErrorLevel()
@@ -221,19 +221,6 @@ Height/Width ratio of 2D BarCode module.
 | --- | --- | --- |
 | value | float |  |
 
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
-
 ### setColumns(int value) {#setColumns-int-}
 ```
 public void setColumns(int value)
@@ -259,6 +246,19 @@ Pdf417 symbology type of BarCode's compaction mode. Default value: Pdf417Compact
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Pdf417CompactionMode](../../com.aspose.barcode.generation/pdf417compactionmode) |  |
+
+### setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode) {#setPdf417EncodeMode-com.aspose.barcode.generation.Pdf417EncodeMode-}
+```
+public void setPdf417EncodeMode(Pdf417EncodeMode pdf417EncodeMode)
+```
+
+
+Identifies Pdf417 encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdf417EncodeMode | [Pdf417EncodeMode](../../com.aspose.barcode.generation/pdf417encodemode) |  |
 
 ### setPdf417ErrorLevel(Pdf417ErrorLevel value) {#setPdf417ErrorLevel-com.aspose.barcode.generation.Pdf417ErrorLevel-}
 ```

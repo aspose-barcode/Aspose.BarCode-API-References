@@ -1,33 +1,36 @@
 ---
-title: ExtECICodetext
+title: HslaColor
 second_title: Aspose.BarCode for Java API Reference
-description: Extended Channel Codetext container
+description: Class for representing HSLA color Hue Saturation Lightness Alpha
 type: docs
-weight: 36
-url: /java/com.aspose.barcode.generation/extecicodetext/
+weight: 46
+url: /java/com.aspose.barcode.generation/hslacolor/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.barcode.generation.ExtCodeItem
+java.lang.Object
 ```
-public class ExtECICodetext extends ExtCodeItem
+public class HslaColor
 ```
 
-Extended Channel Codetext container
+Class for representing HSLA color (Hue, Saturation, Lightness, Alpha)
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ExtECICodetext(int eciEncoding, String aCodetext)](#ExtECICodetext-int-java.lang.String-) | Extended Channel Codetext Constructor |
+| [HslaColor(int h, int s, int l, float a)](#HslaColor-int-int-int-float-) | Constructor for HslaColor |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Codetext](#Codetext) | Codetext in unicode |
-| [eciEncoding](#eciEncoding) | Extended Channel Identifier |
+| [A](#A) | Alpha (opacity) [0.0f, 1.0f] |
+| [H](#H) | Hue [0, 360] |
+| [L](#L) | Lightness [0, 100] |
+| [S](#S) | Saturation [0, 100] |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [convertHslaToRgba(HslaColor hslaColor)](#convertHslaToRgba-com.aspose.barcode.generation.HslaColor-) | Uses https://en.wikipedia.org/wiki/HSL\_and\_HSV\#HSL\_to\_RGB |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -37,36 +40,69 @@ Extended Channel Codetext container
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ExtECICodetext(int eciEncoding, String aCodetext) {#ExtECICodetext-int-java.lang.String-}
+### HslaColor(int h, int s, int l, float a) {#HslaColor-int-int-int-float-}
 ```
-public ExtECICodetext(int eciEncoding, String aCodetext)
+public HslaColor(int h, int s, int l, float a)
 ```
 
 
-Extended Channel Codetext Constructor
+Constructor for HslaColor
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| eciEncoding | int | Extended Channel Identifier |
-| aCodetext | java.lang.String | Codetext in unicode to add as extended codetext item |
+| h | int | Hue [0, 360] |
+| s | int | Saturation [0, 100] |
+| l | int | Lightness [0, 100] |
+| a | float | Alpha (opacity) [0.0f, 1.0f] |
 
-### Codetext {#Codetext}
+### A {#A}
 ```
-public String Codetext
-```
-
-
-Codetext in unicode
-
-### eciEncoding {#eciEncoding}
-```
-public int eciEncoding
+public float A
 ```
 
 
-Extended Channel Identifier
+Alpha (opacity) [0.0f, 1.0f]
 
+### H {#H}
+```
+public final int H
+```
+
+
+Hue [0, 360]
+
+### L {#L}
+```
+public final int L
+```
+
+
+Lightness [0, 100]
+
+### S {#S}
+```
+public final int S
+```
+
+
+Saturation [0, 100]
+
+### convertHslaToRgba(HslaColor hslaColor) {#convertHslaToRgba-com.aspose.barcode.generation.HslaColor-}
+```
+public static Color convertHslaToRgba(HslaColor hslaColor)
+```
+
+
+Uses https://en.wikipedia.org/wiki/HSL\_and\_HSV\#HSL\_to\_RGB
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hslaColor | com.aspose.barcode.generation.HslaColor | HSLA color to convert |
+
+**Returns:**
+java.awt.Color - Color with RGBA values
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

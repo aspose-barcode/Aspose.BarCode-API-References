@@ -1,33 +1,33 @@
 ---
-title: GS1CompositeBarExtendedParameters
+title: CodabarExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
-description: Stores special data of GS1 Composite Bar recognized barcode
+description: Stores a Codabar additional information of recognized barcode
 type: docs
-weight: 34
-url: /java/com.aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/
+weight: 25
+url: /java/com.aspose.barcode.barcoderecognition/codabarextendedparameters/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseExtendedParameters](../../com.aspose.barcode.barcoderecognition/baseextendedparameters)
 ```
-public final class GS1CompositeBarExtendedParameters extends BaseExtendedParameters
+public final class CodabarExtendedParameters extends BaseExtendedParameters
 ```
 
-Stores special data of  **GS1 Composite Bar**  recognized barcode
+Stores a Codabar additional information of recognized barcode
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  GS1CompositeBarExtendedParameters  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  CodabarExtendedParameters  value. |
 | [getClass()](#getClass--) |  |
-| [getOneDCodeText()](#getOneDCodeText--) | Gets the 1D (linear) barcode value of GS1 Composite |
-| [getOneDType()](#getOneDType--) | Gets the 1D (linear) barcode type of GS1 Composite |
-| [getTwoDCodeText()](#getTwoDCodeText--) | Gets the 2D barcode value of GS1 Composite |
-| [getTwoDType()](#getTwoDType--) | Gets the 2D barcode type of GS1 Composite |
+| [getCodabarStartSymbol()](#getCodabarStartSymbol--) | Gets or sets a Codabar start symbol. |
+| [getCodabarStopSymbol()](#getCodabarStopSymbol--) | Gets or sets a Codabar stop symbol. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a human-readable string representation of this  GS1CompositeBarExtendedParameters . |
+| [setCodabarStartSymbol(int value)](#setCodabarStartSymbol-int-) | Gets or sets a Codabar start symbol. |
+| [setCodabarStopSymbol(int value)](#setCodabarStopSymbol-int-) | Gets or sets a Codabar stop symbol. |
+| [toString()](#toString--) | Returns a human-readable string representation of this  CodabarExtendedParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -37,7 +37,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  GS1CompositeBarExtendedParameters  value.
+Returns a value indicating whether this instance is equal to a specified  CodabarExtendedParameters  value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -56,54 +56,26 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getOneDCodeText() {#getOneDCodeText--}
+### getCodabarStartSymbol() {#getCodabarStartSymbol--}
 ```
-public String getOneDCodeText()
+public int getCodabarStartSymbol()
 ```
 
 
-Gets the 1D (linear) barcode value of GS1 Composite
-
-Value: 1D barcode value
+Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-java.lang.String
-### getOneDType() {#getOneDType--}
+int
+### getCodabarStopSymbol() {#getCodabarStopSymbol--}
 ```
-public SingleDecodeType getOneDType()
+public int getCodabarStopSymbol()
 ```
 
 
-Gets the 1D (linear) barcode type of GS1 Composite
-
-Value: 2D barcode type
+Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-[SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype)
-### getTwoDCodeText() {#getTwoDCodeText--}
-```
-public String getTwoDCodeText()
-```
-
-
-Gets the 2D barcode value of GS1 Composite
-
-Value: 2D barcode value
-
-**Returns:**
-java.lang.String
-### getTwoDType() {#getTwoDType--}
-```
-public SingleDecodeType getTwoDType()
-```
-
-
-Gets the 2D barcode type of GS1 Composite
-
-Value: 2D barcode type
-
-**Returns:**
-[SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype)
+int
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -142,16 +114,42 @@ public final native void notifyAll()
 
 
 
+### setCodabarStartSymbol(int value) {#setCodabarStartSymbol-int-}
+```
+public void setCodabarStartSymbol(int value)
+```
+
+
+Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setCodabarStopSymbol(int value) {#setCodabarStopSymbol-int-}
+```
+public void setCodabarStopSymbol(int value)
+```
+
+
+Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a human-readable string representation of this  GS1CompositeBarExtendedParameters .
+Returns a human-readable string representation of this  CodabarExtendedParameters .
 
 **Returns:**
-java.lang.String - A string that represents this  GS1CompositeBarExtendedParameters .
+java.lang.String - A string that represents this  CodabarExtendedParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

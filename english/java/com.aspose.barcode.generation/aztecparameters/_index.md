@@ -23,7 +23,6 @@ Aztec parameters.
 | [getAztecErrorLevel()](#getAztecErrorLevel--) | Level of error correction of Aztec types of barcode. |
 | [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets a Aztec Symbol mode. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
 | [getLayersCount()](#getLayersCount--) | Gets layers count of Aztec symbol. |
 | [getStructuredAppendBarcodeId()](#getStructuredAppendBarcodeId--) | Barcode ID for Structured Append mode of Aztec barcode. |
@@ -37,7 +36,6 @@ Aztec parameters.
 | [setAztecEncodeMode(AztecEncodeMode value)](#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Sets a Aztec encode mode. |
 | [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
 | [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
 | [setLayersCount(int value)](#setLayersCount-int-) | Sets layers count of Aztec symbol. |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
@@ -113,16 +111,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext. Default value: UTF-8
-
-**Returns:**
-java.nio.charset.Charset
 ### getECIEncoding() {#getECIEncoding--}
 ```
 public int getECIEncoding()
@@ -260,19 +248,6 @@ Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) |  |
-
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext. Default value: UTF-8
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```

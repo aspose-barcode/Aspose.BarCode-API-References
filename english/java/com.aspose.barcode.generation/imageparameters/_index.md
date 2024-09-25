@@ -3,7 +3,7 @@ title: ImageParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Image parameters.
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.barcode.generation/imageparameters/
 ---
 **Inheritance:**
@@ -13,11 +13,6 @@ public class ImageParameters
 ```
 
 Image parameters.
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [svg](#svg) |  |
 ## Methods
 
 | Method | Description |
@@ -33,12 +28,6 @@ Image parameters.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### svg {#svg}
-```
-public SvgParameters svg
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

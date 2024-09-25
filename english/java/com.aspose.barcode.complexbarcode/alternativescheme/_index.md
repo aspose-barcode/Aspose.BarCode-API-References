@@ -8,8 +8,11 @@ url: /java/com.aspose.barcode.complexbarcode/alternativescheme/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+com.aspose.ms.System.IEquatable
 ```
-public final class AlternativeScheme
+public final class AlternativeScheme implements System.IEquatable<AlternativeScheme>
 ```
 
 Alternative payment scheme instructions
