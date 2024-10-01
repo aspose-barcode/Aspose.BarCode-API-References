@@ -3,7 +3,7 @@ title: OneDExtendedParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores special data of 1D recognized barcode like separate codetext and checksum
 type: docs
-weight: 34
+weight: 38
 url: /androidjava/com.aspose.barcode.barcoderecognition/onedextendedparameters/
 ---
 **Inheritance:**

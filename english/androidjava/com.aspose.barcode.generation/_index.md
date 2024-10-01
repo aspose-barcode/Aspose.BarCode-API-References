@@ -3,7 +3,7 @@ title: com.aspose.barcode.generation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: This package contains tools for generating barcode.
 type: docs
-weight: 14
+weight: 16
 url: /androidjava/com.aspose.barcode.generation/
 ---
 
@@ -108,6 +108,7 @@ This package contains tools for generating barcode.
 | [MicroQRVersion](../com.aspose.barcode.generation/microqrversion) | Version of MicroQR Code. |
 | [PatchFormat](../com.aspose.barcode.generation/patchformat) | PatchCode format. |
 | [Pdf417CompactionMode](../com.aspose.barcode.generation/pdf417compactionmode) | Pdf417 barcode's compation mode |
+| [Pdf417EncodeMode](../com.aspose.barcode.generation/pdf417encodemode) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](../com.aspose.barcode.generation/pdf417errorlevel) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction |
 | [Pdf417MacroTerminator](../com.aspose.barcode.generation/pdf417macroterminator) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
 | [QREncodeMode](../com.aspose.barcode.generation/qrencodemode) | Encoding mode for QR barcodes. |

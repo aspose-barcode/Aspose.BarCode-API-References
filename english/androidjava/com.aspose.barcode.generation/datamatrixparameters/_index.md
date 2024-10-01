@@ -20,7 +20,6 @@ DataMatrix parameters.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getColumns()](#getColumns--) | Columns count. |
 | [getDataMatrixEcc()](#getDataMatrixEcc--) | Gets a Datamatrix ECC type. |
 | [getDataMatrixEncodeMode()](#getDataMatrixEncodeMode--) | Encode mode of Datamatrix barcode. |
@@ -36,7 +35,6 @@ DataMatrix parameters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setColumns(int value)](#setColumns-int-) | Columns count. |
 | [setDataMatrixEcc(DataMatrixEccType value)](#setDataMatrixEcc-com.aspose.barcode.generation.DataMatrixEccType-) | Sets a Datamatrix ECC type. |
 | [setDataMatrixEncodeMode(DataMatrixEncodeMode value)](#setDataMatrixEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-) | Encode mode of Datamatrix barcode. |
@@ -87,16 +85,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext. Default value: UTF-8
-
-**Returns:**
-java.nio.charset.Charset
 ### getColumns() {#getColumns--}
 ```
 public int getColumns()
@@ -245,19 +233,6 @@ Height/Width ratio of 2D BarCode module.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
-
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext. Default value: UTF-8
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
 
 ### setColumns(int value) {#setColumns-int-}
 ```

@@ -3,7 +3,7 @@ title: XDimensionMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 51
+weight: 56
 url: /androidjava/com.aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 **Inheritance:**

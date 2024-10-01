@@ -3,7 +3,7 @@ title: ComplexBackgroundMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 46
+weight: 51
 url: /androidjava/com.aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: BarCodeConfidence
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Contains recognition confidence level
 type: docs
-weight: 12
+weight: 13
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 **Inheritance:**

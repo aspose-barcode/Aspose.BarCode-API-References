@@ -3,7 +3,7 @@ title: BarCodeRecognitionException
 second_title: Aspose.BarCode for Android via Java API Reference
 description: General exception thrown by BarCodeReader inherited from BarCodeException
 type: docs
-weight: 15
+weight: 16
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcoderecognitionexception/
 ---
 **Inheritance:**

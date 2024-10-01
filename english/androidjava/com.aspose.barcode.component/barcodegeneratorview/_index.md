@@ -265,6 +265,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [drawableHotspotChanged(float arg0, float arg1)](#drawableHotspotChanged-float-float-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findFocus()](#findFocus--) |  |
+| [findOnBackInvokedDispatcher()](#findOnBackInvokedDispatcher--) |  |
 | [findViewsWithText(ArrayList<View> arg0, CharSequence arg1, int arg2)](#findViewsWithText-java.util.ArrayList-android.view.View--java.lang.CharSequence-int-) |  |
 | [focusSearch(int arg0)](#focusSearch-int-) |  |
 | [forceHasOverlappingRendering(boolean arg0)](#forceHasOverlappingRendering-boolean-) |  |
@@ -408,6 +409,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [getPivotX()](#getPivotX--) |  |
 | [getPivotY()](#getPivotY--) |  |
 | [getPointerIcon()](#getPointerIcon--) |  |
+| [getPreferKeepClearRects()](#getPreferKeepClearRects--) |  |
 | [getReceiveContentMimeTypes()](#getReceiveContentMimeTypes--) |  |
 | [getResolution()](#getResolution--) | Gets the resolution of the BarCode image. |
 | [getResources()](#getResources--) |  |
@@ -498,6 +500,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [isAccessibilityHeading()](#isAccessibilityHeading--) |  |
 | [isActivated()](#isActivated--) |  |
 | [isAttachedToWindow()](#isAttachedToWindow--) |  |
+| [isAutoHandwritingEnabled()](#isAutoHandwritingEnabled--) |  |
 | [isChecksumEnabled()](#isChecksumEnabled--) |  |
 | [isClickable()](#isClickable--) |  |
 | [isContextClickable()](#isContextClickable--) |  |
@@ -530,6 +533,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [isOpaque()](#isOpaque--) |  |
 | [isPaddingRelative()](#isPaddingRelative--) |  |
 | [isPivotSet()](#isPivotSet--) |  |
+| [isPreferKeepClear()](#isPreferKeepClear--) |  |
 | [isPressed()](#isPressed--) |  |
 | [isSaveEnabled()](#isSaveEnabled--) |  |
 | [isSaveFromParentEnabled()](#isSaveFromParentEnabled--) |  |
@@ -661,6 +665,7 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [setAlpha(int arg0)](#setAlpha-int-) |  |
 | [setAnimation(Animation arg0)](#setAnimation-android.view.animation.Animation-) |  |
 | [setAnimationMatrix(Matrix arg0)](#setAnimationMatrix-android.graphics.Matrix-) |  |
+| [setAutoHandwritingEnabled(boolean arg0)](#setAutoHandwritingEnabled-boolean-) |  |
 | [setAutoSizeMode(AutoSizeMode value)](#setAutoSizeMode-com.aspose.barcode.generation.AutoSizeMode-) | Sets the mode by which the barcode automatically resizes. |
 | [setAutofillHints(String[] arg0)](#setAutofillHints-java.lang.String...-) |  |
 | [setAutofillId(AutofillId arg0)](#setAutofillId-android.view.autofill.AutofillId-) |  |
@@ -780,6 +785,8 @@ com.aspose.barcode.component.BarcodeGeneratorView
 | [setPivotX(float arg0)](#setPivotX-float-) |  |
 | [setPivotY(float arg0)](#setPivotY-float-) |  |
 | [setPointerIcon(PointerIcon arg0)](#setPointerIcon-android.view.PointerIcon-) |  |
+| [setPreferKeepClear(boolean arg0)](#setPreferKeepClear-boolean-) |  |
+| [setPreferKeepClearRects(List<Rect> arg0)](#setPreferKeepClearRects-java.util.List-android.graphics.Rect--) |  |
 | [setPressed(boolean arg0)](#setPressed-boolean-) |  |
 | [setRenderEffect(RenderEffect arg0)](#setRenderEffect-android.graphics.RenderEffect-) |  |
 | [setResolution(float value)](#setResolution-float-) | Sets the resolution of the BarCode image. |
@@ -2786,6 +2793,16 @@ public View findFocus()
 
 **Returns:**
 android.view.View
+### findOnBackInvokedDispatcher() {#findOnBackInvokedDispatcher--}
+```
+public final OnBackInvokedDispatcher findOnBackInvokedDispatcher()
+```
+
+
+
+
+**Returns:**
+android.window.OnBackInvokedDispatcher
 ### findViewsWithText(ArrayList<View> arg0, CharSequence arg1, int arg2) {#findViewsWithText-java.util.ArrayList-android.view.View--java.lang.CharSequence-int-}
 ```
 public void findViewsWithText(ArrayList<View> arg0, CharSequence arg1, int arg2)
@@ -4298,6 +4315,16 @@ public PointerIcon getPointerIcon()
 
 **Returns:**
 android.view.PointerIcon
+### getPreferKeepClearRects() {#getPreferKeepClearRects--}
+```
+public final List<Rect> getPreferKeepClearRects()
+```
+
+
+
+
+**Returns:**
+java.util.List<android.graphics.Rect>
 ### getReceiveContentMimeTypes() {#getReceiveContentMimeTypes--}
 ```
 public String[] getReceiveContentMimeTypes()
@@ -5221,6 +5248,16 @@ public boolean isAttachedToWindow()
 
 **Returns:**
 boolean
+### isAutoHandwritingEnabled() {#isAutoHandwritingEnabled--}
+```
+public boolean isAutoHandwritingEnabled()
+```
+
+
+
+
+**Returns:**
+boolean
 ### isChecksumEnabled() {#isChecksumEnabled--}
 ```
 public EnableChecksum isChecksumEnabled()
@@ -5534,6 +5571,16 @@ boolean
 ### isPivotSet() {#isPivotSet--}
 ```
 public boolean isPivotSet()
+```
+
+
+
+
+**Returns:**
+boolean
+### isPreferKeepClear() {#isPreferKeepClear--}
+```
+public final boolean isPreferKeepClear()
 ```
 
 
@@ -7221,6 +7268,19 @@ public void setAnimationMatrix(Matrix arg0)
 | --- | --- | --- |
 | arg0 | android.graphics.Matrix |  |
 
+### setAutoHandwritingEnabled(boolean arg0) {#setAutoHandwritingEnabled-boolean-}
+```
+public void setAutoHandwritingEnabled(boolean arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | boolean |  |
+
 ### setAutoSizeMode(AutoSizeMode value) {#setAutoSizeMode-com.aspose.barcode.generation.AutoSizeMode-}
 ```
 public void setAutoSizeMode(AutoSizeMode value)
@@ -8780,6 +8840,32 @@ public void setPointerIcon(PointerIcon arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | android.view.PointerIcon |  |
+
+### setPreferKeepClear(boolean arg0) {#setPreferKeepClear-boolean-}
+```
+public final void setPreferKeepClear(boolean arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | boolean |  |
+
+### setPreferKeepClearRects(List<Rect> arg0) {#setPreferKeepClearRects-java.util.List-android.graphics.Rect--}
+```
+public final void setPreferKeepClearRects(List<Rect> arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.util.List<android.graphics.Rect> |  |
 
 ### setPressed(boolean arg0) {#setPressed-boolean-}
 ```

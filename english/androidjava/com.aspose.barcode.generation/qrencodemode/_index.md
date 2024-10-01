@@ -3,7 +3,7 @@ title: QREncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for QR barcodes.
 type: docs
-weight: 96
+weight: 97
 url: /androidjava/com.aspose.barcode.generation/qrencodemode/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum QREncodeMode extends Enum<QREncodeMode>
 ```
 
-Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncoding = Encoding.UTF8 for latin symbols or digits and UTF\_8\_BOM for unicode symbols.
+Encoding mode for QR barcodes.
 
 --------------------
 
@@ -22,7 +22,6 @@ Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncodin
 >      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >      generator.setCodeText("12345TEXT");
 >      generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.ECI_ENCODING);
->      generator.getParameters().getBarcode().getQR().setQrEncodeType(QREncodeType.FORCE_QR);
 >      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
 >      generator.save("test.png");
 > ```
@@ -38,7 +37,7 @@ Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncodin
 >       textBuilder.addPlainCodetext("12345<FNC1>");
 >       //generate barcode
 >       BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->       generator.setCodeText(textBuilder.getExtendedCodetext());
+>       generator.setCodeText(textBuilder.getExtended());
 >       generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
 >       generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >       generator.save("d:/test.png");
@@ -53,7 +52,7 @@ Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncodin
 >     textBuilder.addPlainCodetext("TRUE3456");
 >     //generate barcode
 >     BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->     generator.setCodeText(textBuilder.getExtendedCodetext());
+>     generator.setCodeText(textBuilder.getExtended());
 >     generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >     generator.save("d:/test.png");
 >     
@@ -69,7 +68,7 @@ Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncodin
 >    textBuilder.addPlainCodetext("t\e\\st");
 >    //generate barcode
 >    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
->    generator.setCodeText(textBuilder.getExtendedCodetext());
+>    generator.setCodeText(textBuilder.getExtended());
 >    generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
 >    generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >    generator.save("d:/test.png");
@@ -78,10 +77,13 @@ Encoding mode for QR barcodes. It is recomended to Use AUTO with CodeTextEncodin
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Encode codetext as is non-unicode charset. |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
 | [BYTES](#BYTES) | Encode codetext as plain bytes. |
-| [ECI_ENCODING](#ECI-ENCODING) | Encode codetext with value set in the ECI\_ENCODING property. |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
+| [ECI_ENCODING](#ECI-ENCODING) | Encode codetext with value set in the ECIEncoding property. |
+| [EXTENDED](#EXTENDED) | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as as "<FNC1>" FNC1 in second position is set in codetext as as "<FNC1(value)>". |
+| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as as "<FNC1>" FNC1 in second position is set in codetext as as "<FNC1(value)>". |
 | [UTF_16_BEBOM](#UTF-16-BEBOM) | Encode codetext with UTF8 encoding with first ByteOfMark character. |
 | [UTF_8_BOM](#UTF-8-BOM) | Encode codetext with UTF8 encoding with first ByteOfMark character. |
 ## Methods
@@ -111,7 +113,15 @@ public static final QREncodeMode AUTO
 ```
 
 
-Encode codetext as is non-unicode charset. If there is any unicode character, the codetext will be encoded with value which is set in CodeTextEncoding.
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are encoded in kanji mode if possible, or they are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown.
+
+### BINARY {#BINARY}
+```
+public static final QREncodeMode BINARY
+```
+
+
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
 ### BYTES {#BYTES}
 ```
@@ -119,7 +129,15 @@ public static final QREncodeMode BYTES
 ```
 
 
-Encode codetext as plain bytes. If it detects any unicode character, the character will be encoded as two bytes, lower byte first.
+Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
+
+### ECI {#ECI}
+```
+public static final QREncodeMode ECI
+```
+
+
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. This mode is not supported by MicroQR barcodes.
 
 ### ECI_ENCODING {#ECI-ENCODING}
 ```
@@ -127,7 +145,15 @@ public static final QREncodeMode ECI_ENCODING
 ```
 
 
-Encode codetext with value set in the ECI\_ENCODING property. It can be problems with some old (pre 2006) barcode scaners. This mode is not supported by MicroQR barcodes.
+Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR barcodes.
+
+### EXTENDED {#EXTENDED}
+```
+public static final QREncodeMode EXTENDED
+```
+
+
+Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as as "<FNC1>" FNC1 in second position is set in codetext as as "<FNC1(value)>". The value must be single symbols (a-z, A-Z) or digits from 0 to 99. Group Separator for FNC1 modes is set as 0x1D character '\\\\u001D'  If you need to insert "<FNC1>" string into barcode write it as "<\\FNC1>"  ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier To disable current ECI mode and convert to default JIS8 mode zero mode ECI indetifier is set. "\\000000" All unicode characters after ECI identifier are automatically encoded into correct character codeset. This mode is not supported by MicroQR barcodes.
 
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```
@@ -135,31 +161,7 @@ public static final QREncodeMode EXTENDED_CODETEXT
 ```
 
 
-Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes.
-
-It is better to use QrExtCodetextBuilder for extended codetext generation.
-
-Use Display2DText property to set visible text to removing managing characters.
-
-Encoding Principles:
-
-All symbols "\\" must be doubled "\\\\" in the codetext.
-
-FNC1 in first position is set in codetext as as "<FNC1>"
-
-FNC1 in second position is set in codetext as as "<FNC1(value)>". The value must be single symbols (a-z, A-Z) or digits from 0 to 99.
-
-Group Separator for FNC1 modes is set as 0x1D character '\\\\u001D'
-
-If you need to insert "<FNC1>" string into barcode write it as "<\\FNC1>"
-
-ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
-
-TO disable current ECI mode and convert to default JIS8 mode zero mode ECI indetifier is set. "\\000000"
-
-All unicode characters after ECI identifier are automatically encoded into correct character codeset.
-
-This mode is not supported by MicroQR barcodes.
+Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text to removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as as "<FNC1>" FNC1 in second position is set in codetext as as "<FNC1(value)>". The value must be single symbols (a-z, A-Z) or digits from 0 to 99. Group Separator for FNC1 modes is set as 0x1D character '\\\\u001D'  If you need to insert "<FNC1>" string into barcode write it as "<\\FNC1>"  ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier To disable current ECI mode and convert to default JIS8 mode zero mode ECI indetifier is set. "\\000000" All unicode characters after ECI identifier are automatically encoded into correct character codeset. This mode is not supported by MicroQR barcodes.
 
 ### UTF_16_BEBOM {#UTF-16-BEBOM}
 ```
@@ -167,7 +169,7 @@ public static final QREncodeMode UTF_16_BEBOM
 ```
 
 
-Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scaners.
+Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scanners.
 
 ### UTF_8_BOM {#UTF-8-BOM}
 ```

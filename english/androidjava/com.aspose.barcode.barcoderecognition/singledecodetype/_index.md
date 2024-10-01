@@ -3,7 +3,7 @@ title: SingleDecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Single decode type.
 type: docs
-weight: 42
+weight: 47
 url: /androidjava/com.aspose.barcode.barcoderecognition/singledecodetype/
 ---
 **Inheritance:**

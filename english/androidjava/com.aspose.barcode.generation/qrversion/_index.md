@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Version of QR Code.
 type: docs
-weight: 99
+weight: 100
 url: /androidjava/com.aspose.barcode.generation/qrversion/
 ---
 **Inheritance:**
@@ -69,6 +69,7 @@ Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -489,6 +490,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QRVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[QRVersion](../../com.aspose.barcode.generation/qrversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

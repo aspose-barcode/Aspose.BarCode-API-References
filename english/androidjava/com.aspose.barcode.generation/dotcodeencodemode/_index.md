@@ -23,7 +23,7 @@ Encoding mode for DotCode barcodes.
 >  {
 >      generator.save("test.bmp");
 >  }
->  
+> 
 >  //Auto mode
 >  String codetext = "\u72acRight\u72d7";
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DOT_CODE, codetext);
@@ -31,17 +31,13 @@ Encoding mode for DotCode barcodes.
 >      generator.getParameters().getBarcode().getDotCode().setECIEncoding(ECIEncodings.UTF8);
 >      generator.save("test.bmp");
 >  }
->  
+> 
 >  //Bytes mode
 >  byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
->  //encode array to string
->  StringBuilder strBld = new StringBuilder();
->  for (byte bval : encodedArr)
->      strBld.append((char) bval);
->  String codetext = strBld.ToString();
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DOT_CODE, codetext);
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DOT_CODE);
 >  {
->      generator.getParameters().getBarcode().getDotCode().setDotCodeEncodeMode(DotCodeEncodeMode.BYTES);
+>      generator.setCodetext(encodedArr);
+>      generator.getParameters().getBarcode().getDotCode().setDotCodeEncodeMode(DotCodeEncodeMode.BINARY);
 >      generator.save("test.bmp");
 >  }
 >  //Extended codetext mode
@@ -56,7 +52,7 @@ Encoding mode for DotCode barcodes.
 >  textBuilder.addECICodetext(ECIEncodings.UTF16BE, "\u72acPower\u72d7");
 >  textBuilder.addPlainCodetext("Plain text");
 >  //generate codetext
->  String codetext = textBuilder.getExtendedCodetext();
+>  String codetext = textBuilder.getExtended();
 >  //generate
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DOT_CODE, codetext);
 >  {
@@ -68,8 +64,11 @@ Encoding mode for DotCode barcodes.
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Encode codetext with value set in the ECIEncoding property. |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
 | [BYTES](#BYTES) | Encode codetext as plain bytes. |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
+| [EXTENDED](#EXTENDED) |  |
 | [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 ## Methods
 
@@ -98,7 +97,15 @@ public static final DotCodeEncodeMode AUTO
 ```
 
 
-Encode codetext with value set in the ECIEncoding property.
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown.
+
+### BINARY {#BINARY}
+```
+public static final DotCodeEncodeMode BINARY
+```
+
+
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
 ### BYTES {#BYTES}
 ```
@@ -107,6 +114,30 @@ public static final DotCodeEncodeMode BYTES
 
 
 Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
+
+### ECI {#ECI}
+```
+public static final DotCodeEncodeMode ECI
+```
+
+
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode.
+
+### EXTENDED {#EXTENDED}
+```
+public static final DotCodeEncodeMode EXTENDED
+```
+
+
+Extended mode which supports multi ECI modes.
+
+It is better to use DotCodeExtCodetextBuilder for extended codetext generation.
+
+Use Display2DText property to set visible text to removing managing characters.
+
+ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
+
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
 
 ### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
 ```

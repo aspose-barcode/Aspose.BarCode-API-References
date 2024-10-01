@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ECIEncodings extends System.Enum
 ```
 
-Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Currently, it is used only for QR 2D barcode.
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol.
 
 --------------------
 
@@ -22,7 +22,6 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 >      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >      generator.setCodeText("12345TEXT");
 >      generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.ECIEncoding);
->      generator.getParameters().getBarcode().getQR().setQrEncodeType(QREncodeType.ForceQR);
 >      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
 >      generator.save("test.png");
 > ```
@@ -30,10 +29,14 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 
 | Field | Description |
 | --- | --- |
+| [BINARY](#BINARY) | 8-bit binary data. |
 | [Big5](#Big5) | Big 5 (Taiwan) Chinese Character Set encoding. |
 | [EUC_KR](#EUC-KR) | Korean Character Set encoding. |
 | [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
-| [GB18030](#GB18030) | GB (PRC) Chinese Character Set encoding. |
+| [GB18030](#GB18030) | GGB18030 Chinese Character Set encoding. |
+| [GB2312](#GB2312) | GB2312 Chinese Character Set encoding. |
+| [GBK](#GBK) | GBK (extension of GB2312 for Simplified Chinese) encoding. |
+| [INVARIANT](#INVARIANT) | ISO/IEC 646: ISO 7-bit coded character set - Invariant Characters set encoding. |
 | [ISO_8859_1](#ISO-8859-1) | ISO/IEC 8859-1 Latin alphabet No. |
 | [ISO_8859_10](#ISO-8859-10) | ISO/IEC 8859-10 Latin alphabet No. |
 | [ISO_8859_11](#ISO-8859-11) | ISO/IEC 8859-11 Latin/Thai alphabet encoding. |
@@ -53,6 +56,9 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 | [Shift_JIS](#Shift-JIS) | Shift JIS (JIS X 0208 Annex 1 + JIS X 0201) encoding. |
 | [US_ASCII](#US-ASCII) | ISO/IEC 646:1991 International Reference Version of ISO 7-bit coded character set encoding. |
 | [UTF16BE](#UTF16BE) | ISO/IEC 10646 UCS-2 (High order byte first) encoding. |
+| [UTF16LE](#UTF16LE) | ISO/IEC 10646 UTF-16LE encoding. |
+| [UTF32BE](#UTF32BE) | ISO/IEC 10646 UTF-32BE encoding. |
+| [UTF32LE](#UTF32LE) | ISO/IEC 10646 UTF-32LE encoding. |
 | [UTF8](#UTF8) | ISO/IEC 10646 UTF-8 encoding. |
 | [Win1250](#Win1250) | Windows 1250 Latin 2 (Central Europe) encoding. |
 | [Win1251](#Win1251) | Windows 1251 Cyrillic encoding. |
@@ -97,6 +103,14 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BINARY {#BINARY}
+```
+public static final int BINARY
+```
+
+
+8-bit binary data. ECI Id:"\\000899"
+
 ### Big5 {#Big5}
 ```
 public static final int Big5
@@ -125,7 +139,31 @@ public static final int GB18030
 ```
 
 
-GB (PRC) Chinese Character Set encoding. ECI Id:"\\000029"
+GGB18030 Chinese Character Set encoding. ECI Id:"\\000032"
+
+### GB2312 {#GB2312}
+```
+public static final int GB2312
+```
+
+
+GB2312 Chinese Character Set encoding. ECI Id:"\\000029"
+
+### GBK {#GBK}
+```
+public static final int GBK
+```
+
+
+GBK (extension of GB2312 for Simplified Chinese) encoding. ECI Id:"\\000031"
+
+### INVARIANT {#INVARIANT}
+```
+public static final int INVARIANT
+```
+
+
+ISO/IEC 646: ISO 7-bit coded character set - Invariant Characters set encoding. ECI Id:"\\000170"
 
 ### ISO_8859_1 {#ISO-8859-1}
 ```
@@ -278,6 +316,30 @@ public static final int UTF16BE
 
 
 ISO/IEC 10646 UCS-2 (High order byte first) encoding. ECI Id:"\\000025"
+
+### UTF16LE {#UTF16LE}
+```
+public static final int UTF16LE
+```
+
+
+ISO/IEC 10646 UTF-16LE encoding. ECI Id:"\\000033"
+
+### UTF32BE {#UTF32BE}
+```
+public static final int UTF32BE
+```
+
+
+ISO/IEC 10646 UTF-32BE encoding. ECI Id:"\\000034"
+
+### UTF32LE {#UTF32LE}
+```
+public static final int UTF32LE
+```
+
+
+ISO/IEC 10646 UTF-32LE encoding. ECI Id:"\\000035"
 
 ### UTF8 {#UTF8}
 ```

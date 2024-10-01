@@ -3,7 +3,7 @@ title: QualitySettings
 second_title: Aspose.BarCode for Android via Java API Reference
 description: QualitySettings allows to configure recognition quality and speed manually.
 type: docs
-weight: 39
+weight: 43
 url: /androidjava/com.aspose.barcode.barcoderecognition/qualitysettings/
 ---
 **Inheritance:**
@@ -67,7 +67,6 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 
 | Method | Description |
 | --- | --- |
-| [applyAll(QualitySettings Src)](#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-) | Function apply all values from Src setting to this |
 | [describeContents()](#describeContents--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAllowIncorrectBarcodes()](#getAllowIncorrectBarcodes--) | Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. |
@@ -112,19 +111,6 @@ QualitySettings constructor
 public static final Parcelable.Creator<QualitySettings> CREATOR
 ```
 
-
-### applyAll(QualitySettings Src) {#applyAll-com.aspose.barcode.barcoderecognition.QualitySettings-}
-```
-public void applyAll(QualitySettings Src)
-```
-
-
-Function apply all values from Src setting to this
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| Src | [QualitySettings](../../com.aspose.barcode.barcoderecognition/qualitysettings) | source settings |
 
 ### describeContents() {#describeContents--}
 ```
