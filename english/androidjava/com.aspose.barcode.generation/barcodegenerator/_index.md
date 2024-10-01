@@ -53,7 +53,9 @@ supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Exten
 | [save(String filename)](#save-java.lang.String-) | Save barcode image to specific file. |
 | [save(String filename, BarCodeImageFormat format)](#save-java.lang.String-com.aspose.barcode.generation.BarCodeImageFormat-) | Save barcode image to specific file in specific format. |
 | [setBarcodeType(BaseEncodeType value)](#setBarcodeType-com.aspose.barcode.generation.BaseEncodeType-) | Barcode symbology type. |
+| [setCodeText(byte[] codeBytes)](#setCodeText-byte---) | Set codetext as sequence of bytes. |
 | [setCodeText(String value)](#setCodeText-java.lang.String-) | Text to be encoded. |
+| [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) | Encodes codetext with byte order mark (BOM) using specified encoding. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -314,6 +316,19 @@ Barcode symbology type.
 | --- | --- | --- |
 | value | [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) |  |
 
+### setCodeText(byte[] codeBytes) {#setCodeText-byte---}
+```
+public void setCodeText(byte[] codeBytes)
+```
+
+
+Set codetext as sequence of bytes.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codeBytes | byte[] | Bytes of codetext |
+
 ### setCodeText(String value) {#setCodeText-java.lang.String-}
 ```
 public void setCodeText(String value)
@@ -326,6 +341,20 @@ Text to be encoded.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCodeText(String codeText, Charset encoding) {#setCodeText-java.lang.String-java.nio.charset.Charset-}
+```
+public void setCodeText(String codeText, Charset encoding)
+```
+
+
+Encodes codetext with byte order mark (BOM) using specified encoding.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codeText | java.lang.String | CodeText string |
+| encoding | java.nio.charset.Charset | Applied encoding |
 
 ### toString() {#toString--}
 ```

@@ -22,14 +22,12 @@ UI wrapper for com.aspose.barcode.generation.AztecParameters class.
 | [getAztecErrorLevel()](#getAztecErrorLevel--) | Level of error correction of Aztec types of barcode. |
 | [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets a Aztec Symbol mode. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
 | [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
 | [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [toString()](#toString--) | Returns a human-readable string representation of this . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -89,16 +87,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext.
-
-**Returns:**
-java.nio.charset.Charset
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -163,19 +151,6 @@ Sets a Aztec Symbol mode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) |  |
-
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
 
 ### toString() {#toString--}
 ```

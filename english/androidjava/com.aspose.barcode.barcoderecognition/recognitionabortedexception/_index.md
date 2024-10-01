@@ -3,7 +3,7 @@ title: RecognitionAbortedException
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader.
 type: docs
-weight: 40
+weight: 45
 url: /androidjava/com.aspose.barcode.barcoderecognition/recognitionabortedexception/
 ---
 **Inheritance:**

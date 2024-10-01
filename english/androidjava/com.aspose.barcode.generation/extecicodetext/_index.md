@@ -17,13 +17,13 @@ Extended Channel Codetext container
 
 | Constructor | Description |
 | --- | --- |
-| [ExtECICodetext(int aECIId, String aCodetext)](#ExtECICodetext-int-java.lang.String-) | Extended Channel Codetext Constructor |
+| [ExtECICodetext(int eciEncoding, String aCodetext)](#ExtECICodetext-int-java.lang.String-) | Extended Channel Codetext Constructor |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Codetext](#Codetext) | Codetext in unicode |
-| [ECIId](#ECIId) | Extended Channel Identifier |
+| [eciEncoding](#eciEncoding) | Extended Channel Identifier |
 ## Methods
 
 | Method | Description |
@@ -37,9 +37,9 @@ Extended Channel Codetext container
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### ExtECICodetext(int aECIId, String aCodetext) {#ExtECICodetext-int-java.lang.String-}
+### ExtECICodetext(int eciEncoding, String aCodetext) {#ExtECICodetext-int-java.lang.String-}
 ```
-public ExtECICodetext(int aECIId, String aCodetext)
+public ExtECICodetext(int eciEncoding, String aCodetext)
 ```
 
 
@@ -48,7 +48,7 @@ Extended Channel Codetext Constructor
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| aECIId | int | Extended Channel Identifier |
+| eciEncoding | int | Extended Channel Identifier |
 | aCodetext | java.lang.String | Codetext in unicode to add as extended codetext item |
 
 ### Codetext {#Codetext}
@@ -59,9 +59,9 @@ public String Codetext
 
 Codetext in unicode
 
-### ECIId {#ECIId}
+### eciEncoding {#eciEncoding}
 ```
-public int ECIId
+public int eciEncoding
 ```
 
 

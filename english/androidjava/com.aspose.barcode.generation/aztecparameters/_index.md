@@ -19,13 +19,12 @@ Aztec parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
-| [getAztecEncodeMode()](#getAztecEncodeMode--) | Gets or sets a Aztec encode mode. |
+| [getAztecEncodeMode()](#getAztecEncodeMode--) | Gets a Aztec encode mode. |
 | [getAztecErrorLevel()](#getAztecErrorLevel--) | Level of error correction of Aztec types of barcode. |
-| [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets or sets a Aztec Symbol mode. |
+| [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets a Aztec Symbol mode. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets or sets the encoding of codetext. |
-| [getECIEncoding()](#getECIEncoding--) | Gets or sets ECI encoding. |
-| [getLayersCount()](#getLayersCount--) | Gets or sets layers count of Aztec symbol. |
+| [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
+| [getLayersCount()](#getLayersCount--) | Gets layers count of Aztec symbol. |
 | [getStructuredAppendBarcodeId()](#getStructuredAppendBarcodeId--) | Barcode ID for Structured Append mode of Aztec barcode. |
 | [getStructuredAppendBarcodesCount()](#getStructuredAppendBarcodesCount--) | Barcodes count for Structured Append mode of Aztec barcode. |
 | [getStructuredAppendFileId()](#getStructuredAppendFileId--) | File ID for Structured Append mode of Aztec barcode (optional field). |
@@ -34,12 +33,11 @@ Aztec parameters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setAztecEncodeMode(AztecEncodeMode value)](#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Gets or sets a Aztec encode mode. |
+| [setAztecEncodeMode(AztecEncodeMode value)](#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Sets a Aztec encode mode. |
 | [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
-| [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Gets or sets a Aztec Symbol mode. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Gets or sets the encoding of codetext. |
-| [setECIEncoding(int value)](#setECIEncoding-int-) | Gets or sets ECI encoding. |
-| [setLayersCount(int value)](#setLayersCount-int-) | Gets or sets layers count of Aztec symbol. |
+| [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
+| [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setLayersCount(int value)](#setLayersCount-int-) | Sets layers count of Aztec symbol. |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [setStructuredAppendBarcodeId(int value)](#setStructuredAppendBarcodeId-int-) | Barcode ID for Structured Append mode of Aztec barcode. |
 | [setStructuredAppendBarcodesCount(int value)](#setStructuredAppendBarcodesCount-int-) | Barcodes count for Structured Append mode of Aztec barcode. |
@@ -79,7 +77,7 @@ public AztecEncodeMode getAztecEncodeMode()
 ```
 
 
-Gets or sets a Aztec encode mode. Default value: Auto.
+Gets a Aztec encode mode. Default value: Auto.
 
 **Returns:**
 com.aspose.barcode.generation.AztecEncodeMode
@@ -99,7 +97,7 @@ public AztecSymbolMode getAztecSymbolMode()
 ```
 
 
-Gets or sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
+Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 
 **Returns:**
 [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode)
@@ -113,23 +111,13 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets or sets the encoding of codetext. Default value: UTF-8
-
-**Returns:**
-java.nio.charset.Charset
 ### getECIEncoding() {#getECIEncoding--}
 ```
 public int getECIEncoding()
 ```
 
 
-Gets or sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
+Gets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
 
 **Returns:**
 int
@@ -139,7 +127,7 @@ public int getLayersCount()
 ```
 
 
-Gets or sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto).
+Gets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto).
 
 **Returns:**
 int
@@ -228,7 +216,7 @@ public void setAztecEncodeMode(AztecEncodeMode value)
 ```
 
 
-Gets or sets a Aztec encode mode. Default value: Auto.
+Sets a Aztec encode mode. Default value: Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,25 +242,12 @@ public void setAztecSymbolMode(AztecSymbolMode value)
 ```
 
 
-Gets or sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
+Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) |  |
-
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Gets or sets the encoding of codetext. Default value: UTF-8
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
@@ -280,7 +255,7 @@ public void setECIEncoding(int value)
 ```
 
 
-Gets or sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
+Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +268,7 @@ public void setLayersCount(int value)
 ```
 
 
-Gets or sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto).
+Sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto).
 
 **Parameters:**
 | Parameter | Type | Description |

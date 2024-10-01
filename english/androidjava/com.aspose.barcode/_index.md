@@ -19,6 +19,8 @@ This package contains classes with general purposes for barcodes generation and 
 | [BuildVersionInfo](../com.aspose.barcode/buildversioninfo) | Provides information about the current product name and version. |
 | [Checker](../com.aspose.barcode/checker) |  |
 | [DefaultValues](../com.aspose.barcode/defaultvalues) |  |
+| [ECIEncoder](../com.aspose.barcode/eciencoder) |  |
+| [ECIEncoder.EciPiece](../com.aspose.barcode/eciencoder.ecipiece) |  |
 | [InvalidCodeException](../com.aspose.barcode/invalidcodeexception) | The Exception will be thrown when invalid characters contained in the code text. |
 | [License](../com.aspose.barcode/license) | Provides methods to license the component. |
 | [PleaseReportException](../com.aspose.barcode/pleasereportexception) |  |

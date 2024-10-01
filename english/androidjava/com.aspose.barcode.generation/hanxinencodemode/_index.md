@@ -22,18 +22,13 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN, codetext);
 >   generator.save("test.bmp");
 > 
->   // Binary mode
->   byte[] encodedArr = new byte[] {(byte) 0xFF, (byte) 0xFE, (byte) 0xFD, (byte) 0xFC, (byte) 0xFB, (byte) 0xFA, (byte) 0xF9};
 > 
->   //encode array to string
->   StringBuilder strBld = new StringBuilder();
->   for (byte bval : encodedArr)
->       strBld.append((char) bval);
->   String codetext = strBld.toString();
-> 
->   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN, codetext);
->   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.BINARY);
->   generator.save("test.bmp");
+>  // Binary mode
+>  byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN)
+>  generator.setCodetext(encodedArr);
+>  generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.BINARY);
+>  generator.save("test.bmp");
 > 
 >   // ECI mode
 >   String codetext = "\u0391\u0392\u0393\u0394\u0395";
@@ -56,10 +51,8 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
 > 
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
->   {
->       generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
->       generator.save("test.bmp");
->   }
+>   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>   generator.save("test.bmp");
 > 
 >   // Using HanXinExtCodetextBuilder for Extended mode (same codetext as in previous example)
 >   //create codetext
@@ -83,18 +76,16 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 > 
 >   //generate
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
->   {
->       generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
->       generator.save("test.bmp");
->   }
+>   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>   generator.save("test.bmp");
 > ```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Sequence of Numeric, Text, ECI, Binary Bytes and 4 GB18030 modes changing automatically. |
-| [BINARY](#BINARY) | Binary byte mode encodes binary data in any form and encodes them in their binary byte. |
-| [ECI](#ECI) | Extended Channel Interpretation (ECI) mode |
+| [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
+| [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
+| [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
 | [EXTENDED](#EXTENDED) | Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, Common Chinese Region One, Common Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. |
 | [UNICODE](#UNICODE) | Unicode mode designs a way to represent any text data reference to UTF8 encoding/charset in Han Xin Code. |
 | [URI](#URI) | URI mode indicates the data represented in Han Xin Code is Uniform Resource Identifier (URI) reference to RFC 3986. |
@@ -125,7 +116,7 @@ public static final HanXinEncodeMode AUTO
 ```
 
 
-Sequence of Numeric, Text, ECI, Binary Bytes and 4 GB18030 modes changing automatically.
+In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are encoded using GB18030 encoding according to HanXin barcode specification.
 
 ### BINARY {#BINARY}
 ```
@@ -133,7 +124,7 @@ public static final HanXinEncodeMode BINARY
 ```
 
 
-Binary byte mode encodes binary data in any form and encodes them in their binary byte. Every byte in Binary Byte mode is represented by 8 bits.
+In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
 ### ECI {#ECI}
 ```
@@ -141,7 +132,7 @@ public static final HanXinEncodeMode ECI
 ```
 
 
-Extended Channel Interpretation (ECI) mode
+In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode.
 
 ### EXTENDED {#EXTENDED}
 ```

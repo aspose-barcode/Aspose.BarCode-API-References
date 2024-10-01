@@ -20,7 +20,6 @@ QR parameters.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getCodeTextEncoding()](#getCodeTextEncoding--) | Gets the encoding of codetext. |
 | [getMicroQRVersion()](#getMicroQRVersion--) | Version of MicroQR Code. |
 | [getQrECIEncoding()](#getQrECIEncoding--) | Extended Channel Interpretation Identifiers. |
 | [getQrEncodeMode()](#getQrEncodeMode--) | QR symbology type of BarCode's encoding mode. |
@@ -33,7 +32,6 @@ QR parameters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setCodeTextEncoding(Charset value)](#setCodeTextEncoding-java.nio.charset.Charset-) | Sets the encoding of codetext. |
 | [setMicroQRVersion(MicroQRVersion value)](#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-) | Version of MicroQR Code. |
 | [setQrECIEncoding(int value)](#setQrECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
 | [setQrEncodeMode(QREncodeMode value)](#setQrEncodeMode-com.aspose.barcode.generation.QREncodeMode-) | QR symbology type of BarCode's encoding mode. |
@@ -81,16 +79,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodeTextEncoding() {#getCodeTextEncoding--}
-```
-public Charset getCodeTextEncoding()
-```
-
-
-Gets the encoding of codetext. Default value: UTF-8
-
-**Returns:**
-java.nio.charset.Charset
 ### getMicroQRVersion() {#getMicroQRVersion--}
 ```
 public MicroQRVersion getMicroQRVersion()
@@ -209,19 +197,6 @@ Height/Width ratio of 2D BarCode module.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
-
-### setCodeTextEncoding(Charset value) {#setCodeTextEncoding-java.nio.charset.Charset-}
-```
-public void setCodeTextEncoding(Charset value)
-```
-
-
-Sets the encoding of codetext. Default value: UTF-8
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.nio.charset.Charset |  |
 
 ### setMicroQRVersion(MicroQRVersion value) {#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-}
 ```

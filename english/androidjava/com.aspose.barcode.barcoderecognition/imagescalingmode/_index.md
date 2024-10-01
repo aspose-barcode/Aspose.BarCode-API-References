@@ -3,7 +3,7 @@ title: ImageScalingMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specify the size of scaled image
 type: docs
-weight: 49
+weight: 54
 url: /androidjava/com.aspose.barcode.barcoderecognition/imagescalingmode/
 ---
 **Inheritance:**

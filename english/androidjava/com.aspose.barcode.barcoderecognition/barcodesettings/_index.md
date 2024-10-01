@@ -3,7 +3,7 @@ title: BarcodeSettings
 second_title: Aspose.BarCode for Android via Java API Reference
 description: The main BarCode decoding parameters.
 type: docs
-weight: 19
+weight: 20
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcodesettings/
 ---
 **Inheritance:**
@@ -13,12 +13,6 @@ public class BarcodeSettings
 ```
 
 The main BarCode decoding parameters. Contains parameters which make influence on recognized data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BarcodeSettings()](#BarcodeSettings--) | BarcodeSettings constructor |
-| [BarcodeSettings(BarcodeSettings settings)](#BarcodeSettings-com.aspose.barcode.barcoderecognition.BarcodeSettings-) | BarcodeSettings copy constructor |
 ## Methods
 
 | Method | Description |
@@ -39,27 +33,6 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BarcodeSettings() {#BarcodeSettings--}
-```
-public BarcodeSettings()
-```
-
-
-BarcodeSettings constructor
-
-### BarcodeSettings(BarcodeSettings settings) {#BarcodeSettings-com.aspose.barcode.barcoderecognition.BarcodeSettings-}
-```
-public BarcodeSettings(BarcodeSettings settings)
-```
-
-
-BarcodeSettings copy constructor
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| settings | [BarcodeSettings](../../com.aspose.barcode.barcoderecognition/barcodesettings) | The source of the data |
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -111,7 +84,7 @@ public boolean getDetectEncoding()
 ```
 
 
-The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\\u0421\\u043b\\u043e\\u0432\\u043e")) generator.Parameters.Barcode.QR.CodeTextEncoding = Encoding.UTF8; Bitmap im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR); generator.setCodeText("\\u0421\\u043b\\u043e\\u0432\\u043e", Charset.forName("UTF-8")); Bitmap im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
 
 **Returns:**
 boolean - The flag which force engine to detect codetext encoding for Unicode codesets
