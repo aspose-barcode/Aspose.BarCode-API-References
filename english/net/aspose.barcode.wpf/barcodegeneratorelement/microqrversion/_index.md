@@ -18,7 +18,7 @@ public MicroQRVersion MicroQRVersion { get; set; }
 
 * enum [MicroQRVersion](../../../aspose.barcode.generation/microqrversion/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

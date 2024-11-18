@@ -18,7 +18,7 @@ public ImageParameters Image { get; }
 
 * class [ImageParameters](../../imageparameters/)
 * class [BaseGenerationParameters](../)
-* namespace [Aspose.BarCode.Generation](../../basegenerationparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

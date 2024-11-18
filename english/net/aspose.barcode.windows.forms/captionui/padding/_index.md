@@ -18,7 +18,7 @@ public Padding Padding { get; }
 
 * class [Padding](../../../aspose.barcode.generation/padding/)
 * class [CaptionUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../captionui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

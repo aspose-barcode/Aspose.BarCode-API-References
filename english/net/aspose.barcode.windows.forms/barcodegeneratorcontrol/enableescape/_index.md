@@ -17,7 +17,7 @@ public bool EnableEscape { get; set; }
 ### See Also
 
 * class [BarCodeGeneratorControl](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../barcodegeneratorcontrol/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

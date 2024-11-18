@@ -23,7 +23,7 @@ public void Save(Stream stream, BarCodeImageFormat format)
 
 * enum [BarCodeImageFormat](../../barcodeimageformat/)
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -45,7 +45,7 @@ public void Save(string filename, BarCodeImageFormat format)
 
 * enum [BarCodeImageFormat](../../barcodeimageformat/)
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -65,7 +65,7 @@ public void Save(string filename)
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

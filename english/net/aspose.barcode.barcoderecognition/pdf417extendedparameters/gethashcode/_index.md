@@ -21,7 +21,7 @@ A 32-bit signed integer hash code.
 ### See Also
 
 * class [Pdf417ExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../pdf417extendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

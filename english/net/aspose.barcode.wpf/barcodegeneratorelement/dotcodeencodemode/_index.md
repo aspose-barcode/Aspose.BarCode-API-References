@@ -18,7 +18,7 @@ public DotCodeEncodeMode DotCodeEncodeMode { get; set; }
 
 * enum [DotCodeEncodeMode](../../../aspose.barcode.generation/dotcodeencodemode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

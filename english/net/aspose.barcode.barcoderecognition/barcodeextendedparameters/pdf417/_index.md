@@ -22,7 +22,7 @@ A MacroPdf417 metadata information [`Pdf417ExtendedParameters`](../../pdf417exte
 
 * class [Pdf417ExtendedParameters](../../pdf417extendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

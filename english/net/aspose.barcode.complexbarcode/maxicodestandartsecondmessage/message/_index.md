@@ -17,7 +17,7 @@ public string Message { get; set; }
 ### See Also
 
 * class [MaxiCodeStandartSecondMessage](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestandartsecondmessage/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

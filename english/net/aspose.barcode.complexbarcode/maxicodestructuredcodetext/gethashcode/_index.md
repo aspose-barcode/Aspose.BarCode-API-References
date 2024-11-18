@@ -21,7 +21,7 @@ A 32-bit signed integer hash code.
 ### See Also
 
 * class [MaxiCodeStructuredCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestructuredcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

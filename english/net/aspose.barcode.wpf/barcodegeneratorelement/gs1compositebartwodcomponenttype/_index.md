@@ -18,7 +18,7 @@ public TwoDComponentType GS1CompositeBarTwoDComponentType { get; set; }
 
 * enum [TwoDComponentType](../../../aspose.barcode.generation/twodcomponenttype/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -26,7 +26,7 @@ public static bool operator !=(Code128DataPortion first, Code128DataPortion seco
 ### See Also
 
 * class [Code128DataPortion](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../code128dataportion/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

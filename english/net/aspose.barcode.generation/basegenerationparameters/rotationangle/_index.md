@@ -30,7 +30,7 @@ This sample shows how to create and save a BarCode image.
 ### See Also
 
 * class [BaseGenerationParameters](../)
-* namespace [Aspose.BarCode.Generation](../../basegenerationparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

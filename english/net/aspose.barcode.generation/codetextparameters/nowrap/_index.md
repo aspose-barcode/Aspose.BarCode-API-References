@@ -17,7 +17,7 @@ public bool NoWrap { get; set; }
 ### See Also
 
 * class [CodetextParameters](../)
-* namespace [Aspose.BarCode.Generation](../../codetextparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

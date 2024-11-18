@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType RM4SCC;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

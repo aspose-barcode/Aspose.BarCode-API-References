@@ -21,7 +21,7 @@ Returns copy of [`BarCodeResult`](../) class.
 ### See Also
 
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

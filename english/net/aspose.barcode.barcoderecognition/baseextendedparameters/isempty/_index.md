@@ -21,7 +21,7 @@ Returns **true** if all parameters has only default values; otherwise, **false**
 ### See Also
 
 * class [BaseExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

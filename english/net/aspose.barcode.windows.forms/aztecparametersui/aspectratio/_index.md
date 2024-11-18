@@ -17,7 +17,7 @@ public float AspectRatio { get; set; }
 ### See Also
 
 * class [AztecParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../aztecparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

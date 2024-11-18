@@ -22,7 +22,7 @@ A special data [`OneDExtendedParameters`](../../onedextendedparameters/) of 1D r
 
 * class [OneDExtendedParameters](../../onedextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

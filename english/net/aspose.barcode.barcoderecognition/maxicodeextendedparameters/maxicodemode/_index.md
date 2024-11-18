@@ -11,14 +11,14 @@ url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodem
 Gets or sets a MaxiCode encode mode. Default value: Mode4
 
 ```csharp
-public MaxiCodeMode MaxiCodeMode { get; set; }
+public MaxiCodeMode MaxiCodeMode { get; }
 ```
 
 ### See Also
 
 * enum [MaxiCodeMode](../../../aspose.barcode.generation/maxicodemode/)
 * class [MaxiCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../maxicodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 
