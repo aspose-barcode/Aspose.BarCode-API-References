@@ -17,7 +17,7 @@ public bool IsTextDrawnInTextElement { get; set; }
 ### See Also
 
 * class [SvgParameters](../)
-* namespace [Aspose.BarCode.Generation](../../svgparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

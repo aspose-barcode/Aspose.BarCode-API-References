@@ -25,7 +25,7 @@ Returns **true** if Point is contained within this [`Quadrangle`](../) class; ot
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -50,7 +50,7 @@ Returns **true** if point is contained within this [`Quadrangle`](../) class; ot
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -74,7 +74,7 @@ Returns **true** if [`Quadrangle`](../) is contained or intersect this [`Quadran
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -98,7 +98,7 @@ Returns **true** if Rectangle is contained or intersect this [`Quadrangle`](../)
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

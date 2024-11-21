@@ -26,7 +26,7 @@ decoded HIBC PAS Complex Codetext or null.
 
 * class [HIBCPASCodetext](../../hibcpascodetext/)
 * class [ComplexCodetextReader](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexcodetextreader/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

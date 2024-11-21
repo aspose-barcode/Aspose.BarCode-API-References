@@ -26,7 +26,7 @@ Returns **true** if [`BaseDecodeType`](../../basedecodetype/) contains any 1D ba
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

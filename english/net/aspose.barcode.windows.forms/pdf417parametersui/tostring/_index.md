@@ -21,7 +21,7 @@ A string that represents this [`Pdf417Parameters`](../../../aspose.barcode.gener
 ### See Also
 
 * class [Pdf417ParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../pdf417parametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ A string that represents this [`BarCodeRegionParameters`](../).
 ### See Also
 
 * class [BarCodeRegionParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderegionparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

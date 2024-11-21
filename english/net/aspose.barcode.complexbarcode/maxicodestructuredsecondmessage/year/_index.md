@@ -17,7 +17,7 @@ public int Year { get; set; }
 ### See Also
 
 * class [MaxiCodeStructuredSecondMessage](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestructuredsecondmessage/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

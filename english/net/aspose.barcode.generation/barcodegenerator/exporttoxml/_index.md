@@ -27,7 +27,7 @@ Returns **True** in case of success; **False** Otherwise
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -53,7 +53,7 @@ Returns **True** in case of success; **False** Otherwise
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

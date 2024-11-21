@@ -22,7 +22,7 @@ Barcode type.
 
 * class [BaseEncodeType](../../../aspose.barcode.generation/baseencodetype/)
 * class [MaxiCodeCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodecodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

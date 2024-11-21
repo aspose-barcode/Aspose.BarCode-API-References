@@ -17,7 +17,7 @@ public HIBCLICSecondaryAndAdditionalDataCodetext()
 ### See Also
 
 * class [HIBCLICSecondaryAndAdditionalDataCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibclicsecondaryandadditionaldatacodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

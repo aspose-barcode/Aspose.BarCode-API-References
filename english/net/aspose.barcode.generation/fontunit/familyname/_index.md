@@ -17,7 +17,7 @@ public string FamilyName { get; set; }
 ### See Also
 
 * class [FontUnit](../)
-* namespace [Aspose.BarCode.Generation](../../fontunit/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

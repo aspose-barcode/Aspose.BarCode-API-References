@@ -21,7 +21,7 @@ A hash code for the current object.
 ### See Also
 
 * class [AlternativeScheme](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../alternativescheme/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

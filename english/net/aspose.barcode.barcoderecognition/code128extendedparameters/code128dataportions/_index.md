@@ -22,7 +22,7 @@ Array of the [`Code128DataPortion`](../../code128dataportion/).
 
 * class [Code128DataPortion](../../code128dataportion/)
 * class [Code128ExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../code128extendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

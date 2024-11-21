@@ -17,7 +17,7 @@ public DataMatrixExtCodetextBuilder()
 ### See Also
 
 * class [DataMatrixExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../datamatrixextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

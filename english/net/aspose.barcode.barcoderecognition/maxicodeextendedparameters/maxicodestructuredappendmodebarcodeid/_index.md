@@ -11,13 +11,13 @@ url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodes
 Gets or sets a MaxiCode barcode id in structured append mode. Default value: 0
 
 ```csharp
-public int MaxiCodeStructuredAppendModeBarcodeId { get; set; }
+public int MaxiCodeStructuredAppendModeBarcodeId { get; }
 ```
 
 ### See Also
 
 * class [MaxiCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../maxicodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ Constructed codetext
 ### See Also
 
 * class [MaxiCodeStructuredCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestructuredcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

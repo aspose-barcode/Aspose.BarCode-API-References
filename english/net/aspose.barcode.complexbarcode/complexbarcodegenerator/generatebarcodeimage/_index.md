@@ -21,7 +21,7 @@ Barcode image. See Bitmap.
 ### See Also
 
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

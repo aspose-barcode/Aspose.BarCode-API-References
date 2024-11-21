@@ -26,7 +26,7 @@ Dcoded Mailmark Barcode C and L or null.
 
 * class [MailmarkCodetext](../../mailmarkcodetext/)
 * class [ComplexCodetextReader](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexcodetextreader/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ A string array of the names of the encode types.
 ### See Also
 
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

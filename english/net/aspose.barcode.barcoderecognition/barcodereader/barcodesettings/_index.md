@@ -22,7 +22,7 @@ The main BarCode decoding parameters
 
 * class [BarcodeSettings](../../barcodesettings/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -23,7 +23,7 @@ public float WideNarrowRatio { get; set; }
 ### See Also
 
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

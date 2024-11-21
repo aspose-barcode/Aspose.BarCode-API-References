@@ -22,7 +22,7 @@ public override void GetObjectData(SerializationInfo info, StreamingContext cont
 ### See Also
 
 * class [RecognitionAbortedException](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../recognitionabortedexception/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

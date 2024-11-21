@@ -3,7 +3,7 @@ title: Class HanXinParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.HanXinParametersUI class. UI wrapper for HanXinParameters class
 type: docs
-weight: 1610
+weight: 1600
 url: /net/aspose.barcode.windows.forms/hanxinparametersui/
 ---
 ## HanXinParametersUI class

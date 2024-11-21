@@ -18,7 +18,7 @@ public BaseGenerationParameters Parameters { get; }
 
 * class [BaseGenerationParameters](../../../aspose.barcode.generation/basegenerationparameters/)
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

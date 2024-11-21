@@ -17,7 +17,7 @@ public bool DotCodeIsReaderInitialization { get; }
 ### See Also
 
 * class [DotCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../dotcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

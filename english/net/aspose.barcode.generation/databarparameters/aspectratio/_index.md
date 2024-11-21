@@ -17,7 +17,7 @@ public float AspectRatio { get; set; }
 ### See Also
 
 * class [DataBarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../databarparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

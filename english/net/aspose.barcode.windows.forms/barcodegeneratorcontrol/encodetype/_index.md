@@ -18,7 +18,7 @@ public BaseEncodeType EncodeType { get; set; }
 
 * class [BaseEncodeType](../../../aspose.barcode.generation/baseencodetype/)
 * class [BarCodeGeneratorControl](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../barcodegeneratorcontrol/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

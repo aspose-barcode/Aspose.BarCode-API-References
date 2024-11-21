@@ -18,7 +18,7 @@ public DataMatrixEccType DataMatrixEcc { get; set; }
 
 * enum [DataMatrixEccType](../../../aspose.barcode.generation/datamatrixecctype/)
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

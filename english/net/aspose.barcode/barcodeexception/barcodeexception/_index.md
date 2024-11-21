@@ -17,7 +17,7 @@ public BarCodeException()
 ### See Also
 
 * class [BarCodeException](../)
-* namespace [Aspose.BarCode](../../barcodeexception/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -37,7 +37,7 @@ public BarCodeException(string message)
 ### See Also
 
 * class [BarCodeException](../)
-* namespace [Aspose.BarCode](../../barcodeexception/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -58,7 +58,7 @@ public BarCodeException(string message, Exception innerException)
 ### See Also
 
 * class [BarCodeException](../)
-* namespace [Aspose.BarCode](../../barcodeexception/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

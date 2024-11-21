@@ -3,7 +3,7 @@ title: QrParameters.QrVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParameters property. Version of QR Code.From Version1 to Version40. Default value is QRVersion.Auto
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.barcode.generation/qrparameters/qrversion/
 ---
 ## QrParameters.QrVersion property
@@ -18,7 +18,7 @@ public QRVersion QrVersion { get; set; }
 
 * enum [QRVersion](../../qrversion/)
 * class [QrParameters](../)
-* namespace [Aspose.BarCode.Generation](../../qrparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

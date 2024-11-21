@@ -39,7 +39,7 @@ using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage()
 
 * enum [MacroCharacter](../../macrocharacter/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

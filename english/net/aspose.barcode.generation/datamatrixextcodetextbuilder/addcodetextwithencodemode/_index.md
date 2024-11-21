@@ -23,7 +23,7 @@ public void AddCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, string co
 
 * enum [DataMatrixEncodeMode](../../datamatrixencodemode/)
 * class [DataMatrixExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../datamatrixextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

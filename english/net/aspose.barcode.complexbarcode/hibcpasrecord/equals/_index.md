@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [HIBCPASRecord](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibcpasrecord/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

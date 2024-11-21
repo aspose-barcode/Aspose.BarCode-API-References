@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [SwissQRBill](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrbill/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ public bool Equals(SwissQRBill other)
 ### See Also
 
 * class [SwissQRBill](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrbill/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 
