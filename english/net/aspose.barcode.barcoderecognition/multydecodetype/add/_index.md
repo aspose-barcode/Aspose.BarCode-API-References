@@ -22,7 +22,7 @@ public void Add(SingleDecodeType singleType)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

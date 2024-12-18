@@ -18,7 +18,7 @@ public SvgParameters Svg { get; set; }
 
 * class [SvgParameters](../../svgparameters/)
 * class [ImageParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../imageparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -51,12 +51,12 @@ This sample shows how to create compound MultyDecode types that combine SingleDe
 ```csharp
 [C#]
 MultyDecodeType types1 = new MultyDecodeType(DecodeType.QR, DecodeType.DataMatrix);
-MultyDecodeType types2 = new MultyDecodeType(types1, DecodeType.Code128, DecodeType.Code39Standard);
+MultyDecodeType types2 = new MultyDecodeType(types1, DecodeType.Code128, DecodeType.Code39);
 [VB.NET]
 Dim multyType1 As MultyDecodeType 
 multyType1 = New MultyDecodeType(DecodeType.QR, DecodeType.DataMatrix)
 Dim multyType2 As MultyDecodeType
-multyType2 = New MultyDecodeType(multyType1, DecodeType.Code128, DecodeType.Code39Standard)
+multyType2 = New MultyDecodeType(multyType1, DecodeType.Code128, DecodeType.Code39)
 ```
 
 ### See Also

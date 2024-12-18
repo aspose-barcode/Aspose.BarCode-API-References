@@ -18,7 +18,7 @@ public Code16KParameters Code16K { get; }
 
 * class [Code16KParameters](../../code16kparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

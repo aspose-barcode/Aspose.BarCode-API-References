@@ -24,7 +24,7 @@ public Unit SupplementSpace { get; }
 
 * class [Unit](../../unit/)
 * class [CouponParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../couponparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

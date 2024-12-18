@@ -27,7 +27,7 @@ Returns **True** in case of success; **False** Otherwise
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -53,7 +53,7 @@ Returns **True** in case of success; **False** Otherwise
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -17,7 +17,7 @@ public bool IsExplicitSizeInPixels { get; set; }
 ### See Also
 
 * class [SvgParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../svgparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public TwoDComponentType TwoDComponentType { get; set; }
 
 * enum [TwoDComponentType](../../twodcomponenttype/)
 * class [GS1CompositeBarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../gs1compositebarparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

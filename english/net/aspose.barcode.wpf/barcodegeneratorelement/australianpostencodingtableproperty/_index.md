@@ -17,7 +17,7 @@ public static DependencyProperty AustralianPostEncodingTableProperty;
 ### See Also
 
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

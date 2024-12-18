@@ -17,7 +17,7 @@ public int QuietZoneRightCoef { get; set; }
 ### See Also
 
 * class [Code16KParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../code16kparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

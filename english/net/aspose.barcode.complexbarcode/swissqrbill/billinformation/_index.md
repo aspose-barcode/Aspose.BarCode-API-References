@@ -21,7 +21,7 @@ The structured bill information.
 ### See Also
 
 * class [SwissQRBill](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrbill/)
 * assembly [Aspose.BarCode](../../../)
 
 

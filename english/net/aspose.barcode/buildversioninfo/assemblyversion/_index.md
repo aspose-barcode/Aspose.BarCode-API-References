@@ -17,7 +17,7 @@ public static readonly string AssemblyVersion;
 ### See Also
 
 * class [BuildVersionInfo](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../buildversioninfo/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ public BarCodeResult(BarCodeResult result)
 ### See Also
 
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
 * assembly [Aspose.BarCode](../../../)
 
 

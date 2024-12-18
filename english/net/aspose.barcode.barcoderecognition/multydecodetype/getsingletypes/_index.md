@@ -22,7 +22,7 @@ List of single types
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

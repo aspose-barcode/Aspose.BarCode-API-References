@@ -17,7 +17,7 @@ public static readonly DependencyProperty CaptionAboveFontSizeProperty;
 ### See Also
 
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

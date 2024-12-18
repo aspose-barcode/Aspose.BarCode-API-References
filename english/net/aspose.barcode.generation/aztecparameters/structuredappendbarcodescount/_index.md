@@ -17,7 +17,7 @@ public int StructuredAppendBarcodesCount { get; set; }
 ### See Also
 
 * class [AztecParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../aztecparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public DataMatrixEncodeMode CustomerContentEncodeMode { get; set; }
 
 * enum [DataMatrixEncodeMode](../../../aspose.barcode.generation/datamatrixencodemode/)
 * class [Mailmark2DCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../mailmark2dcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

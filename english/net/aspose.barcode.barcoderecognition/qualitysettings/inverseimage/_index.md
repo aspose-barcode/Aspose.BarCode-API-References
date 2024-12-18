@@ -22,7 +22,7 @@ Additional recognition of barcodes on images with inverse colors
 
 * enum [InverseImageMode](../../inverseimagemode/)
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

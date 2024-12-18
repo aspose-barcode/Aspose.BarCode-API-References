@@ -21,7 +21,7 @@ True or false
 ### See Also
 
 * class [Metered](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../metered/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -54,7 +54,7 @@ public string Decode(string customerInformationField)
 ### See Also
 
 * interface [AustraliaPostCustomerInformationDecoder](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../australiapostcustomerinformationdecoder/)
 * assembly [Aspose.BarCode](../../../)
 
 

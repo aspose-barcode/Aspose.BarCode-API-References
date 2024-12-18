@@ -22,7 +22,7 @@ The type information of the recognized barcode
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
 * assembly [Aspose.BarCode](../../../)
 
 

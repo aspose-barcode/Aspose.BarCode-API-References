@@ -18,7 +18,7 @@ public DataMatrixParametersUI DataMatrix { get; }
 
 * class [DataMatrixParametersUI](../../datamatrixparametersui/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

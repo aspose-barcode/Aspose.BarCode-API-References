@@ -17,7 +17,7 @@ public int Pdf417MacroFileSize { get; set; }
 ### See Also
 
 * class [Pdf417ParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../pdf417parametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

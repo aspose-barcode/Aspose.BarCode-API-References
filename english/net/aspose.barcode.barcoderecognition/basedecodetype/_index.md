@@ -35,10 +35,10 @@ This sample shows how to use BaseDecodeType with SingleDecodeType and MultyDecod
 ```csharp
 [C#]
 BaseDecodeType decodeOne = DecodeType.Code128;
-BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended);
+BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII);
 [VB.NET]
 Dim decodeOne As BaseDecodeType = DecodeType.Code128
-Dim decodeTwo As BaseDecodeType = New MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended)
+Dim decodeTwo As BaseDecodeType = New MultyDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII)
 ```
 
 ### See Also

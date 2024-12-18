@@ -18,7 +18,7 @@ public CodeLocation CodeTextParametersLocation { get; set; }
 
 * enum [CodeLocation](../../../aspose.barcode.generation/codelocation/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

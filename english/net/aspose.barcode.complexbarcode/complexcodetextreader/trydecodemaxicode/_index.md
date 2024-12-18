@@ -28,7 +28,7 @@ Decoded MaxiCode codetext.
 * class [MaxiCodeCodetext](../../maxicodecodetext/)
 * enum [MaxiCodeMode](../../../aspose.barcode.generation/maxicodemode/)
 * class [ComplexCodetextReader](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../complexcodetextreader/)
 * assembly [Aspose.BarCode](../../../)
 
 

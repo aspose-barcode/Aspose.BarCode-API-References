@@ -21,7 +21,7 @@ public void SetCodeText(byte[] codeBytes)
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -42,7 +42,7 @@ public void SetCodeText(string codeText, Encoding encoding)
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ public void InitFromString(string constructedCodetext)
 ### See Also
 
 * class [MailmarkCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../mailmarkcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

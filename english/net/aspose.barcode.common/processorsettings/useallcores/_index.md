@@ -26,7 +26,7 @@ BarCodeReader.ProcessorSettings.UseAllCores = True
 ### See Also
 
 * class [ProcessorSettings](../)
-* namespace [Aspose.BarCode.Common](../../../aspose.barcode.common/)
+* namespace [Aspose.BarCode.Common](../../processorsettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

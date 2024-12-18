@@ -21,7 +21,7 @@ Constructed codetext
 ### See Also
 
 * class [HIBCLICComplexCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibcliccomplexcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

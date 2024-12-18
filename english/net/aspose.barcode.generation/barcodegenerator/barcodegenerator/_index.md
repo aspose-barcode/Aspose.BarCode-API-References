@@ -22,7 +22,7 @@ public BarcodeGenerator(BaseEncodeType type)
 
 * class [BaseEncodeType](../../baseencodetype/)
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -44,7 +44,7 @@ public BarcodeGenerator(BaseEncodeType type, string codeText)
 
 * class [BaseEncodeType](../../baseencodetype/)
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 

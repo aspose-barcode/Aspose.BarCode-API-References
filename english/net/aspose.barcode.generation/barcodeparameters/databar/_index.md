@@ -18,7 +18,7 @@ public DataBarParameters DataBar { get; }
 
 * class [DataBarParameters](../../databarparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -22,7 +22,7 @@ Public interface for Customer Information Field decoding which is used in Austra
 
 * interface [AustraliaPostCustomerInformationDecoder](../../australiapostcustomerinformationdecoder/)
 * class [AustraliaPostSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../australiapostsettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

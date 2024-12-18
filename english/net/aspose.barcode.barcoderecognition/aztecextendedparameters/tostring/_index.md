@@ -21,7 +21,7 @@ A string that represents this [`AztecExtendedParameters`](../).
 ### See Also
 
 * class [AztecExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aztecextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

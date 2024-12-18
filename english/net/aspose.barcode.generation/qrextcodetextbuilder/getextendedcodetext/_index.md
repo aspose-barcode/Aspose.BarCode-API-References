@@ -21,7 +21,7 @@ Extended codetext as string
 ### See Also
 
 * class [QrExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../qrextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

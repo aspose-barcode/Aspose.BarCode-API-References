@@ -18,7 +18,7 @@ public CodablockParameters Codablock { get; }
 
 * class [CodablockParameters](../../codablockparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

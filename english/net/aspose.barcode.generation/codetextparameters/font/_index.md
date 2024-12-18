@@ -18,7 +18,7 @@ public FontUnit Font { get; }
 
 * class [FontUnit](../../fontunit/)
 * class [CodetextParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../codetextparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

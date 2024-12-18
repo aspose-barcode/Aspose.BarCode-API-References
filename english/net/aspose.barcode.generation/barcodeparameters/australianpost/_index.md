@@ -18,7 +18,7 @@ public AustralianPostParameters AustralianPost { get; }
 
 * class [AustralianPostParameters](../../australianpostparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

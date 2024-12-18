@@ -17,7 +17,7 @@ public string TwoDDisplayText { get; set; }
 ### See Also
 
 * class [CodetextParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../codetextparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

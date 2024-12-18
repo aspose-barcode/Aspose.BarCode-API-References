@@ -17,7 +17,7 @@ public int UnitOfMeasureID { get; set; }
 ### See Also
 
 * class [PrimaryData](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../primarydata/)
 * assembly [Aspose.BarCode](../../../)
 
 

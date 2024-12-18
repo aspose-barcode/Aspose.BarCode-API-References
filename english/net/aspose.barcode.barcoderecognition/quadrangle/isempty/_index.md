@@ -21,7 +21,7 @@ Returns **true** if all Points of this [`Quadrangle`](../) have values of zero; 
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
 * assembly [Aspose.BarCode](../../../)
 
 

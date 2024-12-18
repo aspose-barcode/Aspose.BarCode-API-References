@@ -18,7 +18,7 @@ public QRVersion QRVersion { get; }
 
 * enum [QRVersion](../../../aspose.barcode.generation/qrversion/)
 * class [QRExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../qrextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

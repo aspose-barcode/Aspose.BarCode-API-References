@@ -22,7 +22,7 @@ public SwissQRCodetext(SwissQRBill bill)
 
 * class [SwissQRBill](../../swissqrbill/)
 * class [SwissQRCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -38,7 +38,7 @@ public SwissQRCodetext()
 ### See Also
 
 * class [SwissQRCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../swissqrcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

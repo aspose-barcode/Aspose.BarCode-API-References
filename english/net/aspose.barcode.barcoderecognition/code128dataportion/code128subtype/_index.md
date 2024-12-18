@@ -22,7 +22,7 @@ The type of Code128 subset
 
 * enum [Code128SubType](../../code128subtype/)
 * class [Code128DataPortion](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../code128dataportion/)
 * assembly [Aspose.BarCode](../../../)
 
 

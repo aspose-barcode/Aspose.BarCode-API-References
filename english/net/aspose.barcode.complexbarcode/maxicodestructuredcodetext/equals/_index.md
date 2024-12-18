@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [MaxiCodeStructuredCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodestructuredcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

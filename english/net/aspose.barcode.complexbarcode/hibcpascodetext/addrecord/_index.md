@@ -23,7 +23,7 @@ public void AddRecord(HIBCPASDataType dataType, string data)
 
 * enum [HIBCPASDataType](../../hibcpasdatatype/)
 * class [HIBCPASCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibcpascodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -44,7 +44,7 @@ public void AddRecord(HIBCPASRecord record)
 
 * class [HIBCPASRecord](../../hibcpasrecord/)
 * class [HIBCPASCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibcpascodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

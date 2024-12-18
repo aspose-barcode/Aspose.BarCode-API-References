@@ -17,7 +17,7 @@ public bool IsReaderInitialization { get; }
 ### See Also
 
 * class [AztecExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aztecextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

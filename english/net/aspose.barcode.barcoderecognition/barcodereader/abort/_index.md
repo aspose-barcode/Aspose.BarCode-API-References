@@ -30,7 +30,7 @@ private static void ThreadRecognize(object readerObj)
     }
 }
 
-BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128);
+BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128);
 Thread thread1 = new Thread(ThreadRecognize);
 thread1.Start(reader);
 Thread.Sleep(100);
@@ -44,7 +44,7 @@ Private Shared Sub ThreadRecognize(readerObj As Object)
     Next
 End Sub
 
-Dim reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Dim reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
 Dim thread1 As New Thread(AddressOf ThreadRecognize)
 thread1.Start(reader)
 Thread.Sleep(100)
@@ -54,7 +54,7 @@ reader.Abort()
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 

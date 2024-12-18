@@ -18,7 +18,7 @@ public AztecParameters Aztec { get; }
 
 * class [AztecParameters](../../aztecparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

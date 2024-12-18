@@ -26,7 +26,7 @@ Returns **true** if [`BaseDecodeType`](../../basedecodetype/) contains any Posta
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 
