@@ -23,7 +23,7 @@ The payment instruction.
 ### See Also
 
 * class [AlternativeScheme](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../alternativescheme/)
 * assembly [Aspose.BarCode](../../../)
 
 

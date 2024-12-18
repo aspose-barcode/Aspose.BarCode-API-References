@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [CodabarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../codabarextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

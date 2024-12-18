@@ -18,7 +18,7 @@ public ECIEncodings ECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../../aspose.barcode.generation/eciencodings/)
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

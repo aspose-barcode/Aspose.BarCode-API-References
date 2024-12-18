@@ -3,7 +3,7 @@ title: Pdf417Parameters.Pdf417MacroFileName
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. MacroPdf417 barcode file name optional field. MicroPDF417 barcode file name optional field for Structured Append mode
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.barcode.generation/pdf417parameters/pdf417macrofilename/
 ---
 ## Pdf417Parameters.Pdf417MacroFileName property
@@ -17,7 +17,7 @@ public string Pdf417MacroFileName { get; set; }
 ### See Also
 
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

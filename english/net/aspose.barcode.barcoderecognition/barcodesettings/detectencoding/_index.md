@@ -56,7 +56,7 @@ Using ms As New MemoryStream
     End Using
     'detects encoding for Unicode codesets is enabled
     ms.Position = 0
-    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = True
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -64,7 +64,7 @@ Using ms As New MemoryStream
     End Using
     'detect encoding is disabled
     ms.Position = 0
-    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = False
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -76,7 +76,7 @@ End Using
 ### See Also
 
 * class [BarcodeSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodesettings/)
 * assembly [Aspose.BarCode](../../../)
 
 

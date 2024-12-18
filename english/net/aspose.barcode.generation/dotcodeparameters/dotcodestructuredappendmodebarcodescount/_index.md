@@ -17,7 +17,7 @@ public int DotCodeStructuredAppendModeBarcodesCount { get; set; }
 ### See Also
 
 * class [DotCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../dotcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public DataMatrixEccType DataMatrixEcc { get; set; }
 
 * enum [DataMatrixEccType](../../../aspose.barcode.generation/datamatrixecctype/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -22,7 +22,7 @@ A Codabar additional information[`CodabarExtendedParameters`](../../codabarexten
 
 * class [CodabarExtendedParameters](../../codabarextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

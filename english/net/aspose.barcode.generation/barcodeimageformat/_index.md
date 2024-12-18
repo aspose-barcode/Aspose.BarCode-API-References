@@ -26,6 +26,7 @@ public enum BarCodeImageFormat
 | TiffInCmyk | `5` | Specifies the Tagged Image File Format (TIFF) image format in CMYK color model. (Supported only on Windows platform, on *nix platforms is saved as Tiff) |
 | Emf | `6` | Specifies the Enhanced Metafile (EMF) image format. (Supported only on Windows platform, on *nix platforms is saved as PNG) |
 | Svg | `7` | Specifies the Scalable Vector Graphics (SVG) image format. |
+| Pdf | `8` | Specifies the Portable Document Format (PDF) image format. |
 
 ### See Also
 

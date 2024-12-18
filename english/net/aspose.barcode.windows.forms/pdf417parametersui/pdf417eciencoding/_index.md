@@ -18,7 +18,7 @@ public ECIEncodings Pdf417ECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../../aspose.barcode.generation/eciencodings/)
 * class [Pdf417ParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../pdf417parametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

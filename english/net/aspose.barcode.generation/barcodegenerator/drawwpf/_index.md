@@ -25,7 +25,7 @@ Actual image size
 ### See Also
 
 * class [BarcodeGenerator](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodegenerator/)
 * assembly [Aspose.BarCode](../../../)
 
 

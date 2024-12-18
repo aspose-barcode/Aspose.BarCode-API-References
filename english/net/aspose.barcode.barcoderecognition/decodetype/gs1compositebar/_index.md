@@ -18,7 +18,7 @@ public static readonly SingleDecodeType GS1CompositeBar;
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

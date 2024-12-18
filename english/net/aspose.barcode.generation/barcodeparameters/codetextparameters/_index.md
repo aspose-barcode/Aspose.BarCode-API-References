@@ -18,7 +18,7 @@ public CodetextParameters CodeTextParameters { get; }
 
 * class [CodetextParameters](../../codetextparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -21,7 +21,7 @@ A string that represents this [`CaptionUI`](../).
 ### See Also
 
 * class [CaptionUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../captionui/)
 * assembly [Aspose.BarCode](../../../)
 
 

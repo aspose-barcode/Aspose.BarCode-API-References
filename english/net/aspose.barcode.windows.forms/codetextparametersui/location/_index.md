@@ -18,7 +18,7 @@ public CodeLocation Location { get; set; }
 
 * enum [CodeLocation](../../../aspose.barcode.generation/codelocation/)
 * class [CodetextParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../codetextparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

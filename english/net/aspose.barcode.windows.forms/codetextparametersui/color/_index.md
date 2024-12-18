@@ -17,7 +17,7 @@ public Color Color { get; set; }
 ### See Also
 
 * class [CodetextParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../codetextparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

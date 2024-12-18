@@ -21,7 +21,7 @@ Returns Rectangle bounding this [`Quadrangle`](../)
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
 * assembly [Aspose.BarCode](../../../)
 
 

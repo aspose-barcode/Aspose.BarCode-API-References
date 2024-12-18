@@ -17,7 +17,7 @@ public object DefaultValue { get; set; }
 ### See Also
 
 * class [XmlSerializationAttribute](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../xmlserializationattribute/)
 * assembly [Aspose.BarCode](../../../)
 
 

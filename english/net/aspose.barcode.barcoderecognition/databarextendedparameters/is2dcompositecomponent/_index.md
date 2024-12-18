@@ -21,7 +21,7 @@ The DataBar 2D composite component flag.
 ### See Also
 
 * class [DataBarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../databarextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

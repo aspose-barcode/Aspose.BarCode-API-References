@@ -22,7 +22,7 @@ public MultyDecodeType(params SingleDecodeType[] barcodeTypes)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -43,7 +43,7 @@ public MultyDecodeType(params BaseDecodeType[] barcodeTypes)
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

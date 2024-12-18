@@ -21,7 +21,7 @@ public void InitFromString(string constructedCodetext)
 ### See Also
 
 * class [HIBCPASCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../hibcpascodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

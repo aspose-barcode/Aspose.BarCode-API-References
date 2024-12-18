@@ -22,7 +22,7 @@ A special data [`Code128ExtendedParameters`](../../code128extendedparameters/) o
 
 * class [Code128ExtendedParameters](../../code128extendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

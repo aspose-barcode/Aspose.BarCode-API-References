@@ -25,7 +25,7 @@ The town or city.
 ### See Also
 
 * class [Address](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../address/)
 * assembly [Aspose.BarCode](../../../)
 
 

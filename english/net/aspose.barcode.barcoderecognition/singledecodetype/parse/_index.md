@@ -25,7 +25,7 @@ the instance of , if conversion was successful; otherwise, it returns .
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

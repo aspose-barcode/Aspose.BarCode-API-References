@@ -27,7 +27,7 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -53,7 +53,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 * class [MultyDecodeType](../../multydecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -78,7 +78,7 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -133,7 +133,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -142,7 +142,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

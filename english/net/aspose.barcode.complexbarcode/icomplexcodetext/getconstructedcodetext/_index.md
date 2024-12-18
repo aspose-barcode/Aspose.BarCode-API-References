@@ -21,7 +21,7 @@ Constructed codetext
 ### See Also
 
 * interface [IComplexCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../icomplexcodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 

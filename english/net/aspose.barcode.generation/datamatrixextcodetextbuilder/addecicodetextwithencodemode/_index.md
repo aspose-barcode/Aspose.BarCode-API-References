@@ -26,7 +26,7 @@ public void AddECICodetextWithEncodeMode(ECIEncodings ECIEncoding, DataMatrixEnc
 * enum [ECIEncodings](../../eciencodings/)
 * enum [DataMatrixEncodeMode](../../datamatrixencodemode/)
 * class [DataMatrixExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../datamatrixextcodetextbuilder/)
 * assembly [Aspose.BarCode](../../../)
 
 

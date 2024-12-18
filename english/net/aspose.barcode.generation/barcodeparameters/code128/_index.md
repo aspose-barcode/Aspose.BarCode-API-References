@@ -18,7 +18,7 @@ public Code128Parameters Code128 { get; }
 
 * class [Code128Parameters](../../code128parameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

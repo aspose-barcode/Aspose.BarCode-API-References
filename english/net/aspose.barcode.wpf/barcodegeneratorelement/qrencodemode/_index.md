@@ -18,7 +18,7 @@ public QREncodeMode QREncodeMode { get; set; }
 
 * enum [QREncodeMode](../../../aspose.barcode.generation/qrencodemode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
 * assembly [Aspose.BarCode](../../../)
 
 

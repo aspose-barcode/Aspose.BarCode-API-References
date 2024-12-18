@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [Address](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../address/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ public bool Equals(Address other)
 ### See Also
 
 * class [Address](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../address/)
 * assembly [Aspose.BarCode](../../../)
 
 

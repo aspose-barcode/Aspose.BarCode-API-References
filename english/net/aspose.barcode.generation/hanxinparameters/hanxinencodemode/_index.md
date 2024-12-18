@@ -18,7 +18,7 @@ public HanXinEncodeMode HanXinEncodeMode { get; set; }
 
 * enum [HanXinEncodeMode](../../hanxinencodemode/)
 * class [HanXinParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../hanxinparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

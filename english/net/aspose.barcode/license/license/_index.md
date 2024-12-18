@@ -17,7 +17,7 @@ public License()
 ### See Also
 
 * class [License](../)
-* namespace [Aspose.BarCode](../../../aspose.barcode/)
+* namespace [Aspose.BarCode](../../license/)
 * assembly [Aspose.BarCode](../../../)
 
 

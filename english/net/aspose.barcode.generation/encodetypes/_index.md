@@ -74,8 +74,8 @@ public static class EncodeTypes
 | static readonly [HIBCAztecPAS](../../aspose.barcode.generation/encodetypes/hibcaztecpas/) | Specifies that the data should be encoded with **HIBC PAS Aztec** barcode specification. |
 | static readonly [HIBCCode128LIC](../../aspose.barcode.generation/encodetypes/hibccode128lic/) | Specifies that the data should be encoded with **HIBC LIC Code128** barcode specification. |
 | static readonly [HIBCCode128PAS](../../aspose.barcode.generation/encodetypes/hibccode128pas/) | Specifies that the data should be encoded with **HIBC PAS Code128** barcode specification. |
-| static readonly [HIBCCode39LIC](../../aspose.barcode.generation/encodetypes/hibccode39lic/) | Specifies that the data should be encoded with **HIBC LIC Code39Standart** barcode specification. |
-| static readonly [HIBCCode39PAS](../../aspose.barcode.generation/encodetypes/hibccode39pas/) | Specifies that the data should be encoded with **HIBC PAS Code39Standart** barcode specification. |
+| static readonly [HIBCCode39LIC](../../aspose.barcode.generation/encodetypes/hibccode39lic/) | Specifies that the data should be encoded with **HIBC LIC Code39** barcode specification. |
+| static readonly [HIBCCode39PAS](../../aspose.barcode.generation/encodetypes/hibccode39pas/) | Specifies that the data should be encoded with **HIBC PAS Code39** barcode specification. |
 | static readonly [HIBCDataMatrixLIC](../../aspose.barcode.generation/encodetypes/hibcdatamatrixlic/) | Specifies that the data should be encoded with **HIBC LIC DataMatrix** barcode specification. |
 | static readonly [HIBCDataMatrixPAS](../../aspose.barcode.generation/encodetypes/hibcdatamatrixpas/) | Specifies that the data should be encoded with **HIBC PAS DataMatrix** barcode specification. |
 | static readonly [HIBCQRLIC](../../aspose.barcode.generation/encodetypes/hibcqrlic/) | Specifies that the data should be encoded with **HIBC LIC QR** barcode specification. |

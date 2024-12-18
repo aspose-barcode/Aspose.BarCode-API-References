@@ -24,20 +24,20 @@ This sample shows how to use QualitySettings with BarCodeReader
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
    //set high performance mode
    reader.QualitySettings = QualitySettings.HighPerformance;
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
    //normal quality mode is set by default
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
    //set high performance mode
    reader.QualitySettings = QualitySettings.HighPerformance;
@@ -48,20 +48,20 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     'set high performance mode
     reader.QualitySettings = QualitySettings.HighPerformance
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     'normal quality mode is set by default
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
    'set high performance mode
    reader.QualitySettings = QualitySettings.HighPerformance
    'set separate options
@@ -77,7 +77,7 @@ End Using
 
 * class [QualitySettings](../../qualitysettings/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType UPCE;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../encodetypes/)
 * assembly [Aspose.BarCode](../../../)
 
 

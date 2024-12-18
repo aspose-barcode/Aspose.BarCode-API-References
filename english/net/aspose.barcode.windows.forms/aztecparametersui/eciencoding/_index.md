@@ -18,7 +18,7 @@ public ECIEncodings ECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../../aspose.barcode.generation/eciencodings/)
 * class [AztecParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* namespace [Aspose.BarCode.Windows.Forms](../../aztecparametersui/)
 * assembly [Aspose.BarCode](../../../)
 
 

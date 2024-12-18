@@ -18,7 +18,7 @@ public CustomerInformationInterpretingType AustralianPostEncodingTable { get; se
 
 * enum [CustomerInformationInterpretingType](../../../aspose.barcode/customerinformationinterpretingtype/)
 * class [AustralianPostParameters](../)
-* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* namespace [Aspose.BarCode.Generation](../../australianpostparameters/)
 * assembly [Aspose.BarCode](../../../)
 
 

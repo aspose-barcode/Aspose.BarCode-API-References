@@ -18,7 +18,7 @@ public MaxiCodeEncodeMode MaxiCodeEncodeMode { get; set; }
 
 * enum [MaxiCodeEncodeMode](../../../aspose.barcode.generation/maxicodeencodemode/)
 * class [MaxiCodeCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodecodetext/)
 * assembly [Aspose.BarCode](../../../)
 
 
