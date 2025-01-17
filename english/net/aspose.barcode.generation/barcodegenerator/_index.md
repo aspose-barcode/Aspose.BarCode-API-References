@@ -45,7 +45,8 @@ public sealed class BarcodeGenerator : Component
 | [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | Save barcode image to stream in specific format. |
 | [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | Save barcode image to specific file in specific format. |
 | [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext)(byte[]) | Set codetext as sequence of bytes. |
-| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_1)(string, Encoding) | Encodes codetext with byte order mark (BOM) using specified encoding. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_1)(string, Encoding) | Encodes codetext with byte order mark (BOM), using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_2)(string, Encoding, bool) | Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8. |
 
 ## Examples
 

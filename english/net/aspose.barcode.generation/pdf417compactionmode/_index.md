@@ -19,10 +19,10 @@ public enum Pdf417CompactionMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | `0` | auto detect compaction mode |
-| Text | `1` | text compaction |
-| Numeric | `2` | numeric compaction mode |
-| Binary | `3` | binary compaction mode |
+| Auto | `0` | *This property is obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode.Auto property.* auto detect compaction mode |
+| Text | `1` | *This property is obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode.Auto property for maximum data compactness.* text compaction |
+| Numeric | `2` | *This property is obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode.Auto property for maximum data compactness.* numeric compaction mode |
+| Binary | `3` | *This property is obsolete and will be removed in future releases. Instead, use the Pdf417EncodeMode.Binary property.* binary compaction mode |
 
 ### See Also
 
