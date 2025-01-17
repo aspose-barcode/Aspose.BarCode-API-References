@@ -17,7 +17,7 @@ public readonly int L;
 ### See Also
 
 * class [HslaColor](../)
-* namespace [Aspose.BarCode.Generation](../../hslacolor/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

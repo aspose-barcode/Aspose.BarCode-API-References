@@ -26,7 +26,7 @@ public static bool operator !=(MaxiCodeExtendedParameters first, MaxiCodeExtende
 ### See Also
 
 * class [MaxiCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../maxicodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -25,7 +25,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [AlternativeScheme](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../alternativescheme/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ public bool Equals(AlternativeScheme other)
 ### See Also
 
 * class [AlternativeScheme](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../alternativescheme/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

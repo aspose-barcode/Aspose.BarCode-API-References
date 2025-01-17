@@ -18,7 +18,7 @@ public TextAlignment CodeTextParametersAlignment { get; set; }
 
 * enum [TextAlignment](../../../aspose.barcode.generation/textalignment/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

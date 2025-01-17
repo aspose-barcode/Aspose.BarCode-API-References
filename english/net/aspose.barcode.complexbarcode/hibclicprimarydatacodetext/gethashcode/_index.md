@@ -21,7 +21,7 @@ A 32-bit signed integer hash code.
 ### See Also
 
 * class [HIBCLICPrimaryDataCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibclicprimarydatacodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

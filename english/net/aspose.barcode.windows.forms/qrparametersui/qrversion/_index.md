@@ -18,7 +18,7 @@ public QRVersion QrVersion { get; set; }
 
 * enum [QRVersion](../../../aspose.barcode.generation/qrversion/)
 * class [QrParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../qrparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

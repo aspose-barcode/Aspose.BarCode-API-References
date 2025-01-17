@@ -17,7 +17,7 @@ public string Name { get; set; }
 ### See Also
 
 * class [XmlSerializationAttribute](../)
-* namespace [Aspose.BarCode](../../xmlserializationattribute/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

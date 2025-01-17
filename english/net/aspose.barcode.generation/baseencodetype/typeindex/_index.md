@@ -17,7 +17,7 @@ public short TypeIndex { get; }
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

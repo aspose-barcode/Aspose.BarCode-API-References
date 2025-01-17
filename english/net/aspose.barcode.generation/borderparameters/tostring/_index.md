@@ -21,7 +21,7 @@ A string that represents this [`BorderParameters`](../).
 ### See Also
 
 * class [BorderParameters](../)
-* namespace [Aspose.BarCode.Generation](../../borderparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

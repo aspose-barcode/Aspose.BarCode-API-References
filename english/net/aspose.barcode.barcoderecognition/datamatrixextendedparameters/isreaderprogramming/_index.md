@@ -17,7 +17,7 @@ public bool IsReaderProgramming { get; }
 ### See Also
 
 * class [DataMatrixExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../datamatrixextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

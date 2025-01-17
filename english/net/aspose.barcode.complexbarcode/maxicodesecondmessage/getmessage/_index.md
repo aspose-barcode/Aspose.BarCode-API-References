@@ -21,7 +21,7 @@ Constructed second message
 ### See Also
 
 * class [MaxiCodeSecondMessage](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodesecondmessage/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

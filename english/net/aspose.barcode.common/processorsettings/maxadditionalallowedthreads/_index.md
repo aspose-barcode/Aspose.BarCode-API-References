@@ -26,7 +26,7 @@ BarCodeReader.ProcessorSettings.MaxAdditionalAllowedThreads = Environment.Proces
 ### See Also
 
 * class [ProcessorSettings](../)
-* namespace [Aspose.BarCode.Common](../../processorsettings/)
+* namespace [Aspose.BarCode.Common](../../../aspose.barcode.common/)
 * assembly [Aspose.BarCode](../../../)
 
 

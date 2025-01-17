@@ -26,7 +26,7 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 ### See Also
 
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

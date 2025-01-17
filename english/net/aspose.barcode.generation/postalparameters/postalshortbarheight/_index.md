@@ -18,7 +18,7 @@ public Unit PostalShortBarHeight { get; set; }
 
 * class [Unit](../../unit/)
 * class [PostalParameters](../)
-* namespace [Aspose.BarCode.Generation](../../postalparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

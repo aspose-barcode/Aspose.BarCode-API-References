@@ -21,7 +21,7 @@ public abstract void InitFromString(string constructedCodetext)
 ### See Also
 
 * class [MaxiCodeCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodecodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

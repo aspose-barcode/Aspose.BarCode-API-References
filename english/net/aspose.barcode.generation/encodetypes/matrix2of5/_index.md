@@ -18,7 +18,7 @@ public static readonly SymbologyEncodeType Matrix2of5;
 
 * class [SymbologyEncodeType](../../symbologyencodetype/)
 * class [EncodeTypes](../)
-* namespace [Aspose.BarCode.Generation](../../encodetypes/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

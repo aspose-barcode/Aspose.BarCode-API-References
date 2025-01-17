@@ -21,7 +21,7 @@ Time stamp.
 ### See Also
 
 * class [Pdf417ExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../pdf417extendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

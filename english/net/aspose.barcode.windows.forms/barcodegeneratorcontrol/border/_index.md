@@ -18,7 +18,7 @@ public BorderParameters Border { get; }
 
 * class [BorderParameters](../../../aspose.barcode.generation/borderparameters/)
 * class [BarCodeGeneratorControl](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../barcodegeneratorcontrol/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

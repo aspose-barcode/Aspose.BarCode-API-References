@@ -22,7 +22,7 @@ public SingleDecodeType TwoDType { get; }
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [GS1CompositeBarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../gs1compositebarextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -58,7 +58,7 @@ End Using
 ### See Also
 
 * class [AustraliaPostSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../australiapostsettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

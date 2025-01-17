@@ -23,7 +23,7 @@ public void Save(Stream stream, BarCodeImageFormat format)
 
 * enum [BarCodeImageFormat](../../../aspose.barcode.generation/barcodeimageformat/)
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -45,7 +45,7 @@ public void Save(string filename, BarCodeImageFormat format)
 
 * enum [BarCodeImageFormat](../../../aspose.barcode.generation/barcodeimageformat/)
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -65,7 +65,7 @@ public void Save(string filename)
 ### See Also
 
 * class [ComplexBarcodeGenerator](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../complexbarcodegenerator/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

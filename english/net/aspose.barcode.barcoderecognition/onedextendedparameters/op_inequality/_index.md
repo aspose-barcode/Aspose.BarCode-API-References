@@ -26,7 +26,7 @@ public static bool operator !=(OneDExtendedParameters first, OneDExtendedParamet
 ### See Also
 
 * class [OneDExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../onedextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

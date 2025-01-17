@@ -18,7 +18,7 @@ public Pdf417MacroTerminator Pdf417MacroTerminator { get; set; }
 
 * enum [Pdf417MacroTerminator](../../pdf417macroterminator/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

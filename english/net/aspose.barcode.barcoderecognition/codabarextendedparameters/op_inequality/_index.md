@@ -26,7 +26,7 @@ public static bool operator !=(CodabarExtendedParameters first, CodabarExtendedP
 ### See Also
 
 * class [CodabarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../codabarextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

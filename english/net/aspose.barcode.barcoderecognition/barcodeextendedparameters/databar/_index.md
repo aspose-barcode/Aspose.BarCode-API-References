@@ -22,7 +22,7 @@ A DataBar additional information[`DataBarExtendedParameters`](../../databarexten
 
 * class [DataBarExtendedParameters](../../databarextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

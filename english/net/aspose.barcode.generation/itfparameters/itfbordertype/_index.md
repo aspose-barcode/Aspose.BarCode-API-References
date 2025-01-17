@@ -18,7 +18,7 @@ public ITF14BorderType ItfBorderType { get; set; }
 
 * enum [ITF14BorderType](../../itf14bordertype/)
 * class [ITFParameters](../)
-* namespace [Aspose.BarCode.Generation](../../itfparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

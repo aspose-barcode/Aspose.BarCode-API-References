@@ -18,7 +18,7 @@ public QrParametersUI QR { get; }
 
 * class [QrParametersUI](../../qrparametersui/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

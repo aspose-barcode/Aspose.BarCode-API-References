@@ -19,11 +19,11 @@ public enum QREncodeMode
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are encoded in kanji mode if possible, or they are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. |
-| Bytes | `1` | Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first. |
-| Utf8BOM | `2` | Encode codetext with UTF8 encoding with first ByteOfMark character. |
-| Utf16BEBOM | `3` | Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scanners. |
-| ECIEncoding | `4` | Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR barcodes. |
-| ExtendedCodetext | `5` | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
+| Bytes | `1` | *This property is obsolete and will be removed in future releases. Instead, use the 'SetCodeText' method to convert the message to byte array with specified encoding.* Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first. |
+| Utf8BOM | `2` | *This property is obsolete and will be removed in future releases. Instead, use the 'SetCodeText' method with UTF8 encoding to add a byte order mark (BOM) and encode the message. After that, the CodeText can be encoded using the 'Auto' mode.* Encode codetext with UTF8 encoding with first ByteOfMark character. |
+| Utf16BEBOM | `3` | *This property is obsolete and will be removed in future releases. Instead, use the 'SetCodeText' method with BigEndianUnicode encoding to add a byte order mark (BOM) and encode the message. After that, the CodeText can be encoded using the 'Auto' mode.* Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scanners. |
+| ECIEncoding | `4` | *This property is obsolete and will be removed in future releases. Instead, use ECI option.* Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR barcodes. |
+| ExtendedCodetext | `5` | *This property is obsolete and will be removed in future releases. Instead, use the 'Extended' encode mode.* Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
 | Extended | `6` | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
 | Binary | `7` | In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown. |
 | ECI | `8` | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. This mode is not supported by MicroQR barcodes. |

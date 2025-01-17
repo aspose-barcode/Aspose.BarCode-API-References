@@ -18,7 +18,7 @@ public TextAlignment Alignment { get; set; }
 
 * enum [TextAlignment](../../textalignment/)
 * class [CaptionParameters](../)
-* namespace [Aspose.BarCode.Generation](../../captionparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

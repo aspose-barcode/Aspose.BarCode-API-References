@@ -22,7 +22,7 @@ size (from 1 to infinity) of barcode minimal element: matrix cell or bar.
 
 * enum [XDimensionMode](../../xdimensionmode/)
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

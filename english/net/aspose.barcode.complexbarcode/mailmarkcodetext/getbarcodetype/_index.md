@@ -22,7 +22,7 @@ Barcode type.
 
 * class [BaseEncodeType](../../../aspose.barcode.generation/baseencodetype/)
 * class [MailmarkCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../mailmarkcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,7 +18,7 @@ public DotCodeParameters DotCode { get; }
 
 * class [DotCodeParameters](../../dotcodeparameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

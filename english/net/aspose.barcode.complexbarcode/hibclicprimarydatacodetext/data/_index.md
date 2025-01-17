@@ -18,7 +18,7 @@ public PrimaryData Data { get; set; }
 
 * class [PrimaryData](../../primarydata/)
 * class [HIBCLICPrimaryDataCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibclicprimarydatacodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

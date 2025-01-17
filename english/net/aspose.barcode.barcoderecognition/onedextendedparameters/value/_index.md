@@ -21,7 +21,7 @@ The codetext of 1D barcodes without checksum.
 ### See Also
 
 * class [OneDExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../onedextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

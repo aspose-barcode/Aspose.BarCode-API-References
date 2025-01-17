@@ -18,7 +18,7 @@ public Code128EncodeMode Code128EncodeMode { get; set; }
 
 * enum [Code128EncodeMode](../../code128encodemode/)
 * class [Code128Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../code128parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

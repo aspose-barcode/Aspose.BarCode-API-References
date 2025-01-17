@@ -18,7 +18,7 @@ public HanXinErrorLevel HanXinErrorLevel { get; set; }
 
 * enum [HanXinErrorLevel](../../hanxinerrorlevel/)
 * class [HanXinParameters](../)
-* namespace [Aspose.BarCode.Generation](../../hanxinparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

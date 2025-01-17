@@ -17,7 +17,7 @@ public int Columns { get; set; }
 ### See Also
 
 * class [CodablockParameters](../)
-* namespace [Aspose.BarCode.Generation](../../codablockparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

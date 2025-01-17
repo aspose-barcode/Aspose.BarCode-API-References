@@ -18,7 +18,7 @@ public CodabarSymbol CodabarStopSymbol { get; set; }
 
 * enum [CodabarSymbol](../../codabarsymbol/)
 * class [CodabarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../codabarparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

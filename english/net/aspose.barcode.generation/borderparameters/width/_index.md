@@ -18,7 +18,7 @@ public Unit Width { get; set; }
 
 * class [Unit](../../unit/)
 * class [BorderParameters](../)
-* namespace [Aspose.BarCode.Generation](../../borderparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

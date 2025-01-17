@@ -22,7 +22,7 @@ Barcode type.
 
 * class [BaseEncodeType](../../../aspose.barcode.generation/baseencodetype/)
 * class [HIBCLICComplexCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../hibcliccomplexcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -17,7 +17,7 @@ public string TypeName { get; }
 ### See Also
 
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

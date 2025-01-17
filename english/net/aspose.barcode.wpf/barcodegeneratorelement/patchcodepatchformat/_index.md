@@ -18,7 +18,7 @@ public PatchFormat PatchCodePatchFormat { get; set; }
 
 * enum [PatchFormat](../../../aspose.barcode.generation/patchformat/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

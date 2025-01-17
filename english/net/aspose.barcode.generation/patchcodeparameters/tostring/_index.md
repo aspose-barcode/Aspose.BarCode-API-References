@@ -21,7 +21,7 @@ A string that represents this [`PatchCodeParameters`](../).
 ### See Also
 
 * class [PatchCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../patchcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

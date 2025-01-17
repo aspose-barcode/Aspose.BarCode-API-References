@@ -18,7 +18,7 @@ public RectMicroQRVersion RectMicroQrVersion { get; set; }
 
 * enum [RectMicroQRVersion](../../../aspose.barcode.generation/rectmicroqrversion/)
 * class [QrParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../qrparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

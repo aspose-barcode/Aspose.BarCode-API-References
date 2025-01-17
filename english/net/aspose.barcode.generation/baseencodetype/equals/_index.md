@@ -25,7 +25,7 @@ public bool Equals(BaseEncodeType other)
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -49,7 +49,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

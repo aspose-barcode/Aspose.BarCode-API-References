@@ -17,7 +17,7 @@ public XmlSerializationAttribute()
 ### See Also
 
 * class [XmlSerializationAttribute](../)
-* namespace [Aspose.BarCode](../../xmlserializationattribute/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

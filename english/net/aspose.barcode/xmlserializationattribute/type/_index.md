@@ -18,7 +18,7 @@ public XmlSerializationType Type { get; set; }
 
 * enum [XmlSerializationType](../../xmlserializationtype/)
 * class [XmlSerializationAttribute](../)
-* namespace [Aspose.BarCode](../../xmlserializationattribute/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -26,7 +26,7 @@ Value is a true if any types are included into
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [SingleDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../singledecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

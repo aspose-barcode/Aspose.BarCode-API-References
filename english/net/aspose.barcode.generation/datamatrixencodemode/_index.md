@@ -20,12 +20,12 @@ public enum DataMatrixEncodeMode
 | --- | --- | --- |
 | Auto | `0` | In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. |
 | ASCII | `1` | Encodes one alphanumeric or two numeric characters per byte |
-| Bytes | `6` | Encode 8 bit values |
+| Bytes | `6` | *This property is obsolete and will be removed in future releases. Instead, use Base256 option.* Encode 8 bit values |
 | C40 | `8` | Uses C40 encoding. Encodes Upper-case alphanumeric, Lower case and special characters |
 | Text | `9` | Uses Text encoding. Encodes Lower-case alphanumeric, Upper case and special characters |
 | EDIFACT | `10` | Uses EDIFACT encoding. Uses six bits per character, encodes digits, upper-case letters, and many punctuation marks, but has no support for lower-case letters. |
 | ANSIX12 | `11` | Uses ANSI X12 encoding. |
-| ExtendedCodetext | `12` | ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. |
+| ExtendedCodetext | `12` | *This property is obsolete and will be removed in future releases. Instead, use the 'Extended' encode mode.* ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. |
 | Extended | `13` | ExtendedCodetext mode allows to manually switch encodation schemes and ECI encodings in codetext. |
 | Base256 | `14` | Encode 8 bit values |
 | Binary | `15` | In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown. |

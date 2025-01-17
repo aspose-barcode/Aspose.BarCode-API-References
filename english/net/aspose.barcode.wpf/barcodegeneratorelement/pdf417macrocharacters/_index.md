@@ -18,7 +18,7 @@ public MacroCharacter Pdf417MacroCharacters { get; set; }
 
 * enum [MacroCharacter](../../../aspose.barcode.generation/macrocharacter/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

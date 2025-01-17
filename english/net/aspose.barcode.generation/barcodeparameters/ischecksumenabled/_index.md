@@ -24,7 +24,7 @@ public EnableChecksum IsChecksumEnabled { get; set; }
 
 * enum [EnableChecksum](../../enablechecksum/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

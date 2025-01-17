@@ -18,7 +18,7 @@ public BarcodeClassifications Classification { get; }
 
 * enum [BarcodeClassifications](../../barcodeclassifications/)
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

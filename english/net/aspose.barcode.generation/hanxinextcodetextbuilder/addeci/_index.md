@@ -22,7 +22,7 @@ public void AddECI(string text, int encoding)
 ### See Also
 
 * class [HanXinExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../hanxinextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

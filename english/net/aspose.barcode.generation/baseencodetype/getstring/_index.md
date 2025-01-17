@@ -21,7 +21,7 @@ A string representing the complete value of the encode type
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -45,7 +45,7 @@ A string representing the complete value of the given encode type
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

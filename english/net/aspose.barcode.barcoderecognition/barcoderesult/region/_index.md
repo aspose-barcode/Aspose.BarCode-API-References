@@ -22,7 +22,7 @@ The region of the recognized barcode
 
 * class [BarCodeRegionParameters](../../barcoderegionparameters/)
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

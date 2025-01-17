@@ -17,7 +17,7 @@ public void AddFNC1FormatIdentifier()
 ### See Also
 
 * class [DotCodeExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../dotcodeextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

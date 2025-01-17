@@ -26,7 +26,7 @@ New MultyDecodeType instance with excluded SingleDecodeType.
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [MultyDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../multydecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

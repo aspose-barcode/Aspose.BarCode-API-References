@@ -18,7 +18,7 @@ public QRErrorLevel QrErrorLevel { get; set; }
 
 * enum [QRErrorLevel](../../qrerrorlevel/)
 * class [QrParameters](../)
-* namespace [Aspose.BarCode.Generation](../../qrparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 
