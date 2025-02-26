@@ -19,7 +19,7 @@ Specify the type of barcode to read.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_FULL_ASCII, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());

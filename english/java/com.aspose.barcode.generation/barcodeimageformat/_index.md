@@ -21,6 +21,7 @@ Specifies the file format of the image.
 | [EMF](#EMF) | Specifies the Enhanced Metafile (EMF) image format. |
 | [GIF](#GIF) | Specifies the Graphics Interchange Format (GIF) image format. |
 | [JPEG](#JPEG) | Specifies the Joint Photographic Experts Group (JPEG) image format. |
+| [PDF](#PDF) | Specifies the Portable Document Format (PDF) image format. |
 | [PNG](#PNG) | Specifies the W3C Portable Network Graphics (PNG) image format. |
 | [SVG](#SVG) | Specifies the Scalable Vector Graphics (SVG) image format. |
 | [TIFF](#TIFF) | Specifies the Tagged Image File Format (TIFF) image format. |
@@ -77,6 +78,14 @@ public static final BarCodeImageFormat JPEG
 
 
 Specifies the Joint Photographic Experts Group (JPEG) image format.
+
+### PDF {#PDF}
+```
+public static final BarCodeImageFormat PDF
+```
+
+
+Specifies the Portable Document Format (PDF) image format.
 
 ### PNG {#PNG}
 ```
