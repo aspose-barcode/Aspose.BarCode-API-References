@@ -66,8 +66,8 @@ Specifies the type of barcode to encode.
 | [HIBC_AZTEC_PAS](#HIBC-AZTEC-PAS) | Specifies that the data should be encoded with  **HIBC PAS Aztec**  barcode specification. |
 | [HIBC_CODE_128_LIC](#HIBC-CODE-128-LIC) | Specifies that the data should be encoded with  **HIBC LIC Code128**  barcode specification. |
 | [HIBC_CODE_128_PAS](#HIBC-CODE-128-PAS) | Specifies that the data should be encoded with  **HIBC PAS Code128**  barcode specification. |
-| [HIBC_CODE_39_LIC](#HIBC-CODE-39-LIC) | Specifies that the data should be encoded with  **HIBC LIC Code39Standart**  barcode specification. |
-| [HIBC_CODE_39_PAS](#HIBC-CODE-39-PAS) | Specifies that the data should be encoded with  **HIBC PAS Code39Standart**  barcode specification. |
+| [HIBC_CODE_39_LIC](#HIBC-CODE-39-LIC) | Specifies that the data should be encoded with  **HIBC LIC Code39**  barcode specification. |
+| [HIBC_CODE_39_PAS](#HIBC-CODE-39-PAS) | Specifies that the data should be encoded with  **HIBC PAS Code39**  barcode specification. |
 | [HIBC_DATA_MATRIX_LIC](#HIBC-DATA-MATRIX-LIC) | Specifies that the data should be encoded with  **HIBC LIC DataMatrix**  barcode specification. |
 | [HIBC_DATA_MATRIX_PAS](#HIBC-DATA-MATRIX-PAS) | Specifies that the data should be encoded with  **HIBC PAS DataMatrix**  barcode specification. |
 | [IATA_2_OF_5](#IATA-2-OF-5) | Represents IATA 2 of 5 barcode.IATA (International Air Transport Assosiation) uses this barcode for the management of air cargo. |
@@ -489,7 +489,7 @@ public static final SymbologyEncodeType HIBC_CODE_39_LIC
 ```
 
 
-Specifies that the data should be encoded with  **HIBC LIC Code39Standart**  barcode specification.
+Specifies that the data should be encoded with  **HIBC LIC Code39**  barcode specification.
 
 ### HIBC_CODE_39_PAS {#HIBC-CODE-39-PAS}
 ```
@@ -497,7 +497,7 @@ public static final SymbologyEncodeType HIBC_CODE_39_PAS
 ```
 
 
-Specifies that the data should be encoded with  **HIBC PAS Code39Standart**  barcode specification.
+Specifies that the data should be encoded with  **HIBC PAS Code39**  barcode specification.
 
 ### HIBC_DATA_MATRIX_LIC {#HIBC-DATA-MATRIX-LIC}
 ```

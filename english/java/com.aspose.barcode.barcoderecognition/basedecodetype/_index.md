@@ -20,7 +20,7 @@ Base class for MultyDecodeType and SingleDecodeType.
 > This sample shows how to use BaseDecodeType with SingleDecodeType and MultyDecodeType
 >  
 >  BaseDecodeType decodeOne = DecodeType.CODE_128;
->  BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.CODE_128, DecodeType.CODE_39_STANDARD, DecodeType.CODE_39_EXTENDED);
+>  BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.CODE_128, DecodeType.CODE_39_STANDARD, DecodeType.CODE_39_FULL_ASCII);
 > ```
 ## Methods
 

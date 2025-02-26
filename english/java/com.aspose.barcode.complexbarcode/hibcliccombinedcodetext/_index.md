@@ -34,23 +34,19 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 >  combinedCodetext.getSecondaryAndAdditionalData().setSerialNumber("SERIAL123");
 >  combinedCodetext.getSecondaryAndAdditionalData().setDateOfManufacture(new Date());
 >  ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(combinedCodetext);
->  {
->      BufferedImage image = generator.generateBarCodeImage();
->      BarCodeReader reader = new BarCodeReader(image, DecodeType.HIBCQRLIC);
->      {
->          reader.readBarCodes();
->          String codetext = reader.getFoundBarCodes()[0].getCodeText();
->          HIBCLICCombinedCodetext result = (HIBCLICCombinedCodetext)ComplexCodetextReader.tryDecodeHIBCLIC(codetext);
->          System.out.println("Product or catalog number: " + result.getPrimaryData().getProductOrCatalogNumber());
->          System.out.println("Labeler identification code: " + result.getPrimaryData().getLabelerIdentificationCode());
->          System.out.println("Unit of measure ID: " + result.getPrimaryData().getUnitOfMeasureID());
->          System.out.println("Expiry date: " + result.getSecondaryAndAdditionalData().getExpiryDate());
->          System.out.println("Quantity: " + result.getSecondaryAndAdditionalData().getQuantity());
->          System.out.println("Lot number: " + result.getSecondaryAndAdditionalData().getLotNumber());
->          System.out.println("Serial number: " + result.getSecondaryAndAdditionalData().getSerialNumber());
->          System.out.println("Date of manufacture: " + result.getSecondaryAndAdditionalData().getDateOfManufacture());
->      }
->  }
+>  BufferedImage image = generator.generateBarCodeImage();
+>  BarCodeReader reader = new BarCodeReader(image, DecodeType.HIBCQRLIC);
+>  reader.readBarCodes();
+>  String codetext = reader.getFoundBarCodes()[0].getCodeText();
+>  HIBCLICCombinedCodetext result = (HIBCLICCombinedCodetext)ComplexCodetextReader.tryDecodeHIBCLIC(codetext);
+>  System.out.println("Product or catalog number: " + result.getPrimaryData().getProductOrCatalogNumber());
+>  System.out.println("Labeler identification code: " + result.getPrimaryData().getLabelerIdentificationCode());
+>  System.out.println("Unit of measure ID: " + result.getPrimaryData().getUnitOfMeasureID());
+>  System.out.println("Expiry date: " + result.getSecondaryAndAdditionalData().getExpiryDate());
+>  System.out.println("Quantity: " + result.getSecondaryAndAdditionalData().getQuantity());
+>  System.out.println("Lot number: " + result.getSecondaryAndAdditionalData().getLotNumber());
+>  System.out.println("Serial number: " + result.getSecondaryAndAdditionalData().getSerialNumber());
+>  System.out.println("Date of manufacture: " + result.getSecondaryAndAdditionalData().getDateOfManufacture());
 > ```
 ## Constructors
 

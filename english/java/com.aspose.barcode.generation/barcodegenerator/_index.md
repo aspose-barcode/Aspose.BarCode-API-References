@@ -14,7 +14,7 @@ public final class BarcodeGenerator
 
 BarcodeGenerator for backend barcode images generation.
 
-supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
+supported symbologies: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Code93, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
 
 --------------------
 
@@ -55,7 +55,8 @@ supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Exten
 | [setBarcodeType(BaseEncodeType value)](#setBarcodeType-com.aspose.barcode.generation.BaseEncodeType-) | Barcode symbology type. |
 | [setCodeText(byte[] codeBytes)](#setCodeText-byte---) | Set codetext as sequence of bytes. |
 | [setCodeText(String value)](#setCodeText-java.lang.String-) | Text to be encoded. |
-| [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) | Encodes codetext with byte order mark (BOM) using specified encoding. |
+| [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) | Encodes codetext with byte order mark (BOM), using specified encoding. |
+| [setCodeText(String codeText, Charset encoding, boolean insertBOM)](#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-) | Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -345,13 +346,60 @@ public void setCodeText(String codeText, Charset encoding)
 ```
 
 
-Encodes codetext with byte order mark (BOM) using specified encoding.
+Encodes codetext with byte order mark (BOM), using specified encoding. This sample shows how to use SetCodeText with 1D and 2D barcodes
+
+```
+BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
+  gen.setCodeText("123ABCD", StandardCharsets.US_ASCII);
+  gen.save("barcode.png", BarCodeImageFormat.PNG);
+
+  BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
+  gen.setCodeText("123ABCD", StandardCharsets.ISO_8859_1, true);
+  gen.save("barcode.png", BarCodeImageFormat.PNG);
+
+  BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
+  gen.setCodeText("123ABCD", Encoding.UTF_8, false);
+  gen.save("barcode.png", BarCodeImageFormat.PNG);
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | codeText | java.lang.String | CodeText string |
 | encoding | java.nio.charset.Charset | Applied encoding |
+
+### setCodeText(String codeText, Charset encoding, boolean insertBOM) {#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-}
+```
+public void setCodeText(String codeText, Charset encoding, boolean insertBOM)
+```
+
+
+Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c. 1D barcodes should use Encoding ASCII or ISO/IEC 8859-1. 2D barcodes should use Encoding UTF8. Detailed description you can find in the @see [documentation][]
+
+--------------------
+
+> ```
+> This sample shows how to use setCodeText
+>   
+> 
+>  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
+>  	gen.setCodeText("123ABCD", StandardCharsets.ISO_8859_1, true);
+>  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+> 
+>  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
+>      gen.setCodeText("123ABCD", StandardCharsets.UTF_8, false);
+>  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+> ```
+
+
+[documentation]: https://docs.aspose.com/barcode/java/how-to-use-insert-bom-parameter/
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codeText | java.lang.String | CodeText string |
+| encoding | java.nio.charset.Charset | Applied encoding |
+| insertBOM | boolean | flag indicates insertion of the Encoding byte order mark (BOM). In case, the Encoding requires byte order mark (BOM) insertion: like UTF8, UTF16, UTF32, e.t.c. and flag is set to true, the BOM is added, in case of setting flag to false, the BOM insertion is ignored. |
 
 ### toString() {#toString--}
 ```

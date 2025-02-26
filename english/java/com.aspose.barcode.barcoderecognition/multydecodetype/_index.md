@@ -20,7 +20,7 @@ Composite decode type.
 > CreateThis sample shows how to create compound MultyDecode types that combine SingleDecodeType and MultiDecode types.
 >  
 >  MultyDecodeType types1 = new MultyDecodeType(DecodeType.QR, DecodeType.DATA_MATRIX);
->  MultyDecodeType types2 = new MultyDecodeType(types1, DecodeType.CODE_128, DecodeType.CODE_39_STANDARD);
+>  MultyDecodeType types2 = new MultyDecodeType(types1, DecodeType.CODE_128, DecodeType.CODE_39);
 > ```
 ## Constructors
 
