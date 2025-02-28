@@ -12,25 +12,13 @@ java.lang.Object, java.lang.Enum
 public enum AutoSizeMode extends Enum<AutoSizeMode>
 ```
 
-Specifies the different types of automatic sizing modes. Default value is AutoSizeMode.NONE.
-
---------------------
-
-> ```
-> This sample shows how to create and save a BarCode image.
->   
->          BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
->          generator.setAutoSizeMode(AutoSizeMode.NEAREST);
->          generator.getBarCodeWidth().setMillimeters(50);
->          generator.getBarCodeHeight().setInches(1.3f);
->          generator.save("test.png");
-> ```
+Specifies the different types of automatic sizing modes.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [INTERPOLATION](#INTERPOLATION) | Resizes barcode to specified size with little scaling but it can be little damaged in some cases because using interpolation for scaling. |
-| [NEAREST](#NEAREST) | Barcode resizes to nearest lowest possible size which are specified by BarCodeWidth and BarCodeHeight properties. |
+| [INTERPOLATION](#INTERPOLATION) | Resizes barcode to specified size. |
+| [NEAREST](#NEAREST) | Resizes barcode to nearest lowest possible size specified by ImageWidth and ImageHeight properties. |
 | [NONE](#NONE) | Automatic resizing is disabled. |
 ## Methods
 
@@ -59,19 +47,7 @@ public static final AutoSizeMode INTERPOLATION
 ```
 
 
-Resizes barcode to specified size with little scaling but it can be little damaged in some cases because using interpolation for scaling. Size can be specified by  BarcodeGenerator.BarCodeWidth  and  BarcodeGenerator.BarCodeHeight  properties.
-
---------------------
-
-> ```
-> This sample shows how to create and save a BarCode image in Scale mode.
->   
->          BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
->          generator.setAutoSizeMode(AutoSizeMode.INTERPOLATION);
->          generator.getBarCodeWidth().setMillimeters(50);
->          generator.getBarCodeHeight().setInches(1.3f);
->          generator.save("test.png");
-> ```
+Resizes barcode to specified size. Size can be specified by ImageWidth and ImageHeight properties. Generated barcode may be invalid (not readable) after scaling.
 
 ### NEAREST {#NEAREST}
 ```
@@ -79,7 +55,7 @@ public static final AutoSizeMode NEAREST
 ```
 
 
-Barcode resizes to nearest lowest possible size which are specified by BarCodeWidth and BarCodeHeight properties.
+Resizes barcode to nearest lowest possible size specified by ImageWidth and ImageHeight properties. Preserves default aspect ratio.
 
 ### NONE {#NONE}
 ```
@@ -87,7 +63,7 @@ public static final AutoSizeMode NONE
 ```
 
 
-Automatic resizing is disabled. Default value.
+Automatic resizing is disabled.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -25,7 +25,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
   maxiCodeCodetext.setSecondMessage(maxiCodeStandartSecondMessage);
   ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext);
   complexGenerator.generateBarCodeImage();
-  
+
   //Mode 2 with structured second message
   MaxiCodeCodetextMode2 maxiCodeCodetext = new MaxiCodeCodetextMode2();
   maxiCodeCodetext.setPostalCode("524032140");
@@ -39,9 +39,9 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
   maxiCodeCodetext.setSecondMessage(maxiCodeStructuredSecondMessage);
   ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext);
   complexGenerator.generateBarCodeImage();
-  
+
   //Decoding raw codetext with standart second message
-  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.MAXI_CODE);
+  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
   {
        for (BarCodeResult result : reader.readBarCodes())
       {
@@ -60,7 +60,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
       }
   }
   //Decoding raw codetext with structured second message
-  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.MAXI_CODE);
+  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
   {
        for(BarCodeResult result : reader.readBarCodes())
       {

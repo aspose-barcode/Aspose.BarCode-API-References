@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 17
+weight: 16
 url: /androidjava/com.aspose.barcode/license/
 ---
 **Inheritance:**
