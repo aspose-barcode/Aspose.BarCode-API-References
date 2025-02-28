@@ -56,7 +56,7 @@ supported symbologies: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Cod
 | [setCodeText(byte[] codeBytes)](#setCodeText-byte---) | Set codetext as sequence of bytes. |
 | [setCodeText(String value)](#setCodeText-java.lang.String-) | Text to be encoded. |
 | [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) | Encodes codetext with byte order mark (BOM), using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. |
-| [setCodeText(String codeText, Charset encoding, boolean insertBOM)](#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-) | Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. |
+| [setCodeText(String codeText, Charset encoding, boolean insertBOM)](#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-) | Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, etc. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -383,7 +383,7 @@ public void setCodeText(String codeText, Charset encoding, boolean insertBOM)
 ```
 
 
-Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8. Detailed description you can find in the @see [documentation][]
+Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, etc. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8. Detailed description you can find in the \{@link [documentation][]\}.
 
 --------------------
 
