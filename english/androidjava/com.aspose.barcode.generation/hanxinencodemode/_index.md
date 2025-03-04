@@ -26,7 +26,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >  // Binary mode
 >  byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN)
->  generator.setCodetext(encodedArr);
+>  generator.setCodeText(encodedArr);
 >  generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.BINARY);
 >  generator.save("test.bmp");
 > 

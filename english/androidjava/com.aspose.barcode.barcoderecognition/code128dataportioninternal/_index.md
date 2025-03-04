@@ -26,6 +26,7 @@ public class Code128DataPortionInternal
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setData(Code128DataPortion code128DataPortion, String value)](#setData-com.aspose.barcode.barcoderecognition.Code128DataPortion-java.lang.String-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -102,6 +103,20 @@ public final native void notifyAll()
 
 
 
+
+### setData(Code128DataPortion code128DataPortion, String value) {#setData-com.aspose.barcode.barcoderecognition.Code128DataPortion-java.lang.String-}
+```
+public static void setData(Code128DataPortion code128DataPortion, String value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| code128DataPortion | [Code128DataPortion](../../com.aspose.barcode.barcoderecognition/code128dataportion) |  |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

@@ -3,7 +3,7 @@ title: PleaseReportException
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 18
+weight: 17
 url: /androidjava/com.aspose.barcode/pleasereportexception/
 ---
 **Inheritance:**

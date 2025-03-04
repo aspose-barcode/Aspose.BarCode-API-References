@@ -41,7 +41,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
   complexGenerator.generateBarCodeImage();
 
   //Decoding raw codetext with standart second message
-  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.MAXI_CODE);
+  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
   for(BarCodeResult result : reader.readBarCodes())
   {
       MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.tryDecodeMaxiCode(result.getExtended().getMaxiCode().getMaxiCodeMode(), result.getCodeText());
@@ -59,7 +59,7 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
       }
   }
   //Decoding raw codetext with structured second message
-  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.MAXI_CODE);
+  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
   for(BarCodeResult result : reader.readBarCodes())
   {
       MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.tryDecodeMaxiCode(result.getExtended().getMaxiCode().getMaxiCodeMode(), result.getCodeText());

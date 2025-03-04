@@ -19,9 +19,9 @@ Stores recognized barcode data like  SingleDecodeType  type,  string  codetext, 
 > ```
 > This sample shows how to obtain BarCodeResult.
 >  
->  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "12345");
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "12345");
 >  generator.save("test.png");
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_STANDARD, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >      System.out.println("BarCode Type: " + result.getCodeTypeName());

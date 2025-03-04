@@ -28,13 +28,13 @@ Specific parameters.
 | [getCoupon()](#getCoupon--) | Gets Coupon parameters . |
 | [getDataBar()](#getDataBar--) | Gets DataBar parameters . |
 | [getDataMatrix()](#getDataMatrix--) | Gets DataMatrix parameters  Used for DataMatrix. |
-| [getDotCode()](#getDotCode--) | Gets DotCode parameters |
+| [getDotCode()](#getDotCode--) | Gets DotCode parameters "com.aspose.barcode.generation.DotCodeParameters" |
 | [getHanXin()](#getHanXin--) | Gets HanXin parameters . |
 | [getITF()](#getITF--) | Gets ITF parameters . |
 | [getMaxiCode()](#getMaxiCode--) | Gets MaxiCode parameters . |
 | [getPdf417()](#getPdf417--) | Gets Pdf417 parameters . |
 | [getPostal()](#getPostal--) | Gets Postal parameters . |
-| [getQR()](#getQR--) | Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . |
+| [getQR()](#getQR--) | Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.component.QrParametersUI . |
 | [getSupplement()](#getSupplement--) | Gets Supplement parameters . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -164,7 +164,7 @@ public DotCodeParameters getDotCode()
 ```
 
 
-Gets DotCode parameters
+Gets DotCode parameters "com.aspose.barcode.generation.DotCodeParameters"
 
 **Returns:**
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters) - Used for DotCode.
@@ -224,7 +224,7 @@ public QrParametersUI getQR()
 ```
 
 
-Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.generation.QrParameters . Used for QR.
+Gets QR, MicroQR and RectMicroQR parameters com.aspose.barcode.component.QrParametersUI . Used for QR.
 
 **Returns:**
 [QrParametersUI](../../com.aspose.barcode.component/qrparametersui)
