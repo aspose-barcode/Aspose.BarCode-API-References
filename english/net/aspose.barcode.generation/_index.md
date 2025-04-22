@@ -21,6 +21,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [BaseGenerationParameters](./basegenerationparameters/) | Barcode image generation parameters. |
 | [BorderParameters](./borderparameters/) | Barcode image border parameters |
 | [CaptionParameters](./captionparameters/) | Caption parameters. |
+| [CMYKColor](./cmykcolor/) | Class for CMYK color. Null means CMYK is not used, default RGB color is in use. |
 | [CodabarParameters](./codabarparameters/) | Codabar parameters. |
 | [CodablockParameters](./codablockparameters/) | Codablock parameters. |
 | [Code128Parameters](./code128parameters/) | Code128 parameters. |
@@ -46,6 +47,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [Padding](./padding/) | Paddings parameters. |
 | [PatchCodeParameters](./patchcodeparameters/) | PatchCode parameters. |
 | [Pdf417Parameters](./pdf417parameters/) | PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
+| [PdfParameters](./pdfparameters/) | PDF parameters. |
 | [PostalParameters](./postalparameters/) | Postal parameters. Used for Postnet, Planet. |
 | [QrExtCodetextBuilder](./qrextcodetextbuilder/) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode |
 | [QrParameters](./qrparameters/) | QR parameters. |
@@ -84,7 +86,6 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
-| [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
 | [Pdf417EncodeMode](./pdf417encodemode/) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [Pdf417MacroTerminator](./pdf417macroterminator/) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417. |
