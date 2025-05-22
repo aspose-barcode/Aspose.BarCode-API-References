@@ -3,7 +3,7 @@ title: FontUnitInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 40
+weight: 44
 url: /java/com.aspose.barcode.generation/fontunitinternal/
 ---
 **Inheritance:**
@@ -24,6 +24,7 @@ public class FontUnitInternal
 | [ctor(String familyName, float sizeValue, GraphicsUnit graphicsUnit, float dpi, int style)](#ctor-java.lang.String-float-com.aspose.barcode.generation.GraphicsUnit-float-int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getFont(FontUnit fontUnit)](#getFont-com.aspose.barcode.generation.FontUnit-) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -96,6 +97,21 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFont(FontUnit fontUnit) {#getFont-com.aspose.barcode.generation.FontUnit-}
+```
+public static System.Drawing.Font getFont(FontUnit fontUnit)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontUnit | [FontUnit](../../com.aspose.barcode.generation/fontunit) |  |
+
+**Returns:**
+com.aspose.ms.System.Drawing.Font
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

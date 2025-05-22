@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Java API Reference
 description: PDF417 parameters.
 type: docs
-weight: 56
+weight: 60
 url: /java/com.aspose.barcode.generation/pdf417parameters/
 ---
 **Inheritance:**
@@ -82,7 +82,6 @@ These samples show how to encode UCC/EAN-128 non Linked modes in GS1MicroPdf417
 | [setPdf417MacroSender(String value)](#setPdf417MacroSender-java.lang.String-) | MacroPdf417 barcode sender name (optional field). |
 | [setPdf417MacroTerminator(Pdf417MacroTerminator value)](#setPdf417MacroTerminator-com.aspose.barcode.generation.Pdf417MacroTerminator-) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
 | [setPdf417MacroTimeStamp(LocalDateTime value)](#setPdf417MacroTimeStamp-java.time.LocalDateTime-) | MacroPdf417 barcode time stamp (optional field). |
-| [setPdf417MacroTimeStamp(Date value)](#setPdf417MacroTimeStamp-java.util.Date-) | MacroPdf417 barcode time stamp (optional field). |
 | [setPdf417Truncate(boolean value)](#setPdf417Truncate-boolean-) | Whether Pdf417 symbology type of BarCode is truncated (to reduce space). |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [setRows(int value)](#setRows-int-) | Rows count. |
@@ -845,19 +844,6 @@ MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.time.LocalDateTime |  |
-
-### setPdf417MacroTimeStamp(Date value) {#setPdf417MacroTimeStamp-java.util.Date-}
-```
-public void setPdf417MacroTimeStamp(Date value)
-```
-
-
-MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
 
 ### setPdf417Truncate(boolean value) {#setPdf417Truncate-boolean-}
 ```

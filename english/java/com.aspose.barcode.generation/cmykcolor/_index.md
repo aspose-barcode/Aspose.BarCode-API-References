@@ -1,33 +1,84 @@
 ---
-title: Code128Parameters
+title: CMYKColor
 second_title: Aspose.BarCode for Java API Reference
-description: Code128 parameters.
+description: Class for CMYK color.
 type: docs
-weight: 25
-url: /java/com.aspose.barcode.generation/code128parameters/
+weight: 19
+url: /java/com.aspose.barcode.generation/cmykcolor/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class Code128Parameters
+public class CMYKColor
 ```
 
-Code128 parameters.
+Class for CMYK color. Null means CMYK is not used, default RGB color is in use.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CMYKColor(int c, int m, int y, int k)](#CMYKColor-int-int-int-int-) | Initializes a new instance of the  CMYKColor  class from CMYK values. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [C](#C) |  |
+| [K](#K) |  |
+| [M](#M) |  |
+| [Y](#Y) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets or sets a Code128 encode mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Gets or sets a Code128 encode mode. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  Code128Parameters . |
+| [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CMYKColor(int c, int m, int y, int k) {#CMYKColor-int-int-int-int-}
+```
+public CMYKColor(int c, int m, int y, int k)
+```
+
+
+Initializes a new instance of the  CMYKColor  class from CMYK values. CMYK values are 0-100.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| c | int | Cyan value [0, 100] |
+| m | int | Magenta value [0, 100] |
+| y | int | Yellow value [0, 100] |
+| k | int | Black value [0, 100] |
+
+### C {#C}
+```
+public float C
+```
+
+
+### K {#K}
+```
+public float K
+```
+
+
+### M {#M}
+```
+public float M
+```
+
+
+### Y {#Y}
+```
+public float Y
+```
+
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -53,16 +104,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCode128EncodeMode() {#getCode128EncodeMode--}
-```
-public Code128EncodeMode getCode128EncodeMode()
-```
-
-
-Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
-
-**Returns:**
-[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -89,29 +130,16 @@ public final native void notifyAll()
 
 
 
-### setCode128EncodeMode(Code128EncodeMode value) {#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
-```
-public void setCode128EncodeMode(Code128EncodeMode value)
-```
-
-
-Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) |  |
-
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a human-readable string representation of this  Code128Parameters .
+
 
 **Returns:**
-java.lang.String - A string that represents this  Code128Parameters .
+java.lang.String
 ### wait() {#wait--}
 ```
 public final void wait()

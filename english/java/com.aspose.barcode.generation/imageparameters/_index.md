@@ -3,7 +3,7 @@ title: ImageParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Image parameters.
 type: docs
-weight: 48
+weight: 52
 url: /java/com.aspose.barcode.generation/imageparameters/
 ---
 **Inheritance:**
@@ -19,11 +19,13 @@ Image parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getPdf()](#getPdf--) | PDF parameters |
 | [getSvg()](#getSvg--) | SVG parameters |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSvg(SvgParameters svg)](#setSvg-com.aspose.barcode.generation.SvgParameters-) | SVG parameters |
+| [setPdf(PdfParameters value)](#setPdf-com.aspose.barcode.generation.PdfParameters-) | PDF parameters |
+| [setSvg(SvgParameters value)](#setSvg-com.aspose.barcode.generation.SvgParameters-) | SVG parameters |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,6 +55,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getPdf() {#getPdf--}
+```
+public PdfParameters getPdf()
+```
+
+
+PDF parameters
+
+**Returns:**
+[PdfParameters](../../com.aspose.barcode.generation/pdfparameters)
 ### getSvg() {#getSvg--}
 ```
 public SvgParameters getSvg()
@@ -89,9 +101,22 @@ public final native void notifyAll()
 
 
 
-### setSvg(SvgParameters svg) {#setSvg-com.aspose.barcode.generation.SvgParameters-}
+### setPdf(PdfParameters value) {#setPdf-com.aspose.barcode.generation.PdfParameters-}
 ```
-public void setSvg(SvgParameters svg)
+public void setPdf(PdfParameters value)
+```
+
+
+PDF parameters
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PdfParameters](../../com.aspose.barcode.generation/pdfparameters) |  |
+
+### setSvg(SvgParameters value) {#setSvg-com.aspose.barcode.generation.SvgParameters-}
+```
+public void setSvg(SvgParameters value)
 ```
 
 
@@ -100,7 +125,7 @@ SVG parameters
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svg | [SvgParameters](../../com.aspose.barcode.generation/svgparameters) |  |
+| value | [SvgParameters](../../com.aspose.barcode.generation/svgparameters) |  |
 
 ### toString() {#toString--}
 ```

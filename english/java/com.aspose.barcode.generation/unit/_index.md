@@ -3,7 +3,7 @@ title: Unit
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the size value in different units Pixel Inches etc..
 type: docs
-weight: 64
+weight: 69
 url: /java/com.aspose.barcode.generation/unit/
 ---
 **Inheritance:**
@@ -39,7 +39,6 @@ Specifies the size value in different units (Pixel, Inches, etc.).
 | [getMillimeters()](#getMillimeters--) | Gets size value in millimeters. |
 | [getPixels()](#getPixels--) | Gets size value in pixels. |
 | [getPoint()](#getPoint--) | Gets size value in point. |
-| [getPx()](#getPx--) |  |
 | [getResolution()](#getResolution--) |  |
 | [hashCode()](#hashCode--) | Returns the hash code for this object. |
 | [notify()](#notify--) |  |
@@ -140,16 +139,6 @@ Gets size value in point.
 
 **Returns:**
 float
-### getPx() {#getPx--}
-```
-public int getPx()
-```
-
-
-
-
-**Returns:**
-int
 ### getResolution() {#getResolution--}
 ```
 public float getResolution()

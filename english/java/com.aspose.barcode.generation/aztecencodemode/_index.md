@@ -3,7 +3,7 @@ title: AztecEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for Aztec barcodes.
 type: docs
-weight: 68
+weight: 73
 url: /java/com.aspose.barcode.generation/aztecencodemode/
 ---
 **Inheritance:**

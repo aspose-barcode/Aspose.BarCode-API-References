@@ -3,7 +3,7 @@ title: BorderParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Barcode image border parameters
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.barcode.generation/borderparameters/
 ---
 **Inheritance:**
