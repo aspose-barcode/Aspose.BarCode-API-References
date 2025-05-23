@@ -3,7 +3,7 @@ title: ExtCodeItem
 second_title: Aspose.BarCode for Java API Reference
 description: Base class of the extended codetext container
 type: docs
-weight: 34
+weight: 38
 url: /java/com.aspose.barcode.generation/extcodeitem/
 ---
 **Inheritance:**

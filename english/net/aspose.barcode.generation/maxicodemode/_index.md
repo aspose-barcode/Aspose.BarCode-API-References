@@ -3,7 +3,7 @@ title: Enum MaxiCodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.MaxiCodeMode enum. Encoding mode for MaxiCode barcodes
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.barcode.generation/maxicodemode/
 ---
 ## MaxiCodeMode enumeration

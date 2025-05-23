@@ -3,7 +3,7 @@ title: SvgParameters
 second_title: Aspose.BarCode for Java API Reference
 description: SVG parameters.
 type: docs
-weight: 62
+weight: 67
 url: /java/com.aspose.barcode.generation/svgparameters/
 ---
 **Inheritance:**
@@ -66,7 +66,7 @@ public SvgColorMode getSvgColorMode()
 Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
 
 **Returns:**
-com.aspose.barcode.generation.SvgColorMode
+[SvgColorMode](../../com.aspose.barcode.generation/svgcolormode)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,7 +137,7 @@ Possible modes for filling color in svg file, RGB is default and supported by SV
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.generation.SvgColorMode |  |
+| value | [SvgColorMode](../../com.aspose.barcode.generation/svgcolormode) |  |
 
 ### setTextDrawnInTextElement(boolean textDrawnInTextElement) {#setTextDrawnInTextElement-boolean-}
 ```

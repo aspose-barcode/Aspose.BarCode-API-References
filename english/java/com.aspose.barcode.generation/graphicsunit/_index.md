@@ -3,7 +3,7 @@ title: GraphicsUnit
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the unit of measure for the given data.
 type: docs
-weight: 82
+weight: 87
 url: /java/com.aspose.barcode.generation/graphicsunit/
 ---
 **Inheritance:**

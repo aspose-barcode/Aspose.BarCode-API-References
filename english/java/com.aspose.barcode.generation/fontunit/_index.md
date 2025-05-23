@@ -3,7 +3,7 @@ title: FontUnit
 second_title: Aspose.BarCode for Java API Reference
 description: Defines a particular format for text including font face size and style attributes  where size in Unit value property.
 type: docs
-weight: 39
+weight: 43
 url: /java/com.aspose.barcode.generation/fontunit/
 ---
 **Inheritance:**
@@ -31,7 +31,6 @@ Defines a particular format for text, including font face, size, and style attri
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFamilyName()](#getFamilyName--) | Gets the face name of this Font. |
-| [getFont()](#getFont--) |  |
 | [getSize()](#getSize--) | Gets size of this FontUnit in Unit value. |
 | [getStateHash()](#getStateHash--) |  |
 | [getStyle()](#getStyle--) | Gets style information for this FontUnit. |
@@ -79,16 +78,6 @@ Gets the face name of this Font.
 
 **Returns:**
 java.lang.String
-### getFont() {#getFont--}
-```
-public System.Drawing.Font getFont()
-```
-
-
-
-
-**Returns:**
-com.aspose.ms.System.Drawing.Font
 ### getSize() {#getSize--}
 ```
 public Unit getSize()

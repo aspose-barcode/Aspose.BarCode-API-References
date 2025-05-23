@@ -29,7 +29,7 @@ Base class for MultyDecodeType and SingleDecodeType.
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Determines whether any of the given decode types is included into |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
+| [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -81,14 +81,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
-public int hashCode()
+public native int hashCode()
 ```
 
 
-Returns the hash code for this instance.
+
 
 **Returns:**
-int - A 32-bit signed integer hash code.
+int
 ### notify() {#notify--}
 ```
 public final native void notify()

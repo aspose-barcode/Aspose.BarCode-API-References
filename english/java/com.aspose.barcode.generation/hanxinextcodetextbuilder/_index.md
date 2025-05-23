@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 44
+weight: 48
 url: /java/com.aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 **Inheritance:**

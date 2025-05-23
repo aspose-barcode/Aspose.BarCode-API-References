@@ -3,7 +3,7 @@ title: BaseEncodeType
 second_title: Aspose.BarCode for Java API Reference
 description: Base class for SymbologyEncodeType.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.barcode.generation/baseencodetype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Version of QR Code.
 type: docs
-weight: 99
+weight: 104
 url: /java/com.aspose.barcode.generation/qrversion/
 ---
 **Inheritance:**

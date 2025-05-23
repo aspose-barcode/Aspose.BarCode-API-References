@@ -3,7 +3,7 @@ title: HslaColor
 second_title: Aspose.BarCode for Java API Reference
 description: Class for representing HSLA color Hue Saturation Lightness Alpha
 type: docs
-weight: 46
+weight: 50
 url: /java/com.aspose.barcode.generation/hslacolor/
 ---
 **Inheritance:**
@@ -99,7 +99,7 @@ Uses https://en.wikipedia.org/wiki/HSL\_and\_HSV\#HSL\_to\_RGB
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| hslaColor | com.aspose.barcode.generation.HslaColor | HSLA color to convert |
+| hslaColor | [HslaColor](../../com.aspose.barcode.generation/hslacolor) | HSLA color to convert |
 
 **Returns:**
 java.awt.Color - Color with RGBA values

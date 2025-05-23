@@ -3,7 +3,7 @@ title: FontStyle
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies style information applied to text.
 type: docs
-weight: 38
+weight: 42
 url: /java/com.aspose.barcode.generation/fontstyle/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Enum CodabarChecksumMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodabarChecksumMode enum. Specifies the checksum algorithm for Codabar
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.barcode.generation/codabarchecksummode/
 ---
 ## CodabarChecksumMode enumeration

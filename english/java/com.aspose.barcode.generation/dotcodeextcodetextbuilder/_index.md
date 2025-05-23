@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 34
 url: /java/com.aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 **Inheritance:**

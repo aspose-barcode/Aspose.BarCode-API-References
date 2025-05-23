@@ -18,15 +18,12 @@ Barcode generation parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAspectRatio()](#getAspectRatio--) |  |
 | [getAustralianPost()](#getAustralianPost--) | AustralianPost barcode parameters. |
 | [getAztec()](#getAztec--) | Aztec parameters. |
-| [getBackColor()](#getBackColor--) |  |
 | [getBarColor()](#getBarColor--) | Bars color. |
 | [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars in  Unit  value. |
 | [getBarWidthReduction()](#getBarWidthReduction--) | Get bars reduction value that is used to compensate ink spread while printing. |
 | [getBarcodeType()](#getBarcodeType--) |  |
-| [getCalculatedBarCodeWidth()](#getCalculatedBarCodeWidth--) |  |
 | [getChecksumAlwaysShow()](#getChecksumAlwaysShow--) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Codabar parameters. |
@@ -35,8 +32,6 @@ Barcode generation parameters.
 | [getCode16K()](#getCode16K--) | Code16K parameters. |
 | [getCodeText()](#getCodeText--) |  |
 | [getCodeTextParameters()](#getCodeTextParameters--) | Codetext parameters. |
-| [getColumns()](#getColumns--) |  |
-| [getComplexBarcode()](#getComplexBarcode--) |  |
 | [getCoupon()](#getCoupon--) | Coupon parameters. |
 | [getDataBar()](#getDataBar--) | Databar parameters. |
 | [getDataMatrix()](#getDataMatrix--) | DataMatrix parameters. |
@@ -51,13 +46,8 @@ Barcode generation parameters.
 | [getPatchCode()](#getPatchCode--) | PatchCode parameters. |
 | [getPdf417()](#getPdf417--) | PDF417 parameters. |
 | [getPostal()](#getPostal--) | Postal parameters. |
-| [getPostalShortBarHeight()](#getPostalShortBarHeight--) |  |
 | [getQR()](#getQR--) | QR, MicroQR and RectMicroQR parameters. |
-| [getQuietZonesWidthInXDim()](#getQuietZonesWidthInXDim--) |  |
-| [getResolution()](#getResolution--) |  |
-| [getRows()](#getRows--) |  |
 | [getSupplement()](#getSupplement--) | Supplement parameters. |
-| [getSupplementSpace()](#getSupplementSpace--) |  |
 | [getThrowExceptionWhenCodeTextIncorrect()](#getThrowExceptionWhenCodeTextIncorrect--) | Only for 1D barcodes. |
 | [getWideNarrowRatio()](#getWideNarrowRatio--) | Wide bars to Narrow bars ratio. |
 | [getXDimension()](#getXDimension--) | x-dimension is the smallest width of the unit of BarCode bars or spaces. |
@@ -68,7 +58,6 @@ Barcode generation parameters.
 | [setBarColor(Color value)](#setBarColor-java.awt.Color-) | Bars color. |
 | [setBarHeight(Unit value)](#setBarHeight-com.aspose.barcode.generation.Unit-) | Height of 1D barcodes' bars in  Unit  value. |
 | [setBarWidthReduction(Unit value)](#setBarWidthReduction-com.aspose.barcode.generation.Unit-) | Sets bars reduction value that is used to compensate ink spread while printing. |
-| [setCalculatedBarCodeWidth(int value)](#setCalculatedBarCodeWidth-int-) |  |
 | [setChecksumAlwaysShow(boolean value)](#setChecksumAlwaysShow-boolean-) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [setChecksumEnabled(EnableChecksum value)](#setChecksumEnabled-com.aspose.barcode.generation.EnableChecksum-) |  |
 | [setCodeText(String value)](#setCodeText-java.lang.String-) |  |
@@ -97,16 +86,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAspectRatio() {#getAspectRatio--}
-```
-public float getAspectRatio()
-```
-
-
-
-
-**Returns:**
-float
 ### getAustralianPost() {#getAustralianPost--}
 ```
 public AustralianPostParameters getAustralianPost()
@@ -127,16 +106,6 @@ Aztec parameters.
 
 **Returns:**
 [AztecParameters](../../com.aspose.barcode.generation/aztecparameters)
-### getBackColor() {#getBackColor--}
-```
-public Color getBackColor()
-```
-
-
-
-
-**Returns:**
-java.awt.Color
 ### getBarColor() {#getBarColor--}
 ```
 public Color getBarColor()
@@ -177,16 +146,6 @@ public BaseEncodeType getBarcodeType()
 
 **Returns:**
 [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype)
-### getCalculatedBarCodeWidth() {#getCalculatedBarCodeWidth--}
-```
-public int getCalculatedBarCodeWidth()
-```
-
-
-
-
-**Returns:**
-int
 ### getChecksumAlwaysShow() {#getChecksumAlwaysShow--}
 ```
 public boolean getChecksumAlwaysShow()
@@ -267,26 +226,6 @@ Codetext parameters.
 
 **Returns:**
 [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters)
-### getColumns() {#getColumns--}
-```
-public int getColumns()
-```
-
-
-
-
-**Returns:**
-int
-### getComplexBarcode() {#getComplexBarcode--}
-```
-public ComplexBarcode getComplexBarcode()
-```
-
-
-
-
-**Returns:**
-[ComplexBarcode](../../com.aspose.barcode.generation/complexbarcode)
 ### getCoupon() {#getCoupon--}
 ```
 public CouponParameters getCoupon()
@@ -431,16 +370,6 @@ Postal parameters. Used for Postnet, Planet.
 
 **Returns:**
 [PostalParameters](../../com.aspose.barcode.generation/postalparameters)
-### getPostalShortBarHeight() {#getPostalShortBarHeight--}
-```
-public int getPostalShortBarHeight()
-```
-
-
-
-
-**Returns:**
-int
 ### getQR() {#getQR--}
 ```
 public QrParameters getQR()
@@ -451,36 +380,6 @@ QR, MicroQR and RectMicroQR parameters.
 
 **Returns:**
 [QrParameters](../../com.aspose.barcode.generation/qrparameters)
-### getQuietZonesWidthInXDim() {#getQuietZonesWidthInXDim--}
-```
-public int getQuietZonesWidthInXDim()
-```
-
-
-
-
-**Returns:**
-int
-### getResolution() {#getResolution--}
-```
-public float getResolution()
-```
-
-
-
-
-**Returns:**
-float
-### getRows() {#getRows--}
-```
-public int getRows()
-```
-
-
-
-
-**Returns:**
-int
 ### getSupplement() {#getSupplement--}
 ```
 public SupplementParameters getSupplement()
@@ -491,16 +390,6 @@ Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA
 
 **Returns:**
 [SupplementParameters](../../com.aspose.barcode.generation/supplementparameters)
-### getSupplementSpace() {#getSupplementSpace--}
-```
-public int getSupplementSpace()
-```
-
-
-
-
-**Returns:**
-int
 ### getThrowExceptionWhenCodeTextIncorrect() {#getThrowExceptionWhenCodeTextIncorrect--}
 ```
 public boolean getThrowExceptionWhenCodeTextIncorrect()
@@ -611,19 +500,6 @@ Sets bars reduction value that is used to compensate ink spread while printing.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Unit](../../com.aspose.barcode.generation/unit) |  |
-
-### setCalculatedBarCodeWidth(int value) {#setCalculatedBarCodeWidth-int-}
-```
-public void setCalculatedBarCodeWidth(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setChecksumAlwaysShow(boolean value) {#setChecksumAlwaysShow-boolean-}
 ```

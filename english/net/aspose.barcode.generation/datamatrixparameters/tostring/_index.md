@@ -3,7 +3,7 @@ title: DataMatrixParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters method. Returns a humanreadable string representation of this DataMatrixParameters
 type: docs
-weight: 130
+weight: 110
 url: /net/aspose.barcode.generation/datamatrixparameters/tostring/
 ---
 ## DataMatrixParameters.ToString method

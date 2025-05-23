@@ -3,7 +3,7 @@ title: CodetextParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Codetext parameters.
 type: docs
-weight: 24
+weight: 27
 url: /java/com.aspose.barcode.generation/codetextparameters/
 ---
 **Inheritance:**
@@ -18,19 +18,12 @@ Codetext parameters.
 | Constructor | Description |
 | --- | --- |
 | [CodetextParameters()](#CodetextParameters--) |  |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [CodetextMaxHeightPercent](#CodetextMaxHeightPercent) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | Gets the alignment of the code text. |
-| [getBackColor()](#getBackColor--) |  |
-| [getChecksum()](#getChecksum--) |  |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Specify the displaying CodeText's Color. |
 | [getFont()](#getFont--) | Specify the displaying CodeText's font. |
@@ -45,8 +38,6 @@ Specify word wraps (line breaks) within text.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAlignment(TextAlignment value)](#setAlignment-com.aspose.barcode.generation.TextAlignment-) | Sets the alignment of the code text. |
-| [setBackColor(Color value)](#setBackColor-java.awt.Color-) |  |
-| [setChecksum(String value)](#setChecksum-java.lang.String-) |  |
 | [setColor(Color value)](#setColor-java.awt.Color-) | Specify the displaying CodeText's Color. |
 | [setFont(FontUnit value)](#setFont-com.aspose.barcode.generation.FontUnit-) | Specify the displaying CodeText's font. |
 | [setFontMode(FontMode value)](#setFontMode-com.aspose.barcode.generation.FontMode-) | Specify FontMode. |
@@ -63,12 +54,6 @@ Specify word wraps (line breaks) within text
 ### CodetextParameters() {#CodetextParameters--}
 ```
 public CodetextParameters()
-```
-
-
-### CodetextMaxHeightPercent {#CodetextMaxHeightPercent}
-```
-public static final float CodetextMaxHeightPercent
 ```
 
 
@@ -97,26 +82,6 @@ Gets the alignment of the code text. Default value: TextAlignment.CENTER.
 
 **Returns:**
 [TextAlignment](../../com.aspose.barcode.generation/textalignment)
-### getBackColor() {#getBackColor--}
-```
-public Color getBackColor()
-```
-
-
-
-
-**Returns:**
-java.awt.Color
-### getChecksum() {#getChecksum--}
-```
-public String getChecksum()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -238,32 +203,6 @@ Sets the alignment of the code text. Default value: TextAlignment.CENTER.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextAlignment](../../com.aspose.barcode.generation/textalignment) |  |
-
-### setBackColor(Color value) {#setBackColor-java.awt.Color-}
-```
-public void setBackColor(Color value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
-### setChecksum(String value) {#setChecksum-java.lang.String-}
-```
-public void setChecksum(String value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```

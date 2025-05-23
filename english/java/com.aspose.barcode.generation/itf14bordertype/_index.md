@@ -3,7 +3,7 @@ title: ITF14BorderType
 second_title: Aspose.BarCode for Java API Reference
 description: ITF14 barcodes border type
 type: docs
-weight: 87
+weight: 92
 url: /java/com.aspose.barcode.generation/itf14bordertype/
 ---
 **Inheritance:**

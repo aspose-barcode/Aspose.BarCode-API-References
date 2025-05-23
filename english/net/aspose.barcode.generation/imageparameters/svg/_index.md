@@ -3,7 +3,7 @@ title: ImageParameters.Svg
 second_title: Aspose.BarCode for .NET API Reference
 description: ImageParameters property. SVG parameters
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.barcode.generation/imageparameters/svg/
 ---
 ## ImageParameters.Svg property

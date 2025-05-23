@@ -19,16 +19,20 @@ This package contains tools for generating barcode.
 | [AztecParameters](../com.aspose.barcode.generation/aztecparameters) | Aztec parameters. |
 | [BarcodeGenerator](../com.aspose.barcode.generation/barcodegenerator) | BarcodeGenerator for backend barcode images generation. |
 | [BarcodeParameters](../com.aspose.barcode.generation/barcodeparameters) | Barcode generation parameters. |
+| [BarcodeParametersInternal](../com.aspose.barcode.generation/barcodeparametersinternal) |  |
 | [BaseEncodeType](../com.aspose.barcode.generation/baseencodetype) | Base class for SymbologyEncodeType. |
 | [BaseGenerationParameters](../com.aspose.barcode.generation/basegenerationparameters) | Barcode image generation parameters. |
 | [BorderParameters](../com.aspose.barcode.generation/borderparameters) | Barcode image border parameters |
+| [CMYKColor](../com.aspose.barcode.generation/cmykcolor) | Class for CMYK color. |
 | [CaptionParameters](../com.aspose.barcode.generation/captionparameters) | Caption parameters. |
+| [CaptionParametersInternal](../com.aspose.barcode.generation/captionparametersinternal) |  |
 | [CodabarParameters](../com.aspose.barcode.generation/codabarparameters) | Codabar parameters. |
 | [CodabarSymbol](../com.aspose.barcode.generation/codabarsymbol) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [CodablockParameters](../com.aspose.barcode.generation/codablockparameters) | Codablock parameters. |
 | [Code128Parameters](../com.aspose.barcode.generation/code128parameters) | Code128 parameters. |
 | [Code16KParameters](../com.aspose.barcode.generation/code16kparameters) | Code16K parameters. |
 | [CodetextParameters](../com.aspose.barcode.generation/codetextparameters) | Codetext parameters. |
+| [CodetextParametersInternal](../com.aspose.barcode.generation/codetextparametersinternal) |  |
 | [ComplexBarcode](../com.aspose.barcode.generation/complexbarcode) |  |
 | [CouponParameters](../com.aspose.barcode.generation/couponparameters) | Coupon parameters. |
 | [DataBarParameters](../com.aspose.barcode.generation/databarparameters) | Databar parameters. |
@@ -61,6 +65,7 @@ This package contains tools for generating barcode.
 | [Padding](../com.aspose.barcode.generation/padding) | Paddings parameters. |
 | [PatchCodeParameters](../com.aspose.barcode.generation/patchcodeparameters) | PatchCode parameters. |
 | [Pdf417Parameters](../com.aspose.barcode.generation/pdf417parameters) | PDF417 parameters. |
+| [PdfParameters](../com.aspose.barcode.generation/pdfparameters) | PDF parameters. |
 | [PostalParameters](../com.aspose.barcode.generation/postalparameters) | Postal parameters. |
 | [QrExtCodetextBuilder](../com.aspose.barcode.generation/qrextcodetextbuilder) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. |
 | [QrParameters](../com.aspose.barcode.generation/qrparameters) | QR parameters. |

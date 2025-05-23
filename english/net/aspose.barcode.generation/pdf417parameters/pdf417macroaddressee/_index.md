@@ -3,7 +3,7 @@ title: Pdf417Parameters.Pdf417MacroAddressee
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. MacroPdf417 barcode addressee name optional field. MicroPDF417 barcode addressee name optional field for Structured Append mode
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.barcode.generation/pdf417parameters/pdf417macroaddressee/
 ---
 ## Pdf417Parameters.Pdf417MacroAddressee property
