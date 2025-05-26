@@ -30,6 +30,31 @@ public override bool Equals(SingleDecodeType other)
 
 ---
 
+## Equals(MultyDecodeType) {#equals_1}
+
+Returns a value indicating whether the specified [`MultyDecodeType`](../../multydecodetype/) collection contains only this decode type.
+
+```csharp
+public override bool Equals(MultyDecodeType other)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | MultyDecodeType | An [`MultyDecodeType`](../../multydecodetype/) value to compare to this instance. |
+
+### Return Value
+
+**true** if collection contains only this decode type; otherwise, **false**.
+
+### See Also
+
+* class [MultyDecodeType](../../multydecodetype/)
+* class [SingleDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
 ## Equals(object) {#equals_3}
 
 Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../) value.
