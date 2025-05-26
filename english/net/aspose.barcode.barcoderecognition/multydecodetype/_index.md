@@ -37,7 +37,7 @@ public class MultyDecodeType : BaseDecodeType, IEquatable<MultyDecodeType>
 | [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(BaseDecodeType) | Returns a value indicating whether this instance is equal to a specified [`BaseDecodeType`](../basedecodetype/) value. |
 | override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals/#equals_1)(MultyDecodeType) | Returns a value indicating whether this instance is equal to a specified `MultyDecodeType` value. |
 | override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals/#equals_3)(object) | Returns a value indicating whether this instance is equal to a specified `MultyDecodeType` value. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(SingleDecodeType) | Returns a value indicating whether this instance is equal to a specified [`SingleDecodeType`](../singledecodetype/) value. |
+| override [Equals](../../aspose.barcode.barcoderecognition/multydecodetype/equals/#equals_2)(SingleDecodeType) | Returns a value indicating whether this decode types collection contains only specified [`SingleDecodeType`](../singledecodetype/) value. |
 | [Exclude](../../aspose.barcode.barcoderecognition/multydecodetype/exclude/)(SingleDecodeType) | Excludes [`SingleDecodeType`](../singledecodetype/) from the MultyDecodeType and returns new MultyDecodeType instance. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/multydecodetype/gethashcode/)() | Returns the hash code for this instance. |
 | [GetSingleTypes](../../aspose.barcode.barcoderecognition/multydecodetype/getsingletypes/)() | Represents a list of single types. |
