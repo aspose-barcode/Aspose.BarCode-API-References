@@ -3,7 +3,7 @@ title: QrParameters.QrErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParameters property. Level of ReedSolomon error correction for QR MicroQR and RectMicroQR barcode. From low to high LevelL LevelM LevelQ LevelH. See QRErrorLevel
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.barcode.generation/qrparameters/qrerrorlevel/
 ---
 ## QrParameters.QrErrorLevel property

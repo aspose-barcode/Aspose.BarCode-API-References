@@ -3,7 +3,7 @@ title: Pdf417Parameters.Pdf417MacroChecksum
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. MacroPdf417 barcode checksum optional field. MicroPDF417 barcode checksum optional field for Structured Append mode The checksum field contains the value of the 16bit 2 bytes CRC checksum using the CCITT16 polynomial. x16  x12  x5  1
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.generation/pdf417parameters/pdf417macrochecksum/
 ---
 ## Pdf417Parameters.Pdf417MacroChecksum property

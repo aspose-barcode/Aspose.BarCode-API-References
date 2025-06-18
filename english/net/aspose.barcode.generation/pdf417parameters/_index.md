@@ -3,7 +3,7 @@ title: Class Pdf417Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417Parameters class. PDF417 parameters. Contains PDF417 MacroPDF417 MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode same as MacroPDF417 mode requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional
 type: docs
-weight: 1350
+weight: 1360
 url: /net/aspose.barcode.generation/pdf417parameters/
 ---
 ## Pdf417Parameters class
@@ -24,6 +24,7 @@ public class Pdf417Parameters
 | [IsLinked](../../aspose.barcode.generation/pdf417parameters/islinked/) { get; set; } | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 “Linked” UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [IsReaderInitialization](../../aspose.barcode.generation/pdf417parameters/isreaderinitialization/) { get; set; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [MacroCharacters](../../aspose.barcode.generation/pdf417parameters/macrocharacters/) { get; set; } | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: MacroCharacters.None. |
+| [Pdf417CompactionMode](../../aspose.barcode.generation/pdf417parameters/pdf417compactionmode/) { get; set; } | Pdf417 symbology type of BarCode's compaction mode. Default value: Pdf417CompactionMode.Auto. |
 | [Pdf417ECIEncoding](../../aspose.barcode.generation/pdf417parameters/pdf417eciencoding/) { get; set; } | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Not applied for Macro PDF417 text fields. Current implementation consists all well known charset encodings. |
 | [Pdf417EncodeMode](../../aspose.barcode.generation/pdf417parameters/pdf417encodemode/) { get; set; } | Identifies Pdf417 encode mode. Default value: Auto. |
 | [Pdf417ErrorLevel](../../aspose.barcode.generation/pdf417parameters/pdf417errorlevel/) { get; set; } | Gets or sets Pdf417 symbology type of BarCode's error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture. |

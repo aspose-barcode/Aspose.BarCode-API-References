@@ -3,7 +3,7 @@ title: Class PdfParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.PdfParameters class. PDF parameters
 type: docs
-weight: 1360
+weight: 1370
 url: /net/aspose.barcode.generation/pdfparameters/
 ---
 ## PdfParameters class
