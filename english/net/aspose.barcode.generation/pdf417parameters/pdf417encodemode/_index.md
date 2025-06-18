@@ -3,7 +3,7 @@ title: Pdf417Parameters.Pdf417EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. Identifies Pdf417 encode mode. Default value Auto
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.generation/pdf417parameters/pdf417encodemode/
 ---
 ## Pdf417Parameters.Pdf417EncodeMode property

@@ -28,7 +28,11 @@ public void SetCodeText(byte[] codeBytes)
 
 ## SetCodeText(string, Encoding) {#setcodetext_1}
 
-Encodes codetext with byte order mark (BOM), using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8.
+Encodes the Unicode **codeText** into a byte sequence using the specified **encoding**. UTF-8 is the most commonly used encoding. If the encoding supports it, the function automatically inserts a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding).
+
+This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases, [ECI](https://en.wikipedia.org/wiki/Extended_Channel_Interpretation) encoding is recommended for Unicode data.
+
+Using this function with 1D barcodes, GS1-compliant barcodes (including 2D), or HIBC barcodes (including 2D) is not supported by the corresponding barcode standards and may lead to unpredictable results.
 
 ```csharp
 public void SetCodeText(string codeText, Encoding encoding)
@@ -41,28 +45,29 @@ public void SetCodeText(string codeText, Encoding encoding)
 
 ## Examples
 
-This sample shows how to use SetCodeText with 1D and 2D barcodes
+This example shows how to use `SetCodeText` setting Unicode-encoded text for 2D barcodes using different encodings:
 
 ```csharp
 [C#]
-//Encode codetext of 1D barcodes with 7-bit ASCII encoding, byte order mark (BOM) is absent
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
+//Encode QR Code text using UTF-8 with BOM
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR))
 {
-    gen.SetCodeText("123ABCD", Encoding.ASCII);
+    gen.SetCodeText("車種名", Encoding.UTF8);
     gen.Save("barcode.png", BarCodeImageFormat.Png);
 }
-//Encode codetext of 1D barcodes with 8-bit ISO/IEC 8859-1 encoding, byte order mark (BOM) is absent
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
+using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+
+//Encode DataMatrix text using Shift-JIS (Japanese encoding)
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix))
 {
-    gen.SetCodeText("123ABCD", Encoding.GetEncoding(28591));
+    gen.SetCodeText("車種名", Encoding.GetEncoding(932));
     gen.Save("barcode.png", BarCodeImageFormat.Png);
 }
-//Encode codetext of 2D barcodes with UTF8 encoding with byte order mark (BOM)
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
-{
-    gen.SetCodeText("123ABCD", Encoding.UTF8);
-    gen.Save("barcode.png", BarCodeImageFormat.Png);
-}
+using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DataMatrix))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine("BarCode CodeText: " + result.GetCodeText(Encoding.GetEncoding(932)));
 ```
 
 ### See Also
@@ -75,7 +80,11 @@ using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
 
 ## SetCodeText(string, Encoding, bool) {#setcodetext_2}
 
-Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c.. 1D barcodes should use Encoding.ASCII or ISO/IEC 8859-1 - Encoding.GetEncoding(28591). 2D barcodes should use Encoding.UTF8.
+Encodes the Unicode **codeText** into a byte sequence using the specified **encoding**. UTF-8 is the most commonly used encoding. If the encoding supports it and **insertBOM** is set to `true`, the function includes a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding).
+
+This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases, [ECI](https://en.wikipedia.org/wiki/Extended_Channel_Interpretation) encoding is recommended for Unicode data.
+
+Using this function with 1D barcodes, GS1-compliant barcodes (including 2D), or HIBC barcodes (including 2D) is not supported by the corresponding barcode standards and may lead to unpredictable results.
 
 ```csharp
 public void SetCodeText(string codeText, Encoding encoding, bool insertBOM)
@@ -85,38 +94,33 @@ public void SetCodeText(string codeText, Encoding encoding, bool insertBOM)
 | --- | --- | --- |
 | codeText | String | CodeText string |
 | encoding | Encoding | Applied encoding |
-| insertBOM | Boolean | flag indicates insertion of the Encoding byte order mark (BOM). In case, the Encoding requires byte order mark (BOM) insertion: like UTF8, UTF16, UTF32, e.t.c. and flag is set to true, the BOM is added, in case of setting flag to false, the BOM insertion is ignored. |
+| insertBOM | Boolean | Indicates whether to insert a byte order mark (BOM) when the specified encoding supports it (e.g., UTF-8, UTF-16, UTF-32). If set to `true`, the BOM is added; if `false`, the BOM is omitted even if the encoding normally uses one. |
 
 ## Examples
 
-This sample shows how to use SetCodeText with 1D and 2D barcodes
+This example shows how to use `SetCodeText` with or without a BOM for 2D barcodes.
 
 ```csharp
 [C#]
-//Encode codetext of 1D barcodes with 7-bit ASCII encoding, byte order mark (BOM) is absent
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
+//Encode codetext using UTF-8 with BOM
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR))
 {
-    gen.SetCodeText("123ABCD", Encoding.ASCII, true);
+    gen.SetCodeText("車種名", Encoding.UTF8, true);
     gen.Save("barcode.png", BarCodeImageFormat.Png);
 }
-//Encode codetext of 1D barcodes with 8-bit ISO/IEC 8859-1 encoding, byte order mark (BOM) is absent
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
+using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+
+//Encode codetext using UTF-8 without BOM
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR))
 {
-    gen.SetCodeText("123ABCD", Encoding.GetEncoding(28591), true);
+    gen.SetCodeText("車種名", Encoding.UTF8, false);
     gen.Save("barcode.png", BarCodeImageFormat.Png);
 }
-//Encode codetext of 2D barcodes with UTF8 encoding with byte order mark (BOM)
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
-{
-    gen.SetCodeText("123ABCD", Encoding.UTF8, true);
-    gen.Save("barcode.png", BarCodeImageFormat.Png);
-}
-//Encode codetext of 2D barcodes with UTF8 encoding without byte order mark (BOM)
-using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.Code128))
-{
-    gen.SetCodeText("123ABCD", Encoding.UTF8, false);
-    gen.Save("barcode.png", BarCodeImageFormat.Png);
-}
+using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
 ```
 
 ### See Also
