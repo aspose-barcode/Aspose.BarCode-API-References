@@ -20,6 +20,13 @@ public class CMYKColor
 | --- | --- |
 | [CMYKColor](cmykcolor/)(int, int, int, int) | Initializes a new instance of the `CMYKColor` class from CMYK values. CMYK values are 0-100. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.barcode.generation/cmykcolor/equals/)(object) | Compares if values of colors are the same |
+| override [GetHashCode](../../aspose.barcode.generation/cmykcolor/gethashcode/)() | Hash code of CMYKColor |
+
 ### See Also
 
 * namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
