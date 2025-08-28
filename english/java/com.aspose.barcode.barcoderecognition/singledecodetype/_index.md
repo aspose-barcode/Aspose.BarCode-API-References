@@ -21,16 +21,13 @@ Single decode type. See decode type to get instance.
 >  
 >  SingleDecodeType singleType = DecodeType.QR
 > ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SingleDecodeType(short typeIndex, String typeName)](#SingleDecodeType-short-java.lang.String-) | Initializes a new instance of [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) class by type index and name |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Returns a value indicating whether this instance is included into the list specified. |
+| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) |  |
+| [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) value. |
 | [getClass()](#getClass--) |  |
 | [getString()](#getString--) | Converts the instance of SingleDecodeType to its equivalent string representation, using the following format: "Index:-1; Name:None". |
@@ -48,20 +45,6 @@ Single decode type. See decode type to get instance.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### SingleDecodeType(short typeIndex, String typeName) {#SingleDecodeType-short-java.lang.String-}
-```
-public SingleDecodeType(short typeIndex, String typeName)
-```
-
-
-Initializes a new instance of [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) class by type index and name
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| typeIndex | short | Gets an index of decode type |
-| typeName | java.lang.String | Gets a name of decode type |
-
 ### containsAny(BaseDecodeType[] types) {#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
 ```
 public boolean containsAny(BaseDecodeType[] types)
@@ -77,6 +60,36 @@ Returns a value indicating whether this instance is included into the list speci
 
 **Returns:**
 boolean - Value is a true if any types are included into
+### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
+```
+public boolean equals(MultyDecodeType other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) |  |
+
+**Returns:**
+boolean
+### equals(SingleDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public boolean equals(SingleDecodeType other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) |  |
+
+**Returns:**
+boolean
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

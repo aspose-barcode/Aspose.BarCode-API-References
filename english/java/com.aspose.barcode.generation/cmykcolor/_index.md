@@ -30,9 +30,9 @@ Class for CMYK color. Null means CMYK is not used, default RGB color is in use.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) | Compares if values of colors are the same |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Hash code of CMYKColor |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -79,21 +79,21 @@ public float Y
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+### equals(Object obj) {#equals-java.lang.Object-}
 ```
-public boolean equals(Object arg0)
+public boolean equals(Object obj)
 ```
 
 
-
+Compares if values of colors are the same
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| obj | java.lang.Object | CMYKColor to compare |
 
 **Returns:**
-boolean
+boolean - Are values the same
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -106,14 +106,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
-
+Hash code of CMYKColor
 
 **Returns:**
-int
+int - Hash code of CMYKColor
 ### notify() {#notify--}
 ```
 public final native void notify()

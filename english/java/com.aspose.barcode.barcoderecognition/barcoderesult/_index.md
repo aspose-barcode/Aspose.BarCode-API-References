@@ -45,7 +45,7 @@ Stores recognized barcode data like  SingleDecodeType  type,  string  codetext, 
 | [getClass()](#getClass--) |  |
 | [getCodeBytes()](#getCodeBytes--) | Gets the encoded code bytes |
 | [getCodeText()](#getCodeText--) | Gets the code text |
-| [getCodeText(Charset encoding)](#getCodeText-java.nio.charset.Charset-) | Gets the code text with encoding. |
+| [getCodeText(Charset charset)](#getCodeText-java.nio.charset.Charset-) | Gets the code text with encoding. |
 | [getCodeType()](#getCodeType--) | Gets the barcode type |
 | [getCodeTypeName()](#getCodeTypeName--) | Gets the name of the barcode type |
 | [getConfidence()](#getConfidence--) | Gets recognition confidence level of the recognized barcode |
@@ -131,18 +131,34 @@ Value: The code text of the barcode
 
 **Returns:**
 java.lang.String
-### getCodeText(Charset encoding) {#getCodeText-java.nio.charset.Charset-}
+### getCodeText(Charset charset) {#getCodeText-java.nio.charset.Charset-}
 ```
-public String getCodeText(Charset encoding)
+public String getCodeText(Charset charset)
 ```
 
 
 Gets the code text with encoding.
 
+--------------------
+
+> ```
+> This example shows how to use ```
+> GetCodeText
+> ```:
+>   
+>   BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
+>  	gen.setCodeText("\u8eca\u7a2e\u540d", Charset.forName("932"));
+>  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+> 
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DATA_MATRIX);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println("BarCode CodeText: " + result.getCodeText(Charset.forName("932")));
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encoding | java.nio.charset.Charset | The encoding for codetext. |
+| charset | java.nio.charset.Charset | The encoding for codetext. |
 
 **Returns:**
 java.lang.String - A string containing recognized code text.
