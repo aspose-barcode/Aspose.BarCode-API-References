@@ -55,8 +55,8 @@ supported symbologies: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Cod
 | [setBarcodeType(BaseEncodeType value)](#setBarcodeType-com.aspose.barcode.generation.BaseEncodeType-) | Barcode symbology type. |
 | [setCodeText(byte[] codeBytes)](#setCodeText-byte---) | Set codetext as sequence of bytes. |
 | [setCodeText(String value)](#setCodeText-java.lang.String-) | Text to be encoded. |
-| [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) | Encodes codetext with byte order mark (BOM), using specified encoding. |
-| [setCodeText(String codeText, Charset encoding, boolean insertBOM)](#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-) | Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c. |
+| [setCodeText(String codeText, Charset encoding)](#setCodeText-java.lang.String-java.nio.charset.Charset-) |  |
+| [setCodeText(String codeText, Charset encoding, boolean insertBOM)](#setCodeText-java.lang.String-java.nio.charset.Charset-boolean-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -346,21 +346,42 @@ public void setCodeText(String codeText, Charset encoding)
 ```
 
 
-Encodes codetext with byte order mark (BOM), using specified encoding. This sample shows how to use SetCodeText with 1D and 2D barcodes
+Encodes the Unicode  **codeText**  into a byte sequence using the specified  **encoding** . UTF-8 is the most commonly used encoding. If the encoding supports it, the function automatically inserts a  [byte order mark (BOM)][byte order mark _BOM] .
 
-```
-BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
-  gen.setCodeText("123ABCD", StandardCharsets.US_ASCII);
-  gen.save("barcode.png", BarCodeImageFormat.PNG);
+This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases,  [ECI][]  encoding is recommended for Unicode data.
 
-  BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
-  gen.setCodeText("123ABCD", StandardCharsets.ISO_8859_1, true);
-  gen.save("barcode.png", BarCodeImageFormat.PNG);
+Using this function with 1D barcodes, GS1-compliant barcodes (including 2D), or HIBC barcodes (including 2D) is not supported by the corresponding barcode standards and may lead to unpredictable results.
 
-  BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
-  gen.setCodeText("123ABCD", Encoding.UTF_8, false);
-  gen.save("barcode.png", BarCodeImageFormat.PNG);
-```
+--------------------
+
+> ```
+> This example shows how to use ```
+> SetCodeText
+> ``` setting Unicode-encoded text for 2D barcodes using different encodings:
+>   
+>   //Encode QR Code text using UTF-8 with BOM
+>   BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
+>   gen.setCodeText("\u8eca\u7a2e\u540d", StandardCharsets.UTF_8;
+>   gen.save("barcode.png", BarCodeImageFormat.PNG);
+> 
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR);
+>  	for(BarCodeResult result : reader.readBarCodes())
+>  	   System.out.println("BarCode CodeText: " + result.getCodeText());
+> 
+>  	//Encode DataMatrix text using Shift-JIS (Japanese encoding)
+>  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
+>  	Charset charset = Charset.forName("Shift_JIS");
+>  	gen.setCodeText("\u8eca\u7a2e\u540d", charset);
+>  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+> 
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DATA_MATRIX);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println("BarCode CodeText: " + result.getCodeText(charset));
+> ```
+
+
+[byte order mark _BOM]: https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding
+[ECI]: https://en.wikipedia.org/wiki/Extended_Channel_Interpretation
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,32 +395,47 @@ public void setCodeText(String codeText, Charset encoding, boolean insertBOM)
 ```
 
 
-Encodes codetext with optional byte order mark (BOM) insertion, using specified encoding: like UTF8, UTF16, UTF32, e.t.c. 1D barcodes should use Encoding ASCII or ISO/IEC 8859-1. 2D barcodes should use Encoding UTF8. Detailed description you can find in the @see [documentation][]
+Encodes the Unicode  **codeText**  into a byte sequence using the specified  **encoding** . UTF-8 is the most commonly used encoding. If the encoding supports it and  **insertBOM**  is set to  true , the function includes a  [byte order mark (BOM)][byte order mark _BOM] .
+
+This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases,  [ECI][]  encoding is recommended for Unicode data.
+
+Using this function with 1D barcodes, GS1-compliant barcodes (including 2D), or HIBC barcodes (including 2D) is not supported by the corresponding barcode standards and may lead to unpredictable results.
 
 --------------------
 
 > ```
-> This sample shows how to use setCodeText
+> This example shows how to use ```
+> SetCodeText
+> ``` with or without a BOM for 2D barcodes.
 >   
-> 
->  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
->  	gen.setCodeText("123ABCD", StandardCharsets.ISO_8859_1, true);
+>  	//Encode codetext using UTF-8 with BOM
+>  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
+>   gen.setCodeText("\u8eca\u7a2e\u540d", StandardCharsets.UTF_8, true);
 >  	gen.save("barcode.png", BarCodeImageFormat.PNG);
 > 
->  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.CODE_128);
->      gen.setCodeText("123ABCD", StandardCharsets.UTF_8, false);
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR);
+>  	for(BarCodeResult result : reader.readBarCodes())
+>  	   System.out.println("BarCode CodeText: " + result.getCodeText());
+> 
+>  	//Encode codetext using UTF-8 without BOM
+>  	BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.QR);
+>   gen.setCodeText("\u8eca\u7a2e\u540d", StandardCharsets.UTF_8, false);
 >  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.QR);
+>  	for(BarCodeResult result : reader.readBarCodes())
+>  	   System.out.println("BarCode CodeText: " + result.getCodeText());
 > ```
 
 
-[documentation]: https://docs.aspose.com/barcode/java/how-to-use-insert-bom-parameter/
+[byte order mark _BOM]: https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding
+[ECI]: https://en.wikipedia.org/wiki/Extended_Channel_Interpretation
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | codeText | java.lang.String | CodeText string |
 | encoding | java.nio.charset.Charset | Applied encoding |
-| insertBOM | boolean | flag indicates insertion of the Encoding byte order mark (BOM). In case, the Encoding requires byte order mark (BOM) insertion: like UTF8, UTF16, UTF32, e.t.c. and flag is set to true, the BOM is added, in case of setting flag to false, the BOM insertion is ignored. |
+| insertBOM | boolean | Indicates whether to insert a byte order mark (BOM) when the specified encoding supports it (e.g., UTF-8, UTF-16, UTF-32). If set to  true , the BOM is added; if  false , the BOM is omitted even if the encoding normally uses one. |
 
 ### toString() {#toString--}
 ```

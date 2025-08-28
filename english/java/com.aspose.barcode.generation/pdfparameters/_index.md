@@ -18,20 +18,22 @@ PDF parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCMYKBackColor()](#getCMYKBackColor--) | Nullable. |
-| [getCMYKBarColor()](#getCMYKBarColor--) | Nullable. |
-| [getCMYKCaptionAboveColor()](#getCMYKCaptionAboveColor--) | Nullable. |
-| [getCMYKCaptionBelowColor()](#getCMYKCaptionBelowColor--) | Nullable. |
-| [getCMYKCodetextColor()](#getCMYKCodetextColor--) | Nullable. |
+| [getCMYKBackColor()](#getCMYKBackColor--) | CMYK background color value. |
+| [getCMYKBarColor()](#getCMYKBarColor--) | CMYK color value of the barcode. |
+| [getCMYKCaptionAboveColor()](#getCMYKCaptionAboveColor--) | CMYK color value for the caption above. |
+| [getCMYKCaptionBelowColor()](#getCMYKCaptionBelowColor--) | CMYK color value for the caption below. |
+| [getCMYKCodetextColor()](#getCMYKCodetextColor--) | CMYK color value for the codetext. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
+| [isTextAsPath()](#isTextAsPath--) | Are paths used instead of text (use if Unicode characters are not displayed) Default value: false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCMYKBackColor(CMYKColor value)](#setCMYKBackColor-com.aspose.barcode.generation.CMYKColor-) | Nullable. |
-| [setCMYKBarColor(CMYKColor value)](#setCMYKBarColor-com.aspose.barcode.generation.CMYKColor-) | Nullable. |
-| [setCMYKCaptionAboveColor(CMYKColor value)](#setCMYKCaptionAboveColor-com.aspose.barcode.generation.CMYKColor-) | Nullable. |
-| [setCMYKCaptionBelowColor(CMYKColor value)](#setCMYKCaptionBelowColor-com.aspose.barcode.generation.CMYKColor-) | Nullable. |
-| [setCMYKCodetextColor(CMYKColor value)](#setCMYKCodetextColor-com.aspose.barcode.generation.CMYKColor-) | Nullable. |
+| [setCMYKBackColor(CMYKColor value)](#setCMYKBackColor-com.aspose.barcode.generation.CMYKColor-) | CMYK background color value. |
+| [setCMYKBarColor(CMYKColor value)](#setCMYKBarColor-com.aspose.barcode.generation.CMYKColor-) | CMYK color value of the barcode. |
+| [setCMYKCaptionAboveColor(CMYKColor value)](#setCMYKCaptionAboveColor-com.aspose.barcode.generation.CMYKColor-) | CMYK color value for the caption above. |
+| [setCMYKCaptionBelowColor(CMYKColor value)](#setCMYKCaptionBelowColor-com.aspose.barcode.generation.CMYKColor-) | CMYK color value for the caption below. |
+| [setCMYKCodetextColor(CMYKColor value)](#setCMYKCodetextColor-com.aspose.barcode.generation.CMYKColor-) | CMYK color value for the codetext. |
+| [setTextAsPath(boolean value)](#setTextAsPath-boolean-) | Are paths used instead of text (use if Unicode characters are not displayed) Default value: false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,7 +59,9 @@ public CMYKColor getCMYKBackColor()
 ```
 
 
-Nullable. CMYK back color value. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK background color value.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Returns:**
 [CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
@@ -67,7 +71,9 @@ public CMYKColor getCMYKBarColor()
 ```
 
 
-Nullable. CMYK color value of bar code. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value of the barcode.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Returns:**
 [CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
@@ -77,7 +83,9 @@ public CMYKColor getCMYKCaptionAboveColor()
 ```
 
 
-Nullable. CMYK color value of caption above. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the caption above.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Returns:**
 [CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
@@ -87,7 +95,9 @@ public CMYKColor getCMYKCaptionBelowColor()
 ```
 
 
-Nullable. CMYK color value of caption below. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the caption below.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Returns:**
 [CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
@@ -97,7 +107,9 @@ public CMYKColor getCMYKCodetextColor()
 ```
 
 
-Nullable. CMYK color value of Codetext. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the codetext.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Returns:**
 [CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
@@ -121,6 +133,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isTextAsPath() {#isTextAsPath--}
+```
+public boolean isTextAsPath()
+```
+
+
+Are paths used instead of text (use if Unicode characters are not displayed) Default value: false.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -143,7 +165,9 @@ public void setCMYKBackColor(CMYKColor value)
 ```
 
 
-Nullable. CMYK back color value. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK background color value.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +180,9 @@ public void setCMYKBarColor(CMYKColor value)
 ```
 
 
-Nullable. CMYK color value of bar code. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value of the barcode.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -169,7 +195,9 @@ public void setCMYKCaptionAboveColor(CMYKColor value)
 ```
 
 
-Nullable. CMYK color value of caption above. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the caption above.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +210,9 @@ public void setCMYKCaptionBelowColor(CMYKColor value)
 ```
 
 
-Nullable. CMYK color value of caption below. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the caption below.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,12 +225,27 @@ public void setCMYKCodetextColor(CMYKColor value)
 ```
 
 
-Nullable. CMYK color value of Codetext. Null means CMYK color is not used, instead normal RGB color is used.
+CMYK color value for the codetext.
+
+If  null , CMYK color is not used; RGB color will be used instead.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [CMYKColor](../../com.aspose.barcode.generation/cmykcolor) |  |
+
+### setTextAsPath(boolean value) {#setTextAsPath-boolean-}
+```
+public void setTextAsPath(boolean value)
+```
+
+
+Are paths used instead of text (use if Unicode characters are not displayed) Default value: false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

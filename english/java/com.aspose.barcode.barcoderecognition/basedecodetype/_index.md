@@ -27,7 +27,9 @@ Base class for MultyDecodeType and SingleDecodeType.
 | Method | Description |
 | --- | --- |
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Determines whether any of the given decode types is included into |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(Object other)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -54,9 +56,9 @@ Determines whether any of the given decode types is included into
 
 **Returns:**
 boolean - Value is a true if any types are included into.
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
 ```
-public boolean equals(Object obj)
+public boolean equals(MultyDecodeType other)
 ```
 
 
@@ -65,7 +67,37 @@ Returns a value indicating whether this instance is equal to a specified [BaseDe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An System.Object value to compare to this instance. |
+| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) | An java.lang.Object value to compare to this instance. |
+
+**Returns:**
+boolean - True if obj has the same value as this instance; otherwise, false.
+### equals(SingleDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public boolean equals(SingleDecodeType other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) | An java.lang.Object value to compare to this instance. |
+
+**Returns:**
+boolean - True if obj has the same value as this instance; otherwise, false.
+### equals(Object other) {#equals-java.lang.Object-}
+```
+public boolean equals(Object other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | java.lang.Object | An java.lang.Object value to compare to this instance. |
 
 **Returns:**
 boolean - True if obj has the same value as this instance; otherwise, false.
