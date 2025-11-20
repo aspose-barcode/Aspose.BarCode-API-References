@@ -3,7 +3,7 @@ title: Class SpecificParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.SpecificParametersUI class. Specific parameters
 type: docs
-weight: 1670
+weight: 1770
 url: /net/aspose.barcode.windows.forms/specificparametersui/
 ---
 ## SpecificParametersUI class

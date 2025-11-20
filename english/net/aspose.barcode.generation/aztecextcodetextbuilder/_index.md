@@ -3,7 +3,7 @@ title: Class AztecExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AztecExtCodetextBuilder class. Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode
 type: docs
-weight: 750
+weight: 850
 url: /net/aspose.barcode.generation/aztecextcodetextbuilder/
 ---
 ## AztecExtCodetextBuilder class

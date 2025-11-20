@@ -3,7 +3,7 @@ title: Enum Pdf417CompactionMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417CompactionMode enum. Pdf417 barcode compaction mode
 type: docs
-weight: 1320
+weight: 1420
 url: /net/aspose.barcode.generation/pdf417compactionmode/
 ---
 ## Pdf417CompactionMode enumeration

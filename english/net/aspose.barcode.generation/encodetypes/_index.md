@@ -3,7 +3,7 @@ title: Class EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EncodeTypes class. Specifies the type of barcode to encode
 type: docs
-weight: 1090
+weight: 1190
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class

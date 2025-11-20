@@ -3,7 +3,7 @@ title: Class CaptionParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CaptionParameters class. Caption parameters
 type: docs
-weight: 870
+weight: 970
 url: /net/aspose.barcode.generation/captionparameters/
 ---
 ## CaptionParameters class

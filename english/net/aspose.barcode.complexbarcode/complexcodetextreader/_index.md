@@ -24,6 +24,7 @@ public sealed class ComplexCodetextReader
 | static [TryDecodeMailmark2D](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d/)(string) | Decodes Royal Mail Mailmark 2D codetext. |
 | static [TryDecodeMaxiCode](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemaxicode/)(MaxiCodeMode, string) | Decodes MaxiCode codetext. |
 | static [TryDecodeSwissQR](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr/)(string) | Decodes SwissQR codetext. |
+| static [TryDecodeUSADriveId](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodeusadriveid/)(string) | Decodes USADriveId codetext. |
 
 ## Examples
 

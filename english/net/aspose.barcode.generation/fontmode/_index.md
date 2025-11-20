@@ -3,7 +3,7 @@ title: Enum FontMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.FontMode enum. Font size mode
 type: docs
-weight: 1110
+weight: 1210
 url: /net/aspose.barcode.generation/fontmode/
 ---
 ## FontMode enumeration

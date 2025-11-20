@@ -3,7 +3,7 @@ title: Enum ITF14BorderType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.ITF14BorderType enum. ITF14 border type of barcode
 type: docs
-weight: 1200
+weight: 1300
 url: /net/aspose.barcode.generation/itf14bordertype/
 ---
 ## ITF14BorderType enumeration

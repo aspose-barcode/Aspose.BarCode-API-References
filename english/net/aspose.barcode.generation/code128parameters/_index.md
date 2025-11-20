@@ -3,7 +3,7 @@ title: Class Code128Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Code128Parameters class. Code128 parameters
 type: docs
-weight: 930
+weight: 1030
 url: /net/aspose.barcode.generation/code128parameters/
 ---
 ## Code128Parameters class

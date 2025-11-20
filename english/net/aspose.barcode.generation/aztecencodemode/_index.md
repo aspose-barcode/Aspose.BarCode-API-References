@@ -3,7 +3,7 @@ title: Enum AztecEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AztecEncodeMode enum. Encoding mode for Aztec barcodes
 type: docs
-weight: 740
+weight: 840
 url: /net/aspose.barcode.generation/aztecencodemode/
 ---
 ## AztecEncodeMode enumeration

@@ -3,7 +3,7 @@ title: Enum AztecSymbolMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AztecSymbolMode enum. Specifies the Aztec symbol mode
 type: docs
-weight: 770
+weight: 870
 url: /net/aspose.barcode.generation/aztecsymbolmode/
 ---
 ## AztecSymbolMode enumeration

@@ -3,7 +3,7 @@ title: Class ITFParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.ITFParameters class. ITF parameters
 type: docs
-weight: 1210
+weight: 1310
 url: /net/aspose.barcode.generation/itfparameters/
 ---
 ## ITFParameters class

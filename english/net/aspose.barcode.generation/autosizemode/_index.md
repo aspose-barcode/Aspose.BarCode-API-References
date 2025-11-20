@@ -3,7 +3,7 @@ title: Enum AutoSizeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AutoSizeMode enum. Specifies the different types of automatic sizing modes
 type: docs
-weight: 730
+weight: 830
 url: /net/aspose.barcode.generation/autosizemode/
 ---
 ## AutoSizeMode enumeration

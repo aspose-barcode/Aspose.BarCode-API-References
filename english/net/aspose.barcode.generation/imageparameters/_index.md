@@ -3,7 +3,7 @@ title: Class ImageParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.ImageParameters class. Image parameters
 type: docs
-weight: 1220
+weight: 1320
 url: /net/aspose.barcode.generation/imageparameters/
 ---
 ## ImageParameters class

@@ -3,7 +3,7 @@ title: Enum BarCodeImageFormat
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarCodeImageFormat enum. Specifies the file format of the image
 type: docs
-weight: 780
+weight: 880
 url: /net/aspose.barcode.generation/barcodeimageformat/
 ---
 ## BarCodeImageFormat enumeration

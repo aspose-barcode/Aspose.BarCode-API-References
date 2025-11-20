@@ -3,7 +3,7 @@ title: Class CodetextParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodetextParameters class. Codetext parameters
 type: docs
-weight: 960
+weight: 1060
 url: /net/aspose.barcode.generation/codetextparameters/
 ---
 ## CodetextParameters class

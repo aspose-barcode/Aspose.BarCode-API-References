@@ -3,7 +3,7 @@ title: Class BarcodeGenerator
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarcodeGenerator class. BarcodeGenerator for backend barcode images generation
 type: docs
-weight: 800
+weight: 900
 url: /net/aspose.barcode.generation/barcodegenerator/
 ---
 ## BarcodeGenerator class
