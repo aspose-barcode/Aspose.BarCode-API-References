@@ -3,7 +3,7 @@ title: Class BaseGenerationParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BaseGenerationParameters class. Barcode image generation parameters
 type: docs
-weight: 830
+weight: 930
 url: /net/aspose.barcode.generation/basegenerationparameters/
 ---
 ## BaseGenerationParameters class

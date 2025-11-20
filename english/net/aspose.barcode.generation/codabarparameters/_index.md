@@ -3,7 +3,7 @@ title: Class CodabarParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodabarParameters class. Codabar parameters
 type: docs
-weight: 890
+weight: 990
 url: /net/aspose.barcode.generation/codabarparameters/
 ---
 ## CodabarParameters class

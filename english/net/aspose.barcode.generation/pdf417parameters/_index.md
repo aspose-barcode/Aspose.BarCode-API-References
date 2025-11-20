@@ -3,7 +3,7 @@ title: Class Pdf417Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417Parameters class. PDF417 parameters. Contains PDF417 MacroPDF417 MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode same as MacroPDF417 mode requires two fields Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional
 type: docs
-weight: 1360
+weight: 1460
 url: /net/aspose.barcode.generation/pdf417parameters/
 ---
 ## Pdf417Parameters class

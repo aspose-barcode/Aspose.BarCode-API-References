@@ -3,7 +3,7 @@ title: Class AztecParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.AztecParametersUI class. UI wrapper for AztecParameters class
 type: docs
-weight: 1580
+weight: 1680
 url: /net/aspose.barcode.windows.forms/aztecparametersui/
 ---
 ## AztecParametersUI class

@@ -3,7 +3,7 @@ title: Class Pdf417ParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.Pdf417ParametersUI class. UI wrapper for Pdf417Parameters class
 type: docs
-weight: 1650
+weight: 1750
 url: /net/aspose.barcode.windows.forms/pdf417parametersui/
 ---
 ## Pdf417ParametersUI class

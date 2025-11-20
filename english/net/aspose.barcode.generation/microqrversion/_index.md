@@ -3,7 +3,7 @@ title: Enum MicroQRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.MicroQRVersion enum. Version of MicroQR Code. From M1 to M4
 type: docs
-weight: 1280
+weight: 1380
 url: /net/aspose.barcode.generation/microqrversion/
 ---
 ## MicroQRVersion enumeration

@@ -3,7 +3,7 @@ title: Enum HanXinEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HanXinEncodeMode enum. Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters
 type: docs
-weight: 1140
+weight: 1240
 url: /net/aspose.barcode.generation/hanxinencodemode/
 ---
 ## HanXinEncodeMode enumeration

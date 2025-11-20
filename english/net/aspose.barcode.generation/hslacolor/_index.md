@@ -3,7 +3,7 @@ title: Class HslaColor
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HslaColor class. Class for representing HSLA color Hue Saturation Lightness Alpha
 type: docs
-weight: 1190
+weight: 1290
 url: /net/aspose.barcode.generation/hslacolor/
 ---
 ## HslaColor class

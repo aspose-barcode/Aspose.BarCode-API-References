@@ -36,6 +36,8 @@ The **Aspose.BarCode.ComplexBarcode** containing general classes for the impleme
 | [SecondaryAndAdditionalData](./secondaryandadditionaldata/) | Class for storing HIBC LIC secondary and additional data. |
 | [SwissQRBill](./swissqrbill/) | SwissQR bill data |
 | [SwissQRCodetext](./swissqrcodetext/) | Class for encoding and decoding the text embedded in the SwissQR code. |
+| [USADriveIdCodetext](./usadriveidcodetext/) | Class for encoding and decoding the text embedded in the USA Driving License PDF417 code. |
+| [USADriveIdJurisdSubfile](./usadriveidjurisdsubfile/) | Class for Jurisdiction specific fields for USA DL |
 ## Interfaces
 
 | Interface | Description |
@@ -50,5 +52,9 @@ The **Aspose.BarCode.ComplexBarcode** containing general classes for the impleme
 | [HIBCPASDataLocation](./hibcpasdatalocation/) | HIBC PAS data location types. |
 | [HIBCPASDataType](./hibcpasdatatype/) | HIBC PAS record's data types. |
 | [Mailmark2DType](./mailmark2dtype/) | 2D Mailmark Type defines size of Data Matrix barcode |
+| [USADriveIdCountry](./usadriveidcountry/) | Enum for Country Identification in the US Driver's License |
+| [USADriveIdEyeColor](./usadriveideyecolor/) | Enum for Eye Color in the US Driver's License |
+| [USADriveIdHairColor](./usadriveidhaircolor/) | Enum for Hair Color in the US Driver's License |
+| [USADriveIdSex](./usadriveidsex/) | Enum for Sex field in the US Driver's License |
 
 

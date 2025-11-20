@@ -3,7 +3,7 @@ title: Enum BorderDashStyle
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BorderDashStyle enum. Specifies the style of dashed border lines
 type: docs
-weight: 840
+weight: 940
 url: /net/aspose.barcode.generation/borderdashstyle/
 ---
 ## BorderDashStyle enumeration

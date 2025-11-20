@@ -3,7 +3,7 @@ title: Class MaxiCodeExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.MaxiCodeExtCodetextBuilder class. Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode
 type: docs
-weight: 1250
+weight: 1350
 url: /net/aspose.barcode.generation/maxicodeextcodetextbuilder/
 ---
 ## MaxiCodeExtCodetextBuilder class
