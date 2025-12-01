@@ -3,7 +3,7 @@ title: DataMatrixEncodeMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/datamatrixencodemode/
+url: /python-net/aspose.barcode.generation/datamatrixencodemode/
 ---
 
 ## DataMatrixEncodeMode enumeration

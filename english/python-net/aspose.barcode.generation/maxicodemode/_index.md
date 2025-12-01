@@ -3,7 +3,7 @@ title: MaxiCodeMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/maxicodemode/
+url: /python-net/aspose.barcode.generation/maxicodemode/
 ---
 
 ## MaxiCodeMode enumeration

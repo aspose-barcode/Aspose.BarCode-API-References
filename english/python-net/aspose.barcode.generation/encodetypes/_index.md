@@ -3,7 +3,7 @@ title: EncodeTypes
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/encodetypes/
+url: /python-net/aspose.barcode.generation/encodetypes/
 ---
 
 ## EncodeTypes class

@@ -3,7 +3,7 @@ title: BarCodeImageFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/barcodeimageformat/
+url: /python-net/aspose.barcode.generation/barcodeimageformat/
 ---
 
 ## BarCodeImageFormat enumeration

@@ -3,7 +3,7 @@ title: MacroCharacter
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/macrocharacter/
+url: /python-net/aspose.barcode.generation/macrocharacter/
 ---
 
 ## MacroCharacter enumeration

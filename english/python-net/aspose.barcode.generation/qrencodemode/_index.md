@@ -3,7 +3,7 @@ title: QREncodeMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/qrencodemode/
+url: /python-net/aspose.barcode.generation/qrencodemode/
 ---
 
 ## QREncodeMode enumeration

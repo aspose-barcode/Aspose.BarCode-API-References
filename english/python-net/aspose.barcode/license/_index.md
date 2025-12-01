@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode/license/
+url: /python-net/aspose.barcode/license/
 ---
 
 ## License class

@@ -3,7 +3,7 @@ title: MaxiCodeParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/maxicodeparameters/
+url: /python-net/aspose.barcode.generation/maxicodeparameters/
 ---
 
 ## MaxiCodeParameters class

@@ -3,7 +3,7 @@ title: HIBCLICDateFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/hibclicdateformat/
+url: /python-net/aspose.barcode.complexbarcode/hibclicdateformat/
 ---
 
 ## HIBCLICDateFormat enumeration

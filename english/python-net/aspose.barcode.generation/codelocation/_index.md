@@ -3,7 +3,7 @@ title: CodeLocation
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/codelocation/
+url: /python-net/aspose.barcode.generation/codelocation/
 ---
 
 ## CodeLocation enumeration

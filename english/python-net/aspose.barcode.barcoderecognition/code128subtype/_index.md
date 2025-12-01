@@ -3,7 +3,7 @@ title: Code128SubType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/code128subtype/
+url: /python-net/aspose.barcode.barcoderecognition/code128subtype/
 ---
 
 ## Code128SubType enumeration

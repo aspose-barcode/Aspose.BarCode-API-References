@@ -3,7 +3,7 @@ title: BarcodeGenerator
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/barcodegenerator/
+url: /python-net/aspose.barcode.generation/barcodegenerator/
 ---
 
 ## BarcodeGenerator class

@@ -3,7 +3,7 @@ title: HanXinEncodeMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/hanxinencodemode/
+url: /python-net/aspose.barcode.generation/hanxinencodemode/
 ---
 
 ## HanXinEncodeMode enumeration

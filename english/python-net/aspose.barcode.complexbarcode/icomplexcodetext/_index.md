@@ -3,7 +3,7 @@ title: IComplexCodetext
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/icomplexcodetext/
+url: /python-net/aspose.barcode.complexbarcode/icomplexcodetext/
 ---
 
 ## IComplexCodetext class
