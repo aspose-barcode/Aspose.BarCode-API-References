@@ -68,7 +68,7 @@ These are links to some useful resources:
 
 Welcome to Aspose.BarCode for PHP via Java
 
-Aspose.BarCode for PHP via Java API gives you the tools you need to generate barcode images and recognize barcodes from within Android applications. You can not only generate barcodes of different types, but also control the size of bars in the barcodes and overall barcode images. You can also customize the appearance of barcode text on barcode images.
+Aspose.BarCode for PHP via Java is a reliable barcode generation and recognition library that exposes the Java-based engine to PHP applications. It enables developers to create and read 1D/2D barcodes, tune quality and performance, and export images in common raster formats. The API is designed for server-side PHP use cases and integrates smoothly into existing workflows with minimal glue code.
 
 {{% /alert %}} 
 
@@ -83,7 +83,7 @@ These are links to some useful resources:
 
 Welcome to Aspose.BarCode for Android via Java
 
-Aspose.BarCode for Android via Java API gives you the tools you need to generate barcode images and recognize barcodes from within Android applications. You can not only generate barcodes of different types, but also control the size of bars in the barcodes and overall barcode images. You can also customize the appearance of barcode text on barcode images.
+Aspose.BarCode for Android via Java brings barcode generation and recognition to Android devices using the native Java SDK. It supports popular symbologies, handles challenging images, and allows you to render barcodes to bitmaps for display or printing. Typical scenarios include on-device scanning, warehouse apps, and label creation within Android UI flows.
 
 {{% /alert %}} 
 
@@ -98,7 +98,7 @@ These are links to some useful resources:
 
 Welcome to Aspose.BarCode for Node.js via Java
 
-Aspose.BarCode for Node.js via Java API gives you the tools you need to generate barcode images and recognize barcodes from within Android applications. You can not only generate barcodes of different types, but also control the size of bars in the barcodes and overall barcode images. You can also customize the appearance of barcode text on barcode images.
+Aspose.BarCode for Node.js via Java provides server-side barcode generation and recognition to Node.js applications by leveraging the Java engine under the hood. Use it to encode GTIN/GS1 data, read multiple barcodes per image, and output images or buffers suitable for web APIs and batch jobs. The wrapper focuses on straightforward integration, predictable performance, and clean interop with Node.js tooling.
 
 {{% /alert %}} 
 
@@ -112,9 +112,23 @@ These are links to some useful resources:
 
 Welcome to Aspose.BarCode for Python via Java
 
-Aspose.BarCode for Python via Java API gives you the tools you need to generate barcode images and recognize barcodes from within Android applications. You can not only generate barcodes of different types, but also control the size of bars in the barcodes and overall barcode images. You can also customize the appearance of barcode text on barcode images.
+Aspose.BarCode for Python via Java enables Python developers to access robust barcode generation and recognition through a Java-backed core. It supports common 1D/2D symbologies, batch processing, and image export, making it suitable for ETL pipelines and backend services. The package aims for a Pythonic experience while preserving the full feature set of the underlying engine.
 
 {{% /alert %}} 
 
 These are links to some useful resources:
 - [Aspose.BarCode for Python via Java API Reference](/barcode/python-java/)
+
+## Aspose.BarCode for Python via .NET
+{{% alert color="primary" %}}
+
+![Aspose.BarCode for Python via .NET Product Logo](home_7.png)
+
+Welcome to Aspose.BarCode for Python via .NET
+
+Aspose.BarCode for Python via .NET exposes the .NET API to Python, allowing you to generate and recognize barcodes with fine control over appearance, encoding, and output formats. It fits data processing scripts, automation, and backend services that prefer the .NET feature set from Python code. The library emphasizes simple setup, strong performance, and consistency with the native .NET API surface.
+
+{{% /alert %}} 
+
+These are links to some useful resources:
+- [Aspose.BarCode for Python via .NET API Reference](/barcode/python-net/)
