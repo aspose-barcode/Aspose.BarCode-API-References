@@ -3,7 +3,7 @@ title: Pdf417CompactionMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/pdf417compactionmode/
+url: /python-net/aspose.barcode.generation/pdf417compactionmode/
 ---
 
 ## Pdf417CompactionMode enumeration

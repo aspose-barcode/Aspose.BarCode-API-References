@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/dotcodeextendedparameters/
+url: /python-net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 
 ## DotCodeExtendedParameters class

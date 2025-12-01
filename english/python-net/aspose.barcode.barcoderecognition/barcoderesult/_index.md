@@ -3,7 +3,7 @@ title: BarCodeResult
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/barcoderesult/
+url: /python-net/aspose.barcode.barcoderecognition/barcoderesult/
 ---
 
 ## BarCodeResult class

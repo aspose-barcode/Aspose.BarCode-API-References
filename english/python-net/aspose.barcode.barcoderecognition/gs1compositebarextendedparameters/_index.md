@@ -3,7 +3,7 @@ title: GS1CompositeBarExtendedParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/
+url: /python-net/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/
 ---
 
 ## GS1CompositeBarExtendedParameters class

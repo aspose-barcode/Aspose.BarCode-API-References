@@ -3,7 +3,7 @@ title: BarcodeQualityMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/barcodequalitymode/
+url: /python-net/aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 
 ## BarcodeQualityMode enumeration

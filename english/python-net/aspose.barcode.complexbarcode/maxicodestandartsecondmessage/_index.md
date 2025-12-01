@@ -3,7 +3,7 @@ title: MaxiCodeStandartSecondMessage
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/maxicodestandartsecondmessage/
+url: /python-net/aspose.barcode.complexbarcode/maxicodestandartsecondmessage/
 ---
 
 ## MaxiCodeStandartSecondMessage class

@@ -3,7 +3,7 @@ title: TwoDComponentType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/twodcomponenttype/
+url: /python-net/aspose.barcode.generation/twodcomponenttype/
 ---
 
 ## TwoDComponentType enumeration

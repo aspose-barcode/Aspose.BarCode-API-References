@@ -3,7 +3,7 @@ title: BarCodeRegionParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/barcoderegionparameters/
+url: /python-net/aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 
 ## BarCodeRegionParameters class

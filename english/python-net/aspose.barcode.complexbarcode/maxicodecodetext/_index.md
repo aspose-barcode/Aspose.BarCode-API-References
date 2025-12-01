@@ -3,7 +3,7 @@ title: MaxiCodeCodetext
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/maxicodecodetext/
+url: /python-net/aspose.barcode.complexbarcode/maxicodecodetext/
 ---
 
 ## MaxiCodeCodetext class

@@ -3,7 +3,7 @@ title: DeconvolutionMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/deconvolutionmode/
+url: /python-net/aspose.barcode.barcoderecognition/deconvolutionmode/
 ---
 
 ## DeconvolutionMode enumeration
