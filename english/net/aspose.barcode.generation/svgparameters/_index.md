@@ -3,7 +3,7 @@ title: Class SvgParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.SvgParameters class. SVG parameters
 type: docs
-weight: 1590
+weight: 1580
 url: /net/aspose.barcode.generation/svgparameters/
 ---
 ## SvgParameters class

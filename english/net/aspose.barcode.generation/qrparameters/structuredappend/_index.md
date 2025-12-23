@@ -3,7 +3,7 @@ title: QrParameters.StructuredAppend
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParameters property. QR structured append parameters. Structured append mode is not suppported by MicroQR and RectMicroQR barcodes
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.barcode.generation/qrparameters/structuredappend/
 ---
 ## QrParameters.StructuredAppend property

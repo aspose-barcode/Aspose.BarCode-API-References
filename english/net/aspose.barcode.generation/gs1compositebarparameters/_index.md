@@ -18,7 +18,7 @@ public class GS1CompositeBarParameters
 
 | Name | Description |
 | --- | --- |
-| [IsAllowOnlyGS1Encoding](../../aspose.barcode.generation/gs1compositebarparameters/isallowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
+| [AllowOnlyGS1Encoding](../../aspose.barcode.generation/gs1compositebarparameters/allowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
 | [LinearComponentType](../../aspose.barcode.generation/gs1compositebarparameters/linearcomponenttype/) { get; set; } | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked |
 | [TwoDComponentType](../../aspose.barcode.generation/gs1compositebarparameters/twodcomponenttype/) { get; set; } | 2D component type |
 

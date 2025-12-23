@@ -1,14 +1,14 @@
 ---
 title: Class DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
-description: Aspose.BarCode.Generation.DataMatrixExtCodetextBuilder class. Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode
+description: Aspose.BarCode.Generation.DataMatrixExtCodetextBuilder class. Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of EncodeMode
 type: docs
 weight: 1110
 url: /net/aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 ## DataMatrixExtCodetextBuilder class
 
-Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode
+Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of EncodeMode
 
 ```csharp
 public class DataMatrixExtCodetextBuilder : ExtCodetextBuilder
@@ -39,10 +39,10 @@ public class DataMatrixExtCodetextBuilder : ExtCodetextBuilder
 
 //create codetext
 DataMatrixExtCodetextBuilder textBuilder = new DataMatrixExtCodetextBuilder();
-codetextBuilder.AddECICodetextWithEncodeMode(ECIEncodings.Win1251, DataMatrixEncodeMode.Bytes, "World");
+codetextBuilder.AddECICodetextWithEncodeMode(ECIEncodings.Win1251, EncodeMode.Bytes, "World");
 codetextBuilder.AddPlainCodetext("Will");
 codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
-codetextBuilder.AddCodetextWithEncodeMode(DataMatrixEncodeMode.C40, "ABCDE");
+codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
 string codetext = textBuilder.GetExtendedCodetext();    
@@ -50,7 +50,7 @@ string codetext = textBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 {
-    generator.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.DataMatrix.EncodeMode = EncodeMode.ExtendedCodetext;
 	generator.Save("test.bmp");
 }
 ```

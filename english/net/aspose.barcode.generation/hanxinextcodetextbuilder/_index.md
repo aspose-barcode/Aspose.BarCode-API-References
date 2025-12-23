@@ -1,14 +1,14 @@
 ---
 title: Class HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
-description: Aspose.BarCode.Generation.HanXinExtCodetextBuilder class. Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode
+description: Aspose.BarCode.Generation.HanXinExtCodetextBuilder class. Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode
 type: docs
 weight: 1260
 url: /net/aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 ## HanXinExtCodetextBuilder class
 
-Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode
+Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode
 
 ```csharp
 public class HanXinExtCodetextBuilder
@@ -66,7 +66,7 @@ var str = codeTextBuilder.GetExtendedCodetext();
 //generate
 using (var bg = new BarcodeGenerator(EncodeTypes.HanXin, str))
 {
-    bg.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    bg.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Extended;
     var img = bg.GenerateBarCodeImage();
     using (var r = new BarCodeReader(img, DecodeType.HanXin))
      {

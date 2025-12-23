@@ -3,7 +3,7 @@ title: Pdf417Parameters.Rows
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. Rows count
 type: docs
-weight: 230
+weight: 210
 url: /net/aspose.barcode.generation/pdf417parameters/rows/
 ---
 ## Pdf417Parameters.Rows property

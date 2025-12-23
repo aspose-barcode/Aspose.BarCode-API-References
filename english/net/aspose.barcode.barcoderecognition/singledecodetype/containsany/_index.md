@@ -16,7 +16,7 @@ public override bool ContainsAny(params BaseDecodeType[] types)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| types | BaseDecodeType[] | Array of single and multy decode types |
+| types | BaseDecodeType[] | Array of single and multi decode types |
 
 ### Return Value
 

@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.StructuredAppendFileId
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. File ID for Structured Append mode
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/structuredappendfileid/
 ---
 ## DataMatrixParametersUI.StructuredAppendFileId property

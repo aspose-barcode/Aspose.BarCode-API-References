@@ -3,7 +3,7 @@ title: AztecParametersUI.StructuredAppendFileId
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParametersUI property. File ID for Structured Append mode of Aztec barcode optional field. File ID should not contain spaces. Default value empty string
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.barcode.windows.forms/aztecparametersui/structuredappendfileid/
 ---
 ## AztecParametersUI.StructuredAppendFileId property

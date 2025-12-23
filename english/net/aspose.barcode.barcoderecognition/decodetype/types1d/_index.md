@@ -11,12 +11,12 @@ url: /net/aspose.barcode.barcoderecognition/decodetype/types1d/
 Specifies that data will be checked with all of **1D** barcode symbologies
 
 ```csharp
-public static readonly MultyDecodeType Types1D;
+public static readonly MultiDecodeType Types1D;
 ```
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [DecodeType](../)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)

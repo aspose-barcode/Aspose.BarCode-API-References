@@ -3,7 +3,7 @@ title: Enum TwoDComponentType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.TwoDComponentType enum. Type of 2D component
 type: docs
-weight: 1620
+weight: 1610
 url: /net/aspose.barcode.generation/twodcomponenttype/
 ---
 ## TwoDComponentType enumeration

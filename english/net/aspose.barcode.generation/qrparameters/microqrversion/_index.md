@@ -3,7 +3,7 @@ title: QrParameters.MicroQRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParameters property. Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.barcode.generation/qrparameters/microqrversion/
 ---
 ## QrParameters.MicroQRVersion property

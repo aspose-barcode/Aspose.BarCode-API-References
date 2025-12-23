@@ -3,7 +3,7 @@ title: Enum Pdf417EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417EncodeMode enum. Pdf417 barcode encode mode
 type: docs
-weight: 1430
+weight: 1420
 url: /net/aspose.barcode.generation/pdf417encodemode/
 ---
 ## Pdf417EncodeMode enumeration

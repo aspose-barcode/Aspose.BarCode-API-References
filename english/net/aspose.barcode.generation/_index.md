@@ -29,7 +29,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [CodetextParameters](./codetextparameters/) | Codetext parameters. |
 | [CouponParameters](./couponparameters/) | Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
 | [DataBarParameters](./databarparameters/) | Databar parameters. |
-| [DataMatrixExtCodetextBuilder](./datamatrixextcodetextbuilder/) | Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode |
+| [DataMatrixExtCodetextBuilder](./datamatrixextcodetextbuilder/) | Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of EncodeMode |
 | [DataMatrixParameters](./datamatrixparameters/) | DataMatrix parameters. |
 | [DotCodeExtCodetextBuilder](./dotcodeextcodetextbuilder/) | Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode |
 | [DotCodeParameters](./dotcodeparameters/) | DotCode parameters. |
@@ -37,7 +37,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [ExtCodetextBuilder](./extcodetextbuilder/) | Helper class for automatic codetext generation of the Extended Codetext Mode |
 | [FontUnit](./fontunit/) | Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. |
 | [GS1CompositeBarParameters](./gs1compositebarparameters/) | GS1 Composite bar parameters. |
-| [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode |
+| [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode |
 | [HanXinParameters](./hanxinparameters/) | Han Xin parameters. |
 | [HslaColor](./hslacolor/) | Class for representing HSLA color (Hue, Saturation, Lightness, Alpha) |
 | [ImageParameters](./imageparameters/) | Image parameters. |
@@ -49,7 +49,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [Pdf417Parameters](./pdf417parameters/) | PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
 | [PdfParameters](./pdfparameters/) | PDF parameters. |
 | [PostalParameters](./postalparameters/) | Postal parameters. Used for Postnet, Planet. |
-| [QrExtCodetextBuilder](./qrextcodetextbuilder/) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode |
+| [QrExtCodetextBuilder](./qrextcodetextbuilder/) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of EncodeMode |
 | [QrParameters](./qrparameters/) | QR parameters. |
 | [QrStructuredAppendParameters](./qrstructuredappendparameters/) | QR structured append parameters. |
 | [SupplementParameters](./supplementparameters/) | Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
@@ -86,7 +86,6 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
-| [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
 | [Pdf417EncodeMode](./pdf417encodemode/) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [Pdf417MacroTerminator](./pdf417macroterminator/) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417. |

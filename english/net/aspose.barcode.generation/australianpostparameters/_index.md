@@ -18,8 +18,8 @@ public class AustralianPostParameters
 
 | Name | Description |
 | --- | --- |
-| [AustralianPostEncodingTable](../../aspose.barcode.generation/australianpostparameters/australianpostencodingtable/) { get; set; } | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
-| [AustralianPostShortBarHeight](../../aspose.barcode.generation/australianpostparameters/australianpostshortbarheight/) { get; set; } | Short bar's height of AustralianPost barcode. |
+| [EncodingTable](../../aspose.barcode.generation/australianpostparameters/encodingtable/) { get; set; } | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
+| [ShortBarHeight](../../aspose.barcode.generation/australianpostparameters/shortbarheight/) { get; set; } | Short bar's height of AustralianPost barcode. |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: Enum Pdf417MacroTerminator
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Pdf417MacroTerminator enum. Used to tell the encoder whether to add Macro PDF417 Terminator codeword 922 to the segment. Applied only for Macro PDF417
 type: docs
-weight: 1450
+weight: 1440
 url: /net/aspose.barcode.generation/pdf417macroterminator/
 ---
 ## Pdf417MacroTerminator enumeration

@@ -50,7 +50,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix))
 {
     generator.SetCodetext(encodedArr);
-    generator.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.Binary;
+    generator.Parameters.Barcode.DataMatrix.EncodeMode = EncodeMode.Binary;
     generator.Save("test.bmp");
 }
 
@@ -58,10 +58,10 @@ using (var generator = new BarcodeGenerator(EncodeTypes.DataMatrix))
 //Extended codetext mode
 //create codetext
 DataMatrixExtCodetextBuilder textBuilder = new DataMatrixExtCodetextBuilder();
-codetextBuilder.AddECICodetextWithEncodeMode(ECIEncodings.Win1251, DataMatrixEncodeMode.Bytes, "World");
+codetextBuilder.AddECICodetextWithEncodeMode(ECIEncodings.Win1251, EncodeMode.Bytes, "World");
 codetextBuilder.AddPlainCodetext("Will");
 codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
-codetextBuilder.AddCodetextWithEncodeMode(DataMatrixEncodeMode.C40, "ABCDE");
+codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
 string codetext = textBuilder.GetExtendedCodetext();    
@@ -69,7 +69,7 @@ string codetext = textBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 {
-    generator.Parameters.Barcode.DataMatrix.DataMatrixEncodeMode = DataMatrixEncodeMode.Extended;
+    generator.Parameters.Barcode.DataMatrix.EncodeMode = EncodeMode.Extended;
 	generator.Save("test.bmp");
 }
 ```

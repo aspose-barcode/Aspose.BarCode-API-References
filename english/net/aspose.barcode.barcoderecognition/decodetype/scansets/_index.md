@@ -16,7 +16,7 @@ public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | Array of single and multy decode types |
+| barcodeTypes | BaseDecodeType[] | Array of single and multi decode types |
 
 ### Return Value
 
