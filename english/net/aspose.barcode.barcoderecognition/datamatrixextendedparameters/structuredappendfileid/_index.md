@@ -21,7 +21,7 @@ The ID of the DataMatrix structured append mode barcode.
 ### See Also
 
 * class [DataMatrixExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../datamatrixextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

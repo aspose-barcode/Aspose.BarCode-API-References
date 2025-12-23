@@ -41,7 +41,7 @@ using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DataMa
 ### See Also
 
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

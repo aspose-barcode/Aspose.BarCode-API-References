@@ -3,7 +3,7 @@ title: DotCodeParameters.ECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeParameters property. Identifies ECI encoding. Used when DotCodeEncodeMode is Auto. Default value ISO88591
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.barcode.generation/dotcodeparameters/eciencoding/
 ---
 ## DotCodeParameters.ECIEncoding property
@@ -18,7 +18,7 @@ public ECIEncodings ECIEncoding { get; set; }
 
 * enum [ECIEncodings](../../eciencodings/)
 * class [DotCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../dotcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

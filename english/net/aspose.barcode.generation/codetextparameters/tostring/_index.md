@@ -21,7 +21,7 @@ A string that represents this [`CodetextParameters`](../).
 ### See Also
 
 * class [CodetextParameters](../)
-* namespace [Aspose.BarCode.Generation](../../codetextparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -18,9 +18,9 @@ public sealed class CodabarExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
-| [CodabarStartSymbol](../../aspose.barcode.barcoderecognition/codabarextendedparameters/codabarstartsymbol/) { get; set; } | Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A |
-| [CodabarStopSymbol](../../aspose.barcode.barcoderecognition/codabarextendedparameters/codabarstopsymbol/) { get; set; } | Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tests whether all parameters has only default values |
+| [StartSymbol](../../aspose.barcode.barcoderecognition/codabarextendedparameters/startsymbol/) { get; set; } | Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A |
+| [StopSymbol](../../aspose.barcode.barcoderecognition/codabarextendedparameters/stopsymbol/) { get; set; } | Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A |
 
 ## Methods
 

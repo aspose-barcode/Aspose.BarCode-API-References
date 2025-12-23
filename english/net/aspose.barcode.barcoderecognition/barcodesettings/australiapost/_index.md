@@ -22,7 +22,7 @@ The AustraliaPost decoding parameters which make influence on recognized data of
 
 * class [AustraliaPostSettings](../../australiapostsettings/)
 * class [BarcodeSettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodesettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

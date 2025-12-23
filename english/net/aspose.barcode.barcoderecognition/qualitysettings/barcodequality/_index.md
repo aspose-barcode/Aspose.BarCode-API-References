@@ -22,7 +22,7 @@ Mode which enables methods to recognize barcode elements with the selected quali
 
 * enum [BarcodeQualityMode](../../barcodequalitymode/)
 * class [QualitySettings](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qualitysettings/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

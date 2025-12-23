@@ -18,7 +18,7 @@ public AztecEncodeMode AztecEncodeMode { get; set; }
 
 * enum [AztecEncodeMode](../../../aspose.barcode.generation/aztecencodemode/)
 * class [BarcodeGeneratorElement](../)
-* namespace [Aspose.BarCode.WPF](../../barcodegeneratorelement/)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
 * assembly [Aspose.BarCode](../../../)
 
 

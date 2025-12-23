@@ -3,7 +3,7 @@ title: Enum QREncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QREncodeType enum. QR / MicroQR selector mode. Select ForceQR for standard QR symbols Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible
 type: docs
-weight: 1500
+weight: 1490
 url: /net/aspose.barcode.generation/qrencodetype/
 ---
 ## QREncodeType enumeration

@@ -3,7 +3,7 @@ title: Pdf417Parameters.IsLinked
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. Defines linked modes with GS1MicroPdf417 MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906 907 912 913 914 915 Linked UCC/EAN128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.barcode.generation/pdf417parameters/islinked/
 ---
 ## Pdf417Parameters.IsLinked property
@@ -87,7 +87,7 @@ using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage()
 ### See Also
 
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

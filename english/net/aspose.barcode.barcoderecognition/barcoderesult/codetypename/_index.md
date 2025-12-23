@@ -21,7 +21,7 @@ The type name of the recognized barcode
 ### See Also
 
 * class [BarCodeResult](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcoderesult/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

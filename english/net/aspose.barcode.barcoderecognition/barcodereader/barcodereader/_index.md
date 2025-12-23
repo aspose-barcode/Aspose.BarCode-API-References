@@ -44,7 +44,7 @@ End Using
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -92,7 +92,7 @@ End Using
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -140,7 +140,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -156,7 +156,7 @@ public BarCodeReader(Bitmap image, BaseDecodeType type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | Bitmap | The image. |
-| type | BaseDecodeType | The decode type1. It can be single or multy |
+| type | BaseDecodeType | The decode type1. It can be single or multi |
 
 ## Examples
 
@@ -165,7 +165,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -175,7 +175,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeT
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -188,7 +188,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -237,7 +237,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -263,7 +263,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -273,7 +273,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -286,7 +286,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -335,7 +335,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -361,7 +361,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -371,7 +371,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -384,7 +384,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -429,7 +429,7 @@ End Using
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -474,7 +474,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -498,7 +498,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeType(DecodeType.Code39, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -507,7 +507,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeT
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+Using reader As New BarCodeReader("c:\test.png", New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -519,7 +519,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -567,7 +567,7 @@ End Using
 ### See Also
 
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -592,7 +592,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(DecodeType.Code39, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(fstr, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -602,7 +602,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(Decode
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, New MultyDecodeType(DecodeType.Code39, DecodeType.Code128))
+    Using reader As New BarCodeReader(fstr, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -615,7 +615,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -663,7 +663,7 @@ End Using
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

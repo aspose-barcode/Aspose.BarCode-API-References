@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1670
+weight: 1660
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -88,7 +88,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [DataMatrixAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixaspectratio/) { get; set; } | Aspect ratio. |
 | [DataMatrixColumns](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixcolumns/) { get; set; } | Columns count. |
 | [DataMatrixEcc](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixecc/) { get; set; } | Datamatrix ECC type. |
-| [DataMatrixECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeciencoding/) { get; set; } | ECI encoding. Used when DataMatrixEncodeMode is Auto. |
+| [DataMatrixECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixeciencoding/) { get; set; } | ECI encoding. Used when EncodeMode is Auto. |
 | [DataMatrixEncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixencodemode/) { get; set; } | Encode mode. |
 | [DataMatrixIsReaderProgramming](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogramming/) { get; set; } | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [DataMatrixRows](../../aspose.barcode.wpf/barcodegeneratorelement/datamatrixrows/) { get; set; } | Rows count. |
@@ -107,7 +107,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [EnableEscape](../../aspose.barcode.wpf/barcodegeneratorelement/enableescape/) { get; set; } | Indicates whether explains the character '\' as an escape character in CodeText property. |
 | [EncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/encodetype/) { get; set; } | BarCode's encode type (symbology). |
 | [FilledBars](../../aspose.barcode.wpf/barcodegeneratorelement/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. |
-| [GS1CompositeBarIsAllowOnlyGS1Encoding](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarisallowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
+| [GS1CompositeBarAllowOnlyGS1Encoding](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarallowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
 | [GS1CompositeBarLinearComponentType](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarlinearcomponenttype/) { get; set; } | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked. |
 | [GS1CompositeBarTwoDComponentType](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebartwodcomponenttype/) { get; set; } | 2D component type. |
 | [HanXinECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencoding/) { get; set; } | ECI encoding. |
@@ -259,7 +259,7 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/) | EnableEscapeProperty |
 | static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/) | EncodeTypeProperty |
 | static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/) | FilledBarsProperty |
-| static [GS1CompositeBarIsAllowOnlyGS1EncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarisallowonlygs1encodingproperty/) | GS1CompositeBarIsAllowOnlyGS1EncodingProperty |
+| static [GS1CompositeBarAllowOnlyGS1EncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarallowonlygs1encodingproperty/) | GS1CompositeBarAllowOnlyGS1EncodingProperty |
 | static [GS1CompositeBarLinearComponentTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarlinearcomponenttypeproperty/) | GS1CompositeBarLinearComponentTypeProperty |
 | static [GS1CompositeBarTwoDComponentTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebartwodcomponenttypeproperty/) | GS1CompositeBarTwoDComponentTypeProperty |
 | static [HanXinECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/hanxineciencodingproperty/) | HanXinECIEncodingProperty |

@@ -26,7 +26,7 @@ public sealed class Mailmark2DCodetext : IComplexCodetext
 | --- | --- |
 | [Class](../../aspose.barcode.complexbarcode/mailmark2dcodetext/class/) { get; set; } | Identifies the class of the item. |
 | [CustomerContent](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontent/) { get; set; } | Optional space for use by customer. |
-| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode/) { get; set; } | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40. |
+| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode/) { get; set; } | Encode mode of Datamatrix barcode. Default value: EncodeMode.C40. |
 | [DataMatrixType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/datamatrixtype/) { get; set; } | 2D Mailmark Type defines size of Data Matrix barcode. |
 | [DestinationPostCodeAndDPS](../../aspose.barcode.complexbarcode/mailmark2dcodetext/destinationpostcodeanddps/) { get; set; } | Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format. |
 | [InformationTypeID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/informationtypeid/) { get; set; } | Identifies the Royal Mail Mailmark barcode payload for each product type. |

@@ -17,7 +17,7 @@ public static readonly int ProductMajor;
 ### See Also
 
 * class [BuildVersionInfo](../)
-* namespace [Aspose.BarCode](../../buildversioninfo/)
+* namespace [Aspose.BarCode](../../../aspose.barcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

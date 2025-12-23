@@ -18,7 +18,7 @@ public Pdf417Parameters Pdf417 { get; }
 
 * class [Pdf417Parameters](../../pdf417parameters/)
 * class [BarcodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../barcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

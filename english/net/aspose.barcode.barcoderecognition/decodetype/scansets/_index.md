@@ -16,7 +16,7 @@ public static BaseDecodeType ScanSets(params BaseDecodeType[] barcodeTypes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | BaseDecodeType[] | Array of single and multy decode types |
+| barcodeTypes | BaseDecodeType[] | Array of single and multi decode types |
 
 ### Return Value
 
@@ -26,7 +26,7 @@ A multi decode type
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

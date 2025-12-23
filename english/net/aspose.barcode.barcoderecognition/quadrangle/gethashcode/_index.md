@@ -21,7 +21,7 @@ A 32-bit signed integer hash code.
 ### See Also
 
 * class [Quadrangle](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../quadrangle/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

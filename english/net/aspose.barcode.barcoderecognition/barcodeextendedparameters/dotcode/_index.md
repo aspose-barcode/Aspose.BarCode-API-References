@@ -22,7 +22,7 @@ A DotCode additional information[`DotCodeExtendedParameters`](../../dotcodeexten
 
 * class [DotCodeExtendedParameters](../../dotcodeextendedparameters/)
 * class [BarCodeExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../barcodeextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -11,14 +11,14 @@ url: /net/aspose.barcode.barcoderecognition/decodetype/mostcommontypes/
 Specifies that data will be checked with most commonly used symbologies
 
 ```csharp
-public static readonly MultyDecodeType MostCommonTypes;
+public static readonly MultiDecodeType MostCommonTypes;
 ```
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -30,14 +30,14 @@ This sample shows how to genereate MaxiCode barcodes using ComplexBarcodeGenerat
 
 ```csharp
 [C#]
-//Mode 2 with standart second message
+//Mode 2 with standard second message
 MaxiCodeCodetextMode2 maxiCodeCodetext = new MaxiCodeCodetextMode2();
 maxiCodeCodetext.PostalCode = "524032140";
 maxiCodeCodetext.CountryCode = 056;
 maxiCodeCodetext.ServiceCategory = 999;
-MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
-maxiCodeStandartSecondMessage.Message = "Test message";
-maxiCodeCodetext.SecondMessage = maxiCodeStandartSecondMessage;
+MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+maxiCodeStandardSecondMessage.Message = "Test message";
+maxiCodeCodetext.SecondMessage = maxiCodeStandardSecondMessage;
 using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
 {
     complexGenerator.GenerateBarCodeImage();
@@ -57,14 +57,14 @@ using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(ma
 {
     complexGenerator.GenerateBarCodeImage();
 }
-//Mode 3 with standart second message
+//Mode 3 with standard second message
 MaxiCodeCodetextMode3 maxiCodeCodetext = new MaxiCodeCodetextMode3();
 maxiCodeCodetext.PostalCode = "B1050";
 maxiCodeCodetext.CountryCode = 056;
 maxiCodeCodetext.ServiceCategory = 999;
-MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
-maxiCodeStandartSecondMessage.Message = "Test message";
-maxiCodeCodetext.SecondMessage = maxiCodeStandartSecondMessage;
+MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+maxiCodeStandardSecondMessage.Message = "Test message";
+maxiCodeCodetext.SecondMessage = maxiCodeStandardSecondMessage;
 using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
 {
     complexGenerator.GenerateBarCodeImage();

@@ -25,7 +25,7 @@ the instance of , if conversion was successful; otherwise, it returns .
 ### See Also
 
 * class [BaseEncodeType](../)
-* namespace [Aspose.BarCode.Generation](../../baseencodetype/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

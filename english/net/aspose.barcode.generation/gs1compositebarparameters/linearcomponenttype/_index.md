@@ -18,7 +18,7 @@ public BaseEncodeType LinearComponentType { get; set; }
 
 * class [BaseEncodeType](../../baseencodetype/)
 * class [GS1CompositeBarParameters](../)
-* namespace [Aspose.BarCode.Generation](../../gs1compositebarparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -26,22 +26,22 @@ public virtual bool Equals(SingleDecodeType other)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## Equals(MultyDecodeType) {#equals_1}
+## Equals(MultiDecodeType) {#equals_1}
 
-Returns a value indicating whether this instance is equal to a specified [`MultyDecodeType`](../../multydecodetype/) value.
+Returns a value indicating whether this instance is equal to a specified [`MultiDecodeType`](../../multidecodetype/) value.
 
 ```csharp
-public virtual bool Equals(MultyDecodeType other)
+public virtual bool Equals(MultiDecodeType other)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | MultyDecodeType | An [`MultyDecodeType`](../../multydecodetype/) value to compare to this instance. |
+| other | MultiDecodeType | An [`MultiDecodeType`](../../multidecodetype/) value to compare to this instance. |
 
 ### Return Value
 
@@ -49,9 +49,9 @@ public virtual bool Equals(MultyDecodeType other)
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -75,7 +75,7 @@ public bool Equals(BaseDecodeType other)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -99,7 +99,7 @@ public override bool Equals(object obj)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

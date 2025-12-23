@@ -22,7 +22,7 @@ MaxiCode mode
 
 * enum [MaxiCodeMode](../../../aspose.barcode.generation/maxicodemode/)
 * class [MaxiCodeCodetextMode3](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../maxicodecodetextmode3/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

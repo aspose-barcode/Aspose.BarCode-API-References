@@ -11,14 +11,14 @@ url: /net/aspose.barcode.barcoderecognition/decodetype/postaltypes/
 Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX**
 
 ```csharp
-public static readonly MultyDecodeType PostalTypes;
+public static readonly MultiDecodeType PostalTypes;
 ```
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

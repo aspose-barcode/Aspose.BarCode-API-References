@@ -21,7 +21,7 @@ public void AddFNC1SecondPosition(string codetext)
 ### See Also
 
 * class [QrExtCodetextBuilder](../)
-* namespace [Aspose.BarCode.Generation](../../qrextcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

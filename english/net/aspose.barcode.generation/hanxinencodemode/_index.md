@@ -41,7 +41,7 @@ byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin))
 {
     generator.SetCodetext(encodedArr);
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Binary;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Binary;
     generator.Save("test.bmp");
 }
 
@@ -49,8 +49,8 @@ using (var generator = new BarcodeGenerator(EncodeTypes.HanXin))
 var codetext = "ΑΒΓΔΕ";
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.ECI;
-    generator.Parameters.Barcode.HanXin.HanXinECIEncoding = ECIEncodings.ISO_8859_7;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.ECI;
+    generator.Parameters.Barcode.HanXin.ECIEncoding = ECIEncodings.ISO_8859_7;
     generator.Save("test.bmp");
 }
 
@@ -58,7 +58,7 @@ using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 var codetext = "abcd АБВ ıntəˈnæʃənəl テスト 안녕하세요 테스트 테스트";
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Unicode;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Unicode;
     generator.Save("test.bmp");
 }
 
@@ -66,7 +66,7 @@ using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 var codetext = "https://www.test.com/%BC%DE%%%ab/search=test";
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, codetext))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.URI;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.URI;
     generator.Save("test.bmp");
 }
 
@@ -78,7 +78,7 @@ var expectedStr = @"漄㐁全螅123qweıntəˈnæʃənəlΑΒΓΔΕabcabcbacksla
 
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, str))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Extended;
     generator.Save("test.bmp");
 }
 
@@ -105,7 +105,7 @@ var str = codeTextBuilder.GetExtendedCodetext();
 //generate
 using (var generator = new BarcodeGenerator(EncodeTypes.HanXin, str))
 {
-    generator.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    generator.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Extended;
     generator.Save("test.bmp");
 }
 ```

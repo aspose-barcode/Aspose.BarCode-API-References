@@ -3,7 +3,7 @@ title: QrParametersUI.QrEncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParametersUI property. QR / MicroQR selector mode. Select ForceQR for standard QR symbols Auto for MicroQR
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.windows.forms/qrparametersui/qrencodetype/
 ---
 ## QrParametersUI.QrEncodeType property
@@ -18,7 +18,7 @@ public QREncodeType QrEncodeType { get; set; }
 
 * enum [QREncodeType](../../../aspose.barcode.generation/qrencodetype/)
 * class [QrParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../qrparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

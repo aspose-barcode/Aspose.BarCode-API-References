@@ -27,23 +27,23 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse_1}
+## TryParse(string, out MultiDecodeType) {#tryparse_1}
 
-Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
+Converts the string representation of a MultiDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | String | A string containing a MultyDecodeType representation to convert. |
-| result | MultyDecodeType& | An actual MultyDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultyDecodeType(DecodeType.None) |
+| parsingType | String | A string containing a MultiDecodeType representation to convert. |
+| result | MultiDecodeType& | An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultiDecodeType(DecodeType.None) |
 
 ### Return Value
 
@@ -51,9 +51,9 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
@@ -68,8 +68,8 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | String | A string containing a MultyDecodeType representation to convert. |
-| result | BaseDecodeType& | An actual MultyDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: DecodeType.None. |
+| parsingType | String | A string containing a MultiDecodeType representation to convert. |
+| result | BaseDecodeType& | An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: DecodeType.None. |
 
 ### Return Value
 
@@ -78,7 +78,7 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 ### See Also
 
 * class [BaseDecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -24,7 +24,7 @@ public Unit Size { get; }
 
 * class [Unit](../../unit/)
 * class [FontUnit](../)
-* namespace [Aspose.BarCode.Generation](../../fontunit/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
 title: Class QrExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
-description: Aspose.BarCode.Generation.QrExtCodetextBuilder class. Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode
+description: Aspose.BarCode.Generation.QrExtCodetextBuilder class. Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of EncodeMode
 type: docs
-weight: 1530
+weight: 1520
 url: /net/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
 
-Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode
+Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of EncodeMode
 
 Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters.
 
@@ -53,8 +53,8 @@ string lCodetext = lTextBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
 	generator.CodeText = lCodetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
@@ -76,8 +76,8 @@ string lCodetext = lTextBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
 	generator.CodeText = lCodetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
@@ -101,8 +101,8 @@ string lCodetext = lTextBuilder.GetExtendedCodetext();
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
 	generator.CodeText = lCodetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");

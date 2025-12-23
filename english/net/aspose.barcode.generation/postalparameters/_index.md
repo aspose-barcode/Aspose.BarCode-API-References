@@ -3,7 +3,7 @@ title: Class PostalParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.PostalParameters class. Postal parameters. Used for Postnet Planet
 type: docs
-weight: 1480
+weight: 1470
 url: /net/aspose.barcode.generation/postalparameters/
 ---
 ## PostalParameters class
@@ -18,7 +18,7 @@ public class PostalParameters
 
 | Name | Description |
 | --- | --- |
-| [PostalShortBarHeight](../../aspose.barcode.generation/postalparameters/postalshortbarheight/) { get; set; } | Short bar's height of Postal barcodes. |
+| [ShortBarHeight](../../aspose.barcode.generation/postalparameters/shortbarheight/) { get; set; } | Short bar's height of Postal barcodes. |
 
 ## Methods
 

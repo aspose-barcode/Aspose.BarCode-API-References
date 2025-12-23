@@ -21,7 +21,7 @@ A 32-bit signed integer hash code.
 ### See Also
 
 * class [GS1CompositeBarExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../gs1compositebarextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

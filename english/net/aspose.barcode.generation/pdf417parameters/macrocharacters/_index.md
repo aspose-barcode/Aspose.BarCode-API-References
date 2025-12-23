@@ -3,7 +3,7 @@ title: Pdf417Parameters.MacroCharacters
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417Parameters property. Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value MacroCharacters.None
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.barcode.generation/pdf417parameters/macrocharacters/
 ---
 ## Pdf417Parameters.MacroCharacters property
@@ -39,7 +39,7 @@ using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage()
 
 * enum [MacroCharacter](../../macrocharacter/)
 * class [Pdf417Parameters](../)
-* namespace [Aspose.BarCode.Generation](../../pdf417parameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: QRExtendedParameters.MicroQRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Version of recognized MicroQR Code. From M1 to M4
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/
 ---
 ## QRExtendedParameters.MicroQRVersion property
@@ -18,7 +18,7 @@ public MicroQRVersion MicroQRVersion { get; }
 
 * enum [MicroQRVersion](../../../aspose.barcode.generation/microqrversion/)
 * class [QRExtendedParameters](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../qrextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -17,7 +17,7 @@ public int Columns { get; set; }
 ### See Also
 
 * class [DotCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../dotcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

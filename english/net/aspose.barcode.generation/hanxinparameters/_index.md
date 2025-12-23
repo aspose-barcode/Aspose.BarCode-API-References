@@ -18,10 +18,10 @@ public class HanXinParameters
 
 | Name | Description |
 | --- | --- |
-| [HanXinECIEncoding](../../aspose.barcode.generation/hanxinparameters/hanxineciencoding/) { get; set; } | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. |
-| [HanXinEncodeMode](../../aspose.barcode.generation/hanxinparameters/hanxinencodemode/) { get; set; } | HanXin encoding mode. Default value: HanXinEncodeMode.Mixed. |
-| [HanXinErrorLevel](../../aspose.barcode.generation/hanxinparameters/hanxinerrorlevel/) { get; set; } | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel. |
-| [HanXinVersion](../../aspose.barcode.generation/hanxinparameters/hanxinversion/) { get; set; } | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto. |
+| [ECIEncoding](../../aspose.barcode.generation/hanxinparameters/eciencoding/) { get; set; } | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
+| [EncodeMode](../../aspose.barcode.generation/hanxinparameters/encodemode/) { get; set; } | HanXin encoding mode. Default value: EncodeMode.Mixed. |
+| [ErrorLevel](../../aspose.barcode.generation/hanxinparameters/errorlevel/) { get; set; } | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
+| [Version](../../aspose.barcode.generation/hanxinparameters/version/) { get; set; } | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto. |
 
 ## Methods
 

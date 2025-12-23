@@ -3,7 +3,7 @@ title: PatchCodeParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: PatchCodeParameters method. Returns a humanreadable string representation of this PatchCodeParameters
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/patchcodeparameters/tostring/
 ---
 ## PatchCodeParameters.ToString method
@@ -21,7 +21,7 @@ A string that represents this [`PatchCodeParameters`](../).
 ### See Also
 
 * class [PatchCodeParameters](../)
-* namespace [Aspose.BarCode.Generation](../../patchcodeparameters/)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
 * assembly [Aspose.BarCode](../../../)
 
 

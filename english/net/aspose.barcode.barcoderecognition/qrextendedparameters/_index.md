@@ -18,14 +18,14 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 | Name | Description |
 | --- | --- |
+| [ErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/errorlevel/) { get; } | Reed-Solomon error correction level of recognized barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tests whether all parameters has only default values |
 | [MicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/) { get; } | Version of recognized MicroQR Code. From M1 to M4. |
-| [QRErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrerrorlevel/) { get; } | Reed-Solomon error correction level of recognized barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. |
-| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex/) { get; } | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity/) { get; } | Gets the QR structured append mode barcodes quantity. Default value is -1. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata/) { get; } | Gets the QR structured append mode parity data. Default value is -1. |
-| [QRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrversion/) { get; } | Version of recognized QR Code. From Version1 to Version40. |
 | [RectMicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/) { get; } | Version of recognized RectMicroQR Code. From R7x43 to R17x139. |
+| [StructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/) { get; } | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
+| [StructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/) { get; } | Gets the QR structured append mode barcodes quantity. Default value is -1. |
+| [StructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodeparitydata/) { get; } | Gets the QR structured append mode parity data. Default value is -1. |
+| [Version](../../aspose.barcode.barcoderecognition/qrextendedparameters/version/) { get; } | Version of recognized QR Code. From Version1 to Version40. |
 
 ## Methods
 

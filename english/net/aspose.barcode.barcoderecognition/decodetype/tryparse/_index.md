@@ -27,23 +27,23 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse}
+## TryParse(string, out MultiDecodeType) {#tryparse}
 
-Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
+Converts the string representation of a MultiDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parsingType | String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
-| result | MultyDecodeType& | An actual MultyDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultyDecodeType(DecodeType.None) |
+| result | MultiDecodeType& | An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultiDecodeType(DecodeType.None) |
 
 ### Return Value
 
@@ -51,9 +51,9 @@ public static bool TryParse(string parsingType, out MultyDecodeType result)
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 

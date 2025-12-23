@@ -17,7 +17,7 @@ public int ItemID { get; set; }
 ### See Also
 
 * class [MailmarkCodetext](../)
-* namespace [Aspose.BarCode.ComplexBarcode](../../mailmarkcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
 * assembly [Aspose.BarCode](../../../)
 
 

@@ -3,7 +3,7 @@ title: Class SymbologyEncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.SymbologyEncodeType class. Symbology encode type. See EncodeTypes to get instance
 type: docs
-weight: 1600
+weight: 1590
 url: /net/aspose.barcode.generation/symbologyencodetype/
 ---
 ## SymbologyEncodeType class

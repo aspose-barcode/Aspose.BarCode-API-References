@@ -3,7 +3,7 @@ title: Enum QREncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QREncodeMode enum. Encoding mode for QR barcodes
 type: docs
-weight: 1490
+weight: 1480
 url: /net/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enumeration
@@ -39,14 +39,14 @@ These samples show how to encode and save QR barcode with extended data formats.
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
     generator.CodeText = "12345TEXT";
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding;
     generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
 [VB.NET]
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = "12345TEXT"
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
     generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
     generator.Save("test.png")
 End Using
@@ -77,7 +77,7 @@ textBuilder.AddPlainCodetext("12345<FNC1>");
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
     generator.CodeText = textBuilder.GetExtendedCodetext();
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extended;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
@@ -91,7 +91,7 @@ textBuilder.AddPlainCodetext("12345<FNC1>")
 'generate barcode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = textBuilder.GetExtendedCodetext()
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
     generator.Save("test.png")
 End Using
@@ -107,7 +107,7 @@ textBuilder.AddPlainCodetext("TRUE3456");
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
     generator.CodeText = textBuilder.GetExtendedCodetext();
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extended;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
@@ -119,7 +119,7 @@ textBuilder.AddPlainCodetext("TRUE3456")
 'generate barcode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = textBuilder.GetExtendedCodetext()
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
     generator.Save("test.png")
 End Using
@@ -137,7 +137,7 @@ textBuilder.AddPlainCodetext(@"t\e\\st");
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
     generator.CodeText = textBuilder.GetExtendedCodetext();
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extendedt;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extendedt;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
@@ -151,7 +151,7 @@ textBuilder.AddPlainCodetext(@"t\e\\st")
 'generate barcode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = textBuilder.GetExtendedCodetext()
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
     generator.Save("test.png")
 End Using   

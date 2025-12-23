@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.MacroCharacters
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Protocol for Macro characters in the first position ECC 200 only
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/macrocharacters/
 ---
 ## DataMatrixParametersUI.MacroCharacters property
@@ -18,7 +18,7 @@ public MacroCharacter MacroCharacters { get; set; }
 
 * enum [MacroCharacter](../../../aspose.barcode.generation/macrocharacter/)
 * class [DataMatrixParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../datamatrixparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

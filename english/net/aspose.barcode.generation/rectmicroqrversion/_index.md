@@ -3,7 +3,7 @@ title: Enum RectMicroQRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.RectMicroQRVersion enum. Version of RectMicroQR Code. From version R7x43 to version R17x139
 type: docs
-weight: 1560
+weight: 1550
 url: /net/aspose.barcode.generation/rectmicroqrversion/
 ---
 ## RectMicroQRVersion enumeration

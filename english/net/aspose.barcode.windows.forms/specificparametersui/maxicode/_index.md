@@ -18,7 +18,7 @@ public MaxiCodeParameters MaxiCode { get; }
 
 * class [MaxiCodeParameters](../../../aspose.barcode.generation/maxicodeparameters/)
 * class [SpecificParametersUI](../)
-* namespace [Aspose.BarCode.Windows.Forms](../../specificparametersui/)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
 * assembly [Aspose.BarCode](../../../)
 
 

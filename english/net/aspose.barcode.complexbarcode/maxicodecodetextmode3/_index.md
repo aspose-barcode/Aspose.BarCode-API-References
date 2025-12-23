@@ -26,7 +26,7 @@ public class MaxiCodeCodetextMode3 : MaxiCodeStructuredCodetext
 | --- | --- |
 | [CountryCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/countrycode/) { get; set; } | Identifies 3 digit country code. |
 | [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
-| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
+| [EncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/encodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
 | [PostalCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/postalcode/) { get; set; } | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
 | [SecondMessage](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/secondmessage/) { get; set; } | Identifies second message of the barcode. |
 | [ServiceCategory](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/servicecategory/) { get; set; } | Identifies 3 digit service category. |
@@ -48,14 +48,14 @@ This sample shows how to encode and decode MaxiCode codetext for mode 3.
 
 ```csharp
 [C#]
-//Mode 3 with standart second message
+//Mode 3 with standard second message
 MaxiCodeCodetextMode3 maxiCodeCodetext = new MaxiCodeCodetextMode3();
 maxiCodeCodetext.PostalCode = "B1050";
 maxiCodeCodetext.CountryCode = 056;
 maxiCodeCodetext.ServiceCategory = 999;
-MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
-maxiCodeStandartSecondMessage.Message = "Test message";
-maxiCodeCodetext.SecondMessage = maxiCodeStandartSecondMessage;
+MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+maxiCodeStandardSecondMessage.Message = "Test message";
+maxiCodeCodetext.SecondMessage = maxiCodeStandardSecondMessage;
 using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
 {
     complexGenerator.GenerateBarCodeImage();
@@ -75,7 +75,7 @@ using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(ma
 {
     complexGenerator.GenerateBarCodeImage();
 }
-//Decoding raw codetext with standart second message
+//Decoding raw codetext with standard second message
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiCode))
 {
      foreach (BarCodeResult result in reader.ReadBarCodes())
@@ -86,8 +86,8 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiC
             Console.WriteLine("BarCode Type: " + maxiCodeStructuredCodetext.PostalCode);
             Console.WriteLine("MaxiCode mode: " + maxiCodeStructuredCodetext.CountryCode);
             Console.WriteLine("BarCode CodeText: " + maxiCodeStructuredCodetext.ServiceCategory);
-            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStandartSecondMessage){
-                MaxiCodeStandartSecondMessage secondMessage = (MaxiCodeStandartSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
+            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStandardSecondMessage){
+                MaxiCodeStandardSecondMessage secondMessage = (MaxiCodeStandardSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
                 Console.WriteLine("Message: " + secondMessage.Message);
             }
         }

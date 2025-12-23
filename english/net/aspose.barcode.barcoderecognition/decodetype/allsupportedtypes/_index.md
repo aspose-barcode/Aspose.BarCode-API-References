@@ -11,14 +11,14 @@ url: /net/aspose.barcode.barcoderecognition/decodetype/allsupportedtypes/
 Specifies that data will be checked with all available symbologies
 
 ```csharp
-public static readonly MultyDecodeType AllSupportedTypes;
+public static readonly MultiDecodeType AllSupportedTypes;
 ```
 
 ### See Also
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [DecodeType](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../decodetype/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)
 
 
