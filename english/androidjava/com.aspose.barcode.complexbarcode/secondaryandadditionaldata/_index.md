@@ -35,9 +35,7 @@ Class for storing HIBC LIC secondary and additional data.
 | [notifyAll()](#notifyAll--) |  |
 | [parseFromString(String secondaryDataCodetext)](#parseFromString-java.lang.String-) | Instantiates secondary and additional supplemental data from string format according HIBC LIC specification. |
 | [setDateOfManufacture(LocalDateTime value)](#setDateOfManufacture-java.time.LocalDateTime-) | Identifies date of manufacture. |
-| [setDateOfManufacture(Date value)](#setDateOfManufacture-java.util.Date-) | Identifies date of manufacture. |
 | [setExpiryDate(LocalDateTime value)](#setExpiryDate-java.time.LocalDateTime-) | Identifies expiry date. |
-| [setExpiryDate(Date value)](#setExpiryDate-java.util.Date-) | Identifies expiry date. |
 | [setExpiryDateFormat(HIBCLICDateFormat value)](#setExpiryDateFormat-com.aspose.barcode.complexbarcode.HIBCLICDateFormat-) | Identifies expiry date format. |
 | [setLotNumber(String value)](#setLotNumber-java.lang.String-) | Identifies lot or batch number. |
 | [setQuantity(int value)](#setQuantity-int-) | Identifies quantity, must be integer value from 0 to 500. |
@@ -189,19 +187,6 @@ Identifies date of manufacture. Date of manufacture can be set to DateTime.MinVa
 | --- | --- | --- |
 | value | java.time.LocalDateTime |  |
 
-### setDateOfManufacture(Date value) {#setDateOfManufacture-java.util.Date-}
-```
-public void setDateOfManufacture(Date value)
-```
-
-
-Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Default value: DateTime.MinValue
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
-
 ### setExpiryDate(LocalDateTime value) {#setExpiryDate-java.time.LocalDateTime-}
 ```
 public void setExpiryDate(LocalDateTime value)
@@ -214,19 +199,6 @@ Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.time.LocalDateTime |  |
-
-### setExpiryDate(Date value) {#setExpiryDate-java.util.Date-}
-```
-public void setExpiryDate(Date value)
-```
-
-
-Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date |  |
 
 ### setExpiryDateFormat(HIBCLICDateFormat value) {#setExpiryDateFormat-com.aspose.barcode.complexbarcode.HIBCLICDateFormat-}
 ```
@@ -300,7 +272,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

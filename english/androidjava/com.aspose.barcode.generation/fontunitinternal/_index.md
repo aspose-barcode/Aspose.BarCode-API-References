@@ -3,7 +3,7 @@ title: FontUnitInternal
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 42
+weight: 45
 url: /androidjava/com.aspose.barcode.generation/fontunitinternal/
 ---
 **Inheritance:**
@@ -23,6 +23,7 @@ public class FontUnitInternal
 | [ctor(FontUnit source)](#ctor-com.aspose.barcode.generation.FontUnit-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getFont(FontUnit fontUnit)](#getFont-com.aspose.barcode.generation.FontUnit-) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -76,6 +77,21 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFont(FontUnit fontUnit) {#getFont-com.aspose.barcode.generation.FontUnit-}
+```
+public static TextPaint getFont(FontUnit fontUnit)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontUnit | [FontUnit](../../com.aspose.barcode.generation/fontunit) |  |
+
+**Returns:**
+android.text.TextPaint
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -122,7 +138,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

@@ -8,11 +8,8 @@ url: /androidjava/com.aspose.barcode.barcoderecognition/basedecodetype/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-android.os.Parcelable
 ```
-public abstract class BaseDecodeType implements Parcelable
+public abstract class BaseDecodeType
 ```
 
 Base class for MultyDecodeType and SingleDecodeType.
@@ -23,16 +20,18 @@ Base class for MultyDecodeType and SingleDecodeType.
 > This sample shows how to use BaseDecodeType with SingleDecodeType and MultyDecodeType
 >  
 >  BaseDecodeType decodeOne = DecodeType.CODE_128;
->  BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.CODE_128, DecodeType.CODE_39, DecodeType.CODE_39_FULL_ASCII);
+>  BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.CODE_128, DecodeType.CODE_39_STANDARD, DecodeType.CODE_39_FULL_ASCII);
 > ```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Determines whether any of the given decode types is included into |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(Object other)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
+| [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -57,9 +56,9 @@ Determines whether any of the given decode types is included into
 
 **Returns:**
 boolean - Value is a true if any types are included into.
-### equals(Object obj) {#equals-java.lang.Object-}
+### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
 ```
-public boolean equals(Object obj)
+public boolean equals(MultyDecodeType other)
 ```
 
 
@@ -68,7 +67,37 @@ Returns a value indicating whether this instance is equal to a specified [BaseDe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An System.Object value to compare to this instance. |
+| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) | An java.lang.Object value to compare to this instance. |
+
+**Returns:**
+boolean - True if obj has the same value as this instance; otherwise, false.
+### equals(SingleDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public boolean equals(SingleDecodeType other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) | An java.lang.Object value to compare to this instance. |
+
+**Returns:**
+boolean - True if obj has the same value as this instance; otherwise, false.
+### equals(Object other) {#equals-java.lang.Object-}
+```
+public boolean equals(Object other)
+```
+
+
+Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | java.lang.Object | An java.lang.Object value to compare to this instance. |
 
 **Returns:**
 boolean - True if obj has the same value as this instance; otherwise, false.
@@ -84,14 +113,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
-public int hashCode()
+public native int hashCode()
 ```
 
 
-Returns the hash code for this instance.
+
 
 **Returns:**
-int - A 32-bit signed integer hash code.
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -179,7 +208,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

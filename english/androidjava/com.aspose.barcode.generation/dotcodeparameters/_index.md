@@ -3,7 +3,7 @@ title: DotCodeParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: DotCode parameters.
 type: docs
-weight: 33
+weight: 36
 url: /androidjava/com.aspose.barcode.generation/dotcodeparameters/
 ---
 **Inheritance:**
@@ -297,7 +297,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

@@ -84,10 +84,34 @@ public boolean getDetectEncoding()
 ```
 
 
-The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR); generator.setCodeText("\\u0421\\u043b\\u043e\\u0432\\u043e", Charset.forName("UTF-8")); Bitmap im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true.
+
+--------------------
+
+> ```
+> This sample shows how to detect text encoding on the fly if DetectEncoding is enabled
+>  
+> 
+>  ByteArrayOutputStream ms = new ByteArrayOutputStream();
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>  generator.setCodeText("\u0421\u043b\u043e\u0432\u043e", StandardCharsets.UTF_8);
+>  generator.save(ms, BarCodeImageFormat.PNG);
+> 
+>  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
+>  reader.getBarcodeSettings().setDetectEncoding(true);
+>  for (BarCodeResult result : reader.readBarCodes())
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  //detect encoding is disabled
+>  reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
+>  reader.getBarcodeSettings().setDetectEncoding(false);
+>  for (BarCodeResult result : reader.readBarCodes())
+>      System.out.println("BarCode CodeText: " + result.getCodeText());
+> ```
+
+Value: The flag which force engine to detect codetext encoding for Unicode codesets
 
 **Returns:**
-boolean - The flag which force engine to detect codetext encoding for Unicode codesets
+boolean
 ### getStripFNC() {#getStripFNC--}
 ```
 public boolean getStripFNC()
@@ -143,7 +167,31 @@ public void setDetectEncoding(boolean value)
 ```
 
 
-The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. Example BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "\\u0421\\u043b\\u043e\\u0432\\u043e")) generator.getParameters().getBarcode().getQR().setCodeTextEncoding(Charset.forName("UTF-8")); Bitmap im = generator.generateBarcodeImage(); //detects encoding for Unicode codesets is enabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(true); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText()); //detect encoding is disabled BarCodeReader reader = new BarCodeReader(im, DecodeType.QR); reader.getBarcodeSettings().setDetectEncoding(false); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode CodeText: " + result.getCodeText());
+The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true.
+
+--------------------
+
+> ```
+> This sample shows how to detect text encoding on the fly if DetectEncoding is enabled
+>  
+> 
+>  ByteArrayOutputStream ms = new ByteArrayOutputStream();
+>  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+>  generator.setCodeText("\u0421\u043b\u043e\u0432\u043e", StandardCharsets.UTF_8);
+>  generator.save(ms, BarCodeImageFormat.PNG);
+> 
+>  BarCodeReader reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
+>  reader.getBarcodeSettings().setDetectEncoding(true);
+>  for (BarCodeResult result : reader.readBarCodes())
+>     System.out.println("BarCode CodeText: " + result.getCodeText());
+>  //detect encoding is disabled
+>  reader = new BarCodeReader(new ByteArrayInputStream(ms.toByteArray()), DecodeType.QR);
+>  reader.getBarcodeSettings().setDetectEncoding(false);
+>  for (BarCodeResult result : reader.readBarCodes())
+>      System.out.println("BarCode CodeText: " + result.getCodeText());
+> ```
+
+Value: The flag which force engine to detect codetext encoding for Unicode codesets
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -183,7 +231,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

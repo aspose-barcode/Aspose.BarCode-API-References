@@ -3,7 +3,7 @@ title: ExtPlainCodetext
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Plain simple codetext container
 type: docs
-weight: 39
+weight: 42
 url: /androidjava/com.aspose.barcode.generation/extplaincodetext/
 ---
 **Inheritance:**
@@ -128,7 +128,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

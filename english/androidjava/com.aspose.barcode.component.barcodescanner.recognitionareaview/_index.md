@@ -3,7 +3,7 @@ title: com.aspose.barcode.component.barcodescanner.recognitionareaview
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 15
+weight: 14
 url: /androidjava/com.aspose.barcode.component.barcodescanner.recognitionareaview/
 ---
 

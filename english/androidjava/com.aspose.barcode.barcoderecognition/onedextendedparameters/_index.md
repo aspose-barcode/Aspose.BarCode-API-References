@@ -20,8 +20,8 @@ Stores special data of 1D recognized barcode like separate codetext and checksum
 > This sample shows how to get 1D barcode value and checksum
 >  
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "1234567890128");
->  generator.save("test.png");
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.EAN_13);
+>  generator.save("c:\\test.png");
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -153,7 +153,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

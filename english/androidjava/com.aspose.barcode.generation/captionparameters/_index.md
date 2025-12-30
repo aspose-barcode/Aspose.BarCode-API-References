@@ -3,7 +3,7 @@ title: CaptionParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Caption parameters.
 type: docs
-weight: 18
+weight: 20
 url: /androidjava/com.aspose.barcode.generation/captionparameters/
 ---
 **Inheritance:**
@@ -30,7 +30,6 @@ Caption parameters.
 Specify word wraps (line breaks) within text.
 ``` |
 | [getPadding()](#getPadding--) | Captions paddings. |
-| [getStateHash()](#getStateHash--) |  |
 | [getText()](#getText--) | Caption text. |
 | [getTextColor()](#getTextColor--) | Caption text color. |
 | [getVisible()](#getVisible--) | Caption text visibility. |
@@ -123,16 +122,6 @@ Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value 
 
 **Returns:**
 [Padding](../../com.aspose.barcode.generation/padding)
-### getStateHash() {#getStateHash--}
-```
-public int getStateHash()
-```
-
-
-
-
-**Returns:**
-int
 ### getText() {#getText--}
 ```
 public String getText()
@@ -195,7 +184,7 @@ public void setAlignment(TextAlignment value)
 ```
 
 
-Caption test horizontal alignment. Default value: StringAlignment.CENTER.
+Caption test horizontal alignment. Default value: StringAlignment.Center.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +278,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

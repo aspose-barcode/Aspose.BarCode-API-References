@@ -3,7 +3,7 @@ title: MaxiCodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 52
+weight: 56
 url: /androidjava/com.aspose.barcode.generation/maxicodemode/
 ---
 **Inheritance:**
@@ -640,7 +640,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

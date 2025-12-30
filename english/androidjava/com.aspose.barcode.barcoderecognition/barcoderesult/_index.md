@@ -139,6 +139,22 @@ public String getCodeText(Charset encoding)
 
 Gets the code text with encoding.
 
+--------------------
+
+> ```
+> This example shows how to use ```
+> GetCodeText
+> ```:
+>   
+>   BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
+>  	gen.setCodeText("\u8eca\u7a2e\u540d", Charset.forName("932"));
+>  	gen.save("barcode.png", BarCodeImageFormat.PNG);
+> 
+>  	BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DATA_MATRIX);
+>   for(BarCodeResult result : reader.readBarCodes())
+>      System.out.println("BarCode CodeText: " + result.getCodeText(Charset.forName("932")));
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -264,7 +280,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

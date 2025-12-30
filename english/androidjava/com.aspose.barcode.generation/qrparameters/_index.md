@@ -3,7 +3,7 @@ title: QrParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: QR parameters.
 type: docs
-weight: 59
+weight: 64
 url: /androidjava/com.aspose.barcode.generation/qrparameters/
 ---
 **Inheritance:**
@@ -322,7 +322,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

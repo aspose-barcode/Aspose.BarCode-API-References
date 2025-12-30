@@ -150,7 +150,7 @@ public String getDestinationPostCodeAndDPS()
 ```
 
 
-Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format.
+Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAFÂ® format.
 
 **Returns:**
 java.lang.String - the Postcode of the Delivery Address with DPS
@@ -190,7 +190,7 @@ public String getReturnToSenderPostCode()
 ```
 
 
-Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAF® format.
+Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAFÂ® format.
 
 **Returns:**
 java.lang.String - Return to Sender Post Code but no DPS
@@ -318,7 +318,7 @@ public void setDestinationPostCodeAndDPS(String value)
 ```
 
 
-Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format.
+Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAFÂ® format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -370,7 +370,7 @@ public void setReturnToSenderPostCode(String value)
 ```
 
 
-Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAF® format.
+Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAFÂ® format.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -449,7 +449,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

@@ -3,7 +3,7 @@ title: ECIEncodings
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Extended Channel Interpretation Identifiers.
 type: docs
-weight: 34
+weight: 37
 url: /androidjava/com.aspose.barcode.generation/eciencodings/
 ---
 **Inheritance:**
@@ -840,7 +840,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

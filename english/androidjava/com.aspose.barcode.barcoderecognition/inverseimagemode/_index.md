@@ -3,7 +3,7 @@ title: InverseImageMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 55
+weight: 56
 url: /androidjava/com.aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 **Inheritance:**
@@ -38,6 +38,7 @@ Mode which enables or disables additional recognition of barcodes on images with
 | --- | --- |
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
@@ -109,6 +110,16 @@ public final int compareTo(E arg0)
 
 **Returns:**
 int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -260,7 +271,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

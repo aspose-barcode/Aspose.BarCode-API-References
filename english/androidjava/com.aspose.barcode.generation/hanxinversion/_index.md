@@ -3,7 +3,7 @@ title: HanXinVersion
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Version of Han Xin Code.
 type: docs
-weight: 87
+weight: 92
 url: /androidjava/com.aspose.barcode.generation/hanxinversion/
 ---
 **Inheritance:**
@@ -108,6 +108,7 @@ Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 1
 | --- | --- |
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
@@ -834,6 +835,16 @@ public final int compareTo(E arg0)
 
 **Returns:**
 int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -970,7 +981,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

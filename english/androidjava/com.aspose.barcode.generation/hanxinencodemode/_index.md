@@ -3,7 +3,7 @@ title: HanXinEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Han Xin Code encoding mode.
 type: docs
-weight: 84
+weight: 89
 url: /androidjava/com.aspose.barcode.generation/hanxinencodemode/
 ---
 **Inheritance:**
@@ -45,10 +45,10 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 > 
 > 
 >   // Extended mode
->   String str = "\\gb180302b:\u6f04\\gb180304b:\u3401\\region1:\u5168\\region2:\u8785\\numeric:123\\text:qwe\\\\unicode:\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l" +
+>   String str = "\\gb180302b:\u6f04\\gb180304b:\u3401\\region1:\u5168\\region2:\u8785\\numeric:123\\text:qwe\\\\unicode:\u0131nt\u0259\u02c8nÃ¦\u0283\u0259n\u0259l" +
 >       "\\000009:\u0391\u0392\u0393\u0394\u0395\\auto:abc\\binary:abc\\\\uri:backslashes_should_be_doubled\\\\000555:test";
 > 
->   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
+>   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8nÃ¦\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
 > 
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
 >   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
@@ -63,13 +63,13 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   codeTextBuilder.addCommonChineseRegionTwo("\u8785");
 >   codeTextBuilder.addNumeric("123");
 >   codeTextBuilder.addText("qwe");
->   codeTextBuilder.addUnicode("\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l");
+>   codeTextBuilder.addUnicode("\u0131nt\u0259\u02c8nÃ¦\u0283\u0259n\u0259l");
 >   codeTextBuilder.addECI("\u0391\u0392\u0393\u0394\u0395", 9);
 >   codeTextBuilder.addAuto("abc");
 >   codeTextBuilder.addBinary("abc");
 >   codeTextBuilder.addURI("backslashes_should_be_doubled\\000555:test");
 > 
->   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
+>   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8nÃ¦\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
 > 
 >   //generate codetext
 >   String str = codeTextBuilder.getExtendedCodetext();
@@ -95,6 +95,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 | --- | --- |
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
@@ -189,6 +190,16 @@ public final int compareTo(E arg0)
 
 **Returns:**
 int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -325,7 +336,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

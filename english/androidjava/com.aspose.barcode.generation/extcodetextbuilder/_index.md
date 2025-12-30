@@ -3,7 +3,7 @@ title: ExtCodetextBuilder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Helper class for automatic codetext generation of the Extended Codetext Mode
 type: docs
-weight: 37
+weight: 40
 url: /androidjava/com.aspose.barcode.generation/extcodetextbuilder/
 ---
 **Inheritance:**
@@ -173,7 +173,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

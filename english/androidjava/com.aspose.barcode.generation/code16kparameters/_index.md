@@ -3,7 +3,7 @@ title: Code16KParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Code16K parameters.
 type: docs
-weight: 24
+weight: 26
 url: /androidjava/com.aspose.barcode.generation/code16kparameters/
 ---
 **Inheritance:**
@@ -172,7 +172,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

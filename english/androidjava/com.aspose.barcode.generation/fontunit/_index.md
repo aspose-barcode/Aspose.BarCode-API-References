@@ -3,7 +3,7 @@ title: FontUnit
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Defines a particular format for text including font face size and style attributes  where size in Unit value property.
 type: docs
-weight: 41
+weight: 44
 url: /androidjava/com.aspose.barcode.generation/fontunit/
 ---
 **Inheritance:**
@@ -38,7 +38,6 @@ Defines a particular format for text, including font face, size, and style attri
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFamilyName()](#getFamilyName--) | Gets the face name of this Font. |
-| [getFont()](#getFont--) |  |
 | [getSize()](#getSize--) | Gets size of this FontUnit in Unit value. |
 | [getStateHash()](#getStateHash--) |  |
 | [getStyle()](#getStyle--) | Gets style information for this FontUnit. |
@@ -126,16 +125,6 @@ Gets the face name of this Font.
 
 **Returns:**
 android.graphics.Typeface
-### getFont() {#getFont--}
-```
-public TextPaint getFont()
-```
-
-
-
-
-**Returns:**
-android.text.TextPaint
 ### getSize() {#getSize--}
 ```
 public Unit getSize()
@@ -238,7 +227,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 
