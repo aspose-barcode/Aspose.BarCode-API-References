@@ -41,6 +41,12 @@ This package contains tools for processing complex barcode
 | [SecondaryAndAdditionalData](../com.aspose.barcode.complexbarcode/secondaryandadditionaldata) | Class for storing HIBC LIC secondary and additional data. |
 | [SwissQRBill](../com.aspose.barcode.complexbarcode/swissqrbill) | SwissQR bill data |
 | [SwissQRCodetext](../com.aspose.barcode.complexbarcode/swissqrcodetext) | Class for encoding and decoding the text embedded in the SwissQR code. |
+| [USADriveIdCodetext](../com.aspose.barcode.complexbarcode/usadriveidcodetext) | Class for encoding and decoding the text embedded in the USA Driving License PDF417 code. |
+| [USADriveIdCodetext.MandatoryFields](../com.aspose.barcode.complexbarcode/usadriveidcodetext.mandatoryfields) | Mandatory elements (fields) of the card |
+| [USADriveIdCodetext.OptionalFields](../com.aspose.barcode.complexbarcode/usadriveidcodetext.optionalfields) | Optional elements (fields) of the card |
+| [USADriveIdCodetext.SubfileProperties](../com.aspose.barcode.complexbarcode/usadriveidcodetext.subfileproperties) | USA DL subfile properties, offset and length are set automatically. |
+| [USADriveIdJurisdSubfile](../com.aspose.barcode.complexbarcode/usadriveidjurisdsubfile) | Class for Jurisdiction specific fields for USA DL |
+| [USADriveIdJurisdSubfile.DataElement](../com.aspose.barcode.complexbarcode/usadriveidjurisdsubfile.dataelement) | Represents a jurisdiction-specific data field used in documents, for example ElementID = "ZVA" with Value = "01". |
 
 ## Interfaces
 
@@ -56,3 +62,7 @@ This package contains tools for processing complex barcode
 | [HIBCLICDateFormat](../com.aspose.barcode.complexbarcode/hibclicdateformat) | Specifies the different types of date formats for HIBC LIC. |
 | [Mailmark2DType](../com.aspose.barcode.complexbarcode/mailmark2dtype) | 2D Mailmark Type defines size of Data Matrix barcode |
 | [QrBillStandardVersion](../com.aspose.barcode.complexbarcode/qrbillstandardversion) | SwissQR bill standard version |
+| [USADriveIdCountry](../com.aspose.barcode.complexbarcode/usadriveidcountry) | Enum for Country Identification in the US Driver's License |
+| [USADriveIdEyeColor](../com.aspose.barcode.complexbarcode/usadriveideyecolor) | Enum for Eye Color in the US Driver's License |
+| [USADriveIdHairColor](../com.aspose.barcode.complexbarcode/usadriveidhaircolor) | Enum for Hair Color in the US Driver's License |
+| [USADriveIdSex](../com.aspose.barcode.complexbarcode/usadriveidsex) | Enum for Sex field in the US Driver's License |

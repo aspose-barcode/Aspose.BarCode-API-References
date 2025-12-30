@@ -3,7 +3,7 @@ title: AddressType
 second_title: Aspose.BarCode for Java API Reference
 description: Address type
 type: docs
-weight: 38
+weight: 40
 url: /java/com.aspose.barcode.complexbarcode/addresstype/
 ---
 **Inheritance:**

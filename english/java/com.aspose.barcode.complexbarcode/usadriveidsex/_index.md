@@ -1,36 +1,26 @@
 ---
-title: DeconvolutionMode
+title: USADriveIdSex
 second_title: Aspose.BarCode for Java API Reference
-description: 
+description: Enum for Sex field in the US Drivers License
 type: docs
-weight: 53
-url: /java/com.aspose.barcode.barcoderecognition/deconvolutionmode/
+weight: 47
+url: /java/com.aspose.barcode.complexbarcode/usadriveidsex/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum DeconvolutionMode extends Enum<DeconvolutionMode>
+public enum USADriveIdSex extends Enum<USADriveIdSex>
 ```
 
-Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convoluted) by any natural function like blur, during obtaining image by camera. Because we cannot detect image function which corrupt the image, we have to check most well know functions like sharp or mathematical morphology.
-
---------------------
-
-> ```
-> This sample shows how to use Deconvolution mode
->   
->   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
->   reader.getQualitySettings().setDeconvolution(DeconvolutionMode.SLOW);
->   for(BarCodeResult result : reader.readBarCodes())
->      System.out.println(result.getCodeText());
-> ```
+Enum for Sex field in the US Driver's License
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [FAST](#FAST) | Enables fast deconvolution methods for high quality images. |
-| [NORMAL](#NORMAL) | Enables normal deconvolution methods for common images. |
-| [SLOW](#SLOW) | Enables slow deconvolution methods for low quality images. |
+| [FEMALE](#FEMALE) | Female \\u2014 indicates that the holder's sex is defined as female. |
+| [MALE](#MALE) | Male \\u2014 indicates that the holder's sex is defined as male. |
+| [NONE](#NONE) | Not filled - equal to NONE |
+| [NOT_SPECIFIED](#NOT-SPECIFIED) | Not specified |
 ## Methods
 
 | Method | Description |
@@ -38,7 +28,6 @@ Deconvolution (image restorations) mode which defines level of image degradation
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -53,29 +42,37 @@ Deconvolution (image restorations) mode which defines level of image degradation
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FAST {#FAST}
+### FEMALE {#FEMALE}
 ```
-public static final DeconvolutionMode FAST
-```
-
-
-Enables fast deconvolution methods for high quality images.
-
-### NORMAL {#NORMAL}
-```
-public static final DeconvolutionMode NORMAL
+public static final USADriveIdSex FEMALE
 ```
 
 
-Enables normal deconvolution methods for common images.
+Female \\u2014 indicates that the holder's sex is defined as female.
 
-### SLOW {#SLOW}
+### MALE {#MALE}
 ```
-public static final DeconvolutionMode SLOW
+public static final USADriveIdSex MALE
 ```
 
 
-Enables slow deconvolution methods for low quality images.
+Male \\u2014 indicates that the holder's sex is defined as male.
+
+### NONE {#NONE}
+```
+public static final USADriveIdSex NONE
+```
+
+
+Not filled - equal to NONE
+
+### NOT_SPECIFIED {#NOT-SPECIFIED}
+```
+public static final USADriveIdSex NOT_SPECIFIED
+```
+
+
+Not specified
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -123,21 +120,6 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromValue(int value) {#fromValue-int-}
-```
-public static DeconvolutionMode fromValue(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-**Returns:**
-[DeconvolutionMode](../../com.aspose.barcode.barcoderecognition/deconvolutionmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -226,7 +208,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static DeconvolutionMode valueOf(String name)
+public static USADriveIdSex valueOf(String name)
 ```
 
 
@@ -238,17 +220,17 @@ public static DeconvolutionMode valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[DeconvolutionMode](../../com.aspose.barcode.barcoderecognition/deconvolutionmode)
+[USADriveIdSex](../../com.aspose.barcode.complexbarcode/usadriveidsex)
 ### values() {#values--}
 ```
-public static DeconvolutionMode[] values()
+public static USADriveIdSex[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.DeconvolutionMode[]
+com.aspose.barcode.complexbarcode.USADriveIdSex[]
 ### wait() {#wait--}
 ```
 public final void wait()

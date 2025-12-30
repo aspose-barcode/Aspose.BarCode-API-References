@@ -3,7 +3,7 @@ title: HIBCLICDateFormat
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the different types of date formats for HIBC LIC.
 type: docs
-weight: 39
+weight: 41
 url: /java/com.aspose.barcode.complexbarcode/hibclicdateformat/
 ---
 **Inheritance:**
