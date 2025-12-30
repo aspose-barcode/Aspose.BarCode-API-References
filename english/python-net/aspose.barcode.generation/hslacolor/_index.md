@@ -22,6 +22,10 @@ The HslaColor type exposes the following members:
 |S|Saturation [0, 100]|
 |L|Lightness [0, 100]|
 |a|Alpha (opacity) [0.0f, 1.0f]|
+## Methods
+| Name | Description |
+| :- | :- |
+|convert_hsla_to_rgba(hsla_color)|Uses https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB|
 
 ### See Also
 

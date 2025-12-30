@@ -18,7 +18,7 @@ The MaxiCodeCodetextMode2 type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|maxi_code_encode_mode|  |
+|encode_mode|  |
 |eci_encoding|  |
 |postal_code|Identifies the postal code. Must be 9 digits in mode 2 or <br/>            6 alphanumeric symbols in mode 3.|
 |country_code|Identifies 3 digit country code.|

@@ -17,6 +17,7 @@ The BorderParameters type exposes the following members:
 |visible|Border visibility. If false than parameter Width is always ignored (0).<br/>            Default value: false.|
 |width|Border width.<br/>            Default value: 0.<br/>            Ignored if Visible is set to false.|
 |dash_style|Border dash style.<br/>            Default value: BorderDashStyle.Solid.|
+|color|Border color.<br/>            Default value: Color.Black.|
 
 ### See Also
 

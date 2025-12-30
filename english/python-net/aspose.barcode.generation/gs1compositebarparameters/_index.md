@@ -16,7 +16,7 @@ The GS1CompositeBarParameters type exposes the following members:
 | :- | :- |
 |linear_component_type|Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked|
 |two_d_component_type|2D component type|
-|is_allow_only_gs1_encoding|If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component|
+|allow_only_gs1_encoding|If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component|
 
 ### See Also
 

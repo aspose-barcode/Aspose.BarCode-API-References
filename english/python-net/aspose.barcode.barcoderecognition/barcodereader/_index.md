@@ -15,6 +15,13 @@ The BarCodeReader type exposes the following members:
 | Name | Description |
 | :- | :- |
 |BarCodeReader()|Initializes a new instance of the [BarCodeReader](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/) class with default values.<br/>            Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method.|
+|BarCodeReader(image)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, type)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, area, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, area, type)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, areas, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(image, areas, type)|Initializes a new instance of the BarCodeReader class|
 |BarCodeReader(filename)|Initializes a new instance of the BarCodeReader class|
 |BarCodeReader(filename, decode_types)|Initializes a new instance of the BarCodeReader class|
 |BarCodeReader(filename, type)|Initializes a new instance of the BarCodeReader class|
@@ -33,6 +40,9 @@ The BarCodeReader type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|set_bar_code_image(value)|Sets bitmap image for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(value, areas)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(value, area)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(filename)|Sets image file for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(stream)|Sets image stream for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_read_type(barcode_types)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|

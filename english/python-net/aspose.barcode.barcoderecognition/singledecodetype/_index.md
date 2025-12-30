@@ -20,7 +20,7 @@ The SingleDecodeType type exposes the following members:
 | Name | Description |
 | :- | :- |
 |equals(other)|Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) value.|
-|equals(other)|Returns a value indicating whether the specified [MultyDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multydecodetype/) collection contains only this decode type.|
+|equals(other)|Returns a value indicating whether the specified [MultiDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multidecodetype/) collection contains only this decode type.|
 |equals(other)|Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) value.|
 |try_parse(parsing_type, result)|  |
 |try_parse(parsing_type, result)|  |

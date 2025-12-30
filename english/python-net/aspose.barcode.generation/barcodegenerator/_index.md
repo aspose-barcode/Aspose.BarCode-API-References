@@ -35,6 +35,7 @@ The BarcodeGenerator type exposes the following members:
 |export_to_xml(xml)|Exports BarCode properties to the xml-stream specified|
 |import_from_xml(xml_file)|Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance.|
 |import_from_xml(xml)|Imports BarCode properties from the xml-stream specified and creates BarcodeGenerator instance.|
+|generate_bar_code_image()|Generate the barcode image under current settings.|
 
 ### See Also
 

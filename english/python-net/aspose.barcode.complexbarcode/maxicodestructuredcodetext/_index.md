@@ -14,7 +14,7 @@ The MaxiCodeStructuredCodetext type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|maxi_code_encode_mode|Gets or sets a MaxiCode encode mode. <br/>            Default value: Auto.|
+|encode_mode|Gets or sets a MaxiCode encode mode. <br/>            Default value: Auto.|
 |eci_encoding|Gets or sets ECI encoding. Used when MaxiCodeEncodeMode is Auto.<br/>            Default value: ISO-8859-1|
 |postal_code|Identifies the postal code. Must be 9 digits in mode 2 or <br/>            6 alphanumeric symbols in mode 3.|
 |country_code|Identifies 3 digit country code.|

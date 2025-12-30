@@ -14,8 +14,8 @@ The AustralianPostParameters type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|australian_post_short_bar_height|Short bar's height of AustralianPost barcode.|
-|australian_post_encoding_table|Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other"|
+|short_bar_height|Short bar's height of AustralianPost barcode.|
+|encoding_table|Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other"|
 
 ### See Also
 

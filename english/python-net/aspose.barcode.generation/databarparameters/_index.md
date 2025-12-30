@@ -15,7 +15,7 @@ The DataBarParameters type exposes the following members:
 | Name | Description |
 | :- | :- |
 |is_2d_composite_component|Enables flag of 2D composite component with DataBar barcode|
-|is_allow_only_gs1_encoding|If this flag is set, it allows only GS1 encoding standard for Databar barcode types|
+|allow_only_gs1_encoding|If this flag is set, it allows only GS1 encoding standard for Databar barcode types|
 |columns|Columns count.|
 |rows|Rows count.|
 |aspect_ratio|Height/Width ratio of 2D BarCode module.<br/>            Used for DataBar stacked.|

@@ -19,6 +19,7 @@ The CodetextParameters type exposes the following members:
 |font|Specify the displaying CodeText's font.<br/>            Default value: Arial 5pt regular.<br/>            Ignored if FontMode is set to FontMode.Auto.|
 |space|Space between the CodeText and the BarCode in [Unit](/barcode/python-net/aspose.barcode.generation/unit/) value.<br/>            Default value: 2pt.<br/>            Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon.|
 |alignment|Gets or sets the alignment of the code text.<br/>            Default value: StringAlignment.Center.|
+|color|Specify the displaying CodeText's Color.<br/>            Default value: Color.Black.|
 |location|Specify the displaying CodeText Location, set to CodeLocation.None to hide CodeText.<br/>            Default value: CodeLocation.Below for 1D barcodes and CodeLocation.None for 2D barcodes.|
 |no_wrap|Specify word wraps (line breaks) within text.<br/>            Default value: false.|
 

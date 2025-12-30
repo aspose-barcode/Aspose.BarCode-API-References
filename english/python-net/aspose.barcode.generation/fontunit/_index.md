@@ -15,6 +15,7 @@ The FontUnit type exposes the following members:
 | Name | Description |
 | :- | :- |
 |family_name|Gets or sets the face name of this Font.|
+|style|Gets or sets style information for this FontUnit.|
 |size|Gets or sets size of this FontUnit in Unit value.|
 
 ### See Also

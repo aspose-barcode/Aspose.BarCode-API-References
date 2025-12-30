@@ -8,14 +8,14 @@ url: /python-net/aspose.barcode.barcoderecognition/basedecodetype/
 
 ## BaseDecodeType class
 
-Base class for MultyDecodeType and SingleDecodeType.
+Base class for MultiDecodeType and SingleDecodeType.
 
 The BaseDecodeType type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
 |equals(other)|Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) value.|
-|equals(other)|Returns a value indicating whether this instance is equal to a specified [MultyDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multydecodetype/) value.|
+|equals(other)|Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multidecodetype/) value.|
 |equals(other)|Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) value.|
 |try_parse(parsing_type, result)|  |
 |try_parse(parsing_type, result)|  |
