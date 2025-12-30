@@ -3,7 +3,7 @@ title: BaseGenerationParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Barcode image generation parameters.
 type: docs
-weight: 16
+weight: 17
 url: /androidjava/com.aspose.barcode.generation/basegenerationparameters/
 ---
 **Inheritance:**
@@ -25,6 +25,7 @@ Barcode image generation parameters.
 | [getCaptionAbove()](#getCaptionAbove--) | Caption Above the BarCode image. |
 | [getCaptionBelow()](#getCaptionBelow--) | Caption Below the BarCode image. |
 | [getClass()](#getClass--) |  |
+| [getImage()](#getImage--) | Image parameters. |
 | [getImageHeight()](#getImageHeight--) | BarCode image height when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [getImageWidth()](#getImageWidth--) | BarCode image width when  AutoSizeMode  property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION. |
 | [getResolution()](#getResolution--) | Gets the resolution of the BarCode image. |
@@ -129,6 +130,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getImage() {#getImage--}
+```
+public ImageParameters getImage()
+```
+
+
+Image parameters. See .
+
+**Returns:**
+[ImageParameters](../../com.aspose.barcode.generation/imageparameters) - 
 ### getImageHeight() {#getImageHeight--}
 ```
 public Unit getImageHeight()
@@ -336,7 +347,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

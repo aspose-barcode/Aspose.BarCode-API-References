@@ -14,7 +14,7 @@ The PostalParameters type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|postal_short_bar_height|Short bar's height of Postal barcodes.|
+|short_bar_height|Short bar's height of Postal barcodes.|
 
 ### See Also
 

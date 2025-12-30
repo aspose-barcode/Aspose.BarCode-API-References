@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 102
+weight: 107
 url: /androidjava/com.aspose.barcode.generation/stringalignment/
 ---
 **Inheritance:**
@@ -24,6 +24,7 @@ public enum StringAlignment extends Enum<StringAlignment>
 | --- | --- |
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
@@ -89,6 +90,16 @@ public final int compareTo(E arg0)
 
 **Returns:**
 int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -235,7 +246,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

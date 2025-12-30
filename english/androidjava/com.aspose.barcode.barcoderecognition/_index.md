@@ -52,6 +52,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [RecognitionAbortedException](../com.aspose.barcode.barcoderecognition/recognitionabortedexception) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader. |
 | [RecognitionOptions](../com.aspose.barcode.barcoderecognition/recognitionoptions) |  |
 | [SingleDecodeType](../com.aspose.barcode.barcoderecognition/singledecodetype) | Single decode type. |
+| [TextEncodingDetection](../com.aspose.barcode.barcoderecognition/textencodingdetection) |  |
 
 ## Interfaces
 

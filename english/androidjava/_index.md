@@ -12,7 +12,6 @@ is_root: true
 | [com.aspose.barcode](./com.aspose.barcode) | This package contains classes with general purposes for barcodes generation and drawing |
 | [com.aspose.barcode.barcoderecognition](./com.aspose.barcode.barcoderecognition) | This package contains tools for 1D/2D barcode recognition. |
 | [com.aspose.barcode.complexbarcode](./com.aspose.barcode.complexbarcode) | This package contains tools for processing complex barcode |
-| [com.aspose.barcode.component](./com.aspose.barcode.component) |  |
 | [com.aspose.barcode.component.barcodescanner](./com.aspose.barcode.component.barcodescanner) |  |
 | [com.aspose.barcode.component.barcodescanner.recognitionareaview](./com.aspose.barcode.component.barcodescanner.recognitionareaview) |  |
 | [com.aspose.barcode.generation](./com.aspose.barcode.generation) | This package contains tools for generating barcode. |

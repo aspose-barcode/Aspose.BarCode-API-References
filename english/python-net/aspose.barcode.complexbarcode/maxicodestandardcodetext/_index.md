@@ -18,9 +18,9 @@ The MaxiCodeStandardCodetext type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|maxi_code_encode_mode|Gets or sets a MaxiCode encode mode. <br/>            Default value: Auto.|
+|encode_mode|Gets or sets a MaxiCode encode mode. <br/>            Default value: Auto.|
 |eci_encoding|Gets or sets ECI encoding. Used when MaxiCodeEncodeMode is Auto.<br/>            Default value: ISO-8859-1|
-|mode|Gets or sets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6.|
+|mode|Gets or sets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6.|
 |message|Gets or sets message.|
 ## Methods
 | Name | Description |

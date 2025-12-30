@@ -28,7 +28,7 @@ The Mailmark2DCodetext type exposes the following members:
 |rts_flag|Flag which indicates what level of Return to Sender service is being requested.|
 |return_to_sender_post_code|Contains the Return to Sender Post Code but no DPS.<br/>            The PC(without DPS) must comply with a PAF® format.|
 |customer_content|Optional space for use by customer.|
-|customer_content_encode_mode|Encode mode of Datamatrix barcode.<br/>            Default value: DataMatrixEncodeMode.C40.|
+|customer_content_encode_mode|Encode mode of Datamatrix barcode.<br/>            Default value: EncodeMode.C40.|
 |data_matrix_type|2D Mailmark Type defines size of Data Matrix barcode.|
 ## Methods
 | Name | Description |

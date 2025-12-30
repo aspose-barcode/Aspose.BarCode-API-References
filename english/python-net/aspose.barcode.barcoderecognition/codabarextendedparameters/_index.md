@@ -15,8 +15,8 @@ The CodabarExtendedParameters type exposes the following members:
 | Name | Description |
 | :- | :- |
 |is_empty|Tests whether all parameters has only default values|
-|codabar_start_symbol|Gets or sets a Codabar start symbol.<br/>            Default value: CodabarSymbol.A|
-|codabar_stop_symbol|Gets or sets a Codabar stop symbol.<br/>            Default value: CodabarSymbol.A|
+|start_symbol|Gets or sets a Codabar start symbol.<br/>            Default value: CodabarSymbol.A|
+|stop_symbol|Gets or sets a Codabar stop symbol.<br/>            Default value: CodabarSymbol.A|
 
 ### See Also
 

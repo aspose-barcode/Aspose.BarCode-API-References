@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel
 second_title: Aspose.BarCode for Android via Java API Reference
 description: pdf417 barcodes error correction level from level 0 to level 9 level 0 means no error correction level 9 means best error correction
 type: docs
-weight: 95
+weight: 100
 url: /androidjava/com.aspose.barcode.generation/pdf417errorlevel/
 ---
 **Inheritance:**
@@ -32,6 +32,7 @@ pdf417 barcode's error correction level, from level 0 to level 9, level 0 means 
 | --- | --- |
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
@@ -150,6 +151,16 @@ public final int compareTo(E arg0)
 
 **Returns:**
 int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -286,7 +297,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

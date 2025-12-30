@@ -3,7 +3,7 @@ title: DataMatrixParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: DataMatrix parameters.
 type: docs
-weight: 31
+weight: 34
 url: /androidjava/com.aspose.barcode.generation/datamatrixparameters/
 ---
 **Inheritance:**
@@ -397,7 +397,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

@@ -16,6 +16,8 @@ The BarCodeRegionParameters type exposes the following members:
 | :- | :- |
 |quadrangle|Gets [Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/) bounding barcode region|
 |angle|Gets the angle of the barcode (0-360).|
+|points|Gets s array bounding barcode region|
+|rectangle|Gets  bounding barcode region|
 
 ### See Also
 

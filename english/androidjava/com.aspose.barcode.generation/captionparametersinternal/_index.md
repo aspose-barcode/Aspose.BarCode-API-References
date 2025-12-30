@@ -3,7 +3,7 @@ title: CaptionParametersInternal
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 19
+weight: 21
 url: /androidjava/com.aspose.barcode.generation/captionparametersinternal/
 ---
 **Inheritance:**
@@ -21,11 +21,12 @@ public class CaptionParametersInternal
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getCMYKTextColor(CaptionParameters parameters)](#getCMYKTextColor-com.aspose.barcode.generation.CaptionParameters-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFont(CaptionParameters parameters, FontUnit font)](#setFont-com.aspose.barcode.generation.CaptionParameters-com.aspose.barcode.generation.FontUnit-) |  |
+| [setCMYKBarColor(CaptionParameters captionParameters, CMYKColor value)](#setCMYKBarColor-com.aspose.barcode.generation.CaptionParameters-com.aspose.barcode.generation.CMYKColor-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,6 +52,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getCMYKTextColor(CaptionParameters parameters) {#getCMYKTextColor-com.aspose.barcode.generation.CaptionParameters-}
+```
+public static CMYKColor getCMYKTextColor(CaptionParameters parameters)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [CaptionParameters](../../com.aspose.barcode.generation/captionparameters) |  |
+
+**Returns:**
+[CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -87,9 +103,9 @@ public final native void notifyAll()
 
 
 
-### setFont(CaptionParameters parameters, FontUnit font) {#setFont-com.aspose.barcode.generation.CaptionParameters-com.aspose.barcode.generation.FontUnit-}
+### setCMYKBarColor(CaptionParameters captionParameters, CMYKColor value) {#setCMYKBarColor-com.aspose.barcode.generation.CaptionParameters-com.aspose.barcode.generation.CMYKColor-}
 ```
-public static void setFont(CaptionParameters parameters, FontUnit font)
+public static void setCMYKBarColor(CaptionParameters captionParameters, CMYKColor value)
 ```
 
 
@@ -98,8 +114,8 @@ public static void setFont(CaptionParameters parameters, FontUnit font)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | [CaptionParameters](../../com.aspose.barcode.generation/captionparameters) |  |
-| font | [FontUnit](../../com.aspose.barcode.generation/fontunit) |  |
+| captionParameters | [CaptionParameters](../../com.aspose.barcode.generation/captionparameters) |  |
+| value | [CMYKColor](../../com.aspose.barcode.generation/cmykcolor) |  |
 
 ### toString() {#toString--}
 ```
@@ -121,7 +137,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

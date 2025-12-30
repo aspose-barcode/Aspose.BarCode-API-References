@@ -24,7 +24,7 @@ ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images genera
 >     swissQRCodetext.getBill().setBillInformation("BillInformation");
 >     // init rest of the fields
 >     ComplexBarcodeGenerator cg = new ComplexBarcodeGenerator(swissQRCodetext);
->     Bitmap res = cg.generateBarCodeImage();
+>     BufferedImage res = cg.generateBarCodeImage();
 > ```
 ## Constructors
 
@@ -203,7 +203,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

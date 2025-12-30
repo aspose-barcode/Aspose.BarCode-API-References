@@ -3,7 +3,7 @@ title: ExtCodeItem
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Base class of the extended codetext container
 type: docs
-weight: 36
+weight: 39
 url: /androidjava/com.aspose.barcode.generation/extcodeitem/
 ---
 **Inheritance:**
@@ -108,7 +108,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

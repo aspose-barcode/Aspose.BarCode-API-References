@@ -28,11 +28,6 @@ Composite decode type.
 | --- | --- |
 | [MultyDecodeType(BaseDecodeType[] barcodeTypes)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the  MultyDecodeType  class. |
 | [MultyDecodeType(SingleDecodeType[] barcodeTypes)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Initializes a new instance of the  MultyDecodeType  class. |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [CREATOR](#CREATOR) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,13 @@ Composite decode type.
 | [add(SingleDecodeType singleType)](#add-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Adds one more [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) to the MultyDecodeType. |
 | [containsAll(BaseDecodeType[] barcodeTypes)](#containsAll-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Check if this contains all types from barcode types. |
 | [containsAny(BaseDecodeType[] decodeTypes)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Is contain any of types |
-| [describeContents()](#describeContents--) |  |
+| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Returns a value indicating whether this decode types collection contains only specified  value. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  MultyDecodeType  value. |
 | [exclude(SingleDecodeType singleType)](#exclude-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Excludes  SingleDecodeType  from the MultyDecodeType and returns new MultyDecodeType instance. |
 | [getClass()](#getClass--) |  |
-| [getGetSingleTypesCount()](#getGetSingleTypesCount--) | Returns a number of single types. |
 | [getSingleTypes()](#getSingleTypes--) | Represents a list of single types. |
+| [getSingleTypesCount()](#getSingleTypesCount--) | Returns a number of single types. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -56,7 +52,6 @@ Composite decode type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeToParcel(Parcel dest, int flags)](#writeToParcel-android.os.Parcel-int-) |  |
 ### MultyDecodeType(BaseDecodeType[] barcodeTypes) {#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
 ```
 public MultyDecodeType(BaseDecodeType[] barcodeTypes)
@@ -82,12 +77,6 @@ Initializes a new instance of the  MultyDecodeType  class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | barcodeTypes | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) | Array of multy and single decode types |
-
-### CREATOR {#CREATOR}
-```
-public static final Parcelable.Creator<BaseDecodeType> CREATOR
-```
-
 
 ### add(SingleDecodeType singleType) {#add-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
 ```
@@ -132,16 +121,36 @@ Is contain any of types
 
 **Returns:**
 boolean - Value is a true if any types are included into
-### describeContents() {#describeContents--}
+### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
 ```
-public int describeContents()
+public boolean equals(MultyDecodeType other)
 ```
 
 
+Returns a value indicating whether this instance is equal to a specified  value.
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) | An java.lang.Object value to compare to this instance. |
 
 **Returns:**
-int
+boolean - 
+### equals(SingleDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public boolean equals(SingleDecodeType other)
+```
+
+
+Returns a value indicating whether this decode types collection contains only specified  value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) | An java.lang.Object value to compare to this instance. |
+
+**Returns:**
+boolean - if this collection contains only specified decode type; otherwise, **false**.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -182,16 +191,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getGetSingleTypesCount() {#getGetSingleTypesCount--}
-```
-public int getGetSingleTypesCount()
-```
-
-
-Returns a number of single types.
-
-**Returns:**
-int
 ### getSingleTypes() {#getSingleTypes--}
 ```
 public List<SingleDecodeType> getSingleTypes()
@@ -202,6 +201,16 @@ Represents a list of single types.
 
 **Returns:**
 java.util.List<com.aspose.barcode.barcoderecognition.SingleDecodeType> - List of single types
+### getSingleTypesCount() {#getSingleTypesCount--}
+```
+public int getSingleTypesCount()
+```
+
+
+Returns a number of single types.
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -301,7 +310,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 
@@ -325,18 +334,4 @@ public final void wait(long arg0, int arg1)
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-
-### writeToParcel(Parcel dest, int flags) {#writeToParcel-android.os.Parcel-int-}
-```
-public void writeToParcel(Parcel dest, int flags)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dest | android.os.Parcel |  |
-| flags | int |  |
 

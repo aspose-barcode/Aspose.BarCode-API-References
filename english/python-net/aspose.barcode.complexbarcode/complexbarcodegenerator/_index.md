@@ -25,6 +25,7 @@ The ComplexBarcodeGenerator type exposes the following members:
 |save(stream, format)|Generates and saves complex barcode image under current settings.|
 |save(filename, format)|Generates and saves complex barcode image under current settings.|
 |save(filename)|Generates and saves complex barcode image under current settings.|
+|generate_bar_code_image()|Generates complex barcode image under current settings.|
 
 ### See Also
 

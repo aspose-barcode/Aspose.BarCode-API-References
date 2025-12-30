@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: PDF417 parameters.
 type: docs
-weight: 56
+weight: 60
 url: /androidjava/com.aspose.barcode.generation/pdf417parameters/
 ---
 **Inheritance:**
@@ -918,7 +918,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

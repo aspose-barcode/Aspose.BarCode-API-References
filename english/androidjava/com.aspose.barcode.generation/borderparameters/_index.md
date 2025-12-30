@@ -3,7 +3,7 @@ title: BorderParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Barcode image border parameters
 type: docs
-weight: 17
+weight: 18
 url: /androidjava/com.aspose.barcode.generation/borderparameters/
 ---
 **Inheritance:**
@@ -197,7 +197,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

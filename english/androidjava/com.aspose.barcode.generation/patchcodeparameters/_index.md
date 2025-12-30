@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: PatchCode parameters.
 type: docs
-weight: 55
+weight: 59
 url: /androidjava/com.aspose.barcode.generation/patchcodeparameters/
 ---
 **Inheritance:**
@@ -147,7 +147,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

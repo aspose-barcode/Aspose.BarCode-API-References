@@ -3,7 +3,7 @@ title: UnitInternal
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 65
+weight: 70
 url: /androidjava/com.aspose.barcode.generation/unitinternal/
 ---
 **Inheritance:**
@@ -28,6 +28,7 @@ public class UnitInternal
 | [ctor(float value, GraphicsUnit graphicsUnit)](#ctor-float-com.aspose.barcode.generation.GraphicsUnit-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getPx(Unit unit)](#getPx-com.aspose.barcode.generation.Unit-) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -88,6 +89,21 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getPx(Unit unit) {#getPx-com.aspose.barcode.generation.Unit-}
+```
+public static int getPx(Unit unit)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| unit | [Unit](../../com.aspose.barcode.generation/unit) |  |
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -134,7 +150,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

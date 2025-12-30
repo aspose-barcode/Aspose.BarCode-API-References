@@ -3,7 +3,7 @@ title: IComplexCodetext
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Interface for complex codetext used with ComplexBarcodeGenerator.
 type: docs
-weight: 37
+weight: 39
 url: /androidjava/com.aspose.barcode.complexbarcode/icomplexcodetext/
 ---```
 public interface IComplexCodetext

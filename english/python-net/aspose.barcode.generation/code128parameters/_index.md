@@ -14,7 +14,7 @@ The Code128Parameters type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|code_128_encode_mode|Gets or sets a Code128 encode mode. <br/>            Default value: Code128EncodeMode.Auto|
+|encode_mode|Gets or sets a Code128 encode mode. <br/>            Default value: Code128EncodeMode.Auto|
 
 ### See Also
 

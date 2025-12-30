@@ -3,7 +3,7 @@ title: CodetextParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Codetext parameters.
 type: docs
-weight: 25
+weight: 27
 url: /androidjava/com.aspose.barcode.generation/codetextparameters/
 ---
 **Inheritance:**
@@ -18,19 +18,12 @@ Codetext parameters.
 | Constructor | Description |
 | --- | --- |
 | [CodetextParameters()](#CodetextParameters--) |  |
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [CodetextMaxHeightPercent](#CodetextMaxHeightPercent) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | Gets the alignment of the code text. |
-| [getBackColor()](#getBackColor--) |  |
-| [getChecksum()](#getChecksum--) |  |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Specify the displaying CodeText's Color. |
 | [getFont()](#getFont--) | Specify the displaying CodeText's font. |
@@ -40,14 +33,11 @@ Codetext parameters.
 Specify word wraps (line breaks) within text.
 ``` |
 | [getSpace()](#getSpace--) | Space between the CodeText and the BarCode in  Unit  value. |
-| [getStateHash()](#getStateHash--) |  |
 | [getTwoDDisplayText()](#getTwoDDisplayText--) | Text that will be displayed instead of codetext in 2D barcodes. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAlignment(TextAlignment value)](#setAlignment-com.aspose.barcode.generation.TextAlignment-) | Sets the alignment of the code text. |
-| [setBackColor(int value)](#setBackColor-int-) |  |
-| [setChecksum(String value)](#setChecksum-java.lang.String-) |  |
 | [setColor(int value)](#setColor-int-) | Specify the displaying CodeText's Color. |
 | [setFont(FontUnit value)](#setFont-com.aspose.barcode.generation.FontUnit-) | Specify the displaying CodeText's font. |
 | [setFontMode(FontMode value)](#setFontMode-com.aspose.barcode.generation.FontMode-) | Specify FontMode. |
@@ -64,12 +54,6 @@ Specify word wraps (line breaks) within text
 ### CodetextParameters() {#CodetextParameters--}
 ```
 public CodetextParameters()
-```
-
-
-### CodetextMaxHeightPercent {#CodetextMaxHeightPercent}
-```
-public static final float CodetextMaxHeightPercent
 ```
 
 
@@ -98,26 +82,6 @@ Gets the alignment of the code text. Default value: TextAlignment.CENTER.
 
 **Returns:**
 [TextAlignment](../../com.aspose.barcode.generation/textalignment)
-### getBackColor() {#getBackColor--}
-```
-public int getBackColor()
-```
-
-
-
-
-**Returns:**
-int
-### getChecksum() {#getChecksum--}
-```
-public String getChecksum()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -191,16 +155,6 @@ Space between the CodeText and the BarCode in  Unit  value. Default value: 2pt. 
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
-### getStateHash() {#getStateHash--}
-```
-public int getStateHash()
-```
-
-
-
-
-**Returns:**
-int
 ### getTwoDDisplayText() {#getTwoDDisplayText--}
 ```
 public String getTwoDDisplayText()
@@ -249,32 +203,6 @@ Sets the alignment of the code text. Default value: TextAlignment.CENTER.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextAlignment](../../com.aspose.barcode.generation/textalignment) |  |
-
-### setBackColor(int value) {#setBackColor-int-}
-```
-public void setBackColor(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setChecksum(String value) {#setChecksum-java.lang.String-}
-```
-public void setChecksum(String value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### setColor(int value) {#setColor-int-}
 ```
@@ -389,7 +317,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

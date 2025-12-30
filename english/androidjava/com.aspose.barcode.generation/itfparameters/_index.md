@@ -3,7 +3,7 @@ title: ITFParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: ITF parameters.
 type: docs
-weight: 48
+weight: 51
 url: /androidjava/com.aspose.barcode.generation/itfparameters/
 ---
 **Inheritance:**
@@ -172,7 +172,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

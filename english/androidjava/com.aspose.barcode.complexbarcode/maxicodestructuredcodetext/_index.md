@@ -15,7 +15,7 @@ public abstract class MaxiCodeStructuredCodetext extends MaxiCodeCodetext
 Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3. This sample shows how to decode raw MaxiCode codetext to MaxiCodeStructuredCodetext instance.
 
 ```
-BarCodeReader reader = new BarCodeReader("test.png", DecodeType.MAXI_CODE);
+BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
   for (BarCodeResult result : reader.readBarCodes())
   {
       MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.tryDecodeMaxiCode(result.getExtended().getMaxiCode().getMaxiCodeMode(), result.getCodeText());
@@ -331,7 +331,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

@@ -3,7 +3,7 @@ title: BaseEncodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Base class for SymbologyEncodeType.
 type: docs
-weight: 15
+weight: 16
 url: /androidjava/com.aspose.barcode.generation/baseencodetype/
 ---
 **Inheritance:**
@@ -211,7 +211,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 

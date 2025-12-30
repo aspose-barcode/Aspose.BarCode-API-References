@@ -39,6 +39,7 @@ ComplexCodetextReader decodes codetext to specified complex barcode type.
 | [tryDecodeMailmark2D(String encodedCodetext)](#tryDecodeMailmark2D-java.lang.String-) | Decodes Royal Mail Mailmark 2D codetext. |
 | [tryDecodeMaxiCode(int maxiCodeMode, String encodedCodetext)](#tryDecodeMaxiCode-int-java.lang.String-) | Decodes MaxiCode codetext. |
 | [tryDecodeSwissQR(String encodedCodetext)](#tryDecodeSwissQR-java.lang.String-) | Decodes SwissQR codetext. |
+| [tryDecodeUSADriveId(String encodedCodetext)](#tryDecodeUSADriveId-java.lang.String-) | Decodes USADriveId codetext. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -194,6 +195,21 @@ Decodes SwissQR codetext.
 
 **Returns:**
 [SwissQRCodetext](../../com.aspose.barcode.complexbarcode/swissqrcodetext) - decoded SwissQRCodetext or null.
+### tryDecodeUSADriveId(String encodedCodetext) {#tryDecodeUSADriveId-java.lang.String-}
+```
+public static USADriveIdCodetext tryDecodeUSADriveId(String encodedCodetext)
+```
+
+
+Decodes USADriveId codetext.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| encodedCodetext | java.lang.String | Encoded codetext |
+
+**Returns:**
+com.aspose.barcode.complexbarcode.USADriveIdCodetext - Decoded USADriveId or null.
 ### wait() {#wait--}
 ```
 public final void wait()

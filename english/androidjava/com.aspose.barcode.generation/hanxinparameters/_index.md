@@ -3,7 +3,7 @@ title: HanXinParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Han Xin parameters.
 type: docs
-weight: 47
+weight: 50
 url: /androidjava/com.aspose.barcode.generation/hanxinparameters/
 ---
 **Inheritance:**
@@ -197,7 +197,7 @@ public final void wait()
 
 ### wait(long arg0) {#wait-long-}
 ```
-public final native void wait(long arg0)
+public final void wait(long arg0)
 ```
 
 
