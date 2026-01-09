@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::set_ECIEncoding method
+title:  method
 linktitle: set_ECIEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::set_ECIEncoding method. Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1 in C++.'
+description: ' method. Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1 in C++.'
 type: docs
-weight: 1500
+weight: 600
 url: /cpp/aspose.barcode.generation/aztecparameters/set_eciencoding/
 ---
 ## AztecParameters::set_ECIEncoding method
 
 
-Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1.
+Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
 
 ```cpp
 void Aspose::BarCode::Generation::AztecParameters::set_ECIEncoding(ECIEncodings value)

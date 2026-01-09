@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRCodetext::get_Bill method
+title:  method
 linktitle: get_Bill
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext::get_Bill method. SwissQR bill data in C++.'
+description: ' method. SwissQR bill data in C++.'
 type: docs
-weight: 200
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/get_bill/
 ---
 ## SwissQRCodetext::get_Bill method
 
 
-SwissQR bill data.
+SwissQR bill data
 
 ```cpp
 System::SharedPtr<SwissQRBill> Aspose::BarCode::ComplexBarcode::SwissQRCodetext::get_Bill()

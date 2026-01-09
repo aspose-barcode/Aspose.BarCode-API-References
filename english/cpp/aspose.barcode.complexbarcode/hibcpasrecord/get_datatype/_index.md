@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASRecord::get_DataType method
+title:  method
 linktitle: get_DataType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASRecord::get_DataType method. Identifies data type in C++.'
+description: ' method. Identifies data type in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/hibcpasrecord/get_datatype/
 ---
 ## HIBCPASRecord::get_DataType method

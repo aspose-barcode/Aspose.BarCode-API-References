@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_Coupon method
+title:  method
 linktitle: get_Coupon
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Coupon method. Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon in C++.'
+description: ' method. Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon in C++.'
 type: docs
-weight: 1200
+weight: 4100
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_coupon/
 ---
 ## BarcodeParameters::get_Coupon method

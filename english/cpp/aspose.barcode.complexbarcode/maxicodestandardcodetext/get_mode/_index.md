@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::get_Mode method
+title:  method
 linktitle: get_Mode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::get_Mode method. Gets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6 in C++.'
+description: ' method. Gets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6 in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/maxicodestandardcodetext/get_mode/
 ---
 ## MaxiCodeStandardCodetext::get_Mode method
 
 
-Gets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6.
+Gets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6.
 
 ```cpp
 Aspose::BarCode::Generation::MaxiCodeMode Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::get_Mode()

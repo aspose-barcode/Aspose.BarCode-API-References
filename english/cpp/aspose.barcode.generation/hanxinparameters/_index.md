@@ -4,7 +4,7 @@ linktitle: HanXinParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::HanXinParameters class. Han Xin parameters in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.barcode.generation/hanxinparameters/
 ---
 ## HanXinParameters class
@@ -20,14 +20,18 @@ class HanXinParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_HanXinECIEncoding](./get_hanxineciencoding/)() const | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. |
-| [get_HanXinEncodeMode](./get_hanxinencodemode/)() const | HanXin encoding mode. Default value: HanXinEncodeMode.Mixed. |
-| [get_HanXinErrorLevel](./get_hanxinerrorlevel/)() const | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel. |
-| [get_HanXinVersion](./get_hanxinversion/)() const | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [HanXinVersion.Auto](../hanxinversion/). |
-| [set_HanXinECIEncoding](./set_hanxineciencoding/)(ECIEncodings) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. |
-| [set_HanXinEncodeMode](./set_hanxinencodemode/)(Aspose::BarCode::Generation::HanXinEncodeMode) | HanXin encoding mode. Default value: HanXinEncodeMode.Mixed. |
-| [set_HanXinErrorLevel](./set_hanxinerrorlevel/)(Aspose::BarCode::Generation::HanXinErrorLevel) | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel. |
-| [set_HanXinVersion](./set_hanxinversion/)(Aspose::BarCode::Generation::HanXinVersion) | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [HanXinVersion.Auto](../hanxinversion/). |
+| [get_ECIEncoding](./get_eciencoding/)() const | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
+| [get_EncodeMode](./get_encodemode/)() const | HanXin encoding mode. Default value: EncodeMode.Mixed. |
+| [get_ErrorLevel](./get_errorlevel/)() const | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
+| [get_HanXinECIEncoding](./get_hanxineciencoding/)() | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
+| [get_HanXinEncodeMode](./get_hanxinencodemode/)() | HanXin encoding mode. Default value: EncodeMode.Mixed. |
+| [get_HanXinErrorLevel](./get_hanxinerrorlevel/)() | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
+| [get_HanXinVersion](./get_hanxinversion/)() | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [Version.Auto](../aztecencodemode/). |
+| [get_Version](./get_version/)() const | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [Version.Auto](../aztecencodemode/). |
+| [set_ECIEncoding](./set_eciencoding/)(ECIEncodings) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
+| [set_EncodeMode](./set_encodemode/)(Aspose::BarCode::Generation::HanXinEncodeMode) | HanXin encoding mode. Default value: EncodeMode.Mixed. |
+| [set_ErrorLevel](./set_errorlevel/)(Aspose::BarCode::Generation::HanXinErrorLevel) | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
+| [set_Version](./set_version/)(Aspose::BarCode::Generation::HanXinVersion) | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [Version.Auto](../aztecencodemode/). |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [HanXinParameters](./). |
 ## See Also
 

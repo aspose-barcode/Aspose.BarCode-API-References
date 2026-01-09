@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::QrParameters::get_QrEncodeType method
+title:  method
 linktitle: get_QrEncodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrParameters::get_QrEncodeType method. QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR in C++.'
+description: ' method. QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR in C++.'
 type: docs
-weight: 500
+weight: 700
 url: /cpp/aspose.barcode.generation/qrparameters/get_qrencodetype/
 ---
 ## QrParameters::get_QrEncodeType method

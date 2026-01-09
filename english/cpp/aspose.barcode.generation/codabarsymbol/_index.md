@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CodabarSymbol enum
+title:  enum
 linktitle: CodabarSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodabarSymbol enum. Specifies the start or stop symbol of the Codabar barcode specification in C++.'
+description: ' enum. Specifies the start or stop symbol of the Codabar barcode specification in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.barcode.generation/codabarsymbol/
 ---
 ## CodabarSymbol enum

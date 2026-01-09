@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MaxQuality method
+title:  method
 linktitle: get_MaxQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MaxQuality method. MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes in C++.'
+description: ' method. MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_maxquality/
 ---
 ## QualitySettings::get_MaxQuality method
@@ -32,9 +32,6 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 
 
 MaxQuality recognition quality preset. 
-
-
-
 ## See Also
 
 * Class [QualitySettings](../)

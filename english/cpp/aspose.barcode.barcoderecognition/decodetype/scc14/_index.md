@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::SCC14 field
+title:  field
 linktitle: SCC14
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::SCC14 field. Specifies that the data should be decoded with SCC14 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with SCC14 barcode specification in C++.'
 type: docs
-weight: 8900
+weight: 2100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/scc14/
 ---
 ## SCC14 field
 
 
-Specifies that the data should be decoded with **SCC14** barcode specification.
+Specifies that the data should be decoded with **SCC14** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::SCC14
 ```
-
-
-
 
 ## See Also
 

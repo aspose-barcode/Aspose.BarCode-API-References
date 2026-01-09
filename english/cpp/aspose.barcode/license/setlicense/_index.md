@@ -1,50 +1,12 @@
 ---
-title: Aspose::BarCode::License::SetLicense method
+title:  method
 linktitle: SetLicense
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::License::SetLicense method. Licenses the library in C++.'
+description: ' method. Licenses the library in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode/license/setlicense/
 ---
-## License::SetLicense(System::SharedPtr\<System::IO::Stream\>) method
-
-
-Licenses the library.
-
-```cpp
-void Aspose::BarCode::License::SetLicense(System::SharedPtr<System::IO::Stream> stream)
-```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | System::SharedPtr\<System::IO::Stream\> | A stream that contains the license. |
-## Remarks
-
-
-
-Use this method to load a license from a stream.
-
-
-```cpp
-[C#]
-
-License license = new License();
-license.SetLicense(myStream);
-
-
-[Visual Basic]
-
-Dim license as License = new License
-license.SetLicense(myStream)
-```
-
-## See Also
-
-* Class [License](../)
-* Namespace [Aspose::BarCode](../../)
-* Library [Aspose.BarCode for C++](../../../)
 ## License::SetLicense(System::String) method
 
 
@@ -93,6 +55,44 @@ Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
 
+
+## See Also
+
+* Class [License](../)
+* Namespace [Aspose::BarCode](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## License::SetLicense(System::SharedPtr\<System::IO::Stream\>) method
+
+
+Licenses the library.
+
+```cpp
+void Aspose::BarCode::License::SetLicense(System::SharedPtr<System::IO::Stream> stream)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | System::SharedPtr\<System::IO::Stream\> | A stream that contains the license. |
+## Remarks
+
+
+
+Use this method to load a license from a stream.
+
+
+```cpp
+[C#]
+
+License license = new License();
+license.SetLicense(myStream);
+
+
+[Visual Basic]
+
+Dim license as License = new License
+license.SetLicense(myStream)
+```
 
 ## See Also
 

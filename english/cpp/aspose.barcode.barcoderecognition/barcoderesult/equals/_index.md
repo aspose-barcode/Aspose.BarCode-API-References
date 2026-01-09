@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::Equals method. Returns a value indicating whether this instance is equal to a specified BarCodeResult value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified BarCodeResult value in C++.'
 type: docs
-weight: 300
+weight: 1000
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/equals/
 ---
 ## BarCodeResult::Equals method

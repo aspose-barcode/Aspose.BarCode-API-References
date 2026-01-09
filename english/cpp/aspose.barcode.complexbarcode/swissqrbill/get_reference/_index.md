@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Reference method
+title:  method
 linktitle: get_Reference
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Reference method. Gets the creditor payment reference in C++.'
+description: ' method. Gets the creditor payment reference in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_reference/
 ---
 ## SwissQRBill::get_Reference method

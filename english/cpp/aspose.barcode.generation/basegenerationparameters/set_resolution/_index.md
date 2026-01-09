@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::set_Resolution method
+title:  method
 linktitle: set_Resolution
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::set_Resolution method. Sets the resolution of the BarCode image. One value for both dimensions. Default value: 96 dpi in C++.'
+description: ' method. Sets the resolution of the BarCode image. One value for both dimensions. Default value: 96 dpi in C++.'
 type: docs
-weight: 1700
+weight: 600
 url: /cpp/aspose.barcode.generation/basegenerationparameters/set_resolution/
 ---
 ## BaseGenerationParameters::set_Resolution method

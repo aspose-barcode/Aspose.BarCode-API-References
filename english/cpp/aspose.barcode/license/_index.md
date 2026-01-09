@@ -4,7 +4,7 @@ linktitle: License
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::License class. Provides methods to license the component in C++.'
 type: docs
-weight: 100
+weight: 300
 url: /cpp/aspose.barcode/license/
 ---
 ## License class

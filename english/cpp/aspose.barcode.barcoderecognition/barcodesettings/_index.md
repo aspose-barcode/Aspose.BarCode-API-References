@@ -20,7 +20,7 @@ class BarcodeSettings : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AustraliaPost](./get_australiapost/)() | Gets AustraliaPost decoding parameters. |
+| [get_AustraliaPost](./get_australiapost/)() | Gets AustraliaPost decoding parameters |
 | [get_ChecksumValidation](./get_checksumvalidation/)() |  |
 | [get_DetectEncoding](./get_detectencoding/)() | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
 | [get_StripFNC](./get_stripfnc/)() | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |

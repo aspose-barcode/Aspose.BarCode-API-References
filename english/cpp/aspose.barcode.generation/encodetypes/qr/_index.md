@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::QR field
+title:  field
 linktitle: QR
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::QR field. Specifies that the data should be encoded with QR Code barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with QR Code barcode specification in C++.'
 type: docs
-weight: 7800
+weight: 4000
 url: /cpp/aspose.barcode.generation/encodetypes/qr/
 ---
 ## QR field
 
 
-Specifies that the data should be encoded with **QR Code** barcode specification.
+Specifies that the data should be encoded with **QR Code** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::QR

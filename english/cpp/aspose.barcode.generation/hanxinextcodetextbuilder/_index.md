@@ -4,7 +4,7 @@ linktitle: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::HanXinExtCodetextBuilder class in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 ## HanXinExtCodetextBuilder class
@@ -20,24 +20,24 @@ class HanXinExtCodetextBuilder : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [AddAuto](./addauto/)(System::String) | Adds codetext fragment in Auto mode. |
-| [AddBinary](./addbinary/)(System::String) | Adds codetext fragment in Binary mode. |
-| [AddCommonChineseRegionOne](./addcommonchineseregionone/)(System::String) | Adds codetext fragment in [Common](../../aspose.barcode.common/) Chinese Region One mode. |
-| [AddCommonChineseRegionTwo](./addcommonchineseregiontwo/)(System::String) | Adds codetext fragment in [Common](../../aspose.barcode.common/) Chinese Region Two mode. |
-| [AddECI](./addeci/)(System::String, int32_t) | Adds codetext fragment in ECI mode. |
-| [AddGB18030FourByte](./addgb18030fourbyte/)(System::String) | Adds codetext fragment in GB18030 Four Byte mode. |
-| [AddGB18030TwoByte](./addgb18030twobyte/)(System::String) | Adds codetext fragment in GB18030 Two Byte mode. |
-| [AddGS1](./addgs1/)(System::String) | Adds codetext fragment in GS1 mode. |
-| [AddNumeric](./addnumeric/)(System::String) | Adds codetext fragment in Numeric mode. |
-| [AddText](./addtext/)(System::String) | Adds codetext fragment in Text mode. |
-| [AddUnicode](./addunicode/)(System::String) | Adds codetext fragment in Unicode mode. |
-| [AddURI](./adduri/)(System::String) | Adds codetext fragment in URI mode. |
-| [GetExtendedCodetext](./getextendedcodetext/)() | Returns codetext from Extended mode codetext builder. |
+| [AddAuto](./addauto/)(System::String) | Adds codetext fragment in Auto mode |
+| [AddBinary](./addbinary/)(System::String) | Adds codetext fragment in Binary mode |
+| [AddCommonChineseRegionOne](./addcommonchineseregionone/)(System::String) | Adds codetext fragment in [Common](../../aspose.barcode.common/) Chinese Region One mode |
+| [AddCommonChineseRegionTwo](./addcommonchineseregiontwo/)(System::String) | Adds codetext fragment in [Common](../../aspose.barcode.common/) Chinese Region Two mode |
+| [AddECI](./addeci/)(System::String, int32_t) | Adds codetext fragment in ECI mode |
+| [AddGB18030FourByte](./addgb18030fourbyte/)(System::String) | Adds codetext fragment in GB18030 Four Byte mode |
+| [AddGB18030TwoByte](./addgb18030twobyte/)(System::String) | Adds codetext fragment in GB18030 Two Byte mode |
+| [AddGS1](./addgs1/)(System::String) | Adds codetext fragment in GS1 mode |
+| [AddNumeric](./addnumeric/)(System::String) | Adds codetext fragment in Numeric mode |
+| [AddText](./addtext/)(System::String) | Adds codetext fragment in Text mode |
+| [AddUnicode](./addunicode/)(System::String) | Adds codetext fragment in Unicode mode |
+| [AddURI](./adduri/)(System::String) | Adds codetext fragment in URI mode |
+| [GetExtendedCodetext](./getextendedcodetext/)() | Returns codetext from Extended mode codetext builder |
 | [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/)() |  |
 ## Remarks
 
 
-Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode
+Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode
 
 
 
@@ -69,7 +69,7 @@ var str = codeTextBuilder.GetExtendedCodetext();
 //generate
 using (var bg = new BarcodeGenerator(EncodeTypes.HanXin, str))
 {
-    bg.Parameters.Barcode.HanXin.HanXinEncodeMode = HanXinEncodeMode.Extended;
+    bg.Parameters.Barcode.HanXin.EncodeMode = EncodeMode.Extended;
     var img = bg.GenerateBarCodeImage();
     using (var r = new BarCodeReader(img, DecodeType.HanXin))
      {

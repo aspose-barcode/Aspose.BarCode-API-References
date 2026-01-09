@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_RotationAngle method
+title:  method
 linktitle: get_RotationAngle
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_RotationAngle method. BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or RotationAngle = 360 means no rotation. If RotationAngle NOT equal to 90, 180, 270 or 0, it may increase the difficulty for the scanner to read the image. Default value: 0 in C++.'
+description: ' method. BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or RotationAngle = 360 means no rotation. If RotationAngle NOT equal to 90, 180, 270 or 0, it may increase the difficulty for the scanner to read the image. Default value: 0 in C++.'
 type: docs
-weight: 1100
+weight: 700
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_rotationangle/
 ---
 ## BaseGenerationParameters::get_RotationAngle method

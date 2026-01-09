@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroSegmentID method
+title:  method
 linktitle: get_Pdf417MacroSegmentID
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroSegmentID method. MacroPdf417 barcode''s segment ID (Required field), which starts from 0, to MacroSegmentsCount - 1. MicroPDF417 barcode''s segment ID (Required field for Structured Append mode) in C++.'
+description: ' method. MacroPdf417 barcode''s segment ID (Required field), which starts from 0, to MacroSegmentsCount - 1. MicroPDF417 barcode''s segment ID (Required field for Structured Append mode) in C++.'
 type: docs
-weight: 1700
+weight: 2700
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417macrosegmentid/
 ---
 ## Pdf417Parameters::get_Pdf417MacroSegmentID method
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417macrosegmentid/
 MacroPdf417 barcode's segment ID (Required field), which starts from 0, to MacroSegmentsCount - 1. MicroPDF417 barcode's segment ID (Required field for Structured Append mode)
 
 ```cpp
-int32_t Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroSegmentID() const
+int32_t Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroSegmentID()
 ```
+
 
 ## See Also
 

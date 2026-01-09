@@ -1,20 +1,21 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters::get_MaxiCodeStructuredAppendModeBarcodeId method
+title:  method
 linktitle: get_MaxiCodeStructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters::get_MaxiCodeStructuredAppendModeBarcodeId method. Gets a MaxiCode barcode id in structured append mode. Default value: 0 in C++.'
+description: ' method. Gets a MaxiCode barcode id in structured append mode. Default value: 0 in C++.'
 type: docs
-weight: 200
+weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/maxicodeextendedparameters/get_maxicodestructuredappendmodebarcodeid/
 ---
 ## MaxiCodeExtendedParameters::get_MaxiCodeStructuredAppendModeBarcodeId method
 
 
-Gets a MaxiCode barcode id in structured append mode. Default value: 0.
+Gets a MaxiCode barcode id in structured append mode. Default value: 0
 
 ```cpp
 int32_t Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters::get_MaxiCodeStructuredAppendModeBarcodeId()
 ```
+
 
 ## See Also
 

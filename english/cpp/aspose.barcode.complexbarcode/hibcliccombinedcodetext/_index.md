@@ -25,7 +25,7 @@ class HIBCLICCombinedCodetext : public Aspose::BarCode::ComplexBarcode::HIBCLICC
 | [get_PrimaryData](./get_primarydata/)() const | Identifies primary data. |
 | [get_SecondaryAndAdditionalData](./get_secondaryandadditionaldata/)() const | Identifies secondary and additional supplemental data. |
 | [GetBarcodeType](../hibcliccomplexcodetext/getbarcodetype/)() override | Gets barcode type. |
-| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext. |
+| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [HIBCLICComplexCodetext](../hibcliccomplexcodetext/hibcliccomplexcodetext/)() |  |
 | [InitFromString](./initfromstring/)(System::String) override | Initializes instance from constructed codetext. |

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::get_CheckSum method
+title:  method
 linktitle: get_CheckSum
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::get_CheckSum method. Gets the checksum for 1D barcodes in C++.'
+description: ' method. Gets the checksum for 1D barcodes in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/onedextendedparameters/get_checksum/
 ---
 ## OneDExtendedParameters::get_CheckSum method

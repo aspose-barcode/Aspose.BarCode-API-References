@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeConfidence enum
+title:  enum
 linktitle: BarCodeConfidence
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeConfidence enum. Contains recognition confidence level in C++.'
+description: ' enum. Contains recognition confidence level in C++.'
 type: docs
-weight: 2700
+weight: 3200
 url: /cpp/aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 ## BarCodeConfidence enum
 
 
-Contains recognition confidence level.
+Contains recognition confidence level
 
 ```cpp
 enum class BarCodeConfidence : int32_t
@@ -20,11 +20,11 @@ enum class BarCodeConfidence : int32_t
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake. |
+| None | 0 | Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake |
 | Moderate | 80 | Recognition confidence of barcode (mostly 1D barcodes) with weak checksumm or even without it. Could contains some misrecognitions in codetext or even fake recognitions if 
 
-is low. |
-| Strong | 100 | Recognition confidence which was confirmed with BCH codes like Reed–Solomon. There must not be errors in read codetext or fake recognitions. |
+is low |
+| Strong | 100 | Recognition confidence which was confirmed with BCH codes like Reed–Solomon. There must not be errors in read codetext or fake recognitions |
 
 ## Remarks
 
@@ -37,7 +37,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "1
 {
     generator.Save(@"c:\test.png");
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -53,7 +53,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR, "12345"
 {
     generator.Save(@"c:\test.png");
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.QR))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.QR))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -68,7 +68,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
     generator.Save("c:\test.png")
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -81,7 +81,7 @@ End Using
 Using generator As New BarcodeGenerator(EncodeTypes.QR, "12345")
     generator.Save("c:\test.png")
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.QR)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.QR)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)

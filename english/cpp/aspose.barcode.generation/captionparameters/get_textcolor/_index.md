@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CaptionParameters::get_TextColor method
+title:  method
 linktitle: get_TextColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CaptionParameters::get_TextColor method. Caption text color. Default value: Color.Black in C++.'
+description: ' method. Caption text color. Default value: Color.Black in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/captionparameters/get_textcolor/

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendFileId method
+title:  method
 linktitle: set_StructuredAppendFileId
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendFileId method. File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string in C++.'
+description: ' method. File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string in C++.'
 type: docs
-weight: 2000
+weight: 1200
 url: /cpp/aspose.barcode.generation/aztecparameters/set_structuredappendfileid/
 ---
 ## AztecParameters::set_StructuredAppendFileId method
 
 
-File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string.
+File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string
 
 ```cpp
 void Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendFileId(System::String value)

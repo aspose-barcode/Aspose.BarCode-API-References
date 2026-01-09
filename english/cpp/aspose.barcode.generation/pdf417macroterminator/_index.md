@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417MacroTerminator enum
+title:  enum
 linktitle: Pdf417MacroTerminator
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417MacroTerminator enum. Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417 in C++.'
+description: ' enum. Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417 in C++.'
 type: docs
-weight: 7300
+weight: 6800
 url: /cpp/aspose.barcode.generation/pdf417macroterminator/
 ---
 ## Pdf417MacroTerminator enum

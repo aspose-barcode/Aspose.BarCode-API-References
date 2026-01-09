@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::XmlSerializationAttribute::get_Type method
+title:  method
 linktitle: get_Type
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::XmlSerializationAttribute::get_Type method. Get or sets serialization type. Default is attribute in C++.'
+description: ' method. Get or sets serialization type. Default is attribute in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode/xmlserializationattribute/get_type/
 ---
 ## XmlSerializationAttribute::get_Type method

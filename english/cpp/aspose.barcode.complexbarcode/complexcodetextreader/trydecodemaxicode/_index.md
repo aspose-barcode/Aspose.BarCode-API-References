@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode method
+title:  method
 linktitle: TryDecodeMaxiCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode method. Decodes MaxiCode codetext in C++.'
+description: ' method. Decodes MaxiCode codetext in C++.'
 type: docs
-weight: 500
+weight: 400
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemaxicode/
 ---
 ## ComplexCodetextReader::TryDecodeMaxiCode method

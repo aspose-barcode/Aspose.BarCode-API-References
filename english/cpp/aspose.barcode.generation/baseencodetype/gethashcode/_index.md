@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::GetHashCode method
+title:  method
 linktitle: GetHashCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::GetHashCode method. Returns the hash code for this instance in C++.'
+description: ' method. Returns the hash code for this instance in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.barcode.generation/baseencodetype/gethashcode/
 ---
 ## BaseEncodeType::GetHashCode method

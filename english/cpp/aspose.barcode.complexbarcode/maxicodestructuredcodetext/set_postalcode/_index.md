@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::set_PostalCode method
+title:  method
 linktitle: set_PostalCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::set_PostalCode method. Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3 in C++.'
+description: ' method. Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3 in C++.'
 type: docs
-weight: 1100
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/set_postalcode/
 ---
 ## MaxiCodeStructuredCodetext::set_PostalCode method

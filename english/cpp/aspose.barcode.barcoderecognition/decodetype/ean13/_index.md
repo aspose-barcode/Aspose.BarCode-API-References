@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::EAN13 field
+title:  field
 linktitle: EAN13
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::EAN13 field. Specifies that the data should be decoded with EAN-13 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with EAN-13 barcode specification in C++.'
 type: docs
-weight: 3700
+weight: 1900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/ean13/
 ---
 ## EAN13 field
 
 
-Specifies that the data should be decoded with **EAN-13** barcode specification.
+Specifies that the data should be decoded with **EAN-13** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::EAN13
 ```
-
-
-
 
 ## See Also
 

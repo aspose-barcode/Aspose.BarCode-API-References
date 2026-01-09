@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::GetCodeText method
+title:  method
 linktitle: GetCodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::GetCodeText method. Gets the code text with encoding in C++.'
+description: ' method. Gets the code text with encoding in C++.'
 type: docs
-weight: 1200
+weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/getcodetext/
 ---
 ## BarCodeResult::GetCodeText method
@@ -24,6 +24,24 @@ System::String Aspose::BarCode::BarCodeRecognition::BarCodeResult::GetCodeText(S
 ### ReturnValue
 
 A string containing recognized code text.
+## Remarks
+
+
+
+This example shows how to use **GetCodeText**:
+
+
+```cpp
+[C#]
+using (BarcodeGenerator gen = new BarcodeGenerator(EncodeTypes.DataMatrix))
+{
+    gen.SetCodeText("車種名", Encoding.GetEncoding(932));
+    gen.Save("barcode.png", BarCodeImageFormat.Png);
+}
+using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DataMatrix))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine("BarCode CodeText: " + result.GetCodeText(Encoding.GetEncoding(932)));
+```
 
 ## See Also
 

@@ -1,13 +1,13 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType method
+title:  method
 linktitle: SetBarCodeReadType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType method. Sets SingleDecodeType type array for recognition. Must be called before ReadBarCodes() method in C++.'
+description: ' method. Sets SingleDecodeType type array for recognition. Must be called before ReadBarCodes() method in C++.'
 type: docs
-weight: 1600
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
 ---
-## BarCodeReader::SetBarCodeReadType(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\&) method
+## BarCodeReader::SetBarCodeReadType(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\&) method
 
 
 Sets [SingleDecodeType](../../singledecodetype/) type array for recognition. Must be called before [ReadBarCodes()](../readbarcodes/) method.
@@ -19,7 +19,7 @@ void Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\& | The [SingleDecodeType](../../singledecodetype/) type array to read. |
+| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\& | The [SingleDecodeType](../../singledecodetype/) type array to read. |
 ## Remarks
 
 
@@ -29,7 +29,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -39,7 +39,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -76,7 +76,7 @@ This sample shows how to detect Code39 and Code128 barcodes.
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128));
+    reader.SetBarCodeReadType(new MultiDecodeType(DecodeType.Code39, DecodeType.Code128));
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -86,7 +86,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    reader.SetBarCodeReadType(New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)

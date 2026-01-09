@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMailmark2D method
+title:  method
 linktitle: TryDecodeMailmark2D
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMailmark2D method. Decodes Royal Mail Mailmark 2D codetext in C++.'
+description: ' method. Decodes Royal Mail Mailmark 2D codetext in C++.'
 type: docs
-weight: 400
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark2d/
 ---
 ## ComplexCodetextReader::TryDecodeMailmark2D method

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_DetectEncoding method
+title:  method
 linktitle: set_DetectEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_DetectEncoding method. The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true in C++.'
+description: ' method. The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/set_detectencoding/
@@ -54,7 +54,7 @@ Using ms As New MemoryStream
     End Using
     'detects encoding for Unicode codesets is enabled
     ms.Position = 0
-    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = True
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -62,7 +62,7 @@ Using ms As New MemoryStream
     End Using
     'detect encoding is disabled
     ms.Position = 0
-    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
         reader.BarcodeSettings.DetectEncoding = False
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -76,9 +76,6 @@ End Using
 
 
 The flag which force engine to detect codetext encoding for Unicode codesets
-
-
-
 ## See Also
 
 * Class [BarcodeSettings](../)

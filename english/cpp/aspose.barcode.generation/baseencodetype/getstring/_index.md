@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::GetString method
+title:  method
 linktitle: GetString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::GetString method. Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:0; Name:Codabar" in C++.'
+description: ' method. Converts the instance of BaseEncodeType to its equivalent string representation. The string format is: "Index:0; Name:Codabar" in C++.'
 type: docs
-weight: 600
+weight: 400
 url: /cpp/aspose.barcode.generation/baseencodetype/getstring/
 ---
 ## BaseEncodeType::GetString() method

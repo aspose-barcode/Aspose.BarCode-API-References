@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::PrimaryData::set_LabelerIdentificationCode method
+title:  method
 linktitle: set_LabelerIdentificationCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::set_LabelerIdentificationCode method. Identifies date of labeler identification code. Labeler identification code must be 4 symbols alphanumeric string, with first character always being alphabetic in C++.'
+description: ' method. Identifies date of labeler identification code. Labeler identification code must be 4 symbols alphanumeric string, with first character always being alphabetic in C++.'
 type: docs
-weight: 800
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/primarydata/set_labeleridentificationcode/
 ---
 ## PrimaryData::set_LabelerIdentificationCode method

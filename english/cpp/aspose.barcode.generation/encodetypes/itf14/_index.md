@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::ITF14 field
+title:  field
 linktitle: ITF14
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::ITF14 field. Specifies that the data should be encoded with ITF14 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with ITF14 barcode specification in C++.'
 type: docs
-weight: 6000
+weight: 2900
 url: /cpp/aspose.barcode.generation/encodetypes/itf14/
 ---
 ## ITF14 field
 
 
-Specifies that the data should be encoded with **ITF14** barcode specification.
+Specifies that the data should be encoded with **ITF14** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::ITF14

@@ -24,8 +24,8 @@ class HIBCPASRecord : public System::Object
 | [get_Data](./get_data/)() const | Identifies data. |
 | [get_DataType](./get_datatype/)() const | Identifies data type. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
-| [HIBCPASRecord](./hibcpasrecord/)(HIBCPASDataType, System::String) | [HIBCPASRecord](./) constructor. |
-| [HIBCPASRecord](./hibcpasrecord/)() | [HIBCPASRecord](./) constructor. |
+| [HIBCPASRecord](./hibcpasrecord/)(HIBCPASDataType, System::String) | [HIBCPASRecord](./) constructor |
+| [HIBCPASRecord](./hibcpasrecord/)() | [HIBCPASRecord](./) constructor |
 | [set_Data](./set_data/)(System::String) | Identifies data. |
 | [set_DataType](./set_datatype/)(HIBCPASDataType) | Identifies data type. |
 ## See Also

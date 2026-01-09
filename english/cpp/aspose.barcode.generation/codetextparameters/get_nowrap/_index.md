@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CodetextParameters::get_NoWrap method
+title:  method
 linktitle: get_NoWrap
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodetextParameters::get_NoWrap method. Specify word wraps (line breaks) within text. Default value: false in C++.'
+description: ' method. Specify word wraps (line breaks) within text. Default value: false in C++.'
 type: docs
-weight: 600
+weight: 1400
 url: /cpp/aspose.barcode.generation/codetextparameters/get_nowrap/
 ---
 ## CodetextParameters::get_NoWrap method

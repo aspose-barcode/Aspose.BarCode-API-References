@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_LotNumber method
+title:  method
 linktitle: set_LotNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_LotNumber method. Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length.  in C++.'
+description: ' method. Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length.  in C++.'
 type: docs
-weight: 1400
+weight: 600
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/set_lotnumber/
 ---
 ## SecondaryAndAdditionalData::set_LotNumber method

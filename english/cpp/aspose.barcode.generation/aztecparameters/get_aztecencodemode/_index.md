@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::get_AztecEncodeMode method
+title:  method
 linktitle: get_AztecEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::get_AztecEncodeMode method. Gets a Aztec encode mode. Default value: Auto in C++.'
+description: ' method. Gets a Aztec encode mode. Default value: Auto in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.barcode.generation/aztecparameters/get_aztecencodemode/
 ---
 ## AztecParameters::get_AztecEncodeMode method
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/aztecparameters/get_aztecencodemode/
 Gets a Aztec encode mode. Default value: Auto.
 
 ```cpp
-Aspose::BarCode::Generation::AztecEncodeMode Aspose::BarCode::Generation::AztecParameters::get_AztecEncodeMode() const
+Aspose::BarCode::Generation::AztecEncodeMode Aspose::BarCode::Generation::AztecParameters::get_AztecEncodeMode()
 ```
+
 
 ## See Also
 

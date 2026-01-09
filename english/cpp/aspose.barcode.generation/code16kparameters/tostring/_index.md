@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Code16KParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Code16KParameters::ToString method. Returns a human-readable string representation of this Code16KParameters in C++.'
+description: ' method. Returns a human-readable string representation of this Code16KParameters in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/code16kparameters/tostring/

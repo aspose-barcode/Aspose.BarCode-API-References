@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::MacroPdf417 field
+title:  field
 linktitle: MacroPdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::MacroPdf417 field. Specifies that the data should be decoded with MacroPdf417 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with MacroPdf417 barcode specification in C++.'
 type: docs
-weight: 6700
+weight: 4600
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/macropdf417/
 ---
 ## MacroPdf417 field
 
 
-Specifies that the data should be decoded with **MacroPdf417** barcode specification.
+Specifies that the data should be decoded with **MacroPdf417** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::MacroPdf417
 ```
-
-
-
 
 ## See Also
 

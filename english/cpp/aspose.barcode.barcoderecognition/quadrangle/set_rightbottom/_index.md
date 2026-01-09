@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Quadrangle::set_RightBottom method
+title:  method
 linktitle: set_RightBottom
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::set_RightBottom method. Gets right-bottom corner Point of Quadrangle region in C++.'
+description: ' method. Gets right-bottom corner Point of Quadrangle region in C++.'
 type: docs
-weight: 1300
+weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/set_rightbottom/
 ---
 ## Quadrangle::set_RightBottom method
 
 
-Gets right-bottom corner [Point](../) of [Quadrangle](../) region.
+Gets right-bottom corner [Point](../) of [Quadrangle](../) region
 
 ```cpp
 void Aspose::BarCode::BarCodeRecognition::Quadrangle::set_RightBottom(System::Drawing::Point value)
@@ -20,9 +20,6 @@ void Aspose::BarCode::BarCodeRecognition::Quadrangle::set_RightBottom(System::Dr
 
 
 A right-bottom corner [Point](../) of [Quadrangle](../) region
-
-
-
 ## See Also
 
 * Class [Quadrangle](../)

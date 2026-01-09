@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::GenerateBarCodeImage method
+title:  method
 linktitle: GenerateBarCodeImage
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::GenerateBarCodeImage method. Generate the barcode image under current settings in C++.'
+description: ' method. Generate the barcode image under current settings in C++.'
 type: docs
-weight: 400
+weight: 800
 url: /cpp/aspose.barcode.generation/barcodegenerator/generatebarcodeimage/
 ---
 ## BarcodeGenerator::GenerateBarCodeImage method

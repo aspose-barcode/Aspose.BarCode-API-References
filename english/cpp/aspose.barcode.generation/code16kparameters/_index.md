@@ -4,7 +4,7 @@ linktitle: Code16KParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Code16KParameters class. Code16K parameters in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.barcode.generation/code16kparameters/
 ---
 ## Code16KParameters class

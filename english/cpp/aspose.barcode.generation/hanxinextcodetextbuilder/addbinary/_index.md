@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddBinary method
+title:  method
 linktitle: AddBinary
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddBinary method. Adds codetext fragment in Binary mode in C++.'
+description: ' method. Adds codetext fragment in Binary mode in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addbinary/
 ---
 ## HanXinExtCodetextBuilder::AddBinary method
 
 
-Adds codetext fragment in Binary mode.
+Adds codetext fragment in Binary mode
 
 ```cpp
 void Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddBinary(System::String text)

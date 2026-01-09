@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::IsPostal method
+title:  method
 linktitle: IsPostal
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::IsPostal method. Determines if the specified BaseDecodeType contains any Postal barcode symbology in C++.'
+description: ' method. Determines if the specified BaseDecodeType contains any Postal barcode symbology in C++.'
 type: docs
-weight: 500
+weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/ispostal/
 ---
 ## DecodeType::IsPostal method
 
 
-Determines if the specified [BaseDecodeType](../../basedecodetype/) contains any Postal barcode symbology.
+Determines if the specified [BaseDecodeType](../../basedecodetype/) contains any Postal barcode symbology
 
 ```cpp
 static bool Aspose::BarCode::BarCodeRecognition::DecodeType::IsPostal(System::SharedPtr<BaseDecodeType> symbology)

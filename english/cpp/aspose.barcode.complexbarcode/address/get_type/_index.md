@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::get_Type method
+title:  method
 linktitle: get_Type
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::get_Type method. Gets the address type in C++.'
+description: ' method. Gets the address type in C++.'
 type: docs
-weight: 1200
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/address/get_type/
 ---
 ## Address::get_Type method

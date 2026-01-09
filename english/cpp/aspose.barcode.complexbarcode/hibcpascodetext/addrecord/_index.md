@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord method
+title:  method
 linktitle: AddRecord
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord method. Adds new record in C++.'
+description: ' method. Adds new record in C++.'
 type: docs
-weight: 200
+weight: 600
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/addrecord/
 ---
 ## HIBCPASCodetext::AddRecord(HIBCPASDataType, System::String) method
 
 
-Adds new record.
+Adds new record
 
 ```cpp
 void Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord(HIBCPASDataType dataType, System::String data)
@@ -31,7 +31,7 @@ void Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord(HIBCPASDataType
 ## HIBCPASCodetext::AddRecord(System::SharedPtr\<HIBCPASRecord\>) method
 
 
-Adds new record.
+Adds new record
 
 ```cpp
 void Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord(System::SharedPtr<HIBCPASRecord> record)

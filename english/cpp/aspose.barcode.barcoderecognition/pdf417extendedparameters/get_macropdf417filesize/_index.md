@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417FileSize method
+title:  method
 linktitle: get_MacroPdf417FileSize
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417FileSize method. Macro PDF417 file size (optional) in C++.'
+description: ' method. Macro PDF417 file size (optional) in C++.'
 type: docs
-weight: 800
+weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/get_macropdf417filesize/
 ---
 ## Pdf417ExtendedParameters::get_MacroPdf417FileSize method
@@ -20,9 +20,6 @@ int32_t Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_Macro
 
 
 File size.
-
-
-
 ## See Also
 
 * Class [Pdf417ExtendedParameters](../)

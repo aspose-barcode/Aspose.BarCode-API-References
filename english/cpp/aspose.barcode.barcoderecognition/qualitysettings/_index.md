@@ -4,7 +4,7 @@ linktitle: QualitySettings
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings class. QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options. Default value of QualitySettings is NormalQuality in C++.'
 type: docs
-weight: 2500
+weight: 2800
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/
 ---
 ## QualitySettings class
@@ -29,7 +29,7 @@ class QualitySettings : public System::Object
 | [get_InverseImage](./get_inverseimage/)() const | Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance). |
 | static [get_MaxQuality](./get_maxquality/)() | MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes. |
 | [get_MinimalXDimension](./get_minimalxdimension/)() const | Minimal size of XDimension in pixels which is used with UseMinimalXDimension. |
-| static [get_NormalQuality](./get_normalquality/)() | NormalQuality recognition quality preset. Suitable for the most of barcodes. |
+| static [get_NormalQuality](./get_normalquality/)() | NormalQuality recognition quality preset. Suitable for the most of barcodes |
 | [get_XDimension](./get_xdimension/)() const | Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
 | [set_AllowIncorrectBarcodes](./set_allowincorrectbarcodes/)(bool) | Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. Mode can be used to recognize damaged barcodes with incorrect text. |
 | [set_BarcodeQuality](./set_barcodequality/)(BarcodeQualityMode) | Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition. |
@@ -76,7 +76,8 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     reader.QualitySettings.BarcodeQuality = BarcodeQualityMode.Low;
     foreach (BarCodeResult result in reader.ReadBarCodes())
         Console.WriteLine(result.CodeText);
-}    <br>
+}    
+<br>
 ```
 
 ## See Also

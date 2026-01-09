@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::VIN field
+title:  field
 linktitle: VIN
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::VIN field. Represents VIN (Vehicle Identification Number) Barcode in C++.'
+description: ' field. Represents VIN (Vehicle Identification Number) Barcode in C++.'
 type: docs
-weight: 9000
+weight: 3200
 url: /cpp/aspose.barcode.generation/encodetypes/vin/
 ---
 ## VIN field

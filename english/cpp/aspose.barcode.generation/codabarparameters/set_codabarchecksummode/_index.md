@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodabarParameters::set_CodabarChecksumMode method
+title:  method
 linktitle: set_CodabarChecksumMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodabarParameters::set_CodabarChecksumMode method. Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See CodabarChecksumMode in C++.'
+description: ' method. Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See ChecksumMode in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/codabarparameters/set_codabarchecksummode/
@@ -10,11 +10,12 @@ url: /cpp/aspose.barcode.generation/codabarparameters/set_codabarchecksummode/
 ## CodabarParameters::set_CodabarChecksumMode method
 
 
-Get or set the checksum algorithm for Codabar barcodes. Default value: [CodabarChecksumMode.Mod16](../../codabarchecksummode/). To enable checksum calculation set value [EnableChecksum.Yes](../../enablechecksum/) to property EnableChecksum. See [CodabarChecksumMode](../../codabarchecksummode/).
+Get or set the checksum algorithm for Codabar barcodes. Default value: [CodabarChecksumMode.Mod16](../../codabarchecksummode/). To enable checksum calculation set value [EnableChecksum.Yes](../../enablechecksum/) to property EnableChecksum. See [ChecksumMode](../).
 
 ```cpp
 void Aspose::BarCode::Generation::CodabarParameters::set_CodabarChecksumMode(Aspose::BarCode::Generation::CodabarChecksumMode value)
 ```
+
 
 ## See Also
 

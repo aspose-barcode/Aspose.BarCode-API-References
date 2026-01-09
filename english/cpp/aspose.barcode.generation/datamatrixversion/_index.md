@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixVersion enum
+title:  enum
 linktitle: DataMatrixVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixVersion enum. Specify the type of the ECC to encode in C++.'
+description: ' enum. Specify the type of the ECC to encode in C++.'
 type: docs
-weight: 5600
+weight: 5900
 url: /cpp/aspose.barcode.generation/datamatrixversion/
 ---
 ## DataMatrixVersion enum

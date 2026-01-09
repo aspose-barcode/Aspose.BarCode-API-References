@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::get_Rows method
+title:  method
 linktitle: get_Rows
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::get_Rows method. Rows count in C++.'
+description: ' method. Rows count in C++.'
 type: docs
-weight: 900
+weight: 2500
 url: /cpp/aspose.barcode.generation/datamatrixparameters/get_rows/
 ---
 ## DataMatrixParameters::get_Rows method

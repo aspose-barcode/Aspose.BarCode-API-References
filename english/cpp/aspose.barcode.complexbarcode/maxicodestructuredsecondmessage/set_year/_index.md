@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::set_Year method
+title:  method
 linktitle: set_Year
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::set_Year method. Sets year. Year must be 2 digit integer value in C++.'
+description: ' method. Sets year. Year must be 2 digit integer value in C++.'
 type: docs
-weight: 900
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/set_year/
 ---
 ## MaxiCodeStructuredSecondMessage::set_Year method

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Reference method
+title:  method
 linktitle: set_Reference
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Reference method. Sets the creditor payment reference in C++.'
+description: ' method. Sets the creditor payment reference in C++.'
 type: docs
-weight: 2100
+weight: 1200
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_reference/
 ---
 ## SwissQRBill::set_Reference method

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetBarcodeType method
+title:  method
 linktitle: GetBarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetBarcodeType method. Gets barcode type in C++.'
+description: ' method. Gets barcode type in C++.'
 type: docs
-weight: 400
+weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/
 ---
 ## MaxiCodeCodetext::GetBarcodeType method

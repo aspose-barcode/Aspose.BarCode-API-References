@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::get_Year method
+title:  method
 linktitle: get_Year
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::get_Year method. Gets year. Year must be 2 digit integer value in C++.'
+description: ' method. Gets year. Year must be 2 digit integer value in C++.'
 type: docs
-weight: 600
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/get_year/
 ---
 ## MaxiCodeStructuredSecondMessage::get_Year method

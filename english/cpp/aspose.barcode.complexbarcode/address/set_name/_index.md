@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::set_Name method
+title:  method
 linktitle: set_Name
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::set_Name method. Sets the name, either the first and last name of a natural person or the company name of a legal person in C++.'
+description: ' method. Sets the name, either the first and last name of a natural person or the company name of a legal person in C++.'
 type: docs
-weight: 1800
+weight: 300
 url: /cpp/aspose.barcode.complexbarcode/address/set_name/
 ---
 ## Address::set_Name method

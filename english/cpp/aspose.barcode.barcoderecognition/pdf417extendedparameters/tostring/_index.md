@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::ToString method. Returns a human-readable string representation of this Pdf417ExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this Pdf417ExtendedParameters in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring/

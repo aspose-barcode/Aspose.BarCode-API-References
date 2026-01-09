@@ -4,7 +4,7 @@ linktitle: PrimaryData
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::PrimaryData class. Class for storing HIBC LIC primary data in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.barcode.complexbarcode/primarydata/
 ---
 ## PrimaryData class

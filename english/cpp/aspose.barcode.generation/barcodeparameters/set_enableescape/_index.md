@@ -1,18 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::set_EnableEscape method
+title:  method
 linktitle: set_EnableEscape
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::set_EnableEscape method. Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only
-If the EnableEscape is true, "" will be explained as a special escape character. Otherwise, "\" acts as normal characters in C++.'
+description: ' method. Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters in C++.'
 type: docs
-weight: 3600
+weight: 1300
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_enableescape/
 ---
 ## BarcodeParameters::set_EnableEscape method
 
 
-Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only
-If the EnableEscape is true, "" will be explained as a special escape character. Otherwise, "\" acts as normal characters.
+Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters.
 
 ```cpp
 void Aspose::BarCode::Generation::BarcodeParameters::set_EnableEscape(bool value)

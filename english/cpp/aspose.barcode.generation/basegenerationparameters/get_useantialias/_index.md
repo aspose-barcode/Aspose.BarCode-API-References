@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_UseAntiAlias method
+title:  method
 linktitle: get_UseAntiAlias
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_UseAntiAlias method. Gets a value indicating whether is used anti-aliasing mode to render image in C++.'
+description: ' method. Gets a value indicating whether is used anti-aliasing mode to render image in C++.'
 type: docs
-weight: 1200
+weight: 100
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_useantialias/
 ---
 ## BaseGenerationParameters::get_UseAntiAlias method
 
 
-Gets a value indicating whether is used anti-aliasing mode to render image.
+Gets a value indicating whether is used anti-aliasing mode to render image
 
 ```cpp
 bool Aspose::BarCode::Generation::BaseGenerationParameters::get_UseAntiAlias()

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MinimalXDimension method
+title:  method
 linktitle: get_MinimalXDimension
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MinimalXDimension method. Minimal size of XDimension in pixels which is used with UseMinimalXDimension in C++.'
+description: ' method. Minimal size of XDimension in pixels which is used with UseMinimalXDimension in C++.'
 type: docs
-weight: 1000
+weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_minimalxdimension/
 ---
 ## QualitySettings::get_MinimalXDimension method
@@ -20,9 +20,6 @@ float Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MinimalXDimensio
 
 
 Minimal size of XDimension in pixels which is used with UseMinimalXDimension. 
-
-
-
 ## See Also
 
 * Class [QualitySettings](../)

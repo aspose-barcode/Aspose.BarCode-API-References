@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_Border method
+title:  method
 linktitle: get_Border
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_Border method. Gets the BorderParameters that contains all configuration properties for barcode border in C++.'
+description: ' method. Gets the BorderParameters that contains all configuration properties for barcode border in C++.'
 type: docs
-weight: 400
+weight: 1900
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_border/
 ---
 ## BaseGenerationParameters::get_Border method

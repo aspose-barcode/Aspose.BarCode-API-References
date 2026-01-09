@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::get_ECIEncoding method
+title:  method
 linktitle: get_ECIEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::get_ECIEncoding method. Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 in C++.'
+description: ' method. Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 in C++.'
 type: docs
-weight: 200
+weight: 500
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetext/get_eciencoding/
 ---
 ## MaxiCodeCodetext::get_ECIEncoding method
 
 
-Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1.
+Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 ```cpp
 Aspose::BarCode::Generation::ECIEncodings Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::get_ECIEncoding()

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Metered::GetConsumptionQuantity method
+title:  method
 linktitle: GetConsumptionQuantity
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Metered::GetConsumptionQuantity method. Gets consumption file size in C++.'
+description: ' method. Gets consumption file size in C++.'
 type: docs
-weight: 500
+weight: 400
 url: /cpp/aspose.barcode/metered/getconsumptionquantity/
 ---
 ## Metered::GetConsumptionQuantity method
 
 
-Gets consumption file size.
+Gets consumption file size
 
 ```cpp
 static System::Decimal Aspose::BarCode::Metered::GetConsumptionQuantity()

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_CountryCode method
+title:  method
 linktitle: get_CountryCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_CountryCode method. Identifies 3 digit country code in C++.'
+description: ' method. Identifies 3 digit country code in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/get_countrycode/

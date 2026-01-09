@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::GS1MicroPdf417 field
+title:  field
 linktitle: GS1MicroPdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::GS1MicroPdf417 field. Specifies that the data should be decoded with MicroPdf417 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with MicroPdf417 barcode specification in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/gs1micropdf417/
 ---
 ## GS1MicroPdf417 field
 
 
-Specifies that the data should be decoded with **MicroPdf417** barcode specification.
+Specifies that the data should be decoded with **MicroPdf417** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::GS1MicroPdf417
 ```
-
-
-
 
 ## See Also
 

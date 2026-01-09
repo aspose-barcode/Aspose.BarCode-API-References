@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Points method
+title:  method
 linktitle: get_Points
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Points method. Gets Points array bounding barcode region in C++.'
+description: ' method. Gets Points array bounding barcode region in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/get_points/
 ---
 ## BarCodeRegionParameters::get_Points method
 
 
-Gets [Point](../)s array bounding barcode region.
+Gets [Point](../)s array bounding barcode region
 
 ```cpp
 System::ArrayPtr<System::Drawing::Point> Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Points()
@@ -20,9 +20,6 @@ System::ArrayPtr<System::Drawing::Point> Aspose::BarCode::BarCodeRecognition::Ba
 
 
 Returns [Point](../)s array bounding barcode region
-
-
-
 ## See Also
 
 * Class [BarCodeRegionParameters](../)

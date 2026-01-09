@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_HanXin method
+title:  method
 linktitle: get_HanXin
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_HanXin method. HanXin parameters in C++.'
+description: ' method. HanXin parameters in C++.'
 type: docs
-weight: 1900
+weight: 4200
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_hanxin/
 ---
 ## BarcodeParameters::get_HanXin method

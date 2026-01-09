@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::ITF6 field
+title:  field
 linktitle: ITF6
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::ITF6 field. Represents ITF-6 Barcode in C++.'
+description: ' field. Represents ITF-6 Barcode in C++.'
 type: docs
-weight: 6100
+weight: 3000
 url: /cpp/aspose.barcode.generation/encodetypes/itf6/
 ---
 ## ITF6 field

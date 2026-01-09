@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CodablockParameters::get_Columns method
+title:  method
 linktitle: get_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodablockParameters::get_Columns method. Columns count in C++.'
+description: ' method. Columns count in C++.'
 type: docs
-weight: 200
+weight: 100
 url: /cpp/aspose.barcode.generation/codablockparameters/get_columns/
 ---
 ## CodablockParameters::get_Columns method

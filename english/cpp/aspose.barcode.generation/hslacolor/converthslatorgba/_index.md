@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HslaColor::ConvertHslaToRgba method
+title:  method
 linktitle: ConvertHslaToRgba
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HslaColor::ConvertHslaToRgba method. Uses  in C++.'
+description: ' method. Uses in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/hslacolor/converthslatorgba/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/hslacolor/converthslatorgba/
 ## HslaColor::ConvertHslaToRgba method
 
 
-Uses [https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB](https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB).
+Uses [https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB](https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB)
 
 ```cpp
 static System::Drawing::Color Aspose::BarCode::Generation::HslaColor::ConvertHslaToRgba(System::SharedPtr<HslaColor> hslaColor)

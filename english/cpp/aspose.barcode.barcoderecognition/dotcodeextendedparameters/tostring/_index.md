@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters::ToString method. Returns a human-readable string representation of this DotCodeExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this DotCodeExtendedParameters in C++.'
 type: docs
-weight: 500
+weight: 800
 url: /cpp/aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/
 ---
 ## DotCodeExtendedParameters::ToString method

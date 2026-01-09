@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::get_Parameters method
+title:  method
 linktitle: get_Parameters
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::get_Parameters method. Generation parameters in C++.'
+description: ' method. Generation parameters in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/complexbarcodegenerator/get_parameters/
 ---
 ## ComplexBarcodeGenerator::get_Parameters method

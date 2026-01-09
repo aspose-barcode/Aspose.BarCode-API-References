@@ -22,8 +22,8 @@ class BaseEncodeType : public System::IEquatable<System::SharedPtr<Aspose::BarCo
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<BaseEncodeType\>) override | Returns a value indicating whether this instance is equal to a specified [BaseEncodeType](./) value. |
 | [get_Classification](./get_classification/)() | Gets a classification of this symbology. |
-| [get_TypeIndex](./get_typeindex/)() | Gets an index of encode type. |
-| [get_TypeName](./get_typename/)() | Gets a name of encode type. |
+| [get_TypeIndex](./get_typeindex/)() | Gets an index of encode type |
+| [get_TypeName](./get_typename/)() | Gets a name of encode type |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [GetString](./getstring/)() | Converts the instance of [BaseEncodeType](./) to its equivalent string representation. The string format is: "Index:0; Name:Codabar". |
 | static [GetString](./getstring/)(System::SharedPtr\<BaseEncodeType\>) | Converts the instance of [BaseEncodeType](./) to its equivalent string representation. The string format is: "Index:-1; Name:None". |

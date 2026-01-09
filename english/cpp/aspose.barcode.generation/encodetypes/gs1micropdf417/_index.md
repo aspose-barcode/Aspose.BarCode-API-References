@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::GS1MicroPdf417 field
+title:  field
 linktitle: GS1MicroPdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::GS1MicroPdf417 field. Specifies that the data should be encoded with GS1MicroPdf417 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with GS1MicroPdf417 barcode specification in C++.'
 type: docs
-weight: 4100
+weight: 4700
 url: /cpp/aspose.barcode.generation/encodetypes/gs1micropdf417/
 ---
 ## GS1MicroPdf417 field
 
 
-Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification.
+Specifies that the data should be encoded with **GS1MicroPdf417** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::GS1MicroPdf417

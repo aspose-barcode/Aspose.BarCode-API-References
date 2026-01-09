@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Creditor method
+title:  method
 linktitle: get_Creditor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Creditor method. Gets the creditor address in C++.'
+description: ' method. Gets the creditor address in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_creditor/
 ---
 ## SwissQRBill::get_Creditor method

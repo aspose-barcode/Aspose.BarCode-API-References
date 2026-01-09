@@ -22,7 +22,7 @@ class Mailmark2DCodetext : public Aspose::BarCode::ComplexBarcode::IComplexCodet
 | --- | --- |
 | [get_Class](./get_class/)() const | Identifies the class of the item. |
 | [get_CustomerContent](./get_customercontent/)() const | Optional space for use by customer. |
-| [get_CustomerContentEncodeMode](./get_customercontentencodemode/)() const | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40. |
+| [get_CustomerContentEncodeMode](./get_customercontentencodemode/)() const | Encode mode of Datamatrix barcode. Default value: EncodeMode.C40. |
 | [get_DataMatrixType](./get_datamatrixtype/)() const | 2D Mailmark Type defines size of Data Matrix barcode. |
 | [get_DestinationPostCodeAndDPS](./get_destinationpostcodeanddps/)() const | Contains the Postcode of the Delivery [Address](../address/) with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format. |
 | [get_InformationTypeID](./get_informationtypeid/)() const | Identifies the Royal Mail Mailmark barcode payload for each product type. |
@@ -38,7 +38,7 @@ class Mailmark2DCodetext : public Aspose::BarCode::ComplexBarcode::IComplexCodet
 | [Mailmark2DCodetext](./mailmark2dcodetext/)() | Constructor. Create default instance of [Mailmark2DCodetext](./) class. |
 | [set_Class](./set_class/)(System::String) | Identifies the class of the item. |
 | [set_CustomerContent](./set_customercontent/)(System::String) | Optional space for use by customer. |
-| [set_CustomerContentEncodeMode](./set_customercontentencodemode/)(Aspose::BarCode::Generation::DataMatrixEncodeMode) | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40. |
+| [set_CustomerContentEncodeMode](./set_customercontentencodemode/)(Aspose::BarCode::Generation::DataMatrixEncodeMode) | Encode mode of Datamatrix barcode. Default value: EncodeMode.C40. |
 | [set_DataMatrixType](./set_datamatrixtype/)(Mailmark2DType) | 2D Mailmark Type defines size of Data Matrix barcode. |
 | [set_DestinationPostCodeAndDPS](./set_destinationpostcodeanddps/)(System::String) | Contains the Postcode of the Delivery [Address](../address/) with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format. |
 | [set_InformationTypeID](./set_informationtypeid/)(System::String) | Identifies the Royal Mail Mailmark barcode payload for each product type. |

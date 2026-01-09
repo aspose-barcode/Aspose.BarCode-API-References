@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::ExtCodetextBuilder::Clear method
+title:  method
 linktitle: Clear
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ExtCodetextBuilder::Clear method. Clears extended codetext items in C++.'
+description: ' method. Clears extended codetext items in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode.generation/extcodetextbuilder/clear/
 ---
 ## ExtCodetextBuilder::Clear method
 
 
-Clears extended codetext items.
+Clears extended codetext items
 
 ```cpp
 virtual void Aspose::BarCode::Generation::ExtCodetextBuilder::Clear()

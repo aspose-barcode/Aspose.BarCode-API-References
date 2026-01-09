@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Unit::set_Document method
+title:  method
 linktitle: set_Document
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::set_Document method. Sets size value in document units in C++.'
+description: ' method. Sets size value in document units in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.barcode.generation/unit/set_document/
 ---
 ## Unit::set_Document method

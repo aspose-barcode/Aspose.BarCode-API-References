@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeEncodeMode enum
+title:  enum
 linktitle: DotCodeEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeEncodeMode enum. Encoding mode for DotCode barcodes in C++.'
+description: ' enum. Encoding mode for DotCode barcodes in C++.'
 type: docs
-weight: 5700
+weight: 6000
 url: /cpp/aspose.barcode.generation/dotcodeencodemode/
 ---
 ## DotCodeEncodeMode enum
@@ -70,8 +70,8 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
-
+string codetext = textBuilder.GetExtendedCodetext();    
+<br>
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {

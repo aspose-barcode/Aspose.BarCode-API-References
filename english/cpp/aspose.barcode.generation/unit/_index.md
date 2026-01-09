@@ -4,7 +4,7 @@ linktitle: Unit
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Unit class. Specifies the size value in different units (Pixel, Inches, etc.) in C++.'
 type: docs
-weight: 4300
+weight: 4500
 url: /cpp/aspose.barcode.generation/unit/
 ---
 ## Unit class
@@ -26,7 +26,7 @@ class Unit : public System::Object
 | [get_Millimeters](./get_millimeters/)() | Gets size value in millimeters. |
 | [get_Pixels](./get_pixels/)() | Gets size value in pixels. |
 | [get_Point](./get_point/)() | Gets size value in point. |
-| [get_Resolution](./get_resolution/)() | Resolution. |
+| [get_Resolution](./get_resolution/)() | Resolution |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this object. |
 | [set_Document](./set_document/)(float) | Sets size value in document units. |
 | [set_Inches](./set_inches/)(float) | Sets size value in inches. |

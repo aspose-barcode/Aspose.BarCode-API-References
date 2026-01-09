@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::PrimaryData::GetHashCode method
+title:  method
 linktitle: GetHashCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::GetHashCode method. Returns the hash code for this instance in C++.'
+description: ' method. Returns the hash code for this instance in C++.'
 type: docs
-weight: 600
+weight: 900
 url: /cpp/aspose.barcode.complexbarcode/primarydata/gethashcode/
 ---
 ## PrimaryData::GetHashCode method

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::get_Columns method
+title:  method
 linktitle: get_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::get_Columns method. Columns count in C++.'
+description: ' method. Columns count in C++.'
 type: docs
-weight: 200
+weight: 2300
 url: /cpp/aspose.barcode.generation/datamatrixparameters/get_columns/
 ---
 ## DataMatrixParameters::get_Columns method

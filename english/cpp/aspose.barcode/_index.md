@@ -14,6 +14,8 @@ url: /cpp/aspose.barcode/
 
 | Class | Description |
 | --- | --- |
+| [Details_BarCodeException](./details_barcodeexception/) | Represents the exception for creating barcode image. |
+| [Details_InvalidCodeException](./details_invalidcodeexception/) | The Exception will be thrown when invalid characters contained in the code text. |
 | [License](./license/) | Provides methods to license the component. |
 | [Metered](./metered/) | Provides methods to set metered key. |
 | [XmlSerializationAttribute](./xmlserializationattribute/) | Represents attribute for xml entity generator. |

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeParameters::get_DotCodeStructuredAppendModeBarcodesCount method
+title:  method
 linktitle: get_DotCodeStructuredAppendModeBarcodesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeParameters::get_DotCodeStructuredAppendModeBarcodesCount method. Identifies DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35 in C++.'
+description: ' method. Identifies DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35 in C++.'
 type: docs
-weight: 500
+weight: 1500
 url: /cpp/aspose.barcode.generation/dotcodeparameters/get_dotcodestructuredappendmodebarcodescount/
 ---
 ## DotCodeParameters::get_DotCodeStructuredAppendModeBarcodesCount method
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/dotcodeparameters/get_dotcodestructuredappen
 Identifies DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35.
 
 ```cpp
-int32_t Aspose::BarCode::Generation::DotCodeParameters::get_DotCodeStructuredAppendModeBarcodesCount() const
+int32_t Aspose::BarCode::Generation::DotCodeParameters::get_DotCodeStructuredAppendModeBarcodesCount()
 ```
+
 
 ## See Also
 

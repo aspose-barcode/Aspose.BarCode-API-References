@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::ITF14 field
+title:  field
 linktitle: ITF14
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::ITF14 field. Specifies that the data should be decoded with ITF14 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with ITF14 barcode specification in C++.'
 type: docs
-weight: 6500
+weight: 3100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/itf14/
 ---
 ## ITF14 field
 
 
-Specifies that the data should be decoded with **ITF14** barcode specification.
+Specifies that the data should be decoded with **ITF14** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::ITF14
 ```
-
-
-
 
 ## See Also
 

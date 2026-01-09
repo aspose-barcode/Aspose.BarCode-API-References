@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::ITFParameters::set_ItfBorderThickness method
+title:  method
 linktitle: set_ItfBorderThickness
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ITFParameters::set_ItfBorderThickness method. Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt in C++.'
+description: ' method. Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/itfparameters/set_itfborderthickness/
@@ -15,6 +15,7 @@ Sets an ITF border (bearer bar) thickness in [Unit](../../unit/) value. Default 
 ```cpp
 void Aspose::BarCode::Generation::ITFParameters::set_ItfBorderThickness(System::SharedPtr<Unit> value)
 ```
+
 
 ## See Also
 

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417Truncate method
+title:  method
 linktitle: get_Pdf417Truncate
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417Truncate method. Whether Pdf417 symbology type of BarCode is truncated (to reduce space). Also known as CompactPDF417. Rigth row indicator and right stop pattern are removed in this mode in C++.'
+description: ' method. Whether Pdf417 symbology type of BarCode is truncated (to reduce space). Also known as CompactPDF417. Rigth row indicator and right stop pattern are removed in this mode in C++.'
 type: docs
-weight: 2200
+weight: 1300
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417truncate/
 ---
 ## Pdf417Parameters::get_Pdf417Truncate method
@@ -13,10 +13,8 @@ url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417truncate/
 Whether Pdf417 symbology type of [BarCode](../../../aspose.barcode/) is truncated (to reduce space). Also known as CompactPDF417. Rigth row indicator and right stop pattern are removed in this mode.
 
 ```cpp
-bool Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417Truncate() const
+bool Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417Truncate()
 ```
-
-
 
 
 ## See Also

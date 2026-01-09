@@ -4,13 +4,13 @@ linktitle: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters class. Stores a MacroPdf417 metadata information of recognized barcode in C++.'
 type: docs
-weight: 2200
+weight: 2500
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
 
 
-Stores a MacroPdf417 metadata information of recognized barcode.
+Stores a MacroPdf417 metadata information of recognized barcode
 
 ```cpp
 class Pdf417ExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseExtendedParameters
@@ -21,7 +21,7 @@ class Pdf417ExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Bas
 | Method | Description |
 | --- | --- |
 | [get_IsCode128Emulation](./get_iscode128emulation/)() | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | Tests whether all parameters has only default values. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_IsLinked](./get_islinked/)() | Flag that indicates that the barcode must be linked to 1D barcode. |
 | [get_IsReaderInitialization](./get_isreaderinitialization/)() | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [get_MacroPdf417Addressee](./get_macropdf417addressee/)() const | Macro PDF417 addressee name (optional). |

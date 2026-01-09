@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::GetRecords method
+title:  method
 linktitle: GetRecords
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::GetRecords method. Gets records list in C++.'
+description: ' method. Gets records list in C++.'
 type: docs
-weight: 1000
+weight: 500
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/getrecords/
 ---
 ## HIBCPASCodetext::GetRecords method
 
 
-Gets records list.
+Gets records list
 
 ```cpp
 System::SharedPtr<System::Collections::Generic::List<System::SharedPtr<HIBCPASRecord>>> Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::GetRecords()

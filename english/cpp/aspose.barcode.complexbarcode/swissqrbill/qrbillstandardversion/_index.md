@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::QrBillStandardVersion typedef
+title:  typedef
 linktitle: QrBillStandardVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::QrBillStandardVersion typedef. SwissQR bill standard version in C++.'
+description: ' typedef. SwissQR bill standard version in C++.'
 type: docs
 weight: 2400
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/qrbillstandardversion/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.complexbarcode/swissqrbill/qrbillstandardversion/
 ## QrBillStandardVersion typedef
 
 
-SwissQR bill standard version.
+SwissQR bill standard version
 
 ## See Also
 

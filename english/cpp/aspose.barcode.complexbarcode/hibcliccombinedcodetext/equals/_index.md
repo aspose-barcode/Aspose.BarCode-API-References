@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICCombinedCodetext::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICCombinedCodetext::Equals method. Returns a value indicating whether this instance is equal to a specified HIBCLICCombinedCodetext value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified HIBCLICCombinedCodetext value in C++.'
 type: docs
-weight: 100
+weight: 700
 url: /cpp/aspose.barcode.complexbarcode/hibcliccombinedcodetext/equals/
 ---
 ## HIBCLICCombinedCodetext::Equals method

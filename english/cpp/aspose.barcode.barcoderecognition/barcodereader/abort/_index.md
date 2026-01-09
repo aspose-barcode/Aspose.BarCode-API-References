@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::Abort method
+title:  method
 linktitle: Abort
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::Abort method. Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long in C++.'
+description: ' method. Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long in C++.'
 type: docs
-weight: 400
+weight: 1000
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/abort/
 ---
 ## BarCodeReader::Abort method
@@ -32,7 +32,7 @@ private static void ThreadRecognize(object readerObj)
     }
 }
 
-BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128);
+BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128);
 Thread thread1 = new Thread(ThreadRecognize);
 thread1.Start(reader);
 Thread.Sleep(100);
@@ -46,15 +46,12 @@ Private Shared Sub ThreadRecognize(readerObj As Object)
     Next
 End Sub
 
-Dim reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Dim reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
 Dim thread1 As New Thread(AddressOf ThreadRecognize)
 thread1.Start(reader)
 Thread.Sleep(100)
 reader.Abort()
 ```
-
-
-
 
 ## See Also
 

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::ISSN field
+title:  field
 linktitle: ISSN
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::ISSN field. Specifies that the data should be encoded with ISSN barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with ISSN barcode specification in C++.'
 type: docs
-weight: 5800
+weight: 2200
 url: /cpp/aspose.barcode.generation/encodetypes/issn/
 ---
 ## ISSN field
 
 
-Specifies that the data should be encoded with **ISSN** barcode specification.
+Specifies that the data should be encoded with **ISSN** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::ISSN

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::ToString method. Returns a human-readable string representation of this OneDExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this OneDExtendedParameters in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/onedextendedparameters/tostring/

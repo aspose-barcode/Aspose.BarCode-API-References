@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::DutchKIX field
+title:  field
 linktitle: DutchKIX
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DutchKIX field. Specifies that the data should be decoded with DotCode barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with DotCode barcode specification in C++.'
 type: docs
-weight: 3600
+weight: 7900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/dutchkix/
 ---
 ## DutchKIX field
 
 
-Specifies that the data should be decoded with **DotCode** barcode specification.
+Specifies that the data should be decoded with **DotCode** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::DutchKIX
 ```
-
-
-
 
 ## See Also
 

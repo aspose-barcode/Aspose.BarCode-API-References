@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeParameters::set_DotCodeStructuredAppendModeBarcodeId method
+title:  method
 linktitle: set_DotCodeStructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeParameters::set_DotCodeStructuredAppendModeBarcodeId method. Identifies the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1 in C++.'
+description: ' method. Identifies the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1 in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.generation/dotcodeparameters/set_dotcodestructuredappendmodebarcodeid/
@@ -15,6 +15,7 @@ Identifies the ID of the DotCode structured append mode barcode. ID starts from 
 ```cpp
 void Aspose::BarCode::Generation::DotCodeParameters::set_DotCodeStructuredAppendModeBarcodeId(int32_t value)
 ```
+
 
 ## See Also
 

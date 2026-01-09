@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::get_Format method
+title:  method
 linktitle: get_Format
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::get_Format method. "0" – Null or Test "1" – Letter "2" – Large Letter in C++.'
+description: ' method. "0" – Null or Test "1" – Letter "2" – Large Letter in C++.'
 type: docs
-weight: 400
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/get_format/
 ---
 ## MailmarkCodetext::get_Format method

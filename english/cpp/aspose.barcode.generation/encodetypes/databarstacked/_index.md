@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::DatabarStacked field
+title:  field
 linktitle: DatabarStacked
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::DatabarStacked field. Represents GS1 Databar stacked barcode in C++.'
+description: ' field. Represents GS1 Databar stacked barcode in C++.'
 type: docs
-weight: 2200
+weight: 6600
 url: /cpp/aspose.barcode.generation/encodetypes/databarstacked/
 ---
 ## DatabarStacked field

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::ChecksumValidation enum
+title:  enum
 linktitle: ChecksumValidation
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::BarCodeRecognition::ChecksumValidation enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 ## ChecksumValidation enum

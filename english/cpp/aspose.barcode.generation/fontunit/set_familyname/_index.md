@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::FontUnit::set_FamilyName method
+title:  method
 linktitle: set_FamilyName
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::FontUnit::set_FamilyName method. Sets the face name of this Font in C++.'
+description: ' method. Sets the face name of this Font in C++.'
 type: docs
-weight: 400
+weight: 200
 url: /cpp/aspose.barcode.generation/fontunit/set_familyname/
 ---
 ## FontUnit::set_FamilyName method

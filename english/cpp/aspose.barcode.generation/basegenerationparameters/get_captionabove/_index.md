@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_CaptionAbove method
+title:  method
 linktitle: get_CaptionAbove
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_CaptionAbove method. Caption Above the BarCode image. See CaptionParameters in C++.'
+description: ' method. Caption Above the BarCode image. See CaptionParameters in C++.'
 type: docs
-weight: 500
+weight: 900
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_captionabove/
 ---
 ## BaseGenerationParameters::get_CaptionAbove method

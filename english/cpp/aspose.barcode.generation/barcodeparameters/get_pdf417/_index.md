@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_Pdf417 method
+title:  method
 linktitle: get_Pdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Pdf417 method. PDF417 parameters in C++.'
+description: ' method. PDF417 parameters in C++.'
 type: docs
-weight: 2500
+weight: 3400
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_pdf417/
 ---
 ## BarcodeParameters::get_Pdf417 method

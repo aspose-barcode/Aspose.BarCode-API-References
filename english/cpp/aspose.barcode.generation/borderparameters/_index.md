@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/borderparameters/
 ## BorderParameters class
 
 
-Barcode image border parameters.
+Barcode image border parameters
 
 ```cpp
 class BorderParameters : public System::Object

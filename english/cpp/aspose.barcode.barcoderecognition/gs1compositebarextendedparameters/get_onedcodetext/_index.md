@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParameters::get_OneDCodeText method
+title:  method
 linktitle: get_OneDCodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParameters::get_OneDCodeText method. Gets the 1D (linear) barcode value of GS1 Composite in C++.'
+description: ' method. Gets the 1D (linear) barcode value of GS1 Composite in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/get_onedcodetext/
 ---
 ## GS1CompositeBarExtendedParameters::get_OneDCodeText method
 
 
-Gets the 1D (linear) barcode value of GS1 Composite.
+Gets the 1D (linear) barcode value of GS1 Composite
 
 ```cpp
 System::String Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParameters::get_OneDCodeText()
@@ -20,9 +20,6 @@ System::String Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParam
 
 
 1D barcode value
-
-
-
 ## See Also
 
 * Class [GS1CompositeBarExtendedParameters](../)

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::SCC14 field
+title:  field
 linktitle: SCC14
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::SCC14 field. Specifies that the data should be encoded with SCC14 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with SCC14 barcode specification in C++.'
 type: docs
-weight: 8100
+weight: 1700
 url: /cpp/aspose.barcode.generation/encodetypes/scc14/
 ---
 ## SCC14 field
 
 
-Specifies that the data should be encoded with **SCC14** barcode specification.
+Specifies that the data should be encoded with **SCC14** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::SCC14

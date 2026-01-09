@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Amount method
+title:  method
 linktitle: set_Amount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Amount method. Sets the payment amount in C++.'
+description: ' method. Sets the payment amount in C++.'
 type: docs
-weight: 1600
+weight: 400
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_amount/
 ---
 ## SwissQRBill::set_Amount method

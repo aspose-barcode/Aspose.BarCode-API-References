@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::get_Street method
+title:  method
 linktitle: get_Street
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::get_Street method. Gets the street in C++.'
+description: ' method. Gets the street in C++.'
 type: docs
-weight: 1000
+weight: 800
 url: /cpp/aspose.barcode.complexbarcode/address/get_street/
 ---
 ## Address::get_Street method

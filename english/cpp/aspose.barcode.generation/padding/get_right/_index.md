@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Padding::get_Right method
+title:  method
 linktitle: get_Right
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Padding::get_Right method. Right padding in C++.'
+description: ' method. Right padding in C++.'
 type: docs
-weight: 300
+weight: 500
 url: /cpp/aspose.barcode.generation/padding/get_right/
 ---
 ## Padding::get_Right method

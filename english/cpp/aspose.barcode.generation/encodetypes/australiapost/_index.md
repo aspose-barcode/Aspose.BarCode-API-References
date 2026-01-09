@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::AustraliaPost field
+title:  field
 linktitle: AustraliaPost
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::AustraliaPost field. Represents Australia Post Customer BarCode in C++.'
+description: ' field. Represents Australia Post Customer BarCode in C++.'
 type: docs
-weight: 700
+weight: 5500
 url: /cpp/aspose.barcode.generation/encodetypes/australiapost/
 ---
 ## AustraliaPost field
 
 
-Represents Australia Post Customer [BarCode](../../../aspose.barcode/).
+Represents Australia Post Customer [BarCode](../../../aspose.barcode/)
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::AustraliaPost

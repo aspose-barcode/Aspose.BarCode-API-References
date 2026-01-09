@@ -20,9 +20,9 @@ class AztecExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCodetextB
 
 | Method | Description |
 | --- | --- |
-| [AddECICodetext](../extcodetextbuilder/addecicodetext/)(ECIEncodings, System::String) | Adds codetext with Extended Channel Identifier. |
-| [AddPlainCodetext](../extcodetextbuilder/addplaincodetext/)(System::String) | Adds plain codetext to the extended codetext items. |
-| virtual [Clear](../extcodetextbuilder/clear/)() | Clears extended codetext items. |
+| [AddECICodetext](../extcodetextbuilder/addecicodetext/)(ECIEncodings, System::String) | Adds codetext with Extended Channel Identifier |
+| [AddPlainCodetext](../extcodetextbuilder/addplaincodetext/)(System::String) | Adds plain codetext to the extended codetext items |
+| virtual [Clear](../extcodetextbuilder/clear/)() | Clears extended codetext items |
 | [ExtCodetextBuilder](../extcodetextbuilder/extcodetextbuilder/)() |  |
 | [GetExtendedCodetext](./getextendedcodetext/)() override | Generates Extended codetext from the extended codetext list. |
 ## Remarks
@@ -49,8 +49,8 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
-
+string codetext = textBuilder.GetExtendedCodetext();    
+<br>
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
 {

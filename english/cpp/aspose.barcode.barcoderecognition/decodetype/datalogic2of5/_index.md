@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::DataLogic2of5 field
+title:  field
 linktitle: DataLogic2of5
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DataLogic2of5 field. Specifies that the data should be decoded with DataLogic 2 of 5 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with DataLogic 2 of 5 barcode specification in C++.'
 type: docs
-weight: 3100
+weight: 7600
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/datalogic2of5/
 ---
 ## DataLogic2of5 field
 
 
-Specifies that the data should be decoded with **DataLogic 2 of 5** barcode specification.
+Specifies that the data should be decoded with **DataLogic 2 of 5** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::DataLogic2of5
 ```
-
-
-
 
 ## See Also
 

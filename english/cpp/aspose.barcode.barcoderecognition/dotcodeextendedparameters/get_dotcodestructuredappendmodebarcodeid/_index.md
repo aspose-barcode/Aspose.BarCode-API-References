@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters::get_DotCodeStructuredAppendModeBarcodeId method
+title:  method
 linktitle: get_DotCodeStructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters::get_DotCodeStructuredAppendModeBarcodeId method. Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1 in C++.'
+description: ' method. Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1 in C++.'
 type: docs
-weight: 200
+weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/dotcodeextendedparameters/get_dotcodestructuredappendmodebarcodeid/
 ---
 ## DotCodeExtendedParameters::get_DotCodeStructuredAppendModeBarcodeId method
@@ -19,10 +19,8 @@ int32_t Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters::get_DotC
 ## Remarks
 
 
+
 The ID of the DotCode structured append mode barcode.
-
-
-
 ## See Also
 
 * Class [DotCodeExtendedParameters](../)

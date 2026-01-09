@@ -25,7 +25,7 @@ class HIBCLICSecondaryAndAdditionalDataCodetext : public Aspose::BarCode::Comple
 | [get_Data](./get_data/)() | Identifies secodary and additional supplemental data. |
 | [get_LinkCharacter](./get_linkcharacter/)() | Identifies link character. |
 | [GetBarcodeType](../hibcliccomplexcodetext/getbarcodetype/)() override | Gets barcode type. |
-| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext. |
+| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [HIBCLICComplexCodetext](../hibcliccomplexcodetext/hibcliccomplexcodetext/)() |  |
 | [HIBCLICSecondaryAndAdditionalDataCodetext](./hibclicsecondaryandadditionaldatacodetext/)() |  |

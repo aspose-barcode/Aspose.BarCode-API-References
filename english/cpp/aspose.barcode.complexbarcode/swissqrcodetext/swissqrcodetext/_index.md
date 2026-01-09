@@ -1,26 +1,12 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext constructor
+title:  constructor
 linktitle: SwissQRCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext constructor. Creates an instance of SwissQRCodetext in C++.'
+description: ' constructor. Creates an instance of SwissQRCodetext in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/swissqrcodetext/
 ---
-## SwissQRCodetext::SwissQRCodetext() constructor
-
-
-Creates an instance of [SwissQRCodetext](../).
-
-```cpp
-Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext()
-```
-
-## See Also
-
-* Class [SwissQRCodetext](../)
-* Namespace [Aspose::BarCode::ComplexBarcode](../../)
-* Library [Aspose.BarCode for C++](../../../)
 ## SwissQRCodetext::SwissQRCodetext(System::SharedPtr\<SwissQRBill\>) constructor
 
 
@@ -38,6 +24,20 @@ Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext(System::Shared
 ## See Also
 
 * Class [SwissQRBill](../../swissqrbill/)
+* Class [SwissQRCodetext](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## SwissQRCodetext::SwissQRCodetext() constructor
+
+
+Creates an instance of [SwissQRCodetext](../).
+
+```cpp
+Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext()
+```
+
+## See Also
+
 * Class [SwissQRCodetext](../)
 * Namespace [Aspose::BarCode::ComplexBarcode](../../)
 * Library [Aspose.BarCode for C++](../../../)

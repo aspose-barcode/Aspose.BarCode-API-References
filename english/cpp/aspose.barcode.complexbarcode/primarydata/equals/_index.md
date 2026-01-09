@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::PrimaryData::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::Equals method. Returns a value indicating whether this instance is equal to a specified PrimaryData value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified PrimaryData value in C++.'
 type: docs
-weight: 200
+weight: 800
 url: /cpp/aspose.barcode.complexbarcode/primarydata/equals/
 ---
 ## PrimaryData::Equals method

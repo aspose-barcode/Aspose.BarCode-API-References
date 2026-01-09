@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::GetExtendedCodetext method
+title:  method
 linktitle: GetExtendedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::GetExtendedCodetext method. Generates Extended codetext from the extended codetext list in C++.'
+description: ' method. Generates Extended codetext from the extended codetext list in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/

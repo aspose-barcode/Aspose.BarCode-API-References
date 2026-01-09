@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Debtor method
+title:  method
 linktitle: set_Debtor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Debtor method. Sets the debtor address in C++.'
+description: ' method. Sets the debtor address in C++.'
 type: docs
-weight: 2000
+weight: 1400
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_debtor/
 ---
 ## SwissQRBill::set_Debtor method

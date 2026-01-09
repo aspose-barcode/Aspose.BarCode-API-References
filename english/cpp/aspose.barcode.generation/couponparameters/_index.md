@@ -4,7 +4,7 @@ linktitle: CouponParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::CouponParameters class. Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.barcode.generation/couponparameters/
 ---
 ## CouponParameters class

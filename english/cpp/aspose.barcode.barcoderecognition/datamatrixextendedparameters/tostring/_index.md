@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DataMatrixExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DataMatrixExtendedParameters::ToString method. Returns a human-readable string representation of this DataMatrixExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this DataMatrixExtendedParameters in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/datamatrixextendedparameters/tostring/

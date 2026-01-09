@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixEcc method
+title:  method
 linktitle: get_DataMatrixEcc
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixEcc method. Gets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200 in C++.'
+description: ' method. Gets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200 in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/datamatrixparameters/get_datamatrixecc/
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/datamatrixparameters/get_datamatrixecc/
 Gets a Datamatrix ECC type. Default value: [DataMatrixEccType.Ecc200](../../datamatrixecctype/).
 
 ```cpp
-DataMatrixEccType Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixEcc() const
+DataMatrixEccType Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixEcc()
 ```
+
 
 ## See Also
 

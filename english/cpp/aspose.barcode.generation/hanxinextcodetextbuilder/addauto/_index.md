@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddAuto method
+title:  method
 linktitle: AddAuto
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddAuto method. Adds codetext fragment in Auto mode in C++.'
+description: ' method. Adds codetext fragment in Auto mode in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addauto/
 ---
 ## HanXinExtCodetextBuilder::AddAuto method
 
 
-Adds codetext fragment in Auto mode.
+Adds codetext fragment in Auto mode
 
 ```cpp
 void Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddAuto(System::String text)
