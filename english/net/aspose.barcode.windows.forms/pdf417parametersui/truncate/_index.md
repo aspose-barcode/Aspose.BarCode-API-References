@@ -3,7 +3,7 @@ title: Pdf417ParametersUI.Truncate
 second_title: Aspose.BarCode for .NET API Reference
 description: Pdf417ParametersUI property. Whether Pdf417 symbology type of BarCode is truncated to reduce space
 type: docs
-weight: 230
+weight: 380
 url: /net/aspose.barcode.windows.forms/pdf417parametersui/truncate/
 ---
 ## Pdf417ParametersUI.Truncate property

@@ -30,6 +30,7 @@ The **Aspose.BarCode.ComplexBarcode** containing general classes for the impleme
 | [MaxiCodeSecondMessage](./maxicodesecondmessage/) | Base class for encoding and decoding second message for MaxiCode barcode. |
 | [MaxiCodeStandardCodetext](./maxicodestandardcodetext/) | Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6. |
 | [MaxiCodeStandardSecondMessage](./maxicodestandardsecondmessage/) | Class for encoding and decoding standard second message for MaxiCode barcode. |
+| [MaxiCodeStandartSecondMessage](./maxicodestandartsecondmessage/) | Class for encoding and decoding standard second message for MaxiCode barcode. |
 | [MaxiCodeStructuredCodetext](./maxicodestructuredcodetext/) | Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3. |
 | [MaxiCodeStructuredSecondMessage](./maxicodestructuredsecondmessage/) | Class for encoding and decoding structured second message for MaxiCode barcode. |
 | [PrimaryData](./primarydata/) | Class for storing HIBC LIC primary data. |

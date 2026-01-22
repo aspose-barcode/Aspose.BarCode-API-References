@@ -3,7 +3,7 @@ title: CodabarExtendedParameters.StopSymbol
 second_title: Aspose.BarCode for .NET API Reference
 description: CodabarExtendedParameters property. Gets or sets a Codabar stop symbol. Default value CodabarSymbol.A
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.barcode.barcoderecognition/codabarextendedparameters/stopsymbol/
 ---
 ## CodabarExtendedParameters.StopSymbol property

@@ -3,7 +3,7 @@ title: MaxiCodeCodetext.GetBarcodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeCodetext method. Gets barcode type
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/
 ---
 ## MaxiCodeCodetext.GetBarcodeType method

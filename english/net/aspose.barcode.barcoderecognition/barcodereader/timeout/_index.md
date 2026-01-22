@@ -3,7 +3,7 @@ title: BarCodeReader.Timeout
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader property. Gets or sets the timeout of recognition process in milliseconds
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.barcode.barcoderecognition/barcodereader/timeout/
 ---
 ## BarCodeReader.Timeout property

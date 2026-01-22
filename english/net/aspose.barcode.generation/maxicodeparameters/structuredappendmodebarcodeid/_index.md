@@ -3,7 +3,7 @@ title: MaxiCodeParameters.StructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeParameters property. Gets or sets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value 0
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.barcode.generation/maxicodeparameters/structuredappendmodebarcodeid/
 ---
 ## MaxiCodeParameters.StructuredAppendModeBarcodeId property

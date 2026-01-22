@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters.op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeExtendedParameters method. Returns a value indicating if the first MaxiCodeExtendedParameters value is different from the second
 type: docs
-weight: 80
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_inequality/
 ---
 ## MaxiCodeExtendedParameters Inequality operator

@@ -3,7 +3,7 @@ title: Class DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DotCodeExtCodetextBuilder class. Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode
 type: docs
-weight: 1150
+weight: 1170
 url: /net/aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 ## DotCodeExtCodetextBuilder class

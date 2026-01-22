@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeExtendedParameters method. Returns a humanreadable string representation of this MaxiCodeExtendedParameters
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/
 ---
 ## MaxiCodeExtendedParameters.ToString method

@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters.Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeExtendedParameters method. Returns a value indicating whether this instance is equal to a specified MaxiCodeExtendedParameters value
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/equals/
 ---
 ## MaxiCodeExtendedParameters.Equals method

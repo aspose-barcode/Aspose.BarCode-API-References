@@ -3,7 +3,7 @@ title: PostalParameters.ShortBarHeight
 second_title: Aspose.BarCode for .NET API Reference
 description: PostalParameters property. Short bars height of Postal barcodes
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.barcode.generation/postalparameters/shortbarheight/
 ---
 ## PostalParameters.ShortBarHeight property

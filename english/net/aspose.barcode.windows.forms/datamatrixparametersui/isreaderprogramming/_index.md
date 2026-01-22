@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.IsReaderProgramming
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/isreaderprogramming/
 ---
 ## DataMatrixParametersUI.IsReaderProgramming property

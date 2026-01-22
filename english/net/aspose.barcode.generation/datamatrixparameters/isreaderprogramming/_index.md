@@ -3,7 +3,7 @@ title: DataMatrixParameters.IsReaderProgramming
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters property. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. Default value false
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.barcode.generation/datamatrixparameters/isreaderprogramming/
 ---
 ## DataMatrixParameters.IsReaderProgramming property

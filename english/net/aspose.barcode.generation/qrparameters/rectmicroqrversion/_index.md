@@ -3,7 +3,7 @@ title: QrParameters.RectMicroQrVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParameters property. Version of RectMicroQR Code. From version R7x59 to version R17x139. Default value is RectMicroQRVersion.Auto
 type: docs
-weight: 60
+weight: 110
 url: /net/aspose.barcode.generation/qrparameters/rectmicroqrversion/
 ---
 ## QrParameters.RectMicroQrVersion property

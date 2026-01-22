@@ -3,7 +3,7 @@ title: BarCodeReader.BarcodeSettings
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader property. The main BarCode decoding parameters. Contains parameters which make influence on recognized data
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.barcoderecognition/barcodereader/barcodesettings/
 ---
 ## BarCodeReader.BarcodeSettings property

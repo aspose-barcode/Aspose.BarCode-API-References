@@ -3,7 +3,7 @@ title: Enum QRErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QRErrorLevel enum. Level of ReedSolomon error correction. From low to high LevelL LevelM LevelQ LevelH
 type: docs
-weight: 1500
+weight: 1530
 url: /net/aspose.barcode.generation/qrerrorlevel/
 ---
 ## QRErrorLevel enumeration

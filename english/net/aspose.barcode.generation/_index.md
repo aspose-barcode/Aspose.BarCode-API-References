@@ -86,6 +86,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
+| [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
 | [Pdf417EncodeMode](./pdf417encodemode/) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [Pdf417MacroTerminator](./pdf417macroterminator/) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417. |

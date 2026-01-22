@@ -3,7 +3,7 @@ title: DataBarParameters.Rows
 second_title: Aspose.BarCode for .NET API Reference
 description: DataBarParameters property. Rows count
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.barcode.generation/databarparameters/rows/
 ---
 ## DataBarParameters.Rows property

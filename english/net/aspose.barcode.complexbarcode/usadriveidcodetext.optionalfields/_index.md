@@ -3,7 +3,7 @@ title: Class USADriveIdCodetext.OptionalFields
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdCodetextOptionalFields class. Optional elements fields of the card
 type: docs
-weight: 730
+weight: 750
 url: /net/aspose.barcode.complexbarcode/usadriveidcodetext.optionalfields/
 ---
 ## USADriveIdCodetext.OptionalFields class

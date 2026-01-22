@@ -3,7 +3,7 @@ title: BarCodeReader.FoundCount
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader property. Gets recognized barcodes count
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.barcode.barcoderecognition/barcodereader/foundcount/
 ---
 ## BarCodeReader.FoundCount property

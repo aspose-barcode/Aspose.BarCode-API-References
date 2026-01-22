@@ -3,7 +3,7 @@ title: HanXinParameters.Version
 second_title: Aspose.BarCode for .NET API Reference
 description: HanXinParameters property. Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.barcode.generation/hanxinparameters/version/
 ---
 ## HanXinParameters.Version property

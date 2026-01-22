@@ -3,7 +3,7 @@ title: Enum BarcodeClassifications
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarcodeClassifications enum. Symbology classification
 type: docs
-weight: 890
+weight: 910
 url: /net/aspose.barcode.generation/barcodeclassifications/
 ---
 ## BarcodeClassifications enumeration

@@ -3,7 +3,7 @@ title: BarCodeReader.Abort
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader method. Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/barcodereader/abort/
 ---
 ## BarCodeReader.Abort method

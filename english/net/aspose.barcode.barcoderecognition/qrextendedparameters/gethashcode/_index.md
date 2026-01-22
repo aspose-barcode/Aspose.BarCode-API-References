@@ -3,7 +3,7 @@ title: QRExtendedParameters.GetHashCode
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters method. Returns the hash code for this instance
 type: docs
-weight: 90
+weight: 140
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/
 ---
 ## QRExtendedParameters.GetHashCode method

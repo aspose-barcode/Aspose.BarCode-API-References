@@ -3,7 +3,7 @@ title: MaxiCodeCodetext.InitFromString
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeCodetext method. Initializes instance from constructed codetext
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/initfromstring/
 ---
 ## MaxiCodeCodetext.InitFromString method

@@ -3,7 +3,7 @@ title: BarCodeReader.FoundBarCodes
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader property. Gets recognized BarCodeResults array
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/
 ---
 ## BarCodeReader.FoundBarCodes property

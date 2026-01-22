@@ -3,7 +3,7 @@ title: DataMatrixParameters.StructuredAppendFileId
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParameters property. File ID for Structured Append mode of Datamatrix barcode. Default value 0
 type: docs
-weight: 90
+weight: 140
 url: /net/aspose.barcode.generation/datamatrixparameters/structuredappendfileid/
 ---
 ## DataMatrixParameters.StructuredAppendFileId property

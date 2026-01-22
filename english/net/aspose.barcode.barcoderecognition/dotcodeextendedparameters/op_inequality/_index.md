@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeExtendedParameters method. Returns a value indicating if the first DotCodeExtendedParameters value is different from the second
 type: docs
-weight: 80
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_inequality/
 ---
 ## DotCodeExtendedParameters Inequality operator

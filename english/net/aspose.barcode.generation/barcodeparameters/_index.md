@@ -3,7 +3,7 @@ title: Class BarcodeParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarcodeParameters class. Barcode generation parameters
 type: docs
-weight: 910
+weight: 930
 url: /net/aspose.barcode.generation/barcodeparameters/
 ---
 ## BarcodeParameters class
@@ -33,7 +33,7 @@ public class BarcodeParameters
 | [DataBar](../../aspose.barcode.generation/barcodeparameters/databar/) { get; } | Databar parameters. |
 | [DataMatrix](../../aspose.barcode.generation/barcodeparameters/datamatrix/) { get; } | DataMatrix parameters. |
 | [DotCode](../../aspose.barcode.generation/barcodeparameters/dotcode/) { get; } | DotCode parameters. |
-| [EnableEscape](../../aspose.barcode.generation/barcodeparameters/enableescape/) { get; set; } | Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \013 and \\CR stands for CR. |
+| [EnableEscape](../../aspose.barcode.generation/barcodeparameters/enableescape/) { get; set; } | EnableEscape is deprecated and ignored. Process escape sequences explicitly (e.g., Regex.Unescape). This property will be removed in future releases. |
 | [FilledBars](../../aspose.barcode.generation/barcodeparameters/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
 | [GS1CompositeBar](../../aspose.barcode.generation/barcodeparameters/gs1compositebar/) { get; set; } | GS1 Composite Bar parameters. |
 | [HanXin](../../aspose.barcode.generation/barcodeparameters/hanxin/) { get; } | HanXin parameters. |

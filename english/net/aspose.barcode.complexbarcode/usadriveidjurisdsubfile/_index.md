@@ -3,7 +3,7 @@ title: Class USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdJurisdSubfile class. Class for Jurisdiction specific fields for USA DL
 type: docs
-weight: 780
+weight: 800
 url: /net/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
 ---
 ## USADriveIdJurisdSubfile class

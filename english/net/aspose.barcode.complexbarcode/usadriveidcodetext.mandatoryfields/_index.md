@@ -3,7 +3,7 @@ title: Class USADriveIdCodetext.MandatoryFields
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdCodetextMandatoryFields class. Mandatory elements fields of the card
 type: docs
-weight: 720
+weight: 740
 url: /net/aspose.barcode.complexbarcode/usadriveidcodetext.mandatoryfields/
 ---
 ## USADriveIdCodetext.MandatoryFields class

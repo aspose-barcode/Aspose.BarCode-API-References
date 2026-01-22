@@ -3,7 +3,7 @@ title: Enum CodeLocation
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodeLocation enum. Codetext location
 type: docs
-weight: 1050
+weight: 1070
 url: /net/aspose.barcode.generation/codelocation/
 ---
 ## CodeLocation enumeration

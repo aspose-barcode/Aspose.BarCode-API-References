@@ -3,7 +3,7 @@ title: Class ProcessorSettings
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.ProcessorSettings class. ProcessorSettings allow to recognize barcodes with multithreaded increasing of performance
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.barcode.common/processorsettings/
 ---
 ## ProcessorSettings class

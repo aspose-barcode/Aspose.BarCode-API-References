@@ -3,7 +3,7 @@ title: Class CodetextParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.CodetextParametersUI class. Codetext parameters
 type: docs
-weight: 1700
+weight: 1730
 url: /net/aspose.barcode.windows.forms/codetextparametersui/
 ---
 ## CodetextParametersUI class

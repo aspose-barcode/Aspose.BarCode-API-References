@@ -3,7 +3,7 @@ title: AztecParametersUI.IsReaderInitialization
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParametersUI property. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.barcode.windows.forms/aztecparametersui/isreaderinitialization/
 ---
 ## AztecParametersUI.IsReaderInitialization property

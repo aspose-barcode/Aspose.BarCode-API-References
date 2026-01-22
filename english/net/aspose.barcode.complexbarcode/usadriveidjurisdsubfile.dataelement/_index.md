@@ -3,7 +3,7 @@ title: Class USADriveIdJurisdSubfile.DataElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdJurisdSubfileDataElement class. Represents a jurisdictionspecific data field used in documents for example ElementID  ZVA with Value  01
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.barcode.complexbarcode/usadriveidjurisdsubfile.dataelement/
 ---
 ## USADriveIdJurisdSubfile.DataElement class

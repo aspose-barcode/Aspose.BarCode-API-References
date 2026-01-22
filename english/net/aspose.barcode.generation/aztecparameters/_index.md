@@ -3,7 +3,7 @@ title: Class AztecParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.AztecParameters class. Aztec parameters
 type: docs
-weight: 860
+weight: 880
 url: /net/aspose.barcode.generation/aztecparameters/
 ---
 ## AztecParameters class
@@ -19,6 +19,9 @@ public class AztecParameters
 | Name | Description |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/aztecparameters/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [AztecEncodeMode](../../aspose.barcode.generation/aztecparameters/aztecencodemode/) { get; set; } | Gets or sets a Aztec encode mode. Default value: Auto. |
+| [AztecErrorLevel](../../aspose.barcode.generation/aztecparameters/aztecerrorlevel/) { get; set; } | Level of error correction of Aztec types of barcode. Value should between 5 to 95. |
+| [AztecSymbolMode](../../aspose.barcode.generation/aztecparameters/aztecsymbolmode/) { get; set; } | Gets or sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto. |
 | [ECIEncoding](../../aspose.barcode.generation/aztecparameters/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1 |
 | [EncodeMode](../../aspose.barcode.generation/aztecparameters/encodemode/) { get; set; } | Gets or sets a Aztec encode mode. Default value: Auto. |
 | [ErrorLevel](../../aspose.barcode.generation/aztecparameters/errorlevel/) { get; set; } | Level of error correction of Aztec types of barcode. Value should between 5 to 95. |

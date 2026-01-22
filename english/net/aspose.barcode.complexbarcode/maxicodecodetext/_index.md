@@ -3,7 +3,7 @@ title: Class MaxiCodeCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.MaxiCodeCodetext class. Base class for encoding and decoding the text embedded in the MaxiCode code
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/
 ---
 ## MaxiCodeCodetext class
@@ -20,6 +20,7 @@ public abstract class MaxiCodeCodetext : IComplexCodetext
 | --- | --- |
 | [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
 | [EncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/encodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
+| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
 
 ## Methods
 

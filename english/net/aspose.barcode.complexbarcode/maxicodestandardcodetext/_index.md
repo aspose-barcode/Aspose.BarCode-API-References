@@ -3,7 +3,7 @@ title: Class MaxiCodeStandardCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.MaxiCodeStandardCodetext class. Class for encoding and decoding MaxiCode codetext for modes 4 5 and 6
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.barcode.complexbarcode/maxicodestandardcodetext/
 ---
 ## MaxiCodeStandardCodetext class
@@ -26,6 +26,7 @@ public class MaxiCodeStandardCodetext : MaxiCodeCodetext
 | --- | --- |
 | [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
 | [EncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/encodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
+| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | Gets or sets a MaxiCode encode mode. Default value: Auto. |
 | [Message](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/message/) { get; set; } | Gets or sets message. |
 | [Mode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/mode/) { get; set; } | Gets or sets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6. |
 

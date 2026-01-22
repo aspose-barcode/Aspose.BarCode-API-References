@@ -3,7 +3,7 @@ title: Enum Code128EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Code128EncodeMode enum. Encoding mode for Code128 barcodes. Code 128 specification
 type: docs
-weight: 1020
+weight: 1040
 url: /net/aspose.barcode.generation/code128encodemode/
 ---
 ## Code128EncodeMode enumeration

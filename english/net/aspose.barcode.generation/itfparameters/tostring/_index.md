@@ -3,7 +3,7 @@ title: ITFParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: ITFParameters method. Returns a humanreadable string representation of this ITFParameters
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.barcode.generation/itfparameters/tostring/
 ---
 ## ITFParameters.ToString method

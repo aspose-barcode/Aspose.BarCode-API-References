@@ -3,7 +3,7 @@ title: Class HIBCLICPrimaryDataCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCLICPrimaryDataCodetext class. Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.barcode.complexbarcode/hibclicprimarydatacodetext/
 ---
 ## HIBCLICPrimaryDataCodetext class

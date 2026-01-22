@@ -3,7 +3,7 @@ title: QRExtendedParameters.StructuredAppendModeBarCodesQuantity
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Gets the QR structured append mode barcodes quantity. Default value is 1
 type: docs
-weight: 50
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/
 ---
 ## QRExtendedParameters.StructuredAppendModeBarCodesQuantity property

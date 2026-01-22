@@ -3,7 +3,7 @@ title: Class XmlSerializationAttribute
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.XmlSerializationAttribute class. Represents attribute for xml entity generator
 type: docs
-weight: 1770
+weight: 1800
 url: /net/aspose.barcode/xmlserializationattribute/
 ---
 ## XmlSerializationAttribute class

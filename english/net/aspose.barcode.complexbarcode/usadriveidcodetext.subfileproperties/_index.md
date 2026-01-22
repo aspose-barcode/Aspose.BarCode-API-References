@@ -3,7 +3,7 @@ title: Class USADriveIdCodetext.SubfileProperties
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdCodetextSubfileProperties class. USA DL subfile properties offset and length are set automatically
 type: docs
-weight: 740
+weight: 760
 url: /net/aspose.barcode.complexbarcode/usadriveidcodetext.subfileproperties/
 ---
 ## USADriveIdCodetext.SubfileProperties class

@@ -3,7 +3,7 @@ title: MaxiCodeParameters.Mode
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeParameters property. Gets or sets a MaxiCode encode mode
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.barcode.generation/maxicodeparameters/mode/
 ---
 ## MaxiCodeParameters.Mode property

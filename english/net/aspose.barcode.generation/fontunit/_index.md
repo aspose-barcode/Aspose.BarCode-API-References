@@ -3,7 +3,7 @@ title: Class FontUnit
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.FontUnit class. Defines a particular format for text including font face size and style attributes where size in Unit value property
 type: docs
-weight: 1220
+weight: 1240
 url: /net/aspose.barcode.generation/fontunit/
 ---
 ## FontUnit class
