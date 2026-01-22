@@ -21,7 +21,7 @@ class IComplexCodetext : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetBarcodeType](./getbarcodetype/)() | Gets barcode type. |
-| virtual [GetConstructedCodetext](./getconstructedcodetext/)() | Construct codetext for complex barcode. |
+| virtual [GetConstructedCodetext](./getconstructedcodetext/)() | Construct codetext for complex barcode |
 | virtual [InitFromString](./initfromstring/)(System::String) | Initializes instance with constructed codetext. |
 ## See Also
 

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::SingleDecodeType::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType::ToString method. Returns the name of the given SingleDecodeType as a string in C++.'
+description: ' method. Returns the name of the given SingleDecodeType as a string in C++.'
 type: docs
-weight: 800
+weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/tostring/
 ---
 ## SingleDecodeType::ToString method

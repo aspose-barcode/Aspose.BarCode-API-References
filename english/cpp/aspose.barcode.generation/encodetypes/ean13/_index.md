@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::EAN13 field
+title:  field
 linktitle: EAN13
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::EAN13 field. Specifies that the data should be encoded with EAN-13 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with EAN-13 barcode specification in C++.'
 type: docs
-weight: 3100
+weight: 1500
 url: /cpp/aspose.barcode.generation/encodetypes/ean13/
 ---
 ## EAN13 field
 
 
-Specifies that the data should be encoded with **EAN-13** barcode specification.
+Specifies that the data should be encoded with **EAN-13** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::EAN13

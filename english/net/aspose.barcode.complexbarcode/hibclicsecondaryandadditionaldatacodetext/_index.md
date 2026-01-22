@@ -3,7 +3,7 @@ title: Class HIBCLICSecondaryAndAdditionalDataCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCLICSecondaryAndAdditionalDataCodetext class. Class for encoding and decoding the text embedded in the HIBC LIC code which stores seconday data
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/
 ---
 ## HIBCLICSecondaryAndAdditionalDataCodetext class

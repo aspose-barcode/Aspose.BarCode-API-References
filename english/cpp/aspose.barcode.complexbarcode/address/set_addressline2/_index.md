@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::set_AddressLine2 method
+title:  method
 linktitle: set_AddressLine2
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::set_AddressLine2 method. Sets the address line 2 in C++.'
+description: ' method. Sets the address line 2 in C++.'
 type: docs
-weight: 1500
+weight: 700
 url: /cpp/aspose.barcode.complexbarcode/address/set_addressline2/
 ---
 ## Address::set_AddressLine2 method

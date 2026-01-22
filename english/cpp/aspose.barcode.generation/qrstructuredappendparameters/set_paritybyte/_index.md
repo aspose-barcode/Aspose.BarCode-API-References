@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::QrStructuredAppendParameters::set_ParityByte method
+title:  method
 linktitle: set_ParityByte
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrStructuredAppendParameters::set_ParityByte method. Sets the QR structured append mode parity data in C++.'
+description: ' method. Sets the QR structured append mode parity data in C++.'
 type: docs
-weight: 400
+weight: 200
 url: /cpp/aspose.barcode.generation/qrstructuredappendparameters/set_paritybyte/
 ---
 ## QrStructuredAppendParameters::set_ParityByte method

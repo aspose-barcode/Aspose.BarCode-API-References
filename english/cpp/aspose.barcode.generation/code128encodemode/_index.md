@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Code128EncodeMode enum
+title:  enum
 linktitle: Code128EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Code128EncodeMode enum. Encoding mode for Code128 barcodes. Code 128specification in C++.'
+description: ' enum. Encoding mode for Code128 barcodes. Code 128specification in C++.'
 type: docs
-weight: 5200
+weight: 5400
 url: /cpp/aspose.barcode.generation/code128encodemode/
 ---
 ## Code128EncodeMode enum

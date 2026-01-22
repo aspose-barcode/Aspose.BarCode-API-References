@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Unit::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::Equals method. Determines whether this instance and a specified object, which must also be a Unit object, have the same value in C++.'
+description: ' method. Determines whether this instance and a specified object, which must also be a Unit object, have the same value in C++.'
 type: docs
-weight: 100
+weight: 1200
 url: /cpp/aspose.barcode.generation/unit/equals/
 ---
 ## Unit::Equals method

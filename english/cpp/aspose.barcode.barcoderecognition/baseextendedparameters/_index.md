@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.barcoderecognition/baseextendedparameters/
 ## BaseExtendedParameters class
 
 
-Basic class for extended parameters of recognized barcode storing.
+Basic class for extended parameters of recognized barcode storing
 
 ```cpp
 class BaseExtendedParameters : public System::Object
@@ -20,7 +20,7 @@ class BaseExtendedParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_IsEmpty](./get_isempty/)() | Tests whether all parameters has only default values. |
+| [get_IsEmpty](./get_isempty/)() | **Tests** whether all parameters has only default values |
 ## See Also
 
 * Namespace [Aspose::BarCode::BarCodeRecognition](../)

@@ -3,7 +3,7 @@ title: BarCodeReader.ProcessorSettings
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader property. Gets a settings of using processor cores
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.barcode.barcoderecognition/barcodereader/processorsettings/
 ---
 ## BarCodeReader.ProcessorSettings property

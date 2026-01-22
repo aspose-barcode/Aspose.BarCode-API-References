@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::OPC field
+title:  field
 linktitle: OPC
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::OPC field. Specifies that the data should be decoded with OPC barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with OPC barcode specification in C++.'
 type: docs
-weight: 7800
+weight: 3700
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/opc/
 ---
 ## OPC field
 
 
-Specifies that the data should be decoded with **OPC** barcode specification.
+Specifies that the data should be decoded with **OPC** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::OPC
 ```
-
-
-
 
 ## See Also
 

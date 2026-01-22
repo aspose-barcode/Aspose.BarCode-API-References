@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Code32 field
+title:  field
 linktitle: Code32
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Code32 field. Specifies that the data should be decoded with Code32 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Code32 barcode specification in C++.'
 type: docs
-weight: 1900
+weight: 7500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/code32/
 ---
 ## Code32 field
 
 
-Specifies that the data should be decoded with **Code32** barcode specification.
+Specifies that the data should be decoded with **Code32** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Code32
 ```
-
-
-
 
 ## See Also
 

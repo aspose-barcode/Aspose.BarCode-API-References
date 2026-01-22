@@ -3,7 +3,7 @@ title: CodabarParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: CodabarParameters method. Returns a humanreadable string representation of this CodabarParameters
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.barcode.generation/codabarparameters/tostring/
 ---
 ## CodabarParameters.ToString method

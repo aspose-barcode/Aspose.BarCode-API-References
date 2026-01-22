@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_IsCode128Emulation method
+title:  method
 linktitle: get_IsCode128Emulation
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_IsCode128Emulation method. Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 in C++.'
+description: ' method. Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 in C++.'
 type: docs
-weight: 300
+weight: 7500
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_iscode128emulation/
 ---
 ## Pdf417Parameters::get_IsCode128Emulation method
 
 
-Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128.
+Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128
 
 ```cpp
 bool Aspose::BarCode::Generation::Pdf417Parameters::get_IsCode128Emulation() const

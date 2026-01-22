@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::FontMode enum
+title:  enum
 linktitle: FontMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::FontMode enum. Font size mode in C++.'
+description: ' enum. Font size mode in C++.'
 type: docs
-weight: 6000
+weight: 5500
 url: /cpp/aspose.barcode.generation/fontmode/
 ---
 ## FontMode enum

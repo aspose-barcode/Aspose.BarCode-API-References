@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::set_Pdf417MacroFileName method
+title:  method
 linktitle: set_Pdf417MacroFileName
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_Pdf417MacroFileName method. MacroPdf417 barcode file name (optional field). MicroPDF417 barcode file name (optional field for Structured Append mode) in C++.'
+description: ' method. MacroPdf417 barcode file name (optional field). MicroPDF417 barcode file name (optional field for Structured Append mode) in C++.'
 type: docs
-weight: 3800
+weight: 3600
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_pdf417macrofilename/
 ---
 ## Pdf417Parameters::set_Pdf417MacroFileName method
@@ -15,6 +15,7 @@ MacroPdf417 barcode file name (optional field). MicroPDF417 barcode file name (o
 ```cpp
 void Aspose::BarCode::Generation::Pdf417Parameters::set_Pdf417MacroFileName(System::String value)
 ```
+
 
 ## See Also
 

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Mailmark field
+title:  field
 linktitle: Mailmark
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Mailmark field. Specifies that the data should be decoded with Royal Mail Mailmark barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Royal Mail Mailmark barcode specification in C++.'
 type: docs
-weight: 6800
+weight: 5500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/mailmark/
 ---
 ## Mailmark field

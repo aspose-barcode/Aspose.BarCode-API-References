@@ -3,7 +3,7 @@ title: Enum SwissQRBill.QrBillStandardVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.SwissQRBillQrBillStandardVersion enum. SwissQR bill standard version
 type: docs
-weight: 690
+weight: 710
 url: /net/aspose.barcode.complexbarcode/swissqrbill.qrbillstandardversion/
 ---
 ## SwissQRBill.QrBillStandardVersion enumeration

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::HanXinVersion enum
+title:  enum
 linktitle: HanXinVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinVersion enum. Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side in C++.'
+description: ' enum. Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.barcode.generation/hanxinversion/
 ---
 ## HanXinVersion enum

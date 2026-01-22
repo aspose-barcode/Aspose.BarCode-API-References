@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::InitFromString method
+title:  method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::InitFromString method. Initializes instance from constructed codetext in C++.'
+description: ' method. Initializes instance from constructed codetext in C++.'
 type: docs
-weight: 1100
+weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/initfromstring/
 ---
 ## HIBCPASCodetext::InitFromString method

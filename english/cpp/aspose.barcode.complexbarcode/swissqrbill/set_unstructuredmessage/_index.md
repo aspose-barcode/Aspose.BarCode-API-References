@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_UnstructuredMessage method
+title:  method
 linktitle: set_UnstructuredMessage
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_UnstructuredMessage method. Sets the additional unstructured message in C++.'
+description: ' method. Sets the additional unstructured message in C++.'
 type: docs
-weight: 2200
+weight: 1600
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_unstructuredmessage/
 ---
 ## SwissQRBill::set_UnstructuredMessage method

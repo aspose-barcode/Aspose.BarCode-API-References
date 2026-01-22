@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::CodetextParameters::set_TwoDDisplayText method
+title:  method
 linktitle: set_TwoDDisplayText
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodetextParameters::set_TwoDDisplayText method. Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode in C++.'
+description: ' method. Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode in C++.'
 type: docs
-weight: 1500
+weight: 200
 url: /cpp/aspose.barcode.generation/codetextparameters/set_twoddisplaytext/
 ---
 ## CodetextParameters::set_TwoDDisplayText method
 
 
-Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode.
+Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode
 
 ```cpp
 void Aspose::BarCode::Generation::CodetextParameters::set_TwoDDisplayText(System::String value)

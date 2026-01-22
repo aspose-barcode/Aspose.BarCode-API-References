@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::MaxiCodeEncodeMode enum
+title:  enum
 linktitle: MaxiCodeEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MaxiCodeEncodeMode enum. Encoding mode for MaxiCode barcodes in C++.'
+description: ' enum. Encoding mode for MaxiCode barcodes in C++.'
 type: docs
-weight: 6600
+weight: 6900
 url: /cpp/aspose.barcode.generation/maxicodeencodemode/
 ---
 ## MaxiCodeEncodeMode enum
@@ -59,8 +59,8 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
-
+string codetext = textBuilder.GetExtendedCodetext();    
+<br>
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MaxiCode, codetext))
 {

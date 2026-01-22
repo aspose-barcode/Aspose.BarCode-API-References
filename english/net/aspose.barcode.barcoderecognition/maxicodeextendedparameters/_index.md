@@ -19,6 +19,9 @@ public sealed class MaxiCodeExtendedParameters : BaseExtendedParameters
 | Name | Description |
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tests whether all parameters has only default values |
+| [MaxiCodeMode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodemode/) { get; } | Gets or sets a MaxiCode encode mode. Default value: Mode4 |
+| [MaxiCodeStructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodeid/) { get; } | Gets or sets a MaxiCode barcode id in structured append mode. Default value: 0 |
+| [MaxiCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodescount/) { get; } | Gets or sets a MaxiCode barcodes count in structured append mode. Default value: -1 |
 | [Mode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/mode/) { get; } | Gets or sets a MaxiCode encode mode. Default value: Mode4 |
 | [StructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodeid/) { get; } | Gets or sets a MaxiCode barcode id in structured append mode. Default value: 0 |
 | [StructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodescount/) { get; } | Gets or sets a MaxiCode barcodes count in structured append mode. Default value: -1 |

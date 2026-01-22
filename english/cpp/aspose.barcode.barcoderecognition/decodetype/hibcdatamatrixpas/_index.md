@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixPAS field
+title:  field
 linktitle: HIBCDataMatrixPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixPAS field. Specifies that the data should be decoded with HIBC PAS DataMatrix barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with HIBC PAS DataMatrix barcode specification in C++.'
 type: docs
-weight: 5600
+weight: 8800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixpas/
 ---
 ## HIBCDataMatrixPAS field
 
 
-Specifies that the data should be decoded with **HIBC PAS DataMatrix** barcode specification.
+Specifies that the data should be decoded with **HIBC PAS DataMatrix** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixPAS
 ```
-
-
-
 
 ## See Also
 

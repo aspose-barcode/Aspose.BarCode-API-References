@@ -3,7 +3,7 @@ title: CodabarExtendedParameters.op_Equality
 second_title: Aspose.BarCode for .NET API Reference
 description: CodabarExtendedParameters method. Returns a value indicating whether the first CodabarExtendedParameters value is equal to the second
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.barcode.barcoderecognition/codabarextendedparameters/op_equality/
 ---
 ## CodabarExtendedParameters Equality operator

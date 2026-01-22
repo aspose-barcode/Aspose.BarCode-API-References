@@ -1,16 +1,17 @@
 ---
 title: BarcodeParameters.EnableEscape
 second_title: Aspose.BarCode for .NET API Reference
-description: BarcodeParameters property. Indicates whether explains the character  as an escape character in CodeText property. Used for Pdf417 DataMatrix Code128 only If the EnableEscape is true  will be explained as a special escape character. Otherwise  acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII controlcode characters. For example 013 and CR stands for CR
+description: BarcodeParameters property. EnableEscape is deprecated and ignored. Process escape sequences explicitly e.g. Regex.Unescape. This property will be removed in future releases
 type: docs
 weight: 160
 url: /net/aspose.barcode.generation/barcodeparameters/enableescape/
 ---
 ## BarcodeParameters.EnableEscape property
 
-Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \013 and \\CR stands for CR.
+EnableEscape is deprecated and ignored. Process escape sequences explicitly (e.g., Regex.Unescape). This property will be removed in future releases.
 
 ```csharp
+[Obsolete("EnableEscape is deprecated and ignored. Process escape sequences explicitly (e.g., Regex.Unescape). This property will be removed in future releases.")]
 public bool EnableEscape { get; set; }
 ```
 

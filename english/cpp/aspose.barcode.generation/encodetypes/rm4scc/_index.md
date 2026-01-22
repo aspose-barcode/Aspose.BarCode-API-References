@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::RM4SCC field
+title:  field
 linktitle: RM4SCC
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::RM4SCC field. Represents RM4SCC barcode. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK in C++.'
+description: ' field. Represents RM4SCC barcode. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK in C++.'
 type: docs
-weight: 8000
+weight: 5900
 url: /cpp/aspose.barcode.generation/encodetypes/rm4scc/
 ---
 ## RM4SCC field

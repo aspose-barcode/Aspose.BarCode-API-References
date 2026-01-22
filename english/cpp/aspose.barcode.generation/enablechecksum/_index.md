@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EnableChecksum enum
+title:  enum
 linktitle: EnableChecksum
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::Generation::EnableChecksum enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 5900
+weight: 6200
 url: /cpp/aspose.barcode.generation/enablechecksum/
 ---
 ## EnableChecksum enum

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::ExtCodetextBuilder::AddECICodetext method
+title:  method
 linktitle: AddECICodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ExtCodetextBuilder::AddECICodetext method. Adds codetext with Extended Channel Identifier in C++.'
+description: ' method. Adds codetext with Extended Channel Identifier in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.barcode.generation/extcodetextbuilder/addecicodetext/
 ---
 ## ExtCodetextBuilder::AddECICodetext method
 
 
-Adds codetext with Extended Channel Identifier.
+Adds codetext with Extended Channel Identifier
 
 ```cpp
 void Aspose::BarCode::Generation::ExtCodetextBuilder::AddECICodetext(ECIEncodings ECIEncoding, System::String codetext)

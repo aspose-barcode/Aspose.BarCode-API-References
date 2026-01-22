@@ -3,7 +3,7 @@ title: Enum HanXinErrorLevel
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HanXinErrorLevel enum. Level of ReedSolomon error correction. From low to high L1 L2 L3 L4
 type: docs
-weight: 1250
+weight: 1270
 url: /net/aspose.barcode.generation/hanxinerrorlevel/
 ---
 ## HanXinErrorLevel enumeration

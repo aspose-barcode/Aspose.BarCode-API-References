@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::XDimensionMode enum
+title:  enum
 linktitle: XDimensionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::BarCodeRecognition::XDimensionMode enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 3400
+weight: 3700
 url: /cpp/aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 ## XDimensionMode enum
@@ -20,11 +20,11 @@ enum class XDimensionMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | 0 | Value of XDimension is detected by AI (SVM). At this time the same as Normal. |
-| Small | 1 | Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality. |
+| Auto | 0 | Value of XDimension is detected by AI (SVM). At this time the same as Normal |
+| Small | 1 | Detects barcodes with small XDimension in 1 pixel or more with quality from BarcodeQuality |
 | Normal | 2 | Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes. |
 | Large | 3 | Detects barcodes with large XDimension with quality from BarcodeQuality captured with high-resolution cameras. |
-| UseMinimalXDimension | 4 | Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality. |
+| UseMinimalXDimension | 4 | Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality |
 
 ## Remarks
 
@@ -41,9 +41,6 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
         Console.WriteLine(result.CodeText);
 }
 ```
-
-
-
 
 ## See Also
 

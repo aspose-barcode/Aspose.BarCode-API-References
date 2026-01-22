@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.StructuredAppendBarcodesCount
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Barcodes count for Structured Append mode
 type: docs
-weight: 100
+weight: 130
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/structuredappendbarcodescount/
 ---
 ## DataMatrixParametersUI.StructuredAppendBarcodesCount property

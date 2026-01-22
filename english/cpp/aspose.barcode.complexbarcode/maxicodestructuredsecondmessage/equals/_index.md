@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::Equals method. Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value in C++.'
 type: docs
-weight: 400
+weight: 700
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/equals/
 ---
 ## MaxiCodeStructuredSecondMessage::Equals method

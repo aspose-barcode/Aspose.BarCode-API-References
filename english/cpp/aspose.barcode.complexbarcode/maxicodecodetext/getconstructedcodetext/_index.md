@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetConstructedCodetext method
+title:  method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetConstructedCodetext method. Constructs codetext in C++.'
+description: ' method. Constructs codetext in C++.'
 type: docs
-weight: 500
+weight: 800
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetext/getconstructedcodetext/
 ---
 ## MaxiCodeCodetext::GetConstructedCodetext method
 
 
-Constructs codetext.
+Constructs codetext
 
 ```cpp
 System::String Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetConstructedCodetext() override=0

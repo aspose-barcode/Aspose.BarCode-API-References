@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::get_ECIEncoding method
+title:  method
 linktitle: get_ECIEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::get_ECIEncoding method. Gets ECI encoding. Used when DataMatrixEncodeMode is Auto. Default value: ISO-8859-1 in C++.'
+description: ' method. Gets ECI encoding. Used when EncodeMode is Auto. Default value: ISO-8859-1 in C++.'
 type: docs
-weight: 600
+weight: 2900
 url: /cpp/aspose.barcode.generation/datamatrixparameters/get_eciencoding/
 ---
 ## DataMatrixParameters::get_ECIEncoding method
 
 
-Gets ECI encoding. Used when DataMatrixEncodeMode is Auto. Default value: ISO-8859-1.
+Gets ECI encoding. Used when EncodeMode is Auto. Default value: ISO-8859-1
 
 ```cpp
 ECIEncodings Aspose::BarCode::Generation::DataMatrixParameters::get_ECIEncoding() const

@@ -3,7 +3,7 @@ title: BarCodeReader.SetBarCodeImage
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeReader method. Sets bitmap image for recognition. Must be called before ReadBarCodes method
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
 ## SetBarCodeImage(Bitmap) {#setbarcodeimage}

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::AztecEncodeMode enum
+title:  enum
 linktitle: AztecEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecEncodeMode enum. Encoding mode for Aztec barcodes in C++.'
+description: ' enum. Encoding mode for Aztec barcodes in C++.'
 type: docs
-weight: 4500
+weight: 4800
 url: /cpp/aspose.barcode.generation/aztecencodemode/
 ---
 ## AztecEncodeMode enum
@@ -58,8 +58,8 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
-
+string codetext = textBuilder.GetExtendedCodetext();    
+<br>
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
 {

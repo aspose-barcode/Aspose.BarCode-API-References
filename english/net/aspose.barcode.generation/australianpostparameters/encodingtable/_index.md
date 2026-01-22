@@ -3,7 +3,7 @@ title: AustralianPostParameters.EncodingTable
 second_title: Aspose.BarCode for .NET API Reference
 description: AustralianPostParameters property. Interpreting type for the Customer Information of AustralianPost default to CustomerInformationInterpretingType.Other
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.barcode.generation/australianpostparameters/encodingtable/
 ---
 ## AustralianPostParameters.EncodingTable property

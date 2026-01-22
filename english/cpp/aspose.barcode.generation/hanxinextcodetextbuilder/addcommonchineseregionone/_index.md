@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddCommonChineseRegionOne method
+title:  method
 linktitle: AddCommonChineseRegionOne
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddCommonChineseRegionOne method. Adds codetext fragment in Common Chinese Region One mode in C++.'
+description: ' method. Adds codetext fragment in Common Chinese Region One mode in C++.'
 type: docs
-weight: 400
+weight: 900
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addcommonchineseregionone/
 ---
 ## HanXinExtCodetextBuilder::AddCommonChineseRegionOne method
 
 
-Adds codetext fragment in [Common](../../../aspose.barcode.common/) Chinese Region One mode.
+Adds codetext fragment in [Common](../../../aspose.barcode.common/) Chinese Region One mode
 
 ```cpp
 void Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddCommonChineseRegionOne(System::String text)

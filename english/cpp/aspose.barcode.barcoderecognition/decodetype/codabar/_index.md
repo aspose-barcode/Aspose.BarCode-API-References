@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Codabar field
+title:  field
 linktitle: Codabar
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Codabar field. Specifies that the data should be decoded with CODABAR barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with CODABAR barcode specification in C++.'
 type: docs
-weight: 1400
+weight: 1100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/codabar/
 ---
 ## Codabar field
 
 
-Specifies that the data should be decoded with **CODABAR** barcode specification.
+Specifies that the data should be decoded with **CODABAR** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Codabar
 ```
-
-
-
 
 ## See Also
 

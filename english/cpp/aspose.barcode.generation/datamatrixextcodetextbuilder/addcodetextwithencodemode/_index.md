@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder::AddCodetextWithEncodeMode method
+title:  method
 linktitle: AddCodetextWithEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder::AddCodetextWithEncodeMode method. Adds codetext with defined encode mode to the extended codetext items in C++.'
+description: ' method. Adds codetext with defined encode mode to the extended codetext items in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.barcode.generation/datamatrixextcodetextbuilder/addcodetextwithencodemode/
 ---
 ## DataMatrixExtCodetextBuilder::AddCodetextWithEncodeMode method
 
 
-Adds codetext with defined encode mode to the extended codetext items.
+Adds codetext with defined encode mode to the extended codetext items
 
 ```cpp
 void Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder::AddCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, System::String codetext)

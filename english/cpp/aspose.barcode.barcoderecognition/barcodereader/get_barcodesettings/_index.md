@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_BarcodeSettings method
+title:  method
 linktitle: get_BarcodeSettings
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_BarcodeSettings method. The main BarCode decoding parameters. Contains parameters which make influence on recognized data in C++.'
+description: ' method. The main BarCode decoding parameters. Contains parameters which make influence on recognized data in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/get_barcodesettings/
 ---
 ## BarCodeReader::get_BarcodeSettings method
@@ -20,9 +20,6 @@ System::SharedPtr<Aspose::BarCode::BarCodeRecognition::BarcodeSettings> Aspose::
 
 
 The main [BarCode](../../../aspose.barcode/) decoding parameters
-
-
-
 ## See Also
 
 * Class [BarcodeSettings](../../barcodesettings/)

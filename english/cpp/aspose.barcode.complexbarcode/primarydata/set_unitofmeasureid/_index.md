@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::PrimaryData::set_UnitOfMeasureID method
+title:  method
 linktitle: set_UnitOfMeasureID
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::set_UnitOfMeasureID method. Identifies unit of measure ID. Unit of measure ID must be integer value from 0 to 9 in C++.'
+description: ' method. Identifies unit of measure ID. Unit of measure ID must be integer value from 0 to 9 in C++.'
 type: docs
-weight: 1000
+weight: 600
 url: /cpp/aspose.barcode.complexbarcode/primarydata/set_unitofmeasureid/
 ---
 ## PrimaryData::set_UnitOfMeasureID method

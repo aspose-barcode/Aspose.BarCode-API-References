@@ -1,20 +1,21 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixVersion method
+title:  method
 linktitle: get_DataMatrixVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixVersion method. Gets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto in C++.'
+description: ' method. Gets a Datamatrix symbol size. Default value: Version.Auto in C++.'
 type: docs
-weight: 500
+weight: 700
 url: /cpp/aspose.barcode.generation/datamatrixparameters/get_datamatrixversion/
 ---
 ## DataMatrixParameters::get_DataMatrixVersion method
 
 
-Gets a Datamatrix symbol size. Default value: [DataMatrixVersion.Auto](../../datamatrixversion/).
+Gets a Datamatrix symbol size. Default value: [Version.Auto](../../aztecencodemode/).
 
 ```cpp
-Aspose::BarCode::Generation::DataMatrixVersion Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixVersion() const
+Aspose::BarCode::Generation::DataMatrixVersion Aspose::BarCode::Generation::DataMatrixParameters::get_DataMatrixVersion()
 ```
+
 
 ## See Also
 

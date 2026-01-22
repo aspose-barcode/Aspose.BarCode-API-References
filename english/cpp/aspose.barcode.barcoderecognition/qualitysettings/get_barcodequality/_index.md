@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_BarcodeQuality method
+title:  method
 linktitle: get_BarcodeQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_BarcodeQuality method. Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition in C++.'
+description: ' method. Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition in C++.'
 type: docs
-weight: 600
+weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_barcodequality/
 ---
 ## QualitySettings::get_BarcodeQuality method
@@ -20,9 +20,6 @@ BarcodeQualityMode Aspose::BarCode::BarCodeRecognition::QualitySettings::get_Bar
 
 
 Mode which enables methods to recognize barcode elements with the selected quality. 
-
-
-
 ## See Also
 
 * Enum [BarcodeQualityMode](../../barcodequalitymode/)

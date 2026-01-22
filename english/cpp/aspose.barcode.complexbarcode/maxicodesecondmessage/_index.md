@@ -20,7 +20,7 @@ class MaxiCodeSecondMessage : public System::Object
 
 | Method | Description |
 | --- | --- |
-| virtual [GetMessage](./getmessage/)() | Gets constructed second message. |
+| virtual [GetMessage](./getmessage/)() | Gets constructed second message |
 ## See Also
 
 * Namespace [Aspose::BarCode::ComplexBarcode](../)

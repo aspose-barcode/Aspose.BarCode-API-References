@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodablockParameters::get_Rows method
+title:  method
 linktitle: get_Rows
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodablockParameters::get_Rows method. Rows count in C++.'
+description: ' method. Rows count in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/codablockparameters/get_rows/

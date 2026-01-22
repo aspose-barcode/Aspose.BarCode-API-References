@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_ComplexBackground method
+title:  method
 linktitle: get_ComplexBackground
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_ComplexBackground method. Mode which enables or disables additional recognition of color barcodes on color images in C++.'
+description: ' method. Mode which enables or disables additional recognition of color barcodes on color images in C++.'
 type: docs
-weight: 700
+weight: 1500
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_complexbackground/
 ---
 ## QualitySettings::get_ComplexBackground method
@@ -20,9 +20,6 @@ ComplexBackgroundMode Aspose::BarCode::BarCodeRecognition::QualitySettings::get_
 
 
 Additional recognition of color barcodes on color images. 
-
-
-
 ## See Also
 
 * Enum [ComplexBackgroundMode](../../complexbackgroundmode/)

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::set_LinkCharacter method
+title:  method
 linktitle: set_LinkCharacter
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::set_LinkCharacter method. Identifies link character in C++.'
+description: ' method. Identifies link character in C++.'
 type: docs
-weight: 900
+weight: 400
 url: /cpp/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/set_linkcharacter/
 ---
 ## HIBCLICSecondaryAndAdditionalDataCodetext::set_LinkCharacter method

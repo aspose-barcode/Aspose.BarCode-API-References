@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.common/processorsettings/
 ## ProcessorSettings class
 
 
-[ProcessorSettings](./) allow to recognize barcodes with multi-threaded increasing of performance.
+[ProcessorSettings](./) allow to recognize barcodes with multi-threaded increasing of performance
 
 ```cpp
 class ProcessorSettings : public System::Object
@@ -20,10 +20,10 @@ class ProcessorSettings : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_MaxAdditionalAllowedThreads](./get_maxadditionalallowedthreads/)() const | Specify the maximal number of additional threads to run code in parallel. |
+| [get_MaxAdditionalAllowedThreads](./get_maxadditionalallowedthreads/)() const | Specify the maximal number of additional threads to run code in parallel |
 | [get_UseAllCores](./get_useallcores/)() const | Is needed to use all cores. |
 | [get_UseOnlyThisCoresCount](./get_useonlythiscorescount/)() const | Specify the number of cores to use. You need to change the property "UseAllCores" to "false". |
-| [set_MaxAdditionalAllowedThreads](./set_maxadditionalallowedthreads/)(int32_t) | Specify the maximal number of additional threads to run code in parallel. |
+| [set_MaxAdditionalAllowedThreads](./set_maxadditionalallowedthreads/)(int32_t) | Specify the maximal number of additional threads to run code in parallel |
 | [set_UseAllCores](./set_useallcores/)(bool) | Is needed to use all cores. |
 | [set_UseOnlyThisCoresCount](./set_useonlythiscorescount/)(int32_t) | Specify the number of cores to use. You need to change the property "UseAllCores" to "false". |
 ## Remarks

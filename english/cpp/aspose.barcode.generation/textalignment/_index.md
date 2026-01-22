@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::TextAlignment enum
+title:  enum
 linktitle: TextAlignment
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::TextAlignment enum. Text alignment in C++.'
+description: ' enum. Text alignment in C++.'
 type: docs
-weight: 8000
+weight: 8200
 url: /cpp/aspose.barcode.generation/textalignment/
 ---
 ## TextAlignment enum

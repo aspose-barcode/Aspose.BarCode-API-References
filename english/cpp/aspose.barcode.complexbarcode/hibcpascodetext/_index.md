@@ -20,16 +20,16 @@ class HIBCPASCodetext : public Aspose::BarCode::ComplexBarcode::IComplexCodetext
 
 | Method | Description |
 | --- | --- |
-| [AddRecord](./addrecord/)(HIBCPASDataType, System::String) | Adds new record. |
-| [AddRecord](./addrecord/)(System::SharedPtr\<HIBCPASRecord\>) | Adds new record. |
-| [Clear](./clear/)() | Clears records list. |
+| [AddRecord](./addrecord/)(HIBCPASDataType, System::String) | Adds new record |
+| [AddRecord](./addrecord/)(System::SharedPtr\<HIBCPASRecord\>) | Adds new record |
+| [Clear](./clear/)() | Clears records list |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [HIBCPASCodetext](./) value. |
 | [get_BarcodeType](./get_barcodetype/)() | Gets barcode type. HIBC PAS codetext can be encoded using HIBCCode39PAS, HIBCCode128PAS, HIBCAztec:PAS, HIBCDataMatrixPAS and HIBCQRPAS encode types. Default value: HIBCCode39PAS. |
 | [get_DataLocation](./get_datalocation/)() const | Identifies data location. |
 | [GetBarcodeType](./getbarcodetype/)() override | Gets barcode type. |
-| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext. |
+| [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
-| [GetRecords](./getrecords/)() | Gets records list. |
+| [GetRecords](./getrecords/)() | Gets records list |
 | [HIBCPASCodetext](./hibcpascodetext/)() |  |
 | [InitFromString](./initfromstring/)(System::String) override | Initializes instance from constructed codetext. |
 | [set_BarcodeType](./set_barcodetype/)(System::SharedPtr\<Aspose::BarCode::Generation::BaseEncodeType\>) | Sets barcode type. HIBC PAS codetext can be encoded using HIBCCode39PAS, HIBCCode128PAS, HIBCAztec:PAS, HIBCDataMatrixPAS and HIBCQRPAS encode types. Default value: HIBCCode39PAS. |

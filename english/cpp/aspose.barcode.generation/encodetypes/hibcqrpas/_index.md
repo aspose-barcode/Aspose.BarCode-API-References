@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::HIBCQRPAS field
+title:  field
 linktitle: HIBCQRPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::HIBCQRPAS field. Specifies that the data should be encoded with HIBC PAS QR barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with HIBC PAS QR barcode specification in C++.'
 type: docs
-weight: 5300
+weight: 8900
 url: /cpp/aspose.barcode.generation/encodetypes/hibcqrpas/
 ---
 ## HIBCQRPAS field

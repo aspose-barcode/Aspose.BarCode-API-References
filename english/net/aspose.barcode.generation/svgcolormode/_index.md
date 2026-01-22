@@ -3,7 +3,7 @@ title: Enum SvgColorMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.SvgColorMode enum. Possible modes for filling color in svg file RGB is default and supported by SVG 1.1. RGBA HSL HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through fillopacity parameter
 type: docs
-weight: 1570
+weight: 1600
 url: /net/aspose.barcode.generation/svgcolormode/
 ---
 ## SvgColorMode enumeration

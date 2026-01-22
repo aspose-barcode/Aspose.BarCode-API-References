@@ -3,7 +3,7 @@ title: Enum DotCodeEncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DotCodeEncodeMode enum. Encoding mode for DotCode barcodes
 type: docs
-weight: 1140
+weight: 1160
 url: /net/aspose.barcode.generation/dotcodeencodemode/
 ---
 ## DotCodeEncodeMode enumeration

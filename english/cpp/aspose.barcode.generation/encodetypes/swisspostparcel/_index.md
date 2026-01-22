@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::SwissPostParcel field
+title:  field
 linktitle: SwissPostParcel
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::SwissPostParcel field. Specifies that the data should be encoded with Swiss Post Parcel Barcode barcode specification. Supported types: Domestic Mail, International Mail, Additional Services (new) in C++.'
+description: ' field. Specifies that the data should be encoded with Swiss Post Parcel Barcode barcode specification. Supported types: Domestic Mail, International Mail, Additional Services (new) in C++.'
 type: docs
-weight: 8500
+weight: 7000
 url: /cpp/aspose.barcode.generation/encodetypes/swisspostparcel/
 ---
 ## SwissPostParcel field

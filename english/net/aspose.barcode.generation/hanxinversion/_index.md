@@ -3,7 +3,7 @@ title: Enum HanXinVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.HanXinVersion enum. Version of Han Xin Code. From Version01  23 x 23 modules to Version84  189 x 189 modules increasing in steps of 2 modules per side
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.barcode.generation/hanxinversion/
 ---
 ## HanXinVersion enumeration

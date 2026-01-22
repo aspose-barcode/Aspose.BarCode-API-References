@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::set_Data method
+title:  method
 linktitle: set_Data
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::set_Data method. Identifies secodary and additional supplemental data in C++.'
+description: ' method. Identifies secodary and additional supplemental data in C++.'
 type: docs
-weight: 800
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/set_data/
 ---
 ## HIBCLICSecondaryAndAdditionalDataCodetext::set_Data method

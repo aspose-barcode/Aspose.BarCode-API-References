@@ -23,8 +23,8 @@ class BarcodeGenerator : public System::IDisposable
 | [BarcodeGenerator](./barcodegenerator/)(System::SharedPtr\<BaseEncodeType\>) | Creates an instance of [BarcodeGenerator](./). |
 | [BarcodeGenerator](./barcodegenerator/)(System::SharedPtr\<BaseEncodeType\>, System::String) | Creates an instance of [BarcodeGenerator](./). |
 | [Dispose](./dispose/)() override | Clean up any resources being used. |
-| [ExportToXml](./exporttoxml/)(System::String) | Exports [BarCode](../../aspose.barcode/) properties to the xml-file specified. |
-| [ExportToXml](./exporttoxml/)(System::SharedPtr\<System::IO::Stream\>) | Exports [BarCode](../../aspose.barcode/) properties to the xml-stream specified. |
+| [ExportToXml](./exporttoxml/)(System::String) | Exports [BarCode](../../aspose.barcode/) properties to the xml-file specified |
+| [ExportToXml](./exporttoxml/)(System::SharedPtr\<System::IO::Stream\>) | Exports [BarCode](../../aspose.barcode/) properties to the xml-stream specified |
 | [GenerateBarCodeImage](./generatebarcodeimage/)() | Generate the barcode image under current settings. |
 | [get_BarcodeType](./get_barcodetype/)() | Barcode symbology type. |
 | [get_CodeText](./get_codetext/)() | Text to be encoded. |
@@ -37,11 +37,12 @@ class BarcodeGenerator : public System::IDisposable
 | [set_BarcodeType](./set_barcodetype/)(System::SharedPtr\<BaseEncodeType\>) | Barcode symbology type. |
 | [set_CodeText](./set_codetext/)(System::String) | Text to be encoded. |
 | [SetCodeText](./setcodetext/)(System::ArrayPtr\<uint8_t\>) | Set codetext as sequence of bytes. |
-| [SetCodeText](./setcodetext/)(System::String, System::SharedPtr\<System::Text::Encoding\>) | Encodes codetext with byte order mark (BOM) using specified encoding. |
+| [SetCodeText](./setcodetext/)(System::String, System::SharedPtr\<System::Text::Encoding\>) |  |
+| [SetCodeText](./setcodetext/)(System::String, System::SharedPtr\<System::Text::Encoding\>, bool) |  |
 ## Remarks
 
 
-supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ... 
+supported symbologies: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Code93, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ... 
 
 This sample shows how to create and save a barcode image. 
 ```cpp

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_ImageHeight method
+title:  method
 linktitle: get_ImageHeight
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_ImageHeight method. BarCode image height when AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
+description: ' method. BarCode image height when AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
 type: docs
-weight: 800
+weight: 1400
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_imageheight/
 ---
 ## BaseGenerationParameters::get_ImageHeight method

@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI method. Returns a humanreadable string representation of this DataMatrixParameters
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/tostring/
 ---
 ## DataMatrixParametersUI.ToString method

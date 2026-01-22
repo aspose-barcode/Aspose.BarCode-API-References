@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Quadrangle::Quadrangle constructor
+title:  constructor
 linktitle: Quadrangle
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::Quadrangle constructor. Initializes a new empty instance of the Quadrangle class in C++.'
+description: ' constructor. Initializes a new empty instance of the Quadrangle class in C++.'
 type: docs
-weight: 100
+weight: 1100
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/quadrangle/
 ---
 ## Quadrangle::Quadrangle() constructor

@@ -4,7 +4,7 @@ linktitle: SupplementParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::SupplementParameters class. Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN in C++.'
 type: docs
-weight: 4000
+weight: 4200
 url: /cpp/aspose.barcode.generation/supplementparameters/
 ---
 ## SupplementParameters class

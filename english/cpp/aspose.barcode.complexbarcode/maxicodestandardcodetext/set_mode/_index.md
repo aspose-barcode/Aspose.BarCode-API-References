@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::set_Mode method
+title:  method
 linktitle: set_Mode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::set_Mode method. Sets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6 in C++.'
+description: ' method. Sets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6 in C++.'
 type: docs
-weight: 1000
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/maxicodestandardcodetext/set_mode/
 ---
 ## MaxiCodeStandardCodetext::set_Mode method
 
 
-Sets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6.
+Sets MaxiCode mode. Standard codetext can be used only with modes 4, 5 and 6.
 
 ```cpp
 void Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext::set_Mode(Aspose::BarCode::Generation::MaxiCodeMode value)

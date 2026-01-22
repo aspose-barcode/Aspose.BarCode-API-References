@@ -4,7 +4,7 @@ linktitle: FontUnit
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::FontUnit class. Defines a particular format for text, including font face, size, and style attributes where size in Unit value property in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.barcode.generation/fontunit/
 ---
 ## FontUnit class

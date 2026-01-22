@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::DecodeType constructor
+title:  constructor
 linktitle: DecodeType
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use DecodeType constructor of Aspose::BarCode::BarCodeRecognition::DecodeType class in C++.'

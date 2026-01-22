@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::ToString method. Returns a human-readable string representation of this QRExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this QRExtendedParameters in C++.'
 type: docs
-weight: 900
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/tostring/
 ---
 ## QRExtendedParameters::ToString method

@@ -3,7 +3,7 @@ title: QRExtendedParameters.RectMicroQRVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Version of recognized RectMicroQR Code. From R7x43 to R17x139
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/
 ---
 ## QRExtendedParameters.RectMicroQRVersion property

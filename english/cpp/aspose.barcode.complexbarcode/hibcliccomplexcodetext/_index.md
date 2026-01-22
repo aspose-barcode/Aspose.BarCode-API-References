@@ -22,7 +22,7 @@ class HIBCLICComplexCodetext : public Aspose::BarCode::ComplexBarcode::IComplexC
 | --- | --- |
 | [get_BarcodeType](./get_barcodetype/)() | Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
 | [GetBarcodeType](./getbarcodetype/)() override | Gets barcode type. |
-| virtual [GetConstructedCodetext](./getconstructedcodetext/)() | Constructs codetext. |
+| virtual [GetConstructedCodetext](./getconstructedcodetext/)() | Constructs codetext |
 | [HIBCLICComplexCodetext](./hibcliccomplexcodetext/)() |  |
 | virtual [InitFromString](./initfromstring/)(System::String) | Initializes instance from constructed codetext. |
 | [set_BarcodeType](./set_barcodetype/)(System::SharedPtr\<Aspose::BarCode::Generation::BaseEncodeType\>) | Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |

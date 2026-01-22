@@ -3,7 +3,7 @@ title: QRExtendedParameters.Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters method. Returns a value indicating whether this instance is equal to a specified QRExtendedParameters value
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/equals/
 ---
 ## QRExtendedParameters.Equals method

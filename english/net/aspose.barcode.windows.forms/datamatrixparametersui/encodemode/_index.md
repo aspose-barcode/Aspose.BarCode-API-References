@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Encode mode of Datamatrix barcode. Default value EncodeMode.Auto
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/encodemode/
 ---
 ## DataMatrixParametersUI.EncodeMode property

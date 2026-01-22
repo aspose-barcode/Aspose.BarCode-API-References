@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CodetextParameters::get_Location method
+title:  method
 linktitle: get_Location
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodetextParameters::get_Location method. Specify the displaying CodeText Location, set to CodeLocation.None to hide CodeText. Default value: CodeLocation.Below for 1D barcodes and CodeLocation.None for 2D barcodes in C++.'
+description: ' method. Specify the displaying CodeText Location, set to CodeLocation.None to hide CodeText. Default value: CodeLocation.Below for 1D barcodes and CodeLocation.None for 2D barcodes in C++.'
 type: docs
-weight: 500
+weight: 1200
 url: /cpp/aspose.barcode.generation/codetextparameters/get_location/
 ---
 ## CodetextParameters::get_Location method

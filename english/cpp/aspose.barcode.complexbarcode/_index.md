@@ -15,7 +15,7 @@ url: /cpp/aspose.barcode.complexbarcode/
 | Class | Description |
 | --- | --- |
 | [Address](./address/) | [Address](./address/) of creditor or debtor. |
-| [AlternativeScheme](./alternativescheme/) | Alternative payment scheme instructions. |
+| [AlternativeScheme](./alternativescheme/) | Alternative payment scheme instructions |
 | [ComplexBarcodeGenerator](./complexbarcodegenerator/) | [ComplexBarcodeGenerator](./complexbarcodegenerator/) for backend complex barcode (e.g. SwissQR) images generation. |
 | [ComplexCodetextReader](./complexcodetextreader/) | [ComplexCodetextReader](./complexcodetextreader/) decodes codetext to specified complex barcode type. |
 | [HIBCLICCombinedCodetext](./hibcliccombinedcodetext/) | Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data. |
@@ -32,19 +32,26 @@ url: /cpp/aspose.barcode.complexbarcode/
 | [MaxiCodeCodetextMode3](./maxicodecodetextmode3/) | Class for encoding and decoding the text embedded in the MaxiCode code for modes 3. |
 | [MaxiCodeSecondMessage](./maxicodesecondmessage/) | Base class for encoding and decoding second message for MaxiCode barcode. |
 | [MaxiCodeStandardCodetext](./maxicodestandardcodetext/) | Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6. |
-| [MaxiCodeStandartSecondMessage](./maxicodestandartsecondmessage/) | Class for encoding and decoding standart second message for MaxiCode barcode. |
+| [MaxiCodeStandardSecondMessage](./maxicodestandardsecondmessage/) | Class for encoding and decoding standard second message for MaxiCode barcode. |
+| [MaxiCodeStandartSecondMessage](./maxicodestandartsecondmessage/) | Class for encoding and decoding standard second message for MaxiCode barcode. |
 | [MaxiCodeStructuredCodetext](./maxicodestructuredcodetext/) | Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3. |
 | [MaxiCodeStructuredSecondMessage](./maxicodestructuredsecondmessage/) | Class for encoding and decoding structured second message for MaxiCode barcode. |
 | [PrimaryData](./primarydata/) | Class for storing HIBC LIC primary data. |
 | [SecondaryAndAdditionalData](./secondaryandadditionaldata/) | Class for storing HIBC LIC secondary and additional data. |
-| [SwissQRBill](./swissqrbill/) | SwissQR bill data. |
+| [SwissQRBill](./swissqrbill/) | SwissQR bill data |
 | [SwissQRCodetext](./swissqrcodetext/) | Class for encoding and decoding the text embedded in the SwissQR code. |
+| [USADriveIdCodetext](./usadriveidcodetext/) | Class for encoding and decoding the text embedded in the USA Driving [License](../aspose.barcode/license/) PDF417 code. |
+| [USADriveIdJurisdSubfile](./usadriveidjurisdsubfile/) | Class for Jurisdiction specific fields for USA DL |
 ## Enums
 
 | Enum | Description |
 | --- | --- |
-| [AddressType](./addresstype/) | [Address](./address/) type. |
 | [HIBCLICDateFormat](./hibclicdateformat/) | Specifies the different types of date formats for HIBC LIC. |
 | [HIBCPASDataLocation](./hibcpasdatalocation/) | HIBC PAS data location types. |
 | [HIBCPASDataType](./hibcpasdatatype/) | HIBC PAS record's data types. |
 | [Mailmark2DType](./mailmark2dtype/) | 2D Mailmark Type defines size of Data Matrix barcode |
+| [AddressType](./addresstype/) | [Address](./address/) type |
+| [USADriveIdSex](./usadriveidsex/) | Enum for Sex field in the US Driver's [License](../aspose.barcode/license/) |
+| [USADriveIdCountry](./usadriveidcountry/) | Enum for Country Identification in the US Driver's [License](../aspose.barcode/license/) |
+| [USADriveIdEyeColor](./usadriveideyecolor/) | Enum for Eye Color in the US Driver's [License](../aspose.barcode/license/) |
+| [USADriveIdHairColor](./usadriveidhaircolor/) | Enum for Hair Color in the US Driver's [License](../aspose.barcode/license/) |

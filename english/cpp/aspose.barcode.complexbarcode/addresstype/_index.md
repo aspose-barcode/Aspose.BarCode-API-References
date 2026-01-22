@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::AddressType enum
+title:  enum
 linktitle: AddressType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::AddressType enum. Address type in C++.'
+description: ' enum. Address type in C++.'
 type: docs
-weight: 2600
+weight: 3300
 url: /cpp/aspose.barcode.complexbarcode/addresstype/
 ---
 ## AddressType enum
 
 
-[Address](../address/) type.
+[Address](../address/) type
 
 ```cpp
 enum class AddressType
@@ -20,10 +20,10 @@ enum class AddressType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Undetermined | 0 | Undetermined. |
-| Structured | 1 | Structured address. |
-| CombinedElements | 2 | Combined address elements. |
-| Conflicting | 3 | Conflicting. |
+| Undetermined | 0 | Undetermined |
+| Structured | 1 | Structured address |
+| CombinedElements | 2 | Combined address elements |
+| Conflicting | 3 | Conflicting |
 
 ## See Also
 

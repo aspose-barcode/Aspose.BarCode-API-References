@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_RTSFlag method
+title:  method
 linktitle: set_RTSFlag
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_RTSFlag method. Flag which indicates what level of Return to Sender service is being requested in C++.'
+description: ' method. Flag which indicates what level of Return to Sender service is being requested in C++.'
 type: docs
-weight: 2500
+weight: 1600
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_rtsflag/
 ---
 ## Mailmark2DCodetext::set_RTSFlag method

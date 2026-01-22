@@ -3,7 +3,7 @@ title: Enum USADriveIdHairColor
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdHairColor enum. Enum for Hair Color in the US Drivers License
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.barcode.complexbarcode/usadriveidhaircolor/
 ---
 ## USADriveIdHairColor enumeration

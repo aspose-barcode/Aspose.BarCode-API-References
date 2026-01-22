@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::PZN field
+title:  field
 linktitle: PZN
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::PZN field. Specifies that the data should be decoded with PZN barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported in C++.'
+description: ' field. Specifies that the data should be decoded with PZN barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported in C++.'
 type: docs
-weight: 8500
+weight: 3800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/pzn/
 ---
 ## PZN field

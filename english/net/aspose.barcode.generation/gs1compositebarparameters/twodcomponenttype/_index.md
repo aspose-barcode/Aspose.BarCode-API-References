@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters.TwoDComponentType
 second_title: Aspose.BarCode for .NET API Reference
 description: GS1CompositeBarParameters property. 2D component type
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/gs1compositebarparameters/twodcomponenttype/
 ---
 ## GS1CompositeBarParameters.TwoDComponentType property

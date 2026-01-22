@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_InformationTypeID method
+title:  method
 linktitle: get_InformationTypeID
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_InformationTypeID method. Identifies the Royal Mail Mailmark barcode payload for each product type in C++.'
+description: ' method. Identifies the Royal Mail Mailmark barcode payload for each product type in C++.'
 type: docs
-weight: 700
+weight: 300
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/get_informationtypeid/
 ---
 ## Mailmark2DCodetext::get_InformationTypeID method

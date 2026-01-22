@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::get_BarcodeType method
+title:  method
 linktitle: get_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::get_BarcodeType method. Gets barcode type. HIBC PAS codetext can be encoded using HIBCCode39PAS, HIBCCode128PAS, HIBCAztec:PAS, HIBCDataMatrixPAS and HIBCQRPAS encode types. Default value: HIBCCode39PAS in C++.'
+description: ' method. Gets barcode type. HIBC PAS codetext can be encoded using HIBCCode39PAS, HIBCCode128PAS, HIBCAztec:PAS, HIBCDataMatrixPAS and HIBCQRPAS encode types. Default value: HIBCCode39PAS in C++.'
 type: docs
-weight: 500
+weight: 100
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/get_barcodetype/
 ---
 ## HIBCPASCodetext::get_BarcodeType method

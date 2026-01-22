@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Code39FullASCII field
+title:  field
 linktitle: Code39FullASCII
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Code39FullASCII field. Specifies that the data should be decoded with Code 39 full ASCII charset barcode specification: ISO/IEC 16388 in C++.'
+description: ' field. Specifies that the data should be decoded with Code 39 full ASCII charset barcode specification: ISO/IEC 16388 in C++.'
 type: docs
-weight: 2100
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/code39fullascii/
 ---
 ## Code39FullASCII field
 
 
-Specifies that the data should be decoded with **Code 39** full ASCII charset barcode specification: ISO/IEC 16388.
+Specifies that the data should be decoded with **Code 39** full ASCII charset barcode specification: ISO/IEC 16388
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Code39FullASCII
 ```
-
-
-
 
 ## See Also
 

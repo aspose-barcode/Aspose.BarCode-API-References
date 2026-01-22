@@ -37,6 +37,7 @@ public class BarCodeReader : Component
 
 | Name | Description |
 | --- | --- |
+| [BarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/barcodereadtype/) { get; set; } | Gets or sets the barcode decode type used for recognition. Must be set before calling [`ReadBarCodes`](./readbarcodes/). |
 | [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings/) { get; } | The main BarCode decoding parameters. Contains parameters which make influence on recognized data. |
 | [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/) { get; } | Gets recognized [`BarCodeResult`](../barcoderesult/)s array |
 | [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount/) { get; } | Gets recognized barcodes count |
@@ -59,7 +60,7 @@ public class BarCodeReader : Component
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Deprecated. Use [`BarCodeReadType`](./barcodereadtype/) property instead. |
 | [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype_1)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method. |
 
 ## Examples

@@ -3,7 +3,7 @@ title: AustralianPostParameters.ShortBarHeight
 second_title: Aspose.BarCode for .NET API Reference
 description: AustralianPostParameters property. Short bars height of AustralianPost barcode
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.barcode.generation/australianpostparameters/shortbarheight/
 ---
 ## AustralianPostParameters.ShortBarHeight property

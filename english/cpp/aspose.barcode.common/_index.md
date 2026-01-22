@@ -14,4 +14,4 @@ url: /cpp/aspose.barcode.common/
 
 | Class | Description |
 | --- | --- |
-| [ProcessorSettings](./processorsettings/) | [ProcessorSettings](./processorsettings/) allow to recognize barcodes with multi-threaded increasing of performance. |
+| [ProcessorSettings](./processorsettings/) | [ProcessorSettings](./processorsettings/) allow to recognize barcodes with multi-threaded increasing of performance |

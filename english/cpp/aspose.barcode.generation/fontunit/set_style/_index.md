@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::FontUnit::set_Style method
+title:  method
 linktitle: set_Style
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::FontUnit::set_Style method. Sets style information for this FontUnit in C++.'
+description: ' method. Sets style information for this FontUnit in C++.'
 type: docs
-weight: 500
+weight: 400
 url: /cpp/aspose.barcode.generation/fontunit/set_style/
 ---
 ## FontUnit::set_Style method

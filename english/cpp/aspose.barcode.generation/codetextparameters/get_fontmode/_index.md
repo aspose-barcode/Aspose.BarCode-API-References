@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::CodetextParameters::get_FontMode method
+title:  method
 linktitle: get_FontMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodetextParameters::get_FontMode method. Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation. Default value: FontMode.Auto in C++.'
+description: ' method. Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode.Auto especially in AutoSizeMode.Nearest or AutoSizeMode.Interpolation. Default value: FontMode.Auto in C++.'
 type: docs
-weight: 400
+weight: 300
 url: /cpp/aspose.barcode.generation/codetextparameters/get_fontmode/
 ---
 ## CodetextParameters::get_FontMode method
 
 
-Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use [FontMode.Auto](../../fontmode/) especially in [AutoSizeMode.Nearest](../../autosizemode/) or [AutoSizeMode.Interpolation](../../autosizemode/). Default value: [FontMode.Auto](../../fontmode/).
+Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use [FontMode.Auto](../../aztecencodemode/) especially in [AutoSizeMode.Nearest](../../autosizemode/) or [AutoSizeMode.Interpolation](../../autosizemode/). Default value: [FontMode.Auto](../../aztecencodemode/).
 
 ```cpp
 Aspose::BarCode::Generation::FontMode Aspose::BarCode::Generation::CodetextParameters::get_FontMode() const

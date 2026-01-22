@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.barcoderecognition/aztecextendedparameters/
 ## AztecExtendedParameters class
 
 
-Stores special data of Aztec recognized barcode.
+Stores special data of Aztec recognized barcode
 
 ```cpp
 class AztecExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseExtendedParameters
@@ -20,11 +20,11 @@ class AztecExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Base
 
 | Method | Description |
 | --- | --- |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | Tests whether all parameters has only default values. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_IsReaderInitialization](./get_isreaderinitialization/)() | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
 | [get_StructuredAppendBarcodeId](./get_structuredappendbarcodeid/)() | Gets the ID of the Aztec structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is 0. |
 | [get_StructuredAppendBarcodesCount](./get_structuredappendbarcodescount/)() | Gets the Aztec structured append mode barcodes count. Default value is 0. Count must be a value from 1 to 26. |
-| [get_StructuredAppendFileId](./get_structuredappendfileid/)() | Gets the File ID of the Aztec structured append mode. Default value is empty string. |
+| [get_StructuredAppendFileId](./get_structuredappendfileid/)() | Gets the File ID of the Aztec structured append mode. Default value is empty string |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [AztecExtendedParameters](./). |
 ## Remarks

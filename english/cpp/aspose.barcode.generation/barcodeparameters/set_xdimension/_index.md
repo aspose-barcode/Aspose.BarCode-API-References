@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::set_XDimension method
+title:  method
 linktitle: set_XDimension
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::set_XDimension method. x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if BaseGenerationParameters::AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
+description: ' method. x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if BaseGenerationParameters::AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
 type: docs
-weight: 4200
+weight: 200
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_xdimension/
 ---
 ## BarcodeParameters::set_XDimension method

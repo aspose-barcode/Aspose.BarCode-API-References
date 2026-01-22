@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CodetextParameters::get_Space method
+title:  method
 linktitle: get_Space
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodetextParameters::get_Space method. Space between the CodeText and the BarCode in Unit  value. Default value: 2pt. Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon in C++.'
+description: ' method. Space between the CodeText and the BarCode in Unit  value. Default value: 2pt. Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon in C++.'
 type: docs
-weight: 700
+weight: 600
 url: /cpp/aspose.barcode.generation/codetextparameters/get_space/
 ---
 ## CodetextParameters::get_Space method

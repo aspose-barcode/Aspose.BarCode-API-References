@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::QrStructuredAppendParameters::set_SequenceIndicator method
+title:  method
 linktitle: set_SequenceIndicator
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrStructuredAppendParameters::set_SequenceIndicator method. Sets the index of the QR structured append mode barcode. Index starts from 0 in C++.'
+description: ' method. Sets the index of the QR structured append mode barcode. Index starts from 0 in C++.'
 type: docs
-weight: 500
+weight: 400
 url: /cpp/aspose.barcode.generation/qrstructuredappendparameters/set_sequenceindicator/
 ---
 ## QrStructuredAppendParameters::set_SequenceIndicator method

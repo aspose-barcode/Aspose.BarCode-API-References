@@ -4,13 +4,13 @@ linktitle: OneDExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters class. Stores special data of 1D recognized barcode like separate codetext and checksum in C++.'
 type: docs
-weight: 2100
+weight: 2400
 url: /cpp/aspose.barcode.barcoderecognition/onedextendedparameters/
 ---
 ## OneDExtendedParameters class
 
 
-Stores special data of 1D recognized barcode like separate codetext and checksum.
+Stores special data of 1D recognized barcode like separate codetext and checksum
 
 ```cpp
 class OneDExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseExtendedParameters
@@ -21,7 +21,7 @@ class OneDExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseE
 | Method | Description |
 | --- | --- |
 | [get_CheckSum](./get_checksum/)() | Gets the checksum for 1D barcodes. |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | Tests whether all parameters has only default values. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_Value](./get_value/)() | Gets the codetext of 1D barcodes without checksum. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [OneDExtendedParameters](./). |

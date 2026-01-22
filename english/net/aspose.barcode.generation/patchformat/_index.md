@@ -3,7 +3,7 @@ title: Enum PatchFormat
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.PatchFormat enum. PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders
 type: docs
-weight: 1410
+weight: 1430
 url: /net/aspose.barcode.generation/patchformat/
 ---
 ## PatchFormat enumeration

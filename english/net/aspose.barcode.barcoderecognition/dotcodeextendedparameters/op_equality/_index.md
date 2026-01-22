@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.op_Equality
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeExtendedParameters method. Returns a value indicating whether the first DotCodeExtendedParameters value is equal to the second
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_equality/
 ---
 ## DotCodeExtendedParameters Equality operator

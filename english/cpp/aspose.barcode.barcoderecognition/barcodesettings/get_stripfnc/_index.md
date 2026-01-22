@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_StripFNC method
+title:  method
 linktitle: get_StripFNC
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_StripFNC method. Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false in C++.'
+description: ' method. Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false in C++.'
 type: docs
-weight: 400
+weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_stripfnc/
 ---
 ## BarcodeSettings::get_StripFNC method
@@ -66,9 +66,6 @@ End Using
 
 
 Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
-
-
-
 ## See Also
 
 * Class [BarcodeSettings](../)

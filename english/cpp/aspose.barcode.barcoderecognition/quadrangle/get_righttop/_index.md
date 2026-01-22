@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Quadrangle::get_RightTop method
+title:  method
 linktitle: get_RightTop
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::get_RightTop method. Gets right-top corner Point of Quadrangle region in C++.'
+description: ' method. Gets right-top corner Point of Quadrangle region in C++.'
 type: docs
-weight: 900
+weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/get_righttop/
 ---
 ## Quadrangle::get_RightTop method
 
 
-Gets right-top corner [Point](../) of [Quadrangle](../) region.
+Gets right-top corner [Point](../) of [Quadrangle](../) region
 
 ```cpp
 System::Drawing::Point Aspose::BarCode::BarCodeRecognition::Quadrangle::get_RightTop() const
@@ -20,9 +20,6 @@ System::Drawing::Point Aspose::BarCode::BarCodeRecognition::Quadrangle::get_Righ
 
 
 A right-top corner [Point](../) of [Quadrangle](../) region
-
-
-
 ## See Also
 
 * Class [Quadrangle](../)

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Unit::get_Document method
+title:  method
 linktitle: get_Document
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::get_Document method. Gets size value in document units in C++.'
+description: ' method. Gets size value in document units in C++.'
 type: docs
-weight: 200
+weight: 900
 url: /cpp/aspose.barcode.generation/unit/get_document/
 ---
 ## Unit::get_Document method

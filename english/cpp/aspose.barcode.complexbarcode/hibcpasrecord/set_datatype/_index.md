@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASRecord::set_DataType method
+title:  method
 linktitle: set_DataType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASRecord::set_DataType method. Identifies data type in C++.'
+description: ' method. Identifies data type in C++.'
 type: docs
-weight: 700
+weight: 200
 url: /cpp/aspose.barcode.complexbarcode/hibcpasrecord/set_datatype/
 ---
 ## HIBCPASRecord::set_DataType method

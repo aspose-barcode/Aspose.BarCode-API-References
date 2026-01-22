@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::ITFParameters::get_QuietZoneCoef method
+title:  method
 linktitle: get_QuietZoneCoef
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ITFParameters::get_QuietZoneCoef method. Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px in C++.'
+description: ' method. Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px in C++.'
 type: docs
-weight: 300
+weight: 900
 url: /cpp/aspose.barcode.generation/itfparameters/get_quietzonecoef/
 ---
 ## ITFParameters::get_QuietZoneCoef method

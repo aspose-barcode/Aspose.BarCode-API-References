@@ -11,7 +11,7 @@ url: /net/aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/
 EnableEscapeProperty
 
 ```csharp
-public static DependencyProperty EnableEscapeProperty;
+public static readonly DependencyProperty EnableEscapeProperty;
 ```
 
 ### See Also

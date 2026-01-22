@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroTimeStamp method
+title:  method
 linktitle: get_Pdf417MacroTimeStamp
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroTimeStamp method. MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode) in C++.'
+description: ' method. MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode) in C++.'
 type: docs
-weight: 2100
+weight: 3900
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417macrotimestamp/
 ---
 ## Pdf417Parameters::get_Pdf417MacroTimeStamp method
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/pdf417parameters/get_pdf417macrotimestamp/
 MacroPdf417 barcode time stamp (optional field). MicroPDF417 barcode time stamp (optional field for Structured Append mode)
 
 ```cpp
-System::DateTime Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroTimeStamp() const
+System::DateTime Aspose::BarCode::Generation::Pdf417Parameters::get_Pdf417MacroTimeStamp()
 ```
+
 
 ## See Also
 

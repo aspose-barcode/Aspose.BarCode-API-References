@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417CompactionMode enum
+title:  enum
 linktitle: Pdf417CompactionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417CompactionMode enum. Pdf417 barcode compaction mode in C++.'
+description: ' enum. Pdf417 barcode compaction mode in C++.'
 type: docs
-weight: 7000
+weight: 7300
 url: /cpp/aspose.barcode.generation/pdf417compactionmode/
 ---
 ## Pdf417CompactionMode enum
 
 
-Pdf417 barcode compaction mode.
+Pdf417 barcode compaction mode
 
 ```cpp
 enum class Pdf417CompactionMode

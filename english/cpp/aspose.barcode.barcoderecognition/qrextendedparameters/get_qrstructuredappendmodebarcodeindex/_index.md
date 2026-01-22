@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_QRStructuredAppendModeBarCodeIndex method
+title:  method
 linktitle: get_QRStructuredAppendModeBarCodeIndex
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_QRStructuredAppendModeBarCodeIndex method. Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1 in C++.'
+description: ' method. Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1 in C++.'
 type: docs
-weight: 300
+weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_qrstructuredappendmodebarcodeindex/
 ---
 ## QRExtendedParameters::get_QRStructuredAppendModeBarCodeIndex method
@@ -19,10 +19,8 @@ int32_t Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_QRStructu
 ## Remarks
 
 
+
 The quantity of the QR structured append mode barcode.
-
-
-
 ## See Also
 
 * Class [QRExtendedParameters](../)

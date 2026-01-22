@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.ECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Gets or sets ECI encoding. Used when EncodeMode is Auto
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/eciencoding/
 ---
 ## DataMatrixParametersUI.ECIEncoding property

@@ -1,37 +1,12 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse method
+title:  method
 linktitle: TryParse
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse method. Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
+description: ' method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
 type: docs
-weight: 800
+weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/tryparse/
 ---
-## DecodeType::TryParse(System::String, System::SharedPtr\<MultyDecodeType\>\&) method
-
-
-Converts the string representation of a [MultyDecodeType](../../multydecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed.
-
-```cpp
-static bool Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse(System::String parsingType, System::SharedPtr<MultyDecodeType> &result)
-```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parsingType | System::String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
-| result | System::SharedPtr\<MultyDecodeType\>\& | An actual [MultyDecodeType](../../multydecodetype/) is returned, when conversion has completed successfully; otherwise it returns indefinite type: new [MultyDecodeType](../../multydecodetype/)([DecodeType.None](../none/)) |
-
-### ReturnValue
-
-**true** if parsingType was converted successfully; otherwise, **false**.
-
-## See Also
-
-* Class [MultyDecodeType](../../multydecodetype/)
-* Class [DecodeType](../)
-* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
-* Library [Aspose.BarCode for C++](../../../)
 ## DecodeType::TryParse(System::String, System::SharedPtr\<SingleDecodeType\>\&) method
 
 
@@ -54,6 +29,31 @@ static bool Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse(System::St
 ## See Also
 
 * Class [SingleDecodeType](../../singledecodetype/)
+* Class [DecodeType](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## DecodeType::TryParse(System::String, System::SharedPtr\<MultiDecodeType\>\&) method
+
+
+Converts the string representation of a [MultiDecodeType](../../multidecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed.
+
+```cpp
+static bool Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse(System::String parsingType, System::SharedPtr<MultiDecodeType> &result)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parsingType | System::String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
+| result | System::SharedPtr\<MultiDecodeType\>\& | An actual [MultiDecodeType](../../multidecodetype/) is returned, when conversion has completed successfully; otherwise it returns indefinite type: new [MultiDecodeType](../../multidecodetype/)([DecodeType.None](../none/)) |
+
+### ReturnValue
+
+**true** if parsingType was converted successfully; otherwise, **false**.
+
+## See Also
+
+* Class [MultiDecodeType](../../multidecodetype/)
 * Class [DecodeType](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)

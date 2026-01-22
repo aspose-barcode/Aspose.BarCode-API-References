@@ -3,7 +3,7 @@ title: Class License
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.License class. Provides methods to license the component
 type: docs
-weight: 1640
+weight: 1670
 url: /net/aspose.barcode/license/
 ---
 ## License class

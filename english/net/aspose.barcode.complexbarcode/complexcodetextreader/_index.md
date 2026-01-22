@@ -3,7 +3,7 @@ title: Class ComplexCodetextReader
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.ComplexCodetextReader class. ComplexCodetextReader decodes codetext to specified complex barcode type
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/
 ---
 ## ComplexCodetextReader class

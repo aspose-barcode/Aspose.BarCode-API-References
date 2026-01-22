@@ -3,7 +3,7 @@ title: Class ExtCodetextBuilder
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.ExtCodetextBuilder class. Helper class for automatic codetext generation of the Extended Codetext Mode
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.barcode.generation/extcodetextbuilder/
 ---
 ## ExtCodetextBuilder class

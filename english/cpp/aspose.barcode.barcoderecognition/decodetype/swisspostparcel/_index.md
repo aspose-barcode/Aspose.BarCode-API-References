@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::SwissPostParcel field
+title:  field
 linktitle: SwissPostParcel
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::SwissPostParcel field. Specifies that the data should be decoded with Swiss Post Parcel Barcode barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Swiss Post Parcel Barcode barcode specification in C++.'
 type: docs
-weight: 9300
+weight: 6800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/swisspostparcel/
 ---
 ## SwissPostParcel field
 
 
-Specifies that the data should be decoded with **Swiss Post Parcel Barcode** barcode specification.
+Specifies that the data should be decoded with **Swiss Post Parcel Barcode** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::SwissPostParcel
 ```
-
-
-
 
 ## See Also
 

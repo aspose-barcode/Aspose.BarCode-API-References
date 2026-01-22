@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeExtendedParameters method. Returns a humanreadable string representation of this DotCodeExtendedParameters
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/
 ---
 ## DotCodeExtendedParameters.ToString method

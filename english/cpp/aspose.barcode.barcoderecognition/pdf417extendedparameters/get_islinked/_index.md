@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsLinked method
+title:  method
 linktitle: get_IsLinked
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsLinked method. Flag that indicates that the barcode must be linked to 1D barcode in C++.'
+description: ' method. Flag that indicates that the barcode must be linked to 1D barcode in C++.'
 type: docs
-weight: 200
+weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/get_islinked/
 ---
 ## Pdf417ExtendedParameters::get_IsLinked method
@@ -20,9 +20,6 @@ bool Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsLinked
 
 
 Linkage flag
-
-
-
 ## See Also
 
 * Class [Pdf417ExtendedParameters](../)

@@ -3,7 +3,7 @@ title: CodabarExtendedParameters.Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: CodabarExtendedParameters method. Returns a value indicating whether this instance is equal to a specified CodabarExtendedParameters value
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/codabarextendedparameters/equals/
 ---
 ## CodabarExtendedParameters.Equals method

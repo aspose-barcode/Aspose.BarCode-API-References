@@ -3,7 +3,7 @@ title: Class USADriveIdCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdCodetext class. Class for encoding and decoding the text embedded in the USA Driving License PDF417 code
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.barcode.complexbarcode/usadriveidcodetext/
 ---
 ## USADriveIdCodetext class

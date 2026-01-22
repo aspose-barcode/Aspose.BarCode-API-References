@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_SupplyChainID method
+title:  method
 linktitle: set_SupplyChainID
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_SupplyChainID method. Identifies the unique group of customers involved in the mailing. Max value: 9999999 in C++.'
+description: ' method. Identifies the unique group of customers involved in the mailing. Max value: 9999999 in C++.'
 type: docs
-weight: 2600
+weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_supplychainid/
 ---
 ## Mailmark2DCodetext::set_SupplyChainID method

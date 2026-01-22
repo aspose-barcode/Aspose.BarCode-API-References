@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::QrParameters::get_MicroQRVersion method
+title:  method
 linktitle: get_MicroQRVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrParameters::get_MicroQRVersion method. Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto in C++.'
+description: ' method. Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto in C++.'
 type: docs
-weight: 200
+weight: 1500
 url: /cpp/aspose.barcode.generation/qrparameters/get_microqrversion/
 ---
 ## QrParameters::get_MicroQRVersion method
 
 
-Version of MicroQR Code. From version M1 to version M4. Default value is [MicroQRVersion.Auto](../../microqrversion/).
+Version of MicroQR Code. From version M1 to version M4. Default value is [MicroQRVersion.Auto](../../aztecencodemode/).
 
 ```cpp
 Aspose::BarCode::Generation::MicroQRVersion Aspose::BarCode::Generation::QrParameters::get_MicroQRVersion() const

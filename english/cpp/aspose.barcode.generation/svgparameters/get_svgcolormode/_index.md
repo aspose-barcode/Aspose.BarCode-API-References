@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::SvgParameters::get_SvgColorMode method
+title:  method
 linktitle: get_SvgColorMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::SvgParameters::get_SvgColorMode method. Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter in C++.'
+description: ' method. Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter in C++.'
 type: docs
-weight: 300
+weight: 500
 url: /cpp/aspose.barcode.generation/svgparameters/get_svgcolormode/
 ---
 ## SvgParameters::get_SvgColorMode method
 
 
-Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter.
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
 
 ```cpp
 Aspose::BarCode::Generation::SvgColorMode Aspose::BarCode::Generation::SvgParameters::get_SvgColorMode() const

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::Clear method
+title:  method
 linktitle: Clear
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::Clear method. Clears records list in C++.'
+description: ' method. Clears records list in C++.'
 type: docs
-weight: 300
+weight: 700
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/clear/
 ---
 ## HIBCPASCodetext::Clear method
 
 
-Clears records list.
+Clears records list
 
 ```cpp
 void Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::Clear()

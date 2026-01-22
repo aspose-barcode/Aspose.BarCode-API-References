@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::TwoDComponentType enum
+title:  enum
 linktitle: TwoDComponentType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::TwoDComponentType enum. Type of 2D component in C++.'
+description: ' enum. Type of 2D component in C++.'
 type: docs
-weight: 8100
+weight: 8300
 url: /cpp/aspose.barcode.generation/twodcomponenttype/
 ---
 ## TwoDComponentType enum
 
 
-Type of 2D component.
+Type of 2D component
 
 ```cpp
 enum class TwoDComponentType
@@ -20,8 +20,8 @@ enum class TwoDComponentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | 0 | Auto select type of 2D component. |
-| CC_A | 1 | CC-A type of 2D component. It is a structural variant of MicroPDF417. |
+| Auto | 0 | Auto select type of 2D component |
+| CC_A | 1 | CC-A type of 2D component. It is a structural variant of MicroPDF417 |
 | CC_B | 2 | CC-B type of 2D component. It is a MicroPDF417 symbol. |
 | CC_C | 3 | CC-C type of 2D component. It is a PDF417 symbol. |
 

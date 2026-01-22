@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::GS1CompositeBarParameters::set_TwoDComponentType method
+title:  method
 linktitle: set_TwoDComponentType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::GS1CompositeBarParameters::set_TwoDComponentType method. 2D component type in C++.'
+description: ' method. 2D component type in C++.'
 type: docs
-weight: 600
+weight: 400
 url: /cpp/aspose.barcode.generation/gs1compositebarparameters/set_twodcomponenttype/
 ---
 ## GS1CompositeBarParameters::set_TwoDComponentType method

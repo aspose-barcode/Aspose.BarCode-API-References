@@ -3,7 +3,7 @@ title: MaxiCodeCodetext.GetMode
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeCodetext method. Gets MaxiCode mode
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/getmode/
 ---
 ## MaxiCodeCodetext.GetMode method

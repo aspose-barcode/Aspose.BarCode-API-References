@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsCode128Emulation method
+title:  method
 linktitle: get_IsCode128Emulation
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsCode128Emulation method. Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords in C++.'
+description: ' method. Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords in C++.'
 type: docs
-weight: 100
+weight: 1300
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/get_iscode128emulation/
 ---
 ## Pdf417ExtendedParameters::get_IsCode128Emulation method
@@ -20,9 +20,6 @@ bool Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_IsCode12
 
 
 Code 128 emulation flag
-
-
-
 ## See Also
 
 * Class [Pdf417ExtendedParameters](../)

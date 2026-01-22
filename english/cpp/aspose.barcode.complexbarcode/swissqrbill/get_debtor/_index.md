@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Debtor method
+title:  method
 linktitle: get_Debtor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Debtor method. Gets the debtor address in C++.'
+description: ' method. Gets the debtor address in C++.'
 type: docs
-weight: 900
+weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_debtor/
 ---
 ## SwissQRBill::get_Debtor method

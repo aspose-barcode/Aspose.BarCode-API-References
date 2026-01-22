@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::ExtCodetextBuilder::ExtCodetextBuilder constructor
+title:  constructor
 linktitle: ExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ExtCodetextBuilder constructor of Aspose::BarCode::Generation::ExtCodetextBuilder class in C++.'
 type: docs
-weight: 100
+weight: 500
 url: /cpp/aspose.barcode.generation/extcodetextbuilder/extcodetextbuilder/
 ---
 ## ExtCodetextBuilder::ExtCodetextBuilder constructor

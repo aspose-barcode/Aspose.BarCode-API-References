@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::set_IsChecksumEnabled method
+title:  method
 linktitle: set_IsChecksumEnabled
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_IsChecksumEnabled method of Aspose::BarCode::Generation::BarcodeParameters class in C++.'
 type: docs
-weight: 3900
+weight: 1100
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_ischecksumenabled/
 ---
 ## BarcodeParameters::set_IsChecksumEnabled method

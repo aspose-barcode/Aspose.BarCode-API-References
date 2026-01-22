@@ -3,7 +3,7 @@ title: Enum DataMatrixVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixVersion enum. Specify the type of the ECC to encode
 type: docs
-weight: 1130
+weight: 1150
 url: /net/aspose.barcode.generation/datamatrixversion/
 ---
 ## DataMatrixVersion enumeration

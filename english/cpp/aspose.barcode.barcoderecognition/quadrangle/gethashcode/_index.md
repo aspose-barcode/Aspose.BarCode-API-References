@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Quadrangle::GetHashCode method
+title:  method
 linktitle: GetHashCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::GetHashCode method. Returns the hash code for this instance in C++.'
+description: ' method. Returns the hash code for this instance in C++.'
 type: docs
-weight: 1000
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/gethashcode/
 ---
 ## Quadrangle::GetHashCode method

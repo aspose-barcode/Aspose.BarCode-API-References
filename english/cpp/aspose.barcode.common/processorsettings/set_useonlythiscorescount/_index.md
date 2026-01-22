@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Common::ProcessorSettings::set_UseOnlyThisCoresCount method
+title:  method
 linktitle: set_UseOnlyThisCoresCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Common::ProcessorSettings::set_UseOnlyThisCoresCount method. Specify the number of cores to use. You need to change the property "UseAllCores" to "false" in C++.'
+description: ' method. Specify the number of cores to use. You need to change the property "UseAllCores" to "false" in C++.'
 type: docs
-weight: 600
+weight: 400
 url: /cpp/aspose.barcode.common/processorsettings/set_useonlythiscorescount/
 ---
 ## ProcessorSettings::set_UseOnlyThisCoresCount method

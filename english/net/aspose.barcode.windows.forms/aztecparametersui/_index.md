@@ -3,7 +3,7 @@ title: Class AztecParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.AztecParametersUI class. UI wrapper for AztecParameters class
 type: docs
-weight: 1670
+weight: 1700
 url: /net/aspose.barcode.windows.forms/aztecparametersui/
 ---
 ## AztecParametersUI class
@@ -19,6 +19,9 @@ public class AztecParametersUI
 | Name | Description |
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.windows.forms/aztecparametersui/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
+| [AztecEncodeMode](../../aspose.barcode.windows.forms/aztecparametersui/aztecencodemode/) { get; set; } | Gets or sets a Aztec encode mode. Default value: Auto. |
+| [AztecErrorLevel](../../aspose.barcode.windows.forms/aztecparametersui/aztecerrorlevel/) { get; set; } | Level of error correction of Aztec types of barcode. Value should between 10 to 95. |
+| [AztecSymbolMode](../../aspose.barcode.windows.forms/aztecparametersui/aztecsymbolmode/) { get; set; } | Gets or sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto. |
 | [ECIEncoding](../../aspose.barcode.windows.forms/aztecparametersui/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1 |
 | [EncodeMode](../../aspose.barcode.windows.forms/aztecparametersui/encodemode/) { get; set; } | Gets or sets a Aztec encode mode. Default value: Auto. |
 | [ErrorLevel](../../aspose.barcode.windows.forms/aztecparametersui/errorlevel/) { get; set; } | Level of error correction of Aztec types of barcode. Value should between 10 to 95. |

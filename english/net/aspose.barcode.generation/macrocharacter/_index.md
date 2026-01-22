@@ -3,7 +3,7 @@ title: Enum MacroCharacter
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.MacroCharacter enum. Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to u001E05u001D as decoded data header and u001Eu0004 as decoded data trailer. 06 Macro craracter is translated to u001E06u001D as decoded data header and u001Eu0004 as decoded data trailer
 type: docs
-weight: 1330
+weight: 1350
 url: /net/aspose.barcode.generation/macrocharacter/
 ---
 ## MacroCharacter enumeration

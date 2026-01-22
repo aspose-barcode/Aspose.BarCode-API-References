@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Code11 field
+title:  field
 linktitle: Code11
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Code11 field. Specifies that the data should be decoded with CODE 11 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with CODE 11 barcode specification in C++.'
 type: docs
-weight: 1600
+weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/code11/
 ---
 ## Code11 field
 
 
-Specifies that the data should be decoded with **CODE 11** barcode specification.
+Specifies that the data should be decoded with **CODE 11** barcode specification
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Code11
 ```
-
-
-
 
 ## See Also
 

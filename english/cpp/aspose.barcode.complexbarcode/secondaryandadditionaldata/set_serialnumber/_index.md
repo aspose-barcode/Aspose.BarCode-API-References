@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_SerialNumber method
+title:  method
 linktitle: set_SerialNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_SerialNumber method. Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length in C++.'
+description: ' method. Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length in C++.'
 type: docs
-weight: 1600
+weight: 800
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/set_serialnumber/
 ---
 ## SecondaryAndAdditionalData::set_SerialNumber method

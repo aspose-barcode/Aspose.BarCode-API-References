@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ## DataMatrixExtendedParameters class
 
 
-Stores special data of DataMatrix recognized barcode.
+Stores special data of DataMatrix recognized barcode
 
 ```cpp
 class DataMatrixExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseExtendedParameters
@@ -20,7 +20,7 @@ class DataMatrixExtendedParameters : public Aspose::BarCode::BarCodeRecognition:
 
 | Method | Description |
 | --- | --- |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | Tests whether all parameters has only default values. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_IsReaderProgramming](./get_isreaderprogramming/)() | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
 | [get_StructuredAppendBarcodeId](./get_structuredappendbarcodeid/)() | Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. |
 | [get_StructuredAppendBarcodesCount](./get_structuredappendbarcodescount/)() | Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. |

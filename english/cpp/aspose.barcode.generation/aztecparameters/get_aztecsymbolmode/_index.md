@@ -1,20 +1,21 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::get_AztecSymbolMode method
+title:  method
 linktitle: get_AztecSymbolMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::get_AztecSymbolMode method. Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto in C++.'
+description: ' method. Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto in C++.'
 type: docs
-weight: 400
+weight: 1900
 url: /cpp/aspose.barcode.generation/aztecparameters/get_aztecsymbolmode/
 ---
 ## AztecParameters::get_AztecSymbolMode method
 
 
-Gets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../../aztecsymbolmode/).
+Gets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../../aztecencodemode/).
 
 ```cpp
-Aspose::BarCode::Generation::AztecSymbolMode Aspose::BarCode::Generation::AztecParameters::get_AztecSymbolMode() const
+Aspose::BarCode::Generation::AztecSymbolMode Aspose::BarCode::Generation::AztecParameters::get_AztecSymbolMode()
 ```
+
 
 ## See Also
 

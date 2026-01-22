@@ -3,7 +3,7 @@ title: QRExtendedParameters.Version
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Version of recognized QR Code. From Version1 to Version40
 type: docs
-weight: 70
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/version/
 ---
 ## QRExtendedParameters.Version property

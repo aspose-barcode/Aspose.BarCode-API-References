@@ -3,7 +3,7 @@ title: Class DataMatrixParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.DataMatrixParametersUI class. UI wrapper for DataMatrixParameters class
 type: docs
-weight: 1710
+weight: 1740
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/
 ---
 ## DataMatrixParametersUI class
@@ -20,6 +20,9 @@ public class DataMatrixParametersUI
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.windows.forms/datamatrixparametersui/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
 | [Columns](../../aspose.barcode.windows.forms/datamatrixparametersui/columns/) { get; set; } | Columns count. |
+| [DataMatrixEcc](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc/) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
+| [DataMatrixEncodeMode](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixencodemode/) { get; set; } | Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto. |
+| [DataMatrixVersion](../../aspose.barcode.windows.forms/datamatrixparametersui/datamatrixversion/) { get; set; } | DataMatrix symbol size. |
 | [EccType](../../aspose.barcode.windows.forms/datamatrixparametersui/ecctype/) { get; set; } | Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200. |
 | [ECIEncoding](../../aspose.barcode.windows.forms/datamatrixparametersui/eciencoding/) { get; set; } | Gets or sets ECI encoding. Used when EncodeMode is Auto. |
 | [EncodeMode](../../aspose.barcode.windows.forms/datamatrixparametersui/encodemode/) { get; set; } | Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto. |

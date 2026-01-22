@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::DataMatrix field
+title:  field
 linktitle: DataMatrix
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DataMatrix field. Specifies that the data should be decoded with DataMatrix barcode symbology in C++.'
+description: ' field. Specifies that the data should be decoded with DataMatrix barcode symbology in C++.'
 type: docs
-weight: 3200
+weight: 4000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/datamatrix/
 ---
 ## DataMatrix field
 
 
-Specifies that the data should be decoded with **DataMatrix** barcode symbology.
+Specifies that the data should be decoded with **DataMatrix** barcode symbology
 
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::DataMatrix
 ```
-
-
-
 
 ## See Also
 

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::get_SupplychainID method
+title:  method
 linktitle: get_SupplychainID
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::get_SupplychainID method. Maximum values are 99 for Barcode C and 999999 for Barcode L in C++.'
+description: ' method. Maximum values are 99 for Barcode C and 999999 for Barcode L in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/get_supplychainid/
 ---
 ## MailmarkCodetext::get_SupplychainID method

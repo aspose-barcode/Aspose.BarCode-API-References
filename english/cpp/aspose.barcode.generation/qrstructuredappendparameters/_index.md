@@ -4,7 +4,7 @@ linktitle: QrStructuredAppendParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::QrStructuredAppendParameters class. QR structured append parameters in C++.'
 type: docs
-weight: 3900
+weight: 4100
 url: /cpp/aspose.barcode.generation/qrstructuredappendparameters/
 ---
 ## QrStructuredAppendParameters class

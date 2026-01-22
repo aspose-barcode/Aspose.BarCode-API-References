@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_ExpiryDate method
+title:  method
 linktitle: set_ExpiryDate
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::set_ExpiryDate method. Identifies expiry date. Will be used if ExpiryDateFormat is not set to None in C++.'
+description: ' method. Identifies expiry date. Will be used if ExpiryDateFormat is not set to None in C++.'
 type: docs
-weight: 1200
+weight: 400
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/set_expirydate/
 ---
 ## SecondaryAndAdditionalData::set_ExpiryDate method

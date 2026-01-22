@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DataMatrix method
+title:  method
 linktitle: get_DataMatrix
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DataMatrix method. Gets a DataMatrix additional informationDataMatrixExtendedParameters of recognized barcode in C++.'
+description: ' method. Gets a DataMatrix additional informationDataMatrixExtendedParameters of recognized barcode in C++.'
 type: docs
-weight: 500
+weight: 800
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/get_datamatrix/
 ---
 ## BarCodeExtendedParameters::get_DataMatrix method
 
 
-Gets a DataMatrix additional information[DataMatrixExtendedParameters](../../datamatrixextendedparameters/) of recognized barcode.
+Gets a DataMatrix additional information[DataMatrixExtendedParameters](../../datamatrixextendedparameters/) of recognized barcode
 
 ```cpp
 System::SharedPtr<DataMatrixExtendedParameters> Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DataMatrix()
@@ -20,9 +20,6 @@ System::SharedPtr<DataMatrixExtendedParameters> Aspose::BarCode::BarCodeRecognit
 
 
 A DataMatrix additional information[DataMatrixExtendedParameters](../../datamatrixextendedparameters/) of recognized barcode
-
-
-
 ## See Also
 
 * Class [DataMatrixExtendedParameters](../../datamatrixextendedparameters/)

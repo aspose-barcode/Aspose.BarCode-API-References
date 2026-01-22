@@ -20,7 +20,7 @@ class Address : public System::IEquatable<System::SharedPtr<Aspose::BarCode::Com
 
 | Method | Description |
 | --- | --- |
-| [Address](./address/)() | Creates instance of [Address](./). |
+| [Address](./address/)() | Creates instance of [Address](./) |
 | [Clear](./clear/)() | Clears all fields and sets the type to [AddressType::Undetermined](../addresstype/). |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal to the current object. |
 | [Equals](./equals/)(System::SharedPtr\<Address\>) override | Determines whether the specified address is equal to the current address. |

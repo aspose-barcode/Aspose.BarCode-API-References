@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::CaptionParameters::get_Visible method
+title:  method
 linktitle: get_Visible
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CaptionParameters::get_Visible method. Caption text visibility. Default value: false in C++.'
+description: ' method. Caption text visibility. Default value: false in C++.'
 type: docs
-weight: 700
+weight: 400
 url: /cpp/aspose.barcode.generation/captionparameters/get_visible/
 ---
 ## CaptionParameters::get_Visible method

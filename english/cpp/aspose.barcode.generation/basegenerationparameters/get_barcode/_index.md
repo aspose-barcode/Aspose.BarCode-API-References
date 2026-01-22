@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_Barcode method
+title:  method
 linktitle: get_Barcode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_Barcode method. Gets the BarcodeParameters that contains all barcode properties in C++.'
+description: ' method. Gets the BarcodeParameters that contains all barcode properties in C++.'
 type: docs
-weight: 300
+weight: 1800
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_barcode/
 ---
 ## BaseGenerationParameters::get_Barcode method

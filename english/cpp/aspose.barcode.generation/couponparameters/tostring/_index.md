@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CouponParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CouponParameters::ToString method. Returns a human-readable string representation of this CouponParameters in C++.'
+description: ' method. Returns a human-readable string representation of this CouponParameters in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/couponparameters/tostring/

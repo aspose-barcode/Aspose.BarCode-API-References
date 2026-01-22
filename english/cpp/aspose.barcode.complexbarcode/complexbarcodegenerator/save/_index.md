@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save method
+title:  method
 linktitle: Save
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save method. Generates and saves complex barcode image under current settings in C++.'
+description: ' method. Generates and saves complex barcode image under current settings in C++.'
 type: docs
-weight: 500
+weight: 400
 url: /cpp/aspose.barcode.complexbarcode/complexbarcodegenerator/save/
 ---
 ## ComplexBarcodeGenerator::Save(System::SharedPtr\<System::IO::Stream\>, Aspose::BarCode::Generation::BarCodeImageFormat) method
@@ -20,6 +20,27 @@ void Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save(System::Shar
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | System::SharedPtr\<System::IO::Stream\> | Output **System.IO.Stream**. |
+| format | Aspose::BarCode::Generation::BarCodeImageFormat | Specifies the file format of the output image. |
+
+## See Also
+
+* Enum [BarCodeImageFormat](../../../aspose.barcode.generation/barcodeimageformat/)
+* Class [ComplexBarcodeGenerator](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## ComplexBarcodeGenerator::Save(System::String, Aspose::BarCode::Generation::BarCodeImageFormat) method
+
+
+Generates and saves complex barcode image under current settings.
+
+```cpp
+void Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save(System::String filename, Aspose::BarCode::Generation::BarCodeImageFormat format)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | System::String | Path to save to. |
 | format | Aspose::BarCode::Generation::BarCodeImageFormat | Specifies the file format of the output image. |
 
 ## See Also
@@ -44,27 +65,6 @@ void Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save(System::Stri
 
 ## See Also
 
-* Class [ComplexBarcodeGenerator](../)
-* Namespace [Aspose::BarCode::ComplexBarcode](../../)
-* Library [Aspose.BarCode for C++](../../../)
-## ComplexBarcodeGenerator::Save(System::String, Aspose::BarCode::Generation::BarCodeImageFormat) method
-
-
-Generates and saves complex barcode image under current settings.
-
-```cpp
-void Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save(System::String filename, Aspose::BarCode::Generation::BarCodeImageFormat format)
-```
-
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filename | System::String | Path to save to. |
-| format | Aspose::BarCode::Generation::BarCodeImageFormat | Specifies the file format of the output image. |
-
-## See Also
-
-* Enum [BarCodeImageFormat](../../../aspose.barcode.generation/barcodeimageformat/)
 * Class [ComplexBarcodeGenerator](../)
 * Namespace [Aspose::BarCode::ComplexBarcode](../../)
 * Library [Aspose.BarCode for C++](../../../)

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Planet field
+title:  field
 linktitle: Planet
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Planet field. Specifies that the data should be encoded with Planet barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with Planet barcode specification in C++.'
 type: docs
-weight: 7500
+weight: 5700
 url: /cpp/aspose.barcode.generation/encodetypes/planet/
 ---
 ## Planet field
 
 
-Specifies that the data should be encoded with **Planet** barcode specification.
+Specifies that the data should be encoded with **Planet** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::Planet

@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::ISBN field
+title:  field
 linktitle: ISBN
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::ISBN field. Specifies that the data should be encoded with ISBN barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with ISBN barcode specification in C++.'
 type: docs
-weight: 5600
+weight: 2100
 url: /cpp/aspose.barcode.generation/encodetypes/isbn/
 ---
 ## ISBN field
 
 
-Specifies that the data should be encoded with **ISBN** barcode specification.
+Specifies that the data should be encoded with **ISBN** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::ISBN

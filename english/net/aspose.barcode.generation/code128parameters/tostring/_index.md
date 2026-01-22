@@ -3,7 +3,7 @@ title: Code128Parameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: Code128Parameters method. Returns a humanreadable string representation of this Code128Parameters
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.barcode.generation/code128parameters/tostring/
 ---
 ## Code128Parameters.ToString method

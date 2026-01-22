@@ -3,7 +3,7 @@ title: Class Code128Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.Code128Parameters class. Code128 parameters
 type: docs
-weight: 1030
+weight: 1050
 url: /net/aspose.barcode.generation/code128parameters/
 ---
 ## Code128Parameters class
@@ -18,6 +18,7 @@ public class Code128Parameters
 
 | Name | Description |
 | --- | --- |
+| [Code128EncodeMode](../../aspose.barcode.generation/code128parameters/code128encodemode/) { get; set; } | Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto |
 | [EncodeMode](../../aspose.barcode.generation/code128parameters/encodemode/) { get; set; } | Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto |
 
 ## Methods

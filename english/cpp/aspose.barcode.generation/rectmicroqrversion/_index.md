@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::RectMicroQRVersion enum
+title:  enum
 linktitle: RectMicroQRVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::RectMicroQRVersion enum. Version of RectMicroQR Code. From version R7x43 to version R17x139 in C++.'
+description: ' enum. Version of RectMicroQR Code. From version R7x43 to version R17x139 in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.barcode.generation/rectmicroqrversion/
 ---
 ## RectMicroQRVersion enum

@@ -3,7 +3,7 @@ title: Class CodabarParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CodabarParameters class. Codabar parameters
 type: docs
-weight: 990
+weight: 1010
 url: /net/aspose.barcode.generation/codabarparameters/
 ---
 ## CodabarParameters class
@@ -19,6 +19,9 @@ public class CodabarParameters
 | Name | Description |
 | --- | --- |
 | [ChecksumMode](../../aspose.barcode.generation/codabarparameters/checksummode/) { get; set; } | Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See [`ChecksumMode`](./checksummode/). |
+| [CodabarChecksumMode](../../aspose.barcode.generation/codabarparameters/codabarchecksummode/) { get; set; } | Get or set the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See [`ChecksumMode`](./checksummode/). |
+| [CodabarStartSymbol](../../aspose.barcode.generation/codabarparameters/codabarstartsymbol/) { get; set; } | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
+| [CodabarStopSymbol](../../aspose.barcode.generation/codabarparameters/codabarstopsymbol/) { get; set; } | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
 | [StartSymbol](../../aspose.barcode.generation/codabarparameters/startsymbol/) { get; set; } | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
 | [StopSymbol](../../aspose.barcode.generation/codabarparameters/stopsymbol/) { get; set; } | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
 

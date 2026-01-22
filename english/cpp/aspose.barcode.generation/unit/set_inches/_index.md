@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Unit::set_Inches method
+title:  method
 linktitle: set_Inches
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::set_Inches method. Sets size value in inches in C++.'
+description: ' method. Sets size value in inches in C++.'
 type: docs
-weight: 1000
+weight: 400
 url: /cpp/aspose.barcode.generation/unit/set_inches/
 ---
 ## Unit::set_Inches method

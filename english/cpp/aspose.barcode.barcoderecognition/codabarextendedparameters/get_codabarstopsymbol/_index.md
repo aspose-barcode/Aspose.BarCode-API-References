@@ -1,20 +1,21 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_CodabarStopSymbol method
+title:  method
 linktitle: get_CodabarStopSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_CodabarStopSymbol method. Gets a Codabar stop symbol. Default value: CodabarSymbol.A in C++.'
+description: ' method. Gets a Codabar stop symbol. Default value: CodabarSymbol.A in C++.'
 type: docs
-weight: 200
+weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/get_codabarstopsymbol/
 ---
 ## CodabarExtendedParameters::get_CodabarStopSymbol method
 
 
-Gets a Codabar stop symbol. Default value: CodabarSymbol.A.
+Gets a Codabar stop symbol. Default value: CodabarSymbol.A
 
 ```cpp
 Aspose::BarCode::Generation::CodabarSymbol Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_CodabarStopSymbol()
 ```
+
 
 ## See Also
 

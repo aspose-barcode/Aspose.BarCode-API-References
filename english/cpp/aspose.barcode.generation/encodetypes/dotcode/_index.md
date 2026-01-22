@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::DotCode field
+title:  field
 linktitle: DotCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::DotCode field. Specifies that the data should be encoded with DotCode barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with DotCode barcode specification in C++.'
 type: docs
-weight: 2900
+weight: 5000
 url: /cpp/aspose.barcode.generation/encodetypes/dotcode/
 ---
 ## DotCode field
 
 
-Specifies that the data should be encoded with **DotCode** barcode specification.
+Specifies that the data should be encoded with **DotCode** barcode specification
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::DotCode

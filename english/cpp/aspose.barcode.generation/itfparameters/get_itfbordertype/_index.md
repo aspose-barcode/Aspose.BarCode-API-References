@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::ITFParameters::get_ItfBorderType method
+title:  method
 linktitle: get_ItfBorderType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ITFParameters::get_ItfBorderType method. Border type of ITF barcode. Default value: ITF14BorderType.Bar in C++.'
+description: ' method. Border type of ITF barcode. Default value: ITF14BorderType.Bar in C++.'
 type: docs
-weight: 200
+weight: 700
 url: /cpp/aspose.barcode.generation/itfparameters/get_itfbordertype/
 ---
 ## ITFParameters::get_ItfBorderType method
@@ -13,8 +13,9 @@ url: /cpp/aspose.barcode.generation/itfparameters/get_itfbordertype/
 Border type of ITF barcode. Default value: [ITF14BorderType.Bar](../../itf14bordertype/).
 
 ```cpp
-ITF14BorderType Aspose::BarCode::Generation::ITFParameters::get_ItfBorderType() const
+ITF14BorderType Aspose::BarCode::Generation::ITFParameters::get_ItfBorderType()
 ```
+
 
 ## See Also
 

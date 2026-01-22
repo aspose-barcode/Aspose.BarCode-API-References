@@ -4,7 +4,7 @@ linktitle: Padding
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Padding class. Paddings parameters in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.barcode.generation/padding/
 ---
 ## Padding class

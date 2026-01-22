@@ -3,7 +3,7 @@ title: AztecParameters.ECIEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParameters property. Gets or sets ECI encoding. Used when AztecEncodeMode is Auto. Default value ISO88591
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.barcode.generation/aztecparameters/eciencoding/
 ---
 ## AztecParameters.ECIEncoding property

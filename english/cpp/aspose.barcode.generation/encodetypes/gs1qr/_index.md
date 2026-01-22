@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::GS1QR field
+title:  field
 linktitle: GS1QR
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::GS1QR field. 2D barcode symbology QR with GS1 string format in C++.'
+description: ' field. 2D barcode symbology QR with GS1 string format in C++.'
 type: docs
-weight: 4200
+weight: 4800
 url: /cpp/aspose.barcode.generation/encodetypes/gs1qr/
 ---
 ## GS1QR field

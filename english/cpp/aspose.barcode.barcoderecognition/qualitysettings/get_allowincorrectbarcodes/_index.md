@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_AllowIncorrectBarcodes method
+title:  method
 linktitle: get_AllowIncorrectBarcodes
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_AllowIncorrectBarcodes method. Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. Mode can be used to recognize damaged barcodes with incorrect text in C++.'
+description: ' method. Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. Mode can be used to recognize damaged barcodes with incorrect text in C++.'
 type: docs
-weight: 500
+weight: 1700
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_allowincorrectbarcodes/
 ---
 ## QualitySettings::get_AllowIncorrectBarcodes method
@@ -20,9 +20,6 @@ bool Aspose::BarCode::BarCodeRecognition::QualitySettings::get_AllowIncorrectBar
 
 
 Allows engine to recognize incorrect barcodes. 
-
-
-
 ## See Also
 
 * Class [QualitySettings](../)

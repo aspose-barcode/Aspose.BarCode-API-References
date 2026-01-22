@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::set_BackColor method
+title:  method
 linktitle: set_BackColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::set_BackColor method. Background color of the barcode image. Default value: Color.White. See Color in C++.'
+description: ' method. Background color of the barcode image. Default value: Color.White. See Color in C++.'
 type: docs
-weight: 1400
+weight: 400
 url: /cpp/aspose.barcode.generation/basegenerationparameters/set_backcolor/
 ---
 ## BaseGenerationParameters::set_BackColor method

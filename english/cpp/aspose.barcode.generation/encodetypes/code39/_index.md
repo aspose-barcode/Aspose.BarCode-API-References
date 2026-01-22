@@ -1,16 +1,16 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Code39 field
+title:  field
 linktitle: Code39
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Code39 field. Specifies that the data should be encoded with Code 39 basic charset barcode specification: ISO/IEC 16388 in C++.'
+description: ' field. Specifies that the data should be encoded with Code 39 basic charset barcode specification: ISO/IEC 16388 in C++.'
 type: docs
-weight: 1500
+weight: 900
 url: /cpp/aspose.barcode.generation/encodetypes/code39/
 ---
 ## Code39 field
 
 
-Specifies that the data should be encoded with **Code 39** basic charset barcode specification: ISO/IEC 16388.
+Specifies that the data should be encoded with **Code 39** basic charset barcode specification: ISO/IEC 16388
 
 ```cpp
 static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::Code39

@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_ITF method
+title:  method
 linktitle: get_ITF
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_ITF method. ITF parameters in C++.'
+description: ' method. ITF parameters in C++.'
 type: docs
-weight: 2100
+weight: 3300
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_itf/
 ---
 ## BarcodeParameters::get_ITF method

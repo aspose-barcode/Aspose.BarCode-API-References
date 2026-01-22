@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_AlternativeSchemes method
+title:  method
 linktitle: set_AlternativeSchemes
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_AlternativeSchemes method. Gets ors sets the alternative payment schemes in C++.'
+description: ' method. Gets ors sets the alternative payment schemes in C++.'
 type: docs
-weight: 1500
+weight: 2000
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_alternativeschemes/
 ---
 ## SwissQRBill::set_AlternativeSchemes method

@@ -1,23 +1,20 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::MostCommonTypes field
+title:  field
 linktitle: MostCommonTypes
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::MostCommonTypes field. Specifies that data will be checked with most commonly used symbologies in C++.'
+description: ' field. Specifies that data will be checked with most commonly used symbologies in C++.'
 type: docs
-weight: 7400
+weight: 9700
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/mostcommontypes/
 ---
 ## MostCommonTypes field
 
 
-Specifies that data will be checked with most commonly used symbologies.
+Specifies that data will be checked with most commonly used symbologies
 
 ```cpp
-static System::SharedPtr<MultyDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::MostCommonTypes
+static System::SharedPtr<MultiDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::MostCommonTypes
 ```
-
-
-
 
 ## See Also
 
