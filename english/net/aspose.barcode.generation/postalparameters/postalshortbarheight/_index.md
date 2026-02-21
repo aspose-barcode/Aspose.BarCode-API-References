@@ -11,7 +11,7 @@ url: /net/aspose.barcode.generation/postalparameters/postalshortbarheight/
 Short bar's height of Postal barcodes.
 
 ```csharp
-[Obsolete("Use EncodingTable instead")]
+[Obsolete("Use ShortBarHeight instead")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public Unit PostalShortBarHeight { get; set; }
 ```

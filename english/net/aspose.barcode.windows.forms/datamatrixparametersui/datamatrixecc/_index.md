@@ -11,7 +11,7 @@ url: /net/aspose.barcode.windows.forms/datamatrixparametersui/datamatrixecc/
 Gets or sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200.
 
 ```csharp
-[Obsolete("Use EncodeMode instead")]
+[Obsolete("Use EccType instead")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public DataMatrixEccType DataMatrixEcc { get; set; }
 ```
