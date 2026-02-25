@@ -3,7 +3,7 @@ title: SingleDecodeType
 second_title: Aspose.BarCode for Java API Reference
 description: Single decode type.
 type: docs
-weight: 46
+weight: 47
 url: /java/com.aspose.barcode.barcoderecognition/singledecodetype/
 ---
 **Inheritance:**
@@ -26,7 +26,7 @@ Single decode type. See decode type to get instance.
 | Method | Description |
 | --- | --- |
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Returns a value indicating whether this instance is included into the list specified. |
-| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) |  |
+| [equals(MultiDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-) |  |
 | [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) value. |
 | [getClass()](#getClass--) |  |
@@ -40,7 +40,7 @@ Single decode type. See decode type to get instance.
 | [parseSingleDecodeType(String stringDecodeType)](#parseSingleDecodeType-java.lang.String-) | Converts the string representation of the name of a SingleDecodeType to its instance. |
 | [toString()](#toString--) | Overridden method representing SingleDecodeType as the Name string. |
 | [tryParseBaseDecodeType(String parsingType)](#tryParseBaseDecodeType-java.lang.String-) | Converts the string representation of a BaseDecodeType to its instance, having determined the concrete type. |
-| [tryParseMultyDecodeType(String parsingType)](#tryParseMultyDecodeType-java.lang.String-) | Converts the string representation of a MultyDecodeType to its instance. |
+| [tryParseMultiDecodeType(String parsingType)](#tryParseMultiDecodeType-java.lang.String-) | Converts the string representation of a MultiDecodeType to its instance. |
 | [tryParseSingleDecodeType(String parsingType)](#tryParseSingleDecodeType-java.lang.String-) | Converts the string representation of a SingleDecodeType to its instance. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,13 +56,13 @@ Returns a value indicating whether this instance is included into the list speci
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| types | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) | Array of single and multy decode types |
+| types | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) | Array of single and multi decode types |
 
 **Returns:**
 boolean - Value is a true if any types are included into
-### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
+### equals(MultiDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-}
 ```
-public boolean equals(MultyDecodeType other)
+public boolean equals(MultiDecodeType other)
 ```
 
 
@@ -71,7 +71,7 @@ Returns a value indicating whether this instance is equal to a specified [BaseDe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) |  |
+| other | [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) |  |
 
 **Returns:**
 boolean
@@ -222,29 +222,29 @@ Converts the string representation of a BaseDecodeType to its instance, having d
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a MultyDecodeType representation to convert. |
+| parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-[BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully;
+[BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
-otherwise it returns indefinite type. or MultyDecodeType ("None").
-### tryParseMultyDecodeType(String parsingType) {#tryParseMultyDecodeType-java.lang.String-}
+otherwise it returns indefinite type. or MultiDecodeType ("None").
+### tryParseMultiDecodeType(String parsingType) {#tryParseMultiDecodeType-java.lang.String-}
 ```
-public static MultyDecodeType tryParseMultyDecodeType(String parsingType)
+public static MultiDecodeType tryParseMultiDecodeType(String parsingType)
 ```
 
 
-Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
+Converts the string representation of a MultiDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a MultyDecodeType representation to convert. |
+| parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-[MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully;
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
-otherwise it returns indefinite type. or MultyDecodeType ("None").
+otherwise it returns indefinite type. or MultiDecodeType ("None").
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
 ```
 public static SingleDecodeType tryParseSingleDecodeType(String parsingType)

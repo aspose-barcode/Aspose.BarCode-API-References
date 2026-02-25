@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext
 second_title: Aspose.BarCode for Java API Reference
 description: Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.aspose.barcode.complexbarcode/maxicodestructuredcodetext/
 ---
 **Inheritance:**
@@ -43,18 +43,19 @@ BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.MAXI_CODE);
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [getCountryCode()](#getCountryCode--) | Identifies 3 digit country code. |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
-| [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
+| [getEncodeMode()](#getEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMaxiCodeEncodeMode()](#getMaxiCodeEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMode()](#getMode--) | Gets MaxiCode mode. |
 | [getPostalCode()](#getPostalCode--) | Identifies the postal code. |
 | [getSecondMessage()](#getSecondMessage--) | Identifies second message of the barcode. |
 | [getServiceCategory()](#getServiceCategory--) | Identifies 3 digit service category. |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [initFromString(String constructedCodetext)](#initFromString-java.lang.String-) | Initializes instance from constructed codetext. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCountryCode(int value)](#setCountryCode-int-) | Identifies 3 digit country code. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setEncodeMode(MaxiCodeEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
 | [setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
 | [setPostalCode(String value)](#setPostalCode-java.lang.String-) | Identifies the postal code. |
 | [setSecondMessage(MaxiCodeSecondMessage value)](#setSecondMessage-com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage-) | Identifies second message of the barcode. |
@@ -86,14 +87,14 @@ Returns a value indicating whether this instance is equal to a specified MaxiCod
 boolean - **true** if obj has the same value as this instance; otherwise, **false**
 ### getBarcodeType() {#getBarcodeType--}
 ```
-public BaseEncodeType getBarcodeType()
+public final BaseEncodeType getBarcodeType()
 ```
 
 
 Gets barcode type.
 
 **Returns:**
-[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -126,34 +127,34 @@ Identifies 3 digit country code.
 int
 ### getECIEncoding() {#getECIEncoding--}
 ```
-public int getECIEncoding()
+public final int getECIEncoding()
 ```
 
 
-Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO.
+Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Returns:**
-int
-### getHashCode() {#getHashCode--}
+int - ECI encoding.
+### getEncodeMode() {#getEncodeMode--}
 ```
-public int getHashCode()
+public final MaxiCodeEncodeMode getEncodeMode()
 ```
 
 
-Returns the hash code for this instance.
+Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
-int - A 32-bit signed integer hash code.
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMaxiCodeEncodeMode() {#getMaxiCodeEncodeMode--}
 ```
-public MaxiCodeEncodeMode getMaxiCodeEncodeMode()
+public final MaxiCodeEncodeMode getMaxiCodeEncodeMode()
 ```
 
 
-Gets a MaxiCode encode mode.
+Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
-[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode)
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMode() {#getMode--}
 ```
 public abstract int getMode()
@@ -196,14 +197,14 @@ Identifies 3 digit service category.
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
-
+Returns the hash code for this instance.
 
 **Returns:**
-int
+int - A 32-bit signed integer hash code.
 ### initFromString(String constructedCodetext) {#initFromString-java.lang.String-}
 ```
 public void initFromString(String constructedCodetext)
@@ -248,29 +249,42 @@ Identifies 3 digit country code.
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
-public void setECIEncoding(int value)
+public final void setECIEncoding(int value)
 ```
 
 
-Sets ECI encoding. Used when MaxiCodeEncodeMode is AUTO.
+Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | ECI encoding. |
+
+### setEncodeMode(MaxiCodeEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
+```
+public final void setEncodeMode(MaxiCodeEncodeMode value)
+```
+
+
+Sets a MaxiCode encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
 ### setMaxiCodeEncodeMode(MaxiCodeEncodeMode value) {#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
 ```
-public void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
+public final void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
 ```
 
 
-Sets a MaxiCode encode mode.
+Sets a MaxiCode encode mode. Default value: Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) |  |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
 ### setPostalCode(String value) {#setPostalCode-java.lang.String-}
 ```

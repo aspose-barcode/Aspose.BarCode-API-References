@@ -1,33 +1,30 @@
 ---
-title: MultyDecodeType
+title: MultiDecodeType
 second_title: Aspose.BarCode for Java API Reference
 description: Composite decode type.
 type: docs
-weight: 37
-url: /java/com.aspose.barcode.barcoderecognition/multydecodetype/
+weight: 36
+url: /java/com.aspose.barcode.barcoderecognition/multidecodetype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype), [com.aspose.barcode.barcoderecognition.MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype)
+java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype)
 ```
-public class MultyDecodeType extends MultiDecodeType
+public class MultiDecodeType extends BaseDecodeType
 ```
 
 Composite decode type.
 
---------------------
+This sample shows how to create compound MultiDecode types that combine SingleDecodeType and MultiDecode types.
 
-> ```
-> CreateThis sample shows how to create compound MultyDecode types that combine SingleDecodeType and MultiDecode types.
->  
->  MultyDecodeType types1 = new MultyDecodeType(DecodeType.QR, DecodeType.DATA_MATRIX);
->  MultyDecodeType types2 = new MultyDecodeType(types1, DecodeType.CODE_128, DecodeType.CODE_39);
-> ```
+```
+
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MultyDecodeType(SingleDecodeType[] barcodeTypes)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Initializes a new instance of the [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) class. |
-| [MultyDecodeType(BaseDecodeType[] barcodeTypes)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) class. |
+| [MultiDecodeType(SingleDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class. |
+| [MultiDecodeType(BaseDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class. |
 ## Methods
 
 | Method | Description |
@@ -52,26 +49,26 @@ Composite decode type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MultyDecodeType(SingleDecodeType[] barcodeTypes) {#MultyDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-}
+### MultiDecodeType(SingleDecodeType[] barcodeTypes) {#MultiDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-}
 ```
-public MultyDecodeType(SingleDecodeType[] barcodeTypes)
+public MultiDecodeType(SingleDecodeType[] barcodeTypes)
 ```
 
 
-Initializes a new instance of the [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) class.
+Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | barcodeTypes | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) | Array of single decode types |
 
-### MultyDecodeType(BaseDecodeType[] barcodeTypes) {#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
+### MultiDecodeType(BaseDecodeType[] barcodeTypes) {#MultiDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
 ```
-public MultyDecodeType(BaseDecodeType[] barcodeTypes)
+public MultiDecodeType(BaseDecodeType[] barcodeTypes)
 ```
 
 
-Initializes a new instance of the [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) class.
+Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class.
 
 **Parameters:**
 | Parameter | Type | Description |

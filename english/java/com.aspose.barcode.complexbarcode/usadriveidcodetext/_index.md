@@ -3,7 +3,7 @@ title: USADriveIdCodetext
 second_title: Aspose.BarCode for Java API Reference
 description: Class for encoding and decoding the text embedded in the USA Driving License PDF417 code.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.barcode.complexbarcode/usadriveidcodetext/
 ---
 **Inheritance:**
@@ -156,7 +156,7 @@ public final USADriveIdCodetext.MandatoryFields getMandatoryElements()
 Mandatory elements (fields) of the card
 
 **Returns:**
-com.aspose.barcode.complexbarcode.USADriveIdCodetext.MandatoryFields
+[MandatoryFields](../../com.aspose.barcode.complexbarcode/mandatoryfields)
 ### getNumberOfEntries() {#getNumberOfEntries--}
 ```
 public final int getNumberOfEntries()
@@ -176,7 +176,7 @@ public final USADriveIdCodetext.OptionalFields getOptionalElements()
 Optional elements (fields) of the card
 
 **Returns:**
-com.aspose.barcode.complexbarcode.USADriveIdCodetext.OptionalFields
+[OptionalFields](../../com.aspose.barcode.complexbarcode/optionalfields)
 ### getSubfileDesignator() {#getSubfileDesignator--}
 ```
 public final List<USADriveIdCodetext.SubfileProperties> getSubfileDesignator()
@@ -302,7 +302,7 @@ Mandatory elements (fields) of the card
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.complexbarcode.USADriveIdCodetext.MandatoryFields |  |
+| value | [MandatoryFields](../../com.aspose.barcode.complexbarcode/mandatoryfields) |  |
 
 ### setNumberOfEntries(int value) {#setNumberOfEntries-int-}
 ```
@@ -328,7 +328,7 @@ Optional elements (fields) of the card
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.complexbarcode.USADriveIdCodetext.OptionalFields |  |
+| value | [OptionalFields](../../com.aspose.barcode.complexbarcode/optionalfields) |  |
 
 ### setSubfileDesignator(List<USADriveIdCodetext.SubfileProperties> value) {#setSubfileDesignator-java.util.List-com.aspose.barcode.complexbarcode.USADriveIdCodetext.SubfileProperties--}
 ```

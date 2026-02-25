@@ -24,10 +24,13 @@ Aztec parameters.
 | [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets a Aztec Symbol mode. |
 | [getClass()](#getClass--) |  |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
+| [getEncodeMode()](#getEncodeMode--) | Gets a Aztec encode mode. |
+| [getErrorLevel()](#getErrorLevel--) | Level of error correction of Aztec types of barcode. |
 | [getLayersCount()](#getLayersCount--) | Gets layers count of Aztec symbol. |
 | [getStructuredAppendBarcodeId()](#getStructuredAppendBarcodeId--) | Barcode ID for Structured Append mode of Aztec barcode. |
 | [getStructuredAppendBarcodesCount()](#getStructuredAppendBarcodesCount--) | Barcodes count for Structured Append mode of Aztec barcode. |
 | [getStructuredAppendFileId()](#getStructuredAppendFileId--) | File ID for Structured Append mode of Aztec barcode (optional field). |
+| [getSymbolMode()](#getSymbolMode--) | Gets a Aztec Symbol mode. |
 | [hashCode()](#hashCode--) |  |
 | [isReaderInitialization()](#isReaderInitialization--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [notify()](#notify--) |  |
@@ -37,12 +40,15 @@ Aztec parameters.
 | [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
 | [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setEncodeMode(AztecEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Sets a Aztec encode mode. |
+| [setErrorLevel(int value)](#setErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
 | [setLayersCount(int value)](#setLayersCount-int-) | Sets layers count of Aztec symbol. |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [setStructuredAppendBarcodeId(int value)](#setStructuredAppendBarcodeId-int-) | Barcode ID for Structured Append mode of Aztec barcode. |
 | [setStructuredAppendBarcodesCount(int value)](#setStructuredAppendBarcodesCount-int-) | Barcodes count for Structured Append mode of Aztec barcode. |
 | [setStructuredAppendFileId(String value)](#setStructuredAppendFileId-java.lang.String-) | File ID for Structured Append mode of Aztec barcode (optional field). |
-| [toString()](#toString--) | Returns a human-readable string representation of this  AztecParameters . |
+| [setSymbolMode(AztecSymbolMode value)](#setSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [AztecParameters](../../com.aspose.barcode.generation/aztecparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -63,7 +69,7 @@ public boolean equals(Object arg0)
 boolean
 ### getAspectRatio() {#getAspectRatio--}
 ```
-public float getAspectRatio()
+public final float getAspectRatio()
 ```
 
 
@@ -73,17 +79,17 @@ Height/Width ratio of 2D BarCode module.
 float
 ### getAztecEncodeMode() {#getAztecEncodeMode--}
 ```
-public AztecEncodeMode getAztecEncodeMode()
+public final AztecEncodeMode getAztecEncodeMode()
 ```
 
 
 Gets a Aztec encode mode. Default value: Auto.
 
 **Returns:**
-com.aspose.barcode.generation.AztecEncodeMode
+com.aspose.barcode.generation.AztecEncodeMode - a Aztec encode mode.
 ### getAztecErrorLevel() {#getAztecErrorLevel--}
 ```
-public int getAztecErrorLevel()
+public final int getAztecErrorLevel()
 ```
 
 
@@ -93,14 +99,14 @@ Level of error correction of Aztec types of barcode. Value should between 5 to 9
 int
 ### getAztecSymbolMode() {#getAztecSymbolMode--}
 ```
-public AztecSymbolMode getAztecSymbolMode()
+public final AztecSymbolMode getAztecSymbolMode()
 ```
 
 
 Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 
 **Returns:**
-[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode)
+[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) - a Aztec Symbol mode.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -113,27 +119,47 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getECIEncoding() {#getECIEncoding--}
 ```
-public int getECIEncoding()
+public final int getECIEncoding()
 ```
 
 
 Gets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
 
 **Returns:**
+int - ECI encoding.
+### getEncodeMode() {#getEncodeMode--}
+```
+public final AztecEncodeMode getEncodeMode()
+```
+
+
+Gets a Aztec encode mode. Default value: Auto.
+
+**Returns:**
+com.aspose.barcode.generation.AztecEncodeMode - a Aztec encode mode.
+### getErrorLevel() {#getErrorLevel--}
+```
+public final int getErrorLevel()
+```
+
+
+Level of error correction of Aztec types of barcode. Value should between 5 to 95.
+
+**Returns:**
 int
 ### getLayersCount() {#getLayersCount--}
 ```
-public int getLayersCount()
+public final int getLayersCount()
 ```
 
 
 Gets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto).
 
 **Returns:**
-int
+int - layers count of Aztec symbol.
 ### getStructuredAppendBarcodeId() {#getStructuredAppendBarcodeId--}
 ```
-public int getStructuredAppendBarcodeId()
+public final int getStructuredAppendBarcodeId()
 ```
 
 
@@ -143,7 +169,7 @@ Barcode ID for Structured Append mode of Aztec barcode. Barcode ID should be in 
 int
 ### getStructuredAppendBarcodesCount() {#getStructuredAppendBarcodesCount--}
 ```
-public int getStructuredAppendBarcodesCount()
+public final int getStructuredAppendBarcodesCount()
 ```
 
 
@@ -153,7 +179,7 @@ Barcodes count for Structured Append mode of Aztec barcode. Barcodes count shoul
 int
 ### getStructuredAppendFileId() {#getStructuredAppendFileId--}
 ```
-public String getStructuredAppendFileId()
+public final String getStructuredAppendFileId()
 ```
 
 
@@ -161,6 +187,16 @@ File ID for Structured Append mode of Aztec barcode (optional field). File ID sh
 
 **Returns:**
 java.lang.String
+### getSymbolMode() {#getSymbolMode--}
+```
+public final AztecSymbolMode getSymbolMode()
+```
+
+
+Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
+
+**Returns:**
+[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) - a Aztec Symbol mode.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -173,7 +209,7 @@ public native int hashCode()
 int
 ### isReaderInitialization() {#isReaderInitialization--}
 ```
-public boolean isReaderInitialization()
+public final boolean isReaderInitialization()
 ```
 
 
@@ -199,7 +235,7 @@ public final native void notifyAll()
 
 ### setAspectRatio(float value) {#setAspectRatio-float-}
 ```
-public void setAspectRatio(float value)
+public final void setAspectRatio(float value)
 ```
 
 
@@ -212,7 +248,7 @@ Height/Width ratio of 2D BarCode module.
 
 ### setAztecEncodeMode(AztecEncodeMode value) {#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-}
 ```
-public void setAztecEncodeMode(AztecEncodeMode value)
+public final void setAztecEncodeMode(AztecEncodeMode value)
 ```
 
 
@@ -221,11 +257,11 @@ Sets a Aztec encode mode. Default value: Auto.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.barcode.generation.AztecEncodeMode |  |
+| value | com.aspose.barcode.generation.AztecEncodeMode | a Aztec encode mode. |
 
 ### setAztecErrorLevel(int value) {#setAztecErrorLevel-int-}
 ```
-public void setAztecErrorLevel(int value)
+public final void setAztecErrorLevel(int value)
 ```
 
 
@@ -238,7 +274,7 @@ Level of error correction of Aztec types of barcode. Value should between 5 to 9
 
 ### setAztecSymbolMode(AztecSymbolMode value) {#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-}
 ```
-public void setAztecSymbolMode(AztecSymbolMode value)
+public final void setAztecSymbolMode(AztecSymbolMode value)
 ```
 
 
@@ -247,11 +283,11 @@ Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) |  |
+| value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) | a Aztec Symbol mode. |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
-public void setECIEncoding(int value)
+public final void setECIEncoding(int value)
 ```
 
 
@@ -260,11 +296,37 @@ Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
+| value | int | ECI encoding. |
+
+### setEncodeMode(AztecEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-}
+```
+public final void setEncodeMode(AztecEncodeMode value)
+```
+
+
+Sets a Aztec encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.barcode.generation.AztecEncodeMode | a Aztec encode mode. |
+
+### setErrorLevel(int value) {#setErrorLevel-int-}
+```
+public final void setErrorLevel(int value)
+```
+
+
+Level of error correction of Aztec types of barcode. Value should between 5 to 95.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
 | value | int |  |
 
 ### setLayersCount(int value) {#setLayersCount-int-}
 ```
-public void setLayersCount(int value)
+public final void setLayersCount(int value)
 ```
 
 
@@ -273,11 +335,11 @@ Sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 f
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | layers count of Aztec symbol. |
 
 ### setReaderInitialization(boolean value) {#setReaderInitialization-boolean-}
 ```
-public void setReaderInitialization(boolean value)
+public final void setReaderInitialization(boolean value)
 ```
 
 
@@ -290,7 +352,7 @@ Used to instruct the reader to interpret the data contained within the symbol as
 
 ### setStructuredAppendBarcodeId(int value) {#setStructuredAppendBarcodeId-int-}
 ```
-public void setStructuredAppendBarcodeId(int value)
+public final void setStructuredAppendBarcodeId(int value)
 ```
 
 
@@ -303,7 +365,7 @@ Barcode ID for Structured Append mode of Aztec barcode. Barcode ID should be in 
 
 ### setStructuredAppendBarcodesCount(int value) {#setStructuredAppendBarcodesCount-int-}
 ```
-public void setStructuredAppendBarcodesCount(int value)
+public final void setStructuredAppendBarcodesCount(int value)
 ```
 
 
@@ -316,7 +378,7 @@ Barcodes count for Structured Append mode of Aztec barcode. Barcodes count shoul
 
 ### setStructuredAppendFileId(String value) {#setStructuredAppendFileId-java.lang.String-}
 ```
-public void setStructuredAppendFileId(String value)
+public final void setStructuredAppendFileId(String value)
 ```
 
 
@@ -327,16 +389,29 @@ File ID for Structured Append mode of Aztec barcode (optional field). File ID sh
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setSymbolMode(AztecSymbolMode value) {#setSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-}
+```
+public final void setSymbolMode(AztecSymbolMode value)
+```
+
+
+Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) | a Aztec Symbol mode. |
+
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a human-readable string representation of this  AztecParameters .
+Returns a human-readable string representation of this [AztecParameters](../../com.aspose.barcode.generation/aztecparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  AztecParameters .
+java.lang.String - A string that represents this [AztecParameters](../../com.aspose.barcode.generation/aztecparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

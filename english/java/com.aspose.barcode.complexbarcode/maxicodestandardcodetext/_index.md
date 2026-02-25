@@ -50,15 +50,16 @@ Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
 | [getClass()](#getClass--) |  |
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
-| [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
+| [getEncodeMode()](#getEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMaxiCodeEncodeMode()](#getMaxiCodeEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMessage()](#getMessage--) | Gets message. |
 | [getMode()](#getMode--) | Gets MaxiCode mode. |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [initFromString(String constructedCodetext)](#initFromString-java.lang.String-) | Initializes instance from constructed codetext. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setEncodeMode(MaxiCodeEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
 | [setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
 | [setMessage(String value)](#setMessage-java.lang.String-) | Sets message. |
 | [setMode(int mode)](#setMode-int-) | Sets MaxiCode mode. |
@@ -89,14 +90,14 @@ Returns a value indicating whether this instance is equal to a specified MaxiCod
 boolean - if obj has the same value as this instance; otherwise, **false**.
 ### getBarcodeType() {#getBarcodeType--}
 ```
-public BaseEncodeType getBarcodeType()
+public final BaseEncodeType getBarcodeType()
 ```
 
 
 Gets barcode type.
 
 **Returns:**
-[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -119,34 +120,34 @@ Constructs codetext
 java.lang.String - Constructed codetext
 ### getECIEncoding() {#getECIEncoding--}
 ```
-public int getECIEncoding()
+public final int getECIEncoding()
 ```
 
 
-Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO.
+Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Returns:**
-int
-### getHashCode() {#getHashCode--}
+int - ECI encoding.
+### getEncodeMode() {#getEncodeMode--}
 ```
-public int getHashCode()
+public final MaxiCodeEncodeMode getEncodeMode()
 ```
 
 
-Returns the hash code for this instance.
+Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
-int - A 32-bit signed integer hash code
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMaxiCodeEncodeMode() {#getMaxiCodeEncodeMode--}
 ```
-public MaxiCodeEncodeMode getMaxiCodeEncodeMode()
+public final MaxiCodeEncodeMode getMaxiCodeEncodeMode()
 ```
 
 
-Gets a MaxiCode encode mode.
+Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
-[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode)
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMessage() {#getMessage--}
 ```
 public String getMessage()
@@ -169,14 +170,14 @@ Gets MaxiCode mode.
 int - MaxiCode mode
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
-
+Returns the hash code for this instance.
 
 **Returns:**
-int
+int - A 32-bit signed integer hash code
 ### initFromString(String constructedCodetext) {#initFromString-java.lang.String-}
 ```
 public void initFromString(String constructedCodetext)
@@ -208,29 +209,42 @@ public final native void notifyAll()
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
-public void setECIEncoding(int value)
+public final void setECIEncoding(int value)
 ```
 
 
-Sets ECI encoding. Used when MaxiCodeEncodeMode is AUTO.
+Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | ECI encoding. |
+
+### setEncodeMode(MaxiCodeEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
+```
+public final void setEncodeMode(MaxiCodeEncodeMode value)
+```
+
+
+Sets a MaxiCode encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
 ### setMaxiCodeEncodeMode(MaxiCodeEncodeMode value) {#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
 ```
-public void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
+public final void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
 ```
 
 
-Sets a MaxiCode encode mode.
+Sets a MaxiCode encode mode. Default value: Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) |  |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
 ### setMessage(String value) {#setMessage-java.lang.String-}
 ```

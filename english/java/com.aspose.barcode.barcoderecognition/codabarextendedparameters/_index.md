@@ -17,17 +17,21 @@ Stores a Codabar additional information of recognized barcode
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  CodabarExtendedParameters  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value. |
 | [getClass()](#getClass--) |  |
-| [getCodabarStartSymbol()](#getCodabarStartSymbol--) | Gets or sets a Codabar start symbol. |
-| [getCodabarStopSymbol()](#getCodabarStopSymbol--) | Gets or sets a Codabar stop symbol. |
+| [getCodabarStartSymbol()](#getCodabarStartSymbol--) | Gets a Codabar start symbol. |
+| [getCodabarStopSymbol()](#getCodabarStopSymbol--) | Gets a Codabar stop symbol. |
+| [getStartSymbol()](#getStartSymbol--) | Gets a Codabar start symbol. |
+| [getStopSymbol()](#getStopSymbol--) | Gets a Codabar stop symbol. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCodabarStartSymbol(int value)](#setCodabarStartSymbol-int-) | Gets or sets a Codabar start symbol. |
-| [setCodabarStopSymbol(int value)](#setCodabarStopSymbol-int-) | Gets or sets a Codabar stop symbol. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  CodabarExtendedParameters . |
+| [setCodabarStartSymbol(short value)](#setCodabarStartSymbol-short-) | Sets a Codabar start symbol. |
+| [setCodabarStopSymbol(short value)](#setCodabarStopSymbol-short-) | Sets a Codabar stop symbol. |
+| [setStartSymbol(short value)](#setStartSymbol-short-) | Sets a Codabar start symbol. |
+| [setStopSymbol(short value)](#setStopSymbol-short-) | Sets a Codabar stop symbol. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -37,7 +41,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  CodabarExtendedParameters  value.
+Returns a value indicating whether this instance is equal to a specified [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -58,24 +62,44 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCodabarStartSymbol() {#getCodabarStartSymbol--}
 ```
-public int getCodabarStartSymbol()
+public final short getCodabarStartSymbol()
 ```
 
 
-Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A
+Gets a Codabar start symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-int
+short - a Codabar start symbol.
 ### getCodabarStopSymbol() {#getCodabarStopSymbol--}
 ```
-public int getCodabarStopSymbol()
+public final short getCodabarStopSymbol()
 ```
 
 
-Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A
+Gets a Codabar stop symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-int
+short - a Codabar stop symbol.
+### getStartSymbol() {#getStartSymbol--}
+```
+public final short getStartSymbol()
+```
+
+
+Gets a Codabar start symbol. Default value: CodabarSymbol.A
+
+**Returns:**
+short - a Codabar start symbol.
+### getStopSymbol() {#getStopSymbol--}
+```
+public final short getStopSymbol()
+```
+
+
+Gets a Codabar stop symbol. Default value: CodabarSymbol.A
+
+**Returns:**
+short - a Codabar stop symbol.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -114,31 +138,57 @@ public final native void notifyAll()
 
 
 
-### setCodabarStartSymbol(int value) {#setCodabarStartSymbol-int-}
+### setCodabarStartSymbol(short value) {#setCodabarStartSymbol-short-}
 ```
-public void setCodabarStartSymbol(int value)
+public final void setCodabarStartSymbol(short value)
 ```
 
 
-Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A
+Sets a Codabar start symbol. Default value: CodabarSymbol.A
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | short | a Codabar start symbol. |
 
-### setCodabarStopSymbol(int value) {#setCodabarStopSymbol-int-}
+### setCodabarStopSymbol(short value) {#setCodabarStopSymbol-short-}
 ```
-public void setCodabarStopSymbol(int value)
+public final void setCodabarStopSymbol(short value)
 ```
 
 
-Gets or sets a Codabar stop symbol. Default value: CodabarSymbol.A
+Sets a Codabar stop symbol. Default value: CodabarSymbol.A
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | short | a Codabar stop symbol. |
+
+### setStartSymbol(short value) {#setStartSymbol-short-}
+```
+public final void setStartSymbol(short value)
+```
+
+
+Sets a Codabar start symbol. Default value: CodabarSymbol.A
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | short | a Codabar start symbol. |
+
+### setStopSymbol(short value) {#setStopSymbol-short-}
+```
+public final void setStopSymbol(short value)
+```
+
+
+Sets a Codabar stop symbol. Default value: CodabarSymbol.A
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | short | a Codabar stop symbol. |
 
 ### toString() {#toString--}
 ```
@@ -146,10 +196,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  CodabarExtendedParameters .
+Returns a human-readable string representation of this [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  CodabarExtendedParameters .
+java.lang.String - A string that represents this [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -21,20 +21,28 @@ MaxiCode parameters.
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
+| [getEncodeMode()](#getEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMaxiCodeEncodeMode()](#getMaxiCodeEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMaxiCodeMode()](#getMaxiCodeMode--) | Gets a MaxiCode encode mode. |
 | [getMaxiCodeStructuredAppendModeBarcodeId()](#getMaxiCodeStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
 | [getMaxiCodeStructuredAppendModeBarcodesCount()](#getMaxiCodeStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
+| [getMode()](#getMode--) | Gets a MaxiCode encode mode. |
+| [getStructuredAppendModeBarcodeId()](#getStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
+| [getStructuredAppendModeBarcodesCount()](#getStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setECIEncoding(int ECIEncoding)](#setECIEncoding-int-) | Sets ECI encoding. |
-| [setMaxiCodeEncodeMode(MaxiCodeEncodeMode maxiCodeEncodeMode)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
-| [setMaxiCodeMode(int maxiCodeMode)](#setMaxiCodeMode-int-) | Sets a MaxiCode encode mode. |
-| [setMaxiCodeStructuredAppendModeBarcodeId(int maxiCodeStructuredAppendModeBarcodeId)](#setMaxiCodeStructuredAppendModeBarcodeId-int-) | Sets a MaxiCode barcode id in structured append mode. |
-| [setMaxiCodeStructuredAppendModeBarcodesCount(int maxiCodeStructuredAppendModeBarcodesCount)](#setMaxiCodeStructuredAppendModeBarcodesCount-int-) | Sets a MaxiCode barcodes count in structured append mode. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  MaxiCodeParameters . |
+| [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setEncodeMode(MaxiCodeEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
+| [setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
+| [setMaxiCodeMode(int value)](#setMaxiCodeMode-int-) | Sets a MaxiCode encode mode. |
+| [setMaxiCodeStructuredAppendModeBarcodeId(int value)](#setMaxiCodeStructuredAppendModeBarcodeId-int-) | Sets a MaxiCode barcode id in structured append mode. |
+| [setMaxiCodeStructuredAppendModeBarcodesCount(int value)](#setMaxiCodeStructuredAppendModeBarcodesCount-int-) | Sets a MaxiCode barcodes count in structured append mode. |
+| [setMode(int value)](#setMode-int-) | Sets a MaxiCode encode mode. |
+| [setStructuredAppendModeBarcodeId(int value)](#setStructuredAppendModeBarcodeId-int-) | Sets a MaxiCode barcode id in structured append mode. |
+| [setStructuredAppendModeBarcodesCount(int value)](#setStructuredAppendModeBarcodesCount-int-) | Sets a MaxiCode barcodes count in structured append mode. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [MaxiCodeParameters](../../com.aspose.barcode.generation/maxicodeparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +63,7 @@ public boolean equals(Object arg0)
 boolean
 ### getAspectRatio() {#getAspectRatio--}
 ```
-public float getAspectRatio()
+public final float getAspectRatio()
 ```
 
 
@@ -75,54 +83,94 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getECIEncoding() {#getECIEncoding--}
 ```
-public int getECIEncoding()
+public final int getECIEncoding()
 ```
 
 
-Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. Default value: ISO-8859-1
+Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Returns:**
-int
+int - ECI encoding.
+### getEncodeMode() {#getEncodeMode--}
+```
+public final MaxiCodeEncodeMode getEncodeMode()
+```
+
+
+Gets a MaxiCode encode mode. Default value: Auto.
+
+**Returns:**
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMaxiCodeEncodeMode() {#getMaxiCodeEncodeMode--}
 ```
-public MaxiCodeEncodeMode getMaxiCodeEncodeMode()
+public final MaxiCodeEncodeMode getMaxiCodeEncodeMode()
 ```
 
 
-Gets a MaxiCode encode mode. Default value: AUTO.
+Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
-[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode)
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMaxiCodeMode() {#getMaxiCodeMode--}
 ```
-public int getMaxiCodeMode()
+public final int getMaxiCodeMode()
 ```
 
 
 Gets a MaxiCode encode mode.
 
 **Returns:**
-int
+int - a MaxiCode encode mode.
 ### getMaxiCodeStructuredAppendModeBarcodeId() {#getMaxiCodeStructuredAppendModeBarcodeId--}
 ```
-public int getMaxiCodeStructuredAppendModeBarcodeId()
+public final int getMaxiCodeStructuredAppendModeBarcodeId()
 ```
 
 
 Gets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value: 0
 
 **Returns:**
-int
+int - a MaxiCode barcode id in structured append mode.
 ### getMaxiCodeStructuredAppendModeBarcodesCount() {#getMaxiCodeStructuredAppendModeBarcodesCount--}
 ```
-public int getMaxiCodeStructuredAppendModeBarcodesCount()
+public final int getMaxiCodeStructuredAppendModeBarcodesCount()
 ```
 
 
 Gets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1
 
 **Returns:**
-int
+int - a MaxiCode barcodes count in structured append mode.
+### getMode() {#getMode--}
+```
+public final int getMode()
+```
+
+
+Gets a MaxiCode encode mode.
+
+**Returns:**
+int - a MaxiCode encode mode.
+### getStructuredAppendModeBarcodeId() {#getStructuredAppendModeBarcodeId--}
+```
+public final int getStructuredAppendModeBarcodeId()
+```
+
+
+Gets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value: 0
+
+**Returns:**
+int - a MaxiCode barcode id in structured append mode.
+### getStructuredAppendModeBarcodesCount() {#getStructuredAppendModeBarcodesCount--}
+```
+public final int getStructuredAppendModeBarcodesCount()
+```
+
+
+Gets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1
+
+**Returns:**
+int - a MaxiCode barcodes count in structured append mode.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,7 +199,7 @@ public final native void notifyAll()
 
 ### setAspectRatio(float value) {#setAspectRatio-float-}
 ```
-public void setAspectRatio(float value)
+public final void setAspectRatio(float value)
 ```
 
 
@@ -162,35 +210,48 @@ Height/Width ratio of 2D BarCode module.
 | --- | --- | --- |
 | value | float |  |
 
-### setECIEncoding(int ECIEncoding) {#setECIEncoding-int-}
+### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
-public void setECIEncoding(int ECIEncoding)
+public final void setECIEncoding(int value)
 ```
 
 
-Sets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. Default value: ISO-8859-1
+Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ECIEncoding | int |  |
+| value | int | ECI encoding. |
 
-### setMaxiCodeEncodeMode(MaxiCodeEncodeMode maxiCodeEncodeMode) {#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
+### setEncodeMode(MaxiCodeEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
 ```
-public void setMaxiCodeEncodeMode(MaxiCodeEncodeMode maxiCodeEncodeMode)
+public final void setEncodeMode(MaxiCodeEncodeMode value)
 ```
 
 
-Sets a MaxiCode encode mode. Default value: AUTO.
+Sets a MaxiCode encode mode. Default value: Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeEncodeMode | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) |  |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
-### setMaxiCodeMode(int maxiCodeMode) {#setMaxiCodeMode-int-}
+### setMaxiCodeEncodeMode(MaxiCodeEncodeMode value) {#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
 ```
-public void setMaxiCodeMode(int maxiCodeMode)
+public final void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
+```
+
+
+Sets a MaxiCode encode mode. Default value: Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
+
+### setMaxiCodeMode(int value) {#setMaxiCodeMode-int-}
+```
+public final void setMaxiCodeMode(int value)
 ```
 
 
@@ -199,11 +260,11 @@ Sets a MaxiCode encode mode.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeMode | int |  |
+| value | int | a MaxiCode encode mode. |
 
-### setMaxiCodeStructuredAppendModeBarcodeId(int maxiCodeStructuredAppendModeBarcodeId) {#setMaxiCodeStructuredAppendModeBarcodeId-int-}
+### setMaxiCodeStructuredAppendModeBarcodeId(int value) {#setMaxiCodeStructuredAppendModeBarcodeId-int-}
 ```
-public void setMaxiCodeStructuredAppendModeBarcodeId(int maxiCodeStructuredAppendModeBarcodeId)
+public final void setMaxiCodeStructuredAppendModeBarcodeId(int value)
 ```
 
 
@@ -212,11 +273,11 @@ Sets a MaxiCode barcode id in structured append mode. ID must be a value between
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeStructuredAppendModeBarcodeId | int |  |
+| value | int | a MaxiCode barcode id in structured append mode. |
 
-### setMaxiCodeStructuredAppendModeBarcodesCount(int maxiCodeStructuredAppendModeBarcodesCount) {#setMaxiCodeStructuredAppendModeBarcodesCount-int-}
+### setMaxiCodeStructuredAppendModeBarcodesCount(int value) {#setMaxiCodeStructuredAppendModeBarcodesCount-int-}
 ```
-public void setMaxiCodeStructuredAppendModeBarcodesCount(int maxiCodeStructuredAppendModeBarcodesCount)
+public final void setMaxiCodeStructuredAppendModeBarcodesCount(int value)
 ```
 
 
@@ -225,7 +286,46 @@ Sets a MaxiCode barcodes count in structured append mode. Count number must be a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeStructuredAppendModeBarcodesCount | int |  |
+| value | int | a MaxiCode barcodes count in structured append mode. |
+
+### setMode(int value) {#setMode-int-}
+```
+public final void setMode(int value)
+```
+
+
+Sets a MaxiCode encode mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a MaxiCode encode mode. |
+
+### setStructuredAppendModeBarcodeId(int value) {#setStructuredAppendModeBarcodeId-int-}
+```
+public final void setStructuredAppendModeBarcodeId(int value)
+```
+
+
+Sets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value: 0
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a MaxiCode barcode id in structured append mode. |
+
+### setStructuredAppendModeBarcodesCount(int value) {#setStructuredAppendModeBarcodesCount-int-}
+```
+public final void setStructuredAppendModeBarcodesCount(int value)
+```
+
+
+Sets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | a MaxiCode barcodes count in structured append mode. |
 
 ### toString() {#toString--}
 ```
@@ -233,10 +333,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  MaxiCodeParameters .
+Returns a human-readable string representation of this [MaxiCodeParameters](../../com.aspose.barcode.generation/maxicodeparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  MaxiCodeParameters .
+java.lang.String - A string that represents this [MaxiCodeParameters](../../com.aspose.barcode.generation/maxicodeparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

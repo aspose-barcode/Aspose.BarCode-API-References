@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for Java API Reference
 description: Class for Jurisdiction specific fields for USA DL
 type: docs
-weight: 38
+weight: 39
 url: /java/com.aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
 ---
 **Inheritance:**

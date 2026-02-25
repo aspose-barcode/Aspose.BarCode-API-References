@@ -3,7 +3,7 @@ title: QualitySettingsInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.barcode.barcoderecognition/qualitysettingsinternal/
 ---
 **Inheritance:**

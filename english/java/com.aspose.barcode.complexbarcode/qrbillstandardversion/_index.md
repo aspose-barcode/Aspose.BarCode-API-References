@@ -3,7 +3,7 @@ title: QrBillStandardVersion
 second_title: Aspose.BarCode for Java API Reference
 description: SwissQR bill standard version
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.barcode.complexbarcode/qrbillstandardversion/
 ---
 **Inheritance:**

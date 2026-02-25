@@ -20,33 +20,39 @@ UI wrapper for com.aspose.barcode.generation.DataMatrixParameters class.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
-| [getColumns()](#getColumns--) | Columns count |
+| [getColumns()](#getColumns--) | Columns count. |
 | [getDataMatrixEcc()](#getDataMatrixEcc--) | Gets a Datamatrix ECC type. |
 | [getDataMatrixEncodeMode()](#getDataMatrixEncodeMode--) | Encode mode of Datamatrix barcode. |
 | [getDataMatrixVersion()](#getDataMatrixVersion--) | DataMatrix symbol size. |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
+| [getEccType()](#getEccType--) | Gets a Datamatrix ECC type. |
+| [getEncodeMode()](#getEncodeMode--) | Encode mode of Datamatrix barcode. |
 | [getMacroCharacters()](#getMacroCharacters--) | Protocol for Macro characters in the first position (ECC 200 only) |
 | [getRows()](#getRows--) | Rows count. |
 | [getStructuredAppendBarcodeId()](#getStructuredAppendBarcodeId--) | Barcode ID for Structured Append mode. |
 | [getStructuredAppendBarcodesCount()](#getStructuredAppendBarcodesCount--) | Barcodes count for Structured Append mode. |
 | [getStructuredAppendFileId()](#getStructuredAppendFileId--) | File ID for Structured Append mode. |
+| [getVersion()](#getVersion--) | DataMatrix symbol size. |
 | [hashCode()](#hashCode--) |  |
 | [isReaderProgramming()](#isReaderProgramming--) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setColumns(int value)](#setColumns-int-) | Columns count |
-| [setDataMatrixEcc(DataMatrixEccType value)](#setDataMatrixEcc-com.aspose.barcode.generation.DataMatrixEccType-) | Gets a Datamatrix ECC type. |
+| [setColumns(int value)](#setColumns-int-) | Columns count. |
+| [setDataMatrixEcc(DataMatrixEccType value)](#setDataMatrixEcc-com.aspose.barcode.generation.DataMatrixEccType-) | Sets a Datamatrix ECC type. |
 | [setDataMatrixEncodeMode(DataMatrixEncodeMode value)](#setDataMatrixEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-) | Encode mode of Datamatrix barcode. |
 | [setDataMatrixVersion(DataMatrixVersion value)](#setDataMatrixVersion-com.aspose.barcode.generation.DataMatrixVersion-) | DataMatrix symbol size. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
+| [setEccType(DataMatrixEccType value)](#setEccType-com.aspose.barcode.generation.DataMatrixEccType-) | Sets a Datamatrix ECC type. |
+| [setEncodeMode(DataMatrixEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-) | Encode mode of Datamatrix barcode. |
 | [setMacroCharacters(MacroCharacter value)](#setMacroCharacters-com.aspose.barcode.generation.MacroCharacter-) | Protocol for Macro characters in the first position (ECC 200 only) |
 | [setReaderProgramming(boolean value)](#setReaderProgramming-boolean-) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [setRows(int value)](#setRows-int-) | Rows count. |
 | [setStructuredAppendBarcodeId(int value)](#setStructuredAppendBarcodeId-int-) | Barcode ID for Structured Append mode. |
 | [setStructuredAppendBarcodesCount(int value)](#setStructuredAppendBarcodesCount-int-) | Barcodes count for Structured Append mode. |
 | [setStructuredAppendFileId(int value)](#setStructuredAppendFileId-int-) | File ID for Structured Append mode. |
-| [toString()](#toString--) | Returns a human-readable string representation of this DataMatrixParameters . |
+| [setVersion(DataMatrixVersion value)](#setVersion-com.aspose.barcode.generation.DataMatrixVersion-) | DataMatrix symbol size. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [DataMatrixParameters](../../com.aspose.barcode.generation/datamatrixparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -67,7 +73,7 @@ public boolean equals(Object arg0)
 boolean
 ### getAspectRatio() {#getAspectRatio--}
 ```
-public float getAspectRatio()
+public final float getAspectRatio()
 ```
 
 
@@ -87,57 +93,77 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
-public int getColumns()
+public final int getColumns()
 ```
 
 
-Columns count
+Columns count.
 
 **Returns:**
 int
 ### getDataMatrixEcc() {#getDataMatrixEcc--}
 ```
-public DataMatrixEccType getDataMatrixEcc()
+public final DataMatrixEccType getDataMatrixEcc()
 ```
 
 
-Gets a Datamatrix ECC type.
+Gets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200.
 
 **Returns:**
-[DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype)
+[DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype) - a Datamatrix ECC type.
 ### getDataMatrixEncodeMode() {#getDataMatrixEncodeMode--}
 ```
-public DataMatrixEncodeMode getDataMatrixEncodeMode()
+public final DataMatrixEncodeMode getDataMatrixEncodeMode()
 ```
 
 
-Encode mode of Datamatrix barcode.
+Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
 
 **Returns:**
 [DataMatrixEncodeMode](../../com.aspose.barcode.generation/datamatrixencodemode)
 ### getDataMatrixVersion() {#getDataMatrixVersion--}
 ```
-public DataMatrixVersion getDataMatrixVersion()
+public final DataMatrixVersion getDataMatrixVersion()
 ```
 
 
 DataMatrix symbol size.
 
 **Returns:**
-[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) - DataMatrix symbol size.
+[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion)
 ### getECIEncoding() {#getECIEncoding--}
 ```
-public int getECIEncoding()
+public final int getECIEncoding()
 ```
 
 
-Gets ECI encoding. Used when DataMatrixEncodeMode is AUTO.
+Gets ECI encoding. Used when EncodeMode is Auto.
 
 **Returns:**
-int
+int - ECI encoding.
+### getEccType() {#getEccType--}
+```
+public final DataMatrixEccType getEccType()
+```
+
+
+Gets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200.
+
+**Returns:**
+[DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype) - a Datamatrix ECC type.
+### getEncodeMode() {#getEncodeMode--}
+```
+public final DataMatrixEncodeMode getEncodeMode()
+```
+
+
+Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
+
+**Returns:**
+[DataMatrixEncodeMode](../../com.aspose.barcode.generation/datamatrixencodemode)
 ### getMacroCharacters() {#getMacroCharacters--}
 ```
-public MacroCharacter getMacroCharacters()
+public final MacroCharacter getMacroCharacters()
 ```
 
 
@@ -147,7 +173,7 @@ Protocol for Macro characters in the first position (ECC 200 only)
 [MacroCharacter](../../com.aspose.barcode.generation/macrocharacter)
 ### getRows() {#getRows--}
 ```
-public int getRows()
+public final int getRows()
 ```
 
 
@@ -157,7 +183,7 @@ Rows count.
 int
 ### getStructuredAppendBarcodeId() {#getStructuredAppendBarcodeId--}
 ```
-public int getStructuredAppendBarcodeId()
+public final int getStructuredAppendBarcodeId()
 ```
 
 
@@ -167,7 +193,7 @@ Barcode ID for Structured Append mode.
 int
 ### getStructuredAppendBarcodesCount() {#getStructuredAppendBarcodesCount--}
 ```
-public int getStructuredAppendBarcodesCount()
+public final int getStructuredAppendBarcodesCount()
 ```
 
 
@@ -177,7 +203,7 @@ Barcodes count for Structured Append mode.
 int
 ### getStructuredAppendFileId() {#getStructuredAppendFileId--}
 ```
-public int getStructuredAppendFileId()
+public final int getStructuredAppendFileId()
 ```
 
 
@@ -185,6 +211,16 @@ File ID for Structured Append mode.
 
 **Returns:**
 int
+### getVersion() {#getVersion--}
+```
+public final DataMatrixVersion getVersion()
+```
+
+
+DataMatrix symbol size.
+
+**Returns:**
+[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -197,7 +233,7 @@ public native int hashCode()
 int
 ### isReaderProgramming() {#isReaderProgramming--}
 ```
-public boolean isReaderProgramming()
+public final boolean isReaderProgramming()
 ```
 
 
@@ -223,7 +259,7 @@ public final native void notifyAll()
 
 ### setAspectRatio(float value) {#setAspectRatio-float-}
 ```
-public void setAspectRatio(float value)
+public final void setAspectRatio(float value)
 ```
 
 
@@ -236,11 +272,11 @@ Height/Width ratio of 2D BarCode module.
 
 ### setColumns(int value) {#setColumns-int-}
 ```
-public void setColumns(int value)
+public final void setColumns(int value)
 ```
 
 
-Columns count
+Columns count.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -249,24 +285,24 @@ Columns count
 
 ### setDataMatrixEcc(DataMatrixEccType value) {#setDataMatrixEcc-com.aspose.barcode.generation.DataMatrixEccType-}
 ```
-public void setDataMatrixEcc(DataMatrixEccType value)
+public final void setDataMatrixEcc(DataMatrixEccType value)
 ```
 
 
-Gets a Datamatrix ECC type.
+Sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype) |  |
+| value | [DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype) | a Datamatrix ECC type. |
 
 ### setDataMatrixEncodeMode(DataMatrixEncodeMode value) {#setDataMatrixEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-}
 ```
-public void setDataMatrixEncodeMode(DataMatrixEncodeMode value)
+public final void setDataMatrixEncodeMode(DataMatrixEncodeMode value)
 ```
 
 
-Encode mode of Datamatrix barcode.
+Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -275,7 +311,7 @@ Encode mode of Datamatrix barcode.
 
 ### setDataMatrixVersion(DataMatrixVersion value) {#setDataMatrixVersion-com.aspose.barcode.generation.DataMatrixVersion-}
 ```
-public void setDataMatrixVersion(DataMatrixVersion value)
+public final void setDataMatrixVersion(DataMatrixVersion value)
 ```
 
 
@@ -284,24 +320,50 @@ DataMatrix symbol size.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) | DataMatrix symbol size. |
+| value | [DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) |  |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```
-public void setECIEncoding(int value)
+public final void setECIEncoding(int value)
 ```
 
 
-Sets ECI encoding. Used when DataMatrixEncodeMode is AUTO.
+Sets ECI encoding. Used when EncodeMode is Auto.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | ECI encoding. |
+
+### setEccType(DataMatrixEccType value) {#setEccType-com.aspose.barcode.generation.DataMatrixEccType-}
+```
+public final void setEccType(DataMatrixEccType value)
+```
+
+
+Sets a Datamatrix ECC type. Default value: DataMatrixEccType.Ecc200.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype) | a Datamatrix ECC type. |
+
+### setEncodeMode(DataMatrixEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-}
+```
+public final void setEncodeMode(DataMatrixEncodeMode value)
+```
+
+
+Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DataMatrixEncodeMode](../../com.aspose.barcode.generation/datamatrixencodemode) |  |
 
 ### setMacroCharacters(MacroCharacter value) {#setMacroCharacters-com.aspose.barcode.generation.MacroCharacter-}
 ```
-public void setMacroCharacters(MacroCharacter value)
+public final void setMacroCharacters(MacroCharacter value)
 ```
 
 
@@ -314,7 +376,7 @@ Protocol for Macro characters in the first position (ECC 200 only)
 
 ### setReaderProgramming(boolean value) {#setReaderProgramming-boolean-}
 ```
-public void setReaderProgramming(boolean value)
+public final void setReaderProgramming(boolean value)
 ```
 
 
@@ -327,7 +389,7 @@ Used to instruct the reader to interpret the data contained within the symbol as
 
 ### setRows(int value) {#setRows-int-}
 ```
-public void setRows(int value)
+public final void setRows(int value)
 ```
 
 
@@ -340,7 +402,7 @@ Rows count.
 
 ### setStructuredAppendBarcodeId(int value) {#setStructuredAppendBarcodeId-int-}
 ```
-public void setStructuredAppendBarcodeId(int value)
+public final void setStructuredAppendBarcodeId(int value)
 ```
 
 
@@ -353,7 +415,7 @@ Barcode ID for Structured Append mode.
 
 ### setStructuredAppendBarcodesCount(int value) {#setStructuredAppendBarcodesCount-int-}
 ```
-public void setStructuredAppendBarcodesCount(int value)
+public final void setStructuredAppendBarcodesCount(int value)
 ```
 
 
@@ -366,7 +428,7 @@ Barcodes count for Structured Append mode.
 
 ### setStructuredAppendFileId(int value) {#setStructuredAppendFileId-int-}
 ```
-public void setStructuredAppendFileId(int value)
+public final void setStructuredAppendFileId(int value)
 ```
 
 
@@ -377,16 +439,29 @@ File ID for Structured Append mode.
 | --- | --- | --- |
 | value | int |  |
 
+### setVersion(DataMatrixVersion value) {#setVersion-com.aspose.barcode.generation.DataMatrixVersion-}
+```
+public final void setVersion(DataMatrixVersion value)
+```
+
+
+DataMatrix symbol size.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion) |  |
+
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a human-readable string representation of this DataMatrixParameters .
+Returns a human-readable string representation of this [DataMatrixParameters](../../com.aspose.barcode.generation/datamatrixparameters).
 
 **Returns:**
-java.lang.String - A string that represents this DataMatrixParameters
+java.lang.String - A string that represents this [DataMatrixParameters](../../com.aspose.barcode.generation/datamatrixparameters).
 ### wait() {#wait--}
 ```
 public final void wait()
