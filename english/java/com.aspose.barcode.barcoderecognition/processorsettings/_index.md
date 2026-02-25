@@ -3,7 +3,7 @@ title: ProcessorSettings
 second_title: Aspose.BarCode for Java API Reference
 description: ProcessorSettings allow to recognize barcodes with multi-threaded increasing of performance
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.barcode.barcoderecognition/processorsettings/
 ---
 **Inheritance:**

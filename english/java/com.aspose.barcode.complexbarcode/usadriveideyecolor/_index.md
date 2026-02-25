@@ -3,7 +3,7 @@ title: USADriveIdEyeColor
 second_title: Aspose.BarCode for Java API Reference
 description: Enum for Eye Color in the US Drivers License
 type: docs
-weight: 45
+weight: 46
 url: /java/com.aspose.barcode.complexbarcode/usadriveideyecolor/
 ---
 **Inheritance:**

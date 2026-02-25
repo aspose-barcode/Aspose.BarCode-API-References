@@ -209,7 +209,7 @@ Decodes USADriveId codetext.
 | encodedCodetext | java.lang.String | Encoded codetext |
 
 **Returns:**
-com.aspose.barcode.complexbarcode.USADriveIdCodetext - Decoded USADriveId or null.
+[USADriveIdCodetext](../../com.aspose.barcode.complexbarcode/usadriveidcodetext) - Decoded USADriveId or null.
 ### wait() {#wait--}
 ```
 public final void wait()

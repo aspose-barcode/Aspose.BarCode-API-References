@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.barcode.generation.ExtCodetextBuilder](../../com.a
 public class DataMatrixExtCodetextBuilder extends ExtCodetextBuilder
 ```
 
-Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode
+Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of EncodeMode
 
 --------------------
 
@@ -20,15 +20,15 @@ Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode
 > //Extended codetext mode
 >  //create codetext
 >  DataMatrixExtCodetextBuilder textBuilder = new DataMatrixExtCodetextBuilder();
->  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251, DataMatrixEncodeMode.BYTES, "World");
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251, EncodeMode.BYTES, "World");
 >  codetextBuilder.addPlainCodetext("Will");
 >  codetextBuilder.addECICodetext(ECIEncodings.UTF8, "\u72acRight\u72d7");
->  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40, "ABCDE");
+>  codetextBuilder.addCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 >  //generate codetext
 >  String codetext = textBuilder.getExtendedCodetext();
 >  //generate
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX, codetext);
->  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+>  generator.getParameters().getBarcode().getDataMatrix().setEncodeMode(EncodeMode.EXTENDED_CODETEXT);
 >  generator.save("test.bmp");
 > ```
 ## Constructors

@@ -27,7 +27,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [BarcodeSettings](../com.aspose.barcode.barcoderecognition/barcodesettings) | The main BarCode decoding parameters. |
 | [BarcodeSettingsInternal](../com.aspose.barcode.barcoderecognition/barcodesettingsinternal) |  |
 | [BarcodeSvmDetectorSettings](../com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings) | Barcode detector settings. |
-| [BaseDecodeType](../com.aspose.barcode.barcoderecognition/basedecodetype) | Base class for MultyDecodeType and SingleDecodeType. |
+| [BaseDecodeType](../com.aspose.barcode.barcoderecognition/basedecodetype) | Base class for MultiDecodeType and SingleDecodeType. |
 | [BaseExtendedParameters](../com.aspose.barcode.barcoderecognition/baseextendedparameters) | Basic class for extended parameters of recognized barcode storing |
 | [CodabarExtendedParameters](../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | Stores a Codabar additional information of recognized barcode |
 | [Code128DataPortion](../com.aspose.barcode.barcoderecognition/code128dataportion) | Contains the data of subtype for Code128 type barcode |
@@ -40,6 +40,7 @@ This package contains tools for 1D/2D barcode recognition.
 | [DotCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/dotcodeextendedparameters) | Stores special data of DotCode recognized barcode |
 | [GS1CompositeBarExtendedParameters](../com.aspose.barcode.barcoderecognition/gs1compositebarextendedparameters) | Stores special data of  **GS1 Composite Bar**  recognized barcode |
 | [MaxiCodeExtendedParameters](../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | Stores a MaxiCode additional information of recognized barcode |
+| [MultiDecodeType](../com.aspose.barcode.barcoderecognition/multidecodetype) | Composite decode type. |
 | [MultyDecodeType](../com.aspose.barcode.barcoderecognition/multydecodetype) | Composite decode type. |
 | [OneDExtendedParameters](../com.aspose.barcode.barcoderecognition/onedextendedparameters) | Stores special data of 1D recognized barcode like separate codetext and checksum |
 | [Pdf417ExtendedParameters](../com.aspose.barcode.barcoderecognition/pdf417extendedparameters) | Stores a MacroPdf417 metadata information of recognized barcode |

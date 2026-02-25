@@ -292,7 +292,7 @@ public void setCustomerContentEncodeMode(DataMatrixEncodeMode value)
 ```
 
 
-Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40.
+Encode mode of Datamatrix barcode. Default value: EncodeMode.C40.
 
 **Parameters:**
 | Parameter | Type | Description |

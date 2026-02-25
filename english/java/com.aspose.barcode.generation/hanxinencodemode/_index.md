@@ -40,7 +40,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   // URI mode
 >   String codetext = "https://www.test.com/%BC%DE%%%ab/search=test";
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HAN_XIN, codetext);
->   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.URI);
+>   generator.getParameters().getBarcode().getHanXin().setEncodeMode(EncodeMode.URI);
 >   generator.save("test.bmp");
 > 
 > 
@@ -51,7 +51,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >   String expectedStr = "\u6f04\u3401\u5168\u8785123qwe\u0131nt\u0259\u02c8næ\u0283\u0259n\u0259l\u0391\u0392\u0393\u0394\u0395abcabcbackslashes_should_be_doubled\\000555:test";
 >  
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
->   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>   generator.getParameters().getBarcode().getHanXin().setEncodeMode(EncodeMode.EXTENDED);
 >   generator.save("test.bmp");
 >  
 >   // Using HanXinExtCodetextBuilder for Extended mode (same codetext as in previous example)
@@ -76,7 +76,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 >  
 >   //generate
 >   BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.HanXin, str);
->   generator.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>   generator.getParameters().getBarcode().getHanXin().setEncodeMode(EncodeMode.EXTENDED);
 >   generator.save("test.bmp");
 > ```
 ## Fields

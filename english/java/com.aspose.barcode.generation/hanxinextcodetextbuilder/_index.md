@@ -37,7 +37,7 @@ Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMo
 >  String str = codeTextBuilder.getExtendedCodetext();
 >  //generate
 >  BarcodeGenerator bg = new BarcodeGenerator(EncodeTypes.HAN_XIN, str);
->  bg.getParameters().getBarcode().getHanXin().setHanXinEncodeMode(HanXinEncodeMode.EXTENDED);
+>  bg.getParameters().getBarcode().getHanXin().setEncodeMode(EncodeMode.EXTENDED);
 >  BufferedImage img = bg.generateBarCodeImage();
 >  BarCodeReader r = new BarCodeReader(img, DecodeType.HAN_XIN))
 >  BarcodeResult[] found = r.readBarCodes();
