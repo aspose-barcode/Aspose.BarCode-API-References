@@ -1,8 +1,8 @@
 ---
-title: BarcodeSettings.getChecksumValidation
-linktitle: getChecksumValidation
-articleTitle: getChecksumValidation
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeSettings.getChecksumValidation"
+linktitle: "getChecksumValidation"
+articleTitle: "getChecksumValidation"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Enable checksum validation during recognition for 1D and Postal barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where ..."
 type: docs
 weight: 40

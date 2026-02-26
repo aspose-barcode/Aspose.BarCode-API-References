@@ -1,8 +1,8 @@
 ---
-title: HIBCLICComplexCodetext Class
-linktitle: HIBCLICComplexCodetext
-articleTitle: HIBCLICComplexCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICComplexCodetext Class"
+linktitle: "HIBCLICComplexCodetext"
+articleTitle: "HIBCLICComplexCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Base class for encoding and decoding the text embedded in the HIBC LIC code."
 type: docs
 weight: 220

@@ -1,8 +1,8 @@
 ---
-title: SecondaryAndAdditionalData.getExpiryDateFormat
-linktitle: getExpiryDateFormat
-articleTitle: getExpiryDateFormat
-second_title: Aspose.BarCode for Node.js via Java
+title: "SecondaryAndAdditionalData.getExpiryDateFormat"
+linktitle: "getExpiryDateFormat"
+articleTitle: "getExpiryDateFormat"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies expiry date format."
 type: docs
 weight: 40

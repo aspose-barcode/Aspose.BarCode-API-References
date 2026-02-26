@@ -1,8 +1,8 @@
 ---
-title: CodabarParameters.getCodabarStopSymbol
-linktitle: getCodabarStopSymbol
-articleTitle: getCodabarStopSymbol
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarParameters.getCodabarStopSymbol"
+linktitle: "getCodabarStopSymbol"
+articleTitle: "getCodabarStopSymbol"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A."
 type: docs
 weight: 130

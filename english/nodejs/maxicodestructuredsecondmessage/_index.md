@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStructuredSecondMessage Class
-linktitle: MaxiCodeStructuredSecondMessage
-articleTitle: MaxiCodeStructuredSecondMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStructuredSecondMessage Class"
+linktitle: "MaxiCodeStructuredSecondMessage"
+articleTitle: "MaxiCodeStructuredSecondMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Class for encoding and decoding structured second message for MaxiCode barcode."
 type: docs
 weight: 210

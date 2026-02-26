@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarExtendedParameters.getTwoDCodeText
-linktitle: getTwoDCodeText
-articleTitle: getTwoDCodeText
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarExtendedParameters.getTwoDCodeText"
+linktitle: "getTwoDCodeText"
+articleTitle: "getTwoDCodeText"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 60

@@ -1,8 +1,8 @@
 ---
-title: FontStyle Enum
-linktitle: FontStyle
-articleTitle: FontStyle
-second_title: Aspose.BarCode for Node.js via Java
+title: "FontStyle Enum"
+linktitle: "FontStyle"
+articleTitle: "FontStyle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "FontStyle classification."
 type: docs
 weight: 850

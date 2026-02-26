@@ -1,8 +1,8 @@
 ---
-title: OptionalFields.setNameSuffix
-linktitle: setNameSuffix
-articleTitle: setNameSuffix
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields.setNameSuffix"
+linktitle: "setNameSuffix"
+articleTitle: "setNameSuffix"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DCU, Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID ..."
 type: docs
 weight: 200

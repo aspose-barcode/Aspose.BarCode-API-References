@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.setMacroCharacters
-linktitle: setMacroCharacters
-articleTitle: setMacroCharacters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.setMacroCharacters"
+linktitle: "setMacroCharacters"
+articleTitle: "setMacroCharacters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroP..."
 type: docs
 weight: 760

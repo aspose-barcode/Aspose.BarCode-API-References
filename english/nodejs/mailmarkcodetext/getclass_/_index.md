@@ -1,9 +1,9 @@
 ---
-title: MailmarkCodetext.getClass_
-linktitle: getClass_
-articleTitle: getClass_
-second_title: Aspose.BarCode for Node.js via Java
-description: "\"0\" - Null or Test \"1\" - 1C (Retail) \"2\" - 2C (Retail) \"3\" - 3C (Retail) \"4\" - Premium (RetailPublishing Mail) (for potential future use) \"5\" - D..."
+title: "MailmarkCodetext.getClass_"
+linktitle: "getClass_"
+articleTitle: "getClass_"
+second_title: "Aspose.BarCode for Node.js via Java"
+description: "\"0\" - Null or Test \"1\" - 1C (Retail) \"2\" - 2C (Retail) \"3\" - 3C (Retail) \"4\" - Premium (RetailPublishing Mail) (for potential future use) \"5\" - Deferred (Ret..."
 type: docs
 weight: 60
 url: /nodejs/mailmarkcodetext/getclass_/

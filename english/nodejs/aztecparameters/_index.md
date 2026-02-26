@@ -1,8 +1,8 @@
 ---
-title: AztecParameters Class
-linktitle: AztecParameters
-articleTitle: AztecParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "AztecParameters Class"
+linktitle: "AztecParameters"
+articleTitle: "AztecParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Aztec parameters."
 type: docs
 weight: 660

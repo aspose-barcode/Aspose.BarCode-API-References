@@ -1,8 +1,8 @@
 ---
-title: HIBCLICCombinedCodetext Class
-linktitle: HIBCLICCombinedCodetext
-articleTitle: HIBCLICCombinedCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICCombinedCodetext Class"
+linktitle: "HIBCLICCombinedCodetext"
+articleTitle: "HIBCLICCombinedCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data."
 type: docs
 weight: 230

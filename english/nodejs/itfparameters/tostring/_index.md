@@ -1,8 +1,8 @@
 ---
-title: ITFParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "ITFParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this ITFParameters."
 type: docs
 weight: 140

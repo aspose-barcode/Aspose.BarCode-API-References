@@ -1,8 +1,8 @@
 ---
-title: Code128EncodeMode Enum
-linktitle: Code128EncodeMode
-articleTitle: Code128EncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128EncodeMode Enum"
+linktitle: "Code128EncodeMode"
+articleTitle: "Code128EncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Encoding mode for Code128 barcodes. Code 128 specification."
 type: docs
 weight: 1170

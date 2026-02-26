@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator
-linktitle: BarcodeGenerator
-articleTitle: BarcodeGenerator
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator"
+linktitle: "BarcodeGenerator"
+articleTitle: "BarcodeGenerator"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the BarcodeGenerator class."
 type: docs
 weight: 10

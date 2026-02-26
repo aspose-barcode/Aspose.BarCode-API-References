@@ -1,8 +1,8 @@
 ---
-title: CodabarParameters.init
-linktitle: init
-articleTitle: init
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarParameters.init"
+linktitle: "init"
+articleTitle: "init"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 20

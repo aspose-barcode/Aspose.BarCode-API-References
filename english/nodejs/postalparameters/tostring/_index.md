@@ -1,8 +1,8 @@
 ---
-title: PostalParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "PostalParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this PostalParameters."
 type: docs
 weight: 80

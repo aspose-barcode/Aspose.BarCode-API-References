@@ -1,8 +1,8 @@
 ---
-title: BorderParameters Class
-linktitle: BorderParameters
-articleTitle: BorderParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "BorderParameters Class"
+linktitle: "BorderParameters"
+articleTitle: "BorderParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Barcode image border parameters."
 type: docs
 weight: 470

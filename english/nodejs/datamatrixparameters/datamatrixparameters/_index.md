@@ -1,8 +1,8 @@
 ---
-title: DataMatrixParameters
-linktitle: DataMatrixParameters
-articleTitle: DataMatrixParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixParameters"
+linktitle: "DataMatrixParameters"
+articleTitle: "DataMatrixParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the DataMatrixParameters class."
 type: docs
 weight: 10

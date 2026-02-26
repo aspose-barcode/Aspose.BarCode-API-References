@@ -1,8 +1,8 @@
 ---
-title: USADriveIdCodetext.setOptionalElements
-linktitle: setOptionalElements
-articleTitle: setOptionalElements
-second_title: Aspose.BarCode for Node.js via Java
+title: "USADriveIdCodetext.setOptionalElements"
+linktitle: "setOptionalElements"
+articleTitle: "setOptionalElements"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Optional elements (fields) of the card."
 type: docs
 weight: 180

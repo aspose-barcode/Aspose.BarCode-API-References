@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addGB18030TwoByte
-linktitle: addGB18030TwoByte
-articleTitle: addGB18030TwoByte
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addGB18030TwoByte"
+linktitle: "addGB18030TwoByte"
+articleTitle: "addGB18030TwoByte"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in GB18030 Two Byte mode."
 type: docs
 weight: 130

@@ -1,8 +1,8 @@
 ---
-title: DeconvolutionMode Enum
-linktitle: DeconvolutionMode
-articleTitle: DeconvolutionMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "DeconvolutionMode Enum"
+linktitle: "DeconvolutionMode"
+articleTitle: "DeconvolutionMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (co..."
 type: docs
 weight: 1520

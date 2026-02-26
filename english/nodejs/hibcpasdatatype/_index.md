@@ -1,8 +1,8 @@
 ---
-title: HIBCPASDataType Enum
-linktitle: HIBCPASDataType
-articleTitle: HIBCPASDataType
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASDataType Enum"
+linktitle: "HIBCPASDataType"
+articleTitle: "HIBCPASDataType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "HIBC PAS record's data types."
 type: docs
 weight: 330

@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getMaxiCode
-linktitle: getMaxiCode
-articleTitle: getMaxiCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getMaxiCode"
+linktitle: "getMaxiCode"
+articleTitle: "getMaxiCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "MaxiCode parameters."
 type: docs
 weight: 620

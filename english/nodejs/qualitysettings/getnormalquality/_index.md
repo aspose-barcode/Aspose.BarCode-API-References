@@ -1,8 +1,8 @@
 ---
-title: QualitySettings.getNormalQuality
-linktitle: getNormalQuality
-articleTitle: getNormalQuality
-second_title: Aspose.BarCode for Node.js via Java
+title: "QualitySettings.getNormalQuality"
+linktitle: "getNormalQuality"
+articleTitle: "getNormalQuality"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "NormalQuality recognition quality preset. Suitable for the most of barcodes."
 type: docs
 weight: 50

@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeParameters.setMaxiCodeEncodeMode
-linktitle: setMaxiCodeEncodeMode
-articleTitle: setMaxiCodeEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeParameters.setMaxiCodeEncodeMode"
+linktitle: "setMaxiCodeEncodeMode"
+articleTitle: "setMaxiCodeEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets a MaxiCode encode mode."
 type: docs
 weight: 100

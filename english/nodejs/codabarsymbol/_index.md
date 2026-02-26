@@ -1,8 +1,8 @@
 ---
-title: CodabarSymbol Enum
-linktitle: CodabarSymbol
-articleTitle: CodabarSymbol
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarSymbol Enum"
+linktitle: "CodabarSymbol"
+articleTitle: "CodabarSymbol"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the start or stop symbol of the Codabar barcode specification."
 type: docs
 weight: 860

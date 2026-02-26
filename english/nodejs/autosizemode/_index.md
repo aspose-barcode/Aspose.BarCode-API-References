@@ -1,8 +1,8 @@
 ---
-title: AutoSizeMode Enum
-linktitle: AutoSizeMode
-articleTitle: AutoSizeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "AutoSizeMode Enum"
+linktitle: "AutoSizeMode"
+articleTitle: "AutoSizeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the different types of automatic sizing modes. Default value is AutoSizeMode.NONE."
 type: docs
 weight: 1020

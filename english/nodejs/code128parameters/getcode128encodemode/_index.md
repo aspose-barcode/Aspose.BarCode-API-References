@@ -1,8 +1,8 @@
 ---
-title: Code128Parameters.getCode128EncodeMode
-linktitle: getCode128EncodeMode
-articleTitle: getCode128EncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128Parameters.getCode128EncodeMode"
+linktitle: "getCode128EncodeMode"
+articleTitle: "getCode128EncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto."
 type: docs
 weight: 50

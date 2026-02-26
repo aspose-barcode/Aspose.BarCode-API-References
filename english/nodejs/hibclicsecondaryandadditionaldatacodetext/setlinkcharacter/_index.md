@@ -1,8 +1,8 @@
 ---
-title: HIBCLICSecondaryAndAdditionalDataCodetext.setLinkCharacter
-linktitle: setLinkCharacter
-articleTitle: setLinkCharacter
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICSecondaryAndAdditionalDataCodetext.setLinkCharacter"
+linktitle: "setLinkCharacter"
+articleTitle: "setLinkCharacter"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies link character."
 type: docs
 weight: 80

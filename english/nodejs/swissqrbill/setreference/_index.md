@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.setReference
-linktitle: setReference
-articleTitle: setReference
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.setReference"
+linktitle: "setReference"
+articleTitle: "setReference"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the creditor payment reference."
 type: docs
 weight: 170

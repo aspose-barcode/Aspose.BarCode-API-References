@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.setPdf417MacroECIEncoding
-linktitle: setPdf417MacroECIEncoding
-articleTitle: setPdf417MacroECIEncoding
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.setPdf417MacroECIEncoding"
+linktitle: "setPdf417MacroECIEncoding"
+articleTitle: "setPdf417MacroECIEncoding"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields."
 type: docs
 weight: 660

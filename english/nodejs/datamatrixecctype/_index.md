@@ -1,8 +1,8 @@
 ---
-title: DataMatrixEccType Enum
-linktitle: DataMatrixEccType
-articleTitle: DataMatrixEccType
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixEccType Enum"
+linktitle: "DataMatrixEccType"
+articleTitle: "DataMatrixEccType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specify the type of the ECC to encode."
 type: docs
 weight: 910

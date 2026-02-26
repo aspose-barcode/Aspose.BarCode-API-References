@@ -1,8 +1,8 @@
 ---
-title: QrParameters.getStructuredAppend
-linktitle: getStructuredAppend
-articleTitle: getStructuredAppend
-second_title: Aspose.BarCode for Node.js via Java
+title: "QrParameters.getStructuredAppend"
+linktitle: "getStructuredAppend"
+articleTitle: "getStructuredAppend"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "QR structured append parameters."
 type: docs
 weight: 60

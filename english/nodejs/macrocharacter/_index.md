@@ -1,9 +1,9 @@
 ---
-title: MacroCharacter Enum
-linktitle: MacroCharacter
-articleTitle: MacroCharacter
-second_title: Aspose.BarCode for Node.js via Java
-description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to \"[)>\\u001E05\\u001D\" as d..."
+title: "MacroCharacter Enum"
+linktitle: "MacroCharacter"
+articleTitle: "MacroCharacter"
+second_title: "Aspose.BarCode for Node.js via Java"
+description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to \"[)>\\u001E05\\u001D\" as decod..."
 type: docs
 weight: 1060
 url: /nodejs/macrocharacter/

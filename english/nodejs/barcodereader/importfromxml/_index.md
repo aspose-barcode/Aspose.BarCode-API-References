@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.importFromXml
-linktitle: importFromXml
-articleTitle: importFromXml
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.importFromXml"
+linktitle: "importFromXml"
+articleTitle: "importFromXml"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Exports BarCode properties to the xml-file specified."
 type: docs
 weight: 230

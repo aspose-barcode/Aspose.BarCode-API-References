@@ -1,8 +1,8 @@
 ---
-title: MandatoryFields.setRestrictionCodes
-linktitle: setRestrictionCodes
-articleTitle: setRestrictionCodes
-second_title: Aspose.BarCode for Node.js via Java
+title: "MandatoryFields.setRestrictionCodes"
+linktitle: "setRestrictionCodes"
+articleTitle: "setRestrictionCodes"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DCB, Jurisdiction-specific restrictions codes, DL, V12ANS."
 type: docs
 weight: 50

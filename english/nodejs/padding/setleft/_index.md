@@ -1,8 +1,8 @@
 ---
-title: Padding.setLeft
-linktitle: setLeft
-articleTitle: setLeft
-second_title: Aspose.BarCode for Node.js via Java
+title: "Padding.setLeft"
+linktitle: "setLeft"
+articleTitle: "setLeft"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Left padding."
 type: docs
 weight: 140

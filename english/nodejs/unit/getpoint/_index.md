@@ -1,8 +1,8 @@
 ---
-title: Unit.getPoint
-linktitle: getPoint
-articleTitle: getPoint
-second_title: Aspose.BarCode for Node.js via Java
+title: "Unit.getPoint"
+linktitle: "getPoint"
+articleTitle: "getPoint"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets size value in point."
 type: docs
 weight: 100

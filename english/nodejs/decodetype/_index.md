@@ -1,8 +1,8 @@
 ---
-title: DecodeType Enum
-linktitle: DecodeType
-articleTitle: DecodeType
-second_title: Aspose.BarCode for Node.js via Java
+title: "DecodeType Enum"
+linktitle: "DecodeType"
+articleTitle: "DecodeType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specify the type of barcode to read."
 type: docs
 weight: 1470

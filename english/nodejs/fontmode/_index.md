@@ -1,8 +1,8 @@
 ---
-title: FontMode Enum
-linktitle: FontMode
-articleTitle: FontMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "FontMode Enum"
+linktitle: "FontMode"
+articleTitle: "FontMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Font size mode."
 type: docs
 weight: 1000

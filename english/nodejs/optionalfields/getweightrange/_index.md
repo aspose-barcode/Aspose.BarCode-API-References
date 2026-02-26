@@ -1,8 +1,8 @@
 ---
-title: OptionalFields.getWeightRange
-linktitle: getWeightRange
-articleTitle: getWeightRange
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields.getWeightRange"
+linktitle: "getWeightRange"
+articleTitle: "getWeightRange"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DCE, Indicates the approximate weight range of the cardholder: 0 = up to 31 kg(up to 70 lbs), 1 = 32 – 45 kg(71 – 100 lbs), 2 = 46 - 59 kg(101 – 130 lbs), 3 ..."
 type: docs
 weight: 210

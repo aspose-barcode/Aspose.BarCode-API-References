@@ -1,8 +1,8 @@
 ---
-title: SwissQRCodetext.getBill
-linktitle: getBill
-articleTitle: getBill
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRCodetext.getBill"
+linktitle: "getBill"
+articleTitle: "getBill"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "SwissQR bill data."
 type: docs
 weight: 40

@@ -1,8 +1,8 @@
 ---
-title: QrExtCodetextBuilder.addFNC1GroupSeparator
-linktitle: addFNC1GroupSeparator
-articleTitle: addFNC1GroupSeparator
-second_title: Aspose.BarCode for Node.js via Java
+title: "QrExtCodetextBuilder.addFNC1GroupSeparator"
+linktitle: "addFNC1GroupSeparator"
+articleTitle: "addFNC1GroupSeparator"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds Group Separator (GS - '\\\\u001D') to the extended codetext items."
 type: docs
 weight: 60

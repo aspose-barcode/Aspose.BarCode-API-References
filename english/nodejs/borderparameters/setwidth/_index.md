@@ -1,8 +1,8 @@
 ---
-title: BorderParameters.setWidth
-linktitle: setWidth
-articleTitle: setWidth
-second_title: Aspose.BarCode for Node.js via Java
+title: "BorderParameters.setWidth"
+linktitle: "setWidth"
+articleTitle: "setWidth"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Border width. Default value: 0. Ignored if Visible is set to false."
 type: docs
 weight: 70

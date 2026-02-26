@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.getCreditor
-linktitle: getCreditor
-articleTitle: getCreditor
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.getCreditor"
+linktitle: "getCreditor"
+articleTitle: "getCreditor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the creditor address."
 type: docs
 weight: 140

@@ -1,8 +1,8 @@
 ---
-title: CaptionParameters.setAlignment
-linktitle: setAlignment
-articleTitle: setAlignment
-second_title: Aspose.BarCode for Node.js via Java
+title: "CaptionParameters.setAlignment"
+linktitle: "setAlignment"
+articleTitle: "setAlignment"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Caption test horizontal alignment. Default TextAlignment.CENTER."
 type: docs
 weight: 150

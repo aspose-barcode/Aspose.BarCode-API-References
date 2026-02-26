@@ -1,8 +1,8 @@
 ---
-title: BaseGenerationParameters.getRotationAngle
-linktitle: getRotationAngle
-articleTitle: getRotationAngle
-second_title: Aspose.BarCode for Node.js via Java
+title: "BaseGenerationParameters.getRotationAngle"
+linktitle: "getRotationAngle"
+articleTitle: "getRotationAngle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or RotationAngle = 360 means no rotation. If RotationAngle NOT equal to 90, 180, 270..."
 type: docs
 weight: 170

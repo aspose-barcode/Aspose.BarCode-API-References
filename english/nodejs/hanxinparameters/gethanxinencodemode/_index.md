@@ -1,8 +1,8 @@
 ---
-title: HanXinParameters.getHanXinEncodeMode
-linktitle: getHanXinEncodeMode
-articleTitle: getHanXinEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinParameters.getHanXinEncodeMode"
+linktitle: "getHanXinEncodeMode"
+articleTitle: "getHanXinEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "HanXin encoding mode. Default value: HanXinEncodeMode.Mixed."
 type: docs
 weight: 130

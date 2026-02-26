@@ -1,8 +1,8 @@
 ---
-title: Unit Class
-linktitle: Unit
-articleTitle: Unit
-second_title: Aspose.BarCode for Node.js via Java
+title: "Unit Class"
+linktitle: "Unit"
+articleTitle: "Unit"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the size value in different units (Pixel, Inches, etc.)."
 type: docs
 weight: 490

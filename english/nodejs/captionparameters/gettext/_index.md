@@ -1,8 +1,8 @@
 ---
-title: CaptionParameters.getText
-linktitle: getText
-articleTitle: getText
-second_title: Aspose.BarCode for Node.js via Java
+title: "CaptionParameters.getText"
+linktitle: "getText"
+articleTitle: "getText"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Caption text. Default value: empty string."
 type: docs
 weight: 50

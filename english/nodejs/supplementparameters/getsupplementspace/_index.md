@@ -1,8 +1,8 @@
 ---
-title: SupplementParameters.getSupplementSpace
-linktitle: getSupplementSpace
-articleTitle: getSupplementSpace
-second_title: Aspose.BarCode for Node.js via Java
+title: "SupplementParameters.getSupplementSpace"
+linktitle: "getSupplementSpace"
+articleTitle: "getSupplementSpace"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Space between main the BarCode and supplement BarCode in Unit value."
 type: docs
 weight: 60

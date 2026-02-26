@@ -1,8 +1,8 @@
 ---
-title: SubfileProperties Class
-linktitle: SubfileProperties
-articleTitle: SubfileProperties
-second_title: Aspose.BarCode for Node.js via Java
+title: "SubfileProperties Class"
+linktitle: "SubfileProperties"
+articleTitle: "SubfileProperties"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "USA DL subfile properties, offset and length are set automatically."
 type: docs
 weight: 350

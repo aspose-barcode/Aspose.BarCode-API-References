@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getCodeTextParameters
-linktitle: getCodeTextParameters
-articleTitle: getCodeTextParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getCodeTextParameters"
+linktitle: "getCodeTextParameters"
+articleTitle: "getCodeTextParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Codetext parameters."
 type: docs
 weight: 430

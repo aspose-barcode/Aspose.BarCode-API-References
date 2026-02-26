@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.setGS1CompositeBar
-linktitle: setGS1CompositeBar
-articleTitle: setGS1CompositeBar
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.setGS1CompositeBar"
+linktitle: "setGS1CompositeBar"
+articleTitle: "setGS1CompositeBar"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "GS1 Composite Bar parameters."
 type: docs
 weight: 530

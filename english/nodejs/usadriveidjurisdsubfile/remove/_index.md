@@ -1,8 +1,8 @@
 ---
-title: USADriveIdJurisdSubfile.remove
-linktitle: remove
-articleTitle: remove
-second_title: Aspose.BarCode for Node.js via Java
+title: "USADriveIdJurisdSubfile.remove"
+linktitle: "remove"
+articleTitle: "remove"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Tries to remove element at index."
 type: docs
 weight: 100

@@ -1,8 +1,8 @@
 ---
-title: AustralianPostParameters Class
-linktitle: AustralianPostParameters
-articleTitle: AustralianPostParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "AustralianPostParameters Class"
+linktitle: "AustralianPostParameters"
+articleTitle: "AustralianPostParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "AustralianPost barcode parameters."
 type: docs
 weight: 530

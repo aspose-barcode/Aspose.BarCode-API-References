@@ -1,8 +1,8 @@
 ---
-title: FontUnit.initFontUnit
-linktitle: initFontUnit
-articleTitle: initFontUnit
-second_title: Aspose.BarCode for Node.js via Java
+title: "FontUnit.initFontUnit"
+linktitle: "initFontUnit"
+articleTitle: "initFontUnit"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 30

@@ -1,8 +1,8 @@
 ---
-title: Unit.getDocument
-linktitle: getDocument
-articleTitle: getDocument
-second_title: Aspose.BarCode for Node.js via Java
+title: "Unit.getDocument"
+linktitle: "getDocument"
+articleTitle: "getDocument"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets size value in document units."
 type: docs
 weight: 120

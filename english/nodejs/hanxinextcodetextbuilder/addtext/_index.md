@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addText
-linktitle: addText
-articleTitle: addText
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addText"
+linktitle: "addText"
+articleTitle: "addText"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in Text mode."
 type: docs
 weight: 80

@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.abort
-linktitle: abort
-articleTitle: abort
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.abort"
+linktitle: "abort"
+articleTitle: "abort"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 120

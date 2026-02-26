@@ -1,8 +1,8 @@
 ---
-title: QREncodeType Enum
-linktitle: QREncodeType
-articleTitle: QREncodeType
-second_title: Aspose.BarCode for Node.js via Java
+title: "QREncodeType Enum"
+linktitle: "QREncodeType"
+articleTitle: "QREncodeType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "QR / MicroQR selector mode. Select FORCE_QR for standard QR symbols, AUTO for MicroQR. FORCE_MICRO_QR is used for strongly MicroQR symbol generation if it is..."
 type: docs
 weight: 970

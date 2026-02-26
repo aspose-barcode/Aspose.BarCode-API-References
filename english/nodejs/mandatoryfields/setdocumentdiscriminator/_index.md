@@ -1,8 +1,8 @@
 ---
-title: MandatoryFields.setDocumentDiscriminator
-linktitle: setDocumentDiscriminator
-articleTitle: setDocumentDiscriminator
-second_title: Aspose.BarCode for Node.js via Java
+title: "MandatoryFields.setDocumentDiscriminator"
+linktitle: "setDocumentDiscriminator"
+articleTitle: "setDocumentDiscriminator"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DCF, Number must uniquely identify a particular document issued to that customer from others that may have been issued in the past. This number may serve mul..."
 type: docs
 weight: 330

@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeExtCodetextBuilder
-linktitle: MaxiCodeExtCodetextBuilder
-articleTitle: MaxiCodeExtCodetextBuilder
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeExtCodetextBuilder"
+linktitle: "MaxiCodeExtCodetextBuilder"
+articleTitle: "MaxiCodeExtCodetextBuilder"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the MaxiCodeExtCodetextBuilder class."
 type: docs
 weight: 10

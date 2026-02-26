@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarExtendedParameters.getOneDType
-linktitle: getOneDType
-articleTitle: getOneDType
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarExtendedParameters.getOneDType"
+linktitle: "getOneDType"
+articleTitle: "getOneDType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 30

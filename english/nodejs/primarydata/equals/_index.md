@@ -1,8 +1,8 @@
 ---
-title: PrimaryData.equals
-linktitle: equals
-articleTitle: equals
-second_title: Aspose.BarCode for Node.js via Java
+title: "PrimaryData.equals"
+linktitle: "equals"
+articleTitle: "equals"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a value indicating whether this instance is equal to a specified PrimaryData value."
 type: docs
 weight: 120

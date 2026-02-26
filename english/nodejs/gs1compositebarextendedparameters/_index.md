@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarExtendedParameters Class
-linktitle: GS1CompositeBarExtendedParameters
-articleTitle: GS1CompositeBarExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarExtendedParameters Class"
+linktitle: "GS1CompositeBarExtendedParameters"
+articleTitle: "GS1CompositeBarExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores special data of GS1 Composite Bar recognized barcode."
 type: docs
 weight: 1440

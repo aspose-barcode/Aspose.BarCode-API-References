@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator Class
-linktitle: BarcodeGenerator
-articleTitle: BarcodeGenerator
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator Class"
+linktitle: "BarcodeGenerator"
+articleTitle: "BarcodeGenerator"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "BarcodeGenerator for backend barcode images generation. supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, C..."
 type: docs
 weight: 440

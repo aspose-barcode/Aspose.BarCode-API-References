@@ -1,8 +1,8 @@
 ---
-title: QREncodeMode Enum
-linktitle: QREncodeMode
-articleTitle: QREncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "QREncodeMode Enum"
+linktitle: "QREncodeMode"
+articleTitle: "QREncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Encoding mode for QR barcodes."
 type: docs
 weight: 900

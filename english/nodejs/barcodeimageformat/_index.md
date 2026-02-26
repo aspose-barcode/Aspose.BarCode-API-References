@@ -1,8 +1,8 @@
 ---
-title: BarCodeImageFormat Enum
-linktitle: BarCodeImageFormat
-articleTitle: BarCodeImageFormat
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeImageFormat Enum"
+linktitle: "BarCodeImageFormat"
+articleTitle: "BarCodeImageFormat"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the file format of the image."
 type: docs
 weight: 1100

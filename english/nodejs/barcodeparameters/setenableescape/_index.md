@@ -1,9 +1,9 @@
 ---
-title: BarcodeParameters.setEnableEscape
-linktitle: setEnableEscape
-articleTitle: setEnableEscape
-second_title: Aspose.BarCode for Node.js via Java
-description: "Indicates whether explains the character \"\\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is..."
+title: "BarcodeParameters.setEnableEscape"
+linktitle: "setEnableEscape"
+articleTitle: "setEnableEscape"
+second_title: "Aspose.BarCode for Node.js via Java"
+description: "Indicates whether explains the character \"\\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is tr..."
 type: docs
 weight: 400
 url: /nodejs/barcodeparameters/setenableescape/

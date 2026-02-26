@@ -1,8 +1,8 @@
 ---
-title: MandatoryFields.setAddressPostalCode
-linktitle: setAddressPostalCode
-articleTitle: setAddressPostalCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "MandatoryFields.setAddressPostalCode"
+linktitle: "setAddressPostalCode"
+articleTitle: "setAddressPostalCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DAK, Postal code portion of the cardholder address in the U.S.and Canada. If the trailing portion of the postal code in the U.S. is not known, zeros will be ..."
 type: docs
 weight: 290

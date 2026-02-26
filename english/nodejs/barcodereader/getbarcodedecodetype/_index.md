@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.getBarCodeDecodeType
-linktitle: getBarCodeDecodeType
-articleTitle: getBarCodeDecodeType
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.getBarCodeDecodeType"
+linktitle: "getBarCodeDecodeType"
+articleTitle: "getBarCodeDecodeType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the decode type of the input barcode decoding."
 type: docs
 weight: 210

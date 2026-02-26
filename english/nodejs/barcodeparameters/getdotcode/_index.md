@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getDotCode
-linktitle: getDotCode
-articleTitle: getDotCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getDotCode"
+linktitle: "getDotCode"
+articleTitle: "getDotCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DotCode parameters."
 type: docs
 weight: 570

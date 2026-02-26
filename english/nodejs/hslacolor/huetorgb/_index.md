@@ -1,8 +1,8 @@
 ---
-title: HslaColor.hueToRgb
-linktitle: hueToRgb
-articleTitle: hueToRgb
-second_title: Aspose.BarCode for Node.js via Java
+title: "HslaColor.hueToRgb"
+linktitle: "hueToRgb"
+articleTitle: "hueToRgb"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 100

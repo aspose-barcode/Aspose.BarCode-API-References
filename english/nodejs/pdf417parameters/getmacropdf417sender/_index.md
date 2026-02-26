@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.getMacroPdf417Sender
-linktitle: getMacroPdf417Sender
-articleTitle: getMacroPdf417Sender
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.getMacroPdf417Sender"
+linktitle: "getMacroPdf417Sender"
+articleTitle: "getMacroPdf417Sender"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "MacroPdf417 barcode sender name (optional field). MicroPDF417 barcode sender name (optional field for Structured Append mode)."
 type: docs
 weight: 430

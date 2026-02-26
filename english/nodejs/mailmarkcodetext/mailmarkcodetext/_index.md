@@ -1,8 +1,8 @@
 ---
-title: MailmarkCodetext
-linktitle: MailmarkCodetext
-articleTitle: MailmarkCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "MailmarkCodetext"
+linktitle: "MailmarkCodetext"
+articleTitle: "MailmarkCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the MailmarkCodetext class."
 type: docs
 weight: 10

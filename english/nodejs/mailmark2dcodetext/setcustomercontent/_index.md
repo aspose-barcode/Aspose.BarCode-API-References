@@ -1,8 +1,8 @@
 ---
-title: Mailmark2DCodetext.setCustomerContent
-linktitle: setCustomerContent
-articleTitle: setCustomerContent
-second_title: Aspose.BarCode for Node.js via Java
+title: "Mailmark2DCodetext.setCustomerContent"
+linktitle: "setCustomerContent"
+articleTitle: "setCustomerContent"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Optional space for use by customer."
 type: docs
 weight: 220

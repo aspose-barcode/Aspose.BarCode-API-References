@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeExtCodetextBuilder Class
-linktitle: MaxiCodeExtCodetextBuilder
-articleTitle: MaxiCodeExtCodetextBuilder
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeExtCodetextBuilder Class"
+linktitle: "MaxiCodeExtCodetextBuilder"
+articleTitle: "MaxiCodeExtCodetextBuilder"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set vis..."
 type: docs
 weight: 730

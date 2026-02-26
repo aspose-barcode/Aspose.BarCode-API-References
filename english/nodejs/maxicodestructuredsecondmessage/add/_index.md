@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStructuredSecondMessage.add
-linktitle: add
-articleTitle: add
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStructuredSecondMessage.add"
+linktitle: "add"
+articleTitle: "add"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds new identifier."
 type: docs
 weight: 70

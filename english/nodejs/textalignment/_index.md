@@ -1,8 +1,8 @@
 ---
-title: TextAlignment Enum
-linktitle: TextAlignment
-articleTitle: TextAlignment
-second_title: Aspose.BarCode for Node.js via Java
+title: "TextAlignment Enum"
+linktitle: "TextAlignment"
+articleTitle: "TextAlignment"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Text alignment."
 type: docs
 weight: 1010

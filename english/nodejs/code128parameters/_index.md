@@ -1,8 +1,8 @@
 ---
-title: Code128Parameters Class
-linktitle: Code128Parameters
-articleTitle: Code128Parameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128Parameters Class"
+linktitle: "Code128Parameters"
+articleTitle: "Code128Parameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Code128 parameters."
 type: docs
 weight: 750

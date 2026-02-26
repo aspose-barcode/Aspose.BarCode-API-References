@@ -1,8 +1,8 @@
 ---
-title: BarCodeResult Class
-linktitle: BarCodeResult
-articleTitle: BarCodeResult
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeResult Class"
+linktitle: "BarCodeResult"
+articleTitle: "BarCodeResult"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores recognized barcode data like SingleDecodeType type, string codetext, BarCodeRegionParameters region and other parameters."
 type: docs
 weight: 1320

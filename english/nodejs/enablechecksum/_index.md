@@ -1,8 +1,8 @@
 ---
-title: EnableChecksum Enum
-linktitle: EnableChecksum
-articleTitle: EnableChecksum
-second_title: Aspose.BarCode for Node.js via Java
+title: "EnableChecksum Enum"
+linktitle: "EnableChecksum"
+articleTitle: "EnableChecksum"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 1090

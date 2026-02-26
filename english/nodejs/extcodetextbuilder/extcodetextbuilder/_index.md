@@ -1,8 +1,8 @@
 ---
-title: ExtCodetextBuilder
-linktitle: ExtCodetextBuilder
-articleTitle: ExtCodetextBuilder
-second_title: Aspose.BarCode for Node.js via Java
+title: "ExtCodetextBuilder"
+linktitle: "ExtCodetextBuilder"
+articleTitle: "ExtCodetextBuilder"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the ExtCodetextBuilder class."
 type: docs
 weight: 10

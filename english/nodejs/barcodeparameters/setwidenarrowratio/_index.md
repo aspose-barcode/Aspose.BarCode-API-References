@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.setWideNarrowRatio
-linktitle: setWideNarrowRatio
-articleTitle: setWideNarrowRatio
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.setWideNarrowRatio"
+linktitle: "setWideNarrowRatio"
+articleTitle: "setWideNarrowRatio"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times as wide as narrow bars. Used for ITF, PZN, PharmaCode, Standard2of5, Interle..."
 type: docs
 weight: 420

@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeExtendedParameters.getMaxiCodeMode
-linktitle: getMaxiCodeMode
-articleTitle: getMaxiCodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeExtendedParameters.getMaxiCodeMode"
+linktitle: "getMaxiCodeMode"
+articleTitle: "getMaxiCodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets a MaxiCode encode mode. Default value: Mode4."
 type: docs
 weight: 40

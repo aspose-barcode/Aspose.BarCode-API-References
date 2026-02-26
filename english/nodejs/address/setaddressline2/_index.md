@@ -1,8 +1,8 @@
 ---
-title: Address.setAddressLine2
-linktitle: setAddressLine2
-articleTitle: setAddressLine2
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.setAddressLine2"
+linktitle: "setAddressLine2"
+articleTitle: "setAddressLine2"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the address line 2. Address line 2 contains postal code and town. Setting this field sets the address type to AddressType.COMBINED_ELEMENTS unless it's ..."
 type: docs
 weight: 100

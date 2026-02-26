@@ -1,8 +1,8 @@
 ---
-title: DataMatrixParameters.setStructuredAppendBarcodesCount
-linktitle: setStructuredAppendBarcodesCount
-articleTitle: setStructuredAppendBarcodesCount
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixParameters.setStructuredAppendBarcodesCount"
+linktitle: "setStructuredAppendBarcodesCount"
+articleTitle: "setStructuredAppendBarcodesCount"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Barcodes count for Structured Append mode of Datamatrix barcode. Default value: 0."
 type: docs
 weight: 180

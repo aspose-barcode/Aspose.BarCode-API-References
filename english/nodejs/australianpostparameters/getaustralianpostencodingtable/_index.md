@@ -1,8 +1,8 @@
 ---
-title: AustralianPostParameters.getAustralianPostEncodingTable
-linktitle: getAustralianPostEncodingTable
-articleTitle: getAustralianPostEncodingTable
-second_title: Aspose.BarCode for Node.js via Java
+title: "AustralianPostParameters.getAustralianPostEncodingTable"
+linktitle: "getAustralianPostEncodingTable"
+articleTitle: "getAustralianPostEncodingTable"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other\"."
 type: docs
 weight: 100

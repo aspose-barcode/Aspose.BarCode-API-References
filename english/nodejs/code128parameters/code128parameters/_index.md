@@ -1,8 +1,8 @@
 ---
-title: Code128Parameters
-linktitle: Code128Parameters
-articleTitle: Code128Parameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128Parameters"
+linktitle: "Code128Parameters"
+articleTitle: "Code128Parameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the Code128Parameters class."
 type: docs
 weight: 10

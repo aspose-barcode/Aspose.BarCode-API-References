@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.isChecksumEnabled
-linktitle: isChecksumEnabled
-articleTitle: isChecksumEnabled
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.isChecksumEnabled"
+linktitle: "isChecksumEnabled"
+articleTitle: "isChecksumEnabled"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Enable checksum during generation 1D barcodes. Default is treated as Yes for symbology which must contain checksum, as No where checksum only possible. Check..."
 type: docs
 weight: 370

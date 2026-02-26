@@ -1,8 +1,8 @@
 ---
-title: DataBarParameters Class
-linktitle: DataBarParameters
-articleTitle: DataBarParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataBarParameters Class"
+linktitle: "DataBarParameters"
+articleTitle: "DataBarParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Databar parameters."
 type: docs
 weight: 550

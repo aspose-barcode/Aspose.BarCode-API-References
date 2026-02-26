@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarParameters.isAllowOnlyGS1Encoding
-linktitle: isAllowOnlyGS1Encoding
-articleTitle: isAllowOnlyGS1Encoding
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarParameters.isAllowOnlyGS1Encoding"
+linktitle: "isAllowOnlyGS1Encoding"
+articleTitle: "isAllowOnlyGS1Encoding"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component."
 type: docs
 weight: 70

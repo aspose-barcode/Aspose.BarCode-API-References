@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.setCreditor
-linktitle: setCreditor
-articleTitle: setCreditor
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.setCreditor"
+linktitle: "setCreditor"
+articleTitle: "setCreditor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the creditor address."
 type: docs
 weight: 150

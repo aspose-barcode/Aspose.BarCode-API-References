@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarExtendedParameters
-linktitle: GS1CompositeBarExtendedParameters
-articleTitle: GS1CompositeBarExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarExtendedParameters"
+linktitle: "GS1CompositeBarExtendedParameters"
+articleTitle: "GS1CompositeBarExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the GS1CompositeBarExtendedParameters class."
 type: docs
 weight: 10

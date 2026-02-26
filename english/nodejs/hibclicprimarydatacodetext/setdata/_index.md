@@ -1,8 +1,8 @@
 ---
-title: HIBCLICPrimaryDataCodetext.setData
-linktitle: setData
-articleTitle: setData
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICPrimaryDataCodetext.setData"
+linktitle: "setData"
+articleTitle: "setData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies primary data."
 type: docs
 weight: 70

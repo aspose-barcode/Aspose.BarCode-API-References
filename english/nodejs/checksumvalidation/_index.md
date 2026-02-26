@@ -1,8 +1,8 @@
 ---
-title: ChecksumValidation Enum
-linktitle: ChecksumValidation
-articleTitle: ChecksumValidation
-second_title: Aspose.BarCode for Node.js via Java
+title: "ChecksumValidation Enum"
+linktitle: "ChecksumValidation"
+articleTitle: "ChecksumValidation"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum on..."
 type: docs
 weight: 1510

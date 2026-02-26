@@ -1,8 +1,8 @@
 ---
-title: Address Class
-linktitle: Address
-articleTitle: Address
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address Class"
+linktitle: "Address"
+articleTitle: "Address"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Address of creditor or debtor."
 type: docs
 weight: 40

@@ -1,8 +1,8 @@
 ---
-title: OptionalFields
-linktitle: OptionalFields
-articleTitle: OptionalFields
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields"
+linktitle: "OptionalFields"
+articleTitle: "OptionalFields"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the OptionalFields class."
 type: docs
 weight: 10

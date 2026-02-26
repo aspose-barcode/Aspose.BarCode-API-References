@@ -1,8 +1,8 @@
 ---
-title: DataBarParameters.setRows
-linktitle: setRows
-articleTitle: setRows
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataBarParameters.setRows"
+linktitle: "setRows"
+articleTitle: "setRows"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Rows count."
 type: docs
 weight: 100

@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addUnicode
-linktitle: addUnicode
-articleTitle: addUnicode
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addUnicode"
+linktitle: "addUnicode"
+articleTitle: "addUnicode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in Unicode mode."
 type: docs
 weight: 100

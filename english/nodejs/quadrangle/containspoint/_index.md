@@ -1,8 +1,8 @@
 ---
-title: Quadrangle.containsPoint
-linktitle: containsPoint
-articleTitle: containsPoint
-second_title: Aspose.BarCode for Node.js via Java
+title: "Quadrangle.containsPoint"
+linktitle: "containsPoint"
+articleTitle: "containsPoint"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Determines if the specified point is contained within this Quadrangle structure."
 type: docs
 weight: 200

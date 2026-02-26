@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStructuredSecondMessage.getMessage
-linktitle: getMessage
-articleTitle: getMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStructuredSecondMessage.getMessage"
+linktitle: "getMessage"
+articleTitle: "getMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets constructed second message."
 type: docs
 weight: 90

@@ -1,8 +1,8 @@
 ---
-title: Code128DataPortion.getData
-linktitle: getData
-articleTitle: getData
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128DataPortion.getData"
+linktitle: "getData"
+articleTitle: "getData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the part of code text related to subtype."
 type: docs
 weight: 30

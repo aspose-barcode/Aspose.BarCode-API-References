@@ -1,8 +1,8 @@
 ---
-title: QualitySettings
-linktitle: QualitySettings
-articleTitle: QualitySettings
-second_title: Aspose.BarCode for Node.js via Java
+title: "QualitySettings"
+linktitle: "QualitySettings"
+articleTitle: "QualitySettings"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the QualitySettings class."
 type: docs
 weight: 10

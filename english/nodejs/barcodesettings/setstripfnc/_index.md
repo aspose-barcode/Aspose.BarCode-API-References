@@ -1,8 +1,8 @@
 ---
-title: BarcodeSettings.setStripFNC
-linktitle: setStripFNC
-articleTitle: setStripFNC
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeSettings.setStripFNC"
+linktitle: "setStripFNC"
+articleTitle: "setStripFNC"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false."
 type: docs
 weight: 70

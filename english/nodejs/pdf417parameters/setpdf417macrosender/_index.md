@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.setPdf417MacroSender
-linktitle: setPdf417MacroSender
-articleTitle: setPdf417MacroSender
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.setPdf417MacroSender"
+linktitle: "setPdf417MacroSender"
+articleTitle: "setPdf417MacroSender"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets macro Pdf417 barcode sender name."
 type: docs
 weight: 460

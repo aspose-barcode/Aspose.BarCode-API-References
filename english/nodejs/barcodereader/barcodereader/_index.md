@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader
-linktitle: BarCodeReader
-articleTitle: BarCodeReader
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader"
+linktitle: "BarCodeReader"
+articleTitle: "BarCodeReader"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the BarCodeReader class."
 type: docs
 weight: 10

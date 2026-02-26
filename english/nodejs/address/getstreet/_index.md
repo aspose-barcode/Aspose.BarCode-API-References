@@ -1,8 +1,8 @@
 ---
-title: Address.getStreet
-linktitle: getStreet
-articleTitle: getStreet
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.getStreet"
+linktitle: "getStreet"
+articleTitle: "getStreet"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the street. The street must be speicfied without house number. Setting this field sets the address type to AddressType.STRUCTURED unless it's already Ad..."
 type: docs
 weight: 110

@@ -1,8 +1,8 @@
 ---
-title: Code128ExtendedParameters Class
-linktitle: Code128ExtendedParameters
-articleTitle: Code128ExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128ExtendedParameters Class"
+linktitle: "Code128ExtendedParameters"
+articleTitle: "Code128ExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores special data of Code128 recognized barcode Represents the recognized barcode's region and barcode angle."
 type: docs
 weight: 1310

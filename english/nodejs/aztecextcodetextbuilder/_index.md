@@ -1,8 +1,8 @@
 ---
-title: AztecExtCodetextBuilder Class
-linktitle: AztecExtCodetextBuilder
-articleTitle: AztecExtCodetextBuilder
-second_title: Aspose.BarCode for Node.js via Java
+title: "AztecExtCodetextBuilder Class"
+linktitle: "AztecExtCodetextBuilder"
+articleTitle: "AztecExtCodetextBuilder"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "This sample shows how to use AztecExtCodetextBuilder in Extended Mode."
 type: docs
 weight: 1050

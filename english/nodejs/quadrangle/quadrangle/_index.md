@@ -1,8 +1,8 @@
 ---
-title: Quadrangle
-linktitle: Quadrangle
-articleTitle: Quadrangle
-second_title: Aspose.BarCode for Node.js via Java
+title: "Quadrangle"
+linktitle: "Quadrangle"
+articleTitle: "Quadrangle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the Quadrangle class."
 type: docs
 weight: 10

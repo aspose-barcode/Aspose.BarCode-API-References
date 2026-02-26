@@ -1,8 +1,8 @@
 ---
-title: Mailmark2DCodetext.getSupplyChainID
-linktitle: getSupplyChainID
-articleTitle: getSupplyChainID
-second_title: Aspose.BarCode for Node.js via Java
+title: "Mailmark2DCodetext.getSupplyChainID"
+linktitle: "getSupplyChainID"
+articleTitle: "getSupplyChainID"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies the unique group of customers involved in the mailing. Max value: 9999999."
 type: docs
 weight: 110

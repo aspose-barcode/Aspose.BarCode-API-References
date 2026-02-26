@@ -1,8 +1,8 @@
 ---
-title: OneDExtendedParameters Class
-linktitle: OneDExtendedParameters
-articleTitle: OneDExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "OneDExtendedParameters Class"
+linktitle: "OneDExtendedParameters"
+articleTitle: "OneDExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores special data of 1D recognized barcode like separate codetext and checksum."
 type: docs
 weight: 1300

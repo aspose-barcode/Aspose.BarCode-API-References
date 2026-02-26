@@ -1,8 +1,8 @@
 ---
-title: CodabarExtendedParameters.getCodabarStartSymbol
-linktitle: getCodabarStartSymbol
-articleTitle: getCodabarStartSymbol
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarExtendedParameters.getCodabarStartSymbol"
+linktitle: "getCodabarStartSymbol"
+articleTitle: "getCodabarStartSymbol"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets or sets a Codabar start symbol. Default value: CodabarSymbol.A."
 type: docs
 weight: 50

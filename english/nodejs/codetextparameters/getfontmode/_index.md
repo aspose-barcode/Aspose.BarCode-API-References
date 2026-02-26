@@ -1,8 +1,8 @@
 ---
-title: CodetextParameters.getFontMode
-linktitle: getFontMode
-articleTitle: getFontMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodetextParameters.getFontMode"
+linktitle: "getFontMode"
+articleTitle: "getFontMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode.AUTO es..."
 type: docs
 weight: 70

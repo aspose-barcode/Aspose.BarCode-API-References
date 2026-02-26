@@ -1,8 +1,8 @@
 ---
-title: Quadrangle.setLeftTop
-linktitle: setLeftTop
-articleTitle: setLeftTop
-second_title: Aspose.BarCode for Node.js via Java
+title: "Quadrangle.setLeftTop"
+linktitle: "setLeftTop"
+articleTitle: "setLeftTop"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets left-top corner Point of Quadrangle regionValue: A left-top corner Point of Quadrangle region."
 type: docs
 weight: 110

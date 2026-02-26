@@ -1,8 +1,8 @@
 ---
-title: Address.getAddressLine1
-linktitle: getAddressLine1
-articleTitle: getAddressLine1
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.getAddressLine1"
+linktitle: "getAddressLine1"
+articleTitle: "getAddressLine1"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the address line 1."
 type: docs
 weight: 70

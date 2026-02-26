@@ -1,8 +1,8 @@
 ---
-title: CodablockParameters Class
-linktitle: CodablockParameters
-articleTitle: CodablockParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodablockParameters Class"
+linktitle: "CodablockParameters"
+articleTitle: "CodablockParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Codablock parameters."
 type: docs
 weight: 540

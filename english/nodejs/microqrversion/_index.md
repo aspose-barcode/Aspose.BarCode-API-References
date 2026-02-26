@@ -1,8 +1,8 @@
 ---
-title: MicroQRVersion Enum
-linktitle: MicroQRVersion
-articleTitle: MicroQRVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "MicroQRVersion Enum"
+linktitle: "MicroQRVersion"
+articleTitle: "MicroQRVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Version of MicroQR Code. From M1 to M4."
 type: docs
 weight: 1230

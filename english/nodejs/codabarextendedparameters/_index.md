@@ -1,8 +1,8 @@
 ---
-title: CodabarExtendedParameters Class
-linktitle: CodabarExtendedParameters
-articleTitle: CodabarExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarExtendedParameters Class"
+linktitle: "CodabarExtendedParameters"
+articleTitle: "CodabarExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores a Codabar additional information of recognized barcode."
 type: docs
 weight: 1460

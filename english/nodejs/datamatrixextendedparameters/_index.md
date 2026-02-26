@@ -1,8 +1,8 @@
 ---
-title: DataMatrixExtendedParameters Class
-linktitle: DataMatrixExtendedParameters
-articleTitle: DataMatrixExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixExtendedParameters Class"
+linktitle: "DataMatrixExtendedParameters"
+articleTitle: "DataMatrixExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores special data of DataMatrix recognized barcode."
 type: docs
 weight: 1430

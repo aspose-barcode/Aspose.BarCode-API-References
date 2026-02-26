@@ -1,8 +1,8 @@
 ---
-title: SecondaryAndAdditionalData
-linktitle: SecondaryAndAdditionalData
-articleTitle: SecondaryAndAdditionalData
-second_title: Aspose.BarCode for Node.js via Java
+title: "SecondaryAndAdditionalData"
+linktitle: "SecondaryAndAdditionalData"
+articleTitle: "SecondaryAndAdditionalData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the SecondaryAndAdditionalData class."
 type: docs
 weight: 10

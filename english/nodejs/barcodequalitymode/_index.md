@@ -1,8 +1,8 @@
 ---
-title: BarcodeQualityMode Enum
-linktitle: BarcodeQualityMode
-articleTitle: BarcodeQualityMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeQualityMode Enum"
+linktitle: "BarcodeQualityMode"
+articleTitle: "BarcodeQualityMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows..."
 type: docs
 weight: 1560

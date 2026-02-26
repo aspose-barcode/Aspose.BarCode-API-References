@@ -1,8 +1,8 @@
 ---
-title: BarCodeRegionParameters.hashCode
-linktitle: hashCode
-articleTitle: hashCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeRegionParameters.hashCode"
+linktitle: "hashCode"
+articleTitle: "hashCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns the hash code for this instance."
 type: docs
 weight: 120

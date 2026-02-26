@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeSecondMessage Class
-linktitle: MaxiCodeSecondMessage
-articleTitle: MaxiCodeSecondMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeSecondMessage Class"
+linktitle: "MaxiCodeSecondMessage"
+articleTitle: "MaxiCodeSecondMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6."
 type: docs
 weight: 140

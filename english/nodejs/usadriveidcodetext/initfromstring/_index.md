@@ -1,8 +1,8 @@
 ---
-title: USADriveIdCodetext.initFromString
-linktitle: initFromString
-articleTitle: initFromString
-second_title: Aspose.BarCode for Node.js via Java
+title: "USADriveIdCodetext.initFromString"
+linktitle: "initFromString"
+articleTitle: "initFromString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initialize USA DL object from codetext."
 type: docs
 weight: 220

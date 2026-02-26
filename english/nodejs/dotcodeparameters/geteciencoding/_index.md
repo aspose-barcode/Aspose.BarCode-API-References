@@ -1,8 +1,8 @@
 ---
-title: DotCodeParameters.getECIEncoding
-linktitle: getECIEncoding
-articleTitle: getECIEncoding
-second_title: Aspose.BarCode for Node.js via Java
+title: "DotCodeParameters.getECIEncoding"
+linktitle: "getECIEncoding"
+articleTitle: "getECIEncoding"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies ECI encoding. Used when DotCodeEncodeMode is AUTO."
 type: docs
 weight: 170

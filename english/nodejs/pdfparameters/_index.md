@@ -1,8 +1,8 @@
 ---
-title: PdfParameters Class
-linktitle: PdfParameters
-articleTitle: PdfParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "PdfParameters Class"
+linktitle: "PdfParameters"
+articleTitle: "PdfParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "PDF parameters wrapper. Expects an underlying `javaClass` instance that provides the corresponding getter/setter methods returning/accepting CMYK strings lik..."
 type: docs
 weight: 820

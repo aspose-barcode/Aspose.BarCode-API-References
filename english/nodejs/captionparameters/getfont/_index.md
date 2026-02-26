@@ -1,8 +1,8 @@
 ---
-title: CaptionParameters.getFont
-linktitle: getFont
-articleTitle: getFont
-second_title: Aspose.BarCode for Node.js via Java
+title: "CaptionParameters.getFont"
+linktitle: "getFont"
+articleTitle: "getFont"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Caption font. Default value: Arial 8pt regular."
 type: docs
 weight: 70

@@ -1,8 +1,8 @@
 ---
-title: BarCodeExtendedParameters.getDataMatrix
-linktitle: getDataMatrix
-articleTitle: getDataMatrix
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeExtendedParameters.getDataMatrix"
+linktitle: "getDataMatrix"
+articleTitle: "getDataMatrix"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 180

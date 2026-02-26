@@ -1,8 +1,8 @@
 ---
-title: QRExtendedParameters.getStructuredAppendModeBarCodeIndex
-linktitle: getStructuredAppendModeBarCodeIndex
-articleTitle: getStructuredAppendModeBarCodeIndex
-second_title: Aspose.BarCode for Node.js via Java
+title: "QRExtendedParameters.getStructuredAppendModeBarCodeIndex"
+linktitle: "getStructuredAppendModeBarCodeIndex"
+articleTitle: "getStructuredAppendModeBarCodeIndex"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Value: The quantity of the QR structured append mode barcode."
 type: docs
 weight: 50

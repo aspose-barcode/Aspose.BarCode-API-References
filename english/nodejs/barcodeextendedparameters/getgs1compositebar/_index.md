@@ -1,8 +1,8 @@
 ---
-title: BarCodeExtendedParameters.getGS1CompositeBar
-linktitle: getGS1CompositeBar
-articleTitle: getGS1CompositeBar
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeExtendedParameters.getGS1CompositeBar"
+linktitle: "getGS1CompositeBar"
+articleTitle: "getGS1CompositeBar"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 200

@@ -1,8 +1,8 @@
 ---
-title: DataBarExtendedParameters Class
-linktitle: DataBarExtendedParameters
-articleTitle: DataBarExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataBarExtendedParameters Class"
+linktitle: "DataBarExtendedParameters"
+articleTitle: "DataBarExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores a DataBar additional information of recognized barcode."
 type: docs
 weight: 1370

@@ -1,8 +1,8 @@
 ---
-title: Code128ExtendedParameters.isEmpty
-linktitle: isEmpty
-articleTitle: isEmpty
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128ExtendedParameters.isEmpty"
+linktitle: "isEmpty"
+articleTitle: "isEmpty"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 60

@@ -1,8 +1,8 @@
 ---
-title: Address.getPostalCode
-linktitle: getPostalCode
-articleTitle: getPostalCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.getPostalCode"
+linktitle: "getPostalCode"
+articleTitle: "getPostalCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the postal code."
 type: docs
 weight: 150

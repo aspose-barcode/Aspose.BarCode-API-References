@@ -1,8 +1,8 @@
 ---
-title: BorderParameters.setColor
-linktitle: setColor
-articleTitle: setColor
-second_title: Aspose.BarCode for Node.js via Java
+title: "BorderParameters.setColor"
+linktitle: "setColor"
+articleTitle: "setColor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Border color. Default value: #000000."
 type: docs
 weight: 120

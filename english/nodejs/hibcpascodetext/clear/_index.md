@@ -1,8 +1,8 @@
 ---
-title: HIBCPASCodetext.clear
-linktitle: clear
-articleTitle: clear
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASCodetext.clear"
+linktitle: "clear"
+articleTitle: "clear"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Clears records list."
 type: docs
 weight: 110

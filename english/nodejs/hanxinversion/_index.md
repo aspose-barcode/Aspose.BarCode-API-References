@@ -1,8 +1,8 @@
 ---
-title: HanXinVersion Enum
-linktitle: HanXinVersion
-articleTitle: HanXinVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinVersion Enum"
+linktitle: "HanXinVersion"
+articleTitle: "HanXinVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side."
 type: docs
 weight: 1180

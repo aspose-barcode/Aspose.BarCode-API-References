@@ -1,8 +1,8 @@
 ---
-title: HIBCLICCombinedCodetext
-linktitle: HIBCLICCombinedCodetext
-articleTitle: HIBCLICCombinedCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICCombinedCodetext"
+linktitle: "HIBCLICCombinedCodetext"
+articleTitle: "HIBCLICCombinedCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the HIBCLICCombinedCodetext class."
 type: docs
 weight: 10

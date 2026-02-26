@@ -1,8 +1,8 @@
 ---
-title: DotCodeExtendedParameters.getDotCodeStructuredAppendModeBarcodeId
-linktitle: getDotCodeStructuredAppendModeBarcodeId
-articleTitle: getDotCodeStructuredAppendModeBarcodeId
-second_title: Aspose.BarCode for Node.js via Java
+title: "DotCodeExtendedParameters.getDotCodeStructuredAppendModeBarcodeId"
+linktitle: "getDotCodeStructuredAppendModeBarcodeId"
+articleTitle: "getDotCodeStructuredAppendModeBarcodeId"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 50

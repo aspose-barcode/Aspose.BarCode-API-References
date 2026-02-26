@@ -1,8 +1,8 @@
 ---
-title: PdfParameters
-linktitle: PdfParameters
-articleTitle: PdfParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "PdfParameters"
+linktitle: "PdfParameters"
+articleTitle: "PdfParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the PdfParameters class."
 type: docs
 weight: 10

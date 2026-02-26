@@ -1,8 +1,8 @@
 ---
-title: Padding Class
-linktitle: Padding
-articleTitle: Padding
-second_title: Aspose.BarCode for Node.js via Java
+title: "Padding Class"
+linktitle: "Padding"
+articleTitle: "Padding"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Paddings parameters."
 type: docs
 weight: 500

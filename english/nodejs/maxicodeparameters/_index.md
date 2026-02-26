@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeParameters Class
-linktitle: MaxiCodeParameters
-articleTitle: MaxiCodeParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeParameters Class"
+linktitle: "MaxiCodeParameters"
+articleTitle: "MaxiCodeParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "MaxiCode parameters."
 type: docs
 weight: 650

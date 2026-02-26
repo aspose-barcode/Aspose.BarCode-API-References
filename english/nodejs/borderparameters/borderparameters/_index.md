@@ -1,8 +1,8 @@
 ---
-title: BorderParameters
-linktitle: BorderParameters
-articleTitle: BorderParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "BorderParameters"
+linktitle: "BorderParameters"
+articleTitle: "BorderParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the BorderParameters class."
 type: docs
 weight: 10

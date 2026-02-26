@@ -1,8 +1,8 @@
 ---
-title: BaseGenerationParameters Class
-linktitle: BaseGenerationParameters
-articleTitle: BaseGenerationParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "BaseGenerationParameters Class"
+linktitle: "BaseGenerationParameters"
+articleTitle: "BaseGenerationParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Barcode image generation parameters."
 type: docs
 weight: 460

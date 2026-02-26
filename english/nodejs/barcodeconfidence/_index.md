@@ -1,8 +1,8 @@
 ---
-title: BarCodeConfidence Enum
-linktitle: BarCodeConfidence
-articleTitle: BarCodeConfidence
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeConfidence Enum"
+linktitle: "BarCodeConfidence"
+articleTitle: "BarCodeConfidence"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Contains recognition confidence level."
 type: docs
 weight: 1500

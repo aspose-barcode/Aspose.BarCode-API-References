@@ -1,8 +1,8 @@
 ---
-title: SupplementParameters.setSupplementData
-linktitle: setSupplementData
-articleTitle: setSupplementData
-second_title: Aspose.BarCode for Node.js via Java
+title: "SupplementParameters.setSupplementData"
+linktitle: "setSupplementData"
+articleTitle: "setSupplementData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Supplement data following BarCode."
 type: docs
 weight: 50

@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeExtendedParameters.getMaxiCodeStructuredAppendModeBarcodesCount
-linktitle: getMaxiCodeStructuredAppendModeBarcodesCount
-articleTitle: getMaxiCodeStructuredAppendModeBarcodesCount
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeExtendedParameters.getMaxiCodeStructuredAppendModeBarcodesCount"
+linktitle: "getMaxiCodeStructuredAppendModeBarcodesCount"
+articleTitle: "getMaxiCodeStructuredAppendModeBarcodesCount"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets a MaxiCode barcodes count in structured append mode. Default value: -1."
 type: docs
 weight: 80

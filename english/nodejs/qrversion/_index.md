@@ -1,8 +1,8 @@
 ---
-title: QRVersion Enum
-linktitle: QRVersion
-articleTitle: QRVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "QRVersion Enum"
+linktitle: "QRVersion"
+articleTitle: "QRVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr."
 type: docs
 weight: 920

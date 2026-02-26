@@ -1,8 +1,8 @@
 ---
-title: BarCodeExtendedParameters.getCodabar
-linktitle: getCodabar
-articleTitle: getCodabar
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeExtendedParameters.getCodabar"
+linktitle: "getCodabar"
+articleTitle: "getCodabar"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets a Codabar additional informationCodabarExtendedParameters of recognized barcode."
 type: docs
 weight: 210

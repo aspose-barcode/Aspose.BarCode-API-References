@@ -1,8 +1,8 @@
 ---
-title: ComplexCodetextReader.tryDecodeHIBCPAS
-linktitle: tryDecodeHIBCPAS
-articleTitle: tryDecodeHIBCPAS
-second_title: Aspose.BarCode for Node.js via Java
+title: "ComplexCodetextReader.tryDecodeHIBCPAS"
+linktitle: "tryDecodeHIBCPAS"
+articleTitle: "tryDecodeHIBCPAS"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Decodes HIBC PAS codetext."
 type: docs
 weight: 70

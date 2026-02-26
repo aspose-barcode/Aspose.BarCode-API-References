@@ -1,8 +1,8 @@
 ---
-title: HIBCPASCodetext.getDataLocation
-linktitle: getDataLocation
-articleTitle: getDataLocation
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASCodetext.getDataLocation"
+linktitle: "getDataLocation"
+articleTitle: "getDataLocation"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies data location."
 type: docs
 weight: 60

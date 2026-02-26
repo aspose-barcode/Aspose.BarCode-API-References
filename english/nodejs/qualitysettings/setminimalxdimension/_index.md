@@ -1,8 +1,8 @@
 ---
-title: QualitySettings.setMinimalXDimension
-linktitle: setMinimalXDimension
-articleTitle: setMinimalXDimension
-second_title: Aspose.BarCode for Node.js via Java
+title: "QualitySettings.setMinimalXDimension"
+linktitle: "setMinimalXDimension"
+articleTitle: "setMinimalXDimension"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Minimal size of XDimension in pixels which is used with UseMinimalXDimension."
 type: docs
 weight: 110

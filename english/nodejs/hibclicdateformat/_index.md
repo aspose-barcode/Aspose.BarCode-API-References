@@ -1,8 +1,8 @@
 ---
-title: HIBCLICDateFormat Enum
-linktitle: HIBCLICDateFormat
-articleTitle: HIBCLICDateFormat
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICDateFormat Enum"
+linktitle: "HIBCLICDateFormat"
+articleTitle: "HIBCLICDateFormat"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the different types of date formats for HIBC LIC."
 type: docs
 weight: 310

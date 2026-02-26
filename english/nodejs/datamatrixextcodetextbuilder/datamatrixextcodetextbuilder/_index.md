@@ -1,8 +1,8 @@
 ---
-title: DataMatrixExtCodetextBuilder
-linktitle: DataMatrixExtCodetextBuilder
-articleTitle: DataMatrixExtCodetextBuilder
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixExtCodetextBuilder"
+linktitle: "DataMatrixExtCodetextBuilder"
+articleTitle: "DataMatrixExtCodetextBuilder"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the DataMatrixExtCodetextBuilder class."
 type: docs
 weight: 10

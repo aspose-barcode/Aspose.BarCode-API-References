@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStructuredCodetext.setServiceCategory
-linktitle: setServiceCategory
-articleTitle: setServiceCategory
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStructuredCodetext.setServiceCategory"
+linktitle: "setServiceCategory"
+articleTitle: "setServiceCategory"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies 3 digit service category."
 type: docs
 weight: 100

@@ -1,8 +1,8 @@
 ---
-title: QrParameters.setVersion
-linktitle: setVersion
-articleTitle: setVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "QrParameters.setVersion"
+linktitle: "setVersion"
+articleTitle: "setVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Version of QR Code.From Version1 to Version40. Default value is QRVersion.Auto."
 type: docs
 weight: 210

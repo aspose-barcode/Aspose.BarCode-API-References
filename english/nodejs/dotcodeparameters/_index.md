@@ -1,8 +1,8 @@
 ---
-title: DotCodeParameters Class
-linktitle: DotCodeParameters
-articleTitle: DotCodeParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DotCodeParameters Class"
+linktitle: "DotCodeParameters"
+articleTitle: "DotCodeParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DotCode parameters."
 type: docs
 weight: 590

@@ -1,8 +1,8 @@
 ---
-title: AlternativeScheme.setInstruction
-linktitle: setInstruction
-articleTitle: setInstruction
-second_title: Aspose.BarCode for Node.js via Java
+title: "AlternativeScheme.setInstruction"
+linktitle: "setInstruction"
+articleTitle: "setInstruction"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of..."
 type: docs
 weight: 50

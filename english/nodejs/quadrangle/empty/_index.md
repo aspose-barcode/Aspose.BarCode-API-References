@@ -1,8 +1,8 @@
 ---
-title: Quadrangle.EMPTY
-linktitle: EMPTY
-articleTitle: EMPTY
-second_title: Aspose.BarCode for Node.js via Java
+title: "Quadrangle.EMPTY"
+linktitle: "EMPTY"
+articleTitle: "EMPTY"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Represents a Quadrangle structure with its properties left uninitialized.Value: Quadrangle."
 type: docs
 weight: 60

@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addBinary
-linktitle: addBinary
-articleTitle: addBinary
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addBinary"
+linktitle: "addBinary"
+articleTitle: "addBinary"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in Binary mode."
 type: docs
 weight: 60

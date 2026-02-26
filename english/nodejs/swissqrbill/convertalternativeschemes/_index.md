@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.convertAlternativeSchemes
-linktitle: convertAlternativeSchemes
-articleTitle: convertAlternativeSchemes
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.convertAlternativeSchemes"
+linktitle: "convertAlternativeSchemes"
+articleTitle: "convertAlternativeSchemes"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 50

@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStandardSecondMessage
-linktitle: MaxiCodeStandardSecondMessage
-articleTitle: MaxiCodeStandardSecondMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStandardSecondMessage"
+linktitle: "MaxiCodeStandardSecondMessage"
+articleTitle: "MaxiCodeStandardSecondMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the MaxiCodeStandardSecondMessage class."
 type: docs
 weight: 10

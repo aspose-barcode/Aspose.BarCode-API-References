@@ -1,8 +1,8 @@
 ---
-title: ITFParameters
-linktitle: ITFParameters
-articleTitle: ITFParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "ITFParameters"
+linktitle: "ITFParameters"
+articleTitle: "ITFParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the ITFParameters class."
 type: docs
 weight: 10

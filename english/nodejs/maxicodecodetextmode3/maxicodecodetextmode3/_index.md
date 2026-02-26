@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeCodetextMode3
-linktitle: MaxiCodeCodetextMode3
-articleTitle: MaxiCodeCodetextMode3
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeCodetextMode3"
+linktitle: "MaxiCodeCodetextMode3"
+articleTitle: "MaxiCodeCodetextMode3"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the MaxiCodeCodetextMode3 class."
 type: docs
 weight: 10

@@ -1,8 +1,8 @@
 ---
-title: CustomerInformationInterpretingType Enum
-linktitle: CustomerInformationInterpretingType
-articleTitle: CustomerInformationInterpretingType
-second_title: Aspose.BarCode for Node.js via Java
+title: "CustomerInformationInterpretingType Enum"
+linktitle: "CustomerInformationInterpretingType"
+articleTitle: "CustomerInformationInterpretingType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Defines the interpreting type(C_TABLE or N_TABLE) of customer information for AustralianPost BarCode."
 type: docs
 weight: 1490

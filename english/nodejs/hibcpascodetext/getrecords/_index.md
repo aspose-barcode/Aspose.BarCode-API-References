@@ -1,8 +1,8 @@
 ---
-title: HIBCPASCodetext.getRecords
-linktitle: getRecords
-articleTitle: getRecords
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASCodetext.getRecords"
+linktitle: "getRecords"
+articleTitle: "getRecords"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets records list."
 type: docs
 weight: 80

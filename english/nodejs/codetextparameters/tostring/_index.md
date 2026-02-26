@@ -1,8 +1,8 @@
 ---
-title: CodetextParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodetextParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this CodetextParameters."
 type: docs
 weight: 210

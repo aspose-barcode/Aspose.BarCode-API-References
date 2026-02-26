@@ -1,8 +1,8 @@
 ---
-title: AlternativeScheme.javaClassName
-linktitle: javaClassName
-articleTitle: javaClassName
-second_title: Aspose.BarCode for Node.js via Java
+title: "AlternativeScheme.javaClassName"
+linktitle: "javaClassName"
+articleTitle: "javaClassName"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 10

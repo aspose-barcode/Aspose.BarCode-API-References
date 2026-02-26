@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.getTimeout
-linktitle: getTimeout
-articleTitle: getTimeout
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.getTimeout"
+linktitle: "getTimeout"
+articleTitle: "getTimeout"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the timeout of recognition process in milliseconds."
 type: docs
 weight: 100

@@ -1,8 +1,8 @@
 ---
-title: BarCodeExtendedParameters Class
-linktitle: BarCodeExtendedParameters
-articleTitle: BarCodeExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeExtendedParameters Class"
+linktitle: "BarCodeExtendedParameters"
+articleTitle: "BarCodeExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Stores extended parameters of recognized barcode."
 type: docs
 weight: 1340

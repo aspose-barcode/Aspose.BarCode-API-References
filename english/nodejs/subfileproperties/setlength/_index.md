@@ -1,8 +1,8 @@
 ---
-title: SubfileProperties.setLength
-linktitle: setLength
-articleTitle: setLength
-second_title: Aspose.BarCode for Node.js via Java
+title: "SubfileProperties.setLength"
+linktitle: "setLength"
+articleTitle: "setLength"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "4 These bytes contain a 4 digit numeric value that specifies the length of the Subfile in bytes.The segment terminator must be included in calculating the le..."
 type: docs
 weight: 100

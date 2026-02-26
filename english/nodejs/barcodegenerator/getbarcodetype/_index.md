@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator.getBarcodeType
-linktitle: getBarcodeType
-articleTitle: getBarcodeType
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator.getBarcodeType"
+linktitle: "getBarcodeType"
+articleTitle: "getBarcodeType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Barcode symbology type."
 type: docs
 weight: 70

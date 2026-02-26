@@ -1,8 +1,8 @@
 ---
-title: QualitySettings.setInverseImage
-linktitle: setInverseImage
-articleTitle: setInverseImage
-second_title: Aspose.BarCode for Node.js via Java
+title: "QualitySettings.setInverseImage"
+linktitle: "setInverseImage"
+articleTitle: "setInverseImage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance)."
 type: docs
 weight: 170

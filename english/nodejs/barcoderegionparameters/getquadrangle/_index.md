@@ -1,8 +1,8 @@
 ---
-title: BarCodeRegionParameters.getQuadrangle
-linktitle: getQuadrangle
-articleTitle: getQuadrangle
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeRegionParameters.getQuadrangle"
+linktitle: "getQuadrangle"
+articleTitle: "getQuadrangle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets Quadrangle bounding barcode region Value: Returns Quadrangle bounding barcode region."
 type: docs
 weight: 70

@@ -1,8 +1,8 @@
 ---
-title: MandatoryFields.getFirstName
-linktitle: getFirstName
-articleTitle: getFirstName
-second_title: Aspose.BarCode for Node.js via Java
+title: "MandatoryFields.getFirstName"
+linktitle: "getFirstName"
+articleTitle: "getFirstName"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DAC, First name of the cardholder, DL/ID, V40ANS."
 type: docs
 weight: 100

@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addECI
-linktitle: addECI
-articleTitle: addECI
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addECI"
+linktitle: "addECI"
+articleTitle: "addECI"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in ECI mode."
 type: docs
 weight: 40

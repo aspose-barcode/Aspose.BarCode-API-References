@@ -1,8 +1,8 @@
 ---
-title: Code128DataPortion Class
-linktitle: Code128DataPortion
-articleTitle: Code128DataPortion
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code128DataPortion Class"
+linktitle: "Code128DataPortion"
+articleTitle: "Code128DataPortion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Contains the data of subtype for Code128 type barcode."
 type: docs
 weight: 1360

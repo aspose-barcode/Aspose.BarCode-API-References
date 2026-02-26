@@ -1,8 +1,8 @@
 ---
-title: CodeLocation Enum
-linktitle: CodeLocation
-articleTitle: CodeLocation
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodeLocation Enum"
+linktitle: "CodeLocation"
+articleTitle: "CodeLocation"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Codetext location."
 type: docs
 weight: 990

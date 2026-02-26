@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.getFoundCount
-linktitle: getFoundCount
-articleTitle: getFoundCount
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.getFoundCount"
+linktitle: "getFoundCount"
+articleTitle: "getFoundCount"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets recognized barcodes count."
 type: docs
 weight: 140

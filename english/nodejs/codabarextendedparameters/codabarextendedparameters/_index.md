@@ -1,8 +1,8 @@
 ---
-title: CodabarExtendedParameters
-linktitle: CodabarExtendedParameters
-articleTitle: CodabarExtendedParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarExtendedParameters"
+linktitle: "CodabarExtendedParameters"
+articleTitle: "CodabarExtendedParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the CodabarExtendedParameters class."
 type: docs
 weight: 10

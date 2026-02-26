@@ -1,8 +1,8 @@
 ---
-title: OptionalFields.getHairColor
-linktitle: getHairColor
-articleTitle: getHairColor
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields.getHairColor"
+linktitle: "getHairColor"
+articleTitle: "getHairColor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. If the issuing jurisdiction wishes to abbreviate colors, the three-character codes ..."
 type: docs
 weight: 50

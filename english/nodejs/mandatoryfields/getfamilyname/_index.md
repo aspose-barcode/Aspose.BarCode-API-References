@@ -1,8 +1,8 @@
 ---
-title: MandatoryFields.getFamilyName
-linktitle: getFamilyName
-articleTitle: getFamilyName
-second_title: Aspose.BarCode for Node.js via Java
+title: "MandatoryFields.getFamilyName"
+linktitle: "getFamilyName"
+articleTitle: "getFamilyName"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DCS, Family name of the cardholder, DL/ID, V40ANS."
 type: docs
 weight: 80

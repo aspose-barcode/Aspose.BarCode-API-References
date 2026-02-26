@@ -1,8 +1,8 @@
 ---
-title: BarCodeResult.getCodeText
-linktitle: getCodeText
-articleTitle: getCodeText
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeResult.getCodeText"
+linktitle: "getCodeText"
+articleTitle: "getCodeText"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the code text with encoding."
 type: docs
 weight: 70

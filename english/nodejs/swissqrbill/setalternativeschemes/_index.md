@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.setAlternativeSchemes
-linktitle: setAlternativeSchemes
-articleTitle: setAlternativeSchemes
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.setAlternativeSchemes"
+linktitle: "setAlternativeSchemes"
+articleTitle: "setAlternativeSchemes"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets or sets the alternative payment schemes."
 type: docs
 weight: 260

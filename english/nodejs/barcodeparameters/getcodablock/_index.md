@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getCodablock
-linktitle: getCodablock
-articleTitle: getCodablock
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getCodablock"
+linktitle: "getCodablock"
+articleTitle: "getCodablock"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Codablock parameters."
 type: docs
 weight: 540

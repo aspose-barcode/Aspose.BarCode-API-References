@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.isLinked
-linktitle: isLinked
-articleTitle: isLinked
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.isLinked"
+linktitle: "isLinked"
+articleTitle: "isLinked"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 “Linked” UCC/EAN..."
 type: docs
 weight: 770

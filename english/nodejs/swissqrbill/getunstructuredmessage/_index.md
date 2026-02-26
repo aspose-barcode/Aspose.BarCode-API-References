@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.getUnstructuredMessage
-linktitle: getUnstructuredMessage
-articleTitle: getUnstructuredMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.getUnstructuredMessage"
+linktitle: "getUnstructuredMessage"
+articleTitle: "getUnstructuredMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the additional unstructured message."
 type: docs
 weight: 210

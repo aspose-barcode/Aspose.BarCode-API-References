@@ -1,8 +1,8 @@
 ---
-title: QrBillStandardVersion Enum
-linktitle: QrBillStandardVersion
-articleTitle: QrBillStandardVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "QrBillStandardVersion Enum"
+linktitle: "QrBillStandardVersion"
+articleTitle: "QrBillStandardVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "SwissQR bill standard version."
 type: docs
 weight: 80

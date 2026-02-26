@@ -1,8 +1,8 @@
 ---
-title: OptionalFields.setAliasAKASuffixName
-linktitle: setAliasAKASuffixName
-articleTitle: setAliasAKASuffixName
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields.setAliasAKASuffixName"
+linktitle: "setAliasAKASuffixName"
+articleTitle: "setAliasAKASuffixName"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DBS, Other suffix by which cardholder is known, DL/ID, V5ANS."
 type: docs
 weight: 180

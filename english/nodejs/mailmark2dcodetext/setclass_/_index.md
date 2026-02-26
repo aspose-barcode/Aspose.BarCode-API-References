@@ -1,8 +1,8 @@
 ---
-title: Mailmark2DCodetext.setClass_
-linktitle: setClass_
-articleTitle: setClass_
-second_title: Aspose.BarCode for Node.js via Java
+title: "Mailmark2DCodetext.setClass_"
+linktitle: "setClass_"
+articleTitle: "setClass_"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies the class of the item."
 type: docs
 weight: 100

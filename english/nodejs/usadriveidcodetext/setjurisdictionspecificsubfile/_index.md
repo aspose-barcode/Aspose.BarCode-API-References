@@ -1,8 +1,8 @@
 ---
-title: USADriveIdCodetext.setJurisdictionSpecificSubfile
-linktitle: setJurisdictionSpecificSubfile
-articleTitle: setJurisdictionSpecificSubfile
-second_title: Aspose.BarCode for Node.js via Java
+title: "USADriveIdCodetext.setJurisdictionSpecificSubfile"
+linktitle: "setJurisdictionSpecificSubfile"
+articleTitle: "setJurisdictionSpecificSubfile"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Jurisdiction Specific Fields."
 type: docs
 weight: 200

@@ -1,8 +1,8 @@
 ---
-title: Address.setHouseNo
-linktitle: setHouseNo
-articleTitle: setHouseNo
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.setHouseNo"
+linktitle: "setHouseNo"
+articleTitle: "setHouseNo"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the house number."
 type: docs
 weight: 140

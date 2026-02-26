@@ -1,8 +1,8 @@
 ---
-title: DataMatrixExtendedParameters.getStructuredAppendBarcodesCount
-linktitle: getStructuredAppendBarcodesCount
-articleTitle: getStructuredAppendBarcodesCount
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixExtendedParameters.getStructuredAppendBarcodesCount"
+linktitle: "getStructuredAppendBarcodesCount"
+articleTitle: "getStructuredAppendBarcodesCount"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 30

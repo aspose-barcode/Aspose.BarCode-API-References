@@ -1,8 +1,8 @@
 ---
-title: QRExtendedParameters.getQRVersion
-linktitle: getQRVersion
-articleTitle: getQRVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "QRExtendedParameters.getQRVersion"
+linktitle: "getQRVersion"
+articleTitle: "getQRVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Version of recognized QR Code. From Version1 to Version40."
 type: docs
 weight: 100

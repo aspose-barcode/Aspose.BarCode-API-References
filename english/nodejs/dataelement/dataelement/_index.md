@@ -1,8 +1,8 @@
 ---
-title: DataElement
-linktitle: DataElement
-articleTitle: DataElement
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataElement"
+linktitle: "DataElement"
+articleTitle: "DataElement"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the DataElement class."
 type: docs
 weight: 10

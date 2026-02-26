@@ -1,8 +1,8 @@
 ---
-title: DataMatrixExtCodetextBuilder.addCodetextWithEncodeMode
-linktitle: addCodetextWithEncodeMode
-articleTitle: addCodetextWithEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixExtCodetextBuilder.addCodetextWithEncodeMode"
+linktitle: "addCodetextWithEncodeMode"
+articleTitle: "addCodetextWithEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext with defined encode mode to the extended codetext items."
 type: docs
 weight: 60

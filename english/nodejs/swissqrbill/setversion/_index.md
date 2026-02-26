@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.setVersion
-linktitle: setVersion
-articleTitle: setVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.setVersion"
+linktitle: "setVersion"
+articleTitle: "setVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the version of the SwissQR bill standard."
 type: docs
 weight: 70

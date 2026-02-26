@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator.importFromXml
-linktitle: importFromXml
-articleTitle: importFromXml
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator.importFromXml"
+linktitle: "importFromXml"
+articleTitle: "importFromXml"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance."
 type: docs
 weight: 140

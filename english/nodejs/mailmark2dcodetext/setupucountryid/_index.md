@@ -1,8 +1,8 @@
 ---
-title: Mailmark2DCodetext.setUPUCountryID
-linktitle: setUPUCountryID
-articleTitle: setUPUCountryID
-second_title: Aspose.BarCode for Node.js via Java
+title: "Mailmark2DCodetext.setUPUCountryID"
+linktitle: "setUPUCountryID"
+articleTitle: "setUPUCountryID"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies the UPU Country ID.Max length: 4 characters."
 type: docs
 weight: 40

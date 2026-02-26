@@ -1,8 +1,8 @@
 ---
-title: SvgParameters Class
-linktitle: SvgParameters
-articleTitle: SvgParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "SvgParameters Class"
+linktitle: "SvgParameters"
+articleTitle: "SvgParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "SVG parameters."
 type: docs
 weight: 800

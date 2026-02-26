@@ -1,8 +1,8 @@
 ---
-title: USADriveIdJurisdSubfile.get
-linktitle: get
-articleTitle: get
-second_title: Aspose.BarCode for Node.js via Java
+title: "USADriveIdJurisdSubfile.get"
+linktitle: "get"
+articleTitle: "get"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Indexing by 3-letter element id."
 type: docs
 weight: 30

@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.getVersion
-linktitle: getVersion
-articleTitle: getVersion
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.getVersion"
+linktitle: "getVersion"
+articleTitle: "getVersion"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the version of the SwissQR bill standard."
 type: docs
 weight: 60

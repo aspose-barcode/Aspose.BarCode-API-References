@@ -1,8 +1,8 @@
 ---
-title: DotCodeParameters.setDotCodeEncodeMode
-linktitle: setDotCodeEncodeMode
-articleTitle: setDotCodeEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "DotCodeParameters.setDotCodeEncodeMode"
+linktitle: "setDotCodeEncodeMode"
+articleTitle: "setDotCodeEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies DotCode encode mode."
 type: docs
 weight: 40

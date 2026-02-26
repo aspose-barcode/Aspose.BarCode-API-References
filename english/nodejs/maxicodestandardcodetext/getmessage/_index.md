@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeStandardCodetext.getMessage
-linktitle: getMessage
-articleTitle: getMessage
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeStandardCodetext.getMessage"
+linktitle: "getMessage"
+articleTitle: "getMessage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets message."
 type: docs
 weight: 40

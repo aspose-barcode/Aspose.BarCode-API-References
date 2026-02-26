@@ -1,8 +1,8 @@
 ---
-title: SupplementParameters
-linktitle: SupplementParameters
-articleTitle: SupplementParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "SupplementParameters"
+linktitle: "SupplementParameters"
+articleTitle: "SupplementParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the SupplementParameters class."
 type: docs
 weight: 10

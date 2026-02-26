@@ -1,8 +1,8 @@
 ---
-title: DataMatrixParameters.setDataMatrixEncodeMode
-linktitle: setDataMatrixEncodeMode
-articleTitle: setDataMatrixEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixParameters.setDataMatrixEncodeMode"
+linktitle: "setDataMatrixEncodeMode"
+articleTitle: "setDataMatrixEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.AUTO."
 type: docs
 weight: 140

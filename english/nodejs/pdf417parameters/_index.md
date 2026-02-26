@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters Class
-linktitle: Pdf417Parameters
-articleTitle: Pdf417Parameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters Class"
+linktitle: "Pdf417Parameters"
+articleTitle: "Pdf417Parameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417Macr..."
 type: docs
 weight: 630

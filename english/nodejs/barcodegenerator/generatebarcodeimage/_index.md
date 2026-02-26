@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator.generateBarCodeImage
-linktitle: generateBarCodeImage
-articleTitle: generateBarCodeImage
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator.generateBarCodeImage"
+linktitle: "generateBarCodeImage"
+articleTitle: "generateBarCodeImage"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Generate the barcode image under current settings. This sample shows how to create and save a barcode image."
 type: docs
 weight: 90

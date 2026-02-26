@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getITF
-linktitle: getITF
-articleTitle: getITF
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getITF"
+linktitle: "getITF"
+articleTitle: "getITF"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "ITF parameters."
 type: docs
 weight: 580

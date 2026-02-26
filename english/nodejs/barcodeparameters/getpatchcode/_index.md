@@ -1,8 +1,8 @@
 ---
-title: BarcodeParameters.getPatchCode
-linktitle: getPatchCode
-articleTitle: getPatchCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeParameters.getPatchCode"
+linktitle: "getPatchCode"
+articleTitle: "getPatchCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "PatchCode parameters."
 type: docs
 weight: 490

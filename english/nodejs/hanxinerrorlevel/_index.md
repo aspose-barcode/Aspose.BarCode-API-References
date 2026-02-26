@@ -1,8 +1,8 @@
 ---
-title: HanXinErrorLevel Enum
-linktitle: HanXinErrorLevel
-articleTitle: HanXinErrorLevel
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinErrorLevel Enum"
+linktitle: "HanXinErrorLevel"
+articleTitle: "HanXinErrorLevel"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4."
 type: docs
 weight: 1190

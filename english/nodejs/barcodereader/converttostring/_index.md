@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.convertToString
-linktitle: convertToString
-articleTitle: convertToString
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.convertToString"
+linktitle: "convertToString"
+articleTitle: "convertToString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "internal."
 type: docs
 weight: 80

@@ -1,8 +1,8 @@
 ---
-title: HslaColor
-linktitle: HslaColor
-articleTitle: HslaColor
-second_title: Aspose.BarCode for Node.js via Java
+title: "HslaColor"
+linktitle: "HslaColor"
+articleTitle: "HslaColor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the HslaColor class."
 type: docs
 weight: 10

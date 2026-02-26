@@ -1,8 +1,8 @@
 ---
-title: HIBCLICCombinedCodetext.getPrimaryData
-linktitle: getPrimaryData
-articleTitle: getPrimaryData
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICCombinedCodetext.getPrimaryData"
+linktitle: "getPrimaryData"
+articleTitle: "getPrimaryData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies primary data."
 type: docs
 weight: 50

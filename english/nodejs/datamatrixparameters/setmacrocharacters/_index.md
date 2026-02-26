@@ -1,8 +1,8 @@
 ---
-title: DataMatrixParameters.setMacroCharacters
-linktitle: setMacroCharacters
-articleTitle: setMacroCharacters
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixParameters.setMacroCharacters"
+linktitle: "setMacroCharacters"
+articleTitle: "setMacroCharacters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "ISO/IEC 16022 5.2.4.7 Macro characters 11.3 Protocol for Macro characters in the first position (ECC 200 only) Macro Characters 05 and 06 values are used to ..."
 type: docs
 weight: 240

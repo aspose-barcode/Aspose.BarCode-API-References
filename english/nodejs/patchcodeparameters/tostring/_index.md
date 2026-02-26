@@ -1,8 +1,8 @@
 ---
-title: PatchCodeParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "PatchCodeParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this {PatchCodeParameters}."
 type: docs
 weight: 90

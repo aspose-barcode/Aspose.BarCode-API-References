@@ -1,8 +1,8 @@
 ---
-title: BarcodeGenerator.save
-linktitle: save
-articleTitle: save
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeGenerator.save"
+linktitle: "save"
+articleTitle: "save"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Save barcode image to specific file in specific format."
 type: docs
 weight: 100

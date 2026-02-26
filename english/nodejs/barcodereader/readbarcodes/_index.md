@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.readBarCodes
-linktitle: readBarCodes
-articleTitle: readBarCodes
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.readBarCodes"
+linktitle: "readBarCodes"
+articleTitle: "readBarCodes"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Reads BarCodeResult from the image."
 type: docs
 weight: 150

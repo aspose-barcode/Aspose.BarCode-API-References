@@ -1,8 +1,8 @@
 ---
-title: CaptionParameters Class
-linktitle: CaptionParameters
-articleTitle: CaptionParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "CaptionParameters Class"
+linktitle: "CaptionParameters"
+articleTitle: "CaptionParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Caption parameters."
 type: docs
 weight: 480

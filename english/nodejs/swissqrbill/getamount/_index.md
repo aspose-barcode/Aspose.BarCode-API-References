@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.getAmount
-linktitle: getAmount
-articleTitle: getAmount
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.getAmount"
+linktitle: "getAmount"
+articleTitle: "getAmount"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the payment amount."
 type: docs
 weight: 80

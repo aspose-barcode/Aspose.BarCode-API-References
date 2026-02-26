@@ -1,8 +1,8 @@
 ---
-title: Quadrangle.getBoundingRectangle
-linktitle: getBoundingRectangle
-articleTitle: getBoundingRectangle
-second_title: Aspose.BarCode for Node.js via Java
+title: "Quadrangle.getBoundingRectangle"
+linktitle: "getBoundingRectangle"
+articleTitle: "getBoundingRectangle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Creates Rectangle bounding this Quadrangle."
 type: docs
 weight: 260

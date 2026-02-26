@@ -1,8 +1,8 @@
 ---
-title: PostalParameters.setShortBarHeight
-linktitle: setShortBarHeight
-articleTitle: setShortBarHeight
-second_title: Aspose.BarCode for Node.js via Java
+title: "PostalParameters.setShortBarHeight"
+linktitle: "setShortBarHeight"
+articleTitle: "setShortBarHeight"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Short bar's height of Postal barcodes."
 type: docs
 weight: 50

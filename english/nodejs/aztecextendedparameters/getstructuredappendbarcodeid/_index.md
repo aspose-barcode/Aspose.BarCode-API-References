@@ -1,8 +1,8 @@
 ---
-title: AztecExtendedParameters.getStructuredAppendBarcodeId
-linktitle: getStructuredAppendBarcodeId
-articleTitle: getStructuredAppendBarcodeId
-second_title: Aspose.BarCode for Node.js via Java
+title: "AztecExtendedParameters.getStructuredAppendBarcodeId"
+linktitle: "getStructuredAppendBarcodeId"
+articleTitle: "getStructuredAppendBarcodeId"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 40

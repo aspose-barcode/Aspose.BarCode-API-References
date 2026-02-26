@@ -1,8 +1,8 @@
 ---
-title: SupplementParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "SupplementParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this SupplementParameters."
 type: docs
 weight: 70

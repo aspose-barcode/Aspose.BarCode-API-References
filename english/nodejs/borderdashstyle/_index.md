@@ -1,8 +1,8 @@
 ---
-title: BorderDashStyle Enum
-linktitle: BorderDashStyle
-articleTitle: BorderDashStyle
-second_title: Aspose.BarCode for Node.js via Java
+title: "BorderDashStyle Enum"
+linktitle: "BorderDashStyle"
+articleTitle: "BorderDashStyle"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the style of dashed border lines."
 type: docs
 weight: 880

@@ -1,8 +1,8 @@
 ---
-title: HIBCLICCombinedCodetext.setSecondaryAndAdditionalData
-linktitle: setSecondaryAndAdditionalData
-articleTitle: setSecondaryAndAdditionalData
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCLICCombinedCodetext.setSecondaryAndAdditionalData"
+linktitle: "setSecondaryAndAdditionalData"
+articleTitle: "setSecondaryAndAdditionalData"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies secondary and additional supplemental data."
 type: docs
 weight: 90

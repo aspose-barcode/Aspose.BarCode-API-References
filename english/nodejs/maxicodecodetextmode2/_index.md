@@ -1,8 +1,8 @@
 ---
-title: MaxiCodeCodetextMode2 Class
-linktitle: MaxiCodeCodetextMode2
-articleTitle: MaxiCodeCodetextMode2
-second_title: Aspose.BarCode for Node.js via Java
+title: "MaxiCodeCodetextMode2 Class"
+linktitle: "MaxiCodeCodetextMode2"
+articleTitle: "MaxiCodeCodetextMode2"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 2."
 type: docs
 weight: 190

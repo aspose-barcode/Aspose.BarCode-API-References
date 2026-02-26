@@ -1,8 +1,8 @@
 ---
-title: HIBCPASDataLocation Enum
-linktitle: HIBCPASDataLocation
-articleTitle: HIBCPASDataLocation
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASDataLocation Enum"
+linktitle: "HIBCPASDataLocation"
+articleTitle: "HIBCPASDataLocation"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "HIBC PAS data location types."
 type: docs
 weight: 320

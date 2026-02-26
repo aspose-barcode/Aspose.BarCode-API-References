@@ -1,8 +1,8 @@
 ---
-title: ComplexCodetextReader.tryDecodeSwissQR
-linktitle: tryDecodeSwissQR
-articleTitle: tryDecodeSwissQR
-second_title: Aspose.BarCode for Node.js via Java
+title: "ComplexCodetextReader.tryDecodeSwissQR"
+linktitle: "tryDecodeSwissQR"
+articleTitle: "tryDecodeSwissQR"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Decodes SwissQR codetext."
 type: docs
 weight: 20

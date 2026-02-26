@@ -1,8 +1,8 @@
 ---
-title: OptionalFields.getAddressStreet2
-linktitle: getAddressStreet2
-articleTitle: getAddressStreet2
-second_title: Aspose.BarCode for Node.js via Java
+title: "OptionalFields.getAddressStreet2"
+linktitle: "getAddressStreet2"
+articleTitle: "getAddressStreet2"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 30

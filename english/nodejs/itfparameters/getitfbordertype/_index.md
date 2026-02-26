@@ -1,8 +1,8 @@
 ---
-title: ITFParameters.getItfBorderType
-linktitle: getItfBorderType
-articleTitle: getItfBorderType
-second_title: Aspose.BarCode for Node.js via Java
+title: "ITFParameters.getItfBorderType"
+linktitle: "getItfBorderType"
+articleTitle: "getItfBorderType"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Border type of ITF barcode. Default value: ITF14BorderType.BAR."
 type: docs
 weight: 100

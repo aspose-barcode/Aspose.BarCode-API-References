@@ -1,8 +1,8 @@
 ---
-title: ImageParameters.setPdf
-linktitle: setPdf
-articleTitle: setPdf
-second_title: Aspose.BarCode for Node.js via Java
+title: "ImageParameters.setPdf"
+linktitle: "setPdf"
+articleTitle: "setPdf"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "PDF parameters."
 type: docs
 weight: 70

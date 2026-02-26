@@ -1,8 +1,8 @@
 ---
-title: Mailmark2DCodetext.getInformationTypeID
-linktitle: getInformationTypeID
-articleTitle: getInformationTypeID
-second_title: Aspose.BarCode for Node.js via Java
+title: "Mailmark2DCodetext.getInformationTypeID"
+linktitle: "getInformationTypeID"
+articleTitle: "getInformationTypeID"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Identifies the Royal Mail Mailmark barcode payload for each product type. Valid Values:."
 type: docs
 weight: 50

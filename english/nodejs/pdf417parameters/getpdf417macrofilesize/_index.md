@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.getPdf417MacroFileSize
-linktitle: getPdf417MacroFileSize
-articleTitle: getPdf417MacroFileSize
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.getPdf417MacroFileSize"
+linktitle: "getPdf417MacroFileSize"
+articleTitle: "getPdf417MacroFileSize"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets macro Pdf417 file size."
 type: docs
 weight: 530

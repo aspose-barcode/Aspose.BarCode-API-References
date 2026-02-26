@@ -1,8 +1,8 @@
 ---
-title: HanXinExtCodetextBuilder.addURI
-linktitle: addURI
-articleTitle: addURI
-second_title: Aspose.BarCode for Node.js via Java
+title: "HanXinExtCodetextBuilder.addURI"
+linktitle: "addURI"
+articleTitle: "addURI"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Adds codetext fragment in URI mode."
 type: docs
 weight: 70

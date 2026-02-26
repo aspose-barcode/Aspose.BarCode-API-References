@@ -1,8 +1,8 @@
 ---
-title: Pdf417Parameters.setMacroPdf417Checksum
-linktitle: setMacroPdf417Checksum
-articleTitle: setMacroPdf417Checksum
-second_title: Aspose.BarCode for Node.js via Java
+title: "Pdf417Parameters.setMacroPdf417Checksum"
+linktitle: "setMacroPdf417Checksum"
+articleTitle: "setMacroPdf417Checksum"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "MacroPdf417 barcode checksum (optional field). MicroPDF417 barcode checksum (optional field for Structured Append mode) The checksum field contains the value..."
 type: docs
 weight: 560

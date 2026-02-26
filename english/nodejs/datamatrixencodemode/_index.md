@@ -1,8 +1,8 @@
 ---
-title: DataMatrixEncodeMode Enum
-linktitle: DataMatrixEncodeMode
-articleTitle: DataMatrixEncodeMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataMatrixEncodeMode Enum"
+linktitle: "DataMatrixEncodeMode"
+articleTitle: "DataMatrixEncodeMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "DataMatrix encoder's encoding mode, default to Auto."
 type: docs
 weight: 870

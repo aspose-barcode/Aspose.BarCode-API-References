@@ -1,8 +1,8 @@
 ---
-title: HIBCPASCodetext
-linktitle: HIBCPASCodetext
-articleTitle: HIBCPASCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "HIBCPASCodetext"
+linktitle: "HIBCPASCodetext"
+articleTitle: "HIBCPASCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the HIBCPASCodetext class."
 type: docs
 weight: 10

@@ -1,8 +1,8 @@
 ---
-title: CodabarChecksumMode Enum
-linktitle: CodabarChecksumMode
-articleTitle: CodabarChecksumMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarChecksumMode Enum"
+linktitle: "CodabarChecksumMode"
+articleTitle: "CodabarChecksumMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Specifies the checksum algorithm for Codabar."
 type: docs
 weight: 980

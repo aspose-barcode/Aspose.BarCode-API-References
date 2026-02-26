@@ -1,8 +1,8 @@
 ---
-title: CodabarParameters.setCodabarStartSymbol
-linktitle: setCodabarStartSymbol
-articleTitle: setCodabarStartSymbol
-second_title: Aspose.BarCode for Node.js via Java
+title: "CodabarParameters.setCodabarStartSymbol"
+linktitle: "setCodabarStartSymbol"
+articleTitle: "setCodabarStartSymbol"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A."
 type: docs
 weight: 100

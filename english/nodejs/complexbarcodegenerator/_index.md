@@ -1,8 +1,8 @@
 ---
-title: ComplexBarcodeGenerator Class
-linktitle: ComplexBarcodeGenerator
-articleTitle: ComplexBarcodeGenerator
-second_title: Aspose.BarCode for Node.js via Java
+title: "ComplexBarcodeGenerator Class"
+linktitle: "ComplexBarcodeGenerator"
+articleTitle: "ComplexBarcodeGenerator"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation."
 type: docs
 weight: 30

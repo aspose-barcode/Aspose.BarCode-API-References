@@ -1,8 +1,8 @@
 ---
-title: BarCodeReader.setQualitySettings
-linktitle: setQualitySettings
-articleTitle: setQualitySettings
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeReader.setQualitySettings"
+linktitle: "setQualitySettings"
+articleTitle: "setQualitySettings"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, Norm..."
 type: docs
 weight: 170

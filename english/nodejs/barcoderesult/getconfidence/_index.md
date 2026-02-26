@@ -1,8 +1,8 @@
 ---
-title: BarCodeResult.getConfidence
-linktitle: getConfidence
-articleTitle: getConfidence
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarCodeResult.getConfidence"
+linktitle: "getConfidence"
+articleTitle: "getConfidence"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets recognition confidence level of the recognized barcode Value: BarCodeConfidence.Strong does not have fakes or misrecognitions, BarCodeConfidence.Moderat..."
 type: docs
 weight: 60

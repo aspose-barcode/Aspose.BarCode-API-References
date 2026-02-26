@@ -1,8 +1,8 @@
 ---
-title: Code16KParameters
-linktitle: Code16KParameters
-articleTitle: Code16KParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "Code16KParameters"
+linktitle: "Code16KParameters"
+articleTitle: "Code16KParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the Code16KParameters class."
 type: docs
 weight: 10

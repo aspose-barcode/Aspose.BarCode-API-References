@@ -1,8 +1,8 @@
 ---
-title: AztecParameters.setAztecSymbolMode
-linktitle: setAztecSymbolMode
-articleTitle: setAztecSymbolMode
-second_title: Aspose.BarCode for Node.js via Java
+title: "AztecParameters.setAztecSymbolMode"
+linktitle: "setAztecSymbolMode"
+articleTitle: "setAztecSymbolMode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto."
 type: docs
 weight: 220

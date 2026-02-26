@@ -1,8 +1,8 @@
 ---
-title: Address.getTown
-linktitle: getTown
-articleTitle: getTown
-second_title: Aspose.BarCode for Node.js via Java
+title: "Address.getTown"
+linktitle: "getTown"
+articleTitle: "getTown"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the town or city."
 type: docs
 weight: 170

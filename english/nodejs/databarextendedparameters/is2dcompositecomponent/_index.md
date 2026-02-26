@@ -1,8 +1,8 @@
 ---
-title: DataBarExtendedParameters.is2DCompositeComponent
-linktitle: is2DCompositeComponent
-articleTitle: is2DCompositeComponent
-second_title: Aspose.BarCode for Node.js via Java
+title: "DataBarExtendedParameters.is2DCompositeComponent"
+linktitle: "is2DCompositeComponent"
+articleTitle: "is2DCompositeComponent"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Gets the DataBar 2D composite component flag. Default value is false."
 type: docs
 weight: 20

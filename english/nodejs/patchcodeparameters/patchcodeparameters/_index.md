@@ -1,8 +1,8 @@
 ---
-title: PatchCodeParameters
-linktitle: PatchCodeParameters
-articleTitle: PatchCodeParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "PatchCodeParameters"
+linktitle: "PatchCodeParameters"
+articleTitle: "PatchCodeParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the PatchCodeParameters class."
 type: docs
 weight: 10

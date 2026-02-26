@@ -1,8 +1,8 @@
 ---
-title: ComplexCodetextReader.tryDecodeMaxiCode
-linktitle: tryDecodeMaxiCode
-articleTitle: tryDecodeMaxiCode
-second_title: Aspose.BarCode for Node.js via Java
+title: "ComplexCodetextReader.tryDecodeMaxiCode"
+linktitle: "tryDecodeMaxiCode"
+articleTitle: "tryDecodeMaxiCode"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Decodes MaxiCode codetext."
 type: docs
 weight: 50

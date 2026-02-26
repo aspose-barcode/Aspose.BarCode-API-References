@@ -1,8 +1,8 @@
 ---
-title: MailmarkCodetext Class
-linktitle: MailmarkCodetext
-articleTitle: MailmarkCodetext
-second_title: Aspose.BarCode for Node.js via Java
+title: "MailmarkCodetext Class"
+linktitle: "MailmarkCodetext"
+articleTitle: "MailmarkCodetext"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Class for encoding and decoding the text embedded in the 4-state Royal Mailmark code."
 type: docs
 weight: 110

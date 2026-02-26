@@ -1,8 +1,8 @@
 ---
-title: BarcodeSettings Class
-linktitle: BarcodeSettings
-articleTitle: BarcodeSettings
-second_title: Aspose.BarCode for Node.js via Java
+title: "BarcodeSettings Class"
+linktitle: "BarcodeSettings"
+articleTitle: "BarcodeSettings"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "The main BarCode decoding parameters. Contains parameters which make influence on recognized data."
 type: docs
 weight: 1390

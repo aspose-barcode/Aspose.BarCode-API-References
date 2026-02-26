@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill.setDebtor
-linktitle: setDebtor
-articleTitle: setDebtor
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill.setDebtor"
+linktitle: "setDebtor"
+articleTitle: "setDebtor"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Sets the debtor address."
 type: docs
 weight: 200

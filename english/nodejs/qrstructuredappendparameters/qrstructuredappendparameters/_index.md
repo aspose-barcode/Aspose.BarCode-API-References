@@ -1,8 +1,8 @@
 ---
-title: QrStructuredAppendParameters
-linktitle: QrStructuredAppendParameters
-articleTitle: QrStructuredAppendParameters
-second_title: Aspose.BarCode for Node.js via Java
+title: "QrStructuredAppendParameters"
+linktitle: "QrStructuredAppendParameters"
+articleTitle: "QrStructuredAppendParameters"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the QrStructuredAppendParameters class."
 type: docs
 weight: 10

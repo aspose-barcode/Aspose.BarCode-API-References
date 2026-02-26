@@ -1,8 +1,8 @@
 ---
-title: GS1CompositeBarExtendedParameters.toString
-linktitle: toString
-articleTitle: toString
-second_title: Aspose.BarCode for Node.js via Java
+title: "GS1CompositeBarExtendedParameters.toString"
+linktitle: "toString"
+articleTitle: "toString"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Returns a human-readable string representation of this GS1CompositeBarExtendedParameters."
 type: docs
 weight: 90

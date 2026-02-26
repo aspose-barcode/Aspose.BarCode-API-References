@@ -1,8 +1,8 @@
 ---
-title: HslaColor.checkSatLight
-linktitle: checkSatLight
-articleTitle: checkSatLight
-second_title: Aspose.BarCode for Node.js via Java
+title: "HslaColor.checkSatLight"
+linktitle: "checkSatLight"
+articleTitle: "checkSatLight"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: ""
 type: docs
 weight: 70

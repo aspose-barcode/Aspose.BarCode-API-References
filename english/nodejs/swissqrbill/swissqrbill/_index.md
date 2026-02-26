@@ -1,8 +1,8 @@
 ---
-title: SwissQRBill
-linktitle: SwissQRBill
-articleTitle: SwissQRBill
-second_title: Aspose.BarCode for Node.js via Java
+title: "SwissQRBill"
+linktitle: "SwissQRBill"
+articleTitle: "SwissQRBill"
+second_title: "Aspose.BarCode for Node.js via Java"
 description: "Initializes a new instance of the SwissQRBill class."
 type: docs
 weight: 10
