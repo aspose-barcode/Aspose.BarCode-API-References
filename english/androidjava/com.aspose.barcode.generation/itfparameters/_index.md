@@ -18,6 +18,8 @@ ITF parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBorderThickness()](#getBorderThickness--) | Gets an ITF border (bearer bar) thickness in Unit value. |
+| [getBorderType()](#getBorderType--) | Border type of ITF barcode. |
 | [getClass()](#getClass--) |  |
 | [getItfBorderThickness()](#getItfBorderThickness--) | Gets an ITF border (bearer bar) thickness in Unit value. |
 | [getItfBorderType()](#getItfBorderType--) | Border type of ITF barcode. |
@@ -25,10 +27,12 @@ ITF parameters.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBorderThickness(Unit value)](#setBorderThickness-com.aspose.barcode.generation.Unit-) | Sets an ITF border (bearer bar) thickness in Unit value. |
+| [setBorderType(ITF14BorderType value)](#setBorderType-com.aspose.barcode.generation.ITF14BorderType-) | Border type of ITF barcode. |
 | [setItfBorderThickness(Unit value)](#setItfBorderThickness-com.aspose.barcode.generation.Unit-) | Sets an ITF border (bearer bar) thickness in Unit value. |
 | [setItfBorderType(ITF14BorderType value)](#setItfBorderType-com.aspose.barcode.generation.ITF14BorderType-) | Border type of ITF barcode. |
 | [setQuietZoneCoef(int value)](#setQuietZoneCoef-int-) | Size of the quiet zones in xDimension. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  ITFParameters . |
+| [toString()](#toString--) | Returns a human-readable string representation of this [ITFParameters](../../com.aspose.barcode.generation/itfparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,6 +51,26 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBorderThickness() {#getBorderThickness--}
+```
+public final Unit getBorderThickness()
+```
+
+
+Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
+
+**Returns:**
+[Unit](../../com.aspose.barcode.generation/unit) - an ITF border (bearer bar) thickness in Unit value.
+### getBorderType() {#getBorderType--}
+```
+public final ITF14BorderType getBorderType()
+```
+
+
+Border type of ITF barcode. Default value: ITF14BorderType.Bar.
+
+**Returns:**
+[ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -59,27 +83,27 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getItfBorderThickness() {#getItfBorderThickness--}
 ```
-public Unit getItfBorderThickness()
+public final Unit getItfBorderThickness()
 ```
 
 
 Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
 
 **Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
+[Unit](../../com.aspose.barcode.generation/unit) - an ITF border (bearer bar) thickness in Unit value.
 ### getItfBorderType() {#getItfBorderType--}
 ```
-public ITF14BorderType getItfBorderType()
+public final ITF14BorderType getItfBorderType()
 ```
 
 
-Border type of ITF barcode. Default value: ITF14BorderType.BAR.
+Border type of ITF barcode. Default value: ITF14BorderType.Bar.
 
 **Returns:**
 [ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype)
 ### getQuietZoneCoef() {#getQuietZoneCoef--}
 ```
-public int getQuietZoneCoef()
+public final int getQuietZoneCoef()
 ```
 
 
@@ -113,9 +137,9 @@ public final native void notifyAll()
 
 
 
-### setItfBorderThickness(Unit value) {#setItfBorderThickness-com.aspose.barcode.generation.Unit-}
+### setBorderThickness(Unit value) {#setBorderThickness-com.aspose.barcode.generation.Unit-}
 ```
-public void setItfBorderThickness(Unit value)
+public final void setBorderThickness(Unit value)
 ```
 
 
@@ -124,15 +148,41 @@ Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
+| value | [Unit](../../com.aspose.barcode.generation/unit) | an ITF border (bearer bar) thickness in Unit value. |
+
+### setBorderType(ITF14BorderType value) {#setBorderType-com.aspose.barcode.generation.ITF14BorderType-}
+```
+public final void setBorderType(ITF14BorderType value)
+```
+
+
+Border type of ITF barcode. Default value: ITF14BorderType.Bar.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype) |  |
+
+### setItfBorderThickness(Unit value) {#setItfBorderThickness-com.aspose.barcode.generation.Unit-}
+```
+public final void setItfBorderThickness(Unit value)
+```
+
+
+Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.barcode.generation/unit) | an ITF border (bearer bar) thickness in Unit value. |
 
 ### setItfBorderType(ITF14BorderType value) {#setItfBorderType-com.aspose.barcode.generation.ITF14BorderType-}
 ```
-public void setItfBorderType(ITF14BorderType value)
+public final void setItfBorderType(ITF14BorderType value)
 ```
 
 
-Border type of ITF barcode. Default value: ITF14BorderType.BAR.
+Border type of ITF barcode. Default value: ITF14BorderType.Bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -141,7 +191,7 @@ Border type of ITF barcode. Default value: ITF14BorderType.BAR.
 
 ### setQuietZoneCoef(int value) {#setQuietZoneCoef-int-}
 ```
-public void setQuietZoneCoef(int value)
+public final void setQuietZoneCoef(int value)
 ```
 
 
@@ -158,10 +208,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  ITFParameters .
+Returns a human-readable string representation of this [ITFParameters](../../com.aspose.barcode.generation/itfparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  ITFParameters .
+java.lang.String - A string that represents this [ITFParameters](../../com.aspose.barcode.generation/itfparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

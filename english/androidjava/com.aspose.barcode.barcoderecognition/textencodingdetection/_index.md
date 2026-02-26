@@ -3,7 +3,7 @@ title: TextEncodingDetection
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 48
+weight: 49
 url: /androidjava/com.aspose.barcode.barcoderecognition/textencodingdetection/
 ---
 **Inheritance:**

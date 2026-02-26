@@ -56,7 +56,7 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportToXml(OutputStream xmlStream)](#exportToXml-java.io.OutputStream-) | Exports BarCode properties to the xml-stream specified |
 | [exportToXml(String xmlFile)](#exportToXml-java.lang.String-) | Exports BarCode properties to the xml-file specified |
-| [getBarCodeDecodeType()](#getBarCodeDecodeType--) | Gets the decode type of the input barcode decoding |
+| [getBarCodeReadType()](#getBarCodeReadType--) | Gets the decode type of the input barcode decoding |
 | [getBarcodeSettings()](#getBarcodeSettings--) | The main BarCode decoding parameters. |
 | [getClass()](#getClass--) |  |
 | [getFoundBarCodes()](#getFoundBarCodes--) | Gets recognized  BarCodeResult s array |
@@ -176,7 +176,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  Bitmap bmp = BitmapFactory.decodeFile("test.png");
->  BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >      System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -233,7 +233,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
->  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -262,7 +262,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
->  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -291,7 +291,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
->  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -320,7 +320,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  BufferedImage bmp = ImageIO.read(new File("c:\\test.png"));
->  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -349,7 +349,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  Bitmap bmp = BitmapFactory.decodeFile("test.png");
->  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.getWidth(), bmp.getHeight()), new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -417,7 +417,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader("test.png", new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("test.png", new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >      System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -500,7 +500,7 @@ Initializes a new instance of the  BarCodeReader  class.
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
 >  InputStream fstr = new FileInputStream("test.png");
->  BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader(fstr, new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >      System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -617,9 +617,9 @@ Exports BarCode properties to the xml-file specified
 boolean - Whether or not export completed successfully.
 
 Returns  **True**  in case of success;  **False**  Otherwise
-### getBarCodeDecodeType() {#getBarCodeDecodeType--}
+### getBarCodeReadType() {#getBarCodeReadType--}
 ```
-public BaseDecodeType getBarCodeDecodeType()
+public BaseDecodeType getBarCodeReadType()
 ```
 
 
@@ -1019,14 +1019,15 @@ Sets decode type for recognition. Must be called before ReadBarCodes() method.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader())
->  reader.setBarCodeReadType(new MultyDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader();
+>  reader.setBarCodeReadType(new MultiDecodeType(DecodeType.CODE_39, DecodeType.CODE_128);
 >  reader.setBarCodeImage("test.png");
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
 >     System.out.println("BarCode CodeText: " + result.getCodeText());
 >  }
+>  System.out.println("BarCodeReadType: " + reader.getBarCodeReadType().toString());
 > ```
 
 **Parameters:**

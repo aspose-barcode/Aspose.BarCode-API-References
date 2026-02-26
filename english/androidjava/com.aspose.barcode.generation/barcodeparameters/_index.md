@@ -18,10 +18,11 @@ Barcode generation parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAspectRatio()](#getAspectRatio--) |  |
 | [getAustralianPost()](#getAustralianPost--) | AustralianPost barcode parameters. |
 | [getAztec()](#getAztec--) | Aztec parameters. |
 | [getBarColor()](#getBarColor--) | Bars color. |
-| [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars in  Unit  value. |
+| [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars in [Unit](../../com.aspose.barcode.generation/unit) value. |
 | [getBarWidthReduction()](#getBarWidthReduction--) | Get bars reduction value that is used to compensate ink spread while printing. |
 | [getBarcodeType()](#getBarcodeType--) |  |
 | [getChecksumAlwaysShow()](#getChecksumAlwaysShow--) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
@@ -32,6 +33,7 @@ Barcode generation parameters.
 | [getCode16K()](#getCode16K--) | Code16K parameters. |
 | [getCodeText()](#getCodeText--) |  |
 | [getCodeTextParameters()](#getCodeTextParameters--) | Codetext parameters. |
+| [getComplexBarcode()](#getComplexBarcode--) |  |
 | [getCoupon()](#getCoupon--) | Coupon parameters. |
 | [getDataBar()](#getDataBar--) | Databar parameters. |
 | [getDataMatrix()](#getDataMatrix--) | DataMatrix parameters. |
@@ -56,7 +58,7 @@ Barcode generation parameters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBarColor(int value)](#setBarColor-int-) | Bars color. |
-| [setBarHeight(Unit value)](#setBarHeight-com.aspose.barcode.generation.Unit-) | Height of 1D barcodes' bars in  Unit  value. |
+| [setBarHeight(Unit value)](#setBarHeight-com.aspose.barcode.generation.Unit-) | Height of 1D barcodes' bars in [Unit](../../com.aspose.barcode.generation/unit) value. |
 | [setBarWidthReduction(Unit value)](#setBarWidthReduction-com.aspose.barcode.generation.Unit-) | Sets bars reduction value that is used to compensate ink spread while printing. |
 | [setChecksumAlwaysShow(boolean value)](#setChecksumAlwaysShow-boolean-) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [setChecksumEnabled(EnableChecksum value)](#setChecksumEnabled-com.aspose.barcode.generation.EnableChecksum-) |  |
@@ -86,9 +88,19 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAspectRatio() {#getAspectRatio--}
+```
+public final float getAspectRatio()
+```
+
+
+
+
+**Returns:**
+float
 ### getAustralianPost() {#getAustralianPost--}
 ```
-public AustralianPostParameters getAustralianPost()
+public final AustralianPostParameters getAustralianPost()
 ```
 
 
@@ -98,7 +110,7 @@ AustralianPost barcode parameters.
 [AustralianPostParameters](../../com.aspose.barcode.generation/australianpostparameters)
 ### getAztec() {#getAztec--}
 ```
-public AztecParameters getAztec()
+public final AztecParameters getAztec()
 ```
 
 
@@ -108,7 +120,7 @@ Aztec parameters.
 [AztecParameters](../../com.aspose.barcode.generation/aztecparameters)
 ### getBarColor() {#getBarColor--}
 ```
-public int getBarColor()
+public final int getBarColor()
 ```
 
 
@@ -118,27 +130,27 @@ Bars color. Default value: Color.Black.
 int
 ### getBarHeight() {#getBarHeight--}
 ```
-public Unit getBarHeight()
+public final Unit getBarHeight()
 ```
 
 
-Height of 1D barcodes' bars in  Unit  value. Ignored if  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+Height of 1D barcodes' bars in [Unit](../../com.aspose.barcode.generation/unit) value. Ignored if  BaseGenerationParameters.AutoSizeMode ([BaseGenerationParameters.getAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#getAutoSizeMode)/[BaseGenerationParameters.setAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#setAutoSizeMode)) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
 ### getBarWidthReduction() {#getBarWidthReduction--}
 ```
-public Unit getBarWidthReduction()
+public final Unit getBarWidthReduction()
 ```
 
 
-Get bars reduction value that is used to compensate ink spread while printing.
+Get bars reduction value that is used to compensate ink spread while printing. Default value: 0
 
 **Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
+[Unit](../../com.aspose.barcode.generation/unit) - bars reduction value that is used to compensate ink spread while printing.
 ### getBarcodeType() {#getBarcodeType--}
 ```
-public BaseEncodeType getBarcodeType()
+public final BaseEncodeType getBarcodeType()
 ```
 
 
@@ -148,7 +160,7 @@ public BaseEncodeType getBarcodeType()
 [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype)
 ### getChecksumAlwaysShow() {#getChecksumAlwaysShow--}
 ```
-public boolean getChecksumAlwaysShow()
+public final boolean getChecksumAlwaysShow()
 ```
 
 
@@ -168,7 +180,7 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCodabar() {#getCodabar--}
 ```
-public CodabarParameters getCodabar()
+public final CodabarParameters getCodabar()
 ```
 
 
@@ -178,7 +190,7 @@ Codabar parameters.
 [CodabarParameters](../../com.aspose.barcode.generation/codabarparameters)
 ### getCodablock() {#getCodablock--}
 ```
-public CodablockParameters getCodablock()
+public final CodablockParameters getCodablock()
 ```
 
 
@@ -188,7 +200,7 @@ Codablock parameters.
 [CodablockParameters](../../com.aspose.barcode.generation/codablockparameters)
 ### getCode128() {#getCode128--}
 ```
-public Code128Parameters getCode128()
+public final Code128Parameters getCode128()
 ```
 
 
@@ -198,7 +210,7 @@ Code128 parameters.
 [Code128Parameters](../../com.aspose.barcode.generation/code128parameters)
 ### getCode16K() {#getCode16K--}
 ```
-public Code16KParameters getCode16K()
+public final Code16KParameters getCode16K()
 ```
 
 
@@ -208,7 +220,7 @@ Code16K parameters.
 [Code16KParameters](../../com.aspose.barcode.generation/code16kparameters)
 ### getCodeText() {#getCodeText--}
 ```
-public String getCodeText()
+public final String getCodeText()
 ```
 
 
@@ -218,7 +230,7 @@ public String getCodeText()
 java.lang.String
 ### getCodeTextParameters() {#getCodeTextParameters--}
 ```
-public CodetextParameters getCodeTextParameters()
+public final CodetextParameters getCodeTextParameters()
 ```
 
 
@@ -226,9 +238,19 @@ Codetext parameters.
 
 **Returns:**
 [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters)
+### getComplexBarcode() {#getComplexBarcode--}
+```
+public final ComplexBarcode getComplexBarcode()
+```
+
+
+
+
+**Returns:**
+[ComplexBarcode](../../com.aspose.barcode.generation/complexbarcode)
 ### getCoupon() {#getCoupon--}
 ```
-public CouponParameters getCoupon()
+public final CouponParameters getCoupon()
 ```
 
 
@@ -238,7 +260,7 @@ Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
 [CouponParameters](../../com.aspose.barcode.generation/couponparameters)
 ### getDataBar() {#getDataBar--}
 ```
-public DataBarParameters getDataBar()
+public final DataBarParameters getDataBar()
 ```
 
 
@@ -248,7 +270,7 @@ Databar parameters.
 [DataBarParameters](../../com.aspose.barcode.generation/databarparameters)
 ### getDataMatrix() {#getDataMatrix--}
 ```
-public DataMatrixParameters getDataMatrix()
+public final DataMatrixParameters getDataMatrix()
 ```
 
 
@@ -258,7 +280,7 @@ DataMatrix parameters.
 [DataMatrixParameters](../../com.aspose.barcode.generation/datamatrixparameters)
 ### getDotCode() {#getDotCode--}
 ```
-public DotCodeParameters getDotCode()
+public final DotCodeParameters getDotCode()
 ```
 
 
@@ -268,13 +290,11 @@ DotCode parameters.
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters)
 ### getEnableEscape() {#getEnableEscape--}
 ```
-public boolean getEnableEscape()
+public final boolean getEnableEscape()
 ```
 
 
 Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters.
-
---------------------
 
 Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
 
@@ -282,27 +302,48 @@ Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII contr
 boolean
 ### getFilledBars() {#getFilledBars--}
 ```
-public boolean getFilledBars()
+public final boolean getFilledBars()
 ```
 
 
 Gets a value indicating whether bars filled. Only for 1D barcodes. Default value: true.
 
 **Returns:**
-boolean
+boolean - a value indicating whether bars filled.
 ### getGS1CompositeBar() {#getGS1CompositeBar--}
 ```
-public GS1CompositeBarParameters getGS1CompositeBar()
+public final GS1CompositeBarParameters getGS1CompositeBar()
 ```
 
 
-GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|' String codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS\_1\_COMPOSITE\_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS\_1\_CODE\_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC\_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); /// // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); /// generator.save("test.png");
+GS1 Composite Bar parameters.
+
+This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'
+
+```
+
+ [C#]
+   var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
+ 	  using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
+ 	  {
+       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
+       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
+       // Aspect ratio of 2D component
+       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
+       // X-Dimension of 1D and 2D components
+       generator.Parameters.Barcode.XDimension.Pixels = 3;
+       // Height of 1D component
+       generator.Parameters.Barcode.BarHeight.Pixels = 100;
+       generator.Save("test.png");
+   }
+ 	
+```
 
 **Returns:**
-[GS1CompositeBarParameters](../../com.aspose.barcode.generation/gs1compositebarparameters) - GS1 Composite Bar parameters.
+[GS1CompositeBarParameters](../../com.aspose.barcode.generation/gs1compositebarparameters)
 ### getHanXin() {#getHanXin--}
 ```
-public HanXinParameters getHanXin()
+public final HanXinParameters getHanXin()
 ```
 
 
@@ -312,7 +353,7 @@ HanXin parameters.
 [HanXinParameters](../../com.aspose.barcode.generation/hanxinparameters)
 ### getITF() {#getITF--}
 ```
-public ITFParameters getITF()
+public final ITFParameters getITF()
 ```
 
 
@@ -322,7 +363,7 @@ ITF parameters.
 [ITFParameters](../../com.aspose.barcode.generation/itfparameters)
 ### getMaxiCode() {#getMaxiCode--}
 ```
-public MaxiCodeParameters getMaxiCode()
+public final MaxiCodeParameters getMaxiCode()
 ```
 
 
@@ -332,7 +373,7 @@ MaxiCode parameters.
 [MaxiCodeParameters](../../com.aspose.barcode.generation/maxicodeparameters)
 ### getPadding() {#getPadding--}
 ```
-public Padding getPadding()
+public final Padding getPadding()
 ```
 
 
@@ -342,7 +383,7 @@ Barcode paddings. Default value: 5pt 5pt 5pt 5pt.
 [Padding](../../com.aspose.barcode.generation/padding)
 ### getPatchCode() {#getPatchCode--}
 ```
-public PatchCodeParameters getPatchCode()
+public final PatchCodeParameters getPatchCode()
 ```
 
 
@@ -352,7 +393,7 @@ PatchCode parameters.
 [PatchCodeParameters](../../com.aspose.barcode.generation/patchcodeparameters)
 ### getPdf417() {#getPdf417--}
 ```
-public Pdf417Parameters getPdf417()
+public final Pdf417Parameters getPdf417()
 ```
 
 
@@ -362,7 +403,7 @@ PDF417 parameters.
 [Pdf417Parameters](../../com.aspose.barcode.generation/pdf417parameters)
 ### getPostal() {#getPostal--}
 ```
-public PostalParameters getPostal()
+public final PostalParameters getPostal()
 ```
 
 
@@ -372,7 +413,7 @@ Postal parameters. Used for Postnet, Planet.
 [PostalParameters](../../com.aspose.barcode.generation/postalparameters)
 ### getQR() {#getQR--}
 ```
-public QrParameters getQR()
+public final QrParameters getQR()
 ```
 
 
@@ -382,7 +423,7 @@ QR, MicroQR and RectMicroQR parameters.
 [QrParameters](../../com.aspose.barcode.generation/qrparameters)
 ### getSupplement() {#getSupplement--}
 ```
-public SupplementParameters getSupplement()
+public final SupplementParameters getSupplement()
 ```
 
 
@@ -392,7 +433,7 @@ Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA
 [SupplementParameters](../../com.aspose.barcode.generation/supplementparameters)
 ### getThrowExceptionWhenCodeTextIncorrect() {#getThrowExceptionWhenCodeTextIncorrect--}
 ```
-public boolean getThrowExceptionWhenCodeTextIncorrect()
+public final boolean getThrowExceptionWhenCodeTextIncorrect()
 ```
 
 
@@ -402,7 +443,7 @@ Only for 1D barcodes. If codetext is incorrect and value set to true - exception
 boolean
 ### getWideNarrowRatio() {#getWideNarrowRatio--}
 ```
-public float getWideNarrowRatio()
+public final float getWideNarrowRatio()
 ```
 
 
@@ -412,17 +453,17 @@ Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times
 float
 ### getXDimension() {#getXDimension--}
 ```
-public Unit getXDimension()
+public final Unit getXDimension()
 ```
 
 
-x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode ([BaseGenerationParameters.getAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#getAutoSizeMode)/[BaseGenerationParameters.setAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#setAutoSizeMode)) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
@@ -432,7 +473,7 @@ public native int hashCode()
 int
 ### isChecksumEnabled() {#isChecksumEnabled--}
 ```
-public EnableChecksum isChecksumEnabled()
+public final EnableChecksum isChecksumEnabled()
 ```
 
 
@@ -464,7 +505,7 @@ public final native void notifyAll()
 
 ### setBarColor(int value) {#setBarColor-int-}
 ```
-public void setBarColor(int value)
+public final void setBarColor(int value)
 ```
 
 
@@ -477,11 +518,11 @@ Bars color. Default value: Color.Black.
 
 ### setBarHeight(Unit value) {#setBarHeight-com.aspose.barcode.generation.Unit-}
 ```
-public void setBarHeight(Unit value)
+public final void setBarHeight(Unit value)
 ```
 
 
-Height of 1D barcodes' bars in  Unit  value. Ignored if  AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+Height of 1D barcodes' bars in [Unit](../../com.aspose.barcode.generation/unit) value. Ignored if  BaseGenerationParameters.AutoSizeMode ([BaseGenerationParameters.getAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#getAutoSizeMode)/[BaseGenerationParameters.setAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#setAutoSizeMode)) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -490,20 +531,20 @@ Height of 1D barcodes' bars in  Unit  value. Ignored if  AutoSizeMode  property 
 
 ### setBarWidthReduction(Unit value) {#setBarWidthReduction-com.aspose.barcode.generation.Unit-}
 ```
-public void setBarWidthReduction(Unit value)
+public final void setBarWidthReduction(Unit value)
 ```
 
 
-Sets bars reduction value that is used to compensate ink spread while printing.
+Sets bars reduction value that is used to compensate ink spread while printing. Default value: 0
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
+| value | [Unit](../../com.aspose.barcode.generation/unit) | bars reduction value that is used to compensate ink spread while printing. |
 
 ### setChecksumAlwaysShow(boolean value) {#setChecksumAlwaysShow-boolean-}
 ```
-public void setChecksumAlwaysShow(boolean value)
+public final void setChecksumAlwaysShow(boolean value)
 ```
 
 
@@ -516,7 +557,7 @@ Always display checksum digit in the human readable text for Code128 and GS1Code
 
 ### setChecksumEnabled(EnableChecksum value) {#setChecksumEnabled-com.aspose.barcode.generation.EnableChecksum-}
 ```
-public void setChecksumEnabled(EnableChecksum value)
+public final void setChecksumEnabled(EnableChecksum value)
 ```
 
 
@@ -535,7 +576,7 @@ Checksum always used: Rest symbology
 
 ### setCodeText(String value) {#setCodeText-java.lang.String-}
 ```
-public void setCodeText(String value)
+public final void setCodeText(String value)
 ```
 
 
@@ -548,13 +589,11 @@ public void setCodeText(String value)
 
 ### setEnableEscape(boolean value) {#setEnableEscape-boolean-}
 ```
-public void setEnableEscape(boolean value)
+public final void setEnableEscape(boolean value)
 ```
 
 
 Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters.
-
---------------------
 
 Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
 
@@ -565,7 +604,7 @@ Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII contr
 
 ### setFilledBars(boolean value) {#setFilledBars-boolean-}
 ```
-public void setFilledBars(boolean value)
+public final void setFilledBars(boolean value)
 ```
 
 
@@ -574,15 +613,36 @@ Sets a value indicating whether bars filled. Only for 1D barcodes. Default value
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | a value indicating whether bars filled. |
 
 ### setGS1CompositeBar(GS1CompositeBarParameters value) {#setGS1CompositeBar-com.aspose.barcode.generation.GS1CompositeBarParameters-}
 ```
-public void setGS1CompositeBar(GS1CompositeBarParameters value)
+public final void setGS1CompositeBar(GS1CompositeBarParameters value)
 ```
 
 
-GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS\_1\_COMPOSITE\_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS\_1\_CODE\_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC\_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); /// // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); /// generator.save("test.png");
+GS1 Composite Bar parameters.
+
+This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'
+
+```
+
+ [C#]
+   var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
+ 	  using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
+ 	  {
+       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
+       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
+       // Aspect ratio of 2D component
+       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
+       // X-Dimension of 1D and 2D components
+       generator.Parameters.Barcode.XDimension.Pixels = 3;
+       // Height of 1D component
+       generator.Parameters.Barcode.BarHeight.Pixels = 100;
+       generator.Save("test.png");
+   }
+ 	
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -591,11 +651,11 @@ GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Com
 
 ### setThrowExceptionWhenCodeTextIncorrect(boolean value) {#setThrowExceptionWhenCodeTextIncorrect-boolean-}
 ```
-public void setThrowExceptionWhenCodeTextIncorrect(boolean value)
+public final void setThrowExceptionWhenCodeTextIncorrect(boolean value)
 ```
 
 
-Only for 1D barcodes. If codetext is incorrect and value set to true - exception will be thrown. Otherwise codetext will be corrected to match barcode's specification. Exception always will be thrown for: Databar symbology if codetext is incorrect. Exception always will not be thrown for: AustraliaPost, SingapurePost, Code39Extended, Code93Extended, Code16K, Code128 symbology if codetext is incorrect.
+Only for 1D barcodes. If codetext is incorrect and value set to true - exception will be thrown. Otherwise codetext will be corrected to match barcode's specification. Exception always will be thrown for: Databar symbology if codetext is incorrect. Exception always will not be thrown for: AustraliaPost, SingapurePost, Code39FullASCII, Code93, Code16K, Code128 symbology if codetext is incorrect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -604,11 +664,11 @@ Only for 1D barcodes. If codetext is incorrect and value set to true - exception
 
 ### setWideNarrowRatio(float value) {#setWideNarrowRatio-float-}
 ```
-public void setWideNarrowRatio(float value)
+public final void setWideNarrowRatio(float value)
 ```
 
 
-Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times as wide as narrow bars. Used for ITF, PZN, PharmaCode, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, VIN, DeutschePost, OPC, Code32, DataLogic2of5, PatchCode, Code39Extended, Code39Standard
+Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times as wide as narrow bars. Used for ITF, PZN, PharmaCode, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, VIN, DeutschePost, OPC, Code32, DataLogic2of5, PatchCode, Code39, Code39FullASCII
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -617,11 +677,11 @@ Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times
 
 ### setXDimension(Unit value) {#setXDimension-com.aspose.barcode.generation.Unit-}
 ```
-public void setXDimension(Unit value)
+public final void setXDimension(Unit value)
 ```
 
 
-x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode  property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
+x-dimension is the smallest width of the unit of BarCode bars or spaces. Increase this will increase the whole barcode image width. Ignored if  BaseGenerationParameters.AutoSizeMode ([BaseGenerationParameters.getAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#getAutoSizeMode)/[BaseGenerationParameters.setAutoSizeMode](../../com.aspose.barcode.generation/basegenerationparameters\#setAutoSizeMode)) property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation.
 
 **Parameters:**
 | Parameter | Type | Description |

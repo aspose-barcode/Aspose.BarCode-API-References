@@ -35,6 +35,7 @@ public class BarcodeParametersInternal
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBarColor(BarcodeParameters barcodeParameters, int value)](#setBarColor-com.aspose.barcode.generation.BarcodeParameters-int-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -245,6 +246,20 @@ public final native void notifyAll()
 
 
 
+
+### setBarColor(BarcodeParameters barcodeParameters, int value) {#setBarColor-com.aspose.barcode.generation.BarcodeParameters-int-}
+```
+public static void setBarColor(BarcodeParameters barcodeParameters, int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| barcodeParameters | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

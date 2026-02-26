@@ -19,12 +19,14 @@ Code128 parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets or sets a Code128 encode mode. |
+| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets a Code128 encode mode. |
+| [getEncodeMode()](#getEncodeMode--) | Gets a Code128 encode mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Gets or sets a Code128 encode mode. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  Code128Parameters . |
+| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Sets a Code128 encode mode. |
+| [setEncodeMode(Code128EncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Sets a Code128 encode mode. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [Code128Parameters](../../com.aspose.barcode.generation/code128parameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,14 +57,24 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCode128EncodeMode() {#getCode128EncodeMode--}
 ```
-public Code128EncodeMode getCode128EncodeMode()
+public final Code128EncodeMode getCode128EncodeMode()
 ```
 
 
-Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 
 **Returns:**
-[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) - a Code128 encode mode.
+### getEncodeMode() {#getEncodeMode--}
+```
+public final Code128EncodeMode getEncodeMode()
+```
+
+
+Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+
+**Returns:**
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) - a Code128 encode mode.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -91,16 +103,29 @@ public final native void notifyAll()
 
 ### setCode128EncodeMode(Code128EncodeMode value) {#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
 ```
-public void setCode128EncodeMode(Code128EncodeMode value)
+public final void setCode128EncodeMode(Code128EncodeMode value)
 ```
 
 
-Gets or sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+Sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) |  |
+| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) | a Code128 encode mode. |
+
+### setEncodeMode(Code128EncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
+```
+public final void setEncodeMode(Code128EncodeMode value)
+```
+
+
+Sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) | a Code128 encode mode. |
 
 ### toString() {#toString--}
 ```
@@ -108,10 +133,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  Code128Parameters .
+Returns a human-readable string representation of this [Code128Parameters](../../com.aspose.barcode.generation/code128parameters).
 
 **Returns:**
-java.lang.String - A string that represents this  Code128Parameters .
+java.lang.String - A string that represents this [Code128Parameters](../../com.aspose.barcode.generation/code128parameters).
 ### wait() {#wait--}
 ```
 public final void wait()

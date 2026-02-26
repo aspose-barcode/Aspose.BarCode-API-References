@@ -27,7 +27,7 @@ BarcodeRecognitionSettings contains the API to customization BarcodeRecognitionF
 | --- | --- |
 | [describeContents()](#describeContents--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBarCodeDecodeType()](#getBarCodeDecodeType--) |  |
+| [getBarCodeReadType()](#getBarCodeReadType--) |  |
 | [getBarcodeReaderSettings()](#getBarcodeReaderSettings--) | internal |
 | [getBarcodeScannerFragmentSettings()](#getBarcodeScannerFragmentSettings--) |  |
 | [getBarcodeSettings()](#getBarcodeSettings--) | The main BarCode decoding parameters. |
@@ -77,9 +77,9 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getBarCodeDecodeType() {#getBarCodeDecodeType--}
+### getBarCodeReadType() {#getBarCodeReadType--}
 ```
-public BaseDecodeType getBarCodeDecodeType()
+public BaseDecodeType getBarCodeReadType()
 ```
 
 

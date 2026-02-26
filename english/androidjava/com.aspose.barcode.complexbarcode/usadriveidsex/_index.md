@@ -3,7 +3,7 @@ title: USADriveIdSex
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Enum for Sex field in the US Drivers License
 type: docs
-weight: 47
+weight: 48
 url: /androidjava/com.aspose.barcode.complexbarcode/usadriveidsex/
 ---
 **Inheritance:**

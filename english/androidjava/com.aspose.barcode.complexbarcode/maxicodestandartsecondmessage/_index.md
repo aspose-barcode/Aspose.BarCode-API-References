@@ -3,13 +3,13 @@ title: MaxiCodeStandartSecondMessage
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding standart second message for MaxiCode barcode.
 type: docs
-weight: 30
+weight: 31
 url: /androidjava/com.aspose.barcode.complexbarcode/maxicodestandartsecondmessage/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage](../../com.aspose.barcode.complexbarcode/maxicodesecondmessage)
+java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage](../../com.aspose.barcode.complexbarcode/maxicodesecondmessage), com.aspose.barcode.complexbarcode.MaxiCodeStandardSecondMessage
 ```
-public class MaxiCodeStandartSecondMessage extends MaxiCodeSecondMessage
+public class MaxiCodeStandartSecondMessage extends MaxiCodeStandardSecondMessage
 ```
 
 Class for encoding and decoding standart second message for MaxiCode barcode.
@@ -22,7 +22,7 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandartSecondMessage value. |
 | [getClass()](#getClass--) |  |
 | [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
 | [getMessage()](#getMessage--) | Gets second message |
@@ -46,12 +46,12 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStandartSecondMessage value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | An  value to compare to this instance |
+| obj | java.lang.Object | An MaxiCodeStandartSecondMessage value to compare to this instance |
 
 **Returns:**
 boolean - **true** if obj has the same value as this instance; otherwise, **false**.
