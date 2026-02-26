@@ -3,7 +3,7 @@ title: CodabarParameters Class
 linktitle: CodabarParameters
 articleTitle: CodabarParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Codabar parameters.
+description: "Codabar parameters."
 type: docs
 weight: 670
 url: /nodejs/codabarparameters/

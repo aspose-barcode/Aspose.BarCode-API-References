@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile Class
 linktitle: USADriveIdJurisdSubfile
 articleTitle: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for Jurisdiction specific fields for USA DL.
+description: "Class for Jurisdiction specific fields for USA DL."
 type: docs
 weight: 340
 url: /nodejs/usadriveidjurisdsubfile/

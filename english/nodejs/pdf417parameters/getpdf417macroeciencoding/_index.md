@@ -3,7 +3,7 @@ title: Pdf417Parameters.getPdf417MacroECIEncoding
 linktitle: getPdf417MacroECIEncoding
 articleTitle: getPdf417MacroECIEncoding
 second_title: Aspose.BarCode for Node.js via Java
-description: Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields.
+description: "Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields."
 type: docs
 weight: 650
 url: /nodejs/pdf417parameters/getpdf417macroeciencoding/

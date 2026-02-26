@@ -3,7 +3,7 @@ title: DataMatrixExtCodetextBuilder Class
 linktitle: DataMatrixExtCodetextBuilder
 articleTitle: DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 770
 url: /nodejs/datamatrixextcodetextbuilder/

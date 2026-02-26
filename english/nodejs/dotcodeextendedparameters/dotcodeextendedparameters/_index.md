@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters
 linktitle: DotCodeExtendedParameters
 articleTitle: DotCodeExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the DotCodeExtendedParameters class.
+description: "Initializes a new instance of the DotCodeExtendedParameters class."
 type: docs
 weight: 10
 url: /nodejs/dotcodeextendedparameters/dotcodeextendedparameters/

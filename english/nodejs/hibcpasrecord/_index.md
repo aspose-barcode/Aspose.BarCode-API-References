@@ -3,7 +3,7 @@ title: HIBCPASRecord Class
 linktitle: HIBCPASRecord
 articleTitle: HIBCPASRecord
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for storing HIBC PAS record.
+description: "Class for storing HIBC PAS record."
 type: docs
 weight: 270
 url: /nodejs/hibcpasrecord/

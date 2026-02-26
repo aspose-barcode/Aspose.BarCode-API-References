@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext Class
 linktitle: MaxiCodeStructuredCodetext
 articleTitle: MaxiCodeStructuredCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3.
+description: "Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3."
 type: docs
 weight: 180
 url: /nodejs/maxicodestructuredcodetext/

@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this DataBarParameters.
+description: "Returns a human-readable string representation of this DataBarParameters."
 type: docs
 weight: 90
 url: /nodejs/gs1compositebarparameters/tostring/

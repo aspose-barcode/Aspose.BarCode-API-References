@@ -3,7 +3,7 @@ title: QrStructuredAppendParameters.setParityByte
 linktitle: setParityByte
 articleTitle: setParityByte
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the QR structured append mode parity data.
+description: "Sets the QR structured append mode parity data."
 type: docs
 weight: 40
 url: /nodejs/qrstructuredappendparameters/setparitybyte/

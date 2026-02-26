@@ -3,7 +3,7 @@ title: MandatoryFields
 linktitle: MandatoryFields
 articleTitle: MandatoryFields
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the MandatoryFields class.
+description: "Initializes a new instance of the MandatoryFields class."
 type: docs
 weight: 10
 url: /nodejs/mandatoryfields/mandatoryfields/

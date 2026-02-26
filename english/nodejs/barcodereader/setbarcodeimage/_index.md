@@ -3,7 +3,7 @@ title: BarCodeReader.setBarCodeImage
 linktitle: setBarCodeImage
 articleTitle: setBarCodeImage
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method.
+description: "Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method."
 type: docs
 weight: 190
 url: /nodejs/barcodereader/setbarcodeimage/

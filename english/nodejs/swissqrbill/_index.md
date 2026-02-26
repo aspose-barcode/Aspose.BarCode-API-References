@@ -3,7 +3,7 @@ title: SwissQRBill Class
 linktitle: SwissQRBill
 articleTitle: SwissQRBill
 second_title: Aspose.BarCode for Node.js via Java
-description: SwissQR bill data.
+description: "SwissQR bill data."
 type: docs
 weight: 90
 url: /nodejs/swissqrbill/

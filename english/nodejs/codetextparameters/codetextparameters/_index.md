@@ -3,7 +3,7 @@ title: CodetextParameters
 linktitle: CodetextParameters
 articleTitle: CodetextParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the CodetextParameters class.
+description: "Initializes a new instance of the CodetextParameters class."
 type: docs
 weight: 10
 url: /nodejs/codetextparameters/codetextparameters/

@@ -3,7 +3,7 @@ title: BarCodeRegionParameters
 linktitle: BarCodeRegionParameters
 articleTitle: BarCodeRegionParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the BarCodeRegionParameters class.
+description: "Initializes a new instance of the BarCodeRegionParameters class."
 type: docs
 weight: 10
 url: /nodejs/barcoderegionparameters/barcoderegionparameters/

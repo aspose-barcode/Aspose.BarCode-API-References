@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroFileSize
 linktitle: setPdf417MacroFileSize
 articleTitle: setPdf417MacroFileSize
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 file size.
+description: "Sets macro Pdf417 file size."
 type: docs
 weight: 540
 url: /nodejs/pdf417parameters/setpdf417macrofilesize/

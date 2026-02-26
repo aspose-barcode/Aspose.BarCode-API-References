@@ -3,7 +3,7 @@ title: BarcodeGenerator.exportToXml
 linktitle: exportToXml
 articleTitle: exportToXml
 second_title: Aspose.BarCode for Node.js via Java
-description: Exports BarCode properties to the xml file specified.
+description: "Exports BarCode properties to the xml file specified."
 type: docs
 weight: 130
 url: /nodejs/barcodegenerator/exporttoxml/

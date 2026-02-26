@@ -3,7 +3,7 @@ title: DataMatrixParameters.setRows
 linktitle: setRows
 articleTitle: setRows
 second_title: Aspose.BarCode for Node.js via Java
-description: Rows count.
+description: "Rows count."
 type: docs
 weight: 280
 url: /nodejs/datamatrixparameters/setrows/

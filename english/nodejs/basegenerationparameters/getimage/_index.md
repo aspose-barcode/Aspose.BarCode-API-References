@@ -3,7 +3,7 @@ title: BaseGenerationParameters.getImage
 linktitle: getImage
 articleTitle: getImage
 second_title: Aspose.BarCode for Node.js via Java
-description: Image parameters. See ImageParameters.
+description: "Image parameters. See ImageParameters."
 type: docs
 weight: 160
 url: /nodejs/basegenerationparameters/getimage/

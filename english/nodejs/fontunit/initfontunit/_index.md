@@ -3,7 +3,7 @@ title: FontUnit.initFontUnit
 linktitle: initFontUnit
 articleTitle: initFontUnit
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 30
 url: /nodejs/fontunit/initfontunit/

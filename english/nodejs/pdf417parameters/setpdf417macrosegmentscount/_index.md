@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroSegmentsCount
 linktitle: setPdf417MacroSegmentsCount
 articleTitle: setPdf417MacroSegmentsCount
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 barcode segments count.
+description: "Sets macro Pdf417 barcode segments count."
 type: docs
 weight: 340
 url: /nodejs/pdf417parameters/setpdf417macrosegmentscount/

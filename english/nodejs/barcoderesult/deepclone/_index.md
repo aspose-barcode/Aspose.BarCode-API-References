@@ -3,7 +3,7 @@ title: BarCodeResult.deepClone
 linktitle: deepClone
 articleTitle: deepClone
 second_title: Aspose.BarCode for Node.js via Java
-description: Creates a copy of BarCodeResult class.
+description: "Creates a copy of BarCodeResult class."
 type: docs
 weight: 160
 url: /nodejs/barcoderesult/deepclone/

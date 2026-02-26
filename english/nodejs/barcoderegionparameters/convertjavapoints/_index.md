@@ -3,7 +3,7 @@ title: BarCodeRegionParameters.convertJavaPoints
 linktitle: convertJavaPoints
 articleTitle: convertJavaPoints
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 60
 url: /nodejs/barcoderegionparameters/convertjavapoints/

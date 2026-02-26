@@ -3,7 +3,7 @@ title: AztecExtendedParameters Class
 linktitle: AztecExtendedParameters
 articleTitle: AztecExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores special data of Aztec recognized barcode.
+description: "Stores special data of Aztec recognized barcode."
 type: docs
 weight: 1450
 url: /nodejs/aztecextendedparameters/

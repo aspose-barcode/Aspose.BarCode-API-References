@@ -3,7 +3,7 @@ title: RecognitionAbortedException
 linktitle: RecognitionAbortedException
 articleTitle: RecognitionAbortedException
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the RecognitionAbortedException class.
+description: "Initializes a new instance of the RecognitionAbortedException class."
 type: docs
 weight: 10
 url: /nodejs/recognitionabortedexception/recognitionabortedexception/

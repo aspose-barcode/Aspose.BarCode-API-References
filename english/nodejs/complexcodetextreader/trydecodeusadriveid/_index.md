@@ -3,7 +3,7 @@ title: ComplexCodetextReader.tryDecodeUSADriveId
 linktitle: tryDecodeUSADriveId
 articleTitle: tryDecodeUSADriveId
 second_title: Aspose.BarCode for Node.js via Java
-description: Decodes USADriveId codetext.
+description: "Decodes USADriveId codetext."
 type: docs
 weight: 80
 url: /nodejs/complexcodetextreader/trydecodeusadriveid/

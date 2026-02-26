@@ -3,7 +3,7 @@ title: BarCodeReader.abort
 linktitle: abort
 articleTitle: abort
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 120
 url: /nodejs/barcodereader/abort/

@@ -3,7 +3,7 @@ title: CodetextParameters Class
 linktitle: CodetextParameters
 articleTitle: CodetextParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Codetext parameters.
+description: "Codetext parameters."
 type: docs
 weight: 510
 url: /nodejs/codetextparameters/

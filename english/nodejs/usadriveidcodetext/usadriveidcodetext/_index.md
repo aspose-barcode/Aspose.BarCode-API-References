@@ -3,7 +3,7 @@ title: USADriveIdCodetext
 linktitle: USADriveIdCodetext
 articleTitle: USADriveIdCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the USADriveIdCodetext class.
+description: "Initializes a new instance of the USADriveIdCodetext class."
 type: docs
 weight: 10
 url: /nodejs/usadriveidcodetext/usadriveidcodetext/

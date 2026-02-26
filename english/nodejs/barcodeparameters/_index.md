@@ -3,7 +3,7 @@ title: BarcodeParameters Class
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Barcode generation parameters.
+description: "Barcode generation parameters."
 type: docs
 weight: 450
 url: /nodejs/barcodeparameters/

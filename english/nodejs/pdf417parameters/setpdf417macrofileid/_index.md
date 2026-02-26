@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroFileID
 linktitle: setPdf417MacroFileID
 articleTitle: setPdf417MacroFileID
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 barcode's file ID. Used for MacroPdf417.
+description: "Sets macro Pdf417 barcode's file ID. Used for MacroPdf417."
 type: docs
 weight: 260
 url: /nodejs/pdf417parameters/setpdf417macrofileid/

@@ -3,7 +3,7 @@ title: QualitySettings.getBarcodeQuality
 linktitle: getBarcodeQuality
 articleTitle: getBarcodeQuality
 second_title: Aspose.BarCode for Node.js via Java
-description: Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition.
+description: "Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition."
 type: docs
 weight: 120
 url: /nodejs/qualitysettings/getbarcodequality/

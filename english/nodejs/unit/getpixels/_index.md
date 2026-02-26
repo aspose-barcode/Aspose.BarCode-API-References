@@ -3,7 +3,7 @@ title: Unit.getPixels
 linktitle: getPixels
 articleTitle: getPixels
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets size value in pixels.
+description: "Gets size value in pixels."
 type: docs
 weight: 40
 url: /nodejs/unit/getpixels/

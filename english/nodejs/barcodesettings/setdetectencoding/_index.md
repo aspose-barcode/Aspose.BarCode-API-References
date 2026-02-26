@@ -3,7 +3,7 @@ title: BarcodeSettings.setDetectEncoding
 linktitle: setDetectEncoding
 articleTitle: setDetectEncoding
 second_title: Aspose.BarCode for Node.js via Java
-description: The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true.
+description: "The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true."
 type: docs
 weight: 90
 url: /nodejs/barcodesettings/setdetectencoding/

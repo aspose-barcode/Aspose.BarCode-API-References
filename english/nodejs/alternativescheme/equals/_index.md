@@ -3,7 +3,7 @@ title: AlternativeScheme.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Determines whether the specified object is equal to the current object.
+description: "Determines whether the specified object is equal to the current object."
 type: docs
 weight: 60
 url: /nodejs/alternativescheme/equals/

@@ -3,7 +3,7 @@ title: RectMicroQRVersion Enum
 linktitle: RectMicroQRVersion
 articleTitle: RectMicroQRVersion
 second_title: Aspose.BarCode for Node.js via Java
-description: Version of RectMicroQR Code. From version R7x43 to version R17x139.
+description: "Version of RectMicroQR Code. From version R7x43 to version R17x139."
 type: docs
 weight: 1240
 url: /nodejs/rectmicroqrversion/

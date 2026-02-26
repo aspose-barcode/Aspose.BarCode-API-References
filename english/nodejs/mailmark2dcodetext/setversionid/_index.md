@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.setVersionID
 linktitle: setVersionID
 articleTitle: setVersionID
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies the barcode version as relevant to each Information Type ID. Valid Values:.
+description: "Identifies the barcode version as relevant to each Information Type ID. Valid Values:."
 type: docs
 weight: 80
 url: /nodejs/mailmark2dcodetext/setversionid/

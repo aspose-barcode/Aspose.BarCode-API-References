@@ -3,7 +3,7 @@ title: InverseImageMode Enum
 linktitle: InverseImageMode
 articleTitle: InverseImageMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance).
+description: "Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance)."
 type: docs
 weight: 1530
 url: /nodejs/inverseimagemode/

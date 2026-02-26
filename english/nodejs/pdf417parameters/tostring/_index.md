@@ -3,7 +3,7 @@ title: Pdf417Parameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this Pdf417Parameters.
+description: "Returns a human-readable string representation of this Pdf417Parameters."
 type: docs
 weight: 810
 url: /nodejs/pdf417parameters/tostring/

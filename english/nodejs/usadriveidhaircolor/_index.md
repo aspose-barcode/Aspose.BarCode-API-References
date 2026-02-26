@@ -3,7 +3,7 @@ title: USADriveIdHairColor Enum
 linktitle: USADriveIdHairColor
 articleTitle: USADriveIdHairColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Enum for Hair Color in the US Driver's License.
+description: "Enum for Hair Color in the US Driver's License."
 type: docs
 weight: 420
 url: /nodejs/usadriveidhaircolor/

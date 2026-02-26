@@ -3,7 +3,7 @@ title: HIBCPASRecord.construct
 linktitle: construct
 articleTitle: construct
 second_title: Aspose.BarCode for Node.js via Java
-description: HIBCPASRecord constructor.
+description: "HIBCPASRecord constructor."
 type: docs
 weight: 30
 url: /nodejs/hibcpasrecord/construct/

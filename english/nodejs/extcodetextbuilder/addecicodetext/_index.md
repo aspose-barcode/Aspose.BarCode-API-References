@@ -3,7 +3,7 @@ title: ExtCodetextBuilder.addECICodetext
 linktitle: addECICodetext
 articleTitle: addECICodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext with Extended Channel Identifier.
+description: "Adds codetext with Extended Channel Identifier."
 type: docs
 weight: 40
 url: /nodejs/extcodetextbuilder/addecicodetext/

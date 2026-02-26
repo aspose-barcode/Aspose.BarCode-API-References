@@ -3,7 +3,7 @@ title: AlternativeScheme Class
 linktitle: AlternativeScheme
 articleTitle: AlternativeScheme
 second_title: Aspose.BarCode for Node.js via Java
-description: Alternative payment scheme instructions.
+description: "Alternative payment scheme instructions."
 type: docs
 weight: 60
 url: /nodejs/alternativescheme/

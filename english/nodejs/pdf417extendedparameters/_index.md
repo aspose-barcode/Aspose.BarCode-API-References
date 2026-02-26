@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters Class
 linktitle: Pdf417ExtendedParameters
 articleTitle: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores a MacroPdf417 metadata information of recognized barcode.
+description: "Stores a MacroPdf417 metadata information of recognized barcode."
 type: docs
 weight: 1290
 url: /nodejs/pdf417extendedparameters/

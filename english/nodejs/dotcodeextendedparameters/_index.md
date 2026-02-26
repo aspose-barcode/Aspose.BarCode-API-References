@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters Class
 linktitle: DotCodeExtendedParameters
 articleTitle: DotCodeExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores special data of DotCode recognized barcode.
+description: "Stores special data of DotCode recognized barcode."
 type: docs
 weight: 1420
 url: /nodejs/dotcodeextendedparameters/

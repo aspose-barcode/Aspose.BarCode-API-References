@@ -3,7 +3,7 @@ title: IComplexCodetext.initFromString
 linktitle: initFromString
 articleTitle: initFromString
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes instance with constructed codetext.
+description: "Initializes instance with constructed codetext."
 type: docs
 weight: 30
 url: /nodejs/icomplexcodetext/initfromstring/

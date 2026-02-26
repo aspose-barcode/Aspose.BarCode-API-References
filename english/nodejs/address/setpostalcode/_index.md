@@ -3,7 +3,7 @@ title: Address.setPostalCode
 linktitle: setPostalCode
 articleTitle: setPostalCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the postal code.
+description: "Sets the postal code."
 type: docs
 weight: 160
 url: /nodejs/address/setpostalcode/

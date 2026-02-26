@@ -3,7 +3,7 @@ title: OptionalFields.setWeightKilograms
 linktitle: setWeightKilograms
 articleTitle: setWeightKilograms
 second_title: Aspose.BarCode for Node.js via Java
-description: DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N.
+description: "DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N."
 type: docs
 weight: 470
 url: /nodejs/optionalfields/setweightkilograms/

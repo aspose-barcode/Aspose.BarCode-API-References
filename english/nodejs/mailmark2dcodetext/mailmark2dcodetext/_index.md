@@ -3,7 +3,7 @@ title: Mailmark2DCodetext
 linktitle: Mailmark2DCodetext
 articleTitle: Mailmark2DCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the Mailmark2DCodetext class.
+description: "Initializes a new instance of the Mailmark2DCodetext class."
 type: docs
 weight: 10
 url: /nodejs/mailmark2dcodetext/mailmark2dcodetext/

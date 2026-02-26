@@ -3,7 +3,7 @@ title: Padding.getBottom
 linktitle: getBottom
 articleTitle: getBottom
 second_title: Aspose.BarCode for Node.js via Java
-description: Bottom padding.
+description: "Bottom padding."
 type: docs
 weight: 90
 url: /nodejs/padding/getbottom/

@@ -3,7 +3,7 @@ title: BarCodeReader.setBarCodeReadType
 linktitle: setBarCodeReadType
 articleTitle: setBarCodeReadType
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets SingleDecodeType type array for recognition. Must be called before readBarCodes() method.
+description: "Sets SingleDecodeType type array for recognition. Must be called before readBarCodes() method."
 type: docs
 weight: 200
 url: /nodejs/barcodereader/setbarcodereadtype/

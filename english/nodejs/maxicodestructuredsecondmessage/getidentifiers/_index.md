@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage.getIdentifiers
 linktitle: getIdentifiers
 articleTitle: getIdentifiers
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets identifiers list.
+description: "Gets identifiers list."
 type: docs
 weight: 60
 url: /nodejs/maxicodestructuredsecondmessage/getidentifiers/

@@ -3,7 +3,7 @@ title: Unit.setDocument
 linktitle: setDocument
 articleTitle: setDocument
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets size value in document units.
+description: "Sets size value in document units."
 type: docs
 weight: 130
 url: /nodejs/unit/setdocument/

@@ -3,7 +3,7 @@ title: Address.getHouseNo
 linktitle: getHouseNo
 articleTitle: getHouseNo
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the house number.
+description: "Gets the house number."
 type: docs
 weight: 130
 url: /nodejs/address/gethouseno/

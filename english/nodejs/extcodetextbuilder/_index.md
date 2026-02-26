@@ -3,7 +3,7 @@ title: ExtCodetextBuilder Class
 linktitle: ExtCodetextBuilder
 articleTitle: ExtCodetextBuilder
 second_title: Aspose.BarCode for Node.js via Java
-description: Helper class for automatic codetext generation of the Extended Codetext Mode.
+description: "Helper class for automatic codetext generation of the Extended Codetext Mode."
 type: docs
 weight: 700
 url: /nodejs/extcodetextbuilder/

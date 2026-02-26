@@ -3,7 +3,7 @@ title: TextAlignment Enum
 linktitle: TextAlignment
 articleTitle: TextAlignment
 second_title: Aspose.BarCode for Node.js via Java
-description: Text alignment.
+description: "Text alignment."
 type: docs
 weight: 1010
 url: /nodejs/textalignment/

@@ -3,7 +3,7 @@ title: HanXinParameters Class
 linktitle: HanXinParameters
 articleTitle: HanXinParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Han Xin parameters.
+description: "Han Xin parameters."
 type: docs
 weight: 760
 url: /nodejs/hanxinparameters/

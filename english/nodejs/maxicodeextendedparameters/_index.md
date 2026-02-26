@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters Class
 linktitle: MaxiCodeExtendedParameters
 articleTitle: MaxiCodeExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores a MaxiCode additional information of recognized barcode.
+description: "Stores a MaxiCode additional information of recognized barcode."
 type: docs
 weight: 1410
 url: /nodejs/maxicodeextendedparameters/

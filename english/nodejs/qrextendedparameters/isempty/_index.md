@@ -3,7 +3,7 @@ title: QRExtendedParameters.isEmpty
 linktitle: isEmpty
 articleTitle: isEmpty
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 150
 url: /nodejs/qrextendedparameters/isempty/

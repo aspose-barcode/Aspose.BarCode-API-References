@@ -3,7 +3,7 @@ title: QRExtendedParameters
 linktitle: QRExtendedParameters
 articleTitle: QRExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the QRExtendedParameters class.
+description: "Initializes a new instance of the QRExtendedParameters class."
 type: docs
 weight: 10
 url: /nodejs/qrextendedparameters/qrextendedparameters/

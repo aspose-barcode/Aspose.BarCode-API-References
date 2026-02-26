@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.addText
 linktitle: addText
 articleTitle: addText
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext fragment in Text mode.
+description: "Adds codetext fragment in Text mode."
 type: docs
 weight: 80
 url: /nodejs/hanxinextcodetextbuilder/addtext/

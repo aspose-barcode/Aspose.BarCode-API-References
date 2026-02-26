@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.getClass_
 linktitle: getClass_
 articleTitle: getClass_
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies the class of the item.
+description: "Identifies the class of the item."
 type: docs
 weight: 90
 url: /nodejs/mailmark2dcodetext/getclass_/

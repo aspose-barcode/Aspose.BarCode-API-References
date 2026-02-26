@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext.setSecondMessage
 linktitle: setSecondMessage
 articleTitle: setSecondMessage
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies second message of the barcode.
+description: "Identifies second message of the barcode."
 type: docs
 weight: 120
 url: /nodejs/maxicodestructuredcodetext/setsecondmessage/

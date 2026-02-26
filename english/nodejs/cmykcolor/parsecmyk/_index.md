@@ -3,7 +3,7 @@ title: CMYKColor.parseCMYK
 linktitle: parseCMYK
 articleTitle: parseCMYK
 second_title: Aspose.BarCode for Node.js via Java
-description: Parse a CMYK string of the form \"C_M_Y_K\" into a CMYKColor instance.
+description: "Parse a CMYK string of the form \"C_M_Y_K\" into a CMYKColor instance."
 type: docs
 weight: 20
 url: /nodejs/cmykcolor/parsecmyk/

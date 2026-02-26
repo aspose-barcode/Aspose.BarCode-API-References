@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.addCommonChineseRegionOne
 linktitle: addCommonChineseRegionOne
 articleTitle: addCommonChineseRegionOne
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext fragment in Common Chinese Region One mode.
+description: "Adds codetext fragment in Common Chinese Region One mode."
 type: docs
 weight: 110
 url: /nodejs/hanxinextcodetextbuilder/addcommonchineseregionone/

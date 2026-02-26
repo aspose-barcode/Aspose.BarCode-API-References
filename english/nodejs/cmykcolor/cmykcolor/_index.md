@@ -3,7 +3,7 @@ title: CMYKColor
 linktitle: CMYKColor
 articleTitle: CMYKColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the CMYKColor class.
+description: "Initializes a new instance of the CMYKColor class."
 type: docs
 weight: 10
 url: /nodejs/cmykcolor/cmykcolor/

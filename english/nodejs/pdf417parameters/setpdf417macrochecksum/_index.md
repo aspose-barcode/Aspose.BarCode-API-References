@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroChecksum
 linktitle: setPdf417MacroChecksum
 articleTitle: setPdf417MacroChecksum
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 barcode checksum.
+description: "Sets macro Pdf417 barcode checksum."
 type: docs
 weight: 580
 url: /nodejs/pdf417parameters/setpdf417macrochecksum/

@@ -3,7 +3,7 @@ title: DataMatrixExtCodetextBuilder.addECICodetextWithEncodeMode
 linktitle: addECICodetextWithEncodeMode
 articleTitle: addECICodetextWithEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext with Extended Channel Identifier with defined encode mode.
+description: "Adds codetext with Extended Channel Identifier with defined encode mode."
 type: docs
 weight: 50
 url: /nodejs/datamatrixextcodetextbuilder/addecicodetextwithencodemode/

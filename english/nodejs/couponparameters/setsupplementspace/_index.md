@@ -3,7 +3,7 @@ title: CouponParameters.setSupplementSpace
 linktitle: setSupplementSpace
 articleTitle: setSupplementSpace
 second_title: Aspose.BarCode for Node.js via Java
-description: Space between main the BarCode and supplement BarCode in Unit value.
+description: "Space between main the BarCode and supplement BarCode in Unit value."
 type: docs
 weight: 50
 url: /nodejs/couponparameters/setsupplementspace/

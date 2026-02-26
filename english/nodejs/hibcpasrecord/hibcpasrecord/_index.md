@@ -3,7 +3,7 @@ title: HIBCPASRecord
 linktitle: HIBCPASRecord
 articleTitle: HIBCPASRecord
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the HIBCPASRecord class.
+description: "Initializes a new instance of the HIBCPASRecord class."
 type: docs
 weight: 10
 url: /nodejs/hibcpasrecord/hibcpasrecord/

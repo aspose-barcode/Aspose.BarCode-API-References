@@ -3,7 +3,7 @@ title: PatchCodeParameters Class
 linktitle: PatchCodeParameters
 articleTitle: PatchCodeParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: PatchCode parameters.
+description: "PatchCode parameters."
 type: docs
 weight: 570
 url: /nodejs/patchcodeparameters/

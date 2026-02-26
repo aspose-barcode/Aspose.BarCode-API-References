@@ -3,7 +3,7 @@ title: HslaColor.checkAlpha
 linktitle: checkAlpha
 articleTitle: checkAlpha
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 80
 url: /nodejs/hslacolor/checkalpha/

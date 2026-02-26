@@ -3,7 +3,7 @@ title: AlternativeScheme.hashCode
 linktitle: hashCode
 articleTitle: hashCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the hash code for this instance.
+description: "Gets the hash code for this instance."
 type: docs
 weight: 70
 url: /nodejs/alternativescheme/hashcode/

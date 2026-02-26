@@ -3,7 +3,7 @@ title: IComplexCodetext
 linktitle: IComplexCodetext
 articleTitle: IComplexCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the IComplexCodetext class.
+description: "Initializes a new instance of the IComplexCodetext class."
 type: docs
 weight: 10
 url: /nodejs/icomplexcodetext/icomplexcodetext/

@@ -3,7 +3,7 @@ title: ImageParameters
 linktitle: ImageParameters
 articleTitle: ImageParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the ImageParameters class.
+description: "Initializes a new instance of the ImageParameters class."
 type: docs
 weight: 10
 url: /nodejs/imageparameters/imageparameters/

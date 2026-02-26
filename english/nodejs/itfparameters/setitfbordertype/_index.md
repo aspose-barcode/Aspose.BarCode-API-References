@@ -3,7 +3,7 @@ title: ITFParameters.setItfBorderType
 linktitle: setItfBorderType
 articleTitle: setItfBorderType
 second_title: Aspose.BarCode for Node.js via Java
-description: Border type of ITF barcode. Default value: ITF14BorderType.BAR.
+description: "Border type of ITF barcode. Default value: ITF14BorderType.BAR."
 type: docs
 weight: 110
 url: /nodejs/itfparameters/setitfbordertype/

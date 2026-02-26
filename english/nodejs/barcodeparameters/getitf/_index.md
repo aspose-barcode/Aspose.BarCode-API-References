@@ -3,7 +3,7 @@ title: BarcodeParameters.getITF
 linktitle: getITF
 articleTitle: getITF
 second_title: Aspose.BarCode for Node.js via Java
-description: ITF parameters.
+description: "ITF parameters."
 type: docs
 weight: 580
 url: /nodejs/barcodeparameters/getitf/

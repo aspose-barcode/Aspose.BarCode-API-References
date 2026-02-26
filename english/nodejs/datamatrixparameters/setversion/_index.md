@@ -3,7 +3,7 @@ title: DataMatrixParameters.setVersion
 linktitle: setVersion
 articleTitle: setVersion
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets a Datamatrix symbol size. Default value: Version.Auto.
+description: "Sets a Datamatrix symbol size. Default value: Version.Auto."
 type: docs
 weight: 40
 url: /nodejs/datamatrixparameters/setversion/

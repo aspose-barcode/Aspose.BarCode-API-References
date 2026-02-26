@@ -3,7 +3,7 @@ title: AztecEncodeMode Enum
 linktitle: AztecEncodeMode
 articleTitle: AztecEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Encoding mode for Aztec barcodes.
+description: "Encoding mode for Aztec barcodes."
 type: docs
 weight: 1220
 url: /nodejs/aztecencodemode/

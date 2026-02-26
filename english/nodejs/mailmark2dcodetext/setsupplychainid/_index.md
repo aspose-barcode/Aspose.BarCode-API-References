@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.setSupplyChainID
 linktitle: setSupplyChainID
 articleTitle: setSupplyChainID
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies the unique group of customers involved in the mailing. Max value: 9999999.
+description: "Identifies the unique group of customers involved in the mailing. Max value: 9999999."
 type: docs
 weight: 120
 url: /nodejs/mailmark2dcodetext/setsupplychainid/

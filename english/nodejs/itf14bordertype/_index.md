@@ -3,7 +3,7 @@ title: ITF14BorderType Enum
 linktitle: ITF14BorderType
 articleTitle: ITF14BorderType
 second_title: Aspose.BarCode for Node.js via Java
-description: ITF14 barcode's border type.
+description: "ITF14 barcode's border type."
 type: docs
 weight: 890
 url: /nodejs/itf14bordertype/

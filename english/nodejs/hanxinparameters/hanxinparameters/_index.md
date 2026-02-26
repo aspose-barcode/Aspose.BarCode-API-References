@@ -3,7 +3,7 @@ title: HanXinParameters
 linktitle: HanXinParameters
 articleTitle: HanXinParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the HanXinParameters class.
+description: "Initializes a new instance of the HanXinParameters class."
 type: docs
 weight: 10
 url: /nodejs/hanxinparameters/hanxinparameters/

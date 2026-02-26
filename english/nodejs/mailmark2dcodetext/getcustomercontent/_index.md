@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.getCustomerContent
 linktitle: getCustomerContent
 articleTitle: getCustomerContent
 second_title: Aspose.BarCode for Node.js via Java
-description: Optional space for use by customer.
+description: "Optional space for use by customer."
 type: docs
 weight: 210
 url: /nodejs/mailmark2dcodetext/getcustomercontent/

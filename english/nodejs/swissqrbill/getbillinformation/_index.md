@@ -3,7 +3,7 @@ title: SwissQRBill.getBillInformation
 linktitle: getBillInformation
 articleTitle: getBillInformation
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the additional structured bill information.
+description: "Gets the additional structured bill information."
 type: docs
 weight: 230
 url: /nodejs/swissqrbill/getbillinformation/

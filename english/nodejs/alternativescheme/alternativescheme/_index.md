@@ -3,7 +3,7 @@ title: AlternativeScheme
 linktitle: AlternativeScheme
 articleTitle: AlternativeScheme
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the AlternativeScheme class.
+description: "Initializes a new instance of the AlternativeScheme class."
 type: docs
 weight: 10
 url: /nodejs/alternativescheme/alternativescheme/

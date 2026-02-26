@@ -3,7 +3,7 @@ title: DataMatrixParameters.getDataMatrixVersion
 linktitle: getDataMatrixVersion
 articleTitle: getDataMatrixVersion
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto.
+description: "Gets a Datamatrix symbol size. Default value: DataMatrixVersion.Auto."
 type: docs
 weight: 50
 url: /nodejs/datamatrixparameters/getdatamatrixversion/

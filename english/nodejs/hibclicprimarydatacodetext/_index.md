@@ -3,7 +3,7 @@ title: HIBCLICPrimaryDataCodetext Class
 linktitle: HIBCLICPrimaryDataCodetext
 articleTitle: HIBCLICPrimaryDataCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data.
+description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data."
 type: docs
 weight: 240
 url: /nodejs/hibclicprimarydatacodetext/

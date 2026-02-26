@@ -3,7 +3,7 @@ title: MaxiCodeParameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this MaxiCodeParameters.
+description: "Returns a human-readable string representation of this MaxiCodeParameters."
 type: docs
 weight: 230
 url: /nodejs/maxicodeparameters/tostring/

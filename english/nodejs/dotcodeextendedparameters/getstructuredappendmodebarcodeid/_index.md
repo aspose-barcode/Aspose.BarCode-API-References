@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.getStructuredAppendModeBarcodeId
 linktitle: getStructuredAppendModeBarcodeId
 articleTitle: getStructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for Node.js via Java
-description: Value: The ID of the DotCode structured append mode barcode.
+description: "Value: The ID of the DotCode structured append mode barcode."
 type: docs
 weight: 40
 url: /nodejs/dotcodeextendedparameters/getstructuredappendmodebarcodeid/

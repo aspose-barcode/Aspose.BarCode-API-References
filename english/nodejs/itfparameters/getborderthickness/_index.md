@@ -3,7 +3,7 @@ title: ITFParameters.getBorderThickness
 linktitle: getBorderThickness
 articleTitle: getBorderThickness
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
+description: "Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt."
 type: docs
 weight: 40
 url: /nodejs/itfparameters/getborderthickness/

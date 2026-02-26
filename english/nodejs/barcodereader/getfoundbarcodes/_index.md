@@ -3,7 +3,7 @@ title: BarCodeReader.getFoundBarCodes
 linktitle: getFoundBarCodes
 articleTitle: getFoundBarCodes
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets recognized BarCodeResult array.
+description: "Gets recognized BarCodeResult array."
 type: docs
 weight: 130
 url: /nodejs/barcodereader/getfoundbarcodes/

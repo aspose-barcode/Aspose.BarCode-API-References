@@ -3,7 +3,7 @@ title: OneDExtendedParameters.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value.
+description: "Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value."
 type: docs
 weight: 60
 url: /nodejs/onedextendedparameters/equals/

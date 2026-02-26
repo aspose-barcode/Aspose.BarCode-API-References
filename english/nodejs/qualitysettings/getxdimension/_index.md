@@ -3,7 +3,7 @@ title: QualitySettings.getXDimension
 linktitle: getXDimension
 articleTitle: getXDimension
 second_title: Aspose.BarCode for Node.js via Java
-description: Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar.
+description: "Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar."
 type: docs
 weight: 80
 url: /nodejs/qualitysettings/getxdimension/

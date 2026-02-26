@@ -3,7 +3,7 @@ title: Quadrangle.hashCode
 linktitle: hashCode
 articleTitle: hashCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns the hash code for this instance.
+description: "Returns the hash code for this instance."
 type: docs
 weight: 240
 url: /nodejs/quadrangle/hashcode/

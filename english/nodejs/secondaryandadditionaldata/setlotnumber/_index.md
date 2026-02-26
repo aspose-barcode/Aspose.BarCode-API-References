@@ -3,7 +3,7 @@ title: SecondaryAndAdditionalData.setLotNumber
 linktitle: setLotNumber
 articleTitle: setLotNumber
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. .
+description: "Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. ."
 type: docs
 weight: 90
 url: /nodejs/secondaryandadditionaldata/setlotnumber/

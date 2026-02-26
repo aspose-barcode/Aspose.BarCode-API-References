@@ -3,7 +3,7 @@ title: HIBCPASRecord.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified HIBCPASDataType value.
+description: "Returns a value indicating whether this instance is equal to a specified HIBCPASDataType value."
 type: docs
 weight: 90
 url: /nodejs/hibcpasrecord/equals/

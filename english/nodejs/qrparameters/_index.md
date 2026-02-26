@@ -3,7 +3,7 @@ title: QrParameters Class
 linktitle: QrParameters
 articleTitle: QrParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: QR parameters.
+description: "QR parameters."
 type: docs
 weight: 620
 url: /nodejs/qrparameters/

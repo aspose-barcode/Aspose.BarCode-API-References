@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.getDotCode
 linktitle: getDotCode
 articleTitle: getDotCode
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 170
 url: /nodejs/barcodeextendedparameters/getdotcode/

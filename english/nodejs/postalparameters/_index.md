@@ -3,7 +3,7 @@ title: PostalParameters Class
 linktitle: PostalParameters
 articleTitle: PostalParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Postal parameters. Used for Postnet, Planet.
+description: "Postal parameters. Used for Postnet, Planet."
 type: docs
 weight: 520
 url: /nodejs/postalparameters/

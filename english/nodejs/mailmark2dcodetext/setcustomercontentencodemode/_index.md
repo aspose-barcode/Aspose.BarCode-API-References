@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.setCustomerContentEncodeMode
 linktitle: setCustomerContentEncodeMode
 articleTitle: setCustomerContentEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40.
+description: "Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40."
 type: docs
 weight: 240
 url: /nodejs/mailmark2dcodetext/setcustomercontentencodemode/

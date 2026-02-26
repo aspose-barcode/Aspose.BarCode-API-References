@@ -3,7 +3,7 @@ title: MandatoryFields.setAddressStreet1
 linktitle: setAddressStreet1
 articleTitle: setAddressStreet1
 second_title: Aspose.BarCode for Node.js via Java
-description: DAG, Street portion of the cardholder address, DL/ID, V35ANS.
+description: "DAG, Street portion of the cardholder address, DL/ID, V35ANS."
 type: docs
 weight: 230
 url: /nodejs/mandatoryfields/setaddressstreet1/

@@ -3,7 +3,7 @@ title: MailmarkCodetext.initFromString
 linktitle: initFromString
 articleTitle: initFromString
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes Mailmark data from constructed codetext.
+description: "Initializes Mailmark data from constructed codetext."
 type: docs
 weight: 170
 url: /nodejs/mailmarkcodetext/initfromstring/

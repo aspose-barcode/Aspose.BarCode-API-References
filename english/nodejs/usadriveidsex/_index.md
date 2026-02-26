@@ -3,7 +3,7 @@ title: USADriveIdSex Enum
 linktitle: USADriveIdSex
 articleTitle: USADriveIdSex
 second_title: Aspose.BarCode for Node.js via Java
-description: Enum for Sex field in the US Driver's License.
+description: "Enum for Sex field in the US Driver's License."
 type: docs
 weight: 430
 url: /nodejs/usadriveidsex/

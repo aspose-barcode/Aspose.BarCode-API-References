@@ -3,7 +3,7 @@ title: SubfileProperties._internalCtor
 linktitle: _internalCtor
 articleTitle: _internalCtor
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 30
 url: /nodejs/subfileproperties/_internalctor/

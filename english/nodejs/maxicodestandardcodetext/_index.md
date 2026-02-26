@@ -3,7 +3,7 @@ title: MaxiCodeStandardCodetext Class
 linktitle: MaxiCodeStandardCodetext
 articleTitle: MaxiCodeStandardCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
+description: "Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6."
 type: docs
 weight: 150
 url: /nodejs/maxicodestandardcodetext/

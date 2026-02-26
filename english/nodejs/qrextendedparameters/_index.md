@@ -3,7 +3,7 @@ title: QRExtendedParameters Class
 linktitle: QRExtendedParameters
 articleTitle: QRExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores a QR Structured Append information of recognized barcode.
+description: "Stores a QR Structured Append information of recognized barcode."
 type: docs
 weight: 1280
 url: /nodejs/qrextendedparameters/

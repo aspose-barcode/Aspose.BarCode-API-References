@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder Class
 linktitle: QrExtCodetextBuilder
 articleTitle: QrExtCodetextBuilder
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 710
 url: /nodejs/qrextcodetextbuilder/

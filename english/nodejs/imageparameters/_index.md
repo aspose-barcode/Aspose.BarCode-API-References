@@ -3,7 +3,7 @@ title: ImageParameters Class
 linktitle: ImageParameters
 articleTitle: ImageParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Image parameters.
+description: "Image parameters."
 type: docs
 weight: 790
 url: /nodejs/imageparameters/

@@ -3,7 +3,7 @@ title: GS1CompositeBarExtendedParameters.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified GS1CompositeBarExtendedParameters value.
+description: "Returns a value indicating whether this instance is equal to a specified GS1CompositeBarExtendedParameters value."
 type: docs
 weight: 70
 url: /nodejs/gs1compositebarextendedparameters/equals/

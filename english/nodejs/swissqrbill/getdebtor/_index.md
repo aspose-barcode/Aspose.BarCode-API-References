@@ -3,7 +3,7 @@ title: SwissQRBill.getDebtor
 linktitle: getDebtor
 articleTitle: getDebtor
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the debtor address.
+description: "Gets the debtor address."
 type: docs
 weight: 190
 url: /nodejs/swissqrbill/getdebtor/

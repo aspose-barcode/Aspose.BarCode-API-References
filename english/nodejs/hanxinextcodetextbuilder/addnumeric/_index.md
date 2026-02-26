@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.addNumeric
 linktitle: addNumeric
 articleTitle: addNumeric
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext fragment in Numeric mode.
+description: "Adds codetext fragment in Numeric mode."
 type: docs
 weight: 90
 url: /nodejs/hanxinextcodetextbuilder/addnumeric/

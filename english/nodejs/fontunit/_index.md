@@ -3,7 +3,7 @@ title: FontUnit Class
 linktitle: FontUnit
 articleTitle: FontUnit
 second_title: Aspose.BarCode for Node.js via Java
-description: Defines a particular format for text, including font face, size, and style attributes where size in Unit value property.
+description: "Defines a particular format for text, including font face, size, and style attributes where size in Unit value property."
 type: docs
 weight: 690
 url: /nodejs/fontunit/

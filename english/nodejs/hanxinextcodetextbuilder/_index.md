@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder Class
 linktitle: HanXinExtCodetextBuilder
 articleTitle: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 780
 url: /nodejs/hanxinextcodetextbuilder/

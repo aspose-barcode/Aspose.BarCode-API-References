@@ -3,7 +3,7 @@ title: Pdf417Parameters.getEncodeMode
 linktitle: getEncodeMode
 articleTitle: getEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies Pdf417 encode mode. Default value: Auto.
+description: "Identifies Pdf417 encode mode. Default value: Auto."
 type: docs
 weight: 590
 url: /nodejs/pdf417parameters/getencodemode/

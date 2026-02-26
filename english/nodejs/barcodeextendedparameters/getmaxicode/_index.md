@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.getMaxiCode
 linktitle: getMaxiCode
 articleTitle: getMaxiCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets a MaxiCode additional information of recognized barcode.
+description: "Gets a MaxiCode additional information of recognized barcode."
 type: docs
 weight: 150
 url: /nodejs/barcodeextendedparameters/getmaxicode/

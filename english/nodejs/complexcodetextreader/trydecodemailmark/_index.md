@@ -3,7 +3,7 @@ title: ComplexCodetextReader.tryDecodeMailmark
 linktitle: tryDecodeMailmark
 articleTitle: tryDecodeMailmark
 second_title: Aspose.BarCode for Node.js via Java
-description: Decodes Mailmark Barcode C and L codetext.
+description: "Decodes Mailmark Barcode C and L codetext."
 type: docs
 weight: 40
 url: /nodejs/complexcodetextreader/trydecodemailmark/

@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage
 linktitle: MaxiCodeStructuredSecondMessage
 articleTitle: MaxiCodeStructuredSecondMessage
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the MaxiCodeStructuredSecondMessage class.
+description: "Initializes a new instance of the MaxiCodeStructuredSecondMessage class."
 type: docs
 weight: 10
 url: /nodejs/maxicodestructuredsecondmessage/maxicodestructuredsecondmessage/

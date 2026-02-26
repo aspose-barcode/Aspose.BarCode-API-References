@@ -3,7 +3,7 @@ title: MandatoryFields Class
 linktitle: MandatoryFields
 articleTitle: MandatoryFields
 second_title: Aspose.BarCode for Node.js via Java
-description: Mandatory elements (fields) of the card.
+description: "Mandatory elements (fields) of the card."
 type: docs
 weight: 370
 url: /nodejs/mandatoryfields/

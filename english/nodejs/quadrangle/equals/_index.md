@@ -3,7 +3,7 @@ title: Quadrangle.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified Quadrangle value.
+description: "Returns a value indicating whether this instance is equal to a specified Quadrangle value."
 type: docs
 weight: 230
 url: /nodejs/quadrangle/equals/

@@ -3,7 +3,7 @@ title: HIBCLICSecondaryAndAdditionalDataCodetext.construct
 linktitle: construct
 articleTitle: construct
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 40
 url: /nodejs/hibclicsecondaryandadditionaldatacodetext/construct/

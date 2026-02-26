@@ -3,7 +3,7 @@ title: BarCodeReader Class
 linktitle: BarCodeReader
 articleTitle: BarCodeReader
 second_title: Aspose.BarCode for Node.js via Java
-description: BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes.
+description: "BarCodeReader encapsulates an image which may contain one or several barcodes, it then can perform ReadBarCodes operation to detect barcodes."
 type: docs
 weight: 1260
 url: /nodejs/barcodereader/

@@ -3,7 +3,7 @@ title: QualitySettings.getComplexBackground
 linktitle: getComplexBackground
 articleTitle: getComplexBackground
 second_title: Aspose.BarCode for Node.js via Java
-description: Mode which enables or disables additional recognition of color barcodes on color images.
+description: "Mode which enables or disables additional recognition of color barcodes on color images."
 type: docs
 weight: 180
 url: /nodejs/qualitysettings/getcomplexbackground/

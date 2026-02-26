@@ -3,7 +3,7 @@ title: Code128ExtendedParameters.convertCode128DataPortions
 linktitle: convertCode128DataPortions
 articleTitle: convertCode128DataPortions
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 40
 url: /nodejs/code128extendedparameters/convertcode128dataportions/

@@ -3,7 +3,7 @@ title: CouponParameters
 linktitle: CouponParameters
 articleTitle: CouponParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the CouponParameters class.
+description: "Initializes a new instance of the CouponParameters class."
 type: docs
 weight: 10
 url: /nodejs/couponparameters/couponparameters/

@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel Enum
 linktitle: Pdf417ErrorLevel
 articleTitle: Pdf417ErrorLevel
 second_title: Aspose.BarCode for Node.js via Java
-description: pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction.
+description: "pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction."
 type: docs
 weight: 940
 url: /nodejs/pdf417errorlevel/

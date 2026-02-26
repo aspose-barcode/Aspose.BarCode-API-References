@@ -3,7 +3,7 @@ title: CodabarExtendedParameters.setStopSymbol
 linktitle: setStopSymbol
 articleTitle: setStopSymbol
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets a Codabar stop symbol. Default value: CodabarSymbol.A.
+description: "Sets a Codabar stop symbol. Default value: CodabarSymbol.A."
 type: docs
 weight: 80
 url: /nodejs/codabarextendedparameters/setstopsymbol/

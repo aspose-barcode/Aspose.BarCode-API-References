@@ -3,7 +3,7 @@ title: HIBCPASCodetext.addHIBCPASRecord
 linktitle: addHIBCPASRecord
 articleTitle: addHIBCPASRecord
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds new record.
+description: "Adds new record."
 type: docs
 weight: 100
 url: /nodejs/hibcpascodetext/addhibcpasrecord/

@@ -3,7 +3,7 @@ title: ImageParameters.setPdf
 linktitle: setPdf
 articleTitle: setPdf
 second_title: Aspose.BarCode for Node.js via Java
-description: PDF parameters.
+description: "PDF parameters."
 type: docs
 weight: 70
 url: /nodejs/imageparameters/setpdf/

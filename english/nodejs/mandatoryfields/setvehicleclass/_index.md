@@ -3,7 +3,7 @@ title: MandatoryFields.setVehicleClass
 linktitle: setVehicleClass
 articleTitle: setVehicleClass
 second_title: Aspose.BarCode for Node.js via Java
-description: DCA, Jurisdiction-specific vehicle class / group code, DL, V6ANS.
+description: "DCA, Jurisdiction-specific vehicle class / group code, DL, V6ANS."
 type: docs
 weight: 30
 url: /nodejs/mandatoryfields/setvehicleclass/

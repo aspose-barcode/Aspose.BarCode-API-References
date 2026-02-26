@@ -3,7 +3,7 @@ title: AustraliaPostSettings Class
 linktitle: AustraliaPostSettings
 articleTitle: AustraliaPostSettings
 second_title: Aspose.BarCode for Node.js via Java
-description: AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology.
+description: "AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology."
 type: docs
 weight: 1380
 url: /nodejs/australiapostsettings/

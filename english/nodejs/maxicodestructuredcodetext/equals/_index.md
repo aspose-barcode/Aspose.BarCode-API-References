@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified value.
+description: "Returns a value indicating whether this instance is equal to a specified value."
 type: docs
 weight: 150
 url: /nodejs/maxicodestructuredcodetext/equals/

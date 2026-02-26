@@ -3,7 +3,7 @@ title: Quadrangle Class
 linktitle: Quadrangle
 articleTitle: Quadrangle
 second_title: Aspose.BarCode for Node.js via Java
-description: Stores a set of four Points that represent a Quadrangle region.
+description: "Stores a set of four Points that represent a Quadrangle region."
 type: docs
 weight: 1270
 url: /nodejs/quadrangle/

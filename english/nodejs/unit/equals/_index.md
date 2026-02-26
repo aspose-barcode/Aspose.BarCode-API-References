@@ -3,7 +3,7 @@ title: Unit.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Determines whether this instance and a specified object, which must also be a Unit object, have the same value.
+description: "Determines whether this instance and a specified object, which must also be a Unit object, have the same value."
 type: docs
 weight: 150
 url: /nodejs/unit/equals/

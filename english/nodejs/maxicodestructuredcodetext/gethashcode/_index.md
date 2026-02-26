@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext.getHashCode
 linktitle: getHashCode
 articleTitle: getHashCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns the hash code for this instance.
+description: "Returns the hash code for this instance."
 type: docs
 weight: 160
 url: /nodejs/maxicodestructuredcodetext/gethashcode/

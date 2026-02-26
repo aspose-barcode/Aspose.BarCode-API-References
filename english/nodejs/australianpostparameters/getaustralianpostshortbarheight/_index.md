@@ -3,7 +3,7 @@ title: AustralianPostParameters.getAustralianPostShortBarHeight
 linktitle: getAustralianPostShortBarHeight
 articleTitle: getAustralianPostShortBarHeight
 second_title: Aspose.BarCode for Node.js via Java
-description: Short bar's height of AustralianPost barcode.
+description: "Short bar's height of AustralianPost barcode."
 type: docs
 weight: 60
 url: /nodejs/australianpostparameters/getaustralianpostshortbarheight/

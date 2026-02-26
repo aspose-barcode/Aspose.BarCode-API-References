@@ -3,7 +3,7 @@ title: BarcodeClassifications Enum
 linktitle: BarcodeClassifications
 articleTitle: BarcodeClassifications
 second_title: Aspose.BarCode for Node.js via Java
-description: BarcodeClassifications EncodeTypes classification.
+description: "BarcodeClassifications EncodeTypes classification."
 type: docs
 weight: 840
 url: /nodejs/barcodeclassifications/

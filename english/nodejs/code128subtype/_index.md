@@ -3,7 +3,7 @@ title: Code128SubType Enum
 linktitle: Code128SubType
 articleTitle: Code128SubType
 second_title: Aspose.BarCode for Node.js via Java
-description: Contains types of Code128 subset.
+description: "Contains types of Code128 subset."
 type: docs
 weight: 1480
 url: /nodejs/code128subtype/

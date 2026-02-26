@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder.addFNC3SymbolSeparator
 linktitle: addFNC3SymbolSeparator
 articleTitle: addFNC3SymbolSeparator
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds FNC3 symbol separator to the extended codetext items.
+description: "Adds FNC3 symbol separator to the extended codetext items."
 type: docs
 weight: 50
 url: /nodejs/dotcodeextcodetextbuilder/addfnc3symbolseparator/

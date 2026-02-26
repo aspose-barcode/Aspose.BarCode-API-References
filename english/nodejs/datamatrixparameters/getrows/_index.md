@@ -3,7 +3,7 @@ title: DataMatrixParameters.getRows
 linktitle: getRows
 articleTitle: getRows
 second_title: Aspose.BarCode for Node.js via Java
-description: Rows count.
+description: "Rows count."
 type: docs
 weight: 270
 url: /nodejs/datamatrixparameters/getrows/

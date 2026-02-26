@@ -3,7 +3,7 @@ title: Quadrangle.getRightBottom
 linktitle: getRightBottom
 articleTitle: getRightBottom
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets right-bottom corner Point of Quadrangle regionValue: A right-bottom corner Point of Quadrangle region.
+description: "Gets right-bottom corner Point of Quadrangle regionValue: A right-bottom corner Point of Quadrangle region."
 type: docs
 weight: 140
 url: /nodejs/quadrangle/getrightbottom/

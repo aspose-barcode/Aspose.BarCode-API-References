@@ -3,7 +3,7 @@ title: SecondaryAndAdditionalData.setExpiryDateFormat
 linktitle: setExpiryDateFormat
 articleTitle: setExpiryDateFormat
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies expiry date format.
+description: "Identifies expiry date format."
 type: docs
 weight: 50
 url: /nodejs/secondaryandadditionaldata/setexpirydateformat/

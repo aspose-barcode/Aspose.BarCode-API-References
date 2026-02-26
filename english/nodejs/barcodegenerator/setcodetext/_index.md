@@ -3,7 +3,7 @@ title: BarcodeGenerator.setCodeText
 linktitle: setCodeText
 articleTitle: setCodeText
 second_title: Aspose.BarCode for Node.js via Java
-description: Encodes the Unicode codeText into a byte sequence using the specified encoding. UTF-8 is the most commonly used encoding. If the encoding supports it and insertBOM is set to true, the function includes a byte order mark (BOM).
+description: "Encodes the Unicode codeText into a byte sequence using the specified encoding. UTF-8 is the most commonly used encoding. If the encoding supports it and insertBOM is set to true, the function includes a byte order mark (BOM)."
 type: docs
 weight: 120
 url: /nodejs/barcodegenerator/setcodetext/

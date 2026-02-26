@@ -3,7 +3,7 @@ title: SwissQRCodetext.initFromString
 linktitle: initFromString
 articleTitle: initFromString
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes Bill with constructed codetext.
+description: "Initializes Bill with constructed codetext."
 type: docs
 weight: 80
 url: /nodejs/swissqrcodetext/initfromstring/

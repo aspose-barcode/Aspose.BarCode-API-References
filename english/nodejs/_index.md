@@ -2,7 +2,7 @@
 title: Aspose.BarCode for Node.js via Java
 linktitle: Aspose.BarCode for Node.js via Java
 articleTitle: Aspose.BarCode for Node.js via Java
-description: API reference for Aspose.BarCode for Node.js via Java.
+description: "API reference for Aspose.BarCode for Node.js via Java."
 type: docs
 weight: 15
 url: /nodejs/

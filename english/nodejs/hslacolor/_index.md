@@ -3,7 +3,7 @@ title: HslaColor Class
 linktitle: HslaColor
 articleTitle: HslaColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for representing HSLA color (Hue, Saturation, Lightness, Alpha).
+description: "Class for representing HSLA color (Hue, Saturation, Lightness, Alpha)."
 type: docs
 weight: 810
 url: /nodejs/hslacolor/

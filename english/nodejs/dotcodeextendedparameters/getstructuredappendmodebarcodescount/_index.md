@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.getStructuredAppendModeBarcodesCount
 linktitle: getStructuredAppendModeBarcodesCount
 articleTitle: getStructuredAppendModeBarcodesCount
 second_title: Aspose.BarCode for Node.js via Java
-description: Value: The count of the DotCode structured append mode barcode.
+description: "Value: The count of the DotCode structured append mode barcode."
 type: docs
 weight: 20
 url: /nodejs/dotcodeextendedparameters/getstructuredappendmodebarcodescount/

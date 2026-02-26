@@ -3,7 +3,7 @@ title: BarCodeRegionParameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this BarCodeRegionParameters.
+description: "Returns a human-readable string representation of this BarCodeRegionParameters."
 type: docs
 weight: 130
 url: /nodejs/barcoderegionparameters/tostring/

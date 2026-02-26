@@ -3,7 +3,7 @@ title: CouponParameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this CouponParameters.
+description: "Returns a human-readable string representation of this CouponParameters."
 type: docs
 weight: 60
 url: /nodejs/couponparameters/tostring/

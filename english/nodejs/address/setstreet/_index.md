@@ -3,7 +3,7 @@ title: Address.setStreet
 linktitle: setStreet
 articleTitle: setStreet
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the street.
+description: "Sets the street."
 type: docs
 weight: 120
 url: /nodejs/address/setstreet/

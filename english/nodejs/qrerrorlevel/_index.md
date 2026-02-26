@@ -3,7 +3,7 @@ title: QRErrorLevel Enum
 linktitle: QRErrorLevel
 articleTitle: QRErrorLevel
 second_title: Aspose.BarCode for Node.js via Java
-description: Level of Reed-Solomon error correction. From low to high: LEVEL_L, LEVEL_M, LEVEL_Q, LEVEL_H.
+description: "Level of Reed-Solomon error correction. From low to high: LEVEL_L, LEVEL_M, LEVEL_Q, LEVEL_H."
 type: docs
 weight: 960
 url: /nodejs/qrerrorlevel/

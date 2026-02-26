@@ -3,7 +3,7 @@ title: AztecParameters.getSymbolMode
 linktitle: getSymbolMode
 articleTitle: getSymbolMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
+description: "Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto."
 type: docs
 weight: 190
 url: /nodejs/aztecparameters/getsymbolmode/

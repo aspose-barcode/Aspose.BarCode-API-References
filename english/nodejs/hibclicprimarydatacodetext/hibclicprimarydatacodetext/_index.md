@@ -3,7 +3,7 @@ title: HIBCLICPrimaryDataCodetext
 linktitle: HIBCLICPrimaryDataCodetext
 articleTitle: HIBCLICPrimaryDataCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the HIBCLICPrimaryDataCodetext class.
+description: "Initializes a new instance of the HIBCLICPrimaryDataCodetext class."
 type: docs
 weight: 10
 url: /nodejs/hibclicprimarydatacodetext/hibclicprimarydatacodetext/

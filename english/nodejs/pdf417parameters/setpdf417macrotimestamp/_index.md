@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroTimeStamp
 linktitle: setPdf417MacroTimeStamp
 articleTitle: setPdf417MacroTimeStamp
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 barcode time stamp.
+description: "Sets macro Pdf417 barcode time stamp."
 type: docs
 weight: 420
 url: /nodejs/pdf417parameters/setpdf417macrotimestamp/

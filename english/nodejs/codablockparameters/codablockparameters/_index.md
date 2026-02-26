@@ -3,7 +3,7 @@ title: CodablockParameters
 linktitle: CodablockParameters
 articleTitle: CodablockParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the CodablockParameters class.
+description: "Initializes a new instance of the CodablockParameters class."
 type: docs
 weight: 10
 url: /nodejs/codablockparameters/codablockparameters/

@@ -3,7 +3,7 @@ title: HIBCPASCodetext Class
 linktitle: HIBCPASCodetext
 articleTitle: HIBCPASCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding the text embedded in the HIBC PAS code.
+description: "Class for encoding and decoding the text embedded in the HIBC PAS code."
 type: docs
 weight: 260
 url: /nodejs/hibcpascodetext/

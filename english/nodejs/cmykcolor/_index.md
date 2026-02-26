@@ -3,7 +3,7 @@ title: CMYKColor Class
 linktitle: CMYKColor
 articleTitle: CMYKColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for CMYK color. A null instance means CMYK is not used, and default RGB color is in use.
+description: "Class for CMYK color. A null instance means CMYK is not used, and default RGB color is in use."
 type: docs
 weight: 830
 url: /nodejs/cmykcolor/

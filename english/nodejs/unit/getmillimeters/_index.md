@@ -3,7 +3,7 @@ title: Unit.getMillimeters
 linktitle: getMillimeters
 articleTitle: getMillimeters
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets size value in millimeters.
+description: "Gets size value in millimeters."
 type: docs
 weight: 80
 url: /nodejs/unit/getmillimeters/

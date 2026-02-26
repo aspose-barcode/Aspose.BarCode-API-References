@@ -3,7 +3,7 @@ title: MaxiCodeStandardSecondMessage Class
 linktitle: MaxiCodeStandardSecondMessage
 articleTitle: MaxiCodeStandardSecondMessage
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding standart second message for MaxiCode barcode.
+description: "Class for encoding and decoding standart second message for MaxiCode barcode."
 type: docs
 weight: 160
 url: /nodejs/maxicodestandardsecondmessage/

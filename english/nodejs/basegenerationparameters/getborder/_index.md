@@ -3,7 +3,7 @@ title: BaseGenerationParameters.getBorder
 linktitle: getBorder
 articleTitle: getBorder
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the BorderParameters that contains all configuration properties for barcode border.
+description: "Gets the BorderParameters that contains all configuration properties for barcode border."
 type: docs
 weight: 280
 url: /nodejs/basegenerationparameters/getborder/

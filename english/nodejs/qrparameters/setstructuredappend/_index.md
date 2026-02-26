@@ -3,7 +3,7 @@ title: QrParameters.setStructuredAppend
 linktitle: setStructuredAppend
 articleTitle: setStructuredAppend
 second_title: Aspose.BarCode for Node.js via Java
-description: QR structured append parameters.
+description: "QR structured append parameters."
 type: docs
 weight: 70
 url: /nodejs/qrparameters/setstructuredappend/

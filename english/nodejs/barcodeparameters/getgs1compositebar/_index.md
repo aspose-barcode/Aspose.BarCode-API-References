@@ -3,7 +3,7 @@ title: BarcodeParameters.getGS1CompositeBar
 linktitle: getGS1CompositeBar
 articleTitle: getGS1CompositeBar
 second_title: Aspose.BarCode for Node.js via Java
-description: GS1 Composite Bar parameters.
+description: "GS1 Composite Bar parameters."
 type: docs
 weight: 520
 url: /nodejs/barcodeparameters/getgs1compositebar/

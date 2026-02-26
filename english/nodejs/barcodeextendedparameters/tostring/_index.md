@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this BarCodeExtendedParameters.
+description: "Returns a human-readable string representation of this BarCodeExtendedParameters."
 type: docs
 weight: 270
 url: /nodejs/barcodeextendedparameters/tostring/

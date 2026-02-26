@@ -3,7 +3,7 @@ title: USADriveIdCodetext Class
 linktitle: USADriveIdCodetext
 articleTitle: USADriveIdCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding the text embedded in the USA Driving License PDF417 code.
+description: "Class for encoding and decoding the text embedded in the USA Driving License PDF417 code."
 type: docs
 weight: 360
 url: /nodejs/usadriveidcodetext/

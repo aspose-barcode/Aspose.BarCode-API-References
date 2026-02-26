@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.isLinked
 linktitle: isLinked
 articleTitle: isLinked
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 140
 url: /nodejs/pdf417extendedparameters/islinked/

@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext.getServiceCategory
 linktitle: getServiceCategory
 articleTitle: getServiceCategory
 second_title: Aspose.BarCode for Node.js via Java
-description: Identifies 3 digit service category.
+description: "Identifies 3 digit service category."
 type: docs
 weight: 90
 url: /nodejs/maxicodestructuredcodetext/getservicecategory/

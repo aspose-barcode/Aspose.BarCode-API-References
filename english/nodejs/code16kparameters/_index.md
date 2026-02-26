@@ -3,7 +3,7 @@ title: Code16KParameters Class
 linktitle: Code16KParameters
 articleTitle: Code16KParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Code16K parameters.
+description: "Code16K parameters."
 type: docs
 weight: 580
 url: /nodejs/code16kparameters/

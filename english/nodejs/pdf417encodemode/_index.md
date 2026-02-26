@@ -3,7 +3,7 @@ title: Pdf417EncodeMode Enum
 linktitle: Pdf417EncodeMode
 articleTitle: Pdf417EncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Pdf417 barcode encode mode.
+description: "Pdf417 barcode encode mode."
 type: docs
 weight: 1160
 url: /nodejs/pdf417encodemode/

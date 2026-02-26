@@ -3,7 +3,7 @@ title: ExtCodetextBuilder.getExtendedCodetext
 linktitle: getExtendedCodetext
 articleTitle: getExtendedCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Generate extended codetext from generation items list.
+description: "Generate extended codetext from generation items list."
 type: docs
 weight: 50
 url: /nodejs/extcodetextbuilder/getextendedcodetext/

@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder.addStructuredAppendMode
 linktitle: addStructuredAppendMode
 articleTitle: addStructuredAppendMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds structured append mode to the extended codetext items.
+description: "Adds structured append mode to the extended codetext items."
 type: docs
 weight: 70
 url: /nodejs/dotcodeextcodetextbuilder/addstructuredappendmode/

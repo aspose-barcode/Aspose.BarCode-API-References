@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified DotCodeExtendedParameters value.
+description: "Returns a value indicating whether this instance is equal to a specified DotCodeExtendedParameters value."
 type: docs
 weight: 80
 url: /nodejs/dotcodeextendedparameters/equals/

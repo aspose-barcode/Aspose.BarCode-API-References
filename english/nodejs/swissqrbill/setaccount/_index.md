@@ -3,7 +3,7 @@ title: SwissQRBill.setAccount
 linktitle: setAccount
 articleTitle: setAccount
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the creditor's account number.
+description: "Sets the creditor's account number."
 type: docs
 weight: 130
 url: /nodejs/swissqrbill/setaccount/

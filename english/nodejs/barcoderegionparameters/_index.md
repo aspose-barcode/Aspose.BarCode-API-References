@@ -3,7 +3,7 @@ title: BarCodeRegionParameters Class
 linktitle: BarCodeRegionParameters
 articleTitle: BarCodeRegionParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Represents the recognized barcode's region and barcode angle.
+description: "Represents the recognized barcode's region and barcode angle."
 type: docs
 weight: 1330
 url: /nodejs/barcoderegionparameters/

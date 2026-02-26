@@ -3,7 +3,7 @@ title: OptionalFields Class
 linktitle: OptionalFields
 articleTitle: OptionalFields
 second_title: Aspose.BarCode for Node.js via Java
-description: Optional elements (fields) of the card.
+description: "Optional elements (fields) of the card."
 type: docs
 weight: 390
 url: /nodejs/optionalfields/

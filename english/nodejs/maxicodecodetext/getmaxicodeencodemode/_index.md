@@ -3,7 +3,7 @@ title: MaxiCodeCodetext.getMaxiCodeEncodeMode
 linktitle: getMaxiCodeEncodeMode
 articleTitle: getMaxiCodeEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets a MaxiCode encode mode.
+description: "Gets a MaxiCode encode mode."
 type: docs
 weight: 40
 url: /nodejs/maxicodecodetext/getmaxicodeencodemode/

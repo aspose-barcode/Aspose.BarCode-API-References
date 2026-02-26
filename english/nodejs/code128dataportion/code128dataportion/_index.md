@@ -3,7 +3,7 @@ title: Code128DataPortion
 linktitle: Code128DataPortion
 articleTitle: Code128DataPortion
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the Code128DataPortion class.
+description: "Initializes a new instance of the Code128DataPortion class."
 type: docs
 weight: 10
 url: /nodejs/code128dataportion/code128dataportion/

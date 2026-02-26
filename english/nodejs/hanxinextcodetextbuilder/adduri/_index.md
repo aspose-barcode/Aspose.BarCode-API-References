@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.addURI
 linktitle: addURI
 articleTitle: addURI
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds codetext fragment in URI mode.
+description: "Adds codetext fragment in URI mode."
 type: docs
 weight: 70
 url: /nodejs/hanxinextcodetextbuilder/adduri/

@@ -3,7 +3,7 @@ title: Address.setAddressLine1
 linktitle: setAddressLine1
 articleTitle: setAddressLine1
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the address line 1.
+description: "Sets the address line 1."
 type: docs
 weight: 80
 url: /nodejs/address/setaddressline1/

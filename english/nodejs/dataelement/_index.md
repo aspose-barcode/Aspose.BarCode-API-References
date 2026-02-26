@@ -3,7 +3,7 @@ title: DataElement Class
 linktitle: DataElement
 articleTitle: DataElement
 second_title: Aspose.BarCode for Node.js via Java
-description: Represents a jurisdiction-specific data field used in documents, for example ElementID = \"ZVA\" with Value = \"01\".
+description: "Represents a jurisdiction-specific data field used in documents, for example ElementID = \"ZVA\" with Value = \"01\"."
 type: docs
 weight: 380
 url: /nodejs/dataelement/

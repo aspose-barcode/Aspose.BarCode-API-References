@@ -3,7 +3,7 @@ title: RecognitionAbortedException Class
 linktitle: RecognitionAbortedException
 articleTitle: RecognitionAbortedException
 second_title: Aspose.BarCode for Node.js via Java
-description: Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader.
+description: "Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader."
 type: docs
 weight: 1400
 url: /nodejs/recognitionabortedexception/

@@ -3,7 +3,7 @@ title: USADriveIdCodetext.saveToXml
 linktitle: saveToXml
 articleTitle: saveToXml
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 240
 url: /nodejs/usadriveidcodetext/savetoxml/

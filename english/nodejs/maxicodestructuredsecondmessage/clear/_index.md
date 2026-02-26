@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage.clear
 linktitle: clear
 articleTitle: clear
 second_title: Aspose.BarCode for Node.js via Java
-description: Clear identifiers list.
+description: "Clear identifiers list."
 type: docs
 weight: 80
 url: /nodejs/maxicodestructuredsecondmessage/clear/

@@ -3,7 +3,7 @@ title: ComplexCodetextReader.tryDecodeHIBCLIC
 linktitle: tryDecodeHIBCLIC
 articleTitle: tryDecodeHIBCLIC
 second_title: Aspose.BarCode for Node.js via Java
-description: Decodes HIBC LIC codetext.
+description: "Decodes HIBC LIC codetext."
 type: docs
 weight: 60
 url: /nodejs/complexcodetextreader/trydecodehibclic/

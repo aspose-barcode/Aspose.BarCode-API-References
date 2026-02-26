@@ -3,7 +3,7 @@ title: GraphicsUnit Enum
 linktitle: GraphicsUnit
 articleTitle: GraphicsUnit
 second_title: Aspose.BarCode for Node.js via Java
-description: Specifies the unit of measure for the given data.
+description: "Specifies the unit of measure for the given data."
 type: docs
 weight: 1030
 url: /nodejs/graphicsunit/

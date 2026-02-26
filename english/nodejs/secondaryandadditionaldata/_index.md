@@ -3,7 +3,7 @@ title: SecondaryAndAdditionalData Class
 linktitle: SecondaryAndAdditionalData
 articleTitle: SecondaryAndAdditionalData
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for storing HIBC LIC secondary and additional data.
+description: "Class for storing HIBC LIC secondary and additional data."
 type: docs
 weight: 290
 url: /nodejs/secondaryandadditionaldata/

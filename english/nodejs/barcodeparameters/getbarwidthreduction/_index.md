@@ -3,7 +3,7 @@ title: BarcodeParameters.getBarWidthReduction
 linktitle: getBarWidthReduction
 articleTitle: getBarWidthReduction
 second_title: Aspose.BarCode for Node.js via Java
-description: Get bars reduction value that is used to compensate ink spread while printing.
+description: "Get bars reduction value that is used to compensate ink spread while printing."
 type: docs
 weight: 460
 url: /nodejs/barcodeparameters/getbarwidthreduction/

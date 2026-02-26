@@ -3,7 +3,7 @@ title: DataMatrixParameters.getEncodeMode
 linktitle: getEncodeMode
 articleTitle: getEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
+description: "Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto."
 type: docs
 weight: 110
 url: /nodejs/datamatrixparameters/getencodemode/

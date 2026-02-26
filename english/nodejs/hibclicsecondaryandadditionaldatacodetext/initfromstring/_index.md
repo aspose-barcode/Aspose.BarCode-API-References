@@ -3,7 +3,7 @@ title: HIBCLICSecondaryAndAdditionalDataCodetext.initFromString
 linktitle: initFromString
 articleTitle: initFromString
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes instance from constructed codetext.
+description: "Initializes instance from constructed codetext."
 type: docs
 weight: 100
 url: /nodejs/hibclicsecondaryandadditionaldatacodetext/initfromstring/

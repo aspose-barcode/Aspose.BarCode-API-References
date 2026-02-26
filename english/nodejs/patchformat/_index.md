@@ -3,7 +3,7 @@ title: PatchFormat Enum
 linktitle: PatchFormat
 articleTitle: PatchFormat
 second_title: Aspose.BarCode for Node.js via Java
-description: PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders.
+description: "PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders."
 type: docs
 weight: 1070
 url: /nodejs/patchformat/

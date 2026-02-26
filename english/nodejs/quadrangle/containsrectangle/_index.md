@@ -3,7 +3,7 @@ title: Quadrangle.containsRectangle
 linktitle: containsRectangle
 articleTitle: containsRectangle
 second_title: Aspose.BarCode for Node.js via Java
-description: Determines if the specified Rectangle is contained or intersect this Quadrangle structure.
+description: "Determines if the specified Rectangle is contained or intersect this Quadrangle structure."
 type: docs
 weight: 220
 url: /nodejs/quadrangle/containsrectangle/

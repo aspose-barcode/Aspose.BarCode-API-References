@@ -3,7 +3,7 @@ title: PrimaryData Class
 linktitle: PrimaryData
 articleTitle: PrimaryData
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for storing HIBC LIC primary data.
+description: "Class for storing HIBC LIC primary data."
 type: docs
 weight: 280
 url: /nodejs/primarydata/

@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile.addOrReplaceNode
 linktitle: addOrReplaceNode
 articleTitle: addOrReplaceNode
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds new DataElement or replaces it if ElementID already exists.
+description: "Adds new DataElement or replaces it if ElementID already exists."
 type: docs
 weight: 130
 url: /nodejs/usadriveidjurisdsubfile/addorreplacenode/

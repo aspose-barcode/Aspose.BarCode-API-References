@@ -3,7 +3,7 @@ title: FontUnit
 linktitle: FontUnit
 articleTitle: FontUnit
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the FontUnit class.
+description: "Initializes a new instance of the FontUnit class."
 type: docs
 weight: 10
 url: /nodejs/fontunit/fontunit/

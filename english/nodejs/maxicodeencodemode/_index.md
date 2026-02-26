@@ -3,7 +3,7 @@ title: MaxiCodeEncodeMode Enum
 linktitle: MaxiCodeEncodeMode
 articleTitle: MaxiCodeEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Encoding mode for MaxiCode barcodes.
+description: "Encoding mode for MaxiCode barcodes."
 type: docs
 weight: 1130
 url: /nodejs/maxicodeencodemode/

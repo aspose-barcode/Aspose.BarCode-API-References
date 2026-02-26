@@ -3,7 +3,7 @@ title: BarcodeParameters.getPdf417
 linktitle: getPdf417
 articleTitle: getPdf417
 second_title: Aspose.BarCode for Node.js via Java
-description: PDF417 parameters.
+description: "PDF417 parameters."
 type: docs
 weight: 590
 url: /nodejs/barcodeparameters/getpdf417/

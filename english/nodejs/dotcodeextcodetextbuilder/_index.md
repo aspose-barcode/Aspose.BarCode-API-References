@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder Class
 linktitle: DotCodeExtCodetextBuilder
 articleTitle: DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for Node.js via Java
-description: Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode.
+description: "Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode."
 type: docs
 weight: 740
 url: /nodejs/dotcodeextcodetextbuilder/

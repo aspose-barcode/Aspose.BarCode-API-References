@@ -3,7 +3,7 @@ title: BarcodeParameters.getEnableEscape
 linktitle: getEnableEscape
 articleTitle: getEnableEscape
 second_title: Aspose.BarCode for Node.js via Java
-description: Indicates whether explains the character \"\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, \"\\" will be explained as a special escape character. Otherwise, \"\\" acts as normal characters. Aspose.BarCode supports inputing decimal...
+description: "Indicates whether explains the character \"\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, \"\\" will be explained as a special escape character. Otherwise, \"\\" acts as normal characters. Aspose.BarCode supports inputing decimal..."
 type: docs
 weight: 390
 url: /nodejs/barcodeparameters/getenableescape/

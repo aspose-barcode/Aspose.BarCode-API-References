@@ -3,7 +3,7 @@ title: OptionalFields.getAliasAKASuffixName
 linktitle: getAliasAKASuffixName
 articleTitle: getAliasAKASuffixName
 second_title: Aspose.BarCode for Node.js via Java
-description: DBS, Other suffix by which cardholder is known, DL/ID, V5ANS.
+description: "DBS, Other suffix by which cardholder is known, DL/ID, V5ANS."
 type: docs
 weight: 170
 url: /nodejs/optionalfields/getaliasakasuffixname/

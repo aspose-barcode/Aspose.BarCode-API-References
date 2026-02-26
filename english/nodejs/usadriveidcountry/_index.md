@@ -3,7 +3,7 @@ title: USADriveIdCountry Enum
 linktitle: USADriveIdCountry
 articleTitle: USADriveIdCountry
 second_title: Aspose.BarCode for Node.js via Java
-description: Enum for Country Identification in the US Driver's License.
+description: "Enum for Country Identification in the US Driver's License."
 type: docs
 weight: 410
 url: /nodejs/usadriveidcountry/

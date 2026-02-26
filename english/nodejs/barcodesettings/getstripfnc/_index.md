@@ -3,7 +3,7 @@ title: BarcodeSettings.getStripFNC
 linktitle: getStripFNC
 articleTitle: getStripFNC
 second_title: Aspose.BarCode for Node.js via Java
-description: Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
+description: "Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false."
 type: docs
 weight: 60
 url: /nodejs/barcodesettings/getstripfnc/

@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile.findDataElement
 linktitle: findDataElement
 articleTitle: findDataElement
 second_title: Aspose.BarCode for Node.js via Java
-description: Searches for data element by 3-letter id.
+description: "Searches for data element by 3-letter id."
 type: docs
 weight: 70
 url: /nodejs/usadriveidjurisdsubfile/finddataelement/

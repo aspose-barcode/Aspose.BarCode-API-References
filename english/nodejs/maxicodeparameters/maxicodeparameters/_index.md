@@ -3,7 +3,7 @@ title: MaxiCodeParameters
 linktitle: MaxiCodeParameters
 articleTitle: MaxiCodeParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the MaxiCodeParameters class.
+description: "Initializes a new instance of the MaxiCodeParameters class."
 type: docs
 weight: 10
 url: /nodejs/maxicodeparameters/maxicodeparameters/

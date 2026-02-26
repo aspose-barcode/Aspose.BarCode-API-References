@@ -3,7 +3,7 @@ title: DataMatrixParameters.setStructuredAppendFileId
 linktitle: setStructuredAppendFileId
 articleTitle: setStructuredAppendFileId
 second_title: Aspose.BarCode for Node.js via Java
-description: File ID for Structured Append mode of Datamatrix barcode. Default value: 0.
+description: "File ID for Structured Append mode of Datamatrix barcode. Default value: 0."
 type: docs
 weight: 200
 url: /nodejs/datamatrixparameters/setstructuredappendfileid/

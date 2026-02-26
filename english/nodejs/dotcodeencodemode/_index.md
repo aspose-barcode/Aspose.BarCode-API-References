@@ -3,7 +3,7 @@ title: DotCodeEncodeMode Enum
 linktitle: DotCodeEncodeMode
 articleTitle: DotCodeEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Encoding mode for DotCode barcodes.
+description: "Encoding mode for DotCode barcodes."
 type: docs
 weight: 1150
 url: /nodejs/dotcodeencodemode/

@@ -3,7 +3,7 @@ title: AztecParameters.setAztecEncodeMode
 linktitle: setAztecEncodeMode
 articleTitle: setAztecEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets a Aztec encode mode. Default value: Auto.
+description: "Sets a Aztec encode mode. Default value: Auto."
 type: docs
 weight: 60
 url: /nodejs/aztecparameters/setaztecencodemode/

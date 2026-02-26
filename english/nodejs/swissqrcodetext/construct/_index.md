@@ -3,7 +3,7 @@ title: SwissQRCodetext.construct
 linktitle: construct
 articleTitle: construct
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 60
 url: /nodejs/swissqrcodetext/construct/

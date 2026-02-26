@@ -3,7 +3,7 @@ title: AustraliaPostSettings
 linktitle: AustraliaPostSettings
 articleTitle: AustraliaPostSettings
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the AustraliaPostSettings class.
+description: "Initializes a new instance of the AustraliaPostSettings class."
 type: docs
 weight: 10
 url: /nodejs/australiapostsettings/australiapostsettings/

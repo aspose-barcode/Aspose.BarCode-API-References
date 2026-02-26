@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile.insert
 linktitle: insert
 articleTitle: insert
 second_title: Aspose.BarCode for Node.js via Java
-description: Inserts the specified DataElement at the given index. If a DataElement with the same ElementID already exists, it will be replaced.
+description: "Inserts the specified DataElement at the given index. If a DataElement with the same ElementID already exists, it will be replaced."
 type: docs
 weight: 120
 url: /nodejs/usadriveidjurisdsubfile/insert/

@@ -3,7 +3,7 @@ title: BaseGenerationParameters.getBarcode
 linktitle: getBarcode
 articleTitle: getBarcode
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets the BarcodeParameters that contains all barcode properties.
+description: "Gets the BarcodeParameters that contains all barcode properties."
 type: docs
 weight: 270
 url: /nodejs/basegenerationparameters/getbarcode/

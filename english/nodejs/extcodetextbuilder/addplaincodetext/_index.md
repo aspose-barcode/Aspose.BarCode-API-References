@@ -3,7 +3,7 @@ title: ExtCodetextBuilder.addPlainCodetext
 linktitle: addPlainCodetext
 articleTitle: addPlainCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Adds plain codetext to the extended codetext items.
+description: "Adds plain codetext to the extended codetext items."
 type: docs
 weight: 30
 url: /nodejs/extcodetextbuilder/addplaincodetext/

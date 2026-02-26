@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters.setLinearComponentType
 linktitle: setLinearComponentType
 articleTitle: setLinearComponentType
 second_title: Aspose.BarCode for Node.js via Java
-description: Linear component type.
+description: "Linear component type."
 type: docs
 weight: 40
 url: /nodejs/gs1compositebarparameters/setlinearcomponenttype/

@@ -3,7 +3,7 @@ title: HanXinParameters.setHanXinEncodeMode
 linktitle: setHanXinEncodeMode
 articleTitle: setHanXinEncodeMode
 second_title: Aspose.BarCode for Node.js via Java
-description: HanXin encoding mode. Default value: HanXinEncodeMode.Mixed.
+description: "HanXin encoding mode. Default value: HanXinEncodeMode.Mixed."
 type: docs
 weight: 140
 url: /nodejs/hanxinparameters/sethanxinencodemode/

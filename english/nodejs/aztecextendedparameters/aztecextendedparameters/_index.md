@@ -3,7 +3,7 @@ title: AztecExtendedParameters
 linktitle: AztecExtendedParameters
 articleTitle: AztecExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the AztecExtendedParameters class.
+description: "Initializes a new instance of the AztecExtendedParameters class."
 type: docs
 weight: 10
 url: /nodejs/aztecextendedparameters/aztecextendedparameters/

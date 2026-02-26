@@ -3,7 +3,7 @@ title: ComplexCodetextReader.tryDecodeMailmark2D
 linktitle: tryDecodeMailmark2D
 articleTitle: tryDecodeMailmark2D
 second_title: Aspose.BarCode for Node.js via Java
-description: Decodes Royal Mail Mailmark 2D codetext.
+description: "Decodes Royal Mail Mailmark 2D codetext."
 type: docs
 weight: 30
 url: /nodejs/complexcodetextreader/trydecodemailmark2d/

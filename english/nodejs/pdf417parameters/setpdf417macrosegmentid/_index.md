@@ -3,7 +3,7 @@ title: Pdf417Parameters.setPdf417MacroSegmentID
 linktitle: setPdf417MacroSegmentID
 articleTitle: setPdf417MacroSegmentID
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets macro Pdf417 barcode's segment ID, which starts from 0, to MacroSegmentsCount - 1.
+description: "Sets macro Pdf417 barcode's segment ID, which starts from 0, to MacroSegmentsCount - 1."
 type: docs
 weight: 300
 url: /nodejs/pdf417parameters/setpdf417macrosegmentid/

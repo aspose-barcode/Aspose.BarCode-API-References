@@ -3,7 +3,7 @@ title: Pdf417ExtendedParameters.getMacroPdf417FileName
 linktitle: getMacroPdf417FileName
 articleTitle: getMacroPdf417FileName
 second_title: Aspose.BarCode for Node.js via Java
-description: Macro PDF417 file name (optional).
+description: "Macro PDF417 file name (optional)."
 type: docs
 weight: 60
 url: /nodejs/pdf417extendedparameters/getmacropdf417filename/

@@ -3,7 +3,7 @@ title: OneDExtendedParameters
 linktitle: OneDExtendedParameters
 articleTitle: OneDExtendedParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the OneDExtendedParameters class.
+description: "Initializes a new instance of the OneDExtendedParameters class."
 type: docs
 weight: 10
 url: /nodejs/onedextendedparameters/onedextendedparameters/

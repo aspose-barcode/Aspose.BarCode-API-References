@@ -3,7 +3,7 @@ title: GS1CompositeBarExtendedParameters.getTwoDType
 linktitle: getTwoDType
 articleTitle: getTwoDType
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 50
 url: /nodejs/gs1compositebarextendedparameters/gettwodtype/

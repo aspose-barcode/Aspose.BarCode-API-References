@@ -3,7 +3,7 @@ title: BarCodeRegionParameters.equals
 linktitle: equals
 articleTitle: equals
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a value indicating whether this instance is equal to a specified BarCodeRegionParameters value.
+description: "Returns a value indicating whether this instance is equal to a specified BarCodeRegionParameters value."
 type: docs
 weight: 110
 url: /nodejs/barcoderegionparameters/equals/

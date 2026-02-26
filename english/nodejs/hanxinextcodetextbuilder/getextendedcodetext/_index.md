@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.getExtendedCodetext
 linktitle: getExtendedCodetext
 articleTitle: getExtendedCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns codetext from Extended mode codetext builder.
+description: "Returns codetext from Extended mode codetext builder."
 type: docs
 weight: 160
 url: /nodejs/hanxinextcodetextbuilder/getextendedcodetext/

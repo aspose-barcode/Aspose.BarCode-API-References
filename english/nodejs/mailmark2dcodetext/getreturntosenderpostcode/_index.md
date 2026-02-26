@@ -3,7 +3,7 @@ title: Mailmark2DCodetext.getReturnToSenderPostCode
 linktitle: getReturnToSenderPostCode
 articleTitle: getReturnToSenderPostCode
 second_title: Aspose.BarCode for Node.js via Java
-description: Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAF® format.
+description: "Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAF® format."
 type: docs
 weight: 190
 url: /nodejs/mailmark2dcodetext/getreturntosenderpostcode/

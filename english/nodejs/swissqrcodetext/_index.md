@@ -3,7 +3,7 @@ title: SwissQRCodetext Class
 linktitle: SwissQRCodetext
 articleTitle: SwissQRCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Class for encoding and decoding the text embedded in the SwissQR code.
+description: "Class for encoding and decoding the text embedded in the SwissQR code."
 type: docs
 weight: 100
 url: /nodejs/swissqrcodetext/

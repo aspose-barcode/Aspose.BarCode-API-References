@@ -3,7 +3,7 @@ title: ChecksumValidation Enum
 linktitle: ChecksumValidation
 articleTitle: ChecksumValidation
 second_title: Aspose.BarCode for Node.js via Java
-description: Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5...
+description: "Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5..."
 type: docs
 weight: 1510
 url: /nodejs/checksumvalidation/

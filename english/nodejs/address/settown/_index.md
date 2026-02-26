@@ -3,7 +3,7 @@ title: Address.setTown
 linktitle: setTown
 articleTitle: setTown
 second_title: Aspose.BarCode for Node.js via Java
-description: Sets the town or city.
+description: "Sets the town or city."
 type: docs
 weight: 180
 url: /nodejs/address/settown/

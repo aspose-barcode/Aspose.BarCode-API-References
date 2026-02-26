@@ -3,7 +3,7 @@ title: AztecSymbolMode Enum
 linktitle: AztecSymbolMode
 articleTitle: AztecSymbolMode
 second_title: Aspose.BarCode for Node.js via Java
-description: Specifies the Aztec symbol mode.
+description: "Specifies the Aztec symbol mode."
 type: docs
 weight: 930
 url: /nodejs/aztecsymbolmode/

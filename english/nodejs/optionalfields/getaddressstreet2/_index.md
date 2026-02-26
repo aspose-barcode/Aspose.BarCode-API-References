@@ -3,7 +3,7 @@ title: OptionalFields.getAddressStreet2
 linktitle: getAddressStreet2
 articleTitle: getAddressStreet2
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 30
 url: /nodejs/optionalfields/getaddressstreet2/

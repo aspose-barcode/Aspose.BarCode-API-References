@@ -3,7 +3,7 @@ title: BarCodeReader.getFoundCount
 linktitle: getFoundCount
 articleTitle: getFoundCount
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets recognized barcodes count.
+description: "Gets recognized barcodes count."
 type: docs
 weight: 140
 url: /nodejs/barcodereader/getfoundcount/

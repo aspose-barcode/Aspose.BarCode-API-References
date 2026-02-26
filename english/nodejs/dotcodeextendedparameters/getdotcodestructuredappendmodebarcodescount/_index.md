@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.getDotCodeStructuredAppendModeBarcodesCount
 linktitle: getDotCodeStructuredAppendModeBarcodesCount
 articleTitle: getDotCodeStructuredAppendModeBarcodesCount
 second_title: Aspose.BarCode for Node.js via Java
-description: 
+description: ""
 type: docs
 weight: 30
 url: /nodejs/dotcodeextendedparameters/getdotcodestructuredappendmodebarcodescount/

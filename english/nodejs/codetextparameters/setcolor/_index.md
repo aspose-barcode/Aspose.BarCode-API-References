@@ -3,7 +3,7 @@ title: CodetextParameters.setColor
 linktitle: setColor
 articleTitle: setColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Specify the displaying CodeText's Color. Default value BLACK.
+description: "Specify the displaying CodeText's Color. Default value BLACK."
 type: docs
 weight: 160
 url: /nodejs/codetextparameters/setcolor/

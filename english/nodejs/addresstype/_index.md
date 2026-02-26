@@ -3,7 +3,7 @@ title: AddressType Enum
 linktitle: AddressType
 articleTitle: AddressType
 second_title: Aspose.BarCode for Node.js via Java
-description: Address type.
+description: "Address type."
 type: docs
 weight: 50
 url: /nodejs/addresstype/

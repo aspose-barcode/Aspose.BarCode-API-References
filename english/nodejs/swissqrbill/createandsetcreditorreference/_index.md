@@ -3,7 +3,7 @@ title: SwissQRBill.createAndSetCreditorReference
 linktitle: createAndSetCreditorReference
 articleTitle: createAndSetCreditorReference
 second_title: Aspose.BarCode for Node.js via Java
-description: Creates and sets a ISO11649 creditor reference from a raw string by prefixing the String with \"RF\" and the modulo 97 checksum.
+description: "Creates and sets a ISO11649 creditor reference from a raw string by prefixing the String with \"RF\" and the modulo 97 checksum."
 type: docs
 weight: 180
 url: /nodejs/swissqrbill/createandsetcreditorreference/

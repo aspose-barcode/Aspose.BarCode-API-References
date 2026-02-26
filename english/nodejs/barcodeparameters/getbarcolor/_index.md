@@ -3,7 +3,7 @@ title: BarcodeParameters.getBarColor
 linktitle: getBarColor
 articleTitle: getBarColor
 second_title: Aspose.BarCode for Node.js via Java
-description: Bars color.
+description: "Bars color."
 type: docs
 weight: 310
 url: /nodejs/barcodeparameters/getbarcolor/

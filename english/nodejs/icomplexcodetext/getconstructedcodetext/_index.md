@@ -3,7 +3,7 @@ title: IComplexCodetext.getConstructedCodetext
 linktitle: getConstructedCodetext
 articleTitle: getConstructedCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Construct codetext for complex barcode.
+description: "Construct codetext for complex barcode."
 type: docs
 weight: 20
 url: /nodejs/icomplexcodetext/getconstructedcodetext/

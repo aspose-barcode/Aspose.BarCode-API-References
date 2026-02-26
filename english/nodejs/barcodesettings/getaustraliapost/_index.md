@@ -3,7 +3,7 @@ title: BarcodeSettings.getAustraliaPost
 linktitle: getAustraliaPost
 articleTitle: getAustraliaPost
 second_title: Aspose.BarCode for Node.js via Java
-description: Gets AustraliaPost decoding parameters.
+description: "Gets AustraliaPost decoding parameters."
 type: docs
 weight: 100
 url: /nodejs/barcodesettings/getaustraliapost/

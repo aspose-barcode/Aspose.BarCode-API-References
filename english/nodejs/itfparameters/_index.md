@@ -3,7 +3,7 @@ title: ITFParameters Class
 linktitle: ITFParameters
 articleTitle: ITFParameters
 second_title: Aspose.BarCode for Node.js via Java
-description: ITF parameters.
+description: "ITF parameters."
 type: docs
 weight: 610
 url: /nodejs/itfparameters/

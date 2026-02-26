@@ -3,7 +3,7 @@ title: MaxiCodeStructuredCodetext
 linktitle: MaxiCodeStructuredCodetext
 articleTitle: MaxiCodeStructuredCodetext
 second_title: Aspose.BarCode for Node.js via Java
-description: Initializes a new instance of the MaxiCodeStructuredCodetext class.
+description: "Initializes a new instance of the MaxiCodeStructuredCodetext class."
 type: docs
 weight: 10
 url: /nodejs/maxicodestructuredcodetext/maxicodestructuredcodetext/

@@ -3,7 +3,7 @@ title: Code128Parameters.toString
 linktitle: toString
 articleTitle: toString
 second_title: Aspose.BarCode for Node.js via Java
-description: Returns a human-readable string representation of this PatchCodeParameters.
+description: "Returns a human-readable string representation of this PatchCodeParameters."
 type: docs
 weight: 70
 url: /nodejs/code128parameters/tostring/

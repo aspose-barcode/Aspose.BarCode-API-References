@@ -3,7 +3,7 @@ title: DataMatrixVersion Enum
 linktitle: DataMatrixVersion
 articleTitle: DataMatrixVersion
 second_title: Aspose.BarCode for Node.js via Java
-description: Specify the type of the ECC to encode.
+description: "Specify the type of the ECC to encode."
 type: docs
 weight: 1210
 url: /nodejs/datamatrixversion/

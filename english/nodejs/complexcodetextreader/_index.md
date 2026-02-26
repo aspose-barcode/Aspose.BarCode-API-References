@@ -3,7 +3,7 @@ title: ComplexCodetextReader Class
 linktitle: ComplexCodetextReader
 articleTitle: ComplexCodetextReader
 second_title: Aspose.BarCode for Node.js via Java
-description: ComplexCodetextReader decodes codetext to specified complex barcode type.
+description: "ComplexCodetextReader decodes codetext to specified complex barcode type."
 type: docs
 weight: 70
 url: /nodejs/complexcodetextreader/

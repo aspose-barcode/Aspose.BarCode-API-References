@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile.set
 linktitle: set
 articleTitle: set
 second_title: Aspose.BarCode for Node.js via Java
-description: Indexing by 3-letter element id.
+description: "Indexing by 3-letter element id."
 type: docs
 weight: 40
 url: /nodejs/usadriveidjurisdsubfile/set/
