@@ -3,7 +3,7 @@ title: BarCodeExtendedParameters.getQR
 linktitle: getQR
 articleTitle: getQR
 second_title: Aspose.BarCode for Node.js via Java
-description: "Gets a QR Structured Append information QRExtendedParameters of recognized barcode Value: A QR Structured Append information QRExtendedParameters of recognized barcode."
+description: "Gets a QR Structured Append information QRExtendedParameters of recognized barcode Value: A QR Structured Append information QRExtendedParameters of recogniz..."
 type: docs
 weight: 230
 url: /nodejs/barcodeextendedparameters/getqr/

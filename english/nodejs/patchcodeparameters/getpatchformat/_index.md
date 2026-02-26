@@ -3,7 +3,7 @@ title: PatchCodeParameters.getPatchFormat
 linktitle: getPatchFormat
 articleTitle: getPatchFormat
 second_title: Aspose.BarCode for Node.js via Java
-description: "PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PATCH_ONLY."
+description: "PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchForma..."
 type: docs
 weight: 70
 url: /nodejs/patchcodeparameters/getpatchformat/
