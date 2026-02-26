@@ -19,7 +19,7 @@ Specify the type of barcode to read.
 > ```
 > This sample shows how to detect Code39 and Code128 barcodes.
 >  
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39, DecodeType.CODE_128);
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_FULL_ASCII, DecodeType.CODE_128);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >     System.out.println("BarCode Type: " + result.getCodeTypeName());
@@ -142,7 +142,7 @@ Specify the type of barcode to read.
 | [parse(String parsingType, SingleDecodeType[] result)](#parse-java.lang.String-com.aspose.barcode.barcoderecognition.SingleDecodeType---) | Converts the string representation of a SingleDecodeType to its instance. |
 | [scanSets(BaseDecodeType[] barcodeTypes)](#scanSets-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Specify scan sets by barcodeTypes |
 | [toString()](#toString--) |  |
-| [tryParseMultyDecodeType(String parsingType)](#tryParseMultyDecodeType-java.lang.String-) | Converts the string representation of a MultyDecodeType to its instance. |
+| [tryParseMultiDecodeType(String parsingType)](#tryParseMultiDecodeType-java.lang.String-) | Converts the string representation of a MultiDecodeType to its instance. |
 | [tryParseSingleDecodeType(String parsingType)](#tryParseSingleDecodeType-java.lang.String-) | Converts the string representation of a SingleDecodeType to its instance. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -155,7 +155,7 @@ public DecodeType()
 
 ### ALL_SUPPORTED_TYPES {#ALL-SUPPORTED-TYPES}
 ```
-public static final MultyDecodeType ALL_SUPPORTED_TYPES
+public static final MultiDecodeType ALL_SUPPORTED_TYPES
 ```
 
 
@@ -667,7 +667,7 @@ Specifies that the data should be decoded with  **MICR E-13B**  barcode specific
 
 ### MOST_COMMON_TYPES {#MOST-COMMON-TYPES}
 ```
-public static final MultyDecodeType MOST_COMMON_TYPES
+public static final MultiDecodeType MOST_COMMON_TYPES
 ```
 
 
@@ -739,7 +739,7 @@ Specifies that the data should be decoded with  **Planet**  barcode specificatio
 
 ### POSTAL_TYPES {#POSTAL-TYPES}
 ```
-public static final MultyDecodeType POSTAL_TYPES
+public static final MultiDecodeType POSTAL_TYPES
 ```
 
 
@@ -827,7 +827,7 @@ Specifies that the data should be decoded with  **Swiss Post Parcel Barcode**  b
 
 ### TYPES_1D {#TYPES-1D}
 ```
-public static final MultyDecodeType TYPES_1D
+public static final MultiDecodeType TYPES_1D
 ```
 
 
@@ -835,7 +835,7 @@ Specifies that data will be checked with all of **1D** barcode symbologies
 
 ### TYPES_2D {#TYPES-2D}
 ```
-public static final MultyDecodeType TYPES_2D
+public static final MultiDecodeType TYPES_2D
 ```
 
 
@@ -1039,13 +1039,13 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### tryParseMultyDecodeType(String parsingType) {#tryParseMultyDecodeType-java.lang.String-}
+### tryParseMultiDecodeType(String parsingType) {#tryParseMultiDecodeType-java.lang.String-}
 ```
-public static MultyDecodeType tryParseMultyDecodeType(String parsingType)
+public static MultiDecodeType tryParseMultiDecodeType(String parsingType)
 ```
 
 
-Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
+Converts the string representation of a MultiDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1053,7 +1053,7 @@ Converts the string representation of a MultyDecodeType to its instance. A retur
 | parsingType | java.lang.String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
 
 **Returns:**
-[MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultyDecodeType(DecodeType.None)
+com.aspose.barcode.barcoderecognition.MultiDecodeType - An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultiDecodeType(DecodeType.None)
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
 ```
 public static SingleDecodeType tryParseSingleDecodeType(String parsingType)

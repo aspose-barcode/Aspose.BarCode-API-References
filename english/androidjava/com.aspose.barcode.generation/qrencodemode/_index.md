@@ -21,7 +21,7 @@ Encoding mode for QR barcodes.
 >  
 >      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >      generator.setCodeText("12345TEXT");
->      generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.ECI_ENCODING);
+>      generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.ECI_ENCODING);
 >      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
 >      generator.save("test.png");
 > ```
@@ -38,7 +38,7 @@ Encoding mode for QR barcodes.
 >       //generate barcode
 >       BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >       generator.setCodeText(textBuilder.getExtended());
->       generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+>       generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
 >       generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >       generator.save("d:/test.png");
 >  
@@ -69,7 +69,7 @@ Encoding mode for QR barcodes.
 >    //generate barcode
 >    BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >    generator.setCodeText(textBuilder.getExtended());
->    generator.getParameters().getBarcode().getQR().setQrEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+>    generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
 >    generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
 >    generator.save("d:/test.png");
 > ```

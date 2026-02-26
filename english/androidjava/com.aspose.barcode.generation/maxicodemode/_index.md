@@ -20,9 +20,9 @@ Encoding mode for MaxiCode barcodes. This sample shows how to genereate MaxiCode
  maxiCodeCodetext.setPostalCode("524032140");
  maxiCodeCodetext.setCountryCode(056);
  maxiCodeCodetext.setServiceCategory(999);
- MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
- maxiCodeStandartSecondMessage.setMessage("Test message");
- maxiCodeCodetext.setSecondMessage(maxiCodeStandartSecondMessage);
+ MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+ maxiCodeStandardSecondMessage.setMessage("Test message");
+ maxiCodeCodetext.setSecondMessage(maxiCodeStandardSecondMessage);
  ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext);
  complexGenerator.generateBarCodeImage();
 
@@ -45,9 +45,9 @@ Encoding mode for MaxiCode barcodes. This sample shows how to genereate MaxiCode
  maxiCodeCodetext.setPostalCode("B1050");
  maxiCodeCodetext.setCountryCode(056);
  maxiCodeCodetext.setServiceCategory(999);
- MaxiCodeStandartSecondMessage maxiCodeStandartSecondMessage = new MaxiCodeStandartSecondMessage();
- maxiCodeStandartSecondMessage.setMessage("Test message");
- maxiCodeCodetext.setSecondMessage(maxiCodeStandartSecondMessage);
+ MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+ maxiCodeStandardSecondMessage.setMessage("Test message");
+ maxiCodeCodetext.setSecondMessage(maxiCodeStandardSecondMessage);
  ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext);
  complexGenerator.generateBarCodeImage();
 

@@ -34,6 +34,7 @@ This package contains tools for processing complex barcode
 | [MaxiCodeCodetextMode3](../com.aspose.barcode.complexbarcode/maxicodecodetextmode3) | Class for encoding and decoding the text embedded in the MaxiCode code for modes 3. |
 | [MaxiCodeSecondMessage](../com.aspose.barcode.complexbarcode/maxicodesecondmessage) | Base class for encoding and decoding second message for MaxiCode barcode. |
 | [MaxiCodeStandardCodetext](../com.aspose.barcode.complexbarcode/maxicodestandardcodetext) | Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6. |
+| [MaxiCodeStandardSecondMessage](../com.aspose.barcode.complexbarcode/maxicodestandardsecondmessage) | Class for encoding and decoding standart second message for MaxiCode barcode. |
 | [MaxiCodeStandartSecondMessage](../com.aspose.barcode.complexbarcode/maxicodestandartsecondmessage) | Class for encoding and decoding standart second message for MaxiCode barcode. |
 | [MaxiCodeStructuredCodetext](../com.aspose.barcode.complexbarcode/maxicodestructuredcodetext) | Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3. |
 | [MaxiCodeStructuredSecondMessage](../com.aspose.barcode.complexbarcode/maxicodestructuredsecondmessage) | Class for encoding and decoding structured second message for MaxiCode barcode. |

@@ -3,7 +3,7 @@ title: USADriveIdCodetext
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding the text embedded in the USA Driving License PDF417 code.
 type: docs
-weight: 37
+weight: 38
 url: /androidjava/com.aspose.barcode.complexbarcode/usadriveidcodetext/
 ---
 **Inheritance:**

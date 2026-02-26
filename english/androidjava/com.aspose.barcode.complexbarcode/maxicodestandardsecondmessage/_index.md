@@ -1,15 +1,15 @@
 ---
-title: MaxiCodeStandartSecondMessage
+title: MaxiCodeStandardSecondMessage
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding standart second message for MaxiCode barcode.
 type: docs
-weight: 31
-url: /androidjava/com.aspose.barcode.complexbarcode/maxicodestandartsecondmessage/
+weight: 30
+url: /androidjava/com.aspose.barcode.complexbarcode/maxicodestandardsecondmessage/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage](../../com.aspose.barcode.complexbarcode/maxicodesecondmessage), com.aspose.barcode.complexbarcode.MaxiCodeStandardSecondMessage
+java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage](../../com.aspose.barcode.complexbarcode/maxicodesecondmessage)
 ```
-public class MaxiCodeStandartSecondMessage extends MaxiCodeStandardSecondMessage
+public class MaxiCodeStandardSecondMessage extends MaxiCodeSecondMessage
 ```
 
 Class for encoding and decoding standart second message for MaxiCode barcode.
@@ -17,7 +17,7 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 
 | Constructor | Description |
 | --- | --- |
-| [MaxiCodeStandartSecondMessage()](#MaxiCodeStandartSecondMessage--) |  |
+| [MaxiCodeStandardSecondMessage()](#MaxiCodeStandardSecondMessage--) |  |
 ## Methods
 
 | Method | Description |
@@ -34,9 +34,9 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MaxiCodeStandartSecondMessage() {#MaxiCodeStandartSecondMessage--}
+### MaxiCodeStandardSecondMessage() {#MaxiCodeStandardSecondMessage--}
 ```
-public MaxiCodeStandartSecondMessage()
+public MaxiCodeStandardSecondMessage()
 ```
 
 

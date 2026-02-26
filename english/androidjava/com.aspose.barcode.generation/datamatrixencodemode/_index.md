@@ -28,20 +28,20 @@ DataMatrix encoder's encoding mode, default to Auto
 >  byte[] encodedArr = { (byte)0xFF, (byte)0xFE, (byte)0xFD, (byte)0xFC, (byte)0xFB, (byte)0xFA, (byte)0xF9 };
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DATA_MATRIX);
 >  generator.setCodetext(encodedArr);
->  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.BINARY);
+>  generator.getParameters().getBarcode().getDataMatrix().setEncodeMode(EncodeMode.BINARY);
 >  generator.save("test.bmp");
 >  //Extended codetext mode
 >  //create codetext
 >  DataMatrixExtCodetextBuilder codetextBuilder=new DataMatrixExtCodetextBuilder();
->  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,DataMatrixEncodeMode.BYTES,"World");
+>  codetextBuilder.addECICodetextWithEncodeMode(ECIEncodings.Win1251,EncodeMode.BYTES,"World");
 >  codetextBuilder.addPlainCodetext("Will");
 >  codetextBuilder.addECICodetext(ECIEncodings.UTF8,"\u72acRight\u72d7");
->  codetextBuilder.addCodetextWithEncodeMode(DataMatrixEncodeMode.C40,"ABCDE");
+>  codetextBuilder.addCodetextWithEncodeMode(EncodeMode.C40,"ABCDE");
 >  //generate codetext
 >  String codetext=codetextBuilder.getExtended();
 >  //generate
 >  BarcodeGenerator generator=new BarcodeGenerator(EncodeTypes.DATA_MATRIX,codetext);
->  generator.getParameters().getBarcode().getDataMatrix().setDataMatrixEncodeMode(DataMatrixEncodeMode.EXTENDED_CODETEXT);
+>  generator.getParameters().getBarcode().getDataMatrix().setEncodeMode(EncodeMode.EXTENDED_CODETEXT);
 >  generator.save("test.bmp");
 > ```
 ## Fields

@@ -1,7 +1,7 @@
 ---
 title: BaseDecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Base class for MultyDecodeType and SingleDecodeType.
+description: Base class for MultiDecodeType and SingleDecodeType.
 type: docs
 weight: 23
 url: /androidjava/com.aspose.barcode.barcoderecognition/basedecodetype/
@@ -12,22 +12,22 @@ java.lang.Object
 public abstract class BaseDecodeType
 ```
 
-Base class for MultyDecodeType and SingleDecodeType.
+Base class for MultiDecodeType and SingleDecodeType.
 
 --------------------
 
 > ```
-> This sample shows how to use BaseDecodeType with SingleDecodeType and MultyDecodeType
+> This sample shows how to use BaseDecodeType with SingleDecodeType and MultiDecodeType
 >  
 >  BaseDecodeType decodeOne = DecodeType.CODE_128;
->  BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.CODE_128, DecodeType.CODE_39_STANDARD, DecodeType.CODE_39_FULL_ASCII);
+>  BaseDecodeType decodeTwo = new MultiDecodeType(DecodeType.CODE_128, DecodeType.CODE_39_STANDARD, DecodeType.CODE_39_FULL_ASCII);
 > ```
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [containsAny(BaseDecodeType[] types)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Determines whether any of the given decode types is included into |
-| [equals(MultyDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
+| [equals(MultiDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [equals(Object other)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) value. |
 | [getClass()](#getClass--) |  |
@@ -36,7 +36,7 @@ Base class for MultyDecodeType and SingleDecodeType.
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
 | [tryParseBaseDecodeType(String parsingType)](#tryParseBaseDecodeType-java.lang.String-) | Converts the string representation of a BaseDecodeType to its instance, having determined the concrete type. |
-| [tryParseMultyDecodeType(String parsingType)](#tryParseMultyDecodeType-java.lang.String-) | Converts the string representation of a MultyDecodeType to its instance. |
+| [tryParseMultiDecodeType(String parsingType)](#tryParseMultiDecodeType-java.lang.String-) | Converts the string representation of a MultiDecodeType to its instance. |
 | [tryParseSingleDecodeType(String parsingType)](#tryParseSingleDecodeType-java.lang.String-) | Converts the string representation of a SingleDecodeType to its instance. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,9 +56,9 @@ Determines whether any of the given decode types is included into
 
 **Returns:**
 boolean - Value is a true if any types are included into.
-### equals(MultyDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultyDecodeType-}
+### equals(MultiDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-}
 ```
-public boolean equals(MultyDecodeType other)
+public boolean equals(MultiDecodeType other)
 ```
 
 
@@ -67,7 +67,7 @@ Returns a value indicating whether this instance is equal to a specified [BaseDe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) | An java.lang.Object value to compare to this instance. |
+| other | com.aspose.barcode.barcoderecognition.MultiDecodeType | An java.lang.Object value to compare to this instance. |
 
 **Returns:**
 boolean - True if obj has the same value as this instance; otherwise, false.
@@ -158,29 +158,29 @@ Converts the string representation of a BaseDecodeType to its instance, having d
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a MultyDecodeType representation to convert. |
+| parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-[BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully;
+[BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
-otherwise it returns indefinite type. or MultyDecodeType ("None").
-### tryParseMultyDecodeType(String parsingType) {#tryParseMultyDecodeType-java.lang.String-}
+otherwise it returns indefinite type. or MultiDecodeType ("None").
+### tryParseMultiDecodeType(String parsingType) {#tryParseMultiDecodeType-java.lang.String-}
 ```
-public static MultyDecodeType tryParseMultyDecodeType(String parsingType)
+public static MultiDecodeType tryParseMultiDecodeType(String parsingType)
 ```
 
 
-Converts the string representation of a MultyDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
+Converts the string representation of a MultiDecodeType to its instance. A return value indicates whether the conversion succeeded or failed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parsingType | java.lang.String | A string containing a MultyDecodeType representation to convert. |
+| parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-[MultyDecodeType](../../com.aspose.barcode.barcoderecognition/multydecodetype) - An actual MultyDecodeType is returned, when conversion has completed successfully;
+com.aspose.barcode.barcoderecognition.MultiDecodeType - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
-otherwise it returns indefinite type. or MultyDecodeType ("None").
+otherwise it returns indefinite type. or MultiDecodeType ("None").
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
 ```
 public static SingleDecodeType tryParseSingleDecodeType(String parsingType)

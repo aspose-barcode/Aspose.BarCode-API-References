@@ -20,11 +20,13 @@ Postal parameters. Used for Postnet, Planet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getPostalShortBarHeight()](#getPostalShortBarHeight--) | Short bar's height of Postal barcodes. |
+| [getShortBarHeight()](#getShortBarHeight--) | Short bar's height of Postal barcodes. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setPostalShortBarHeight(Unit value)](#setPostalShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of Postal barcodes. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  PostalParameters . |
+| [setShortBarHeight(Unit value)](#setShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of Postal barcodes. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [PostalParameters](../../com.aspose.barcode.generation/postalparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +57,17 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getPostalShortBarHeight() {#getPostalShortBarHeight--}
 ```
-public Unit getPostalShortBarHeight()
+public final Unit getPostalShortBarHeight()
+```
+
+
+Short bar's height of Postal barcodes.
+
+**Returns:**
+[Unit](../../com.aspose.barcode.generation/unit)
+### getShortBarHeight() {#getShortBarHeight--}
+```
+public final Unit getShortBarHeight()
 ```
 
 
@@ -91,7 +103,20 @@ public final native void notifyAll()
 
 ### setPostalShortBarHeight(Unit value) {#setPostalShortBarHeight-com.aspose.barcode.generation.Unit-}
 ```
-public void setPostalShortBarHeight(Unit value)
+public final void setPostalShortBarHeight(Unit value)
+```
+
+
+Short bar's height of Postal barcodes.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
+
+### setShortBarHeight(Unit value) {#setShortBarHeight-com.aspose.barcode.generation.Unit-}
+```
+public final void setShortBarHeight(Unit value)
 ```
 
 
@@ -108,10 +133,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this  PostalParameters .
+Returns a human-readable string representation of this [PostalParameters](../../com.aspose.barcode.generation/postalparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  PostalParameters .
+java.lang.String - A string that represents this [PostalParameters](../../com.aspose.barcode.generation/postalparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

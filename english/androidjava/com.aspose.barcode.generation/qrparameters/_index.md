@@ -20,27 +20,31 @@ QR parameters.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
+| [getECIEncoding()](#getECIEncoding--) | Extended Channel Interpretation Identifiers. |
+| [getEncodeMode()](#getEncodeMode--) | QR symbology type of BarCode's encoding mode. |
+| [getErrorLevel()](#getErrorLevel--) | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. |
 | [getMicroQRVersion()](#getMicroQRVersion--) | Version of MicroQR Code. |
 | [getQrECIEncoding()](#getQrECIEncoding--) | Extended Channel Interpretation Identifiers. |
 | [getQrEncodeMode()](#getQrEncodeMode--) | QR symbology type of BarCode's encoding mode. |
 | [getQrEncodeType()](#getQrEncodeType--) | QR / MicroQR selector mode. |
-| [getQrErrorLevel()](#getQrErrorLevel--) | Level of Reed-Solomon error correction for QR barcode. |
-| [getQrVersion()](#getQrVersion--) | Version of QR Code. |
+| [getQrErrorLevel()](#getQrErrorLevel--) | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. |
+| [getQrVersion()](#getQrVersion--) | Version of QR Code.From Version1 to Version40. |
 | [getRectMicroQrVersion()](#getRectMicroQrVersion--) | Version of RectMicroQR Code. |
 | [getStructuredAppend()](#getStructuredAppend--) | QR structured append parameters. |
+| [getVersion()](#getVersion--) | Version of QR Code.From Version1 to Version40. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
+| [setECIEncoding(int value)](#setECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
+| [setEncodeMode(QREncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.QREncodeMode-) | QR symbology type of BarCode's encoding mode. |
+| [setErrorLevel(QRErrorLevel value)](#setErrorLevel-com.aspose.barcode.generation.QRErrorLevel-) | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. |
 | [setMicroQRVersion(MicroQRVersion value)](#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-) | Version of MicroQR Code. |
-| [setQrECIEncoding(int value)](#setQrECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
-| [setQrEncodeMode(QREncodeMode value)](#setQrEncodeMode-com.aspose.barcode.generation.QREncodeMode-) | QR symbology type of BarCode's encoding mode. |
 | [setQrEncodeType(QREncodeType value)](#setQrEncodeType-com.aspose.barcode.generation.QREncodeType-) | QR / MicroQR selector mode. |
-| [setQrErrorLevel(QRErrorLevel value)](#setQrErrorLevel-com.aspose.barcode.generation.QRErrorLevel-) | Level of Reed-Solomon error correction for QR barcode. |
-| [setQrVersion(QRVersion value)](#setQrVersion-com.aspose.barcode.generation.QRVersion-) | Version of QR Code. |
 | [setRectMicroQrVersion(RectMicroQRVersion value)](#setRectMicroQrVersion-com.aspose.barcode.generation.RectMicroQRVersion-) | Version of RectMicroQR Code. |
 | [setStructuredAppend(QrStructuredAppendParameters value)](#setStructuredAppend-com.aspose.barcode.generation.QrStructuredAppendParameters-) | QR structured append parameters. |
-| [toString()](#toString--) | Returns a human-readable string representation of this  QrParameters . |
+| [setVersion(QRVersion value)](#setVersion-com.aspose.barcode.generation.QRVersion-) | Version of QR Code.From Version1 to Version40. |
+| [toString()](#toString--) | Returns a human-readable string representation of this [QrParameters](../../com.aspose.barcode.generation/qrparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -61,7 +65,7 @@ public boolean equals(Object arg0)
 boolean
 ### getAspectRatio() {#getAspectRatio--}
 ```
-public float getAspectRatio()
+public final float getAspectRatio()
 ```
 
 
@@ -79,9 +83,39 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getECIEncoding() {#getECIEncoding--}
+```
+public final int getECIEncoding()
+```
+
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Not supported by MicroQR.
+
+**Returns:**
+int
+### getEncodeMode() {#getEncodeMode--}
+```
+public final QREncodeMode getEncodeMode()
+```
+
+
+QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.Auto.
+
+**Returns:**
+[QREncodeMode](../../com.aspose.barcode.generation/qrencodemode)
+### getErrorLevel() {#getErrorLevel--}
+```
+public final QRErrorLevel getErrorLevel()
+```
+
+
+Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. See QRErrorLevel.
+
+**Returns:**
+[QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
 ### getMicroQRVersion() {#getMicroQRVersion--}
 ```
-public MicroQRVersion getMicroQRVersion()
+public final MicroQRVersion getMicroQRVersion()
 ```
 
 
@@ -91,27 +125,27 @@ Version of MicroQR Code. From version M1 to version M4. Default value is MicroQR
 [MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
 ### getQrECIEncoding() {#getQrECIEncoding--}
 ```
-public int getQrECIEncoding()
+public final int getQrECIEncoding()
 ```
 
 
-Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings.
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Not supported by MicroQR.
 
 **Returns:**
 int
 ### getQrEncodeMode() {#getQrEncodeMode--}
 ```
-public QREncodeMode getQrEncodeMode()
+public final QREncodeMode getQrEncodeMode()
 ```
 
 
-QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.AUTO.
+QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.Auto.
 
 **Returns:**
 [QREncodeMode](../../com.aspose.barcode.generation/qrencodemode)
 ### getQrEncodeType() {#getQrEncodeType--}
 ```
-public QREncodeType getQrEncodeType()
+public final QREncodeType getQrEncodeType()
 ```
 
 
@@ -121,27 +155,27 @@ QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for Mic
 [QREncodeType](../../com.aspose.barcode.generation/qrencodetype)
 ### getQrErrorLevel() {#getQrErrorLevel--}
 ```
-public QRErrorLevel getQrErrorLevel()
+public final QRErrorLevel getQrErrorLevel()
 ```
 
 
-Level of Reed-Solomon error correction for QR barcode. From low to high: LEVEL\_L, LEVEL\_M, LEVEL\_Q, LEVEL\_H. see QRErrorLevel.
+Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. See QRErrorLevel.
 
 **Returns:**
 [QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
 ### getQrVersion() {#getQrVersion--}
 ```
-public QRVersion getQrVersion()
+public final QRVersion getQrVersion()
 ```
 
 
-Version of QR Code. From Version1 to Version40. Default value is QRVersion.AUTO.
+Version of QR Code.From Version1 to Version40. Default value is QRVersion.Auto.
 
 **Returns:**
 [QRVersion](../../com.aspose.barcode.generation/qrversion)
 ### getRectMicroQrVersion() {#getRectMicroQrVersion--}
 ```
-public RectMicroQRVersion getRectMicroQrVersion()
+public final RectMicroQRVersion getRectMicroQrVersion()
 ```
 
 
@@ -151,7 +185,7 @@ Version of RectMicroQR Code. From version R7x59 to version R17x139. Default valu
 [RectMicroQRVersion](../../com.aspose.barcode.generation/rectmicroqrversion)
 ### getStructuredAppend() {#getStructuredAppend--}
 ```
-public QrStructuredAppendParameters getStructuredAppend()
+public final QrStructuredAppendParameters getStructuredAppend()
 ```
 
 
@@ -159,6 +193,16 @@ QR structured append parameters. Structured append mode is not suppported by Mic
 
 **Returns:**
 [QrStructuredAppendParameters](../../com.aspose.barcode.generation/qrstructuredappendparameters)
+### getVersion() {#getVersion--}
+```
+public final QRVersion getVersion()
+```
+
+
+Version of QR Code.From Version1 to Version40. Default value is QRVersion.Auto.
+
+**Returns:**
+[QRVersion](../../com.aspose.barcode.generation/qrversion)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,7 +231,7 @@ public final native void notifyAll()
 
 ### setAspectRatio(float value) {#setAspectRatio-float-}
 ```
-public void setAspectRatio(float value)
+public final void setAspectRatio(float value)
 ```
 
 
@@ -198,9 +242,48 @@ Height/Width ratio of 2D BarCode module.
 | --- | --- | --- |
 | value | float |  |
 
+### setECIEncoding(int value) {#setECIEncoding-int-}
+```
+public final void setECIEncoding(int value)
+```
+
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Not supported by MicroQR.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEncodeMode(QREncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.QREncodeMode-}
+```
+public final void setEncodeMode(QREncodeMode value)
+```
+
+
+QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [QREncodeMode](../../com.aspose.barcode.generation/qrencodemode) |  |
+
+### setErrorLevel(QRErrorLevel value) {#setErrorLevel-com.aspose.barcode.generation.QRErrorLevel-}
+```
+public final void setErrorLevel(QRErrorLevel value)
+```
+
+
+Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. See QRErrorLevel.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel) |  |
+
 ### setMicroQRVersion(MicroQRVersion value) {#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-}
 ```
-public void setMicroQRVersion(MicroQRVersion value)
+public final void setMicroQRVersion(MicroQRVersion value)
 ```
 
 
@@ -211,35 +294,9 @@ Version of MicroQR Code. From version M1 to version M4. Default value is MicroQR
 | --- | --- | --- |
 | value | [MicroQRVersion](../../com.aspose.barcode.generation/microqrversion) |  |
 
-### setQrECIEncoding(int value) {#setQrECIEncoding-int-}
-```
-public void setQrECIEncoding(int value)
-```
-
-
-Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setQrEncodeMode(QREncodeMode value) {#setQrEncodeMode-com.aspose.barcode.generation.QREncodeMode-}
-```
-public void setQrEncodeMode(QREncodeMode value)
-```
-
-
-QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.AUTO.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [QREncodeMode](../../com.aspose.barcode.generation/qrencodemode) |  |
-
 ### setQrEncodeType(QREncodeType value) {#setQrEncodeType-com.aspose.barcode.generation.QREncodeType-}
 ```
-public void setQrEncodeType(QREncodeType value)
+public final void setQrEncodeType(QREncodeType value)
 ```
 
 
@@ -250,35 +307,9 @@ QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for Mic
 | --- | --- | --- |
 | value | [QREncodeType](../../com.aspose.barcode.generation/qrencodetype) |  |
 
-### setQrErrorLevel(QRErrorLevel value) {#setQrErrorLevel-com.aspose.barcode.generation.QRErrorLevel-}
-```
-public void setQrErrorLevel(QRErrorLevel value)
-```
-
-
-Level of Reed-Solomon error correction for QR barcode. From low to high: LEVEL\_L, LEVEL\_M, LEVEL\_Q, LEVEL\_H. see QRErrorLevel.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel) |  |
-
-### setQrVersion(QRVersion value) {#setQrVersion-com.aspose.barcode.generation.QRVersion-}
-```
-public void setQrVersion(QRVersion value)
-```
-
-
-Version of QR Code. From Version1 to Version40. Default value is QRVersion.AUTO.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [QRVersion](../../com.aspose.barcode.generation/qrversion) |  |
-
 ### setRectMicroQrVersion(RectMicroQRVersion value) {#setRectMicroQrVersion-com.aspose.barcode.generation.RectMicroQRVersion-}
 ```
-public void setRectMicroQrVersion(RectMicroQRVersion value)
+public final void setRectMicroQrVersion(RectMicroQRVersion value)
 ```
 
 
@@ -291,7 +322,7 @@ Version of RectMicroQR Code. From version R7x59 to version R17x139. Default valu
 
 ### setStructuredAppend(QrStructuredAppendParameters value) {#setStructuredAppend-com.aspose.barcode.generation.QrStructuredAppendParameters-}
 ```
-public void setStructuredAppend(QrStructuredAppendParameters value)
+public final void setStructuredAppend(QrStructuredAppendParameters value)
 ```
 
 
@@ -302,16 +333,29 @@ QR structured append parameters. Structured append mode is not suppported by Mic
 | --- | --- | --- |
 | value | [QrStructuredAppendParameters](../../com.aspose.barcode.generation/qrstructuredappendparameters) |  |
 
+### setVersion(QRVersion value) {#setVersion-com.aspose.barcode.generation.QRVersion-}
+```
+public final void setVersion(QRVersion value)
+```
+
+
+Version of QR Code.From Version1 to Version40. Default value is QRVersion.Auto.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [QRVersion](../../com.aspose.barcode.generation/qrversion) |  |
+
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns a human-readable string representation of this  QrParameters .
+Returns a human-readable string representation of this [QrParameters](../../com.aspose.barcode.generation/qrparameters).
 
 **Returns:**
-java.lang.String - A string that represents this  QrParameters .
+java.lang.String - A string that represents this [QrParameters](../../com.aspose.barcode.generation/qrparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

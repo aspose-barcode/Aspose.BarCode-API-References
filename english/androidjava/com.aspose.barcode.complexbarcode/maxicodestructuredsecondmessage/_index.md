@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding structured second message for MaxiCode barcode.
 type: docs
-weight: 32
+weight: 33
 url: /androidjava/com.aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/
 ---
 **Inheritance:**
@@ -26,11 +26,10 @@ Class for encoding and decoding structured second message for MaxiCode barcode.
 | [clear()](#clear--) | Clear identifiers list |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
 | [getClass()](#getClass--) |  |
-| [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
 | [getIdentifiers()](#getIdentifiers--) | Gets identifiers list |
 | [getMessage()](#getMessage--) | Gets constructed second message |
 | [getYear()](#getYear--) | Gets year. |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setYear(int value)](#setYear-int-) | Sets year. |
@@ -90,16 +89,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getHashCode() {#getHashCode--}
-```
-public int getHashCode()
-```
-
-
-Returns the hash code for this instance.
-
-**Returns:**
-int - A 32-bit signed integer hash code.
 ### getIdentifiers() {#getIdentifiers--}
 ```
 public List<String> getIdentifiers()
@@ -132,14 +121,14 @@ Gets year. Year must be 2 digit integer value.
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
-
+Returns the hash code for this instance.
 
 **Returns:**
-int
+int - A 32-bit signed integer hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()

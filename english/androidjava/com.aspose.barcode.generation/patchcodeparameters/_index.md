@@ -20,13 +20,15 @@ PatchCode parameters.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getExtraBarcodeText()](#getExtraBarcodeText--) | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
+| [getFormat()](#getFormat--) | PatchCode format. |
 | [getPatchFormat()](#getPatchFormat--) | PatchCode format. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setExtraBarcodeText(String value)](#setExtraBarcodeText-java.lang.String-) | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
+| [setFormat(PatchFormat value)](#setFormat-com.aspose.barcode.generation.PatchFormat-) | PatchCode format. |
 | [setPatchFormat(PatchFormat value)](#setPatchFormat-com.aspose.barcode.generation.PatchFormat-) | PatchCode format. |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this [PatchCodeParameters](../../com.aspose.barcode.generation/patchcodeparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -57,7 +59,7 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getExtraBarcodeText() {#getExtraBarcodeText--}
 ```
-public String getExtraBarcodeText()
+public final String getExtraBarcodeText()
 ```
 
 
@@ -65,16 +67,26 @@ Specifies codetext for an extra QR barcode, when PatchCode is generated in page 
 
 **Returns:**
 java.lang.String
-### getPatchFormat() {#getPatchFormat--}
+### getFormat() {#getFormat--}
 ```
-public PatchFormat getPatchFormat()
+public final PatchFormat getFormat()
 ```
 
 
-PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PATCH\_ONLY
+PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly
 
 **Returns:**
-[PatchFormat](../../com.aspose.barcode.generation/patchformat) - 
+[PatchFormat](../../com.aspose.barcode.generation/patchformat)
+### getPatchFormat() {#getPatchFormat--}
+```
+public final PatchFormat getPatchFormat()
+```
+
+
+PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly
+
+**Returns:**
+[PatchFormat](../../com.aspose.barcode.generation/patchformat)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -103,7 +115,7 @@ public final native void notifyAll()
 
 ### setExtraBarcodeText(String value) {#setExtraBarcodeText-java.lang.String-}
 ```
-public void setExtraBarcodeText(String value)
+public final void setExtraBarcodeText(String value)
 ```
 
 
@@ -114,13 +126,26 @@ Specifies codetext for an extra QR barcode, when PatchCode is generated in page 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setFormat(PatchFormat value) {#setFormat-com.aspose.barcode.generation.PatchFormat-}
+```
+public final void setFormat(PatchFormat value)
+```
+
+
+PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PatchFormat](../../com.aspose.barcode.generation/patchformat) |  |
+
 ### setPatchFormat(PatchFormat value) {#setPatchFormat-com.aspose.barcode.generation.PatchFormat-}
 ```
-public void setPatchFormat(PatchFormat value)
+public final void setPatchFormat(PatchFormat value)
 ```
 
 
-PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PATCH\_ONLY
+PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PatchOnly
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -133,10 +158,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this [PatchCodeParameters](../../com.aspose.barcode.generation/patchcodeparameters).
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this [PatchCodeParameters](../../com.aspose.barcode.generation/patchcodeparameters).
 ### wait() {#wait--}
 ```
 public final void wait()

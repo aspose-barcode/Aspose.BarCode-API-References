@@ -3,7 +3,7 @@ title: Mailmark2DType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 2D Mailmark Type defines size of Data Matrix barcode
 type: docs
-weight: 42
+weight: 43
 url: /androidjava/com.aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 **Inheritance:**
