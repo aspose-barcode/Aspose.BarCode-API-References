@@ -3,7 +3,7 @@ title: BarcodeSettings.StripFNC
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeSettings property. Strip FNC1 FNC2 FNC3 characters from codetext. Default value is false
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/stripfnc/
 ---
 ## BarcodeSettings.StripFNC property
