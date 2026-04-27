@@ -3,7 +3,7 @@ title: DeconvolutionMode
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 54
+weight: 53
 url: /java/com.aspose.barcode.barcoderecognition/deconvolutionmode/
 ---
 **Inheritance:**

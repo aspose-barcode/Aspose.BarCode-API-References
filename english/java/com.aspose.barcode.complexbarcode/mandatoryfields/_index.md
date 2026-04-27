@@ -33,12 +33,14 @@ Mandatory elements (fields) of the card
 | [getDateOfBirth()](#getDateOfBirth--) | DBB, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [getDocumentDiscriminator()](#getDocumentDiscriminator--) | DCF, Number must uniquely identify a particular document issued to that customer from others that may have been issued in the past. |
 | [getEndorsementCodes()](#getEndorsementCodes--) | DCD, Jurisdiction specific endorsement codes, DL, V5ANS |
+| [getExpirationDate()](#getExpirationDate--) | DBA, Document Expiration Date, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [getEyeColor()](#getEyeColor--) | DAY, Color of cardholder's eyes. |
 | [getFamilyName()](#getFamilyName--) | DCS, Family name of the cardholder, DL/ID, V40ANS |
 | [getFamilyNameTruncation()](#getFamilyNameTruncation--) | DDE, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [getFirstName()](#getFirstName--) | DAC, First name of the cardholder, DL/ID, V40ANS |
 | [getFirstNameTruncation()](#getFirstNameTruncation--) | DDF, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [getHeight()](#getHeight--) | DAU, Height of cardholder. |
+| [getIssueDate()](#getIssueDate--) | DBD, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [getMiddleName()](#getMiddleName--) | DAD, Middle name(s) of the cardholder. |
 | [getMiddleNameTruncation()](#getMiddleNameTruncation--) | DDG, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [getRestrictionCodes()](#getRestrictionCodes--) | DCB, Jurisdiction-specific restrictions codes, DL, V12ANS |
@@ -56,12 +58,14 @@ Mandatory elements (fields) of the card
 | [setDateOfBirth(LocalDate value)](#setDateOfBirth-java.time.LocalDate-) | DBB, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [setDocumentDiscriminator(String value)](#setDocumentDiscriminator-java.lang.String-) | DCF, Number must uniquely identify a particular document issued to that customer from others that may have been issued in the past. |
 | [setEndorsementCodes(String value)](#setEndorsementCodes-java.lang.String-) | DCD, Jurisdiction specific endorsement codes, DL, V5ANS |
+| [setExpirationDate(LocalDate value)](#setExpirationDate-java.time.LocalDate-) | DBA, Document Expiration Date, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [setEyeColor(USADriveIdEyeColor value)](#setEyeColor-com.aspose.barcode.complexbarcode.USADriveIdEyeColor-) | DAY, Color of cardholder's eyes. |
 | [setFamilyName(String value)](#setFamilyName-java.lang.String-) | DCS, Family name of the cardholder, DL/ID, V40ANS |
 | [setFamilyNameTruncation(String value)](#setFamilyNameTruncation-java.lang.String-) | DDE, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [setFirstName(String value)](#setFirstName-java.lang.String-) | DAC, First name of the cardholder, DL/ID, V40ANS |
 | [setFirstNameTruncation(String value)](#setFirstNameTruncation-java.lang.String-) | DDF, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [setHeight(String value)](#setHeight-java.lang.String-) | DAU, Height of cardholder. |
+| [setIssueDate(LocalDate value)](#setIssueDate-java.time.LocalDate-) | DBD, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
 | [setMiddleName(String value)](#setMiddleName-java.lang.String-) | DAD, Middle name(s) of the cardholder. |
 | [setMiddleNameTruncation(String value)](#setMiddleNameTruncation-java.lang.String-) | DDG, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncated(U), DL/ID, F1A |
 | [setRestrictionCodes(String value)](#setRestrictionCodes-java.lang.String-) | DCB, Jurisdiction-specific restrictions codes, DL, V12ANS |
@@ -192,6 +196,16 @@ DCD, Jurisdiction specific endorsement codes, DL, V5ANS
 
 **Returns:**
 java.lang.String
+### getExpirationDate() {#getExpirationDate--}
+```
+public final LocalDate getExpirationDate()
+```
+
+
+DBA, Document Expiration Date, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N
+
+**Returns:**
+java.time.LocalDate
 ### getEyeColor() {#getEyeColor--}
 ```
 public final USADriveIdEyeColor getEyeColor()
@@ -252,6 +266,16 @@ DAU, Height of cardholder. Inches (in): number of inches followed by " in" ex. 6
 
 **Returns:**
 java.lang.String
+### getIssueDate() {#getIssueDate--}
+```
+public final LocalDate getIssueDate()
+```
+
+
+DBD, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N
+
+**Returns:**
+java.time.LocalDate
 ### getMiddleName() {#getMiddleName--}
 ```
 public final String getMiddleName()
@@ -445,6 +469,19 @@ DCD, Jurisdiction specific endorsement codes, DL, V5ANS
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setExpirationDate(LocalDate value) {#setExpirationDate-java.time.LocalDate-}
+```
+public final void setExpirationDate(LocalDate value)
+```
+
+
+DBA, Document Expiration Date, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDate |  |
+
 ### setEyeColor(USADriveIdEyeColor value) {#setEyeColor-com.aspose.barcode.complexbarcode.USADriveIdEyeColor-}
 ```
 public final void setEyeColor(USADriveIdEyeColor value)
@@ -522,6 +559,19 @@ DAU, Height of cardholder. Inches (in): number of inches followed by " in" ex. 6
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setIssueDate(LocalDate value) {#setIssueDate-java.time.LocalDate-}
+```
+public final void setIssueDate(LocalDate value)
+```
+
+
+DBD, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDate |  |
 
 ### setMiddleName(String value) {#setMiddleName-java.lang.String-}
 ```
