@@ -1,0 +1,556 @@
+---
+title: RectMicroQRVersion
+second_title: Referencia de API de Aspose.BarCode para Android mediante Java
+description: Versión de RectMicroQR Code.
+type: docs
+weight: 106
+url: /es/androidjava/com.aspose.barcode.generation/rectmicroqrversion/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum RectMicroQRVersion extends Enum<RectMicroQRVersion>
+```
+
+Versión del código RectMicroQR. Desde la versión R7x43 hasta la versión R17x139.
+## Campos
+
+| Campo | Descripción |
+| --- | --- |
+| [AUTO](#AUTO) | Especifica que se seleccione automáticamente la mejor versión para RectMicroQR. |
+| [R11x139](#R11x139) | Especifica la versión con 11 x 139 módulos. |
+| [R11x27](#R11x27) | Especifica la versión con 11 x 27 módulos. |
+| [R11x43](#R11x43) | Especifica la versión con 11 x 43 módulos. |
+| [R11x59](#R11x59) | Especifica la versión con 11 x 59 módulos. |
+| [R11x77](#R11x77) | Especifica versión con 11 x 77 módulos. |
+| [R11x99](#R11x99) | Especifica versión con 11 x 99 módulos. |
+| [R13x139](#R13x139) | Especifica versión con 13 x 139 módulos. |
+| [R13x27](#R13x27) | Especifica versión con 13 x 27 módulos. |
+| [R13x43](#R13x43) | Especifica versión con 13 x 43 módulos. |
+| [R13x59](#R13x59) | Especifica versión con 13 x 59 módulos. |
+| [R13x77](#R13x77) | Especifica versión con 13 x 77 módulos. |
+| [R13x99](#R13x99) | Especifica versión con 13 x 99 módulos. |
+| [R15x139](#R15x139) | Especifica versión con 15 x 139 módulos. |
+| [R15x43](#R15x43) | Especifica versión con 15 x 43 módulos. |
+| [R15x59](#R15x59) | Especifica versión con 15 x 59 módulos. |
+| [R15x77](#R15x77) | Especifica versión con 15 x 77 módulos. |
+| [R15x99](#R15x99) | Especifica versión con 15 x 99 módulos. |
+| [R17x139](#R17x139) | Especifica versión con 17 x 139 módulos. |
+| [R17x43](#R17x43) | Especifica versión con 17 x 43 módulos. |
+| [R17x59](#R17x59) | Especifica versión con 17 x 59 módulos. |
+| [R17x77](#R17x77) | Especifica versión con 17 x 77 módulos. |
+| [R17x99](#R17x99) | Especifica versión con 17 x 99 módulos. |
+| [R7x139](#R7x139) | Especifica versión con 7 x 139 módulos. |
+| [R7x43](#R7x43) | Especifica versión con 7 x 43 módulos. |
+| [R7x59](#R7x59) | Especifica versión con 7 x 59 módulos. |
+| [R7x77](#R7x77) | Especifica versión con 7 x 77 módulos. |
+| [R7x99](#R7x99) | Especifica versión con 7 x 99 módulos. |
+| [R9x139](#R9x139) | Especifica versión con 9 x 139 módulos. |
+| [R9x43](#R9x43) | Especifica versión con 9 x 43 módulos. |
+| [R9x59](#R9x59) | Especifica la versión con 9 x 59 módulos. |
+| [R9x77](#R9x77) | Especifica la versión con 9 x 77 módulos. |
+| [R9x99](#R9x99) | Especifica la versión con 9 x 99 módulos. |
+## Methods
+
+| Method | Descripción |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AUTO {#AUTO}
+```
+public static final RectMicroQRVersion AUTO
+```
+
+
+Especifica que se seleccione automáticamente la mejor versión para RectMicroQR. Este es el valor predeterminado.
+
+### R11x139 {#R11x139}
+```
+public static final RectMicroQRVersion R11x139
+```
+
+
+Especifica la versión con 11 x 139 módulos.
+
+### R11x27 {#R11x27}
+```
+public static final RectMicroQRVersion R11x27
+```
+
+
+Especifica la versión con 11 x 27 módulos.
+
+### R11x43 {#R11x43}
+```
+public static final RectMicroQRVersion R11x43
+```
+
+
+Especifica la versión con 11 x 43 módulos.
+
+### R11x59 {#R11x59}
+```
+public static final RectMicroQRVersion R11x59
+```
+
+
+Especifica la versión con 11 x 59 módulos.
+
+### R11x77 {#R11x77}
+```
+public static final RectMicroQRVersion R11x77
+```
+
+
+Especifica versión con 11 x 77 módulos.
+
+### R11x99 {#R11x99}
+```
+public static final RectMicroQRVersion R11x99
+```
+
+
+Especifica versión con 11 x 99 módulos.
+
+### R13x139 {#R13x139}
+```
+public static final RectMicroQRVersion R13x139
+```
+
+
+Especifica versión con 13 x 139 módulos.
+
+### R13x27 {#R13x27}
+```
+public static final RectMicroQRVersion R13x27
+```
+
+
+Especifica versión con 13 x 27 módulos.
+
+### R13x43 {#R13x43}
+```
+public static final RectMicroQRVersion R13x43
+```
+
+
+Especifica versión con 13 x 43 módulos.
+
+### R13x59 {#R13x59}
+```
+public static final RectMicroQRVersion R13x59
+```
+
+
+Especifica versión con 13 x 59 módulos.
+
+### R13x77 {#R13x77}
+```
+public static final RectMicroQRVersion R13x77
+```
+
+
+Especifica versión con 13 x 77 módulos.
+
+### R13x99 {#R13x99}
+```
+public static final RectMicroQRVersion R13x99
+```
+
+
+Especifica versión con 13 x 99 módulos.
+
+### R15x139 {#R15x139}
+```
+public static final RectMicroQRVersion R15x139
+```
+
+
+Especifica versión con 15 x 139 módulos.
+
+### R15x43 {#R15x43}
+```
+public static final RectMicroQRVersion R15x43
+```
+
+
+Especifica versión con 15 x 43 módulos.
+
+### R15x59 {#R15x59}
+```
+public static final RectMicroQRVersion R15x59
+```
+
+
+Especifica versión con 15 x 59 módulos.
+
+### R15x77 {#R15x77}
+```
+public static final RectMicroQRVersion R15x77
+```
+
+
+Especifica versión con 15 x 77 módulos.
+
+### R15x99 {#R15x99}
+```
+public static final RectMicroQRVersion R15x99
+```
+
+
+Especifica versión con 15 x 99 módulos.
+
+### R17x139 {#R17x139}
+```
+public static final RectMicroQRVersion R17x139
+```
+
+
+Especifica versión con 17 x 139 módulos.
+
+### R17x43 {#R17x43}
+```
+public static final RectMicroQRVersion R17x43
+```
+
+
+Especifica versión con 17 x 43 módulos.
+
+### R17x59 {#R17x59}
+```
+public static final RectMicroQRVersion R17x59
+```
+
+
+Especifica versión con 17 x 59 módulos.
+
+### R17x77 {#R17x77}
+```
+public static final RectMicroQRVersion R17x77
+```
+
+
+Especifica versión con 17 x 77 módulos.
+
+### R17x99 {#R17x99}
+```
+public static final RectMicroQRVersion R17x99
+```
+
+
+Especifica versión con 17 x 99 módulos.
+
+### R7x139 {#R7x139}
+```
+public static final RectMicroQRVersion R7x139
+```
+
+
+Especifica versión con 7 x 139 módulos.
+
+### R7x43 {#R7x43}
+```
+public static final RectMicroQRVersion R7x43
+```
+
+
+Especifica versión con 7 x 43 módulos.
+
+### R7x59 {#R7x59}
+```
+public static final RectMicroQRVersion R7x59
+```
+
+
+Especifica versión con 7 x 59 módulos.
+
+### R7x77 {#R7x77}
+```
+public static final RectMicroQRVersion R7x77
+```
+
+
+Especifica versión con 7 x 77 módulos.
+
+### R7x99 {#R7x99}
+```
+public static final RectMicroQRVersion R7x99
+```
+
+
+Especifica versión con 7 x 99 módulos.
+
+### R9x139 {#R9x139}
+```
+public static final RectMicroQRVersion R9x139
+```
+
+
+Especifica versión con 9 x 139 módulos.
+
+### R9x43 {#R9x43}
+```
+public static final RectMicroQRVersion R9x43
+```
+
+
+Especifica versión con 9 x 43 módulos.
+
+### R9x59 {#R9x59}
+```
+public static final RectMicroQRVersion R9x59
+```
+
+
+Especifica la versión con 9 x 59 módulos.
+
+### R9x77 {#R9x77}
+```
+public static final RectMicroQRVersion R9x77
+```
+
+
+Especifica la versión con 9 x 77 módulos.
+
+### R9x99 {#R9x99}
+```
+public static final RectMicroQRVersion R9x99
+```
+
+
+Especifica la versión con 9 x 99 módulos.
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static RectMicroQRVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| valor | int |  |
+
+**Returns:**
+[RectMicroQRVersion](../../com.aspose.barcode.generation/rectmicroqrversion)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static RectMicroQRVersion valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| nombre | java.lang.String |  |
+
+**Returns:**
+[RectMicroQRVersion](../../com.aspose.barcode.generation/rectmicroqrversion)
+### values() {#values--}
+```
+public static RectMicroQRVersion[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.RectMicroQRVersion[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| arg0 | largo |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Descripción |
+| --- | --- | --- |
+| arg0 | largo |  |
+| arg1 | int |  |
+
