@@ -1,0 +1,179 @@
+---
+title: Lisensi
+second_title: Referensi API Aspose.BarCode untuk Android via Java
+description: Menyediakan metode untuk melisensikan komponen.
+type: docs
+weight: 16
+url: /id/androidjava/com.aspose.barcode/license/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class License
+```
+
+Menyediakan metode untuk melisensikan komponen.
+## Constructors
+
+| Constructor | Deskripsi |
+| --- | --- |
+| [License()](#License--) | Menginisialisasi sebuah instance baru dari kelas ini. |
+## Methods
+
+| Method | Deskripsi |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setLicense(File licenseFile)](#setLicense-java.io.File-) | Licenses the component. |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### License() {#License--}
+```
+public License()
+```
+
+
+Menginisialisasi sebuah instance baru dari kelas ini.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setLicense(File licenseFile) {#setLicense-java.io.File-}
+```
+public void setLicense(File licenseFile)
+```
+
+
+Licenses the component.
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| licenseFile | java.io.File | representation of file pathname |
+
+### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+```
+public void setLicense(InputStream stream)
+```
+
+
+Licenses the component.
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream that contains the license. |
+
+### setLicense(String licenseName) {#setLicense-java.lang.String-}
+```
+public void setLicense(String licenseName)
+```
+
+
+Licenses the component.
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| licenseName | java.lang.String | Can be a full or short file name Use an empty string to switch to evaluation mode. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
