@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder.GetExtendedCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: QrExtCodetextBuilder method. Generates Extended codetext from the extended codetext list
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/
 ---
 ## QrExtCodetextBuilder.GetExtendedCodetext method

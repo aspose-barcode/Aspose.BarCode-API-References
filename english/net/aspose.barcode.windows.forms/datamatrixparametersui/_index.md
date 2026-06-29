@@ -3,7 +3,7 @@ title: Class DataMatrixParametersUI
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Windows.Forms.DataMatrixParametersUI class. UI wrapper for DataMatrixParameters class
 type: docs
-weight: 1740
+weight: 1750
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/
 ---
 ## DataMatrixParametersUI class

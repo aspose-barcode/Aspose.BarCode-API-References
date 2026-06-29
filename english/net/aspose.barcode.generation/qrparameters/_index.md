@@ -3,7 +3,7 @@ title: Class QrParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QrParameters class. QR parameters
 type: docs
-weight: 1560
+weight: 1570
 url: /net/aspose.barcode.generation/qrparameters/
 ---
 ## QrParameters class
@@ -20,6 +20,7 @@ public class QrParameters
 | --- | --- |
 | [AspectRatio](../../aspose.barcode.generation/qrparameters/aspectratio/) { get; set; } | Height/Width ratio of 2D BarCode module. |
 | [ECIEncoding](../../aspose.barcode.generation/qrparameters/eciencoding/) { get; set; } | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. Not supported by MicroQR. |
+| [EncodeGS1SeparatorInByteMode](../../aspose.barcode.generation/qrparameters/encodegs1separatorinbytemode/) { get; set; } | Gets or sets a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes. |
 | [EncodeMode](../../aspose.barcode.generation/qrparameters/encodemode/) { get; set; } | QR symbology type of BarCode's encoding mode. Default value: QREncodeMode.Auto. |
 | [ErrorLevel](../../aspose.barcode.generation/qrparameters/errorlevel/) { get; set; } | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. See QRErrorLevel. |
 | [MicroQRVersion](../../aspose.barcode.generation/qrparameters/microqrversion/) { get; set; } | Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto. |

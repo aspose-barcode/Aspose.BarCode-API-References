@@ -63,14 +63,14 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
 {
     generator.CodeText = "12345TEXT";
     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding;
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
 [VB.NET]
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = "12345TEXT"
     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8
     generator.Save("test.png")
 End Using
 ```
