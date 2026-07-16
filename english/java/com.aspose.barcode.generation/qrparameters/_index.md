@@ -21,6 +21,7 @@ QR parameters.
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
 | [getECIEncoding()](#getECIEncoding--) | Extended Channel Interpretation Identifiers. |
+| [getEncodeGS1SeparatorInByteMode()](#getEncodeGS1SeparatorInByteMode--) |  |
 | [getEncodeMode()](#getEncodeMode--) | QR symbology type of BarCode's encoding mode. |
 | [getErrorLevel()](#getErrorLevel--) | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. |
 | [getMicroQRVersion()](#getMicroQRVersion--) | Version of MicroQR Code. |
@@ -37,6 +38,7 @@ QR parameters.
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Extended Channel Interpretation Identifiers. |
+| [setEncodeGS1SeparatorInByteMode(boolean value)](#setEncodeGS1SeparatorInByteMode-boolean-) |  |
 | [setEncodeMode(QREncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.QREncodeMode-) | QR symbology type of BarCode's encoding mode. |
 | [setErrorLevel(QRErrorLevel value)](#setErrorLevel-com.aspose.barcode.generation.QRErrorLevel-) | Level of Reed-Solomon error correction for QR, MicroQR and RectMicroQR barcode. |
 | [setMicroQRVersion(MicroQRVersion value)](#setMicroQRVersion-com.aspose.barcode.generation.MicroQRVersion-) | Version of MicroQR Code. |
@@ -93,6 +95,22 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 
 **Returns:**
 int
+### getEncodeGS1SeparatorInByteMode() {#getEncodeGS1SeparatorInByteMode--}
+```
+public final boolean getEncodeGS1SeparatorInByteMode()
+```
+
+
+Gets or sets a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes.
+
+If false, GS1 separators may be encoded as '%' in Alphanumeric mode according to QR specification.
+
+If true, GS1 group separators are encoded in Byte mode as the 0x1D character, and '%' characters are also encoded in Byte mode to preserve them as data.
+
+This option may improve compatibility with decoders that expect byte-level GS1 group separators and prevents '%' data characters from being interpreted as GS1 separators.
+
+**Returns:**
+boolean - a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes.
 ### getEncodeMode() {#getEncodeMode--}
 ```
 public final QREncodeMode getEncodeMode()
@@ -254,6 +272,25 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setEncodeGS1SeparatorInByteMode(boolean value) {#setEncodeGS1SeparatorInByteMode-boolean-}
+```
+public final void setEncodeGS1SeparatorInByteMode(boolean value)
+```
+
+
+Gets or sets a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes.
+
+If false, GS1 separators may be encoded as '%' in Alphanumeric mode according to QR specification.
+
+If true, GS1 group separators are encoded in Byte mode as the 0x1D character, and '%' characters are also encoded in Byte mode to preserve them as data.
+
+This option may improve compatibility with decoders that expect byte-level GS1 group separators and prevents '%' data characters from being interpreted as GS1 separators.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes. |
 
 ### setEncodeMode(QREncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.QREncodeMode-}
 ```

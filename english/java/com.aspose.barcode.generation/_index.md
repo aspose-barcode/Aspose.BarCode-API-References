@@ -67,7 +67,7 @@ This package contains tools for generating barcode.
 | [Pdf417Parameters](../com.aspose.barcode.generation/pdf417parameters) | PDF417 parameters. |
 | [PdfParameters](../com.aspose.barcode.generation/pdfparameters) | PDF parameters. |
 | [PostalParameters](../com.aspose.barcode.generation/postalparameters) | Postal parameters. |
-| [QrExtCodetextBuilder](../com.aspose.barcode.generation/qrextcodetextbuilder) | Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QrEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. |
+| [QrExtCodetextBuilder](../com.aspose.barcode.generation/qrextcodetextbuilder) |  |
 | [QrParameters](../com.aspose.barcode.generation/qrparameters) | QR parameters. |
 | [QrStructuredAppendParameters](../com.aspose.barcode.generation/qrstructuredappendparameters) | QR structured append parameters. |
 | [SupplementParameters](../com.aspose.barcode.generation/supplementparameters) | Supplement parameters. |
@@ -119,6 +119,7 @@ This package contains tools for generating barcode.
 | [QREncodeType](../com.aspose.barcode.generation/qrencodetype) | QR / MicroQR selector mode. |
 | [QRErrorLevel](../com.aspose.barcode.generation/qrerrorlevel) | Level of Reed-Solomon error correction. |
 | [QRVersion](../com.aspose.barcode.generation/qrversion) | Version of QR Code. |
+| [QrExtCompactionMode](../com.aspose.barcode.generation/qrextcompactionmode) | Specifies QR compaction mode for codetext added by QrExtCodetextBuilder. |
 | [RectMicroQRVersion](../com.aspose.barcode.generation/rectmicroqrversion) | Version of RectMicroQR Code. |
 | [StringAlignment](../com.aspose.barcode.generation/stringalignment) |  |
 | [SvgColorMode](../com.aspose.barcode.generation/svgcolormode) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. |

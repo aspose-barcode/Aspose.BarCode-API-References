@@ -3,7 +3,7 @@ title: SvgColorMode
 second_title: Aspose.BarCode for Java API Reference
 description: Possible modes for filling color in svg file RGB is default and supported by SVG 1.1.
 type: docs
-weight: 107
+weight: 108
 url: /java/com.aspose.barcode.generation/svgcolormode/
 ---
 **Inheritance:**
