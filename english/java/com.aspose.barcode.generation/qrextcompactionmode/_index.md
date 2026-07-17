@@ -1,26 +1,27 @@
 ---
-title: TwoDComponentType
+title: QrExtCompactionMode
 second_title: Aspose.BarCode for Java API Reference
-description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
+description: Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 type: docs
-weight: 110
-url: /java/com.aspose.barcode.generation/twodcomponenttype/
+weight: 105
+url: /java/com.aspose.barcode.generation/qrextcompactionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum TwoDComponentType extends Enum<TwoDComponentType>
+public enum QrExtCompactionMode extends Enum<QrExtCompactionMode>
 ```
 
-Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' `String codetext = "(01)03212345678906/(21)A1B2C3D4E5F6G7H8"; BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext); generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128); generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A); // Aspect ratio of 2D component generator.getParameters().getBarcode().getPdf417().setAspectRatio(3); // X-Dimension of 1D and 2D components generator.getParameters().getBarcode().getXDimension().setPixels(3); // Height of 1D component generator.getParameters().getBarcode().getBarHeight().setPixels(100); generator.save("test.png");`
+Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Auto select type of 2D component |
-| [CC_A](#CC-A) | CC-A type of 2D component. |
-| [CC_B](#CC-B) | CC-B type of 2D component. |
-| [CC_C](#CC-C) | CC-C type of 2D component. |
+| [ALPHA_NUMERIC](#ALPHA-NUMERIC) | Encodes codetext in QR Alphanumeric mode. |
+| [AUTO](#AUTO) | The encoder selects the most efficient QR compaction mode automatically. |
+| [BYTES](#BYTES) | Encodes codetext in QR Byte mode. |
+| [KANJI](#KANJI) | Encodes codetext in QR Kanji mode. |
+| [NUMERIC](#NUMERIC) | Encodes codetext in QR Numeric mode. |
 ## Methods
 
 | Method | Description |
@@ -42,37 +43,45 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ALPHA_NUMERIC {#ALPHA-NUMERIC}
+```
+public static final QrExtCompactionMode ALPHA_NUMERIC
+```
+
+
+Encodes codetext in QR Alphanumeric mode.
+
 ### AUTO {#AUTO}
 ```
-public static final TwoDComponentType AUTO
+public static final QrExtCompactionMode AUTO
 ```
 
 
-Auto select type of 2D component
+The encoder selects the most efficient QR compaction mode automatically.
 
-### CC_A {#CC-A}
+### BYTES {#BYTES}
 ```
-public static final TwoDComponentType CC_A
-```
-
-
-CC-A type of 2D component. It is a structural variant of MicroPDF417
-
-### CC_B {#CC-B}
-```
-public static final TwoDComponentType CC_B
+public static final QrExtCompactionMode BYTES
 ```
 
 
-CC-B type of 2D component. It is a MicroPDF417 symbol.
+Encodes codetext in QR Byte mode.
 
-### CC_C {#CC-C}
+### KANJI {#KANJI}
 ```
-public static final TwoDComponentType CC_C
+public static final QrExtCompactionMode KANJI
 ```
 
 
-CC-C type of 2D component. It is a PDF417 symbol.
+Encodes codetext in QR Kanji mode.
+
+### NUMERIC {#NUMERIC}
+```
+public static final QrExtCompactionMode NUMERIC
+```
+
+
+Encodes codetext in QR Numeric mode. Only digits 0-9 are allowed.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -208,7 +217,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static TwoDComponentType valueOf(String name)
+public static QrExtCompactionMode valueOf(String name)
 ```
 
 
@@ -220,17 +229,17 @@ public static TwoDComponentType valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
+[QrExtCompactionMode](../../com.aspose.barcode.generation/qrextcompactionmode)
 ### values() {#values--}
 ```
-public static TwoDComponentType[] values()
+public static QrExtCompactionMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.generation.TwoDComponentType[]
+com.aspose.barcode.generation.QrExtCompactionMode[]
 ### wait() {#wait--}
 ```
 public final void wait()
