@@ -322,21 +322,6 @@ This sample shows how to create and save a GS1 Composite Bar image. Note that 1D
 
 ```
 
- [C#]
-   var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
- 	  using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
- 	  {
-       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
-       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
-       // Aspect ratio of 2D component
-       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
-       // X-Dimension of 1D and 2D components
-       generator.Parameters.Barcode.XDimension.Pixels = 3;
-       // Height of 1D component
-       generator.Parameters.Barcode.BarHeight.Pixels = 100;
-       generator.Save("test.png");
-   }
- 	
 ```
 
 **Returns:**
@@ -463,7 +448,7 @@ x-dimension is the smallest width of the unit of BarCode bars or spaces. Increas
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -627,21 +612,18 @@ This sample shows how to create and save a GS1 Composite Bar image. Note that 1D
 
 ```
 
- [C#]
-   var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
- 	  using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
- 	  {
-       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
-       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
-       // Aspect ratio of 2D component
-       generator.Parameters.Barcode.Pdf417.AspectRatio = 3;
-       // X-Dimension of 1D and 2D components
-       generator.Parameters.Barcode.XDimension.Pixels = 3;
-       // Height of 1D component
-       generator.Parameters.Barcode.BarHeight.Pixels = 100;
-       generator.Save("test.png");
-   }
- 	
+ String codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext);
+ generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128);
+ generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A);
+ // Aspect ratio of 2D component
+ generator.getParameters().getBarcode().getPdf417().setAspectRatio(3);
+ // X-Dimension of 1D and 2D components
+ generator.getParameters().getBarcode().getXDimension().setPixels(3);
+ // Height of 1D component
+ generator.getParameters().getBarcode().getBarHeight().setPixels(100);
+ generator.save("test.png");
+ 
 ```
 
 **Parameters:**

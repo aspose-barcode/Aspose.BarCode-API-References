@@ -20,24 +20,21 @@ This sample shows how to use FNC1 first position in Extended Mode.
 
 ```
 
- [C#]
  //create codetext
- QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
- TextBuilder.AddFNC1FirstPosition();
- TextBuilder.AddPlainCodetext("000%89%%0");
- TextBuilder.AddFNC1GroupSeparator();
- TextBuilder.AddPlainCodetext("12345<FNC1>");
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addFNC1FirstPosition();
+ textBuilder.addPlainCodetext("000%89%%0");
+ textBuilder.addFNC1GroupSeparator();
+ textBuilder.addPlainCodetext("12345<FNC1>");
  //generate codetext
- String codetext = TextBuilder.GetExtendedCodetext();
+ String codetext = textBuilder.getExtendedCodetext();
  //generate
- using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
- {
-     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
-     generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
- 	generator.CodeText = codetext;
-     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
- 	generator.Save("test.bmp");
- }
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+ generator.getParameters().getBarcode().getQR().setErrorLevel(QRErrorLevel.LEVEL_L);
+ generator.setCodeText(codetext);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+ generator.save("test.bmp");
  
 ```
 
@@ -45,22 +42,19 @@ This sample shows how to use FNC1 second position in Extended Mode.
 
 ```
 
- [C#]
  //create codetext
- QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
- TextBuilder.AddFNC1SecondPosition("12");
- TextBuilder.AddPlainCodetext("TRUE3456");
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addFNC1SecondPosition("12");
+ textBuilder.addPlainCodetext("TRUE3456");
  //generate codetext
- String codetext = TextBuilder.GetExtendedCodetext();
+ String codetext = textBuilder.getExtendedCodetext();
  //generate
- using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
- {
-     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
-     generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
- 	generator.CodeText = codetext;
-     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
- 	generator.Save("test.bmp");
- }
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+ generator.getParameters().getBarcode().getQR().setErrorLevel(QRErrorLevel.LEVEL_L);
+ generator.setCodeText(codetext);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+ generator.save("test.bmp");
  
 ```
 
@@ -68,26 +62,23 @@ This sample shows how to use multi ECI mode in Extended Mode.
 
 ```
 
- [C#]
  //create codetext
- QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
- TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
- TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
- TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
- TextBuilder.AddPlainCodetext(@"t\e\\st");
- TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
- TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addECICodetext(ECIEncodings.WIN_1251, "Will");
+ textBuilder.addECICodetext(ECIEncodings.UTF_8, "Right");
+ textBuilder.addECICodetext(ECIEncodings.UTF_16_BE, "Power");
+ textBuilder.addPlainCodetext("t\\e\\\\st");
+ textBuilder.addCodetextWithCompactionMode(QrExtCompactionMode.ALPHA_NUMERIC, "ASPOSE2001");
+ textBuilder.addCodetextWithCompactionMode(QrExtCompactionMode.NUMERIC, "20012026");
  //generate codetext
- String codetext = TextBuilder.GetExtendedCodetext();
+ String codetext = textBuilder.getExtendedCodetext();
  //generate
- using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
- {
-     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
-     generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
- 	generator.CodeText = codetext;
-     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
- 	generator.Save("test.bmp");
- }
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED_CODETEXT);
+ generator.getParameters().getBarcode().getQR().setErrorLevel(QRErrorLevel.LEVEL_L);
+ generator.setCodeText(codetext);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+ generator.save("test.bmp");
  
 ```
 ## Constructors
