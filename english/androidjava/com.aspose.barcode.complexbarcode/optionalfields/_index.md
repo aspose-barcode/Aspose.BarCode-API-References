@@ -63,6 +63,7 @@ Optional elements (fields) of the card
 | [setCardRevisionDate(LocalDate value)](#setCardRevisionDate-java.time.LocalDate-) | DDB, DHS required field that indicates date of the most recent version change or modification to the visible format of the DL/ID. |
 | [setComplianceType(String value)](#setComplianceType-java.lang.String-) | DDA, DHS required field that indicates compliance: \\u201cF\\u201d = compliant; and, \\u201cN\\u201d = non-compliant, DL/ID, F1A |
 | [setEndorsementCodeDescription(String value)](#setEndorsementCodeDescription-java.lang.String-) | DCQ, Text that explains the jurisdiction-specific code(s) that indicates additional driving privileges granted to the cardholder beyond the vehicle class, DL, V50ANS |
+| [setHAZMATEndorsementExpDate(LocalDate value)](#setHAZMATEndorsementExpDate-java.time.LocalDate-) | DDC, Date on which the hazardous material endorsement granted by the document is no longer valid. |
 | [setHairColor(USADriveIdHairColor value)](#setHairColor-com.aspose.barcode.complexbarcode.USADriveIdHairColor-) | DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. |
 | [setInventoryControlNumber(String value)](#setInventoryControlNumber-java.lang.String-) | DCK, A string of letters and/or numbers that is affixed to the raw materials(card stock, laminate, etc.) used in producing driver licenses and ID cards. |
 | [setLimitedDurationDocIndicator(String value)](#setLimitedDurationDocIndicator-java.lang.String-) | DDD, DHS required field that indicates that the cardholder has temporary lawful status = \\u201c1\\u201d, DL/ID, F1N |
@@ -526,6 +527,19 @@ DCQ, Text that explains the jurisdiction-specific code(s) that indicates additio
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setHAZMATEndorsementExpDate(LocalDate value) {#setHAZMATEndorsementExpDate-java.time.LocalDate-}
+```
+public final void setHAZMATEndorsementExpDate(LocalDate value)
+```
+
+
+DDC, Date on which the hazardous material endorsement granted by the document is no longer valid. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL, F8N
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.time.LocalDate |  |
 
 ### setHairColor(USADriveIdHairColor value) {#setHairColor-com.aspose.barcode.complexbarcode.USADriveIdHairColor-}
 ```

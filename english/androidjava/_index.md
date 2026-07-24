@@ -15,4 +15,5 @@ is_root: true
 | [com.aspose.barcode.component.barcodescanner](./com.aspose.barcode.component.barcodescanner) |  |
 | [com.aspose.barcode.component.barcodescanner.recognitionareaview](./com.aspose.barcode.component.barcodescanner.recognitionareaview) |  |
 | [com.aspose.barcode.generation](./com.aspose.barcode.generation) | This package contains tools for generating barcode. |
+| [com.aspose.barcode.generation.renderers.barcoderenderers.encoders.parameters](./com.aspose.barcode.generation.renderers.barcoderenderers.encoders.parameters) |  |
 | [com.aspose.barcode.metered](./com.aspose.barcode.metered) | This package provides the functionality related to metered billing service. |
