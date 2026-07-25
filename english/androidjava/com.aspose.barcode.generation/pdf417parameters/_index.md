@@ -18,17 +18,17 @@ These samples show how to encode UCC/EAN-128 non Linked modes in GS1MicroPdf417
 
 ```
 
- [C#]
  //Encodes GS1 UCC/EAN-128 non Linked mode 905 with AI 01 (GTIN)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(01)12345678901231");
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(01)12345678901231");
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText());
+
  //Encodes GS1 UCC/EAN-128 non Linked modes 903, 904 with any AI
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(241)123456789012345(241)ABCD123456789012345");
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(241)123456789012345(241)ABCD123456789012345");
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText());
  
 ```
 ## Methods
@@ -207,19 +207,19 @@ These samples show how to encode Macro Characters in MicroPdf417
 
 ```
 
- [C#]
  //Encodes MicroPdf417 with 05 Macro the string: "[)>05abcde1234"
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
- generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro05;
-     using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-       foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+ generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_05);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText());
+
  //Encodes MicroPdf417 with 06 Macro the string: "[)>06abcde1234"
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
- generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro06;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "abcde1234");
+ generator.getParameters().getBarcode().getPdf417().setMacroCharacters(MacroCharacter.MACRO_06);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText());
  
 ```
 
@@ -537,25 +537,26 @@ These samples show how to encode Code 128 emulation modes with FNC1 in second po
 
 ```
 
- [C#]
  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "a", mode 908.
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "a1222322323");
- generator.Parameters.Barcode.Pdf417.IsCode128Emulation = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsCode128Emulation:" + result.Extended.Pdf417.IsCode128Emulation.ToString());
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "a1222322323");
+ generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsCode128Emulation:" + result.getExtended().getPdf417().isCode128Emulation());
+
  //Encodes MicroPdf417 in Code 128 emulation mode with FNC1 in second position and Application Indicator "99", mode 909.
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "991222322323");
- generator.Parameters.Barcode.Pdf417.IsCode128Emulation = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsCode128Emulation:" + result.Extended.Pdf417.IsCode128Emulation.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "991222322323");
+ generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsCode128Emulation:" + result.getExtended().getPdf417().isCode128Emulation());
+
  //Encodes MicroPdf417 in Code 128 emulation mode, modes 910, 911
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "123456789012345678");
- generator.Parameters.Barcode.Pdf417.IsCode128Emulation = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsCode128Emulation:" + result.Extended.Pdf417.IsCode128Emulation.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "123456789012345678");
+ generator.getParameters().getBarcode().getPdf417().setCode128Emulation(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsCode128Emulation:" + result.getExtended().getPdf417().isCode128Emulation());
  
 ```
 
@@ -573,62 +574,6 @@ These samples show how to encode "Linked" UCC/EAN-128 modes in GS1MicroPdf417 an
 
 ```
 
- [C#]
- //Encodes GS1 Linked mode 912 with date field AI 11 (Production date) and AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(11)991231(10)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked mode 912 with date field AI 13 (Packaging date) and AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(13)991231(21)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked mode 912 with date field AI 15 (Sell-by date) and AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(15)991231(10)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked mode 912 with date field AI 17 (Expiration date) and AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(17)991231(21)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked mode 914 with AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(10)ABCD12345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked mode 915 with AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(21)ABCD12345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes GS1 Linked modes 906, 907 with any AI
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(240)123456789012345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes MicroPdf417 NON EAN.UCC Linked mode 918
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "ABCDE123456789012345678");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- //Encodes Pdf417 NON EAN.UCC Linked mode 918
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "ABCDE123456789012345678");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.Pdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
- 
 ```
 
 **Returns:**
@@ -775,61 +720,68 @@ These samples show how to encode "Linked" UCC/EAN-128 modes in GS1MicroPdf417 an
 
 ```
 
- [C#]
  //Encodes GS1 Linked mode 912 with date field AI 11 (Production date) and AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(11)991231(10)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(11)991231(10)ABCD");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ BarCodeReader reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked mode 912 with date field AI 13 (Packaging date) and AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(13)991231(21)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(13)991231(21)ABCD");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked mode 912 with date field AI 15 (Sell-by date) and AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(15)991231(10)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(15)991231(10)ABCD");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked mode 912 with date field AI 17 (Expiration date) and AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(17)991231(21)ABCD");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(17)991231(21)ABCD");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked mode 914 with AI 10 (Lot number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(10)ABCD12345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(10)ABCD12345");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked mode 915 with AI 21 (Serial number)
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(21)ABCD12345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(21)ABCD12345");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes GS1 Linked modes 906, 907 with any AI
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS1MicroPdf417, "(240)123456789012345");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.GS_1_MICRO_PDF_417, "(240)123456789012345");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.GS_1_MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes MicroPdf417 NON EAN.UCC Linked mode 918
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "ABCDE123456789012345678");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.MICRO_PDF_417, "ABCDE123456789012345678");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.MICRO_PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
+
  //Encodes Pdf417 NON EAN.UCC Linked mode 918
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Pdf417, "ABCDE123456789012345678");
- generator.Parameters.Barcode.Pdf417.IsLinked = true;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.Pdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText + " IsLinked:" + result.Extended.Pdf417.IsLinked.ToString());
+ generator = new BarcodeGenerator(EncodeTypes.PDF_417, "ABCDE123456789012345678");
+ generator.getParameters().getBarcode().getPdf417().setLinked(true);
+ reader = new BarCodeReader(generator.generateBarCodeImage(), DecodeType.PDF_417);
+ for (BarCodeResult result : reader.readBarCodes())
+     System.out.println(result.getCodeText() + " IsLinked:" + result.getExtended().getPdf417().isLinked());
  
 ```
 
@@ -850,20 +802,6 @@ These samples show how to encode Macro Characters in MicroPdf417
 
 ```
 
- [C#]
- //Encodes MicroPdf417 with 05 Macro the string: "[)>05abcde1234"
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
- generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro05;
-     using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-       foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
- //Encodes MicroPdf417 with 06 Macro the string: "[)>06abcde1234"
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
- generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro06;
- using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
-     foreach (BarCodeResult result in reader.ReadBarCodes())
-         Console.WriteLine(result.CodeText);
- 
 ```
 
 **Parameters:**

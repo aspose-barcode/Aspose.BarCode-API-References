@@ -1,36 +1,27 @@
 ---
-title: ComplexBackgroundMode
+title: QrExtCompactionMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: 
+description: Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 type: docs
-weight: 52
-url: /androidjava/com.aspose.barcode.barcoderecognition/complexbackgroundmode/
+weight: 106
+url: /androidjava/com.aspose.barcode.generation/qrextcompactionmode/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Enum
 ```
-public enum ComplexBackgroundMode extends Enum<ComplexBackgroundMode>
+public enum QrExtCompactionMode extends Enum<QrExtCompactionMode>
 ```
 
-Mode which enables or disables additional recognition of color barcodes on color images.
-
---------------------
-
-> ```
-> This sample shows how to use ComplexBackground mode
->   
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
->   reader.getQualitySettings().setComplexBackground(ComplexBackgroundMode.ENABLED);
->   for(BarCodeResult result : reader.readBarCodes())
->      System.out.println(result.getCodeText());
-> ```
+Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | At this time the same as Disabled. |
-| [DISABLED](#DISABLED) | Disables additional recognition of color barcodes on color images. |
-| [ENABLED](#ENABLED) | Enables additional recognition of color barcodes on color images. |
+| [ALPHA_NUMERIC](#ALPHA-NUMERIC) | Encodes codetext in QR Alphanumeric mode. |
+| [AUTO](#AUTO) | The encoder selects the most efficient QR compaction mode automatically. |
+| [BYTES](#BYTES) | Encodes codetext in QR Byte mode. |
+| [KANJI](#KANJI) | Encodes codetext in QR Kanji mode. |
+| [NUMERIC](#NUMERIC) | Encodes codetext in QR Numeric mode. |
 ## Methods
 
 | Method | Description |
@@ -39,7 +30,6 @@ Mode which enables or disables additional recognition of color barcodes on color
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -54,29 +44,45 @@ Mode which enables or disables additional recognition of color barcodes on color
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ALPHA_NUMERIC {#ALPHA-NUMERIC}
+```
+public static final QrExtCompactionMode ALPHA_NUMERIC
+```
+
+
+Encodes codetext in QR Alphanumeric mode.
+
 ### AUTO {#AUTO}
 ```
-public static final ComplexBackgroundMode AUTO
+public static final QrExtCompactionMode AUTO
 ```
 
 
-At this time the same as Disabled. Disables additional recognition of color barcodes on color images.
+The encoder selects the most efficient QR compaction mode automatically.
 
-### DISABLED {#DISABLED}
+### BYTES {#BYTES}
 ```
-public static final ComplexBackgroundMode DISABLED
-```
-
-
-Disables additional recognition of color barcodes on color images.
-
-### ENABLED {#ENABLED}
-```
-public static final ComplexBackgroundMode ENABLED
+public static final QrExtCompactionMode BYTES
 ```
 
 
-Enables additional recognition of color barcodes on color images.
+Encodes codetext in QR Byte mode.
+
+### KANJI {#KANJI}
+```
+public static final QrExtCompactionMode KANJI
+```
+
+
+Encodes codetext in QR Kanji mode.
+
+### NUMERIC {#NUMERIC}
+```
+public static final QrExtCompactionMode NUMERIC
+```
+
+
+Encodes codetext in QR Numeric mode. Only digits 0-9 are allowed.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -134,21 +140,6 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### fromValue(int value) {#fromValue-int-}
-```
-public static ComplexBackgroundMode fromValue(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-**Returns:**
-[ComplexBackgroundMode](../../com.aspose.barcode.barcoderecognition/complexbackgroundmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -237,7 +228,7 @@ public String toString()
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static ComplexBackgroundMode valueOf(String name)
+public static QrExtCompactionMode valueOf(String name)
 ```
 
 
@@ -249,17 +240,17 @@ public static ComplexBackgroundMode valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[ComplexBackgroundMode](../../com.aspose.barcode.barcoderecognition/complexbackgroundmode)
+[QrExtCompactionMode](../../com.aspose.barcode.generation/qrextcompactionmode)
 ### values() {#values--}
 ```
-public static ComplexBackgroundMode[] values()
+public static QrExtCompactionMode[] values()
 ```
 
 
 
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.ComplexBackgroundMode[]
+com.aspose.barcode.generation.QrExtCompactionMode[]
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -50,7 +50,6 @@ Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing
 | [getClass()](#getClass--) |  |
 | [getExtendedCodetext()](#getExtendedCodetext--) | Generates Extended codetext from the extended codetext list. |
 | [hashCode()](#hashCode--) |  |
-| [isNeedToShieldItemFromPrevECI(int Index)](#isNeedToShieldItemFromPrevECI-int-) | Checks necessity to shield previous item by "\\000000" |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -65,7 +64,7 @@ public AztecExtCodetextBuilder()
 
 ### addECICodetext(int ECIEncoding, String codetext) {#addECICodetext-int-java.lang.String-}
 ```
-public void addECICodetext(int ECIEncoding, String codetext)
+public final void addECICodetext(int ECIEncoding, String codetext)
 ```
 
 
@@ -79,7 +78,7 @@ Adds codetext with Extended Channel Identifier
 
 ### addPlainCodetext(String codetext) {#addPlainCodetext-java.lang.String-}
 ```
-public void addPlainCodetext(String codetext)
+public final void addPlainCodetext(String codetext)
 ```
 
 
@@ -143,21 +142,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isNeedToShieldItemFromPrevECI(int Index) {#isNeedToShieldItemFromPrevECI-int-}
-```
-public boolean isNeedToShieldItemFromPrevECI(int Index)
-```
-
-
-Checks necessity to shield previous item by "\\000000"
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| Index | int | Index in m\_List |
-
-**Returns:**
-boolean - Necessity to shield
 ### notify() {#notify--}
 ```
 public final native void notify()
