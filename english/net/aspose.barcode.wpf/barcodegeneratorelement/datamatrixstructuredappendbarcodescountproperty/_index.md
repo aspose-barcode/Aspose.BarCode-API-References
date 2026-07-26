@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DataMatrixStructuredAppendBarcodesCountProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DataMatrixStructuredAppendBarcodesCountProperty
 type: docs
-weight: 2130
+weight: 2110
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixstructuredappendbarcodescountproperty/
 ---
 ## BarcodeGeneratorElement.DataMatrixStructuredAppendBarcodesCountProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.MaxiCodeStructuredAppendModeBarcodeCountProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. MaxiCodeStructuredAppendModeBarcodeCountProperty
 type: docs
-weight: 2410
+weight: 2380
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/maxicodestructuredappendmodebarcodecountproperty/
 ---
 ## BarcodeGeneratorElement.MaxiCodeStructuredAppendModeBarcodeCountProperty field

@@ -3,7 +3,7 @@ title: QRExtendedParameters.StructuredAppendModeBarCodeIndex
 second_title: Aspose.BarCode for .NET API Reference
 description: QRExtendedParameters property. Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is 1
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/
 ---
 ## QRExtendedParameters.StructuredAppendModeBarCodeIndex property

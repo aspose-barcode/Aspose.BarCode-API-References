@@ -3,7 +3,7 @@ title: DataMatrixParametersUI.StructuredAppendBarcodeId
 second_title: Aspose.BarCode for .NET API Reference
 description: DataMatrixParametersUI property. Barcode ID for Structured Append mode
 type: docs
-weight: 120
+weight: 70
 url: /net/aspose.barcode.windows.forms/datamatrixparametersui/structuredappendbarcodeid/
 ---
 ## DataMatrixParametersUI.StructuredAppendBarcodeId property

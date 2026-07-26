@@ -60,8 +60,7 @@ public class BarCodeReader : Component
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
 | [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype)(BaseDecodeType) | Sets decode type for recognition. Deprecated. Use [`BarCodeReadType`](./barcodereadtype/) property instead. |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/#setbarcodereadtype_1)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method. |
 
 ## Examples
 

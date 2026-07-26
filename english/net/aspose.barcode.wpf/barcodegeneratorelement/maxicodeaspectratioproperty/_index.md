@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.MaxiCodeAspectRatioProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. MaxiCodeAspectRatioProperty
 type: docs
-weight: 2380
+weight: 2350
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/maxicodeaspectratioproperty/
 ---
 ## BarcodeGeneratorElement.MaxiCodeAspectRatioProperty field

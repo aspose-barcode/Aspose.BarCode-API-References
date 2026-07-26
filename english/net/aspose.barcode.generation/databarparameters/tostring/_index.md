@@ -3,7 +3,7 @@ title: DataBarParameters.ToString
 second_title: Aspose.BarCode for .NET API Reference
 description: DataBarParameters method. Returns a humanreadable string representation of this DataBarParameters
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.barcode.generation/databarparameters/tostring/
 ---
 ## DataBarParameters.ToString method

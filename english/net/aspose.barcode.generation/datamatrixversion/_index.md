@@ -3,7 +3,7 @@ title: Enum DataMatrixVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixVersion enum. Specify the type of the ECC to encode
 type: docs
-weight: 1150
+weight: 1130
 url: /net/aspose.barcode.generation/datamatrixversion/
 ---
 ## DataMatrixVersion enumeration
@@ -19,7 +19,6 @@ public enum DataMatrixVersion
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | Specifies to automatically pick up the smallest size for DataMatrix. This is default value. |
-| RowsColumns | `1` | Instructs to get symbol sizes from Rows And Columns parameters. Note that DataMatrix does not support custom rows and columns numbers. This option is not recommended to use. |
 | ECC000_9x9 | `2` | Specifies size of 9 x 9 modules for ECC000 type. |
 | ECC000_050_11x11 | `3` | Specifies size of 11 x 11 modules for ECC000-ECC050 types. |
 | ECC000_100_13x13 | `4` | Specifies size of 13 x 13 modules for ECC000-ECC100 types. |

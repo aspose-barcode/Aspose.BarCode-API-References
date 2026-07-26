@@ -3,7 +3,7 @@ title: MaxiCodeCodetext.GetConstructedCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: MaxiCodeCodetext method. Constructs codetext
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.barcode.complexbarcode/maxicodecodetext/getconstructedcodetext/
 ---
 ## MaxiCodeCodetext.GetConstructedCodetext method
