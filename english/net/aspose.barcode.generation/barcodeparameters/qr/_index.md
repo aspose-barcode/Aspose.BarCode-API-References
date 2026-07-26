@@ -3,7 +3,7 @@ title: BarcodeParameters.QR
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. QR MicroQR and RectMicroQR parameters
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.barcode.generation/barcodeparameters/qr/
 ---
 ## BarcodeParameters.QR property

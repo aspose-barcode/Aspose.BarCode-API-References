@@ -3,7 +3,7 @@ title: Enum USADriveIdEyeColor
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdEyeColor enum. Enum for Eye Color in the US Drivers License
 type: docs
-weight: 780
+weight: 760
 url: /net/aspose.barcode.complexbarcode/usadriveideyecolor/
 ---
 ## USADriveIdEyeColor enumeration

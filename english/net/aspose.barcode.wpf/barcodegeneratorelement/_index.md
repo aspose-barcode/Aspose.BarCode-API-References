@@ -3,7 +3,7 @@ title: Class BarcodeGeneratorElement
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.WPF.BarcodeGeneratorElement class. BarCodeGeneratorControl is a WPF control that can be used in a WPF window or page
 type: docs
-weight: 1700
+weight: 1660
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/
 ---
 ## BarcodeGeneratorElement class
@@ -104,7 +104,6 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [DotCodeRows](../../aspose.barcode.wpf/barcodegeneratorelement/dotcoderows/) { get; set; } | DotCode rows count |
 | [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodeid/) { get; set; } | Barcode ID for DotCode structured append mode |
 | [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodescount/) { get; set; } | Barcodes count for DotCode structured append mode |
-| [EnableEscape](../../aspose.barcode.wpf/barcodegeneratorelement/enableescape/) { get; set; } | EnableEscape is deprecated and ignored. Process escape sequences explicitly (e.g., Regex.Unescape). This property will be removed in future releases. |
 | [EncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/encodetype/) { get; set; } | BarCode's encode type (symbology). |
 | [FilledBars](../../aspose.barcode.wpf/barcodegeneratorelement/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. |
 | [GS1CompositeBarAllowOnlyGS1Encoding](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarallowonlygs1encoding/) { get; set; } | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
@@ -129,7 +128,6 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [PatchCodePatchFormat](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformat/) { get; set; } | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. |
 | [Pdf417AspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417aspectratio/) { get; set; } | Aspect ratio. |
 | [Pdf417Columns](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417columns/) { get; set; } | Columns count. |
-| [Pdf417CompactionMode](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmode/) { get; set; } | Compaction mode. |
 | [Pdf417ECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencoding/) { get; set; } | ECI encoding. |
 | [Pdf417EncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417encodemode/) { get; set; } | Encode mode. |
 | [Pdf417ErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevel/) { get; set; } | Error level. |
@@ -153,8 +151,8 @@ public class BarcodeGeneratorElement : FrameworkElement
 | [PostalShortBarHeight](../../aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheight/) { get; set; } | Postal short bar height in pixels. |
 | [QRAspectRatio](../../aspose.barcode.wpf/barcodegeneratorelement/qraspectratio/) { get; set; } | Aspect ratio. |
 | [QRECIEncoding](../../aspose.barcode.wpf/barcodegeneratorelement/qreciencoding/) { get; set; } | ECI encoding. |
+| [QREncodeGS1SeparatorInByteMode](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodegs1separatorinbytemode/) { get; set; } | Gets or sets a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes. |
 | [QREncodeMode](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodemode/) { get; set; } | Encode mode. |
-| [QREncodeType](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodetype/) { get; set; } | Encode type. |
 | [QRErrorLevel](../../aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevel/) { get; set; } | Error level. |
 | [QRVersion](../../aspose.barcode.wpf/barcodegeneratorelement/qrversion/) { get; set; } | QR version. |
 | [RectMicroQRVersion](../../aspose.barcode.wpf/barcodegeneratorelement/rectmicroqrversion/) { get; set; } | RectMicroQR version. |
@@ -256,7 +254,6 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [DotCodeRowsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcoderowsproperty/) | DotCodeRowsProperty |
 | static [DotCodeStructuredAppendModeBarcodeIdProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodeidproperty/) | DotCodeStructuredAppendModeBarcodeIdProperty |
 | static [DotCodeStructuredAppendModeBarcodesCountProperty](../../aspose.barcode.wpf/barcodegeneratorelement/dotcodestructuredappendmodebarcodescountproperty/) | DotCodeStructuredAppendModeBarcodesCountProperty |
-| static readonly [EnableEscapeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/enableescapeproperty/) | EnableEscapeProperty |
 | static [EncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/encodetypeproperty/) | EncodeTypeProperty |
 | static [FilledBarsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/filledbarsproperty/) | FilledBarsProperty |
 | static [GS1CompositeBarAllowOnlyGS1EncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarallowonlygs1encodingproperty/) | GS1CompositeBarAllowOnlyGS1EncodingProperty |
@@ -281,7 +278,6 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [PatchCodePatchFormatProperty](../../aspose.barcode.wpf/barcodegeneratorelement/patchcodepatchformatproperty/) | PatchCodePatchFormatProperty |
 | static [Pdf417AspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417aspectratioproperty/) | Pdf417AspectRatioProperty |
 | static [Pdf417ColumnsProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417columnsproperty/) | Pdf417ColumnsProperty |
-| static [Pdf417CompactionModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417compactionmodeproperty/) | Pdf417CompactionModeProperty |
 | static [Pdf417ECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417eciencodingproperty/) | Pdf417ECIEncodingProperty |
 | static [Pdf417EncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417encodemodeproperty/) | Pdf417EncodeModeProperty |
 | static [Pdf417ErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/pdf417errorlevelproperty/) | Pdf417ErrorLevelProperty |
@@ -305,8 +301,8 @@ public class BarcodeGeneratorElement : FrameworkElement
 | static [PostalShortBarHeightProperty](../../aspose.barcode.wpf/barcodegeneratorelement/postalshortbarheightproperty/) | PostalShortBarHeightProperty |
 | static [QRAspectRatioProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qraspectratioproperty/) | QRAspectRatioProperty |
 | static [QRECIEncodingProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qreciencodingproperty/) | QRECIEncodingProperty |
+| static [QREncodeGS1SeparatorInByteModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodegs1separatorinbytemodeproperty/) | QREncodeGS1SeparatorInByteModeProperty |
 | static [QREncodeModeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodemodeproperty/) | QREncodeModeProperty |
-| static [QREncodeTypeProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrencodetypeproperty/) | QREncodeTypeProperty |
 | static [QRErrorLevelProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrerrorlevelproperty/) | QRErrorLevelProperty |
 | static [QRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/qrversionproperty/) | QRVersionProperty |
 | static [RectMicroQRVersionProperty](../../aspose.barcode.wpf/barcodegeneratorelement/rectmicroqrversionproperty/) | RectMicroQRVersionProperty |

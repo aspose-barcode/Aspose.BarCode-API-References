@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextParametersAlignmentProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodeTextParametersAlignmentProperty
 type: docs
-weight: 1930
+weight: 1910
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersalignmentproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersAlignmentProperty field

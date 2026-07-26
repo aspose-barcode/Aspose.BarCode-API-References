@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AztecStructuredAppendBarcodeIdProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AztecStructuredAppendBarcodeIdProperty
 type: docs
-weight: 1530
+weight: 1510
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/aztecstructuredappendbarcodeidproperty/
 ---
 ## BarcodeGeneratorElement.AztecStructuredAppendBarcodeIdProperty field

@@ -3,7 +3,7 @@ title: QrParametersUI.MicroQrVersion
 second_title: Aspose.BarCode for .NET API Reference
 description: QrParametersUI property. Version of MicroQR Code. From version M1 to version M4. Default value is MicroQRVersion.Auto
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.barcode.windows.forms/qrparametersui/microqrversion/
 ---
 ## QrParametersUI.MicroQrVersion property

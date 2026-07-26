@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.CodeTextParametersNoWrapProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. CodeTextParametersNoWrapProperty
 type: docs
-weight: 1970
+weight: 1950
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/codetextparametersnowrapproperty/
 ---
 ## BarcodeGeneratorElement.CodeTextParametersNoWrapProperty field

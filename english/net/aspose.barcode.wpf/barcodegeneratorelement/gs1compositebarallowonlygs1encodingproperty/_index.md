@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.GS1CompositeBarAllowOnlyGS1EncodingProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. GS1CompositeBarAllowOnlyGS1EncodingProperty
 type: docs
-weight: 2270
+weight: 2240
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/gs1compositebarallowonlygs1encodingproperty/
 ---
 ## BarcodeGeneratorElement.GS1CompositeBarAllowOnlyGS1EncodingProperty field

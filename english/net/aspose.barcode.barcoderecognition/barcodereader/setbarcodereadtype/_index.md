@@ -6,7 +6,7 @@ type: docs
 weight: 130
 url: /net/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
 ---
-## SetBarCodeReadType(params SingleDecodeType[]) {#setbarcodereadtype_1}
+## BarCodeReader.SetBarCodeReadType method
 
 Sets [`SingleDecodeType`](../../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method.
 
@@ -48,28 +48,6 @@ End Using
 ### See Also
 
 * class [SingleDecodeType](../../singledecodetype/)
-* class [BarCodeReader](../)
-* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
-* assembly [Aspose.BarCode](../../../)
-
----
-
-## SetBarCodeReadType(BaseDecodeType) {#setbarcodereadtype}
-
-Sets decode type for recognition. Deprecated. Use [`BarCodeReadType`](../barcodereadtype/) property instead.
-
-```csharp
-[Obsolete("SetBarCodeReadType is deprecated. Use the BarCodeReadType property instead.")]
-public void SetBarCodeReadType(BaseDecodeType type)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | BaseDecodeType | The type of barcode to read. |
-
-### See Also
-
-* class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)

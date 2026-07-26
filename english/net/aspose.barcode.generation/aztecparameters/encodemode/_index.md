@@ -3,7 +3,7 @@ title: AztecParameters.EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: AztecParameters property. Gets or sets a Aztec encode mode. Default value Auto
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.barcode.generation/aztecparameters/encodemode/
 ---
 ## AztecParameters.EncodeMode property
