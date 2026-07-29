@@ -3,7 +3,7 @@ title: "MacroCharacter Enum"
 linktitle: "MacroCharacter"
 articleTitle: "MacroCharacter"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to \\"[)>\\u001E05\\u001D\\" as decoded data header and \\"\\u001E\\u0004\\" as decode"
+description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to \"[)>\\u001E05\\u001D\" as decoded data header and \"\\u001E\\u0004\" as decode"
 type: docs
 weight: 10
 url: /php/aspose/barcode/generation/macrocharacter/

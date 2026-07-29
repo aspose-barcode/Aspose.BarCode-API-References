@@ -3,7 +3,7 @@ title: "Aspose.Barcode.Recognition"
 linktitle: "Aspose.Barcode.Recognition"
 articleTitle: "Aspose.Barcode.Recognition"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "Provides classes and enums for configuring and performing barcode recognition, including settings for specific symbologies and result handling."
+description: "Provides classes and enums for configuring, reading, and interpreting various barcode types, including advanced settings and result handling."
 type: docs
 weight: 10
 url: /php/aspose/barcode/recognition/
@@ -11,13 +11,7 @@ url: /php/aspose/barcode/recognition/
 
 ## Aspose.Barcode.Recognition namespace
 
-The Aspose.Barcode.Recognition namespace supplies the core API for reading barcodes in PHP via Java, offering the BarCodeReader, result objects, and specialized parameter classes such as AustraliaPostSettings, AztecExtendedParameters, and CodabarExtendedParameters. These types enable fine‑tuned detection, extraction of decoded data, and integration of barcode recognition into your applications.
-
-
-The Aspose.Barcode.Recognition namespace groups all objects required to set up barcode recognition parameters, execute scans, and retrieve detailed results. It includes specialized settings for regional formats, extended parameters for specific symbologies, and the core BarCodeReader and BarCodeResult classes.
-
-
-The Aspose.Barcode.Recognition namespace groups all functionality needed to decode barcodes across a wide range of symbologies. It includes reader classes, configuration objects such as AustraliaPostSettings and AztecExtendedParameters, and result types for extracting decoded data in PHP via Java.
+The Aspose.Barcode.Recognition namespace groups all objects required to set up barcode recognition parameters, execute scans, and retrieve detailed results. It includes specialized settings for regional formats such as Australia Post, Aztec, Codabar, and extensible parameter classes for fine‑tuning the recognition engine.
 
 
 ## Classes

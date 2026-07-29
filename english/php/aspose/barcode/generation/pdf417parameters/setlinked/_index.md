@@ -3,7 +3,7 @@ title: "Pdf417Parameters.setLinked"
 linktitle: "setLinked"
 articleTitle: "setLinked"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \\"Linked\\" UCC/EAN-128 modes With MicroPdf417 and Pdf417 symb"
+description: "Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 \"Linked\" UCC/EAN-128 modes With MicroPdf417 and Pdf417 symb"
 type: docs
 weight: 10
 url: /php/aspose/barcode/generation/pdf417parameters/setlinked/
