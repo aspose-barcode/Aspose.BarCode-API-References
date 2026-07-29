@@ -1,0 +1,26 @@
+---
+title: "EnableChecksum Enum"
+linktitle: "EnableChecksum"
+articleTitle: "EnableChecksum"
+second_title: "Aspose.BarCode for PHP via Java"
+description: "Enable checksum during generation for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is p"
+type: docs
+weight: 10
+url: /php/aspose/barcode/generation/enablechecksum/
+---
+
+## EnableChecksum enum
+
+**Namespace:** `Aspose.Barcode.Generation`
+
+
+Enable checksum during generation for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies
+
+
+## Enum Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| [DEFAULT](/php/aspose/barcode/generation/enablechecksum/default/) | `0` | If checksum is required by the specification - it will be attached. |
+| [NO](/php/aspose/barcode/generation/enablechecksum/no/) | `2` | Do not use checksum. |
+| [YES](/php/aspose/barcode/generation/enablechecksum/yes/) | `1` | Always use checksum if possible. |

@@ -1,0 +1,18 @@
+---
+title: "HanXinVersion::VERSION_74"
+linktitle: "VERSION_74"
+articleTitle: "VERSION_74"
+second_title: "Aspose.BarCode for PHP via Java"
+description: "Specifies version 74 with 169 x 169 modules."
+type: docs
+weight: 10
+url: /php/aspose/barcode/generation/hanxinversion/version_74/
+---
+
+## HanXinVersion::VERSION_74 Enum Value
+
+**Value:** `74`
+
+
+Specifies version 74 with 169 x 169 modules.
+

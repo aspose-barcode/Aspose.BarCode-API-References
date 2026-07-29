@@ -1,0 +1,50 @@
+---
+title: "Mailmark2DCodetext Class"
+linktitle: "Mailmark2DCodetext"
+articleTitle: "Mailmark2DCodetext"
+second_title: "Aspose.BarCode for PHP via Java"
+description: "Class for encoding and decoding the text embedded in the Royal Mail 2D Mailmark code."
+type: docs
+weight: 10
+url: /php/aspose/barcode/complexbarcode/mailmark2dcodetext/
+---
+
+## Mailmark2DCodetext class
+
+**Namespace:** `Aspose.Barcode.ComplexBarcode`
+
+
+Class for encoding and decoding the text embedded in the Royal Mail 2D Mailmark code.
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [__construct](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/mailmark2dcodetext/) | Create default instance of Mailmark2DCodetext class. |
+
+## Methods
+
+| Name | Static | Description |
+| --- | --- | --- |
+| [construct](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/construct/) | Yes |  |
+| [initFromString](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/initfromstring/) | No | Initializes Mailmark data from constructed codetext. |
+
+## Properties
+
+| Name | Read/Write | Description |
+| --- | --- | --- |
+| [BarcodeType](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/barcodetype/) | Read-only | Gets barcode type. |
+| [Class_](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/class_/) | Read/Write | Identifies the class of the item. Valid Values: "1" - 1C (Retail) "2" - 2C (Retail) "3" - Economy (Retail) "5" - Deffered (Retail) "8" - Premium (Network Access) "9" - Standard (Network Access) |
+| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/constructedcodetext/) | Read-only | Construct codetext from Mailmark data. |
+| [CustomerContent](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/customercontent/) | Read/Write | Optional space for use by customer. Max length by Type: Type 7: 6 characters Type 9: 45 characters Type 29: 25 characters |
+| [CustomerContentEncodeMode](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/customercontentencodemode/) | Read/Write | Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.C40. |
+| [DataMatrixType](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/datamatrixtype/) | Read/Write | 2D Mailmark Type defines size of Data Matrix barcode. |
+| [DestinationPostCodeAndDPS](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/destinationpostcodeanddps/) | Read/Write | Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District(1 or 2 characters) Sector(1 character) Unit(2 characters) DPS (2 characters). The Postcode and DPS must comply with a valid PAF® format. |
+| [InformationTypeID](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/informationtypeid/) | Read/Write | Identifies the Royal Mail Mailmark barcode payload for each product type. Valid Values: "0" - Domestic Sorted & Unsorted "A" - Online Postage "B" - Franking "C" - Consolidation |
+| [ItemID](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/itemid/) | Read/Write | Identifies the unique item within the Supply Chain ID. Every Mailmark barcode is required to carry an ID so it can be uniquely identified for at least 90 days. Max value: 99999999. |
+| [RTSFlag](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/rtsflag/) | Read/Write | Flag which indicates what level of Return to Sender service is being requested. |
+| [ReturnToSenderPostCode](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/returntosenderpostcode/) | Read/Write | Contains the Return to Sender Post Code but no DPS. The PC(without DPS) must comply with a PAF® format. |
+| [SupplyChainID](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/supplychainid/) | Read/Write | Identifies the unique group of customers involved in the mailing. Max value: 9999999. |
+| [UPUCountryID](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/upucountryid/) | Read/Write | Identifies the UPU Country ID.Max length: 4 characters. |
+| [VersionID](/php/aspose/barcode/complexbarcode/mailmark2dcodetext/versionid/) | Read/Write | Identifies the barcode version as relevant to each Information Type ID. Valid Values: Currently "1". "0" & "2" to "9" and "A" to "Z" spare reserved for potential future use. |
