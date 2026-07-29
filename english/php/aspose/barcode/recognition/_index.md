@@ -3,13 +3,16 @@ title: "Aspose.Barcode.Recognition"
 linktitle: "Aspose.Barcode.Recognition"
 articleTitle: "Aspose.Barcode.Recognition"
 second_title: "Aspose.BarCode for PHP via Java"
-description: ""
+description: "Provides classes and enums for reading and interpreting barcodes, including settings, parameters, and result handling."
 type: docs
 weight: 10
 url: /php/aspose/barcode/recognition/
 ---
 
 ## Aspose.Barcode.Recognition namespace
+
+The Aspose.Barcode.Recognition namespace groups all functionality needed to decode barcodes across a wide range of symbologies. It includes reader classes, configuration objects such as AustraliaPostSettings and AztecExtendedParameters, and result types for extracting decoded data in PHP via Java.
+
 
 ## Classes
 

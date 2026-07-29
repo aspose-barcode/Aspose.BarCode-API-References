@@ -3,13 +3,16 @@ title: "Aspose.Barcode.ComplexBarcode"
 linktitle: "Aspose.Barcode.ComplexBarcode"
 articleTitle: "Aspose.Barcode.ComplexBarcode"
 second_title: "Aspose.BarCode for PHP via Java"
-description: ""
+description: "The Aspose.Barcode.ComplexBarcode namespace provides classes and enums to generate and read complex barcode types like HIBC LIC and combined data structures."
 type: docs
 weight: 10
 url: /php/aspose/barcode/complexbarcode/
 ---
 
 ## Aspose.Barcode.ComplexBarcode namespace
+
+The ComplexBarcode namespace groups the core components required for handling advanced barcode specifications. It includes generators, readers, and data element models for HIBC LIC, combined codetext, and related structures.
+
 
 ## Classes
 
