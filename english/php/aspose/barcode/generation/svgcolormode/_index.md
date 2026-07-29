@@ -21,7 +21,7 @@ Possible modes for filling color in svg file, RGB is default and supported by SV
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [HSL](/php/aspose/barcode/generation/svgcolormode/hsl/) | `2` | HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73" |
-| [HSLA](/php/aspose/barcode/generation/svgcolormode/hsla/) | `3` | HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)" |
-| [RGB](/php/aspose/barcode/generation/svgcolormode/rgb/) | `0` | RGB mode, example: fill="#ff5511" fill-opacity="0.73". Default mode. |
-| [RGBA](/php/aspose/barcode/generation/svgcolormode/rgba/) | `1` | RGBA mode, example: fill="rgba(255, 85, 17, 0.73)" |
+| [HSL](./hsl/) | `2` | HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73" |
+| [HSLA](./hsla/) | `3` | HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)" |
+| [RGB](./rgb/) | `0` | RGB mode, example: fill="#ff5511" fill-opacity="0.73". Default mode. |
+| [RGBA](./rgba/) | `1` | RGBA mode, example: fill="rgba(255, 85, 17, 0.73)" |

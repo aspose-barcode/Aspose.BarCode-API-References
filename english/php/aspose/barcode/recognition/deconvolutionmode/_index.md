@@ -21,6 +21,6 @@ Deconvolution (image restorations) mode which defines level of image degradation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FAST](/php/aspose/barcode/recognition/deconvolutionmode/fast/) | `0` | Enables fast deconvolution methods for high quality images. |
-| [NORMAL](/php/aspose/barcode/recognition/deconvolutionmode/normal/) | `1` | Enables normal deconvolution methods for common images. |
-| [SLOW](/php/aspose/barcode/recognition/deconvolutionmode/slow/) | `2` | Enables slow deconvolution methods for low quality images. |
+| [FAST](./fast/) | `0` | Enables fast deconvolution methods for high quality images. |
+| [NORMAL](./normal/) | `1` | Enables normal deconvolution methods for common images. |
+| [SLOW](./slow/) | `2` | Enables slow deconvolution methods for low quality images. |

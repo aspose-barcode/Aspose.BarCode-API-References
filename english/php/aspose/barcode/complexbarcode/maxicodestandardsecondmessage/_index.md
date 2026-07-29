@@ -21,16 +21,16 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/maxicodestandardsecondmessage/maxicodestandardsecondmessage/) | Reimplemented in Aspose\Barcode\ComplexBarcode\MaxiCodeStandartSecondMessage. |
+| [__construct](./maxicodestandardsecondmessage/) | Reimplemented in Aspose\Barcode\ComplexBarcode\MaxiCodeStandartSecondMessage. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [_construct](/php/aspose/barcode/complexbarcode/maxicodestandardsecondmessage/_construct/) | Yes |  |
+| [_construct](./_construct/) | Yes |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Message](/php/aspose/barcode/complexbarcode/maxicodestandardsecondmessage/message/) | Read/Write | Gets constructed second message |
+| [Message](./message/) | Read/Write | Gets constructed second message |

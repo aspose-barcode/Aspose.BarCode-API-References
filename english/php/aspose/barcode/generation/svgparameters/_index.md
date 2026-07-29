@@ -21,19 +21,19 @@ SVG parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/svgparameters/svgparameters/) |  |
+| [__construct](./svgparameters/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isExplicitSizeInPixels](/php/aspose/barcode/generation/svgparameters/isexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
-| [isTextDrawnInTextElement](/php/aspose/barcode/generation/svgparameters/istextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
-| [setExplicitSizeInPixels](/php/aspose/barcode/generation/svgparameters/setexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
-| [setTextDrawnInTextElement](/php/aspose/barcode/generation/svgparameters/settextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
+| [isExplicitSizeInPixels](./isexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
+| [isTextDrawnInTextElement](./istextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
+| [setExplicitSizeInPixels](./setexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
+| [setTextDrawnInTextElement](./settextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [SvgColorMode](/php/aspose/barcode/generation/svgparameters/svgcolormode/) | Read/Write | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |
+| [SvgColorMode](./svgcolormode/) | Read/Write | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |

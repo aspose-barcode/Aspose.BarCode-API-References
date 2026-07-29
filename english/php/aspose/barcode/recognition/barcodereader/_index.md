@@ -21,24 +21,24 @@ BarCodeReader encapsulates an image which may contain one or several barcodes, i
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/barcodereader/barcodereader/) |  |
+| [__construct](./barcodereader/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [containsAny](/php/aspose/barcode/recognition/barcodereader/containsany/) | No | Determines whether any of the given decode types is included into |
-| [exportToXml](/php/aspose/barcode/recognition/barcodereader/exporttoxml/) | No | Exports BarCode properties to the xml-file specified |
-| [importFromXml](/php/aspose/barcode/recognition/barcodereader/importfromxml/) | Yes | Import BarCode properties from xml file |
-| [init](/php/aspose/barcode/recognition/barcodereader/init/) | No |  |
-| [setBarCodeImage](/php/aspose/barcode/recognition/barcodereader/setbarcodeimage/) | No | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
-| [setBarCodeReadType](/php/aspose/barcode/recognition/barcodereader/setbarcodereadtype/) | No | Sets SingleDecodeType type array for recognition. Must be called before readBarCodes() method. This sample shows how to detect Code39 and Code128 barcodes. |
+| [containsAny](./containsany/) | No | Determines whether any of the given decode types is included into |
+| [exportToXml](./exporttoxml/) | No | Exports BarCode properties to the xml-file specified |
+| [importFromXml](./importfromxml/) | Yes | Import BarCode properties from xml file |
+| [init](./init/) | No |  |
+| [setBarCodeImage](./setbarcodeimage/) | No | QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes or you can manually configure separate options. Default value of QualitySettings is NormalQuality. |
+| [setBarCodeReadType](./setbarcodereadtype/) | No | Sets SingleDecodeType type array for recognition. Must be called before readBarCodes() method. This sample shows how to detect Code39 and Code128 barcodes. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarCodeDecodeType](/php/aspose/barcode/recognition/barcodereader/barcodedecodetype/) | Read-only |  |
-| [FoundBarCodes](/php/aspose/barcode/recognition/barcodereader/foundbarcodes/) | Read-only | Reads BarCodeResult from the image. Value: The recognized BarCodeResult array |
-| [FoundCount](/php/aspose/barcode/recognition/barcodereader/foundcount/) | Read-only | Gets recognized barcodes count This sample shows how to read barcodes with BarCodeReader Value: The recognized barcodes count |
-| [Timeout](/php/aspose/barcode/recognition/barcodereader/timeout/) | Read/Write | Gets the timeout of recognition process in milliseconds. |
+| [BarCodeDecodeType](./barcodedecodetype/) | Read-only |  |
+| [FoundBarCodes](./foundbarcodes/) | Read-only | Reads BarCodeResult from the image. Value: The recognized BarCodeResult array |
+| [FoundCount](./foundcount/) | Read-only | Gets recognized barcodes count This sample shows how to read barcodes with BarCodeReader Value: The recognized barcodes count |
+| [Timeout](./timeout/) | Read/Write | Gets the timeout of recognition process in milliseconds. |

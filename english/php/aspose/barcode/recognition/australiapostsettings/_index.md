@@ -21,11 +21,11 @@ AustraliaPost decoding parameters. Contains parameters which make influence on r
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/australiapostsettings/australiapostsettings/) | AustraliaPostSettings constructor |
+| [__construct](./australiapostsettings/) | AustraliaPostSettings constructor |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [CustomerInformationInterpretingType](/php/aspose/barcode/recognition/australiapostsettings/customerinformationinterpretingtype/) | Read/Write | Gets or sets the Interpreting Type for the Customer Information of AustralianPost BarCode.DEFAULT is CustomerInformationInterpretingType.OTHER. |
-| [IgnoreEndingFillingPatternsForCTable](/php/aspose/barcode/recognition/australiapostsettings/ignoreendingfillingpatternsforctable/) | Read/Write | The flag which force AustraliaPost decoder to ignore last filling patterns in Customer Information Field during decoding as CTable method. CTable encoding method does not have any gaps in encoding table and sequnce "333" of filling paterns is decoded as letter "z". |
+| [CustomerInformationInterpretingType](./customerinformationinterpretingtype/) | Read/Write | Gets or sets the Interpreting Type for the Customer Information of AustralianPost BarCode.DEFAULT is CustomerInformationInterpretingType.OTHER. |
+| [IgnoreEndingFillingPatternsForCTable](./ignoreendingfillingpatternsforctable/) | Read/Write | The flag which force AustraliaPost decoder to ignore last filling patterns in Customer Information Field during decoding as CTable method. CTable encoding method does not have any gaps in encoding table and sequnce "333" of filling paterns is decoded as letter "z". |

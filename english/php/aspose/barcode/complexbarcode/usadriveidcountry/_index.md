@@ -21,6 +21,6 @@ Enum for Country Identification in the US Driver's License
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CANADA](/php/aspose/barcode/complexbarcode/usadriveidcountry/canada/) | `2` | Country = Canada |
-| [NONE](/php/aspose/barcode/complexbarcode/usadriveidcountry/none/) | `0` | Not filled - equal to NONE |
-| [US](/php/aspose/barcode/complexbarcode/usadriveidcountry/us/) | `1` | Country = U.S. |
+| [CANADA](./canada/) | `2` | Country = Canada |
+| [NONE](./none/) | `0` | Not filled - equal to NONE |
+| [US](./us/) | `1` | Country = U.S. |

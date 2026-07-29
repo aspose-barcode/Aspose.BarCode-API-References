@@ -21,6 +21,6 @@ Codetext location
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ABOVE](/php/aspose/barcode/generation/codelocation/above/) | `"1"` | Codetext above barcode. |
-| [BELOW](/php/aspose/barcode/generation/codelocation/below/) | `"0"` | Codetext below barcode. |
-| [NONE](/php/aspose/barcode/generation/codelocation/none/) | `"2"` | Hide codetext. |
+| [ABOVE](./above/) | `"1"` | Codetext above barcode. |
+| [BELOW](./below/) | `"0"` | Codetext below barcode. |
+| [NONE](./none/) | `"2"` | Hide codetext. |

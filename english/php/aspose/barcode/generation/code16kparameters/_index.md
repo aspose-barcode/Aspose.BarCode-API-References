@@ -21,12 +21,12 @@ Code16K parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/code16kparameters/code16kparameters/) |  |
+| [__construct](./code16kparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AspectRatio](/php/aspose/barcode/generation/code16kparameters/aspectratio/) | Read/Write | Height/Width ratio of 2D BarCode module. |
-| [QuietZoneLeftCoef](/php/aspose/barcode/generation/code16kparameters/quietzoneleftcoef/) | Read/Write | Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px. |
-| [QuietZoneRightCoef](/php/aspose/barcode/generation/code16kparameters/quietzonerightcoef/) | Read/Write | Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimension = 2px than right quiet zone will be 2px. |
+| [AspectRatio](./aspectratio/) | Read/Write | Height/Width ratio of 2D BarCode module. |
+| [QuietZoneLeftCoef](./quietzoneleftcoef/) | Read/Write | Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px. |
+| [QuietZoneRightCoef](./quietzonerightcoef/) | Read/Write | Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimension = 2px than right quiet zone will be 2px. |

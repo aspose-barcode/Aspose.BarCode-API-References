@@ -21,14 +21,14 @@ ITF parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/itfparameters/itfparameters/) |  |
+| [__construct](./itfparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BorderThickness](/php/aspose/barcode/generation/itfparameters/borderthickness/) | Read/Write | Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
-| [BorderType](/php/aspose/barcode/generation/itfparameters/bordertype/) | Read/Write | Border type of ITF barcode. Default value: ITF14BorderType.Bar. |
-| [ItfBorderThickness](/php/aspose/barcode/generation/itfparameters/itfborderthickness/) | Read/Write | Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
-| [ItfBorderType](/php/aspose/barcode/generation/itfparameters/itfbordertype/) | Read/Write | Border type of ITF barcode. Default value: ITF14BorderType::BAR. |
-| [QuietZoneCoef](/php/aspose/barcode/generation/itfparameters/quietzonecoef/) | Read/Write | Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px. |
+| [BorderThickness](./borderthickness/) | Read/Write | Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
+| [BorderType](./bordertype/) | Read/Write | Border type of ITF barcode. Default value: ITF14BorderType.Bar. |
+| [ItfBorderThickness](./itfborderthickness/) | Read/Write | Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt. |
+| [ItfBorderType](./itfbordertype/) | Read/Write | Border type of ITF barcode. Default value: ITF14BorderType::BAR. |
+| [QuietZoneCoef](./quietzonecoef/) | Read/Write | Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension = 2px than quiet zones will be 20px. |

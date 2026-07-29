@@ -18,10 +18,10 @@ url: /php/aspose/barcode/recognition/recognitionabortedexception/
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/recognitionabortedexception/recognitionabortedexception/) | Initializes a new instance of the RecognitionAbortedException class with specified recognition abort message. |
+| [__construct](./recognitionabortedexception/) | Initializes a new instance of the RecognitionAbortedException class with specified recognition abort message. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ExecutionTime](/php/aspose/barcode/recognition/recognitionabortedexception/executiontime/) | Read/Write | Gets the execution time of current recognition session |
+| [ExecutionTime](./executiontime/) | Read/Write | Gets the execution time of current recognition session |

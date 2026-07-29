@@ -21,18 +21,18 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/maxicodecodetextmode3/maxicodecodetextmode3/) |  |
+| [__construct](./maxicodecodetextmode3/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/maxicodecodetextmode3/construct/) | Yes |  |
-| [initFromString](/php/aspose/barcode/complexbarcode/maxicodecodetextmode3/initfromstring/) | No | Initializes instance from constructed codetext. |
+| [construct](./construct/) | Yes |  |
+| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/maxicodecodetextmode3/constructedcodetext/) | Read-only | Constructs codetext |
-| [Mode](/php/aspose/barcode/complexbarcode/maxicodecodetextmode3/mode/) | Read-only | Gets MaxiCode mode. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |
+| [Mode](./mode/) | Read-only | Gets MaxiCode mode. |

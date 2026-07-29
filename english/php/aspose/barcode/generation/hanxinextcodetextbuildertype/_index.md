@@ -18,15 +18,15 @@ url: /php/aspose/barcode/generation/hanxinextcodetextbuildertype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [Auto](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/auto/) | `1` |  |
-| [Binary](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/binary/) | `2` |  |
-| [CommonChineseRegionOne](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/commonchineseregionone/) | `7` |  |
-| [CommonChineseRegionTwo](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/commonchineseregiontwo/) | `8` |  |
-| [ECI](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/eci/) | `0` |  |
-| [GB18030FourByte](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/gb18030fourbyte/) | `10` |  |
-| [GB18030TwoByte](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/gb18030twobyte/) | `9` |  |
-| [GS1](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/gs1/) | `11` |  |
-| [Numeric](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/numeric/) | `5` |  |
-| [Text](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/text/) | `4` |  |
-| [Unicode](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/unicode/) | `6` |  |
-| [URI](/php/aspose/barcode/generation/hanxinextcodetextbuildertype/uri/) | `3` |  |
+| [Auto](./auto/) | `1` |  |
+| [Binary](./binary/) | `2` |  |
+| [CommonChineseRegionOne](./commonchineseregionone/) | `7` |  |
+| [CommonChineseRegionTwo](./commonchineseregiontwo/) | `8` |  |
+| [ECI](./eci/) | `0` |  |
+| [GB18030FourByte](./gb18030fourbyte/) | `10` |  |
+| [GB18030TwoByte](./gb18030twobyte/) | `9` |  |
+| [GS1](./gs1/) | `11` |  |
+| [Numeric](./numeric/) | `5` |  |
+| [Text](./text/) | `4` |  |
+| [Unicode](./unicode/) | `6` |  |
+| [URI](./uri/) | `3` |  |

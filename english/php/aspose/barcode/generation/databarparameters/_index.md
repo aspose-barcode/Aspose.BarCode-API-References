@@ -21,21 +21,21 @@ Databar parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/databarparameters/databarparameters/) |  |
+| [__construct](./databarparameters/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [is2DCompositeComponent](/php/aspose/barcode/generation/databarparameters/is2dcompositecomponent/) | No | Enables flag of 2D composite component with DataBar barcode |
-| [isAllowOnlyGS1Encoding](/php/aspose/barcode/generation/databarparameters/isallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for Databar barcode types |
-| [set2DCompositeComponent](/php/aspose/barcode/generation/databarparameters/set2dcompositecomponent/) | No | Enables flag of 2D composite component with DataBar barcode |
-| [setAllowOnlyGS1Encoding](/php/aspose/barcode/generation/databarparameters/setallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for Databar barcode types |
+| [is2DCompositeComponent](./is2dcompositecomponent/) | No | Enables flag of 2D composite component with DataBar barcode |
+| [isAllowOnlyGS1Encoding](./isallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for Databar barcode types |
+| [set2DCompositeComponent](./set2dcompositecomponent/) | No | Enables flag of 2D composite component with DataBar barcode |
+| [setAllowOnlyGS1Encoding](./setallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for Databar barcode types |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AspectRatio](/php/aspose/barcode/generation/databarparameters/aspectratio/) | Read/Write | Height/Width ratio of 2D BarCode module. Used for DataBar stacked. |
-| [Columns](/php/aspose/barcode/generation/databarparameters/columns/) | Read/Write | Columns count. |
-| [Rows](/php/aspose/barcode/generation/databarparameters/rows/) | Read/Write | Rows count. |
+| [AspectRatio](./aspectratio/) | Read/Write | Height/Width ratio of 2D BarCode module. Used for DataBar stacked. |
+| [Columns](./columns/) | Read/Write | Columns count. |
+| [Rows](./rows/) | Read/Write | Rows count. |

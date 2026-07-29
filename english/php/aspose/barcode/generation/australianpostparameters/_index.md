@@ -21,13 +21,13 @@ AustralianPost barcode parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/australianpostparameters/australianpostparameters/) |  |
+| [__construct](./australianpostparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AustralianPostEncodingTable](/php/aspose/barcode/generation/australianpostparameters/australianpostencodingtable/) | Read/Write | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
-| [AustralianPostShortBarHeight](/php/aspose/barcode/generation/australianpostparameters/australianpostshortbarheight/) | Read/Write | Short bar's height of AustralianPost barcode. |
-| [EncodingTable](/php/aspose/barcode/generation/australianpostparameters/encodingtable/) | Read/Write | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
-| [ShortBarHeight](/php/aspose/barcode/generation/australianpostparameters/shortbarheight/) | Read/Write | Short bar's height of AustralianPost barcode. |
+| [AustralianPostEncodingTable](./australianpostencodingtable/) | Read/Write | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
+| [AustralianPostShortBarHeight](./australianpostshortbarheight/) | Read/Write | Short bar's height of AustralianPost barcode. |
+| [EncodingTable](./encodingtable/) | Read/Write | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
+| [ShortBarHeight](./shortbarheight/) | Read/Write | Short bar's height of AustralianPost barcode. |

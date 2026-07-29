@@ -21,11 +21,11 @@ Represents a jurisdiction-specific data field used in documents, for example Ele
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/dataelement/dataelement/) |  |
+| [__construct](./dataelement/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ElementID](/php/aspose/barcode/complexbarcode/dataelement/elementid/) | Read/Write | A 3-character code that identifies the jurisdiction-specific field, e.g., "ZVA". |
-| [Value](/php/aspose/barcode/complexbarcode/dataelement/value/) | Read/Write | The text value associated with the field, typically defined by jurisdiction rules. |
+| [ElementID](./elementid/) | Read/Write | A 3-character code that identifies the jurisdiction-specific field, e.g., "ZVA". |
+| [Value](./value/) | Read/Write | The text value associated with the field, typically defined by jurisdiction rules. |

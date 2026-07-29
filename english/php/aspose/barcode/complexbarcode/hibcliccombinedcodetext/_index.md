@@ -21,19 +21,19 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/hibcliccombinedcodetext/) |  |
+| [__construct](./hibcliccombinedcodetext/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/construct/) | Yes |  |
-| [initFromString](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/initfromstring/) | No | Initializes instance from constructed codetext. |
+| [construct](./construct/) | Yes |  |
+| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/constructedcodetext/) | Read-only | Constructs codetext |
-| [PrimaryData](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/primarydata/) | Read/Write | Identifies primary data. |
-| [SecondaryAndAdditionalData](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/secondaryandadditionaldata/) | Read/Write | Identifies secondary and additional supplemental data. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |
+| [PrimaryData](./primarydata/) | Read/Write | Identifies primary data. |
+| [SecondaryAndAdditionalData](./secondaryandadditionaldata/) | Read/Write | Identifies secondary and additional supplemental data. |

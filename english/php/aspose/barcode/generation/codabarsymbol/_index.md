@@ -21,7 +21,7 @@ Specifies the start or stop symbol of the Codabar barcode specification.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [A](/php/aspose/barcode/generation/codabarsymbol/a/) | `65` | Specifies character A as the start or stop symbol of the Codabar barcode specification. |
-| [B](/php/aspose/barcode/generation/codabarsymbol/b/) | `66` | Specifies character B as the start or stop symbol of the Codabar barcode specification. |
-| [C](/php/aspose/barcode/generation/codabarsymbol/c/) | `67` | Specifies character C as the start or stop symbol of the Codabar barcode specification. |
-| [D](/php/aspose/barcode/generation/codabarsymbol/d/) | `68` | Specifies character D as the start or stop symbol of the Codabar barcode specification. |
+| [A](./a/) | `65` | Specifies character A as the start or stop symbol of the Codabar barcode specification. |
+| [B](./b/) | `66` | Specifies character B as the start or stop symbol of the Codabar barcode specification. |
+| [C](./c/) | `67` | Specifies character C as the start or stop symbol of the Codabar barcode specification. |
+| [D](./d/) | `68` | Specifies character D as the start or stop symbol of the Codabar barcode specification. |

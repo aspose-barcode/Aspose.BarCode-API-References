@@ -18,5 +18,5 @@ url: /php/aspose/barcode/complexbarcode/maxicodesecondmessagetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MAXI_CODE_STANDART_SECOND_MESSAGE](/php/aspose/barcode/complexbarcode/maxicodesecondmessagetype/maxi_code_standart_second_message/) | `0` |  |
-| [MAXI_CODE_STRUCTURED_SECOND_MESSAGE](/php/aspose/barcode/complexbarcode/maxicodesecondmessagetype/maxi_code_structured_second_message/) | `1` |  |
+| [MAXI_CODE_STANDART_SECOND_MESSAGE](./maxi_code_standart_second_message/) | `0` |  |
+| [MAXI_CODE_STRUCTURED_SECOND_MESSAGE](./maxi_code_structured_second_message/) | `1` |  |

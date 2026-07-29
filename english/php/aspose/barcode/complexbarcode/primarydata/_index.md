@@ -21,19 +21,19 @@ Class for storing HIBC LIC primary data.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/primarydata/primarydata/) |  |
+| [__construct](./primarydata/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/primarydata/construct/) | Yes |  |
-| [parseFromString](/php/aspose/barcode/complexbarcode/primarydata/parsefromstring/) | No | Instantiates primary data from string format according HIBC LIC specification. |
+| [construct](./construct/) | Yes |  |
+| [parseFromString](./parsefromstring/) | No | Instantiates primary data from string format according HIBC LIC specification. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [LabelerIdentificationCode](/php/aspose/barcode/complexbarcode/primarydata/labeleridentificationcode/) | Read/Write | Identifies date of labeler identification code. Labeler identification code must be 4 symbols alphanumeric string, with first character always being alphabetic. |
-| [ProductOrCatalogNumber](/php/aspose/barcode/complexbarcode/primarydata/productorcatalognumber/) | Read/Write | Identifies product or catalog number. Product or catalog number must be alphanumeric string up to 18 sybmols length. |
-| [UnitOfMeasureID](/php/aspose/barcode/complexbarcode/primarydata/unitofmeasureid/) | Read/Write | Identifies unit of measure ID. Unit of measure ID must be integer value from 0 to 9. |
+| [LabelerIdentificationCode](./labeleridentificationcode/) | Read/Write | Identifies date of labeler identification code. Labeler identification code must be 4 symbols alphanumeric string, with first character always being alphabetic. |
+| [ProductOrCatalogNumber](./productorcatalognumber/) | Read/Write | Identifies product or catalog number. Product or catalog number must be alphanumeric string up to 18 sybmols length. |
+| [UnitOfMeasureID](./unitofmeasureid/) | Read/Write | Identifies unit of measure ID. Unit of measure ID must be integer value from 0 to 9. |

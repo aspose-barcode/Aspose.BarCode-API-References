@@ -21,22 +21,22 @@ BarcodeGenerator for backend barcode images generation. supported symbologies: 1
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/barcodegenerator/barcodegenerator/) | BarcodeGenerator constructor. |
+| [__construct](./barcodegenerator/) | BarcodeGenerator constructor. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [exportToXml](/php/aspose/barcode/generation/barcodegenerator/exporttoxml/) | No | Exports BarCode properties to the xml-file specified |
-| [generateBarCodeGDImage](/php/aspose/barcode/generation/barcodegenerator/generatebarcodegdimage/) | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
-| [generateBarCodeImage](/php/aspose/barcode/generation/barcodegenerator/generatebarcodeimage/) | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
-| [importFromXml](/php/aspose/barcode/generation/barcodegenerator/importfromxml/) | Yes | Import BarCode properties from xml file |
-| [save](/php/aspose/barcode/generation/barcodegenerator/save/) | No | Save barcode image to specific file in specific format. |
+| [exportToXml](./exporttoxml/) | No | Exports BarCode properties to the xml-file specified |
+| [generateBarCodeGDImage](./generatebarcodegdimage/) | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
+| [generateBarCodeImage](./generatebarcodeimage/) | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
+| [importFromXml](./importfromxml/) | Yes | Import BarCode properties from xml file |
+| [save](./save/) | No | Save barcode image to specific file in specific format. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/generation/barcodegenerator/barcodetype/) | Read/Write | Barcode symbology type. |
-| [CodeText](/php/aspose/barcode/generation/barcodegenerator/codetext/) | Read/Write | Text to be encoded. |
-| [Parameters](/php/aspose/barcode/generation/barcodegenerator/parameters/) | Read-only | Generation parameters. |
+| [BarcodeType](./barcodetype/) | Read/Write | Barcode symbology type. |
+| [CodeText](./codetext/) | Read/Write | Text to be encoded. |
+| [Parameters](./parameters/) | Read-only | Generation parameters. |

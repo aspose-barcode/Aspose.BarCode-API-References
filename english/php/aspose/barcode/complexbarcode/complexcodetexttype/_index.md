@@ -18,14 +18,14 @@ url: /php/aspose/barcode/complexbarcode/complexcodetexttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [HIBCLICCombinedCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/hibcliccombinedcodetext/) | `0` |  |
-| [HIBCLICPrimaryDataCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/hibclicprimarydatacodetext/) | `1` |  |
-| [HIBCLICSecondaryAndAdditionalDataCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/hibclicsecondaryandadditionaldatacodetext/) | `2` |  |
-| [HIBCPASCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/hibcpascodetext/) | `3` |  |
-| [Mailmark2DCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/mailmark2dcodetext/) | `4` |  |
-| [MailmarkCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/mailmarkcodetext/) | `5` |  |
-| [MaxiCodeCodetextMode2](/php/aspose/barcode/complexbarcode/complexcodetexttype/maxicodecodetextmode2/) | `7` |  |
-| [MaxiCodeCodetextMode3](/php/aspose/barcode/complexbarcode/complexcodetexttype/maxicodecodetextmode3/) | `8` |  |
-| [MaxiCodeStandardCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/maxicodestandardcodetext/) | `6` |  |
-| [SwissQRCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/swissqrcodetext/) | `9` |  |
-| [USADriveIdCodetext](/php/aspose/barcode/complexbarcode/complexcodetexttype/usadriveidcodetext/) | `10` |  |
+| [HIBCLICCombinedCodetext](./hibcliccombinedcodetext/) | `0` |  |
+| [HIBCLICPrimaryDataCodetext](./hibclicprimarydatacodetext/) | `1` |  |
+| [HIBCLICSecondaryAndAdditionalDataCodetext](./hibclicsecondaryandadditionaldatacodetext/) | `2` |  |
+| [HIBCPASCodetext](./hibcpascodetext/) | `3` |  |
+| [Mailmark2DCodetext](./mailmark2dcodetext/) | `4` |  |
+| [MailmarkCodetext](./mailmarkcodetext/) | `5` |  |
+| [MaxiCodeCodetextMode2](./maxicodecodetextmode2/) | `7` |  |
+| [MaxiCodeCodetextMode3](./maxicodecodetextmode3/) | `8` |  |
+| [MaxiCodeStandardCodetext](./maxicodestandardcodetext/) | `6` |  |
+| [SwissQRCodetext](./swissqrcodetext/) | `9` |  |
+| [USADriveIdCodetext](./usadriveidcodetext/) | `10` |  |

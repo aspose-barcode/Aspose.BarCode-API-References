@@ -21,11 +21,11 @@ Interface for complex codetext used with ComplexBarcodeGenerator.
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [initFromString](/php/aspose/barcode/complexbarcode/icomplexcodetext/initfromstring/) | No | Initializes instance with constructed codetext. |
+| [initFromString](./initfromstring/) | No | Initializes instance with constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/complexbarcode/icomplexcodetext/barcodetype/) | Read-only | Gets barcode type. |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/icomplexcodetext/constructedcodetext/) | Read-only | Construct codetext for complex barcode |
+| [BarcodeType](./barcodetype/) | Read-only | Gets barcode type. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Construct codetext for complex barcode |

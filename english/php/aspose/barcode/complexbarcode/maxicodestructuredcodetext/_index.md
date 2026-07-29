@@ -21,14 +21,14 @@ Base class for encoding and decoding the text embedded in the MaxiCode code for 
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [initFromString](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/initfromstring/) | No | Initializes instance from constructed codetext. |
+| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/constructedcodetext/) | Read-only | Constructs codetext |
-| [CountryCode](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/countrycode/) | Read/Write | Identifies 3 digit country code. |
-| [PostalCode](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/postalcode/) | Read/Write | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
-| [SecondMessage](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/secondmessage/) | Read/Write | Identifies second message of the barcode. |
-| [ServiceCategory](/php/aspose/barcode/complexbarcode/maxicodestructuredcodetext/servicecategory/) | Read/Write | Identifies 3 digit service category. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |
+| [CountryCode](./countrycode/) | Read/Write | Identifies 3 digit country code. |
+| [PostalCode](./postalcode/) | Read/Write | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
+| [SecondMessage](./secondmessage/) | Read/Write | Identifies second message of the barcode. |
+| [ServiceCategory](./servicecategory/) | Read/Write | Identifies 3 digit service category. |

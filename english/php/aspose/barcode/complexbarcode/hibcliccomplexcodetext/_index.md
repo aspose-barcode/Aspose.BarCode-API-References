@@ -21,17 +21,17 @@ Base class for encoding and decoding the text embedded in the HIBC LIC code.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/hibcliccomplexcodetext/hibcliccomplexcodetext/) |  |
+| [__construct](./hibcliccomplexcodetext/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [initFromString](/php/aspose/barcode/complexbarcode/hibcliccomplexcodetext/initfromstring/) | No | Initializes instance from constructed codetext. |
+| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/complexbarcode/hibcliccomplexcodetext/barcodetype/) | Read/Write | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/hibcliccomplexcodetext/constructedcodetext/) | Read-only | Constructs codetext |
+| [BarcodeType](./barcodetype/) | Read/Write | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |

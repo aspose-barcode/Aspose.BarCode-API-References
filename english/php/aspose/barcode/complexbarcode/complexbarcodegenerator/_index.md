@@ -21,17 +21,17 @@ ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images genera
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/complexbarcodegenerator/complexbarcodegenerator/) | Creates an instance of ComplexBarcodeGenerator. |
+| [__construct](./complexbarcodegenerator/) | Creates an instance of ComplexBarcodeGenerator. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [generateBarcodeImage](/php/aspose/barcode/complexbarcode/complexbarcodegenerator/generatebarcodeimage/) | No | Generates complex barcode image under current settings. |
-| [save](/php/aspose/barcode/complexbarcode/complexbarcodegenerator/save/) | No | Save barcode image to specific file in specific format. |
+| [generateBarcodeImage](./generatebarcodeimage/) | No | Generates complex barcode image under current settings. |
+| [save](./save/) | No | Save barcode image to specific file in specific format. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Parameters](/php/aspose/barcode/complexbarcode/complexbarcodegenerator/parameters/) | Read-only | Generation parameters. |
+| [Parameters](./parameters/) | Read-only | Generation parameters. |

@@ -21,6 +21,6 @@ Enable checksum validation during recognition for 1D barcodes. Default is treate
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DEFAULT](/php/aspose/barcode/recognition/checksumvalidation/default/) | `0` | If checksum is required by the specification - it will be validated. |
-| [OFF](/php/aspose/barcode/recognition/checksumvalidation/off/) | `2` | Do not validate checksum. |
-| [ON](/php/aspose/barcode/recognition/checksumvalidation/on/) | `1` | Always validate checksum if possible. |
+| [DEFAULT](./default/) | `0` | If checksum is required by the specification - it will be validated. |
+| [OFF](./off/) | `2` | Do not validate checksum. |
+| [ON](./on/) | `1` | Always validate checksum if possible. |

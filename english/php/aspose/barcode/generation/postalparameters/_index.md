@@ -21,11 +21,11 @@ Postal parameters. Used for Postnet, Planet.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/postalparameters/postalparameters/) |  |
+| [__construct](./postalparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [PostalShortBarHeight](/php/aspose/barcode/generation/postalparameters/postalshortbarheight/) | Read/Write | Short bar's height of Postal barcodes. |
-| [ShortBarHeight](/php/aspose/barcode/generation/postalparameters/shortbarheight/) | Read/Write | Short bar's height of Postal barcodes. |
+| [PostalShortBarHeight](./postalshortbarheight/) | Read/Write | Short bar's height of Postal barcodes. |
+| [ShortBarHeight](./shortbarheight/) | Read/Write | Short bar's height of Postal barcodes. |

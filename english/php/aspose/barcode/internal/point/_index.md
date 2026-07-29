@@ -18,18 +18,18 @@ url: /php/aspose/barcode/internal/point/
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/internal/point/point/) | Rectangle constructor. |
+| [__construct](./point/) | Rectangle constructor. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/internal/point/construct/) | Yes |  |
-| [EMPTY](/php/aspose/barcode/internal/point/empty/) | Yes | Represents a Quadrangle structure with its properties left uninitialized.Value: Quadrangle |
+| [construct](./construct/) | Yes |  |
+| [EMPTY](./empty/) | Yes | Represents a Quadrangle structure with its properties left uninitialized.Value: Quadrangle |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [X](/php/aspose/barcode/internal/point/x/) | Read/Write |  |
-| [Y](/php/aspose/barcode/internal/point/y/) | Read/Write |  |
+| [X](./x/) | Read/Write |  |
+| [Y](./y/) | Read/Write |  |

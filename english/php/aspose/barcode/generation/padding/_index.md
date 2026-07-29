@@ -21,13 +21,13 @@ Paddings parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/padding/padding/) |  |
+| [__construct](./padding/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Bottom](/php/aspose/barcode/generation/padding/bottom/) | Read/Write | Bottom padding. |
-| [Left](/php/aspose/barcode/generation/padding/left/) | Read/Write | Left padding. |
-| [Right](/php/aspose/barcode/generation/padding/right/) | Read/Write | Right padding. |
-| [Top](/php/aspose/barcode/generation/padding/top/) | Read/Write | Top padding. |
+| [Bottom](./bottom/) | Read/Write | Bottom padding. |
+| [Left](./left/) | Read/Write | Left padding. |
+| [Right](./right/) | Read/Write | Right padding. |
+| [Top](./top/) | Read/Write | Top padding. |

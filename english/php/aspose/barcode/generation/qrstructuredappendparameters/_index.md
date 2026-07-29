@@ -21,12 +21,12 @@ QR structured append parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/qrstructuredappendparameters/qrstructuredappendparameters/) |  |
+| [__construct](./qrstructuredappendparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ParityByte](/php/aspose/barcode/generation/qrstructuredappendparameters/paritybyte/) | Read/Write | Gets the QR structured append mode parity data. |
-| [SequenceIndicator](/php/aspose/barcode/generation/qrstructuredappendparameters/sequenceindicator/) | Read/Write | Gets the index of the QR structured append mode barcode. Index starts from 0. |
-| [TotalCount](/php/aspose/barcode/generation/qrstructuredappendparameters/totalcount/) | Read/Write | Gets the QR structured append mode barcodes quantity. Max value is 16. |
+| [ParityByte](./paritybyte/) | Read/Write | Gets the QR structured append mode parity data. |
+| [SequenceIndicator](./sequenceindicator/) | Read/Write | Gets the index of the QR structured append mode barcode. Index starts from 0. |
+| [TotalCount](./totalcount/) | Read/Write | Gets the QR structured append mode barcodes quantity. Max value is 16. |

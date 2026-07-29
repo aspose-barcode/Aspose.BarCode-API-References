@@ -21,17 +21,17 @@ Class for storing HIBC PAS record.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/hibcpasrecord/hibcpasrecord/) | HIBCPASRecord constructor |
+| [__construct](./hibcpasrecord/) | HIBCPASRecord constructor |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/hibcpasrecord/construct/) | Yes | HIBCPASRecord constructor |
+| [construct](./construct/) | Yes | HIBCPASRecord constructor |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Data](/php/aspose/barcode/complexbarcode/hibcpasrecord/data/) | Read/Write | Identifies data. |
-| [DataType](/php/aspose/barcode/complexbarcode/hibcpasrecord/datatype/) | Read/Write | Identifies data type. |
+| [Data](./data/) | Read/Write | Identifies data. |
+| [DataType](./datatype/) | Read/Write | Identifies data type. |

@@ -21,25 +21,25 @@ Address of creditor or debtor. You can either set street, house number, postal c
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/address/address/) |  |
+| [__construct](./address/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [clear](/php/aspose/barcode/complexbarcode/address/clear/) | No | Clears all fields and sets the type to AddressType.Undetermined. |
-| [construct](/php/aspose/barcode/complexbarcode/address/construct/) | Yes | Constructs an Address object from AddressDTO. |
+| [clear](./clear/) | No | Clears all fields and sets the type to AddressType.Undetermined. |
+| [construct](./construct/) | Yes | Constructs an Address object from AddressDTO. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AddressLine1](/php/aspose/barcode/complexbarcode/address/addressline1/) | Read/Write | Gets the address line 1. Address line 1 contains street name, house number or P.O. box. Setting this field sets the address type to AddressType.CombinedElements unless it's already AddressType.Structured, in which case it becomes AddressType.Conflicting. This field is only used for combined elements addresses and is optional. |
-| [AddressLine2](/php/aspose/barcode/complexbarcode/address/addressline2/) | Read/Write | Gets the address line 2. Address line 2 contains postal code and town. Setting this field sets the address type to AddressType.CombinedElements unless it's already AddressType.Structured, in which case it becomes AddressType.Conflicting. This field is only used for combined elements addresses. For this type, it's mandatory. |
-| [CountryCode](/php/aspose/barcode/complexbarcode/address/countrycode/) | Read/Write | Gets the two-letter ISO country code. The country code is mandatory unless the entire address contains null or emtpy values. |
-| [HouseNo](/php/aspose/barcode/complexbarcode/address/houseno/) | Read/Write | Gets the house number. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses and is optional. |
-| [Name](/php/aspose/barcode/complexbarcode/address/name/) | Read/Write | Gets the name, either the first and last name of a natural person or the company name of a legal person. |
-| [PostalCode](/php/aspose/barcode/complexbarcode/address/postalcode/) | Read/Write | Gets the postal code. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses. For this type, it's mandatory. |
-| [Street](/php/aspose/barcode/complexbarcode/address/street/) | Read/Write | Gets the street. The street must be speicfied without house number. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses and is optional. |
-| [Town](/php/aspose/barcode/complexbarcode/address/town/) | Read/Write | Gets the town or city. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses. For this type, it's mandatory. |
-| [Type](/php/aspose/barcode/complexbarcode/address/type/) | Read-only | Gets the address type. The address type is automatically set by either setting street / house number or address line 1 and 2. Before setting the fields, the address type is Undetermined. If fields of both types are set, the address type becomes Conflicting. |
+| [AddressLine1](./addressline1/) | Read/Write | Gets the address line 1. Address line 1 contains street name, house number or P.O. box. Setting this field sets the address type to AddressType.CombinedElements unless it's already AddressType.Structured, in which case it becomes AddressType.Conflicting. This field is only used for combined elements addresses and is optional. |
+| [AddressLine2](./addressline2/) | Read/Write | Gets the address line 2. Address line 2 contains postal code and town. Setting this field sets the address type to AddressType.CombinedElements unless it's already AddressType.Structured, in which case it becomes AddressType.Conflicting. This field is only used for combined elements addresses. For this type, it's mandatory. |
+| [CountryCode](./countrycode/) | Read/Write | Gets the two-letter ISO country code. The country code is mandatory unless the entire address contains null or emtpy values. |
+| [HouseNo](./houseno/) | Read/Write | Gets the house number. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses and is optional. |
+| [Name](./name/) | Read/Write | Gets the name, either the first and last name of a natural person or the company name of a legal person. |
+| [PostalCode](./postalcode/) | Read/Write | Gets the postal code. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses. For this type, it's mandatory. |
+| [Street](./street/) | Read/Write | Gets the street. The street must be speicfied without house number. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses and is optional. |
+| [Town](./town/) | Read/Write | Gets the town or city. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it becomes AddressType.Conflicting. This field is only used for structured addresses. For this type, it's mandatory. |
+| [Type](./type/) | Read-only | Gets the address type. The address type is automatically set by either setting street / house number or address line 1 and 2. Before setting the fields, the address type is Undetermined. If fields of both types are set, the address type becomes Conflicting. |

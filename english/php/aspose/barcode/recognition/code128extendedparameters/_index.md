@@ -21,16 +21,16 @@ Stores special data of Code128 recognized barcode Represents the recognized barc
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/code128extendedparameters/code128extendedparameters/) |  |
+| [__construct](./code128extendedparameters/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isEmpty](/php/aspose/barcode/recognition/code128extendedparameters/isempty/) | No |  |
+| [isEmpty](./isempty/) | No |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Code128DataPortions](/php/aspose/barcode/recognition/code128extendedparameters/code128dataportions/) | Read-only | Gets Code128DataPortion array of recognized Code128 barcode Value: Array of the Code128DataPortion. |
+| [Code128DataPortions](./code128dataportions/) | Read-only | Gets Code128DataPortion array of recognized Code128 barcode Value: Array of the Code128DataPortion. |

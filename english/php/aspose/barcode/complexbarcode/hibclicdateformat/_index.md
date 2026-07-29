@@ -21,11 +21,11 @@ Specifies the different types of date formats for HIBC LIC.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MMDDYY](/php/aspose/barcode/complexbarcode/hibclicdateformat/mmddyy/) | `2` | MMDDYY format. |
-| [MMYY](/php/aspose/barcode/complexbarcode/hibclicdateformat/mmyy/) | `1` | MMYY format. |
-| [NONE](/php/aspose/barcode/complexbarcode/hibclicdateformat/none/) | `7` | Do not encode expiry date. |
-| [YYJJJ](/php/aspose/barcode/complexbarcode/hibclicdateformat/yyjjj/) | `5` | Julian date format. |
-| [YYJJJHH](/php/aspose/barcode/complexbarcode/hibclicdateformat/yyjjjhh/) | `6` | Julian date format with hours. |
-| [YYMMDD](/php/aspose/barcode/complexbarcode/hibclicdateformat/yymmdd/) | `3` | YYMMDD format. |
-| [YYMMDDHH](/php/aspose/barcode/complexbarcode/hibclicdateformat/yymmddhh/) | `4` | YYMMDDHH format. |
-| [YYYYMMDD](/php/aspose/barcode/complexbarcode/hibclicdateformat/yyyymmdd/) | `0` | YYYYMMDD format. Will be encoded in additional supplemental data. |
+| [MMDDYY](./mmddyy/) | `2` | MMDDYY format. |
+| [MMYY](./mmyy/) | `1` | MMYY format. |
+| [NONE](./none/) | `7` | Do not encode expiry date. |
+| [YYJJJ](./yyjjj/) | `5` | Julian date format. |
+| [YYJJJHH](./yyjjjhh/) | `6` | Julian date format with hours. |
+| [YYMMDD](./yymmdd/) | `3` | YYMMDD format. |
+| [YYMMDDHH](./yymmddhh/) | `4` | YYMMDDHH format. |
+| [YYYYMMDD](./yyyymmdd/) | `0` | YYYYMMDD format. Will be encoded in additional supplemental data. |

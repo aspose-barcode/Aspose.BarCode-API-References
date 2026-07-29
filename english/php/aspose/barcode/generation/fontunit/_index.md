@@ -21,12 +21,12 @@ Defines a particular format for text, including font face, size, and style attri
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/fontunit/fontunit/) |  |
+| [__construct](./fontunit/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [FamilyName](/php/aspose/barcode/generation/fontunit/familyname/) | Read/Write | Gets the face name of this Font. |
-| [Size](/php/aspose/barcode/generation/fontunit/size/) | Read-only | Gets size of this FontUnit in Unit value. |
-| [Style](/php/aspose/barcode/generation/fontunit/style/) | Read/Write | Gets style information for this FontUnit. |
+| [FamilyName](./familyname/) | Read/Write | Gets the face name of this Font. |
+| [Size](./size/) | Read-only | Gets size of this FontUnit in Unit value. |
+| [Style](./style/) | Read/Write | Gets style information for this FontUnit. |

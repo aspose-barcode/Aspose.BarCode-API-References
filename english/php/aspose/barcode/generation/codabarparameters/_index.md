@@ -21,15 +21,15 @@ Codabar parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/codabarparameters/codabarparameters/) |  |
+| [__construct](./codabarparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ChecksumMode](/php/aspose/barcode/generation/codabarparameters/checksummode/) | Read/Write | Get the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See (getChecksumMode/setChecksumMode). |
-| [CodabarChecksumMode](/php/aspose/barcode/generation/codabarparameters/codabarchecksummode/) | Read/Write | Get the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode::MOD_16. To enable checksum calculation set value EnableChecksum::YES to property EnableChecksum. |
-| [CodabarStartSymbol](/php/aspose/barcode/generation/codabarparameters/codabarstartsymbol/) | Read/Write | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol::A |
-| [CodabarStopSymbol](/php/aspose/barcode/generation/codabarparameters/codabarstopsymbol/) | Read/Write | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol::A |
-| [StartSymbol](/php/aspose/barcode/generation/codabarparameters/startsymbol/) | Read/Write | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
-| [StopSymbol](/php/aspose/barcode/generation/codabarparameters/stopsymbol/) | Read/Write | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
+| [ChecksumMode](./checksummode/) | Read/Write | Get the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode.Mod16. To enable checksum calculation set value EnableChecksum.Yes to property EnableChecksum. See (getChecksumMode/setChecksumMode). |
+| [CodabarChecksumMode](./codabarchecksummode/) | Read/Write | Get the checksum algorithm for Codabar barcodes. Default value: CodabarChecksumMode::MOD_16. To enable checksum calculation set value EnableChecksum::YES to property EnableChecksum. |
+| [CodabarStartSymbol](./codabarstartsymbol/) | Read/Write | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol::A |
+| [CodabarStopSymbol](./codabarstopsymbol/) | Read/Write | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol::A |
+| [StartSymbol](./startsymbol/) | Read/Write | Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |
+| [StopSymbol](./stopsymbol/) | Read/Write | Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A |

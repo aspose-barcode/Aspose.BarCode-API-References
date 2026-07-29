@@ -21,7 +21,7 @@ url: /php/aspose/barcode/complexbarcode/mailmark2dtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/php/aspose/barcode/complexbarcode/mailmark2dtype/auto/) | `0` | Auto determine |
-| [TYPE_29](/php/aspose/barcode/complexbarcode/mailmark2dtype/type_29/) | `3` | 16 x 48 modules |
-| [TYPE_7](/php/aspose/barcode/complexbarcode/mailmark2dtype/type_7/) | `1` | 24 x 24 modules |
-| [TYPE_9](/php/aspose/barcode/complexbarcode/mailmark2dtype/type_9/) | `2` | 32 x 32 modules |
+| [AUTO](./auto/) | `0` | Auto determine |
+| [TYPE_29](./type_29/) | `3` | 16 x 48 modules |
+| [TYPE_7](./type_7/) | `1` | 24 x 24 modules |
+| [TYPE_9](./type_9/) | `2` | 32 x 32 modules |

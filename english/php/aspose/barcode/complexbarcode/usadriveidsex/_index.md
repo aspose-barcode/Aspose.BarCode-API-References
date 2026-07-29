@@ -21,7 +21,7 @@ Enum for Sex field in the US Driver's License
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FEMALE](/php/aspose/barcode/complexbarcode/usadriveidsex/female/) | `2` | Female — indicates that the holder's sex is defined as female. |
-| [MALE](/php/aspose/barcode/complexbarcode/usadriveidsex/male/) | `1` | Male — indicates that the holder's sex is defined as male. |
-| [NONE](/php/aspose/barcode/complexbarcode/usadriveidsex/none/) | `0` | Not filled - equal to NONE |
-| [NOT_SPECIFIED](/php/aspose/barcode/complexbarcode/usadriveidsex/not_specified/) | `9` | Not specified |
+| [FEMALE](./female/) | `2` | Female — indicates that the holder's sex is defined as female. |
+| [MALE](./male/) | `1` | Male — indicates that the holder's sex is defined as male. |
+| [NONE](./none/) | `0` | Not filled - equal to NONE |
+| [NOT_SPECIFIED](./not_specified/) | `9` | Not specified |

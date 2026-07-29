@@ -21,11 +21,11 @@ Image parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/imageparameters/imageparameters/) |  |
+| [__construct](./imageparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Pdf](/php/aspose/barcode/generation/imageparameters/pdf/) | Read/Write | PDF parameters |
-| [Svg](/php/aspose/barcode/generation/imageparameters/svg/) | Read/Write | SVG parameters |
+| [Pdf](./pdf/) | Read/Write | PDF parameters |
+| [Svg](./svg/) | Read/Write | SVG parameters |

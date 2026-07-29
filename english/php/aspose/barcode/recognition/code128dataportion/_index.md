@@ -21,11 +21,11 @@ Contains the data of subtype for Code128 type barcode
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/code128dataportion/code128dataportion/) |  |
+| [__construct](./code128dataportion/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Code128SubType](/php/aspose/barcode/recognition/code128dataportion/code128subtype/) | Read-only | Gets the type of Code128 subset |
-| [Data](/php/aspose/barcode/recognition/code128dataportion/data/) | Read-only | Gets the part of code text related to subtype. |
+| [Code128SubType](./code128subtype/) | Read-only | Gets the type of Code128 subset |
+| [Data](./data/) | Read-only | Gets the part of code text related to subtype. |

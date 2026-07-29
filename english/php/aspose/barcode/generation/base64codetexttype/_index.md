@@ -18,5 +18,5 @@ url: /php/aspose/barcode/generation/base64codetexttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BYTE](/php/aspose/barcode/generation/base64codetexttype/byte/) | `1` |  |
-| [STRING](/php/aspose/barcode/generation/base64codetexttype/string/) | `0` |  |
+| [BYTE](./byte/) | `1` |  |
+| [STRING](./string/) | `0` |  |

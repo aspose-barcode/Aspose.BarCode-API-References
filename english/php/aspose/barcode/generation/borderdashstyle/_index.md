@@ -21,8 +21,8 @@ Specifies the style of dashed border lines.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DASH](/php/aspose/barcode/generation/borderdashstyle/dash/) | `1` | Specifies a line consisting of dashes. |
-| [DASH_DOT](/php/aspose/barcode/generation/borderdashstyle/dash_dot/) | `3` | Specifies a line consisting of a repeating pattern of dash-dot. |
-| [DASH_DOT_DOT](/php/aspose/barcode/generation/borderdashstyle/dash_dot_dot/) | `4` | Specifies a line consisting of a repeating pattern of dash-dot-dot. |
-| [DOT](/php/aspose/barcode/generation/borderdashstyle/dot/) | `2` | Specifies a line consisting of dots. |
-| [SOLID](/php/aspose/barcode/generation/borderdashstyle/solid/) | `0` | Specifies a solid line. |
+| [DASH](./dash/) | `1` | Specifies a line consisting of dashes. |
+| [DASH_DOT](./dash_dot/) | `3` | Specifies a line consisting of a repeating pattern of dash-dot. |
+| [DASH_DOT_DOT](./dash_dot_dot/) | `4` | Specifies a line consisting of a repeating pattern of dash-dot-dot. |
+| [DOT](./dot/) | `2` | Specifies a line consisting of dots. |
+| [SOLID](./solid/) | `0` | Specifies a solid line. |

@@ -21,16 +21,16 @@ Alternative payment scheme instructions
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/alternativescheme/alternativescheme/) |  |
+| [__construct](./alternativescheme/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/alternativescheme/construct/) | Yes |  |
+| [construct](./construct/) | Yes |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Instruction](/php/aspose/barcode/complexbarcode/alternativescheme/instruction/) | Read/Write | Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction. |
+| [Instruction](./instruction/) | Read/Write | Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction. |

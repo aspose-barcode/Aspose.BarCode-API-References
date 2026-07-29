@@ -18,5 +18,5 @@ url: /php/aspose/barcode/internal/thriftconnection/
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [closeConnection](/php/aspose/barcode/internal/thriftconnection/closeconnection/) | No |  |
-| [openConnection](/php/aspose/barcode/internal/thriftconnection/openconnection/) | No |  |
+| [closeConnection](./closeconnection/) | No |  |
+| [openConnection](./openconnection/) | No |  |

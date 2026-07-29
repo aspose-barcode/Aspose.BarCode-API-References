@@ -21,7 +21,7 @@ Address type
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [COMBINED_ELEMENTS](/php/aspose/barcode/complexbarcode/addresstype/combined_elements/) | `2` | Combined address elements |
-| [CONFLICTING](/php/aspose/barcode/complexbarcode/addresstype/conflicting/) | `3` | Conflicting |
-| [STRUCTURED](/php/aspose/barcode/complexbarcode/addresstype/structured/) | `1` | Structured address |
-| [UNDETERMINED](/php/aspose/barcode/complexbarcode/addresstype/undetermined/) | `0` | Undetermined |
+| [COMBINED_ELEMENTS](./combined_elements/) | `2` | Combined address elements |
+| [CONFLICTING](./conflicting/) | `3` | Conflicting |
+| [STRUCTURED](./structured/) | `1` | Structured address |
+| [UNDETERMINED](./undetermined/) | `0` | Undetermined |

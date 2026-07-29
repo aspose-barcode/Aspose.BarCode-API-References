@@ -21,8 +21,8 @@ Specifies style information applied to text.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BOLD](/php/aspose/barcode/generation/fontstyle/bold/) | `1` | Bold text |
-| [ITALIC](/php/aspose/barcode/generation/fontstyle/italic/) | `2` | Italic text |
-| [REGULAR](/php/aspose/barcode/generation/fontstyle/regular/) | `0` | Normal text |
-| [STRIKEOUT](/php/aspose/barcode/generation/fontstyle/strikeout/) | `8` | Text with a line through the middle |
-| [UNDERLINE](/php/aspose/barcode/generation/fontstyle/underline/) | `4` | Underlined text |
+| [BOLD](./bold/) | `1` | Bold text |
+| [ITALIC](./italic/) | `2` | Italic text |
+| [REGULAR](./regular/) | `0` | Normal text |
+| [STRIKEOUT](./strikeout/) | `8` | Text with a line through the middle |
+| [UNDERLINE](./underline/) | `4` | Underlined text |

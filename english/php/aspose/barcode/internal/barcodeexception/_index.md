@@ -21,23 +21,23 @@ Class BarcodeException
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/internal/barcodeexception/barcodeexception/) | BarcodeException constructor. |
+| [__construct](./barcodeexception/) | BarcodeException constructor. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [setMessage](/php/aspose/barcode/internal/barcodeexception/setmessage/) | No |  |
+| [setMessage](./setmessage/) | No |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Kind](/php/aspose/barcode/internal/barcodeexception/kind/) | Read/Write |  |
-| [StackTrace](/php/aspose/barcode/internal/barcodeexception/stacktrace/) | Read/Write |  |
+| [Kind](./kind/) | Read/Write |  |
+| [StackTrace](./stacktrace/) | Read/Write |  |
 
 ## Constants
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MAX_LINES](/php/aspose/barcode/internal/barcodeexception/max_lines/) | `34` |  |
+| [MAX_LINES](./max_lines/) | `34` |  |

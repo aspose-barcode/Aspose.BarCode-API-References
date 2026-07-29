@@ -21,10 +21,10 @@ Stores a DataBar additional information of recognized barcode
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/databarextendedparameters/databarextendedparameters/) |  |
+| [__construct](./databarextendedparameters/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [is2DCompositeComponent](/php/aspose/barcode/recognition/databarextendedparameters/is2dcompositecomponent/) | No | Gets the DataBar 2D composite component flag. Default value is false. |
+| [is2DCompositeComponent](./is2dcompositecomponent/) | No | Gets the DataBar 2D composite component flag. Default value is false. |

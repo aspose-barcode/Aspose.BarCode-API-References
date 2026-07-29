@@ -21,23 +21,23 @@ Class for encoding and decoding the text embedded in the HIBC PAS code.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/hibcpascodetext/hibcpascodetext/) |  |
+| [__construct](./hibcpascodetext/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [addHIBCPASRecord](/php/aspose/barcode/complexbarcode/hibcpascodetext/addhibcpasrecord/) | No | Adds new record |
-| [addRecord](/php/aspose/barcode/complexbarcode/hibcpascodetext/addrecord/) | No | Adds new record |
-| [clear](/php/aspose/barcode/complexbarcode/hibcpascodetext/clear/) | No | Clears records list |
-| [construct](/php/aspose/barcode/complexbarcode/hibcpascodetext/construct/) | Yes | HIBCPASRecord constructor |
-| [initFromString](/php/aspose/barcode/complexbarcode/hibcpascodetext/initfromstring/) | No | Initializes instance from constructed codetext. |
+| [addHIBCPASRecord](./addhibcpasrecord/) | No | Adds new record |
+| [addRecord](./addrecord/) | No | Adds new record |
+| [clear](./clear/) | No | Clears records list |
+| [construct](./construct/) | Yes | HIBCPASRecord constructor |
+| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/complexbarcode/hibcpascodetext/barcodetype/) | Read/Write | Gets barcode type. |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/hibcpascodetext/constructedcodetext/) | Read-only | Constructs codetext |
-| [DataLocation](/php/aspose/barcode/complexbarcode/hibcpascodetext/datalocation/) | Read/Write | Identifies data location. |
-| [Records](/php/aspose/barcode/complexbarcode/hibcpascodetext/records/) | Read-only | Gets records list |
+| [BarcodeType](./barcodetype/) | Read/Write | Gets barcode type. |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |
+| [DataLocation](./datalocation/) | Read/Write | Identifies data location. |
+| [Records](./records/) | Read-only | Gets records list |

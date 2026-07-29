@@ -21,6 +21,6 @@ Enable checksum during generation for 1D barcodes. Default is treated as Yes for
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DEFAULT](/php/aspose/barcode/generation/enablechecksum/default/) | `0` | If checksum is required by the specification - it will be attached. |
-| [NO](/php/aspose/barcode/generation/enablechecksum/no/) | `2` | Do not use checksum. |
-| [YES](/php/aspose/barcode/generation/enablechecksum/yes/) | `1` | Always use checksum if possible. |
+| [DEFAULT](./default/) | `0` | If checksum is required by the specification - it will be attached. |
+| [NO](./no/) | `2` | Do not use checksum. |
+| [YES](./yes/) | `1` | Always use checksum if possible. |

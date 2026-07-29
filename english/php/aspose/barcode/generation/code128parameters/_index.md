@@ -21,11 +21,11 @@ Code128 parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/code128parameters/code128parameters/) |  |
+| [__construct](./code128parameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Code128EncodeMode](/php/aspose/barcode/generation/code128parameters/code128encodemode/) | Read/Write | Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto |
-| [EncodeMode](/php/aspose/barcode/generation/code128parameters/encodemode/) | Read/Write | Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto |
+| [Code128EncodeMode](./code128encodemode/) | Read/Write | Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto |
+| [EncodeMode](./encodemode/) | Read/Write | Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto |

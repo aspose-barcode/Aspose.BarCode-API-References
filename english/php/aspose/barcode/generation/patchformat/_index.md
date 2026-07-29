@@ -21,8 +21,8 @@ PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [A4](/php/aspose/barcode/generation/patchformat/a4/) | `1` | Generates A4 format page with PatchCodes as borders and optional QR in the center |
-| [A4_LANDSCAPE](/php/aspose/barcode/generation/patchformat/a4_landscape/) | `2` | Generates A4 landscape format page with PatchCodes as borders and optional QR in the center |
-| [PATCH_ONLY](/php/aspose/barcode/generation/patchformat/patch_only/) | `0` | Generates PatchCode only |
-| [US_LETTER](/php/aspose/barcode/generation/patchformat/us_letter/) | `3` | Generates US letter format page with PatchCodes as borders and optional QR in the center |
-| [US_LETTER_LANDSCAPE](/php/aspose/barcode/generation/patchformat/us_letter_landscape/) | `4` | Generates US letter landscape format page with PatchCodes as borders and optional QR in the center |
+| [A4](./a4/) | `1` | Generates A4 format page with PatchCodes as borders and optional QR in the center |
+| [A4_LANDSCAPE](./a4_landscape/) | `2` | Generates A4 landscape format page with PatchCodes as borders and optional QR in the center |
+| [PATCH_ONLY](./patch_only/) | `0` | Generates PatchCode only |
+| [US_LETTER](./us_letter/) | `3` | Generates US letter format page with PatchCodes as borders and optional QR in the center |
+| [US_LETTER_LANDSCAPE](./us_letter_landscape/) | `4` | Generates US letter landscape format page with PatchCodes as borders and optional QR in the center |

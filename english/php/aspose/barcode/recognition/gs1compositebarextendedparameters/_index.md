@@ -21,13 +21,13 @@ Stores special data of recognized barcode
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/gs1compositebarextendedparameters/gs1compositebarextendedparameters/) |  |
+| [__construct](./gs1compositebarextendedparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [OneDCodeText](/php/aspose/barcode/recognition/gs1compositebarextendedparameters/onedcodetext/) | Read-only | Gets the 1D (linear) barcode value of GS1 Composite Value: 1D barcode value |
-| [OneDType](/php/aspose/barcode/recognition/gs1compositebarextendedparameters/onedtype/) | Read-only | Gets the 1D (linear) barcode type of GS1 Composite Value: 2D barcode type |
-| [TwoDCodeText](/php/aspose/barcode/recognition/gs1compositebarextendedparameters/twodcodetext/) | Read-only | Gets the 2D barcode value of GS1 Composite Value: 2D barcode value |
-| [TwoDType](/php/aspose/barcode/recognition/gs1compositebarextendedparameters/twodtype/) | Read-only | Gets the 2D barcode type of GS1 Composite Value: 2D barcode type |
+| [OneDCodeText](./onedcodetext/) | Read-only | Gets the 1D (linear) barcode value of GS1 Composite Value: 1D barcode value |
+| [OneDType](./onedtype/) | Read-only | Gets the 1D (linear) barcode type of GS1 Composite Value: 2D barcode type |
+| [TwoDCodeText](./twodcodetext/) | Read-only | Gets the 2D barcode value of GS1 Composite Value: 2D barcode value |
+| [TwoDType](./twodtype/) | Read-only | Gets the 2D barcode type of GS1 Composite Value: 2D barcode type |

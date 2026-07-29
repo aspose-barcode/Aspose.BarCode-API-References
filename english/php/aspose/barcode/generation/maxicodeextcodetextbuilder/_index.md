@@ -21,16 +21,16 @@ Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of M
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/maxicodeextcodetextbuilder/maxicodeextcodetextbuilder/) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [__construct](./maxicodeextcodetextbuilder/) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [init](/php/aspose/barcode/generation/maxicodeextcodetextbuilder/init/) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [init](./init/) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ExtCodetextBuilderType](/php/aspose/barcode/generation/maxicodeextcodetextbuilder/extcodetextbuildertype/) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [ExtCodetextBuilderType](./extcodetextbuildertype/) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |

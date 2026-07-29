@@ -21,13 +21,13 @@ Barcode image border parameters
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/borderparameters/borderparameters/) |  |
+| [__construct](./borderparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Color](/php/aspose/barcode/generation/borderparameters/color/) | Read/Write | Border color. Default value: #000000 |
-| [DashStyle](/php/aspose/barcode/generation/borderparameters/dashstyle/) | Read/Write | Border dash style. Default value: BorderDashStyle::SOLID. |
-| [Visible](/php/aspose/barcode/generation/borderparameters/visible/) | Read/Write | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
-| [Width](/php/aspose/barcode/generation/borderparameters/width/) | Read/Write | Border width. Default value: 0. Ignored if Visible is set to false. |
+| [Color](./color/) | Read/Write | Border color. Default value: #000000 |
+| [DashStyle](./dashstyle/) | Read/Write | Border dash style. Default value: BorderDashStyle::SOLID. |
+| [Visible](./visible/) | Read/Write | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
+| [Width](./width/) | Read/Write | Border width. Default value: 0. Ignored if Visible is set to false. |

@@ -21,17 +21,17 @@ Codetext parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/codetextparameters/codetextparameters/) |  |
+| [__construct](./codetextparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Alignment](/php/aspose/barcode/generation/codetextparameters/alignment/) | Read/Write | Gets the alignment of the code text. Default value: TextAlignment::CENTER. |
-| [Color](/php/aspose/barcode/generation/codetextparameters/color/) | Read/Write | Specify the displaying CodeText's Color. Default value BLACK. |
-| [Font](/php/aspose/barcode/generation/codetextparameters/font/) | Read/Write | Specify the displaying CodeText's font. Default value: Arial 5pt regular. Ignored if FontMode is set to FontMode::AUTO. |
-| [FontMode](/php/aspose/barcode/generation/codetextparameters/fontmode/) | Read/Write | Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode::AUTO especially in AutoSizeMode.NEAREST or AutoSizeMode::INTERPOLATION. Default value: FontMode::AUTO. |
-| [Location](/php/aspose/barcode/generation/codetextparameters/location/) | Read/Write | Specify the displaying CodeText Location, set to CodeLocation::NONE to hide CodeText. Default value: CodeLocation::BELOW. |
-| [NoWrap](/php/aspose/barcode/generation/codetextparameters/nowrap/) | Read/Write | Specify word wraps (line breaks) within text. |
-| [Space](/php/aspose/barcode/generation/codetextparameters/space/) | Read/Write | Space between the CodeText and the BarCode in Unit value. Default value: 2pt. Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
-| [TwoDDisplayText](/php/aspose/barcode/generation/codetextparameters/twoddisplaytext/) | Read/Write | Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode |
+| [Alignment](./alignment/) | Read/Write | Gets the alignment of the code text. Default value: TextAlignment::CENTER. |
+| [Color](./color/) | Read/Write | Specify the displaying CodeText's Color. Default value BLACK. |
+| [Font](./font/) | Read/Write | Specify the displaying CodeText's font. Default value: Arial 5pt regular. Ignored if FontMode is set to FontMode::AUTO. |
+| [FontMode](./fontmode/) | Read/Write | Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode::AUTO especially in AutoSizeMode.NEAREST or AutoSizeMode::INTERPOLATION. Default value: FontMode::AUTO. |
+| [Location](./location/) | Read/Write | Specify the displaying CodeText Location, set to CodeLocation::NONE to hide CodeText. Default value: CodeLocation::BELOW. |
+| [NoWrap](./nowrap/) | Read/Write | Specify word wraps (line breaks) within text. |
+| [Space](./space/) | Read/Write | Space between the CodeText and the BarCode in Unit value. Default value: 2pt. Ignored for EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
+| [TwoDDisplayText](./twoddisplaytext/) | Read/Write | Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode |

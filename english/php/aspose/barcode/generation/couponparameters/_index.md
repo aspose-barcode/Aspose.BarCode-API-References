@@ -21,10 +21,10 @@ Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/couponparameters/couponparameters/) |  |
+| [__construct](./couponparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [SupplementSpace](/php/aspose/barcode/generation/couponparameters/supplementspace/) | Read/Write | Space between main the BarCode and supplement BarCode in Unit value. |
+| [SupplementSpace](./supplementspace/) | Read/Write | Space between main the BarCode and supplement BarCode in Unit value. |

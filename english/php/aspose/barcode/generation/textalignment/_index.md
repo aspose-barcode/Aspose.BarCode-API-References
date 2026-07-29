@@ -21,6 +21,6 @@ Text alignment.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CENTER](/php/aspose/barcode/generation/textalignment/center/) | `"1"` | Center position. |
-| [LEFT](/php/aspose/barcode/generation/textalignment/left/) | `"0"` | Left position. |
-| [RIGHT](/php/aspose/barcode/generation/textalignment/right/) | `"2"` | Right position. |
+| [CENTER](./center/) | `"1"` | Center position. |
+| [LEFT](./left/) | `"0"` | Left position. |
+| [RIGHT](./right/) | `"2"` | Right position. |

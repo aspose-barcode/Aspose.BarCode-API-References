@@ -21,13 +21,13 @@ Represents the recognized barcode's region and barcode angle This sample shows h
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/barcoderegionparameters/barcoderegionparameters/) |  |
+| [__construct](./barcoderegionparameters/) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Angle](/php/aspose/barcode/recognition/barcoderegionparameters/angle/) | Read-only |  |
-| [Points](/php/aspose/barcode/recognition/barcoderegionparameters/points/) | Read-only |  |
-| [Quadrangle](/php/aspose/barcode/recognition/barcoderegionparameters/quadrangle/) | Read-only |  |
-| [Rectangle](/php/aspose/barcode/recognition/barcoderegionparameters/rectangle/) | Read-only |  |
+| [Angle](./angle/) | Read-only |  |
+| [Points](./points/) | Read-only |  |
+| [Quadrangle](./quadrangle/) | Read-only |  |
+| [Rectangle](./rectangle/) | Read-only |  |

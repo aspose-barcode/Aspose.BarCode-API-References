@@ -21,7 +21,7 @@ Base class for encoding and decoding the text embedded in the MaxiCode code. Thi
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/complexbarcode/maxicodecodetext/barcodetype/) | Read-only | Gets barcode type. |
-| [ECIEncoding](/php/aspose/barcode/complexbarcode/maxicodecodetext/eciencoding/) | Read/Write | Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. |
-| [EncodeMode](/php/aspose/barcode/complexbarcode/maxicodecodetext/encodemode/) | Read/Write | Gets a MaxiCode encode mode. Default value: Auto. |
-| [MaxiCodeEncodeMode](/php/aspose/barcode/complexbarcode/maxicodecodetext/maxicodeencodemode/) | Read/Write | Gets a MaxiCode encode mode. |
+| [BarcodeType](./barcodetype/) | Read-only | Gets barcode type. |
+| [ECIEncoding](./eciencoding/) | Read/Write | Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. |
+| [EncodeMode](./encodemode/) | Read/Write | Gets a MaxiCode encode mode. Default value: Auto. |
+| [MaxiCodeEncodeMode](./maxicodeencodemode/) | Read/Write | Gets a MaxiCode encode mode. |

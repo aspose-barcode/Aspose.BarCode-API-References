@@ -21,11 +21,11 @@ Class for CMYK color. A null instance means CMYK is not used, and default RGB co
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/cmykcolor/cmykcolor/) | Initializes a new instance of the CMYKColor class from CMYK values. CMYK values are expected in the range 0–100. |
+| [__construct](./cmykcolor/) | Initializes a new instance of the CMYKColor class from CMYK values. CMYK values are expected in the range 0–100. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [formatCMYK](/php/aspose/barcode/generation/cmykcolor/formatcmyk/) | No | Format this CMYKColor into a string "C_M_Y_K", multiplying each internal component (0–1) by 100 and rounding. |
-| [parseCMYK](/php/aspose/barcode/generation/cmykcolor/parsecmyk/) | Yes | Parse a CMYK string of the form "C_M_Y_K" into a CMYKColor instance. |
+| [formatCMYK](./formatcmyk/) | No | Format this CMYKColor into a string "C_M_Y_K", multiplying each internal component (0–1) by 100 and rounding. |
+| [parseCMYK](./parsecmyk/) | Yes | Parse a CMYK string of the form "C_M_Y_K" into a CMYKColor instance. |

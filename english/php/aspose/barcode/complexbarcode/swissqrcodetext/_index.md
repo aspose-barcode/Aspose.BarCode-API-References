@@ -21,19 +21,19 @@ Class for encoding and decoding the text embedded in the SwissQR code.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/complexbarcode/swissqrcodetext/swissqrcodetext/) | Creates an instance of SwissQRCodetext. |
+| [__construct](./swissqrcodetext/) | Creates an instance of SwissQRCodetext. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/complexbarcode/swissqrcodetext/construct/) | Yes |  |
-| [initFromString](/php/aspose/barcode/complexbarcode/swissqrcodetext/initfromstring/) | No | Initializes Bill with constructed codetext. |
+| [construct](./construct/) | Yes |  |
+| [initFromString](./initfromstring/) | No | Initializes Bill with constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [BarcodeType](/php/aspose/barcode/complexbarcode/swissqrcodetext/barcodetype/) | Read-only | Gets barcode type. |
-| [Bill](/php/aspose/barcode/complexbarcode/swissqrcodetext/bill/) | Read-only | SwissQR bill data |
-| [ConstructedCodetext](/php/aspose/barcode/complexbarcode/swissqrcodetext/constructedcodetext/) | Read-only | Construct codetext from SwissQR bill data |
+| [BarcodeType](./barcodetype/) | Read-only | Gets barcode type. |
+| [Bill](./bill/) | Read-only | SwissQR bill data |
+| [ConstructedCodetext](./constructedcodetext/) | Read-only | Construct codetext from SwissQR bill data |

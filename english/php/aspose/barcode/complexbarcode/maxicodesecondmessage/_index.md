@@ -21,4 +21,4 @@ Base class for encoding and decoding second message for MaxiCode barcode.
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Message](/php/aspose/barcode/complexbarcode/maxicodesecondmessage/message/) | Read-only | Gets constructed second message |
+| [Message](./message/) | Read-only | Gets constructed second message |

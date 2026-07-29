@@ -18,12 +18,12 @@ url: /php/aspose/barcode/internal/licensemanager/
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [loadLicense](/php/aspose/barcode/internal/licensemanager/loadlicense/) | No |  |
-| [resetLicenseData](/php/aspose/barcode/internal/licensemanager/resetlicensedata/) | No |  |
+| [loadLicense](./loadlicense/) | No |  |
+| [resetLicenseData](./resetlicensedata/) | No |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Instance](/php/aspose/barcode/internal/licensemanager/instance/) | Read-only |  |
-| [LicenseContent](/php/aspose/barcode/internal/licensemanager/licensecontent/) | Read/Write |  |
+| [Instance](./instance/) | Read-only |  |
+| [LicenseContent](./licensecontent/) | Read/Write |  |

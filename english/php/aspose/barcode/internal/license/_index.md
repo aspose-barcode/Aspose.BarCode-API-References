@@ -18,21 +18,21 @@ url: /php/aspose/barcode/internal/license/
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/internal/license/license/) |  |
+| [__construct](./license/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isLicensed](/php/aspose/barcode/internal/license/islicensed/) | No |  |
-| [prepareLicenseContent](/php/aspose/barcode/internal/license/preparelicensecontent/) | Yes | This method is intended only for cases where license content is passed to the methods readBarCodes() and generateBarCodeImage() with the flag $passLicense = true) |
-| [resetLicense](/php/aspose/barcode/internal/license/resetlicense/) | No |  |
-| [setLicense](/php/aspose/barcode/internal/license/setlicense/) | No |  |
-| [setLicenseFromBase64](/php/aspose/barcode/internal/license/setlicensefrombase64/) | No |  |
-| [setLicenseFromFile](/php/aspose/barcode/internal/license/setlicensefromfile/) | No |  |
+| [isLicensed](./islicensed/) | No |  |
+| [prepareLicenseContent](./preparelicensecontent/) | Yes | This method is intended only for cases where license content is passed to the methods readBarCodes() and generateBarCodeImage() with the flag $passLicense = true) |
+| [resetLicense](./resetlicense/) | No |  |
+| [setLicense](./setlicense/) | No |  |
+| [setLicenseFromBase64](./setlicensefrombase64/) | No |  |
+| [setLicenseFromFile](./setlicensefromfile/) | No |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [LicenseContent](/php/aspose/barcode/internal/license/licensecontent/) | Read-only |  |
+| [LicenseContent](./licensecontent/) | Read-only |  |

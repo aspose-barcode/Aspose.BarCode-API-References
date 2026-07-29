@@ -18,27 +18,27 @@ url: /php/aspose/barcode/internal/rectangle/
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/internal/rectangle/rectangle/) | Rectangle constructor. |
+| [__construct](./rectangle/) | Rectangle constructor. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](/php/aspose/barcode/internal/rectangle/construct/) | Yes | Rectangle constructor. |
-| [EMPTY](/php/aspose/barcode/internal/rectangle/empty/) | Yes | Represents a Quadrangle structure with its properties left uninitialized.Value: Quadrangle |
-| [fromLTRB](/php/aspose/barcode/internal/rectangle/fromltrb/) | Yes | FromLTRB Shared Method Produces a Rectangle structure from left, top, right, and bottom coordinates. |
-| [intersect](/php/aspose/barcode/internal/rectangle/intersect/) | Yes | Intersect Shared Method Produces a new Rectangle by intersecting 2 existing Rectangles. Returns null if there is no intersection. |
-| [isEmpty](/php/aspose/barcode/internal/rectangle/isempty/) | No |  |
+| [construct](./construct/) | Yes | Rectangle constructor. |
+| [EMPTY](./empty/) | Yes | Represents a Quadrangle structure with its properties left uninitialized.Value: Quadrangle |
+| [fromLTRB](./fromltrb/) | Yes | FromLTRB Shared Method Produces a Rectangle structure from left, top, right, and bottom coordinates. |
+| [intersect](./intersect/) | Yes | Intersect Shared Method Produces a new Rectangle by intersecting 2 existing Rectangles. Returns null if there is no intersection. |
+| [isEmpty](./isempty/) | No |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Bottom](/php/aspose/barcode/internal/rectangle/bottom/) | Read-only |  |
-| [Height](/php/aspose/barcode/internal/rectangle/height/) | Read-only |  |
-| [Left](/php/aspose/barcode/internal/rectangle/left/) | Read-only |  |
-| [Right](/php/aspose/barcode/internal/rectangle/right/) | Read-only |  |
-| [Top](/php/aspose/barcode/internal/rectangle/top/) | Read-only |  |
-| [Width](/php/aspose/barcode/internal/rectangle/width/) | Read-only |  |
-| [X](/php/aspose/barcode/internal/rectangle/x/) | Read-only |  |
-| [Y](/php/aspose/barcode/internal/rectangle/y/) | Read-only |  |
+| [Bottom](./bottom/) | Read-only |  |
+| [Height](./height/) | Read-only |  |
+| [Left](./left/) | Read-only |  |
+| [Right](./right/) | Read-only |  |
+| [Top](./top/) | Read-only |  |
+| [Width](./width/) | Read-only |  |
+| [X](./x/) | Read-only |  |
+| [Y](./y/) | Read-only |  |

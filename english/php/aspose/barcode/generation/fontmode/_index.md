@@ -21,5 +21,5 @@ Font size mode.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/php/aspose/barcode/generation/fontmode/auto/) | `"0"` | Automatically calculate Font size based on barcode size. |
-| [MANUAL](/php/aspose/barcode/generation/fontmode/manual/) | `"1"` | Use Font sized defined by user. |
+| [AUTO](./auto/) | `"0"` | Automatically calculate Font size based on barcode size. |
+| [MANUAL](./manual/) | `"1"` | Use Font sized defined by user. |

@@ -21,7 +21,7 @@ Type of 2D component This sample shows how to create and save a GS1 Composite Ba
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/php/aspose/barcode/generation/twodcomponenttype/auto/) | `0` | Auto select type of 2D component |
-| [CC_A](/php/aspose/barcode/generation/twodcomponenttype/cc_a/) | `1` | CC-A type of 2D component. It is a structural variant of MicroPDF417 |
-| [CC_B](/php/aspose/barcode/generation/twodcomponenttype/cc_b/) | `2` | CC-B type of 2D component. It is a MicroPDF417 symbol. |
-| [CC_C](/php/aspose/barcode/generation/twodcomponenttype/cc_c/) | `3` | CC-C type of 2D component. It is a PDF417 symbol. |
+| [AUTO](./auto/) | `0` | Auto select type of 2D component |
+| [CC_A](./cc_a/) | `1` | CC-A type of 2D component. It is a structural variant of MicroPDF417 |
+| [CC_B](./cc_b/) | `2` | CC-B type of 2D component. It is a MicroPDF417 symbol. |
+| [CC_C](./cc_c/) | `3` | CC-C type of 2D component. It is a PDF417 symbol. |

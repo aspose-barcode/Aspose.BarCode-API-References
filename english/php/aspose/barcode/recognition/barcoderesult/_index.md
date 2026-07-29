@@ -21,22 +21,22 @@ Stores recognized barcode data like SingleDecodeType type, {string} codetext, Ba
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/recognition/barcoderesult/barcoderesult/) |  |
+| [__construct](./barcoderesult/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [getCodeText](/php/aspose/barcode/recognition/barcoderesult/getcodetext/) | No | Gets the code text with encoding. |
+| [getCodeText](./getcodetext/) | No | Gets the code text with encoding. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [CodeBytes](/php/aspose/barcode/recognition/barcoderesult/codebytes/) | Read-only |  |
-| [CodeType](/php/aspose/barcode/recognition/barcoderesult/codetype/) | Read-only |  |
-| [CodeTypeName](/php/aspose/barcode/recognition/barcoderesult/codetypename/) | Read-only |  |
-| [Confidence](/php/aspose/barcode/recognition/barcoderesult/confidence/) | Read-only |  |
-| [Extended](/php/aspose/barcode/recognition/barcoderesult/extended/) | Read-only |  |
-| [ReadingQuality](/php/aspose/barcode/recognition/barcoderesult/readingquality/) | Read-only |  |
-| [Region](/php/aspose/barcode/recognition/barcoderesult/region/) | Read-only |  |
+| [CodeBytes](./codebytes/) | Read-only |  |
+| [CodeType](./codetype/) | Read-only |  |
+| [CodeTypeName](./codetypename/) | Read-only |  |
+| [Confidence](./confidence/) | Read-only |  |
+| [Extended](./extended/) | Read-only |  |
+| [ReadingQuality](./readingquality/) | Read-only |  |
+| [Region](./region/) | Read-only |  |

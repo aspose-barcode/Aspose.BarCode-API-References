@@ -21,18 +21,18 @@ GS1 Composite bar parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](/php/aspose/barcode/generation/gs1compositebarparameters/gs1compositebarparameters/) |  |
+| [__construct](./gs1compositebarparameters/) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isAllowOnlyGS1Encoding](/php/aspose/barcode/generation/gs1compositebarparameters/isallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
-| [setAllowOnlyGS1Encoding](/php/aspose/barcode/generation/gs1compositebarparameters/setallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
+| [isAllowOnlyGS1Encoding](./isallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
+| [setAllowOnlyGS1Encoding](./setallowonlygs1encoding/) | No | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [LinearComponentType](/php/aspose/barcode/generation/gs1compositebarparameters/linearcomponenttype/) | Read/Write | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked |
-| [TwoDComponentType](/php/aspose/barcode/generation/gs1compositebarparameters/twodcomponenttype/) | Read/Write | 2D component type |
+| [LinearComponentType](./linearcomponenttype/) | Read/Write | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked |
+| [TwoDComponentType](./twodcomponenttype/) | Read/Write | 2D component type |
