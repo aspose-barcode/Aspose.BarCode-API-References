@@ -16,6 +16,15 @@ url: /php/aspose/barcode/generation/
 | Class | Description |
 | --- | --- |
 | [AustralianPostParameters](/php/aspose/barcode/generation/australianpostparameters/) | AustralianPost barcode parameters. |
+| [AztecParameters](/php/aspose/barcode/generation/aztecparameters/) | Aztec parameters. |
+| [BarcodeGenerator](/php/aspose/barcode/generation/barcodegenerator/) | BarcodeGenerator for backend barcode images generation. supported symbologies: 1D: Codabar, Code11, Code128, Code39Stand |
+| [BarcodeParameters](/php/aspose/barcode/generation/barcodeparameters/) | Barcode generation parameters. |
+| [BaseGenerationParameters](/php/aspose/barcode/generation/basegenerationparameters/) | Barcode image generation parameters. |
+| [BorderParameters](/php/aspose/barcode/generation/borderparameters/) | Barcode image border parameters |
+| [CaptionParameters](/php/aspose/barcode/generation/captionparameters/) | Caption parameters. |
+| [CMYKColor](/php/aspose/barcode/generation/cmykcolor/) | Class for CMYK color. A null instance means CMYK is not used, and default RGB color is in use. |
+| [CodabarParameters](/php/aspose/barcode/generation/codabarparameters/) | Codabar parameters. |
+| [CodablockParameters](/php/aspose/barcode/generation/codablockparameters/) | Codablock parameters. |
 | [Code128Parameters](/php/aspose/barcode/generation/code128parameters/) | Code128 parameters. |
 | [Code16KParameters](/php/aspose/barcode/generation/code16kparameters/) | Code16K parameters. |
 | [CodetextParameters](/php/aspose/barcode/generation/codetextparameters/) | Codetext parameters. |
@@ -53,6 +62,14 @@ url: /php/aspose/barcode/generation/
 | Enum | Description |
 | --- | --- |
 | [AutoSizeMode](/php/aspose/barcode/generation/autosizemode/) | Specifies the different types of automatic sizing modes. Default value is AutoSizeMode::NONE. This sample shows how to c |
+| [AztecEncodeMode](/php/aspose/barcode/generation/aztecencodemode/) | Encoding mode for Aztec barcodes. |
+| [AztecSymbolMode](/php/aspose/barcode/generation/aztecsymbolmode/) | Specifies the Aztec symbol mode. |
+| [BarCodeImageFormat](/php/aspose/barcode/generation/barcodeimageformat/) | Specifies the file format of the image. |
+| [Base64CodeTextType](/php/aspose/barcode/generation/base64codetexttype/) |  |
+| [BorderDashStyle](/php/aspose/barcode/generation/borderdashstyle/) | Specifies the style of dashed border lines. |
+| [CodabarChecksumMode](/php/aspose/barcode/generation/codabarchecksummode/) | Specifies the checksum algorithm for Codabar |
+| [CodabarSymbol](/php/aspose/barcode/generation/codabarsymbol/) | Specifies the start or stop symbol of the Codabar barcode specification. |
+| [Code128EncodeMode](/php/aspose/barcode/generation/code128encodemode/) | Encoding mode for Code128 barcodes. specification. |
 | [CodeLocation](/php/aspose/barcode/generation/codelocation/) | Codetext location |
 | [DataMatrixEccType](/php/aspose/barcode/generation/datamatrixecctype/) | Specify the type of the ECC to encode. |
 | [DataMatrixEncodeMode](/php/aspose/barcode/generation/datamatrixencodemode/) | DataMatrix encoder's encoding mode, default to Auto |

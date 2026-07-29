@@ -15,6 +15,10 @@ url: /php/aspose/barcode/complexbarcode/
 
 | Class | Description |
 | --- | --- |
+| [Address](/php/aspose/barcode/complexbarcode/address/) | Address of creditor or debtor. You can either set street, house number, postal code and town (type structured address) o |
+| [AlternativeScheme](/php/aspose/barcode/complexbarcode/alternativescheme/) | Alternative payment scheme instructions |
+| [ComplexBarcodeGenerator](/php/aspose/barcode/complexbarcode/complexbarcodegenerator/) | ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation. This sample shows how to create an |
+| [ComplexCodetextReader](/php/aspose/barcode/complexbarcode/complexcodetextreader/) | ComplexCodetextReader decodes codetext to specified complex barcode type. This sample shows how to recognize and decode  |
 | [DataElement](/php/aspose/barcode/complexbarcode/dataelement/) | Represents a jurisdiction-specific data field used in documents, for example ElementID = "ZVA" with Value = "01". |
 | [HIBCLICCombinedCodetext](/php/aspose/barcode/complexbarcode/hibcliccombinedcodetext/) | Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data. |
 | [HIBCLICComplexCodetext](/php/aspose/barcode/complexbarcode/hibcliccomplexcodetext/) | Base class for encoding and decoding the text embedded in the HIBC LIC code. |
@@ -47,6 +51,7 @@ url: /php/aspose/barcode/complexbarcode/
 
 | Enum | Description |
 | --- | --- |
+| [AddressType](/php/aspose/barcode/complexbarcode/addresstype/) | Address type |
 | [ComplexCodetextType](/php/aspose/barcode/complexbarcode/complexcodetexttype/) |  |
 | [HIBCLICDateFormat](/php/aspose/barcode/complexbarcode/hibclicdateformat/) | Specifies the different types of date formats for HIBC LIC. |
 | [HIBCPASDataLocation](/php/aspose/barcode/complexbarcode/hibcpasdatalocation/) | HIBC PAS data location types. |

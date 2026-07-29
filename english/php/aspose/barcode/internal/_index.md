@@ -17,4 +17,9 @@ url: /php/aspose/barcode/internal/
 | --- | --- |
 | [BarcodeException](/php/aspose/barcode/internal/barcodeexception/) | Class BarcodeException |
 | [CommonUtility](/php/aspose/barcode/internal/commonutility/) |  |
+| [License](/php/aspose/barcode/internal/license/) |  |
+| [LicenseManager](/php/aspose/barcode/internal/licensemanager/) |  |
+| [Point](/php/aspose/barcode/internal/point/) |  |
+| [Rectangle](/php/aspose/barcode/internal/rectangle/) |  |
+| [ThriftConnection](/php/aspose/barcode/internal/thriftconnection/) |  |
 

@@ -12,13 +12,14 @@ is_root: true
 
 ## Aspose.BarCode for PHP via Java API Reference
 
-Total classes: **107** across **3** namespaces.
+Total classes: **165** across **4** namespaces.
 
 ## Namespaces
 
 | Namespace | Classes |
 | --- | --- |
-| [Aspose.Barcode.ComplexBarcode](/php/aspose/barcode/complexbarcode/) | 38 |
-| [Aspose.Barcode.Generation](/php/aspose/barcode/generation/) | 67 |
-| [Aspose.Barcode.Internal](/php/aspose/barcode/internal/) | 2 |
+| [Aspose.Barcode.ComplexBarcode](/php/aspose/barcode/complexbarcode/) | 43 |
+| [Aspose.Barcode.Generation](/php/aspose/barcode/generation/) | 84 |
+| [Aspose.Barcode.Internal](/php/aspose/barcode/internal/) | 7 |
+| [Aspose.Barcode.Recognition](/php/aspose/barcode/recognition/) | 31 |
 
