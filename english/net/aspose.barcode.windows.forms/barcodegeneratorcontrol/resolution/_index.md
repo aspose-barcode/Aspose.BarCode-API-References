@@ -3,7 +3,7 @@ title: BarCodeGeneratorControl.Resolution
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeGeneratorControl property. Gets or sets the resolution of the BarCode image. One value for both dimensions. Default value 96 dpi
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.barcode.windows.forms/barcodegeneratorcontrol/resolution/
 ---
 ## BarCodeGeneratorControl.Resolution property

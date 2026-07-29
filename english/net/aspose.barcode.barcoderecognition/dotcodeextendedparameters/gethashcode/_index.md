@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters.GetHashCode
 second_title: Aspose.BarCode for .NET API Reference
 description: DotCodeExtendedParameters method. Returns the hash code for this instance
 type: docs
-weight: 80
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/gethashcode/
 ---
 ## DotCodeExtendedParameters.GetHashCode method

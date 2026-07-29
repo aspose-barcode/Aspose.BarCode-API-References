@@ -16,7 +16,7 @@ public override string GetExtendedCodetext()
 
 ### Return Value
 
-Extended codetext as string
+Extended codetext as string.
 
 ### See Also
 

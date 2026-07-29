@@ -3,7 +3,7 @@ title: BarcodeParameters.HanXin
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. HanXin parameters
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.barcode.generation/barcodeparameters/hanxin/
 ---
 ## BarcodeParameters.HanXin property

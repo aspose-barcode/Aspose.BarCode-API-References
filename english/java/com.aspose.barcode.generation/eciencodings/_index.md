@@ -22,7 +22,7 @@ Extended Channel Interpretation Identifiers. It is used to tell the barcode read
 >      BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
 >      generator.setCodeText("12345TEXT");
 >      generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.ECIEncoding);
->      generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
+>      generator.getParameters().getBarcode().getQR().setECIEncoding(ECIEncodings.UTF8);
 >      generator.save("test.png");
 > ```
 ## Fields

@@ -27,18 +27,18 @@ Class for Jurisdiction specific fields for USA DL
 | [clear()](#clear--) | Clears all data elements |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findDataElement(String id, boolean isOpenOrCreate)](#findDataElement-java.lang.String-boolean-) | Searches for data element by 3-letter id |
+| [get(int index)](#get-int-) | Indexing by index number |
+| [get(String id)](#get-java.lang.String-) | Indexing by 3-letter element id |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns number of data elements |
-| [get_Item(int index)](#get-Item-int-) | Indexing by index number |
-| [get_Item(String id)](#get-Item-java.lang.String-) | Indexing by 3-letter element id |
 | [hashCode()](#hashCode--) |  |
 | [insert(int index, USADriveIdJurisdSubfile.DataElement node)](#insert-int-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-) | Inserts the specified DataElement at the given index. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Tries to remove element at index |
-| [removeAt(String id)](#removeAt-java.lang.String-) | Tries to remove element with 3-letter id |
-| [set_Item(int index, USADriveIdJurisdSubfile.DataElement value)](#set-Item-int-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-) | Indexing by index number |
-| [set_Item(String id, USADriveIdJurisdSubfile.DataElement value)](#set-Item-java.lang.String-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-) | Indexing by 3-letter element id |
+| [remove(int index)](#remove-int-) | Tries to remove element at index |
+| [remove(String id)](#remove-java.lang.String-) | Tries to remove element with 3-letter id |
+| [set(int index, USADriveIdJurisdSubfile.DataElement value)](#set-int-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-) | Indexing by index number |
+| [set(String id, USADriveIdJurisdSubfile.DataElement value)](#set-java.lang.String-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-) | Indexing by 3-letter element id |
+| [size()](#size--) | Returns number of data elements |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,29 +119,9 @@ Searches for data element by 3-letter id
 
 **Returns:**
 [DataElement](../../com.aspose.barcode.complexbarcode/dataelement) - Found data element
-### getClass() {#getClass--}
+### get(int index) {#get-int-}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getCount() {#getCount--}
-```
-public final int getCount()
-```
-
-
-Returns number of data elements
-
-**Returns:**
-int
-### get_Item(int index) {#get-Item-int-}
-```
-public final USADriveIdJurisdSubfile.DataElement get_Item(int index)
+public final USADriveIdJurisdSubfile.DataElement get(int index)
 ```
 
 
@@ -154,9 +134,9 @@ Indexing by index number
 
 **Returns:**
 [DataElement](../../com.aspose.barcode.complexbarcode/dataelement) - Corresponding DataElement
-### get_Item(String id) {#get-Item-java.lang.String-}
+### get(String id) {#get-java.lang.String-}
 ```
-public final USADriveIdJurisdSubfile.DataElement get_Item(String id)
+public final USADriveIdJurisdSubfile.DataElement get(String id)
 ```
 
 
@@ -169,6 +149,16 @@ Indexing by 3-letter element id
 
 **Returns:**
 [DataElement](../../com.aspose.barcode.complexbarcode/dataelement) - Corresponding DataElement
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -211,9 +201,9 @@ public final native void notifyAll()
 
 
 
-### removeAt(int index) {#removeAt-int-}
+### remove(int index) {#remove-int-}
 ```
-public final boolean removeAt(int index)
+public final boolean remove(int index)
 ```
 
 
@@ -226,9 +216,9 @@ Tries to remove element at index
 
 **Returns:**
 boolean - true if successful, false if out of range
-### removeAt(String id) {#removeAt-java.lang.String-}
+### remove(String id) {#remove-java.lang.String-}
 ```
-public final boolean removeAt(String id)
+public final boolean remove(String id)
 ```
 
 
@@ -241,9 +231,9 @@ Tries to remove element with 3-letter id
 
 **Returns:**
 boolean - true if successful, false if no such id
-### set_Item(int index, USADriveIdJurisdSubfile.DataElement value) {#set-Item-int-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-}
+### set(int index, USADriveIdJurisdSubfile.DataElement value) {#set-int-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-}
 ```
-public final void set_Item(int index, USADriveIdJurisdSubfile.DataElement value)
+public final void set(int index, USADriveIdJurisdSubfile.DataElement value)
 ```
 
 
@@ -255,9 +245,9 @@ Indexing by index number
 | index | int | Element index (int) |
 | value | [DataElement](../../com.aspose.barcode.complexbarcode/dataelement) |  |
 
-### set_Item(String id, USADriveIdJurisdSubfile.DataElement value) {#set-Item-java.lang.String-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-}
+### set(String id, USADriveIdJurisdSubfile.DataElement value) {#set-java.lang.String-com.aspose.barcode.complexbarcode.USADriveIdJurisdSubfile.DataElement-}
 ```
-public final void set_Item(String id, USADriveIdJurisdSubfile.DataElement value)
+public final void set(String id, USADriveIdJurisdSubfile.DataElement value)
 ```
 
 
@@ -269,6 +259,16 @@ Indexing by 3-letter element id
 | id | java.lang.String | 3-letter element id |
 | value | [DataElement](../../com.aspose.barcode.complexbarcode/dataelement) |  |
 
+### size() {#size--}
+```
+public final int size()
+```
+
+
+Returns number of data elements
+
+**Returns:**
+int
 ### toString() {#toString--}
 ```
 public String toString()

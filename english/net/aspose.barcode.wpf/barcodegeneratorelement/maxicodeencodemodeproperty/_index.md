@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.MaxiCodeEncodeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. MaxiCodeEncodeModeProperty
 type: docs
-weight: 2390
+weight: 2360
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/maxicodeencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.MaxiCodeEncodeModeProperty field

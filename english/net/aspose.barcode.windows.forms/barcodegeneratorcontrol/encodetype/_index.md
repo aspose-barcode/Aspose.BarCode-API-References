@@ -3,7 +3,7 @@ title: BarCodeGeneratorControl.EncodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeGeneratorControl property. BarCodes encode type symbology. Use EncodeTypes to get current symbology
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.barcode.windows.forms/barcodegeneratorcontrol/encodetype/
 ---
 ## BarCodeGeneratorControl.EncodeType property

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.DotCodeEncodeModeProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. DotCodeEncodeModeProperty
 type: docs
-weight: 2190
+weight: 2170
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/dotcodeencodemodeproperty/
 ---
 ## BarcodeGeneratorElement.DotCodeEncodeModeProperty field

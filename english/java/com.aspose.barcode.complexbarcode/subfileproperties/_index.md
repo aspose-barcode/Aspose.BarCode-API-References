@@ -18,6 +18,7 @@ USA DL subfile properties, offset and length are set automatically.
 | Constructor | Description |
 | --- | --- |
 | [SubfileProperties(String type)](#SubfileProperties-java.lang.String-) |  |
+| [SubfileProperties()](#SubfileProperties--) |  |
 ## Methods
 
 | Method | Description |
@@ -47,6 +48,12 @@ public SubfileProperties(String type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | java.lang.String |  |
+
+### SubfileProperties() {#SubfileProperties--}
+```
+public SubfileProperties()
+```
+
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

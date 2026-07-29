@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.AustralianPostShortBarHeightProperty
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement field. AustralianPostShortBarHeightProperty
 type: docs
-weight: 1450
+weight: 1430
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/australianpostshortbarheightproperty/
 ---
 ## BarcodeGeneratorElement.AustralianPostShortBarHeightProperty field

@@ -3,7 +3,7 @@ title: BarcodeGeneratorElement.Pdf417EncodeMode
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeGeneratorElement property. Encode mode
 type: docs
-weight: 1090
+weight: 1070
 url: /net/aspose.barcode.wpf/barcodegeneratorelement/pdf417encodemode/
 ---
 ## BarcodeGeneratorElement.Pdf417EncodeMode property

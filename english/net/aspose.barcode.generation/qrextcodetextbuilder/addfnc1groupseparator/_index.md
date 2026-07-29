@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder.AddFNC1GroupSeparator
 second_title: Aspose.BarCode for .NET API Reference
 description: QrExtCodetextBuilder method. Adds Group Separator GS  u001D to the extended codetext items
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/
 ---
 ## QrExtCodetextBuilder.AddFNC1GroupSeparator method

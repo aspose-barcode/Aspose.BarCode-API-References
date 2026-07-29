@@ -24,10 +24,12 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 | [getDetectEncoding()](#getDetectEncoding--) | The flag which force engine to detect codetext encoding for Unicode codesets. |
 | [getStripFNC()](#getStripFNC--) | Strip FNC1, FNC2, FNC3 characters from codetext. |
 | [hashCode()](#hashCode--) |  |
+| [isOnlyRequestedTypes()](#isOnlyRequestedTypes--) | Returns only barcode types explicitly specified for recognition. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setChecksumValidation(ChecksumValidation value)](#setChecksumValidation-com.aspose.barcode.barcoderecognition.ChecksumValidation-) | Enable checksum validation during recognition for 1D and Postal barcodes. |
 | [setDetectEncoding(boolean value)](#setDetectEncoding-boolean-) | The flag which force engine to detect codetext encoding for Unicode codesets. |
+| [setOnlyRequestedTypes(boolean value)](#setOnlyRequestedTypes-boolean-) | Returns only barcode types explicitly specified for recognition. |
 | [setStripFNC(boolean value)](#setStripFNC-boolean-) | Strip FNC1, FNC2, FNC3 characters from codetext. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -132,6 +134,39 @@ public native int hashCode()
 
 **Returns:**
 int
+### isOnlyRequestedTypes() {#isOnlyRequestedTypes--}
+```
+public boolean isOnlyRequestedTypes()
+```
+
+
+Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false.
+
+Example:
+
+```
+// generate EAN13 barcode
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "2383823482894");
+ generator.save("c:\\test.png");
+
+ // recognize only UPCA barcodes (no results, because source is EAN13)
+ BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.UPCA);
+ reader.getBarcodeSettings().setOnlyRequestedTypes(true);
+ for (BarCodeResult result : reader.readBarCodes()) {
+     System.out.println("BarCode CodeText: " + result.getCodeText());
+ }
+
+ // recognize compatible types: EAN13, UPCA, ISSN, ISMN, ISBN
+ // (EAN13 will be returned as UPCA-equivalent)
+ BarCodeReader reader2 = new BarCodeReader("c:\\test.png", DecodeType.UPCA);
+ reader2.getBarcodeSettings().setOnlyRequestedTypes(false);
+ for (BarCodeResult result : reader2.readBarCodes()) {
+     System.out.println("BarCode CodeText: " + result.getCodeText());
+ }
+```
+
+**Returns:**
+boolean - true if only explicitly requested barcode types are returned; otherwise false
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -192,6 +227,43 @@ The flag which force engine to detect codetext encoding for Unicode codesets. De
 > ```
 
 Value: The flag which force engine to detect codetext encoding for Unicode codesets
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setOnlyRequestedTypes(boolean value) {#setOnlyRequestedTypes-boolean-}
+```
+public void setOnlyRequestedTypes(boolean value)
+```
+
+
+Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false.
+
+Example:
+
+```
+// generate EAN13 barcode
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "2383823482894");
+ generator.save("c:\\test.png");
+
+ // recognize only UPCA barcodes (no results, because source is EAN13)
+ BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.UPCA);
+ reader.getBarcodeSettings().setOnlyRequestedTypes(true);
+ for (BarCodeResult result : reader.readBarCodes())
+ {
+     System.out.println("BarCode CodeText: " + result.getCodeText());
+ }
+
+ // recognize compatible types: EAN13, UPCA, ISSN, ISMN, ISBN
+ // (EAN13 will be returned as UPCA-equivalent)
+ BarCodeReader reader2 = new BarCodeReader("c:\\test.png", DecodeType.UPCA);
+ reader2.getBarcodeSettings().setOnlyRequestedTypes(false);
+ for (BarCodeResult result : reader2.readBarCodes()) {
+     System.out.println("BarCode CodeText: " + result.getCodeText());
+ }
+```
 
 **Parameters:**
 | Parameter | Type | Description |
