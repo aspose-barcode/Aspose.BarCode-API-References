@@ -3,7 +3,7 @@ title: "PdfParameters Class"
 linktitle: "PdfParameters"
 articleTitle: "PdfParameters"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "PDF parameters wrapper. Expects an underlying javaClass instance that provides the corresponding getter/setter methods returning/accepting CMYK strings like \"30_100_0_30\" or null."
+description: "PDF parameters wrapper. Expects an underlying javaClass instance that provides the corresponding getter/setter methods returning/accepting CMYK strings like \\"30_100_0_30\\" or null."
 type: docs
 weight: 10
 url: /php/aspose/barcode/generation/pdfparameters/

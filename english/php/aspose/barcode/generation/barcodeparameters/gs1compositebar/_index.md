@@ -3,7 +3,7 @@ title: "BarcodeParameters.GS1CompositeBar"
 linktitle: "GS1CompositeBar"
 articleTitle: "GS1CompositeBar"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' $codetext = \"(01)03212345678906/(21)"
+description: "GS1 Composite Bar parameters. This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/' $codetext = \\"(01)03212345678906/(21)"
 type: docs
 weight: 10
 url: /php/aspose/barcode/generation/barcodeparameters/gs1compositebar/

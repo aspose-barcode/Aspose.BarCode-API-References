@@ -3,7 +3,7 @@ title: "SubfileProperties.Type"
 linktitle: "Type"
 articleTitle: "Type"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "2 byte type of subfile, like \"DL\""
+description: "2 byte type of subfile, like \\"DL\\""
 type: docs
 weight: 10
 url: /php/aspose/barcode/complexbarcode/subfileproperties/type/

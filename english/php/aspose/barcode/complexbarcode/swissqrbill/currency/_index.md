@@ -3,7 +3,7 @@ title: "SwissQRBill.Currency"
 linktitle: "Currency"
 articleTitle: "Currency"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "Gets the payment currency. Valid values are \"CHF\" and \"EUR\". Value: The payment currency."
+description: "Gets the payment currency. Valid values are \\"CHF\\" and \\"EUR\\". Value: The payment currency."
 type: docs
 weight: 10
 url: /php/aspose/barcode/complexbarcode/swissqrbill/currency/
