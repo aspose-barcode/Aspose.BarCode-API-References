@@ -3,11 +3,13 @@ title: "aspose.barcode"
 linktitle: "aspose.barcode"
 articleTitle: "aspose.barcode"
 second_title: "Aspose.BarCode for Node.js via Java"
-description: "Classes in the aspose.barcode namespace."
+description: "The aspose.barcode namespace provides classes and enums to configure and generate various barcode types, including postal, Aztec, and extended formats."
 type: docs
 weight: 10
 url: /nodejs/aspose.barcode/
 ---
+
+This reference page lists all members of the aspose.barcode namespace, such as Address, AlternativeScheme, and the parameter classes for Australian Post, Aztec, and extended barcode configurations. Use these types to fine‑tune barcode generation and integrate postal standards into your Node.js applications.
 
 ## Classes
 

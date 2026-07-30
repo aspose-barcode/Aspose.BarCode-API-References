@@ -3,11 +3,13 @@ title: "Global"
 linktitle: "Global"
 articleTitle: "Global"
 second_title: "Aspose.BarCode for Node.js via Java"
-description: "Global enumerations and constants."
+description: "Provides global enums and utility classes for barcode configuration, encoding modes, image formats, and quality settings in Aspose.BarCode for Node.js via Java."
 type: docs
 weight: 20
 url: /nodejs/global/
 ---
+
+The Global namespace groups core enumerations and helper classes that define barcode types, sizing behavior, encoding options, image output formats, and confidence metrics. Use these definitions to configure barcode generation and recognition throughout the Aspose.BarCode for Node.js via Java library.
 
 ## Enumerations
 
