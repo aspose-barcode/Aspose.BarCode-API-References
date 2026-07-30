@@ -1,0 +1,63 @@
+---
+title: "MandatoryFields Class"
+linktitle: "MandatoryFields"
+articleTitle: "MandatoryFields"
+second_title: "Aspose.BarCode for Node.js via Java"
+description: "Mandatory elements (fields) of the card"
+type: docs
+weight: 590
+url: /nodejs/aspose.barcode/mandatoryfields/
+---
+
+## MandatoryFields class
+
+Mandatory elements (fields) of the card
+
+```js
+new MandatoryFields()
+```
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [getAddressCity()](./getaddresscity/) | DAI, City portion of the cardholder address, DL/ID, V20ANS |
+| [getAddressPostalCode()](./getaddresspostalcode/) | DAK, Postal code portion of the cardholder address in the U.S.and Canada. If the trailing portion of the postal code in  |
+| [getAddressState()](./getaddressstate/) | DAJ, State portion of the cardholder address, DL/ID, F2A |
+| [getAddressStreet1()](./getaddressstreet1/) | DAG, Street portion of the cardholder address, DL/ID, V35ANS |
+| [getCountryIdentification()](./getcountryidentification/) | DCG, Country in which DL/ID is issued. U.S. = USA, Canada = CAN, DL/ID, F3A |
+| [getCustomerIDNumber()](./getcustomeridnumber/) | DAQ, The number assigned or calculated by the issuing authority, DL/ID, V25ANS |
+| [getDateOfBirth()](./getdateofbirth/) | DBB, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
+| [getDocumentDiscriminator()](./getdocumentdiscriminator/) | DCF, Number must uniquely identify a particular document issued to that customer from others that may have been issued i |
+| [getEndorsementCodes()](./getendorsementcodes/) | DCD, Jurisdiction specific endorsement codes, DL, V5ANS |
+| [getEyeColor()](./geteyecolor/) | DAY, Color of cardholder's eyes. (ANSI D-20 codes). DL/ID, F3A |
+| [getFamilyName()](./getfamilyname/) | DCS, Family name of the cardholder, DL/ID, V40ANS |
+| [getFamilyNameTruncation()](./getfamilynametruncation/) | DDE, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [getFirstName()](./getfirstname/) | DAC, First name of the cardholder, DL/ID, V40ANS |
+| [getFirstNameTruncation()](./getfirstnametruncation/) | DDF, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [getHeight()](./getheight/) | DAU, Height of cardholder. Inches (in): number of inches followed by " in" ex. 6'1'' = "073 in" Centimeters(cm) : number |
+| [getMiddleName()](./getmiddlename/) | DAD, Middle name(s) of the cardholder. In the case of multiple middle names they shall be separated by a comma ",". , DL |
+| [getMiddleNameTruncation()](./getmiddlenametruncation/) | DDG, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [getRestrictionCodes()](./getrestrictioncodes/) | DCB, Jurisdiction-specific restrictions codes, DL, V12ANS |
+| [getSex()](./getsex/) | DBC, Gender of the cardholder. 1 = male, 2 = female, 9 = not specified, DL/ID, F1N |
+| [getVehicleClass()](./getvehicleclass/) | DCA, Jurisdiction-specific vehicle class / group code, DL, V6ANS |
+| [setAddressCity()](./setaddresscity/) | DAI, City portion of the cardholder address, DL/ID, V20ANS |
+| [setAddressPostalCode()](./setaddresspostalcode/) | DAK, Postal code portion of the cardholder address in the U.S.and Canada. If the trailing portion of the postal code in  |
+| [setAddressState()](./setaddressstate/) | DAJ, State portion of the cardholder address, DL/ID, F2A |
+| [setAddressStreet1()](./setaddressstreet1/) | DAG, Street portion of the cardholder address, DL/ID, V35ANS |
+| [setCountryIdentification()](./setcountryidentification/) | DCG, Country in which DL/ID is issued. U.S. = USA, Canada = CAN, DL/ID, F3A |
+| [setCustomerIDNumber()](./setcustomeridnumber/) | DAQ, The number assigned or calculated by the issuing authority, DL/ID, V25ANS |
+| [setDateOfBirth()](./setdateofbirth/) | DBB, Date on which the document was issued, MMDDCCYY for U.S., CCYYMMDD for Canada, DL/ID, F8N |
+| [setDocumentDiscriminator()](./setdocumentdiscriminator/) | DCF, Number must uniquely identify a particular document issued to that customer from others that may have been issued i |
+| [setEndorsementCodes()](./setendorsementcodes/) | DCD, Jurisdiction specific endorsement codes, DL, V5ANS |
+| [setEyeColor()](./seteyecolor/) | DAY, Color of cardholder's eyes. (ANSI D-20 codes). DL/ID, F3A |
+| [setFamilyName()](./setfamilyname/) | DCS, Family name of the cardholder, DL/ID, V40ANS |
+| [setFamilyNameTruncation()](./setfamilynametruncation/) | DDE, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [setFirstName()](./setfirstname/) | DAC, First name of the cardholder, DL/ID, V40ANS |
+| [setFirstNameTruncation()](./setfirstnametruncation/) | DDF, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [setHeight()](./setheight/) | DAU, Height of cardholder. Inches (in): number of inches followed by " in" ex. 6'1'' = "073 in" Centimeters(cm) : number |
+| [setMiddleName()](./setmiddlename/) | DAD, Middle name(s) of the cardholder. In the case of multiple middle names they shall be separated by a comma ",". , DL |
+| [setMiddleNameTruncation()](./setmiddlenametruncation/) | DDG, A code that indicates whether a field has been truncated(T), has not been truncated(N), or unknown whether truncate |
+| [setRestrictionCodes()](./setrestrictioncodes/) | DCB, Jurisdiction-specific restrictions codes, DL, V12ANS |
+| [setSex()](./setsex/) | DBC, Gender of the cardholder. 1 = male, 2 = female, 9 = not specified, DL/ID, F1N |
+| [setVehicleClass()](./setvehicleclass/) | DCA, Jurisdiction-specific vehicle class / group code, DL, V6ANS |
