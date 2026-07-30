@@ -1,0 +1,18 @@
+---
+title: "CodabarSymbol::A"
+linktitle: "A"
+articleTitle: "A"
+second_title: "Aspose.BarCode for PHP via Java"
+description: "Specifies character A as the start or stop symbol of the Codabar barcode specification."
+type: docs
+weight: 10
+url: /php/aspose.barcode.generation/codabarsymbol/a/
+---
+
+## CodabarSymbol::A Enum Value
+
+**Value:** `65`
+
+
+Specifies character A as the start or stop symbol of the Codabar barcode specification.
+
