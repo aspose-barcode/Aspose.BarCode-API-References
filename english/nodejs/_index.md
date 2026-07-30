@@ -15,3 +15,4 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [aspose.barcode](./aspose.barcode/) | aspose.barcode namespace |
+| [Global](./global/) | Global enumerations and constants |
