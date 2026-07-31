@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::CreateAndSetCreditorReference method
 linktitle: CreateAndSetCreditorReference
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Creates and sets a ISO11649 creditor reference from a raw string by prefixing the String with "RF" and the modulo 97 checksum in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::CreateAndSetCreditorReference method. Creates and sets a ISO11649 creditor reference from a raw string by prefixing the String with "RF" and the modulo 97 checksum in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/

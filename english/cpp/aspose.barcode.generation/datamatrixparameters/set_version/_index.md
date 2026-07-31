@@ -1,19 +1,19 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DataMatrixParameters::set_Version method
 linktitle: set_Version
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets a Datamatrix symbol size. Default value: Version.Auto in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixParameters::set_Version method. Sets a Datamatrix symbol size. Default value: Version.Auto in C++.'
 type: docs
-weight: 600
+weight: 400
 url: /cpp/aspose.barcode.generation/datamatrixparameters/set_version/
 ---
 ## DataMatrixParameters::set_Version method
 
 
-Sets a Datamatrix symbol size. Default value: [Version.Auto](../../aztecencodemode/).
+Sets a Datamatrix symbol size. Default value: Version.Auto.
 
 ```cpp
-void Aspose::BarCode::Generation::DataMatrixParameters::set_Version(Aspose::BarCode::Generation::DataMatrixVersion value)
+void Aspose::BarCode::Generation::DataMatrixParameters::set_Version(DataMatrixVersion value)
 ```
 
 ## See Also

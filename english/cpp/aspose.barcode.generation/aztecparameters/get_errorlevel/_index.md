@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::AztecParameters::get_ErrorLevel method
 linktitle: get_ErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Level of error correction of Aztec types of barcode. Value should between 5 to 95 in C++.'
+description: 'Aspose::BarCode::Generation::AztecParameters::get_ErrorLevel method. Level of error correction of Aztec types of barcode. Value should between 5 to 95 in C++.'
 type: docs
-weight: 1300
+weight: 1100
 url: /cpp/aspose.barcode.generation/aztecparameters/get_errorlevel/
 ---
 ## AztecParameters::get_ErrorLevel method

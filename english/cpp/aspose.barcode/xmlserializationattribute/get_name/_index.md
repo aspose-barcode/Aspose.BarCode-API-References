@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::XmlSerializationAttribute::get_Name method
 linktitle: get_Name
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Get or sets overriden property name in C++.'
+description: 'Aspose::BarCode::XmlSerializationAttribute::get_Name method. Get or sets overriden property name in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode/xmlserializationattribute/get_name/

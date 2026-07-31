@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::AlternativeScheme::Equals method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Determines whether the specified object is equal to the current object in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::AlternativeScheme::Equals method. Determines whether the specified object is equal to the current object in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/alternativescheme/equals/

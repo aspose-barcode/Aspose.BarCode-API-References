@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::MaxiCodeParameters::get_Mode method
 linktitle: get_Mode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a MaxiCode encode mode in C++.'
+description: 'Aspose::BarCode::Generation::MaxiCodeParameters::get_Mode method. Gets a MaxiCode encode mode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/maxicodeparameters/get_mode/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/maxicodeparameters/get_mode/
 Gets a MaxiCode encode mode.
 
 ```cpp
-Aspose::BarCode::Generation::MaxiCodeMode Aspose::BarCode::Generation::MaxiCodeParameters::get_Mode() const
+MaxiCodeMode Aspose::BarCode::Generation::MaxiCodeParameters::get_Mode() const
 ```
 
 ## See Also

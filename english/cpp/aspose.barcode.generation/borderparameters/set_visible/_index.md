@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BorderParameters::set_Visible method
 linktitle: set_Visible
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Border visibility. If false than parameter Width is always ignored (0). Default value: false in C++.'
+description: 'Aspose::BarCode::Generation::BorderParameters::set_Visible method. Border visibility. If false than parameter Width is always ignored (0). Default value: false in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/borderparameters/set_visible/

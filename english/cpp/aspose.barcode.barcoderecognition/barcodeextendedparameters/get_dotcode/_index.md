@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DotCode method
 linktitle: get_DotCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a DotCode additional informationDotCodeExtendedParameters of recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DotCode method. Gets a DotCode additional informationDotCodeExtendedParameters of recognized barcode in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/get_dotcode/
@@ -20,6 +20,9 @@ System::SharedPtr<DotCodeExtendedParameters> Aspose::BarCode::BarCodeRecognition
 
 
 A DotCode additional information[DotCodeExtendedParameters](../../dotcodeextendedparameters/) of recognized barcode
+
+
+
 ## See Also
 
 * Class [DotCodeExtendedParameters](../../dotcodeextendedparameters/)

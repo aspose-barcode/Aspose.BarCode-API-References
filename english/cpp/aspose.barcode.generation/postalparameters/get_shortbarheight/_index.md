@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::PostalParameters::get_ShortBarHeight method
 linktitle: get_ShortBarHeight
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Short bar''s height of Postal barcodes in C++.'
+description: 'Aspose::BarCode::Generation::PostalParameters::get_ShortBarHeight method. Short bar''s height of Postal barcodes in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/postalparameters/get_shortbarheight/

@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::AztecParameters::set_IsReaderInitialization method
 linktitle: set_IsReaderInitialization
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization in C++.'
+description: 'Aspose::BarCode::Generation::AztecParameters::set_IsReaderInitialization method. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization in C++.'
 type: docs
-weight: 2400
+weight: 1800
 url: /cpp/aspose.barcode.generation/aztecparameters/set_isreaderinitialization/
 ---
 ## AztecParameters::set_IsReaderInitialization method

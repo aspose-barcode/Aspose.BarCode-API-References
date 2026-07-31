@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::set_ECIEncoding method
 linktitle: set_ECIEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Not applied for Macro PDF417 text fields. Current implementation consists all well known charset encodings in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_ECIEncoding method. Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Not applied for Macro PDF417 text fields. Current implementation consists all well known charset encodings in C++.'
 type: docs
-weight: 5800
+weight: 3200
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_eciencoding/
 ---
 ## Pdf417Parameters::set_ECIEncoding method

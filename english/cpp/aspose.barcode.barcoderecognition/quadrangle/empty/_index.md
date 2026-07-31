@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::Quadrangle::Empty field
 linktitle: Empty
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Represents a Quadrangle class with its properties left uninitialized in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::Empty field. Represents a Quadrangle class with its properties left uninitialized in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/empty/
@@ -20,6 +20,9 @@ static System::SharedPtr<Quadrangle> Aspose::BarCode::BarCodeRecognition::Quadra
 
 
 [Quadrangle](../)
+
+
+
 ## See Also
 
 * Class [Quadrangle](../)

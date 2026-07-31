@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::SupplementParameters::get_SupplementSpace method
 linktitle: get_SupplementSpace
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Space between main the BarCode and supplement BarCode in Unit value in C++.'
+description: 'Aspose::BarCode::Generation::SupplementParameters::get_SupplementSpace method. Space between main the BarCode and supplement BarCode in Unit value in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/supplementparameters/get_supplementspace/

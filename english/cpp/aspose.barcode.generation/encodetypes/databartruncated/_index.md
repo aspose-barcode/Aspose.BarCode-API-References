@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::DatabarTruncated field
 linktitle: DatabarTruncated
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with GS1 Databar truncated barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::DatabarTruncated field. Specifies that the data should be encoded with GS1 Databar truncated barcode specification in C++.'
 type: docs
 weight: 6200
 url: /cpp/aspose.barcode.generation/encodetypes/databartruncated/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::PrimaryData::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Converts data to string format according HIBC LIC specification in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::ToString method. Converts data to string format according HIBC LIC specification in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/primarydata/tostring/

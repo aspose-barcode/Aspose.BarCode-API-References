@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::ReadBarCodes method
 linktitle: ReadBarCodes
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Reads BarCodeResults from the image in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::ReadBarCodes method. Reads BarCodeResults from the image in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/readbarcodes/
 ---
 ## BarCodeReader::ReadBarCodes method

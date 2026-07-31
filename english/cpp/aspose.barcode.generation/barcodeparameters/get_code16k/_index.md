@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_Code16K method
 linktitle: get_Code16K
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Code16K parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Code16K method. Code16K parameters in C++.'
 type: docs
-weight: 3100
+weight: 2900
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_code16k/
 ---
 ## BarcodeParameters::get_Code16K method

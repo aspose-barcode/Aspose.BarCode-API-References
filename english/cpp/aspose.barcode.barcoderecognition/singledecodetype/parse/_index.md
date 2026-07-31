@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::SingleDecodeType::Parse method
 linktitle: Parse
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Converts the string representation of the name of a SingleDecodeType to its instance in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType::Parse method. Converts the string representation of the name of a SingleDecodeType to its instance in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/parse/

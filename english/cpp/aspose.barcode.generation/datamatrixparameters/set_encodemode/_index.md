@@ -1,19 +1,19 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DataMatrixParameters::set_EncodeMode method
 linktitle: set_EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixParameters::set_EncodeMode method. Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto in C++.'
 type: docs
-weight: 1000
+weight: 600
 url: /cpp/aspose.barcode.generation/datamatrixparameters/set_encodemode/
 ---
 ## DataMatrixParameters::set_EncodeMode method
 
 
-Encode mode of Datamatrix barcode. Default value: [EncodeMode.Auto](../../aztecencodemode/).
+Encode mode of Datamatrix barcode. Default value: EncodeMode.Auto.
 
 ```cpp
-void Aspose::BarCode::Generation::DataMatrixParameters::set_EncodeMode(Aspose::BarCode::Generation::DataMatrixEncodeMode value)
+void Aspose::BarCode::Generation::DataMatrixParameters::set_EncodeMode(DataMatrixEncodeMode value)
 ```
 
 ## See Also

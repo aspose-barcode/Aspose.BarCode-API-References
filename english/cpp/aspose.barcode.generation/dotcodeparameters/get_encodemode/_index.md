@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DotCodeParameters::get_EncodeMode method
 linktitle: get_EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies DotCode encode mode. Default value: Auto in C++.'
+description: 'Aspose::BarCode::Generation::DotCodeParameters::get_EncodeMode method. Identifies DotCode encode mode. Default value: Auto in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/dotcodeparameters/get_encodemode/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/dotcodeparameters/get_encodemode/
 Identifies DotCode encode mode. Default value: Auto.
 
 ```cpp
-Aspose::BarCode::Generation::DotCodeEncodeMode Aspose::BarCode::Generation::DotCodeParameters::get_EncodeMode() const
+DotCodeEncodeMode Aspose::BarCode::Generation::DotCodeParameters::get_EncodeMode() const
 ```
 
 ## See Also

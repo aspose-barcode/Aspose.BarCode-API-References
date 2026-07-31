@@ -23,9 +23,11 @@ class BarcodeSettings : public System::Object
 | [get_AustraliaPost](./get_australiapost/)() | Gets AustraliaPost decoding parameters |
 | [get_ChecksumValidation](./get_checksumvalidation/)() |  |
 | [get_DetectEncoding](./get_detectencoding/)() | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
+| [get_OnlyRequestedTypes](./get_onlyrequestedtypes/)() | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. |
 | [get_StripFNC](./get_stripfnc/)() | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
 | [set_ChecksumValidation](./set_checksumvalidation/)(Aspose::BarCode::BarCodeRecognition::ChecksumValidation) |  |
 | [set_DetectEncoding](./set_detectencoding/)(bool) | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
+| [set_OnlyRequestedTypes](./set_onlyrequestedtypes/)(bool) | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. |
 | [set_StripFNC](./set_stripfnc/)(bool) | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
 ## See Also
 

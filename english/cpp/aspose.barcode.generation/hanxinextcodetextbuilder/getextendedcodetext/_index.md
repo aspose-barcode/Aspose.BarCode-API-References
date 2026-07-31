@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::GetExtendedCodetext method
 linktitle: GetExtendedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns codetext from Extended mode codetext builder in C++.'
+description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::GetExtendedCodetext method. Returns codetext from Extended mode codetext builder in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/getextendedcodetext/

@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_PatchCode method
 linktitle: get_PatchCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. PatchCode parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_PatchCode method. PatchCode parameters in C++.'
 type: docs
-weight: 2400
+weight: 2200
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_patchcode/
 ---
 ## BarcodeParameters::get_PatchCode method

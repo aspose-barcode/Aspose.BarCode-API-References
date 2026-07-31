@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this CodabarExtendedParameters in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::ToString method. Returns a human-readable string representation of this CodabarExtendedParameters in C++.'
 type: docs
-weight: 1000
+weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/tostring/
 ---
 ## CodabarExtendedParameters::ToString method

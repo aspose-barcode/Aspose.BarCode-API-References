@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_DataMatrix method
 linktitle: get_DataMatrix
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. DataMatrix parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_DataMatrix method. DataMatrix parameters in C++.'
 type: docs
-weight: 3000
+weight: 2800
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_datamatrix/
 ---
 ## BarcodeParameters::get_DataMatrix method

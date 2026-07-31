@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::GetCodeText method
 linktitle: GetCodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the code text with encoding in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::GetCodeText method. Gets the code text with encoding in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/getcodetext/
@@ -42,6 +42,9 @@ using (BarCodeReader reader = new BarCodeReader("barcode.png", DecodeType.DataMa
     foreach (BarCodeResult result in reader.ReadBarCodes())
         Console.WriteLine("BarCode CodeText: " + result.GetCodeText(Encoding.GetEncoding(932)));
 ```
+
+
+
 
 ## See Also
 

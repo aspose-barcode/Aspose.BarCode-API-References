@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::Add method
 linktitle: Add
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds new identifier in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::Add method. Adds new identifier in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/add/

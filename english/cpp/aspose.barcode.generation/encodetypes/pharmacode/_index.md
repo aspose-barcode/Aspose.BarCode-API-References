@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::Pharmacode field
 linktitle: Pharmacode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Represents Pharmacode barcode in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::Pharmacode field. Represents Pharmacode barcode in C++.'
 type: docs
 weight: 3800
 url: /cpp/aspose.barcode.generation/encodetypes/pharmacode/

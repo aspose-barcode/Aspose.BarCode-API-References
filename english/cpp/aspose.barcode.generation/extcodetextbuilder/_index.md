@@ -25,6 +25,9 @@ class ExtCodetextBuilder : public System::Object
 | virtual [Clear](./clear/)() | Clears extended codetext items |
 | [ExtCodetextBuilder](./extcodetextbuilder/)() |  |
 | virtual [GetExtendedCodetext](./getextendedcodetext/)() | Generate extended codetext from generation items list |
+
+
+
 ## See Also
 
 * Namespace [Aspose::BarCode::Generation](../)

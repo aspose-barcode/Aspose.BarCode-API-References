@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DataMatrixParameters::set_AspectRatio method
 linktitle: set_AspectRatio
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Height/Width ratio of 2D BarCode module in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixParameters::set_AspectRatio method. Height/Width ratio of 2D BarCode module in C++.'
 type: docs
-weight: 2800
+weight: 1800
 url: /cpp/aspose.barcode.generation/datamatrixparameters/set_aspectratio/
 ---
 ## DataMatrixParameters::set_AspectRatio method

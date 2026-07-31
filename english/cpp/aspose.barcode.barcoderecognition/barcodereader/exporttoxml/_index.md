@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::ExportToXml method
 linktitle: ExportToXml
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Exports BarCode properties to the xml-file specified in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::ExportToXml method. Exports BarCode properties to the xml-file specified in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/exporttoxml/
 ---
 ## BarCodeReader::ExportToXml(System::String) method

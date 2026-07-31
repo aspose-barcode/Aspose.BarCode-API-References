@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::Dispose method
 linktitle: Dispose
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Release resource in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::Dispose method. Release resource in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/dispose/
 ---
 ## BarCodeReader::Dispose method

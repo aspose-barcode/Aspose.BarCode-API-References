@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::Code39FullASCII field
 linktitle: Code39FullASCII
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with Code 39 full ASCII charset barcode specification: ISO/IEC 16388 in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::Code39FullASCII field. Specifies that the data should be encoded with Code 39 full ASCII charset barcode specification: ISO/IEC 16388 in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.generation/encodetypes/code39fullascii/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_Region method
 linktitle: get_Region
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the barcode region in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_Region method. Gets the barcode region in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_region/
@@ -20,6 +20,9 @@ System::SharedPtr<BarCodeRegionParameters> Aspose::BarCode::BarCodeRecognition::
 
 
 The region of the recognized barcode
+
+
+
 ## See Also
 
 * Class [BarCodeRegionParameters](../../barcoderegionparameters/)

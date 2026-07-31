@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_BillInformation method
 linktitle: set_BillInformation
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets the additional structured bill information in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_BillInformation method. Sets the additional structured bill information in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_billinformation/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::PatchFormat enum
 linktitle: PatchFormat
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders in C++.'
+description: 'Aspose::BarCode::Generation::PatchFormat enum. PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders in C++.'
 type: docs
 weight: 7200
 url: /cpp/aspose.barcode.generation/patchformat/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRCodetext::InitFromString method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Initializes Bill with constructed codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext::InitFromString method. Initializes Bill with constructed codetext in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/initfromstring/

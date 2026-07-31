@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BaseGenerationParameters::get_Image method
 linktitle: get_Image
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Image parameters. See ImageParameters in C++.'
+description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_Image method. Image parameters. See ImageParameters in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_image/

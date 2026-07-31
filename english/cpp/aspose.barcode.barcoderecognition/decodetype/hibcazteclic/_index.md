@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCAztecLIC field
 linktitle: HIBCAztecLIC
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with HIBC LIC Aztec barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCAztecLIC field. Specifies that the data should be decoded with HIBC LIC Aztec barcode specification in C++.'
 type: docs
 weight: 8200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcazteclic/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **HIBC LIC Aztec** barcode specif
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCAztecLIC
 ```
+
+
+
 
 ## See Also
 

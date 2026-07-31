@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::XmlSerializationType enum
 linktitle: XmlSerializationType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Represents type of xml serialization in C++.'
+description: 'Aspose::BarCode::XmlSerializationType enum. Represents type of xml serialization in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode/xmlserializationtype/

@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::HIBCAztecPAS field
 linktitle: HIBCAztecPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with HIBC PAS Aztec barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::HIBCAztecPAS field. Specifies that the data should be encoded with HIBC PAS Aztec barcode specification in C++.'
 type: docs
 weight: 8700
 url: /cpp/aspose.barcode.generation/encodetypes/hibcaztecpas/

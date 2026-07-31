@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::set_GS1CompositeBar method
 linktitle: set_GS1CompositeBar
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. GS1 Composite Bar parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::set_GS1CompositeBar method. GS1 Composite Bar parameters in C++.'
 type: docs
-weight: 2800
+weight: 2600
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_gs1compositebar/
 ---
 ## BarcodeParameters::set_GS1CompositeBar method

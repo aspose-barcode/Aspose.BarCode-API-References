@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::HanXinErrorLevel enum
 linktitle: HanXinErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4 in C++.'
+description: 'Aspose::BarCode::Generation::HanXinErrorLevel enum. Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4 in C++.'
 type: docs
 weight: 6400
 url: /cpp/aspose.barcode.generation/hanxinerrorlevel/

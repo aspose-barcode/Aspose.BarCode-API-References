@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText method
 linktitle: SetCodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Set codetext as sequence of bytes in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText method. Set codetext as sequence of bytes in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/barcodegenerator/setcodetext/
@@ -45,7 +45,7 @@ void Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText(System::String c
 
 Encodes the Unicode **codeText** into a byte sequence using the specified **encoding**. UTF-8 is the most commonly used encoding. 
 
-If the encoding supports it, the function automatically inserts a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). 
+ If the encoding supports it, the function automatically inserts a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). 
 
 This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases, [ECI](https://en.wikipedia.org/wiki/Extended_Channel_Interpretation) encoding is recommended for Unicode data. 
 
@@ -103,7 +103,7 @@ void Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText(System::String c
 
 Encodes the Unicode **codeText** into a byte sequence using the specified **encoding**. UTF-8 is the most commonly used encoding. 
 
-If the encoding supports it and **insertBOM** is set to **true**, the function includes a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). 
+ If the encoding supports it and **insertBOM** is set to **true**, the function includes a [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). 
 
 This function is intended for use with 2D barcodes only (e.g., Aztec, QR, DataMatrix, PDF417, MaxiCode, DotCode, HanXin, RectMicroQR, etc.). It enables manual encoding of Unicode text using national or special encodings; however, this method is considered obsolete in modern applications. For modern use cases, [ECI](https://en.wikipedia.org/wiki/Extended_Channel_Interpretation) encoding is recommended for Unicode data. 
 

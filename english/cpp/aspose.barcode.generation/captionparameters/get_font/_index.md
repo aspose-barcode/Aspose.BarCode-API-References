@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::CaptionParameters::get_Font method
 linktitle: get_Font
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Caption font. Default value: Arial 8pt regular in C++.'
+description: 'Aspose::BarCode::Generation::CaptionParameters::get_Font method. Caption font. Default value: Arial 8pt regular in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/captionparameters/get_font/

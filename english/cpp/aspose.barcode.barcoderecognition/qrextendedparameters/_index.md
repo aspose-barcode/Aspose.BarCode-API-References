@@ -4,7 +4,7 @@ linktitle: QRExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters class. Stores a QR Structured Append information of recognized barcode in C++.'
 type: docs
-weight: 2600
+weight: 2500
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
@@ -23,11 +23,6 @@ class QRExtendedParameters : public Aspose::BarCode::BarCodeRecognition::BaseExt
 | [get_ErrorLevel](./get_errorlevel/)() | Reed-Solomon error correction level of recognized barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_MicroQRVersion](./get_microqrversion/)() | Version of recognized MicroQR Code. From M1 to M4. |
-| [get_QRErrorLevel](./get_qrerrorlevel/)() | Reed-Solomon error correction level of recognized barcode. From low to high: LevelL, LevelM, LevelQ, LevelH. |
-| [get_QRStructuredAppendModeBarCodeIndex](./get_qrstructuredappendmodebarcodeindex/)() | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
-| [get_QRStructuredAppendModeBarCodesQuantity](./get_qrstructuredappendmodebarcodesquantity/)() | Gets the QR structured append mode barcodes quantity. Default value is -1. |
-| [get_QRStructuredAppendModeParityData](./get_qrstructuredappendmodeparitydata/)() | Gets the QR structured append mode parity data. Default value is -1. |
-| [get_QRVersion](./get_qrversion/)() | Version of recognized QR Code. From Version1 to Version40. |
 | [get_RectMicroQRVersion](./get_rectmicroqrversion/)() | Version of recognized RectMicroQR Code. From R7x43 to R17x139. |
 | [get_StructuredAppendModeBarCodeIndex](./get_structuredappendmodebarcodeindex/)() | Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1. |
 | [get_StructuredAppendModeBarCodesQuantity](./get_structuredappendmodebarcodesquantity/)() | Gets the QR structured append mode barcodes quantity. Default value is -1. |

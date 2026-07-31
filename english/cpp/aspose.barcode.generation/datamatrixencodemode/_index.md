@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::DataMatrixEncodeMode enum
 linktitle: DataMatrixEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixEncodeMode enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
 type: docs
 weight: 5800
 url: /cpp/aspose.barcode.generation/datamatrixencodemode/
@@ -22,12 +22,10 @@ enum class DataMatrixEncodeMode
 | --- | --- | --- |
 | Auto | 0 | In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. |
 | ASCII | 1 | Encodes one alphanumeric or two numeric characters per byte |
-| Bytes | 6 | Encode 8 bit values |
 | C40 | 8 | Uses C40 encoding. Encodes Upper-case alphanumeric, Lower case and special characters |
 | Text | 9 | Uses Text encoding. Encodes Lower-case alphanumeric, Upper case and special characters |
 | EDIFACT | 10 | Uses EDIFACT encoding. Uses six bits per character, encodes digits, upper-case letters, and many punctuation marks, but has no support for lower-case letters. |
 | ANSIX12 | 11 | Uses ANSI X12 encoding. |
-| ExtendedCodetext | 12 |  |
 | Extended | 13 |  |
 | Base256 | 14 | Encode 8 bit values |
 | Binary | 15 | In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown. |
@@ -66,8 +64,8 @@ codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    
-<br>
+string codetext = textBuilder.GetExtendedCodetext();    <br>
+
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 {

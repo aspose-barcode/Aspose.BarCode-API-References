@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Metered::GetProductName method
 linktitle: GetProductName
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets name of licensed product in C++.'
+description: 'Aspose::BarCode::Metered::GetProductName method. Gets name of licensed product in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode/metered/getproductname/

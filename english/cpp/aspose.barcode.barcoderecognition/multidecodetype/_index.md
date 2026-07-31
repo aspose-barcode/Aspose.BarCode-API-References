@@ -22,8 +22,8 @@ class MultiDecodeType : public Aspose::BarCode::BarCodeRecognition::BaseDecodeTy
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(System::SharedPtr\<SingleDecodeType\>) | Adds one more [SingleDecodeType](../singledecodetype/) to the [MultiDecodeType](./). |
-| [ContainsAll](./containsall/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Check if this contains all types from barcode types. |
-| [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) override | Is contain any of types |
+| [ContainsAll](./containsall/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Check if this contains all types from barcode types. |
+| [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) override | Is contain any of types |
 | [Equals](./equals/)(System::SharedPtr\<MultiDecodeType\>) override | Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](./) value. |
 | [Equals](./equals/)(System::SharedPtr\<SingleDecodeType\>) override | Returns a value indicating whether this decode types collection contains only specified [SingleDecodeType](../singledecodetype/) value. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](./) value. |
@@ -32,8 +32,8 @@ class MultiDecodeType : public Aspose::BarCode::BarCodeRecognition::BaseDecodeTy
 | [get_GetSingleTypesCount](./get_getsingletypescount/)() | Returns a number of single types. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [GetSingleTypes](./getsingletypes/)() | Represents a list of single types. |
-| [MultiDecodeType](./multidecodetype/)(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\&) | Initializes a new instance of the [MultiDecodeType](./) class. |
-| [MultiDecodeType](./multidecodetype/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [MultiDecodeType](./) class. |
+| [MultiDecodeType](./multidecodetype/)(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\&) | Initializes a new instance of the [MultiDecodeType](./) class. |
+| [MultiDecodeType](./multidecodetype/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [MultiDecodeType](./) class. |
 | [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | [ToString](./tostring/)() const override | Overridden method representing [MultiDecodeType](./) as a string. |
 | static [TryParse](./tryparse/)(System::String, System::SharedPtr\<MultiDecodeType\>\&) | Converts the string representation of a [MultiDecodeType](./) to its instance. A return value indicates whether the conversion succeeded or failed. |

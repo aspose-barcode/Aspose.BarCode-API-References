@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Currency method
 linktitle: get_Currency
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the payment currency in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Currency method. Gets the payment currency in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_currency/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_VersionID method
 linktitle: get_VersionID
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies the barcode version as relevant to each Information Type ID in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_VersionID method. Identifies the barcode version as relevant to each Information Type ID in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/get_versionid/

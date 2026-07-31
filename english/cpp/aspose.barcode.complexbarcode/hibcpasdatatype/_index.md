@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::ComplexBarcode::HIBCPASDataType enum
 linktitle: HIBCPASDataType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. HIBC PAS record''s data types in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCPASDataType enum. HIBC PAS record''s data types in C++.'
 type: docs
-weight: 3100
+weight: 3000
 url: /cpp/aspose.barcode.complexbarcode/hibcpasdatatype/
 ---
 ## HIBCPASDataType enum

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParameters::get_TwoDType method
 linktitle: get_TwoDType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the 2D barcode type of GS1 Composite in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::GS1CompositeBarExtendedParameters::get_TwoDType method. Gets the 2D barcode type of GS1 Composite in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/get_twodtype/
@@ -20,6 +20,9 @@ System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::GS1Comp
 
 
 2D barcode type
+
+
+
 ## See Also
 
 * Class [SingleDecodeType](../../singledecodetype/)

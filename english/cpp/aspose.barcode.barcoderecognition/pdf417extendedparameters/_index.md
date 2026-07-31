@@ -4,7 +4,7 @@ linktitle: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters class. Stores a MacroPdf417 metadata information of recognized barcode in C++.'
 type: docs
-weight: 2500
+weight: 2400
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class

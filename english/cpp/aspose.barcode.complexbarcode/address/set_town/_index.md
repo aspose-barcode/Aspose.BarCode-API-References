@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Address::set_Town method
 linktitle: set_Town
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets the town or city in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Address::set_Town method. Sets the town or city in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.complexbarcode/address/set_town/

@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::set_Columns method
 linktitle: set_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Columns count in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_Columns method. Columns count in C++.'
 type: docs
-weight: 1600
+weight: 800
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_columns/
 ---
 ## Pdf417Parameters::set_Columns method

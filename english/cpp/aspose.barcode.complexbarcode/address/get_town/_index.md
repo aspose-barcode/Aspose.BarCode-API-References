@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Address::get_Town method
 linktitle: get_Town
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the town or city in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Address::get_Town method. Gets the town or city in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.complexbarcode/address/get_town/

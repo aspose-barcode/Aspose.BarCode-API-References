@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeTypeName method
 linktitle: get_CodeTypeName
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the name of the barcode type in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeTypeName method. Gets the name of the barcode type in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_codetypename/
@@ -20,6 +20,9 @@ System::String Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeTypeN
 
 
 The type name of the recognized barcode
+
+
+
 ## See Also
 
 * Class [BarCodeResult](../)

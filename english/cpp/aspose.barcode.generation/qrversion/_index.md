@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::QRVersion enum
 linktitle: QRVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr in C++.'
+description: 'Aspose::BarCode::Generation::QRVersion enum. Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr in C++.'
 type: docs
-weight: 7900
+weight: 7700
 url: /cpp/aspose.barcode.generation/qrversion/
 ---
 ## QRVersion enum
@@ -61,10 +61,6 @@ enum class QRVersion
 | Version38 | 38 | Specifies version 38 with 169 x 169 modules. |
 | Version39 | 39 | Specifies version 39 with 173 x 173 modules. |
 | Version40 | 40 | Specifies version 40 with 177 x 177 modules. |
-| VersionM1 | 101 | Specifies version M1 for Micro QR with 11 x 11 modules. |
-| VersionM2 | 102 | Specifies version M2 for Micro QR with 13 x 13 modules. |
-| VersionM3 | 103 | Specifies version M3 for Micro QR with 15 x 15 modules. |
-| VersionM4 | 104 | Specifies version M4 for Micro QR with 17 x 17 modules. |
 
 ## See Also
 

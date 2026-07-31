@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Quadrangle::get_LeftBottom method
 linktitle: get_LeftBottom
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets left-bottom corner Point of Quadrangle region in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::get_LeftBottom method. Gets left-bottom corner Point of Quadrangle region in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/get_leftbottom/
@@ -20,6 +20,9 @@ System::Drawing::Point Aspose::BarCode::BarCodeRecognition::Quadrangle::get_Left
 
 
 A left-bottom corner [Point](../) of [Quadrangle](../) region
+
+
+
 ## See Also
 
 * Class [Quadrangle](../)

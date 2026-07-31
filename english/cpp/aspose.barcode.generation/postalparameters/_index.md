@@ -20,9 +20,7 @@ class PostalParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_PostalShortBarHeight](./get_postalshortbarheight/)() | Short bar's height of Postal barcodes. |
 | [get_ShortBarHeight](./get_shortbarheight/)() const | Short bar's height of Postal barcodes. |
-| [set_PostalShortBarHeight](./set_postalshortbarheight/)(System::SharedPtr\<Unit\>) | Short bar's height of Postal barcodes. |
 | [set_ShortBarHeight](./set_shortbarheight/)(System::SharedPtr\<Unit\>) | Short bar's height of Postal barcodes. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [PostalParameters](./). |
 ## See Also

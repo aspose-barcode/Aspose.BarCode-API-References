@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::get_AllSupportedTypesArray method
 linktitle: get_AllSupportedTypesArray
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets an array that represents AllSupportedTypes in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::get_AllSupportedTypesArray method. Gets an array that represents AllSupportedTypes in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/get_allsupportedtypesarray/

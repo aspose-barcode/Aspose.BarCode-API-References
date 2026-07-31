@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetMode method
 linktitle: GetMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets MaxiCode mode in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetext::GetMode method. Gets MaxiCode mode in C++.'
 type: docs
-weight: 700
+weight: 500
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetext/getmode/
 ---
 ## MaxiCodeCodetext::GetMode method

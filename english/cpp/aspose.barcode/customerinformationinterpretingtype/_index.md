@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::CustomerInformationInterpretingType enum
 linktitle: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Defines the interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode in C++.'
+description: 'Aspose::BarCode::CustomerInformationInterpretingType enum. Defines the interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode/customerinformationinterpretingtype/

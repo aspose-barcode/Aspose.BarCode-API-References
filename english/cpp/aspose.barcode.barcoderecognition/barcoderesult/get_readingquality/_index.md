@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_ReadingQuality method
 linktitle: get_ReadingQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the reading quality. Works for 1D and postal barcodes in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_ReadingQuality method. Gets the reading quality. Works for 1D and postal barcodes in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_readingquality/
@@ -20,6 +20,9 @@ double Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_ReadingQuality()
 
 
 The reading quality percent
+
+
+
 ## See Also
 
 * Class [BarCodeResult](../)

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::PdfParameters::get_IsTextAsPath method
 linktitle: get_IsTextAsPath
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Are paths used instead of text (use if Unicode characters are not displayed) Default value: false in C++.'
+description: 'Aspose::BarCode::Generation::PdfParameters::get_IsTextAsPath method. Are paths used instead of text (use if Unicode characters are not displayed) Default value: false in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.generation/pdfparameters/get_istextaspath/

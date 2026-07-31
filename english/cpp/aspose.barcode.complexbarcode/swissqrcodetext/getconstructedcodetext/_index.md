@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRCodetext::GetConstructedCodetext method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Construct codetext from SwissQR bill data in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext::GetConstructedCodetext method. Construct codetext from SwissQR bill data in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/getconstructedcodetext/

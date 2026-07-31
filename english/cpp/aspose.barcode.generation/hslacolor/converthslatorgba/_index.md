@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::HslaColor::ConvertHslaToRgba method
 linktitle: ConvertHslaToRgba
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Uses in C++.'
+description: 'Aspose::BarCode::Generation::HslaColor::ConvertHslaToRgba method. Uses in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/hslacolor/converthslatorgba/

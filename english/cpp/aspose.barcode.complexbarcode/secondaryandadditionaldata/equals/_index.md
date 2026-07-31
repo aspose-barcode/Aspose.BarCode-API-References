@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::Equals method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a value indicating whether this instance is equal to a specified SecondaryAndAdditionalData value in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::Equals method. Returns a value indicating whether this instance is equal to a specified SecondaryAndAdditionalData value in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/equals/

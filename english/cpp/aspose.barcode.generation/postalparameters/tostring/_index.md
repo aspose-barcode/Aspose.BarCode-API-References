@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::PostalParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this PostalParameters in C++.'
+description: 'Aspose::BarCode::Generation::PostalParameters::ToString method. Returns a human-readable string representation of this PostalParameters in C++.'
 type: docs
-weight: 500
+weight: 300
 url: /cpp/aspose.barcode.generation/postalparameters/tostring/
 ---
 ## PostalParameters::ToString method

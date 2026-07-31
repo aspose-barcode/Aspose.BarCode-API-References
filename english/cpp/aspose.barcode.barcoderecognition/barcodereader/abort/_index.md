@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::Abort method
 linktitle: Abort
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::Abort method. Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/abort/
 ---
 ## BarCodeReader::Abort method
@@ -52,6 +52,9 @@ thread1.Start(reader)
 Thread.Sleep(100)
 reader.Abort()
 ```
+
+
+
 
 ## See Also
 

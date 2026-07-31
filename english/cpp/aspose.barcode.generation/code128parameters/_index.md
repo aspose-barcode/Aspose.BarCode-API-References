@@ -20,10 +20,8 @@ class Code128Parameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Code128EncodeMode](./get_code128encodemode/)() | Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
-| [get_EncodeMode](./get_encodemode/)() const | Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
-| [set_Code128EncodeMode](./set_code128encodemode/)(Aspose::BarCode::Generation::Code128EncodeMode) | Sets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
-| [set_EncodeMode](./set_encodemode/)(Aspose::BarCode::Generation::Code128EncodeMode) | Sets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
+| [get_EncodeMode](./get_encodemode/)() const | Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../code128encodemode/) |
+| [set_EncodeMode](./set_encodemode/)(Code128EncodeMode) | Sets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../code128encodemode/) |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [Code128Parameters](./). |
 ## See Also
 

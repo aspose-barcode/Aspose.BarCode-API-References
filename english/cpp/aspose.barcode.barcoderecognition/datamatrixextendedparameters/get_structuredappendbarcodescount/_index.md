@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::DataMatrixExtendedParameters::get_StructuredAppendBarcodesCount method
 linktitle: get_StructuredAppendBarcodesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35 in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DataMatrixExtendedParameters::get_StructuredAppendBarcodesCount method. Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/datamatrixextendedparameters/get_structuredappendbarcodescount/
@@ -20,6 +20,9 @@ int32_t Aspose::BarCode::BarCodeRecognition::DataMatrixExtendedParameters::get_S
 
 
 The count of the DataMatrix structured append mode barcode.
+
+
+
 ## See Also
 
 * Class [DataMatrixExtendedParameters](../)

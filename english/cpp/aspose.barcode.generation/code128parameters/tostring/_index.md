@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Code128Parameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this Code128Parameters in C++.'
+description: 'Aspose::BarCode::Generation::Code128Parameters::ToString method. Returns a human-readable string representation of this Code128Parameters in C++.'
 type: docs
-weight: 500
+weight: 300
 url: /cpp/aspose.barcode.generation/code128parameters/tostring/
 ---
 ## Code128Parameters::ToString method

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::SvgParameters::get_IsTextDrawnInTextElement method
 linktitle: get_IsTextDrawnInTextElement
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Does SVG image contain text as text element rather than paths (recommended) Default value: true in C++.'
+description: 'Aspose::BarCode::Generation::SvgParameters::get_IsTextDrawnInTextElement method. Does SVG image contain text as text element rather than paths (recommended) Default value: true in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/svgparameters/get_istextdrawnintextelement/

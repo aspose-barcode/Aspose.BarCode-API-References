@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::GS1CompositeBar field
 linktitle: GS1CompositeBar
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with GS1 Composite Bar barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::GS1CompositeBar field. Specifies that the data should be decoded with GS1 Composite Bar barcode specification in C++.'
 type: docs
 weight: 9200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/gs1compositebar/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **GS1 Composite Bar** barcode spe
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::GS1CompositeBar
 ```
+
+
+
 
 ## See Also
 

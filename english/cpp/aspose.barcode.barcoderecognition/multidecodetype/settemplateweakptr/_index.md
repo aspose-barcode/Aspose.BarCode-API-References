@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::SetTemplateWeakPtr method
 linktitle: SetTemplateWeakPtr
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Set n''th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::SetTemplateWeakPtr method. Set n''th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/settemplateweakptr/

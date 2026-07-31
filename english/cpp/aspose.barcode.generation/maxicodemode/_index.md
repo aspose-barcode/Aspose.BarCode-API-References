@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::MaxiCodeMode enum
 linktitle: MaxiCodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Encoding mode for MaxiCode barcodes in C++.'
+description: 'Aspose::BarCode::Generation::MaxiCodeMode enum. Encoding mode for MaxiCode barcodes in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.barcode.generation/maxicodemode/
