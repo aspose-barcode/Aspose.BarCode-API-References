@@ -1,0 +1,21 @@
+---
+title: "EncodeTypes.CODE_39_FULL_ASCII"
+linktitle: "CODE_39_FULL_ASCII"
+articleTitle: "CODE_39_FULL_ASCII"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Specifies that the data should be encoded with. full ASCII charset barcode specification: ISO/IEC 16388"
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.encode_types/encodetypes/code_39_full_ascii/
+---
+
+## EncodeTypes.CODE_39_FULL_ASCII
+
+**Type:** `int`
+
+
+**Value:** `3`
+
+
+Specifies that the data should be encoded with. full ASCII charset barcode specification: ISO/IEC 16388
+

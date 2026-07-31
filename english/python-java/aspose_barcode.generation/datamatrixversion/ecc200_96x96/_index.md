@@ -1,0 +1,21 @@
+---
+title: "DataMatrixVersion.ECC200_96x96"
+linktitle: "ECC200_96x96"
+articleTitle: "ECC200_96x96"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Specifies size of 96 x 96 modules for ECC200 type."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.data_matrix_version/datamatrixversion/ecc200_96x96/
+---
+
+## DataMatrixVersion.ECC200_96x96
+
+**Type:** `int`
+
+
+**Value:** `42`
+
+
+Specifies size of 96 x 96 modules for ECC200 type.
+

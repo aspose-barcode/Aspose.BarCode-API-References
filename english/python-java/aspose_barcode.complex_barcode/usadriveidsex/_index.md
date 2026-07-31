@@ -1,0 +1,24 @@
+---
+title: "USADriveIdSex Enum"
+linktitle: "USADriveIdSex"
+articleTitle: "USADriveIdSex"
+second_title: "Aspose.BarCode for Python via Java"
+description: ""
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/
+---
+
+## USADriveIdSex enum
+
+**Module:** `aspose_barcode.complex_barcode.usa_driveis_sex`
+
+
+## Enum Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| [FEMALE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/female/) | `2` |  |
+| [MALE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/male/) | `1` |  |
+| [NONE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/none/) | `0` |  |
+| [NOT_SPECIFIED](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/not_specified/) | `9` |  |
