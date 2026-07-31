@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Decodes USADriveId codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_codetext_reader/complexcodetextreader/try_decode_usa_drive_id/
+url: /python-java/aspose_barcode.complex_barcode/complexcodetextreader/try_decode_usa_drive_id/
 ---
 
 ## ComplexCodetextReader.try_decode_usa_drive_id

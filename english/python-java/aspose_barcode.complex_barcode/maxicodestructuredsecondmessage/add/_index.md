@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Adds new identifier."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_structured_second_message/maxicodestructuredsecondmessage/add/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestructuredsecondmessage/add/
 ---
 
 ## MaxiCodeStructuredSecondMessage.add

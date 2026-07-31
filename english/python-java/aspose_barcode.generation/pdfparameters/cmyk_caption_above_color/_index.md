@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_parameters/pdfparameters/cmyk_caption_above_color/
+url: /python-java/aspose_barcode.generation/pdfparameters/cmyk_caption_above_color/
 ---
 
 ## PdfParameters.cmyk_caption_above_color

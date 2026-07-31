@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specify the displaying CodeText's font. Default value: Arial 5pt regular. Ignored if FontMode is set to FontMode.AUTO."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codetext_parameters/codetextparameters/font/
+url: /python-java/aspose_barcode.generation/codetextparameters/font/
 ---
 
 ## CodetextParameters.font

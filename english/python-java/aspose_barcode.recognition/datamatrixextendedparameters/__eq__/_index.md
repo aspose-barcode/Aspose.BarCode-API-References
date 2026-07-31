@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified. value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.data_matrix_extended_parameters/datamatrixextendedparameters/__eq__/
+url: /python-java/aspose_barcode.recognition/datamatrixextendedparameters/__eq__/
 ---
 
 ## DataMatrixExtendedParameters.__eq__

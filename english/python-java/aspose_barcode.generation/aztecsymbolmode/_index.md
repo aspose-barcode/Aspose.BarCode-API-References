@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the Aztec symbol mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.aztec_symbol_mode/aztecsymbolmode/
+url: /python-java/aspose_barcode.generation/aztecsymbolmode/
 ---
 
 ## AztecSymbolMode enum

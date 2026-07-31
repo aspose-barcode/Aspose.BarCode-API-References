@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Base class for encoding and decoding the text embedded in the MaxiCode code. This sample shows how to decode raw MaxiCode codetext to MaxiCodeCodetext instance."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/
+url: /python-java/aspose_barcode.complex_barcode/maxicodecodetext/
 ---
 
 ## MaxiCodeCodetext class

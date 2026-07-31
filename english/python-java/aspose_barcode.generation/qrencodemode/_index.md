@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encoding mode for QR barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_encode_mode/qrencodemode/
+url: /python-java/aspose_barcode.generation/qrencodemode/
 ---
 
 ## QREncodeMode enum

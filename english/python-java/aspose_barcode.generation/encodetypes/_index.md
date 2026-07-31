@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the type of barcode to encode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/
+url: /python-java/aspose_barcode.generation/encodetypes/
 ---
 
 ## EncodeTypes enum

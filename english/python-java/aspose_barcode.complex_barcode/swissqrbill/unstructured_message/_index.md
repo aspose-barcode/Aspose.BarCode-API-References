@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the additional unstructured message."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/unstructured_message/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/unstructured_message/
 ---
 
 ## SwissQRBill.unstructured_message

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. This sample shows how to use XDimension mode"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.x_dimension_mode/xdimensionmode/
+url: /python-java/aspose_barcode.recognition/xdimensionmode/
 ---
 
 ## XDimensionMode enum

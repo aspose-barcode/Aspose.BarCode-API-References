@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be decoded with EAN-8 barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/ean_8/
+url: /python-java/aspose_barcode.recognition/decodetype/ean_8/
 ---
 
 ## DecodeType.EAN_8

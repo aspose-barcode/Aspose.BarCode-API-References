@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/back_color/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/back_color/
 ---
 
 ## BaseGenerationParameters.back_color

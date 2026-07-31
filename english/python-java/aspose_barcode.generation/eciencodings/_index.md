@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Exampl"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/
+url: /python-java/aspose_barcode.generation/eciencodings/
 ---
 
 ## ECIEncodings enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies version 37 with 165 x 165 modules."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_version/qrversion/version_37/
+url: /python-java/aspose_barcode.generation/qrversion/version_37/
 ---
 
 ## QRVersion.VERSION_37

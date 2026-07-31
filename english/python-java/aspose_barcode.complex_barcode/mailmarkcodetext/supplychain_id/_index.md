@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Maximum values are 99 for Barcode C and 999999 for Barcode L."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_codetext/mailmarkcodetext/supplychain_id/
+url: /python-java/aspose_barcode.complex_barcode/mailmarkcodetext/supplychain_id/
 ---
 
 ## MailmarkCodetext.supplychain_id

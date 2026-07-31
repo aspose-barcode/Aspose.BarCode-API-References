@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be decoded with HIBC PAS Code128 blank specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/hibc_code_128_pas/
+url: /python-java/aspose_barcode.recognition/decodetype/hibc_code_128_pas/
 ---
 
 ## DecodeType.HIBC_CODE_128_PAS

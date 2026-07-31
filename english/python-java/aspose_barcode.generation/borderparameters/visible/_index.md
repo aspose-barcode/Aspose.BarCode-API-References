@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Border visibility. If false, the Width parameter is always ignored (0). Default value: false."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.border_parameters/borderparameters/visible/
+url: /python-java/aspose_barcode.generation/borderparameters/visible/
 ---
 
 ## BorderParameters.visible

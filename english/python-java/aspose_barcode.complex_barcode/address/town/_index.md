@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the town or city. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it bec"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/town/
+url: /python-java/aspose_barcode.complex_barcode/address/town/
 ---
 
 ## Address.town

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_version/hanxinversion/
+url: /python-java/aspose_barcode.generation/hanxinversion/
 ---
 
 ## HanXinVersion enum

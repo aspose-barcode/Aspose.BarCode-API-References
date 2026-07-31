@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies QR compaction mode for codetext added by QrExtCodetextBuilder."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/
+url: /python-java/aspose_barcode.generation/qrextcompactionmode/
 ---
 
 ## QrExtCompactionMode enum

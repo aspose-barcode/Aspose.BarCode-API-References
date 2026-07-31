@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Generates complex barcode image under current settings."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/generate_barcode_image/
+url: /python-java/aspose_barcode.complex_barcode/complexbarcodegenerator/generate_barcode_image/
 ---
 
 ## ComplexBarcodeGenerator.generate_barcode_image

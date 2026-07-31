@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the version of the SwissQR bill standard."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/version/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/version/
 ---
 
 ## SwissQRBill.version

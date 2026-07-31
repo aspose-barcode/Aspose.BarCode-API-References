@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Reimplemented in USADriveIdCodetext, MaxiCodeStructuredCodetext, and HIBCLICComplexCodetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/icomplexcodetext/
+url: /python-java/aspose_barcode.complex_barcode/icomplexcodetext/icomplexcodetext/
 ---
 
 ## IComplexCodetext Constructor

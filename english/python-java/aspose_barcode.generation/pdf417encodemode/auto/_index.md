@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "In Auto mode, the CodeText is encoded with maximum data compactness. Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_encode_mode/pdf417encodemode/auto/
+url: /python-java/aspose_barcode.generation/pdf417encodemode/auto/
 ---
 
 ## Pdf417EncodeMode.AUTO

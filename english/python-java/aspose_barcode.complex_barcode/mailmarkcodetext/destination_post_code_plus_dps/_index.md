@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "The PC and DP must comply with a PAF format. Nine character string denoting international \"XY11 \" (note the 5 trailing spaces) or a pattern of characters denoti"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_codetext/mailmarkcodetext/destination_post_code_plus_dps/
+url: /python-java/aspose_barcode.complex_barcode/mailmarkcodetext/destination_post_code_plus_dps/
 ---
 
 ## MailmarkCodetext.destination_post_code_plus_dps

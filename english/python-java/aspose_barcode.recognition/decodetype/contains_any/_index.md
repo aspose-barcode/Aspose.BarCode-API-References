@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/contains_any/
+url: /python-java/aspose_barcode.recognition/decodetype/contains_any/
 ---
 
 ## DecodeType.contains_any

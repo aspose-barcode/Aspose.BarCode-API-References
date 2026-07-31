@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the street. The street must be speicfied without house number. Setting this field sets the address type to AddressType.Structured unless it's already Addre"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/street/
+url: /python-java/aspose_barcode.complex_barcode/address/street/
 ---
 
 ## Address.street

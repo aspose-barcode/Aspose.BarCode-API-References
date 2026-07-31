@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_extended_parameters/barcodeextendedparameters/one_d/
+url: /python-java/aspose_barcode.recognition/barcodeextendedparameters/one_d/
 ---
 
 ## BarCodeExtendedParameters.one_d

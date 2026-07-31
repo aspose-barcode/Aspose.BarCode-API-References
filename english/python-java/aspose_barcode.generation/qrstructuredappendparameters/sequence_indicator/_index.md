@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the index of the QR structured append mode barcode. Index starts from 0."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/sequence_indicator/
+url: /python-java/aspose_barcode.generation/qrstructuredappendparameters/sequence_indicator/
 ---
 
 ## QrStructuredAppendParameters.sequence_indicator

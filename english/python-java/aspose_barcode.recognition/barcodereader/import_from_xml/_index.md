@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Imports BarCode properties from the specified XML file."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_reader/barcodereader/import_from_xml/
+url: /python-java/aspose_barcode.recognition/barcodereader/import_from_xml/
 ---
 
 ## BarCodeReader.import_from_xml

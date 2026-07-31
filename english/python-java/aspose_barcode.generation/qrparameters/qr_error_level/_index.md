@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Level of Reed-Solomon error correction for QR barcode. From low to high: LEVEL_L, LEVEL_M, LEVEL_Q, LEVEL_H. see QRErrorLevel."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/qr_error_level/
+url: /python-java/aspose_barcode.generation/qrparameters/qr_error_level/
 ---
 
 ## QrParameters.qr_error_level

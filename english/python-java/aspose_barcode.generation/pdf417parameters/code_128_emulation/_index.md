@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which j"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/code_128_emulation/
+url: /python-java/aspose_barcode.generation/pdf417parameters/code_128_emulation/
 ---
 
 ## Pdf417Parameters.code_128_emulation

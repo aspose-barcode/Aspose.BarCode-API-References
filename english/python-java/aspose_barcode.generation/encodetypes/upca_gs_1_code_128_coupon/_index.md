@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with UPC coupon with GS1-128 Extended Code barcode specification. An example of the input string: generator.setCodeTex"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/upca_gs_1_code_128_coupon/
+url: /python-java/aspose_barcode.generation/encodetypes/upca_gs_1_code_128_coupon/
 ---
 
 ## EncodeTypes.UPCA_GS_1_CODE_128_COUPON

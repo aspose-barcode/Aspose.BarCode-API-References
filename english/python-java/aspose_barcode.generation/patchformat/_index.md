@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.patch_format/patchformat/
+url: /python-java/aspose_barcode.generation/patchformat/
 ---
 
 ## PatchFormat enum

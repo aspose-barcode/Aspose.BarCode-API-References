@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters. codetext = \"1234567890ABCDEFGabcdef"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_encode_mode/hanxinencodemode/
+url: /python-java/aspose_barcode.generation/hanxinencodemode/
 ---
 
 ## HanXinEncodeMode enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encoding mode for DotCode barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.dotcode_encode_mode/dotcodeencodemode/
+url: /python-java/aspose_barcode.generation/dotcodeencodemode/
 ---
 
 ## DotCodeEncodeMode enum

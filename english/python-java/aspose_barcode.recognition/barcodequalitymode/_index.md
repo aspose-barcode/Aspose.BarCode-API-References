@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows th"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_quality_mode/barcodequalitymode/
+url: /python-java/aspose_barcode.recognition/barcodequalitymode/
 ---
 
 ## BarcodeQualityMode enum

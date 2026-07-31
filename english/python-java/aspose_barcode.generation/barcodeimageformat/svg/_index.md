@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the Scalable Vector Graphics (SVG) image format."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_image_format/barcodeimageformat/svg/
+url: /python-java/aspose_barcode.generation/barcodeimageformat/svg/
 ---
 
 ## BarCodeImageFormat.SVG

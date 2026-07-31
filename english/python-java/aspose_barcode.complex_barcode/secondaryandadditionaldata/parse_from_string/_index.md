@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Instantiates secondary and additional supplemental data from string format according HIBC LIC specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.secondary_and_additional_data/secondaryandadditionaldata/parse_from_string/
+url: /python-java/aspose_barcode.complex_barcode/secondaryandadditionaldata/parse_from_string/
 ---
 
 ## SecondaryAndAdditionalData.parse_from_string

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Address type."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address_type/addresstype/
+url: /python-java/aspose_barcode.complex_barcode/addresstype/
 ---
 
 ## AddressType enum

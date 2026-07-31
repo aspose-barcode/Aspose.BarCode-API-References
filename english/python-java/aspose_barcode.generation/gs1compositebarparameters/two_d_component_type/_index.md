@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "2D component type"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/two_d_component_type/
+url: /python-java/aspose_barcode.generation/gs1compositebarparameters/two_d_component_type/
 ---
 
 ## GS1CompositeBarParameters.two_d_component_type

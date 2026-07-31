@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance)."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.inverse_image_mode/inverseimagemode/
+url: /python-java/aspose_barcode.recognition/inverseimagemode/
 ---
 
 ## InverseImageMode enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default val"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_complex_codetext/hibcliccomplexcodetext/barcode_type/
+url: /python-java/aspose_barcode.complex_barcode/hibcliccomplexcodetext/barcode_type/
 ---
 
 ## HIBCLICComplexCodetext.barcode_type

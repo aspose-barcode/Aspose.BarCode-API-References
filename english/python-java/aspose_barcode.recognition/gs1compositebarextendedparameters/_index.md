@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores additional information for GS1 Composite Bar recognized barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/
+url: /python-java/aspose_barcode.recognition/gs1compositebarextendedparameters/
 ---
 
 ## GS1CompositeBarExtendedParameters class

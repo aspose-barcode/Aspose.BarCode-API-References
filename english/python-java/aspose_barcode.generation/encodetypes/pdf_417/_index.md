@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with Pdf417 barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/pdf_417/
+url: /python-java/aspose_barcode.generation/encodetypes/pdf_417/
 ---
 
 ## EncodeTypes.PDF_417

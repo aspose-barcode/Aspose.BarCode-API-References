@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/reader_initialization/
+url: /python-java/aspose_barcode.generation/pdf417parameters/reader_initialization/
 ---
 
 ## Pdf417Parameters.reader_initialization

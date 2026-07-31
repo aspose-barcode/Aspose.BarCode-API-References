@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Right padding."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.padding/padding/right/
+url: /python-java/aspose_barcode.generation/padding/right/
 ---
 
 ## Padding.right

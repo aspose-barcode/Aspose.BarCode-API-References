@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores special data of 1D recognized barcode like separate codetext and checksum. This sample shows how to get 1D barcode value and checksum"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.one_d_extended_parameters/onedextendedparameters/
+url: /python-java/aspose_barcode.recognition/onedextendedparameters/
 ---
 
 ## OneDExtendedParameters class

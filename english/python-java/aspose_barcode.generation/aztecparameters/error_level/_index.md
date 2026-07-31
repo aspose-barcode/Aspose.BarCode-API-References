@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.aztec_parameters/aztecparameters/error_level/
+url: /python-java/aspose_barcode.generation/aztecparameters/error_level/
 ---
 
 ## AztecParameters.error_level

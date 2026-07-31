@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with GS1 Code 128 barcode specification. The codetext must contains parentheses for AI."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/gs_1_code_128/
+url: /python-java/aspose_barcode.generation/encodetypes/gs_1_code_128/
 ---
 
 ## EncodeTypes.GS_1_CODE_128

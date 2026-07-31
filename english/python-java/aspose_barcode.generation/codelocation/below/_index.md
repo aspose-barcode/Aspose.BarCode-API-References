@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Codetext below barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_location/codelocation/below/
+url: /python-java/aspose_barcode.generation/codelocation/below/
 ---
 
 ## CodeLocation.BELOW

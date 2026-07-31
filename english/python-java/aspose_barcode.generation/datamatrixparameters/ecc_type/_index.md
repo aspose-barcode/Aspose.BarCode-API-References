@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/ecc_type/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/ecc_type/
 ---
 
 ## DataMatrixParameters.ecc_type

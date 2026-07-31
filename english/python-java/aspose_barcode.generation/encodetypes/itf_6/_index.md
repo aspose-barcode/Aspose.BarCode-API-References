@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents ITF-6 Barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/itf_6/
+url: /python-java/aspose_barcode.generation/encodetypes/itf_6/
 ---
 
 ## EncodeTypes.ITF_6

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ISO/IEC 10646 UTF-16LE encoding. ECI Id:\"\\000033\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/utf16le/
+url: /python-java/aspose_barcode.generation/eciencodings/utf16le/
 ---
 
 ## ECIEncodings.UTF16LE

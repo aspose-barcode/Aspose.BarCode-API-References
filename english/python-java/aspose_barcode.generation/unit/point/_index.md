@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets size value in point."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.unit/unit/point/
+url: /python-java/aspose_barcode.generation/unit/point/
 ---
 
 ## Unit.point

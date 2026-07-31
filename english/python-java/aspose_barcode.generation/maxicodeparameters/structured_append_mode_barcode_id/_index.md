@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.maxi_code_parameters/maxicodeparameters/structured_append_mode_barcode_id/
+url: /python-java/aspose_barcode.generation/maxicodeparameters/structured_append_mode_barcode_id/
 ---
 
 ## MaxiCodeParameters.structured_append_mode_barcode_id

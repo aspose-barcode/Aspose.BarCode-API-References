@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Recognition confidence of barcode (mostly 1D barcodes) with weak checksumm or even without it. Could contains some misrecognitions in codetext or even fake reco"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_confidence/barcodeconfidence/moderate/
+url: /python-java/aspose_barcode.recognition/barcodeconfidence/moderate/
 ---
 
 ## BarCodeConfidence.MODERATE

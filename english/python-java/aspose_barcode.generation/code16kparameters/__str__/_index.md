@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this Code16KParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_16k_parameters/code16kparameters/__str__/
+url: /python-java/aspose_barcode.generation/code16kparameters/__str__/
 ---
 
 ## Code16KParameters.__str__

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Determines whether the specified object is equal to the current object."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.alternative_scheme/alternativescheme/__eq__/
+url: /python-java/aspose_barcode.complex_barcode/alternativescheme/__eq__/
 ---
 
 ## AlternativeScheme.__eq__

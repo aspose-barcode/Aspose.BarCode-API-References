@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Caption Above the BarCode image. See CaptionParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/caption_above/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/caption_above/
 ---
 
 ## BaseGenerationParameters.caption_above

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "H - Devices and Materials."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_location/hibcpasdatalocation/devices_and_materials/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatalocation/devices_and_materials/
 ---
 
 ## HIBCPASDataLocation.DEVICES_AND_MATERIALS

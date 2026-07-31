@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with DotCode barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/dot_code/
+url: /python-java/aspose_barcode.generation/encodetypes/dot_code/
 ---
 
 ## EncodeTypes.DOT_CODE

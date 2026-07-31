@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Exports BarCode properties to the xml-stream specified."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/export_to_xml/
+url: /python-java/aspose_barcode.generation/barcodegenerator/export_to_xml/
 ---
 
 ## BarcodeGenerator.export_to_xml

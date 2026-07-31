@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Adds FNC1 in first position to the extended codetext items."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/add_fnc1_first_position/
+url: /python-java/aspose_barcode.generation/qrextcodetextbuilder/add_fnc1_first_position/
 ---
 
 ## QrExtCodetextBuilder.add_fnc1_first_position

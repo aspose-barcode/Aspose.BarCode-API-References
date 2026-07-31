@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_codetext_reader/complexcodetextreader/try_decode_mailmark_2d/
+url: /python-java/aspose_barcode.complex_barcode/complexcodetextreader/try_decode_mailmark_2d/
 ---
 
 ## ComplexCodetextReader.try_decode_mailmark_2d

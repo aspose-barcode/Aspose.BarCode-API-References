@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for representing HSLA color (Hue, Saturation, Lightness, Alpha)"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.hsla_color/hslacolor/
+url: /python-java/aspose_barcode.generation/hslacolor/
 ---
 
 ## HslaColor class

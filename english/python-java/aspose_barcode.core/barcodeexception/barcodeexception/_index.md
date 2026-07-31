@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes a new instance of the BarCodeException class with specified error message."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.core.exceptions/barcodeexception/barcodeexception/
+url: /python-java/aspose_barcode.core/barcodeexception/barcodeexception/
 ---
 
 ## BarCodeException Constructor

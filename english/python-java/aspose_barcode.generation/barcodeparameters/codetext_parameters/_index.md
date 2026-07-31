@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Codetext parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/codetext_parameters/
+url: /python-java/aspose_barcode.generation/barcodeparameters/codetext_parameters/
 ---
 
 ## BarcodeParameters.codetext_parameters

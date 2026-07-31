@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores a QR Structured Append information of recognized barcode. This sample shows how to get QR Structured Append data"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.qr_extended_parameters/qrextendedparameters/
+url: /python-java/aspose_barcode.recognition/qrextendedparameters/
 ---
 
 ## QRExtendedParameters class

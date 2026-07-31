@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended mode which supports multi ECI modes. It is better to use AztecExtCodetextBuilder for extended codetext generation. Use Display2DText property to set vi"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.aztec_encode_mode/aztecencodemode/extended/
+url: /python-java/aspose_barcode.generation/aztecencodemode/extended/
 ---
 
 ## AztecEncodeMode.EXTENDED

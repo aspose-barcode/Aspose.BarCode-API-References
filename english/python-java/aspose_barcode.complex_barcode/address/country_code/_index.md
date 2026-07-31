@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the two-letter ISO country code. The country code is mandatory unless the entire address contains None or emtpy values."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/country_code/
+url: /python-java/aspose_barcode.complex_barcode/address/country_code/
 ---
 
 ## Address.country_code

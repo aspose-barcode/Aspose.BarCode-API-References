@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. D"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.dotcode_extended_parameters/dotcodeextendedparameters/dot_code_is_reader_initialization/
+url: /python-java/aspose_barcode.recognition/dotcodeextendedparameters/dot_code_is_reader_initialization/
 ---
 
 ## DotCodeExtendedParameters.dot_code_is_reader_initialization

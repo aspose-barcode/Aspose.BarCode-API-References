@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_parameters/hanxinparameters/han_xin_version/
+url: /python-java/aspose_barcode.generation/hanxinparameters/han_xin_version/
 ---
 
 ## HanXinParameters.han_xin_version

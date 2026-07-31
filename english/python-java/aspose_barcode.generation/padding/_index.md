@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Paddings parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.padding/padding/
+url: /python-java/aspose_barcode.generation/padding/
 ---
 
 ## Padding class

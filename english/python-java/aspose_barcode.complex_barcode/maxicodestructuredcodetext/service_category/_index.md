@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies 3 digit service category."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_structured_codetext/maxicodestructuredcodetext/service_category/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestructuredcodetext/service_category/
 ---
 
 ## MaxiCodeStructuredCodetext.service_category

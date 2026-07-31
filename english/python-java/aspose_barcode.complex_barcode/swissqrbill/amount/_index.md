@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the payment amount. Valid values are between 0.01 and 999,999,999.99."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/amount/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/amount/
 ---
 
 ## SwissQRBill.amount

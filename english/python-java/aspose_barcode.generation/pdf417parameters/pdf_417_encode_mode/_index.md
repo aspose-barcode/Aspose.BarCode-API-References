@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets Pdf417 encode mode. Default value: Auto."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/pdf_417_encode_mode/
+url: /python-java/aspose_barcode.generation/pdf417parameters/pdf_417_encode_mode/
 ---
 
 ## Pdf417Parameters.pdf_417_encode_mode

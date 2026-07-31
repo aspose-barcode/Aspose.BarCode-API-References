@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Enables normal deconvolution methods for common images."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/normal/
+url: /python-java/aspose_barcode.recognition/deconvolutionmode/normal/
 ---
 
 ## DeconvolutionMode.NORMAL

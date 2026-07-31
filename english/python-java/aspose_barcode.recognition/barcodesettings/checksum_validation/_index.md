@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/checksum_validation/
+url: /python-java/aspose_barcode.recognition/barcodesettings/checksum_validation/
 ---
 
 ## BarcodeSettings.checksum_validation

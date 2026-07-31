@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies a line consisting of dots."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.border_dash_style/borderdashstyle/dot/
+url: /python-java/aspose_barcode.generation/borderdashstyle/dot/
 ---
 
 ## BorderDashStyle.DOT

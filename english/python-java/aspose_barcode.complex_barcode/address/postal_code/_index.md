@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the postal code. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it beco"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/postal_code/
+url: /python-java/aspose_barcode.complex_barcode/address/postal_code/
 ---
 
 ## Address.postal_code

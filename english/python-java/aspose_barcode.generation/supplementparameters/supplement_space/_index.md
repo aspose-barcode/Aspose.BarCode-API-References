@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Space between the main BarCode and supplement BarCode in Unit value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/supplement_space/
+url: /python-java/aspose_barcode.generation/supplementparameters/supplement_space/
 ---
 
 ## SupplementParameters.supplement_space

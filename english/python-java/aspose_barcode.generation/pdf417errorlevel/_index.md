@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_error_level/pdf417errorlevel/
+url: /python-java/aspose_barcode.generation/pdf417errorlevel/
 ---
 
 ## Pdf417ErrorLevel enum

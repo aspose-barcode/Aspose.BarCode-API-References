@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Construct codetext from SwissQR bill data."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_codetext/swissqrcodetext/constructed_codetext/
+url: /python-java/aspose_barcode.complex_barcode/swissqrcodetext/constructed_codetext/
 ---
 
 ## SwissQRCodetext.constructed_codetext

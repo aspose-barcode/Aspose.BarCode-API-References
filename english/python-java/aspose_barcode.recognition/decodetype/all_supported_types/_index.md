@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that data will be checked with all available symbologies."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/all_supported_types/
+url: /python-java/aspose_barcode.recognition/decodetype/all_supported_types/
 ---
 
 ## DecodeType.ALL_SUPPORTED_TYPES

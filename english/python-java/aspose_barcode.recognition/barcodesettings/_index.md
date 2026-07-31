@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Contains settings for barcode recognition."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/
+url: /python-java/aspose_barcode.recognition/barcodesettings/
 ---
 
 ## BarcodeSettings class

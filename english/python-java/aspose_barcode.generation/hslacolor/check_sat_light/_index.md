@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.hsla_color/hslacolor/check_sat_light/
+url: /python-java/aspose_barcode.generation/hslacolor/check_sat_light/
 ---
 
 ## HslaColor.check_sat_light

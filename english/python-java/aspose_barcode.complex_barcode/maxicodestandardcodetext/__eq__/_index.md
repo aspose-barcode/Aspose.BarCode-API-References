@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified MaxiCodeStandardCodetext value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/__eq__/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestandardcodetext/__eq__/
 ---
 
 ## MaxiCodeStandardCodetext.__eq__

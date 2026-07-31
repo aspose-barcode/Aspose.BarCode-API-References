@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the Graphics Interchange Format (GIF) image format."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_image_format/barcodeimageformat/gif/
+url: /python-java/aspose_barcode.generation/barcodeimageformat/gif/
 ---
 
 ## BarCodeImageFormat.GIF

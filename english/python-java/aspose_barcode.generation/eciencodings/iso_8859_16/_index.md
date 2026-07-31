@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ISO/IEC 8859-16 Latin alphabet No. 10 encoding. ECI Id:\"\\000018\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/iso_8859_16/
+url: /python-java/aspose_barcode.generation/eciencodings/iso_8859_16/
 ---
 
 ## ECIEncodings.ISO_8859_16

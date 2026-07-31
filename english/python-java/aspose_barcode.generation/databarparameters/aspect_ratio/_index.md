@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Height/Width ratio of 2D BarCode module. Used for DataBar stacked."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.databar_parameters/databarparameters/aspect_ratio/
+url: /python-java/aspose_barcode.generation/databarparameters/aspect_ratio/
 ---
 
 ## DataBarParameters.aspect_ratio

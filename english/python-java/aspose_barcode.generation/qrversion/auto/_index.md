@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies to automatically pick up the best version for QR. This is default value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_version/qrversion/auto/
+url: /python-java/aspose_barcode.generation/qrversion/auto/
 ---
 
 ## QRVersion.AUTO

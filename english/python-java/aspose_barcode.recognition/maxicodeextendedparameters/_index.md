@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores a MaxiCode additional information of recognized barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.maxi_code_extended_parameters/maxicodeextendedparameters/
+url: /python-java/aspose_barcode.recognition/maxicodeextendedparameters/
 ---
 
 ## MaxiCodeExtendedParameters class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Short bar's height of Postal barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.postal_parameters/postalparameters/postal_short_bar_height/
+url: /python-java/aspose_barcode.generation/postalparameters/postal_short_bar_height/
 ---
 
 ## PostalParameters.postal_short_bar_height

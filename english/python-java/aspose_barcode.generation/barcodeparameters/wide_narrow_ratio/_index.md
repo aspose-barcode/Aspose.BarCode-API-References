@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Wide bars to Narrow bars ratio. Default value: 3, that is, wide bars are 3 times as wide as narrow bars. Used for ITF, PZN, PharmaCode, Standard2of5, Interleave"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/wide_narrow_ratio/
+url: /python-java/aspose_barcode.generation/barcodeparameters/wide_narrow_ratio/
 ---
 
 ## BarcodeParameters.wide_narrow_ratio

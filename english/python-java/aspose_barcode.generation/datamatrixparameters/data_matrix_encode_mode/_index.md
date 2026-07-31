@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encode mode of Datamatrix barcode. Default value: DataMatrixEncodeMode.AUTO."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/data_matrix_encode_mode/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/data_matrix_encode_mode/
 ---
 
 ## DataMatrixParameters.data_matrix_encode_mode

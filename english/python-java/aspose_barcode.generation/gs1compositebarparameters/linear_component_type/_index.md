@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Linear component type."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/linear_component_type/
+url: /python-java/aspose_barcode.generation/gs1compositebarparameters/linear_component_type/
 ---
 
 ## GS1CompositeBarParameters.linear_component_type

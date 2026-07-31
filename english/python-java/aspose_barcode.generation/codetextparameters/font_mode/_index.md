@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specify FontMode. If FontMode is set to Auto, font size will be calculated automatically based on xDimension value. It is recommended to use FontMode.AUTO espec"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codetext_parameters/codetextparameters/font_mode/
+url: /python-java/aspose_barcode.generation/codetextparameters/font_mode/
 ---
 
 ## CodetextParameters.font_mode

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this QRExtendedParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.qr_extended_parameters/qrextendedparameters/__str__/
+url: /python-java/aspose_barcode.recognition/qrextendedparameters/__str__/
 ---
 
 ## QRExtendedParameters.__str__

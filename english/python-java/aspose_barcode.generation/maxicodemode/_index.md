@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encoding mode for MaxiCode barcodes. This sample shows how to genereate MaxiCode barcodes using ComplexBarcodeGenerator"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.maxi_code_mode/maxicodemode/
+url: /python-java/aspose_barcode.generation/maxicodemode/
 ---
 
 ## MaxiCodeMode enum

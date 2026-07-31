@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Reimplemented from IComplexCodetext. Reimplemented in HIBCLICSecondaryAndAdditionalDataCodetext, HIBCLICPrimaryDataCodetext, and HIBCLICCombinedCodetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_complex_codetext/hibcliccomplexcodetext/init_from_string/
+url: /python-java/aspose_barcode.complex_barcode/hibcliccomplexcodetext/init_from_string/
 ---
 
 ## HIBCLICComplexCodetext.init_from_string

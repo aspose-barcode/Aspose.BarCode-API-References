@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Reimplemented from MaxiCodeStandardSecondMessage."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_standart_second_message/maxicodestandartsecondmessage/maxicodestandartsecondmessage/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestandartsecondmessage/maxicodestandartsecondmessage/
 ---
 
 ## MaxiCodeStandartSecondMessage Constructor

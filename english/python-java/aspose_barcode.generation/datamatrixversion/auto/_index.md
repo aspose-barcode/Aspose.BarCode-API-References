@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies to automatically pick up the smallest size for DataMatrix."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_version/datamatrixversion/auto/
+url: /python-java/aspose_barcode.generation/datamatrixversion/auto/
 ---
 
 ## DataMatrixVersion.AUTO

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "At this time the same as Disabled. Disables additional recognition of barcodes on inverse images."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.inverse_image_mode/inverseimagemode/auto/
+url: /python-java/aspose_barcode.recognition/inverseimagemode/auto/
 ---
 
 ## InverseImageMode.AUTO

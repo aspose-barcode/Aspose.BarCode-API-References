@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Indicates whether explains the character \"\\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is True,"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/enable_escape/
+url: /python-java/aspose_barcode.generation/barcodeparameters/enable_escape/
 ---
 
 ## BarcodeParameters.enable_escape

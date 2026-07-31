@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the Tagged Image File Format (TIFF) image format in CMYK color model."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_image_format/barcodeimageformat/tiff_in_cmyk/
+url: /python-java/aspose_barcode.generation/barcodeimageformat/tiff_in_cmyk/
 ---
 
 ## BarCodeImageFormat.TIFF_IN_CMYK

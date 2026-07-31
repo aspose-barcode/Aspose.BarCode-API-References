@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Border type of ITF barcode. Default value: ITF14BorderType.BAR."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.itf_parameters/itfparameters/itf_border_type/
+url: /python-java/aspose_barcode.generation/itfparameters/itf_border_type/
 ---
 
 ## ITFParameters.itf_border_type

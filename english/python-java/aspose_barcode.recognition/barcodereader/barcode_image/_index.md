@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Sets bitmap image and areas for Recognition. Must be called before ReadBarCodes() method. This sample shows how to detect Code39 and Code128 barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_reader/barcodereader/barcode_image/
+url: /python-java/aspose_barcode.recognition/barcodereader/barcode_image/
 ---
 
 ## BarCodeReader.barcode_image

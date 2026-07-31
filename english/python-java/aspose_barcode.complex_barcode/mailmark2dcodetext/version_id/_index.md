@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies the barcode version as relevant to each Information Type ID. Valid Values: Currently “1”. “0” & “2” to “9” and “A” to “Z” spare reserved for potentia"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/version_id/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/version_id/
 ---
 
 ## Mailmark2DCodetext.version_id

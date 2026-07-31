@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Clear identifiers list."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_structured_second_message/maxicodestructuredsecondmessage/clear/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestructuredsecondmessage/clear/
 ---
 
 ## MaxiCodeStructuredSecondMessage.clear

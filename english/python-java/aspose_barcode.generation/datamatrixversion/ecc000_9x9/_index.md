@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies size of 9 x 9 modules for ECC000 type."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_version/datamatrixversion/ecc000_9x9/
+url: /python-java/aspose_barcode.generation/datamatrixversion/ecc000_9x9/
 ---
 
 ## DataMatrixVersion.ECC000_9x9

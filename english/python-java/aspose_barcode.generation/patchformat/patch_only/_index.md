@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Generates PatchCode only."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.patch_format/patchformat/patch_only/
+url: /python-java/aspose_barcode.generation/patchformat/patch_only/
 ---
 
 ## PatchFormat.PATCH_ONLY

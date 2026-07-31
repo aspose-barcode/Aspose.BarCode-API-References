@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets barcode type."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.usa_drive_id_codetext/usadriveidcodetext/barcode_type/
+url: /python-java/aspose_barcode.complex_barcode/usadriveidcodetext/barcode_type/
 ---
 
 ## USADriveIdCodetext.barcode_type

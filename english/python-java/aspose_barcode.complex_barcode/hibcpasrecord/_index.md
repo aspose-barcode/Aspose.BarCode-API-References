@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for storing HIBC PAS record."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasrecord/
 ---
 
 ## HIBCPASRecord class

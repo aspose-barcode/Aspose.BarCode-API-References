@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Caption font. Default value: Arial 8pt regular."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.caption_parameters/captionparameters/font/
+url: /python-java/aspose_barcode.generation/captionparameters/font/
 ---
 
 ## CaptionParameters.font

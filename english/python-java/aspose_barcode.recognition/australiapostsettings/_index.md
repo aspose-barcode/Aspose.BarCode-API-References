@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "AustraliaPost decoding parameters. Contains parameters which influence recognized data of AustraliaPost symbology."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/
+url: /python-java/aspose_barcode.recognition/australiapostsettings/
 ---
 
 ## AustraliaPostSettings class

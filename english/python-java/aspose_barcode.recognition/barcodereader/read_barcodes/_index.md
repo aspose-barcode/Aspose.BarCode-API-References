@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_reader/barcodereader/read_barcodes/
+url: /python-java/aspose_barcode.recognition/barcodereader/read_barcodes/
 ---
 
 ## BarCodeReader.read_barcodes

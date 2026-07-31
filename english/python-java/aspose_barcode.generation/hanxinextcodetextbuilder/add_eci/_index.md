@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Adds codetext fragment in ECI mode. Args: text (str): Codetext string. encoding (int): ECI encoding in integer format."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_ext_codetext_builder/hanxinextcodetextbuilder/add_eci/
+url: /python-java/aspose_barcode.generation/hanxinextcodetextbuilder/add_eci/
 ---
 
 ## HanXinExtCodetextBuilder.add_eci

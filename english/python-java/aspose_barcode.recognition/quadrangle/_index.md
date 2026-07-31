@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores a set of four Points that represent a Quadrangle region."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.quadrangle/quadrangle/
+url: /python-java/aspose_barcode.recognition/quadrangle/
 ---
 
 ## Quadrangle class

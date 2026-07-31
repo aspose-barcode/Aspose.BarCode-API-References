@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "DataMatrix encoder's encoding mode, default to Auto. This sample shows how to do codetext in Extended Mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_encode_mode/datamatrixencodemode/
+url: /python-java/aspose_barcode.generation/datamatrixencodemode/
 ---
 
 ## DataMatrixEncodeMode enum

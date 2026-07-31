@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.svg_color_mode/svgcolormode/
+url: /python-java/aspose_barcode.generation/svgcolormode/
 ---
 
 ## SvgColorMode enum

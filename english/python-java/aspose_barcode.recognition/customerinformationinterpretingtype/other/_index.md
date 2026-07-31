@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/other/
+url: /python-java/aspose_barcode.recognition/customerinformationinterpretingtype/other/
 ---
 
 ## CustomerInformationInterpretingType.OTHER

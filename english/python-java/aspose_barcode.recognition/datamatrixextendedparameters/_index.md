@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores special data of DataMatrix recognized barcode This sample shows how to get DataMatrix raw values."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.data_matrix_extended_parameters/datamatrixextendedparameters/
+url: /python-java/aspose_barcode.recognition/datamatrixextendedparameters/
 ---
 
 ## DataMatrixExtendedParameters class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies a solid line."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.border_dash_style/borderdashstyle/solid/
+url: /python-java/aspose_barcode.generation/borderdashstyle/solid/
 ---
 
 ## BorderDashStyle.SOLID

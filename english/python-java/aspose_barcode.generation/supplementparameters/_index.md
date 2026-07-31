@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/
+url: /python-java/aspose_barcode.generation/supplementparameters/
 ---
 
 ## SupplementParameters class

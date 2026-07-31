@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_ext_codetext_builder/hanxinextcodetextbuilder/
+url: /python-java/aspose_barcode.generation/hanxinextcodetextbuilder/
 ---
 
 ## HanXinExtCodetextBuilder class

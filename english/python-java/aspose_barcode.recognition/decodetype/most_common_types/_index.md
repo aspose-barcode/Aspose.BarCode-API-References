@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that data will be checked with most commonly used symbologies."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/most_common_types/
+url: /python-java/aspose_barcode.recognition/decodetype/most_common_types/
 ---
 
 ## DecodeType.MOST_COMMON_TYPES

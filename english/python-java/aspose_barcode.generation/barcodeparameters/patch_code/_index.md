@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "PatchCode parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/patch_code/
+url: /python-java/aspose_barcode.generation/barcodeparameters/patch_code/
 ---
 
 ## BarcodeParameters.patch_code

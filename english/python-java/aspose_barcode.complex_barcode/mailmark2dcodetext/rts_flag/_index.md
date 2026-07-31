@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Flag which indicates what level of Return to Sender service is being requested."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/rts_flag/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/rts_flag/
 ---
 
 ## Mailmark2DCodetext.rts_flag

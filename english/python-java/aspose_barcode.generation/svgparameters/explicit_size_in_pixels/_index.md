@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Does SVG image contain explicit size in pixels (recommended). Default value: True."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.svg_parameters/svgparameters/explicit_size_in_pixels/
+url: /python-java/aspose_barcode.generation/svgparameters/explicit_size_in_pixels/
 ---
 
 ## SvgParameters.explicit_size_in_pixels

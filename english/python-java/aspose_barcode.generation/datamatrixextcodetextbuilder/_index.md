@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of DataMatrixEncodeMode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_ext_codetext_builder/datamatrixextcodetextbuilder/
+url: /python-java/aspose_barcode.generation/datamatrixextcodetextbuilder/
 ---
 
 ## DataMatrixExtCodetextBuilder class

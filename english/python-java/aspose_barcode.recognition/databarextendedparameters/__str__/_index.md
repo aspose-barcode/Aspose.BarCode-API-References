@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this DataBarExtendedParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/__str__/
+url: /python-java/aspose_barcode.recognition/databarextendedparameters/__str__/
 ---
 
 ## DataBarExtendedParameters.__str__

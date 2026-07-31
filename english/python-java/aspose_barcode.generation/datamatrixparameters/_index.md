@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "DataMatrix parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/
 ---
 
 ## DataMatrixParameters class

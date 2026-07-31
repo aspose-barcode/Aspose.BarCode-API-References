@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Save barcode image to specific file in specific format."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/save/
+url: /python-java/aspose_barcode.complex_barcode/complexbarcodegenerator/save/
 ---
 
 ## ComplexBarcodeGenerator.save

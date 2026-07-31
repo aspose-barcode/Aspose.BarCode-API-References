@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Windows 1256 Arabic encoding. ECI Id:\"\\000024\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/win1256/
+url: /python-java/aspose_barcode.generation/eciencodings/win1256/
 ---
 
 ## ECIEncodings.Win1256

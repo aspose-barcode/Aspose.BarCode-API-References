@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Supplement data following BarCode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/supplement_data/
+url: /python-java/aspose_barcode.generation/supplementparameters/supplement_data/
 ---
 
 ## SupplementParameters.supplement_data

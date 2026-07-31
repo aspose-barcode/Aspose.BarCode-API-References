@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended Channel Interpretation (ECI) mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_encode_mode/hanxinencodemode/eci/
+url: /python-java/aspose_barcode.generation/hanxinencodemode/eci/
 ---
 
 ## HanXinEncodeMode.ECI

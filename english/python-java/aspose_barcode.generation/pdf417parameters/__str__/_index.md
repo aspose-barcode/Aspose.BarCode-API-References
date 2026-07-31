@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this Pdf417Parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/__str__/
+url: /python-java/aspose_barcode.generation/pdf417parameters/__str__/
 ---
 
 ## Pdf417Parameters.__str__

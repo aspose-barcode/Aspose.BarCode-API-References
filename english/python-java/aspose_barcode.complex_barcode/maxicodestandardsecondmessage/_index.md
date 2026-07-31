@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for encoding and decoding standart second message for MaxiCode barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_standard_second_message/maxicodestandardsecondmessage/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestandardsecondmessage/
 ---
 
 ## MaxiCodeStandardSecondMessage class

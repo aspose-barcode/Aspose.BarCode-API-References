@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Barcode image border parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.border_parameters/borderparameters/
+url: /python-java/aspose_barcode.generation/borderparameters/
 ---
 
 ## BorderParameters class

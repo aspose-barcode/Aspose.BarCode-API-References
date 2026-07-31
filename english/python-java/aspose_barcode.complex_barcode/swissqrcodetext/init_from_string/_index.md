@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes Bill with constructed codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_codetext/swissqrcodetext/init_from_string/
+url: /python-java/aspose_barcode.complex_barcode/swissqrcodetext/init_from_string/
 ---
 
 ## SwissQRCodetext.init_from_string

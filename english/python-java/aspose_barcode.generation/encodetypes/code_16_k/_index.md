@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents Code 16K barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/code_16_k/
+url: /python-java/aspose_barcode.generation/encodetypes/code_16_k/
 ---
 
 ## EncodeTypes.CODE_16_K

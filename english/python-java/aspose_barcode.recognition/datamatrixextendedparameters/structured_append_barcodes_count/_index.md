@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.data_matrix_extended_parameters/datamatrixextendedparameters/structured_append_barcodes_count/
+url: /python-java/aspose_barcode.recognition/datamatrixextendedparameters/structured_append_barcodes_count/
 ---
 
 ## DataMatrixExtendedParameters.structured_append_barcodes_count

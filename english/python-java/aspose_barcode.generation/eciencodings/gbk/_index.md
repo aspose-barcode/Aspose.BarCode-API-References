@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "GBK (extension of GB2312 for Simplified Chinese) encoding. ECI Id:\"\\000031\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/gbk/
+url: /python-java/aspose_barcode.generation/eciencodings/gbk/
 ---
 
 ## ECIEncodings.GBK

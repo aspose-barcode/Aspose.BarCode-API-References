@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the house number. Setting this field sets the address type to AddressType.Structured unless it's already AddressType.CombinedElements, in which case it bec"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/house_no/
+url: /python-java/aspose_barcode.complex_barcode/address/house_no/
 ---
 
 ## Address.house_no

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ITF parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/itf/
+url: /python-java/aspose_barcode.generation/barcodeparameters/itf/
 ---
 
 ## BarcodeParameters.itf

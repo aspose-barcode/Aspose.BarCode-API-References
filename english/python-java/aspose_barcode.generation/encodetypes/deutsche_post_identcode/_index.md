@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents Deutsch Post barcode, This EncodeType is also known as Identcode,CodeIdentcode,German Postal 2 of 5 Identcode, Deutsch Post AG Identcode, Deutsch Fra"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/deutsche_post_identcode/
+url: /python-java/aspose_barcode.generation/encodetypes/deutsche_post_identcode/
 ---
 
 ## EncodeTypes.DEUTSCHE_POST_IDENTCODE

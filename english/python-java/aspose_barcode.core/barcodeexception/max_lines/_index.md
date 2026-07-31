@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.core.exceptions/barcodeexception/max_lines/
+url: /python-java/aspose_barcode.core/barcodeexception/max_lines/
 ---
 
 ## BarCodeException.MAX_LINES

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified HIBCPASCodetext value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/__eq__/
+url: /python-java/aspose_barcode.complex_barcode/hibcpascodetext/__eq__/
 ---
 
 ## HIBCPASCodetext.__eq__

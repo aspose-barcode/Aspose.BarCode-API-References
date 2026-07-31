@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that encoded Ecc type is defined ECC 200. Recommended to use."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_ecc_type/datamatrixecctype/ecc_200/
+url: /python-java/aspose_barcode.generation/datamatrixecctype/ecc_200/
 ---
 
 ## DataMatrixEccType.ECC_200

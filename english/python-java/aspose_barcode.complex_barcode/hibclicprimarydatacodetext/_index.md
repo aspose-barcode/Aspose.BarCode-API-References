@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data. This sample shows how to encode and decode HIBC LIC using HIBC"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/
+url: /python-java/aspose_barcode.complex_barcode/hibclicprimarydatacodetext/
 ---
 
 ## HIBCLICPrimaryDataCodetext class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Reimplemented from IComplexCodetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_structured_codetext/maxicodestructuredcodetext/maxicodestructuredcodetext/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestructuredcodetext/maxicodestructuredcodetext/
 ---
 
 ## MaxiCodeStructuredCodetext Constructor

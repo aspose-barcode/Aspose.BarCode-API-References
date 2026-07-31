@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Rows count."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/rows/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/rows/
 ---
 
 ## DataMatrixParameters.rows

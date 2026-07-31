@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encode codetext only in 128B codeset."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_b/
+url: /python-java/aspose_barcode.generation/code128encodemode/code_b/
 ---
 
 ## Code128EncodeMode.CODE_B

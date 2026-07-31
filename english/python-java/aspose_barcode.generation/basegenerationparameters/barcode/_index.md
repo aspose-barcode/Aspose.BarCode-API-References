@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the BarcodeParameters that contains all barcode properties."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/barcode/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/barcode/
 ---
 
 ## BaseGenerationParameters.barcode

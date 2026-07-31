@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSe"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/
+url: /python-java/aspose_barcode.generation/pdf417parameters/
 ---
 
 ## Pdf417Parameters class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes a new instance of the RecognitionAbortedException class with specified recognition abort message."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.recognition_aborted_exception/recognitionabortedexception/recognitionabortedexception/
+url: /python-java/aspose_barcode.recognition/recognitionabortedexception/recognitionabortedexception/
 ---
 
 ## RecognitionAbortedException Constructor

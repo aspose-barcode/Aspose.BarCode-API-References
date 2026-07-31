@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes Mailmark data from constructed codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_codetext/mailmarkcodetext/init_from_string/
+url: /python-java/aspose_barcode.complex_barcode/mailmarkcodetext/init_from_string/
 ---
 
 ## MailmarkCodetext.init_from_string

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended mode will allow more flexible combinations of other modes, this mode is currently not implemented."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_encode_mode/hanxinencodemode/extended/
+url: /python-java/aspose_barcode.generation/hanxinencodemode/extended/
 ---
 
 ## HanXinEncodeMode.EXTENDED

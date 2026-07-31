@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets a value indicating whether GS1 special characters should be encoded in Byte mode for QR and RectMicroQR barcodes. If False, GS1 separators may be encoded a"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/encode_gs_1_separator_in_byte_mode/
+url: /python-java/aspose_barcode.generation/qrparameters/encode_gs_1_separator_in_byte_mode/
 ---
 
 ## QrParameters.encode_GS_1_separator_in_byte_mode

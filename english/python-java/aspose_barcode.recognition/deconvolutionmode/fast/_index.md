@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Enables fast deconvolution methods for high quality images."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/fast/
+url: /python-java/aspose_barcode.recognition/deconvolutionmode/fast/
 ---
 
 ## DeconvolutionMode.FAST

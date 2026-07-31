@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/import_from_xml/
+url: /python-java/aspose_barcode.generation/barcodegenerator/import_from_xml/
 ---
 
 ## BarcodeGenerator.import_from_xml

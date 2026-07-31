@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for encoding and decoding the text embedded in the HIBC PAS code. This sample shows how to encode and decode HIBC PAS using HIBCPASCodetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/
+url: /python-java/aspose_barcode.complex_barcode/hibcpascodetext/
 ---
 
 ## HIBCPASCodetext class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes a new instance of the BarCodeReader."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_reader/barcodereader/from_image_with_areas/
+url: /python-java/aspose_barcode.recognition/barcodereader/from_image_with_areas/
 ---
 
 ## BarCodeReader.from_image_with_areas

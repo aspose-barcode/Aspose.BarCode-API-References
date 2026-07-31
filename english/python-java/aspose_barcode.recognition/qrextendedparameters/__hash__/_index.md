@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns the hash code for the current instance."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.qr_extended_parameters/qrextendedparameters/__hash__/
+url: /python-java/aspose_barcode.recognition/qrextendedparameters/__hash__/
 ---
 
 ## QRExtendedParameters.__hash__

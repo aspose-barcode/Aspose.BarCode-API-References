@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified BarCodeRegionParameters value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_region_parameters/barcoderegionparameters/__eq__/
+url: /python-java/aspose_barcode.recognition/barcoderegionparameters/__eq__/
 ---
 
 ## BarCodeRegionParameters.__eq__

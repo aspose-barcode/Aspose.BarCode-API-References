@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for Jurisdiction specific fields for USA DL."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.usa_drive_id_jurisd_subfile/usadriveidjurisdsubfile/
+url: /python-java/aspose_barcode.complex_barcode/usadriveidjurisdsubfile/
 ---
 
 ## USADriveIdJurisdSubfile class

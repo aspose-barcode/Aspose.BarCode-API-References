@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies unit of measure ID."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.primary_data/primarydata/unit_of_measure_id/
+url: /python-java/aspose_barcode.complex_barcode/primarydata/unit_of_measure_id/
 ---
 
 ## PrimaryData.unit_of_measure_id

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encoding mode for Code128 barcodes. specification. This code demonstrates how to generate code 128 with different encodings"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/
+url: /python-java/aspose_barcode.generation/code128encodemode/
 ---
 
 ## Code128EncodeMode enum

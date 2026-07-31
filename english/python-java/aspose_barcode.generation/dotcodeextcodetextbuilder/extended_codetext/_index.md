@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Reimplemented from ExtCodetextBuilder."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.dotcode_ext_codetext_builder/dotcodeextcodetextbuilder/extended_codetext/
+url: /python-java/aspose_barcode.generation/dotcodeextcodetextbuilder/extended_codetext/
 ---
 
 ## DotCodeExtCodetextBuilder.extended_codetext

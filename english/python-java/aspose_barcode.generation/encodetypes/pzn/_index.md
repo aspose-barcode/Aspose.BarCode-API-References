@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents PZN barcode.This EncodeType is also known as Pharmacy central number, Pharmazentralnummer."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/pzn/
+url: /python-java/aspose_barcode.generation/encodetypes/pzn/
 ---
 
 ## EncodeTypes.PZN

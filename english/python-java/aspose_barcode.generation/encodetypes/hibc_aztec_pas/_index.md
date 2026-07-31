@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with. barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/hibc_aztec_pas/
+url: /python-java/aspose_barcode.generation/encodetypes/hibc_aztec_pas/
 ---
 
 ## EncodeTypes.HIBC_AZTEC_PAS

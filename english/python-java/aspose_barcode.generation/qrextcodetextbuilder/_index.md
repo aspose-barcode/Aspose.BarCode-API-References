@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREncodeMode Use Display2DText property of BarCodeBuilder to set visible text to rem"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/
+url: /python-java/aspose_barcode.generation/qrextcodetextbuilder/
 ---
 
 ## QrExtCodetextBuilder class

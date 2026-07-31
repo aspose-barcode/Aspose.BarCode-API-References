@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Determines whether the specified object is equal to the current object."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/__eq__/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/__eq__/
 ---
 
 ## SwissQRBill.__eq__

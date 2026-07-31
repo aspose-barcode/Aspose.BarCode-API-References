@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 2."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_codetext_mode_2/maxicodecodetextmode2/
+url: /python-java/aspose_barcode.complex_barcode/maxicodecodetextmode2/
 ---
 
 ## MaxiCodeCodetextMode2 class

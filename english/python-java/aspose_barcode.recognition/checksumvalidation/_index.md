@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/
+url: /python-java/aspose_barcode.recognition/checksumvalidation/
 ---
 
 ## ChecksumValidation enum

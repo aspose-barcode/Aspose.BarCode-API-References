@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQ"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.quality_settings/qualitysettings/
+url: /python-java/aspose_barcode.recognition/qualitysettings/
 ---
 
 ## QualitySettings class

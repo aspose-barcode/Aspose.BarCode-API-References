@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "AustralianPost barcode parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.australian_post_parameters/australianpostparameters/
+url: /python-java/aspose_barcode.generation/australianpostparameters/
 ---
 
 ## AustralianPostParameters class

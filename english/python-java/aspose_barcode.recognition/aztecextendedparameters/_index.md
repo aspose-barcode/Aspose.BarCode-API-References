@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores special data of Aztec recognized barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.aztec_extended_parameters/aztecextendedparameters/
+url: /python-java/aspose_barcode.recognition/aztecextendedparameters/
 ---
 
 ## AztecExtendedParameters class

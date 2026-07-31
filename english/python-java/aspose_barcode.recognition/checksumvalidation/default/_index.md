@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "If checksum is required by the specification - it will be validated."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/default/
+url: /python-java/aspose_barcode.recognition/checksumvalidation/default/
 ---
 
 ## ChecksumValidation.DEFAULT
