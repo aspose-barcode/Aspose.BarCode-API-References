@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the creditor payment reference. The reference is mandatory for SwissQR IBANs, i.e.IBANs in the range CHxx30000xxxxxx through CHxx31999xxxxx. If specified, "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/reference/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/reference/
 ---
 
 ## SwissQRBill.reference

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Caption parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.caption_parameters/captionparameters/
+url: /python-java/aspose_barcode.generation/captionparameters/
 ---
 
 ## CaptionParameters class

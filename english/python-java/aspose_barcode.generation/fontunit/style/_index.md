@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets style information for this FontUnit."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.font_unit/fontunit/style/
+url: /python-java/aspose_barcode.generation/fontunit/style/
 ---
 
 ## FontUnit.style

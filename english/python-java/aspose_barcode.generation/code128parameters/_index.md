@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Code128 parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_128_parameters/code128parameters/
+url: /python-java/aspose_barcode.generation/code128parameters/
 ---
 
 ## Code128Parameters class

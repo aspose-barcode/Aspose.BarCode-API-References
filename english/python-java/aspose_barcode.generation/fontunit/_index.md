@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. This sample shows how to create and sav"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.font_unit/fontunit/
+url: /python-java/aspose_barcode.generation/fontunit/
 ---
 
 ## FontUnit class

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/maxicodestandardcodetext/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestandardcodetext/maxicodestandardcodetext/
 ---
 
 ## MaxiCodeStandardCodetext Constructor

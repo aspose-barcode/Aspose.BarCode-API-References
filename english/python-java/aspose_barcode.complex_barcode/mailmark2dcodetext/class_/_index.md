@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies the class of the item. Valid Values: “1” - 1C (Retail) “2” - 2C (Retail) “3” - Economy (Retail) “5” - Deffered (Retail) “8” - Premium (Network Access"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/class_/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/class_/
 ---
 
 ## Mailmark2DCodetext.class_

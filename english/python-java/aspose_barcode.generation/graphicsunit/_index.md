@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the unit of measure for the given data. WORLD = 0 - Specifies the world coordinate system unit as the unit of measure. DISPLAY = 1 - Specifies the uni"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.graphics_unit/graphicsunit/
+url: /python-java/aspose_barcode.generation/graphicsunit/
 ---
 
 ## GraphicsUnit enum

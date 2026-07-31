@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.dotcode_ext_codetext_builder/dotcodeextcodetextbuilder/add_structured_append_mode/
+url: /python-java/aspose_barcode.generation/dotcodeextcodetextbuilder/add_structured_append_mode/
 ---
 
 ## DotCodeExtCodetextBuilder.add_structured_append_mode

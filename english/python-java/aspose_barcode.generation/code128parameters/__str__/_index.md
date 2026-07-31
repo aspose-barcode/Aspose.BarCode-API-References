@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this Code128Parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_128_parameters/code128parameters/__str__/
+url: /python-java/aspose_barcode.generation/code128parameters/__str__/
 ---
 
 ## Code128Parameters.__str__

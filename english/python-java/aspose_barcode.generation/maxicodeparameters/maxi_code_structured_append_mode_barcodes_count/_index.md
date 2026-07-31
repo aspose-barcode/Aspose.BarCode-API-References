@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.maxi_code_parameters/maxicodeparameters/maxi_code_structured_append_mode_barcodes_count/
+url: /python-java/aspose_barcode.generation/maxicodeparameters/maxi_code_structured_append_mode_barcodes_count/
 ---
 
 ## MaxiCodeParameters.maxi_code_structured_append_mode_barcodes_count

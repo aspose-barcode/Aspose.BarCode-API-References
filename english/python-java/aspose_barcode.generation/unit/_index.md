@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the size value in different units (Pixel, Inches, etc.). This sample shows how to create and save a BarCode image."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.unit/unit/
+url: /python-java/aspose_barcode.generation/unit/
 ---
 
 ## Unit class

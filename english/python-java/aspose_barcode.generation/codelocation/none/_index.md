@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Hide codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.code_location/codelocation/none/
+url: /python-java/aspose_barcode.generation/codelocation/none/
 ---
 
 ## CodeLocation.NONE

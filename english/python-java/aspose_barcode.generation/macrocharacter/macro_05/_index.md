@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "05 Macro craracter is added to barcode data in first position. GS1 Data Identifier ISO 15434 Character is translated to \"[)>\\u001E05\\u001D\" as decoded data head"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.macro_character/macrocharacter/macro_05/
+url: /python-java/aspose_barcode.generation/macrocharacter/macro_05/
 ---
 
 ## MacroCharacter.MACRO_05

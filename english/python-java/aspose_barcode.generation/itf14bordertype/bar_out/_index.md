@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Tow horizontal bars enclosing the barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/bar_out/
+url: /python-java/aspose_barcode.generation/itf14bordertype/bar_out/
 ---
 
 ## ITF14BorderType.BAR_OUT

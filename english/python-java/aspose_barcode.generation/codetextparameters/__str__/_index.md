@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a string representation of the CodetextParameters instance."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codetext_parameters/codetextparameters/__str__/
+url: /python-java/aspose_barcode.generation/codetextparameters/__str__/
 ---
 
 ## CodetextParameters.__str__

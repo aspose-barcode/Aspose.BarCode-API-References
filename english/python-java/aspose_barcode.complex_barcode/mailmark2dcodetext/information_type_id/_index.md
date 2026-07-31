@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies the Royal Mail Mailmark barcode payload for each product type. Valid Values: “0” - Domestic Sorted & Unsorted “A” - Online Postage “B” - Franking “C”"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/information_type_id/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/information_type_id/
 ---
 
 ## Mailmark2DCodetext.information_type_id

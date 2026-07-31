@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the QR structured append mode barcodes quantity. Max value is 16."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/total_count/
+url: /python-java/aspose_barcode.generation/qrstructuredappendparameters/total_count/
 ---
 
 ## QrStructuredAppendParameters.total_count

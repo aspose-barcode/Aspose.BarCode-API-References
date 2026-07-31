@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this HanXinParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_parameters/hanxinparameters/__str__/
+url: /python-java/aspose_barcode.generation/hanxinparameters/__str__/
 ---
 
 ## HanXinParameters.__str__

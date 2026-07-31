@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.quadrangle/quadrangle/contains_quadrangle/
+url: /python-java/aspose_barcode.recognition/quadrangle/contains_quadrangle/
 ---
 
 ## Quadrangle.contains_quadrangle

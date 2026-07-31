@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codabar_parameters/codabarparameters/checksum_mode/
+url: /python-java/aspose_barcode.generation/codabarparameters/checksum_mode/
 ---
 
 ## CodabarParameters.checksum_mode

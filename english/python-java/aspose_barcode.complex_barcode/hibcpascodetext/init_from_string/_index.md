@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes instance from constructed codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/init_from_string/
+url: /python-java/aspose_barcode.complex_barcode/hibcpascodetext/init_from_string/
 ---
 
 ## HIBCPASCodetext.init_from_string

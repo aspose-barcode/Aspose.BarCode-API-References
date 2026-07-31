@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies size of 20 x 44 modules for DMRE barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_version/datamatrixversion/dmre_20x44/
+url: /python-java/aspose_barcode.generation/datamatrixversion/dmre_20x44/
 ---
 
 ## DataMatrixVersion.DMRE_20x44

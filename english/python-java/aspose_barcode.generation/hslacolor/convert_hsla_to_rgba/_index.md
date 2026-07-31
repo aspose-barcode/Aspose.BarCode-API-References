@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.hsla_color/hslacolor/convert_hsla_to_rgba/
+url: /python-java/aspose_barcode.generation/hslacolor/convert_hsla_to_rgba/
 ---
 
 ## HslaColor.convert_hsla_to_rgba

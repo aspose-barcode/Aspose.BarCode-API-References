@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this PostalParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.postal_parameters/postalparameters/__str__/
+url: /python-java/aspose_barcode.generation/postalparameters/__str__/
 ---
 
 ## PostalParameters.__str__

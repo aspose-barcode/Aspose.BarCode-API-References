@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "GS1 Composite bar parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/
+url: /python-java/aspose_barcode.generation/gs1compositebarparameters/
 ---
 
 ## GS1CompositeBarParameters class

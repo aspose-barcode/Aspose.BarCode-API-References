@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visibl"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.maxi_code_ext_codetext_builder/maxicodeextcodetextbuilder/
+url: /python-java/aspose_barcode.generation/maxicodeextcodetextbuilder/
 ---
 
 ## MaxiCodeExtCodetextBuilder class

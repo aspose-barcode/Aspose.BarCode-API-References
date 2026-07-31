@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/pdf_417_macro_terminator/
+url: /python-java/aspose_barcode.generation/pdf417parameters/pdf_417_macro_terminator/
 ---
 
 ## Pdf417Parameters.pdf_417_macro_terminator

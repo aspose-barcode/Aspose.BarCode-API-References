@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be decoded with Code 39 basic charset barcode specification: ISO/IEC 16388."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/code_39/
+url: /python-java/aspose_barcode.recognition/decodetype/code_39/
 ---
 
 ## DecodeType.CODE_39

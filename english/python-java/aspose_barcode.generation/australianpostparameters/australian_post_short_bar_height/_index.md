@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Short bar's height of AustralianPost barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.australian_post_parameters/australianpostparameters/australian_post_short_bar_height/
+url: /python-java/aspose_barcode.generation/australianpostparameters/australian_post_short_bar_height/
 ---
 
 ## AustralianPostParameters.australian_post_short_bar_height

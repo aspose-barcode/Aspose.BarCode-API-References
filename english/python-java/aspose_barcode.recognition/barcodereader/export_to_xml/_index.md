@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_reader/barcodereader/export_to_xml/
+url: /python-java/aspose_barcode.recognition/barcodereader/export_to_xml/
 ---
 
 ## BarCodeReader.export_to_xml

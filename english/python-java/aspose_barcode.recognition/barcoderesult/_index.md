@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores recognized barcode data like SingleDecodeType type,. codetext, BarCodeRegionParameters region and other parameters This sample shows how to obtain BarCod"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_result/barcoderesult/
+url: /python-java/aspose_barcode.recognition/barcoderesult/
 ---
 
 ## BarCodeResult class

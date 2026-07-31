@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Version of RectMicroQR Code."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/rect_micro_qr_version/
+url: /python-java/aspose_barcode.generation/qrparameters/rect_micro_qr_version/
 ---
 
 ## QrParameters.rect_micro_qr_version

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Constructor for HslaColor."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.hsla_color/hslacolor/hslacolor/
+url: /python-java/aspose_barcode.generation/hslacolor/hslacolor/
 ---
 
 ## HslaColor Constructor

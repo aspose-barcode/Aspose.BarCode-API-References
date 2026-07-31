@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified. value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/__eq__/
+url: /python-java/aspose_barcode.recognition/gs1compositebarextendedparameters/__eq__/
 ---
 
 ## GS1CompositeBarExtendedParameters.__eq__

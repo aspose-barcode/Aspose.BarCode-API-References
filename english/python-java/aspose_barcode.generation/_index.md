@@ -3,7 +3,7 @@ title: "aspose_barcode.generation"
 linktitle: "aspose_barcode.generation"
 articleTitle: "aspose_barcode.generation"
 second_title: "Aspose.BarCode for Python via Java"
-description: "The aspose_barcode.generation namespace supplies classes and enums for configuring and creating various barcode types programmatically."
+description: "The aspose_barcode.generation namespace offers classes and enums for configuring and creating a wide variety of barcodes programmatically."
 type: docs
 weight: 10
 url: /python-java/aspose_barcode.generation/
@@ -11,7 +11,7 @@ url: /python-java/aspose_barcode.generation/
 
 ## aspose_barcode.generation module
 
-This reference describes the objects used to define barcode generation settings, including symbology‑specific parameters, border styling, and caption formatting. These types work with the BarcodeGenerator class to build and customize barcodes in Python via Java.
+Use these types to define barcode symbology, appearance, and output options, and to generate barcode images or streams directly from Python code that runs on the JVM. The namespace includes parameter objects such as AustralianPostParameters, AztecParameters, BorderParameters, and the core BarcodeGenerator class.
 
 
 ## Classes

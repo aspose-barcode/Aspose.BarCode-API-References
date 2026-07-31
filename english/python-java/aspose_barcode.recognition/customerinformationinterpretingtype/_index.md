@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Defines the interpreting type(C_TABLE or N_TABLE) of customer information for AustralianPost BarCode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/
+url: /python-java/aspose_barcode.recognition/customerinformationinterpretingtype/
 ---
 
 ## CustomerInformationInterpretingType enum

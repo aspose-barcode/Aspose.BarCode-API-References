@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies version M4 for Micro QR with 17 x 17 modules."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_version/qrversion/version_m4/
+url: /python-java/aspose_barcode.generation/qrversion/version_m4/
 ---
 
 ## QRVersion.VERSION_M4

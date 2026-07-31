@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Contains recognition confidence level. This sample shows how BarCodeConfidence changed, depending on barcode type"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_confidence/barcodeconfidence/
+url: /python-java/aspose_barcode.recognition/barcodeconfidence/
 ---
 
 ## BarCodeConfidence enum

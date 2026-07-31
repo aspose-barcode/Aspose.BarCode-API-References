@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents Deutsch Post Leitcode Barcode,also known as German Postal 2 of 5 Leitcode, CodeLeitcode, Leitcode, Deutsch Post AG (DHL)."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/deutsche_post_leitcode/
+url: /python-java/aspose_barcode.generation/encodetypes/deutsche_post_leitcode/
 ---
 
 ## EncodeTypes.DEUTSCHE_POST_LEITCODE

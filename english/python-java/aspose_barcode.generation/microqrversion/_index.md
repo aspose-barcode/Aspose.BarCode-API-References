@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Version of MicroQR Code. From M1 to M4."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.micro_qr_version/microqrversion/
+url: /python-java/aspose_barcode.generation/microqrversion/
 ---
 
 ## MicroQRVersion enum

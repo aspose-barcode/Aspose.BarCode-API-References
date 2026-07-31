@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets MaxiCode mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_codetext_mode_3/maxicodecodetextmode3/mode/
+url: /python-java/aspose_barcode.complex_barcode/maxicodecodetextmode3/mode/
 ---
 
 ## MaxiCodeCodetextMode3.mode

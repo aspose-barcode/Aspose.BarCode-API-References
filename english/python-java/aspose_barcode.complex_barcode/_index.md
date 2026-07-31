@@ -3,7 +3,7 @@ title: "aspose_barcode.complex_barcode"
 linktitle: "aspose_barcode.complex_barcode"
 articleTitle: "aspose_barcode.complex_barcode"
 second_title: "Aspose.BarCode for Python via Java"
-description: "Provides classes and enums for creating, reading, and managing complex barcode formats, including HIBCLIC structures and address handling."
+description: "Provides classes and enums for generating and reading complex barcode symbologies, including HIBCLIC and address data handling."
 type: docs
 weight: 10
 url: /python-java/aspose_barcode.complex_barcode/
@@ -11,7 +11,7 @@ url: /python-java/aspose_barcode.complex_barcode/
 
 ## aspose_barcode.complex_barcode module
 
-The aspose_barcode.complex_barcode namespace groups the API elements needed to work with advanced barcode types. It offers generators, readers, data element definitions, and specialized HIBCLIC codetext classes for comprehensive barcode creation and interpretation.
+The aspose_barcode.complex_barcode namespace groups the core types used to create and interpret advanced barcode formats such as HIBCLIC, as well as supporting address and data element structures. Use these classes to build, customize, and parse complex barcode payloads in your Python‑via‑Java applications.
 
 
 ## Classes

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the start or stop symbol of the Codabar barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codabar_symbol/codabarsymbol/
+url: /python-java/aspose_barcode.generation/codabarsymbol/
 ---
 
 ## CodabarSymbol enum

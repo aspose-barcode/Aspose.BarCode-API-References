@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ComplexCodetextReader decodes codetext to specified complex barcode type. This sample shows how to recognize and decode SwissQR image."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_codetext_reader/complexcodetextreader/
+url: /python-java/aspose_barcode.complex_barcode/complexcodetextreader/
 ---
 
 ## ComplexCodetextReader class

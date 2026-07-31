@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be decoded with CompactPdf417 (Pdf417Truncated) barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/compact_pdf_417/
+url: /python-java/aspose_barcode.recognition/decodetype/compact_pdf_417/
 ---
 
 ## DecodeType.COMPACT_PDF_417

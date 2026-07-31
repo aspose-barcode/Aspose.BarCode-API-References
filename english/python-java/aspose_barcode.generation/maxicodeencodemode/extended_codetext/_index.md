@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended mode which supports multi ECI modes. It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation. Use Display2DText property to set"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.maxi_code_encode_mode/maxicodeencodemode/extended_codetext/
+url: /python-java/aspose_barcode.generation/maxicodeencodemode/extended_codetext/
 ---
 
 ## MaxiCodeEncodeMode.EXTENDED_CODETEXT

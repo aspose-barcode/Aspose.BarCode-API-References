@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the address line 2. Address line 2 contains postal code and town. Setting this field sets the address type to AddressType.CombinedElements unless it's alre"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.address/address/address_line2/
+url: /python-java/aspose_barcode.complex_barcode/address/address_line2/
 ---
 
 ## Address.address_line2

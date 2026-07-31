@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "MMYY format."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_date_format/hibclicdateformat/mmyy/
+url: /python-java/aspose_barcode.complex_barcode/hibclicdateformat/mmyy/
 ---
 
 ## HIBCLICDateFormat.MMYY

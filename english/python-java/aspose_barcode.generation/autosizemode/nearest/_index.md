@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Barcode resizes to nearest lowest possible size which are specified by BarCodeWidth and BarCodeHeight properties. Resizes barcode to specified size with little "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.auto_size_mode/autosizemode/nearest/
+url: /python-java/aspose_barcode.generation/autosizemode/nearest/
 ---
 
 ## AutoSizeMode.NEAREST

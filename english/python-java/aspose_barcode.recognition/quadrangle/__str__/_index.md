@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this Quadrangle."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.quadrangle/quadrangle/__str__/
+url: /python-java/aspose_barcode.recognition/quadrangle/__str__/
 ---
 
 ## Quadrangle.__str__

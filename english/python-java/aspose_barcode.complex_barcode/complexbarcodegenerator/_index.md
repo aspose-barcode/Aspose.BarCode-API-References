@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation. This sample shows how to create and save a SwissQR image."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/
+url: /python-java/aspose_barcode.complex_barcode/complexbarcodegenerator/
 ---
 
 ## ComplexBarcodeGenerator class

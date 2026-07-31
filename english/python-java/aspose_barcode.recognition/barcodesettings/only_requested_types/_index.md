@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Def"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/only_requested_types/
+url: /python-java/aspose_barcode.recognition/barcodesettings/only_requested_types/
 ---
 
 ## BarcodeSettings.only_requested_types

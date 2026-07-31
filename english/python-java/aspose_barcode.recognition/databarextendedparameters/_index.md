@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores a DataBar additional information of recognized barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/
+url: /python-java/aspose_barcode.recognition/databarextendedparameters/
 ---
 
 ## DataBarExtendedParameters class

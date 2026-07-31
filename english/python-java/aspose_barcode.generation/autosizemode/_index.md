@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the different types of automatic sizing modes. Default value is AutoSizeMode.NONE. This sample shows how to create and save a BarCode image."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.auto_size_mode/autosizemode/
+url: /python-java/aspose_barcode.generation/autosizemode/
 ---
 
 ## AutoSizeMode enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specify the type of barcode to read. This sample shows how to detect Code39 and Code128 barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/
+url: /python-java/aspose_barcode.recognition/decodetype/
 ---
 
 ## DecodeType enum

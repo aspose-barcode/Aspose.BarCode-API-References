@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "G - Library Reference Material."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_location/hibcpasdatalocation/library_reference_material/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatalocation/library_reference_material/
 ---
 
 ## HIBCPASDataLocation.LIBRARY_REFERENCE_MATERIAL

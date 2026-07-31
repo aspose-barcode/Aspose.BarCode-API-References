@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Exception raised when barcode recognition is aborted."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.recognition_aborted_exception/recognitionabortedexception/
+url: /python-java/aspose_barcode.recognition/recognitionabortedexception/
 ---
 
 ## RecognitionAbortedException class

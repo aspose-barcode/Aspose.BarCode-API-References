@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Adds codetext fragment in Common Chinese Region One mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_ext_codetext_builder/hanxinextcodetextbuilder/add_common_chinese_region_one/
+url: /python-java/aspose_barcode.generation/hanxinextcodetextbuilder/add_common_chinese_region_one/
 ---
 
 ## HanXinExtCodetextBuilder.add_common_chinese_region_one

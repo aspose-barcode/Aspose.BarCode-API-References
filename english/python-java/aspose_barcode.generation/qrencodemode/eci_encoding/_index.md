@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_encode_mode/qrencodemode/eci_encoding/
+url: /python-java/aspose_barcode.generation/qrencodemode/eci_encoding/
 ---
 
 ## QREncodeMode.ECI_ENCODING

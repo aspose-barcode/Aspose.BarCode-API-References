@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "PDF parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.image_parameters/imageparameters/pdf/
+url: /python-java/aspose_barcode.generation/imageparameters/pdf/
 ---
 
 ## ImageParameters.pdf

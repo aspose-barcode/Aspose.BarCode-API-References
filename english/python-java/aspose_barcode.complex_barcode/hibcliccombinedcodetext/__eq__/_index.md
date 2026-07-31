@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a value indicating whether this instance is equal to a specified HIBCLICCombinedCodetext value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_combined_codetext/hibcliccombinedcodetext/__eq__/
+url: /python-java/aspose_barcode.complex_barcode/hibcliccombinedcodetext/__eq__/
 ---
 
 ## HIBCLICCombinedCodetext.__eq__

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the checksum algorithm for Codabar."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codabar_checksum_mode/codabarchecksummode/
+url: /python-java/aspose_barcode.generation/codabarchecksummode/
 ---
 
 ## CodabarChecksumMode enum

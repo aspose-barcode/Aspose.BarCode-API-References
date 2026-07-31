@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/extra_barcode_text/
+url: /python-java/aspose_barcode.generation/patchcodeparameters/extra_barcode_text/
 ---
 
 ## PatchCodeParameters.extra_barcode_text

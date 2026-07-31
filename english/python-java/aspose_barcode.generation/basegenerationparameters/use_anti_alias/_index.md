@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/use_anti_alias/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/use_anti_alias/
 ---
 
 ## BaseGenerationParameters.use_anti_alias

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Get bars reduction value that is used to compensate ink spread while printing."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/bar_width_reduction/
+url: /python-java/aspose_barcode.generation/barcodeparameters/bar_width_reduction/
 ---
 
 ## BarcodeParameters.bar_width_reduction

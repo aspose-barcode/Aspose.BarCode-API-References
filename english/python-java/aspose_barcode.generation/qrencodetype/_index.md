@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "QR / MicroQR selector mode. Select FORCE_QR for standard QR symbols, AUTO for MicroQR. FORCE_MICRO_QR is used for strongly MicroQR symbol generation if it is po"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_encode_type/qrencodetype/
+url: /python-java/aspose_barcode.generation/qrencodetype/
 ---
 
 ## QREncodeType enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Contains the data of subtype for Code128 type barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.code_128_data_portion/code128dataportion/
+url: /python-java/aspose_barcode.recognition/code128dataportion/
 ---
 
 ## Code128DataPortion class

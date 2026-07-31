@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convo"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/
+url: /python-java/aspose_barcode.recognition/deconvolutionmode/
 ---
 
 ## DeconvolutionMode enum

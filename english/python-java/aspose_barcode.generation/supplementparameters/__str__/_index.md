@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this SupplementParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/__str__/
+url: /python-java/aspose_barcode.generation/supplementparameters/__str__/
 ---
 
 ## SupplementParameters.__str__

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the identification date of the labeler identification code. Labeler identification code must be 4 symbols alphanumeric string, with first character always "
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.primary_data/primarydata/labeler_identification_code/
+url: /python-java/aspose_barcode.complex_barcode/primarydata/labeler_identification_code/
 ---
 
 ## PrimaryData.labeler_identification_code

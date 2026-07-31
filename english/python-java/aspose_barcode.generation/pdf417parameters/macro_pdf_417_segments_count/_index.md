@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets macro Pdf417 barcode segments count."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_parameters/pdf417parameters/macro_pdf_417_segments_count/
+url: /python-java/aspose_barcode.generation/pdf417parameters/macro_pdf_417_segments_count/
 ---
 
 ## Pdf417Parameters.macro_pdf_417_segments_count

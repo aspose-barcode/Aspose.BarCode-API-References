@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies to automatically pick up the best symbol (COMPACT or FULL-range) for Aztec. This is default value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.aztec_symbol_mode/aztecsymbolmode/auto/
+url: /python-java/aspose_barcode.generation/aztecsymbolmode/auto/
 ---
 
 ## AztecSymbolMode.AUTO

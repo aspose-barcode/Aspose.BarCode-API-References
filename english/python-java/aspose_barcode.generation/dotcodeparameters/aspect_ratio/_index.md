@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Height/Width ratio of 2D BarCode module."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.dotcode_parameters/dotcodeparameters/aspect_ratio/
+url: /python-java/aspose_barcode.generation/dotcodeparameters/aspect_ratio/
 ---
 
 ## DotCodeParameters.aspect_ratio

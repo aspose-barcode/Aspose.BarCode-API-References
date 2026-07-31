@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Determines whether this instance and a specified object, which must also be a Unit object, have the same value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.unit/unit/__eq__/
+url: /python-java/aspose_barcode.generation/unit/__eq__/
 ---
 
 ## Unit.__eq__

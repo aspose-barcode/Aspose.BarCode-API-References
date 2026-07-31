@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.code_128_sub_type/code128subtype/
+url: /python-java/aspose_barcode.recognition/code128subtype/
 ---
 
 ## Code128SubType enum

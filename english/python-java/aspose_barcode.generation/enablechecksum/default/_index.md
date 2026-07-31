@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "If checksum is required by the specification - it will be attached."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.enable_checksum/enablechecksum/default/
+url: /python-java/aspose_barcode.generation/enablechecksum/default/
 ---
 
 ## EnableChecksum.DEFAULT

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "8-bit binary data. ECI Id:\"\\000899\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/binary/
+url: /python-java/aspose_barcode.generation/eciencodings/binary/
 ---
 
 ## ECIEncodings.BINARY

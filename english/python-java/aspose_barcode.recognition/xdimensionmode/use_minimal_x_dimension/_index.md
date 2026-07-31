@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Detects barcodes from size set in MinimalXDimension with quality from BarcodeQuality"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.x_dimension_mode/xdimensionmode/use_minimal_x_dimension/
+url: /python-java/aspose_barcode.recognition/xdimensionmode/use_minimal_x_dimension/
 ---
 
 ## XDimensionMode.USE_MINIMAL_X_DIMENSION

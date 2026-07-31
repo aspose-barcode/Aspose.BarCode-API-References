@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended Channel Interpretation Identifiers."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/qr_eci_encoding/
+url: /python-java/aspose_barcode.generation/qrparameters/qr_eci_encoding/
 ---
 
 ## QrParameters.qr_eci_encoding

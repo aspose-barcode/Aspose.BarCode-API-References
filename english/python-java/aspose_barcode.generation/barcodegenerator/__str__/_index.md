@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/__str__/
+url: /python-java/aspose_barcode.generation/barcodegenerator/__str__/
 ---
 
 ## BarcodeGenerator.__str__

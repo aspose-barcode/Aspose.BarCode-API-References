@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Currently \"1\" – For Mailmark barcode (0 and 2 to 9 and A to Z spare for future use)"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_codetext/mailmarkcodetext/version_id/
+url: /python-java/aspose_barcode.complex_barcode/mailmarkcodetext/version_id/
 ---
 
 ## MailmarkCodetext.version_id

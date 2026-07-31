@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Stores a MacroPdf417 metadata information of recognized barcode. This sample shows how to get Macro Pdf417 metadata"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.pdf_417_extended_parameters/pdf417extendedparameters/
+url: /python-java/aspose_barcode.recognition/pdf417extendedparameters/
 ---
 
 ## Pdf417ExtendedParameters class

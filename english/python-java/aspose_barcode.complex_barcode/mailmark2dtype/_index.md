@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "2D Mailmark Type defines size of Data Matrix barcode"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_type/mailmark2dtype/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dtype/
 ---
 
 ## Mailmark2DType enum

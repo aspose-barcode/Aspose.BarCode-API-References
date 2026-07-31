@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies primary data."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_lic_combined_codetext/hibcliccombinedcodetext/primary_data/
+url: /python-java/aspose_barcode.complex_barcode/hibcliccombinedcodetext/primary_data/
 ---
 
 ## HIBCLICCombinedCodetext.primary_data

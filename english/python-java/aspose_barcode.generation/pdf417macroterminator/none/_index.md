@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "The terminator will not be added."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_macro_terminator/pdf417macroterminator/none/
+url: /python-java/aspose_barcode.generation/pdf417macroterminator/none/
 ---
 
 ## Pdf417MacroTerminator.NONE

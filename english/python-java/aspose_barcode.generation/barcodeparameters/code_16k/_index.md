@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Code16K parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/code_16k/
+url: /python-java/aspose_barcode.generation/barcodeparameters/code_16k/
 ---
 
 ## BarcodeParameters.code_16k

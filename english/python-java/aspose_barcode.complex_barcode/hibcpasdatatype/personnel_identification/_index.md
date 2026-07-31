@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "E - Personnel Identification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/personnel_identification/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/personnel_identification/
 ---
 
 ## HIBCPASDataType.PERSONNEL_IDENTIFICATION

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes instance with constructed codetext."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/init_from_string/
+url: /python-java/aspose_barcode.complex_barcode/icomplexcodetext/init_from_string/
 ---
 
 ## IComplexCodetext.init_from_string

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies rows count. Sum of the number of rows plus the number of columns of a DotCode symbol must be odd. Number of rows must be at least 5. Default value: -"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.dotcode_parameters/dotcodeparameters/rows/
+url: /python-java/aspose_barcode.generation/dotcodeparameters/rows/
 ---
 
 ## DotCodeParameters.rows

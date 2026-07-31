@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.core.license/license/set_license/
+url: /python-java/aspose_barcode.core/license/set_license/
 ---
 
 ## License.set_license

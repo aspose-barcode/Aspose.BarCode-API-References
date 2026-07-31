@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codete"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_encode_mode/qrencodemode/extended_codetext/
+url: /python-java/aspose_barcode.generation/qrencodemode/extended_codetext/
 ---
 
 ## QREncodeMode.EXTENDED_CODETEXT

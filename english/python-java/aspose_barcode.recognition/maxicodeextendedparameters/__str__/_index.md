@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this MaxiCodeExtendedParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.maxi_code_extended_parameters/maxicodeextendedparameters/__str__/
+url: /python-java/aspose_barcode.recognition/maxicodeextendedparameters/__str__/
 ---
 
 ## MaxiCodeExtendedParameters.__str__

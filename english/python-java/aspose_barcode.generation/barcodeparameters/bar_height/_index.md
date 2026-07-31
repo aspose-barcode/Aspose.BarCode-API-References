@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Height of 1D barcodes' bars in Unit value. Ignored if AutoSizeMode property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/bar_height/
+url: /python-java/aspose_barcode.generation/barcodeparameters/bar_height/
 ---
 
 ## BarcodeParameters.bar_height

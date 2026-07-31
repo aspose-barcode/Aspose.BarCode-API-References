@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specify word wraps (line breaks) within text."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codetext_parameters/codetextparameters/no_wrap/
+url: /python-java/aspose_barcode.generation/codetextparameters/no_wrap/
 ---
 
 ## CodetextParameters.no_wrap

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.aztec_ext_codetext_builder/aztecextcodetextbuilder/extended_codetext/
+url: /python-java/aspose_barcode.generation/aztecextcodetextbuilder/extended_codetext/
 ---
 
 ## AztecExtCodetextBuilder.extended_codetext

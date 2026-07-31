@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets Datamatrix symbol size."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/data_matrix_version/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/data_matrix_version/
 ---
 
 ## DataMatrixParameters.data_matrix_version

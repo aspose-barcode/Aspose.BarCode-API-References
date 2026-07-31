@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "None of Macro Characters are added to barcode data."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.macro_character/macrocharacter/none/
+url: /python-java/aspose_barcode.generation/macrocharacter/none/
 ---
 
 ## MacroCharacter.NONE

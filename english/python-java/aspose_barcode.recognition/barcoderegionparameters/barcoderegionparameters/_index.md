@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_region_parameters/barcoderegionparameters/barcoderegionparameters/
+url: /python-java/aspose_barcode.recognition/barcoderegionparameters/barcoderegionparameters/
 ---
 
 ## BarCodeRegionParameters Constructor

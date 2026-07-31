@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this BarCodeRegionParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_region_parameters/barcoderegionparameters/__str__/
+url: /python-java/aspose_barcode.recognition/barcoderegionparameters/__str__/
 ---
 
 ## BarCodeRegionParameters.__str__

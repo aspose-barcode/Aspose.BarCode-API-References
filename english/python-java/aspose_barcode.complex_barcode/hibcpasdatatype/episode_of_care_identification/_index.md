@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "T - Episode of Care Identification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/episode_of_care_identification/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/episode_of_care_identification/
 ---
 
 ## HIBCPASDataType.EPISODE_OF_CARE_IDENTIFICATION

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies to automatically pick up the best version for MicroQR. This is default value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.micro_qr_version/microqrversion/auto/
+url: /python-java/aspose_barcode.generation/microqrversion/auto/
 ---
 
 ## MicroQRVersion.AUTO

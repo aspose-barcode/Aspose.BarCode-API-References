@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets size value in pixels."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.unit/unit/pixels/
+url: /python-java/aspose_barcode.generation/unit/pixels/
 ---
 
 ## Unit.pixels

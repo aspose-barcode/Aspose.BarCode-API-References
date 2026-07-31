@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Automatic resizing is disabled. Default value."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.auto_size_mode/autosizemode/none/
+url: /python-java/aspose_barcode.generation/autosizemode/none/
 ---
 
 ## AutoSizeMode.NONE

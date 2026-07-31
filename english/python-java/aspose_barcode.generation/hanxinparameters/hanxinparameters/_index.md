@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_parameters/hanxinparameters/hanxinparameters/
+url: /python-java/aspose_barcode.generation/hanxinparameters/hanxinparameters/
 ---
 
 ## HanXinParameters Constructor

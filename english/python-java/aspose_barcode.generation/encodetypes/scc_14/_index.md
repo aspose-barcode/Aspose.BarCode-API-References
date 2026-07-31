@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with SCC14 barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/scc_14/
+url: /python-java/aspose_barcode.generation/encodetypes/scc_14/
 ---
 
 ## EncodeTypes.SCC_14

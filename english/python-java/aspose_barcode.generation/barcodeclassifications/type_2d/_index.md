@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies 2D-barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_classifications/barcodeclassifications/type_2d/
+url: /python-java/aspose_barcode.generation/barcodeclassifications/type_2d/
 ---
 
 ## BarcodeClassifications.TYPE_2D

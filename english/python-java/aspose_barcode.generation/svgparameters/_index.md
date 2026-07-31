@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "SVG parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.svg_parameters/svgparameters/
+url: /python-java/aspose_barcode.generation/svgparameters/
 ---
 
 ## SvgParameters class

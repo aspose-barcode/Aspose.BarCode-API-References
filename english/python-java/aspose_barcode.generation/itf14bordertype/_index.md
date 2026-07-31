@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ITF14 barcode's border type."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/
+url: /python-java/aspose_barcode.generation/itf14bordertype/
 ---
 
 ## ITF14BorderType enum

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Font size mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.font_mode/fontmode/
+url: /python-java/aspose_barcode.generation/fontmode/
 ---
 
 ## FontMode enum

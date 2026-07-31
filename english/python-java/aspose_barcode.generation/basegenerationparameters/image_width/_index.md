@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "BarCode image width when AutoSizeMode property is set to AutoSizeMode.NEAREST or AutoSizeMode.INTERPOLATION."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/image_width/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/image_width/
 ---
 
 ## BaseGenerationParameters.image_width

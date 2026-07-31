@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Pdf417 barcode's compation mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/
+url: /python-java/aspose_barcode.generation/pdf417compactionmode/
 ---
 
 ## Pdf417CompactionMode enum

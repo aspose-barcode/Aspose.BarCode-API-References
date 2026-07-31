@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "The encoder selects the most efficient QR compaction mode automatically."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/auto/
+url: /python-java/aspose_barcode.generation/qrextcompactionmode/auto/
 ---
 
 ## QrExtCompactionMode.AUTO

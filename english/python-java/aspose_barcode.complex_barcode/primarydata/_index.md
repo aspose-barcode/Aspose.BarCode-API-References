@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Class for storing HIBC LIC primary data."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.primary_data/primarydata/
+url: /python-java/aspose_barcode.complex_barcode/primarydata/
 ---
 
 ## PrimaryData class

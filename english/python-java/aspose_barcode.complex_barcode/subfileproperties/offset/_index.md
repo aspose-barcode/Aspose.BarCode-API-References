@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.subfile_properties/subfileproperties/offset/
+url: /python-java/aspose_barcode.complex_barcode/subfileproperties/offset/
 ---
 
 ## SubfileProperties.offset

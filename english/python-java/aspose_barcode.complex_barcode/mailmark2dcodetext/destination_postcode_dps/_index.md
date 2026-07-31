@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Contains the Postcode of the Delivery Address with DPS If inland the Postcode/DP contains the following number of characters. Area (1 or 2 characters) District("
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/destination_postcode_dps/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/destination_postcode_dps/
 ---
 
 ## Mailmark2DCodetext.destination_postcode_dps

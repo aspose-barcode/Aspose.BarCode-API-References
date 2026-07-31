@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies 3 digit country code."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.maxi_code_structured_codetext/maxicodestructuredcodetext/country_code/
+url: /python-java/aspose_barcode.complex_barcode/maxicodestructuredcodetext/country_code/
 ---
 
 ## MaxiCodeStructuredCodetext.country_code

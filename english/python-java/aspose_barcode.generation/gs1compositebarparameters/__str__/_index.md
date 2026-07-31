@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this DataBarParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/__str__/
+url: /python-java/aspose_barcode.generation/gs1compositebarparameters/__str__/
 ---
 
 ## GS1CompositeBarParameters.__str__

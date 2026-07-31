@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be decoded with CODE 93 barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.decode_type/decodetype/code_93/
+url: /python-java/aspose_barcode.recognition/decodetype/code_93/
 ---
 
 ## DecodeType.CODE_93

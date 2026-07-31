@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Do not validate checksum."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/off/
+url: /python-java/aspose_barcode.recognition/checksumvalidation/off/
 ---
 
 ## ChecksumValidation.OFF

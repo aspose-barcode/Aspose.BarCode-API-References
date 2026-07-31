@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details Current implementation consists all well known charset encodings."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_parameters/hanxinparameters/han_xin_eci_encoding/
+url: /python-java/aspose_barcode.generation/hanxinparameters/han_xin_eci_encoding/
 ---
 
 ## HanXinParameters.han_xin_eci_encoding

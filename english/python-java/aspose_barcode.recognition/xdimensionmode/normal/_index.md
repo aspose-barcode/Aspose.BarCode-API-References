@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Detects barcodes with classic XDimension in 2 pixels or more with quality from BarcodeQuality or high quality barcodes."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.x_dimension_mode/xdimensionmode/normal/
+url: /python-java/aspose_barcode.recognition/xdimensionmode/normal/
 ---
 
 ## XDimensionMode.NORMAL

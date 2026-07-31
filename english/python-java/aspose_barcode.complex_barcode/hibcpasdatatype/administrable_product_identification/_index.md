@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "F - Administrable Product Identification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/administrable_product_identification/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/administrable_product_identification/
 ---
 
 ## HIBCPASDataType.ADMINISTRABLE_PRODUCT_IDENTIFICATION

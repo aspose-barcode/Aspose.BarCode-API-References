@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.optional_fields/optionalfields/inventory_control_number/
+url: /python-java/aspose_barcode.complex_barcode/optionalfields/inventory_control_number/
 ---
 
 ## OptionalFields.inventory_control_number

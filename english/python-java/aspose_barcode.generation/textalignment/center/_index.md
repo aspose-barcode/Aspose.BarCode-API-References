@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Center position."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.text_alignment/textalignment/center/
+url: /python-java/aspose_barcode.generation/textalignment/center/
 ---
 
 ## TextAlignment.CENTER

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "X - XML Document."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/xml_document/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/xml_document/
 ---
 
 ## HIBCPASDataType.XML_DOCUMENT

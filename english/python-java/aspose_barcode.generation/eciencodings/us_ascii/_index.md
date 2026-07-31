@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ISO/IEC 646:1991 International Reference Version of ISO 7-bit coded character set encoding. ECI Id:\"\\000027\""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/us_ascii/
+url: /python-java/aspose_barcode.generation/eciencodings/us_ascii/
 ---
 
 ## ECIEncodings.US_ASCII

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "BarcodeGenerator for backend barcode images generation. Supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/
+url: /python-java/aspose_barcode.generation/barcodegenerator/
 ---
 
 ## BarcodeGenerator class

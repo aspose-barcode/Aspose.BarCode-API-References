@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.optional_fields/optionalfields/alias_aka_given_name/
+url: /python-java/aspose_barcode.complex_barcode/optionalfields/alias_aka_given_name/
 ---
 
 ## OptionalFields.alias_aka_given_name

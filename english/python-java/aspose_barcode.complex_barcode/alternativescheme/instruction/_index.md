@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of pa"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.alternative_scheme/alternativescheme/instruction/
+url: /python-java/aspose_barcode.complex_barcode/alternativescheme/instruction/
 ---
 
 ## AlternativeScheme.instruction

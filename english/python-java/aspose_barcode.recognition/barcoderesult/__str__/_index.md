@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this BarCodeResult."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_result/barcoderesult/__str__/
+url: /python-java/aspose_barcode.recognition/barcoderesult/__str__/
 ---
 
 ## BarCodeResult.__str__

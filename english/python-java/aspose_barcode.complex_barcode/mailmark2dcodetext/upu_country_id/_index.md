@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Identifies the UPU Country ID.Max length: 4 characters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_2d_codetext/mailmark2dcodetext/upu_country_id/
+url: /python-java/aspose_barcode.complex_barcode/mailmark2dcodetext/upu_country_id/
 ---
 
 ## Mailmark2DCodetext.upu_country_id

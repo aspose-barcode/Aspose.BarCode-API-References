@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.usa_drive_id_jurisd_subfile/usadriveidjurisdsubfile/find_data_element/
+url: /python-java/aspose_barcode.complex_barcode/usadriveidjurisdsubfile/find_data_element/
 ---
 
 ## USADriveIdJurisdSubfile.find_data_element

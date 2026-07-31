@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and sing."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/c_table/
+url: /python-java/aspose_barcode.recognition/customerinformationinterpretingtype/c_table/
 ---
 
 ## CustomerInformationInterpretingType.C_TABLE

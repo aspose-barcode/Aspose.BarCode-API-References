@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Gets the alternative payment schemes. A maximum of two schemes with parameters are allowed."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/alternative_schemes/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/alternative_schemes/
 ---
 
 ## SwissQRBill.alternative_schemes

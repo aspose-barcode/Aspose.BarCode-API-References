@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Construct codetext for complex barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/constructed_codetext/
+url: /python-java/aspose_barcode.complex_barcode/icomplexcodetext/constructed_codetext/
 ---
 
 ## IComplexCodetext.constructed_codetext

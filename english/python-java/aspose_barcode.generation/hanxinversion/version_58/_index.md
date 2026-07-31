@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies version 58 with 137 x 137 modules."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_version/hanxinversion/version_58/
+url: /python-java/aspose_barcode.generation/hanxinversion/version_58/
 ---
 
 ## HanXinVersion.VERSION_58

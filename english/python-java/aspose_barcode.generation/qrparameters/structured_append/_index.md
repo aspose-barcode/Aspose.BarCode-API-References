@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "QR structured append parameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/structured_append/
+url: /python-java/aspose_barcode.generation/qrparameters/structured_append/
 ---
 
 ## QrParameters.structured_append

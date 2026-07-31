@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "SwissQR bill data."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.swiss_qr_bill/swissqrbill/
+url: /python-java/aspose_barcode.complex_barcode/swissqrbill/
 ---
 
 ## SwissQRBill class

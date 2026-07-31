@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specify the displaying CodeText's Color, representation of an RGB tuple. Default value (0,0,0)."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codetext_parameters/codetextparameters/color/
+url: /python-java/aspose_barcode.generation/codetextparameters/color/
 ---
 
 ## CodetextParameters.color

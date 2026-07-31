@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Clears extended codetext items. Reimplemented in QrExtCodetextBuilder."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.ext_codetext_builder/extcodetextbuilder/clear/
+url: /python-java/aspose_barcode.generation/extcodetextbuilder/clear/
 ---
 
 ## ExtCodetextBuilder.clear

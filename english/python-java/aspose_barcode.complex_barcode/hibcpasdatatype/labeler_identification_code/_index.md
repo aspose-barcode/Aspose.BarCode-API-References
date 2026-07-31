@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "A - Labeler Identification Code."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/labeler_identification_code/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/labeler_identification_code/
 ---
 
 ## HIBCPASDataType.LABELER_IDENTIFICATION_CODE

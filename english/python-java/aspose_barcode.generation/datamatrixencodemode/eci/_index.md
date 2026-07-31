@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_encode_mode/datamatrixencodemode/eci/
+url: /python-java/aspose_barcode.generation/datamatrixencodemode/eci/
 ---
 
 ## DataMatrixEncodeMode.ECI

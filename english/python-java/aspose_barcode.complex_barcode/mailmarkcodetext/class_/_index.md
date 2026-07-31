@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "\"0\" - None or Test \"1\" - 1C (Retail) \"2\" - 2C (Retail) \"3\" - 3C (Retail) \"4\" - Premium (RetailPublishing Mail) (for potential future use) \"5\" - Deferred (Retail"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.mailmark_codetext/mailmarkcodetext/class_/
+url: /python-java/aspose_barcode.complex_barcode/mailmarkcodetext/class_/
 ---
 
 ## MailmarkCodetext.class_

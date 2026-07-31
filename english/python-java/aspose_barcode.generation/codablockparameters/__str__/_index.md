@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns a human-readable string representation of this CodablockParameters."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.codablock_parameters/codablockparameters/__str__/
+url: /python-java/aspose_barcode.generation/codablockparameters/__str__/
 ---
 
 ## CodablockParameters.__str__

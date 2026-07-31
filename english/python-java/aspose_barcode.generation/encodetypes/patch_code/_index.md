@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents Patch code barcode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/patch_code/
+url: /python-java/aspose_barcode.generation/encodetypes/patch_code/
 ---
 
 ## EncodeTypes.PATCH_CODE

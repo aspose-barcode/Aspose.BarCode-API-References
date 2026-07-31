@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Represents the recognized barcode's region and barcode angle. This sample shows how to get barcode Angle and bounding quadrangle values."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.barcode_region_parameters/barcoderegionparameters/
+url: /python-java/aspose_barcode.recognition/barcoderegionparameters/
 ---
 
 ## BarCodeRegionParameters class

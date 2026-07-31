@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Space between the main BarCode and supplement BarCode in Unit value. Raises: IllegalArgumentException: if the Space parameter value is less than 0."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.coupon_parameters/couponparameters/supplement_space/
+url: /python-java/aspose_barcode.generation/couponparameters/supplement_space/
 ---
 
 ## CouponParameters.supplement_space

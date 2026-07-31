@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "QR symbology type of BarCode's encoding mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/qr_encode_mode/
+url: /python-java/aspose_barcode.generation/qrparameters/qr_encode_mode/
 ---
 
 ## QrParameters.qr_encode_mode

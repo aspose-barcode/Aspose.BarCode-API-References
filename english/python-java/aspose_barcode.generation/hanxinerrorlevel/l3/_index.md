@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Allows recovery of 23% of the code text."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.han_xin_error_level/hanxinerrorlevel/l3/
+url: /python-java/aspose_barcode.generation/hanxinerrorlevel/l3/
 ---
 
 ## HanXinErrorLevel.L3

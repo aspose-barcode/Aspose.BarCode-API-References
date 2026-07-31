@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "BarCode image rotation angle, measured in degree, e.g. RotationAngle = 0 or RotationAngle = 360 means no rotation. If RotationAngle NOT equal to 90, 180, 270 or"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/rotation_angle/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/rotation_angle/
 ---
 
 ## BaseGenerationParameters.rotation_angle

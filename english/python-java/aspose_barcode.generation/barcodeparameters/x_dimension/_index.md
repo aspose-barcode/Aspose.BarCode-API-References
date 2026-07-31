@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "x-dimension is the smallest width of the unit of BarCode bars or spaces. Increasing this will increase the whole barcode image width. Ignored if AutoSizeMode pr"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_parameters/barcodeparameters/x_dimension/
+url: /python-java/aspose_barcode.generation/barcodeparameters/x_dimension/
 ---
 
 ## BarcodeParameters.x_dimension

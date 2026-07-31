@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Pdf417 barcode encode mode."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_encode_mode/pdf417encodemode/
+url: /python-java/aspose_barcode.generation/pdf417encodemode/
 ---
 
 ## Pdf417EncodeMode enum

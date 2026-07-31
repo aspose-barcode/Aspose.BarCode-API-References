@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the different types of automatic sizing modes. Default value: AutoSizeMode.NONE."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.base_generation_parameters/basegenerationparameters/auto_size_mode/
+url: /python-java/aspose_barcode.generation/basegenerationparameters/auto_size_mode/
 ---
 
 ## BaseGenerationParameters.auto_size_mode

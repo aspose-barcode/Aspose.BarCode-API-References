@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "text compaction"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/text/
+url: /python-java/aspose_barcode.generation/pdf417compactionmode/text/
 ---
 
 ## Pdf417CompactionMode.TEXT

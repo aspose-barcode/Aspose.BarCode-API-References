@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "BarcodeClassifications EncodeTypes classification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.barcode_classifications/barcodeclassifications/
+url: /python-java/aspose_barcode.generation/barcodeclassifications/
 ---
 
 ## BarcodeClassifications enum

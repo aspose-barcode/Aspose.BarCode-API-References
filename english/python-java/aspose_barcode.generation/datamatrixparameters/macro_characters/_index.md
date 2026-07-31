@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "ISO/IEC 16022 5.2.4.7 Macro characters 11.3 Protocol for Macro characters in the first position (ECC 200 only) Macro Characters 05 and 06 values are used to obt"
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.data_matrix_parameters/datamatrixparameters/macro_characters/
+url: /python-java/aspose_barcode.generation/datamatrixparameters/macro_characters/
 ---
 
 ## DataMatrixParameters.macro_characters

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "D - Specimen Identification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/specimen_identification/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/specimen_identification/
 ---
 
 ## HIBCPASDataType.SPECIMEN_IDENTIFICATION

@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Returns the hash code for the current instance."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/__hash__/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasrecord/__hash__/
 ---
 
 ## HIBCPASRecord.__hash__

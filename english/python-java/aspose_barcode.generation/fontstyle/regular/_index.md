@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Normal text."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.font_style/fontstyle/regular/
+url: /python-java/aspose_barcode.generation/fontstyle/regular/
 ---
 
 ## FontStyle.REGULAR

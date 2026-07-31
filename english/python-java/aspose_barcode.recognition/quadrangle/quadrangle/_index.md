@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Initializes a new instance of the Quadrangle structure with the describing points."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.recognition.quadrangle/quadrangle/quadrangle/
+url: /python-java/aspose_barcode.recognition/quadrangle/quadrangle/
 ---
 
 ## Quadrangle Constructor

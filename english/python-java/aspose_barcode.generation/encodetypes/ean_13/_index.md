@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies that the data should be encoded with EAN-13 barcode specification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/ean_13/
+url: /python-java/aspose_barcode.generation/encodetypes/ean_13/
 ---
 
 ## EncodeTypes.EAN_13

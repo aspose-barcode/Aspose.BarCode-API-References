@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: "H - Hospital Item Identification."
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/hospital_item_identification/
+url: /python-java/aspose_barcode.complex_barcode/hibcpasdatatype/hospital_item_identification/
 ---
 
 ## HIBCPASDataType.HOSPITAL_ITEM_IDENTIFICATION

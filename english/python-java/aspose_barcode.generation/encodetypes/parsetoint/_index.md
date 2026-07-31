@@ -6,7 +6,7 @@ second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /python-java/aspose_barcode.generation.encode_types/encodetypes/parsetoint/
+url: /python-java/aspose_barcode.generation/encodetypes/parsetoint/
 ---
 
 ## EncodeTypes.parseToInt
