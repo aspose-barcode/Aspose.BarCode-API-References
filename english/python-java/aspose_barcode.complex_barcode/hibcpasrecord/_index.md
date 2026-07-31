@@ -21,18 +21,18 @@ Class for storing HIBC PAS record.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/hibcpasrecord/) | HIBCPASRecord constructor. |
+| [__init__](./hibcpasrecord/) | HIBCPASRecord constructor. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCPASDataType value. |
-| [__hash__](/python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCPASDataType value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [data](/python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/data/) | `Optional[str]` | Identifies data. |
-| [data_type](/python-java/aspose_barcode.complex_barcode.hibc_pas_record/hibcpasrecord/data_type/) | `HIBCPASDataType` | Identifies data type. |
+| [data](./data/) | `Optional[str]` | Identifies data. |
+| [data_type](./data_type/) | `HIBCPASDataType` | Identifies data type. |

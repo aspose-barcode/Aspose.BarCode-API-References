@@ -18,11 +18,11 @@ url: /python-java/aspose_barcode.complex_barcode.data_element/dataelement/
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.data_element/dataelement/dataelement/) |  |
+| [__init__](./dataelement/) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [element_id](/python-java/aspose_barcode.complex_barcode.data_element/dataelement/element_id/) | `def` |  |
-| [value](/python-java/aspose_barcode.complex_barcode.data_element/dataelement/value/) | `def` |  |
+| [element_id](./element_id/) | `def` |  |
+| [value](./value/) | `def` |  |

@@ -21,6 +21,6 @@ Deconvolution (image restorations) mode which defines level of image degradation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FAST](/python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/fast/) | `0` | Enables fast deconvolution methods for high quality images. |
-| [NORMAL](/python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/normal/) | `1` | Enables normal deconvolution methods for common images. |
-| [SLOW](/python-java/aspose_barcode.recognition.deconvolution_mode/deconvolutionmode/slow/) | `2` | Enables slow deconvolution methods for low quality images. |
+| [FAST](./fast/) | `0` | Enables fast deconvolution methods for high quality images. |
+| [NORMAL](./normal/) | `1` | Enables normal deconvolution methods for common images. |
+| [SLOW](./slow/) | `2` | Enables slow deconvolution methods for low quality images. |

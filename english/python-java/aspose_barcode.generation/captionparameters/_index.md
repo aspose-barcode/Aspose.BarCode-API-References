@@ -21,22 +21,22 @@ Caption parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/captionparameters/) |  |
+| [__init__](./captionparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/__str__/) | `str` | No | String representation of the CaptionParameters object. |
-| [font](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/font/) | `Optional[FontUnit]` | No | Caption font. Default value: Arial 8pt regular. |
+| [__str__](./__str__/) | `str` | No | String representation of the CaptionParameters object. |
+| [font](./font/) | `Optional[FontUnit]` | No | Caption font. Default value: Arial 8pt regular. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [alignment](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/alignment/) | `TextAlignment` | Caption test horizontal alignment. Default valueAlignment.Center. |
-| [no_wrap](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/no_wrap/) | `bool` | Specify word wraps (line breaks) within text. |
-| [padding](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/padding/) | `Optional[Padding]` | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
-| [text](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/text/) | `Optional[str]` | Caption text. Default value: empty string. |
-| [text_color](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/text_color/) | `Tuple[int, int, int]` | Caption text color, representation of an RGB tuple. Default value (0,0,0). |
-| [visible](/python-java/aspose_barcode.generation.caption_parameters/captionparameters/visible/) | `bool` | Caption text visibility. Default value: false. |
+| [alignment](./alignment/) | `TextAlignment` | Caption test horizontal alignment. Default valueAlignment.Center. |
+| [no_wrap](./no_wrap/) | `bool` | Specify word wraps (line breaks) within text. |
+| [padding](./padding/) | `Optional[Padding]` | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
+| [text](./text/) | `Optional[str]` | Caption text. Default value: empty string. |
+| [text_color](./text_color/) | `Tuple[int, int, int]` | Caption text color, representation of an RGB tuple. Default value (0,0,0). |
+| [visible](./visible/) | `bool` | Caption text visibility. Default value: false. |

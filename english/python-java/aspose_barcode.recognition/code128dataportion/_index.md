@@ -21,12 +21,12 @@ Contains the data of subtype for Code128 type barcode.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.code_128_data_portion/code128dataportion/code128dataportion/) |  |
+| [__init__](./code128dataportion/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.recognition.code_128_data_portion/code128dataportion/__str__/) | `str` | No | Returns a human-readable string representation of this. . |
-| [code_128_sub_type](/python-java/aspose_barcode.recognition.code_128_data_portion/code128dataportion/code_128_sub_type/) | `Code128SubType` | No |  |
-| [data](/python-java/aspose_barcode.recognition.code_128_data_portion/code128dataportion/data/) | `Optional[str]` | No |  |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this. . |
+| [code_128_sub_type](./code_128_sub_type/) | `Code128SubType` | No |  |
+| [data](./data/) | `Optional[str]` | No |  |

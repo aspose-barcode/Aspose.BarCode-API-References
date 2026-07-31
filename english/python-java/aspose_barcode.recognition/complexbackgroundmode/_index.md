@@ -21,6 +21,6 @@ Mode which enables or disables additional recognition of color barcodes on color
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.recognition.complex_background_mode/complexbackgroundmode/auto/) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
-| [DISABLED](/python-java/aspose_barcode.recognition.complex_background_mode/complexbackgroundmode/disabled/) | `1` | Disables additional recognition of color barcodes on color images. |
-| [ENABLED](/python-java/aspose_barcode.recognition.complex_background_mode/complexbackgroundmode/enabled/) | `2` | Enables additional recognition of color barcodes on color images. |
+| [AUTO](./auto/) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
+| [DISABLED](./disabled/) | `1` | Disables additional recognition of color barcodes on color images. |
+| [ENABLED](./enabled/) | `2` | Enables additional recognition of color barcodes on color images. |

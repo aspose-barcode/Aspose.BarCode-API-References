@@ -21,5 +21,5 @@ Font size mode.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.generation.font_mode/fontmode/auto/) | `0` | Automatically calculate Font size based on barcode size. |
-| [MANUAL](/python-java/aspose_barcode.generation.font_mode/fontmode/manual/) | `1` | Use Font sized defined by user. |
+| [AUTO](./auto/) | `0` | Automatically calculate Font size based on barcode size. |
+| [MANUAL](./manual/) | `1` | Use Font sized defined by user. |

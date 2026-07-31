@@ -18,12 +18,12 @@ url: /python-java/aspose_barcode.generation.cmyk_color/cmykcolor/
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.cmyk_color/cmykcolor/cmykcolor/) |  |
+| [__init__](./cmykcolor/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__repr__](/python-java/aspose_barcode.generation.cmyk_color/cmykcolor/__repr__/) | `str` | No |  |
-| [format_cmyk](/python-java/aspose_barcode.generation.cmyk_color/cmykcolor/format_cmyk/) | `str` | No |  |
-| [parse_cmyk](/python-java/aspose_barcode.generation.cmyk_color/cmykcolor/parse_cmyk/) | `CMYKColor` | Yes |  |
+| [__repr__](./__repr__/) | `str` | No |  |
+| [format_cmyk](./format_cmyk/) | `str` | No |  |
+| [parse_cmyk](./parse_cmyk/) | `CMYKColor` | Yes |  |

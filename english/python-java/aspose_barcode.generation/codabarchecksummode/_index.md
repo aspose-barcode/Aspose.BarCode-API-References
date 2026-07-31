@@ -21,5 +21,5 @@ Specifies the checksum algorithm for Codabar.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MOD_10](/python-java/aspose_barcode.generation.codabar_checksum_mode/codabarchecksummode/mod_10/) | `0` | Specifies Mod 10 algorithm for Codabar. |
-| [MOD_16](/python-java/aspose_barcode.generation.codabar_checksum_mode/codabarchecksummode/mod_16/) | `1` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |
+| [MOD_10](./mod_10/) | `0` | Specifies Mod 10 algorithm for Codabar. |
+| [MOD_16](./mod_16/) | `1` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |

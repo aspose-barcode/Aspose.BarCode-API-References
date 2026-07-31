@@ -21,6 +21,6 @@ Defines the interpreting type(C_TABLE or N_TABLE) of customer information for Au
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [C_TABLE](/python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/c_table/) | `0` | Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and sing. |
-| [N_TABLE](/python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/n_table/) | `1` | Use N_TABLE to interpret the customer information. Allows digits. |
-| [OTHER](/python-java/aspose_barcode.recognition.customer_information_interpreting_type/customerinformationinterpretingtype/other/) | `2` | Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only. |
+| [C_TABLE](./c_table/) | `0` | Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and sing. |
+| [N_TABLE](./n_table/) | `1` | Use N_TABLE to interpret the customer information. Allows digits. |
+| [OTHER](./other/) | `2` | Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only. |

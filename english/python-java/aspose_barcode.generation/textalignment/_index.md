@@ -21,6 +21,6 @@ Text alignment.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CENTER](/python-java/aspose_barcode.generation.text_alignment/textalignment/center/) | `1` | Center position. |
-| [LEFT](/python-java/aspose_barcode.generation.text_alignment/textalignment/left/) | `0` | Left position. |
-| [RIGHT](/python-java/aspose_barcode.generation.text_alignment/textalignment/right/) | `2` | Right position. |
+| [CENTER](./center/) | `1` | Center position. |
+| [LEFT](./left/) | `0` | Left position. |
+| [RIGHT](./right/) | `2` | Right position. |

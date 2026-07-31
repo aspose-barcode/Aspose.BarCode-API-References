@@ -21,6 +21,6 @@ Mode which enables methods to recognize barcode elements with the selected quali
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [HIGH](/python-java/aspose_barcode.recognition.barcode_quality_mode/barcodequalitymode/high/) | `0` | Enables recognition methods for High quality barcodes. |
-| [LOW](/python-java/aspose_barcode.recognition.barcode_quality_mode/barcodequalitymode/low/) | `2` | Enables recognition methods for Low quality barcodes. |
-| [NORMAL](/python-java/aspose_barcode.recognition.barcode_quality_mode/barcodequalitymode/normal/) | `1` | Enables recognition methods for Common(Normal) quality barcodes. |
+| [HIGH](./high/) | `0` | Enables recognition methods for High quality barcodes. |
+| [LOW](./low/) | `2` | Enables recognition methods for Low quality barcodes. |
+| [NORMAL](./normal/) | `1` | Enables recognition methods for Common(Normal) quality barcodes. |

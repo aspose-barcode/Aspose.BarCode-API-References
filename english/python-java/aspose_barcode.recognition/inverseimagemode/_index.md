@@ -21,6 +21,6 @@ Mode which enables or disables additional recognition of barcodes on images with
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.recognition.inverse_image_mode/inverseimagemode/auto/) | `0` | At this time the same as Disabled. Disables additional recognition of barcodes on inverse images. |
-| [DISABLED](/python-java/aspose_barcode.recognition.inverse_image_mode/inverseimagemode/disabled/) | `1` | Disables additional recognition of barcodes on inverse images. |
-| [ENABLED](/python-java/aspose_barcode.recognition.inverse_image_mode/inverseimagemode/enabled/) | `2` | Enables additional recognition of barcodes on inverse images |
+| [AUTO](./auto/) | `0` | At this time the same as Disabled. Disables additional recognition of barcodes on inverse images. |
+| [DISABLED](./disabled/) | `1` | Disables additional recognition of barcodes on inverse images. |
+| [ENABLED](./enabled/) | `2` | Enables additional recognition of barcodes on inverse images |

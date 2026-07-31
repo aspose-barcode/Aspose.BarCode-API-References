@@ -20,4 +20,4 @@ url: /python-java/aspose_barcode.core.types_geom/hasxywh/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [TypeAlias](/python-java/aspose_barcode.core.types_geom/hasxywh/typealias/) | `` |  |
+| [TypeAlias](./typealias/) | `` |  |

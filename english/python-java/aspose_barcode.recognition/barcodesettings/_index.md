@@ -21,19 +21,19 @@ Contains settings for barcode recognition.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/barcodesettings/) |  |
+| [__init__](./barcodesettings/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [australia_post](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/australia_post/) | `"AustraliaPostSettings"` | No |  |
+| [australia_post](./australia_post/) | `"AustraliaPostSettings"` | No |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [checksum_validation](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/checksum_validation/) | `ChecksumValidation` |  |
-| [detect_encoding](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/detect_encoding/) | `bool` |  |
-| [only_requested_types](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/only_requested_types/) | `bool` | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. Example: |
-| [strip_fnc](/python-java/aspose_barcode.recognition.barcode_settings/barcodesettings/strip_fnc/) | `bool` |  |
+| [checksum_validation](./checksum_validation/) | `ChecksumValidation` |  |
+| [detect_encoding](./detect_encoding/) | `bool` |  |
+| [only_requested_types](./only_requested_types/) | `bool` | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. Example: |
+| [strip_fnc](./strip_fnc/) | `bool` |  |

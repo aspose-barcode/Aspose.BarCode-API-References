@@ -23,15 +23,15 @@ Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREn
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/qrextcodetextbuilder/) |  |
+| [__init__](./qrextcodetextbuilder/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [add_codetext_with_compaction_mode](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/add_codetext_with_compaction_mode/) | `None` | No |  |
-| [add_fnc1_first_position](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/add_fnc1_first_position/) | `None` | No | Adds FNC1 in first position to the extended codetext items. |
-| [add_fnc1_group_separator](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/add_fnc1_group_separator/) | `None` | No | Adds Group Separator (GS - '\u001D') to the extended codetext items. |
-| [add_fnc1_second_position](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/add_fnc1_second_position/) | `None` | No | Adds FNC1 in second position to the extended codetext items. Args: codetext (str): Value of the FNC1 in the second position. |
-| [clear](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/clear/) | `def` | No | Clears extended codetext items. Reimplemented from ExtCodetextBuilder. |
-| [extended_codetext](/python-java/aspose_barcode.generation.qr_ext_codetext_builder/qrextcodetextbuilder/extended_codetext/) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as a string, or None if not set. Reimplemented from ExtCodetextBuilder. |
+| [add_codetext_with_compaction_mode](./add_codetext_with_compaction_mode/) | `None` | No |  |
+| [add_fnc1_first_position](./add_fnc1_first_position/) | `None` | No | Adds FNC1 in first position to the extended codetext items. |
+| [add_fnc1_group_separator](./add_fnc1_group_separator/) | `None` | No | Adds Group Separator (GS - '\u001D') to the extended codetext items. |
+| [add_fnc1_second_position](./add_fnc1_second_position/) | `None` | No | Adds FNC1 in second position to the extended codetext items. Args: codetext (str): Value of the FNC1 in the second position. |
+| [clear](./clear/) | `def` | No | Clears extended codetext items. Reimplemented from ExtCodetextBuilder. |
+| [extended_codetext](./extended_codetext/) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as a string, or None if not set. Reimplemented from ExtCodetextBuilder. |

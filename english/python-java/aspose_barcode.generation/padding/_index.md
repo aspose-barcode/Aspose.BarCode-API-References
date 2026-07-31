@@ -21,19 +21,19 @@ Paddings parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.padding/padding/padding/) |  |
+| [__init__](./padding/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.padding/padding/__str__/) | `str` | No | Returns a human-readable string representation of this Padding. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this Padding. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [bottom](/python-java/aspose_barcode.generation.padding/padding/bottom/) | `Optional[Unit]` | Bottom padding. |
-| [left](/python-java/aspose_barcode.generation.padding/padding/left/) | `Optional[Unit]` | Left padding. |
-| [right](/python-java/aspose_barcode.generation.padding/padding/right/) | `Optional[Unit]` | Right padding. |
-| [top](/python-java/aspose_barcode.generation.padding/padding/top/) | `Optional[Unit]` | Top padding. |
+| [bottom](./bottom/) | `Optional[Unit]` | Bottom padding. |
+| [left](./left/) | `Optional[Unit]` | Left padding. |
+| [right](./right/) | `Optional[Unit]` | Right padding. |
+| [top](./top/) | `Optional[Unit]` | Top padding. |

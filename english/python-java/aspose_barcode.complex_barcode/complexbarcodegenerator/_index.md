@@ -21,12 +21,12 @@ ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images genera
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/complexbarcodegenerator/) | Creates an instance of ComplexBarcodeGenerator. |
+| [__init__](./complexbarcodegenerator/) | Creates an instance of ComplexBarcodeGenerator. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [generate_barcode_image](/python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/generate_barcode_image/) | `"Image.Image"` | No | Generates complex barcode image under current settings. |
-| [parameters](/python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/parameters/) | `BaseGenerationParameters` | No | Generation parameters. |
-| [save](/python-java/aspose_barcode.complex_barcode.complex_barcode_generator/complexbarcodegenerator/save/) | `None` | No | Save barcode image to specific file in specific format. |
+| [generate_barcode_image](./generate_barcode_image/) | `"Image.Image"` | No | Generates complex barcode image under current settings. |
+| [parameters](./parameters/) | `BaseGenerationParameters` | No | Generation parameters. |
+| [save](./save/) | `None` | No | Save barcode image to specific file in specific format. |

@@ -21,18 +21,18 @@ GS1 Composite bar parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/gs1compositebarparameters/) |  |
+| [__init__](./gs1compositebarparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/__str__/) | `str` | No | Returns a human-readable string representation of this DataBarParameters. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this DataBarParameters. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [allow_only_gs1_encoding](/python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/allow_only_gs1_encoding/) | `bool` | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
-| [linear_component_type](/python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/linear_component_type/) | `EncodeTypes` | Linear component type. |
-| [two_d_component_type](/python-java/aspose_barcode.generation.gs1_composite_bar_parameters/gs1compositebarparameters/two_d_component_type/) | `TwoDComponentType` | 2D component type |
+| [allow_only_gs1_encoding](./allow_only_gs1_encoding/) | `bool` | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component. |
+| [linear_component_type](./linear_component_type/) | `EncodeTypes` | Linear component type. |
+| [two_d_component_type](./two_d_component_type/) | `TwoDComponentType` | 2D component type |

@@ -21,17 +21,17 @@ Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/supplementparameters/) |  |
+| [__init__](./supplementparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/__str__/) | `str` | No | Returns a human-readable string representation of this SupplementParameters. |
-| [supplement_space](/python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/supplement_space/) | `Optional[Unit]` | No | Space between the main BarCode and supplement BarCode in Unit value. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this SupplementParameters. |
+| [supplement_space](./supplement_space/) | `Optional[Unit]` | No | Space between the main BarCode and supplement BarCode in Unit value. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [supplement_data](/python-java/aspose_barcode.generation.supplement_parameters/supplementparameters/supplement_data/) | `str` | Supplement data following BarCode. |
+| [supplement_data](./supplement_data/) | `str` | Supplement data following BarCode. |

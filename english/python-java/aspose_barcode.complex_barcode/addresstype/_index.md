@@ -21,7 +21,7 @@ Address type.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [COMBINED_ELEMENTS](/python-java/aspose_barcode.complex_barcode.address_type/addresstype/combined_elements/) | `2` |  |
-| [CONFLICTING](/python-java/aspose_barcode.complex_barcode.address_type/addresstype/conflicting/) | `3` |  |
-| [STRUCTURED](/python-java/aspose_barcode.complex_barcode.address_type/addresstype/structured/) | `1` |  |
-| [UNDETERMINED](/python-java/aspose_barcode.complex_barcode.address_type/addresstype/undetermined/) | `0` |  |
+| [COMBINED_ELEMENTS](./combined_elements/) | `2` |  |
+| [CONFLICTING](./conflicting/) | `3` |  |
+| [STRUCTURED](./structured/) | `1` |  |
+| [UNDETERMINED](./undetermined/) | `0` |  |

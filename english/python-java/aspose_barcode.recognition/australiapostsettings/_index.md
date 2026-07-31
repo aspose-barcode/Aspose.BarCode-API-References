@@ -21,11 +21,11 @@ AustraliaPost decoding parameters. Contains parameters which influence recognize
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/australiapostsettings/) |  |
+| [__init__](./australiapostsettings/) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [customer_information_interpreting_type](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/customer_information_interpreting_type/) | `CustomerInformationInterpretingType` |  |
-| [ignore_ending_filling_patterns_for_c_table](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/ignore_ending_filling_patterns_for_c_table/) | `bool` |  |
+| [customer_information_interpreting_type](./customer_information_interpreting_type/) | `CustomerInformationInterpretingType` |  |
+| [ignore_ending_filling_patterns_for_c_table](./ignore_ending_filling_patterns_for_c_table/) | `bool` |  |

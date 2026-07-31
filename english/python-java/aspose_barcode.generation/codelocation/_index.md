@@ -21,6 +21,6 @@ Codetext location.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ABOVE](/python-java/aspose_barcode.generation.code_location/codelocation/above/) | `1` | Codetext above barcode. |
-| [BELOW](/python-java/aspose_barcode.generation.code_location/codelocation/below/) | `0` | Codetext below barcode. |
-| [NONE](/python-java/aspose_barcode.generation.code_location/codelocation/none/) | `2` | Hide codetext. |
+| [ABOVE](./above/) | `1` | Codetext above barcode. |
+| [BELOW](./below/) | `0` | Codetext below barcode. |
+| [NONE](./none/) | `2` | Hide codetext. |

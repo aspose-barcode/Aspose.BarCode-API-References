@@ -21,7 +21,7 @@ Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ALPHA_NUMERIC](/python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/alpha_numeric/) | `2` | Encodes codetext in QR Alphanumeric mode. |
-| [AUTO](/python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/auto/) | `0` | The encoder selects the most efficient QR compaction mode automatically. |
-| [BYTES](/python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/bytes/) | `3` | Encodes codetext in QR Byte mode. |
-| [NUMERIC](/python-java/aspose_barcode.generation.qr_ext_compaction_mode/qrextcompactionmode/numeric/) | `1` | Encodes codetext in QR Numeric mode. Only digits 0-9 are allowed. |
+| [ALPHA_NUMERIC](./alpha_numeric/) | `2` | Encodes codetext in QR Alphanumeric mode. |
+| [AUTO](./auto/) | `0` | The encoder selects the most efficient QR compaction mode automatically. |
+| [BYTES](./bytes/) | `3` | Encodes codetext in QR Byte mode. |
+| [NUMERIC](./numeric/) | `1` | Encodes codetext in QR Numeric mode. Only digits 0-9 are allowed. |

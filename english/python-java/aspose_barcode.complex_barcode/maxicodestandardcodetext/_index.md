@@ -23,20 +23,20 @@ Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/maxicodestandardcodetext/) |  |
+| [__init__](./maxicodestandardcodetext/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandardCodetext value. |
-| [__hash__](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/__hash__/) | `int` | No | Returns the hash code for this instance. |
-| [constructed_codetext](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
-| [init_from_string](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandardCodetext value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for this instance. |
+| [constructed_codetext](./constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
+| [init_from_string](./init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [message](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/message/) | `Optional[str]` | Gets message. |
-| [mode](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_codetext/maxicodestandardcodetext/mode/) | `MaxiCodeMode` | Gets MaxiCode mode. |
+| [message](./message/) | `Optional[str]` | Gets message. |
+| [mode](./mode/) | `MaxiCodeMode` | Gets MaxiCode mode. |

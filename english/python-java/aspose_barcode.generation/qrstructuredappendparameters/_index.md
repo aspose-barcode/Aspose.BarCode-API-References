@@ -21,12 +21,12 @@ QR structured append parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/qrstructuredappendparameters/) |  |
+| [__init__](./qrstructuredappendparameters/) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [parity_byte](/python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/parity_byte/) | `int` | Gets the QR structured append mode parity data. |
-| [sequence_indicator](/python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/sequence_indicator/) | `int` | Gets the index of the QR structured append mode barcode. Index starts from 0. |
-| [total_count](/python-java/aspose_barcode.generation.qr_structured_append_parameters/qrstructuredappendparameters/total_count/) | `int` | Gets the QR structured append mode barcodes quantity. Max value is 16. |
+| [parity_byte](./parity_byte/) | `int` | Gets the QR structured append mode parity data. |
+| [sequence_indicator](./sequence_indicator/) | `int` | Gets the index of the QR structured append mode barcode. Index starts from 0. |
+| [total_count](./total_count/) | `int` | Gets the QR structured append mode barcodes quantity. Max value is 16. |

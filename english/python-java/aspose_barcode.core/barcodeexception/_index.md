@@ -23,12 +23,12 @@ Represents the exception for creating barcode image.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.core.exceptions/barcodeexception/barcodeexception/) | Initializes a new instance of the BarCodeException class with specified error message. |
+| [__init__](./barcodeexception/) | Initializes a new instance of the BarCodeException class with specified error message. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [getMessage](/python-java/aspose_barcode.core.exceptions/barcodeexception/getmessage/) | `Optional[str]` | No | Gets message. |
-| [MAX_LINES](/python-java/aspose_barcode.core.exceptions/barcodeexception/max_lines/) | `int` | Yes |  |
-| [setMessage](/python-java/aspose_barcode.core.exceptions/barcodeexception/setmessage/) | `None` | No | Sets message. |
+| [getMessage](./getmessage/) | `Optional[str]` | No | Gets message. |
+| [MAX_LINES](./max_lines/) | `int` | Yes |  |
+| [setMessage](./setmessage/) | `None` | No | Sets message. |

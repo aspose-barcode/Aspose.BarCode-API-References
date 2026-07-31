@@ -23,20 +23,20 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/hibclicsecondaryandadditionaldatacodetext/) |  |
+| [__init__](./hibclicsecondaryandadditionaldatacodetext/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCLICSecondaryAndAdditionalDataCodetext value. |
-| [__hash__](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [constructured_codetext](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/constructured_codetext/) | `Optional[str]` | No | Constructs codetext. |
-| [init_from_string](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCLICSecondaryAndAdditionalDataCodetext value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [constructured_codetext](./constructured_codetext/) | `Optional[str]` | No | Constructs codetext. |
+| [init_from_string](./init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [data](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/data/) | `Optional[SecondaryAndAdditionalData]` | Identifies secondary and additional supplemental data. |
-| [link_character](/python-java/aspose_barcode.complex_barcode/hibclicsecondaryandadditionaldatacodetext/link_character/) | `Optional[str]` | Identifies link character. |
+| [data](./data/) | `Optional[SecondaryAndAdditionalData]` | Identifies secondary and additional supplemental data. |
+| [link_character](./link_character/) | `Optional[str]` | Identifies link character. |

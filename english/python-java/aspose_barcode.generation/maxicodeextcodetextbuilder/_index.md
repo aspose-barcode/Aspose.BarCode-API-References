@@ -23,10 +23,10 @@ Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of M
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.maxi_code_ext_codetext_builder/maxicodeextcodetextbuilder/maxicodeextcodetextbuilder/) |  |
+| [__init__](./maxicodeextcodetextbuilder/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [extended_codetext](/python-java/aspose_barcode.generation.maxi_code_ext_codetext_builder/maxicodeextcodetextbuilder/extended_codetext/) | `str` | No | Generates Extended codetext from the extended codetext list. |
+| [extended_codetext](./extended_codetext/) | `str` | No | Generates Extended codetext from the extended codetext list. |
