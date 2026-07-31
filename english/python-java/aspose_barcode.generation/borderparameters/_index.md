@@ -21,19 +21,19 @@ Barcode image border parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.border_parameters/borderparameters/borderparameters/) |  |
+| [__init__](./borderparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.border_parameters/borderparameters/__str__/) | `str` | No | Returns a human-readable string representation of this BorderParameters instance. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this BorderParameters instance. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [color](/python-java/aspose_barcode.generation.border_parameters/borderparameters/color/) | `Tuple[int, int, int]` | Border color, representation of an RGB tuple. Default value: 0 |
-| [dash_style](/python-java/aspose_barcode.generation.border_parameters/borderparameters/dash_style/) | `BorderDashStyle` | Border dash style. Default value: BorderDashStyle.SOLID. |
-| [visible](/python-java/aspose_barcode.generation.border_parameters/borderparameters/visible/) | `bool` | Border visibility. If false, the Width parameter is always ignored (0). Default value: false. |
-| [width](/python-java/aspose_barcode.generation.border_parameters/borderparameters/width/) | `Unit` | Border width. Default value: 0. Ignored if Visible is set to false. |
+| [color](./color/) | `Tuple[int, int, int]` | Border color, representation of an RGB tuple. Default value: 0 |
+| [dash_style](./dash_style/) | `BorderDashStyle` | Border dash style. Default value: BorderDashStyle.SOLID. |
+| [visible](./visible/) | `bool` | Border visibility. If false, the Width parameter is always ignored (0). Default value: false. |
+| [width](./width/) | `Unit` | Border width. Default value: 0. Ignored if Visible is set to false. |

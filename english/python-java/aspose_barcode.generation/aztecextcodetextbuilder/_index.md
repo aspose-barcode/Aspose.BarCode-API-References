@@ -23,10 +23,10 @@ Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of Azte
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.aztec_ext_codetext_builder/aztecextcodetextbuilder/aztecextcodetextbuilder/) |  |
+| [__init__](./aztecextcodetextbuilder/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [extended_codetext](/python-java/aspose_barcode.generation.aztec_ext_codetext_builder/aztecextcodetextbuilder/extended_codetext/) | `Optional[str]` | No | Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder. |
+| [extended_codetext](./extended_codetext/) | `Optional[str]` | No | Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder. |

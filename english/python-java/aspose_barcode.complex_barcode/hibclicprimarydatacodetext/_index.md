@@ -23,19 +23,19 @@ Class for encoding and decoding the text embedded in the HIBC LIC code which sto
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/hibclicprimarydatacodetext/) |  |
+| [__init__](./hibclicprimarydatacodetext/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCLICPrimaryDataCodetext value. |
-| [__hash__](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [constructed_codetext](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
-| [init_from_string](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCLICPrimaryDataCodetext value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [constructed_codetext](./constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
+| [init_from_string](./init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [data](/python-java/aspose_barcode.complex_barcode.hibc_lic_primary_data_codetext/hibclicprimarydatacodetext/data/) | `Optional[PrimaryData]` | Identifies primary data. |
+| [data](./data/) | `Optional[PrimaryData]` | Identifies primary data. |

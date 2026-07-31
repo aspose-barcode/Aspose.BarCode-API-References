@@ -18,12 +18,12 @@ url: /python-java/aspose_barcode.core.license/license/
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.core.license/license/license/) |  |
+| [__init__](./license/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [is_licensed](/python-java/aspose_barcode.core.license/license/is_licensed/) | `bool` | No |  |
-| [reset_license](/python-java/aspose_barcode.core.license/license/reset_license/) | `None` | No |  |
-| [set_license](/python-java/aspose_barcode.core.license/license/set_license/) | `None` | No |  |
+| [is_licensed](./is_licensed/) | `bool` | No |  |
+| [reset_license](./reset_license/) | `None` | No |  |
+| [set_license](./set_license/) | `None` | No |  |

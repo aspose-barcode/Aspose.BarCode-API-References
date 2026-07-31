@@ -21,7 +21,7 @@ Pdf417 barcode's compation mode.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/auto/) | `0` | auto detect compation mode |
-| [BINARY](/python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/binary/) | `3` | binary compaction mode |
-| [NUMERIC](/python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/numeric/) | `2` | numeric compaction mode |
-| [TEXT](/python-java/aspose_barcode.generation.pdf_417_compaction_mode/pdf417compactionmode/text/) | `1` | text compaction |
+| [AUTO](./auto/) | `0` | auto detect compation mode |
+| [BINARY](./binary/) | `3` | binary compaction mode |
+| [NUMERIC](./numeric/) | `2` | numeric compaction mode |
+| [TEXT](./text/) | `1` | text compaction |

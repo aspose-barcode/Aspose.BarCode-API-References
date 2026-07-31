@@ -23,17 +23,17 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_second_message/maxicodestandardsecondmessage/maxicodestandardsecondmessage/) | Reimplemented in MaxiCodeStandartSecondMessage. |
+| [__init__](./maxicodestandardsecondmessage/) | Reimplemented in MaxiCodeStandartSecondMessage. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_second_message/maxicodestandardsecondmessage/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandartSecondMessage value. |
-| [getHashCode](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_second_message/maxicodestandardsecondmessage/gethashcode/) | `int` | No | Returns the hash code for this instance. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandartSecondMessage value. |
+| [getHashCode](./gethashcode/) | `int` | No | Returns the hash code for this instance. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [message](/python-java/aspose_barcode.complex_barcode.maxi_code_standard_second_message/maxicodestandardsecondmessage/message/) | `str` | Gets constructed second message. |
+| [message](./message/) | `str` | Gets constructed second message. |

@@ -21,6 +21,6 @@ Enable checksum validation during recognition for 1D barcodes. Default is treate
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DEFAULT](/python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/default/) | `0` | If checksum is required by the specification - it will be validated. |
-| [OFF](/python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/off/) | `2` | Do not validate checksum. |
-| [ON](/python-java/aspose_barcode.recognition.checksum_validation/checksumvalidation/on/) | `1` | Always validate checksum if possible. |
+| [DEFAULT](./default/) | `0` | If checksum is required by the specification - it will be validated. |
+| [OFF](./off/) | `2` | Do not validate checksum. |
+| [ON](./on/) | `1` | Always validate checksum if possible. |

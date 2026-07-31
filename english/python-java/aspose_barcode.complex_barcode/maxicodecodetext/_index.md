@@ -23,13 +23,13 @@ Base class for encoding and decoding the text embedded in the MaxiCode code. Thi
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [barcode_type](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/barcode_type/) | `EncodeTypes` | No | Gets barcode type. |
-| [mode](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/mode/) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |
+| [barcode_type](./barcode_type/) | `EncodeTypes` | No | Gets barcode type. |
+| [mode](./mode/) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [eci_encoding](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/eci_encoding/) | `ECIEncodings` | Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. |
-| [encode_mode](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/encode_mode/) | `MaxiCodeEncodeMode` |  |
-| [maxi_code_encode_mode](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext/maxicodecodetext/maxi_code_encode_mode/) | `MaxiCodeEncodeMode` | Gets a MaxiCode encode mode. |
+| [eci_encoding](./eci_encoding/) | `ECIEncodings` | Gets ECI encoding. Used when MaxiCodeEncodeMode is AUTO. |
+| [encode_mode](./encode_mode/) | `MaxiCodeEncodeMode` |  |
+| [maxi_code_encode_mode](./maxi_code_encode_mode/) | `MaxiCodeEncodeMode` | Gets a MaxiCode encode mode. |

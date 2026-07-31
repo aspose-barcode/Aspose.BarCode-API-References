@@ -21,10 +21,10 @@ Encoding mode for Code128 barcodes. specification. This code demonstrates how to
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/auto/) | `0` | Encode codetext in classic ISO 15417 mode. The mode should be used in all ordinary cases. |
-| [CODE_A](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_a/) | `1` | Encode codetext only in 128A codeset. |
-| [CODE_AB](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_ab/) | `3` | Encode codetext only in 128A and 128B codesets. |
-| [CODE_AC](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_ac/) | `5` | Encode codetext only in 128A and 128C codesets. |
-| [CODE_B](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_b/) | `2` | Encode codetext only in 128B codeset. |
-| [CODE_BC](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_bc/) | `6` | Encode codetext only in 128B and 128C codesets. |
-| [CODE_C](/python-java/aspose_barcode.generation.code_128_encode_mode/code128encodemode/code_c/) | `4` | Encode codetext only in 128C codeset. |
+| [AUTO](./auto/) | `0` | Encode codetext in classic ISO 15417 mode. The mode should be used in all ordinary cases. |
+| [CODE_A](./code_a/) | `1` | Encode codetext only in 128A codeset. |
+| [CODE_AB](./code_ab/) | `3` | Encode codetext only in 128A and 128B codesets. |
+| [CODE_AC](./code_ac/) | `5` | Encode codetext only in 128A and 128C codesets. |
+| [CODE_B](./code_b/) | `2` | Encode codetext only in 128B codeset. |
+| [CODE_BC](./code_bc/) | `6` | Encode codetext only in 128B and 128C codesets. |
+| [CODE_C](./code_c/) | `4` | Encode codetext only in 128C codeset. |

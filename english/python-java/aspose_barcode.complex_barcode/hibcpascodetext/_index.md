@@ -23,24 +23,24 @@ Class for encoding and decoding the text embedded in the HIBC PAS code. This sam
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/hibcpascodetext/) |  |
+| [__init__](./hibcpascodetext/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCPASCodetext value. |
-| [__hash__](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [add_hibc_pas_record](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/add_hibc_pas_record/) | `None` | No | Adds new record. |
-| [add_record](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/add_record/) | `None` | No | Adds new record. |
-| [clear](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/clear/) | `None` | No | Clears records list. |
-| [constructed_codetext](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
-| [init_from_string](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
-| [records](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/records/) | `List[HIBCPASRecord]` | No | Gets records list. |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified HIBCPASCodetext value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [add_hibc_pas_record](./add_hibc_pas_record/) | `None` | No | Adds new record. |
+| [add_record](./add_record/) | `None` | No | Adds new record. |
+| [clear](./clear/) | `None` | No | Clears records list. |
+| [constructed_codetext](./constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
+| [init_from_string](./init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
+| [records](./records/) | `List[HIBCPASRecord]` | No | Gets records list. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [barcode_type](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/barcode_type/) | `EncodeTypes` | Reimplemented from IComplexCodetext. |
-| [data_location](/python-java/aspose_barcode.complex_barcode.hibc_pas_codetext/hibcpascodetext/data_location/) | `HIBCPASDataLocation` | Identifies data location. |
+| [barcode_type](./barcode_type/) | `EncodeTypes` | Reimplemented from IComplexCodetext. |
+| [data_location](./data_location/) | `HIBCPASDataLocation` | Identifies data location. |

@@ -21,6 +21,6 @@ QR / MicroQR selector mode. Select FORCE_QR for standard QR symbols, AUTO for Mi
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.generation.qr_encode_type/qrencodetype/auto/) | `0` | Mode starts barcode version negotiation from MicroQR V1. |
-| [FORCE_MICRO_QR](/python-java/aspose_barcode.generation.qr_encode_type/qrencodetype/force_micro_qr/) | `2` | Mode starts barcode version negotiation from from MicroQR V1 to V4. If data cannot be encoded into MicroQR, exception is thrown. |
-| [FORCE_QR](/python-java/aspose_barcode.generation.qr_encode_type/qrencodetype/force_qr/) | `1` | Mode starts barcode version negotiation from QR V1. |
+| [AUTO](./auto/) | `0` | Mode starts barcode version negotiation from MicroQR V1. |
+| [FORCE_MICRO_QR](./force_micro_qr/) | `2` | Mode starts barcode version negotiation from from MicroQR V1 to V4. If data cannot be encoded into MicroQR, exception is thrown. |
+| [FORCE_QR](./force_qr/) | `1` | Mode starts barcode version negotiation from QR V1. |

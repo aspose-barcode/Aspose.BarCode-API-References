@@ -21,18 +21,18 @@ PatchCode parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/patchcodeparameters/) |  |
+| [__init__](./patchcodeparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/__str__/) | `str` | No | Returns a human-readable string representation of this PatchCodeParameters. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this PatchCodeParameters. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [extra_barcode_text](/python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/extra_barcode_text/) | `str` | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
-| [format](/python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/format/) | `PatchFormat` |  |
-| [patch_format](/python-java/aspose_barcode.generation.patch_code_parameters/patchcodeparameters/patch_format/) | `PatchFormat` | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PATCH_ONLY |
+| [extra_barcode_text](./extra_barcode_text/) | `str` | Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode. |
+| [format](./format/) | `PatchFormat` |  |
+| [patch_format](./patch_format/) | `PatchFormat` | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders. Default value: PatchFormat.PATCH_ONLY |

@@ -21,4 +21,4 @@ SwissQR bill standard version.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [V2_0](/python-java/aspose_barcode.complex_barcode.qr_bill_standard_version/qrbillstandardversion/v2_0/) | `0` |  |
+| [V2_0](./v2_0/) | `0` |  |

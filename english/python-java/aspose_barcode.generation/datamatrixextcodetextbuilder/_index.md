@@ -23,12 +23,12 @@ Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.data_matrix_ext_codetext_builder/datamatrixextcodetextbuilder/datamatrixextcodetextbuilder/) |  |
+| [__init__](./datamatrixextcodetextbuilder/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [add_codetext_with_encode_mode](/python-java/aspose_barcode.generation.data_matrix_ext_codetext_builder/datamatrixextcodetextbuilder/add_codetext_with_encode_mode/) | `None` | No | Adds codetext with defined encode mode to the extended codetext items. Args: encode_mode (DataMatrixEncodeMode): Encode mode value. codetext (str): Codetext in unicode to add. |
-| [add_eci_codetext_with_encode_mode](/python-java/aspose_barcode.generation.data_matrix_ext_codetext_builder/datamatrixextcodetextbuilder/add_eci_codetext_with_encode_mode/) | `None` | No | Adds codetext with Extended Channel Identifier and defined encode mode. Args: eci_encoding (ECIEncodings): Extended Channel Identifier. encode_mode (DataMatrixEncodeMode): Encode mode value. codetext (str): Codetext in unicode to add. |
-| [extended_codetext](/python-java/aspose_barcode.generation.data_matrix_ext_codetext_builder/datamatrixextcodetextbuilder/extended_codetext/) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string, or None if not set. Reimplemented from ExtCodetextBuilder. |
+| [add_codetext_with_encode_mode](./add_codetext_with_encode_mode/) | `None` | No | Adds codetext with defined encode mode to the extended codetext items. Args: encode_mode (DataMatrixEncodeMode): Encode mode value. codetext (str): Codetext in unicode to add. |
+| [add_eci_codetext_with_encode_mode](./add_eci_codetext_with_encode_mode/) | `None` | No | Adds codetext with Extended Channel Identifier and defined encode mode. Args: eci_encoding (ECIEncodings): Extended Channel Identifier. encode_mode (DataMatrixEncodeMode): Encode mode value. codetext (str): Codetext in unicode to add. |
+| [extended_codetext](./extended_codetext/) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string, or None if not set. Reimplemented from ExtCodetextBuilder. |

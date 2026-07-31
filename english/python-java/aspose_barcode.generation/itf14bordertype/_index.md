@@ -21,8 +21,8 @@ ITF14 barcode's border type.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BAR](/python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/bar/) | `2` | Tow horizontal bars enclosing the barcode. |
-| [BAR_OUT](/python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/bar_out/) | `4` | Tow horizontal bars enclosing the barcode. |
-| [FRAME](/python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/frame/) | `1` | FRAME enclosing the barcode. |
-| [FRAME_OUT](/python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/frame_out/) | `3` | FRAME enclosing the barcode. |
-| [NONE](/python-java/aspose_barcode.generation.itf_14_border_type/itf14bordertype/none/) | `0` | NO border enclosing the barcode. |
+| [BAR](./bar/) | `2` | Tow horizontal bars enclosing the barcode. |
+| [BAR_OUT](./bar_out/) | `4` | Tow horizontal bars enclosing the barcode. |
+| [FRAME](./frame/) | `1` | FRAME enclosing the barcode. |
+| [FRAME_OUT](./frame_out/) | `3` | FRAME enclosing the barcode. |
+| [NONE](./none/) | `0` | NO border enclosing the barcode. |

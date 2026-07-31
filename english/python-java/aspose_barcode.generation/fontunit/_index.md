@@ -21,18 +21,18 @@ Defines a particular format for text, including font face, size, and style attri
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.font_unit/fontunit/fontunit/) |  |
+| [__init__](./fontunit/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.font_unit/fontunit/__str__/) | `str` | No | String representation of the FontUnit object. |
+| [__str__](./__str__/) | `str` | No | String representation of the FontUnit object. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [family_name](/python-java/aspose_barcode.generation.font_unit/fontunit/family_name/) | `str` | Gets the face name of this Font. |
-| [size](/python-java/aspose_barcode.generation.font_unit/fontunit/size/) | `Optional[Unit]` | Gets size of this FontUnit in Unit value. Raises: IllegalArgumentException: if the Size parameter value is less than or equal to 0. |
-| [style](/python-java/aspose_barcode.generation.font_unit/fontunit/style/) | `FontStyle` | Gets style information for this FontUnit. |
+| [family_name](./family_name/) | `str` | Gets the face name of this Font. |
+| [size](./size/) | `Optional[Unit]` | Gets size of this FontUnit in Unit value. Raises: IllegalArgumentException: if the Size parameter value is less than or equal to 0. |
+| [style](./style/) | `FontStyle` | Gets style information for this FontUnit. |

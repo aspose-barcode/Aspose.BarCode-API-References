@@ -21,8 +21,8 @@ Specifies style information applied to text.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BOLD](/python-java/aspose_barcode.generation.font_style/fontstyle/bold/) | `1` | Bold text. |
-| [ITALIC](/python-java/aspose_barcode.generation.font_style/fontstyle/italic/) | `2` | Italic text. |
-| [REGULAR](/python-java/aspose_barcode.generation.font_style/fontstyle/regular/) | `0` | Normal text. |
-| [STRIKEOUT](/python-java/aspose_barcode.generation.font_style/fontstyle/strikeout/) | `8` | Text with a line through the middle. |
-| [UNDERLINE](/python-java/aspose_barcode.generation.font_style/fontstyle/underline/) | `4` | Underlined text. |
+| [BOLD](./bold/) | `1` | Bold text. |
+| [ITALIC](./italic/) | `2` | Italic text. |
+| [REGULAR](./regular/) | `0` | Normal text. |
+| [STRIKEOUT](./strikeout/) | `8` | Text with a line through the middle. |
+| [UNDERLINE](./underline/) | `4` | Underlined text. |

@@ -18,12 +18,12 @@ url: /python-java/aspose_barcode.complex_barcode.subfile_properties/subfileprope
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.subfile_properties/subfileproperties/subfileproperties/) |  |
+| [__init__](./subfileproperties/) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [length](/python-java/aspose_barcode.complex_barcode.subfile_properties/subfileproperties/length/) | `def` |  |
-| [offset](/python-java/aspose_barcode.complex_barcode.subfile_properties/subfileproperties/offset/) | `def` |  |
-| [type](/python-java/aspose_barcode.complex_barcode.subfile_properties/subfileproperties/type/) | `def` |  |
+| [length](./length/) | `def` |  |
+| [offset](./offset/) | `def` |  |
+| [type](./type/) | `def` |  |

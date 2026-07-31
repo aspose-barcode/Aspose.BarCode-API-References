@@ -21,21 +21,21 @@ Stores a Codabar additional information of recognized barcode.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/codabarextendedparameters/) |  |
+| [__init__](./codabarextendedparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/__eq__/) | `bool` | No |  |
-| [__hash__](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [__str__](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/__str__/) | `str` | No |  |
+| [__eq__](./__eq__/) | `bool` | No |  |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [__str__](./__str__/) | `str` | No |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [codabar_start_symbol](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/codabar_start_symbol/) | `CodabarSymbol` |  |
-| [codabar_stop_symbol](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/codabar_stop_symbol/) | `CodabarSymbol` |  |
-| [start_symbol](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/start_symbol/) | `CodabarSymbol` |  |
-| [stop_symbol](/python-java/aspose_barcode.recognition.codabar_extended_parameters/codabarextendedparameters/stop_symbol/) | `CodabarSymbol` |  |
+| [codabar_start_symbol](./codabar_start_symbol/) | `CodabarSymbol` |  |
+| [codabar_stop_symbol](./codabar_stop_symbol/) | `CodabarSymbol` |  |
+| [start_symbol](./start_symbol/) | `CodabarSymbol` |  |
+| [stop_symbol](./stop_symbol/) | `CodabarSymbol` |  |

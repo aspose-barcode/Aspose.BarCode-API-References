@@ -21,4 +21,4 @@ Base class for encoding and decoding second message for MaxiCode barcode.
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [message](/python-java/aspose_barcode.complex_barcode.maxi_code_second_message/maxicodesecondmessage/message/) | `Optional[str]` | No | Gets constructed second message. |
+| [message](./message/) | `Optional[str]` | No | Gets constructed second message. |

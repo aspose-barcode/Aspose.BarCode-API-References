@@ -21,11 +21,11 @@ Image parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.image_parameters/imageparameters/imageparameters/) |  |
+| [__init__](./imageparameters/) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [pdf](/python-java/aspose_barcode.generation.image_parameters/imageparameters/pdf/) | `PdfParameters` | PDF parameters. |
-| [svg](/python-java/aspose_barcode.generation.image_parameters/imageparameters/svg/) | `Optional[SvgParameters]` | SVG parameters. |
+| [pdf](./pdf/) | `PdfParameters` | PDF parameters. |
+| [svg](./svg/) | `Optional[SvgParameters]` | SVG parameters. |

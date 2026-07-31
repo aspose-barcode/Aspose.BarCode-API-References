@@ -21,7 +21,7 @@ Stores a DataBar additional information of recognized barcode.
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](/python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
-| [__hash__](/python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [__str__](/python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/__str__/) | `str` | No | Returns a human-readable string representation of this DataBarExtendedParameters. |
-| [is_2d_composite_component](/python-java/aspose_barcode.recognition.databar_extended_parameters/databarextendedparameters/is_2d_composite_component/) | `bool` | No |  |
+| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
+| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this DataBarExtendedParameters. |
+| [is_2d_composite_component](./is_2d_composite_component/) | `bool` | No |  |

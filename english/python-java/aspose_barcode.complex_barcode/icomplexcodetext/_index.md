@@ -21,12 +21,12 @@ Interface for complex codetext used with ComplexBarcodeGenerator.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/icomplexcodetext/) | Reimplemented in USADriveIdCodetext, MaxiCodeStructuredCodetext, and HIBCLICComplexCodetext. |
+| [__init__](./icomplexcodetext/) | Reimplemented in USADriveIdCodetext, MaxiCodeStructuredCodetext, and HIBCLICComplexCodetext. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [barcode_type](/python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/barcode_type/) | `EncodeTypes` | No | Gets barcode type. |
-| [constructed_codetext](/python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/constructed_codetext/) | `Optional[str]` | No | Construct codetext for complex barcode. |
-| [init_from_string](/python-java/aspose_barcode.complex_barcode.i_complex_codetext/icomplexcodetext/init_from_string/) | `None` | No | Initializes instance with constructed codetext. |
+| [barcode_type](./barcode_type/) | `EncodeTypes` | No | Gets barcode type. |
+| [constructed_codetext](./constructed_codetext/) | `Optional[str]` | No | Construct codetext for complex barcode. |
+| [init_from_string](./init_from_string/) | `None` | No | Initializes instance with constructed codetext. |

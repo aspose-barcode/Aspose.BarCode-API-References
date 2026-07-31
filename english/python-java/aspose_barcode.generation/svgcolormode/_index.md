@@ -21,7 +21,7 @@ Possible modes for filling color in svg file, RGB is default and supported by SV
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [HSL](/python-java/aspose_barcode.generation.svg_color_mode/svgcolormode/hsl/) | `2` | HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73". |
-| [HSLA](/python-java/aspose_barcode.generation.svg_color_mode/svgcolormode/hsla/) | `3` | HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)". |
-| [RGB](/python-java/aspose_barcode.generation.svg_color_mode/svgcolormode/rgb/) | `0` | RGB mode, example: fill="#ff5511" fill-opacity="0.73". Default mode. |
-| [RGBA](/python-java/aspose_barcode.generation.svg_color_mode/svgcolormode/rgba/) | `1` | RGBA mode, example: fill="rgba(255, 85, 17, 0.73)". |
+| [HSL](./hsl/) | `2` | HSL mode, example: fill="hsl(17, 100%, 53%)" fill-opacity="0.73". |
+| [HSLA](./hsla/) | `3` | HSLA mode, example: fill="hsla(30, 50%, 70%, 0.8)". |
+| [RGB](./rgb/) | `0` | RGB mode, example: fill="#ff5511" fill-opacity="0.73". Default mode. |
+| [RGBA](./rgba/) | `1` | RGBA mode, example: fill="rgba(255, 85, 17, 0.73)". |

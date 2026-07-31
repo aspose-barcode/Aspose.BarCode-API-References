@@ -21,17 +21,17 @@ Postal parameters. Used for Postnet, Planet.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.postal_parameters/postalparameters/postalparameters/) |  |
+| [__init__](./postalparameters/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.postal_parameters/postalparameters/__str__/) | `str` | No | Returns a human-readable string representation of this PostalParameters. |
+| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this PostalParameters. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [postal_short_bar_height](/python-java/aspose_barcode.generation.postal_parameters/postalparameters/postal_short_bar_height/) | `Optional[Unit]` | Short bar's height of Postal barcodes. |
-| [short_bar_height](/python-java/aspose_barcode.generation.postal_parameters/postalparameters/short_bar_height/) | `Optional[Unit]` |  |
+| [postal_short_bar_height](./postal_short_bar_height/) | `Optional[Unit]` | Short bar's height of Postal barcodes. |
+| [short_bar_height](./short_bar_height/) | `Optional[Unit]` |  |

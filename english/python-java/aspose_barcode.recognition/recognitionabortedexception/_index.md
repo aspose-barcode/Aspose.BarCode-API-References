@@ -23,10 +23,10 @@ Exception raised when barcode recognition is aborted.
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.recognition_aborted_exception/recognitionabortedexception/recognitionabortedexception/) | Initializes a new instance of the RecognitionAbortedException class with specified recognition abort message. |
+| [__init__](./recognitionabortedexception/) | Initializes a new instance of the RecognitionAbortedException class with specified recognition abort message. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [execution_time](/python-java/aspose_barcode.recognition.recognition_aborted_exception/recognitionabortedexception/execution_time/) | `int` |  |
+| [execution_time](./execution_time/) | `int` |  |

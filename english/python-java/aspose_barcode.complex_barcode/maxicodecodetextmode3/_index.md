@@ -23,10 +23,10 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext_mode_3/maxicodecodetextmode3/maxicodecodetextmode3/) |  |
+| [__init__](./maxicodecodetextmode3/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [mode](/python-java/aspose_barcode.complex_barcode.maxi_code_codetext_mode_3/maxicodecodetextmode3/mode/) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |
+| [mode](./mode/) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |

@@ -21,23 +21,23 @@ BarcodeGenerator for backend barcode images generation. Supported symbologies: 1
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/barcodegenerator/) | BarcodeGenerator constructor. |
+| [__init__](./barcodegenerator/) | BarcodeGenerator constructor. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__str__](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/__str__/) | `str` | No |  |
-| [code_text](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/code_text/) | `str` | No | Text to be encoded. |
-| [export_to_xml](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/export_to_xml/) | `bool` | No | Exports BarCode properties to the xml-stream specified. |
-| [generate_barcode_image](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/generate_barcode_image/) | `Image` | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
-| [import_from_xml](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/import_from_xml/) | `BarcodeGenerator` | No | Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance. |
-| [parameters](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/parameters/) | `BaseGenerationParameters` | No | Generation parameters. |
-| [save](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/save/) | `None` | No | Save barcode image to specific file in specific format. |
-| [set_code_text](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/set_code_text/) | `None` | No |  |
+| [__str__](./__str__/) | `str` | No |  |
+| [code_text](./code_text/) | `str` | No | Text to be encoded. |
+| [export_to_xml](./export_to_xml/) | `bool` | No | Exports BarCode properties to the xml-stream specified. |
+| [generate_barcode_image](./generate_barcode_image/) | `Image` | No | Generate the barcode image under current settings. This sample shows how to create and save a barcode image. |
+| [import_from_xml](./import_from_xml/) | `BarcodeGenerator` | No | Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance. |
+| [parameters](./parameters/) | `BaseGenerationParameters` | No | Generation parameters. |
+| [save](./save/) | `None` | No | Save barcode image to specific file in specific format. |
+| [set_code_text](./set_code_text/) | `None` | No |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [barcode_type](/python-java/aspose_barcode.generation.barcode_generator/barcodegenerator/barcode_type/) | `EncodeTypes` | Barcode symbology type. |
+| [barcode_type](./barcode_type/) | `EncodeTypes` | Barcode symbology type. |

@@ -21,6 +21,6 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](/python-java/aspose_barcode.generation.pdf_417_macro_terminator/pdf417macroterminator/auto/) | `0` | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added. |
-| [NONE](/python-java/aspose_barcode.generation.pdf_417_macro_terminator/pdf417macroterminator/none/) | `1` | The terminator will not be added. |
-| [SET](/python-java/aspose_barcode.generation.pdf_417_macro_terminator/pdf417macroterminator/set/) | `2` | The terminator will be added. |
+| [AUTO](./auto/) | `0` | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added. |
+| [NONE](./none/) | `1` | The terminator will not be added. |
+| [SET](./set/) | `2` | The terminator will be added. |

@@ -21,25 +21,25 @@ QualitySettings allows to configure recognition quality and speed manually. You 
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/qualitysettings/) |  |
+| [__init__](./qualitysettings/) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [high_performance](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/high_performance/) | `QualitySettings` | Yes |  |
-| [high_quality](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/high_quality/) | `QualitySettings` | Yes |  |
-| [max_quality](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/max_quality/) | `QualitySettings` | Yes |  |
-| [normal_quality](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/normal_quality/) | `QualitySettings` | Yes |  |
+| [high_performance](./high_performance/) | `QualitySettings` | Yes |  |
+| [high_quality](./high_quality/) | `QualitySettings` | Yes |  |
+| [max_quality](./max_quality/) | `QualitySettings` | Yes |  |
+| [normal_quality](./normal_quality/) | `QualitySettings` | Yes |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [allow_incorrect_barcodes](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/allow_incorrect_barcodes/) | `bool` |  |
-| [barcode_quality](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/barcode_quality/) | `BarcodeQualityMode` |  |
-| [complex_background](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/complex_background/) | `ComplexBackgroundMode` |  |
-| [deconvolution](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/deconvolution/) | `DeconvolutionMode` |  |
-| [inverse_image](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/inverse_image/) | `InverseImageMode` |  |
-| [minimal_x_dimension](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/minimal_x_dimension/) | `int` |  |
-| [x_dimension](/python-java/aspose_barcode.recognition.quality_settings/qualitysettings/x_dimension/) | `XDimensionMode` |  |
+| [allow_incorrect_barcodes](./allow_incorrect_barcodes/) | `bool` |  |
+| [barcode_quality](./barcode_quality/) | `BarcodeQualityMode` |  |
+| [complex_background](./complex_background/) | `ComplexBackgroundMode` |  |
+| [deconvolution](./deconvolution/) | `DeconvolutionMode` |  |
+| [inverse_image](./inverse_image/) | `InverseImageMode` |  |
+| [minimal_x_dimension](./minimal_x_dimension/) | `int` |  |
+| [x_dimension](./x_dimension/) | `XDimensionMode` |  |

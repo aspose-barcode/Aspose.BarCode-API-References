@@ -20,4 +20,4 @@ url: /python-java/aspose_barcode.complex_barcode.maxi_code_standart_second_messa
 
 | Name | Description |
 | --- | --- |
-| [__init__](/python-java/aspose_barcode.complex_barcode.maxi_code_standart_second_message/maxicodestandartsecondmessage/maxicodestandartsecondmessage/) | Reimplemented from MaxiCodeStandardSecondMessage. |
+| [__init__](./maxicodestandartsecondmessage/) | Reimplemented from MaxiCodeStandardSecondMessage. |

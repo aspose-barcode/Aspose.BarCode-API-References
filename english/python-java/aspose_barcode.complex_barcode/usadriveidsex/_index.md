@@ -18,7 +18,7 @@ url: /python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FEMALE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/female/) | `2` |  |
-| [MALE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/male/) | `1` |  |
-| [NONE](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/none/) | `0` |  |
-| [NOT_SPECIFIED](/python-java/aspose_barcode.complex_barcode.usa_driveis_sex/usadriveidsex/not_specified/) | `9` |  |
+| [FEMALE](./female/) | `2` |  |
+| [MALE](./male/) | `1` |  |
+| [NONE](./none/) | `0` |  |
+| [NOT_SPECIFIED](./not_specified/) | `9` |  |

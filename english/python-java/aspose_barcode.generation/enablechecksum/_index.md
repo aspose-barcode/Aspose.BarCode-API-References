@@ -21,6 +21,6 @@ DEFAULT = 0 - If checksum is required by the specification - it will be attached
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DEFAULT](/python-java/aspose_barcode.generation.enable_checksum/enablechecksum/default/) | `0` | If checksum is required by the specification - it will be attached. |
-| [NO](/python-java/aspose_barcode.generation.enable_checksum/enablechecksum/no/) | `2` | Do not use checksum. |
-| [YES](/python-java/aspose_barcode.generation.enable_checksum/enablechecksum/yes/) | `1` | Always use checksum if possible. |
+| [DEFAULT](./default/) | `0` | If checksum is required by the specification - it will be attached. |
+| [NO](./no/) | `2` | Do not use checksum. |
+| [YES](./yes/) | `1` | Always use checksum if possible. |
