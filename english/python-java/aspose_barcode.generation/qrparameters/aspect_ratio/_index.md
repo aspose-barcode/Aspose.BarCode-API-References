@@ -1,0 +1,29 @@
+---
+title: "QrParameters.aspect_ratio"
+linktitle: "aspect_ratio"
+articleTitle: "aspect_ratio"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Height/Width ratio of 2D BarCode module."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/aspect_ratio/
+---
+
+## QrParameters.aspect_ratio
+
+**Type:** `float`
+
+
+### Get
+
+Height/Width ratio of 2D BarCode module.
+
+
+### Set
+
+Height/Width ratio of 2D BarCode module.
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `float` |  |

@@ -1,0 +1,53 @@
+---
+title: "RectMicroQRVersion Enum"
+linktitle: "RectMicroQRVersion"
+articleTitle: "RectMicroQRVersion"
+second_title: "Aspose.BarCode for Python via Java"
+description: ""
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/
+---
+
+## RectMicroQRVersion enum
+
+**Module:** `aspose_barcode.generation.rect_micro_qr_version`
+
+
+## Enum Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| [AUTO](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/auto/) | `0` |  |
+| [R11x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x139/) | `16` |  |
+| [R11x27](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x27/) | `11` |  |
+| [R11x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x43/) | `12` |  |
+| [R11x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x59/) | `13` |  |
+| [R11x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x77/) | `14` |  |
+| [R11x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r11x99/) | `15` |  |
+| [R13x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x139/) | `22` |  |
+| [R13x27](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x27/) | `17` |  |
+| [R13x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x43/) | `18` |  |
+| [R13x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x59/) | `19` |  |
+| [R13x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x77/) | `20` |  |
+| [R13x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r13x99/) | `21` |  |
+| [R15x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r15x139/) | `27` |  |
+| [R15x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r15x43/) | `23` |  |
+| [R15x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r15x59/) | `24` |  |
+| [R15x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r15x77/) | `25` |  |
+| [R15x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r15x99/) | `26` |  |
+| [R17x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r17x139/) | `32` |  |
+| [R17x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r17x43/) | `28` |  |
+| [R17x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r17x59/) | `29` |  |
+| [R17x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r17x77/) | `30` |  |
+| [R17x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r17x99/) | `31` |  |
+| [R7x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r7x139/) | `5` |  |
+| [R7x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r7x43/) | `1` |  |
+| [R7x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r7x59/) | `2` |  |
+| [R7x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r7x77/) | `3` |  |
+| [R7x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r7x99/) | `4` |  |
+| [R9x139](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r9x139/) | `10` |  |
+| [R9x43](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r9x43/) | `6` |  |
+| [R9x59](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r9x59/) | `7` |  |
+| [R9x77](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r9x77/) | `8` |  |
+| [R9x99](/python-java/aspose_barcode.generation.rect_micro_qr_version/rectmicroqrversion/r9x99/) | `9` |  |

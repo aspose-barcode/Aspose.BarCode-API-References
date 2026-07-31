@@ -1,0 +1,36 @@
+---
+title: "GS1CompositeBarExtendedParameters Class"
+linktitle: "GS1CompositeBarExtendedParameters"
+articleTitle: "GS1CompositeBarExtendedParameters"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Stores additional information for GS1 Composite Bar recognized barcodes."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/
+---
+
+## GS1CompositeBarExtendedParameters class
+
+**Module:** `aspose_barcode.recognition.gs_1_composite_bar_extended_parameters`
+
+
+Stores additional information for GS1 Composite Bar recognized barcodes.
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [__init__](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/gs1compositebarextendedparameters/) |  |
+
+## Methods
+
+| Name | Return Type | Static | Description |
+| --- | --- | --- | --- |
+| [__eq__](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified. value. |
+| [__hash__](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/__hash__/) | `int` | No | Returns the hash code for the current instance. |
+| [__str__](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/__str__/) | `str` | No | Returns a human-readable string representation of this. . |
+| [one_d_code_text](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/one_d_code_text/) | `Optional[str]` | No |  |
+| [one_d_type](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/one_d_type/) | `DecodeType` | No |  |
+| [two_d_code_text](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/two_d_code_text/) | `Optional[str]` | No |  |
+| [two_d_type](/python-java/aspose_barcode.recognition.gs_1_composite_bar_extended_parameters/gs1compositebarextendedparameters/two_d_type/) | `DecodeType` | No |  |

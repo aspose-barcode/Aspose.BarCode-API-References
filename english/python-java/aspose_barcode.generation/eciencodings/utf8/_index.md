@@ -1,0 +1,21 @@
+---
+title: "ECIEncodings.UTF8"
+linktitle: "UTF8"
+articleTitle: "UTF8"
+second_title: "Aspose.BarCode for Python via Java"
+description: "ISO/IEC 10646 UTF-8 encoding. ECI Id:\"\\000026\""
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.eci_encodings/eciencodings/utf8/
+---
+
+## ECIEncodings.UTF8
+
+**Type:** `int`
+
+
+**Value:** `26`
+
+
+ISO/IEC 10646 UTF-8 encoding. ECI Id:"\000026"
+

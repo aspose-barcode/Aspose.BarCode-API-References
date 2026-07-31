@@ -1,0 +1,21 @@
+---
+title: "DataMatrixVersion.DMRE_8x144"
+linktitle: "DMRE_8x144"
+articleTitle: "DMRE_8x144"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Specifies size of 8 x 144 modules for DMRE barcodes."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.data_matrix_version/datamatrixversion/dmre_8x144/
+---
+
+## DataMatrixVersion.DMRE_8x144
+
+**Type:** `int`
+
+
+**Value:** `58`
+
+
+Specifies size of 8 x 144 modules for DMRE barcodes.
+

@@ -1,0 +1,23 @@
+---
+title: "QrParameters.__str__"
+linktitle: "__str__"
+articleTitle: "__str__"
+second_title: "Aspose.BarCode for Python via Java"
+description: "Returns a human-readable string representation of this QrParameters."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.generation.qr_parameters/qrparameters/__str__/
+---
+
+## QrParameters.__str__
+
+```python
+__str__(self) -> str
+```
+
+
+Returns a human-readable string representation of this QrParameters.
+
+
+**Return Type:** `str` — A string that represents this QrParameters.
+

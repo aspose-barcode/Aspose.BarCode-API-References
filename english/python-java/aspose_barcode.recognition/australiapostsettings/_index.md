@@ -1,0 +1,31 @@
+---
+title: "AustraliaPostSettings Class"
+linktitle: "AustraliaPostSettings"
+articleTitle: "AustraliaPostSettings"
+second_title: "Aspose.BarCode for Python via Java"
+description: "AustraliaPost decoding parameters. Contains parameters which influence recognized data of AustraliaPost symbology."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/
+---
+
+## AustraliaPostSettings class
+
+**Module:** `aspose_barcode.recognition.australia_post_settings`
+
+
+AustraliaPost decoding parameters. Contains parameters which influence recognized data of AustraliaPost symbology.
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [__init__](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/australiapostsettings/) |  |
+
+## Properties
+
+| Name | Type | Description |
+| --- | --- | --- |
+| [customer_information_interpreting_type](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/customer_information_interpreting_type/) | `CustomerInformationInterpretingType` |  |
+| [ignore_ending_filling_patterns_for_c_table](/python-java/aspose_barcode.recognition.australia_post_settings/australiapostsettings/ignore_ending_filling_patterns_for_c_table/) | `bool` |  |

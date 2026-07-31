@@ -1,0 +1,21 @@
+---
+title: "HIBCPASDataType.MEDICAL_PROCEDURE_IDENTIFICATION"
+linktitle: "MEDICAL_PROCEDURE_IDENTIFICATION"
+articleTitle: "MEDICAL_PROCEDURE_IDENTIFICATION"
+second_title: "Aspose.BarCode for Python via Java"
+description: "I - Medical Procedure Identification."
+type: docs
+weight: 10
+url: /python-java/aspose_barcode.complex_barcode.hibc_pas_data_type/hibcpasdatatype/medical_procedure_identification/
+---
+
+## HIBCPASDataType.MEDICAL_PROCEDURE_IDENTIFICATION
+
+**Type:** `int`
+
+
+**Value:** `8`
+
+
+I - Medical Procedure Identification.
+
