@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord method
 linktitle: AddRecord
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds new record in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::AddRecord method. Adds new record in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/addrecord/

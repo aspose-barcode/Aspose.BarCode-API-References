@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::Add method
 linktitle: Add
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds one more SingleDecodeType to the MultiDecodeType in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::Add method. Adds one more SingleDecodeType to the MultiDecodeType in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/add/

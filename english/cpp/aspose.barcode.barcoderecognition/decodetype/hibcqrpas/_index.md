@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRPAS field
 linktitle: HIBCQRPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with HIBC PAS QR barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRPAS field. Specifies that the data should be decoded with HIBC PAS QR barcode specification in C++.'
 type: docs
 weight: 8900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcqrpas/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **HIBC PAS QR** barcode specifica
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRPAS
 ```
+
+
+
 
 ## See Also
 

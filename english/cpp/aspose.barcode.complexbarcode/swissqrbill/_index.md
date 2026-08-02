@@ -4,7 +4,7 @@ linktitle: SwissQRBill
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill class. SwissQR bill data in C++.'
 type: docs
-weight: 2500
+weight: 2400
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/
 ---
 ## SwissQRBill class
@@ -35,7 +35,7 @@ class SwissQRBill : public System::IEquatable<System::SharedPtr<Aspose::BarCode:
 | [get_Version](./get_version/)() const | Gets the version of the SwissQR bill standard. |
 | [GetHashCode](./gethashcode/)() const override | Gets the hash code for this instance. |
 | [set_Account](./set_account/)(System::String) | Sets the creditor's account number. |
-| [set_AlternativeSchemes](./set_alternativeschemes/)(System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<AlternativeScheme\>>>) | Gets ors sets the alternative payment schemes. |
+| [set_AlternativeSchemes](./set_alternativeschemes/)(System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<AlternativeScheme\>\>\>) | Gets ors sets the alternative payment schemes. |
 | [set_Amount](./set_amount/)(System::Decimal) | Sets the payment amount. |
 | [set_BillInformation](./set_billinformation/)(System::String) | Sets the additional structured bill information. |
 | [set_Creditor](./set_creditor/)(System::SharedPtr\<Address\>) | Sets the creditor address. |

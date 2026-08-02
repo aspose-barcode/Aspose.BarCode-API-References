@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::AztecParameters::set_LayersCount method
 linktitle: set_LayersCount
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto) in C++.'
+description: 'Aspose::BarCode::Generation::AztecParameters::set_LayersCount method. Sets layers count of Aztec symbol. Layers count should be in range from 1 to 3 for Compact mode and in range from 1 to 32 for Full Range mode. Default value: 0 (auto) in C++.'
 type: docs
-weight: 2200
+weight: 1600
 url: /cpp/aspose.barcode.generation/aztecparameters/set_layerscount/
 ---
 ## AztecParameters::set_LayersCount method

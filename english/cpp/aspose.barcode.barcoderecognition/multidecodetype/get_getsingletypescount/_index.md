@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::get_GetSingleTypesCount method
 linktitle: get_GetSingleTypesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a number of single types in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::get_GetSingleTypesCount method. Returns a number of single types in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/get_getsingletypescount/

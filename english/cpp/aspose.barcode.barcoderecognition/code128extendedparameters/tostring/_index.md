@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Code128ExtendedParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this Code128ExtendedParameters in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Code128ExtendedParameters::ToString method. Returns a human-readable string representation of this Code128ExtendedParameters in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/code128extendedparameters/tostring/

@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixLIC field
 linktitle: HIBCDataMatrixLIC
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with HIBC LIC DataMatrix barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixLIC field. Specifies that the data should be decoded with HIBC LIC DataMatrix barcode specification in C++.'
 type: docs
 weight: 8300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcdatamatrixlic/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **HIBC LIC DataMatrix** barcode s
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCDataMatrixLIC
 ```
+
+
+
 
 ## See Also
 

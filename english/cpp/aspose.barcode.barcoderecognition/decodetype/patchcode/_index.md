@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::PatchCode field
 linktitle: PatchCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with Patch code barcode specification. Barcode symbology is used for automated scanning in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::PatchCode field. Specifies that the data should be decoded with Patch code barcode specification. Barcode symbology is used for automated scanning in C++.'
 type: docs
 weight: 6300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/patchcode/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **Patch code** barcode specificat
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::PatchCode
 ```
+
+
+
 
 ## See Also
 

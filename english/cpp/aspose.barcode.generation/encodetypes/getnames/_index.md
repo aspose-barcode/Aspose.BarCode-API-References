@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::EncodeTypes::GetNames method
 linktitle: GetNames
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Retrieves an array of the names of the encode types in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::GetNames method. Retrieves an array of the names of the encode types in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/encodetypes/getnames/

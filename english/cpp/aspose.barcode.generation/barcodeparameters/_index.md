@@ -35,7 +35,6 @@ class BarcodeParameters : public System::Object
 | [get_DataBar](./get_databar/)() const | Databar parameters. |
 | [get_DataMatrix](./get_datamatrix/)() const | DataMatrix parameters. |
 | [get_DotCode](./get_dotcode/)() const | DotCode parameters. |
-| [get_EnableEscape](./get_enableescape/)() const | Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. |
 | [get_FilledBars](./get_filledbars/)() const | Gets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
 | [get_GS1CompositeBar](./get_gs1compositebar/)() const | GS1 Composite Bar parameters. |
 | [get_HanXin](./get_hanxin/)() const | HanXin parameters. |
@@ -55,7 +54,6 @@ class BarcodeParameters : public System::Object
 | [set_BarHeight](./set_barheight/)(System::SharedPtr\<Unit\>) | Height of 1D barcodes' bars in [Unit](../unit/) value. Ignored if [BaseGenerationParameters::AutoSizeMode](../) property is set to [AutoSizeMode.Nearest](../autosizemode/) or [AutoSizeMode.Interpolation](../autosizemode/). |
 | [set_BarWidthReduction](./set_barwidthreduction/)(System::SharedPtr\<Unit\>) | Get or sets bars reduction value that is used to compensate ink spread while printing. Default value: 0 |
 | [set_ChecksumAlwaysShow](./set_checksumalwaysshow/)(bool) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
-| [set_EnableEscape](./set_enableescape/)(bool) | Indicates whether explains the character "\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\" will be explained as a special escape character. Otherwise, "\" acts as normal characters. |
 | [set_FilledBars](./set_filledbars/)(bool) | Sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
 | [set_GS1CompositeBar](./set_gs1compositebar/)(System::SharedPtr\<GS1CompositeBarParameters\>) | GS1 Composite Bar parameters. |
 | [set_IsChecksumEnabled](./set_ischecksumenabled/)(EnableChecksum) |  |

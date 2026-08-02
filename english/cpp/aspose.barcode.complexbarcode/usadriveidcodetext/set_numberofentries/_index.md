@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_NumberOfEntries method
 linktitle: set_NumberOfEntries
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Number 00-99 of subfiles in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_NumberOfEntries method. Number 00-99 of subfiles in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/set_numberofentries/

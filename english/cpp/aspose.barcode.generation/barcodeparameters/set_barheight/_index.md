@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::set_BarHeight method
 linktitle: set_BarHeight
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Height of 1D barcodes'' bars in Unit value. Ignored if BaseGenerationParameters::AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::set_BarHeight method. Height of 1D barcodes'' bars in Unit value. Ignored if BaseGenerationParameters::AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_barheight/

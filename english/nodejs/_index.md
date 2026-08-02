@@ -1,6 +1,6 @@
 ---
 title: "Aspose.BarCode for Node.js via Java API Reference"
-linktitle: "Aspose.BarCode for Node.js via Java API Reference"
+linktitle: "Aspose.BarCode for Node.js via Java"
 articleTitle: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Aspose.BarCode for Node.js via Java enables developers to generate and read barcodes in Node.js applications using Java runtime."
 type: docs

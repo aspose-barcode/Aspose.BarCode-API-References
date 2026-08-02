@@ -44,6 +44,9 @@ Dim symbologyType As SymbologyEncodeType
 symbologyType = EncodeTypes.QR
 ```
 
+
+
+
 ## See Also
 
 * Class [BaseEncodeType](../baseencodetype/)

@@ -20,9 +20,6 @@ class DotCodeExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Ba
 
 | Method | Description |
 | --- | --- |
-| [get_DotCodeIsReaderInitialization](./get_dotcodeisreaderinitialization/)() | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
-| [get_DotCodeStructuredAppendModeBarcodeId](./get_dotcodestructuredappendmodebarcodeid/)() | Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. |
-| [get_DotCodeStructuredAppendModeBarcodesCount](./get_dotcodestructuredappendmodebarcodescount/)() | Gets the DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. |
 | [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
 | [get_IsReaderInitialization](./get_isreaderinitialization/)() | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
 | [get_StructuredAppendModeBarcodeId](./get_structuredappendmodebarcodeid/)() | Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. |

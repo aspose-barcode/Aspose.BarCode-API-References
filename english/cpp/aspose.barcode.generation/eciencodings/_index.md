@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::ECIEncodings enum
 linktitle: ECIEncodings
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::Generation::ECIEncodings enum in C++.'
 type: docs
 weight: 6100
 url: /cpp/aspose.barcode.generation/eciencodings/
@@ -67,17 +67,20 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
 {
     generator.CodeText = "12345TEXT";
     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding;
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
 [VB.NET]
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = "12345TEXT"
     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8
     generator.Save("test.png")
 End Using
 ```
+
+
+
 
 ## See Also
 

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::AustralianPostParameters::set_ShortBarHeight method
 linktitle: set_ShortBarHeight
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Short bar''s height of AustralianPost barcode in C++.'
+description: 'Aspose::BarCode::Generation::AustralianPostParameters::set_ShortBarHeight method. Short bar''s height of AustralianPost barcode in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/australianpostparameters/set_shortbarheight/

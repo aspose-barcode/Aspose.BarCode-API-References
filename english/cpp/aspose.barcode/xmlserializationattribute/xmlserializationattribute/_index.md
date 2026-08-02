@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::XmlSerializationAttribute::XmlSerializationAttribute constructor
 linktitle: XmlSerializationAttribute
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes new instance of class XmlSerializationAttribute in C++.'
+description: 'Aspose::BarCode::XmlSerializationAttribute::XmlSerializationAttribute constructor. Initializes new instance of class XmlSerializationAttribute in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode/xmlserializationattribute/xmlserializationattribute/

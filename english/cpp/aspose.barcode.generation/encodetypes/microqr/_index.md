@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::MicroQR field
 linktitle: MicroQR
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with MicroQR Code barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::MicroQR field. Specifies that the data should be encoded with MicroQR Code barcode specification in C++.'
 type: docs
 weight: 5300
 url: /cpp/aspose.barcode.generation/encodetypes/microqr/

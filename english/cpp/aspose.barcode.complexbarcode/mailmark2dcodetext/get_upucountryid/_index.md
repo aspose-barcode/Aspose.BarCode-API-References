@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_UPUCountryID method
 linktitle: get_UPUCountryID
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies the UPU Country ID.Max length: 4 characters in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_UPUCountryID method. Identifies the UPU Country ID.Max length: 4 characters in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/get_upucountryid/

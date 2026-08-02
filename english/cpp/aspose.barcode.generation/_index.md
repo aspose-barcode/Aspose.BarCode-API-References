@@ -92,14 +92,13 @@ specification. |
 | [MaxiCodeMode](./maxicodemode/) | Encoding mode for MaxiCode barcodes. |
 | [MicroQRVersion](./microqrversion/) | Version of MicroQR Code. From M1 to M4. |
 | [PatchFormat](./patchformat/) | PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders |
-| [Pdf417CompactionMode](./pdf417compactionmode/) | Pdf417 barcode compaction mode |
 | [Pdf417EncodeMode](./pdf417encodemode/) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](./pdf417errorlevel/) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction |
 | [QREncodeMode](./qrencodemode/) | Encoding mode for QR barcodes. |
-| [QREncodeType](./qrencodetype/) | QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR. ForceMicroQR is used for strongly MicroQR symbol generation if it is possible. |
 | [QRErrorLevel](./qrerrorlevel/) | Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH. |
 | [QRVersion](./qrversion/) | Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr. |
 | [RectMicroQRVersion](./rectmicroqrversion/) | Version of RectMicroQR Code. From version R7x43 to version R17x139. |
 | [SvgColorMode](./svgcolormode/) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |
 | [TextAlignment](./textalignment/) | Text alignment. |
 | [TwoDComponentType](./twodcomponenttype/) | Type of 2D component |
+| [QrExtCompactionMode](./qrextcompactionmode/) | Specifies QR compaction mode for codetext added by [QrExtCodetextBuilder](./qrextcodetextbuilder/). |

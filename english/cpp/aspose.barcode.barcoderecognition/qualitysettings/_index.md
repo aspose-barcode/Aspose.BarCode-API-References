@@ -4,7 +4,7 @@ linktitle: QualitySettings
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings class. QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options. Default value of QualitySettings is NormalQuality in C++.'
 type: docs
-weight: 2800
+weight: 2700
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/
 ---
 ## QualitySettings class
@@ -76,8 +76,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     reader.QualitySettings.BarcodeQuality = BarcodeQualityMode.Low;
     foreach (BarCodeResult result in reader.ReadBarCodes())
         Console.WriteLine(result.CodeText);
-}    
-<br>
+}    <br>
 ```
 
 ## See Also

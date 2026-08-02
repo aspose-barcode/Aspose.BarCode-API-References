@@ -36,7 +36,6 @@ url: /cpp/aspose.barcode.barcoderecognition/
 | [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultiDecodeType](./multidecodetype/) | Composite decode type. |
-| [MultyDecodeType](./multydecodetype/) | Composite decode type. |
 | [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |
 | [Pdf417ExtendedParameters](./pdf417extendedparameters/) | Stores a MacroPdf417 metadata information of recognized barcode |
 | [QRExtendedParameters](./qrextendedparameters/) | Stores a QR Structured Append information of recognized barcode |

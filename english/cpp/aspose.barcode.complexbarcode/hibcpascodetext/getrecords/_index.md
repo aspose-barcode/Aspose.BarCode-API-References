@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::GetRecords method
 linktitle: GetRecords
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets records list in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::GetRecords method. Gets records list in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/getrecords/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::Is2D method
 linktitle: Is2D
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Determines if the specified BaseDecodeType contains any 2D barcode symbology in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Is2D method. Determines if the specified BaseDecodeType contains any 2D barcode symbology in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/is2d/

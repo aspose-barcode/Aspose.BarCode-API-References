@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::Interleaved2of5 field
 linktitle: Interleaved2of5
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with INTERLEAVED 2 of 5 barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Interleaved2of5 field. Specifies that the data should be decoded with INTERLEAVED 2 of 5 barcode specification in C++.'
 type: docs
 weight: 2700
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/interleaved2of5/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **INTERLEAVED 2 of 5** barcode sp
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Interleaved2of5
 ```
+
+
+
 
 ## See Also
 

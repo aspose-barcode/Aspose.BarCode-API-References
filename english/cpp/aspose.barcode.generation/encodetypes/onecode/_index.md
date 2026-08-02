@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::OneCode field
 linktitle: OneCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with USPS OneCode barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::OneCode field. Specifies that the data should be encoded with USPS OneCode barcode specification in C++.'
 type: docs
 weight: 5800
 url: /cpp/aspose.barcode.generation/encodetypes/onecode/

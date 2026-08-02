@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::UPCA field
 linktitle: UPCA
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with UPC-A barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::UPCA field. Specifies that the data should be encoded with UPC-A barcode specification in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.barcode.generation/encodetypes/upca/

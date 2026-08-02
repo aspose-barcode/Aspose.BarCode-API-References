@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage method
 linktitle: SetBarCodeImage
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets bitmap image for recognition. Must be called before ReadBarCodes() method in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage method. Sets bitmap image for recognition. Must be called before ReadBarCodes() method in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
 ## BarCodeReader::SetBarCodeImage(System::SharedPtr\<System::Drawing::Bitmap\>) method

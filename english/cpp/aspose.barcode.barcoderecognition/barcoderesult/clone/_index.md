@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::Clone method
 linktitle: Clone
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Creates a copy of BarCodeResult class in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::Clone method. Creates a copy of BarCodeResult class in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/clone/

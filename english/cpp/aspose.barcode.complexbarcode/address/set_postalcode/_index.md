@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Address::set_PostalCode method
 linktitle: set_PostalCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets the postal code in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Address::set_PostalCode method. Sets the postal code in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/address/set_postalcode/

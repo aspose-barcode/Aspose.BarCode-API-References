@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::CodablockF field
 linktitle: CodablockF
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with CodablockF barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::CodablockF field. Specifies that the data should be decoded with CodablockF barcode specification in C++.'
 type: docs
 weight: 4900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/codablockf/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **CodablockF** barcode specificat
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::CodablockF
 ```
+
+
+
 
 ## See Also
 

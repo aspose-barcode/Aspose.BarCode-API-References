@@ -4,7 +4,7 @@ linktitle: SecondaryAndAdditionalData
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData class. Class for storing HIBC LIC secondary and additional data in C++.'
 type: docs
-weight: 2400
+weight: 2300
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/
 ---
 ## SecondaryAndAdditionalData class

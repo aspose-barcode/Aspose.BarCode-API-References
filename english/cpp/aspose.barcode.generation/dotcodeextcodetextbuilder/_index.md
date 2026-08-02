@@ -55,8 +55,8 @@ textBuilder.AddFNC3ReaderInitialization();
 textBuilder.AddPlainCodetext("Reader initialization info");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    
-<br>
+string codetext = textBuilder.GetExtendedCodetext();    <br>
+
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {

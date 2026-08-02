@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeBarCodesQuantity method
 linktitle: get_StructuredAppendModeBarCodesQuantity
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the QR structured append mode barcodes quantity. Default value is -1 in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeBarCodesQuantity method. Gets the QR structured append mode barcodes quantity. Default value is -1 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_structuredappendmodebarcodesquantity/
@@ -20,6 +20,9 @@ int32_t Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_Structure
 
 
 The quantity of the QR structured append mode barcode.
+
+
+
 ## See Also
 
 * Class [QRExtendedParameters](../)

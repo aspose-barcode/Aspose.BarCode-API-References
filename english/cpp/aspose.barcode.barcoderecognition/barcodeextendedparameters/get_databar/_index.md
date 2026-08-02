@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DataBar method
 linktitle: get_DataBar
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_DataBar method. Gets a DataBar additional informationDataBarExtendedParameters of recognized barcode in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/get_databar/
@@ -20,6 +20,9 @@ System::SharedPtr<DataBarExtendedParameters> Aspose::BarCode::BarCodeRecognition
 
 
 A DataBar additional information[DataBarExtendedParameters](../../databarextendedparameters/) of recognized barcode
+
+
+
 ## See Also
 
 * Class [DataBarExtendedParameters](../../databarextendedparameters/)

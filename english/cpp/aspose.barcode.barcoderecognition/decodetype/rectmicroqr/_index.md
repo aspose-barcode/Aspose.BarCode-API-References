@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::RectMicroQR field
 linktitle: RectMicroQR
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with RectMicroQR (rMQR) Code barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::RectMicroQR field. Specifies that the data should be decoded with RectMicroQR (rMQR) Code barcode specification in C++.'
 type: docs
 weight: 9300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/rectmicroqr/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barco
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::RectMicroQR
 ```
+
+
+
 
 ## See Also
 

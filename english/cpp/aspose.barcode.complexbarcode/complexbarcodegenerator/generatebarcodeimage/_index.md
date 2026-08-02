@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::GenerateBarCodeImage method
 linktitle: GenerateBarCodeImage
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Generates complex barcode image under current settings in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::GenerateBarCodeImage method. Generates complex barcode image under current settings in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/complexbarcodegenerator/generatebarcodeimage/

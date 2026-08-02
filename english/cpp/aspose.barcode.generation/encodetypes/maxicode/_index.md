@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::MaxiCode field
 linktitle: MaxiCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with MaxiCode barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::MaxiCode field. Specifies that the data should be encoded with MaxiCode barcode specification in C++.'
 type: docs
 weight: 4900
 url: /cpp/aspose.barcode.generation/encodetypes/maxicode/

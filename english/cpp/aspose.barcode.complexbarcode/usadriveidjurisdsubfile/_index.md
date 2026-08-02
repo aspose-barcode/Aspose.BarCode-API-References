@@ -4,7 +4,7 @@ linktitle: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile class. Class for Jurisdiction specific fields for USA DL in C++.'
 type: docs
-weight: 2800
+weight: 2700
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
 ---
 ## USADriveIdJurisdSubfile class

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::HIBCLICPrimaryDataCodetext::GetConstructedCodetext method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Constructs codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCLICPrimaryDataCodetext::GetConstructedCodetext method. Constructs codetext in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/hibclicprimarydatacodetext/getconstructedcodetext/

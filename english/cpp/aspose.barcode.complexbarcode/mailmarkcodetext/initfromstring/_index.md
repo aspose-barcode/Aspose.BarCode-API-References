@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::InitFromString method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Initializes Mailmark data from constructed codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::InitFromString method. Initializes Mailmark data from constructed codetext in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring/

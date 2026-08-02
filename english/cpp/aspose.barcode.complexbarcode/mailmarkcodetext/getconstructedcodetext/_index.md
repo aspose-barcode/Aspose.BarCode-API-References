@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetConstructedCodetext method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Construct codetext from Mailmark data in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetConstructedCodetext method. Construct codetext from Mailmark data in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/getconstructedcodetext/

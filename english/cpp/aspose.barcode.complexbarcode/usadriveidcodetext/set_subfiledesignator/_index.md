@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_SubfileDesignator method
 linktitle: set_SubfileDesignator
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Contains information about following subfiles, types, offsets and lengths. Important: set only type, offset and length will be set automatically in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_SubfileDesignator method. Contains information about following subfiles, types, offsets and lengths. Important: set only type, offset and length will be set automatically in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/set_subfiledesignator/

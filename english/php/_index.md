@@ -1,6 +1,6 @@
 ---
 title: "Aspose.BarCode for PHP via Java API Reference"
-linktitle: "Aspose.BarCode for PHP via Java API Reference"
+linktitle: "Aspose.BarCode for PHP via Java"
 articleTitle: "Aspose.BarCode for PHP via Java API Reference"
 description: "Aspose.BarCode for PHP via Java enables developers to generate and read barcodes across multiple formats with a simple, cross‑platform API."
 type: docs

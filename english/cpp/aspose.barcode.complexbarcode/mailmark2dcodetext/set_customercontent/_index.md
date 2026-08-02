@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_CustomerContent method
 linktitle: set_CustomerContent
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Optional space for use by customer in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_CustomerContent method. Optional space for use by customer in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_customercontent/

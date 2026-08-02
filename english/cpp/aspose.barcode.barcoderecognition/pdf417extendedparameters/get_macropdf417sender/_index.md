@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417Sender method
 linktitle: get_MacroPdf417Sender
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Macro PDF417 sender name (optional) in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417Sender method. Macro PDF417 sender name (optional) in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/get_macropdf417sender/
@@ -20,6 +20,9 @@ System::String Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::ge
 
 
 Sender name
+
+
+
 ## See Also
 
 * Class [Pdf417ExtendedParameters](../)

@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_DataBar method
 linktitle: get_DataBar
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Databar parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_DataBar method. Databar parameters in C++.'
 type: docs
-weight: 2600
+weight: 2400
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_databar/
 ---
 ## BarcodeParameters::get_DataBar method

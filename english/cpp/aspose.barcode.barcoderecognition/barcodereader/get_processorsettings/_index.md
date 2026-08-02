@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_ProcessorSettings method
 linktitle: get_ProcessorSettings
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a settings of using processor cores in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_ProcessorSettings method. Gets a settings of using processor cores in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/get_processorsettings/

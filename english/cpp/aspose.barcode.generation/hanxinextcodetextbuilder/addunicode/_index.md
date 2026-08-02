@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddUnicode method
 linktitle: AddUnicode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds codetext fragment in Unicode mode in C++.'
+description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddUnicode method. Adds codetext fragment in Unicode mode in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addunicode/

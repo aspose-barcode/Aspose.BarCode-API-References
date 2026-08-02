@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Currency method
 linktitle: set_Currency
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets the payment currency in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Currency method. Sets the payment currency in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_currency/

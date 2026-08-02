@@ -1,6 +1,6 @@
 ---
 title: "Aspose.BarCode for Python via Java API Reference"
-linktitle: "Aspose.BarCode for Python via Java API Reference"
+linktitle: "Aspose.BarCode for Python via Java"
 articleTitle: "Aspose.BarCode for Python via Java API Reference"
 description: "Aspose.BarCode for Python via Java provides barcode generation and recognition capabilities for Python developers using Java libraries."
 type: docs

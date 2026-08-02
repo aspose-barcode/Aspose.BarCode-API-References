@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Quadrangle::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this Quadrangle in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::ToString method. Returns a human-readable string representation of this Quadrangle in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/tostring/

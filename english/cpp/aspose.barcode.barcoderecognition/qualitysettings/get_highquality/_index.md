@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_HighQuality method
 linktitle: get_HighQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. HighQuality recognition quality preset. This preset is developed for low quality barcodes. Allows to detect highly damaged barcodes in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_HighQuality method. HighQuality recognition quality preset. This preset is developed for low quality barcodes. Allows to detect highly damaged barcodes in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_highquality/
@@ -32,6 +32,9 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 
 
 HighQuality recognition quality preset. 
+
+
+
 ## See Also
 
 * Class [QualitySettings](../)

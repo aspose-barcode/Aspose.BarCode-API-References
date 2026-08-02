@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_Aztec method
 linktitle: get_Aztec
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Aztec parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Aztec method. Aztec parameters in C++.'
 type: docs
-weight: 3800
+weight: 3600
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_aztec/
 ---
 ## BarcodeParameters::get_Aztec method

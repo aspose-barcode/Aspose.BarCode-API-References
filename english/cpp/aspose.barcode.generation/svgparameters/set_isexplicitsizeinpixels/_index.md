@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::SvgParameters::set_IsExplicitSizeInPixels method
 linktitle: set_IsExplicitSizeInPixels
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Does SVG image contain explicit size in pixels (recommended) Default value: true in C++.'
+description: 'Aspose::BarCode::Generation::SvgParameters::set_IsExplicitSizeInPixels method. Does SVG image contain explicit size in pixels (recommended) Default value: true in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/svgparameters/set_isexplicitsizeinpixels/

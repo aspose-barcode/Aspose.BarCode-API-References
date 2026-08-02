@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::InverseImageMode enum
 linktitle: InverseImageMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::InverseImageMode enum in C++.'
 type: docs
-weight: 3600
+weight: 3500
 url: /cpp/aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 ## InverseImageMode enum
@@ -39,6 +39,9 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
         Console.WriteLine(result.CodeText);
 }
 ```
+
+
+
 
 ## See Also
 

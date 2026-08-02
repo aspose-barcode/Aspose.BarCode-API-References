@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::CodeLocation enum
 linktitle: CodeLocation
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Codetext location in C++.'
+description: 'Aspose::BarCode::Generation::CodeLocation enum. Codetext location in C++.'
 type: docs
 weight: 5600
 url: /cpp/aspose.barcode.generation/codelocation/

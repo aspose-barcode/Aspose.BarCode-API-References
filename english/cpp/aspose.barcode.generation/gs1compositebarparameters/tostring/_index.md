@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::GS1CompositeBarParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this DataBarParameters in C++.'
+description: 'Aspose::BarCode::Generation::GS1CompositeBarParameters::ToString method. Returns a human-readable string representation of this DataBarParameters in C++.'
 type: docs
-weight: 900
+weight: 700
 url: /cpp/aspose.barcode.generation/gs1compositebarparameters/tostring/
 ---
 ## GS1CompositeBarParameters::ToString method

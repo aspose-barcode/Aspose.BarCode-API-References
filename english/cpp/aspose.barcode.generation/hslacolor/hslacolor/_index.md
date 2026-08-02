@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Generation::HslaColor::HslaColor constructor
 linktitle: HslaColor
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Constructor for HslaColor in C++.'
+description: 'Aspose::BarCode::Generation::HslaColor::HslaColor constructor. Constructor for HslaColor in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/hslacolor/hslacolor/

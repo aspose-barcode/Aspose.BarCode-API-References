@@ -48,8 +48,8 @@ codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    
-<br>
+string codetext = textBuilder.GetExtendedCodetext();    <br>
+
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))
 {

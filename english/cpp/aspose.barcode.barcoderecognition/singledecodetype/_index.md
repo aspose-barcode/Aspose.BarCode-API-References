@@ -4,7 +4,7 @@ linktitle: SingleDecodeType
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType class. Single decode type. See decode type to get instance in C++.'
 type: docs
-weight: 2900
+weight: 2800
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class
@@ -21,7 +21,7 @@ class SingleDecodeType : public Aspose::BarCode::BarCodeRecognition::BaseDecodeT
 
 | Method | Description |
 | --- | --- |
-| [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) override | Returns a value indicating whether this instance is included into the list specified. |
+| [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) override | Returns a value indicating whether this instance is included into the list specified. |
 | [Equals](./equals/)(System::SharedPtr\<SingleDecodeType\>) override | Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](./) value. |
 | [Equals](./equals/)(System::SharedPtr\<MultiDecodeType\>) override | Returns a value indicating whether the specified [MultiDecodeType](../multidecodetype/) collection contains only this decode type. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](./) value. |

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this BarCodeResult in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::ToString method. Returns a human-readable string representation of this BarCodeResult in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/tostring/

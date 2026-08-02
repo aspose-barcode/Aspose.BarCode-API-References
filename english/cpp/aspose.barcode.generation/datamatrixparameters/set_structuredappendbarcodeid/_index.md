@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DataMatrixParameters::set_StructuredAppendBarcodeId method
 linktitle: set_StructuredAppendBarcodeId
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Barcode ID for Structured Append mode of Datamatrix barcode. Default value: 0 in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixParameters::set_StructuredAppendBarcodeId method. Barcode ID for Structured Append mode of Datamatrix barcode. Default value: 0 in C++.'
 type: docs
-weight: 1400
+weight: 800
 url: /cpp/aspose.barcode.generation/datamatrixparameters/set_structuredappendbarcodeid/
 ---
 ## DataMatrixParameters::set_StructuredAppendBarcodeId method

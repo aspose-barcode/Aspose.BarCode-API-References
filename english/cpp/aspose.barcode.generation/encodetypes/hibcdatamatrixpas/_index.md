@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::HIBCDataMatrixPAS field
 linktitle: HIBCDataMatrixPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with HIBC PAS DataMatrix barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::HIBCDataMatrixPAS field. Specifies that the data should be encoded with HIBC PAS DataMatrix barcode specification in C++.'
 type: docs
 weight: 8800
 url: /cpp/aspose.barcode.generation/encodetypes/hibcdatamatrixpas/

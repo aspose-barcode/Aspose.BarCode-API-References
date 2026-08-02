@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeGenerator::ImportFromXml method
 linktitle: ImportFromXml
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeGenerator::ImportFromXml method. Imports BarCode properties from the xml-file specified and creates BarcodeGenerator instance in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.generation/barcodegenerator/importfromxml/

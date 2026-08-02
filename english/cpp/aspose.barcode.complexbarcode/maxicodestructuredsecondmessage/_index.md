@@ -4,7 +4,7 @@ linktitle: MaxiCodeStructuredSecondMessage
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage class. Class for encoding and decoding structured second message for MaxiCode barcode in C++.'
 type: docs
-weight: 2200
+weight: 2100
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/
 ---
 ## MaxiCodeStructuredSecondMessage class

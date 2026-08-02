@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::AztecExtendedParameters::get_StructuredAppendFileId method
 linktitle: get_StructuredAppendFileId
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the File ID of the Aztec structured append mode. Default value is empty string in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::AztecExtendedParameters::get_StructuredAppendFileId method. Gets the File ID of the Aztec structured append mode. Default value is empty string in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/aztecextendedparameters/get_structuredappendfileid/
@@ -20,6 +20,9 @@ System::String Aspose::BarCode::BarCodeRecognition::AztecExtendedParameters::get
 
 
 The File ID of the Aztec structured append mode.
+
+
+
 ## See Also
 
 * Class [AztecExtendedParameters](../)

@@ -1,10 +1,10 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader constructor
 linktitle: BarCodeReader
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes a new instance of the BarCodeReader class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader constructor. Initializes a new instance of the BarCodeReader class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader::BarCodeReader() constructor
@@ -95,7 +95,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -108,7 +108,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
 ## Remarks
 
 
@@ -189,7 +189,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -203,7 +203,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image. |
 | area | System::Drawing::Rectangle | The area for recognition. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
 ## Remarks
 
 
@@ -285,7 +285,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -299,7 +299,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image to read |
 | areas | System::ArrayPtr\<System::Drawing::Rectangle\> | The array of recognition areas |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | The decode types applicable for all the areas specified. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | The decode types applicable for all the areas specified. |
 ## Remarks
 
 
@@ -425,7 +425,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## BarCodeReader::BarCodeReader(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -438,7 +438,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::String
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filename | System::String | The filename. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
 ## Remarks
 
 
@@ -607,7 +607,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -620,7 +620,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | System::SharedPtr\<System::IO::Stream\> | The stream. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
 ## Remarks
 
 

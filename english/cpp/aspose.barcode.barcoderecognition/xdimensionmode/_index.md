@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::XDimensionMode enum
 linktitle: XDimensionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::XDimensionMode enum in C++.'
 type: docs
-weight: 3700
+weight: 3600
 url: /cpp/aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 ## XDimensionMode enum
@@ -41,6 +41,9 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
         Console.WriteLine(result.CodeText);
 }
 ```
+
+
+
 
 ## See Also
 

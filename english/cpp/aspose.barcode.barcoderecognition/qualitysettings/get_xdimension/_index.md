@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_XDimension method
 linktitle: get_XDimension
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_XDimension method. Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_xdimension/
@@ -20,6 +20,9 @@ XDimensionMode Aspose::BarCode::BarCodeRecognition::QualitySettings::get_XDimens
 
 
 size (from 1 to infinity) of barcode minimal element: matrix cell or bar. 
+
+
+
 ## See Also
 
 * Enum [XDimensionMode](../../xdimensionmode/)

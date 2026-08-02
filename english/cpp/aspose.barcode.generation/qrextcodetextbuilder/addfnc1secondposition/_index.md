@@ -1,16 +1,16 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1SecondPosition method
 linktitle: AddFNC1SecondPosition
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds FNC1 in second position to the extended codetext items in C++.'
+description: 'Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1SecondPosition method. Sets FNC1 in second position. If another FNC1 mode was set before, it is replaced in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/
 ---
 ## QrExtCodetextBuilder::AddFNC1SecondPosition method
 
 
-Adds FNC1 in second position to the extended codetext items
+Sets FNC1 in second position. If another FNC1 mode was set before, it is replaced.
 
 ```cpp
 void Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1SecondPosition(System::String codetext)
@@ -19,7 +19,7 @@ void Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1SecondPosition(Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codetext | System::String | Value of the FNC1 in the second position |
+| codetext | System::String | Value of the FNC1 in the second position. The value must be a single letter from a-z or A-Z, or a two-digit number from 00 to 99. |
 
 ## See Also
 

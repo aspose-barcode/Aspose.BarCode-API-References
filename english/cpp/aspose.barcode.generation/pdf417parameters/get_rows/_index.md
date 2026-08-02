@@ -1,10 +1,10 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::get_Rows method
 linktitle: get_Rows
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Rows count in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_Rows method. Rows count in C++.'
 type: docs
-weight: 1700
+weight: 900
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_rows/
 ---
 ## Pdf417Parameters::get_Rows method

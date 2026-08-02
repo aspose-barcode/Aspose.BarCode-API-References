@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRLIC field
 linktitle: HIBCQRLIC
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with HIBC LIC QR barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRLIC field. Specifies that the data should be decoded with HIBC LIC QR barcode specification in C++.'
 type: docs
 weight: 8400
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcqrlic/
@@ -15,6 +15,9 @@ Specifies that the data should be decoded with **HIBC LIC QR** barcode specifica
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::HIBCQRLIC
 ```
+
+
+
 
 ## See Also
 

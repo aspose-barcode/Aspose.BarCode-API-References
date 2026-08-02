@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeText method
 linktitle: get_CodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the code text in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeText method. Gets the code text in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_codetext/
@@ -20,6 +20,9 @@ System::String Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeText(
 
 
 The code text of the barcode
+
+
+
 ## See Also
 
 * Class [BarCodeResult](../)

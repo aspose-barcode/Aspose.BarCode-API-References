@@ -4,7 +4,7 @@ linktitle: SwissQRCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext class. Class for encoding and decoding the text embedded in the SwissQR code in C++.'
 type: docs
-weight: 2600
+weight: 2500
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/
 ---
 ## SwissQRCodetext class

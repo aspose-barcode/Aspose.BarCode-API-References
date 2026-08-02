@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::License::SetLicense method
 linktitle: SetLicense
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Licenses the library in C++.'
+description: 'Aspose::BarCode::License::SetLicense method. Licenses the library in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode/license/setlicense/
