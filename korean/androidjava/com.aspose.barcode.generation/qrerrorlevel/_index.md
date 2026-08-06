@@ -1,0 +1,295 @@
+---
+title: QRErrorLevel
+second_title: Aspose.BarCode for Android via Java API Reference
+description: Reed-Solomon 오류 정정 수준.
+type: docs
+weight: 104
+url: /ko/androidjava/com.aspose.barcode.generation/qrerrorlevel/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum QRErrorLevel extends Enum<QRErrorLevel>
+```
+
+Reed-Solomon 오류 정정 수준. 낮은 것부터 높은 것까지: LEVEL\_L, LEVEL\_M, LEVEL\_Q, LEVEL\_H.
+## 필드
+
+| 필드 | 설명 |
+| --- | --- |
+| [LEVEL_H](#LEVEL-H) | 오류 정정 Level H는 QR 및 RectMicroQR 바코드에 적용될 수 있습니다. |
+| [LEVEL_L](#LEVEL-L) | 오류 정정 Level L은 QR 및 MicroQR 바코드에 적용될 수 있습니다. |
+| [LEVEL_M](#LEVEL-M) | 오류 정정 Level M은 QR 바코드, RectMicroQR 바코드 및 M2에서 M4 버전의 MicroQR 바코드에 적용될 수 있습니다. |
+| [LEVEL_Q](#LEVEL-Q) | 오류 정정 Level Q는 QR 바코드와 버전 M4인 MicroQR 바코드에 적용될 수 있습니다. |
+## Methods
+
+| Method | 설명 |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### LEVEL_H {#LEVEL-H}
+```
+public static final QRErrorLevel LEVEL_H
+```
+
+
+오류 정정 Level H는 QR 및 RectMicroQR 바코드에 적용될 수 있습니다. 코드 텍스트의 30% 복구를 허용합니다.
+
+### LEVEL_L {#LEVEL-L}
+```
+public static final QRErrorLevel LEVEL_L
+```
+
+
+오류 정정 Level L은 QR 및 MicroQR 바코드에 적용될 수 있습니다. 코드 텍스트의 7% 복구를 허용합니다.
+
+### LEVEL_M {#LEVEL-M}
+```
+public static final QRErrorLevel LEVEL_M
+```
+
+
+오류 정정 Level M은 QR 바코드, RectMicroQR 바코드 및 M2에서 M4 버전의 MicroQR 바코드에 적용될 수 있습니다. 코드 텍스트의 15% 복구를 허용합니다.
+
+### LEVEL_Q {#LEVEL-Q}
+```
+public static final QRErrorLevel LEVEL_Q
+```
+
+
+오류 정정 Level Q는 QR 바코드와 버전 M4인 MicroQR 바코드에 적용될 수 있습니다. 코드 텍스트의 25% 복구를 허용합니다.
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QRErrorLevel fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| 값 | int |  |
+
+**Returns:**
+[QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static QRErrorLevel valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| name | java.lang.String |  |
+
+**Returns:**
+[QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
+### values() {#values--}
+```
+public static QRErrorLevel[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.QRErrorLevel[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
