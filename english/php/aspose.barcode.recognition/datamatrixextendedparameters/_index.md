@@ -1,7 +1,6 @@
 ---
-title: "DataMatrixExtendedParameters Class"
+title: "DataMatrixExtendedParameters"
 linktitle: "DataMatrixExtendedParameters"
-articleTitle: "DataMatrixExtendedParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Stores special data of DataMatrix recognized barcode"
 type: docs
@@ -21,18 +20,47 @@ Stores special data of DataMatrix recognized barcode
 
 | Name | Description |
 | --- | --- |
-| [__construct](./datamatrixextendedparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isReaderProgramming](./isreaderprogramming/) | No | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
+| [isReaderProgramming](#isreaderprogramming) | No | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [StructuredAppendBarcodeId](./structuredappendbarcodeid/) | Read-only | Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode. |
-| [StructuredAppendBarcodesCount](./structuredappendbarcodescount/) | Read-only | Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. Value: The count of the DataMatrix structured append mode barcode. |
-| [StructuredAppendFileId](./structuredappendfileid/) | Read-only | Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode. |
+| [StructuredAppendBarcodeId](#structuredappendbarcodeid) | Read-only | Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode. |
+| [StructuredAppendBarcodesCount](#structuredappendbarcodescount) | Read-only | Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. Value: The count of the DataMatrix structured append mode barcode. |
+| [StructuredAppendFileId](#structuredappendfileid) | Read-only | Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode. |
+
+### DataMatrixExtendedParameters__construct(DataMatrixExtendedParametersDTO $dataMatrixExtendedParametersDTO) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$dataMatrixExtendedParametersDTO` | `DataMatrixExtendedParametersDTO` |  |
+
+### isReaderProgrammingisReaderProgramming() {#isreaderprogramming}
+
+Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false.
+
+### StructuredAppendBarcodeId {#structuredappendbarcodeid}
+
+**Access:** Read-only
+
+Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode.
+
+### StructuredAppendBarcodesCount {#structuredappendbarcodescount}
+
+**Access:** Read-only
+
+Gets the DataMatrix structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. Value: The count of the DataMatrix structured append mode barcode.
+
+### StructuredAppendFileId {#structuredappendfileid}
+
+**Access:** Read-only
+
+Gets the ID of the DataMatrix structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. Value: The ID of the DataMatrix structured append mode barcode.
+

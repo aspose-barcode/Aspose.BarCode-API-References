@@ -1,7 +1,6 @@
 ---
-title: "QrExtCodetextBuilder Class"
+title: "QrExtCodetextBuilder"
 linktitle: "QrExtCodetextBuilder"
-articleTitle: "QrExtCodetextBuilder"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREncodeMode Use Display2DText property of BarCodeBuilder to set visible text to removing managing characters. Example how t"
 type: docs
@@ -21,19 +20,50 @@ Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREn
 
 | Name | Description |
 | --- | --- |
-| [__construct](./qrextcodetextbuilder/) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [__construct](#constructor) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [addFNC1FirstPosition](./addfnc1firstposition/) | No | Adds FNC1 in first position to the extended codetext items |
-| [addFNC1GroupSeparator](./addfnc1groupseparator/) | No | Adds Group Separator (GS - '\u001D') to the extended codetext items |
-| [addFNC1SecondPosition](./addfnc1secondposition/) | No | Adds FNC1 in second position to the extended codetext items |
-| [init](./init/) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [addFNC1FirstPosition](#addfnc1firstposition) | No | Adds FNC1 in first position to the extended codetext items |
+| [addFNC1GroupSeparator](#addfnc1groupseparator) | No | Adds Group Separator (GS - '\u001D') to the extended codetext items |
+| [addFNC1SecondPosition](#addfnc1secondposition) | No | Adds FNC1 in second position to the extended codetext items |
+| [init](#init) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ExtCodetextBuilderType](./extcodetextbuildertype/) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [ExtCodetextBuilderType](#extcodetextbuildertype) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+
+### QrExtCodetextBuilder__construct() {#constructor}
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+
+### addFNC1FirstPositionaddFNC1FirstPosition() {#addfnc1firstposition}
+
+Adds FNC1 in first position to the extended codetext items
+
+### addFNC1GroupSeparatoraddFNC1GroupSeparator() {#addfnc1groupseparator}
+
+Adds Group Separator (GS - '\u001D') to the extended codetext items
+
+### addFNC1SecondPositionaddFNC1SecondPosition(string $codetext) {#addfnc1secondposition}
+
+Adds FNC1 in second position to the extended codetext items
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$codetext` | `string` |  |
+
+### initinit() {#init}
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+
+### ExtCodetextBuilderType {#extcodetextbuildertype}
+
+**Access:** Read-only
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+

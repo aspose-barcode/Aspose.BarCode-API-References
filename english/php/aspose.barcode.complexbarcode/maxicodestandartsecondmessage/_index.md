@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeStandartSecondMessage Class"
+title: "MaxiCodeStandartSecondMessage"
 linktitle: "MaxiCodeStandartSecondMessage"
-articleTitle: "MaxiCodeStandartSecondMessage"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Class for encoding and decoding standart second message for MaxiCode barcode."
 type: docs
@@ -21,4 +20,9 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 
 | Name | Description |
 | --- | --- |
-| [__construct](./maxicodestandartsecondmessage/) | Reimplemented from Aspose\Barcode\ComplexBarcode\MaxiCodeStandardSecondMessage. |
+| [__construct](#constructor) | Reimplemented from Aspose\Barcode\ComplexBarcode\MaxiCodeStandardSecondMessage. |
+
+### MaxiCodeStandartSecondMessage__construct() {#constructor}
+
+Reimplemented from Aspose\Barcode\ComplexBarcode\MaxiCodeStandardSecondMessage.
+

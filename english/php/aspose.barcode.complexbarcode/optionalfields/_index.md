@@ -1,7 +1,6 @@
 ---
-title: "OptionalFields Class"
+title: "OptionalFields"
 linktitle: "OptionalFields"
-articleTitle: "OptionalFields"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Optional elements (fields) of the card"
 type: docs
@@ -21,42 +20,369 @@ Optional elements (fields) of the card
 
 | Name | Description |
 | --- | --- |
-| [__construct](./optionalfields/) |  |
+| [__construct](#constructor) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [setUnder19Until](./setunder19until/) | No | DDI, Date on which the cardholder turns 19 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
+| [setUnder19Until](#setunder19until) | No | DDI, Date on which the cardholder turns 19 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AddressStreet2](./addressstreet2/) | Read/Write | DAH, Second line of street portion of the cardholder address, DL/ID, V35ANS |
-| [AliasAKAFamilyName](./aliasakafamilyname/) | Read/Write | DBN, Other family name by which cardholder is known, DL/ID, V10ANS |
-| [AliasAKAGivenName](./aliasakagivenname/) | Read/Write | DBG, Other given name by which cardholder is known, DL/ID, V15ANS |
-| [AliasAKASuffixName](./aliasakasuffixname/) | Read/Write | DBS, Other suffix by which cardholder is known, DL/ID, V5ANS |
-| [AuditInformation](./auditinformation/) | Read/Write | DCJ, A string of letters and/or numbers that identifies when, where, and by whom a driver license/ID card was made. If audit information is not used on the card or the MRT, it must be included in the driver record, DL/ID, V25ANS |
-| [CardRevisionDate](./cardrevisiondate/) | Read/Write | DDB, DHS required field that indicates date of the most recent version change or modification to the visible format of the DL/ID. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
-| [ComplianceType](./compliancetype/) | Read/Write | DDA, DHS required field that indicates compliance: “F” = compliant; and, “N” = non-compliant, DL/ID, F1A |
-| [EndorsementCodeDescription](./endorsementcodedescription/) | Read/Write | DCQ, Text that explains the jurisdiction-specific code(s) that indicates additional driving privileges granted to the cardholder beyond the vehicle class, DL, V50ANS |
-| [HAZMATEndorsementExpDate](./hazmatendorsementexpdate/) | Read-only | DDC, Date on which the hazardous material endorsement granted by the document is no longer valid. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL, F8N |
-| [HairColor](./haircolor/) | Read/Write | DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. If the issuing jurisdiction wishes to abbreviate colors, the three-character codes provided in AAMVA D20 must be used, DL/ID, V12A |
-| [InventoryControlNumber](./inventorycontrolnumber/) | Read/Write | DCK, A string of letters and/or numbers that is affixed to the raw materials(card stock, laminate, etc.) used in producing driver licenses and ID cards. (DHS recommended field), DL/ID, V25ANS |
-| [LimitedDurationDocIndicator](./limiteddurationdocindicator/) | Read/Write | DDD, DHS required field that indicates that the cardholder has temporary lawful status = “1”, DL/ID, F1N |
-| [NameSuffix](./namesuffix/) | Read/Write | DCU, Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID and in the MRT). JR(Junior), SR(Senior), 1ST or I(First), up to 9TH or IX (Ninth), DL/ID, V5ANS |
-| [OrganDonorIndicator](./organdonorindicator/) | Read/Write | DDK, Field that indicates that the cardholder is an organ donor = “1”, DL/ID, F1N |
-| [PlaceOfBirth](./placeofbirth/) | Read/Write | DCI, Country and municipality and/or state/province, DL/ID, V33A |
-| [RaceEthnicity](./raceethnicity/) | Read/Write | DCL, Codes for race or ethnicity of the cardholder, as defined in AAMVA D20, DL/ID, V3A |
-| [RestrictionCodeDescription](./restrictioncodedescription/) | Read/Write | DCR, Text describing the jurisdiction-specific restriction code(s) that curtail driving privileges, DL, V50ANS |
-| [StandardEndorsementCode](./standardendorsementcode/) | Read/Write | DCN, Standard endorsement code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize endorsement codes, DL, F5AN |
-| [StandardRestrictionCode](./standardrestrictioncode/) | Read/Write | DCO, Standard restriction code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize restriction codes, DL, F12AN |
-| [StandardVehClassification](./standardvehclassification/) | Read/Write | DCM, Standard vehicle classification code(s) for cardholder. This data element is a placeholder for future efforts to standardize vehicle classifications, DL, F4AN |
-| [Under18Until](./under18until/) | Read/Write | DDH, Date on which the cardholder turns 18 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
-| [Under21Until](./under21until/) | Read/Write | DDJ, Date on which the cardholder turns 21 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
-| [VehClassDescription](./vehclassdescription/) | Read/Write | DCP, Text that explains the jurisdiction-specific code(s) for classifications of vehicles cardholder is authorized to drive, DL, V50ANS |
-| [VeteranIndicator](./veteranindicator/) | Read/Write | DDL, Field that indicates that the cardholder is a veteran = “1”, DL/ID, F1N |
-| [WeightKilograms](./weightkilograms/) | Read/Write | DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N |
-| [WeightPounds](./weightpounds/) | Read/Write | DAW, Cardholder weight in pounds, Ex. 185 lb = “185”, DL/ID, F3N |
-| [WeightRange](./weightrange/) | Read/Write | DCE, Indicates the approximate weight range of the cardholder: 0 = up to 31 kg(up to 70 lbs), 1 = 32 – 45 kg(71 – 100 lbs), 2 = 46 - 59 kg(101 – 130 lbs), 3 = 60 - 70 kg(131 – 160 lbs), 4 = 71 - 86 kg(161 – 190 lbs), 5 = 87 - 100 kg(191 – 220 lbs), 6 = 101 - 113 kg(221 – 250 lbs), 7 = 114 - 127 kg(251 – 280 lbs), 8 = 128 – 145 kg(281 – 320 lbs), 9 = 146+ kg(321+ lbs), DL/ID, F1N |
+| [AddressStreet2](#addressstreet2) | Read/Write | DAH, Second line of street portion of the cardholder address, DL/ID, V35ANS |
+| [AliasAKAFamilyName](#aliasakafamilyname) | Read/Write | DBN, Other family name by which cardholder is known, DL/ID, V10ANS |
+| [AliasAKAGivenName](#aliasakagivenname) | Read/Write | DBG, Other given name by which cardholder is known, DL/ID, V15ANS |
+| [AliasAKASuffixName](#aliasakasuffixname) | Read/Write | DBS, Other suffix by which cardholder is known, DL/ID, V5ANS |
+| [AuditInformation](#auditinformation) | Read/Write | DCJ, A string of letters and/or numbers that identifies when, where, and by whom a driver license/ID card was made. If audit information is not used on the card or the MRT, it must be included in the driver record, DL/ID, V25ANS |
+| [CardRevisionDate](#cardrevisiondate) | Read/Write | DDB, DHS required field that indicates date of the most recent version change or modification to the visible format of the DL/ID. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
+| [ComplianceType](#compliancetype) | Read/Write | DDA, DHS required field that indicates compliance: “F” = compliant; and, “N” = non-compliant, DL/ID, F1A |
+| [EndorsementCodeDescription](#endorsementcodedescription) | Read/Write | DCQ, Text that explains the jurisdiction-specific code(s) that indicates additional driving privileges granted to the cardholder beyond the vehicle class, DL, V50ANS |
+| [HAZMATEndorsementExpDate](#hazmatendorsementexpdate) | Read-only | DDC, Date on which the hazardous material endorsement granted by the document is no longer valid. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL, F8N |
+| [HairColor](#haircolor) | Read/Write | DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. If the issuing jurisdiction wishes to abbreviate colors, the three-character codes provided in AAMVA D20 must be used, DL/ID, V12A |
+| [InventoryControlNumber](#inventorycontrolnumber) | Read/Write | DCK, A string of letters and/or numbers that is affixed to the raw materials(card stock, laminate, etc.) used in producing driver licenses and ID cards. (DHS recommended field), DL/ID, V25ANS |
+| [LimitedDurationDocIndicator](#limiteddurationdocindicator) | Read/Write | DDD, DHS required field that indicates that the cardholder has temporary lawful status = “1”, DL/ID, F1N |
+| [NameSuffix](#namesuffix) | Read/Write | DCU, Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID and in the MRT). JR(Junior), SR(Senior), 1ST or I(First), up to 9TH or IX (Ninth), DL/ID, V5ANS |
+| [OrganDonorIndicator](#organdonorindicator) | Read/Write | DDK, Field that indicates that the cardholder is an organ donor = “1”, DL/ID, F1N |
+| [PlaceOfBirth](#placeofbirth) | Read/Write | DCI, Country and municipality and/or state/province, DL/ID, V33A |
+| [RaceEthnicity](#raceethnicity) | Read/Write | DCL, Codes for race or ethnicity of the cardholder, as defined in AAMVA D20, DL/ID, V3A |
+| [RestrictionCodeDescription](#restrictioncodedescription) | Read/Write | DCR, Text describing the jurisdiction-specific restriction code(s) that curtail driving privileges, DL, V50ANS |
+| [StandardEndorsementCode](#standardendorsementcode) | Read/Write | DCN, Standard endorsement code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize endorsement codes, DL, F5AN |
+| [StandardRestrictionCode](#standardrestrictioncode) | Read/Write | DCO, Standard restriction code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize restriction codes, DL, F12AN |
+| [StandardVehClassification](#standardvehclassification) | Read/Write | DCM, Standard vehicle classification code(s) for cardholder. This data element is a placeholder for future efforts to standardize vehicle classifications, DL, F4AN |
+| [Under18Until](#under18until) | Read/Write | DDH, Date on which the cardholder turns 18 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
+| [Under21Until](#under21until) | Read/Write | DDJ, Date on which the cardholder turns 21 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N |
+| [VehClassDescription](#vehclassdescription) | Read/Write | DCP, Text that explains the jurisdiction-specific code(s) for classifications of vehicles cardholder is authorized to drive, DL, V50ANS |
+| [VeteranIndicator](#veteranindicator) | Read/Write | DDL, Field that indicates that the cardholder is a veteran = “1”, DL/ID, F1N |
+| [WeightKilograms](#weightkilograms) | Read/Write | DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N |
+| [WeightPounds](#weightpounds) | Read/Write | DAW, Cardholder weight in pounds, Ex. 185 lb = “185”, DL/ID, F3N |
+| [WeightRange](#weightrange) | Read/Write | DCE, Indicates the approximate weight range of the cardholder: 0 = up to 31 kg(up to 70 lbs), 1 = 32 – 45 kg(71 – 100 lbs), 2 = 46 - 59 kg(101 – 130 lbs), 3 = 60 - 70 kg(131 – 160 lbs), 4 = 71 - 86 kg(161 – 190 lbs), 5 = 87 - 100 kg(191 – 220 lbs), 6 = 101 - 113 kg(221 – 250 lbs), 7 = 114 - 127 kg(251 – 280 lbs), 8 = 128 – 145 kg(281 – 320 lbs), 9 = 146+ kg(321+ lbs), DL/ID, F1N |
+
+### OptionalFields__construct() {#constructor}
+
+### setUnder19UntilsetUnder19Until(\DateTimeImmutable $value) {#setunder19until}
+
+DDI, Date on which the cardholder turns 19 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `\DateTimeImmutable` |  |
+
+### AddressStreet2 {#addressstreet2}
+
+**Access:** Read/Write
+
+DAH, Second line of street portion of the cardholder address, DL/ID, V35ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### AliasAKAFamilyName {#aliasakafamilyname}
+
+**Access:** Read/Write
+
+DBN, Other family name by which cardholder is known, DL/ID, V10ANS
+
+DBN, Other family name by which cardholder is known, DL/ID, V10ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### AliasAKAGivenName {#aliasakagivenname}
+
+**Access:** Read/Write
+
+DBG, Other given name by which cardholder is known, DL/ID, V15ANS
+
+DBG, Other given name by which cardholder is known, DL/ID, V15ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### AliasAKASuffixName {#aliasakasuffixname}
+
+**Access:** Read/Write
+
+DBS, Other suffix by which cardholder is known, DL/ID, V5ANS
+
+DBS, Other suffix by which cardholder is known, DL/ID, V5ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### AuditInformation {#auditinformation}
+
+**Access:** Read/Write
+
+DCJ, A string of letters and/or numbers that identifies when, where, and by whom a driver license/ID card was made. If audit information is not used on the card or the MRT, it must be included in the driver record, DL/ID, V25ANS
+
+DCJ, A string of letters and/or numbers that identifies when, where, and by whom a driver license/ID card was made. If audit information is not used on the card or the MRT, it must be included in the driver record, DL/ID, V25ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### CardRevisionDate {#cardrevisiondate}
+
+**Access:** Read/Write
+
+DDB, DHS required field that indicates date of the most recent version change or modification to the visible format of the DL/ID. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+DDB, DHS required field that indicates date of the most recent version change or modification to the visible format of the DL/ID. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `\DateTimeImmutable` |  |
+
+### ComplianceType {#compliancetype}
+
+**Access:** Read/Write
+
+DDA, DHS required field that indicates compliance: “F” = compliant; and, “N” = non-compliant, DL/ID, F1A
+
+DDA, DHS required field that indicates compliance: “F” = compliant; and, “N” = non-compliant, DL/ID, F1A
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### EndorsementCodeDescription {#endorsementcodedescription}
+
+**Access:** Read/Write
+
+DCQ, Text that explains the jurisdiction-specific code(s) that indicates additional driving privileges granted to the cardholder beyond the vehicle class, DL, V50ANS
+
+DCQ, Text that explains the jurisdiction-specific code(s) that indicates additional driving privileges granted to the cardholder beyond the vehicle class, DL, V50ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### HAZMATEndorsementExpDate {#hazmatendorsementexpdate}
+
+**Access:** Read-only
+
+DDC, Date on which the hazardous material endorsement granted by the document is no longer valid. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL, F8N
+
+### HairColor {#haircolor}
+
+**Access:** Read/Write
+
+DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. If the issuing jurisdiction wishes to abbreviate colors, the three-character codes provided in AAMVA D20 must be used, DL/ID, V12A
+
+DAZ, Bald, black, blonde, brown, gray, red/auburn, sandy, white, unknown. If the issuing jurisdiction wishes to abbreviate colors, the three-character codes provided in AAMVA D20 must be used, DL/ID, V12A
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### InventoryControlNumber {#inventorycontrolnumber}
+
+**Access:** Read/Write
+
+DCK, A string of letters and/or numbers that is affixed to the raw materials(card stock, laminate, etc.) used in producing driver licenses and ID cards. (DHS recommended field), DL/ID, V25ANS
+
+DCK, A string of letters and/or numbers that is affixed to the raw materials(card stock, laminate, etc.) used in producing driver licenses and ID cards. (DHS recommended field), DL/ID, V25ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### LimitedDurationDocIndicator {#limiteddurationdocindicator}
+
+**Access:** Read/Write
+
+DDD, DHS required field that indicates that the cardholder has temporary lawful status = “1”, DL/ID, F1N
+
+DDD, DHS required field that indicates that the cardholder has temporary lawful status = “1”, DL/ID, F1N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### NameSuffix {#namesuffix}
+
+**Access:** Read/Write
+
+DCU, Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID and in the MRT). JR(Junior), SR(Senior), 1ST or I(First), up to 9TH or IX (Ninth), DL/ID, V5ANS
+
+DCU, Name Suffix (If jurisdiction participates in systems requiring name suffix (PDPS, CDLIS, etc.), the suffix must be collected and displayed on the DL/ID and in the MRT). JR(Junior), SR(Senior), 1ST or I(First), up to 9TH or IX (Ninth), DL/ID, V5ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### OrganDonorIndicator {#organdonorindicator}
+
+**Access:** Read/Write
+
+DDK, Field that indicates that the cardholder is an organ donor = “1”, DL/ID, F1N
+
+DDK, Field that indicates that the cardholder is an organ donor = “1”, DL/ID, F1N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### PlaceOfBirth {#placeofbirth}
+
+**Access:** Read/Write
+
+DCI, Country and municipality and/or state/province, DL/ID, V33A
+
+DCI, Country and municipality and/or state/province, DL/ID, V33A
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### RaceEthnicity {#raceethnicity}
+
+**Access:** Read/Write
+
+DCL, Codes for race or ethnicity of the cardholder, as defined in AAMVA D20, DL/ID, V3A
+
+DCL, Codes for race or ethnicity of the cardholder, as defined in AAMVA D20, DL/ID, V3A
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### RestrictionCodeDescription {#restrictioncodedescription}
+
+**Access:** Read/Write
+
+DCR, Text describing the jurisdiction-specific restriction code(s) that curtail driving privileges, DL, V50ANS
+
+DCR, Text describing the jurisdiction-specific restriction code(s) that curtail driving privileges, DL, V50ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### StandardEndorsementCode {#standardendorsementcode}
+
+**Access:** Read/Write
+
+DCN, Standard endorsement code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize endorsement codes, DL, F5AN
+
+DCN, Standard endorsement code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize endorsement codes, DL, F5AN
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### StandardRestrictionCode {#standardrestrictioncode}
+
+**Access:** Read/Write
+
+DCO, Standard restriction code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize restriction codes, DL, F12AN
+
+DCO, Standard restriction code(s) for cardholder. See codes in D20.This data element is a placeholder for future efforts to standardize restriction codes, DL, F12AN
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### StandardVehClassification {#standardvehclassification}
+
+**Access:** Read/Write
+
+DCM, Standard vehicle classification code(s) for cardholder. This data element is a placeholder for future efforts to standardize vehicle classifications, DL, F4AN
+
+DCM, Standard vehicle classification code(s) for cardholder. This data element is a placeholder for future efforts to standardize vehicle classifications, DL, F4AN
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### Under18Until {#under18until}
+
+**Access:** Read/Write
+
+DDH, Date on which the cardholder turns 18 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+DDI, Date on which the cardholder turns 19 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `\DateTimeImmutable` |  |
+
+### Under21Until {#under21until}
+
+**Access:** Read/Write
+
+DDJ, Date on which the cardholder turns 21 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+DDJ, Date on which the cardholder turns 21 years old. (MMDDCCYY for U.S., CCYYMMDD for Canada), DL/ID, F8N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `\DateTimeImmutable` |  |
+
+### VehClassDescription {#vehclassdescription}
+
+**Access:** Read/Write
+
+DCP, Text that explains the jurisdiction-specific code(s) for classifications of vehicles cardholder is authorized to drive, DL, V50ANS
+
+DCP, Text that explains the jurisdiction-specific code(s) for classifications of vehicles cardholder is authorized to drive, DL, V50ANS
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### VeteranIndicator {#veteranindicator}
+
+**Access:** Read/Write
+
+DDL, Field that indicates that the cardholder is a veteran = “1”, DL/ID, F1N
+
+DDL, Field that indicates that the cardholder is a veteran = “1”, DL/ID, F1N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### WeightKilograms {#weightkilograms}
+
+**Access:** Read/Write
+
+DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N
+
+DAX, Cardholder weight in kilograms, Ex. 84 kg = “084”, DL/ID, F3N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### WeightPounds {#weightpounds}
+
+**Access:** Read/Write
+
+DAW, Cardholder weight in pounds, Ex. 185 lb = “185”, DL/ID, F3N
+
+DAW, Cardholder weight in pounds, Ex. 185 lb = “185”, DL/ID, F3N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### WeightRange {#weightrange}
+
+**Access:** Read/Write
+
+DCE, Indicates the approximate weight range of the cardholder: 0 = up to 31 kg(up to 70 lbs), 1 = 32 – 45 kg(71 – 100 lbs), 2 = 46 - 59 kg(101 – 130 lbs), 3 = 60 - 70 kg(131 – 160 lbs), 4 = 71 - 86 kg(161 – 190 lbs), 5 = 87 - 100 kg(191 – 220 lbs), 6 = 101 - 113 kg(221 – 250 lbs), 7 = 114 - 127 kg(251 – 280 lbs), 8 = 128 – 145 kg(281 – 320 lbs), 9 = 146+ kg(321+ lbs), DL/ID, F1N
+
+DCE, Indicates the approximate weight range of the cardholder: 0 = up to 31 kg(up to 70 lbs), 1 = 32 – 45 kg(71 – 100 lbs), 2 = 46 - 59 kg(101 – 130 lbs), 3 = 60 - 70 kg(131 – 160 lbs), 4 = 71 - 86 kg(161 – 190 lbs), 5 = 87 - 100 kg(191 – 220 lbs), 6 = 101 - 113 kg(221 – 250 lbs), 7 = 114 - 127 kg(251 – 280 lbs), 8 = 128 – 145 kg(281 – 320 lbs), 9 = 146+ kg(321+ lbs), DL/ID, F1N
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+

@@ -1,7 +1,6 @@
 ---
-title: "EnableChecksum Enum"
+title: "EnableChecksum"
 linktitle: "EnableChecksum"
-articleTitle: "EnableChecksum"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Enable checksum during generation for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar Checksum is p"
 type: docs
@@ -21,6 +20,24 @@ Enable checksum during generation for 1D barcodes. Default is treated as Yes for
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [DEFAULT](./default/) | `0` | If checksum is required by the specification - it will be attached. |
-| [NO](./no/) | `2` | Do not use checksum. |
-| [YES](./yes/) | `1` | Always use checksum if possible. |
+| [DEFAULT](#default) | `0` | If checksum is required by the specification - it will be attached. |
+| [NO](#no) | `2` | Do not use checksum. |
+| [YES](#yes) | `1` | Always use checksum if possible. |
+### DEFAULT {#default}
+
+**Value:** `0`
+
+If checksum is required by the specification - it will be attached.
+
+### NO {#no}
+
+**Value:** `2`
+
+Do not use checksum.
+
+### YES {#yes}
+
+**Value:** `1`
+
+Always use checksum if possible.
+

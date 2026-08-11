@@ -1,7 +1,6 @@
 ---
-title: "ComplexBackgroundMode Enum"
+title: "ComplexBackgroundMode"
 linktitle: "ComplexBackgroundMode"
-articleTitle: "ComplexBackgroundMode"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Mode which enables or disables additional recognition of color barcodes on color images."
 type: docs
@@ -21,6 +20,24 @@ Mode which enables or disables additional recognition of color barcodes on color
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
-| [DISABLED](./disabled/) | `1` | Disables additional recognition of color barcodes on color images. |
-| [ENABLED](./enabled/) | `2` | Enables additional recognition of color barcodes on color images. |
+| [AUTO](#auto) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
+| [DISABLED](#disabled) | `1` | Disables additional recognition of color barcodes on color images. |
+| [ENABLED](#enabled) | `2` | Enables additional recognition of color barcodes on color images. |
+### AUTO {#auto}
+
+**Value:** `0`
+
+At this time the same as Disabled. Disables additional recognition of color barcodes on color images.
+
+### DISABLED {#disabled}
+
+**Value:** `1`
+
+Disables additional recognition of color barcodes on color images.
+
+### ENABLED {#enabled}
+
+**Value:** `2`
+
+Enables additional recognition of color barcodes on color images.
+

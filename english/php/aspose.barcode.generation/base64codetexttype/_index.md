@@ -1,7 +1,6 @@
 ---
-title: "Base64CodeTextType Enum"
+title: "Base64CodeTextType"
 linktitle: "Base64CodeTextType"
-articleTitle: "Base64CodeTextType"
 second_title: "Aspose.BarCode for PHP via Java"
 description: ""
 type: docs
@@ -18,5 +17,13 @@ url: /php/aspose.barcode.generation/base64codetexttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BYTE](./byte/) | `1` |  |
-| [STRING](./string/) | `0` |  |
+| [BYTE](#byte) | `1` |  |
+| [STRING](#string) | `0` |  |
+### BYTE {#byte}
+
+**Value:** `1`
+
+### STRING {#string}
+
+**Value:** `0`
+

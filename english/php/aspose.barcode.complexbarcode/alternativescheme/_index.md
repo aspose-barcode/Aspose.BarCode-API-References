@@ -1,7 +1,6 @@
 ---
-title: "AlternativeScheme Class"
+title: "AlternativeScheme"
 linktitle: "AlternativeScheme"
-articleTitle: "AlternativeScheme"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Alternative payment scheme instructions"
 type: docs
@@ -21,16 +20,41 @@ Alternative payment scheme instructions
 
 | Name | Description |
 | --- | --- |
-| [__construct](./alternativescheme/) |  |
+| [__construct](#constructor) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](./construct/) | Yes |  |
+| [construct](#construct) | Yes |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Instruction](./instruction/) | Read/Write | Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction. |
+| [Instruction](#instruction) | Read/Write | Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction. |
+
+### AlternativeScheme__construct($instruction) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$instruction` | `` |  |
+
+### constructconstruct($javaClass) (static) {#construct}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$javaClass` | `` |  |
+
+### Instruction {#instruction}
+
+**Access:** Read/Write
+
+Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction.
+
+Gets the payment instruction for a given bill. The instruction consists of a two letter abbreviation for the scheme, a separator characters and a sequence of parameters(separated by the character at index 2). Value: The payment instruction.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+

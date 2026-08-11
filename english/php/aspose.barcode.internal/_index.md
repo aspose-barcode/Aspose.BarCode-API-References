@@ -1,9 +1,8 @@
 ---
 title: "Aspose.Barcode.Internal"
 linktitle: "Aspose.Barcode.Internal"
-articleTitle: "Aspose.Barcode.Internal"
 second_title: "Aspose.BarCode for PHP via Java"
-description: "The Aspose.Barcode.Internal namespace supplies internal utility and support classes for barcode handling, licensing, geometry, and Thrift communication."
+description: "Provides core utility, licensing, geometry, and error handling classes used internally by the Aspose.BarCode for PHP via Java library."
 type: docs
 weight: 10
 url: /php/aspose.barcode.internal/
@@ -11,8 +10,7 @@ url: /php/aspose.barcode.internal/
 
 ## Aspose.Barcode.Internal namespace
 
-It contains low‑level components such as exception types, common helpers, licensing management, basic geometric structures, and the ThriftConnection used for client‑server interactions. These classes are primarily intended for internal use by the Aspose.Barcode library.
-
+The Aspose.Barcode.Internal namespace contains low‑level components such as exception types, geometric primitives, licensing management, and Thrift connection support that underpin the public API. These classes are primarily for internal use but are documented for developers requiring deeper integration.
 
 ## Classes
 

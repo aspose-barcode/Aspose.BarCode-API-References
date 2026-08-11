@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeCodetextMode2 Class"
+title: "MaxiCodeCodetextMode2"
 linktitle: "MaxiCodeCodetextMode2"
-articleTitle: "MaxiCodeCodetextMode2"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 2. This sample shows how to encode and decode MaxiCode codetext for mode 2."
 type: docs
@@ -21,18 +20,51 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 
 | Name | Description |
 | --- | --- |
-| [__construct](./maxicodecodetextmode2/) |  |
+| [__construct](#constructor) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [construct](./construct/) | Yes |  |
-| [initFromString](./initfromstring/) | No | Initializes instance from constructed codetext. |
+| [construct](#construct) | Yes |  |
+| [initFromString](#initfromstring) | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ConstructedCodetext](./constructedcodetext/) | Read-only | Constructs codetext |
-| [Mode](./mode/) | Read-only | Gets MaxiCode mode. |
+| [ConstructedCodetext](#constructedcodetext) | Read-only | Constructs codetext |
+| [Mode](#mode) | Read-only | Gets MaxiCode mode. |
+
+### MaxiCodeCodetextMode2__construct() {#constructor}
+
+### constructconstruct($maxiCodeCodetextMode2Dto) (static) {#construct}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$maxiCodeCodetextMode2Dto` | `` |  |
+
+### initFromStringinitFromString(string $constructedCodetext) {#initfromstring}
+
+Initializes instance from constructed codetext.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$constructedCodetext` | `string` |  |
+
+### ConstructedCodetext {#constructedcodetext}
+
+**Access:** Read-only
+
+**Returns:** string Constructed codetext
+
+Constructs codetext
+
+### Mode {#mode}
+
+**Access:** Read-only
+
+**Returns:** int MaxiCode mode
+
+Gets MaxiCode mode.
+

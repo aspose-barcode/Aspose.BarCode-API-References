@@ -1,7 +1,6 @@
 ---
-title: "FontStyle Enum"
+title: "FontStyle"
 linktitle: "FontStyle"
-articleTitle: "FontStyle"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Specifies style information applied to text."
 type: docs
@@ -21,8 +20,38 @@ Specifies style information applied to text.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BOLD](./bold/) | `1` | Bold text |
-| [ITALIC](./italic/) | `2` | Italic text |
-| [REGULAR](./regular/) | `0` | Normal text |
-| [STRIKEOUT](./strikeout/) | `8` | Text with a line through the middle |
-| [UNDERLINE](./underline/) | `4` | Underlined text |
+| [BOLD](#bold) | `1` | Bold text |
+| [ITALIC](#italic) | `2` | Italic text |
+| [REGULAR](#regular) | `0` | Normal text |
+| [STRIKEOUT](#strikeout) | `8` | Text with a line through the middle |
+| [UNDERLINE](#underline) | `4` | Underlined text |
+### BOLD {#bold}
+
+**Value:** `1`
+
+Bold text
+
+### ITALIC {#italic}
+
+**Value:** `2`
+
+Italic text
+
+### REGULAR {#regular}
+
+**Value:** `0`
+
+Normal text
+
+### STRIKEOUT {#strikeout}
+
+**Value:** `8`
+
+Text with a line through the middle
+
+### UNDERLINE {#underline}
+
+**Value:** `4`
+
+Underlined text
+

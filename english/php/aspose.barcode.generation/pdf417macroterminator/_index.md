@@ -1,7 +1,6 @@
 ---
-title: "Pdf417MacroTerminator Enum"
+title: "Pdf417MacroTerminator"
 linktitle: "Pdf417MacroTerminator"
-articleTitle: "Pdf417MacroTerminator"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. Applied only for Macro PDF417."
 type: docs
@@ -21,6 +20,24 @@ Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) t
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added. |
-| [NONE](./none/) | `1` | The terminator will not be added. |
-| [SET](./set/) | `2` | The terminator will be added. |
+| [AUTO](#auto) | `0` | The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added. |
+| [NONE](#none) | `1` | The terminator will not be added. |
+| [SET](#set) | `2` | The terminator will be added. |
+### AUTO {#auto}
+
+**Value:** `0`
+
+The terminator will be added automatically if the number of segments is provided and the current segment is the last one. In other cases, the terminator will not be added.
+
+### NONE {#none}
+
+**Value:** `1`
+
+The terminator will not be added.
+
+### SET {#set}
+
+**Value:** `2`
+
+The terminator will be added.
+

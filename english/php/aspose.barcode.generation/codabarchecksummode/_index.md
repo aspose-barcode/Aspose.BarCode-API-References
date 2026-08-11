@@ -1,7 +1,6 @@
 ---
-title: "CodabarChecksumMode Enum"
+title: "CodabarChecksumMode"
 linktitle: "CodabarChecksumMode"
-articleTitle: "CodabarChecksumMode"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Specifies the checksum algorithm for Codabar"
 type: docs
@@ -21,5 +20,17 @@ Specifies the checksum algorithm for Codabar
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MOD_10](./mod_10/) | `"0"` | Specifies Mod 10 algorithm for Codabar. |
-| [MOD_16](./mod_16/) | `"1"` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |
+| [MOD_10](#mod_10) | `"0"` | Specifies Mod 10 algorithm for Codabar. |
+| [MOD_16](#mod_16) | `"1"` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |
+### MOD_10 {#mod_10}
+
+**Value:** `"0"`
+
+Specifies Mod 10 algorithm for Codabar.
+
+### MOD_16 {#mod_16}
+
+**Value:** `"1"`
+
+Specifies Mod 16 algorithm for Codabar (recomended AIIM).
+
