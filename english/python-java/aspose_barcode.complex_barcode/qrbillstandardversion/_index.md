@@ -1,7 +1,6 @@
 ---
-title: "QrBillStandardVersion Enum"
+title: "QrBillStandardVersion"
 linktitle: "QrBillStandardVersion"
-articleTitle: "QrBillStandardVersion"
 second_title: "Aspose.BarCode for Python via Java"
 description: "SwissQR bill standard version."
 type: docs
@@ -21,4 +20,10 @@ SwissQR bill standard version.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [V2_0](./v2_0/) | `0` |  |
+| [V2_0](#v2_0) | `0` |  |
+### QrBillStandardVersion.V2_0 {#v2_0}
+
+**Type:** `int`
+
+**Value:** `0`
+

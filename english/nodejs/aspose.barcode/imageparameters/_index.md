@@ -1,8 +1,7 @@
 ---
-title: "ImageParameters Class"
+title: "ImageParameters"
 linktitle: "ImageParameters"
-articleTitle: "ImageParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Image parameters."
 type: docs
 weight: 550
@@ -21,7 +20,23 @@ new ImageParameters()
 
 | Name | Description |
 | --- | --- |
-| [getPdf()](./getpdf/) | PDF parameters |
-| [getSvg()](./getsvg/) | SVG parameters |
-| [setPdf()](./setpdf/) | PDF parameters |
-| [setSvg()](./setsvg/) | SVG parameters |
+| [getPdf()](#getpdf) | PDF parameters |
+| [getSvg()](#getsvg) | SVG parameters |
+| [setPdf()](#setpdf) | PDF parameters |
+| [setSvg()](#setsvg) | SVG parameters |
+
+### getPdf() {#getpdf}
+
+PDF parameters
+
+### getSvg() {#getsvg}
+
+SVG parameters
+
+### setPdf() {#setpdf}
+
+PDF parameters
+
+### setSvg() {#setsvg}
+
+SVG parameters

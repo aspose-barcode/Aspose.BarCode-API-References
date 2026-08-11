@@ -1,7 +1,6 @@
 ---
-title: "BorderParameters Class"
+title: "BorderParameters"
 linktitle: "BorderParameters"
-articleTitle: "BorderParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Barcode image border parameters"
 type: docs
@@ -21,13 +20,68 @@ Barcode image border parameters
 
 | Name | Description |
 | --- | --- |
-| [__construct](./borderparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [Color](./color/) | Read/Write | Border color. Default value: #000000 |
-| [DashStyle](./dashstyle/) | Read/Write | Border dash style. Default value: BorderDashStyle::SOLID. |
-| [Visible](./visible/) | Read/Write | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
-| [Width](./width/) | Read/Write | Border width. Default value: 0. Ignored if Visible is set to false. |
+| [Color](#color) | Read/Write | Border color. Default value: #000000 |
+| [DashStyle](#dashstyle) | Read/Write | Border dash style. Default value: BorderDashStyle::SOLID. |
+| [Visible](#visible) | Read/Write | Border visibility. If false than parameter Width is always ignored (0). Default value: false. |
+| [Width](#width) | Read/Write | Border width. Default value: 0. Ignored if Visible is set to false. |
+
+### BorderParameters__construct(BorderParametersDTO $borderParametersDto) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$borderParametersDto` | `BorderParametersDTO` |  |
+
+### Color {#color}
+
+**Access:** Read/Write
+
+Border color. Default value: #000000
+
+Border color. Default value: #000000
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$hexValue` | `string` |  |
+
+### DashStyle {#dashstyle}
+
+**Access:** Read/Write
+
+Border dash style. Default value: BorderDashStyle::SOLID.
+
+Border dash style. Default value: BorderDashStyle::SOLID.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### Visible {#visible}
+
+**Access:** Read/Write
+
+Border visibility. If false than parameter Width is always ignored (0). Default value: false.
+
+Border visibility. If false than parameter Width is always ignored (0). Default value: false.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `bool` |  |
+
+### Width {#width}
+
+**Access:** Read/Write
+
+Border width. Default value: 0. Ignored if Visible is set to false.
+
+Border width. Default value: 0. Ignored if Visible is set to false. public
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `Unit` |  |
+

@@ -1,7 +1,6 @@
 ---
-title: "USADriveIdHairColor Enum"
+title: "USADriveIdHairColor"
 linktitle: "USADriveIdHairColor"
-articleTitle: "USADriveIdHairColor"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Enum for Hair Color in the US Driver's License"
 type: docs
@@ -21,13 +20,73 @@ Enum for Hair Color in the US Driver's License
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [BALD](./bald/) | `1` | BAL - Bald. |
-| [BLACK](./black/) | `2` | BLK - Black color |
-| [BLOND](./blond/) | `3` | BLN - Blonde color |
-| [BROWN](./brown/) | `4` | BRO - Brown color |
-| [GRAY](./gray/) | `5` | GRY - Gray color |
-| [NO_INFO](./no_info/) | `0` | Not filled - equal to NONE |
-| [RED](./red/) | `6` | RED - Red / Auburn |
-| [SANDY](./sandy/) | `7` | SDY - Sandy color |
-| [UNKNOWN](./unknown/) | `9` | UNK - Unknown / Other |
-| [WHITE](./white/) | `8` | WHI - White color |
+| [BALD](#bald) | `1` | BAL - Bald. |
+| [BLACK](#black) | `2` | BLK - Black color |
+| [BLOND](#blond) | `3` | BLN - Blonde color |
+| [BROWN](#brown) | `4` | BRO - Brown color |
+| [GRAY](#gray) | `5` | GRY - Gray color |
+| [NO_INFO](#no_info) | `0` | Not filled - equal to NONE |
+| [RED](#red) | `6` | RED - Red / Auburn |
+| [SANDY](#sandy) | `7` | SDY - Sandy color |
+| [UNKNOWN](#unknown) | `9` | UNK - Unknown / Other |
+| [WHITE](#white) | `8` | WHI - White color |
+### BALD {#bald}
+
+**Value:** `1`
+
+BAL - Bald.
+
+### BLACK {#black}
+
+**Value:** `2`
+
+BLK - Black color
+
+### BLOND {#blond}
+
+**Value:** `3`
+
+BLN - Blonde color
+
+### BROWN {#brown}
+
+**Value:** `4`
+
+BRO - Brown color
+
+### GRAY {#gray}
+
+**Value:** `5`
+
+GRY - Gray color
+
+### NO_INFO {#no_info}
+
+**Value:** `0`
+
+Not filled - equal to NONE
+
+### RED {#red}
+
+**Value:** `6`
+
+RED - Red / Auburn
+
+### SANDY {#sandy}
+
+**Value:** `7`
+
+SDY - Sandy color
+
+### UNKNOWN {#unknown}
+
+**Value:** `9`
+
+UNK - Unknown / Other
+
+### WHITE {#white}
+
+**Value:** `8`
+
+WHI - White color
+

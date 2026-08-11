@@ -1,7 +1,6 @@
 ---
-title: "DeconvolutionMode Enum"
+title: "DeconvolutionMode"
 linktitle: "DeconvolutionMode"
-articleTitle: "DeconvolutionMode"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convoluted) by any natural function like blur"
 type: docs
@@ -21,6 +20,24 @@ Deconvolution (image restorations) mode which defines level of image degradation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FAST](./fast/) | `0` | Enables fast deconvolution methods for high quality images. |
-| [NORMAL](./normal/) | `1` | Enables normal deconvolution methods for common images. |
-| [SLOW](./slow/) | `2` | Enables slow deconvolution methods for low quality images. |
+| [FAST](#fast) | `0` | Enables fast deconvolution methods for high quality images. |
+| [NORMAL](#normal) | `1` | Enables normal deconvolution methods for common images. |
+| [SLOW](#slow) | `2` | Enables slow deconvolution methods for low quality images. |
+### FAST {#fast}
+
+**Value:** `0`
+
+Enables fast deconvolution methods for high quality images.
+
+### NORMAL {#normal}
+
+**Value:** `1`
+
+Enables normal deconvolution methods for common images.
+
+### SLOW {#slow}
+
+**Value:** `2`
+
+Enables slow deconvolution methods for low quality images.
+

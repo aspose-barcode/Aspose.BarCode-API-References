@@ -1,7 +1,6 @@
 ---
-title: "TwoDComponentType Enum"
+title: "TwoDComponentType"
 linktitle: "TwoDComponentType"
-articleTitle: "TwoDComponentType"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Type of 2D component This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '/'"
 type: docs
@@ -21,7 +20,39 @@ Type of 2D component This sample shows how to create and save a GS1 Composite Ba
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | Auto select type of 2D component. |
-| [CC_A](./cc_a/) | `1` | CC-A type of 2D component. It is a structural variant of MicroPDF417 |
-| [CC_B](./cc_b/) | `2` | CC-B type of 2D component. It is a MicroPDF417 symbol. |
-| [CC_C](./cc_c/) | `3` | CC-C type of 2D component. It is a PDF417 symbol. |
+| [AUTO](#auto) | `0` | Auto select type of 2D component. |
+| [CC_A](#cc_a) | `1` | CC-A type of 2D component. It is a structural variant of MicroPDF417 |
+| [CC_B](#cc_b) | `2` | CC-B type of 2D component. It is a MicroPDF417 symbol. |
+| [CC_C](#cc_c) | `3` | CC-C type of 2D component. It is a PDF417 symbol. |
+### TwoDComponentType.AUTO {#auto}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Auto select type of 2D component.
+
+### TwoDComponentType.CC_A {#cc_a}
+
+**Type:** `int`
+
+**Value:** `1`
+
+CC-A type of 2D component. It is a structural variant of MicroPDF417
+
+### TwoDComponentType.CC_B {#cc_b}
+
+**Type:** `int`
+
+**Value:** `2`
+
+CC-B type of 2D component. It is a MicroPDF417 symbol.
+
+### TwoDComponentType.CC_C {#cc_c}
+
+**Type:** `int`
+
+**Value:** `3`
+
+CC-C type of 2D component. It is a PDF417 symbol.
+

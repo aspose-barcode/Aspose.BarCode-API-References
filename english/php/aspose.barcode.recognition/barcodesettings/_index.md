@@ -1,7 +1,6 @@
 ---
-title: "BarcodeSettings Class"
+title: "BarcodeSettings"
 linktitle: "BarcodeSettings"
-articleTitle: "BarcodeSettings"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "The main BarCode decoding parameters. Contains parameters which make influence on recognized data."
 type: docs
@@ -21,13 +20,70 @@ The main BarCode decoding parameters. Contains parameters which make influence o
 
 | Name | Description |
 | --- | --- |
-| [__construct](./barcodesettings/) | BarcodeSettings copy constructor |
+| [__construct](#constructor) | BarcodeSettings copy constructor |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [AustraliaPost](./australiapost/) | Read-only | Gets AustraliaPost decoding parameters |
-| [ChecksumValidation](./checksumvalidation/) | Read/Write | Enable checksum validation during recognition for 1D and Postal barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar, PatchCode, Pharmacode, DataLogic2of5 Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies |
-| [DetectEncoding](./detectencoding/) | Read/Write | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
-| [StripFNC](./stripfnc/) | Read/Write | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
+| [AustraliaPost](#australiapost) | Read-only | Gets AustraliaPost decoding parameters |
+| [ChecksumValidation](#checksumvalidation) | Read/Write | Enable checksum validation during recognition for 1D and Postal barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar, PatchCode, Pharmacode, DataLogic2of5 Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies |
+| [DetectEncoding](#detectencoding) | Read/Write | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
+| [StripFNC](#stripfnc) | Read/Write | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
+
+### BarcodeSettings__construct(BarcodeSettingsDTO $barcodeSettingsDto) {#constructor}
+
+BarcodeSettings copy constructor
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$barcodeSettingsDto` | `BarcodeSettingsDTO` |  |
+
+### AustraliaPost {#australiapost}
+
+**Access:** Read-only
+
+**Returns:** AustraliaPostSettings The AustraliaPost decoding parameters which make influence on recognized data of AustraliaPost symbology
+
+Gets AustraliaPost decoding parameters
+
+### ChecksumValidation {#checksumvalidation}
+
+**Access:** Read/Write
+
+**Returns:** int Enable checksum validation during recognition for 1D and Postal barcodes.
+
+Enable checksum validation during recognition for 1D and Postal barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar, PatchCode, Pharmacode, DataLogic2of5 Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies
+
+Enable checksum validation during recognition for 1D and Postal barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible. Checksum never used: Codabar, PatchCode, Pharmacode, DataLogic2of5 Checksum is possible: Code39 Standard/Extended, Standard2of5, Interleaved2of5, ItalianPost25, Matrix2of5, MSI, ItalianPost25, DeutschePostIdentcode, DeutschePostLeitcode, VIN Checksum always used: Rest symbologies
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### DetectEncoding {#detectencoding}
+
+**Access:** Read/Write
+
+**Returns:** bool The flag which force engine to detect codetext encoding for Unicode codesets
+
+The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `bool` |  |
+
+### StripFNC {#stripfnc}
+
+**Access:** Read/Write
+
+**Returns:** bool Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
+
+Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
+
+Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `bool` |  |
+

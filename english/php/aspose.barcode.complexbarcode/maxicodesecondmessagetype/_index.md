@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeSecondMessageType Enum"
+title: "MaxiCodeSecondMessageType"
 linktitle: "MaxiCodeSecondMessageType"
-articleTitle: "MaxiCodeSecondMessageType"
 second_title: "Aspose.BarCode for PHP via Java"
 description: ""
 type: docs
@@ -18,5 +17,13 @@ url: /php/aspose.barcode.complexbarcode/maxicodesecondmessagetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MAXI_CODE_STANDART_SECOND_MESSAGE](./maxi_code_standart_second_message/) | `0` |  |
-| [MAXI_CODE_STRUCTURED_SECOND_MESSAGE](./maxi_code_structured_second_message/) | `1` |  |
+| [MAXI_CODE_STANDART_SECOND_MESSAGE](#maxi_code_standart_second_message) | `0` |  |
+| [MAXI_CODE_STRUCTURED_SECOND_MESSAGE](#maxi_code_structured_second_message) | `1` |  |
+### MAXI_CODE_STANDART_SECOND_MESSAGE {#maxi_code_standart_second_message}
+
+**Value:** `0`
+
+### MAXI_CODE_STRUCTURED_SECOND_MESSAGE {#maxi_code_structured_second_message}
+
+**Value:** `1`
+

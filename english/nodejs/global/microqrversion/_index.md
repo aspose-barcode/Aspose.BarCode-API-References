@@ -1,9 +1,8 @@
 ---
 title: "MicroQRVersion"
 linktitle: "MicroQRVersion"
-articleTitle: "MicroQRVersion"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Version of MicroQR Code. From M1 to M4."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Version of MicroQR Code."
 type: docs
 weight: 420
 url: /nodejs/global/microqrversion/

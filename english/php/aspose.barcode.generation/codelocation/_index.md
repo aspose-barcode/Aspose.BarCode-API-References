@@ -1,7 +1,6 @@
 ---
-title: "CodeLocation Enum"
+title: "CodeLocation"
 linktitle: "CodeLocation"
-articleTitle: "CodeLocation"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Codetext location"
 type: docs
@@ -21,6 +20,24 @@ Codetext location
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ABOVE](./above/) | `"1"` | Codetext above barcode. |
-| [BELOW](./below/) | `"0"` | Codetext below barcode. |
-| [NONE](./none/) | `"2"` | Hide codetext. |
+| [ABOVE](#above) | `"1"` | Codetext above barcode. |
+| [BELOW](#below) | `"0"` | Codetext below barcode. |
+| [NONE](#none) | `"2"` | Hide codetext. |
+### ABOVE {#above}
+
+**Value:** `"1"`
+
+Codetext above barcode.
+
+### BELOW {#below}
+
+**Value:** `"0"`
+
+Codetext below barcode.
+
+### NONE {#none}
+
+**Value:** `"2"`
+
+Hide codetext.
+

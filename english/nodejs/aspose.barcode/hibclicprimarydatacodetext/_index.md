@@ -1,9 +1,8 @@
 ---
-title: "HIBCLICPrimaryDataCodetext Class"
+title: "HIBCLICPrimaryDataCodetext"
 linktitle: "HIBCLICPrimaryDataCodetext"
-articleTitle: "HIBCLICPrimaryDataCodetext"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data. This sample shows how to encode and decode HIBC LIC using H..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data."
 type: docs
 weight: 460
 url: /nodejs/aspose.barcode/hibclicprimarydatacodetext/
@@ -41,9 +40,47 @@ print("Unit of measure ID: " + result.getData().getUnitOfMeasureID());
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified `HIBCLICPrimaryDataCodetext` value. |
-| [getConstructedCodetext()](./getconstructedcodetext/) | Constructs codetext |
-| [getData()](./getdata/) | Identifies primary data. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [initFromString(constructedCodetext)](./initfromstring/) | Initializes instance from constructed codetext. |
-| [setData()](./setdata/) | Identifies primary data. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified `HIBCLICPrimaryDataCodetext` value. |
+| [getConstructedCodetext()](#getconstructedcodetext) | Constructs codetext |
+| [getData()](#getdata) | Identifies primary data. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [initFromString(constructedCodetext)](#initfromstring) | Initializes instance from constructed codetext. |
+| [setData()](#setdata) | Identifies primary data. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified `HIBCLICPrimaryDataCodetext` value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An `HIBCLICPrimaryDataCodetext` value to compare to this instance. |
+
+**Returns:** `true ` if obj has the same value as this instance; otherwise, `false `.
+
+### getConstructedCodetext() {#getconstructedcodetext}
+
+Constructs codetext
+
+**Returns:** Constructed codetext
+
+### getData() {#getdata}
+
+Identifies primary data.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### initFromString(constructedCodetext) {#initfromstring}
+
+Initializes instance from constructed codetext.
+
+| Parameter | Description |
+| --- | --- |
+| constructedCodetext | Constructed codetext. |
+
+### setData() {#setdata}
+
+Identifies primary data.

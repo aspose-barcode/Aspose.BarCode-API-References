@@ -1,9 +1,8 @@
 ---
 title: "QRErrorLevel"
 linktitle: "QRErrorLevel"
-articleTitle: "QRErrorLevel"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Level of Reed-Solomon error correction. From low to high: LEVEL_L, LEVEL_M, LEVEL_Q, LEVEL_H."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Level of Reed-Solomon error correction."
 type: docs
 weight: 500
 url: /nodejs/global/qrerrorlevel/

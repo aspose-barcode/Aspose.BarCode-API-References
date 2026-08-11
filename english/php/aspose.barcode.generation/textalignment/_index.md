@@ -1,7 +1,6 @@
 ---
-title: "TextAlignment Enum"
+title: "TextAlignment"
 linktitle: "TextAlignment"
-articleTitle: "TextAlignment"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Text alignment."
 type: docs
@@ -21,6 +20,24 @@ Text alignment.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CENTER](./center/) | `"1"` | Center position. |
-| [LEFT](./left/) | `"0"` | Left position. |
-| [RIGHT](./right/) | `"2"` | Right position. |
+| [CENTER](#center) | `"1"` | Center position. |
+| [LEFT](#left) | `"0"` | Left position. |
+| [RIGHT](#right) | `"2"` | Right position. |
+### CENTER {#center}
+
+**Value:** `"1"`
+
+Center position.
+
+### LEFT {#left}
+
+**Value:** `"0"`
+
+Left position.
+
+### RIGHT {#right}
+
+**Value:** `"2"`
+
+Right position.
+

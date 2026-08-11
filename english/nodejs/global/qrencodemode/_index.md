@@ -1,9 +1,8 @@
 ---
 title: "QREncodeMode"
 linktitle: "QREncodeMode"
-articleTitle: "QREncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Encoding mode for QR barcodes. Example how to use ECI encoding generator = new BarcodeGenerator(EncodeTypes.QR, '12345TEXT'); generator.getParameters().getBa..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Encoding mode for QR barcodes."
 type: docs
 weight: 480
 url: /nodejs/global/qrencodemode/

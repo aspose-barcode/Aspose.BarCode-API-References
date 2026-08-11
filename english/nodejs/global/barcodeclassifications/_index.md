@@ -1,8 +1,7 @@
 ---
 title: "BarcodeClassifications"
 linktitle: "BarcodeClassifications"
-articleTitle: "BarcodeClassifications"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "BarcodeClassifications EncodeTypes classification"
 type: docs
 weight: 70

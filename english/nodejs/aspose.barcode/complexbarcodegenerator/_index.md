@@ -1,9 +1,8 @@
 ---
-title: "ComplexBarcodeGenerator Class"
+title: "ComplexBarcodeGenerator"
 linktitle: "ComplexBarcodeGenerator"
-articleTitle: "ComplexBarcodeGenerator"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "ComplexBarcodeGenerator for backend complex barcode (e.g."
 type: docs
 weight: 280
 url: /nodejs/aspose.barcode/complexbarcodegenerator/
@@ -52,6 +51,25 @@ This sample shows how to create and save a SwissQR image.
 
 | Name | Description |
 | --- | --- |
-| [generateBarCodeImage()](./generatebarcodeimage/) | Generates complex barcode image under current settings. |
-| [getParameters()](./getparameters/) | Generation parameters. |
-| [save(filePath, format)](./save/) | Generates and saves complex barcode image under current settings. |
+| [generateBarCodeImage()](#generatebarcodeimage) | Generates complex barcode image under current settings. |
+| [getParameters()](#getparameters) | Generation parameters. |
+| [save(filePath, format)](#save) | Generates and saves complex barcode image under current settings. |
+
+### generateBarCodeImage() {#generatebarcodeimage}
+
+Generates complex barcode image under current settings.
+
+**Returns:** Base64 presentation of image.
+
+### getParameters() {#getparameters}
+
+Generation parameters.
+
+### save(filePath, format) {#save}
+
+Generates and saves complex barcode image under current settings.
+
+| Parameter | Description |
+| --- | --- |
+| filePath | Path to save to. |
+| format | BarCodeImageFormat(PNG, BMP, JPEG, GIF) |

@@ -1,7 +1,6 @@
 ---
-title: "Pdf417CompactionMode Enum"
+title: "Pdf417CompactionMode"
 linktitle: "Pdf417CompactionMode"
-articleTitle: "Pdf417CompactionMode"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Pdf417 barcode's compation mode."
 type: docs
@@ -21,7 +20,39 @@ Pdf417 barcode's compation mode.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | auto detect compation mode |
-| [BINARY](./binary/) | `3` | binary compaction mode |
-| [NUMERIC](./numeric/) | `2` | numeric compaction mode |
-| [TEXT](./text/) | `1` | text compaction |
+| [AUTO](#auto) | `0` | auto detect compation mode |
+| [BINARY](#binary) | `3` | binary compaction mode |
+| [NUMERIC](#numeric) | `2` | numeric compaction mode |
+| [TEXT](#text) | `1` | text compaction |
+### Pdf417CompactionMode.AUTO {#auto}
+
+**Type:** `int`
+
+**Value:** `0`
+
+auto detect compation mode
+
+### Pdf417CompactionMode.BINARY {#binary}
+
+**Type:** `int`
+
+**Value:** `3`
+
+binary compaction mode
+
+### Pdf417CompactionMode.NUMERIC {#numeric}
+
+**Type:** `int`
+
+**Value:** `2`
+
+numeric compaction mode
+
+### Pdf417CompactionMode.TEXT {#text}
+
+**Type:** `int`
+
+**Value:** `1`
+
+text compaction
+

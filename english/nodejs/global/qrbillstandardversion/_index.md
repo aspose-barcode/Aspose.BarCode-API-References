@@ -1,8 +1,7 @@
 ---
 title: "QrBillStandardVersion"
 linktitle: "QrBillStandardVersion"
-articleTitle: "QrBillStandardVersion"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "SwissQR bill standard version"
 type: docs
 weight: 520

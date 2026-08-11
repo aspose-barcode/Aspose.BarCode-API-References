@@ -1,8 +1,7 @@
 ---
 title: "CustomerInformationInterpretingType"
 linktitle: "CustomerInformationInterpretingType"
-articleTitle: "CustomerInformationInterpretingType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Defines the interpreting type(C_TABLE or N_TABLE) of customer information for AustralianPost BarCode."
 type: docs
 weight: 170

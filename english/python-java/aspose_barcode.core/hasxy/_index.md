@@ -1,7 +1,6 @@
 ---
-title: "HasXY Class"
+title: "HasXY"
 linktitle: "HasXY"
-articleTitle: "HasXY"
 second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs

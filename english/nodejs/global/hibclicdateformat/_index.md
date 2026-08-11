@@ -1,8 +1,7 @@
 ---
 title: "HIBCLICDateFormat"
 linktitle: "HIBCLICDateFormat"
-articleTitle: "HIBCLICDateFormat"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the different types of date formats for HIBC LIC."
 type: docs
 weight: 300

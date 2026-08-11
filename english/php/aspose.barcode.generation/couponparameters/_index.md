@@ -1,7 +1,6 @@
 ---
-title: "CouponParameters Class"
+title: "CouponParameters"
 linktitle: "CouponParameters"
-articleTitle: "CouponParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon."
 type: docs
@@ -21,10 +20,29 @@ Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.
 
 | Name | Description |
 | --- | --- |
-| [__construct](./couponparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [SupplementSpace](./supplementspace/) | Read/Write | Space between main the BarCode and supplement BarCode in Unit value. |
+| [SupplementSpace](#supplementspace) | Read/Write | Space between main the BarCode and supplement BarCode in Unit value. |
+
+### CouponParameters__construct(CouponParametersDTO $couponParametersDto) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$couponParametersDto` | `CouponParametersDTO` |  |
+
+### SupplementSpace {#supplementspace}
+
+**Access:** Read/Write
+
+Space between main the BarCode and supplement BarCode in Unit value.
+
+Space between main the BarCode and supplement BarCode in Unit value.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `Unit` |  |
+

@@ -1,8 +1,7 @@
 ---
 title: "CodabarSymbol"
 linktitle: "CodabarSymbol"
-articleTitle: "CodabarSymbol"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the start or stop symbol of the Codabar barcode specification."
 type: docs
 weight: 120

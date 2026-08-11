@@ -1,7 +1,6 @@
 ---
-title: "RectLTRB Class"
+title: "RectLTRB"
 linktitle: "RectLTRB"
-articleTitle: "RectLTRB"
 second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs

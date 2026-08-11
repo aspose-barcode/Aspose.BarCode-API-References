@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeExtCodetextBuilder Class"
+title: "MaxiCodeExtCodetextBuilder"
 linktitle: "MaxiCodeExtCodetextBuilder"
-articleTitle: "MaxiCodeExtCodetextBuilder"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. "
 type: docs
@@ -21,16 +20,31 @@ Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of M
 
 | Name | Description |
 | --- | --- |
-| [__construct](./maxicodeextcodetextbuilder/) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [__construct](#constructor) | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [init](./init/) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [init](#init) | No | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ExtCodetextBuilderType](./extcodetextbuildertype/) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+| [ExtCodetextBuilderType](#extcodetextbuildertype) | Read-only | Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder. |
+
+### MaxiCodeExtCodetextBuilder__construct() {#constructor}
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+
+### initinit() {#init}
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+
+### ExtCodetextBuilderType {#extcodetextbuildertype}
+
+**Access:** Read-only
+
+Reimplemented from Aspose\Barcode\Generation\ExtCodetextBuilder.
+

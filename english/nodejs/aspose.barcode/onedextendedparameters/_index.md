@@ -1,8 +1,7 @@
 ---
-title: "OneDExtendedParameters Class"
+title: "OneDExtendedParameters"
 linktitle: "OneDExtendedParameters"
-articleTitle: "OneDExtendedParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Stores special data of 1D recognized barcode like separate codetext and checksum"
 type: docs
 weight: 720
@@ -39,9 +38,43 @@ for(let i = 0; i < results.length; i++)
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value. |
-| [getCheckSum()](./getchecksum/) | Gets the checksum for 1D barcodes. Value: The checksum for 1D barcode. |
-| [getValue()](./getvalue/) | Gets the codetext of 1D barcodes without checksum. Value: The codetext of 1D barcodes without checksum. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [isEmpty()](./isempty/) | Tests whether all parameters has only default values Value: Returns `true ` if all parameters has only default values; o |
-| [toString()](./tostring/) | Returns a human-readable string representation of this OneDExtendedParameters. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value. |
+| [getCheckSum()](#getchecksum) | Gets the checksum for 1D barcodes. Value: The checksum for 1D barcode. |
+| [getValue()](#getvalue) | Gets the codetext of 1D barcodes without checksum. Value: The codetext of 1D barcodes without checksum. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [isEmpty()](#isempty) | Tests whether all parameters has only default values Value: Returns `true ` if all parameters has only default values; o |
+| [toString()](#tostring) | Returns a human-readable string representation of this OneDExtendedParameters. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An System.Object value to compare to this instance. |
+
+**Returns:** true if obj has the same value as this instance; otherwise, false.
+
+### getCheckSum() {#getchecksum}
+
+Gets the checksum for 1D barcodes. Value: The checksum for 1D barcode.
+
+### getValue() {#getvalue}
+
+Gets the codetext of 1D barcodes without checksum. Value: The codetext of 1D barcodes without checksum.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### isEmpty() {#isempty}
+
+Tests whether all parameters has only default values Value: Returns `true ` if all parameters has only default values; otherwise, `false `.
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this OneDExtendedParameters.
+
+**Returns:** A string that represents this OneDExtendedParameters.

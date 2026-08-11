@@ -1,7 +1,6 @@
 ---
-title: "HanXinErrorLevel Enum"
+title: "HanXinErrorLevel"
 linktitle: "HanXinErrorLevel"
-articleTitle: "HanXinErrorLevel"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4."
 type: docs
@@ -21,7 +20,31 @@ Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [L1](./l1/) | `0` | Allows recovery of 8% of the code text |
-| [L2](./l2/) | `1` | Allows recovery of 15% of the code text |
-| [L3](./l3/) | `2` | Allows recovery of 23% of the code text |
-| [L4](./l4/) | `3` | Allows recovery of 30% of the code text |
+| [L1](#l1) | `0` | Allows recovery of 8% of the code text |
+| [L2](#l2) | `1` | Allows recovery of 15% of the code text |
+| [L3](#l3) | `2` | Allows recovery of 23% of the code text |
+| [L4](#l4) | `3` | Allows recovery of 30% of the code text |
+### L1 {#l1}
+
+**Value:** `0`
+
+Allows recovery of 8% of the code text
+
+### L2 {#l2}
+
+**Value:** `1`
+
+Allows recovery of 15% of the code text
+
+### L3 {#l3}
+
+**Value:** `2`
+
+Allows recovery of 23% of the code text
+
+### L4 {#l4}
+
+**Value:** `3`
+
+Allows recovery of 30% of the code text
+

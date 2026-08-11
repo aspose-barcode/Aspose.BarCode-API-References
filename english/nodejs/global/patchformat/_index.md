@@ -1,9 +1,8 @@
 ---
 title: "PatchFormat"
 linktitle: "PatchFormat"
-articleTitle: "PatchFormat"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "PatchCode format."
 type: docs
 weight: 430
 url: /nodejs/global/patchformat/

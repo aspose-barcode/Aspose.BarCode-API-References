@@ -1,9 +1,8 @@
 ---
-title: "HIBCLICComplexCodetext Class"
+title: "HIBCLICComplexCodetext"
 linktitle: "HIBCLICComplexCodetext"
-articleTitle: "HIBCLICComplexCodetext"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Base class for encoding and decoding the text embedded in the HIBC LIC code. This sample shows how to decode raw HIBC LIC codetext to HIBCLICComplexCodetext ..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Base class for encoding and decoding the text embedded in the HIBC LIC code."
 type: docs
 weight: 450
 url: /nodejs/aspose.barcode/hibcliccomplexcodetext/
@@ -35,7 +34,33 @@ for(let i = 0; i < results.length; i++)
 
 | Name | Description |
 | --- | --- |
-| [getBarcodeType()](./getbarcodetype/) | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataM |
-| [getConstructedCodetext()](./getconstructedcodetext/) | Constructs codetext |
-| [initFromString(constructedCodetext)](./initfromstring/) | Initializes instance from constructed codetext. |
-| [setBarcodeType()](./setbarcodetype/) | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataM |
+| [getBarcodeType()](#getbarcodetype) | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataM |
+| [getConstructedCodetext()](#getconstructedcodetext) | Constructs codetext |
+| [initFromString(constructedCodetext)](#initfromstring) | Initializes instance from constructed codetext. |
+| [setBarcodeType()](#setbarcodetype) | Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataM |
+
+### getBarcodeType() {#getbarcodetype}
+
+Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC.
+
+**Returns:** Barcode type.
+
+### getConstructedCodetext() {#getconstructedcodetext}
+
+Constructs codetext
+
+**Returns:** Constructed codetext
+
+### initFromString(constructedCodetext) {#initfromstring}
+
+Initializes instance from constructed codetext.
+
+| Parameter | Description |
+| --- | --- |
+| constructedCodetext | Constructed codetext. |
+
+### setBarcodeType() {#setbarcodetype}
+
+Gets or sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC.
+
+**Returns:** Barcode type.

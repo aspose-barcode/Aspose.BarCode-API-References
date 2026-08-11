@@ -1,7 +1,6 @@
 ---
-title: "HanXinParameters Class"
+title: "HanXinParameters"
 linktitle: "HanXinParameters"
-articleTitle: "HanXinParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Han Xin parameters."
 type: docs
@@ -21,17 +20,120 @@ Han Xin parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](./hanxinparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [ECIEncoding](./eciencoding/) | Read/Write | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
-| [EncodeMode](./encodemode/) | Read/Write | HanXin encoding mode. Default value: EncodeMode.Mixed. |
-| [ErrorLevel](./errorlevel/) | Read/Write | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
-| [HanXinECIEncoding](./hanxineciencoding/) | Read/Write | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. |
-| [HanXinEncodeMode](./hanxinencodemode/) | Read/Write | HanXin encoding mode. Default value: HanXinEncodeMode::Mixed. |
-| [HanXinErrorLevel](./hanxinerrorlevel/) | Read/Write | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel. |
-| [HanXinVersion](./hanxinversion/) | Read/Write | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto. |
-| [Version](./version/) | Read/Write | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto. |
+| [ECIEncoding](#eciencoding) | Read/Write | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings. |
+| [EncodeMode](#encodemode) | Read/Write | HanXin encoding mode. Default value: EncodeMode.Mixed. |
+| [ErrorLevel](#errorlevel) | Read/Write | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel. |
+| [HanXinECIEncoding](#hanxineciencoding) | Read/Write | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings. |
+| [HanXinEncodeMode](#hanxinencodemode) | Read/Write | HanXin encoding mode. Default value: HanXinEncodeMode::Mixed. |
+| [HanXinErrorLevel](#hanxinerrorlevel) | Read/Write | Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel. |
+| [HanXinVersion](#hanxinversion) | Read/Write | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto. |
+| [Version](#version) | Read/Write | Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto. |
+
+### HanXinParameters__construct(HanXinParametersDTO $hanXinParametersDto) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$hanXinParametersDto` | `HanXinParametersDTO` |  |
+
+### ECIEncoding {#eciencoding}
+
+**Access:** Read/Write
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings.
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation contains all well known charset encodings.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### EncodeMode {#encodemode}
+
+**Access:** Read/Write
+
+HanXin encoding mode. Default value: EncodeMode.Mixed.
+
+HanXin encoding mode. Default value: EncodeMode.Mixed.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### ErrorLevel {#errorlevel}
+
+**Access:** Read/Write
+
+Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel.
+
+Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### HanXinECIEncoding {#hanxineciencoding}
+
+**Access:** Read/Write
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings.
+
+Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Current implementation consists all well known charset encodings.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### HanXinEncodeMode {#hanxinencodemode}
+
+**Access:** Read/Write
+
+HanXin encoding mode. Default value: HanXinEncodeMode::Mixed.
+
+HanXin encoding mode. Default value: HanXinEncodeMode::Mixed.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### HanXinErrorLevel {#hanxinerrorlevel}
+
+**Access:** Read/Write
+
+Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel.
+
+Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see HanXinErrorLevel.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### HanXinVersion {#hanxinversion}
+
+**Access:** Read/Write
+
+Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto.
+
+Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is HanXinVersion.Auto.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+
+### Version {#version}
+
+**Access:** Read/Write
+
+Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto.
+
+Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `int` |  |
+

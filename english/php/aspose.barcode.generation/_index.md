@@ -1,7 +1,6 @@
 ---
 title: "Aspose.Barcode.Generation"
 linktitle: "Aspose.Barcode.Generation"
-articleTitle: "Aspose.Barcode.Generation"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "The Aspose.Barcode.Generation namespace supplies classes and enums for configuring and creating barcodes in PHP via Java."
 type: docs
@@ -11,8 +10,7 @@ url: /php/aspose.barcode.generation/
 
 ## Aspose.Barcode.Generation namespace
 
-This reference details the types available in Aspose.Barcode.Generation, including parameter objects for specific symbologies such as AustralianPost and Aztec, as well as visual options like borders, captions, and color definitions. Use these classes to fine‑tune barcode generation settings before rendering the image.
-
+Use the types in this namespace to define barcode symbology, visual appearance, and output options. The reference lists each class and enumeration, their properties, methods, and usage examples.
 
 ## Classes
 

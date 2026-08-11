@@ -1,9 +1,8 @@
 ---
 title: "DataMatrixEncodeMode"
 linktitle: "DataMatrixEncodeMode"
-articleTitle: "DataMatrixEncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "DataMatrix encoder's encoding mode, default to Auto This sample shows how to do codetext in Extended Mode. //Auto mode let codetext = '犬Right狗'; let generato..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "DataMatrix encoder's encoding mode, default to Auto This sample shows how to do codetext in Extended Mode."
 type: docs
 weight: 190
 url: /nodejs/global/datamatrixencodemode/

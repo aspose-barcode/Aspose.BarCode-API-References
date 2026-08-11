@@ -1,7 +1,6 @@
 ---
-title: "QRErrorLevel Enum"
+title: "QRErrorLevel"
 linktitle: "QRErrorLevel"
-articleTitle: "QRErrorLevel"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Level of Reed-Solomon error correction. From low to high: LEVEL_L, LEVEL_M, LEVEL_Q, LEVEL_H."
 type: docs
@@ -21,7 +20,31 @@ Level of Reed-Solomon error correction. From low to high: LEVEL_L, LEVEL_M, LEVE
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [LEVEL_H](./level_h/) | `"3"` | Allows recovery of 30% of the code text |
-| [LEVEL_L](./level_l/) | `"0"` | Allows recovery of 7% of the code text |
-| [LEVEL_M](./level_m/) | `"1"` | Allows recovery of 15% of the code text |
-| [LEVEL_Q](./level_q/) | `"2"` | Allows recovery of 25% of the code text |
+| [LEVEL_H](#level_h) | `"3"` | Allows recovery of 30% of the code text |
+| [LEVEL_L](#level_l) | `"0"` | Allows recovery of 7% of the code text |
+| [LEVEL_M](#level_m) | `"1"` | Allows recovery of 15% of the code text |
+| [LEVEL_Q](#level_q) | `"2"` | Allows recovery of 25% of the code text |
+### LEVEL_H {#level_h}
+
+**Value:** `"3"`
+
+Allows recovery of 30% of the code text
+
+### LEVEL_L {#level_l}
+
+**Value:** `"0"`
+
+Allows recovery of 7% of the code text
+
+### LEVEL_M {#level_m}
+
+**Value:** `"1"`
+
+Allows recovery of 15% of the code text
+
+### LEVEL_Q {#level_q}
+
+**Value:** `"2"`
+
+Allows recovery of 25% of the code text
+

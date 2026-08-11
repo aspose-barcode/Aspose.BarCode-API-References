@@ -1,7 +1,6 @@
 ---
-title: "TextAlignment Enum"
+title: "TextAlignment"
 linktitle: "TextAlignment"
-articleTitle: "TextAlignment"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Text alignment."
 type: docs
@@ -21,6 +20,30 @@ Text alignment.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CENTER](./center/) | `1` | Center position. |
-| [LEFT](./left/) | `0` | Left position. |
-| [RIGHT](./right/) | `2` | Right position. |
+| [CENTER](#center) | `1` | Center position. |
+| [LEFT](#left) | `0` | Left position. |
+| [RIGHT](#right) | `2` | Right position. |
+### TextAlignment.CENTER {#center}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Center position.
+
+### TextAlignment.LEFT {#left}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Left position.
+
+### TextAlignment.RIGHT {#right}
+
+**Type:** `int`
+
+**Value:** `2`
+
+Right position.
+

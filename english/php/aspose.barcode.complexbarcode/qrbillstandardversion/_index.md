@@ -1,7 +1,6 @@
 ---
-title: "QrBillStandardVersion Enum"
+title: "QrBillStandardVersion"
 linktitle: "QrBillStandardVersion"
-articleTitle: "QrBillStandardVersion"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "SwissQR bill standard version"
 type: docs
@@ -21,4 +20,10 @@ SwissQR bill standard version
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [V2_0](./v2_0/) | `0` | Version 2.0 |
+| [V2_0](#v2_0) | `0` | Version 2.0 |
+### V2_0 {#v2_0}
+
+**Value:** `0`
+
+Version 2.0
+

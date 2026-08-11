@@ -1,7 +1,6 @@
 ---
-title: "SvgParameters Class"
+title: "SvgParameters"
 linktitle: "SvgParameters"
-articleTitle: "SvgParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "SVG parameters."
 type: docs
@@ -21,19 +20,62 @@ SVG parameters.
 
 | Name | Description |
 | --- | --- |
-| [__construct](./svgparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Methods
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [isExplicitSizeInPixels](./isexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
-| [isTextDrawnInTextElement](./istextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
-| [setExplicitSizeInPixels](./setexplicitsizeinpixels/) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
-| [setTextDrawnInTextElement](./settextdrawnintextelement/) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
+| [isExplicitSizeInPixels](#isexplicitsizeinpixels) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
+| [isTextDrawnInTextElement](#istextdrawnintextelement) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
+| [setExplicitSizeInPixels](#setexplicitsizeinpixels) | No | Does SVG image contain explicit size in pixels (recommended) Default value: true. |
+| [setTextDrawnInTextElement](#settextdrawnintextelement) | No | Does SVG image contain text as text element rather than paths (recommended) Default value: true. |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [SvgColorMode](./svgcolormode/) | Read/Write | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |
+| [SvgColorMode](#svgcolormode) | Read/Write | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter |
+
+### SvgParameters__construct(SvgParametersDTO $svgParametersDto) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$svgParametersDto` | `SvgParametersDTO` |  |
+
+### isExplicitSizeInPixelsisExplicitSizeInPixels() {#isexplicitsizeinpixels}
+
+Does SVG image contain explicit size in pixels (recommended) Default value: true.
+
+### isTextDrawnInTextElementisTextDrawnInTextElement() {#istextdrawnintextelement}
+
+Does SVG image contain text as text element rather than paths (recommended) Default value: true.
+
+### setExplicitSizeInPixelssetExplicitSizeInPixels(bool $explicitSizeInPixels) {#setexplicitsizeinpixels}
+
+Does SVG image contain explicit size in pixels (recommended) Default value: true.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$explicitSizeInPixels` | `bool` |  |
+
+### setTextDrawnInTextElementsetTextDrawnInTextElement(bool $isTextDrawnInTextElement) {#settextdrawnintextelement}
+
+Does SVG image contain text as text element rather than paths (recommended) Default value: true.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$isTextDrawnInTextElement` | `bool` |  |
+
+### SvgColorMode {#svgcolormode}
+
+**Access:** Read/Write
+
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
+
+Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$svgColorMode` | `int` |  |
+

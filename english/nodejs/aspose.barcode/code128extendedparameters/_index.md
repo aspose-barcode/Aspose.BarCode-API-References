@@ -1,8 +1,7 @@
 ---
-title: "Code128ExtendedParameters Class"
+title: "Code128ExtendedParameters"
 linktitle: "Code128ExtendedParameters"
-articleTitle: "Code128ExtendedParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Stores special data of Code128 recognized barcode Represents the recognized barcode's region and barcode angle"
 type: docs
 weight: 240
@@ -38,7 +37,33 @@ for(let i = 0; i < results.length; i++)
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified Code128ExtendedParameters value. |
-| [getCode128DataPortions()](./getcode128dataportions/) | Gets Code128DataPortion array of recognized Code128 barcode Value of the Code128DataPortion. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [toString()](./tostring/) | Returns a human-readable string representation of this Code128ExtendedParameters. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified Code128ExtendedParameters value. |
+| [getCode128DataPortions()](#getcode128dataportions) | Gets Code128DataPortion array of recognized Code128 barcode Value of the Code128DataPortion. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [toString()](#tostring) | Returns a human-readable string representation of this Code128ExtendedParameters. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified Code128ExtendedParameters value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An System.Object value to compare to this instance. |
+
+**Returns:** true if obj has the same value as this instance; otherwise, false.
+
+### getCode128DataPortions() {#getcode128dataportions}
+
+Gets Code128DataPortion array of recognized Code128 barcode Value of the Code128DataPortion.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this Code128ExtendedParameters.
+
+**Returns:** A string that represents this Code128ExtendedParameters.

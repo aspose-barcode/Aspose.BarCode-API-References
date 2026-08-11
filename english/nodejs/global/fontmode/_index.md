@@ -1,8 +1,7 @@
 ---
 title: "FontMode"
 linktitle: "FontMode"
-articleTitle: "FontMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Font size mode."
 type: docs
 weight: 270

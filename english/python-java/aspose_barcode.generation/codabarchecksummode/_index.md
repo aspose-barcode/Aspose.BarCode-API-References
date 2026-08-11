@@ -1,7 +1,6 @@
 ---
-title: "CodabarChecksumMode Enum"
+title: "CodabarChecksumMode"
 linktitle: "CodabarChecksumMode"
-articleTitle: "CodabarChecksumMode"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Specifies the checksum algorithm for Codabar."
 type: docs
@@ -21,5 +20,21 @@ Specifies the checksum algorithm for Codabar.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [MOD_10](./mod_10/) | `0` | Specifies Mod 10 algorithm for Codabar. |
-| [MOD_16](./mod_16/) | `1` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |
+| [MOD_10](#mod_10) | `0` | Specifies Mod 10 algorithm for Codabar. |
+| [MOD_16](#mod_16) | `1` | Specifies Mod 16 algorithm for Codabar (recomended AIIM). |
+### CodabarChecksumMode.MOD_10 {#mod_10}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Specifies Mod 10 algorithm for Codabar.
+
+### CodabarChecksumMode.MOD_16 {#mod_16}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Specifies Mod 16 algorithm for Codabar (recomended AIIM).
+

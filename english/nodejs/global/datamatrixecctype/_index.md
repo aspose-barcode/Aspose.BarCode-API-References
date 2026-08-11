@@ -1,8 +1,7 @@
 ---
 title: "DataMatrixEccType"
 linktitle: "DataMatrixEccType"
-articleTitle: "DataMatrixEccType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specify the type of the ECC to encode."
 type: docs
 weight: 180

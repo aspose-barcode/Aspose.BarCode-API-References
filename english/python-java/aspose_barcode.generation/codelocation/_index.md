@@ -1,7 +1,6 @@
 ---
-title: "CodeLocation Enum"
+title: "CodeLocation"
 linktitle: "CodeLocation"
-articleTitle: "CodeLocation"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Codetext location."
 type: docs
@@ -21,6 +20,30 @@ Codetext location.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [ABOVE](./above/) | `1` | Codetext above barcode. |
-| [BELOW](./below/) | `0` | Codetext below barcode. |
-| [NONE](./none/) | `2` | Hide codetext. |
+| [ABOVE](#above) | `1` | Codetext above barcode. |
+| [BELOW](#below) | `0` | Codetext below barcode. |
+| [NONE](#none) | `2` | Hide codetext. |
+### CodeLocation.ABOVE {#above}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Codetext above barcode.
+
+### CodeLocation.BELOW {#below}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Codetext below barcode.
+
+### CodeLocation.NONE {#none}
+
+**Type:** `int`
+
+**Value:** `2`
+
+Hide codetext.
+

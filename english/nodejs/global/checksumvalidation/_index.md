@@ -1,9 +1,8 @@
 ---
 title: "ChecksumValidation"
 linktitle: "ChecksumValidation"
-articleTitle: "ChecksumValidation"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Enable checksum validation during recognition for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum on..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Enable checksum validation during recognition for 1D barcodes."
 type: docs
 weight: 100
 url: /nodejs/global/checksumvalidation/

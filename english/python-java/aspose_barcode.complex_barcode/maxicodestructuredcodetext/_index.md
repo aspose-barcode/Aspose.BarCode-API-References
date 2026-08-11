@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeStructuredCodetext Class"
+title: "MaxiCodeStructuredCodetext"
 linktitle: "MaxiCodeStructuredCodetext"
-articleTitle: "MaxiCodeStructuredCodetext"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3."
 type: docs
@@ -23,22 +22,129 @@ Base class for encoding and decoding the text embedded in the MaxiCode code for 
 
 | Name | Description |
 | --- | --- |
-| [__init__](./maxicodestructuredcodetext/) | Reimplemented from IComplexCodetext. |
+| [__init__](#constructor) | Reimplemented from IComplexCodetext. |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value. |
-| [__hash__](./__hash__/) | `int` | No | Returns the hash code for this instance. |
-| [constructed_codetext](./constructed_codetext/) | `Optional[str]` | No | Constructs codetext. |
-| [init_from_string](./init_from_string/) | `None` | No | Initializes instance from constructed codetext. |
+| [__eq__](#__eq__) | `bool` | No | Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value. |
+| [__hash__](#__hash__) | `int` | No | Returns the hash code for this instance. |
+| [constructed_codetext](#constructed_codetext) | `Optional[str]` | No | Constructs codetext. |
+| [init_from_string](#init_from_string) | `None` | No | Initializes instance from constructed codetext. |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [country_code](./country_code/) | `int` | Identifies 3 digit country code. |
-| [postal_code](./postal_code/) | `Optional[str]` | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
-| [second_message](./second_message/) | `Optional[MaxiCodeSecondMessage]` | Identifies second message of the barcode. |
-| [service_category](./service_category/) | `int` | Identifies 3 digit service category. |
+| [country_code](#country_code) | `int` | Identifies 3 digit country code. |
+| [postal_code](#postal_code) | `Optional[str]` | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
+| [second_message](#second_message) | `Optional[MaxiCodeSecondMessage]` | Identifies second message of the barcode. |
+| [service_category](#service_category) | `int` | Identifies 3 digit service category. |
+
+### MaxiCodeStructuredCodetext Constructor {#constructor}
+
+```python
+__init__(self, _java_class)
+```
+
+Reimplemented from IComplexCodetext.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `_java_class` | `` |  |
+
+### MaxiCodeStructuredCodetext.__eq__ {#__eq__}
+
+```python
+__eq__(self, MaxiCodeStructuredCodetext other) -> bool
+```
+
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `other` | `MaxiCodeStructuredCodetext` |  |
+
+**Return Type:** `bool` — True if obj has the same value as this instance; otherwise, False.
+
+### MaxiCodeStructuredCodetext.__hash__ {#__hash__}
+
+```python
+__hash__(self) -> int
+```
+
+Returns the hash code for this instance.
+
+**Return Type:** `int` — A 32-bit signed integer hash code.
+
+### MaxiCodeStructuredCodetext.constructed_codetext {#constructed_codetext}
+
+```python
+constructed_codetext(self) -> Optional[str]
+```
+
+Constructs codetext.
+
+**Return Type:** `Optional[str]` — Constructed codetext
+
+### MaxiCodeStructuredCodetext.init_from_string {#init_from_string}
+
+```python
+init_from_string(self, str constructed_codetext)
+```
+
+Initializes instance from constructed codetext.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `constructed_codetext` | `str` |  |
+
+### MaxiCodeStructuredCodetext.country_code {#country_code}
+
+**Type:** `int`
+
+Identifies 3 digit country code.
+
+Identifies 3 digit country code.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `int` |  |
+
+### MaxiCodeStructuredCodetext.postal_code {#postal_code}
+
+**Type:** `Optional[str]`
+
+Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3.
+
+Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `str` |  |
+
+### MaxiCodeStructuredCodetext.second_message {#second_message}
+
+**Type:** `Optional[MaxiCodeSecondMessage]`
+
+Identifies second message of the barcode.
+
+Identifies second message of the barcode.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `MaxiCodeSecondMessage` |  |
+
+### MaxiCodeStructuredCodetext.service_category {#service_category}
+
+**Type:** `int`
+
+Identifies 3 digit service category.
+
+Identifies 3 digit service category.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `int` |  |
+

@@ -1,7 +1,6 @@
 ---
-title: "AustraliaPostSettings Class"
+title: "AustraliaPostSettings"
 linktitle: "AustraliaPostSettings"
-articleTitle: "AustraliaPostSettings"
 second_title: "Aspose.BarCode for Python via Java"
 description: "AustraliaPost decoding parameters. Contains parameters which influence recognized data of AustraliaPost symbology."
 type: docs
@@ -21,11 +20,38 @@ AustraliaPost decoding parameters. Contains parameters which influence recognize
 
 | Name | Description |
 | --- | --- |
-| [__init__](./australiapostsettings/) |  |
+| [__init__](#constructor) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [customer_information_interpreting_type](./customer_information_interpreting_type/) | `CustomerInformationInterpretingType` |  |
-| [ignore_ending_filling_patterns_for_c_table](./ignore_ending_filling_patterns_for_c_table/) | `bool` |  |
+| [customer_information_interpreting_type](#customer_information_interpreting_type) | `CustomerInformationInterpretingType` |  |
+| [ignore_ending_filling_patterns_for_c_table](#ignore_ending_filling_patterns_for_c_table) | `bool` |  |
+
+### AustraliaPostSettings Constructor {#constructor}
+
+```python
+__init__(self, _java_class) -> def
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `_java_class` | `` |  |
+
+### AustraliaPostSettings.customer_information_interpreting_type {#customer_information_interpreting_type}
+
+**Type:** `CustomerInformationInterpretingType`
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `CustomerInformationInterpretingType` |  |
+
+### AustraliaPostSettings.ignore_ending_filling_patterns_for_c_table {#ignore_ending_filling_patterns_for_c_table}
+
+**Type:** `bool`
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `bool` |  |
+

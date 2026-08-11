@@ -1,7 +1,6 @@
 ---
-title: "DeconvolutionMode Enum"
+title: "DeconvolutionMode"
 linktitle: "DeconvolutionMode"
-articleTitle: "DeconvolutionMode"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convo"
 type: docs
@@ -21,6 +20,30 @@ Deconvolution (image restorations) mode which defines level of image degradation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [FAST](./fast/) | `0` | Enables fast deconvolution methods for high quality images. |
-| [NORMAL](./normal/) | `1` | Enables normal deconvolution methods for common images. |
-| [SLOW](./slow/) | `2` | Enables slow deconvolution methods for low quality images. |
+| [FAST](#fast) | `0` | Enables fast deconvolution methods for high quality images. |
+| [NORMAL](#normal) | `1` | Enables normal deconvolution methods for common images. |
+| [SLOW](#slow) | `2` | Enables slow deconvolution methods for low quality images. |
+### DeconvolutionMode.FAST {#fast}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Enables fast deconvolution methods for high quality images.
+
+### DeconvolutionMode.NORMAL {#normal}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Enables normal deconvolution methods for common images.
+
+### DeconvolutionMode.SLOW {#slow}
+
+**Type:** `int`
+
+**Value:** `2`
+
+Enables slow deconvolution methods for low quality images.
+

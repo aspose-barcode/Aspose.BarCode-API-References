@@ -1,8 +1,7 @@
 ---
 title: "DotCodeEncodeMode"
 linktitle: "DotCodeEncodeMode"
-articleTitle: "DotCodeEncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Encoding mode for DotCode barcodes."
 type: docs
 weight: 230

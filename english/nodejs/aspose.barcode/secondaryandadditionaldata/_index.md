@@ -1,8 +1,7 @@
 ---
-title: "SecondaryAndAdditionalData Class"
+title: "SecondaryAndAdditionalData"
 linktitle: "SecondaryAndAdditionalData"
-articleTitle: "SecondaryAndAdditionalData"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Class for storing HIBC LIC secondary and additional data."
 type: docs
 weight: 880
@@ -21,19 +20,97 @@ new SecondaryAndAdditionalData()
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified `SecondaryAndAdditionalData` value. |
-| [getDateOfManufacture()](./getdateofmanufacture/) | Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Defa |
-| [getExpiryDate()](./getexpirydate/) | Identifies expiry date. Will be used if ExpiryDateFormat is not set to None. |
-| [getExpiryDateFormat()](./getexpirydateformat/) | Identifies expiry date format. |
-| [getLotNumber()](./getlotnumber/) | Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. . |
-| [getQuantity()](./getquantity/) | Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Defa |
-| [getSerialNumber()](./getserialnumber/) | Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [parseFromString(secondaryDataCodetext)](./parsefromstring/) | Instantiates secondary and additional supplemental data from string format according HIBC LIC specification. |
-| [setDateOfManufacture()](./setdateofmanufacture/) | Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Defa |
-| [setExpiryDate()](./setexpirydate/) | Identifies expiry date. Will be used if ExpiryDateFormat is not set to None. |
-| [setExpiryDateFormat()](./setexpirydateformat/) | Identifies expiry date format. |
-| [setLotNumber()](./setlotnumber/) | Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. . |
-| [setQuantity()](./setquantity/) | Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Defa |
-| [setSerialNumber()](./setserialnumber/) | Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length. |
-| [toString()](./tostring/) | Converts data to string format according HIBC LIC specification. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified `SecondaryAndAdditionalData` value. |
+| [getDateOfManufacture()](#getdateofmanufacture) | Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Defa |
+| [getExpiryDate()](#getexpirydate) | Identifies expiry date. Will be used if ExpiryDateFormat is not set to None. |
+| [getExpiryDateFormat()](#getexpirydateformat) | Identifies expiry date format. |
+| [getLotNumber()](#getlotnumber) | Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. . |
+| [getQuantity()](#getquantity) | Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Defa |
+| [getSerialNumber()](#getserialnumber) | Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [parseFromString(secondaryDataCodetext)](#parsefromstring) | Instantiates secondary and additional supplemental data from string format according HIBC LIC specification. |
+| [setDateOfManufacture()](#setdateofmanufacture) | Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Defa |
+| [setExpiryDate()](#setexpirydate) | Identifies expiry date. Will be used if ExpiryDateFormat is not set to None. |
+| [setExpiryDateFormat()](#setexpirydateformat) | Identifies expiry date format. |
+| [setLotNumber()](#setlotnumber) | Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. . |
+| [setQuantity()](#setquantity) | Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Defa |
+| [setSerialNumber()](#setserialnumber) | Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length. |
+| [toString()](#tostring) | Converts data to string format according HIBC LIC specification. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified `SecondaryAndAdditionalData` value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An `SecondaryAndAdditionalData` value to compare to this instance. |
+
+**Returns:** `true ` if obj has the same value as this instance; otherwise, `false `.
+
+### getDateOfManufacture() {#getdateofmanufacture}
+
+Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Default value: DateTime.MinValue
+
+### getExpiryDate() {#getexpirydate}
+
+Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
+
+### getExpiryDateFormat() {#getexpirydateformat}
+
+Identifies expiry date format.
+
+### getLotNumber() {#getlotnumber}
+
+Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. .
+
+### getQuantity() {#getquantity}
+
+Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Default value: -1
+
+### getSerialNumber() {#getserialnumber}
+
+Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### parseFromString(secondaryDataCodetext) {#parsefromstring}
+
+Instantiates secondary and additional supplemental data from string format according HIBC LIC specification.
+
+| Parameter | Description |
+| --- | --- |
+| secondaryDataCodetext | Formatted string. |
+
+### setDateOfManufacture() {#setdateofmanufacture}
+
+Identifies date of manufacture. Date of manufacture can be set to DateTime.MinValue in order not to use this field. Default value: DateTime.MinValue
+
+### setExpiryDate() {#setexpirydate}
+
+Identifies expiry date. Will be used if ExpiryDateFormat is not set to None.
+
+### setExpiryDateFormat() {#setexpirydateformat}
+
+Identifies expiry date format.
+
+### setLotNumber() {#setlotnumber}
+
+Identifies lot or batch number. Lot/batch number must be alphanumeric string with up to 18 sybmols length. .
+
+### setQuantity() {#setquantity}
+
+Identifies quantity, must be integer value from 0 to 500. Quantity can be set to -1 in order not to use this field. Default value: -1
+
+### setSerialNumber() {#setserialnumber}
+
+Identifies serial number. Serial number must be alphanumeric string up to 18 sybmols length.
+
+### toString() {#tostring}
+
+Converts data to string format according HIBC LIC specification.
+
+**Returns:** Formatted string.

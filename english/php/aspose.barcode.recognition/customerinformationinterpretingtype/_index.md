@@ -1,7 +1,6 @@
 ---
-title: "CustomerInformationInterpretingType Enum"
+title: "CustomerInformationInterpretingType"
 linktitle: "CustomerInformationInterpretingType"
-articleTitle: "CustomerInformationInterpretingType"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Defines the interpreting type(C_TABLE or N_TABLE) of customer information for AustralianPost BarCode."
 type: docs
@@ -21,6 +20,24 @@ Defines the interpreting type(C_TABLE or N_TABLE) of customer information for Au
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [C_TABLE](./c_table/) | `0` | Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and # sing. |
-| [N_TABLE](./n_table/) | `1` | Use N_TABLE to interpret the customer information. Allows digits. |
-| [OTHER](./other/) | `2` | Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only. |
+| [C_TABLE](#c_table) | `0` | Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and # sing. |
+| [N_TABLE](#n_table) | `1` | Use N_TABLE to interpret the customer information. Allows digits. |
+| [OTHER](#other) | `2` | Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only. |
+### C_TABLE {#c_table}
+
+**Value:** `0`
+
+Use C_TABLE to interpret the customer information. Allows A..Z, a..z, 1..9, space and # sing.
+
+### N_TABLE {#n_table}
+
+**Value:** `1`
+
+Use N_TABLE to interpret the customer information. Allows digits.
+
+### OTHER {#other}
+
+**Value:** `2`
+
+Do not interpret the customer information. Allows 0, 1, 2 or 3 symbol only.
+

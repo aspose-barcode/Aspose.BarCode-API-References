@@ -1,7 +1,6 @@
 ---
-title: "QrStructuredAppendParameters Class"
+title: "QrStructuredAppendParameters"
 linktitle: "QrStructuredAppendParameters"
-articleTitle: "QrStructuredAppendParameters"
 second_title: "Aspose.BarCode for Python via Java"
 description: "QR structured append parameters."
 type: docs
@@ -21,12 +20,59 @@ QR structured append parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](./qrstructuredappendparameters/) |  |
+| [__init__](#constructor) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [parity_byte](./parity_byte/) | `int` | Gets the QR structured append mode parity data. |
-| [sequence_indicator](./sequence_indicator/) | `int` | Gets the index of the QR structured append mode barcode. Index starts from 0. |
-| [total_count](./total_count/) | `int` | Gets the QR structured append mode barcodes quantity. Max value is 16. |
+| [parity_byte](#parity_byte) | `int` | Gets the QR structured append mode parity data. |
+| [sequence_indicator](#sequence_indicator) | `int` | Gets the index of the QR structured append mode barcode. Index starts from 0. |
+| [total_count](#total_count) | `int` | Gets the QR structured append mode barcodes quantity. Max value is 16. |
+
+### QrStructuredAppendParameters Constructor {#constructor}
+
+```python
+__init__(self, _java_class)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `_java_class` | `` |  |
+
+### QrStructuredAppendParameters.parity_byte {#parity_byte}
+
+**Type:** `int`
+
+Gets the QR structured append mode parity data.
+
+Sets the QR structured append mode parity data.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `int` |  |
+
+### QrStructuredAppendParameters.sequence_indicator {#sequence_indicator}
+
+**Type:** `int`
+
+Gets the index of the QR structured append mode barcode. Index starts from 0.
+
+Sets the index of the QR structured append mode barcode. Index starts from 0.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `int` |  |
+
+### QrStructuredAppendParameters.total_count {#total_count}
+
+**Type:** `int`
+
+Gets the QR structured append mode barcodes quantity. Max value is 16.
+
+Sets the QR structured append mode barcodes quantity. Max value is 16.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `int` |  |
+

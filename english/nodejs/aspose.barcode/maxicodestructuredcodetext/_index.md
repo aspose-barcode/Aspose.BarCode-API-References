@@ -1,8 +1,7 @@
 ---
-title: "MaxiCodeStructuredCodetext Class"
+title: "MaxiCodeStructuredCodetext"
 linktitle: "MaxiCodeStructuredCodetext"
-articleTitle: "MaxiCodeStructuredCodetext"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3."
 type: docs
 weight: 700
@@ -42,15 +41,77 @@ This sample shows how to decode raw MaxiCode codetext to MaxiCodeStructuredCodet
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified value. |
-| [getConstructedCodetext()](./getconstructedcodetext/) | Constructs codetext |
-| [getCountryCode()](./getcountrycode/) | Identifies 3 digit country code. |
-| [getHashCode()](./gethashcode/) | Returns the hash code for this instance. |
-| [getPostalCode()](./getpostalcode/) | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
-| [getSecondMessage()](./getsecondmessage/) | Identifies second message of the barcode. |
-| [getServiceCategory()](./getservicecategory/) | Identifies 3 digit service category. |
-| [initFromString(constructedCodetext)](./initfromstring/) | Initializes instance from constructed codetext. |
-| [setCountryCode()](./setcountrycode/) | Identifies 3 digit country code. |
-| [setPostalCode()](./setpostalcode/) | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
-| [setSecondMessage()](./setsecondmessage/) | Identifies second message of the barcode. |
-| [setServiceCategory()](./setservicecategory/) | Identifies 3 digit service category. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified value. |
+| [getConstructedCodetext()](#getconstructedcodetext) | Constructs codetext |
+| [getCountryCode()](#getcountrycode) | Identifies 3 digit country code. |
+| [getHashCode()](#gethashcode) | Returns the hash code for this instance. |
+| [getPostalCode()](#getpostalcode) | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
+| [getSecondMessage()](#getsecondmessage) | Identifies second message of the barcode. |
+| [getServiceCategory()](#getservicecategory) | Identifies 3 digit service category. |
+| [initFromString(constructedCodetext)](#initfromstring) | Initializes instance from constructed codetext. |
+| [setCountryCode()](#setcountrycode) | Identifies 3 digit country code. |
+| [setPostalCode()](#setpostalcode) | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
+| [setSecondMessage()](#setsecondmessage) | Identifies second message of the barcode. |
+| [setServiceCategory()](#setservicecategory) | Identifies 3 digit service category. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An value to compare to this instance |
+
+**Returns:** true if obj has the same value as this instance; otherwise, false
+
+### getConstructedCodetext() {#getconstructedcodetext}
+
+Constructs codetext
+
+**Returns:** Constructed codetext
+
+### getCountryCode() {#getcountrycode}
+
+Identifies 3 digit country code.
+
+### getHashCode() {#gethashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### getPostalCode() {#getpostalcode}
+
+Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3.
+
+### getSecondMessage() {#getsecondmessage}
+
+Identifies second message of the barcode.
+
+### getServiceCategory() {#getservicecategory}
+
+Identifies 3 digit service category.
+
+### initFromString(constructedCodetext) {#initfromstring}
+
+Initializes instance from constructed codetext.
+
+| Parameter | Description |
+| --- | --- |
+| constructedCodetext | Constructed codetext. |
+
+### setCountryCode() {#setcountrycode}
+
+Identifies 3 digit country code.
+
+### setPostalCode() {#setpostalcode}
+
+Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3.
+
+### setSecondMessage() {#setsecondmessage}
+
+Identifies second message of the barcode.
+
+### setServiceCategory() {#setservicecategory}
+
+Identifies 3 digit service category.

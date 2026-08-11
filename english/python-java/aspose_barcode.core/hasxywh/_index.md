@@ -1,7 +1,6 @@
 ---
-title: "HasXYWH Class"
+title: "HasXYWH"
 linktitle: "HasXYWH"
-articleTitle: "HasXYWH"
 second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
@@ -20,4 +19,6 @@ url: /python-java/aspose_barcode.core/hasxywh/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [TypeAlias](./typealias/) | `` |  |
+| [TypeAlias](#typealias) | `` |  |
+### HasXYWH.TypeAlias {#typealias}
+

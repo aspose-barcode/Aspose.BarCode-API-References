@@ -1,8 +1,7 @@
 ---
 title: "CodeLocation"
 linktitle: "CodeLocation"
-articleTitle: "CodeLocation"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Codetext location"
 type: docs
 weight: 150

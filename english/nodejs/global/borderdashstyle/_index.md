@@ -1,8 +1,7 @@
 ---
 title: "BorderDashStyle"
 linktitle: "BorderDashStyle"
-articleTitle: "BorderDashStyle"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the style of dashed border lines."
 type: docs
 weight: 90

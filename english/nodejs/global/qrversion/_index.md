@@ -1,9 +1,8 @@
 ---
 title: "QRVersion"
 linktitle: "QRVersion"
-articleTitle: "QRVersion"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for MicroQr."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Version of QR Code."
 type: docs
 weight: 510
 url: /nodejs/global/qrversion/

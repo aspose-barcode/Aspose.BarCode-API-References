@@ -1,7 +1,6 @@
 ---
-title: "ThriftConnection Class"
+title: "ThriftConnection"
 linktitle: "ThriftConnection"
-articleTitle: "ThriftConnection"
 second_title: "Aspose.BarCode for PHP via Java"
 description: ""
 type: docs
@@ -18,5 +17,9 @@ url: /php/aspose.barcode.internal/thriftconnection/
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [closeConnection](./closeconnection/) | No |  |
-| [openConnection](./openconnection/) | No |  |
+| [closeConnection](#closeconnection) | No |  |
+| [openConnection](#openconnection) | No |  |
+### closeConnectioncloseConnection() {#closeconnection}
+
+### openConnectionopenConnection() {#openconnection}
+

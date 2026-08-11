@@ -1,7 +1,6 @@
 ---
-title: "SupplementParameters Class"
+title: "SupplementParameters"
 linktitle: "SupplementParameters"
-articleTitle: "SupplementParameters"
 second_title: "Aspose.BarCode for PHP via Java"
 description: "Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN."
 type: docs
@@ -21,11 +20,36 @@ Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA
 
 | Name | Description |
 | --- | --- |
-| [__construct](./supplementparameters/) |  |
+| [__construct](#constructor) |  |
 
 ## Properties
 
 | Name | Read/Write | Description |
 | --- | --- | --- |
-| [SupplementData](./supplementdata/) | Read/Write | Supplement data following BarCode. |
-| [SupplementSpace](./supplementspace/) | Read-only | Space between main the BarCode and supplement BarCode in Unit value. |
+| [SupplementData](#supplementdata) | Read/Write | Supplement data following BarCode. |
+| [SupplementSpace](#supplementspace) | Read-only | Space between main the BarCode and supplement BarCode in Unit value. |
+
+### SupplementParameters__construct(SupplementParametersDTO $supplementParametersDto) {#constructor}
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$supplementParametersDto` | `SupplementParametersDTO` |  |
+
+### SupplementData {#supplementdata}
+
+**Access:** Read/Write
+
+Supplement data following BarCode.
+
+Supplement data following BarCode.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$value` | `string` |  |
+
+### SupplementSpace {#supplementspace}
+
+**Access:** Read-only
+
+Space between main the BarCode and supplement BarCode in Unit value.
+

@@ -1,9 +1,8 @@
 ---
 title: "HanXinEncodeMode"
 linktitle: "HanXinEncodeMode"
-articleTitle: "HanXinEncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Han Xin Code encoding mode."
 type: docs
 weight: 330
 url: /nodejs/global/hanxinencodemode/

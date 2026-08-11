@@ -1,7 +1,6 @@
 ---
-title: "LicenseManager Class"
+title: "LicenseManager"
 linktitle: "LicenseManager"
-articleTitle: "LicenseManager"
 second_title: "Aspose.BarCode for PHP via Java"
 description: ""
 type: docs
@@ -18,12 +17,34 @@ url: /php/aspose.barcode.internal/licensemanager/
 
 | Name | Static | Description |
 | --- | --- | --- |
-| [loadLicense](./loadlicense/) | No |  |
-| [resetLicenseData](./resetlicensedata/) | No |  |
+| [loadLicense](#loadlicense) | No |  |
+| [resetLicenseData](#resetlicensedata) | No |  |
 
 ## Properties
 
-| Name | Read/Write | Description |
+| Name | Static | Read/Write | Description |
+| --- | --- | --- | --- |
+| [Instance](#instance) | Yes | Read-only |  |
+| [LicenseContent](#licensecontent) | No | Read/Write |  |
+### loadLicenseloadLicense(string $licenseFilePath) {#loadlicense}
+
+| Parameter | Type | Description |
 | --- | --- | --- |
-| [Instance](./instance/) | Read-only |  |
-| [LicenseContent](./licensecontent/) | Read/Write |  |
+| `$licenseFilePath` | `string` |  |
+
+### resetLicenseDataresetLicenseData() {#resetlicensedata}
+
+### Instance {#instance}
+
+**Access:** Read-only
+
+**Static:** Yes
+
+### LicenseContent {#licensecontent}
+
+**Access:** Read/Write
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `$licenseContent` | `?string` |  |
+

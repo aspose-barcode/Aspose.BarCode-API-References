@@ -1,8 +1,7 @@
 ---
 title: "BarCodeImageFormat"
 linktitle: "BarCodeImageFormat"
-articleTitle: "BarCodeImageFormat"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the file format of the image."
 type: docs
 weight: 60

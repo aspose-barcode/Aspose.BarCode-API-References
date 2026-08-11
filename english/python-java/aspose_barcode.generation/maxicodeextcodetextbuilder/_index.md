@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeExtCodetextBuilder Class"
+title: "MaxiCodeExtCodetextBuilder"
 linktitle: "MaxiCodeExtCodetextBuilder"
-articleTitle: "MaxiCodeExtCodetextBuilder"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visibl"
 type: docs
@@ -23,10 +22,27 @@ Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of M
 
 | Name | Description |
 | --- | --- |
-| [__init__](./maxicodeextcodetextbuilder/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [extended_codetext](./extended_codetext/) | `str` | No | Generates Extended codetext from the extended codetext list. |
+| [extended_codetext](#extended_codetext) | `str` | No | Generates Extended codetext from the extended codetext list. |
+
+### MaxiCodeExtCodetextBuilder Constructor {#constructor}
+
+```python
+__init__(self)
+```
+
+### MaxiCodeExtCodetextBuilder.extended_codetext {#extended_codetext}
+
+```python
+extended_codetext(self) -> str
+```
+
+Generates Extended codetext from the extended codetext list.
+
+**Return Type:** `str` — Extended codetext as string
+

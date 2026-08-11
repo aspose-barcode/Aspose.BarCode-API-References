@@ -1,8 +1,7 @@
 ---
-title: "RecognitionAbortedException Class"
+title: "RecognitionAbortedException"
 linktitle: "RecognitionAbortedException"
-articleTitle: "RecognitionAbortedException"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Represents recognition abort exception which is thrown in timeout exceeding during recognition with BarCodeReader."
 type: docs
 weight: 870
@@ -28,5 +27,19 @@ Initializes a new instance of the class with specified recognition abort message
 
 | Name | Description |
 | --- | --- |
-| [getExecutionTime()](./getexecutiontime/) | Gets the execution time of current recognition session |
-| [setExecutionTime(value)](./setexecutiontime/) | Sets the execution time of current recognition session |
+| [getExecutionTime()](#getexecutiontime) | Gets the execution time of current recognition session |
+| [setExecutionTime(value)](#setexecutiontime) | Sets the execution time of current recognition session |
+
+### getExecutionTime() {#getexecutiontime}
+
+Gets the execution time of current recognition session
+
+**Returns:** The execution time of current recognition session
+
+### setExecutionTime(value) {#setexecutiontime}
+
+Sets the execution time of current recognition session
+
+| Parameter | Description |
+| --- | --- |
+| value | The execution time of current recognition session |

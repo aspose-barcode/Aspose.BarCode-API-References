@@ -1,9 +1,8 @@
 ---
 title: "HanXinErrorLevel"
 linktitle: "HanXinErrorLevel"
-articleTitle: "HanXinErrorLevel"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Level of Reed-Solomon error correction."
 type: docs
 weight: 340
 url: /nodejs/global/hanxinerrorlevel/

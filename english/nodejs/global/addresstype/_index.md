@@ -1,8 +1,7 @@
 ---
 title: "AddressType"
 linktitle: "AddressType"
-articleTitle: "AddressType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Address type"
 type: docs
 weight: 10
