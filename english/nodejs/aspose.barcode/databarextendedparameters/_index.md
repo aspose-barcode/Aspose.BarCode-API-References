@@ -1,8 +1,7 @@
 ---
-title: "DataBarExtendedParameters Class"
+title: "DataBarExtendedParameters"
 linktitle: "DataBarExtendedParameters"
-articleTitle: "DataBarExtendedParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Stores a DataBar additional information of recognized barcode"
 type: docs
 weight: 310
@@ -35,7 +34,35 @@ for(let i = 0; i < results.length; i++)
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [is2DCompositeComponent()](./is2dcompositecomponent/) | Gets the DataBar 2D composite component flag. Default value is false. |
-| [toString()](./tostring/) | Returns a human-readable string representation of this . |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [is2DCompositeComponent()](#is2dcompositecomponent) | Gets the DataBar 2D composite component flag. Default value is false. |
+| [toString()](#tostring) | Returns a human-readable string representation of this . |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | DataBarExtendedParameters value to compare to this instance. |
+
+**Returns:** true if obj has the same value as this instance; otherwise, false .
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### is2DCompositeComponent() {#is2dcompositecomponent}
+
+Gets the DataBar 2D composite component flag. Default value is false.
+
+**Returns:** The DataBar 2D composite component flag.
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this .
+
+**Returns:** A string that represents this .

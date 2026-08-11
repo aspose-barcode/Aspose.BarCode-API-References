@@ -1,9 +1,8 @@
 ---
 title: "BarcodeQualityMode"
 linktitle: "BarcodeQualityMode"
-articleTitle: "BarcodeQualityMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Mode which enables methods to recognize barcode elements with the selected quality."
 type: docs
 weight: 80
 url: /nodejs/global/barcodequalitymode/

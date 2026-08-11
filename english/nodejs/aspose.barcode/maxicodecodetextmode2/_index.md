@@ -1,8 +1,7 @@
 ---
-title: "MaxiCodeCodetextMode2 Class"
+title: "MaxiCodeCodetextMode2"
 linktitle: "MaxiCodeCodetextMode2"
-articleTitle: "MaxiCodeCodetextMode2"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 2."
 type: docs
 weight: 610
@@ -37,4 +36,10 @@ This sample shows how to encode and decode MaxiCode codetext for mode 2.
 
 | Name | Description |
 | --- | --- |
-| [getMode()](./getmode/) | Gets MaxiCode mode. |
+| [getMode()](#getmode) | Gets MaxiCode mode. |
+
+### getMode() {#getmode}
+
+Gets MaxiCode mode.
+
+**Returns:** MaxiCode mode

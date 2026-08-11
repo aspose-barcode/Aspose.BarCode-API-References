@@ -1,8 +1,7 @@
 ---
 title: "DecodeType"
 linktitle: "DecodeType"
-articleTitle: "DecodeType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specify the type of barcode to read."
 type: docs
 weight: 210

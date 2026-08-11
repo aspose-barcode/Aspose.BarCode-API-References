@@ -1,8 +1,7 @@
 ---
 title: "FontStyle"
 linktitle: "FontStyle"
-articleTitle: "FontStyle"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "FontStyle classification"
 type: docs
 weight: 280

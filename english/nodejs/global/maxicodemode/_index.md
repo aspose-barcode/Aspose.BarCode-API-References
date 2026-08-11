@@ -1,8 +1,7 @@
 ---
 title: "MaxiCodeMode"
 linktitle: "MaxiCodeMode"
-articleTitle: "MaxiCodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Encoding mode for MaxiCode barcodes."
 type: docs
 weight: 410

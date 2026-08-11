@@ -1,9 +1,8 @@
 ---
-title: "HIBCLICCombinedCodetext Class"
+title: "HIBCLICCombinedCodetext"
 linktitle: "HIBCLICCombinedCodetext"
-articleTitle: "HIBCLICCombinedCodetext"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data. This sample shows how to encode and decode HIB..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data."
 type: docs
 weight: 440
 url: /nodejs/aspose.barcode/hibcliccombinedcodetext/
@@ -53,11 +52,57 @@ print("Date of manufacture: " + result.getSecondaryAndAdditionalData().getDateOf
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified `HIBCLICCombinedCodetext` value. |
-| [getConstructedCodetext()](./getconstructedcodetext/) | Constructs codetext |
-| [getPrimaryData()](./getprimarydata/) | Identifies primary data. |
-| [getSecondaryAndAdditionalData()](./getsecondaryandadditionaldata/) | Identifies secondary and additional supplemental data. |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [initFromString(constructedCodetext)](./initfromstring/) | Initializes instance from constructed codetext. |
-| [setPrimaryData()](./setprimarydata/) | Identifies primary data. |
-| [setSecondaryAndAdditionalData()](./setsecondaryandadditionaldata/) | Identifies secondary and additional supplemental data. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified `HIBCLICCombinedCodetext` value. |
+| [getConstructedCodetext()](#getconstructedcodetext) | Constructs codetext |
+| [getPrimaryData()](#getprimarydata) | Identifies primary data. |
+| [getSecondaryAndAdditionalData()](#getsecondaryandadditionaldata) | Identifies secondary and additional supplemental data. |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [initFromString(constructedCodetext)](#initfromstring) | Initializes instance from constructed codetext. |
+| [setPrimaryData()](#setprimarydata) | Identifies primary data. |
+| [setSecondaryAndAdditionalData()](#setsecondaryandadditionaldata) | Identifies secondary and additional supplemental data. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified `HIBCLICCombinedCodetext` value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An `HIBCLICCombinedCodetext` value to compare to this instance. |
+
+**Returns:** `true ` if obj has the same value as this instance; otherwise, `false `.
+
+### getConstructedCodetext() {#getconstructedcodetext}
+
+Constructs codetext
+
+**Returns:** Constructed codetext
+
+### getPrimaryData() {#getprimarydata}
+
+Identifies primary data.
+
+### getSecondaryAndAdditionalData() {#getsecondaryandadditionaldata}
+
+Identifies secondary and additional supplemental data.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### initFromString(constructedCodetext) {#initfromstring}
+
+Initializes instance from constructed codetext.
+
+| Parameter | Description |
+| --- | --- |
+| constructedCodetext | Constructed codetext. |
+
+### setPrimaryData() {#setprimarydata}
+
+Identifies primary data.
+
+### setSecondaryAndAdditionalData() {#setsecondaryandadditionaldata}
+
+Identifies secondary and additional supplemental data.

@@ -1,8 +1,7 @@
 ---
 title: "CodabarChecksumMode"
 linktitle: "CodabarChecksumMode"
-articleTitle: "CodabarChecksumMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the checksum algorithm for Codabar"
 type: docs
 weight: 110

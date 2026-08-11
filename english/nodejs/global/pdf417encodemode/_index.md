@@ -1,8 +1,7 @@
 ---
 title: "Pdf417EncodeMode"
 linktitle: "Pdf417EncodeMode"
-articleTitle: "Pdf417EncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Pdf417 barcode encode mode"
 type: docs
 weight: 450

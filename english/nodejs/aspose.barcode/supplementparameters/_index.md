@@ -1,9 +1,8 @@
 ---
-title: "SupplementParameters Class"
+title: "SupplementParameters"
 linktitle: "SupplementParameters"
-articleTitle: "SupplementParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Supplement parameters."
 type: docs
 weight: 900
 url: /nodejs/aspose.barcode/supplementparameters/
@@ -21,7 +20,27 @@ new SupplementParameters()
 
 | Name | Description |
 | --- | --- |
-| [getSupplementData()](./getsupplementdata/) | Supplement data following BarCode. |
-| [getSupplementSpace()](./getsupplementspace/) | Space between main the BarCode and supplement BarCode in Unit value. |
-| [setSupplementData()](./setsupplementdata/) | Supplement data following BarCode. |
-| [toString()](./tostring/) | Returns a human-readable string representation of this SupplementParameters. |
+| [getSupplementData()](#getsupplementdata) | Supplement data following BarCode. |
+| [getSupplementSpace()](#getsupplementspace) | Space between main the BarCode and supplement BarCode in Unit value. |
+| [setSupplementData()](#setsupplementdata) | Supplement data following BarCode. |
+| [toString()](#tostring) | Returns a human-readable string representation of this SupplementParameters. |
+
+### getSupplementData() {#getsupplementdata}
+
+Supplement data following BarCode.
+
+### getSupplementSpace() {#getsupplementspace}
+
+Space between main the BarCode and supplement BarCode in Unit value.
+
+**Throws:** IllegalArgumentExceptionThe Space parameter value is less than 0.
+
+### setSupplementData() {#setsupplementdata}
+
+Supplement data following BarCode.
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this SupplementParameters.
+
+**Returns:** A string that represents this SupplementParameters.

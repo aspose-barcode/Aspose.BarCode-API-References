@@ -1,8 +1,7 @@
 ---
-title: "FontUnit Class"
+title: "FontUnit"
 linktitle: "FontUnit"
-articleTitle: "FontUnit"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Defines a particular format for text, including font face, size, and style attributes where size in Unit value property."
 type: docs
 weight: 410
@@ -33,8 +32,30 @@ This sample shows how to create and save a BarCode image.
 
 | Name | Description |
 | --- | --- |
-| [getFamilyName()](./getfamilyname/) | Gets the face name of this Font. |
-| [getSize()](./getsize/) | Gets size of this FontUnit in Unit value. |
-| [getStyle()](./getstyle/) | Gets style information for this FontUnit. |
-| [setFamilyName()](./setfamilyname/) | Sets the face name of this Font. |
-| [setStyle()](./setstyle/) | Sets style information for this FontUnit. |
+| [getFamilyName()](#getfamilyname) | Gets the face name of this Font. |
+| [getSize()](#getsize) | Gets size of this FontUnit in Unit value. |
+| [getStyle()](#getstyle) | Gets style information for this FontUnit. |
+| [setFamilyName()](#setfamilyname) | Sets the face name of this Font. |
+| [setStyle()](#setstyle) | Sets style information for this FontUnit. |
+
+### getFamilyName() {#getfamilyname}
+
+Gets the face name of this Font.
+
+### getSize() {#getsize}
+
+Gets size of this FontUnit in Unit value.
+
+**Throws:** IllegalArgumentExceptionThe Size parameter value is less than or equal to 0.
+
+### getStyle() {#getstyle}
+
+Gets style information for this FontUnit.
+
+### setFamilyName() {#setfamilyname}
+
+Sets the face name of this Font.
+
+### setStyle() {#setstyle}
+
+Sets style information for this FontUnit.

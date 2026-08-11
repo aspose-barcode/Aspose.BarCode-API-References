@@ -1,9 +1,8 @@
 ---
 title: "ComplexBackgroundMode"
 linktitle: "ComplexBackgroundMode"
-articleTitle: "ComplexBackgroundMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Mode which enables or disables additional recognition of color barcodes on color images. This sample shows how to use ComplexBackground mode let reader = new..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Mode which enables or disables additional recognition of color barcodes on color images."
 type: docs
 weight: 160
 url: /nodejs/global/complexbackgroundmode/

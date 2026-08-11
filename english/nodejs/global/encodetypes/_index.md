@@ -1,8 +1,7 @@
 ---
 title: "EncodeTypes"
 linktitle: "EncodeTypes"
-articleTitle: "EncodeTypes"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the type of barcode to encode."
 type: docs
 weight: 260

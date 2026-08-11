@@ -1,9 +1,8 @@
 ---
 title: "RectMicroQRVersion"
 linktitle: "RectMicroQRVersion"
-articleTitle: "RectMicroQRVersion"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Version of RectMicroQR Code. From version R7x43 to version R17x139."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Version of RectMicroQR Code."
 type: docs
 weight: 540
 url: /nodejs/global/rectmicroqrversion/

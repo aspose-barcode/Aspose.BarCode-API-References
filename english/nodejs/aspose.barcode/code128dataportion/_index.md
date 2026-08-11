@@ -1,8 +1,7 @@
 ---
-title: "Code128DataPortion Class"
+title: "Code128DataPortion"
 linktitle: "Code128DataPortion"
-articleTitle: "Code128DataPortion"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Contains the data of subtype for Code128 type barcode"
 type: docs
 weight: 230
@@ -23,6 +22,24 @@ Creates a new instance of the `Code128DataPortion` class with start code symbol 
 
 | Name | Description |
 | --- | --- |
-| [getCode128SubType()](./getcode128subtype/) | Gets the type of Code128 subset |
-| [getData()](./getdata/) | Gets the part of code text related to subtype. |
-| [toString()](./tostring/) | Returns a human-readable string representation of this `Code128DataPortion`. |
+| [getCode128SubType()](#getcode128subtype) | Gets the type of Code128 subset |
+| [getData()](#getdata) | Gets the part of code text related to subtype. |
+| [toString()](#tostring) | Returns a human-readable string representation of this `Code128DataPortion`. |
+
+### getCode128SubType() {#getcode128subtype}
+
+Gets the type of Code128 subset
+
+**Returns:** The type of Code128 subset
+
+### getData() {#getdata}
+
+Gets the part of code text related to subtype.
+
+**Returns:** The part of code text related to subtype
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this `Code128DataPortion`.
+
+**Returns:** A string that represents this `Code128DataPortion`.

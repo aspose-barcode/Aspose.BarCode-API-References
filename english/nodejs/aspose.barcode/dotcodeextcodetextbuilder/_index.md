@@ -1,8 +1,7 @@
 ---
-title: "DotCodeExtCodetextBuilder Class"
+title: "DotCodeExtCodetextBuilder"
 linktitle: "DotCodeExtCodetextBuilder"
-articleTitle: "DotCodeExtCodetextBuilder"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode"
 type: docs
 weight: 370
@@ -45,8 +44,35 @@ generator.save("test.bmp", BarCodeImageFormat.BMP);
 
 | Name | Description |
 | --- | --- |
-| [addFNC1FormatIdentifier()](./addfnc1formatidentifier/) | Adds FNC1 format identifier to the extended codetext items |
-| [addFNC3ReaderInitialization()](./addfnc3readerinitialization/) | Adds FNC3 reader initialization to the extended codetext items |
-| [addFNC3SymbolSeparator()](./addfnc3symbolseparator/) | Adds FNC3 symbol separator to the extended codetext items |
-| [addStructuredAppendMode(barcodeId, barcodesCount)](./addstructuredappendmode/) | Adds structured append mode to the extended codetext items |
-| [getExtendedCodetext()](./getextendedcodetext/) | Generates Extended codetext from the extended codetext list. |
+| [addFNC1FormatIdentifier()](#addfnc1formatidentifier) | Adds FNC1 format identifier to the extended codetext items |
+| [addFNC3ReaderInitialization()](#addfnc3readerinitialization) | Adds FNC3 reader initialization to the extended codetext items |
+| [addFNC3SymbolSeparator()](#addfnc3symbolseparator) | Adds FNC3 symbol separator to the extended codetext items |
+| [addStructuredAppendMode(barcodeId, barcodesCount)](#addstructuredappendmode) | Adds structured append mode to the extended codetext items |
+| [getExtendedCodetext()](#getextendedcodetext) | Generates Extended codetext from the extended codetext list. |
+
+### addFNC1FormatIdentifier() {#addfnc1formatidentifier}
+
+Adds FNC1 format identifier to the extended codetext items
+
+### addFNC3ReaderInitialization() {#addfnc3readerinitialization}
+
+Adds FNC3 reader initialization to the extended codetext items
+
+### addFNC3SymbolSeparator() {#addfnc3symbolseparator}
+
+Adds FNC3 symbol separator to the extended codetext items
+
+### addStructuredAppendMode(barcodeId, barcodesCount) {#addstructuredappendmode}
+
+Adds structured append mode to the extended codetext items
+
+| Parameter | Description |
+| --- | --- |
+| barcodeId | ID of barcode |
+| barcodesCount | Barcodes count |
+
+### getExtendedCodetext() {#getextendedcodetext}
+
+Generates Extended codetext from the extended codetext list.
+
+**Returns:** Extended codetext as string

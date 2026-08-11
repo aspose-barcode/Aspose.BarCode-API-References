@@ -1,9 +1,8 @@
 ---
 title: "MacroCharacter"
 linktitle: "MacroCharacter"
-articleTitle: "MacroCharacter"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to '[)>\u001E05\u001D' as decod..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes."
 type: docs
 weight: 380
 url: /nodejs/global/macrocharacter/

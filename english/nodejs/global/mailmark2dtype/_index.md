@@ -1,8 +1,7 @@
 ---
 title: "Mailmark2DType"
 linktitle: "Mailmark2DType"
-articleTitle: "Mailmark2DType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "2D Mailmark Type defines size of Data Matrix barcode"
 type: docs
 weight: 390

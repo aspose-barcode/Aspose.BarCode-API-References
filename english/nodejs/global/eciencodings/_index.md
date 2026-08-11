@@ -1,9 +1,8 @@
 ---
 title: "ECIEncodings"
 linktitle: "ECIEncodings"
-articleTitle: "ECIEncodings"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Cur..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Extended Channel Interpretation Identifiers."
 type: docs
 weight: 240
 url: /nodejs/global/eciencodings/

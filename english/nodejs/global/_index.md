@@ -1,15 +1,13 @@
 ---
 title: "Global"
 linktitle: "Global"
-articleTitle: "Global"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Provides global enums and utility classes for barcode configuration, encoding modes, image formats, and quality settings in Aspose.BarCode for Node.js via Java."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "The Global namespace groups core enumerations and utility classes used across Aspose.BarCode for Node.js via Java."
 type: docs
 weight: 20
 url: /nodejs/global/
 ---
-
-The Global namespace groups core enumerations and helper classes that define barcode types, sizing behavior, encoding options, image output formats, and confidence metrics. Use these definitions to configure barcode generation and recognition throughout the Aspose.BarCode for Node.js via Java library.
+The Global namespace provides a collection of fundamental enumerations and helper types that define barcode properties such as encoding modes, symbol sizes, confidence levels, and image formats. These definitions are referenced throughout the Aspose.BarCode API to configure and interpret barcode generation and recognition.
 
 ## Enumerations
 
@@ -71,9 +69,3 @@ The Global namespace groups core enumerations and helper classes that define bar
 | [RectMicroQRVersion](./rectmicroqrversion/) | Version of RectMicroQR Code. From version R7x43 to version R17x139. |
 | [SvgColorMode](./svgcolormode/) | Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG |
 | [TextAlignment](./textalignment/) | Text alignment. |
-| [TwoDComponentType](./twodcomponenttype/) | Type of 2D component This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D co |
-| [USADriveIdCountry](./usadriveidcountry/) | Enum for Country Identification in the US Driver's License |
-| [USADriveIdEyeColor](./usadriveideyecolor/) | Enum for Eye Color in the US Driver's License |
-| [USADriveIdHairColor](./usadriveidhaircolor/) | Enum for Hair Color in the US Driver's License |
-| [USADriveIdSex](./usadriveidsex/) | Enum for Sex field in the US Driver's License |
-| [XDimensionMode](./xdimensionmode/) | Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. This sample shows  |

@@ -1,8 +1,7 @@
 ---
 title: "HIBCPASDataLocation"
 linktitle: "HIBCPASDataLocation"
-articleTitle: "HIBCPASDataLocation"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "HIBC PAS data location types."
 type: docs
 weight: 310

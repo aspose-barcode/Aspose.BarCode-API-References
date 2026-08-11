@@ -1,9 +1,8 @@
 ---
-title: "AztecExtCodetextBuilder Class"
+title: "AztecExtCodetextBuilder"
 linktitle: "AztecExtCodetextBuilder"
-articleTitle: "AztecExtCodetextBuilder"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible t..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text"
 type: docs
 weight: 50
 url: /nodejs/aspose.barcode/aztecextcodetextbuilder/
@@ -38,4 +37,10 @@ new AztecExtCodetextBuilder()
 
 | Name | Description |
 | --- | --- |
-| [getExtendedCodetext()](./getextendedcodetext/) | Generates Extended codetext from the extended codetext list. |
+| [getExtendedCodetext()](#getextendedcodetext) | Generates Extended codetext from the extended codetext list. |
+
+### getExtendedCodetext() {#getextendedcodetext}
+
+Generates Extended codetext from the extended codetext list.
+
+**Returns:** Extended codetext as string

@@ -1,9 +1,8 @@
 ---
-title: "HanXinExtCodetextBuilder Class"
+title: "HanXinExtCodetextBuilder"
 linktitle: "HanXinExtCodetextBuilder"
-articleTitle: "HanXinExtCodetextBuilder"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode //Extended codetext mode //create codetext let codeTextBuilder = new HanXi..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Extended codetext generator for Han Xin Code for Extended Mode of HanXinEncodeMode //Extended codetext mode //create codetext let codeTextBuilder = new HanXinEx"
 type: docs
 weight: 500
 url: /nodejs/aspose.barcode/hanxinextcodetextbuilder/
@@ -21,16 +20,119 @@ new HanXinExtCodetextBuilder()
 
 | Name | Description |
 | --- | --- |
-| [addAuto(text)](./addauto/) | Adds codetext fragment in Auto mode |
-| [addBinary(text)](./addbinary/) | Adds codetext fragment in Binary mode |
-| [addCommonChineseRegionOne(text)](./addcommonchineseregionone/) | Adds codetext fragment in Common Chinese Region One mode |
-| [addCommonChineseRegionTwo(text)](./addcommonchineseregiontwo/) | Adds codetext fragment in Common Chinese Region Two mode |
-| [addECI(text, encoding)](./addeci/) | Adds codetext fragment in ECI mode |
-| [addGB18030FourByte(text)](./addgb18030fourbyte/) | Adds codetext fragment in GB18030 Four Byte mode |
-| [addGB18030TwoByte(text)](./addgb18030twobyte/) | Adds codetext fragment in GB18030 Two Byte mode |
-| [addGS1(text)](./addgs1/) | Adds codetext fragment in GS1 mode |
-| [addNumeric(text)](./addnumeric/) | Adds codetext fragment in Numeric mode |
-| [addText(text)](./addtext/) | Adds codetext fragment in Text mode |
-| [addUnicode(text)](./addunicode/) | Adds codetext fragment in Unicode mode |
-| [addURI(text)](./adduri/) | Adds codetext fragment in URI mode |
-| [getExtendedCodetext()](./getextendedcodetext/) | Returns codetext from Extended mode codetext builder |
+| [addAuto(text)](#addauto) | Adds codetext fragment in Auto mode |
+| [addBinary(text)](#addbinary) | Adds codetext fragment in Binary mode |
+| [addCommonChineseRegionOne(text)](#addcommonchineseregionone) | Adds codetext fragment in Common Chinese Region One mode |
+| [addCommonChineseRegionTwo(text)](#addcommonchineseregiontwo) | Adds codetext fragment in Common Chinese Region Two mode |
+| [addECI(text, encoding)](#addeci) | Adds codetext fragment in ECI mode |
+| [addGB18030FourByte(text)](#addgb18030fourbyte) | Adds codetext fragment in GB18030 Four Byte mode |
+| [addGB18030TwoByte(text)](#addgb18030twobyte) | Adds codetext fragment in GB18030 Two Byte mode |
+| [addGS1(text)](#addgs1) | Adds codetext fragment in GS1 mode |
+| [addNumeric(text)](#addnumeric) | Adds codetext fragment in Numeric mode |
+| [addText(text)](#addtext) | Adds codetext fragment in Text mode |
+| [addUnicode(text)](#addunicode) | Adds codetext fragment in Unicode mode |
+| [addURI(text)](#adduri) | Adds codetext fragment in URI mode |
+| [getExtendedCodetext()](#getextendedcodetext) | Returns codetext from Extended mode codetext builder |
+
+### addAuto(text) {#addauto}
+
+Adds codetext fragment in Auto mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addBinary(text) {#addbinary}
+
+Adds codetext fragment in Binary mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addCommonChineseRegionOne(text) {#addcommonchineseregionone}
+
+Adds codetext fragment in Common Chinese Region One mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addCommonChineseRegionTwo(text) {#addcommonchineseregiontwo}
+
+Adds codetext fragment in Common Chinese Region Two mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addECI(text, encoding) {#addeci}
+
+Adds codetext fragment in ECI mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+| encoding | ECI encoding in number format |
+
+### addGB18030FourByte(text) {#addgb18030fourbyte}
+
+Adds codetext fragment in GB18030 Four Byte mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addGB18030TwoByte(text) {#addgb18030twobyte}
+
+Adds codetext fragment in GB18030 Two Byte mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addGS1(text) {#addgs1}
+
+Adds codetext fragment in GS1 mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addNumeric(text) {#addnumeric}
+
+Adds codetext fragment in Numeric mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addText(text) {#addtext}
+
+Adds codetext fragment in Text mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addUnicode(text) {#addunicode}
+
+Adds codetext fragment in Unicode mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### addURI(text) {#adduri}
+
+Adds codetext fragment in URI mode
+
+| Parameter | Description |
+| --- | --- |
+| text | Codetext string |
+
+### getExtendedCodetext() {#getextendedcodetext}
+
+Returns codetext from Extended mode codetext builder
+
+**Returns:** Codetext in Extended mode

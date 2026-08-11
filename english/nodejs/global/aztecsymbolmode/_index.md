@@ -1,8 +1,7 @@
 ---
 title: "AztecSymbolMode"
 linktitle: "AztecSymbolMode"
-articleTitle: "AztecSymbolMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies the Aztec symbol mode."
 type: docs
 weight: 40

@@ -1,8 +1,7 @@
 ---
 title: "BarCodeConfidence"
 linktitle: "BarCodeConfidence"
-articleTitle: "BarCodeConfidence"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Contains recognition confidence level"
 type: docs
 weight: 50

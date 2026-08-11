@@ -1,8 +1,7 @@
 ---
-title: "HslaColor Class"
+title: "HslaColor"
 linktitle: "HslaColor"
-articleTitle: "HslaColor"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Class for representing HSLA color (Hue, Saturation, Lightness, Alpha)"
 type: docs
 weight: 520
@@ -30,4 +29,14 @@ Constructor for HslaColor
 
 | Name | Description |
 | --- | --- |
-| [convertHslaToRgba(hslaColor)](./converthslatorgba/) *(static)* | Uses https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB |
+| [convertHslaToRgba(hslaColor)](#converthslatorgba) *(static)* | Uses https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB |
+
+### convertHslaToRgba(hslaColor) (static) {#converthslatorgba}
+
+Uses https://en.wikipedia.org/wiki/HSL_and_HSV#HSL_to_RGB
+
+| Parameter | Description |
+| --- | --- |
+| hslaColor | HSLA color to convert |
+
+**Returns:** string with RGBA values

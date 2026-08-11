@@ -1,8 +1,7 @@
 ---
-title: "Pdf417ExtendedParameters Class"
+title: "Pdf417ExtendedParameters"
 linktitle: "Pdf417ExtendedParameters"
-articleTitle: "Pdf417ExtendedParameters"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Stores a MacroPdf417 metadata information of recognized barcode"
 type: docs
 weight: 760
@@ -43,19 +42,111 @@ for(let i = 0; i < results.length; i++)
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | Returns a value indicating whether this instance is equal to a specified Pdf417ExtendedParameters value. |
-| [getMacroPdf417Addressee()](./getmacropdf417addressee/) | Macro PDF417 addressee name (optional). |
-| [getMacroPdf417Checksum()](./getmacropdf417checksum/) | Macro PDF417 checksum (optional). |
-| [getMacroPdf417FileID()](./getmacropdf417fileid/) | Gets the file ID of the barcode, only available with MacroPdf417.Value: The file ID for MacroPdf417 |
-| [getMacroPdf417FileName()](./getmacropdf417filename/) | Macro PDF417 file name (optional). |
-| [getMacroPdf417FileSize()](./getmacropdf417filesize/) | Macro PDF417 file size (optional). |
-| [getMacroPdf417SegmentID()](./getmacropdf417segmentid/) | Gets the segment ID of the barcode,only available with MacroPdf417.Value: The segment ID of the barcode. |
-| [getMacroPdf417SegmentsCount()](./getmacropdf417segmentscount/) | Gets macro pdf417 barcode segments count. Default value is -1.Value: Segments count. |
-| [getMacroPdf417Sender()](./getmacropdf417sender/) | Macro PDF417 sender name (optional). |
-| [getMacroPdf417Terminator()](./getmacropdf417terminator/) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
-| [getMacroPdf417TimeStamp()](./getmacropdf417timestamp/) | Macro PDF417 time stamp (optional). |
-| [hashCode()](./hashcode/) | Returns the hash code for this instance. |
-| [isCode128Emulation()](./iscode128emulation/) | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
-| [isLinked()](./islinked/) | Flag that indicates that the barcode must be linked to 1D barcode. Value: Linkage flag |
-| [isReaderInitialization()](./isreaderinitialization/) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
-| [toString()](./tostring/) | Returns a human-readable string representation of this Pdf417ExtendedParameters. |
+| [equals(obj)](#equals) | Returns a value indicating whether this instance is equal to a specified Pdf417ExtendedParameters value. |
+| [getMacroPdf417Addressee()](#getmacropdf417addressee) | Macro PDF417 addressee name (optional). |
+| [getMacroPdf417Checksum()](#getmacropdf417checksum) | Macro PDF417 checksum (optional). |
+| [getMacroPdf417FileID()](#getmacropdf417fileid) | Gets the file ID of the barcode, only available with MacroPdf417.Value: The file ID for MacroPdf417 |
+| [getMacroPdf417FileName()](#getmacropdf417filename) | Macro PDF417 file name (optional). |
+| [getMacroPdf417FileSize()](#getmacropdf417filesize) | Macro PDF417 file size (optional). |
+| [getMacroPdf417SegmentID()](#getmacropdf417segmentid) | Gets the segment ID of the barcode,only available with MacroPdf417.Value: The segment ID of the barcode. |
+| [getMacroPdf417SegmentsCount()](#getmacropdf417segmentscount) | Gets macro pdf417 barcode segments count. Default value is -1.Value: Segments count. |
+| [getMacroPdf417Sender()](#getmacropdf417sender) | Macro PDF417 sender name (optional). |
+| [getMacroPdf417Terminator()](#getmacropdf417terminator) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
+| [getMacroPdf417TimeStamp()](#getmacropdf417timestamp) | Macro PDF417 time stamp (optional). |
+| [hashCode()](#hashcode) | Returns the hash code for this instance. |
+| [isCode128Emulation()](#iscode128emulation) | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
+| [isLinked()](#islinked) | Flag that indicates that the barcode must be linked to 1D barcode. Value: Linkage flag |
+| [isReaderInitialization()](#isreaderinitialization) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
+| [toString()](#tostring) | Returns a human-readable string representation of this Pdf417ExtendedParameters. |
+
+### equals(obj) {#equals}
+
+Returns a value indicating whether this instance is equal to a specified Pdf417ExtendedParameters value.
+
+| Parameter | Description |
+| --- | --- |
+| obj | An System.Object value to compare to this instance. |
+
+**Returns:** true if obj has the same value as this instance; otherwise, false.
+
+### getMacroPdf417Addressee() {#getmacropdf417addressee}
+
+Macro PDF417 addressee name (optional).
+
+**Returns:** Addressee name.
+
+### getMacroPdf417Checksum() {#getmacropdf417checksum}
+
+Macro PDF417 checksum (optional).
+
+**Returns:** Checksum.
+
+### getMacroPdf417FileID() {#getmacropdf417fileid}
+
+Gets the file ID of the barcode, only available with MacroPdf417.Value: The file ID for MacroPdf417
+
+### getMacroPdf417FileName() {#getmacropdf417filename}
+
+Macro PDF417 file name (optional).
+
+**Returns:** File name.
+
+### getMacroPdf417FileSize() {#getmacropdf417filesize}
+
+Macro PDF417 file size (optional).
+
+**Returns:** File size.
+
+### getMacroPdf417SegmentID() {#getmacropdf417segmentid}
+
+Gets the segment ID of the barcode,only available with MacroPdf417.Value: The segment ID of the barcode.
+
+### getMacroPdf417SegmentsCount() {#getmacropdf417segmentscount}
+
+Gets macro pdf417 barcode segments count. Default value is -1.Value: Segments count.
+
+### getMacroPdf417Sender() {#getmacropdf417sender}
+
+Macro PDF417 sender name (optional).
+
+**Returns:** Sender name
+
+### getMacroPdf417Terminator() {#getmacropdf417terminator}
+
+Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization.
+
+**Returns:** Reader initialization flag
+
+### getMacroPdf417TimeStamp() {#getmacropdf417timestamp}
+
+Macro PDF417 time stamp (optional).
+
+**Returns:** Time stamp.
+
+### hashCode() {#hashcode}
+
+Returns the hash code for this instance.
+
+**Returns:** A 32-bit signed integer hash code.
+
+### isCode128Emulation() {#iscode128emulation}
+
+Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords.
+
+**Returns:** Code 128 emulation flag
+
+### isLinked() {#islinked}
+
+Flag that indicates that the barcode must be linked to 1D barcode. Value: Linkage flag
+
+### isReaderInitialization() {#isreaderinitialization}
+
+Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization.
+
+**Returns:** Reader initialization flag
+
+### toString() {#tostring}
+
+Returns a human-readable string representation of this Pdf417ExtendedParameters.
+
+**Returns:** A string that represents this Pdf417ExtendedParameters.

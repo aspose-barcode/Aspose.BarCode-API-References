@@ -1,8 +1,7 @@
 ---
 title: "ITF14BorderType"
 linktitle: "ITF14BorderType"
-articleTitle: "ITF14BorderType"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "ITF14 barcode's border type"
 type: docs
 weight: 360

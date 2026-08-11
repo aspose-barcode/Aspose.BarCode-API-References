@@ -1,8 +1,7 @@
 ---
-title: "License Class"
+title: "License"
 linktitle: "License"
-articleTitle: "License"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Provides methods to license the component."
 type: docs
 weight: 560
@@ -23,4 +22,12 @@ Initializes a new instance of this class.
 
 | Name | Description |
 | --- | --- |
-| [setLicense(licensePath)](./setlicense/) | Licenses the component. |
+| [setLicense(licensePath)](#setlicense) | Licenses the component. |
+
+### setLicense(licensePath) {#setlicense}
+
+Licenses the component.
+
+| Parameter | Description |
+| --- | --- |
+| licensePath | path to license file |

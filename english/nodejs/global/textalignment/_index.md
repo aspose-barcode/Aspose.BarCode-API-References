@@ -1,8 +1,7 @@
 ---
 title: "TextAlignment"
 linktitle: "TextAlignment"
-articleTitle: "TextAlignment"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Text alignment."
 type: docs
 weight: 560

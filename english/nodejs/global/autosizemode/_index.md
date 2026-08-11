@@ -1,9 +1,8 @@
 ---
 title: "AutoSizeMode"
 linktitle: "AutoSizeMode"
-articleTitle: "AutoSizeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Specifies the different types of automatic sizing modes. Default value is AutoSizeMode.NONE."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Specifies the different types of automatic sizing modes."
 type: docs
 weight: 20
 url: /nodejs/global/autosizemode/

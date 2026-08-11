@@ -1,8 +1,7 @@
 ---
 title: "Pdf417CompactionMode"
 linktitle: "Pdf417CompactionMode"
-articleTitle: "Pdf417CompactionMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Pdf417 barcode's compation mode"
 type: docs
 weight: 440

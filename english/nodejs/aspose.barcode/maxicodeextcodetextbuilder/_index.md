@@ -1,9 +1,8 @@
 ---
-title: "MaxiCodeExtCodetextBuilder Class"
+title: "MaxiCodeExtCodetextBuilder"
 linktitle: "MaxiCodeExtCodetextBuilder"
-articleTitle: "MaxiCodeExtCodetextBuilder"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set vis..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visibl"
 type: docs
 weight: 630
 url: /nodejs/aspose.barcode/maxicodeextcodetextbuilder/
@@ -40,4 +39,10 @@ generator.save("test.bmp", BarcodeImageFormat.BMP);
 
 | Name | Description |
 | --- | --- |
-| [getExtendedCodetext()](./getextendedcodetext/) | Generates Extended codetext from the extended codetext list. |
+| [getExtendedCodetext()](#getextendedcodetext) | Generates Extended codetext from the extended codetext list. |
+
+### getExtendedCodetext() {#getextendedcodetext}
+
+Generates Extended codetext from the extended codetext list.
+
+**Returns:** Extended codetext as string

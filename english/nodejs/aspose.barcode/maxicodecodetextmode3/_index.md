@@ -1,9 +1,8 @@
 ---
-title: "MaxiCodeCodetextMode3 Class"
+title: "MaxiCodeCodetextMode3"
 linktitle: "MaxiCodeCodetextMode3"
-articleTitle: "MaxiCodeCodetextMode3"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 3. This sample shows how to encode and decode MaxiCode codetext for mode 3."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 3."
 type: docs
 weight: 620
 url: /nodejs/aspose.barcode/maxicodecodetextmode3/
@@ -36,4 +35,10 @@ new MaxiCodeCodetextMode3()
 
 | Name | Description |
 | --- | --- |
-| [getMode()](./getmode/) | Gets MaxiCode mode. |
+| [getMode()](#getmode) | Gets MaxiCode mode. |
+
+### getMode() {#getmode}
+
+Gets MaxiCode mode.
+
+**Returns:** MaxiCode mode

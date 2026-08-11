@@ -1,9 +1,8 @@
 ---
 title: "EnableChecksum"
 linktitle: "EnableChecksum"
-articleTitle: "EnableChecksum"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Enable checksum during generation for 1D barcodes. Default is treated as Yes for symbologies which must contain checksum, as No where checksum only possible...."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Enable checksum during generation for 1D barcodes."
 type: docs
 weight: 250
 url: /nodejs/global/enablechecksum/

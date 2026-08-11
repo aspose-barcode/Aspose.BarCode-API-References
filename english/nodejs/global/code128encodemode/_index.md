@@ -1,9 +1,8 @@
 ---
 title: "Code128EncodeMode"
 linktitle: "Code128EncodeMode"
-articleTitle: "Code128EncodeMode"
-second_title: "Aspose.BarCode for Node.js via Java"
-description: "Encoding mode for Code128 barcodes. `Code 128` specification. Thos code demonstrates how to generate code 128 with different encodings //Generate code 128 wi..."
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
+description: "Encoding mode for Code128 barcodes."
 type: docs
 weight: 130
 url: /nodejs/global/code128encodemode/

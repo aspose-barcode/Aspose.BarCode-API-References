@@ -1,8 +1,7 @@
 ---
 title: "QrExtCompactionMode"
 linktitle: "QrExtCompactionMode"
-articleTitle: "QrExtCompactionMode"
-second_title: "Aspose.BarCode for Node.js via Java"
+second_title: "Aspose.BarCode for Node.js via Java API Reference"
 description: "Specifies QR compaction mode for codetext added by QrExtCodetextBuilder."
 type: docs
 weight: 530
