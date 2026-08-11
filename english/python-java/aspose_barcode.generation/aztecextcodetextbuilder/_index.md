@@ -1,7 +1,6 @@
 ---
-title: "AztecExtCodetextBuilder Class"
+title: "AztecExtCodetextBuilder"
 linktitle: "AztecExtCodetextBuilder"
-articleTitle: "AztecExtCodetextBuilder"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text"
 type: docs
@@ -23,10 +22,27 @@ Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of Azte
 
 | Name | Description |
 | --- | --- |
-| [__init__](./aztecextcodetextbuilder/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [extended_codetext](./extended_codetext/) | `Optional[str]` | No | Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder. |
+| [extended_codetext](#extended_codetext) | `Optional[str]` | No | Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder. |
+
+### AztecExtCodetextBuilder Constructor {#constructor}
+
+```python
+__init__(self)
+```
+
+### AztecExtCodetextBuilder.extended_codetext {#extended_codetext}
+
+```python
+extended_codetext(self) -> Optional[str]
+```
+
+Generates Extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as string. Reimplemented from ExtCodetextBuilder.
+
+**Return Type:** `Optional[str]`
+

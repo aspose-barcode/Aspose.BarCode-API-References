@@ -1,7 +1,6 @@
 ---
-title: "AddressType Enum"
+title: "AddressType"
 linktitle: "AddressType"
-articleTitle: "AddressType"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Address type."
 type: docs
@@ -21,7 +20,31 @@ Address type.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [COMBINED_ELEMENTS](./combined_elements/) | `2` |  |
-| [CONFLICTING](./conflicting/) | `3` |  |
-| [STRUCTURED](./structured/) | `1` |  |
-| [UNDETERMINED](./undetermined/) | `0` |  |
+| [COMBINED_ELEMENTS](#combined_elements) | `2` |  |
+| [CONFLICTING](#conflicting) | `3` |  |
+| [STRUCTURED](#structured) | `1` |  |
+| [UNDETERMINED](#undetermined) | `0` |  |
+### AddressType.COMBINED_ELEMENTS {#combined_elements}
+
+**Type:** `int`
+
+**Value:** `2`
+
+### AddressType.CONFLICTING {#conflicting}
+
+**Type:** `int`
+
+**Value:** `3`
+
+### AddressType.STRUCTURED {#structured}
+
+**Type:** `int`
+
+**Value:** `1`
+
+### AddressType.UNDETERMINED {#undetermined}
+
+**Type:** `int`
+
+**Value:** `0`
+

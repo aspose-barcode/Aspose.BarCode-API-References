@@ -1,7 +1,6 @@
 ---
-title: "Code128SubType Enum"
+title: "Code128SubType"
 linktitle: "Code128SubType"
-articleTitle: "Code128SubType"
 second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs
@@ -18,6 +17,30 @@ url: /python-java/aspose_barcode.recognition/code128subtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [CODE_SET_A](./code_set_a/) | `1` | ASCII characters 00 to 95 (0–9, A–Z and control codes), special characters, and FNC 1–4. |
-| [CODE_SET_B](./code_set_b/) | `2` | ASCII characters 32 to 127 (0–9, A–Z, a–z), special characters, and FNC 1–4. |
-| [CODE_SET_C](./code_set_c/) | `3` | 00–99 (encodes two digits with a single code point) and FNC1 |
+| [CODE_SET_A](#code_set_a) | `1` | ASCII characters 00 to 95 (0–9, A–Z and control codes), special characters, and FNC 1–4. |
+| [CODE_SET_B](#code_set_b) | `2` | ASCII characters 32 to 127 (0–9, A–Z, a–z), special characters, and FNC 1–4. |
+| [CODE_SET_C](#code_set_c) | `3` | 00–99 (encodes two digits with a single code point) and FNC1 |
+### Code128SubType.CODE_SET_A {#code_set_a}
+
+**Type:** `int`
+
+**Value:** `1`
+
+ASCII characters 00 to 95 (0–9, A–Z and control codes), special characters, and FNC 1–4.
+
+### Code128SubType.CODE_SET_B {#code_set_b}
+
+**Type:** `int`
+
+**Value:** `2`
+
+ASCII characters 32 to 127 (0–9, A–Z, a–z), special characters, and FNC 1–4.
+
+### Code128SubType.CODE_SET_C {#code_set_c}
+
+**Type:** `int`
+
+**Value:** `3`
+
+00–99 (encodes two digits with a single code point) and FNC1
+

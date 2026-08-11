@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeSecondMessage Class"
+title: "MaxiCodeSecondMessage"
 linktitle: "MaxiCodeSecondMessage"
-articleTitle: "MaxiCodeSecondMessage"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Base class for encoding and decoding second message for MaxiCode barcode."
 type: docs
@@ -21,4 +20,14 @@ Base class for encoding and decoding second message for MaxiCode barcode.
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [message](./message/) | `Optional[str]` | No | Gets constructed second message. |
+| [message](#message) | `Optional[str]` | No | Gets constructed second message. |
+### MaxiCodeSecondMessage.message {#message}
+
+```python
+message(self) -> Optional[str]
+```
+
+Gets constructed second message.
+
+**Return Type:** `Optional[str]` — Constructed second message
+

@@ -1,7 +1,6 @@
 ---
-title: "ComplexBackgroundMode Enum"
+title: "ComplexBackgroundMode"
 linktitle: "ComplexBackgroundMode"
-articleTitle: "ComplexBackgroundMode"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Mode which enables or disables additional recognition of color barcodes on color images."
 type: docs
@@ -21,6 +20,30 @@ Mode which enables or disables additional recognition of color barcodes on color
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
-| [DISABLED](./disabled/) | `1` | Disables additional recognition of color barcodes on color images. |
-| [ENABLED](./enabled/) | `2` | Enables additional recognition of color barcodes on color images. |
+| [AUTO](#auto) | `0` | At this time the same as Disabled. Disables additional recognition of color barcodes on color images. |
+| [DISABLED](#disabled) | `1` | Disables additional recognition of color barcodes on color images. |
+| [ENABLED](#enabled) | `2` | Enables additional recognition of color barcodes on color images. |
+### ComplexBackgroundMode.AUTO {#auto}
+
+**Type:** `int`
+
+**Value:** `0`
+
+At this time the same as Disabled. Disables additional recognition of color barcodes on color images.
+
+### ComplexBackgroundMode.DISABLED {#disabled}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Disables additional recognition of color barcodes on color images.
+
+### ComplexBackgroundMode.ENABLED {#enabled}
+
+**Type:** `int`
+
+**Value:** `2`
+
+Enables additional recognition of color barcodes on color images.
+

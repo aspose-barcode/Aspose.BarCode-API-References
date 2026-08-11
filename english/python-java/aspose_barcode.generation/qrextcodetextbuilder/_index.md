@@ -1,7 +1,6 @@
 ---
-title: "QrExtCodetextBuilder Class"
+title: "QrExtCodetextBuilder"
 linktitle: "QrExtCodetextBuilder"
-articleTitle: "QrExtCodetextBuilder"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREncodeMode Use Display2DText property of BarCodeBuilder to set visible text to rem"
 type: docs
@@ -23,15 +22,81 @@ Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of QREn
 
 | Name | Description |
 | --- | --- |
-| [__init__](./qrextcodetextbuilder/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [add_codetext_with_compaction_mode](./add_codetext_with_compaction_mode/) | `None` | No |  |
-| [add_fnc1_first_position](./add_fnc1_first_position/) | `None` | No | Adds FNC1 in first position to the extended codetext items. |
-| [add_fnc1_group_separator](./add_fnc1_group_separator/) | `None` | No | Adds Group Separator (GS - '\u001D') to the extended codetext items. |
-| [add_fnc1_second_position](./add_fnc1_second_position/) | `None` | No | Adds FNC1 in second position to the extended codetext items. Args: codetext (str): Value of the FNC1 in the second position. |
-| [clear](./clear/) | `def` | No | Clears extended codetext items. Reimplemented from ExtCodetextBuilder. |
-| [extended_codetext](./extended_codetext/) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as a string, or None if not set. Reimplemented from ExtCodetextBuilder. |
+| [add_codetext_with_compaction_mode](#add_codetext_with_compaction_mode) | `None` | No |  |
+| [add_fnc1_first_position](#add_fnc1_first_position) | `None` | No | Adds FNC1 in first position to the extended codetext items. |
+| [add_fnc1_group_separator](#add_fnc1_group_separator) | `None` | No | Adds Group Separator (GS - '\u001D') to the extended codetext items. |
+| [add_fnc1_second_position](#add_fnc1_second_position) | `None` | No | Adds FNC1 in second position to the extended codetext items. Args: codetext (str): Value of the FNC1 in the second position. |
+| [clear](#clear) | `def` | No | Clears extended codetext items. Reimplemented from ExtCodetextBuilder. |
+| [extended_codetext](#extended_codetext) | `Optional[str]` | No | Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as a string, or None if not set. Reimplemented from ExtCodetextBuilder. |
+
+### QrExtCodetextBuilder Constructor {#constructor}
+
+```python
+__init__(self)
+```
+
+### QrExtCodetextBuilder.add_codetext_with_compaction_mode {#add_codetext_with_compaction_mode}
+
+```python
+add_codetext_with_compaction_mode(self, QrExtCompactionMode mode, str codetext)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `mode` | `QrExtCompactionMode` |  |
+| `codetext` | `str` |  |
+
+### QrExtCodetextBuilder.add_fnc1_first_position {#add_fnc1_first_position}
+
+```python
+add_fnc1_first_position(self)
+```
+
+Adds FNC1 in first position to the extended codetext items.
+
+### QrExtCodetextBuilder.add_fnc1_group_separator {#add_fnc1_group_separator}
+
+```python
+add_fnc1_group_separator(self)
+```
+
+Adds Group Separator (GS - '\u001D') to the extended codetext items.
+
+### QrExtCodetextBuilder.add_fnc1_second_position {#add_fnc1_second_position}
+
+```python
+add_fnc1_second_position(self, str codetext)
+```
+
+Adds FNC1 in second position to the extended codetext items. Args: codetext (str): Value of the FNC1 in the second position.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `codetext` | `str` |  |
+
+### QrExtCodetextBuilder.clear {#clear}
+
+```python
+clear(self) -> def
+```
+
+Clears extended codetext items. Reimplemented from ExtCodetextBuilder.
+
+**Return Type:** `def`
+
+### QrExtCodetextBuilder.extended_codetext {#extended_codetext}
+
+```python
+extended_codetext(self) -> Optional[str]
+```
+
+Generates extended codetext from the extended codetext list. Returns: Optional[str]: Extended codetext as a string, or None if not set. Reimplemented from ExtCodetextBuilder.
+
+**Return Type:** `Optional[str]`
+

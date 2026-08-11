@@ -1,7 +1,6 @@
 ---
-title: "SvgParameters Class"
+title: "SvgParameters"
 linktitle: "SvgParameters"
-articleTitle: "SvgParameters"
 second_title: "Aspose.BarCode for Python via Java"
 description: "SVG parameters."
 type: docs
@@ -21,12 +20,59 @@ SVG parameters.
 
 | Name | Description |
 | --- | --- |
-| [__init__](./svgparameters/) |  |
+| [__init__](#constructor) |  |
 
 ## Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
-| [explicit_size_in_pixels](./explicit_size_in_pixels/) | `bool` | Does SVG image contain explicit size in pixels (recommended). Default value: True. |
-| [svg_color_mode](./svg_color_mode/) | `SvgColorMode` | Possible modes for filling color in SVG file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter. |
-| [text_drawn_in_text_element](./text_drawn_in_text_element/) | `bool` | Does SVG image contain text as text element rather than paths (recommended). Default value: True. |
+| [explicit_size_in_pixels](#explicit_size_in_pixels) | `bool` | Does SVG image contain explicit size in pixels (recommended). Default value: True. |
+| [svg_color_mode](#svg_color_mode) | `SvgColorMode` | Possible modes for filling color in SVG file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter. |
+| [text_drawn_in_text_element](#text_drawn_in_text_element) | `bool` | Does SVG image contain text as text element rather than paths (recommended). Default value: True. |
+
+### SvgParameters Constructor {#constructor}
+
+```python
+__init__(self, _java_class)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `_java_class` | `` |  |
+
+### SvgParameters.explicit_size_in_pixels {#explicit_size_in_pixels}
+
+**Type:** `bool`
+
+Does SVG image contain explicit size in pixels (recommended). Default value: True.
+
+Does SVG image contain explicit size in pixels (recommended). Default value: True.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `bool` |  |
+
+### SvgParameters.svg_color_mode {#svg_color_mode}
+
+**Type:** `SvgColorMode`
+
+Possible modes for filling color in SVG file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter.
+
+Possible modes for filling color in SVG file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `SvgColorMode` |  |
+
+### SvgParameters.text_drawn_in_text_element {#text_drawn_in_text_element}
+
+**Type:** `bool`
+
+Does SVG image contain text as text element rather than paths (recommended). Default value: True.
+
+Does SVG image contain text as text element rather than paths (recommended). Default value: True.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `value` | `bool` |  |
+

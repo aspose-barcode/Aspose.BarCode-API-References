@@ -1,7 +1,6 @@
 ---
-title: "FontMode Enum"
+title: "FontMode"
 linktitle: "FontMode"
-articleTitle: "FontMode"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Font size mode."
 type: docs
@@ -21,5 +20,21 @@ Font size mode.
 
 | Name | Value | Description |
 | --- | --- | --- |
-| [AUTO](./auto/) | `0` | Automatically calculate Font size based on barcode size. |
-| [MANUAL](./manual/) | `1` | Use Font sized defined by user. |
+| [AUTO](#auto) | `0` | Automatically calculate Font size based on barcode size. |
+| [MANUAL](#manual) | `1` | Use Font sized defined by user. |
+### FontMode.AUTO {#auto}
+
+**Type:** `int`
+
+**Value:** `0`
+
+Automatically calculate Font size based on barcode size.
+
+### FontMode.MANUAL {#manual}
+
+**Type:** `int`
+
+**Value:** `1`
+
+Use Font sized defined by user.
+

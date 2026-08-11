@@ -1,7 +1,6 @@
 ---
-title: "PointXY Class"
+title: "PointXY"
 linktitle: "PointXY"
-articleTitle: "PointXY"
 second_title: "Aspose.BarCode for Python via Java"
 description: ""
 type: docs

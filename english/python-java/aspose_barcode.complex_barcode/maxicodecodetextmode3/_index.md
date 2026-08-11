@@ -1,7 +1,6 @@
 ---
-title: "MaxiCodeCodetextMode3 Class"
+title: "MaxiCodeCodetextMode3"
 linktitle: "MaxiCodeCodetextMode3"
-articleTitle: "MaxiCodeCodetextMode3"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Class for encoding and decoding the text embedded in the MaxiCode code for modes 3. This sample shows how to encode and decode MaxiCode codetext for mode 3."
 type: docs
@@ -23,10 +22,27 @@ Class for encoding and decoding the text embedded in the MaxiCode code for modes
 
 | Name | Description |
 | --- | --- |
-| [__init__](./maxicodecodetextmode3/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [mode](./mode/) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |
+| [mode](#mode) | `Optional[MaxiCodeMode]` | No | Gets MaxiCode mode. |
+
+### MaxiCodeCodetextMode3 Constructor {#constructor}
+
+```python
+__init__(self)
+```
+
+### MaxiCodeCodetextMode3.mode {#mode}
+
+```python
+mode(self) -> Optional[MaxiCodeMode]
+```
+
+Gets MaxiCode mode.
+
+**Return Type:** `Optional[MaxiCodeMode]` — MaxiCode mode or None if not set.
+

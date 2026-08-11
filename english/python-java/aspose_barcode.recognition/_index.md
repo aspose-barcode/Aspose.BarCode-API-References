@@ -1,9 +1,8 @@
 ---
 title: "aspose_barcode.recognition"
 linktitle: "aspose_barcode.recognition"
-articleTitle: "aspose_barcode.recognition"
 second_title: "Aspose.BarCode for Python via Java"
-description: "Provides classes and enums for configuring, reading, and interpreting barcodes using Aspose.BarCode's recognition engine."
+description: "The aspose_barcode.recognition namespace offers classes and enums for configuring, reading, and interpreting various barcode types in Aspose.BarCode for Python via Java."
 type: docs
 weight: 10
 url: /python-java/aspose_barcode.recognition/
@@ -11,8 +10,7 @@ url: /python-java/aspose_barcode.recognition/
 
 ## aspose_barcode.recognition module
 
-The aspose_barcode.recognition namespace groups all objects needed to define barcode recognition parameters, perform scans, and obtain detailed results. It includes symbology‑specific settings, extended parameter classes, and the core BarCodeReader class.
-
+This reference details the barcode recognition API, covering settings objects such as AustraliaPostSettings and AztecExtendedParameters, as well as core classes like BarCodeReader and BarCodeResult. Use these types to customize scanning parameters, define regions, and retrieve decoded barcode information.
 
 ## Classes
 

@@ -1,7 +1,6 @@
 ---
-title: "OneDExtendedParameters Class"
+title: "OneDExtendedParameters"
 linktitle: "OneDExtendedParameters"
-articleTitle: "OneDExtendedParameters"
 second_title: "Aspose.BarCode for Python via Java"
 description: "Stores special data of 1D recognized barcode like separate codetext and checksum. This sample shows how to get 1D barcode value and checksum"
 type: docs
@@ -21,15 +20,84 @@ Stores special data of 1D recognized barcode like separate codetext and checksum
 
 | Name | Description |
 | --- | --- |
-| [__init__](./onedextendedparameters/) |  |
+| [__init__](#constructor) |  |
 
 ## Methods
 
 | Name | Return Type | Static | Description |
 | --- | --- | --- | --- |
-| [__eq__](./__eq__/) | `bool` | No | Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value. |
-| [__hash__](./__hash__/) | `int` | No | Returns the hash code for the current instance. |
-| [__str__](./__str__/) | `str` | No | Returns a human-readable string representation of this OneDExtendedParameters. |
-| [checksum](./checksum/) | `Optional[str]` | No |  |
-| [is_empty](./is_empty/) | `bool` | No |  |
-| [value](./value/) | `Optional[str]` | No |  |
+| [__eq__](#__eq__) | `bool` | No | Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value. |
+| [__hash__](#__hash__) | `int` | No | Returns the hash code for the current instance. |
+| [__str__](#__str__) | `str` | No | Returns a human-readable string representation of this OneDExtendedParameters. |
+| [checksum](#checksum) | `Optional[str]` | No |  |
+| [is_empty](#is_empty) | `bool` | No |  |
+| [value](#value) | `Optional[str]` | No |  |
+
+### OneDExtendedParameters Constructor {#constructor}
+
+```python
+__init__(self, _java_class) -> def
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `_java_class` | `` |  |
+
+### OneDExtendedParameters.__eq__ {#__eq__}
+
+```python
+__eq__(self, OneDExtendedParameters other) -> bool
+```
+
+Returns a value indicating whether this instance is equal to a specified OneDExtendedParameters value.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `other` | `OneDExtendedParameters` |  |
+
+**Return Type:** `bool` — True if obj has the same value as this instance, otherwise False.
+
+### OneDExtendedParameters.__hash__ {#__hash__}
+
+```python
+__hash__(self) -> int
+```
+
+Returns the hash code for the current instance.
+
+**Return Type:** `int` — A hash code for the current object.
+
+### OneDExtendedParameters.__str__ {#__str__}
+
+```python
+__str__(self) -> str
+```
+
+Returns a human-readable string representation of this OneDExtendedParameters.
+
+**Return Type:** `str` — A string that represents this OneDExtendedParameters.
+
+### OneDExtendedParameters.checksum {#checksum}
+
+```python
+checksum(self) -> Optional[str]
+```
+
+**Return Type:** `Optional[str]`
+
+### OneDExtendedParameters.is_empty {#is_empty}
+
+```python
+is_empty(self) -> bool
+```
+
+**Return Type:** `bool`
+
+### OneDExtendedParameters.value {#value}
+
+```python
+value(self) -> Optional[str]
+```
+
+**Return Type:** `Optional[str]`
+
