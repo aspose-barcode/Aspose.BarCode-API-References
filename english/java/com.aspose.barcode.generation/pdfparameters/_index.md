@@ -3,7 +3,7 @@ title: PdfParameters
 second_title: Aspose.BarCode for Java API Reference
 description: PDF parameters.
 type: docs
-weight: 61
+weight: 59
 url: /java/com.aspose.barcode.generation/pdfparameters/
 ---
 **Inheritance:**
@@ -125,7 +125,7 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

@@ -3,7 +3,7 @@ title: Code128EncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 79
+weight: 78
 url: /java/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**
@@ -48,6 +48,7 @@ Encoding mode for Code128 barcodes.  Code 128  specification.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -165,6 +166,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Code128EncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

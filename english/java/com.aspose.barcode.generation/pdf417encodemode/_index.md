@@ -3,7 +3,7 @@ title: Pdf417EncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Pdf417 barcode encode mode
 type: docs
-weight: 98
+weight: 97
 url: /java/com.aspose.barcode.generation/pdf417encodemode/
 ---
 **Inheritance:**

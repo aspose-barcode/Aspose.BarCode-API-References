@@ -3,7 +3,7 @@ title: EncodeTypes
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the type of barcode to encode.
 type: docs
-weight: 37
+weight: 36
 url: /java/com.aspose.barcode.generation/encodetypes/
 ---
 **Inheritance:**

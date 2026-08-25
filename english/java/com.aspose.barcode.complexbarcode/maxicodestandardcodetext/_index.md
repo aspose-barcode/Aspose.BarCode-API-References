@@ -51,7 +51,6 @@ Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
 | [getConstructedCodetext()](#getConstructedCodetext--) | Constructs codetext |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
 | [getEncodeMode()](#getEncodeMode--) | Gets a MaxiCode encode mode. |
-| [getMaxiCodeEncodeMode()](#getMaxiCodeEncodeMode--) | Gets a MaxiCode encode mode. |
 | [getMessage()](#getMessage--) | Gets message. |
 | [getMode()](#getMode--) | Gets MaxiCode mode. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
@@ -60,9 +59,8 @@ Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6.
 | [notifyAll()](#notifyAll--) |  |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
 | [setEncodeMode(MaxiCodeEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
-| [setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)](#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-) | Sets a MaxiCode encode mode. |
 | [setMessage(String value)](#setMessage-java.lang.String-) | Sets message. |
-| [setMode(int mode)](#setMode-int-) | Sets MaxiCode mode. |
+| [setMode(MaxiCodeMode mode)](#setMode-com.aspose.barcode.generation.MaxiCodeMode-) | Sets MaxiCode mode. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -138,16 +136,6 @@ Gets a MaxiCode encode mode. Default value: Auto.
 
 **Returns:**
 [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
-### getMaxiCodeEncodeMode() {#getMaxiCodeEncodeMode--}
-```
-public final MaxiCodeEncodeMode getMaxiCodeEncodeMode()
-```
-
-
-Gets a MaxiCode encode mode. Default value: Auto.
-
-**Returns:**
-[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) - a MaxiCode encode mode.
 ### getMessage() {#getMessage--}
 ```
 public String getMessage()
@@ -160,14 +148,14 @@ Gets message.
 java.lang.String
 ### getMode() {#getMode--}
 ```
-public int getMode()
+public MaxiCodeMode getMode()
 ```
 
 
 Gets MaxiCode mode.
 
 **Returns:**
-int - MaxiCode mode
+[MaxiCodeMode](../../com.aspose.barcode.generation/maxicodemode) - MaxiCode mode
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -233,19 +221,6 @@ Sets a MaxiCode encode mode. Default value: Auto.
 | --- | --- | --- |
 | value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
 
-### setMaxiCodeEncodeMode(MaxiCodeEncodeMode value) {#setMaxiCodeEncodeMode-com.aspose.barcode.generation.MaxiCodeEncodeMode-}
-```
-public final void setMaxiCodeEncodeMode(MaxiCodeEncodeMode value)
-```
-
-
-Sets a MaxiCode encode mode. Default value: Auto.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode) | a MaxiCode encode mode. |
-
 ### setMessage(String value) {#setMessage-java.lang.String-}
 ```
 public void setMessage(String value)
@@ -259,9 +234,9 @@ Sets message.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setMode(int mode) {#setMode-int-}
+### setMode(MaxiCodeMode mode) {#setMode-com.aspose.barcode.generation.MaxiCodeMode-}
 ```
-public void setMode(int mode)
+public void setMode(MaxiCodeMode mode)
 ```
 
 
@@ -270,7 +245,7 @@ Sets MaxiCode mode. Standart codetext can be used only with modes 4, 5 and 6.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mode | int |  |
+| mode | [MaxiCodeMode](../../com.aspose.barcode.generation/maxicodemode) |  |
 
 ### toString() {#toString--}
 ```

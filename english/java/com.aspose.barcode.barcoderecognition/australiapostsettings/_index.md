@@ -13,12 +13,6 @@ public class AustraliaPostSettings
 ```
 
 AustraliaPost decoding parameters. Contains parameters which make influence on recognized data of AustraliaPost symbology.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AustraliaPostSettings()](#AustraliaPostSettings--) | AustraliaPostSettings constructor |
-| [AustraliaPostSettings(AustraliaPostSettings settings)](#AustraliaPostSettings-com.aspose.barcode.barcoderecognition.AustraliaPostSettings-) | AustraliaPostSettings copy constructor |
 ## Methods
 
 | Method | Description |
@@ -38,27 +32,6 @@ AustraliaPost decoding parameters. Contains parameters which make influence on r
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### AustraliaPostSettings() {#AustraliaPostSettings--}
-```
-public AustraliaPostSettings()
-```
-
-
-AustraliaPostSettings constructor
-
-### AustraliaPostSettings(AustraliaPostSettings settings) {#AustraliaPostSettings-com.aspose.barcode.barcoderecognition.AustraliaPostSettings-}
-```
-public AustraliaPostSettings(AustraliaPostSettings settings)
-```
-
-
-AustraliaPostSettings copy constructor
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| settings | [AustraliaPostSettings](../../com.aspose.barcode.barcoderecognition/australiapostsettings) | The source of the data |
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)

@@ -3,7 +3,7 @@ title: PrimaryData
 second_title: Aspose.BarCode for Java API Reference
 description: Class for storing HIBC LIC primary data.
 type: docs
-weight: 34
+weight: 33
 url: /java/com.aspose.barcode.complexbarcode/primarydata/
 ---
 **Inheritance:**

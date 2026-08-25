@@ -3,7 +3,7 @@ title: DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 34
+weight: 33
 url: /java/com.aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 **Inheritance:**
@@ -34,10 +34,8 @@ Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of
 >  String codetext = textBuilder.getExtendedCodetext();
 >  //generate
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DOT_CODE, codetext);
->  {
->      generator.getParameters().getBarcode().getDotCode().setDotCodeEncodeMode(DotCodeEncodeMode.EXTENDED_CODETEXT);
->  	   generator.save("test.bmp");
->  }
+>  generator.getParameters().getBarcode().getDotCode().setDotCodeEncodeMode(DotCodeEncodeMode.EXTENDED_CODETEXT);
+>  generator.save("test.bmp");
 > ```
 ## Constructors
 
@@ -87,7 +85,7 @@ Adds codetext with Extended Channel Identifier
 
 ### addFNC1FormatIdentifier() {#addFNC1FormatIdentifier--}
 ```
-public void addFNC1FormatIdentifier()
+public final void addFNC1FormatIdentifier()
 ```
 
 
@@ -95,7 +93,7 @@ Adds FNC1 format identifier to the extended codetext items
 
 ### addFNC3ReaderInitialization() {#addFNC3ReaderInitialization--}
 ```
-public void addFNC3ReaderInitialization()
+public final void addFNC3ReaderInitialization()
 ```
 
 
@@ -103,7 +101,7 @@ Adds FNC3 reader initialization to the extended codetext items
 
 ### addFNC3SymbolSeparator() {#addFNC3SymbolSeparator--}
 ```
-public void addFNC3SymbolSeparator()
+public final void addFNC3SymbolSeparator()
 ```
 
 
@@ -124,7 +122,7 @@ Adds plain codetext to the extended codetext items
 
 ### addStructuredAppendMode(int barcodeId, int barcodesCount) {#addStructuredAppendMode-int-int-}
 ```
-public void addStructuredAppendMode(int barcodeId, int barcodesCount)
+public final void addStructuredAppendMode(int barcodeId, int barcodesCount)
 ```
 
 

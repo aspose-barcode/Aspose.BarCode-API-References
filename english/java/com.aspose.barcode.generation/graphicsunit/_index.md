@@ -3,7 +3,7 @@ title: GraphicsUnit
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the unit of measure for the given data.
 type: docs
-weight: 87
+weight: 86
 url: /java/com.aspose.barcode.generation/graphicsunit/
 ---
 **Inheritance:**
@@ -31,6 +31,7 @@ Specifies the unit of measure for the given data.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -147,6 +148,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static GraphicsUnit fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[GraphicsUnit](../../com.aspose.barcode.generation/graphicsunit)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

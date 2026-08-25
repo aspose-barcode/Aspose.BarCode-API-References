@@ -3,7 +3,7 @@ title: DataMatrixEccType
 second_title: Aspose.BarCode for Java API Reference
 description: Specify the type of the ECC to encode.
 type: docs
-weight: 81
+weight: 80
 url: /java/com.aspose.barcode.generation/datamatrixecctype/
 ---
 **Inheritance:**
@@ -31,6 +31,7 @@ Specify the type of the ECC to encode.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -147,6 +148,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static DataMatrixEccType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[DataMatrixEccType](../../com.aspose.barcode.generation/datamatrixecctype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

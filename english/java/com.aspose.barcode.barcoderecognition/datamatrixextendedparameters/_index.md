@@ -3,7 +3,7 @@ title: DataMatrixExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of DataMatrix recognized barcode
 type: docs
-weight: 31
+weight: 29
 url: /java/com.aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ---
 **Inheritance:**

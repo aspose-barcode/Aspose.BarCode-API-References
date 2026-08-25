@@ -3,7 +3,7 @@ title: DotCodeParameters
 second_title: Aspose.BarCode for Java API Reference
 description: DotCode parameters.
 type: docs
-weight: 35
+weight: 34
 url: /java/com.aspose.barcode.generation/dotcodeparameters/
 ---
 **Inheritance:**
@@ -21,9 +21,6 @@ DotCode parameters.
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
 | [getClass()](#getClass--) |  |
 | [getColumns()](#getColumns--) | Identifies columns count. |
-| [getDotCodeEncodeMode()](#getDotCodeEncodeMode--) | Identifies DotCode encode mode. |
-| [getDotCodeStructuredAppendModeBarcodeId()](#getDotCodeStructuredAppendModeBarcodeId--) | Identifies the ID of the DotCode structured append mode barcode. |
-| [getDotCodeStructuredAppendModeBarcodesCount()](#getDotCodeStructuredAppendModeBarcodesCount--) | Identifies DotCode structured append mode barcodes count. |
 | [getECIEncoding()](#getECIEncoding--) | Identifies ECI encoding. |
 | [getEncodeMode()](#getEncodeMode--) | Identifies DotCode encode mode. |
 | [getRows()](#getRows--) | Identifies rows count. |
@@ -35,9 +32,6 @@ DotCode parameters.
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
 | [setColumns(int value)](#setColumns-int-) | Identifies columns count. |
-| [setDotCodeEncodeMode(DotCodeEncodeMode value)](#setDotCodeEncodeMode-com.aspose.barcode.generation.DotCodeEncodeMode-) | Identifies DotCode encode mode. |
-| [setDotCodeStructuredAppendModeBarcodeId(int value)](#setDotCodeStructuredAppendModeBarcodeId-int-) | Identifies the ID of the DotCode structured append mode barcode. |
-| [setDotCodeStructuredAppendModeBarcodesCount(int value)](#setDotCodeStructuredAppendModeBarcodesCount-int-) | Identifies DotCode structured append mode barcodes count. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Identifies ECI encoding. |
 | [setEncodeMode(DotCodeEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.DotCodeEncodeMode-) | Identifies DotCode encode mode. |
 | [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. |
@@ -93,36 +87,6 @@ Identifies columns count. Sum of the number of rows plus the number of columns o
 
 **Returns:**
 int
-### getDotCodeEncodeMode() {#getDotCodeEncodeMode--}
-```
-public final DotCodeEncodeMode getDotCodeEncodeMode()
-```
-
-
-Identifies DotCode encode mode. Default value: Auto.
-
-**Returns:**
-[DotCodeEncodeMode](../../com.aspose.barcode.generation/dotcodeencodemode)
-### getDotCodeStructuredAppendModeBarcodeId() {#getDotCodeStructuredAppendModeBarcodeId--}
-```
-public final int getDotCodeStructuredAppendModeBarcodeId()
-```
-
-
-Identifies the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1.
-
-**Returns:**
-int
-### getDotCodeStructuredAppendModeBarcodesCount() {#getDotCodeStructuredAppendModeBarcodesCount--}
-```
-public final int getDotCodeStructuredAppendModeBarcodesCount()
-```
-
-
-Identifies DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35.
-
-**Returns:**
-int
 ### getECIEncoding() {#getECIEncoding--}
 ```
 public final int getECIEncoding()
@@ -175,7 +139,7 @@ Identifies DotCode structured append mode barcodes count. Default value is -1. C
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -229,45 +193,6 @@ public final void setColumns(int value)
 
 
 Identifies columns count. Sum of the number of rows plus the number of columns of a DotCode symbol must be odd. Number of columns must be at least 5. Default value: -1
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setDotCodeEncodeMode(DotCodeEncodeMode value) {#setDotCodeEncodeMode-com.aspose.barcode.generation.DotCodeEncodeMode-}
-```
-public final void setDotCodeEncodeMode(DotCodeEncodeMode value)
-```
-
-
-Identifies DotCode encode mode. Default value: Auto.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [DotCodeEncodeMode](../../com.aspose.barcode.generation/dotcodeencodemode) |  |
-
-### setDotCodeStructuredAppendModeBarcodeId(int value) {#setDotCodeStructuredAppendModeBarcodeId-int-}
-```
-public final void setDotCodeStructuredAppendModeBarcodeId(int value)
-```
-
-
-Identifies the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setDotCodeStructuredAppendModeBarcodesCount(int value) {#setDotCodeStructuredAppendModeBarcodesCount-int-}
-```
-public final void setDotCodeStructuredAppendModeBarcodesCount(int value)
-```
-
-
-Identifies DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35.
 
 **Parameters:**
 | Parameter | Type | Description |

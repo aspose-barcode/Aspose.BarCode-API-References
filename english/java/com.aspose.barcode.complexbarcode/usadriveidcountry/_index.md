@@ -3,7 +3,7 @@ title: USADriveIdCountry
 second_title: Aspose.BarCode for Java API Reference
 description: Enum for Country Identification in the US Drivers License
 type: docs
-weight: 45
+weight: 44
 url: /java/com.aspose.barcode.complexbarcode/usadriveidcountry/
 ---
 **Inheritance:**
@@ -27,6 +27,7 @@ Enum for Country Identification in the US Driver's License
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -111,6 +112,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static USADriveIdCountry fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[USADriveIdCountry](../../com.aspose.barcode.complexbarcode/usadriveidcountry)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

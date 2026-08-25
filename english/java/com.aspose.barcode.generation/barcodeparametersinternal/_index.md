@@ -23,10 +23,12 @@ public class BarcodeParametersInternal
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio(BarcodeParameters parameters)](#getAspectRatio-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getBackColor(BarcodeParameters parameters)](#getBackColor-com.aspose.barcode.generation.BarcodeParameters-) |  |
+| [getBarcodeType(BarcodeParameters parameters)](#getBarcodeType-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getCMYKBackColor(BarcodeParameters parameters)](#getCMYKBackColor-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getCMYKBarColor(BarcodeParameters parameters)](#getCMYKBarColor-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getChecksum(CodetextParameters parameters)](#getChecksum-com.aspose.barcode.generation.CodetextParameters-) |  |
 | [getClass()](#getClass--) |  |
+| [getCodeText(BarcodeParameters barcodeParams)](#getCodeText-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getColumns(BarcodeParameters parameters)](#getColumns-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getComplexBarcode(BarcodeParameters parameters)](#getComplexBarcode-com.aspose.barcode.generation.BarcodeParameters-) |  |
 | [getPostalShortBarHeight(BarcodeParameters parameters)](#getPostalShortBarHeight-com.aspose.barcode.generation.BarcodeParameters-) |  |
@@ -35,7 +37,8 @@ public class BarcodeParametersInternal
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBarColor(BarcodeParameters barcodeParameters, Color value)](#setBarColor-com.aspose.barcode.generation.BarcodeParameters-java.awt.Color-) |  |
+| [setBarcodeType(BarcodeParameters parameters, BaseEncodeType value)](#setBarcodeType-com.aspose.barcode.generation.BarcodeParameters-com.aspose.barcode.generation.BaseEncodeType-) |  |
+| [setCodeText(BarcodeParameters barcode, String text)](#setCodeText-com.aspose.barcode.generation.BarcodeParameters-java.lang.String-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,6 +94,21 @@ public static Color getBackColor(BarcodeParameters parameters)
 
 **Returns:**
 java.awt.Color
+### getBarcodeType(BarcodeParameters parameters) {#getBarcodeType-com.aspose.barcode.generation.BarcodeParameters-}
+```
+public static BaseEncodeType getBarcodeType(BarcodeParameters parameters)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
+
+**Returns:**
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype)
 ### getCMYKBackColor(BarcodeParameters parameters) {#getCMYKBackColor-com.aspose.barcode.generation.BarcodeParameters-}
 ```
 public static CMYKColor getCMYKBackColor(BarcodeParameters parameters)
@@ -146,6 +164,21 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCodeText(BarcodeParameters barcodeParams) {#getCodeText-com.aspose.barcode.generation.BarcodeParameters-}
+```
+public static String getCodeText(BarcodeParameters barcodeParams)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| barcodeParams | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
+
+**Returns:**
+java.lang.String
 ### getColumns(BarcodeParameters parameters) {#getColumns-com.aspose.barcode.generation.BarcodeParameters-}
 ```
 public static int getColumns(BarcodeParameters parameters)
@@ -247,9 +280,9 @@ public final native void notifyAll()
 
 
 
-### setBarColor(BarcodeParameters barcodeParameters, Color value) {#setBarColor-com.aspose.barcode.generation.BarcodeParameters-java.awt.Color-}
+### setBarcodeType(BarcodeParameters parameters, BaseEncodeType value) {#setBarcodeType-com.aspose.barcode.generation.BarcodeParameters-com.aspose.barcode.generation.BaseEncodeType-}
 ```
-public static void setBarColor(BarcodeParameters barcodeParameters, Color value)
+public static void setBarcodeType(BarcodeParameters parameters, BaseEncodeType value)
 ```
 
 
@@ -258,8 +291,22 @@ public static void setBarColor(BarcodeParameters barcodeParameters, Color value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeParameters | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
-| value | java.awt.Color |  |
+| parameters | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
+| value | [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) |  |
+
+### setCodeText(BarcodeParameters barcode, String text) {#setCodeText-com.aspose.barcode.generation.BarcodeParameters-java.lang.String-}
+```
+public static void setCodeText(BarcodeParameters barcode, String text)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| barcode | [BarcodeParameters](../../com.aspose.barcode.generation/barcodeparameters) |  |
+| text | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

@@ -3,7 +3,7 @@ title: ImageParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Image parameters.
 type: docs
-weight: 52
+weight: 51
 url: /java/com.aspose.barcode.generation/imageparameters/
 ---
 **Inheritance:**
@@ -77,7 +77,7 @@ SVG parameters
 [SvgParameters](../../com.aspose.barcode.generation/svgparameters)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

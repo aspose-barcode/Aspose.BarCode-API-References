@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores a MaxiCode additional information of recognized barcode
 type: docs
-weight: 35
+weight: 33
 url: /java/com.aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 **Inheritance:**
@@ -19,9 +19,6 @@ Stores a MaxiCode additional information of recognized barcode
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value. |
 | [getClass()](#getClass--) |  |
-| [getMaxiCodeMode()](#getMaxiCodeMode--) | Gets a MaxiCode encode mode. |
-| [getMaxiCodeStructuredAppendModeBarcodeId()](#getMaxiCodeStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
-| [getMaxiCodeStructuredAppendModeBarcodesCount()](#getMaxiCodeStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
 | [getMode()](#getMode--) | Gets a MaxiCode encode mode. |
 | [getStructuredAppendModeBarcodeId()](#getStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
 | [getStructuredAppendModeBarcodesCount()](#getStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
@@ -58,46 +55,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getMaxiCodeMode() {#getMaxiCodeMode--}
-```
-public final int getMaxiCodeMode()
-```
-
-
-Gets a MaxiCode encode mode. Default value: Mode4
-
-**Returns:**
-int - a MaxiCode encode mode.
-### getMaxiCodeStructuredAppendModeBarcodeId() {#getMaxiCodeStructuredAppendModeBarcodeId--}
-```
-public final int getMaxiCodeStructuredAppendModeBarcodeId()
-```
-
-
-Gets a MaxiCode barcode id in structured append mode. Default value: 0
-
-**Returns:**
-int - a MaxiCode barcode id in structured append mode.
-### getMaxiCodeStructuredAppendModeBarcodesCount() {#getMaxiCodeStructuredAppendModeBarcodesCount--}
-```
-public final int getMaxiCodeStructuredAppendModeBarcodesCount()
-```
-
-
-Gets a MaxiCode barcodes count in structured append mode. Default value: -1
-
-**Returns:**
-int - a MaxiCode barcodes count in structured append mode.
 ### getMode() {#getMode--}
 ```
-public final int getMode()
+public final MaxiCodeMode getMode()
 ```
 
 
 Gets a MaxiCode encode mode. Default value: Mode4
 
 **Returns:**
-int - a MaxiCode encode mode.
+[MaxiCodeMode](../../com.aspose.barcode.generation/maxicodemode) - a MaxiCode encode mode.
 ### getStructuredAppendModeBarcodeId() {#getStructuredAppendModeBarcodeId--}
 ```
 public final int getStructuredAppendModeBarcodeId()

@@ -3,7 +3,7 @@ title: EnableChecksum
 second_title: Aspose.BarCode for Java API Reference
 description: Enable checksum during generation for 1D barcodes.
 type: docs
-weight: 85
+weight: 84
 url: /java/com.aspose.barcode.generation/enablechecksum/
 ---
 **Inheritance:**
@@ -35,6 +35,7 @@ Checksum always used: Rest symbologies
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -119,6 +120,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static EnableChecksum fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[EnableChecksum](../../com.aspose.barcode.generation/enablechecksum)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

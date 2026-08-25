@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Version of QR Code.
 type: docs
-weight: 104
+weight: 102
 url: /java/com.aspose.barcode.generation/qrversion/
 ---
 **Inheritance:**
@@ -58,10 +58,6 @@ Version of QR Code. From Version1 to Version40 for QR code and from M1 to M4 for
 | [VERSION_38](#VERSION-38) | Specifies version 38 with 169 x 169 modules. |
 | [VERSION_39](#VERSION-39) | Specifies version 39 with 173 x 173 modules. |
 | [VERSION_40](#VERSION-40) | Specifies version 40 with 177 x 177 modules. |
-| [VERSION_M1](#VERSION-M1) | Specifies version M1 for Micro QR with 11 x 11 modules. |
-| [VERSION_M2](#VERSION-M2) | Specifies version M2 for Micro QR with 13 x 13 modules. |
-| [VERSION_M3](#VERSION-M3) | Specifies version M3 for Micro QR with 15 x 15 modules. |
-| [VERSION_M4](#VERSION-M4) | Specifies version M4 for Micro QR with 17 x 17 modules. |
 ## Methods
 
 | Method | Description |
@@ -411,38 +407,6 @@ public static final QRVersion VERSION_40
 
 
 Specifies version 40 with 177 x 177 modules.
-
-### VERSION_M1 {#VERSION-M1}
-```
-public static final QRVersion VERSION_M1
-```
-
-
-Specifies version M1 for Micro QR with 11 x 11 modules.
-
-### VERSION_M2 {#VERSION-M2}
-```
-public static final QRVersion VERSION_M2
-```
-
-
-Specifies version M2 for Micro QR with 13 x 13 modules.
-
-### VERSION_M3 {#VERSION-M3}
-```
-public static final QRVersion VERSION_M3
-```
-
-
-Specifies version M3 for Micro QR with 15 x 15 modules.
-
-### VERSION_M4 {#VERSION-M4}
-```
-public static final QRVersion VERSION_M4
-```
-
-
-Specifies version M4 for Micro QR with 17 x 17 modules.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

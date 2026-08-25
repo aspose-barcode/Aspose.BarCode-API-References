@@ -3,7 +3,7 @@ title: Code128DataPortion
 second_title: Aspose.BarCode for Java API Reference
 description: Contains the data of subtype for Code128 type barcode
 type: docs
-weight: 26
+weight: 25
 url: /java/com.aspose.barcode.barcoderecognition/code128dataportion/
 ---
 **Inheritance:**
@@ -55,14 +55,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCode128SubType() {#getCode128SubType--}
 ```
-public int getCode128SubType()
+public Code128SubType getCode128SubType()
 ```
 
 
 Gets the type of Code128 subset
 
 **Returns:**
-int - The type of Code128 subset
+[Code128SubType](../../com.aspose.barcode.barcoderecognition/code128subtype) - The type of Code128 subset
 ### getData() {#getData--}
 ```
 public String getData()

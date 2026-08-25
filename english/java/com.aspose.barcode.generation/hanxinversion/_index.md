@@ -3,7 +3,7 @@ title: HanXinVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Version of Han Xin Code.
 type: docs
-weight: 91
+weight: 90
 url: /java/com.aspose.barcode.generation/hanxinversion/
 ---
 **Inheritance:**
@@ -109,6 +109,7 @@ Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 1
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -849,6 +850,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static HanXinVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[HanXinVersion](../../com.aspose.barcode.generation/hanxinversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

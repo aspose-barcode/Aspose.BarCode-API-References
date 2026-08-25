@@ -3,7 +3,7 @@ title: AutoSizeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the different types of automatic sizing modes.
 type: docs
-weight: 72
+weight: 70
 url: /java/com.aspose.barcode.generation/autosizemode/
 ---
 **Inheritance:**
@@ -27,6 +27,7 @@ Specifies the different types of automatic sizing modes.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -111,6 +112,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static AutoSizeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[AutoSizeMode](../../com.aspose.barcode.generation/autosizemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: FontMode
 second_title: Aspose.BarCode for Java API Reference
 description: Font size mode.
 type: docs
-weight: 86
+weight: 85
 url: /java/com.aspose.barcode.generation/fontmode/
 ---
 **Inheritance:**
@@ -26,6 +26,7 @@ Font size mode.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -102,6 +103,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static FontMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[FontMode](../../com.aspose.barcode.generation/fontmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: FontUnitInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 44
+weight: 43
 url: /java/com.aspose.barcode.generation/fontunitinternal/
 ---
 **Inheritance:**

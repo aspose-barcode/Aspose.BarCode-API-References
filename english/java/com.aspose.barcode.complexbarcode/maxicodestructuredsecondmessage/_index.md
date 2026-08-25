@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage
 second_title: Aspose.BarCode for Java API Reference
 description: Class for encoding and decoding structured second message for MaxiCode barcode.
 type: docs
-weight: 33
+weight: 32
 url: /java/com.aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/
 ---
 **Inheritance:**

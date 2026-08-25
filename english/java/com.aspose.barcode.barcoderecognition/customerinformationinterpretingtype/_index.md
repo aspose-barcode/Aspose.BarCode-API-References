@@ -3,7 +3,7 @@ title: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for Java API Reference
 description: Defines the interpreting typeC_TABLE or N_TABLE of customer information for AustralianPost BarCode.
 type: docs
-weight: 52
+weight: 51
 url: /java/com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype/
 ---
 **Inheritance:**
@@ -74,6 +74,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -158,6 +159,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static CustomerInformationInterpretingType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

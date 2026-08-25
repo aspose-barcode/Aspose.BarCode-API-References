@@ -3,7 +3,7 @@ title: Code128DataPortionInternal
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 27
+weight: 26
 url: /java/com.aspose.barcode.barcoderecognition/code128dataportioninternal/
 ---
 **Inheritance:**
@@ -20,7 +20,7 @@ public class Code128DataPortionInternal
 
 | Method | Description |
 | --- | --- |
-| [Code128DataPortionCtor(int code128SubType, String data)](#Code128DataPortionCtor-int-java.lang.String-) |  |
+| [Code128DataPortionCtor(Code128SubType code128SubType, String data)](#Code128DataPortionCtor-com.aspose.barcode.barcoderecognition.Code128SubType-java.lang.String-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -37,9 +37,9 @@ public Code128DataPortionInternal()
 ```
 
 
-### Code128DataPortionCtor(int code128SubType, String data) {#Code128DataPortionCtor-int-java.lang.String-}
+### Code128DataPortionCtor(Code128SubType code128SubType, String data) {#Code128DataPortionCtor-com.aspose.barcode.barcoderecognition.Code128SubType-java.lang.String-}
 ```
-public static Code128DataPortion Code128DataPortionCtor(int code128SubType, String data)
+public static Code128DataPortion Code128DataPortionCtor(Code128SubType code128SubType, String data)
 ```
 
 
@@ -48,7 +48,7 @@ public static Code128DataPortion Code128DataPortionCtor(int code128SubType, Stri
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| code128SubType | int |  |
+| code128SubType | [Code128SubType](../../com.aspose.barcode.barcoderecognition/code128subtype) |  |
 | data | java.lang.String |  |
 
 **Returns:**

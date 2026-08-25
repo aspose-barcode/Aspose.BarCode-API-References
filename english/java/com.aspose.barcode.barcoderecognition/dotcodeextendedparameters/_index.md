@@ -3,7 +3,7 @@ title: DotCodeExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of DotCode recognized barcode
 type: docs
-weight: 33
+weight: 31
 url: /java/com.aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 **Inheritance:**
@@ -37,9 +37,6 @@ This sample shows how to get DotCode raw values
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [DotCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/dotcodeextendedparameters) value. |
 | [getClass()](#getClass--) |  |
-| [getDotCodeIsReaderInitialization()](#getDotCodeIsReaderInitialization--) | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. |
-| [getDotCodeStructuredAppendModeBarcodeId()](#getDotCodeStructuredAppendModeBarcodeId--) | Gets the ID of the DotCode structured append mode barcode. |
-| [getDotCodeStructuredAppendModeBarcodesCount()](#getDotCodeStructuredAppendModeBarcodesCount--) | Gets the DotCode structured append mode barcodes count. |
 | [getStructuredAppendModeBarcodeId()](#getStructuredAppendModeBarcodeId--) | Gets the ID of the DotCode structured append mode barcode. |
 | [getStructuredAppendModeBarcodesCount()](#getStructuredAppendModeBarcodesCount--) | Gets the DotCode structured append mode barcodes count. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
@@ -76,40 +73,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDotCodeIsReaderInitialization() {#getDotCodeIsReaderInitialization--}
-```
-public final boolean getDotCodeIsReaderInitialization()
-```
-
-
-Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false.
-
-**Returns:**
-boolean
-### getDotCodeStructuredAppendModeBarcodeId() {#getDotCodeStructuredAppendModeBarcodeId--}
-```
-public final int getDotCodeStructuredAppendModeBarcodeId()
-```
-
-
-Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1.
-
-Value: The ID of the DotCode structured append mode barcode.
-
-**Returns:**
-int - the ID of the DotCode structured append mode barcode.
-### getDotCodeStructuredAppendModeBarcodesCount() {#getDotCodeStructuredAppendModeBarcodesCount--}
-```
-public final int getDotCodeStructuredAppendModeBarcodesCount()
-```
-
-
-Gets the DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35.
-
-Value: The count of the DotCode structured append mode barcode.
-
-**Returns:**
-int - the DotCode structured append mode barcodes count.
 ### getStructuredAppendModeBarcodeId() {#getStructuredAppendModeBarcodeId--}
 ```
 public final int getStructuredAppendModeBarcodeId()

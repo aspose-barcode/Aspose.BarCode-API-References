@@ -3,7 +3,7 @@ title: HslaColor
 second_title: Aspose.BarCode for Java API Reference
 description: Class for representing HSLA color Hue Saturation Lightness Alpha
 type: docs
-weight: 50
+weight: 49
 url: /java/com.aspose.barcode.generation/hslacolor/
 ---
 **Inheritance:**

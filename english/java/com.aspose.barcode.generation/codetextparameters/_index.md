@@ -3,7 +3,7 @@ title: CodetextParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Codetext parameters.
 type: docs
-weight: 27
+weight: 26
 url: /java/com.aspose.barcode.generation/codetextparameters/
 ---
 **Inheritance:**
@@ -167,7 +167,7 @@ Text that will be displayed instead of codetext in 2D barcodes. Used for: Aztec,
 java.lang.String
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

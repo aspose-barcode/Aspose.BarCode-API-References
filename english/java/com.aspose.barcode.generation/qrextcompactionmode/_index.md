@@ -3,7 +3,7 @@ title: QrExtCompactionMode
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 type: docs
-weight: 105
+weight: 103
 url: /java/com.aspose.barcode.generation/qrextcompactionmode/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -129,6 +130,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QrExtCompactionMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[QrExtCompactionMode](../../com.aspose.barcode.generation/qrextcompactionmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

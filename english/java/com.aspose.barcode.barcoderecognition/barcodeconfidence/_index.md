@@ -3,13 +3,13 @@ title: BarCodeConfidence
 second_title: Aspose.BarCode for Java API Reference
 description: Contains recognition confidence level
 type: docs
-weight: 13
+weight: 46
 url: /java/com.aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, java.lang.Enum
 ```
-public final class BarCodeConfidence
+public enum BarCodeConfidence extends Enum<BarCodeConfidence>
 ```
 
 Contains recognition confidence level
@@ -53,18 +53,27 @@ Contains recognition confidence level
 
 | Method | Description |
 | --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MODERATE {#MODERATE}
 ```
-public static final int MODERATE
+public static final BarCodeConfidence MODERATE
 ```
 
 
@@ -72,7 +81,7 @@ Recognition confidence of barcode (mostly 1D barcodes) with weak checksumm or ev
 
 ### NONE {#NONE}
 ```
-public static final int NONE
+public static final BarCodeConfidence NONE
 ```
 
 
@@ -80,15 +89,46 @@ Recognition confidence of barcode where codetext was not recognized correctly or
 
 ### STRONG {#STRONG}
 ```
-public static final int STRONG
+public static final BarCodeConfidence STRONG
 ```
 
 
 Recognition confidence which was confirmed with BCH codes like Reed\\u2013Solomon. There must not be errors in read codetext or fake recognitions
 
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean equals(Object arg0)
+public final boolean equals(Object arg0)
 ```
 
 
@@ -101,6 +141,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarCodeConfidence fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BarCodeConfidence](../../com.aspose.barcode.barcoderecognition/barcodeconfidence)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -111,9 +166,19 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### getDeclaringClass() {#getDeclaringClass--}
 ```
-public native int hashCode()
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
 ```
 
 
@@ -121,6 +186,26 @@ public native int hashCode()
 
 **Returns:**
 int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -137,6 +222,16 @@ public final native void notifyAll()
 
 
 
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
 ### toString() {#toString--}
 ```
 public String toString()
@@ -147,6 +242,31 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static BarCodeConfidence valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String |  |
+
+**Returns:**
+[BarCodeConfidence](../../com.aspose.barcode.barcoderecognition/barcodeconfidence)
+### values() {#values--}
+```
+public static BarCodeConfidence[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.BarCodeConfidence[]
 ### wait() {#wait--}
 ```
 public final void wait()

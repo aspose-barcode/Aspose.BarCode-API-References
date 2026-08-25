@@ -3,7 +3,7 @@ title: BarCodeResult
 second_title: Aspose.BarCode for Java API Reference
 description: Stores recognized barcode data like SingleDecodeType type string codetext BarCodeRegionParameters region and other parameters
 type: docs
-weight: 18
+weight: 17
 url: /java/com.aspose.barcode.barcoderecognition/barcoderesult/
 ---
 **Inheritance:**
@@ -188,7 +188,7 @@ Value: The type name of the recognized barcode
 java.lang.String
 ### getConfidence() {#getConfidence--}
 ```
-public int getConfidence()
+public BarCodeConfidence getConfidence()
 ```
 
 
@@ -197,7 +197,7 @@ Gets recognition confidence level of the recognized barcode
 Value:  BarCodeConfidence.Strong  does not have fakes or misrecognitions,  BarCodeConfidence.Moderate  could sometimes have fakes or incorrect codetext because this confidence level for barcodews with weak cheksum or even without it,  BarCodeConfidence.None  always has incorrect codetext and could be fake recognitions
 
 **Returns:**
-int
+[BarCodeConfidence](../../com.aspose.barcode.barcoderecognition/barcodeconfidence)
 ### getExtended() {#getExtended--}
 ```
 public BarCodeExtendedParameters getExtended()

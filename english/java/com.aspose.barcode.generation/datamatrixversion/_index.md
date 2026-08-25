@@ -3,7 +3,7 @@ title: DataMatrixVersion
 second_title: Aspose.BarCode for Java API Reference
 description: Specify the type of the ECC to encode.
 type: docs
-weight: 83
+weight: 82
 url: /java/com.aspose.barcode.generation/datamatrixversion/
 ---
 **Inheritance:**
@@ -87,7 +87,6 @@ Specify the type of the ECC to encode.
 | [ECC200_8x18](#ECC200-8x18) | Specifies size of 8 x 18 modules for ECC200 type. |
 | [ECC200_8x32](#ECC200-8x32) | Specifies size of 8 x 32 modules for ECC200 type. |
 | [ECC200_96x96](#ECC200-96x96) | Specifies size of 96 x 96 modules for ECC200 type. |
-| [ROWS_COLUMNS](#ROWS-COLUMNS) | Instructs to get symbol sizes from Rows And Columns parameters. |
 ## Methods
 
 | Method | Description |
@@ -95,6 +94,7 @@ Specify the type of the ECC to encode.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -669,14 +669,6 @@ public static final DataMatrixVersion ECC200_96x96
 
 Specifies size of 96 x 96 modules for ECC200 type.
 
-### ROWS_COLUMNS {#ROWS-COLUMNS}
-```
-public static final DataMatrixVersion ROWS_COLUMNS
-```
-
-
-Instructs to get symbol sizes from Rows And Columns parameters. Note that DataMatrix does not support custom rows and columns numbers. This option is not recommended to use.
-
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
 public static T <T>valueOf(Class<T> arg0, String arg1)
@@ -723,6 +715,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static DataMatrixVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[DataMatrixVersion](../../com.aspose.barcode.generation/datamatrixversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
