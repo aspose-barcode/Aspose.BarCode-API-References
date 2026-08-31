@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::QrParameters::set_StructuredAppend method
+title:  method
 linktitle: set_StructuredAppend
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrParameters::set_StructuredAppend method. QR structured append parameters. Structured append mode is not suppported by MicroQR and RectMicroQR barcodes in C++.'
+description: ' method. QR structured append parameters. Structured append mode is not suppported by MicroQR and RectMicroQR barcodes in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.generation/qrparameters/set_structuredappend/

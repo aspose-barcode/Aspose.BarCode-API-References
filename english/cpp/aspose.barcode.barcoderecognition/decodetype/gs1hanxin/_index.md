@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::GS1HanXin field
+title:  field
 linktitle: GS1HanXin
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::GS1HanXin field. Specifies that the data should be decoded with GS1 Han Xin Code barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with GS1 Han Xin Code barcode specification in C++.'
 type: docs
 weight: 9100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/gs1hanxin/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **GS1 Han Xin Code** barcode spec
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::GS1HanXin
 ```
-
-
-
 
 ## See Also
 

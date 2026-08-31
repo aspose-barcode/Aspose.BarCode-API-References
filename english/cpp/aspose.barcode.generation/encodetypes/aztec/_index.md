@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Aztec field
+title:  field
 linktitle: Aztec
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Aztec field. Specifies that the data should be encoded with Aztec barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with Aztec barcode specification in C++.'
 type: docs
 weight: 4100
 url: /cpp/aspose.barcode.generation/encodetypes/aztec/

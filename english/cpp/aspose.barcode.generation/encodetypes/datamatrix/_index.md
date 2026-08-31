@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::DataMatrix field
+title:  field
 linktitle: DataMatrix
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::DataMatrix field. 2D barcode symbology DataMatrix in C++.'
+description: ' field. 2D barcode symbology DataMatrix in C++.'
 type: docs
 weight: 3900
 url: /cpp/aspose.barcode.generation/encodetypes/datamatrix/

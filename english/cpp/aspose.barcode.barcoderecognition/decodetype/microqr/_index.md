@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::MicroQR field
+title:  field
 linktitle: MicroQR
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::MicroQR field. Specifies that the data should be decoded with MicroQR Code barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with MicroQR Code barcode specification in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/microqr/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **MicroQR Code** barcode specific
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::MicroQR
 ```
-
-
-
 
 ## See Also
 

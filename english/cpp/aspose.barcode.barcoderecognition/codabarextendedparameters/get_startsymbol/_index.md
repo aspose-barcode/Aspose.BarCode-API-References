@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_StartSymbol method
+title:  method
 linktitle: get_StartSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_StartSymbol method. Gets a Codabar start symbol. Default value: CodabarSymbol.A in C++.'
+description: ' method. Gets a Codabar start symbol. Default value: CodabarSymbol.A in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/get_startsymbol/
@@ -10,10 +10,10 @@ url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/get_starts
 ## CodabarExtendedParameters::get_StartSymbol method
 
 
-Gets a Codabar start symbol. Default value: CodabarSymbol.A
+Gets a Codabar start symbol. Default value: [CodabarSymbol.A](../../../aspose.barcode/maxicodeset/)
 
 ```cpp
-Aspose::BarCode::Generation::CodabarSymbol Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_StartSymbol()
+Generation::CodabarSymbol Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::get_StartSymbol() const
 ```
 
 ## See Also

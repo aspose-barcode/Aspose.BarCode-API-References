@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddECI method
+title:  method
 linktitle: AddECI
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddECI method. Adds codetext fragment in ECI mode in C++.'
+description: ' method. Adds codetext fragment in ECI mode in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addeci/

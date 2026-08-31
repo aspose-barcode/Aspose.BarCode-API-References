@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Version method
+title:  method
 linktitle: get_Version
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Version method. Gets the version of the SwissQR bill standard in C++.'
+description: ' method. Gets the version of the SwissQR bill standard in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_version/

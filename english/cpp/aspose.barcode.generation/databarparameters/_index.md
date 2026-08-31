@@ -4,7 +4,7 @@ linktitle: DataBarParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::DataBarParameters class. Databar parameters in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.barcode.generation/databarparameters/
 ---
 ## DataBarParameters class
@@ -21,7 +21,7 @@ class DataBarParameters : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_AllowOnlyGS1Encoding](./get_allowonlygs1encoding/)() const | If this flag is set, it allows only GS1 encoding standard for Databar barcode types |
-| [get_AspectRatio](./get_aspectratio/)() | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. Used for DataBar stacked. |
+| [get_AspectRatio](./get_aspectratio/)() const | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. Used for DataBar stacked. |
 | [get_Columns](./get_columns/)() const | Columns count. |
 | [get_Is2DCompositeComponent](./get_is2dcompositecomponent/)() const | Enables flag of 2D composite component with DataBar barcode |
 | [get_Rows](./get_rows/)() const | Rows count. |

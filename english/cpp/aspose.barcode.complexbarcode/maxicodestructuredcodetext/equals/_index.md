@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::Equals method. Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredCodetext value in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/equals/

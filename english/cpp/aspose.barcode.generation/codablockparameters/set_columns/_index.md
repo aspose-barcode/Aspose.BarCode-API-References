@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodablockParameters::set_Columns method
+title:  method
 linktitle: set_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodablockParameters::set_Columns method. Columns count in C++.'
+description: ' method. Columns count in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/codablockparameters/set_columns/

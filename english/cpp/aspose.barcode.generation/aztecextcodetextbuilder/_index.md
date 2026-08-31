@@ -30,13 +30,7 @@ class AztecExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCodetextB
 
 Extended codetext generator for Aztec barcodes for ExtendedCodetext Mode of AztecEncodeMode
 
-
-
-
 Use TwoDDisplayText property of [BarcodeGenerator](../barcodegenerator/) to set visible text to removing managing characters.
-
-
-
 
 This sample shows how to use [AztecExtCodetextBuilder](./) in Extended Mode. 
 ```cpp
@@ -49,7 +43,7 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
+string codetext = textBuilder.GetExtendedCodetext();
 
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))

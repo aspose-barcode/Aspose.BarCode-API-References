@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CMYKColor::CMYKColor constructor
+title:  constructor
 linktitle: CMYKColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CMYKColor::CMYKColor constructor. Initializes a new instance of the CMYKColor class from CMYK values. CMYK values are 0-100 in C++.'
+description: ' constructor. Initializes a new instance of the CMYKColor class from CMYK values. CMYK values are 0-100 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/cmykcolor/cmykcolor/

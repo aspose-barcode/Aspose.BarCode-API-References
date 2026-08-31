@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::XDimensionMode enum
+title:  enum
 linktitle: XDimensionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::BarCodeRecognition::XDimensionMode enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 ## XDimensionMode enum
@@ -29,7 +29,7 @@ enum class XDimensionMode
 ## Remarks
 
 
-Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. 
+[Recognition](../../aspose.barcode.barcoderecognition.recognition/) mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. 
 
 This sample shows how to use XDimension mode 
 ```cpp
@@ -41,9 +41,6 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
         Console.WriteLine(result.CodeText);
 }
 ```
-
-
-
 
 ## See Also
 

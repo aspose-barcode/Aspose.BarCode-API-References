@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::DatabarLimited field
+title:  field
 linktitle: DatabarLimited
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DatabarLimited field. Specifies that the data should be decoded with GS1 Databar limited barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with GS1 Databar limited barcode specification in C++.'
 type: docs
 weight: 5800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/databarlimited/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **GS1 Databar limited** barcode s
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::DatabarLimited
 ```
-
-
-
 
 ## See Also
 

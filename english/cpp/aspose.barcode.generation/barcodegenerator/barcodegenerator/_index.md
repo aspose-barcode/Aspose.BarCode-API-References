@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::BarcodeGenerator constructor
+title:  constructor
 linktitle: BarcodeGenerator
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::BarcodeGenerator constructor. Creates an instance of BarcodeGenerator in C++.'
+description: ' constructor. Creates an instance of BarcodeGenerator in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/barcodegenerator/barcodegenerator/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Unit::get_Inches method
+title:  method
 linktitle: get_Inches
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::get_Inches method. Gets size value in inches in C++.'
+description: ' method. Gets size value in inches in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/unit/get_inches/

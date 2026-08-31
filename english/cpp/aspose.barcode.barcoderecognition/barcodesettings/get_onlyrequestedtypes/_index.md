@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_OnlyRequestedTypes method
+title:  method
 linktitle: get_OnlyRequestedTypes
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_OnlyRequestedTypes method. Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false in C++.'
+description: ' method. Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_onlyrequestedtypes/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_onlyrequestedtyp
 Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false.
 
 ```cpp
-bool Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_OnlyRequestedTypes()
+bool Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_OnlyRequestedTypes() const
 ```
 
 ## Remarks
@@ -43,9 +43,6 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.UPCA)
 
 
 Returns only barcode types explicitly specified for recognition. Default value is false.
-
-
-
 ## See Also
 
 * Class [BarcodeSettings](../)

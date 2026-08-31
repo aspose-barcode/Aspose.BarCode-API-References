@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse method
+title:  method
 linktitle: TryParse
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::TryParse method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
+description: ' method. Converts the string representation of a SingleDecodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/tryparse/

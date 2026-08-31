@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::ToString method. Returns the name of the given BaseEncodeType as a string in C++.'
+description: ' method. Returns the name of the given BaseEncodeType as a string in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/baseencodetype/tostring/

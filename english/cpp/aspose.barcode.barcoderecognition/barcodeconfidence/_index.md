@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeConfidence enum
+title:  enum
 linktitle: BarCodeConfidence
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeConfidence enum. Contains recognition confidence level in C++.'
+description: ' enum. Contains recognition confidence level in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 ## BarCodeConfidence enum
@@ -20,11 +20,11 @@ enum class BarCodeConfidence : int32_t
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Recognition confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake |
-| Moderate | 80 | Recognition confidence of barcode (mostly 1D barcodes) with weak checksumm or even without it. Could contains some misrecognitions in codetext or even fake recognitions if 
+| None | 0 | [Recognition](../../aspose.barcode.barcoderecognition.recognition/) confidence of barcode where codetext was not recognized correctly or barcode was detected as posible fake |
+| Moderate | 80 | [Recognition](../../aspose.barcode.barcoderecognition.recognition/) confidence of barcode (mostly 1D barcodes) with weak checksumm or even without it. Could contains some misrecognitions in codetext or even fake recognitions if 
 
 is low |
-| Strong | 100 | Recognition confidence which was confirmed with BCH codes like Reed–Solomon. There must not be errors in read codetext or fake recognitions |
+| Strong | 100 | [Recognition](../../aspose.barcode.barcoderecognition.recognition/) confidence which was confirmed with BCH codes like Reed–Solomon. There must not be errors in read codetext or fake recognitions |
 
 ## Remarks
 

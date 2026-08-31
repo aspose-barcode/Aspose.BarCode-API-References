@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get method
+title:  method
 linktitle: idx_get
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get method. Indexing by 3-letter element id in C++.'
+description: ' method. Indexing by 3-letter element id in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/idx_get/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/idx_get/
 Indexing by 3-letter element id
 
 ```cpp
-virtual System::SharedPtr<USADriveIdJurisdSubfile::DataElement> Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get(System::String id)=0
+System::SharedPtr<USADriveIdJurisdSubfile::DataElement> Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get(System::String id)
 ```
 
 
@@ -36,7 +36,7 @@ Corresponding **DataElement**
 Indexing by index number
 
 ```cpp
-virtual System::SharedPtr<USADriveIdJurisdSubfile::DataElement> Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get(int32_t index)=0
+System::SharedPtr<USADriveIdJurisdSubfile::DataElement> Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_get(int32_t index)
 ```
 
 

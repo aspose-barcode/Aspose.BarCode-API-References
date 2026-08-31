@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::QrExtCompactionMode enum
+title:  enum
 linktitle: QrExtCompactionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrExtCompactionMode enum. Specifies QR compaction mode for codetext added by QrExtCodetextBuilder in C++.'
+description: ' enum. Specifies QR compaction mode for codetext added by QrExtCodetextBuilder in C++.'
 type: docs
-weight: 8200
+weight: 8600
 url: /cpp/aspose.barcode.generation/qrextcompactionmode/
 ---
 ## QrExtCompactionMode enum

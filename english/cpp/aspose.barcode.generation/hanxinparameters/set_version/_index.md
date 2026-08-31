@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinParameters::set_Version method
+title:  method
 linktitle: set_Version
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinParameters::set_Version method. Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto in C++.'
+description: ' method. Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/hanxinparameters/set_version/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/hanxinparameters/set_version/
 ## HanXinParameters::set_Version method
 
 
-Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is Version.Auto.
+Version of HanXin Code. From Version01 to Version84 for Han Xin code. Default value is [Version.Auto](../../aztecencodemode/).
 
 ```cpp
 void Aspose::BarCode::Generation::HanXinParameters::set_Version(HanXinVersion value)

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::AddOrReplace method
+title:  method
 linktitle: AddOrReplace
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::AddOrReplace method. Adds new DataElement or replaces it if ElementID already exists in C++.'
+description: ' method. Adds new DataElement or replaces it if ElementID already exists in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/addorreplace/

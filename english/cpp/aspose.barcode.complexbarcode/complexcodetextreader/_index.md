@@ -24,7 +24,7 @@ class ComplexCodetextReader : public System::Object
 | static [TryDecodeHIBCPAS](./trydecodehibcpas/)(System::String) | Decodes HIBC PAS codetext. |
 | static [TryDecodeMailmark](./trydecodemailmark/)(System::String) | Decodes Mailmark Barcode C and L codetext. |
 | static [TryDecodeMailmark2D](./trydecodemailmark2d/)(System::String) | Decodes Royal Mail Mailmark 2D codetext. |
-| static [TryDecodeMaxiCode](./trydecodemaxicode/)(Aspose::BarCode::Generation::MaxiCodeMode, System::String) | Decodes MaxiCode codetext. |
+| static [TryDecodeMaxiCode](./trydecodemaxicode/)(Generation::MaxiCodeMode, System::String) | Decodes MaxiCode codetext. |
 | static [TryDecodeSwissQR](./trydecodeswissqr/)(System::String) | Decodes SwissQR codetext. |
 | static [TryDecodeUSADriveId](./trydecodeusadriveid/)(System::String) | Decodes USADriveId codetext. |
 ## Remarks

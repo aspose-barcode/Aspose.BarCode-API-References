@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::CustomerInformationInterpretingType enum
+title:  enum
 linktitle: CustomerInformationInterpretingType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::CustomerInformationInterpretingType enum. Defines the interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode in C++.'
+description: ' enum. Defines the interpreting type (CTable, NTable or Other) of customer information for AustralianPost BarCode in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.barcode/customerinformationinterpretingtype/
 ---
 ## CustomerInformationInterpretingType enum
@@ -29,7 +29,7 @@ enum class CustomerInformationInterpretingType
 
 These samples show how to generate and recognize Australia Post barcode 
 ```cpp
-[C#]
+    [C#]
 //This sample shows how to generate and recognize Australia Post barcode with CTable Interpreting Type.
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678ABCde"))
 {
@@ -59,7 +59,7 @@ Using generator As New BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678AB
     End Using
 End Using
 //This sample shows how to generate and recognize Australia Post barcode without Customer Interpreting Type.
-[C#]
+    [C#]
 using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "59123456780123012301230123"))
 {
     generator.Parameters.Barcode.AustralianPost.AustralianPostEncodingTable = CustomerInformationInterpretingType.Other;

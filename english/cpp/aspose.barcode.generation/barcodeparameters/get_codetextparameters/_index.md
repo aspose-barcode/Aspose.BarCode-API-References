@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_CodeTextParameters method
+title:  method
 linktitle: get_CodeTextParameters
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_CodeTextParameters method. Codetext parameters in C++.'
+description: ' method. Codetext parameters in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_codetextparameters/

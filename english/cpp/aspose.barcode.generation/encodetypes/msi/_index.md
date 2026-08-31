@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::MSI field
+title:  field
 linktitle: MSI
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::MSI field. Specifies that the data should be encoded with MSI Plessey barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with MSI Plessey barcode specification in C++.'
 type: docs
 weight: 3100
 url: /cpp/aspose.barcode.generation/encodetypes/msi/

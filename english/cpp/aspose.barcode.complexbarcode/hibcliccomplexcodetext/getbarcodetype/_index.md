@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::GetBarcodeType method
+title:  method
 linktitle: GetBarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::GetBarcodeType method. Gets barcode type in C++.'
+description: ' method. Gets barcode type in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/
 Gets barcode type.
 
 ```cpp
-System::SharedPtr<Aspose::BarCode::Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::GetBarcodeType() override
+System::SharedPtr<Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::GetBarcodeType() override
 ```
 
 

@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::USADriveIdJurisdSubfile constructor
+title:  constructor
 linktitle: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use USADriveIdJurisdSubfile constructor of Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile class in C++.'

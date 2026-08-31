@@ -4,7 +4,7 @@ linktitle: PostalParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::PostalParameters class. Postal parameters. Used for Postnet, Planet in C++.'
 type: docs
-weight: 3800
+weight: 4100
 url: /cpp/aspose.barcode.generation/postalparameters/
 ---
 ## PostalParameters class

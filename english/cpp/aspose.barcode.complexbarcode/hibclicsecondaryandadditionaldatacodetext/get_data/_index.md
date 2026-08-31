@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::get_Data method
+title:  method
 linktitle: get_Data
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::get_Data method. Identifies secodary and additional supplemental data in C++.'
+description: ' method. Identifies secodary and additional supplemental data in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/get_data/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetex
 Identifies secodary and additional supplemental data.
 
 ```cpp
-System::SharedPtr<SecondaryAndAdditionalData> Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::get_Data()
+System::SharedPtr<SecondaryAndAdditionalData> Aspose::BarCode::ComplexBarcode::HIBCLICSecondaryAndAdditionalDataCodetext::get_Data() const
 ```
 
 ## See Also

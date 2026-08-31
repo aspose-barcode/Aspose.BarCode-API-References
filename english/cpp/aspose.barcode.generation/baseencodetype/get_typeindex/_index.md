@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::get_TypeIndex method
+title:  method
 linktitle: get_TypeIndex
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::get_TypeIndex method. Gets an index of encode type in C++.'
+description: ' method. Gets an index of encode type in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/baseencodetype/get_typeindex/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/baseencodetype/get_typeindex/
 Gets an index of encode type
 
 ```cpp
-int16_t Aspose::BarCode::Generation::BaseEncodeType::get_TypeIndex()
+int16_t Aspose::BarCode::Generation::BaseEncodeType::get_TypeIndex() const
 ```
 
 ## See Also

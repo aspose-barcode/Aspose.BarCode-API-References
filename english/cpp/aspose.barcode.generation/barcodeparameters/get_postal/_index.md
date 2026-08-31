@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_Postal method
+title:  method
 linktitle: get_Postal
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Postal method. Postal parameters. Used for Postnet, Planet in C++.'
+description: ' method. Postal parameters. Used for Postnet, Planet in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_postal/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Aztec field
+title:  field
 linktitle: Aztec
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Aztec field. Specifies that the data should be decoded with Aztec barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Aztec barcode specification in C++.'
 type: docs
 weight: 4300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/aztec/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **Aztec** barcode specification
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Aztec
 ```
-
-
-
 
 ## See Also
 

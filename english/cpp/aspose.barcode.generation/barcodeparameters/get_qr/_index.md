@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_QR method
+title:  method
 linktitle: get_QR
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_QR method. QR, MicroQR and RectMicroQR parameters in C++.'
+description: ' method. QR, MicroQR and RectMicroQR parameters in C++.'
 type: docs
 weight: 3300
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_qr/

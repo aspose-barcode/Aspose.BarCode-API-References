@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::ITF6 field
+title:  field
 linktitle: ITF6
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::ITF6 field. Specifies that the data should be decoded with ITF6 barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with ITF6 barcode specification in C++.'
 type: docs
 weight: 3200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/itf6/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **ITF6** barcode specification
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::ITF6
 ```
-
-
-
 
 ## See Also
 

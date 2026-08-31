@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Version method
+title:  method
 linktitle: set_Version
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Version method. Sets the version of the SwissQR bill standard in C++.'
+description: ' method. Sets the version of the SwissQR bill standard in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_version/

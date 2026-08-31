@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CMYKColor::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CMYKColor::Equals method. Compares if values of colors are the same in C++.'
+description: ' method. Compares if values of colors are the same in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/cmykcolor/equals/

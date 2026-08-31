@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_OptionalElements method
+title:  method
 linktitle: get_OptionalElements
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_OptionalElements method. Optional elements (fields) of the card in C++.'
+description: ' method. Optional elements (fields) of the card in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/get_optionalelements/

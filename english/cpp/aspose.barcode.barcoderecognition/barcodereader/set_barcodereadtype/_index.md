@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::set_BarCodeReadType method
+title:  method
 linktitle: set_BarCodeReadType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::set_BarCodeReadType method. Sets the barcode decode type used for recognition. Must be set before calling ReadBarCodes in C++.'
+description: ' method. Sets the barcode decode type used for recognition. Must be set before calling ReadBarCodes in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/set_barcodereadtype/

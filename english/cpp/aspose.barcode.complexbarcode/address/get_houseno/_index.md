@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::get_HouseNo method
+title:  method
 linktitle: get_HouseNo
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::get_HouseNo method. Gets the house number in C++.'
+description: ' method. Gets the house number in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/address/get_houseno/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/address/get_houseno/
 Gets the house number.
 
 ```cpp
-System::String Aspose::BarCode::ComplexBarcode::Address::get_HouseNo()
+System::String Aspose::BarCode::ComplexBarcode::Address::get_HouseNo() const
 ```
 
 ## Remarks

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::get_Parameters method
+title:  method
 linktitle: get_Parameters
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::get_Parameters method. Generation parameters in C++.'
+description: ' method. Generation parameters in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/barcodegenerator/get_parameters/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/barcodegenerator/get_parameters/
 [Generation](../../) parameters.
 
 ```cpp
-System::SharedPtr<BaseGenerationParameters> Aspose::BarCode::Generation::BarcodeGenerator::get_Parameters()
+System::SharedPtr<BaseGenerationParameters> Aspose::BarCode::Generation::BarcodeGenerator::get_Parameters() const
 ```
 
 ## See Also

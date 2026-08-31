@@ -20,8 +20,8 @@ class Code128ExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Ba
 
 | Method | Description |
 | --- | --- |
-| [get_Code128DataPortions](./get_code128dataportions/)() | Gets [Code128DataPortion](../code128dataportion/) array of recognized Code128 barcode |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
+| [get_Code128DataPortions](./get_code128dataportions/)() const | Gets [Code128DataPortion](../code128dataportion/) array of recognized Code128 barcode |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() const | **Tests** whether all parameters has only default values |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [Code128ExtendedParameters](./). |
 ## Remarks

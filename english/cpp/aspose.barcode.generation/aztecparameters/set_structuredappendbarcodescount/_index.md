@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendBarcodesCount method
+title:  method
 linktitle: set_StructuredAppendBarcodesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendBarcodesCount method. Barcodes count for Structured Append mode of Aztec barcode. Barcodes count should be in range from 1 to 26. Default value: 0 in C++.'
+description: ' method. Barcodes count for Structured Append mode of Aztec barcode. Barcodes count should be in range from 1 to 26. Default value: 0 in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.generation/aztecparameters/set_structuredappendbarcodescount/

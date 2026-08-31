@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::GetHashCode method
+title:  method
 linktitle: GetHashCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::GetHashCode method. Returns the hash code for this instance in C++.'
+description: ' method. Returns the hash code for this instance in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/gethashcode/

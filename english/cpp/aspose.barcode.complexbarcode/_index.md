@@ -4,7 +4,7 @@ linktitle: Aspose::BarCode::ComplexBarcode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::ComplexBarcode namespace in C++.'
 type: docs
-weight: 400
+weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/
 ---
 
@@ -35,11 +35,13 @@ url: /cpp/aspose.barcode.complexbarcode/
 | [MaxiCodeStandardSecondMessage](./maxicodestandardsecondmessage/) | Class for encoding and decoding standard second message for MaxiCode barcode. |
 | [MaxiCodeStructuredCodetext](./maxicodestructuredcodetext/) | Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3. |
 | [MaxiCodeStructuredSecondMessage](./maxicodestructuredsecondmessage/) | Class for encoding and decoding structured second message for MaxiCode barcode. |
+| [Payments](./payments/) | Field validations related to Swiss Payment standards. |
 | [PrimaryData](./primarydata/) | Class for storing HIBC LIC primary data. |
 | [SecondaryAndAdditionalData](./secondaryandadditionaldata/) | Class for storing HIBC LIC secondary and additional data. |
 | [SwissQRBill](./swissqrbill/) | SwissQR bill data |
 | [SwissQRCodetext](./swissqrcodetext/) | Class for encoding and decoding the text embedded in the SwissQR code. |
 | [USADriveIdCodetext](./usadriveidcodetext/) | Class for encoding and decoding the text embedded in the USA Driving [License](../aspose.barcode/license/) PDF417 code. |
+| [USADriveIdHelper](./usadriveidhelper/) |  |
 | [USADriveIdJurisdSubfile](./usadriveidjurisdsubfile/) | Class for Jurisdiction specific fields for USA DL |
 ## Enums
 
@@ -49,6 +51,7 @@ url: /cpp/aspose.barcode.complexbarcode/
 | [HIBCPASDataLocation](./hibcpasdatalocation/) | HIBC PAS data location types. |
 | [HIBCPASDataType](./hibcpasdatatype/) | HIBC PAS record's data types. |
 | [Mailmark2DType](./mailmark2dtype/) | 2D Mailmark Type defines size of Data Matrix barcode |
+| [Mailmark1DType](./mailmark1dtype/) | Types of 4-state Mailmark Barcode |
 | [AddressType](./addresstype/) | [Address](./address/) type |
 | [USADriveIdSex](./usadriveidsex/) | Enum for Sex field in the US Driver's [License](../aspose.barcode/license/) |
 | [USADriveIdCountry](./usadriveidcountry/) | Enum for Country Identification in the US Driver's [License](../aspose.barcode/license/) |

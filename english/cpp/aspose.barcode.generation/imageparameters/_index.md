@@ -4,7 +4,7 @@ linktitle: ImageParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::ImageParameters class. Image parameters in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.barcode.generation/imageparameters/
 ---
 ## ImageParameters class

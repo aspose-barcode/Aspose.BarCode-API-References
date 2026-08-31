@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::AlternativeScheme::set_Instruction method
+title:  method
 linktitle: set_Instruction
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::AlternativeScheme::set_Instruction method. Gets the payment instruction for a given bill in C++.'
+description: ' method. Gets the payment instruction for a given bill in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/alternativescheme/set_instruction/

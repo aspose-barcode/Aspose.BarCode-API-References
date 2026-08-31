@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdEyeColor enum
+title:  enum
 linktitle: USADriveIdEyeColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdEyeColor enum. Enum for Eye Color in the US Driver''s License in C++.'
+description: ' enum. Enum for Eye Color in the US Driver''s License in C++.'
 type: docs
-weight: 3500
+weight: 3800
 url: /cpp/aspose.barcode.complexbarcode/usadriveideyecolor/
 ---
 ## USADriveIdEyeColor enum

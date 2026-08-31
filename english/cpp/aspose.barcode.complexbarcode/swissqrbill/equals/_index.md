@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::Equals method. Determines whether the specified object is equal to the current object in C++.'
+description: ' method. Determines whether the specified object is equal to the current object in C++.'
 type: docs
 weight: 2200
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/equals/

@@ -4,7 +4,7 @@ linktitle: QrExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::QrExtCodetextBuilder class in C++.'
 type: docs
-weight: 3900
+weight: 4200
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
@@ -35,13 +35,7 @@ class QrExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCodetextBuil
 
 Extended codetext generator for 2D QR barcodes for ExtendedCodetext Mode of EncodeMode
 
-
-
-
 Use TwoDDisplayText property of [BarcodeGenerator](../barcodegenerator/) to set visible text to removing managing characters.
-
-
-
 
 This sample shows how to use FNC1 first position in Extended Mode. 
 ```cpp
@@ -74,7 +68,7 @@ This sample shows how to use FNC1 second position in Extended Mode.
 //create codetext
 QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddFNC1SecondPosition("12");
-TextBuilder.AddPlainCodetext("TRUE3456"); 
+TextBuilder.AddPlainCodetext("TRUE3456");
 
 //generate codetext
 string codetext = TextBuilder.GetExtendedCodetext();

@@ -4,7 +4,7 @@ linktitle: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile class. Class for Jurisdiction specific fields for USA DL in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
 ---
 ## USADriveIdJurisdSubfile class
@@ -25,10 +25,10 @@ class USADriveIdJurisdSubfile : public System::Object
 | [Clear](./clear/)() | Clears all data elements |
 | [FindDataElement](./finddataelement/)(System::String, bool) | Searches for data element by 3-letter id |
 | [get_Count](./get_count/)() | Returns number of data elements |
-| virtual [idx_get](./idx_get/)(System::String) | Indexing by 3-letter element id |
-| virtual [idx_get](./idx_get/)(int32_t) | Indexing by index number |
-| virtual [idx_set](./idx_set/)(System::String, System::SharedPtr\<USADriveIdJurisdSubfile::DataElement\>) | Indexing by 3-letter element id |
-| virtual [idx_set](./idx_set/)(int32_t, System::SharedPtr\<USADriveIdJurisdSubfile::DataElement\>) | Indexing by index number |
+| [idx_get](./idx_get/)(System::String) | Indexing by 3-letter element id |
+| [idx_get](./idx_get/)(int32_t) | Indexing by index number |
+| [idx_set](./idx_set/)(System::String, System::SharedPtr\<USADriveIdJurisdSubfile::DataElement\>) | Indexing by 3-letter element id |
+| [idx_set](./idx_set/)(int32_t, System::SharedPtr\<USADriveIdJurisdSubfile::DataElement\>) | Indexing by index number |
 | [Insert](./insert/)(int32_t, System::SharedPtr\<USADriveIdJurisdSubfile::DataElement\>) | Inserts the specified **DataElement** at the given index. If a **DataElement** with the same ElementID already exists, it will be replaced. |
 | [RemoveAt](./removeat/)(int32_t) | Tries to remove element at index |
 | [RemoveAt](./removeat/)(System::String) | Tries to remove element with 3-letter id |

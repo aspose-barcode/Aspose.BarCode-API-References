@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Quadrangle method
+title:  method
 linktitle: get_Quadrangle
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Quadrangle method. Gets Aspose::BarCode::BarCodeRecognition::Quadrangle bounding barcode region in C++.'
+description: ' method. Gets Aspose::BarCode::BarCodeRecognition::Quadrangle bounding barcode region in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/get_quadrangle/
@@ -13,16 +13,13 @@ url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/get_quadrang
 Gets [Aspose::BarCode::BarCodeRecognition::Quadrangle](../../quadrangle/) bounding barcode region
 
 ```cpp
-System::SharedPtr<Aspose::BarCode::BarCodeRecognition::Quadrangle> Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Quadrangle()
+System::SharedPtr<Aspose::BarCode::BarCodeRecognition::Quadrangle> Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Quadrangle() const
 ```
 
 ## Remarks
 
 
 Returns [Aspose::BarCode::BarCodeRecognition::Quadrangle](../../quadrangle/) bounding barcode region
-
-
-
 ## See Also
 
 * Class [Quadrangle](../../quadrangle/)

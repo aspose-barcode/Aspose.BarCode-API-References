@@ -4,7 +4,7 @@ linktitle: SvgParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::SvgParameters class. SVG parameters in C++.'
 type: docs
-weight: 4300
+weight: 4700
 url: /cpp/aspose.barcode.generation/svgparameters/
 ---
 ## SvgParameters class

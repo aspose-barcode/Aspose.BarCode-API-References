@@ -4,7 +4,7 @@ linktitle: DotCodeExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::DotCodeExtendedParameters class. Stores special data of DotCode recognized barcode in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 ## DotCodeExtendedParameters class
@@ -20,10 +20,10 @@ class DotCodeExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Ba
 
 | Method | Description |
 | --- | --- |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
-| [get_IsReaderInitialization](./get_isreaderinitialization/)() | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
-| [get_StructuredAppendModeBarcodeId](./get_structuredappendmodebarcodeid/)() | Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. |
-| [get_StructuredAppendModeBarcodesCount](./get_structuredappendmodebarcodescount/)() | Gets the DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() const | **Tests** whether all parameters has only default values |
+| [get_IsReaderInitialization](./get_isreaderinitialization/)() const | Indicates whether code is used for instruct reader to interpret the following data as instructions for initialization or reprogramming of the bar code reader. Default value is false. |
+| [get_StructuredAppendModeBarcodeId](./get_structuredappendmodebarcodeid/)() const | Gets the ID of the DotCode structured append mode barcode. ID starts from 1 and must be less or equal to barcodes count. Default value is -1. |
+| [get_StructuredAppendModeBarcodesCount](./get_structuredappendmodebarcodescount/)() const | Gets the DotCode structured append mode barcodes count. Default value is -1. Count must be a value from 1 to 35. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [DotCodeExtendedParameters](./). |
 ## Remarks

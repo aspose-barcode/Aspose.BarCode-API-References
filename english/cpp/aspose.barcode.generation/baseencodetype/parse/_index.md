@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::Parse method
+title:  method
 linktitle: Parse
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::Parse method. Converts the string representation of the name of a BaseEncodeType to its instance in C++.'
+description: ' method. Converts the string representation of the name of a BaseEncodeType to its instance in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/baseencodetype/parse/
@@ -25,7 +25,6 @@ static System::SharedPtr<BaseEncodeType> Aspose::BarCode::Generation::BaseEncode
 
 the instance of
 ## Remarks
-
 
 
 

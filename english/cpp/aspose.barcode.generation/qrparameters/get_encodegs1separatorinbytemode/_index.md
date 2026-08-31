@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::Generation::QrParameters::get_EncodeGS1SeparatorInByteMode method
+title:  method
 linktitle: get_EncodeGS1SeparatorInByteMode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_EncodeGS1SeparatorInByteMode method of Aspose::BarCode::Generation::QrParameters class in C++.'

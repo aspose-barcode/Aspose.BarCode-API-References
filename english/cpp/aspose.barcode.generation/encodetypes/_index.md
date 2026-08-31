@@ -4,7 +4,7 @@ linktitle: EncodeTypes
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::EncodeTypes class. Specifies the type of barcode to encode in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class

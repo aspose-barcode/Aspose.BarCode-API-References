@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASRecord::set_Data method
+title:  method
 linktitle: set_Data
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCPASRecord::set_Data method. Identifies data in C++.'
+description: ' method. Identifies data in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/hibcpasrecord/set_data/

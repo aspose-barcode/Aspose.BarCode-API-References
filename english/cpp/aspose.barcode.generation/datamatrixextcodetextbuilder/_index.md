@@ -4,7 +4,7 @@ linktitle: DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder class in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 ## DataMatrixExtCodetextBuilder class
@@ -33,9 +33,6 @@ class DataMatrixExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCode
 Extended codetext generator for 2D DataMatrix barcodes for ExtendedCodetext Mode of EncodeMode
 
 
-
-
-
 ```cpp
 [C#]
 //Extended codetext mode
@@ -48,7 +45,7 @@ codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
+string codetext = textBuilder.GetExtendedCodetext();
 
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))

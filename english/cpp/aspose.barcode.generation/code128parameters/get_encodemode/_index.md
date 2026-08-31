@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Code128Parameters::get_EncodeMode method
+title:  method
 linktitle: get_EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Code128Parameters::get_EncodeMode method. Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto in C++.'
+description: ' method. Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/code128parameters/get_encodemode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/code128parameters/get_encodemode/
 ## Code128Parameters::get_EncodeMode method
 
 
-Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../../code128encodemode/)
+Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../../aztecencodemode/)
 
 ```cpp
 Code128EncodeMode Aspose::BarCode::Generation::Code128Parameters::get_EncodeMode() const

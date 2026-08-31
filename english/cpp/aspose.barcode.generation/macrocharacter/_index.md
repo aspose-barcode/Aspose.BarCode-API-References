@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::MacroCharacter enum
+title:  enum
 linktitle: MacroCharacter
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MacroCharacter enum. Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)>\u001E05\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer. 06 Macro craracter is translated to "[)>\u001E06\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer in C++.'
+description: ' enum. Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. 05 Macro craracter is translated to "[)>\u001E05\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer. 06 Macro craracter is translated to "[)>\u001E06\u001D" as decoded data header and "\u001E\u0004" as decoded data trailer in C++.'
 type: docs
-weight: 6700
+weight: 7100
 url: /cpp/aspose.barcode.generation/macrocharacter/
 ---
 ## MacroCharacter enum

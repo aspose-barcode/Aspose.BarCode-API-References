@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::HIBCPASCodetext constructor
+title:  constructor
 linktitle: HIBCPASCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use HIBCPASCodetext constructor of Aspose::BarCode::ComplexBarcode::HIBCPASCodetext class in C++.'

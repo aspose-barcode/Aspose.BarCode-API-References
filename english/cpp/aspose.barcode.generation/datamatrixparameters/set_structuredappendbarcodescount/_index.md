@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixParameters::set_StructuredAppendBarcodesCount method
+title:  method
 linktitle: set_StructuredAppendBarcodesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixParameters::set_StructuredAppendBarcodesCount method. Barcodes count for Structured Append mode of Datamatrix barcode. Default value: 0 in C++.'
+description: ' method. Barcodes count for Structured Append mode of Datamatrix barcode. Default value: 0 in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.generation/datamatrixparameters/set_structuredappendbarcodescount/

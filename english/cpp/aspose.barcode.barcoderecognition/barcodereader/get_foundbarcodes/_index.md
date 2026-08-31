@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_FoundBarCodes method
+title:  method
 linktitle: get_FoundBarCodes
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_FoundBarCodes method. Gets recognized BarCodeResults array in C++.'
+description: ' method. Gets recognized BarCodeResults array in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/get_foundbarcodes/

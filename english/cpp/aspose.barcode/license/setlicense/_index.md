@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::License::SetLicense method
+title:  method
 linktitle: SetLicense
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::License::SetLicense method. Licenses the library in C++.'
+description: ' method. Licenses the library in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode/license/setlicense/
@@ -44,7 +44,7 @@ Tries to find the license in the following locations:
 In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. 
 ```cpp
 [C#]
-
+@verbatim
 License license = new License();
 license.SetLicense("MyLicense.lic");
 
@@ -53,6 +53,7 @@ license.SetLicense("MyLicense.lic");
 
 Dim license As License = New License
 license.SetLicense("MyLicense.lic")
+@endverbatim
 ```
 
 

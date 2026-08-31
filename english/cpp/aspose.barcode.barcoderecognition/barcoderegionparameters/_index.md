@@ -20,10 +20,10 @@ class BarCodeRegionParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Angle](./get_angle/)() | Gets the angle of the barcode (0-360). |
-| [get_Points](./get_points/)() | Gets [Point](../)s array bounding barcode region |
-| [get_Quadrangle](./get_quadrangle/)() | Gets [Aspose::BarCode::BarCodeRecognition::Quadrangle](../quadrangle/) bounding barcode region |
-| [get_Rectangle](./get_rectangle/)() | Gets **System::Drawing::Rectangle** bounding barcode region |
+| [get_Angle](./get_angle/)() const | Gets the angle of the barcode (0-360). |
+| [get_Points](./get_points/)() const | Gets [Point](../)s array bounding barcode region |
+| [get_Quadrangle](./get_quadrangle/)() const | Gets [Aspose::BarCode::BarCodeRecognition::Quadrangle](../quadrangle/) bounding barcode region |
+| [get_Rectangle](./get_rectangle/)() const | Gets **System::Drawing::Rectangle** bounding barcode region |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [BarCodeRegionParameters](./). |
 ## Remarks

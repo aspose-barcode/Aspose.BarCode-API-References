@@ -4,7 +4,7 @@ linktitle: GS1CompositeBarParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::GS1CompositeBarParameters class. GS1 Composite bar parameters in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.barcode.generation/gs1compositebarparameters/
 ---
 ## GS1CompositeBarParameters class

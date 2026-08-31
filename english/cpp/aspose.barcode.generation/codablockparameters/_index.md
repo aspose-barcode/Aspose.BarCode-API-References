@@ -20,7 +20,7 @@ class CodablockParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AspectRatio](./get_aspectratio/)() | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
+| [get_AspectRatio](./get_aspectratio/)() const | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
 | [get_Columns](./get_columns/)() const | Columns count. |
 | [get_Rows](./get_rows/)() const | Rows count. |
 | [set_AspectRatio](./set_aspectratio/)(float) | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |

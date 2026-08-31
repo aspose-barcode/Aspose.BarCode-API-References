@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddGS1 method
+title:  method
 linktitle: AddGS1
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddGS1 method. Adds codetext fragment in GS1 mode in C++.'
+description: ' method. Adds codetext fragment in GS1 mode in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addgs1/

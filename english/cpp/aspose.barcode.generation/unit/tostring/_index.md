@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Unit::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::ToString method. Returns a human-readable string representation of this Unit in C++.'
+description: ' method. Returns a human-readable string representation of this Unit in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.generation/unit/tostring/

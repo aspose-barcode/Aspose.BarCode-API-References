@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417Terminator method
+title:  method
 linktitle: get_MacroPdf417Terminator
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf417Terminator method. Indicates whether the segment is the last segment of a Macro PDF417 file in C++.'
+description: ' method. Indicates whether the segment is the last segment of a Macro PDF417 file in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/get_macropdf417terminator/
@@ -20,9 +20,6 @@ bool Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters::get_MacroPdf
 
 
 Terminator.
-
-
-
 ## See Also
 
 * Class [Pdf417ExtendedParameters](../)

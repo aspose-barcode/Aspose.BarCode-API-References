@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Account method
+title:  method
 linktitle: set_Account
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Account method. Sets the creditor''s account number in C++.'
+description: ' method. Sets the creditor''s account number in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_account/

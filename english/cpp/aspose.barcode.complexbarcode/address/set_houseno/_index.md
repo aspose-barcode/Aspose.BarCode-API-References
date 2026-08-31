@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::set_HouseNo method
+title:  method
 linktitle: set_HouseNo
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::set_HouseNo method. Sets the house number in C++.'
+description: ' method. Sets the house number in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/address/set_houseno/

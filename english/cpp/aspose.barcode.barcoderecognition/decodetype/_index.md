@@ -27,7 +27,7 @@ class DecodeType
 | static [Is2D](./is2d/)(System::SharedPtr\<BaseDecodeType\>) | Determines if the specified [BaseDecodeType](../basedecodetype/) contains any 2D barcode symbology |
 | static [IsPostal](./ispostal/)(System::SharedPtr\<BaseDecodeType\>) | Determines if the specified [BaseDecodeType](../basedecodetype/) contains any Postal barcode symbology |
 | static [Parse](./parse/)(System::String, System::SharedPtr\<SingleDecodeType\>\&) | Converts the string representation of a [SingleDecodeType](../singledecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [ScanSets](./scansets/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Specify scan sets by barcodeTypes |
+| static [ScanSets](./scansets/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Specify scan sets by barcodeTypes |
 | static [TryParse](./tryparse/)(System::String, System::SharedPtr\<SingleDecodeType\>\&) | Converts the string representation of a [SingleDecodeType](../singledecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
 | static [TryParse](./tryparse/)(System::String, System::SharedPtr\<MultiDecodeType\>\&) | Converts the string representation of a [MultiDecodeType](../multidecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
 ## Fields
@@ -56,7 +56,7 @@ class DecodeType
 | static [DatabarStackedOmniDirectional](./databarstackedomnidirectional/) | Specifies that the data should be decoded with **GS1 Databar stacked omni-directional** barcode specification |
 | static [DatabarTruncated](./databartruncated/) | Specifies that the data should be decoded with **GS1 Databar truncated** barcode specification |
 | static [DataLogic2of5](./datalogic2of5/) | Specifies that the data should be decoded with **DataLogic 2 of 5** barcode specification |
-| static [DataMatrix](./datamatrix/) | Specifies that the data should be decoded with **DataMatrix** barcode symbology |
+| static [DataMatrix](./datamatrix/) | Specifies that the data should be decoded with **[DataMatrix](../../aspose.barcode.barcoderecognition.datamatrix/)** barcode symbology |
 | static [DeutschePostIdentcode](./deutschepostidentcode/) | Specifies that the data should be decoded with **DeutschePost Ident code** barcode specification |
 | static [DeutschePostLeitcode](./deutschepostleitcode/) | Specifies that the data should be decoded with **DeutschePost Leit code** barcode specification |
 | static [DotCode](./dotcode/) | Specifies that the data should be decoded with **DotCode** barcode specification |
@@ -71,7 +71,7 @@ class DecodeType
 | static [GS1DotCode](./gs1dotcode/) | Specifies that the data should be decoded with **GS1 DotCode** barcode specification |
 | static [GS1HanXin](./gs1hanxin/) | Specifies that the data should be decoded with **GS1 Han Xin Code** barcode specification |
 | static [GS1MicroPdf417](./gs1micropdf417/) | Specifies that the data should be decoded with **MicroPdf417** barcode specification |
-| static [GS1QR](./gs1qr/) | Specifies that the data should be decoded with **GS1 QR** barcode specification |
+| static [GS1QR](./gs1qr/) | Specifies that the data should be decoded with **GS1 [QR](../../aspose.barcode.barcoderecognition.qr/)** barcode specification |
 | static [HanXin](./hanxin/) | Specifies that the data should be decoded with **Han Xin Code** barcode specification |
 | static [HIBCAztecLIC](./hibcazteclic/) | Specifies that the data should be decoded with **HIBC LIC Aztec** barcode specification |
 | static [HIBCAztecPAS](./hibcaztecpas/) | Specifies that the data should be decoded with **HIBC PAS Aztec** barcode specification |
@@ -79,10 +79,10 @@ class DecodeType
 | static [HIBCCode128PAS](./hibccode128pas/) | Specifies that the data should be decoded with **HIBC PAS Code128** barcode specification |
 | static [HIBCCode39LIC](./hibccode39lic/) | Specifies that the data should be decoded with **HIBC LIC Code39** barcode specification |
 | static [HIBCCode39PAS](./hibccode39pas/) | Specifies that the data should be decoded with **HIBC PAS Code39** barcode specification |
-| static [HIBCDataMatrixLIC](./hibcdatamatrixlic/) | Specifies that the data should be decoded with **HIBC LIC DataMatrix** barcode specification |
-| static [HIBCDataMatrixPAS](./hibcdatamatrixpas/) | Specifies that the data should be decoded with **HIBC PAS DataMatrix** barcode specification |
-| static [HIBCQRLIC](./hibcqrlic/) | Specifies that the data should be decoded with **HIBC LIC QR** barcode specification |
-| static [HIBCQRPAS](./hibcqrpas/) | Specifies that the data should be decoded with **HIBC PAS QR** barcode specification |
+| static [HIBCDataMatrixLIC](./hibcdatamatrixlic/) | Specifies that the data should be decoded with **HIBC LIC [DataMatrix](../../aspose.barcode.barcoderecognition.datamatrix/)** barcode specification |
+| static [HIBCDataMatrixPAS](./hibcdatamatrixpas/) | Specifies that the data should be decoded with **HIBC PAS [DataMatrix](../../aspose.barcode.barcoderecognition.datamatrix/)** barcode specification |
+| static [HIBCQRLIC](./hibcqrlic/) | Specifies that the data should be decoded with **HIBC LIC [QR](../../aspose.barcode.barcoderecognition.qr/)** barcode specification |
+| static [HIBCQRPAS](./hibcqrpas/) | Specifies that the data should be decoded with **HIBC PAS [QR](../../aspose.barcode.barcoderecognition.qr/)** barcode specification |
 | static [IATA2of5](./iata2of5/) | Specifies that the data should be decoded with **IATA 2 of 5** barcode specification. IATA (International Air Transport Association) uses this barcode for the management of air cargo. |
 | static [Interleaved2of5](./interleaved2of5/) | Specifies that the data should be decoded with **INTERLEAVED 2 of 5** barcode specification |
 | static [ISBN](./isbn/) | Specifies that the data should be decoded with **ISBN** barcode specification |
@@ -110,7 +110,7 @@ class DecodeType
 | static [PostalTypes](./postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX** |
 | static [Postnet](./postnet/) | Specifies that the data should be decoded with **Postnet** barcode specification |
 | static [PZN](./pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported. |
-| static [QR](./qr/) | Specifies that the data should be decoded with **QR Code** barcode specification |
+| static [QR](./qr/) | Specifies that the data should be decoded with **[QR](../../aspose.barcode.barcoderecognition.qr/) Code** barcode specification |
 | static [RectMicroQR](./rectmicroqr/) | Specifies that the data should be decoded with **RectMicroQR (rMQR) Code** barcode specification |
 | static [RM4SCC](./rm4scc/) | Specifies that the data should be decoded with **RM4SCC** barcode specification. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK. |
 | static [SCC14](./scc14/) | Specifies that the data should be decoded with **SCC14** barcode specification |

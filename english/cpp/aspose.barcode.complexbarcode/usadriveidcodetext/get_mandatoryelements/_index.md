@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_MandatoryElements method
+title:  method
 linktitle: get_MandatoryElements
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_MandatoryElements method. Mandatory elements (fields) of the card in C++.'
+description: ' method. Mandatory elements (fields) of the card in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/get_mandatoryelements/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_MandatoryElements method
+title:  method
 linktitle: set_MandatoryElements
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::set_MandatoryElements method. Mandatory elements (fields) of the card in C++.'
+description: ' method. Mandatory elements (fields) of the card in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/set_mandatoryelements/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::get_BarcodeType method
+title:  method
 linktitle: get_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::get_BarcodeType method. Barcode symbology type in C++.'
+description: ' method. Barcode symbology type in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/barcodegenerator/get_barcodetype/

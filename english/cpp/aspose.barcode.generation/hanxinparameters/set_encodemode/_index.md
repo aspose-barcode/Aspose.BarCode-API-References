@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinParameters::set_EncodeMode method
+title:  method
 linktitle: set_EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinParameters::set_EncodeMode method. HanXin encoding mode. Default value: EncodeMode.Mixed in C++.'
+description: ' method. HanXin encoding mode. Default value: EncodeMode.Mixed in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/hanxinparameters/set_encodemode/

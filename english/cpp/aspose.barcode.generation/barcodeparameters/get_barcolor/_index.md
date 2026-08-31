@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_BarColor method
+title:  method
 linktitle: get_BarColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_BarColor method. Bars color. Default value: Color.Black in C++.'
+description: ' method. Bars color. Default value: Color.Black in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_barcolor/

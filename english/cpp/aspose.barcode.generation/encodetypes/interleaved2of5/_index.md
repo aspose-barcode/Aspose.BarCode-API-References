@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Interleaved2of5 field
+title:  field
 linktitle: Interleaved2of5
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Interleaved2of5 field. Specifies that the data should be encoded with INTERLEAVED 2 of 5 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with INTERLEAVED 2 of 5 barcode specification in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.barcode.generation/encodetypes/interleaved2of5/

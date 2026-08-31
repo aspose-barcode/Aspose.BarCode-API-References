@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::set_StartSymbol method
+title:  method
 linktitle: set_StartSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::set_StartSymbol method. Sets a Codabar start symbol. Default value: CodabarSymbol.A in C++.'
+description: ' method. Sets a Codabar start symbol. Default value: CodabarSymbol.A in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/set_startsymbol/
@@ -10,10 +10,10 @@ url: /cpp/aspose.barcode.barcoderecognition/codabarextendedparameters/set_starts
 ## CodabarExtendedParameters::set_StartSymbol method
 
 
-Sets a Codabar start symbol. Default value: CodabarSymbol.A
+Sets a Codabar start symbol. Default value: [CodabarSymbol.A](../../../aspose.barcode/maxicodeset/)
 
 ```cpp
-void Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::set_StartSymbol(Aspose::BarCode::Generation::CodabarSymbol value)
+void Aspose::BarCode::BarCodeRecognition::CodabarExtendedParameters::set_StartSymbol(Generation::CodabarSymbol value)
 ```
 
 ## See Also

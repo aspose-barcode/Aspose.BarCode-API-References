@@ -21,12 +21,12 @@ class MaxiCodeStructuredCodetext : public Aspose::BarCode::ComplexBarcode::MaxiC
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [MaxiCodeStructuredCodetext](./) value. |
-| [get_CountryCode](./get_countrycode/)() | Identifies 3 digit country code. |
-| [get_ECIEncoding](../maxicodecodetext/get_eciencoding/)() | Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
+| [get_CountryCode](./get_countrycode/)() const | Identifies 3 digit country code. |
+| [get_ECIEncoding](../maxicodecodetext/get_eciencoding/)() const | Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
 | [get_EncodeMode](../maxicodecodetext/get_encodemode/)() const | Gets a MaxiCode encode mode. Default value: Auto. |
-| [get_PostalCode](./get_postalcode/)() | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
+| [get_PostalCode](./get_postalcode/)() const | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
 | [get_SecondMessage](./get_secondmessage/)() const | Identifies second message of the barcode. |
-| [get_ServiceCategory](./get_servicecategory/)() | Identifies 3 digit service category. |
+| [get_ServiceCategory](./get_servicecategory/)() const | Identifies 3 digit service category. |
 | [GetBarcodeType](../maxicodecodetext/getbarcodetype/)() override | Gets barcode type. |
 | [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
@@ -35,8 +35,8 @@ class MaxiCodeStructuredCodetext : public Aspose::BarCode::ComplexBarcode::MaxiC
 | [MaxiCodeCodetext](../maxicodecodetext/maxicodecodetext/)() |  |
 | [MaxiCodeStructuredCodetext](./maxicodestructuredcodetext/)() |  |
 | [set_CountryCode](./set_countrycode/)(int32_t) | Identifies 3 digit country code. |
-| [set_ECIEncoding](../maxicodecodetext/set_eciencoding/)(Aspose::BarCode::Generation::ECIEncodings) | Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
-| [set_EncodeMode](../maxicodecodetext/set_encodemode/)(Aspose::BarCode::Generation::MaxiCodeEncodeMode) | Sets a MaxiCode encode mode. Default value: Auto. |
+| [set_ECIEncoding](../maxicodecodetext/set_eciencoding/)(Generation::ECIEncodings) | Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
+| [set_EncodeMode](../maxicodecodetext/set_encodemode/)(Generation::MaxiCodeEncodeMode) | Sets a MaxiCode encode mode. Default value: Auto. |
 | [set_PostalCode](./set_postalcode/)(System::String) | Identifies the postal code. Must be 9 digits in mode 2 or 6 alphanumeric symbols in mode 3. |
 | [set_SecondMessage](./set_secondmessage/)(System::SharedPtr\<MaxiCodeSecondMessage\>) | Identifies second message of the barcode. |
 | [set_ServiceCategory](./set_servicecategory/)(int32_t) | Identifies 3 digit service category. |

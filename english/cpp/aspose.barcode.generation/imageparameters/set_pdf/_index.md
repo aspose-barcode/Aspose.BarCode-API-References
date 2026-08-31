@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::ImageParameters::set_Pdf method
+title:  method
 linktitle: set_Pdf
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ImageParameters::set_Pdf method. PDF parameters in C++.'
+description: ' method. PDF parameters in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/imageparameters/set_pdf/

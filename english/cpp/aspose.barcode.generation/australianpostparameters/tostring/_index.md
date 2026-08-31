@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::AustralianPostParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AustralianPostParameters::ToString method. Returns a human-readable string representation of this AustralianPostParameters in C++.'
+description: ' method. Returns a human-readable string representation of this AustralianPostParameters in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/australianpostparameters/tostring/

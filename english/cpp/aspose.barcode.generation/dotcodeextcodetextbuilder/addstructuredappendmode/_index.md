@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::AddStructuredAppendMode method
+title:  method
 linktitle: AddStructuredAppendMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::AddStructuredAppendMode method. Adds structured append mode to the extended codetext items in C++.'
+description: ' method. Adds structured append mode to the extended codetext items in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/

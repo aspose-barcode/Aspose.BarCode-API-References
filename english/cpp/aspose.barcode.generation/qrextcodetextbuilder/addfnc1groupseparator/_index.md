@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1GroupSeparator method
+title:  method
 linktitle: AddFNC1GroupSeparator
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrExtCodetextBuilder::AddFNC1GroupSeparator method. Adds Group Separator (GS - ''\u001D'') to the extended codetext items in C++.'
+description: ' method. Adds Group Separator (GS - ''\u001D'') to the extended codetext items in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/

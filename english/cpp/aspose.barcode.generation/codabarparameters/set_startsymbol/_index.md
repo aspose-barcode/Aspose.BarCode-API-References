@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodabarParameters::set_StartSymbol method
+title:  method
 linktitle: set_StartSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodabarParameters::set_StartSymbol method. Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A in C++.'
+description: ' method. Start symbol (character) of Codabar symbology. Default value: CodabarSymbol.A in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/codabarparameters/set_startsymbol/

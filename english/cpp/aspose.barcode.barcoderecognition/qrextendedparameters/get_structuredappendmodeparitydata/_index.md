@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeParityData method
+title:  method
 linktitle: get_StructuredAppendModeParityData
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeParityData method. Gets the QR structured append mode parity data. Default value is -1 in C++.'
+description: ' method. Gets the QR structured append mode parity data. Default value is -1 in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_structuredappendmodeparitydata/
@@ -10,19 +10,16 @@ url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_structureda
 ## QRExtendedParameters::get_StructuredAppendModeParityData method
 
 
-Gets the QR structured append mode parity data. Default value is -1.
+Gets the [QR](../../../aspose.barcode.barcoderecognition.qr/) structured append mode parity data. Default value is -1.
 
 ```cpp
-int32_t Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeParityData()
+int32_t Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_StructuredAppendModeParityData() const
 ```
 
 ## Remarks
 
 
-The index of the QR structured append mode barcode.
-
-
-
+The index of the [QR](../../../aspose.barcode.barcoderecognition.qr/) structured append mode barcode.
 ## See Also
 
 * Class [QRExtendedParameters](../)

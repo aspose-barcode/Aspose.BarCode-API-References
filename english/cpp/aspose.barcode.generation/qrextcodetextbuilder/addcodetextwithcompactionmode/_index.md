@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::QrExtCodetextBuilder::AddCodetextWithCompactionMode method
+title:  method
 linktitle: AddCodetextWithCompactionMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrExtCodetextBuilder::AddCodetextWithCompactionMode method. Adds codetext with the specified QR compaction mode to the extended codetext items in C++.'
+description: ' method. Adds codetext with the specified QR compaction mode to the extended codetext items in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/addcodetextwithcompactionmode/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::set_BarcodeType method
+title:  method
 linktitle: set_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::set_BarcodeType method. Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC in C++.'
+description: ' method. Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/set_barcodetype/
@@ -13,13 +13,13 @@ url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/set_barcodetype/
 Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC.
 
 ```cpp
-void Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::set_BarcodeType(System::SharedPtr<Aspose::BarCode::Generation::BaseEncodeType> value)
+void Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::set_BarcodeType(System::SharedPtr<Generation::BaseEncodeType> value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | System::SharedPtr\<Aspose::BarCode::Generation::BaseEncodeType\> | Barcode type. |
+| value | System::SharedPtr\<Generation::BaseEncodeType\> | Barcode type. |
 
 ## See Also
 

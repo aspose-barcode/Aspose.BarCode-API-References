@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::MaxiCodeParameters::get_StructuredAppendModeBarcodesCount method
+title:  method
 linktitle: get_StructuredAppendModeBarcodesCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MaxiCodeParameters::get_StructuredAppendModeBarcodesCount method. Gets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1 in C++.'
+description: ' method. Gets a MaxiCode barcodes count in structured append mode. Count number must be a value between 2 and 8 (maximum barcodes count). Default value: -1 in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/maxicodeparameters/get_structuredappendmodebarcodescount/

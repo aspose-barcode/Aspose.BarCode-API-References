@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeParameters::ToString method. Returns a human-readable string representation of this DotCodeParameters in C++.'
+description: ' method. Returns a human-readable string representation of this DotCodeParameters in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.barcode.generation/dotcodeparameters/tostring/

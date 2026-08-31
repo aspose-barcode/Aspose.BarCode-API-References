@@ -20,8 +20,8 @@ class Code128Parameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_EncodeMode](./get_encodemode/)() const | Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../code128encodemode/) |
-| [set_EncodeMode](./set_encodemode/)(Code128EncodeMode) | Sets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../code128encodemode/) |
+| [get_EncodeMode](./get_encodemode/)() const | Gets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
+| [set_EncodeMode](./set_encodemode/)(Code128EncodeMode) | Sets a Code128 encode mode. Default value: [Code128EncodeMode.Auto](../aztecencodemode/) |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [Code128Parameters](./). |
 ## See Also
 

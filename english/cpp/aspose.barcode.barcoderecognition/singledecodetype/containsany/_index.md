@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::SingleDecodeType::ContainsAny method
+title:  method
 linktitle: ContainsAny
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType::ContainsAny method. Returns a value indicating whether this instance is included into the list specified in C++.'
+description: ' method. Returns a value indicating whether this instance is included into the list specified in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/containsany/
@@ -19,7 +19,7 @@ bool Aspose::BarCode::BarCodeRecognition::SingleDecodeType::ContainsAny(const Sy
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| types | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Array of single and multi decode types |
+| types | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Array of single and multi decode types |
 
 ### ReturnValue
 

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::ExportToXml method
+title:  method
 linktitle: ExportToXml
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::ExportToXml method. Exports BarCode properties to the xml-file specified in C++.'
+description: ' method. Exports BarCode properties to the xml-file specified in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.generation/barcodegenerator/exporttoxml/

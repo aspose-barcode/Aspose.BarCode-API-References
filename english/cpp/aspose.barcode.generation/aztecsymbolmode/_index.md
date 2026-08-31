@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::AztecSymbolMode enum
+title:  enum
 linktitle: AztecSymbolMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecSymbolMode enum. Specifies the Aztec symbol mode in C++.'
+description: ' enum. Specifies the Aztec symbol mode in C++.'
 type: docs
-weight: 4900
+weight: 5300
 url: /cpp/aspose.barcode.generation/aztecsymbolmode/
 ---
 ## AztecSymbolMode enum
@@ -37,12 +37,12 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune;
     generator.Save("test.png");
 }
-[VB.NET]
-Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.Aztec)
-    generator.CodeText = "125"
-    generator.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune
-    generator.Save("test.png")
-End Using
+    [VB.NET]
+    Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.Aztec)
+        generator.CodeText = "125"
+        generator.Parameters.Barcode.Aztec.AztecSymbolMode = AztecSymbolMode.Rune
+        generator.Save("test.png")
+    End Using
 ```
 
 ## See Also

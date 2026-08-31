@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::InitFromString method
+title:  method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::InitFromString method. Initialize USA DL object from codetext in C++.'
+description: ' method. Initialize USA DL object from codetext in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/initfromstring/

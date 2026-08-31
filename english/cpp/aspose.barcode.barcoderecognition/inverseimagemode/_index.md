@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::InverseImageMode enum
+title:  enum
 linktitle: InverseImageMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::BarCodeRecognition::InverseImageMode enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 ## InverseImageMode enum
@@ -20,7 +20,7 @@ enum class InverseImageMode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | 0 | Disables additional recognition of barcodes on inverse images for all barcode types except QR Code. |
+| Auto | 0 | Disables additional recognition of barcodes on inverse images for all barcode types except [QR](../../aspose.barcode.barcoderecognition.qr/) Code. |
 | Disabled | 1 | Disables additional recognition of barcodes on inverse images. |
 | Enabled | 2 | Enables additional recognition of barcodes on inverse images |
 
@@ -39,9 +39,6 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
         Console.WriteLine(result.CodeText);
 }
 ```
-
-
-
 
 ## See Also
 

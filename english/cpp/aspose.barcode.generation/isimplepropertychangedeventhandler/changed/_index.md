@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::Generation::ISimplePropertyChangedEventHandler::Changed method
+title:  method
 linktitle: Changed
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Changed method of Aspose::BarCode::Generation::ISimplePropertyChangedEventHandler class in C++.'

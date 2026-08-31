@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetBarcodeType method
+title:  method
 linktitle: GetBarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetBarcodeType method. Gets barcode type in C++.'
+description: ' method. Gets barcode type in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/getbarcodetype/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/getbarcodetype/
 Gets barcode type.
 
 ```cpp
-System::SharedPtr<Aspose::BarCode::Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetBarcodeType() override
+System::SharedPtr<Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::MailmarkCodetext::GetBarcodeType() override
 ```
 
 

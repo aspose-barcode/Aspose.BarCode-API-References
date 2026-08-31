@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::AustraliaPost field
+title:  field
 linktitle: AustraliaPost
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::AustraliaPost field. Specifies that the data should be decoded with Australia Post barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Australia Post barcode specification in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/australiapost/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **Australia Post** barcode specif
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::AustraliaPost
 ```
-
-
-
 
 ## See Also
 

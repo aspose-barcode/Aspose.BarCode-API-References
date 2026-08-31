@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinParameters::ToString method. Returns a human-readable string representation of this HanXinParameters in C++.'
+description: ' method. Returns a human-readable string representation of this HanXinParameters in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/hanxinparameters/tostring/

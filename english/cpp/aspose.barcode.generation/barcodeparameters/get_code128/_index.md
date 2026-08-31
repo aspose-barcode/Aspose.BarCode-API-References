@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_Code128 method
+title:  method
 linktitle: get_Code128
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Code128 method. Code128 parameters in C++.'
+description: ' method. Code128 parameters in C++.'
 type: docs
 weight: 3700
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_code128/

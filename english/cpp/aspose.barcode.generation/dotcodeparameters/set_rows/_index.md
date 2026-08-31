@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DotCodeParameters::set_Rows method
+title:  method
 linktitle: set_Rows
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DotCodeParameters::set_Rows method. Identifies rows count. Sum of the number of rows plus the number of columns of a DotCode symbol must be odd. Number of rows must be at least 5. Default value: -1 in C++.'
+description: ' method. Identifies rows count. Sum of the number of rows plus the number of columns of a DotCode symbol must be odd. Number of rows must be at least 5. Default value: -1 in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.generation/dotcodeparameters/set_rows/

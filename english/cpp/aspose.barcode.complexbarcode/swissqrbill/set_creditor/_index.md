@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Creditor method
+title:  method
 linktitle: set_Creditor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::set_Creditor method. Sets the creditor address in C++.'
+description: ' method. Sets the creditor address in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/set_creditor/

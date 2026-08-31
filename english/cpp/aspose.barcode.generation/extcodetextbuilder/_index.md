@@ -4,7 +4,7 @@ linktitle: ExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::ExtCodetextBuilder class. Helper class for automatic codetext generation of the Extended Codetext Mode in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.barcode.generation/extcodetextbuilder/
 ---
 ## ExtCodetextBuilder class
@@ -25,9 +25,6 @@ class ExtCodetextBuilder : public System::Object
 | virtual [Clear](./clear/)() | Clears extended codetext items |
 | [ExtCodetextBuilder](./extcodetextbuilder/)() |  |
 | virtual [GetExtendedCodetext](./getextendedcodetext/)() | Generate extended codetext from generation items list |
-
-
-
 ## See Also
 
 * Namespace [Aspose::BarCode::Generation](../)
