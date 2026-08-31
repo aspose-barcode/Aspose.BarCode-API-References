@@ -8,15 +8,15 @@ url: /python-net/aspose.barcode.generation/pdf417compactionmode/
 
 ## Pdf417CompactionMode enumeration
 
-Pdf417 barcode compaction mode
+
 
 ## Members
 | Member name | Description |
 | :- | :- |
-|AUTO|auto detect compaction mode|
-|TEXT|text compaction|
-|NUMERIC|numeric compaction mode|
-|BINARY|binary compaction mode|
+|AUTO||
+|TEXT||
+|NUMERIC||
+|BINARY||
 
 ### See Also
 

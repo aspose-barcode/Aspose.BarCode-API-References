@@ -14,7 +14,7 @@ Specify the type of the ECC to encode.
 | Member name | Description |
 | :- | :- |
 |AUTO|Specifies to automatically pick up the smallest size for DataMatrix.<br/>            This is default value.|
-|ROWS_COLUMNS|Instructs to get symbol sizes from Rows And Columns parameters. Note that DataMatrix does not support<br/>            custom rows and columns numbers. This option is not recommended to use.|
+|ROWS_COLUMNS||
 |ECC000_9X9|Specifies size of 9 x 9 modules for ECC000 type.|
 |ECC000_050_11X11|Specifies size of 11 x 11 modules for ECC000-ECC050 types.|
 |ECC000_100_13X13|Specifies size of 13 x 13 modules for ECC000-ECC100 types.|

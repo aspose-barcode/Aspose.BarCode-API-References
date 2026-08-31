@@ -54,10 +54,10 @@ Version of QR Code.<br/>            From Version1 to Version40 for QR code and f
 |VERSION38|Specifies version 38 with 169 x 169 modules.|
 |VERSION39|Specifies version 39 with 173 x 173 modules.|
 |VERSION40|Specifies version 40 with 177 x 177 modules.|
-|VERSION_M1|Specifies version M1 for Micro QR with 11 x 11 modules.|
-|VERSION_M2|Specifies version M2 for Micro QR with 13 x 13 modules.|
-|VERSION_M3|Specifies version M3 for Micro QR with 15 x 15 modules.|
-|VERSION_M4|Specifies version M4 for Micro QR with 17 x 17 modules.|
+|VERSION_M1||
+|VERSION_M2||
+|VERSION_M3||
+|VERSION_M4||
 
 ### See Also
 

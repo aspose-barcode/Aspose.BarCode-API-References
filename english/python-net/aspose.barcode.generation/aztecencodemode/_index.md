@@ -14,7 +14,7 @@ Encoding mode for Aztec barcodes.
 | Member name | Description |
 | :- | :- |
 |AUTO|In Auto mode, the CodeText is encoded with maximum data compactness. <br/>            Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier.<br/>            If a character is found that is not supported by the selected ECI encoding, an exception is thrown.|
-|BYTES|Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.|
+|BYTES||
 |EXTENDED_CODETEXT||
 |EXTENDED||
 |BINARY|In Binary mode, the CodeText is encoded with maximum data compactness. <br/>            If a Unicode character is found, an exception is thrown.|

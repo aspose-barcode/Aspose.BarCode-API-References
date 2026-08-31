@@ -46,7 +46,7 @@ The BarCodeReader type exposes the following members:
 |set_bar_code_image(filename)|Sets image file for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(stream)|Sets image stream for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_read_type(barcode_types)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_read_type(type)|Sets decode type for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_read_type(type)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |export_to_xml(xml_file)|Exports BarCode properties to the xml-file specified|
 |export_to_xml(xml_stream)|Exports BarCode properties to the xml-stream specified|
 |import_from_xml(xml_file)|Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance.|
