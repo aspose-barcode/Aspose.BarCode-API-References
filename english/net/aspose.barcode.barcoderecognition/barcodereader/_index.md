@@ -19,19 +19,26 @@ public class BarCodeReader : Component
 | Name | Description |
 | --- | --- |
 | [BarCodeReader](barcodereader/#constructor)() | Initializes a new instance of the `BarCodeReader` class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method. |
-| [BarCodeReader](barcodereader/#constructor_1)(Bitmap) | Initializes a new instance of the `BarCodeReader` class from an image. |
-| [BarCodeReader](barcodereader/#constructor_8)(Stream) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_11)(string) | Initializes a new instance of the `BarCodeReader` class from file. |
-| [BarCodeReader](barcodereader/#constructor_2)(Bitmap, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_3)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_9)(Stream, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_10)(Stream, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_12)(string, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_13)(string, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
-| [BarCodeReader](barcodereader/#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_8)(Bitmap) | Initializes a new instance of the `BarCodeReader` class from an image. |
+| [BarCodeReader](barcodereader/#constructor_1)(LuminanceFrame) | Initializes a new instance of the `BarCodeReader` class from a luminance frame. |
+| [BarCodeReader](barcodereader/#constructor_15)(Stream) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_18)(string) | Initializes a new instance of the `BarCodeReader` class from file. |
+| [BarCodeReader](barcodereader/#constructor_9)(Bitmap, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_10)(Bitmap, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_2)(LuminanceFrame, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_3)(LuminanceFrame, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_16)(Stream, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_17)(Stream, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_19)(string, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_20)(string, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_11)(Bitmap, Rectangle, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_12)(Bitmap, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_13)(Bitmap, Rectangle[], BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_14)(Bitmap, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_4)(LuminanceFrame, Rectangle, BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_5)(LuminanceFrame, Rectangle, params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_6)(LuminanceFrame, Rectangle[], BaseDecodeType) | Initializes a new instance of the `BarCodeReader` class. |
+| [BarCodeReader](barcodereader/#constructor_7)(LuminanceFrame, Rectangle[], params BaseDecodeType[]) | Initializes a new instance of the `BarCodeReader` class. |
 
 ## Properties
 
@@ -55,11 +62,14 @@ public class BarCodeReader : Component
 | [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml)(Stream) | Exports BarCode properties to the xml-stream specified |
 | [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml_1)(string) | Exports BarCode properties to the xml-file specified |
 | [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes/)() | Reads [`BarCodeResult`](../barcoderesult/)s from the image. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage)(Bitmap) | Sets bitmap image for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_3)(Stream) | Sets image stream for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_3)(Bitmap) | Sets bitmap image for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage)(LuminanceFrame) | Sets the luminance frame for recognition. Must be called before the [`ReadBarCodes`](./readbarcodes/) method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_6)(Stream) | Sets image stream for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_7)(string) | Sets image file for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(Bitmap, Rectangle) | Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_5)(Bitmap, Rectangle[]) | Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(LuminanceFrame, Rectangle) | Sets the luminance frame and area for recognition. Must be called before the [`ReadBarCodes`](./readbarcodes/) method. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(LuminanceFrame, Rectangle[]) | Sets the luminance frame and areas for recognition. Must be called before the [`ReadBarCodes`](./readbarcodes/) method. |
 | [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/)(params SingleDecodeType[]) | Sets [`SingleDecodeType`](../singledecodetype/) type array for recognition. Must be called before ReadBarCodes() method. |
 
 ## Examples

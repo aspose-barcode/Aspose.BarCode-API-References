@@ -30,6 +30,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [DecodeType](./decodetype/) | Specify the type of barcode to read. |
 | [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
 | [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
+| [LuminanceFrame](./luminanceframe/) | Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value. |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultiDecodeType](./multidecodetype/) | Composite decode type. |
 | [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |

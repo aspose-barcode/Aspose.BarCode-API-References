@@ -6,7 +6,7 @@ type: docs
 weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
-## SetBarCodeImage(Bitmap) {#setbarcodeimage}
+## SetBarCodeImage(Bitmap) {#setbarcodeimage_3}
 
 Sets bitmap image for recognition. Must be called before ReadBarCodes() method.
 
@@ -56,7 +56,7 @@ End Using
 
 ---
 
-## SetBarCodeImage(Bitmap, Rectangle[]) {#setbarcodeimage_2}
+## SetBarCodeImage(Bitmap, Rectangle[]) {#setbarcodeimage_5}
 
 Sets bitmap image and areas for recognition. Must be called before ReadBarCodes() method.
 
@@ -107,7 +107,7 @@ End Using
 
 ---
 
-## SetBarCodeImage(Bitmap, Rectangle) {#setbarcodeimage_1}
+## SetBarCodeImage(Bitmap, Rectangle) {#setbarcodeimage_4}
 
 Sets bitmap image and area for recognition. Must be called before ReadBarCodes() method.
 
@@ -158,7 +158,7 @@ End Using
 
 ---
 
-## SetBarCodeImage(string) {#setbarcodeimage_4}
+## SetBarCodeImage(string) {#setbarcodeimage_7}
 
 Sets image file for recognition. Must be called before ReadBarCodes() method.
 
@@ -205,7 +205,7 @@ End Using
 
 ---
 
-## SetBarCodeImage(Stream) {#setbarcodeimage_3}
+## SetBarCodeImage(Stream) {#setbarcodeimage_6}
 
 Sets image stream for recognition. Must be called before ReadBarCodes() method.
 
@@ -249,6 +249,139 @@ End Using
 
 ### See Also
 
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## SetBarCodeImage(LuminanceFrame, Rectangle) {#setbarcodeimage_1}
+
+Sets the luminance frame and area for recognition. Must be called before the [`ReadBarCodes`](../readbarcodes/) method.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame, Rectangle area)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame for recognition. |
+| area | Rectangle | The area for recognition. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, new Rectangle(0, 0, width, height));
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## SetBarCodeImage(LuminanceFrame, Rectangle[]) {#setbarcodeimage_2}
+
+Sets the luminance frame and areas for recognition. Must be called before the [`ReadBarCodes`](../readbarcodes/) method.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame, Rectangle[] areas)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame for recognition. |
+| areas | Rectangle[] | The array of recognition areas. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, areas);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## SetBarCodeImage(LuminanceFrame) {#setbarcodeimage}
+
+Sets the luminance frame for recognition. Must be called before the [`ReadBarCodes`](../readbarcodes/) method.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame for recognition. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+int rowStride = 2048;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height, rowStride, 90);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
 * class [BarCodeReader](../)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)

@@ -3,7 +3,7 @@ title: Enum HIBCPASDataLocation
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCPASDataLocation enum. HIBC PAS data location types
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.barcode.complexbarcode/hibcpasdatalocation/
 ---
 ## HIBCPASDataLocation enumeration

@@ -3,7 +3,7 @@ title: Class MaxiCodeStandardSecondMessage
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.MaxiCodeStandardSecondMessage class. Class for encoding and decoding standard second message for MaxiCode barcode
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.barcode.complexbarcode/maxicodestandardsecondmessage/
 ---
 ## MaxiCodeStandardSecondMessage class

@@ -3,7 +3,7 @@ title: Class HIBCPASRecord
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCPASRecord class. Class for storing HIBC PAS record
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.barcode.complexbarcode/hibcpasrecord/
 ---
 ## HIBCPASRecord class

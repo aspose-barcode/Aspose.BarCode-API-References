@@ -3,7 +3,7 @@ title: Class AlternativeScheme
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.AlternativeScheme class. Alternative payment scheme instructions
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.barcode.complexbarcode/alternativescheme/
 ---
 ## AlternativeScheme class

@@ -3,7 +3,7 @@ title: Class HIBCPASCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCPASCodetext class. Class for encoding and decoding the text embedded in the HIBC PAS code
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.barcode.complexbarcode/hibcpascodetext/
 ---
 ## HIBCPASCodetext class

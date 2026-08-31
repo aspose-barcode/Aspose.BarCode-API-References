@@ -3,7 +3,7 @@ title: Class HIBCLICComplexCodetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCLICComplexCodetext class. Base class for encoding and decoding the text embedded in the HIBC LIC code
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.barcode.complexbarcode/hibcliccomplexcodetext/
 ---
 ## HIBCLICComplexCodetext class
