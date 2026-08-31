@@ -34,6 +34,7 @@ pdf417 barcode's error correction level, from level 0 to level 9, level 0 means 
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -176,6 +177,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Pdf417ErrorLevel fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Pdf417ErrorLevel](../../com.aspose.barcode.generation/pdf417errorlevel)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

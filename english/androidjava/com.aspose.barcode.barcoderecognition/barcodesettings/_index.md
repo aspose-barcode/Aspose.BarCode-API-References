@@ -3,7 +3,7 @@ title: BarcodeSettings
 second_title: Aspose.BarCode for Android via Java API Reference
 description: The main BarCode decoding parameters.
 type: docs
-weight: 20
+weight: 19
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcodesettings/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: MaxiCodeEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for MaxiCode barcodes.
 type: docs
-weight: 95
+weight: 94
 url: /androidjava/com.aspose.barcode.generation/maxicodeencodemode/
 ---
 **Inheritance:**
@@ -53,10 +53,8 @@ Encoding mode for MaxiCode barcodes.
 | --- | --- |
 | [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
 | [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
-| [BYTES](#BYTES) | Encode codetext as plain bytes. |
 | [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
 | [EXTENDED](#EXTENDED) |  |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 ## Methods
 
 | Method | Description |
@@ -65,6 +63,7 @@ Encoding mode for MaxiCode barcodes.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -95,14 +94,6 @@ public static final MaxiCodeEncodeMode BINARY
 
 In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
-### BYTES {#BYTES}
-```
-public static final MaxiCodeEncodeMode BYTES
-```
-
-
-Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
-
 ### ECI {#ECI}
 ```
 public static final MaxiCodeEncodeMode ECI
@@ -114,22 +105,6 @@ In ECI mode, the entire message is re-encoded in the ECIEncoding specified encod
 ### EXTENDED {#EXTENDED}
 ```
 public static final MaxiCodeEncodeMode EXTENDED
-```
-
-
-Extended mode which supports multi ECI modes.
-
-It is better to use MaxiCodeExtCodetextBuilder for extended codetext generation.
-
-Use Display2DText property to set visible text to removing managing characters.
-
-ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
-
-All unicode characters after ECI identifier are automatically encoded into correct character codeset.
-
-### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
-```
-public static final MaxiCodeEncodeMode EXTENDED_CODETEXT
 ```
 
 
@@ -199,6 +174,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static MaxiCodeEncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[MaxiCodeEncodeMode](../../com.aspose.barcode.generation/maxicodeencodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

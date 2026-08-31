@@ -3,7 +3,7 @@ title: Code128Parameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Code128 parameters.
 type: docs
-weight: 25
+weight: 24
 url: /androidjava/com.aspose.barcode.generation/code128parameters/
 ---
 **Inheritance:**
@@ -19,12 +19,10 @@ Code128 parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCode128EncodeMode()](#getCode128EncodeMode--) | Gets a Code128 encode mode. |
 | [getEncodeMode()](#getEncodeMode--) | Gets a Code128 encode mode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCode128EncodeMode(Code128EncodeMode value)](#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Sets a Code128 encode mode. |
 | [setEncodeMode(Code128EncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.Code128EncodeMode-) | Sets a Code128 encode mode. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [Code128Parameters](../../com.aspose.barcode.generation/code128parameters). |
 | [wait()](#wait--) |  |
@@ -55,16 +53,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCode128EncodeMode() {#getCode128EncodeMode--}
-```
-public final Code128EncodeMode getCode128EncodeMode()
-```
-
-
-Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto
-
-**Returns:**
-[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) - a Code128 encode mode.
 ### getEncodeMode() {#getEncodeMode--}
 ```
 public final Code128EncodeMode getEncodeMode()
@@ -77,7 +65,7 @@ Gets a Code128 encode mode. Default value: Code128EncodeMode.Auto
 [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) - a Code128 encode mode.
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -100,19 +88,6 @@ public final native void notifyAll()
 
 
 
-
-### setCode128EncodeMode(Code128EncodeMode value) {#setCode128EncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
-```
-public final void setCode128EncodeMode(Code128EncodeMode value)
-```
-
-
-Sets a Code128 encode mode. Default value: Code128EncodeMode.Auto
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode) | a Code128 encode mode. |
 
 ### setEncodeMode(Code128EncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.Code128EncodeMode-}
 ```

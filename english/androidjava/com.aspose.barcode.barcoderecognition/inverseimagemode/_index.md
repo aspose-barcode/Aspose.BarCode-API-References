@@ -20,7 +20,7 @@ Mode which enables or disables additional recognition of barcodes on images with
 > This sample shows how to use InverseImage mode
 >   
 > 
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   reader.getQualitySettings().setInverseImage(InverseImageMode.ENABLED);
 >   for(BarCodeResult result : reader.readBarCodes())
 >      System.out.println(result.getCodeText());

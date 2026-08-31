@@ -3,7 +3,7 @@ title: CodabarExtendedParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a Codabar additional information of recognized barcode
 type: docs
-weight: 25
+weight: 24
 url: /androidjava/com.aspose.barcode.barcoderecognition/codabarextendedparameters/
 ---
 **Inheritance:**
@@ -19,20 +19,14 @@ Stores a Codabar additional information of recognized barcode
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value. |
 | [getClass()](#getClass--) |  |
-| [getCodabarStartSymbol()](#getCodabarStartSymbol--) | Gets a Codabar start symbol. |
-| [getCodabarStopSymbol()](#getCodabarStopSymbol--) | Gets a Codabar stop symbol. |
 | [getStartSymbol()](#getStartSymbol--) | Gets a Codabar start symbol. |
 | [getStopSymbol()](#getStopSymbol--) | Gets a Codabar stop symbol. |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_Equality(CodabarExtendedParameters first, CodabarExtendedParameters second)](#op-Equality-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-) | Returns a value indicating whether the first [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value is equal to the second. |
-| [op_Inequality(CodabarExtendedParameters first, CodabarExtendedParameters second)](#op-Inequality-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-) | Returns a value indicating if the first [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value is different from the second. |
-| [setCodabarStartSymbol(short value)](#setCodabarStartSymbol-short-) | Sets a Codabar start symbol. |
-| [setCodabarStopSymbol(short value)](#setCodabarStopSymbol-short-) | Sets a Codabar stop symbol. |
-| [setStartSymbol(short value)](#setStartSymbol-short-) | Sets a Codabar start symbol. |
-| [setStopSymbol(short value)](#setStopSymbol-short-) | Sets a Codabar stop symbol. |
+| [setStartSymbol(CodabarSymbol value)](#setStartSymbol-com.aspose.barcode.generation.CodabarSymbol-) | Sets a Codabar start symbol. |
+| [setStopSymbol(CodabarSymbol value)](#setStopSymbol-com.aspose.barcode.generation.CodabarSymbol-) | Sets a Codabar stop symbol. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,46 +56,26 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodabarStartSymbol() {#getCodabarStartSymbol--}
-```
-public final short getCodabarStartSymbol()
-```
-
-
-Gets a Codabar start symbol. Default value: CodabarSymbol.A
-
-**Returns:**
-short - a Codabar start symbol.
-### getCodabarStopSymbol() {#getCodabarStopSymbol--}
-```
-public final short getCodabarStopSymbol()
-```
-
-
-Gets a Codabar stop symbol. Default value: CodabarSymbol.A
-
-**Returns:**
-short - a Codabar stop symbol.
 ### getStartSymbol() {#getStartSymbol--}
 ```
-public final short getStartSymbol()
+public final CodabarSymbol getStartSymbol()
 ```
 
 
 Gets a Codabar start symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-short - a Codabar start symbol.
+[CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol) - a Codabar start symbol.
 ### getStopSymbol() {#getStopSymbol--}
 ```
-public final short getStopSymbol()
+public final CodabarSymbol getStopSymbol()
 ```
 
 
 Gets a Codabar stop symbol. Default value: CodabarSymbol.A
 
 **Returns:**
-short - a Codabar stop symbol.
+[CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol) - a Codabar stop symbol.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -140,41 +114,9 @@ public final native void notifyAll()
 
 
 
-### op_Equality(CodabarExtendedParameters first, CodabarExtendedParameters second) {#op-Equality-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-}
+### setStartSymbol(CodabarSymbol value) {#setStartSymbol-com.aspose.barcode.generation.CodabarSymbol-}
 ```
-public static boolean op_Equality(CodabarExtendedParameters first, CodabarExtendedParameters second)
-```
-
-
-Returns a value indicating whether the first [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value is equal to the second.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| first | [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | A first compared value |
-| second | [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | A second compared value |
-
-**Returns:**
-boolean -  **true**  if first has the same value as second; otherwise,  **false** .
-### op_Inequality(CodabarExtendedParameters first, CodabarExtendedParameters second) {#op-Inequality-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-com.aspose.barcode.barcoderecognition.CodabarExtendedParameters-}
-```
-public static boolean op_Inequality(CodabarExtendedParameters first, CodabarExtendedParameters second)
-```
-
-
-Returns a value indicating if the first [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) value is different from the second.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| first | [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | A first compared value |
-| second | [CodabarExtendedParameters](../../com.aspose.barcode.barcoderecognition/codabarextendedparameters) | A second compared value |
-
-**Returns:**
-boolean -  **true**  if first has the different value from second; otherwise,  **false** .
-### setCodabarStartSymbol(short value) {#setCodabarStartSymbol-short-}
-```
-public final void setCodabarStartSymbol(short value)
+public final void setStartSymbol(CodabarSymbol value)
 ```
 
 
@@ -183,37 +125,11 @@ Sets a Codabar start symbol. Default value: CodabarSymbol.A
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | short | a Codabar start symbol. |
+| value | [CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol) | a Codabar start symbol. |
 
-### setCodabarStopSymbol(short value) {#setCodabarStopSymbol-short-}
+### setStopSymbol(CodabarSymbol value) {#setStopSymbol-com.aspose.barcode.generation.CodabarSymbol-}
 ```
-public final void setCodabarStopSymbol(short value)
-```
-
-
-Sets a Codabar stop symbol. Default value: CodabarSymbol.A
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | short | a Codabar stop symbol. |
-
-### setStartSymbol(short value) {#setStartSymbol-short-}
-```
-public final void setStartSymbol(short value)
-```
-
-
-Sets a Codabar start symbol. Default value: CodabarSymbol.A
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | short | a Codabar start symbol. |
-
-### setStopSymbol(short value) {#setStopSymbol-short-}
-```
-public final void setStopSymbol(short value)
+public final void setStopSymbol(CodabarSymbol value)
 ```
 
 
@@ -222,7 +138,7 @@ Sets a Codabar stop symbol. Default value: CodabarSymbol.A
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | short | a Codabar stop symbol. |
+| value | [CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol) | a Codabar stop symbol. |
 
 ### toString() {#toString--}
 ```

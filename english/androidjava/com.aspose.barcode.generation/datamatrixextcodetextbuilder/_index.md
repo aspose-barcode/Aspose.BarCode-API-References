@@ -3,7 +3,7 @@ title: DataMatrixExtCodetextBuilder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 33
+weight: 32
 url: /androidjava/com.aspose.barcode.generation/datamatrixextcodetextbuilder/
 ---
 **Inheritance:**
@@ -63,7 +63,7 @@ public DataMatrixExtCodetextBuilder()
 
 ### addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext) {#addCodetextWithEncodeMode-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-}
 ```
-public void addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext)
+public final void addCodetextWithEncodeMode(DataMatrixEncodeMode encodeMode, String codetext)
 ```
 
 
@@ -91,7 +91,7 @@ Adds codetext with Extended Channel Identifier
 
 ### addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext) {#addECICodetextWithEncodeMode-int-com.aspose.barcode.generation.DataMatrixEncodeMode-java.lang.String-}
 ```
-public void addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext)
+public final void addECICodetextWithEncodeMode(int ECIEncoding, DataMatrixEncodeMode encodeMode, String codetext)
 ```
 
 
@@ -159,7 +159,7 @@ public String getExtendedCodetext()
 Generates Extended codetext from the extended codetext list.
 
 **Returns:**
-java.lang.String - Extended codetext as string
+java.lang.String - Extended codetext as string.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

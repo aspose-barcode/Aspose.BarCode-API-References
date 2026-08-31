@@ -28,6 +28,7 @@ Text alignment.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -122,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static TextAlignment fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[TextAlignment](../../com.aspose.barcode.generation/textalignment)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

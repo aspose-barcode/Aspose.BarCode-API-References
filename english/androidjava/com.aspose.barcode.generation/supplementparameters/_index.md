@@ -3,7 +3,7 @@ title: SupplementParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Supplement parameters.
 type: docs
-weight: 66
+weight: 64
 url: /androidjava/com.aspose.barcode.generation/supplementparameters/
 ---
 **Inheritance:**
@@ -25,7 +25,6 @@ Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setSupplementData(String value)](#setSupplementData-java.lang.String-) | Supplement data following BarCode. |
-| [setSupplementSpace(Unit value)](#setSupplementSpace-com.aspose.barcode.generation.Unit-) | Space between main the BarCode and supplement BarCode in  Unit  value. |
 | [toString()](#toString--) | Returns a human-readable string representation of this  SupplementParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +76,7 @@ Space between main the BarCode and supplement BarCode in  Unit  value.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
@@ -113,19 +112,6 @@ Supplement data following BarCode.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setSupplementSpace(Unit value) {#setSupplementSpace-com.aspose.barcode.generation.Unit-}
-```
-public void setSupplementSpace(Unit value)
-```
-
-
-Space between main the BarCode and supplement BarCode in  Unit  value.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
 
 ### toString() {#toString--}
 ```

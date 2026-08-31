@@ -3,7 +3,7 @@ title: SingleDecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Single decode type.
 type: docs
-weight: 48
+weight: 46
 url: /androidjava/com.aspose.barcode.barcoderecognition/singledecodetype/
 ---
 **Inheritance:**
@@ -71,7 +71,7 @@ Returns a value indicating whether this instance is equal to a specified [BaseDe
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | com.aspose.barcode.barcoderecognition.MultiDecodeType |  |
+| other | [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) |  |
 
 **Returns:**
 boolean
@@ -242,7 +242,7 @@ Converts the string representation of a MultiDecodeType to its instance. A retur
 | parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.MultiDecodeType - An actual MultiDecodeType is returned, when conversion has completed successfully;
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
 otherwise it returns indefinite type. or MultiDecodeType ("None").
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}

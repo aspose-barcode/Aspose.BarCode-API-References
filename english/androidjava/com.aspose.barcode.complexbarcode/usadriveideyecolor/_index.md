@@ -3,7 +3,7 @@ title: USADriveIdEyeColor
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Enum for Eye Color in the US Drivers License
 type: docs
-weight: 46
+weight: 45
 url: /androidjava/com.aspose.barcode.complexbarcode/usadriveideyecolor/
 ---
 **Inheritance:**
@@ -36,6 +36,7 @@ Enum for Eye Color in the US Driver's License
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -194,6 +195,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static USADriveIdEyeColor fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[USADriveIdEyeColor](../../com.aspose.barcode.complexbarcode/usadriveideyecolor)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

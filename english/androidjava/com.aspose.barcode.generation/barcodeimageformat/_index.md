@@ -3,7 +3,7 @@ title: BarCodeImageFormat
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the file format of the image.
 type: docs
-weight: 75
+weight: 73
 url: /androidjava/com.aspose.barcode.generation/barcodeimageformat/
 ---
 **Inheritance:**
@@ -32,6 +32,7 @@ Specifies the file format of the image.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -61,7 +62,7 @@ public static final BarCodeImageFormat EMF
 ```
 
 
-Specifies the Enhanced Metafile (EMF) image format. (Supported only on Windows platform, on \*nix platforms is saved as PNG)
+Specifies the Enhanced Metafile (EMF) image format.
 
 ### GIF {#GIF}
 ```
@@ -159,6 +160,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarCodeImageFormat fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BarCodeImageFormat](../../com.aspose.barcode.generation/barcodeimageformat)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

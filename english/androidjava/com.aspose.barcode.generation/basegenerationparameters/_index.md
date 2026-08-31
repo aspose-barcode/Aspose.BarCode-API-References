@@ -202,7 +202,7 @@ Gets a value indicating whether is used anti-aliasing mode to render image
 boolean
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

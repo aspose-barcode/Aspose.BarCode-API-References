@@ -3,7 +3,7 @@ title: BarcodeQualityMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 49
 url: /androidjava/com.aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 **Inheritance:**
@@ -19,7 +19,7 @@ Mode which enables methods to recognize barcode elements with the selected quali
 > ```
 > This sample shows how to use BarcodeQuality mode
 >   
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   reader.getQualitySettings().setBarcodeQuality(BarcodeQualityMode.LOW);
 >   for(BarCodeResult result : reader.readBarCodes())
 >      System.out.println(result.getCodeText());

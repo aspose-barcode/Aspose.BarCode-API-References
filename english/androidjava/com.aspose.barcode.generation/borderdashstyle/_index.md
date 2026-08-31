@@ -3,7 +3,7 @@ title: BorderDashStyle
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the style of dashed border lines.
 type: docs
-weight: 77
+weight: 75
 url: /androidjava/com.aspose.barcode.generation/borderdashstyle/
 ---
 **Inheritance:**
@@ -30,6 +30,7 @@ Specifies the style of dashed border lines.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -140,6 +141,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BorderDashStyle fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BorderDashStyle](../../com.aspose.barcode.generation/borderdashstyle)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

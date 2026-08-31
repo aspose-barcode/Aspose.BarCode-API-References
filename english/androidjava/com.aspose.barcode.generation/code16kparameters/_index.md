@@ -3,7 +3,7 @@ title: Code16KParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Code16K parameters.
 type: docs
-weight: 26
+weight: 25
 url: /androidjava/com.aspose.barcode.generation/code16kparameters/
 ---
 **Inheritance:**
@@ -89,7 +89,7 @@ Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimens
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

@@ -3,7 +3,7 @@ title: ITFParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: ITF parameters.
 type: docs
-weight: 51
+weight: 50
 url: /androidjava/com.aspose.barcode.generation/itfparameters/
 ---
 **Inheritance:**
@@ -21,16 +21,12 @@ ITF parameters.
 | [getBorderThickness()](#getBorderThickness--) | Gets an ITF border (bearer bar) thickness in Unit value. |
 | [getBorderType()](#getBorderType--) | Border type of ITF barcode. |
 | [getClass()](#getClass--) |  |
-| [getItfBorderThickness()](#getItfBorderThickness--) | Gets an ITF border (bearer bar) thickness in Unit value. |
-| [getItfBorderType()](#getItfBorderType--) | Border type of ITF barcode. |
 | [getQuietZoneCoef()](#getQuietZoneCoef--) | Size of the quiet zones in xDimension. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBorderThickness(Unit value)](#setBorderThickness-com.aspose.barcode.generation.Unit-) | Sets an ITF border (bearer bar) thickness in Unit value. |
 | [setBorderType(ITF14BorderType value)](#setBorderType-com.aspose.barcode.generation.ITF14BorderType-) | Border type of ITF barcode. |
-| [setItfBorderThickness(Unit value)](#setItfBorderThickness-com.aspose.barcode.generation.Unit-) | Sets an ITF border (bearer bar) thickness in Unit value. |
-| [setItfBorderType(ITF14BorderType value)](#setItfBorderType-com.aspose.barcode.generation.ITF14BorderType-) | Border type of ITF barcode. |
 | [setQuietZoneCoef(int value)](#setQuietZoneCoef-int-) | Size of the quiet zones in xDimension. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [ITFParameters](../../com.aspose.barcode.generation/itfparameters). |
 | [wait()](#wait--) |  |
@@ -81,26 +77,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getItfBorderThickness() {#getItfBorderThickness--}
-```
-public final Unit getItfBorderThickness()
-```
-
-
-Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
-
-**Returns:**
-[Unit](../../com.aspose.barcode.generation/unit) - an ITF border (bearer bar) thickness in Unit value.
-### getItfBorderType() {#getItfBorderType--}
-```
-public final ITF14BorderType getItfBorderType()
-```
-
-
-Border type of ITF barcode. Default value: ITF14BorderType.Bar.
-
-**Returns:**
-[ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype)
 ### getQuietZoneCoef() {#getQuietZoneCoef--}
 ```
 public final int getQuietZoneCoef()
@@ -113,7 +89,7 @@ Size of the quiet zones in xDimension. Default value: 10, meaning if xDimension 
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -153,32 +129,6 @@ Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
 ### setBorderType(ITF14BorderType value) {#setBorderType-com.aspose.barcode.generation.ITF14BorderType-}
 ```
 public final void setBorderType(ITF14BorderType value)
-```
-
-
-Border type of ITF barcode. Default value: ITF14BorderType.Bar.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype) |  |
-
-### setItfBorderThickness(Unit value) {#setItfBorderThickness-com.aspose.barcode.generation.Unit-}
-```
-public final void setItfBorderThickness(Unit value)
-```
-
-
-Sets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) | an ITF border (bearer bar) thickness in Unit value. |
-
-### setItfBorderType(ITF14BorderType value) {#setItfBorderType-com.aspose.barcode.generation.ITF14BorderType-}
-```
-public final void setItfBorderType(ITF14BorderType value)
 ```
 
 

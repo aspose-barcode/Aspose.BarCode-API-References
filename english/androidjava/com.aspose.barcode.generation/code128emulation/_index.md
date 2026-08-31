@@ -3,7 +3,7 @@ title: Code128Emulation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 79
+weight: 78
 url: /androidjava/com.aspose.barcode.generation/code128emulation/
 ---
 **Inheritance:**

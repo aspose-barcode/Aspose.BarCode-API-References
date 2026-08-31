@@ -3,7 +3,7 @@ title: CodeLocation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Codetext location
 type: docs
-weight: 81
+weight: 80
 url: /androidjava/com.aspose.barcode.generation/codelocation/
 ---
 **Inheritance:**
@@ -28,6 +28,7 @@ Codetext location
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -122,6 +123,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static CodeLocation fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[CodeLocation](../../com.aspose.barcode.generation/codelocation)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

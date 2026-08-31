@@ -101,7 +101,7 @@ Border width. Default value: 0. Ignored if Visible is set to false.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

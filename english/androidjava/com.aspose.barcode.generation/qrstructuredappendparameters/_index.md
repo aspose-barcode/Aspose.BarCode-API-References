@@ -3,7 +3,7 @@ title: QrStructuredAppendParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: QR structured append parameters.
 type: docs
-weight: 65
+weight: 63
 url: /androidjava/com.aspose.barcode.generation/qrstructuredappendparameters/
 ---
 **Inheritance:**
@@ -89,7 +89,7 @@ Gets the QR structured append mode barcodes quantity. Max value is 16.
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

@@ -167,14 +167,14 @@ Identifies data location.
 int
 ### getRecords() {#getRecords--}
 ```
-public List<HIBCPASRecord> getRecords()
+public System.Collections.Generic.List<HIBCPASRecord> getRecords()
 ```
 
 
 Gets records list
 
 **Returns:**
-java.util.List<com.aspose.barcode.complexbarcode.HIBCPASRecord> - List of records
+com.aspose.ms.System.Collections.Generic.List<com.aspose.barcode.complexbarcode.HIBCPASRecord> - List of records
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

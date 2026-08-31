@@ -19,7 +19,7 @@ Deconvolution (image restorations) mode which defines level of image degradation
 > ```
 > This sample shows how to use Deconvolution mode
 >   
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   reader.getQualitySettings().setDeconvolution(DeconvolutionMode.SLOW);
 >   for(BarCodeResult result : reader.readBarCodes())
 >      System.out.println(result.getCodeText());

@@ -3,7 +3,7 @@ title: MaxiCodeExtendedParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a MaxiCode additional information of recognized barcode
 type: docs
-weight: 36
+weight: 34
 url: /androidjava/com.aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 **Inheritance:**
@@ -19,9 +19,6 @@ Stores a MaxiCode additional information of recognized barcode
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value. |
 | [getClass()](#getClass--) |  |
-| [getMaxiCodeMode()](#getMaxiCodeMode--) | Gets a MaxiCode encode mode. |
-| [getMaxiCodeStructuredAppendModeBarcodeId()](#getMaxiCodeStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
-| [getMaxiCodeStructuredAppendModeBarcodesCount()](#getMaxiCodeStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
 | [getMode()](#getMode--) | Gets a MaxiCode encode mode. |
 | [getStructuredAppendModeBarcodeId()](#getStructuredAppendModeBarcodeId--) | Gets a MaxiCode barcode id in structured append mode. |
 | [getStructuredAppendModeBarcodesCount()](#getStructuredAppendModeBarcodesCount--) | Gets a MaxiCode barcodes count in structured append mode. |
@@ -29,8 +26,6 @@ Stores a MaxiCode additional information of recognized barcode
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_Equality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second)](#op-Equality-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-) | Returns a value indicating whether the first [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value is equal to the second. |
-| [op_Inequality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second)](#op-Inequality-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-) | Returns a value indicating if the first [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value is different from the second. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,46 +55,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getMaxiCodeMode() {#getMaxiCodeMode--}
-```
-public final int getMaxiCodeMode()
-```
-
-
-Gets a MaxiCode encode mode. Default value: Mode4
-
-**Returns:**
-int - a MaxiCode encode mode.
-### getMaxiCodeStructuredAppendModeBarcodeId() {#getMaxiCodeStructuredAppendModeBarcodeId--}
-```
-public final int getMaxiCodeStructuredAppendModeBarcodeId()
-```
-
-
-Gets a MaxiCode barcode id in structured append mode. Default value: 0
-
-**Returns:**
-int - a MaxiCode barcode id in structured append mode.
-### getMaxiCodeStructuredAppendModeBarcodesCount() {#getMaxiCodeStructuredAppendModeBarcodesCount--}
-```
-public final int getMaxiCodeStructuredAppendModeBarcodesCount()
-```
-
-
-Gets a MaxiCode barcodes count in structured append mode. Default value: -1
-
-**Returns:**
-int - a MaxiCode barcodes count in structured append mode.
 ### getMode() {#getMode--}
 ```
-public final int getMode()
+public final MaxiCodeMode getMode()
 ```
 
 
 Gets a MaxiCode encode mode. Default value: Mode4
 
 **Returns:**
-int - a MaxiCode encode mode.
+[MaxiCodeMode](../../com.aspose.barcode.generation/maxicodemode) - a MaxiCode encode mode.
 ### getStructuredAppendModeBarcodeId() {#getStructuredAppendModeBarcodeId--}
 ```
 public final int getStructuredAppendModeBarcodeId()
@@ -158,38 +123,6 @@ public final native void notifyAll()
 
 
 
-### op_Equality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second) {#op-Equality-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-}
-```
-public static boolean op_Equality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second)
-```
-
-
-Returns a value indicating whether the first [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value is equal to the second.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| first | [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | A first compared value |
-| second | [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | A second compared value |
-
-**Returns:**
-boolean -  **true**  if first has the same value as second; otherwise,  **false** .
-### op_Inequality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second) {#op-Inequality-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-com.aspose.barcode.barcoderecognition.MaxiCodeExtendedParameters-}
-```
-public static boolean op_Inequality(MaxiCodeExtendedParameters first, MaxiCodeExtendedParameters second)
-```
-
-
-Returns a value indicating if the first [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) value is different from the second.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| first | [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | A first compared value |
-| second | [MaxiCodeExtendedParameters](../../com.aspose.barcode.barcoderecognition/maxicodeextendedparameters) | A second compared value |
-
-**Returns:**
-boolean -  **true**  if first has the different value from second; otherwise,  **false** .
 ### toString() {#toString--}
 ```
 public String toString()

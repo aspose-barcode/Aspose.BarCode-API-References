@@ -3,7 +3,7 @@ title: ImageParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Image parameters.
 type: docs
-weight: 52
+weight: 51
 url: /androidjava/com.aspose.barcode.generation/imageparameters/
 ---
 **Inheritance:**
@@ -65,7 +65,7 @@ PDF parameters
 [PdfParameters](../../com.aspose.barcode.generation/pdfparameters)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

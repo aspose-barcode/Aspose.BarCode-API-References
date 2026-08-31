@@ -19,7 +19,7 @@ Recognition mode which sets size (from 1 to infinity) of barcode minimal element
 > ```
 > This sample shows how to use XDimension mode
 >   
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   reader.getQualitySettings().setXDimension(XDimensionMode.SMALL);
 >   for(BarCodeResult result : reader.readBarCodes())
 >      System.out.println(result.getCodeText());

@@ -3,7 +3,7 @@ title: Code128EncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for Code128 barcodes.
 type: docs
-weight: 80
+weight: 79
 url: /androidjava/com.aspose.barcode.generation/code128encodemode/
 ---
 **Inheritance:**
@@ -17,18 +17,18 @@ Encoding mode for Code128 barcodes.  Code 128  specification.
 --------------------
 
 > ```
-> Following code demonstrates how to generate code 128 with different encodings
+> Thos code demonstrates how to generate code 128 with different encodings
 >  
 > 
 >  //Generate code 128 with ISO 15417 encoding
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
 >  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.AUTO);
->  generator.save(filePath, BarCodeImageFormat.PNG);
+>  generator.save("d:\\code128Auto.png", BarCodeImageFormat.PNG);
 > 
 >  //Generate code 128 only with Codeset A encoding
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.CODE_128, "ABCD1234567890");
 >  generator.getParameters().getBarcode().getCode128().setCode128EncodeMode(Code128EncodeMode.CODE_A);
->  generator.save(filePath, BarCodeImageFormat.PNG);
+>  generator.save("d:\\code128CodeA.png", BarCodeImageFormat.PNG);
 > ```
 ## Fields
 
@@ -49,6 +49,7 @@ Encoding mode for Code128 barcodes.  Code 128  specification.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -176,6 +177,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Code128EncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Code128EncodeMode](../../com.aspose.barcode.generation/code128encodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum PatchFormat extends Enum<PatchFormat>
 ```
 
-PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders
+PatchCode format. Choose PATCH\_ONLY to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders
 ## Fields
 
 | Field | Description |
@@ -30,8 +30,10 @@ PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
 | [notify()](#notify--) |  |
@@ -139,6 +141,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static PatchFormat fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[PatchFormat](../../com.aspose.barcode.generation/patchformat)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -159,6 +176,16 @@ public final Class<E> getDeclaringClass()
 
 **Returns:**
 java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public final int hashCode()

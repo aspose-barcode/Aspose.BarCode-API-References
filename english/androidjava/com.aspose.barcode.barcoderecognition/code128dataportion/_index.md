@@ -3,7 +3,7 @@ title: Code128DataPortion
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Contains the data of subtype for Code128 type barcode
 type: docs
-weight: 26
+weight: 25
 url: /androidjava/com.aspose.barcode.barcoderecognition/code128dataportion/
 ---
 **Inheritance:**
@@ -24,7 +24,6 @@ Contains the data of subtype for Code128 type barcode
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(String value)](#setData-java.lang.String-) | Gets the part of code text related to subtype. |
 | [toString()](#toString--) | Returns a human-readable string representation of this  Code128DataPortion . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,14 +55,14 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getCode128SubType() {#getCode128SubType--}
 ```
-public int getCode128SubType()
+public Code128SubType getCode128SubType()
 ```
 
 
 Gets the type of Code128 subset
 
 **Returns:**
-int - The type of Code128 subset
+[Code128SubType](../../com.aspose.barcode.barcoderecognition/code128subtype) - The type of Code128 subset
 ### getData() {#getData--}
 ```
 public String getData()
@@ -99,19 +98,6 @@ public final native void notifyAll()
 
 
 
-
-### setData(String value) {#setData-java.lang.String-}
-```
-public void setData(String value)
-```
-
-
-Gets the part of code text related to subtype.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

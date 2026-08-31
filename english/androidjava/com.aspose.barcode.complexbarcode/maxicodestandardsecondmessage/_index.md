@@ -24,9 +24,8 @@ Class for encoding and decoding standart second message for MaxiCode barcode.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStandartSecondMessage value. |
 | [getClass()](#getClass--) |  |
-| [getHashCode()](#getHashCode--) | Returns the hash code for this instance. |
 | [getMessage()](#getMessage--) | Gets second message |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setMessage(String value)](#setMessage-java.lang.String-) | Sets second message |
@@ -65,16 +64,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getHashCode() {#getHashCode--}
-```
-public int getHashCode()
-```
-
-
-Returns the hash code for this instance.
-
-**Returns:**
-int - A 32-bit signed integer hash code.
 ### getMessage() {#getMessage--}
 ```
 public String getMessage()
@@ -87,14 +76,14 @@ Gets second message
 java.lang.String
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 
-
+Returns the hash code for this instance.
 
 **Returns:**
-int
+int - A 32-bit signed integer hash code.
 ### notify() {#notify--}
 ```
 public final native void notify()

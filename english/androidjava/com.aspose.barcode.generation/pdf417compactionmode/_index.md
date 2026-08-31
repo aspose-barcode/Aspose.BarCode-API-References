@@ -1,7 +1,7 @@
 ---
 title: Pdf417CompactionMode
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Pdf417 barcodes compation mode
+description: 
 type: docs
 weight: 98
 url: /androidjava/com.aspose.barcode.generation/pdf417compactionmode/
@@ -11,16 +11,14 @@ java.lang.Object, java.lang.Enum
 ```
 public enum Pdf417CompactionMode extends Enum<Pdf417CompactionMode>
 ```
-
-Pdf417 barcode's compation mode
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | auto detect compation mode |
-| [BINARY](#BINARY) | binary compaction mode |
-| [NUMERIC](#NUMERIC) | numeric compaction mode |
-| [TEXT](#TEXT) | text compaction |
+| [AUTO](#AUTO) |  |
+| [BINARY](#BINARY) |  |
+| [NUMERIC](#NUMERIC) |  |
+| [TEXT](#TEXT) |  |
 ## Methods
 
 | Method | Description |
@@ -38,8 +36,8 @@ Pdf417 barcode's compation mode
 | [notifyAll()](#notifyAll--) |  |
 | [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
-| [valueOf(int value)](#valueOf-int-) |  |
-| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [valueOf(int arg0)](#valueOf-int-) |  |
+| [valueOf(String arg0)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,15 +48,11 @@ public static final Pdf417CompactionMode AUTO
 ```
 
 
-auto detect compation mode
-
 ### BINARY {#BINARY}
 ```
 public static final Pdf417CompactionMode BINARY
 ```
 
-
-binary compaction mode
 
 ### NUMERIC {#NUMERIC}
 ```
@@ -66,15 +60,11 @@ public static final Pdf417CompactionMode NUMERIC
 ```
 
 
-numeric compaction mode
-
 ### TEXT {#TEXT}
 ```
 public static final Pdf417CompactionMode TEXT
 ```
 
-
-text compaction
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -218,24 +208,9 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### valueOf(int value) {#valueOf-int-}
+### valueOf(int arg0) {#valueOf-int-}
 ```
-public static Pdf417CompactionMode valueOf(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-**Returns:**
-[Pdf417CompactionMode](../../com.aspose.barcode.generation/pdf417compactionmode)
-### valueOf(String name) {#valueOf-java.lang.String-}
-```
-public static Pdf417CompactionMode valueOf(String name)
+public static Pdf417CompactionMode valueOf(int arg0)
 ```
 
 
@@ -244,10 +219,25 @@ public static Pdf417CompactionMode valueOf(String name)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String |  |
+| arg0 | int |  |
 
 **Returns:**
-[Pdf417CompactionMode](../../com.aspose.barcode.generation/pdf417compactionmode)
+com.aspose.barcode.generation.Pdf417CompactionMode
+### valueOf(String arg0) {#valueOf-java.lang.String-}
+```
+public static Pdf417CompactionMode valueOf(String arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.String |  |
+
+**Returns:**
+com.aspose.barcode.generation.Pdf417CompactionMode
 ### values() {#values--}
 ```
 public static Pdf417CompactionMode[] values()

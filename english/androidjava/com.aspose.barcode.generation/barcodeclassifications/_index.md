@@ -3,7 +3,7 @@ title: BarcodeClassifications
 second_title: Aspose.BarCode for Android via Java API Reference
 description: EncodeTypes classification
 type: docs
-weight: 76
+weight: 74
 url: /androidjava/com.aspose.barcode.generation/barcodeclassifications/
 ---
 **Inheritance:**
@@ -31,6 +31,7 @@ EncodeTypes classification
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -149,6 +150,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarcodeClassifications fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[BarcodeClassifications](../../com.aspose.barcode.generation/barcodeclassifications)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: CodablockParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Codablock parameters.
 type: docs
-weight: 24
+weight: 23
 url: /androidjava/com.aspose.barcode.generation/codablockparameters/
 ---
 **Inheritance:**
@@ -89,7 +89,7 @@ Rows count.
 int
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

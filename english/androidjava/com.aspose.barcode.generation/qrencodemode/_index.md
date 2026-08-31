@@ -92,13 +92,8 @@ Encoding mode for QR barcodes. These samples show how to encode and save QR barc
 | --- | --- |
 | [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
 | [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
-| [BYTES](#BYTES) | Encode codetext as plain bytes. |
 | [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
-| [ECI_ENCODING](#ECI-ENCODING) | Encode codetext with value set in the ECIEncoding property. |
 | [EXTENDED](#EXTENDED) | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) | Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. |
-| [UTF_16_BEBOM](#UTF-16-BEBOM) | Encode codetext with UTF8 encoding with first ByteOfMark character. |
-| [UTF_8_BOM](#UTF-8-BOM) | Encode codetext with UTF8 encoding with first ByteOfMark character. |
 ## Methods
 
 | Method | Description |
@@ -107,6 +102,7 @@ Encoding mode for QR barcodes. These samples show how to encode and save QR barc
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -137,14 +133,6 @@ public static final QREncodeMode BINARY
 
 In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
-### BYTES {#BYTES}
-```
-public static final QREncodeMode BYTES
-```
-
-
-Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
-
 ### ECI {#ECI}
 ```
 public static final QREncodeMode ECI
@@ -153,14 +141,6 @@ public static final QREncodeMode ECI
 
 In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. This mode is not supported by MicroQR barcodes.
 
-### ECI_ENCODING {#ECI-ENCODING}
-```
-public static final QREncodeMode ECI_ENCODING
-```
-
-
-Encode codetext with value set in the ECIEncoding property. It can be problems with some old (pre 2006) barcode scanners. This mode is not supported by MicroQR barcodes.
-
 ### EXTENDED {#EXTENDED}
 ```
 public static final QREncodeMode EXTENDED
@@ -168,30 +148,6 @@ public static final QREncodeMode EXTENDED
 
 
 Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text by removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as "<FNC1>". FNC1 in second position is set in codetext as "<FNC1(value)>". The value must be a single character from a-z or A-Z, or a two-digit number from 00 to 99. Group Separator for FNC1 modes is set as 0x1D character ''. If you need to insert "<FNC1>" string into barcode write it as "<\\FNC1>". ECI identifiers are set as single slash and six digits identifier, for example "\\000026" for UTF8 ECI identifier. The default ECI mode is ISO/IEC 8859-1 ECI identifier "\\000003". It does not need to be encoded at the beginning of the codetext. To switch from another ECI mode to the default ECI mode, use "\\000003". All unicode characters after ECI identifier are automatically encoded into correct character codeset. QR compaction mode selectors are set as single slash and mode name: "\\auto", "\\num", "\\alnum", "\\byte", "\\kanji". "\\auto" sets automatic compaction mode, "\\num" sets Numeric mode, "\\alnum" sets AlphaNumeric mode, "\\byte" sets Bytes mode, and "\\kanji" sets Kanji mode. The default compaction mode is "\\auto". Compaction mode selectors define the encoding mode for the following data until the next compaction mode selector or ECI identifier is found. If the data cannot be encoded in the selected compaction mode, an ArgumentException is thrown. This mode is not supported by MicroQR barcodes.
-
-### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
-```
-public static final QREncodeMode EXTENDED_CODETEXT
-```
-
-
-Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes. It is better to use QrExtCodetextBuilder for extended codetext generation. Use Display2DText property to set visible text by removing managing characters. Encoding Principles: All symbols "\\" must be doubled "\\\\" in the codetext. FNC1 in first position is set in codetext as "<FNC1>". FNC1 in second position is set in codetext as "<FNC1(value)>". The value must be a single character from a-z or A-Z, or a two-digit number from 00 to 99. Group Separator for FNC1 modes is set as 0x1D character ''. If you need to insert "<FNC1>" string into barcode write it as "<\\FNC1>". ECI identifiers are set as single slash and six digits identifier, for example "\\000026" for UTF8 ECI identifier. The default ECI mode is ISO/IEC 8859-1 ECI identifier "\\000003". It does not need to be encoded at the beginning of the codetext. To switch from another ECI mode to the default ECI mode, use "\\000003". All unicode characters after ECI identifier are automatically encoded into correct character codeset. QR compaction mode selectors are set as single slash and mode name: "\\auto", "\\num", "\\alnum", "\\byte", "\\kanji". "\\auto" sets automatic compaction mode, "\\num" sets Numeric mode, "\\alnum" sets AlphaNumeric mode, "\\byte" sets Bytes mode, and "\\kanji" sets Kanji mode. The default compaction mode is "\\auto". Compaction mode selectors define the encoding mode for the following data until the next compaction mode selector or ECI identifier is found. If the data cannot be encoded in the selected compaction mode, an ArgumentException is thrown. This mode is not supported by MicroQR barcodes.
-
-### UTF_16_BEBOM {#UTF-16-BEBOM}
-```
-public static final QREncodeMode UTF_16_BEBOM
-```
-
-
-Encode codetext with UTF8 encoding with first ByteOfMark character. It can be problems with some barcode scanners.
-
-### UTF_8_BOM {#UTF-8-BOM}
-```
-public static final QREncodeMode UTF_8_BOM
-```
-
-
-Encode codetext with UTF8 encoding with first ByteOfMark character.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -249,6 +205,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QREncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[QREncodeMode](../../com.aspose.barcode.generation/qrencodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

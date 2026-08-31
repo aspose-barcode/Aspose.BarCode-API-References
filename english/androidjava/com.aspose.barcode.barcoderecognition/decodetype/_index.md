@@ -3,7 +3,7 @@ title: DecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specify the type of barcode to read.
 type: docs
-weight: 32
+weight: 30
 url: /androidjava/com.aspose.barcode.barcoderecognition/decodetype/
 ---
 **Inheritance:**
@@ -1053,7 +1053,7 @@ Converts the string representation of a MultiDecodeType to its instance. A retur
 | parsingType | java.lang.String | A string in the format as either "AllSupportedTypes" or "EAN8,EAN13,CodaBar" to convert. |
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.MultiDecodeType - An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultiDecodeType(DecodeType.None)
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully; otherwise it returns indefinite type: new MultiDecodeType(DecodeType.None)
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
 ```
 public static SingleDecodeType tryParseSingleDecodeType(String parsingType)

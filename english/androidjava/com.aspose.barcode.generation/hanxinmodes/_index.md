@@ -3,7 +3,7 @@ title: HanXinModes
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Han Xin Code encoding mode.
 type: docs
-weight: 91
+weight: 90
 url: /androidjava/com.aspose.barcode.generation/hanxinmodes/
 ---
 **Inheritance:**
@@ -37,6 +37,7 @@ Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese c
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -203,6 +204,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static HanXinModes fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+com.aspose.barcode.generation.HanXinModes
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

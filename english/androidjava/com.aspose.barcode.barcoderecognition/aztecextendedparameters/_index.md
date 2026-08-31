@@ -20,17 +20,17 @@ Stores special data of Aztec recognized barcode
 > This sample shows how to get Aztec raw values
 >  
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AZTEC, "12345");
->  generator.save("c:\\test.png");
+>  generator.save("test.png");
 > 
->  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.AZTEC);
+>  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.AZTEC);
 >  for(BarCodeResult result : reader.readBarCodes())
 >  {
 >      System.out.println("BarCode type: " + result.getCodeTypeName());
 >      System.out.println("BarCode codetext: " + result.getCodeText());
->      System.out.println("Aztec barcode ID: " + result.getExtended.getAztec.getStructuredAppendBarcodeId());
->      System.out.println("Aztec barcodes count: " + result.getExtended.getAztec.getStructuredAppendBarcodesCount());
->      System.out.println("Aztec file ID: " + result.getExtended.getAztec.getStructuredAppendFileId());
->      System.out.println("Aztec is reader initialization: " + result.getExtended.getAztec.isReaderInitialization());
+>      System.out.println("Aztec barcode ID: " + result.getExtended().getAztec().getStructuredAppendBarcodeId());
+>      System.out.println("Aztec barcodes count: " + result.getExtended().getAztec().getStructuredAppendBarcodesCount());
+>      System.out.println("Aztec file ID: " + result.getExtended().getAztec().getStructuredAppendFileId());
+>      System.out.println("Aztec is reader initialization: " + result.getExtended().getAztec().isReaderInitialization());
 >  }
 > ```
 ## Methods

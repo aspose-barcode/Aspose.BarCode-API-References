@@ -3,7 +3,7 @@ title: HanXinEncoder
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 48
+weight: 47
 url: /androidjava/com.aspose.barcode.generation/hanxinencoder/
 ---
 **Inheritance:**

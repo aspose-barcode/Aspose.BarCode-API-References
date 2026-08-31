@@ -37,7 +37,7 @@ ComplexCodetextReader decodes codetext to specified complex barcode type.
 | [tryDecodeHIBCPAS(String encodedCodetext)](#tryDecodeHIBCPAS-java.lang.String-) | Decodes HIBC PAS codetext. |
 | [tryDecodeMailmark(String encodedCodetext)](#tryDecodeMailmark-java.lang.String-) | Decodes Mailmark Barcode C and L codetext. |
 | [tryDecodeMailmark2D(String encodedCodetext)](#tryDecodeMailmark2D-java.lang.String-) | Decodes Royal Mail Mailmark 2D codetext. |
-| [tryDecodeMaxiCode(int maxiCodeMode, String encodedCodetext)](#tryDecodeMaxiCode-int-java.lang.String-) | Decodes MaxiCode codetext. |
+| [tryDecodeMaxiCode(MaxiCodeMode maxiCodeMode, String encodedCodetext)](#tryDecodeMaxiCode-com.aspose.barcode.generation.MaxiCodeMode-java.lang.String-) | Decodes MaxiCode codetext. |
 | [tryDecodeSwissQR(String encodedCodetext)](#tryDecodeSwissQR-java.lang.String-) | Decodes SwissQR codetext. |
 | [tryDecodeUSADriveId(String encodedCodetext)](#tryDecodeUSADriveId-java.lang.String-) | Decodes USADriveId codetext. |
 | [wait()](#wait--) |  |
@@ -164,9 +164,9 @@ Decodes Royal Mail Mailmark 2D codetext.
 
 **Returns:**
 [Mailmark2DCodetext](../../com.aspose.barcode.complexbarcode/mailmark2dcodetext) - decoded Royal Mail Mailmark 2D or null.
-### tryDecodeMaxiCode(int maxiCodeMode, String encodedCodetext) {#tryDecodeMaxiCode-int-java.lang.String-}
+### tryDecodeMaxiCode(MaxiCodeMode maxiCodeMode, String encodedCodetext) {#tryDecodeMaxiCode-com.aspose.barcode.generation.MaxiCodeMode-java.lang.String-}
 ```
-public static MaxiCodeCodetext tryDecodeMaxiCode(int maxiCodeMode, String encodedCodetext)
+public static MaxiCodeCodetext tryDecodeMaxiCode(MaxiCodeMode maxiCodeMode, String encodedCodetext)
 ```
 
 
@@ -175,7 +175,7 @@ Decodes MaxiCode codetext.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeMode | int | MaxiCode mode |
+| maxiCodeMode | [MaxiCodeMode](../../com.aspose.barcode.generation/maxicodemode) | MaxiCode mode |
 | encodedCodetext | java.lang.String | encoded codetext |
 
 **Returns:**
@@ -209,7 +209,7 @@ Decodes USADriveId codetext.
 | encodedCodetext | java.lang.String | Encoded codetext |
 
 **Returns:**
-com.aspose.barcode.complexbarcode.USADriveIdCodetext - Decoded USADriveId or null.
+[USADriveIdCodetext](../../com.aspose.barcode.complexbarcode/usadriveidcodetext) - Decoded USADriveId or null.
 ### wait() {#wait--}
 ```
 public final void wait()

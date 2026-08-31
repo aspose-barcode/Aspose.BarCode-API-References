@@ -3,7 +3,7 @@ title: MaxiCodeStructuredSecondMessage
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Class for encoding and decoding structured second message for MaxiCode barcode.
 type: docs
-weight: 33
+weight: 32
 url: /androidjava/com.aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/
 ---
 **Inheritance:**
@@ -24,7 +24,7 @@ Class for encoding and decoding structured second message for MaxiCode barcode.
 | --- | --- |
 | [add(String identifier)](#add-java.lang.String-) | Adds new identifier |
 | [clear()](#clear--) | Clear identifiers list |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value. |
 | [getClass()](#getClass--) |  |
 | [getIdentifiers()](#getIdentifiers--) | Gets identifiers list |
 | [getMessage()](#getMessage--) | Gets constructed second message |
@@ -70,12 +70,12 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified MaxiCodeStructuredSecondMessage value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | "obj">An  value to compare to this instance. |
+| obj | java.lang.Object | "obj">An MaxiCodeStructuredSecondMessage value to compare to this instance. |
 
 **Returns:**
 boolean - **true** if obj has the same value as this instance; otherwise, **false**.
