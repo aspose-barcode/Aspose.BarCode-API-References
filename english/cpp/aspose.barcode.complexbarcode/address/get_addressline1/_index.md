@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::get_AddressLine1 method
+title:  method
 linktitle: get_AddressLine1
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::get_AddressLine1 method. Gets the address line 1 in C++.'
+description: ' method. Gets the address line 1 in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/address/get_addressline1/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/address/get_addressline1/
 Gets the address line 1.
 
 ```cpp
-System::String Aspose::BarCode::ComplexBarcode::Address::get_AddressLine1()
+System::String Aspose::BarCode::ComplexBarcode::Address::get_AddressLine1() const
 ```
 
 ## Remarks

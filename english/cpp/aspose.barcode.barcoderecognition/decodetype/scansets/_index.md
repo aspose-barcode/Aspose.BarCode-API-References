@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::ScanSets method
+title:  method
 linktitle: ScanSets
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::ScanSets method. Specify scan sets by barcodeTypes in C++.'
+description: ' method. Specify scan sets by barcodeTypes in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/scansets/
@@ -19,7 +19,7 @@ static System::SharedPtr<BaseDecodeType> Aspose::BarCode::BarCodeRecognition::De
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Array of single and multi decode types |
+| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Array of single and multi decode types |
 
 ### ReturnValue
 

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder::AddECICodetextWithEncodeMode method
+title:  method
 linktitle: AddECICodetextWithEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixExtCodetextBuilder::AddECICodetextWithEncodeMode method. Adds codetext with Extended Channel Identifier with defined encode mode in C++.'
+description: ' method. Adds codetext with Extended Channel Identifier with defined encode mode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/datamatrixextcodetextbuilder/addecicodetextwithencodemode/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_DetectEncoding method
+title:  method
 linktitle: get_DetectEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_DetectEncoding method. The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true in C++.'
+description: ' method. The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_detectencoding/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_detectencoding/
 The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true.
 
 ```cpp
-bool Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_DetectEncoding()
+bool Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_DetectEncoding() const
 ```
 
 ## Remarks
@@ -72,13 +72,7 @@ End Using
 ```
 
 
-
-
-
 The flag which force engine to detect codetext encoding for Unicode codesets
-
-
-
 ## See Also
 
 * Class [BarcodeSettings](../)

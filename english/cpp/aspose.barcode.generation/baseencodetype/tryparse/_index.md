@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::TryParse method
+title:  method
 linktitle: TryParse
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::TryParse method. Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
+description: ' method. Converts the string representation of a BaseEncodeType to its instance. A return value indicates whether the conversion succeeded or failed in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.generation/baseencodetype/tryparse/

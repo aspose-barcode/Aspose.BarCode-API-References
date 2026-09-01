@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader constructor
+title:  constructor
 linktitle: BarCodeReader
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader constructor. Initializes a new instance of the BarCodeReader class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method in C++.'
+description: ' constructor. Initializes a new instance of the BarCodeReader class with default values. Requires to set image (SetBitmapImage()) before to call ReadBarCodes() method in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
@@ -95,7 +95,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -108,7 +108,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
 ## Remarks
 
 
@@ -189,7 +189,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -203,7 +203,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image. |
 | area | System::Drawing::Rectangle | The area for recognition. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
 ## Remarks
 
 
@@ -285,7 +285,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -299,7 +299,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | --- | --- | --- |
 | image | System::SharedPtr\<System::Drawing::Bitmap\> | The image to read |
 | areas | System::ArrayPtr\<System::Drawing::Rectangle\> | The array of recognition areas |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | The decode types applicable for all the areas specified. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | The decode types applicable for all the areas specified. |
 ## Remarks
 
 
@@ -425,7 +425,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
+## BarCodeReader::BarCodeReader(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -438,7 +438,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::String
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filename | System::String | The filename. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
 ## Remarks
 
 
@@ -607,7 +607,7 @@ End Using
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## BarCodeReader::BarCodeReader(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
+## BarCodeReader::BarCodeReader(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
 
 
 Initializes a new instance of the [BarCodeReader](../) class.
@@ -620,7 +620,7 @@ Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::Shared
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | System::SharedPtr\<System::IO::Stream\> | The stream. |
-| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Decode types. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Decode types. |
 ## Remarks
 
 
@@ -651,6 +651,307 @@ End Using
 ## See Also
 
 * Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>, System::SharedPtr\<BaseDecodeType\>) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, System::ArrayPtr<System::Drawing::Rectangle> areas, System::SharedPtr<BaseDecodeType> type)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| areas | System::ArrayPtr\<System::Drawing::Rectangle\> | The array of recognition areas. |
+| type | System::SharedPtr\<BaseDecodeType\> | The decode type. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, System::ArrayPtr<System::Drawing::Rectangle> areas, const System::ArrayPtr<System::SharedPtr<BaseDecodeType>> &decodeTypes)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| areas | System::ArrayPtr\<System::Drawing::Rectangle\> | The array of recognition areas. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | The decode types. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle, System::SharedPtr\<BaseDecodeType\>) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, System::Drawing::Rectangle area, System::SharedPtr<BaseDecodeType> type)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| area | System::Drawing::Rectangle | The area for recognition. |
+| type | System::SharedPtr\<BaseDecodeType\> | The decode type. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, System::Drawing::Rectangle area, const System::ArrayPtr<System::SharedPtr<BaseDecodeType>> &decodeTypes)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| area | System::Drawing::Rectangle | The area for recognition. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | The decode types. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, System::SharedPtr\<BaseDecodeType\>) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, System::SharedPtr<BaseDecodeType> type)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| type | System::SharedPtr\<BaseDecodeType\> | The decode type. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame, const System::ArrayPtr<System::SharedPtr<BaseDecodeType>> &decodeTypes)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+| decodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | The decode types. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::BarCodeReader(System::SharedPtr\<LuminanceFrame\>) constructor
+
+
+Initializes a new instance of the [BarCodeReader](../) class from a luminance frame.
+
+```cpp
+Aspose::BarCode::BarCodeRecognition::BarCodeReader::BarCodeReader(System::SharedPtr<LuminanceFrame> frame)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame to read. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame))
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)

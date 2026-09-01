@@ -3,7 +3,7 @@ title: ITF14BorderType
 second_title: Aspose.BarCode for Java API Reference
 description: ITF14 barcodes border type
 type: docs
-weight: 92
+weight: 91
 url: /java/com.aspose.barcode.generation/itf14bordertype/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ ITF14 barcode's border type
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -129,6 +130,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static ITF14BorderType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[ITF14BorderType](../../com.aspose.barcode.generation/itf14bordertype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

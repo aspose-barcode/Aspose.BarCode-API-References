@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Pdf417 field
+title:  field
 linktitle: Pdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Pdf417 field. Specifies that the data should be encoded with Pdf417 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with Pdf417 barcode specification in C++.'
 type: docs
 weight: 4300
 url: /cpp/aspose.barcode.generation/encodetypes/pdf417/

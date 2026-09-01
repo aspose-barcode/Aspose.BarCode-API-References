@@ -3,7 +3,7 @@ title: HanXinErrorLevel
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Level of Reed-Solomon error correction.
 type: docs
-weight: 90
+weight: 89
 url: /androidjava/com.aspose.barcode.generation/hanxinerrorlevel/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -131,6 +132,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static HanXinErrorLevel fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[HanXinErrorLevel](../../com.aspose.barcode.generation/hanxinerrorlevel)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

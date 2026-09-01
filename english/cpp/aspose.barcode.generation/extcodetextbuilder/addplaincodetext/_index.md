@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::ExtCodetextBuilder::AddPlainCodetext method
+title:  method
 linktitle: AddPlainCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ExtCodetextBuilder::AddPlainCodetext method. Adds plain codetext to the extended codetext items in C++.'
+description: ' method. Adds plain codetext to the extended codetext items in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/extcodetextbuilder/addplaincodetext/

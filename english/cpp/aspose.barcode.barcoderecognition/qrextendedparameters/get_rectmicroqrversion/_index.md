@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_RectMicroQRVersion method
+title:  method
 linktitle: get_RectMicroQRVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_RectMicroQRVersion method. Version of recognized RectMicroQR Code. From R7x43 to R17x139 in C++.'
+description: ' method. Version of recognized RectMicroQR Code. From R7x43 to R17x139 in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_rectmicroqrversion/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_rectmicroqr
 Version of recognized RectMicroQR Code. From R7x43 to R17x139.
 
 ```cpp
-Aspose::BarCode::Generation::RectMicroQRVersion Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_RectMicroQRVersion()
+Aspose::BarCode::Generation::RectMicroQRVersion Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_RectMicroQRVersion() const
 ```
 
 ## See Also

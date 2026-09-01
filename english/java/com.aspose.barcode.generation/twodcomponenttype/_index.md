@@ -3,7 +3,7 @@ title: TwoDComponentType
 second_title: Aspose.BarCode for Java API Reference
 description: Type of 2D component  This sample shows how to create and save a GS1 Composite Bar image.
 type: docs
-weight: 110
+weight: 108
 url: /java/com.aspose.barcode.generation/twodcomponenttype/
 ---
 **Inheritance:**
@@ -28,6 +28,7 @@ Type of 2D component  This sample shows how to create and save a GS1 Composite B
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -120,6 +121,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static TwoDComponentType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

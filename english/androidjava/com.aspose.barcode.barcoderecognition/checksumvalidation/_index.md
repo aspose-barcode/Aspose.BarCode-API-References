@@ -3,7 +3,7 @@ title: ChecksumValidation
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 
 type: docs
-weight: 51
+weight: 50
 url: /androidjava/com.aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 **Inheritance:**
@@ -29,9 +29,9 @@ Checksum always used: Rest symbologies
 >  
 >  BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.EAN_13, "1234567890128");
 >  {
->      generator.save("test.png");
+>      generator.save("c:\\test.png");
 >  }
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.EAN_13))
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13))
 >  {
 >      //checksum disabled
 >      reader.getBarcodeSettings().setChecksumValidation(ChecksumValidation.OFF);
@@ -42,7 +42,7 @@ Checksum always used: Rest symbologies
 >          System.out.println("BarCode Checksum: " + result.getExtended().getOneD().getCheckSum());
 >      }
 >  }
->  BarCodeReader reader = new BarCodeReader("test.png", DecodeType.EAN_13);
+>  BarCodeReader reader = new BarCodeReader("c:\\test.png", DecodeType.EAN_13);
 >  //checksum enabled
 >  reader.getBarcodeSettings().setChecksumValidation(ChecksumValidation.ON);
 >  for(BarCodeResult result : reader.readBarCodes())
@@ -67,6 +67,7 @@ Checksum always used: Rest symbologies
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -161,6 +162,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static ChecksumValidation fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[ChecksumValidation](../../com.aspose.barcode.barcoderecognition/checksumvalidation)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

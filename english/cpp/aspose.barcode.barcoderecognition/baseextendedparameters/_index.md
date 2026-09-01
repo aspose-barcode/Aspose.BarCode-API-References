@@ -20,7 +20,7 @@ class BaseExtendedParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_IsEmpty](./get_isempty/)() | **Tests** whether all parameters has only default values |
+| [get_IsEmpty](./get_isempty/)() const | **Tests** whether all parameters has only default values |
 ## See Also
 
 * Namespace [Aspose::BarCode::BarCodeRecognition](../)

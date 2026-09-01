@@ -4,7 +4,7 @@ linktitle: XmlSerializationAttribute
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::XmlSerializationAttribute class. Represents attribute for xml entity generator in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.barcode/xmlserializationattribute/
 ---
 ## XmlSerializationAttribute class

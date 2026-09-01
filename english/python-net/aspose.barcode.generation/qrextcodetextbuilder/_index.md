@@ -22,8 +22,8 @@ The QrExtCodetextBuilder type exposes the following members:
 |add_plain_codetext(codetext)|Adds plain codetext to the extended codetext items|
 |add_eci_codetext(eci_encoding, codetext)|Adds codetext with Extended Channel Identifier|
 |get_extended_codetext()|Generates Extended codetext from the extended codetext list.|
-|add_fnc1_first_position()|Adds FNC1 in first position to the extended codetext items|
-|add_fnc1_second_position(codetext)|Adds FNC1 in second position to the extended codetext items|
+|add_fnc1_first_position()|Sets FNC1 in first position. If another FNC1 mode was set before, it is replaced.|
+|add_fnc1_second_position(codetext)|Sets FNC1 in second position. If another FNC1 mode was set before, it is replaced.|
 |add_fnc1_group_separator()|Adds Group Separator (GS - '\\u001D') to the extended codetext items|
 
 ### See Also

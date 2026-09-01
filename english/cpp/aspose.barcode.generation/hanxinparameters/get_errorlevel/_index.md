@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::HanXinParameters::get_ErrorLevel method
+title:  method
 linktitle: get_ErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinParameters::get_ErrorLevel method. Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel in C++.'
+description: ' method. Level of Reed-Solomon error correction for Han Xin barcode. From low to high: L1, L2, L3, L4. see ErrorLevel in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/hanxinparameters/get_errorlevel/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::set_IsReaderInitialization method
+title:  method
 linktitle: set_IsReaderInitialization
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_IsReaderInitialization method. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization in C++.'
+description: ' method. Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization in C++.'
 type: docs
 weight: 3800
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_isreaderinitialization/

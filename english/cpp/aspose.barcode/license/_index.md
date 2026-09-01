@@ -29,7 +29,7 @@ class License : public System::Object
 In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. 
 ```cpp
 [C#]
-
+@verbatim
 License license = new License();
 license.SetLicense("MyLicense.lic");
 
@@ -38,6 +38,7 @@ license.SetLicense("MyLicense.lic");
 
 Dim license As license = New license
 License.SetLicense("MyLicense.lic")
+@endverbatim
 ```
 
 ## See Also

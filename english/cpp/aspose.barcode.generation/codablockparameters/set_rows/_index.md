@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodablockParameters::set_Rows method
+title:  method
 linktitle: set_Rows
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodablockParameters::set_Rows method. Rows count in C++.'
+description: ' method. Rows count in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/codablockparameters/set_rows/

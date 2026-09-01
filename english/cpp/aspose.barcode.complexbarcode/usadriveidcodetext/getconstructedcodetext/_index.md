@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetConstructedCodetext method
+title:  method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetConstructedCodetext method. Construct codetext from USA DL data in C++.'
+description: ' method. Construct codetext from USA DL data in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/getconstructedcodetext/

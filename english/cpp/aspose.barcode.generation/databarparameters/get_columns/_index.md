@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::DataBarParameters::get_Columns method
+title:  method
 linktitle: get_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataBarParameters::get_Columns method. Columns count in C++.'
+description: ' method. Columns count in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/databarparameters/get_columns/

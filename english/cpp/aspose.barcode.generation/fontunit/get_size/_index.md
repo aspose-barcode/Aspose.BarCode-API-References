@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::FontUnit::get_Size method
+title:  method
 linktitle: get_Size
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::FontUnit::get_Size method. Gets size of this FontUnit in Unit value in C++.'
+description: ' method. Gets size of this FontUnit in Unit value in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/fontunit/get_size/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/fontunit/get_size/
 Gets size of this [FontUnit](../) in [Unit](../../unit/) value.
 
 ```cpp
-System::SharedPtr<Unit> Aspose::BarCode::Generation::FontUnit::get_Size()
+System::SharedPtr<Unit> Aspose::BarCode::Generation::FontUnit::get_Size() const
 ```
 
 ## Remarks

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Is1D method
+title:  method
 linktitle: Is1D
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Is1D method. Determines if the specified BaseDecodeType contains any 1D barcode symbology in C++.'
+description: ' method. Determines if the specified BaseDecodeType contains any 1D barcode symbology in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/is1d/

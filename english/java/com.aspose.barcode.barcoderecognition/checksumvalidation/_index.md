@@ -3,7 +3,7 @@ title: ChecksumValidation
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 48
 url: /java/com.aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 **Inheritance:**
@@ -66,6 +66,7 @@ Checksum always used: Rest symbologies
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -150,6 +151,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static ChecksumValidation fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[ChecksumValidation](../../com.aspose.barcode.barcoderecognition/checksumvalidation)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

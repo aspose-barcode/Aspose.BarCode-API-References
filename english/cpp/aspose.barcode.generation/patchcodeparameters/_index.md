@@ -4,7 +4,7 @@ linktitle: PatchCodeParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::PatchCodeParameters class. PatchCode parameters in C++.'
 type: docs
-weight: 3500
+weight: 3800
 url: /cpp/aspose.barcode.generation/patchcodeparameters/
 ---
 ## PatchCodeParameters class

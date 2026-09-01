@@ -15,7 +15,7 @@ DataMatrix encoder's encoding mode, default to Auto
 | :- | :- |
 |AUTO|In Auto mode, the CodeText is encoded with maximum data compactness. <br/>            Unicode characters are re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier.<br/>            If a character is found that is not supported by the selected ECI encoding, an exception is thrown.|
 |ASCII|Encodes one alphanumeric or two numeric characters per byte|
-|BYTES|Encode 8 bit values|
+|BYTES||
 |C40|Uses C40 encoding. Encodes Upper-case alphanumeric, Lower case and special characters|
 |TEXT|Uses Text encoding. Encodes Lower-case alphanumeric, Upper case and special characters|
 |EDIFACT|Uses EDIFACT encoding. Uses six bits per character, encodes digits, upper-case letters, and many punctuation marks, but has no support for lower-case letters.|

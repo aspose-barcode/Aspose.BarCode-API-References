@@ -4,7 +4,7 @@ linktitle: HslaColor
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::HslaColor class. Class for representing HSLA color (Hue, Saturation, Lightness, Alpha) in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.barcode.generation/hslacolor/
 ---
 ## HslaColor class

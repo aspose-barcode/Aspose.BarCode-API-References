@@ -18,16 +18,12 @@ AustralianPost barcode parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAustralianPostEncodingTable()](#getAustralianPostEncodingTable--) | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
-| [getAustralianPostShortBarHeight()](#getAustralianPostShortBarHeight--) | Short bar's height of AustralianPost barcode. |
 | [getClass()](#getClass--) |  |
 | [getEncodingTable()](#getEncodingTable--) | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
 | [getShortBarHeight()](#getShortBarHeight--) | Short bar's height of AustralianPost barcode. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAustralianPostEncodingTable(CustomerInformationInterpretingType value)](#setAustralianPostEncodingTable-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-) | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
-| [setAustralianPostShortBarHeight(Unit value)](#setAustralianPostShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of AustralianPost barcode. |
 | [setEncodingTable(CustomerInformationInterpretingType value)](#setEncodingTable-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-) | Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" |
 | [setShortBarHeight(Unit value)](#setShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of AustralianPost barcode. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [AustralianPostParameters](../../com.aspose.barcode.generation/australianpostparameters). |
@@ -49,26 +45,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAustralianPostEncodingTable() {#getAustralianPostEncodingTable--}
-```
-public final CustomerInformationInterpretingType getAustralianPostEncodingTable()
-```
-
-
-Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other"
-
-**Returns:**
-[CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype)
-### getAustralianPostShortBarHeight() {#getAustralianPostShortBarHeight--}
-```
-public final Unit getAustralianPostShortBarHeight()
-```
-
-
-Short bar's height of AustralianPost barcode.
-
-**Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -101,7 +77,7 @@ Short bar's height of AustralianPost barcode.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -124,32 +100,6 @@ public final native void notifyAll()
 
 
 
-
-### setAustralianPostEncodingTable(CustomerInformationInterpretingType value) {#setAustralianPostEncodingTable-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-}
-```
-public final void setAustralianPostEncodingTable(CustomerInformationInterpretingType value)
-```
-
-
-Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other"
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype) |  |
-
-### setAustralianPostShortBarHeight(Unit value) {#setAustralianPostShortBarHeight-com.aspose.barcode.generation.Unit-}
-```
-public final void setAustralianPostShortBarHeight(Unit value)
-```
-
-
-Short bar's height of AustralianPost barcode.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
 
 ### setEncodingTable(CustomerInformationInterpretingType value) {#setEncodingTable-com.aspose.barcode.barcoderecognition.CustomerInformationInterpretingType-}
 ```

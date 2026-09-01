@@ -3,7 +3,7 @@ title: GS1CompositeBarParameters
 second_title: Aspose.BarCode for Java API Reference
 description: GS1 Composite bar parameters.
 type: docs
-weight: 45
+weight: 44
 url: /java/com.aspose.barcode.generation/gs1compositebarparameters/
 ---
 **Inheritance:**
@@ -79,7 +79,7 @@ public TwoDComponentType getTwoDComponentType()
 [TwoDComponentType](../../com.aspose.barcode.generation/twodcomponenttype)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

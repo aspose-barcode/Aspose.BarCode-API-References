@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Angle method
+title:  method
 linktitle: get_Angle
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Angle method. Gets the angle of the barcode (0-360) in C++.'
+description: ' method. Gets the angle of the barcode (0-360) in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/get_angle/
@@ -13,16 +13,13 @@ url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/get_angle/
 Gets the angle of the barcode (0-360).
 
 ```cpp
-double Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Angle()
+double Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::get_Angle() const
 ```
 
 ## Remarks
 
 
 The angle for barcode (0-360).
-
-
-
 ## See Also
 
 * Class [BarCodeRegionParameters](../)

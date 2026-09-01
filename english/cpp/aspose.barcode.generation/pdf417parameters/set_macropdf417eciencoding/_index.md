@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::set_MacroPdf417ECIEncoding method
+title:  method
 linktitle: set_MacroPdf417ECIEncoding
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_MacroPdf417ECIEncoding method. Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields in C++.'
+description: ' method. Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields in C++.'
 type: docs
 weight: 3400
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_macropdf417eciencoding/

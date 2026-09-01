@@ -4,7 +4,7 @@ linktitle: MaxiCodeParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::MaxiCodeParameters class. MaxiCode parameters in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.barcode.generation/maxicodeparameters/
 ---
 ## MaxiCodeParameters class
@@ -20,7 +20,7 @@ class MaxiCodeParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AspectRatio](./get_aspectratio/)() | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
+| [get_AspectRatio](./get_aspectratio/)() const | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
 | [get_ECIEncoding](./get_eciencoding/)() const | Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
 | [get_EncodeMode](./get_encodemode/)() const | Gets a MaxiCode encode mode. Default value: Auto. |
 | [get_Mode](./get_mode/)() const | Gets a MaxiCode encode mode. |

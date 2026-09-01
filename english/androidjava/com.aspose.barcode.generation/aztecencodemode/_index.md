@@ -3,7 +3,7 @@ title: AztecEncodeMode
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Encoding mode for Aztec barcodes.
 type: docs
-weight: 73
+weight: 71
 url: /androidjava/com.aspose.barcode.generation/aztecencodemode/
 ---
 **Inheritance:**
@@ -48,10 +48,8 @@ Encoding mode for Aztec barcodes.
 | --- | --- |
 | [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
 | [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
-| [BYTES](#BYTES) | Encode codetext as plain bytes. |
 | [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
 | [EXTENDED](#EXTENDED) |  |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 ## Methods
 
 | Method | Description |
@@ -60,6 +58,7 @@ Encoding mode for Aztec barcodes.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -90,14 +89,6 @@ public static final AztecEncodeMode BINARY
 
 In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
-### BYTES {#BYTES}
-```
-public static final AztecEncodeMode BYTES
-```
-
-
-Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
-
 ### ECI {#ECI}
 ```
 public static final AztecEncodeMode ECI
@@ -109,22 +100,6 @@ In ECI mode, the entire message is re-encoded in the ECIEncoding specified encod
 ### EXTENDED {#EXTENDED}
 ```
 public static final AztecEncodeMode EXTENDED
-```
-
-
-Extended mode which supports multi ECI modes.
-
-It is better to use AztecExtCodetextBuilder for extended codetext generation.
-
-Use Display2DText property to set visible text to removing managing characters.
-
-ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
-
-All unicode characters after ECI identifier are automatically encoded into correct character codeset.
-
-### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
-```
-public static final AztecEncodeMode EXTENDED_CODETEXT
 ```
 
 
@@ -194,6 +169,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static AztecEncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+com.aspose.barcode.generation.AztecEncodeMode
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

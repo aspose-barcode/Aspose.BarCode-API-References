@@ -1,76 +1,105 @@
 ---
 title: Code128SubType
 second_title: Aspose.BarCode for Java API Reference
-description: Contains types of Code128 subset
+description: Contains types of Code128 subset.
 type: docs
-weight: 29
+weight: 49
 url: /java/com.aspose.barcode.barcoderecognition/code128subtype/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, java.lang.Enum
 ```
-public final class Code128SubType
+public enum Code128SubType extends Enum<Code128SubType>
 ```
 
-Contains types of Code128 subset
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Code128SubType()](#Code128SubType--) |  |
+Contains types of Code128 subset.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [CODE_SET_A](#CODE-SET-A) | ASCII characters 00 to 95 (0\\u20139, A\\u2013Z and control codes), special characters, and FNC 1\\u20134 /// |
-| [CODE_SET_B](#CODE-SET-B) | ASCII characters 32 to 127 (0\\u20139, A\\u2013Z, a\\u2013z), special characters, and FNC 1\\u20134 /// |
-| [CODE_SET_C](#CODE-SET-C) | 00\\u201399 (encodes two digits with a single code point) and FNC1 /// |
+| [CODE_SET_A](#CODE-SET-A) | ASCII characters 00 to 95 (0\\u20139, A\\u2013Z and control codes), special characters, and FNC 1\\u20134. |
+| [CODE_SET_B](#CODE-SET-B) | ASCII characters 32 to 127 (0\\u20139, A\\u2013Z, a\\u2013z), special characters, and FNC 1\\u20134. |
+| [CODE_SET_C](#CODE-SET-C) | 00\\u201399 (encodes two digits with a single code point) and FNC1. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Code128SubType() {#Code128SubType--}
-```
-public Code128SubType()
-```
-
-
 ### CODE_SET_A {#CODE-SET-A}
 ```
-public static final int CODE_SET_A
+public static final Code128SubType CODE_SET_A
 ```
 
 
-ASCII characters 00 to 95 (0\\u20139, A\\u2013Z and control codes), special characters, and FNC 1\\u20134 ///
+ASCII characters 00 to 95 (0\\u20139, A\\u2013Z and control codes), special characters, and FNC 1\\u20134.
 
 ### CODE_SET_B {#CODE-SET-B}
 ```
-public static final int CODE_SET_B
+public static final Code128SubType CODE_SET_B
 ```
 
 
-ASCII characters 32 to 127 (0\\u20139, A\\u2013Z, a\\u2013z), special characters, and FNC 1\\u20134 ///
+ASCII characters 32 to 127 (0\\u20139, A\\u2013Z, a\\u2013z), special characters, and FNC 1\\u20134.
 
 ### CODE_SET_C {#CODE-SET-C}
 ```
-public static final int CODE_SET_C
+public static final Code128SubType CODE_SET_C
 ```
 
 
-00\\u201399 (encodes two digits with a single code point) and FNC1 ///
+00\\u201399 (encodes two digits with a single code point) and FNC1.
 
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean equals(Object arg0)
+public final boolean equals(Object arg0)
 ```
 
 
@@ -83,6 +112,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Code128SubType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Code128SubType](../../com.aspose.barcode.barcoderecognition/code128subtype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -93,9 +137,19 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### hashCode() {#hashCode--}
+### getDeclaringClass() {#getDeclaringClass--}
 ```
-public native int hashCode()
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
 ```
 
 
@@ -103,6 +157,26 @@ public native int hashCode()
 
 **Returns:**
 int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -119,6 +193,16 @@ public final native void notifyAll()
 
 
 
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
 ### toString() {#toString--}
 ```
 public String toString()
@@ -129,6 +213,31 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static Code128SubType valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String |  |
+
+**Returns:**
+[Code128SubType](../../com.aspose.barcode.barcoderecognition/code128subtype)
+### values() {#values--}
+```
+public static Code128SubType[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.Code128SubType[]
 ### wait() {#wait--}
 ```
 public final void wait()

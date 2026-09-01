@@ -4,7 +4,7 @@ linktitle: Aspose::BarCode::Generation
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation namespace in C++.'
 type: docs
-weight: 500
+weight: 1300
 url: /cpp/aspose.barcode.generation/
 ---
 
@@ -29,6 +29,7 @@ url: /cpp/aspose.barcode.generation/
 | [Code128Parameters](./code128parameters/) | Code128 parameters. |
 | [Code16KParameters](./code16kparameters/) | Code16K parameters. |
 | [CodetextParameters](./codetextparameters/) | Codetext parameters. |
+| [ComplexBarcode](./complexbarcode/) |  |
 | [CouponParameters](./couponparameters/) | Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon. |
 | [DataBarParameters](./databarparameters/) | Databar parameters. |
 | [DataMatrixExtCodetextBuilder](./datamatrixextcodetextbuilder/) |  |
@@ -45,9 +46,11 @@ url: /cpp/aspose.barcode.generation/
 | [ImageParameters](./imageparameters/) | Image parameters. |
 | [ISimplePropertyChangedEventHandler](./isimplepropertychangedeventhandler/) |  |
 | [ITFParameters](./itfparameters/) | ITF parameters. |
+| [MacroCharacterValues](./macrocharactervalues/) |  |
 | [MaxiCodeExtCodetextBuilder](./maxicodeextcodetextbuilder/) |  |
 | [MaxiCodeParameters](./maxicodeparameters/) | MaxiCode parameters. |
 | [Padding](./padding/) | Paddings parameters. |
+| [PatchcodeConst](./patchcodeconst/) |  |
 | [PatchCodeParameters](./patchcodeparameters/) | PatchCode parameters. |
 | [Pdf417Parameters](./pdf417parameters/) | PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. |
 | [PdfParameters](./pdfparameters/) | PDF parameters. |
@@ -56,6 +59,7 @@ url: /cpp/aspose.barcode.generation/
 | [QrParameters](./qrparameters/) | QR parameters. |
 | [QrStructuredAppendParameters](./qrstructuredappendparameters/) | QR structured append parameters. |
 | [SupplementParameters](./supplementparameters/) | Supplement parameters. Used for Interleaved2of5, Standard2of5, EAN13, EAN8, UPCA, UPCE, ISBN, ISSN, ISMN. |
+| [SvgColorUtils](./svgcolorutils/) |  |
 | [SvgParameters](./svgparameters/) | SVG parameters. |
 | [SymbologyEncodeType](./symbologyencodetype/) | Symbology encode type. See [EncodeTypes](./encodetypes/) to get instance. |
 | [Unit](./unit/) | Specifies the size value in different units (Pixel, Inches, etc.). |

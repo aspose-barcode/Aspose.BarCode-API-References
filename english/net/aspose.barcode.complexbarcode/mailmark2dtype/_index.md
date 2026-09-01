@@ -3,7 +3,7 @@ title: Enum Mailmark2DType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.Mailmark2DType enum. 2D Mailmark Type defines size of Data Matrix barcode
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 ## Mailmark2DType enumeration

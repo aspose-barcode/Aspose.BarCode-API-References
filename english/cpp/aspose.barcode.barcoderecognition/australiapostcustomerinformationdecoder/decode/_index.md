@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::AustraliaPostCustomerInformationDecoder::Decode method
+title:  method
 linktitle: Decode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::AustraliaPostCustomerInformationDecoder::Decode method. Decode Customer Information Field from AustraliaPost symbology. Can be used for different data interpretation from NTable and CTable encoding. Data is provided as a row of bar values: 0, 1, 2 or 3 in C++.'
+description: ' method. Decode Customer Information Field from AustraliaPost symbology. Can be used for different data interpretation from NTable and CTable encoding. Data is provided as a row of bar values: 0, 1, 2 or 3 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/decode/

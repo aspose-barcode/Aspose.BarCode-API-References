@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::Supplement field
+title:  field
 linktitle: Supplement
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::Supplement field. Specifies that the data should be decoded with Supplement(EAN2, EAN5) barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with Supplement(EAN2, EAN5) barcode specification in C++.'
 type: docs
 weight: 6600
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/supplement/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **Supplement(EAN2, EAN5)** barcod
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::Supplement
 ```
-
-
-
 
 ## See Also
 

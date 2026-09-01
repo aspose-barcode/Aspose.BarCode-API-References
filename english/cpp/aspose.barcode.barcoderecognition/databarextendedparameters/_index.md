@@ -20,8 +20,8 @@ class DataBarExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Ba
 
 | Method | Description |
 | --- | --- |
-| [get_Is2DCompositeComponent](./get_is2dcompositecomponent/)() | Gets the DataBar 2D composite component flag. Default value is false. |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
+| [get_Is2DCompositeComponent](./get_is2dcompositecomponent/)() const | Gets the DataBar 2D composite component flag. Default value is false. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() const | **Tests** whether all parameters has only default values |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [DataBarExtendedParameters](./). |
 ## Remarks

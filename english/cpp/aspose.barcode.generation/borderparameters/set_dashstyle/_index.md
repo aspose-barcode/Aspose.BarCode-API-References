@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BorderParameters::set_DashStyle method
+title:  method
 linktitle: set_DashStyle
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BorderParameters::set_DashStyle method. Border dash style. Default value: BorderDashStyle.Solid in C++.'
+description: ' method. Border dash style. Default value: BorderDashStyle.Solid in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/borderparameters/set_dashstyle/

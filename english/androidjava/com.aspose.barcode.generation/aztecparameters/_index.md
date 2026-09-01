@@ -19,9 +19,6 @@ Aztec parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAspectRatio()](#getAspectRatio--) | Height/Width ratio of 2D BarCode module. |
-| [getAztecEncodeMode()](#getAztecEncodeMode--) | Gets a Aztec encode mode. |
-| [getAztecErrorLevel()](#getAztecErrorLevel--) | Level of error correction of Aztec types of barcode. |
-| [getAztecSymbolMode()](#getAztecSymbolMode--) | Gets a Aztec Symbol mode. |
 | [getClass()](#getClass--) |  |
 | [getECIEncoding()](#getECIEncoding--) | Gets ECI encoding. |
 | [getEncodeMode()](#getEncodeMode--) | Gets a Aztec encode mode. |
@@ -36,9 +33,6 @@ Aztec parameters.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAspectRatio(float value)](#setAspectRatio-float-) | Height/Width ratio of 2D BarCode module. |
-| [setAztecEncodeMode(AztecEncodeMode value)](#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Sets a Aztec encode mode. |
-| [setAztecErrorLevel(int value)](#setAztecErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
-| [setAztecSymbolMode(AztecSymbolMode value)](#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Sets a Aztec Symbol mode. |
 | [setECIEncoding(int value)](#setECIEncoding-int-) | Sets ECI encoding. |
 | [setEncodeMode(AztecEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Sets a Aztec encode mode. |
 | [setErrorLevel(int value)](#setErrorLevel-int-) | Level of error correction of Aztec types of barcode. |
@@ -77,36 +71,6 @@ Height/Width ratio of 2D BarCode module.
 
 **Returns:**
 float
-### getAztecEncodeMode() {#getAztecEncodeMode--}
-```
-public final AztecEncodeMode getAztecEncodeMode()
-```
-
-
-Gets a Aztec encode mode. Default value: Auto.
-
-**Returns:**
-com.aspose.barcode.generation.AztecEncodeMode - a Aztec encode mode.
-### getAztecErrorLevel() {#getAztecErrorLevel--}
-```
-public final int getAztecErrorLevel()
-```
-
-
-Level of error correction of Aztec types of barcode. Value should between 5 to 95.
-
-**Returns:**
-int
-### getAztecSymbolMode() {#getAztecSymbolMode--}
-```
-public final AztecSymbolMode getAztecSymbolMode()
-```
-
-
-Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
-
-**Returns:**
-[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) - a Aztec Symbol mode.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +163,7 @@ Gets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
 [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) - a Aztec Symbol mode.
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -245,45 +209,6 @@ Height/Width ratio of 2D BarCode module.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
-
-### setAztecEncodeMode(AztecEncodeMode value) {#setAztecEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-}
-```
-public final void setAztecEncodeMode(AztecEncodeMode value)
-```
-
-
-Sets a Aztec encode mode. Default value: Auto.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | com.aspose.barcode.generation.AztecEncodeMode | a Aztec encode mode. |
-
-### setAztecErrorLevel(int value) {#setAztecErrorLevel-int-}
-```
-public final void setAztecErrorLevel(int value)
-```
-
-
-Level of error correction of Aztec types of barcode. Value should between 5 to 95.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setAztecSymbolMode(AztecSymbolMode value) {#setAztecSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-}
-```
-public final void setAztecSymbolMode(AztecSymbolMode value)
-```
-
-
-Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) | a Aztec Symbol mode. |
 
 ### setECIEncoding(int value) {#setECIEncoding-int-}
 ```

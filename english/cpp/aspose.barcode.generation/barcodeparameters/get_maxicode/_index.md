@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_MaxiCode method
+title:  method
 linktitle: get_MaxiCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_MaxiCode method. MaxiCode parameters in C++.'
+description: ' method. MaxiCode parameters in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_maxicode/

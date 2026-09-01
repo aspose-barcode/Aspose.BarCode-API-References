@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_JurisdictionSpecificSubfile method
+title:  method
 linktitle: get_JurisdictionSpecificSubfile
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_JurisdictionSpecificSubfile method. Jurisdiction Specific Fields in C++.'
+description: ' method. Jurisdiction Specific Fields in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/get_jurisdictionspecificsubfile/

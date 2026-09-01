@@ -3,7 +3,7 @@ title: Class OneDExtendedParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.OneDExtendedParameters class. Stores special data of 1D recognized barcode like separate codetext and checksum
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.barcode.barcoderecognition/onedextendedparameters/
 ---
 ## OneDExtendedParameters class

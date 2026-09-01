@@ -1,7 +1,7 @@
 ---
 title: QREncodeType
 second_title: Aspose.BarCode for Android via Java API Reference
-description: QR / MicroQR selector mode.
+description: 
 type: docs
 weight: 103
 url: /androidjava/com.aspose.barcode.generation/qrencodetype/
@@ -11,15 +11,13 @@ java.lang.Object, java.lang.Enum
 ```
 public enum QREncodeType extends Enum<QREncodeType>
 ```
-
-QR / MicroQR selector mode. Select FORCE\_QR for standard QR symbols, AUTO for MicroQR. FORCE\_MICRO\_QR is used for strongly MicroQR symbol generation if it is possible.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Mode starts barcode version negotiation from MicroQR V1 |
-| [FORCE_MICRO_QR](#FORCE-MICRO-QR) | Mode starts barcode version negotiation from from MicroQR V1 to V4. |
-| [FORCE_QR](#FORCE-QR) | Mode starts barcode version negotiation from QR V1 |
+| [AUTO](#AUTO) |  |
+| [FORCE_MICRO_QR](#FORCE-MICRO-QR) |  |
+| [FORCE_QR](#FORCE-QR) |  |
 ## Methods
 
 | Method | Description |
@@ -37,7 +35,7 @@ QR / MicroQR selector mode. Select FORCE\_QR for standard QR symbols, AUTO for M
 | [notifyAll()](#notifyAll--) |  |
 | [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
-| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [valueOf(String arg0)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,23 +46,17 @@ public static final QREncodeType AUTO
 ```
 
 
-Mode starts barcode version negotiation from MicroQR V1
-
 ### FORCE_MICRO_QR {#FORCE-MICRO-QR}
 ```
 public static final QREncodeType FORCE_MICRO_QR
 ```
 
 
-Mode starts barcode version negotiation from from MicroQR V1 to V4. If data cannot be encoded into MicroQR, exception is thrown.
-
 ### FORCE_QR {#FORCE-QR}
 ```
 public static final QREncodeType FORCE_QR
 ```
 
-
-Mode starts barcode version negotiation from QR V1
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -208,9 +200,9 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### valueOf(String name) {#valueOf-java.lang.String-}
+### valueOf(String arg0) {#valueOf-java.lang.String-}
 ```
-public static QREncodeType valueOf(String name)
+public static QREncodeType valueOf(String arg0)
 ```
 
 
@@ -219,10 +211,10 @@ public static QREncodeType valueOf(String name)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String |  |
+| arg0 | java.lang.String |  |
 
 **Returns:**
-[QREncodeType](../../com.aspose.barcode.generation/qrencodetype)
+com.aspose.barcode.generation.QREncodeType
 ### values() {#values--}
 ```
 public static QREncodeType[] values()

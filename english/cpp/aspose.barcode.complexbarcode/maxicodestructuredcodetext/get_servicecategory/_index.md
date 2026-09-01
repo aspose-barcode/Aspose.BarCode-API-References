@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_ServiceCategory method
+title:  method
 linktitle: get_ServiceCategory
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_ServiceCategory method. Identifies 3 digit service category in C++.'
+description: ' method. Identifies 3 digit service category in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/get_servicecategory/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/get_serviceca
 Identifies 3 digit service category.
 
 ```cpp
-int32_t Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_ServiceCategory()
+int32_t Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::get_ServiceCategory() const
 ```
 
 ## See Also

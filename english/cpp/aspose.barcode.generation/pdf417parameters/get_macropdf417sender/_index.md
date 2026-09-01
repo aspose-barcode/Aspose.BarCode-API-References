@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_MacroPdf417Sender method
+title:  method
 linktitle: get_MacroPdf417Sender
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_MacroPdf417Sender method. MacroPdf417 barcode sender name (optional field). MicroPDF417 barcode sender name (optional field for Structured Append mode) in C++.'
+description: ' method. MacroPdf417 barcode sender name (optional field). MicroPDF417 barcode sender name (optional field for Structured Append mode) in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_macropdf417sender/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStandardSecondMessage::GetMessage method
+title:  method
 linktitle: GetMessage
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStandardSecondMessage::GetMessage method. Gets constructed second message in C++.'
+description: ' method. Gets constructed second message in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/maxicodestandardsecondmessage/getmessage/

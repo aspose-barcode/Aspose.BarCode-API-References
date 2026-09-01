@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::ITF14BorderType enum
+title:  enum
 linktitle: ITF14BorderType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::ITF14BorderType enum. ITF14 border type of barcode in C++.'
+description: ' enum. ITF14 border type of barcode in C++.'
 type: docs
-weight: 6600
+weight: 7000
 url: /cpp/aspose.barcode.generation/itf14bordertype/
 ---
 ## ITF14BorderType enum

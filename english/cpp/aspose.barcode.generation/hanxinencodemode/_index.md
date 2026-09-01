@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::HanXinEncodeMode enum
+title:  enum
 linktitle: HanXinEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::HanXinEncodeMode enum. Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters in C++.'
+description: ' enum. Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters in C++.'
 type: docs
-weight: 6300
+weight: 6700
 url: /cpp/aspose.barcode.generation/hanxinencodemode/
 ---
 ## HanXinEncodeMode enum
@@ -25,7 +25,7 @@ enum class HanXinEncodeMode
 | ECI | 2 | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. If a character is found that is not supported by the selected ECI encoding, an exception is thrown. Please note that some old (pre 2006) scanners may not support this mode. |
 | Unicode | 3 | Unicode mode designs a way to represent any text data reference to UTF8 encoding/charset in Han Xin Code. |
 | URI | 4 | URI mode indicates the data represented in Han Xin Code is Uniform Resource Identifier (URI) reference to RFC 3986. |
-| Extended | 5 | Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, [Common](../../aspose.barcode.common/) Chinese Region One, [Common](../../aspose.barcode.common/) Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. Codetext can be built manually with prefixes and doubled backslashes, e.g.: "\auto:abc\000009:ΑΒΓΔΕ\auto:ab\c" or using the [HanXinExtCodetextBuilder](../hanxinextcodetextbuilder/). If the codetext contains an ECI fragment, then only the following modes can be in that codetext after ECI fragment: Auto, Binary, Text, Numeric, URI, ECI. |
+| Extended | 5 | Extended mode allow combinations of internal modes: Auto, Binary, Text, Numeric, URI, Unicode, ECI, [Common](../../aspose.barcode.common/) Chinese Region One, [Common](../../aspose.barcode.common/) Chinese Region Two, GB18030 Two Byte, GB18030 Four Byte. Codetext can be built manually with prefixes and doubled backslashes, e.g.: ":abc\000009:ΑΒΓΔΕ:ab\c" or using the [HanXinExtCodetextBuilder](../hanxinextcodetextbuilder/). If the codetext contains an ECI fragment, then only the following modes can be in that codetext after ECI fragment: Auto, Binary, Text, Numeric, URI, ECI. |
 
 ## Remarks
 

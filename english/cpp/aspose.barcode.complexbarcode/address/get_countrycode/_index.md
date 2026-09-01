@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::get_CountryCode method
+title:  method
 linktitle: get_CountryCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::get_CountryCode method. Gets the two-letter ISO country code in C++.'
+description: ' method. Gets the two-letter ISO country code in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.complexbarcode/address/get_countrycode/

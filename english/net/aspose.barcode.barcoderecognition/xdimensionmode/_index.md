@@ -3,7 +3,7 @@ title: Enum XDimensionMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.XDimensionMode enum. Recognition mode which sets size from 1 to infinity of barcode minimal element matrix cell or bar
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 ## XDimensionMode enumeration

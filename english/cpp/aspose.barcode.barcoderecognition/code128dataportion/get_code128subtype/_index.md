@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Code128DataPortion::get_Code128SubType method
+title:  method
 linktitle: get_Code128SubType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Code128DataPortion::get_Code128SubType method. Gets the type of Code128 subset in C++.'
+description: ' method. Gets the type of Code128 subset in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/code128dataportion/get_code128subtype/

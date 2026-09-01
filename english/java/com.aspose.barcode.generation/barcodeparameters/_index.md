@@ -18,27 +18,22 @@ Barcode generation parameters.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAspectRatio()](#getAspectRatio--) |  |
 | [getAustralianPost()](#getAustralianPost--) | AustralianPost barcode parameters. |
 | [getAztec()](#getAztec--) | Aztec parameters. |
 | [getBarColor()](#getBarColor--) | Bars color. |
 | [getBarHeight()](#getBarHeight--) | Height of 1D barcodes' bars in [Unit](../../com.aspose.barcode.generation/unit) value. |
 | [getBarWidthReduction()](#getBarWidthReduction--) | Get bars reduction value that is used to compensate ink spread while printing. |
-| [getBarcodeType()](#getBarcodeType--) |  |
 | [getChecksumAlwaysShow()](#getChecksumAlwaysShow--) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [getClass()](#getClass--) |  |
 | [getCodabar()](#getCodabar--) | Codabar parameters. |
 | [getCodablock()](#getCodablock--) | Codablock parameters. |
 | [getCode128()](#getCode128--) | Code128 parameters. |
 | [getCode16K()](#getCode16K--) | Code16K parameters. |
-| [getCodeText()](#getCodeText--) |  |
 | [getCodeTextParameters()](#getCodeTextParameters--) | Codetext parameters. |
-| [getComplexBarcode()](#getComplexBarcode--) |  |
 | [getCoupon()](#getCoupon--) | Coupon parameters. |
 | [getDataBar()](#getDataBar--) | Databar parameters. |
 | [getDataMatrix()](#getDataMatrix--) | DataMatrix parameters. |
 | [getDotCode()](#getDotCode--) | DotCode parameters. |
-| [getEnableEscape()](#getEnableEscape--) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [getFilledBars()](#getFilledBars--) | Gets a value indicating whether bars filled. |
 | [getGS1CompositeBar()](#getGS1CompositeBar--) | GS1 Composite Bar parameters. |
 | [getHanXin()](#getHanXin--) | HanXin parameters. |
@@ -62,8 +57,6 @@ Barcode generation parameters.
 | [setBarWidthReduction(Unit value)](#setBarWidthReduction-com.aspose.barcode.generation.Unit-) | Sets bars reduction value that is used to compensate ink spread while printing. |
 | [setChecksumAlwaysShow(boolean value)](#setChecksumAlwaysShow-boolean-) | Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes. |
 | [setChecksumEnabled(EnableChecksum value)](#setChecksumEnabled-com.aspose.barcode.generation.EnableChecksum-) |  |
-| [setCodeText(String value)](#setCodeText-java.lang.String-) |  |
-| [setEnableEscape(boolean value)](#setEnableEscape-boolean-) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [setFilledBars(boolean value)](#setFilledBars-boolean-) | Sets a value indicating whether bars filled. |
 | [setGS1CompositeBar(GS1CompositeBarParameters value)](#setGS1CompositeBar-com.aspose.barcode.generation.GS1CompositeBarParameters-) | GS1 Composite Bar parameters. |
 | [setThrowExceptionWhenCodeTextIncorrect(boolean value)](#setThrowExceptionWhenCodeTextIncorrect-boolean-) | Only for 1D barcodes. |
@@ -88,16 +81,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getAspectRatio() {#getAspectRatio--}
-```
-public final float getAspectRatio()
-```
-
-
-
-
-**Returns:**
-float
 ### getAustralianPost() {#getAustralianPost--}
 ```
 public final AustralianPostParameters getAustralianPost()
@@ -148,16 +131,6 @@ Get bars reduction value that is used to compensate ink spread while printing. D
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit) - bars reduction value that is used to compensate ink spread while printing.
-### getBarcodeType() {#getBarcodeType--}
-```
-public final BaseEncodeType getBarcodeType()
-```
-
-
-
-
-**Returns:**
-[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype)
 ### getChecksumAlwaysShow() {#getChecksumAlwaysShow--}
 ```
 public final boolean getChecksumAlwaysShow()
@@ -218,16 +191,6 @@ Code16K parameters.
 
 **Returns:**
 [Code16KParameters](../../com.aspose.barcode.generation/code16kparameters)
-### getCodeText() {#getCodeText--}
-```
-public final String getCodeText()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### getCodeTextParameters() {#getCodeTextParameters--}
 ```
 public final CodetextParameters getCodeTextParameters()
@@ -238,16 +201,6 @@ Codetext parameters.
 
 **Returns:**
 [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters)
-### getComplexBarcode() {#getComplexBarcode--}
-```
-public final ComplexBarcode getComplexBarcode()
-```
-
-
-
-
-**Returns:**
-[ComplexBarcode](../../com.aspose.barcode.generation/complexbarcode)
 ### getCoupon() {#getCoupon--}
 ```
 public final CouponParameters getCoupon()
@@ -288,18 +241,6 @@ DotCode parameters.
 
 **Returns:**
 [DotCodeParameters](../../com.aspose.barcode.generation/dotcodeparameters)
-### getEnableEscape() {#getEnableEscape--}
-```
-public final boolean getEnableEscape()
-```
-
-
-Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters.
-
-Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
-
-**Returns:**
-boolean
 ### getFilledBars() {#getFilledBars--}
 ```
 public final boolean getFilledBars()
@@ -318,10 +259,27 @@ public final GS1CompositeBarParameters getGS1CompositeBar()
 
 GS1 Composite Bar parameters.
 
-This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'
+This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'.
 
 ```
 
+ String codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR,codetext);
+
+ generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128);
+ generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A);
+
+ // Aspect ratio of 2D component
+ generator.getParameters().getBarcode().getPdf417().setAspectRatio(3);
+
+ // X-Dimension of 1D and 2D components
+ generator.getParameters().getBarcode().getXDimension().setPixels(3);
+
+ // Height of 1D component
+ generator.getParameters().getBarcode().getBarHeight().setPixels(100);
+
+ generator.save("test.png");
+ 
 ```
 
 **Returns:**
@@ -559,34 +517,6 @@ Checksum always used: Rest symbology
 | --- | --- | --- |
 | value | [EnableChecksum](../../com.aspose.barcode.generation/enablechecksum) |  |
 
-### setCodeText(String value) {#setCodeText-java.lang.String-}
-```
-public final void setCodeText(String value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### setEnableEscape(boolean value) {#setEnableEscape-boolean-}
-```
-public final void setEnableEscape(boolean value)
-```
-
-
-Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters.
-
-Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setFilledBars(boolean value) {#setFilledBars-boolean-}
 ```
 public final void setFilledBars(boolean value)
@@ -608,20 +538,25 @@ public final void setGS1CompositeBar(GS1CompositeBarParameters value)
 
 GS1 Composite Bar parameters.
 
-This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'
+This sample shows how to create and save a GS1 Composite Bar image. Note that 1D codetext and 2D codetext are separated by symbol '|'.
 
 ```
 
  String codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
- BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR, codetext);
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.GS_1_COMPOSITE_BAR,codetext);
+
  generator.getParameters().getBarcode().getGS1CompositeBar().setLinearComponentType(EncodeTypes.GS_1_CODE_128);
  generator.getParameters().getBarcode().getGS1CompositeBar().setTwoDComponentType(TwoDComponentType.CC_A);
+
  // Aspect ratio of 2D component
  generator.getParameters().getBarcode().getPdf417().setAspectRatio(3);
+
  // X-Dimension of 1D and 2D components
  generator.getParameters().getBarcode().getXDimension().setPixels(3);
+
  // Height of 1D component
  generator.getParameters().getBarcode().getBarHeight().setPixels(100);
+
  generator.save("test.png");
  
 ```

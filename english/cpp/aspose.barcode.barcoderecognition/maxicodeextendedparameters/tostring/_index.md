@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters::ToString method. Returns a human-readable string representation of this MaxiCodeExtendedParameters in C++.'
+description: ' method. Returns a human-readable string representation of this MaxiCodeExtendedParameters in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/

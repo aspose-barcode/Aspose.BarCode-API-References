@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::GenerateBarCodeImage method
+title:  method
 linktitle: GenerateBarCodeImage
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::GenerateBarCodeImage method. Generate the barcode image under current settings in C++.'
+description: ' method. Generate the barcode image under current settings in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.generation/barcodegenerator/generatebarcodeimage/
@@ -27,8 +27,8 @@ Barcode image. See [Bitmap](../).
 This sample shows how to create and save a barcode image. 
 ```cpp
 [C#]
-  using(var generator = new BarcodeGenerator(EncodeTypes.Code128))
-  {
+      using(var generator = new BarcodeGenerator(EncodeTypes.Code128))
+      {
       Bitmap barcode = generator.GenerateBarCodeImage();
       barcode.Save("test.png");
   }

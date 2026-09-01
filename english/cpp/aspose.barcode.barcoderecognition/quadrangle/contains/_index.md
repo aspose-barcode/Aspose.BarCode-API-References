@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Quadrangle::Contains method
+title:  method
 linktitle: Contains
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::Contains method. Determines if the specified Point is contained within this Quadrangle class in C++.'
+description: ' method. Determines if the specified Point is contained within this Quadrangle class in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/contains/
@@ -48,8 +48,6 @@ bool Aspose::BarCode::BarCodeRecognition::Quadrangle::Contains(int32_t x, int32_
 ### ReturnValue
 
 Returns **true** if point is contained within this [Quadrangle](../) class; otherwise, **false**.
-
-
 
 ## See Also
 

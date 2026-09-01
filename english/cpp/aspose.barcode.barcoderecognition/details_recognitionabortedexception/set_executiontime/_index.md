@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::Details_RecognitionAbortedException::set_ExecutionTime method
+title:  method
 linktitle: set_ExecutionTime
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::Details_RecognitionAbortedException::set_ExecutionTime method. Gets the execution time of current recognition session in C++.'
+description: ' method. Gets the execution time of current recognition session in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/details_recognitionabortedexception/set_executiontime/
@@ -20,9 +20,6 @@ void Aspose::BarCode::BarCodeRecognition::Details_RecognitionAbortedException::s
 
 
 The execution time of current recognition session
-
-
-
 ## See Also
 
 * Class [Details_RecognitionAbortedException](../)

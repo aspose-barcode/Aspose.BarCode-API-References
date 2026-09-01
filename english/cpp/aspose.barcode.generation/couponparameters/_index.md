@@ -4,7 +4,7 @@ linktitle: CouponParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::CouponParameters class. Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.barcode.generation/couponparameters/
 ---
 ## CouponParameters class
@@ -20,7 +20,7 @@ class CouponParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_SupplementSpace](./get_supplementspace/)() | Space between main the [BarCode](../../aspose.barcode/) and supplement [BarCode](../../aspose.barcode/) in [Unit](../unit/) value. |
+| [get_SupplementSpace](./get_supplementspace/)() const | Space between main the [BarCode](../../aspose.barcode/) and supplement [BarCode](../../aspose.barcode/) in [Unit](../unit/) value. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [CouponParameters](./). |
 ## See Also
 

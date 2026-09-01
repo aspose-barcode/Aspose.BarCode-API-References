@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::MaxiCodeMode enum
+title:  enum
 linktitle: MaxiCodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MaxiCodeMode enum. Encoding mode for MaxiCode barcodes in C++.'
+description: ' enum. Encoding mode for MaxiCode barcodes in C++.'
 type: docs
-weight: 7000
+weight: 7400
 url: /cpp/aspose.barcode.generation/maxicodemode/
 ---
 ## MaxiCodeMode enum
@@ -30,7 +30,6 @@ enum class MaxiCodeMode
 
 
 This sample shows how to genereate MaxiCode barcodes using ComplexBarcodeGenerator 
-
 ```cpp
 [C#]
 //Mode 2 with standard second message
@@ -102,7 +101,7 @@ maxiCodeCodetext.Message = "Test message";
 using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext.GetConstructedCodetext())
 {
     complexGenerator.GenerateBarCodeImage();
-} 
+}
 //Mode 6
 MaxiCodeStandardCodetext maxiCodeCodetext = new MaxiCodeStandardCodetext();
 maxiCodeCodetext.Mode = MaxiCodeMode.Mode6;
@@ -110,7 +109,7 @@ maxiCodeCodetext.Message = "Test message";
 using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext.GetConstructedCodetext())
 {
     complexGenerator.GenerateBarCodeImage();
-} 
+}
 ```
 
 ## See Also

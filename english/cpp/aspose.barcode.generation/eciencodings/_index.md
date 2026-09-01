@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::ECIEncodings enum
+title:  enum
 linktitle: ECIEncodings
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use Aspose::BarCode::Generation::ECIEncodings enum in C++.'
+description: 'How to use  enum in C++.'
 type: docs
-weight: 6100
+weight: 6500
 url: /cpp/aspose.barcode.generation/eciencodings/
 ---
 ## ECIEncodings enum
@@ -36,10 +36,10 @@ enum class ECIEncodings
 | ISO_8859_15 | 17 | ISO/IEC 8859-15 Latin alphabet No. 9 encoding. ECI Id:"\000017" |
 | ISO_8859_16 | 18 | ISO/IEC 8859-16 Latin alphabet No. 10 encoding. ECI Id:"\000018" |
 | Shift_JIS | 20 | Shift JIS (JIS X 0208 Annex 1 + JIS X 0201) encoding. ECI Id:"\000020" |
-| Win1250 | 21 | Windows 1250 Latin 2 (Central Europe) encoding. ECI Id:"\000021" |
-| Win1251 | 22 | Windows 1251 Cyrillic encoding. ECI Id:"\000022" |
-| Win1252 | 23 | Windows 1252 Latin 1 encoding. ECI Id:"\000023" |
-| Win1256 | 24 | Windows 1256 Arabic encoding. ECI Id:"\000024" |
+| Win1250 | 21 | [Windows](../../aspose.barcode.windows/) 1250 Latin 2 (Central Europe) encoding. ECI Id:"\000021" |
+| Win1251 | 22 | [Windows](../../aspose.barcode.windows/) 1251 Cyrillic encoding. ECI Id:"\000022" |
+| Win1252 | 23 | [Windows](../../aspose.barcode.windows/) 1252 Latin 1 encoding. ECI Id:"\000023" |
+| Win1256 | 24 | [Windows](../../aspose.barcode.windows/) 1256 Arabic encoding. ECI Id:"\000024" |
 | UTF16BE | 25 | ISO/IEC 10646 UCS-2 (High order byte first) encoding. ECI Id:"\000025" |
 | UTF8 | 26 | ISO/IEC 10646 UTF-8 encoding. ECI Id:"\000026" |
 | US_ASCII | 27 | ISO/IEC 646:1991 International Reference Version of ISO 7-bit coded character set encoding. ECI Id:"\000027" |
@@ -70,17 +70,14 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
-[VB.NET]
-Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
-    generator.CodeText = "12345TEXT"
-    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8
-    generator.Save("test.png")
-End Using
+    [VB.NET]
+    Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+        generator.CodeText = "12345TEXT"
+        generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
+        generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8
+        generator.Save("test.png")
+    End Using
 ```
-
-
-
 
 ## See Also
 

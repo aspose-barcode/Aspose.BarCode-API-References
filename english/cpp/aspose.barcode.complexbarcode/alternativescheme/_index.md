@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/alternativescheme/
 Alternative payment scheme instructions
 
 ```cpp
-class AlternativeScheme : public System::IEquatable<System::SharedPtr<Aspose::BarCode::ComplexBarcode::AlternativeScheme>>
+class AlternativeScheme : public System::IEquatable<System::SharedPtr<AlternativeScheme>>
 ```
 
 ## Methods

@@ -3,7 +3,7 @@ title: ComplexBarcode
 second_title: Aspose.BarCode for Java API Reference
 description: 
 type: docs
-weight: 29
+weight: 28
 url: /java/com.aspose.barcode.generation/complexbarcode/
 ---
 **Inheritance:**
@@ -64,7 +64,7 @@ public final native Class<?> getClass()
 java.lang.Class<?>
 ### getDrawSwissCross() {#getDrawSwissCross--}
 ```
-public boolean getDrawSwissCross()
+public final boolean getDrawSwissCross()
 ```
 
 
@@ -100,7 +100,7 @@ public final native void notifyAll()
 
 ### setDrawSwissCross(boolean value) {#setDrawSwissCross-boolean-}
 ```
-public void setDrawSwissCross(boolean value)
+public final void setDrawSwissCross(boolean value)
 ```
 
 

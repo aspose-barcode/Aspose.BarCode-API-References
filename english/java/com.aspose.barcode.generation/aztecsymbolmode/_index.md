@@ -3,7 +3,7 @@ title: AztecSymbolMode
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the Aztec symbol mode.
 type: docs
-weight: 74
+weight: 72
 url: /java/com.aspose.barcode.generation/aztecsymbolmode/
 ---
 **Inheritance:**
@@ -37,6 +37,7 @@ Specifies the Aztec symbol mode.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -129,6 +130,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static AztecSymbolMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

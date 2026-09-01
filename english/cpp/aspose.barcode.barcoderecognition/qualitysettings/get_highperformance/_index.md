@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_HighPerformance method
+title:  method
 linktitle: get_HighPerformance
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_HighPerformance method. HighPerformance recognition quality preset. High quality barcodes are recognized well in this mode in C++.'
+description: ' method. HighPerformance recognition quality preset. High quality barcodes are recognized well in this mode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_highperformance/

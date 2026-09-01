@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::VIN field
+title:  field
 linktitle: VIN
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::VIN field. Specifies that the data should be decoded with VIN (Vehicle Identification Number) barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with VIN (Vehicle Identification Number) barcode specification in C++.'
 type: docs
 weight: 3400
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/vin/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **VIN** (Vehicle Identification N
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::VIN
 ```
-
-
-
 
 ## See Also
 

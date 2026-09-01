@@ -14,7 +14,7 @@ The Pdf417Parameters type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|pdf_417_compaction_mode|Pdf417 symbology type of BarCode's compaction mode.<br/>            Default value: Pdf417CompactionMode.Auto.|
+|pdf_417_compaction_mode|  |
 |encode_mode|Identifies Pdf417 encode mode. <br/>            Default value: Auto.|
 |error_level|Gets or sets Pdf417 symbology type of BarCode's error correction level<br/>            ranging from level0 to level8, level0 means no error correction info,<br/>            level8 means best error correction which means a larger picture.|
 |truncate|Whether Pdf417 symbology type of BarCode is truncated (to reduce space). <br/>            Also known as CompactPDF417. Rigth row indicator and right stop pattern are removed in this mode.|

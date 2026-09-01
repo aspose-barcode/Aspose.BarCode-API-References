@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/address/
 [Address](./) of creditor or debtor.
 
 ```cpp
-class Address : public System::IEquatable<System::SharedPtr<Aspose::BarCode::ComplexBarcode::Address>>
+class Address : public System::IEquatable<System::SharedPtr<Address>>
 ```
 
 ## Methods
@@ -24,14 +24,14 @@ class Address : public System::IEquatable<System::SharedPtr<Aspose::BarCode::Com
 | [Clear](./clear/)() | Clears all fields and sets the type to [AddressType::Undetermined](../addresstype/). |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal to the current object. |
 | [Equals](./equals/)(System::SharedPtr\<Address\>) override | Determines whether the specified address is equal to the current address. |
-| [get_AddressLine1](./get_addressline1/)() | Gets the address line 1. |
-| [get_AddressLine2](./get_addressline2/)() | Gets the address line 2. |
+| [get_AddressLine1](./get_addressline1/)() const | Gets the address line 1. |
+| [get_AddressLine2](./get_addressline2/)() const | Gets the address line 2. |
 | [get_CountryCode](./get_countrycode/)() const | Gets the two-letter ISO country code. |
-| [get_HouseNo](./get_houseno/)() | Gets the house number. |
+| [get_HouseNo](./get_houseno/)() const | Gets the house number. |
 | [get_Name](./get_name/)() const | Gets the name, either the first and last name of a natural person or the company name of a legal person. |
-| [get_PostalCode](./get_postalcode/)() | Gets the postal code. |
-| [get_Street](./get_street/)() | Gets the street. |
-| [get_Town](./get_town/)() | Gets the town or city. |
+| [get_PostalCode](./get_postalcode/)() const | Gets the postal code. |
+| [get_Street](./get_street/)() const | Gets the street. |
+| [get_Town](./get_town/)() const | Gets the town or city. |
 | [get_Type](./get_type/)() const | Gets the address type. |
 | [GetHashCode](./gethashcode/)() const override | Gets the hash code for this instance. |
 | [set_AddressLine1](./set_addressline1/)(System::String) | Sets the address line 1. |

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::DecodeType::UPCA field
+title:  field
 linktitle: UPCA
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::UPCA field. Specifies that the data should be decoded with UPC-A barcode specification in C++.'
+description: ' field. Specifies that the data should be decoded with UPC-A barcode specification in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/upca/
@@ -15,9 +15,6 @@ Specifies that the data should be decoded with **UPC-A** barcode specification
 ```cpp
 static System::SharedPtr<SingleDecodeType> Aspose::BarCode::BarCodeRecognition::DecodeType::UPCA
 ```
-
-
-
 
 ## See Also
 

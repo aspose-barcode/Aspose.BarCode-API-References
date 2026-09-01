@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::CodabarParameters::get_StopSymbol method
+title:  method
 linktitle: get_StopSymbol
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::CodabarParameters::get_StopSymbol method. Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A in C++.'
+description: ' method. Stop symbol (character) of Codabar symbology. Default value: CodabarSymbol.A in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.generation/codabarparameters/get_stopsymbol/

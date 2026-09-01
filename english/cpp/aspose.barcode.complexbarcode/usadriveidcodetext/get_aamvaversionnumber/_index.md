@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_AAMVAVersionNumber method
+title:  method
 linktitle: get_AAMVAVersionNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_AAMVAVersionNumber method. AAMVA Version Number 00-99 in C++.'
+description: ' method. AAMVA Version Number 00-99 in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/get_aamvaversionnumber/

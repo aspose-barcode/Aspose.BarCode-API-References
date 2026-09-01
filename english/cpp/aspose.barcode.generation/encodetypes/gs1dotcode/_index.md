@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::GS1DotCode field
+title:  field
 linktitle: GS1DotCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::GS1DotCode field. Specifies that the data should be encoded with GS1 DotCode barcode specification. The codetext must contains parentheses for AI in C++.'
+description: ' field. Specifies that the data should be encoded with GS1 DotCode barcode specification. The codetext must contains parentheses for AI in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.barcode.generation/encodetypes/gs1dotcode/

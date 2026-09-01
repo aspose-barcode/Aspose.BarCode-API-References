@@ -4,7 +4,7 @@ linktitle: Aspose::BarCode::Common
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Common namespace in C++.'
 type: docs
-weight: 300
+weight: 800
 url: /cpp/aspose.barcode.common/
 ---
 

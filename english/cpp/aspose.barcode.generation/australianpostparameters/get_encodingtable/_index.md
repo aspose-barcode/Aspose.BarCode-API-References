@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::AustralianPostParameters::get_EncodingTable method
+title:  method
 linktitle: get_EncodingTable
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AustralianPostParameters::get_EncodingTable method. Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" in C++.'
+description: ' method. Interpreting type for the Customer Information of AustralianPost, default to CustomerInformationInterpretingType.Other" in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/australianpostparameters/get_encodingtable/

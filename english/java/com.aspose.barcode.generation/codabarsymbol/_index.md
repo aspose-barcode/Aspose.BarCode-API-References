@@ -3,13 +3,13 @@ title: CodabarSymbol
 second_title: Aspose.BarCode for Java API Reference
 description: Specifies the start or stop symbol of the Codabar barcode specification.
 type: docs
-weight: 23
+weight: 77
 url: /java/com.aspose.barcode.generation/codabarsymbol/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+java.lang.Object, java.lang.Enum
 ```
-public final class CodabarSymbol extends System.Enum
+public enum CodabarSymbol extends Enum<CodabarSymbol>
 ```
 
 Specifies the start or stop symbol of the Codabar barcode specification.
@@ -21,51 +21,31 @@ Specifies the start or stop symbol of the Codabar barcode specification.
 | [B](#B) | Specifies character B as the start or stop symbol of the Codabar barcode specification. |
 | [C](#C) | Specifies character C as the start or stop symbol of the Codabar barcode specification. |
 | [D](#D) | Specifies character D as the start or stop symbol of the Codabar barcode specification. |
-| [EnumSeparatorCharArray](#EnumSeparatorCharArray) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [Clone()](#Clone--) |  |
-| [CloneTo(T arg0)](#CloneTo-T-) |  |
-| [CloneTo(System.Enum arg0)](#CloneTo-com.aspose.ms.System.Enum-) |  |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [format(System.Type arg0, Object arg1, String arg2)](#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-) |  |
-| [format(Class<?> arg0, long arg1, String arg2)](#format-java.lang.Class----long-java.lang.String-) |  |
+| [fromValue(short value)](#fromValue-short-) |  |
 | [getClass()](#getClass--) |  |
-| [getCodabarSymbolName(short codabarSymbol)](#getCodabarSymbolName-short-) |  |
-| [getCodabarSymbolValue(String codabarSymbol)](#getCodabarSymbolValue-java.lang.String-) |  |
-| [getName(System.Type arg0, Object arg1)](#getName-com.aspose.ms.System.Type-java.lang.Object-) |  |
-| [getName(Class<?> arg0, long arg1)](#getName-java.lang.Class----long-) |  |
-| [getNames(System.Type arg0)](#getNames-com.aspose.ms.System.Type-) |  |
-| [getNames(Class<?> arg0)](#getNames-java.lang.Class----) |  |
-| [getUnderlyingType(System.Type arg0)](#getUnderlyingType-com.aspose.ms.System.Type-) |  |
-| [getUnderlyingType(Class<?> arg0)](#getUnderlyingType-java.lang.Class----) |  |
-| [getValue(Class<?> arg0, String arg1)](#getValue-java.lang.Class----java.lang.String-) |  |
-| [getValues(System.Type arg0)](#getValues-com.aspose.ms.System.Type-) |  |
-| [get_Caption()](#get-Caption--) |  |
-| [get_Value()](#get-Value--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isDefined(System.Type arg0, Object arg1)](#isDefined-com.aspose.ms.System.Type-java.lang.Object-) |  |
-| [isDefined(System.Type arg0, String arg1)](#isDefined-com.aspose.ms.System.Type-java.lang.String-) |  |
-| [isDefined(System.Type arg0, long arg1)](#isDefined-com.aspose.ms.System.Type-long-) |  |
-| [isDefined(Class<?> arg0, long arg1)](#isDefined-java.lang.Class----long-) |  |
+| [name()](#name--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(System.Type arg0, String arg1)](#parse-com.aspose.ms.System.Type-java.lang.String-) |  |
-| [parse(System.Type arg0, String arg1, Boolean arg2)](#parse-com.aspose.ms.System.Type-java.lang.String-java.lang.Boolean-) |  |
-| [parse(Class<?> arg0, String arg1)](#parse-java.lang.Class----java.lang.String-) |  |
-| [parse(Class<?> arg0, String arg1, Boolean arg2)](#parse-java.lang.Class----java.lang.String-java.lang.Boolean-) |  |
-| [register(System.Enum.AbstractEnum arg0)](#register-com.aspose.ms.System.Enum.AbstractEnum-) |  |
-| [toObject(System.Type arg0, Object arg1)](#toObject-com.aspose.ms.System.Type-java.lang.Object-) |  |
+| [ordinal()](#ordinal--) |  |
 | [toString()](#toString--) |  |
-| [toString(Class<?> arg0, long arg1)](#toString-java.lang.Class----long-) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### A {#A}
 ```
-public static final short A
+public static final CodabarSymbol A
 ```
 
 
@@ -73,7 +53,7 @@ Specifies character A as the start or stop symbol of the Codabar barcode specifi
 
 ### B {#B}
 ```
-public static final short B
+public static final CodabarSymbol B
 ```
 
 
@@ -81,7 +61,7 @@ Specifies character B as the start or stop symbol of the Codabar barcode specifi
 
 ### C {#C}
 ```
-public static final short C
+public static final CodabarSymbol C
 ```
 
 
@@ -89,44 +69,31 @@ Specifies character C as the start or stop symbol of the Codabar barcode specifi
 
 ### D {#D}
 ```
-public static final short D
+public static final CodabarSymbol D
 ```
 
 
 Specifies character D as the start or stop symbol of the Codabar barcode specification.
 
-### EnumSeparatorCharArray {#EnumSeparatorCharArray}
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
-public static final char[] EnumSeparatorCharArray
-```
-
-
-### Clone() {#Clone--}
-```
-public System.Enum Clone()
+public static T <T>valueOf(Class<T> arg0, String arg1)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
 
 **Returns:**
-com.aspose.ms.System.Enum
-### CloneTo(T arg0) {#CloneTo-T-}
+T
+### compareTo(E arg0) {#compareTo-E-}
 ```
-public abstract void CloneTo(T arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | T |  |
-
-### CloneTo(System.Enum arg0) {#CloneTo-com.aspose.ms.System.Enum-}
-```
-public void CloneTo(System.Enum arg0)
+public final int compareTo(E arg0)
 ```
 
 
@@ -135,11 +102,13 @@ public void CloneTo(System.Enum arg0)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | com.aspose.ms.System.Enum |  |
+| arg0 | E |  |
 
+**Returns:**
+int
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean equals(Object arg0)
+public final boolean equals(Object arg0)
 ```
 
 
@@ -152,26 +121,9 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### format(System.Type arg0, Object arg1, String arg2) {#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-}
+### fromValue(short value) {#fromValue-short-}
 ```
-public static String format(System.Type arg0, Object arg1, String arg2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.Object |  |
-| arg2 | java.lang.String |  |
-
-**Returns:**
-java.lang.String
-### format(Class<?> arg0, long arg1, String arg2) {#format-java.lang.Class----long-java.lang.String-}
-```
-public static String format(Class<?> arg0, long arg1, String arg2)
+public static CodabarSymbol fromValue(short value)
 ```
 
 
@@ -180,12 +132,10 @@ public static String format(Class<?> arg0, long arg1, String arg2)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | long |  |
-| arg2 | java.lang.String |  |
+| value | short |  |
 
 **Returns:**
-java.lang.String
+[CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -196,182 +146,29 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getCodabarSymbolName(short codabarSymbol) {#getCodabarSymbolName-short-}
+### getDeclaringClass() {#getDeclaringClass--}
 ```
-public static String getCodabarSymbolName(short codabarSymbol)
+public final Class<E> getDeclaringClass()
 ```
 
 
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| codabarSymbol | short |  |
 
 **Returns:**
-java.lang.String
-### getCodabarSymbolValue(String codabarSymbol) {#getCodabarSymbolValue-java.lang.String-}
+java.lang.Class<E>
+### getValue() {#getValue--}
 ```
-public static short getCodabarSymbolValue(String codabarSymbol)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| codabarSymbol | java.lang.String |  |
-
-**Returns:**
-short
-### getName(System.Type arg0, Object arg1) {#getName-com.aspose.ms.System.Type-java.lang.Object-}
-```
-public static String getName(System.Type arg0, Object arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.Object |  |
-
-**Returns:**
-java.lang.String
-### getName(Class<?> arg0, long arg1) {#getName-java.lang.Class----long-}
-```
-public static String getName(Class<?> arg0, long arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | long |  |
-
-**Returns:**
-java.lang.String
-### getNames(System.Type arg0) {#getNames-com.aspose.ms.System.Type-}
-```
-public static String[] getNames(System.Type arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-
-**Returns:**
-java.lang.String[]
-### getNames(Class<?> arg0) {#getNames-java.lang.Class----}
-```
-public static Collection<String> getNames(Class<?> arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-
-**Returns:**
-java.util.Collection<java.lang.String>
-### getUnderlyingType(System.Type arg0) {#getUnderlyingType-com.aspose.ms.System.Type-}
-```
-public static System.Type getUnderlyingType(System.Type arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-
-**Returns:**
-com.aspose.ms.System.Type
-### getUnderlyingType(Class<?> arg0) {#getUnderlyingType-java.lang.Class----}
-```
-public static Class<? extends Number> getUnderlyingType(Class<?> arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-
-**Returns:**
-java.lang.Class<? extends java.lang.Number>
-### getValue(Class<?> arg0, String arg1) {#getValue-java.lang.Class----java.lang.String-}
-```
-public static long getValue(Class<?> arg0, String arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | java.lang.String |  |
-
-**Returns:**
-long
-### getValues(System.Type arg0) {#getValues-com.aspose.ms.System.Type-}
-```
-public static System.Array getValues(System.Type arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-
-**Returns:**
-com.aspose.ms.System.Array
-### get_Caption() {#get-Caption--}
-```
-public String get_Caption()
+public short getValue()
 ```
 
 
 
 
 **Returns:**
-java.lang.String
-### get_Value() {#get-Value--}
-```
-public long get_Value()
-```
-
-
-
-
-**Returns:**
-long
+short
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -379,70 +176,16 @@ public native int hashCode()
 
 **Returns:**
 int
-### isDefined(System.Type arg0, Object arg1) {#isDefined-com.aspose.ms.System.Type-java.lang.Object-}
+### name() {#name--}
 ```
-public static boolean isDefined(System.Type arg0, Object arg1)
+public final String name()
 ```
 
 
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.Object |  |
 
 **Returns:**
-boolean
-### isDefined(System.Type arg0, String arg1) {#isDefined-com.aspose.ms.System.Type-java.lang.String-}
-```
-public static boolean isDefined(System.Type arg0, String arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.String |  |
-
-**Returns:**
-boolean
-### isDefined(System.Type arg0, long arg1) {#isDefined-com.aspose.ms.System.Type-long-}
-```
-public static boolean isDefined(System.Type arg0, long arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | long |  |
-
-**Returns:**
-boolean
-### isDefined(Class<?> arg0, long arg1) {#isDefined-java.lang.Class----long-}
-```
-public static boolean isDefined(Class<?> arg0, long arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | long |  |
-
-**Returns:**
-boolean
+java.lang.String
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -459,101 +202,16 @@ public final native void notifyAll()
 
 
 
-### parse(System.Type arg0, String arg1) {#parse-com.aspose.ms.System.Type-java.lang.String-}
+### ordinal() {#ordinal--}
 ```
-public static long parse(System.Type arg0, String arg1)
+public final int ordinal()
 ```
 
 
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.String |  |
 
 **Returns:**
-long
-### parse(System.Type arg0, String arg1, Boolean arg2) {#parse-com.aspose.ms.System.Type-java.lang.String-java.lang.Boolean-}
-```
-public static long parse(System.Type arg0, String arg1, Boolean arg2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.String |  |
-| arg2 | java.lang.Boolean |  |
-
-**Returns:**
-long
-### parse(Class<?> arg0, String arg1) {#parse-java.lang.Class----java.lang.String-}
-```
-public static long parse(Class<?> arg0, String arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | java.lang.String |  |
-
-**Returns:**
-long
-### parse(Class<?> arg0, String arg1, Boolean arg2) {#parse-java.lang.Class----java.lang.String-java.lang.Boolean-}
-```
-public static long parse(Class<?> arg0, String arg1, Boolean arg2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | java.lang.String |  |
-| arg2 | java.lang.Boolean |  |
-
-**Returns:**
-long
-### register(System.Enum.AbstractEnum arg0) {#register-com.aspose.ms.System.Enum.AbstractEnum-}
-```
-public static void register(System.Enum.AbstractEnum arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Enum.AbstractEnum |  |
-
-### toObject(System.Type arg0, Object arg1) {#toObject-com.aspose.ms.System.Type-java.lang.Object-}
-```
-public static Object toObject(System.Type arg0, Object arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | com.aspose.ms.System.Type |  |
-| arg1 | java.lang.Object |  |
-
-**Returns:**
-java.lang.Object
+int
 ### toString() {#toString--}
 ```
 public String toString()
@@ -564,9 +222,9 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(Class<?> arg0, long arg1) {#toString-java.lang.Class----long-}
+### valueOf(String name) {#valueOf-java.lang.String-}
 ```
-public static String toString(Class<?> arg0, long arg1)
+public static CodabarSymbol valueOf(String name)
 ```
 
 
@@ -575,11 +233,20 @@ public static String toString(Class<?> arg0, long arg1)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg0 | java.lang.Class<?> |  |
-| arg1 | long |  |
+| name | java.lang.String |  |
 
 **Returns:**
-java.lang.String
+[CodabarSymbol](../../com.aspose.barcode.generation/codabarsymbol)
+### values() {#values--}
+```
+public static CodabarSymbol[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.CodabarSymbol[]
 ### wait() {#wait--}
 ```
 public final void wait()

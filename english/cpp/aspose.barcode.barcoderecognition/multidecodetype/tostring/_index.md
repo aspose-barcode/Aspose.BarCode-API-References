@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::ToString method. Overridden method representing MultiDecodeType as a string in C++.'
+description: ' method. Overridden method representing MultiDecodeType as a string in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/tostring/

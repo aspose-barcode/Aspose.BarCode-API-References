@@ -4,7 +4,7 @@ linktitle: Pdf417ExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::Pdf417ExtendedParameters class. Stores a MacroPdf417 metadata information of recognized barcode in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
@@ -20,17 +20,17 @@ class Pdf417ExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Bas
 
 | Method | Description |
 | --- | --- |
-| [get_IsCode128Emulation](./get_iscode128emulation/)() | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
-| [get_IsEmpty](../baseextendedparameters/get_isempty/)() | **Tests** whether all parameters has only default values |
-| [get_IsLinked](./get_islinked/)() | Flag that indicates that the barcode must be linked to 1D barcode. |
-| [get_IsReaderInitialization](./get_isreaderinitialization/)() | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
+| [get_IsCode128Emulation](./get_iscode128emulation/)() const | Flag that indicates that the MicroPdf417 barcode encoded with 908, 909, 910 or 911 Code 128 emulation codewords. |
+| [get_IsEmpty](../baseextendedparameters/get_isempty/)() const | **Tests** whether all parameters has only default values |
+| [get_IsLinked](./get_islinked/)() const | Flag that indicates that the barcode must be linked to 1D barcode. |
+| [get_IsReaderInitialization](./get_isreaderinitialization/)() const | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
 | [get_MacroPdf417Addressee](./get_macropdf417addressee/)() const | Macro PDF417 addressee name (optional). |
 | [get_MacroPdf417Checksum](./get_macropdf417checksum/)() const | Macro PDF417 checksum (optional). |
-| [get_MacroPdf417FileID](./get_macropdf417fileid/)() | Gets the file ID of the barcode, only available with MacroPdf417. |
+| [get_MacroPdf417FileID](./get_macropdf417fileid/)() const | Gets the file ID of the barcode, only available with MacroPdf417. |
 | [get_MacroPdf417FileName](./get_macropdf417filename/)() const | Macro PDF417 file name (optional). |
 | [get_MacroPdf417FileSize](./get_macropdf417filesize/)() const | Macro PDF417 file size (optional). |
-| [get_MacroPdf417SegmentID](./get_macropdf417segmentid/)() | Gets the segment ID of the barcode,only available with MacroPdf417. |
-| [get_MacroPdf417SegmentsCount](./get_macropdf417segmentscount/)() | Gets macro pdf417 barcode segments count. Default value is -1. |
+| [get_MacroPdf417SegmentID](./get_macropdf417segmentid/)() const | Gets the segment ID of the barcode,only available with MacroPdf417. |
+| [get_MacroPdf417SegmentsCount](./get_macropdf417segmentscount/)() const | Gets macro pdf417 barcode segments count. Default value is -1. |
 | [get_MacroPdf417Sender](./get_macropdf417sender/)() const | Macro PDF417 sender name (optional). |
 | [get_MacroPdf417Terminator](./get_macropdf417terminator/)() const | Indicates whether the segment is the last segment of a Macro PDF417 file. |
 | [get_MacroPdf417TimeStamp](./get_macropdf417timestamp/)() const | Macro PDF417 time stamp (optional). |

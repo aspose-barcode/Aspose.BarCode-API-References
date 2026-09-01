@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417EncodeMode enum
+title:  enum
 linktitle: Pdf417EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417EncodeMode enum. Pdf417 barcode encode mode in C++.'
+description: ' enum. Pdf417 barcode encode mode in C++.'
 type: docs
-weight: 7300
+weight: 7700
 url: /cpp/aspose.barcode.generation/pdf417encodemode/
 ---
 ## Pdf417EncodeMode enum

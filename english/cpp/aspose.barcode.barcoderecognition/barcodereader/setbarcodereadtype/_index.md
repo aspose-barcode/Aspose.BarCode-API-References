@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType method
+title:  method
 linktitle: SetBarCodeReadType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType method. Sets SingleDecodeType type array for recognition. Must be called before ReadBarCodes() method in C++.'
+description: ' method. Sets SingleDecodeType type array for recognition. Must be called before ReadBarCodes() method in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/
@@ -19,7 +19,7 @@ void Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeReadType(cons
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\& | The [SingleDecodeType](../../singledecodetype/) type array to read. |
+| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\& | The [SingleDecodeType](../../singledecodetype/) type array to read. |
 ## Remarks
 
 

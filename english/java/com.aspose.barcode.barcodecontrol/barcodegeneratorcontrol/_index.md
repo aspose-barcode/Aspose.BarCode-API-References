@@ -142,7 +142,6 @@ Class is designed for use in Swing applications. It extends Swing class JLabel a
 | [getDisplayedMnemonic()](#getDisplayedMnemonic--) |  |
 | [getDisplayedMnemonicIndex()](#getDisplayedMnemonicIndex--) |  |
 | [getDropTarget()](#getDropTarget--) |  |
-| [getEnableEscape()](#getEnableEscape--) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [getEncodeType()](#getEncodeType--) | BarCode's encode type (symbology). |
 | [getFilledBars()](#getFilledBars--) | Gets a value indicating whether bars filled. |
 | [getFocusCycleRootAncestor()](#getFocusCycleRootAncestor--) |  |
@@ -363,7 +362,6 @@ Class is designed for use in Swing applications. It extends Swing class JLabel a
 | [setDisplayedMnemonicIndex(int arg0)](#setDisplayedMnemonicIndex-int-) |  |
 | [setDoubleBuffered(boolean arg0)](#setDoubleBuffered-boolean-) |  |
 | [setDropTarget(DropTarget arg0)](#setDropTarget-java.awt.dnd.DropTarget-) |  |
-| [setEnableEscape(boolean value)](#setEnableEscape-boolean-) | Indicates whether explains the character "\\" as an escape character in CodeText property. |
 | [setEnabled(boolean arg0)](#setEnabled-boolean-) |  |
 | [setEncodeType(BaseEncodeType value)](#setEncodeType-com.aspose.barcode.generation.BaseEncodeType-) | BarCode's encode type (symbology). |
 | [setFilledBars(boolean value)](#setFilledBars-boolean-) | Gets a value indicating whether bars filled. |
@@ -1774,16 +1772,6 @@ public synchronized DropTarget getDropTarget()
 
 **Returns:**
 java.awt.dnd.DropTarget
-### getEnableEscape() {#getEnableEscape--}
-```
-public boolean getEnableEscape()
-```
-
-
-Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
-
-**Returns:**
-boolean
 ### getEncodeType() {#getEncodeType--}
 ```
 public BaseEncodeType getEncodeType()
@@ -4382,19 +4370,6 @@ public synchronized void setDropTarget(DropTarget arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.awt.dnd.DropTarget |  |
-
-### setEnableEscape(boolean value) {#setEnableEscape-boolean-}
-```
-public void setEnableEscape(boolean value)
-```
-
-
-Indicates whether explains the character "\\" as an escape character in CodeText property. Used for Pdf417, DataMatrix, Code128 only If the EnableEscape is true, "\\" will be explained as a special escape character. Otherwise, "\\" acts as normal characters. Aspose.BarCode supports inputing decimal ascii code and mnemonic for ASCII control-code characters. For example, \\013 and \\\\CR stands for CR.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setEnabled(boolean arg0) {#setEnabled-boolean-}
 ```

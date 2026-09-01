@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::set_CustomerInformationDecoder method
+title:  method
 linktitle: set_CustomerInformationDecoder
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::set_CustomerInformationDecoder method. Public interface for Customer Information Field decoding which is used in AustraliaPost symbology in C++.'
+description: ' method. Public interface for Customer Information Field decoding which is used in AustraliaPost symbology in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/australiapostsettings/set_customerinformationdecoder/
@@ -20,9 +20,6 @@ void Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::set_CustomerInf
 
 
 Public interface for Customer Information Field decoding which is used in AustraliaPost symbology.
-
-
-
 ## See Also
 
 * Class [AustraliaPostCustomerInformationDecoder](../../australiapostcustomerinformationdecoder/)

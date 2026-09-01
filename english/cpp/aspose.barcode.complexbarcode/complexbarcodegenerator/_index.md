@@ -24,8 +24,8 @@ class ComplexBarcodeGenerator : public System::IDisposable
 | [Dispose](./dispose/)() override | Clean up any resources being used. |
 | [GenerateBarCodeImage](./generatebarcodeimage/)() | Generates complex barcode image under current settings. |
 | [get_Parameters](./get_parameters/)() | [Generation](../../aspose.barcode.generation/) parameters. |
-| [Save](./save/)(System::SharedPtr\<System::IO::Stream\>, Aspose::BarCode::Generation::BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
-| [Save](./save/)(System::String, Aspose::BarCode::Generation::BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
+| [Save](./save/)(System::SharedPtr\<System::IO::Stream\>, Generation::BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
+| [Save](./save/)(System::String, Generation::BarCodeImageFormat) | Generates and saves complex barcode image under current settings. |
 | [Save](./save/)(System::String) | Generates and saves complex barcode image under current settings. |
 ## Remarks
 

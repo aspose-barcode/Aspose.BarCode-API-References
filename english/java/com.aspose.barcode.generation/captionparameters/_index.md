@@ -154,7 +154,7 @@ Caption text visibility. Default value: false.
 boolean
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

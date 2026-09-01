@@ -49,7 +49,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap) {#constructor_1}
+## BarCodeReader(Bitmap) {#constructor_8}
 
 Initializes a new instance of the [`BarCodeReader`](../) class from an image.
 
@@ -97,7 +97,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
+## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_10}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -145,7 +145,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
+## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_9}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -193,7 +193,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
+## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_12}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -242,7 +242,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
+## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_11}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -291,7 +291,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_14}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -340,7 +340,7 @@ End Using
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
+## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_13}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -389,7 +389,7 @@ End Using
 
 ---
 
-## BarCodeReader(string) {#constructor_11}
+## BarCodeReader(string) {#constructor_18}
 
 Initializes a new instance of the [`BarCodeReader`](../) class from file.
 
@@ -434,7 +434,7 @@ End Using
 
 ---
 
-## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
+## BarCodeReader(string, params BaseDecodeType[]) {#constructor_20}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -479,7 +479,7 @@ End Using
 
 ---
 
-## BarCodeReader(string, BaseDecodeType) {#constructor_12}
+## BarCodeReader(string, BaseDecodeType) {#constructor_19}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -524,7 +524,7 @@ End Using
 
 ---
 
-## BarCodeReader(Stream) {#constructor_8}
+## BarCodeReader(Stream) {#constructor_15}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -572,7 +572,7 @@ End Using
 
 ---
 
-## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
+## BarCodeReader(Stream, BaseDecodeType) {#constructor_16}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -620,7 +620,7 @@ End Using
 
 ---
 
-## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
+## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_17}
 
 Initializes a new instance of the [`BarCodeReader`](../) class.
 
@@ -662,6 +662,314 @@ End Using
 ### See Also
 
 * class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], BaseDecodeType) {#constructor_6}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, BaseDecodeType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| areas | Rectangle[] | The array of recognition areas. |
+| type | BaseDecodeType | The decode type. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| areas | Rectangle[] | The array of recognition areas. |
+| decodeTypes | BaseDecodeType[] | The decode types. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, BaseDecodeType) {#constructor_4}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, BaseDecodeType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| area | Rectangle | The area for recognition. |
+| type | BaseDecodeType | The decode type. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, params BaseDecodeType[]) {#constructor_5}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| area | Rectangle | The area for recognition. |
+| decodeTypes | BaseDecodeType[] | The decode types. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, BaseDecodeType) {#constructor_2}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, BaseDecodeType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| type | BaseDecodeType | The decode type. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, params BaseDecodeType[]) {#constructor_3}
+
+Initializes a new instance of the [`BarCodeReader`](../) class.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+| decodeTypes | BaseDecodeType[] | The decode types. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame) {#constructor_1}
+
+Initializes a new instance of the [`BarCodeReader`](../) class from a luminance frame.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | LuminanceFrame | The luminance frame to read. |
+
+## Examples
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame))
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### See Also
+
+* class [LuminanceFrame](../../luminanceframe/)
 * class [BarCodeReader](../)
 * namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
 * assembly [Aspose.BarCode](../../../)

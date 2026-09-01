@@ -3,7 +3,7 @@ title: PostalParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Postal parameters.
 type: docs
-weight: 62
+weight: 60
 url: /androidjava/com.aspose.barcode.generation/postalparameters/
 ---
 **Inheritance:**
@@ -19,12 +19,10 @@ Postal parameters. Used for Postnet, Planet.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getPostalShortBarHeight()](#getPostalShortBarHeight--) | Short bar's height of Postal barcodes. |
 | [getShortBarHeight()](#getShortBarHeight--) | Short bar's height of Postal barcodes. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPostalShortBarHeight(Unit value)](#setPostalShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of Postal barcodes. |
 | [setShortBarHeight(Unit value)](#setShortBarHeight-com.aspose.barcode.generation.Unit-) | Short bar's height of Postal barcodes. |
 | [toString()](#toString--) | Returns a human-readable string representation of this [PostalParameters](../../com.aspose.barcode.generation/postalparameters). |
 | [wait()](#wait--) |  |
@@ -55,16 +53,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getPostalShortBarHeight() {#getPostalShortBarHeight--}
-```
-public final Unit getPostalShortBarHeight()
-```
-
-
-Short bar's height of Postal barcodes.
-
-**Returns:**
-[Unit](../../com.aspose.barcode.generation/unit)
 ### getShortBarHeight() {#getShortBarHeight--}
 ```
 public final Unit getShortBarHeight()
@@ -77,7 +65,7 @@ Short bar's height of Postal barcodes.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 
@@ -100,19 +88,6 @@ public final native void notifyAll()
 
 
 
-
-### setPostalShortBarHeight(Unit value) {#setPostalShortBarHeight-com.aspose.barcode.generation.Unit-}
-```
-public final void setPostalShortBarHeight(Unit value)
-```
-
-
-Short bar's height of Postal barcodes.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
 
 ### setShortBarHeight(Unit value) {#setShortBarHeight-com.aspose.barcode.generation.Unit-}
 ```

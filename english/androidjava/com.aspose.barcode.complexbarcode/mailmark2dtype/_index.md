@@ -3,7 +3,7 @@ title: Mailmark2DType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: 2D Mailmark Type defines size of Data Matrix barcode
 type: docs
-weight: 43
+weight: 42
 url: /androidjava/com.aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 **Inheritance:**
@@ -29,8 +29,10 @@ public enum Mailmark2DType extends Enum<Mailmark2DType>
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
 | [notify()](#notify--) |  |
@@ -130,6 +132,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static Mailmark2DType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[Mailmark2DType](../../com.aspose.barcode.complexbarcode/mailmark2dtype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -150,6 +167,16 @@ public final Class<E> getDeclaringClass()
 
 **Returns:**
 java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public final int hashCode()

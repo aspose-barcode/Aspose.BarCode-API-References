@@ -4,7 +4,7 @@ linktitle: Metered
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Metered class. Provides methods to set metered key in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.barcode/metered/
 ---
 ## Metered class
@@ -34,7 +34,7 @@ In this example, an attempt will be made to set metered public and private key
 <ms> 
 ```cpp
 [C#]
-
+@verbatim
 Metered matered = new Metered();
 matered.SetMeteredKey("PublicKey", "PrivateKey");
 
@@ -43,6 +43,7 @@ matered.SetMeteredKey("PublicKey", "PrivateKey");
 
 Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
+@endverbatim
 ```
  </ms>
 

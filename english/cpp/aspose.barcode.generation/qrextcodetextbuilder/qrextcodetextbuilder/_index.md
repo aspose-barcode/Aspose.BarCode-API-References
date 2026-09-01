@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::Generation::QrExtCodetextBuilder::QrExtCodetextBuilder constructor
+title:  constructor
 linktitle: QrExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use QrExtCodetextBuilder constructor of Aspose::BarCode::Generation::QrExtCodetextBuilder class in C++.'

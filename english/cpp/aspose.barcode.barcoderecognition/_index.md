@@ -28,17 +28,19 @@ url: /cpp/aspose.barcode.barcoderecognition/
 | [Code128DataPortion](./code128dataportion/) | Contains the data of subtype for Code128 type barcode |
 | [Code128ExtendedParameters](./code128extendedparameters/) | Stores special data of Code128 recognized barcode |
 | [DataBarExtendedParameters](./databarextendedparameters/) | Stores a DataBar additional information of recognized barcode |
-| [DataMatrixExtendedParameters](./datamatrixextendedparameters/) | Stores special data of DataMatrix recognized barcode |
+| [DataMatrixExtendedParameters](./datamatrixextendedparameters/) | Stores special data of [DataMatrix](../aspose.barcode.barcoderecognition.datamatrix/) recognized barcode |
 | [DecodeType](./decodetype/) | Specify the type of barcode to read. |
 | [Details_BarCodeRecognitionException](./details_barcoderecognitionexception/) | General exception thrown by [BarCodeReader](./barcodereader/), inherited from BarCodeException |
 | [Details_RecognitionAbortedException](./details_recognitionabortedexception/) | Represents recognition abort exception which is thrown in timeout exceeding during recognition with [BarCodeReader](./barcodereader/). |
+| [Details_RecognitionEngineException](./details_recognitionengineexception/) |  |
 | [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
 | [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
+| [LuminanceFrame](./luminanceframe/) | Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value. |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultiDecodeType](./multidecodetype/) | Composite decode type. |
 | [OneDExtendedParameters](./onedextendedparameters/) | Stores special data of 1D recognized barcode like separate codetext and checksum |
 | [Pdf417ExtendedParameters](./pdf417extendedparameters/) | Stores a MacroPdf417 metadata information of recognized barcode |
-| [QRExtendedParameters](./qrextendedparameters/) | Stores a QR Structured Append information of recognized barcode |
+| [QRExtendedParameters](./qrextendedparameters/) | Stores a [QR](../aspose.barcode.barcoderecognition.qr/) Structured Append information of recognized barcode |
 | [Quadrangle](./quadrangle/) | Stores a set of four [Point](../)s that represent a [Quadrangle](./quadrangle/) region. |
 | [QualitySettings](./qualitysettings/) | [QualitySettings](./qualitysettings/) allows to configure recognition quality and speed manually. You can quickly set up [QualitySettings](./qualitysettings/) with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options. Default value of [QualitySettings](./qualitysettings/) is NormalQuality. |
 | [SingleDecodeType](./singledecodetype/) | Single decode type. See decode type to get instance. |
@@ -59,4 +61,5 @@ url: /cpp/aspose.barcode.barcoderecognition/
 | Typedef | Description |
 | --- | --- |
 | [BarCodeRecognitionException](./barcoderecognitionexception/) |  |
+| [RecognitionEngineException](./recognitionengineexception/) |  |
 | [RecognitionAbortedException](./recognitionabortedexception/) |  |

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::Exclude method
+title:  method
 linktitle: Exclude
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::Exclude method. Excludes SingleDecodeType from the MultiDecodeType and returns new MultiDecodeType instance in C++.'
+description: ' method. Excludes SingleDecodeType from the MultiDecodeType and returns new MultiDecodeType instance in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/exclude/

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::QrStructuredAppendParameters::set_TotalCount method
+title:  method
 linktitle: set_TotalCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QrStructuredAppendParameters::set_TotalCount method. Sets the QR structured append mode barcodes quantity. Max value is 16 in C++.'
+description: ' method. Sets the QR structured append mode barcodes quantity. Max value is 16 in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/qrstructuredappendparameters/set_totalcount/

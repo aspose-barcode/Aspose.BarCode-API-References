@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_MacroPdf417SegmentsCount method
+title:  method
 linktitle: get_MacroPdf417SegmentsCount
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_MacroPdf417SegmentsCount method. MacroPdf417 barcode segments count (optional field). MicroPDF417 barcode segments count (optional field for Structured Append mode) in C++.'
+description: ' method. MacroPdf417 barcode segments count (optional field). MicroPDF417 barcode segments count (optional field for Structured Append mode) in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_macropdf417segmentscount/

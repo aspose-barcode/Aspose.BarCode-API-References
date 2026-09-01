@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Codabar field
+title:  field
 linktitle: Codabar
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Codabar field. Specifies that the data should be encoded with CODABAR barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with CODABAR barcode specification in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/encodetypes/codabar/

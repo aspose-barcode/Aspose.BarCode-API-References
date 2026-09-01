@@ -3,7 +3,7 @@ title: QrBillStandardVersion
 second_title: Aspose.BarCode for Android via Java API Reference
 description: SwissQR bill standard version
 type: docs
-weight: 44
+weight: 43
 url: /androidjava/com.aspose.barcode.complexbarcode/qrbillstandardversion/
 ---
 **Inheritance:**
@@ -26,6 +26,7 @@ SwissQR bill standard version
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -104,6 +105,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QrBillStandardVersion fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[QrBillStandardVersion](../../com.aspose.barcode.complexbarcode/qrbillstandardversion)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

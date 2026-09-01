@@ -20,9 +20,9 @@ class Code16KParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AspectRatio](./get_aspectratio/)() | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
-| [get_QuietZoneLeftCoef](./get_quietzoneleftcoef/)() | Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px. |
-| [get_QuietZoneRightCoef](./get_quietzonerightcoef/)() | Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimension = 2px than right quiet zone will be 2px. |
+| [get_AspectRatio](./get_aspectratio/)() const | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
+| [get_QuietZoneLeftCoef](./get_quietzoneleftcoef/)() const | Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px. |
+| [get_QuietZoneRightCoef](./get_quietzonerightcoef/)() const | Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimension = 2px than right quiet zone will be 2px. |
 | [set_AspectRatio](./set_aspectratio/)(float) | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
 | [set_QuietZoneLeftCoef](./set_quietzoneleftcoef/)(int32_t) | Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px. |
 | [set_QuietZoneRightCoef](./set_quietzonerightcoef/)(int32_t) | Size of the right quiet zone in xDimension. Default value: 1, meaning if xDimension = 2px than right quiet zone will be 2px. |

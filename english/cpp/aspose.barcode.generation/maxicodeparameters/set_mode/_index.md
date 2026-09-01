@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::MaxiCodeParameters::set_Mode method
+title:  method
 linktitle: set_Mode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MaxiCodeParameters::set_Mode method. Sets a MaxiCode encode mode in C++.'
+description: ' method. Sets a MaxiCode encode mode in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/maxicodeparameters/set_mode/

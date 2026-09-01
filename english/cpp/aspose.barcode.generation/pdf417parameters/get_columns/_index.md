@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Pdf417Parameters::get_Columns method
+title:  method
 linktitle: get_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_Columns method. Columns count in C++.'
+description: ' method. Columns count in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_columns/

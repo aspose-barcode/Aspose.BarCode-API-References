@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::Mailmark2DCodetext constructor
+title:  constructor
 linktitle: Mailmark2DCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::Mailmark2DCodetext constructor. Constructor. Create default instance of Mailmark2DCodetext class in C++.'
+description: ' constructor. Constructor. Create default instance of Mailmark2DCodetext class in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/mailmark2dcodetext/

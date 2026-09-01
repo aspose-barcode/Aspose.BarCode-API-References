@@ -3,7 +3,7 @@ title: MultiDecodeType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Composite decode type.
 type: docs
-weight: 37
+weight: 35
 url: /androidjava/com.aspose.barcode.barcoderecognition/multidecodetype/
 ---
 **Inheritance:**
@@ -23,8 +23,8 @@ This sample shows how to create compound MultiDecode types that combine SingleDe
 
 | Constructor | Description |
 | --- | --- |
-| [MultiDecodeType(SingleDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Initializes a new instance of the MultiDecodeType class. |
-| [MultiDecodeType(BaseDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the MultiDecodeType class. |
+| [MultiDecodeType(SingleDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) | Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class. |
+| [MultiDecodeType(BaseDecodeType[] barcodeTypes)](#MultiDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class. |
 ## Methods
 
 | Method | Description |
@@ -32,9 +32,9 @@ This sample shows how to create compound MultiDecode types that combine SingleDe
 | [add(SingleDecodeType singleType)](#add-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Adds one more [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) to the MultiDecodeType. |
 | [containsAll(BaseDecodeType[] barcodeTypes)](#containsAll-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Check if this contains all types from barcode types. |
 | [containsAny(BaseDecodeType[] decodeTypes)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) | Is contain any of types |
-| [equals(MultiDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-) | Returns a value indicating whether this instance is equal to a specified MultiDecodeType value. |
+| [equals(MultiDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-) | Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) value. |
 | [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Returns a value indicating whether this decode types collection contains only specified [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) value. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified MultiDecodeType value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) value. |
 | [exclude(SingleDecodeType singleType)](#exclude-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | Excludes [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) from the MultiDecodeType and returns new MultiDecodeType instance. |
 | [getClass()](#getClass--) |  |
 | [getSingleTypes()](#getSingleTypes--) | Represents a list of single types. |
@@ -55,7 +55,7 @@ public MultiDecodeType(SingleDecodeType[] barcodeTypes)
 ```
 
 
-Initializes a new instance of the MultiDecodeType class.
+Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -68,7 +68,7 @@ public MultiDecodeType(BaseDecodeType[] barcodeTypes)
 ```
 
 
-Initializes a new instance of the MultiDecodeType class.
+Initializes a new instance of the [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -124,12 +124,12 @@ public boolean equals(MultiDecodeType other)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified MultiDecodeType value.
+Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | com.aspose.barcode.barcoderecognition.MultiDecodeType | An MultiDecodeType value to compare to this instance. |
+| other | [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) | An [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) value to compare to this instance. |
 
 **Returns:**
 boolean -  **true**  if obj has the same value as this instance; otherwise,  **false** .
@@ -154,7 +154,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified MultiDecodeType value.
+Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +177,7 @@ Excludes [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singlede
 | singleType | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) | A Single DecodeType to be excluded. |
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.MultiDecodeType - New MultiDecodeType instance with excluded SingleDecodeType.
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - New MultiDecodeType instance with excluded SingleDecodeType.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -277,7 +277,7 @@ Converts the string representation of a MultiDecodeType to its instance. A retur
 | parsingType | java.lang.String | A string containing a MultiDecodeType representation to convert. |
 
 **Returns:**
-com.aspose.barcode.barcoderecognition.MultiDecodeType - An actual MultiDecodeType is returned, when conversion has completed successfully;
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
 
 otherwise it returns indefinite type. or MultiDecodeType ("None").
 ### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}

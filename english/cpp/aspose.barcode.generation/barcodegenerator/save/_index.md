@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeGenerator::Save method
+title:  method
 linktitle: Save
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeGenerator::Save method. Save barcode image to stream in specific format in C++.'
+description: ' method. Save barcode image to stream in specific format in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/barcodegenerator/save/

@@ -85,12 +85,12 @@ Contains general classes for the implementation of BarCode generation functions.
 |[MaxiCodeMode](/barcode/python-net/aspose.barcode.generation/maxicodemode/)|Encoding mode for MaxiCode barcodes.|
 |[MicroQRVersion](/barcode/python-net/aspose.barcode.generation/microqrversion/)|Version of MicroQR Code.<br/>            From M1 to M4.|
 |[PatchFormat](/barcode/python-net/aspose.barcode.generation/patchformat/)|PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders|
-|[Pdf417CompactionMode](/barcode/python-net/aspose.barcode.generation/pdf417compactionmode/)|Pdf417 barcode compaction mode|
+|[Pdf417CompactionMode](/barcode/python-net/aspose.barcode.generation/pdf417compactionmode/)||
 |[Pdf417EncodeMode](/barcode/python-net/aspose.barcode.generation/pdf417encodemode/)|Pdf417 barcode encode mode|
 |[Pdf417ErrorLevel](/barcode/python-net/aspose.barcode.generation/pdf417errorlevel/)|pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction|
 |[Pdf417MacroTerminator](/barcode/python-net/aspose.barcode.generation/pdf417macroterminator/)|Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. <br/>            Applied only for Macro PDF417.|
 |[QREncodeMode](/barcode/python-net/aspose.barcode.generation/qrencodemode/)|Encoding mode for QR barcodes.|
-|[QREncodeType](/barcode/python-net/aspose.barcode.generation/qrencodetype/)|QR / MicroQR selector mode. Select ForceQR for standard QR symbols, Auto for MicroQR.<br/>            ForceMicroQR is used for strongly MicroQR symbol generation if it is possible.|
+|[QREncodeType](/barcode/python-net/aspose.barcode.generation/qrencodetype/)||
 |[QRErrorLevel](/barcode/python-net/aspose.barcode.generation/qrerrorlevel/)|Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH.|
 |[QRVersion](/barcode/python-net/aspose.barcode.generation/qrversion/)|Version of QR Code.<br/>            From Version1 to Version40 for QR code and from M1 to M4 for MicroQr.|
 |[RectMicroQRVersion](/barcode/python-net/aspose.barcode.generation/rectmicroqrversion/)|Version of RectMicroQR Code.<br/>            From version R7x43 to version R17x139.|

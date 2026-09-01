@@ -3,7 +3,7 @@ title: Enum HIBCLICDateFormat
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.HIBCLICDateFormat enum. Specifies the different types of date formats for HIBC LIC
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.barcode.complexbarcode/hibclicdateformat/
 ---
 ## HIBCLICDateFormat enumeration

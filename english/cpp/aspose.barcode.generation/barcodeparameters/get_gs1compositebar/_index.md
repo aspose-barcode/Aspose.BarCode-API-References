@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::get_GS1CompositeBar method
+title:  method
 linktitle: get_GS1CompositeBar
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::get_GS1CompositeBar method. GS1 Composite Bar parameters in C++.'
+description: ' method. GS1 Composite Bar parameters in C++.'
 type: docs
 weight: 2500
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_gs1compositebar/
@@ -23,8 +23,8 @@ This sample shows how to create and save a GS1 Composite Bar image. Note that 1D
 ```cpp
 [C#]
   var codetext = "(01)03212345678906|(21)A1B2C3D4E5F6G7H8";
-  using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
-  {
+      using (var generator = new BarcodeGenerator(EncodeTypes.GS1CompositeBar, codetext))
+      {
       generator.Parameters.Barcode.GS1CompositeBar.LinearComponentType = EncodeTypes.GS1Code128;
       generator.Parameters.Barcode.GS1CompositeBar.TwoDComponentType = TwoDComponentType.CC_A;
 

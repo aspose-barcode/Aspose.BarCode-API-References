@@ -19,7 +19,7 @@ Mode which enables or disables additional recognition of color barcodes on color
 > ```
 > This sample shows how to use ComplexBackground mode
 >   
->   BarCodeReader reader = new BarCodeReader("test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
+>   BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.CODE_39_EXTENDED, DecodeType.CODE_128);
 >   reader.getQualitySettings().setComplexBackground(ComplexBackgroundMode.ENABLED);
 >   for(BarCodeResult result : reader.readBarCodes())
 >      System.out.println(result.getCodeText());

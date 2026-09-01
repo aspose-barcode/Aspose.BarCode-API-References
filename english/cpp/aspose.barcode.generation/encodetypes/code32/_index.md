@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::EncodeTypes::Code32 field
+title:  field
 linktitle: Code32
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::EncodeTypes::Code32 field. Specifies that the data should be encoded with Code32 barcode specification in C++.'
+description: ' field. Specifies that the data should be encoded with Code32 barcode specification in C++.'
 type: docs
 weight: 7200
 url: /cpp/aspose.barcode.generation/encodetypes/code32/

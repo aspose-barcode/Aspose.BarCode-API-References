@@ -21,7 +21,7 @@ class HIBCLICCombinedCodetext : public Aspose::BarCode::ComplexBarcode::HIBCLICC
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [HIBCLICCombinedCodetext](./) value. |
-| [get_BarcodeType](../hibcliccomplexcodetext/get_barcodetype/)() | Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
+| [get_BarcodeType](../hibcliccomplexcodetext/get_barcodetype/)() const | Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
 | [get_PrimaryData](./get_primarydata/)() const | Identifies primary data. |
 | [get_SecondaryAndAdditionalData](./get_secondaryandadditionaldata/)() const | Identifies secondary and additional supplemental data. |
 | [GetBarcodeType](../hibcliccomplexcodetext/getbarcodetype/)() override | Gets barcode type. |
@@ -29,7 +29,7 @@ class HIBCLICCombinedCodetext : public Aspose::BarCode::ComplexBarcode::HIBCLICC
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [HIBCLICComplexCodetext](../hibcliccomplexcodetext/hibcliccomplexcodetext/)() |  |
 | [InitFromString](./initfromstring/)(System::String) override | Initializes instance from constructed codetext. |
-| [set_BarcodeType](../hibcliccomplexcodetext/set_barcodetype/)(System::SharedPtr\<Aspose::BarCode::Generation::BaseEncodeType\>) | Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
+| [set_BarcodeType](../hibcliccomplexcodetext/set_barcodetype/)(System::SharedPtr\<Generation::BaseEncodeType\>) | Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
 | [set_PrimaryData](./set_primarydata/)(System::SharedPtr\<Aspose::BarCode::ComplexBarcode::PrimaryData\>) | Identifies primary data. |
 | [set_SecondaryAndAdditionalData](./set_secondaryandadditionaldata/)(System::SharedPtr\<Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData\>) | Identifies secondary and additional supplemental data. |
 ## Remarks

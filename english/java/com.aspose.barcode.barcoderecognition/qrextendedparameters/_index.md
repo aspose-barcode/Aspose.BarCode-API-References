@@ -3,7 +3,7 @@ title: QRExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores a QR Structured Append information of recognized barcode
 type: docs
-weight: 41
+weight: 38
 url: /java/com.aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 **Inheritance:**
@@ -27,11 +27,6 @@ This sample shows how to get QR Structured Append data
 | [getClass()](#getClass--) |  |
 | [getErrorLevel()](#getErrorLevel--) | Reed-Solomon error correction level of recognized barcode. |
 | [getMicroQRVersion()](#getMicroQRVersion--) | Version of recognized MicroQR Code. |
-| [getQRErrorLevel()](#getQRErrorLevel--) | Reed-Solomon error correction level of recognized barcode. |
-| [getQRStructuredAppendModeBarCodeIndex()](#getQRStructuredAppendModeBarCodeIndex--) | Gets the index of the QR structured append mode barcode. |
-| [getQRStructuredAppendModeBarCodesQuantity()](#getQRStructuredAppendModeBarCodesQuantity--) | Gets the QR structured append mode barcodes quantity. |
-| [getQRStructuredAppendModeParityData()](#getQRStructuredAppendModeParityData--) | Gets the QR structured append mode parity data. |
-| [getQRVersion()](#getQRVersion--) | Version of recognized QR Code. |
 | [getRectMicroQRVersion()](#getRectMicroQRVersion--) | Version of recognized RectMicroQR Code. |
 | [getStructuredAppendModeBarCodeIndex()](#getStructuredAppendModeBarCodeIndex--) | Gets the index of the QR structured append mode barcode. |
 | [getStructuredAppendModeBarCodesQuantity()](#getStructuredAppendModeBarCodesQuantity--) | Gets the QR structured append mode barcodes quantity. |
@@ -90,62 +85,6 @@ Version of recognized MicroQR Code. From M1 to M4.
 
 **Returns:**
 [MicroQRVersion](../../com.aspose.barcode.generation/microqrversion)
-### getQRErrorLevel() {#getQRErrorLevel--}
-```
-public final QRErrorLevel getQRErrorLevel()
-```
-
-
-Reed-Solomon error correction level of recognized barcode. From low to high: LevelL, LevelM, LevelQ, LevelH.
-
-**Returns:**
-[QRErrorLevel](../../com.aspose.barcode.generation/qrerrorlevel)
-### getQRStructuredAppendModeBarCodeIndex() {#getQRStructuredAppendModeBarCodeIndex--}
-```
-public final int getQRStructuredAppendModeBarCodeIndex()
-```
-
-
-Gets the index of the QR structured append mode barcode. Index starts from 0. Default value is -1.
-
-Value: The quantity of the QR structured append mode barcode.
-
-**Returns:**
-int - the index of the QR structured append mode barcode.
-### getQRStructuredAppendModeBarCodesQuantity() {#getQRStructuredAppendModeBarCodesQuantity--}
-```
-public final int getQRStructuredAppendModeBarCodesQuantity()
-```
-
-
-Gets the QR structured append mode barcodes quantity. Default value is -1.
-
-Value: The quantity of the QR structured append mode barcode.
-
-**Returns:**
-int - the QR structured append mode barcodes quantity.
-### getQRStructuredAppendModeParityData() {#getQRStructuredAppendModeParityData--}
-```
-public final int getQRStructuredAppendModeParityData()
-```
-
-
-Gets the QR structured append mode parity data. Default value is -1.
-
-Value: The index of the QR structured append mode barcode.
-
-**Returns:**
-int - the QR structured append mode parity data.
-### getQRVersion() {#getQRVersion--}
-```
-public final QRVersion getQRVersion()
-```
-
-
-Version of recognized QR Code. From Version1 to Version40.
-
-**Returns:**
-[QRVersion](../../com.aspose.barcode.generation/qrversion)
 ### getRectMicroQRVersion() {#getRectMicroQRVersion--}
 ```
 public final RectMicroQRVersion getRectMicroQRVersion()

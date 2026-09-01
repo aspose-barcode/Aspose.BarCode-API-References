@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Common::ProcessorSettings::get_MaxAdditionalAllowedThreads method
+title:  method
 linktitle: get_MaxAdditionalAllowedThreads
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Common::ProcessorSettings::get_MaxAdditionalAllowedThreads method. Specify the maximal number of additional threads to run code in parallel in C++.'
+description: ' method. Specify the maximal number of additional threads to run code in parallel in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.common/processorsettings/get_maxadditionalallowedthreads/

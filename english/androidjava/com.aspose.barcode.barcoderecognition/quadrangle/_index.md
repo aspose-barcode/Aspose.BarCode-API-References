@@ -3,7 +3,7 @@ title: Quadrangle
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Stores a set of four Points that represent a Quadrangle region.
 type: docs
-weight: 43
+weight: 41
 url: /androidjava/com.aspose.barcode.barcoderecognition/quadrangle/
 ---
 **Inheritance:**

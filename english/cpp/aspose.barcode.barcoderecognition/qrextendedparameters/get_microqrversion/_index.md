@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_MicroQRVersion method
+title:  method
 linktitle: get_MicroQRVersion
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_MicroQRVersion method. Version of recognized MicroQR Code. From M1 to M4 in C++.'
+description: ' method. Version of recognized MicroQR Code. From M1 to M4 in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_microqrversion/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/get_microqrvers
 Version of recognized MicroQR Code. From M1 to M4.
 
 ```cpp
-Aspose::BarCode::Generation::MicroQRVersion Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_MicroQRVersion()
+Aspose::BarCode::Generation::MicroQRVersion Aspose::BarCode::BarCodeRecognition::QRExtendedParameters::get_MicroQRVersion() const
 ```
 
 ## See Also

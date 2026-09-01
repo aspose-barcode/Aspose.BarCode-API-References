@@ -3,7 +3,7 @@ title: AddressType
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Address type
 type: docs
-weight: 41
+weight: 40
 url: /androidjava/com.aspose.barcode.complexbarcode/addresstype/
 ---
 **Inheritance:**
@@ -29,6 +29,7 @@ Address type
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -131,6 +132,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static AddressType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[AddressType](../../com.aspose.barcode.complexbarcode/addresstype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

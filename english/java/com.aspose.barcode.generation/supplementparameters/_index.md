@@ -3,7 +3,7 @@ title: SupplementParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Supplement parameters.
 type: docs
-weight: 66
+weight: 64
 url: /java/com.aspose.barcode.generation/supplementparameters/
 ---
 **Inheritance:**
@@ -76,7 +76,7 @@ Space between main the BarCode and supplement BarCode in  Unit  value.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

@@ -3,7 +3,7 @@ title: HIBCLICDateFormat
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the different types of date formats for HIBC LIC.
 type: docs
-weight: 42
+weight: 41
 url: /androidjava/com.aspose.barcode.complexbarcode/hibclicdateformat/
 ---
 **Inheritance:**
@@ -33,6 +33,7 @@ Specifies the different types of date formats for HIBC LIC.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -167,6 +168,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static HIBCLICDateFormat fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[HIBCLICDateFormat](../../com.aspose.barcode.complexbarcode/hibclicdateformat)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

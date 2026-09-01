@@ -4,7 +4,7 @@ linktitle: MaxiCodeExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::MaxiCodeExtCodetextBuilder class in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.barcode.generation/maxicodeextcodetextbuilder/
 ---
 ## MaxiCodeExtCodetextBuilder class
@@ -30,13 +30,7 @@ class MaxiCodeExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCodete
 
 Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode
 
-
-
-
 Use TwoDDisplayText property of [BarcodeGenerator](../barcodegenerator/) to set visible text to removing managing characters.
-
-
-
 
 This sample shows how to use [MaxiCodeExtCodetextBuilder](./) in Extended Mode. 
 ```cpp
@@ -49,7 +43,7 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
 textBuilder.AddPlainCodetext("Plain text");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
+string codetext = textBuilder.GetExtendedCodetext();
 
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MaxiCode, codetext))

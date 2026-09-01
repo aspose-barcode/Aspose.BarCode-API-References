@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Unit::get_Pixels method
+title:  method
 linktitle: get_Pixels
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Unit::get_Pixels method. Gets size value in pixels in C++.'
+description: ' method. Gets size value in pixels in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/unit/get_pixels/

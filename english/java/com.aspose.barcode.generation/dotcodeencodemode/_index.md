@@ -3,7 +3,7 @@ title: DotCodeEncodeMode
 second_title: Aspose.BarCode for Java API Reference
 description: Encoding mode for DotCode barcodes.
 type: docs
-weight: 84
+weight: 83
 url: /java/com.aspose.barcode.generation/dotcodeencodemode/
 ---
 **Inheritance:**
@@ -66,10 +66,8 @@ Encoding mode for DotCode barcodes.
 | --- | --- |
 | [AUTO](#AUTO) | In Auto mode, the CodeText is encoded with maximum data compactness. |
 | [BINARY](#BINARY) | In Binary mode, the CodeText is encoded with maximum data compactness. |
-| [BYTES](#BYTES) | Encode codetext as plain bytes. |
 | [ECI](#ECI) | In ECI mode, the entire message is re-encoded in the ECIEncoding specified encoding with the insertion of an ECI identifier. |
 | [EXTENDED](#EXTENDED) |  |
-| [EXTENDED_CODETEXT](#EXTENDED-CODETEXT) |  |
 ## Methods
 
 | Method | Description |
@@ -77,6 +75,7 @@ Encoding mode for DotCode barcodes.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -107,14 +106,6 @@ public static final DotCodeEncodeMode BINARY
 
 In Binary mode, the CodeText is encoded with maximum data compactness. If a Unicode character is found, an exception is thrown.
 
-### BYTES {#BYTES}
-```
-public static final DotCodeEncodeMode BYTES
-```
-
-
-Encode codetext as plain bytes. If it detects any Unicode character, the character will be encoded as two bytes, lower byte first.
-
 ### ECI {#ECI}
 ```
 public static final DotCodeEncodeMode ECI
@@ -126,22 +117,6 @@ In ECI mode, the entire message is re-encoded in the ECIEncoding specified encod
 ### EXTENDED {#EXTENDED}
 ```
 public static final DotCodeEncodeMode EXTENDED
-```
-
-
-Extended mode which supports multi ECI modes.
-
-It is better to use DotCodeExtCodetextBuilder for extended codetext generation.
-
-Use Display2DText property to set visible text to removing managing characters.
-
-ECI identifiers are set as single slash and six digits identifier "\\000026" - UTF8 ECI identifier
-
-All unicode characters after ECI identifier are automatically encoded into correct character codeset.
-
-### EXTENDED_CODETEXT {#EXTENDED-CODETEXT}
-```
-public static final DotCodeEncodeMode EXTENDED_CODETEXT
 ```
 
 
@@ -201,6 +176,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static DotCodeEncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[DotCodeEncodeMode](../../com.aspose.barcode.generation/dotcodeencodemode)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

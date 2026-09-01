@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeClassifications enum
+title:  enum
 linktitle: BarcodeClassifications
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeClassifications enum. Symbology classification in C++.'
+description: ' enum. Symbology classification in C++.'
 type: docs
-weight: 4600
+weight: 5000
 url: /cpp/aspose.barcode.generation/barcodeclassifications/
 ---
 ## BarcodeClassifications enum

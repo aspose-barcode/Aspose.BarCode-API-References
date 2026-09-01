@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::SingleDecodeType::Equals method
+title:  method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType::Equals method. Returns a value indicating whether this instance is equal to a specified SingleDecodeType value in C++.'
+description: ' method. Returns a value indicating whether this instance is equal to a specified SingleDecodeType value in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/equals/

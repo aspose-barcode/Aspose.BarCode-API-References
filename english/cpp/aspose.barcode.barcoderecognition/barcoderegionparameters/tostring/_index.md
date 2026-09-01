@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::ToString method
+title:  method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::ToString method. Returns a human-readable string representation of this BarCodeRegionParameters in C++.'
+description: ' method. Returns a human-readable string representation of this BarCodeRegionParameters in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/tostring/

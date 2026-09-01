@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set method
+title:  method
 linktitle: idx_set
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set method. Indexing by 3-letter element id in C++.'
+description: ' method. Indexing by 3-letter element id in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/idx_set/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/idx_set/
 Indexing by 3-letter element id
 
 ```cpp
-virtual void Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set(System::String id, System::SharedPtr<USADriveIdJurisdSubfile::DataElement> value)=0
+void Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set(System::String id, System::SharedPtr<USADriveIdJurisdSubfile::DataElement> value)
 ```
 
 
@@ -33,7 +33,7 @@ virtual void Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set(S
 Indexing by index number
 
 ```cpp
-virtual void Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set(int32_t index, System::SharedPtr<USADriveIdJurisdSubfile::DataElement> value)=0
+void Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set(int32_t index, System::SharedPtr<USADriveIdJurisdSubfile::DataElement> value)
 ```
 
 

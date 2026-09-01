@@ -28,7 +28,7 @@ class BarcodeGenerator : public System::IDisposable
 | [GenerateBarCodeImage](./generatebarcodeimage/)() | Generate the barcode image under current settings. |
 | [get_BarcodeType](./get_barcodetype/)() | Barcode symbology type. |
 | [get_CodeText](./get_codetext/)() | Text to be encoded. |
-| [get_Parameters](./get_parameters/)() | [Generation](../) parameters. |
+| [get_Parameters](./get_parameters/)() const | [Generation](../) parameters. |
 | static [ImportFromXml](./importfromxml/)(System::String) | Imports [BarCode](../../aspose.barcode/) properties from the xml-file specified and creates [BarcodeGenerator](./) instance. |
 | static [ImportFromXml](./importfromxml/)(System::SharedPtr\<System::IO::Stream\>) | Imports [BarCode](../../aspose.barcode/) properties from the xml-stream specified and creates [BarcodeGenerator](./) instance. |
 | [Save](./save/)(System::SharedPtr\<System::IO::Stream\>, BarCodeImageFormat) | Save barcode image to stream in specific format. |
@@ -47,8 +47,8 @@ supported symbologies: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Cod
 This sample shows how to create and save a barcode image. 
 ```cpp
 [C#]
-  using(var generator = new BarcodeGenerator(EncodeTypes.Code128))
-  {
+      using(var generator = new BarcodeGenerator(EncodeTypes.Code128))
+      {
       generator.CodeText = "123ABC";
       generator.Save("code128.png");
   }

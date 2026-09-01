@@ -4,7 +4,7 @@ linktitle: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::HanXinExtCodetextBuilder class in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 ## HanXinExtCodetextBuilder class
@@ -38,9 +38,6 @@ class HanXinExtCodetextBuilder : public System::Object
 
 
 Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode
-
-
-
 
 
 ```cpp

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage method
+title:  method
 linktitle: SetBarCodeImage
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage method. Sets bitmap image for recognition. Must be called before ReadBarCodes() method in C++.'
+description: ' method. Sets bitmap image for recognition. Must be called before ReadBarCodes() method in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
@@ -248,6 +248,136 @@ End Using
 
 ## See Also
 
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::SetBarCodeImage(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle) method
+
+
+Sets the luminance frame and area for recognition. Must be called before the [ReadBarCodes](../readbarcodes/) method.
+
+```cpp
+void Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage(System::SharedPtr<LuminanceFrame> frame, System::Drawing::Rectangle area)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame for recognition. |
+| area | System::Drawing::Rectangle | The area for recognition. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a specified area of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, new Rectangle(0, 0, width, height));
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::SetBarCodeImage(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>) method
+
+
+Sets the luminance frame and areas for recognition. Must be called before the [ReadBarCodes](../readbarcodes/) method.
+
+```cpp
+void Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage(System::SharedPtr<LuminanceFrame> frame, System::ArrayPtr<System::Drawing::Rectangle> areas)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame for recognition. |
+| areas | System::ArrayPtr\<System::Drawing::Rectangle\> | The array of recognition areas. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in specified areas of a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, areas);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
+* Class [BarCodeReader](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
+## BarCodeReader::SetBarCodeImage(System::SharedPtr\<LuminanceFrame\>) method
+
+
+Sets the luminance frame for recognition. Must be called before the [ReadBarCodes](../readbarcodes/) method.
+
+```cpp
+void Aspose::BarCode::BarCodeRecognition::BarCodeReader::SetBarCodeImage(System::SharedPtr<LuminanceFrame> frame)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| frame | System::SharedPtr\<LuminanceFrame\> | The luminance frame for recognition. |
+## Remarks
+
+
+
+This sample shows how to detect Code39 and Code128 barcodes in a luminance frame. 
+```cpp
+int width = 1920;
+int height = 1080;
+int rowStride = 2048;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height, rowStride, 90);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+## See Also
+
+* Class [LuminanceFrame](../../luminanceframe/)
 * Class [BarCodeReader](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)

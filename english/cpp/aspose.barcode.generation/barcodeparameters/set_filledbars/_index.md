@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BarcodeParameters::set_FilledBars method
+title:  method
 linktitle: set_FilledBars
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BarcodeParameters::set_FilledBars method. Sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true in C++.'
+description: ' method. Sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.generation/barcodeparameters/set_filledbars/

@@ -3,7 +3,7 @@ title: Class MaxiCodeParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.MaxiCodeParameters class. MaxiCode parameters
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.barcode.generation/maxicodeparameters/
 ---
 ## MaxiCodeParameters class

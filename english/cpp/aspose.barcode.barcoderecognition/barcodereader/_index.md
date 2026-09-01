@@ -23,18 +23,25 @@ class BarCodeReader : public System::IDisposable
 | [Abort](./abort/)() | Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. The method should be used when recognition process is too long. |
 | [BarCodeReader](./barcodereader/)() | Initializes a new instance of the [BarCodeReader](./) class with default values. Requires to set image (SetBitmapImage()) before to call [ReadBarCodes()](./readbarcodes/) method. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>) | Initializes a new instance of the [BarCodeReader](./) class from an image. |
-| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
-| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
-| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::ArrayPtr\<System::Drawing::Rectangle\>, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::String) | Initializes a new instance of the [BarCodeReader](./) class from file. |
-| [BarCodeReader](./barcodereader/)(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::String, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::String, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::IO::Stream\>) | Initializes a new instance of the [BarCodeReader](./) class. |
 | [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
-| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<System::IO::Stream\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, System::SharedPtr\<BaseDecodeType\>) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>, const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Initializes a new instance of the [BarCodeReader](./) class. |
+| [BarCodeReader](./barcodereader/)(System::SharedPtr\<LuminanceFrame\>) | Initializes a new instance of the [BarCodeReader](./) class from a luminance frame. |
 | [Dispose](./dispose/)() override | Release resource |
 | [ExportToXml](./exporttoxml/)(System::String) | Exports [BarCode](../../aspose.barcode/) properties to the xml-file specified |
 | [ExportToXml](./exporttoxml/)(System::SharedPtr\<System::IO::Stream\>) | Exports [BarCode](../../aspose.barcode/) properties to the xml-stream specified |
@@ -56,7 +63,10 @@ class BarCodeReader : public System::IDisposable
 | [SetBarCodeImage](./setbarcodeimage/)(System::SharedPtr\<System::Drawing::Bitmap\>, System::Drawing::Rectangle) | Sets bitmap image and area for recognition. Must be called before [ReadBarCodes()](./readbarcodes/) method. |
 | [SetBarCodeImage](./setbarcodeimage/)(System::String) | Sets image file for recognition. Must be called before [ReadBarCodes()](./readbarcodes/) method. |
 | [SetBarCodeImage](./setbarcodeimage/)(System::SharedPtr\<System::IO::Stream\>) | Sets image stream for recognition. Must be called before [ReadBarCodes()](./readbarcodes/) method. |
-| [SetBarCodeReadType](./setbarcodereadtype/)(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\&) | Sets [SingleDecodeType](../singledecodetype/) type array for recognition. Must be called before [ReadBarCodes()](./readbarcodes/) method. |
+| [SetBarCodeImage](./setbarcodeimage/)(System::SharedPtr\<LuminanceFrame\>, System::Drawing::Rectangle) | Sets the luminance frame and area for recognition. Must be called before the [ReadBarCodes](./readbarcodes/) method. |
+| [SetBarCodeImage](./setbarcodeimage/)(System::SharedPtr\<LuminanceFrame\>, System::ArrayPtr\<System::Drawing::Rectangle\>) | Sets the luminance frame and areas for recognition. Must be called before the [ReadBarCodes](./readbarcodes/) method. |
+| [SetBarCodeImage](./setbarcodeimage/)(System::SharedPtr\<LuminanceFrame\>) | Sets the luminance frame for recognition. Must be called before the [ReadBarCodes](./readbarcodes/) method. |
+| [SetBarCodeReadType](./setbarcodereadtype/)(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\&) | Sets [SingleDecodeType](../singledecodetype/) type array for recognition. Must be called before [ReadBarCodes()](./readbarcodes/) method. |
 ## Remarks
 
 

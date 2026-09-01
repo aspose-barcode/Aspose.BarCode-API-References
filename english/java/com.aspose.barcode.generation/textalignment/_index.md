@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.BarCode for Java API Reference
 description: Text alignment.
 type: docs
-weight: 109
+weight: 107
 url: /java/com.aspose.barcode.generation/textalignment/
 ---
 **Inheritance:**
@@ -27,6 +27,7 @@ Text alignment.
 | [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -111,6 +112,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static TextAlignment fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[TextAlignment](../../com.aspose.barcode.generation/textalignment)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -3,7 +3,7 @@ title: GS1CompositeBarExtendedParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Stores special data of GS1 Composite Bar recognized barcode
 type: docs
-weight: 34
+weight: 32
 url: /java/com.aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/
 ---
 **Inheritance:**

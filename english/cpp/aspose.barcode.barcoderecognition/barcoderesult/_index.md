@@ -14,7 +14,7 @@ Stores recognized barcode data like [SingleDecodeType](../singledecodetype/) typ
 
 ```cpp
 class BarCodeResult : public System::ICloneable,
-                      public System::IEquatable<System::SharedPtr<Aspose::BarCode::BarCodeRecognition::BarCodeResult>>
+                      public System::IEquatable<System::SharedPtr<BarCodeResult>>
 ```
 
 ## Methods
@@ -24,14 +24,14 @@ class BarCodeResult : public System::ICloneable,
 | [BarCodeResult](./barcoderesult/)(System::SharedPtr\<BarCodeResult\>) | Creates a a copy of the [BarCodeResult](./) class. |
 | [Clone](./clone/)() override | Creates a copy of [BarCodeResult](./) class. |
 | [Equals](./equals/)(System::SharedPtr\<BarCodeResult\>) override | Returns a value indicating whether this instance is equal to a specified [BarCodeResult](./) value. |
-| [get_CodeBytes](./get_codebytes/)() | Gets the encoded code bytes |
-| [get_CodeText](./get_codetext/)() | Gets the code text |
-| [get_CodeType](./get_codetype/)() | Gets the barcode type |
+| [get_CodeBytes](./get_codebytes/)() const | Gets the encoded code bytes |
+| [get_CodeText](./get_codetext/)() const | Gets the code text |
+| [get_CodeType](./get_codetype/)() const | Gets the barcode type |
 | [get_CodeTypeName](./get_codetypename/)() | Gets the name of the barcode type |
-| [get_Confidence](./get_confidence/)() | Gets recognition confidence level of the recognized barcode |
-| [get_Extended](./get_extended/)() | Gets extended parameters of recognized barcode |
-| [get_ReadingQuality](./get_readingquality/)() | Gets the reading quality. Works for 1D and postal barcodes. |
-| [get_Region](./get_region/)() | Gets the barcode region |
+| [get_Confidence](./get_confidence/)() const | Gets recognition confidence level of the recognized barcode |
+| [get_Extended](./get_extended/)() const | Gets extended parameters of recognized barcode |
+| [get_ReadingQuality](./get_readingquality/)() const | Gets the reading quality. Works for 1D and postal barcodes. |
+| [get_Region](./get_region/)() const | Gets the barcode region |
 | [GetCodeText](./getcodetext/)(System::SharedPtr\<System::Text::Encoding\>) | Gets the code text with encoding. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [BarCodeResult](./). |

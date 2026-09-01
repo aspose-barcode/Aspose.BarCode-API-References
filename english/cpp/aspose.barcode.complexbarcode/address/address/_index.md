@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::Address::Address constructor
+title:  constructor
 linktitle: Address
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::Address::Address constructor. Creates instance of Address in C++.'
+description: ' constructor. Creates instance of Address in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.complexbarcode/address/address/

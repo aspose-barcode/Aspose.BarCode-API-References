@@ -3,7 +3,7 @@ title: ExtECICodetext
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Extended Channel Codetext container
 type: docs
-weight: 41
+weight: 40
 url: /androidjava/com.aspose.barcode.generation/extecicodetext/
 ---
 **Inheritance:**

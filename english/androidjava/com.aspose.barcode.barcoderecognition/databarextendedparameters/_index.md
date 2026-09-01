@@ -1,9 +1,9 @@
 ---
 title: DataBarExtendedParameters
 second_title: Aspose.BarCode for Android via Java API Reference
-description: Stores a DataBar additional information of recognized barcode BarCodeReader reader  new BarCodeReadertest.png DecodeType.DATABAR_OMNI_DIRECTIONAL forBarCodeResult result  reader.readBarCodes    System.out.printlnBarCode Type   result.getCodeTypeName    System.out.printlnBarCode CodeText   result.getCodeText    System.out.printlnQR Structured Append Quantity   result.getExtended.getQR.getQRStructuredAppendModeBarCodesQuantity
+description: Stores a DataBar additional information of recognized barcode BarCodeReader reader  new BarCodeReaderctest.png DecodeType.DATABAR_OMNI_DIRECTIONAL forBarCodeResult result  reader.readBarCodes    System.out.printlnBarCode Type   result.getCodeTypeName    System.out.printlnBarCode CodeText   result.getCodeText    System.out.printlnQR Structured Append Quantity   result.getExtended.getQR.getQRStructuredAppendModeBarCodesQuantity
 type: docs
-weight: 30
+weight: 28
 url: /androidjava/com.aspose.barcode.barcoderecognition/databarextendedparameters/
 ---
 **Inheritance:**
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseExtendedParameters]
 public class DataBarExtendedParameters extends BaseExtendedParameters
 ```
 
-Stores a DataBar additional information of recognized barcode BarCodeReader reader = new BarCodeReader("test.png", DecodeType.DATABAR\_OMNI\_DIRECTIONAL); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode Type: " + result.getCodeTypeName()); System.out.println("BarCode CodeText: " + result.getCodeText()); System.out.println("QR Structured Append Quantity: " + result.getExtended().getQR().getQRStructuredAppendModeBarCodesQuantity());
+Stores a DataBar additional information of recognized barcode BarCodeReader reader = new BarCodeReader("c:\\\\test.png", DecodeType.DATABAR\_OMNI\_DIRECTIONAL); for(BarCodeResult result : reader.readBarCodes()) System.out.println("BarCode Type: " + result.getCodeTypeName()); System.out.println("BarCode CodeText: " + result.getCodeText()); System.out.println("QR Structured Append Quantity: " + result.getExtended().getQR().getQRStructuredAppendModeBarCodesQuantity());
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified  value. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Returns the hash code for this instance. |
 | [is2DCompositeComponent()](#is2DCompositeComponent--) | Gets the DataBar 2D composite component flag. |
 | [isEmpty()](#isEmpty--) | Tests whether all parameters has only default values |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a human-readable string representation of this . |
+| [toString()](#toString--) | Returns a human-readable string representation of this DataBarExtendedParameters . |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -34,7 +34,7 @@ public boolean equals(Object obj)
 ```
 
 
-Returns a value indicating whether this instance is equal to a specified  value.
+Returns a value indicating whether this instance is equal to a specified DataBarExtendedParameters value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -107,10 +107,10 @@ public String toString()
 ```
 
 
-Returns a human-readable string representation of this .
+Returns a human-readable string representation of this DataBarExtendedParameters .
 
 **Returns:**
-java.lang.String - A string that represents this .
+java.lang.String - A string that represents this DataBarExtendedParameters .
 ### wait() {#wait--}
 ```
 public final void wait()

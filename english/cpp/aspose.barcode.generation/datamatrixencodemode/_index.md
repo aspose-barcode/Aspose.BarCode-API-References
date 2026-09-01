@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::DataMatrixEncodeMode enum
+title:  enum
 linktitle: DataMatrixEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::DataMatrixEncodeMode enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
+description: ' enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
 type: docs
-weight: 5800
+weight: 6200
 url: /cpp/aspose.barcode.generation/datamatrixencodemode/
 ---
 ## DataMatrixEncodeMode enum
@@ -64,7 +64,7 @@ codetextBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
 codetextBuilder.AddCodetextWithEncodeMode(EncodeMode.C40, "ABCDE");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
+string codetext = textBuilder.GetExtendedCodetext();
 
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, codetext))

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode method
+title:  method
 linktitle: TryDecodeMaxiCode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode method. Decodes MaxiCode codetext in C++.'
+description: ' method. Decodes MaxiCode codetext in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemaxicode/
@@ -13,13 +13,13 @@ url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemaxicode/
 Decodes MaxiCode codetext.
 
 ```cpp
-static System::SharedPtr<MaxiCodeCodetext> Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode(Aspose::BarCode::Generation::MaxiCodeMode maxiCodeMode, System::String encodedCodetext)
+static System::SharedPtr<MaxiCodeCodetext> Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMaxiCode(Generation::MaxiCodeMode maxiCodeMode, System::String encodedCodetext)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxiCodeMode | Aspose::BarCode::Generation::MaxiCodeMode | MaxiCode mode |
+| maxiCodeMode | Generation::MaxiCodeMode | MaxiCode mode |
 | encodedCodetext | System::String | encoded codetext |
 
 ### ReturnValue

@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for Android via Java API Reference
 description: PatchCode parameters.
 type: docs
-weight: 59
+weight: 57
 url: /androidjava/com.aspose.barcode.generation/patchcodeparameters/
 ---
 **Inheritance:**
@@ -89,7 +89,7 @@ PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format
 [PatchFormat](../../com.aspose.barcode.generation/patchformat)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public final int hashCode()
 ```
 
 

@@ -20,15 +20,15 @@ class MaxiCodeCodetext : public Aspose::BarCode::ComplexBarcode::IComplexCodetex
 
 | Method | Description |
 | --- | --- |
-| [get_ECIEncoding](./get_eciencoding/)() | Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
+| [get_ECIEncoding](./get_eciencoding/)() const | Gets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
 | [get_EncodeMode](./get_encodemode/)() const | Gets a MaxiCode encode mode. Default value: Auto. |
 | [GetBarcodeType](./getbarcodetype/)() override | Gets barcode type. |
 | virtual [GetConstructedCodetext](./getconstructedcodetext/)() | Constructs codetext |
 | virtual [GetMode](./getmode/)() const | Gets MaxiCode mode. |
 | virtual [InitFromString](./initfromstring/)(System::String) | Initializes instance from constructed codetext. |
 | [MaxiCodeCodetext](./maxicodecodetext/)() |  |
-| [set_ECIEncoding](./set_eciencoding/)(Aspose::BarCode::Generation::ECIEncodings) | Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
-| [set_EncodeMode](./set_encodemode/)(Aspose::BarCode::Generation::MaxiCodeEncodeMode) | Sets a MaxiCode encode mode. Default value: Auto. |
+| [set_ECIEncoding](./set_eciencoding/)(Generation::ECIEncodings) | Sets ECI encoding. Used when MaxiCodeEncodeMode is Auto. Default value: ISO-8859-1 |
+| [set_EncodeMode](./set_encodemode/)(Generation::MaxiCodeEncodeMode) | Sets a MaxiCode encode mode. Default value: Auto. |
 ## Remarks
 
 

@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::get_BarcodeType method
+title:  method
 linktitle: get_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::get_BarcodeType method. Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC in C++.'
+description: ' method. Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/get_barcodetype/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/get_barcodetype/
 Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC.
 
 ```cpp
-System::SharedPtr<Aspose::BarCode::Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::get_BarcodeType()
+System::SharedPtr<Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext::get_BarcodeType() const
 ```
 
 

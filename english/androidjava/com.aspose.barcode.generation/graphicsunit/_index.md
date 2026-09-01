@@ -3,7 +3,7 @@ title: GraphicsUnit
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Specifies the unit of measure for the given data.
 type: docs
-weight: 88
+weight: 87
 url: /androidjava/com.aspose.barcode.generation/graphicsunit/
 ---
 **Inheritance:**
@@ -32,9 +32,9 @@ Specifies the unit of measure for the given data.
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
-| [getGraphicsUnitName(int graphicsUnit)](#getGraphicsUnitName-int-) |  |
 | [getValue()](#getValue--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
@@ -159,6 +159,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static GraphicsUnit fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[GraphicsUnit](../../com.aspose.barcode.generation/graphicsunit)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -179,21 +194,6 @@ public final Class<E> getDeclaringClass()
 
 **Returns:**
 java.lang.Class<E>
-### getGraphicsUnitName(int graphicsUnit) {#getGraphicsUnitName-int-}
-```
-public static String getGraphicsUnitName(int graphicsUnit)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| graphicsUnit | int |  |
-
-**Returns:**
-java.lang.String
 ### getValue() {#getValue--}
 ```
 public int getValue()

@@ -20,14 +20,14 @@ class CaptionParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_Alignment](./get_alignment/)() const | Caption test horizontal alignment. Default value: StringAlignment.Center. |
+| [get_Alignment](./get_alignment/)() const | Caption test horizontal alignment. Default value: [StringAlignment.Center](../textalignment/). |
 | [get_Font](./get_font/)() const | Caption font. Default value: Arial 8pt regular. |
 | [get_NoWrap](./get_nowrap/)() const | Specify word wraps (line breaks) within text. Default value: false. |
 | [get_Padding](./get_padding/)() const | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
 | [get_Text](./get_text/)() const | Caption text. Default value: empty string. |
 | [get_TextColor](./get_textcolor/)() const | Caption text color. Default value: Color.Black. |
 | [get_Visible](./get_visible/)() const | Caption text visibility. Default value: false. |
-| [set_Alignment](./set_alignment/)(TextAlignment) | Caption test horizontal alignment. Default value: StringAlignment.Center. |
+| [set_Alignment](./set_alignment/)(TextAlignment) | Caption test horizontal alignment. Default value: [StringAlignment.Center](../textalignment/). |
 | [set_NoWrap](./set_nowrap/)(bool) | Specify word wraps (line breaks) within text. Default value: false. |
 | [set_Padding](./set_padding/)(System::SharedPtr\<Aspose::BarCode::Generation::Padding\>) | Captions paddings. Default value for CaptionAbove: 5pt 5pt 0 5pt. Default value for CaptionBelow: 0 5pt 5pt 5pt. |
 | [set_Text](./set_text/)(System::String) | Caption text. Default value: empty string. |

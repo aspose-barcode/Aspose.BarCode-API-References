@@ -21,15 +21,15 @@ class HIBCLICPrimaryDataCodetext : public Aspose::BarCode::ComplexBarcode::HIBCL
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [HIBCLICPrimaryDataCodetext](./) value. |
-| [get_BarcodeType](../hibcliccomplexcodetext/get_barcodetype/)() | Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
-| [get_Data](./get_data/)() | Identifies primary data. |
+| [get_BarcodeType](../hibcliccomplexcodetext/get_barcodetype/)() const | Gets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
+| [get_Data](./get_data/)() const | Identifies primary data. |
 | [GetBarcodeType](../hibcliccomplexcodetext/getbarcodetype/)() override | Gets barcode type. |
 | [GetConstructedCodetext](./getconstructedcodetext/)() override | Constructs codetext |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [HIBCLICComplexCodetext](../hibcliccomplexcodetext/hibcliccomplexcodetext/)() |  |
 | [HIBCLICPrimaryDataCodetext](./hibclicprimarydatacodetext/)() |  |
 | [InitFromString](./initfromstring/)(System::String) override | Initializes instance from constructed codetext. |
-| [set_BarcodeType](../hibcliccomplexcodetext/set_barcodetype/)(System::SharedPtr\<Aspose::BarCode::Generation::BaseEncodeType\>) | Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
+| [set_BarcodeType](../hibcliccomplexcodetext/set_barcodetype/)(System::SharedPtr\<Generation::BaseEncodeType\>) | Sets barcode type. HIBC LIC codetext can be encoded using HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC and HIBCQRLIC encode types. Default value: HIBCCode39LIC. |
 | [set_Data](./set_data/)(System::SharedPtr\<PrimaryData\>) | Identifies primary data. |
 ## Remarks
 

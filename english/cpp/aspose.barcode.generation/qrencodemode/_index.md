@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::Generation::QREncodeMode enum
+title:  enum
 linktitle: QREncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::QREncodeMode enum. Encoding mode for QR barcodes in C++.'
+description: ' enum. Encoding mode for QR barcodes in C++.'
 type: docs
-weight: 7500
+weight: 7900
 url: /cpp/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enum
@@ -40,13 +40,13 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
-[VB.NET]
-Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
-    generator.CodeText = "12345TEXT"
-    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
-    generator.Save("test.png")
-End Using
+    [VB.NET]
+    Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+        generator.CodeText = "12345TEXT"
+        generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
+        generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
+        generator.Save("test.png")
+    End Using
 
 //This sample shows how to use FNC1 first position in Extended Mode.
 
@@ -85,20 +85,20 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
-[VB.NET]
-'create codetext
-Dim textBuilder As New QrExtCodetextBuilder()
-textBuilder.AddFNC1FirstPosition()
-textBuilder.AddPlainCodetext("000%89%%0")
-textBuilder.AddFNC1GroupSeparator()
-textBuilder.AddPlainCodetext("12345<FNC1>")
-'generate barcode
-Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
-    generator.CodeText = textBuilder.GetExtendedCodetext()
-    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
-    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
-    generator.Save("test.png")
-End Using
+    [VB.NET]
+    'create codetext
+    Dim textBuilder As New QrExtCodetextBuilder()
+    textBuilder.AddFNC1FirstPosition()
+    textBuilder.AddPlainCodetext("000%89%%0")
+    textBuilder.AddFNC1GroupSeparator()
+    textBuilder.AddPlainCodetext("12345<FNC1>")
+    'generate barcode
+    Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+        generator.CodeText = textBuilder.GetExtendedCodetext()
+        generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
+        generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
+        generator.Save("test.png")
+    End Using
 
 //This sample shows how to use FNC1 second position in Extended Mode.
 
@@ -106,7 +106,7 @@ End Using
 //create codetext
 QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
 textBuilder.AddFNC1SecondPosition("12");
-textBuilder.AddPlainCodetext("TRUE3456"); 
+textBuilder.AddPlainCodetext("TRUE3456");
 //generate barcode
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
@@ -115,18 +115,18 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
-[VB.NET]
-'create codetext
-Dim textBuilder As New QrExtCodetextBuilder()
+    [VB.NET]
+    'create codetext
+    Dim textBuilder As New QrExtCodetextBuilder()
 textBuilder.AddFNC1SecondPosition("12")
 textBuilder.AddPlainCodetext("TRUE3456")
-'generate barcode
-Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
-    generator.CodeText = textBuilder.GetExtendedCodetext()
-    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
-    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
-    generator.Save("test.png")
-End Using
+    'generate barcode
+    Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+        generator.CodeText = textBuilder.GetExtendedCodetext()
+        generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
+        generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
+        generator.Save("test.png")
+    End Using
 
 //This sample shows how to use multi ECI mode in Extended Mode.
 
@@ -148,27 +148,24 @@ using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
     generator.Save(@"d:\test.png");
 }
-[VB.NET]
-'create codetext
-Dim textBuilder As New QrExtCodetextBuilder()
+    [VB.NET]
+    'create codetext
+    Dim textBuilder As New QrExtCodetextBuilder()
 textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will")
 textBuilder.AddECICodetext(ECIEncodings.UTF8, "Right")
 textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power")
-textBuilder.AddPlainCodetext(@"t\e\\st") 
+textBuilder.AddPlainCodetext(@"t\e\\st")
 textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
 textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
-
+@verbatim
 'generate barcode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = textBuilder.GetExtendedCodetext()
     generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
     generator.Save("test.png")
-End Using   <br>
+End Using
 ```
-
-
-
 
 ## See Also
 

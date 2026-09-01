@@ -23,8 +23,8 @@ class MaxiCodeStructuredSecondMessage : public Aspose::BarCode::ComplexBarcode::
 | [Add](./add/)(System::String) | Adds new identifier |
 | [Clear](./clear/)() | Clear identifiers list |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Returns a value indicating whether this instance is equal to a specified [MaxiCodeStructuredSecondMessage](./) value. |
-| [get_Identifiers](./get_identifiers/)() | Gets identifiers list |
-| [get_Year](./get_year/)() | Gets year. Year must be 2 digit integer value. |
+| [get_Identifiers](./get_identifiers/)() const | Gets identifiers list |
+| [get_Year](./get_year/)() const | Gets year. Year must be 2 digit integer value. |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
 | [GetMessage](./getmessage/)() override | Gets constructed second message |
 | [MaxiCodeStructuredSecondMessage](./maxicodestructuredsecondmessage/)() |  |

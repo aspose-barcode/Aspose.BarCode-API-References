@@ -3,7 +3,7 @@ title: Padding
 second_title: Aspose.BarCode for Android via Java API Reference
 description: Paddings parameters.
 type: docs
-weight: 58
+weight: 56
 url: /androidjava/com.aspose.barcode.generation/padding/
 ---
 **Inheritance:**
@@ -27,7 +27,6 @@ Paddings parameters.
 | [getClass()](#getClass--) |  |
 | [getLeft()](#getLeft--) | Left padding. |
 | [getRight()](#getRight--) | Right padding. |
-| [getStateHash()](#getStateHash--) |  |
 | [getTop()](#getTop--) | Top padding. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -101,16 +100,6 @@ Right padding.
 
 **Returns:**
 [Unit](../../com.aspose.barcode.generation/unit)
-### getStateHash() {#getStateHash--}
-```
-public int getStateHash()
-```
-
-
-
-
-**Returns:**
-int
 ### getTop() {#getTop--}
 ```
 public Unit getTop()
@@ -123,7 +112,7 @@ Top padding.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

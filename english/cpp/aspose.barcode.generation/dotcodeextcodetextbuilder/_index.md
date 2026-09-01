@@ -4,7 +4,7 @@ linktitle: DotCodeExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::DotCodeExtCodetextBuilder class in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 ## DotCodeExtCodetextBuilder class
@@ -35,9 +35,6 @@ class DotCodeExtCodetextBuilder : public Aspose::BarCode::Generation::ExtCodetex
 Extended codetext generator for 2D DotCode barcodes for ExtendedCodetext Mode of DotCodeEncodeMode
 
 
-
-
-
 ```cpp
 [C#]
 //Extended codetext mode
@@ -55,7 +52,7 @@ textBuilder.AddFNC3ReaderInitialization();
 textBuilder.AddPlainCodetext("Reader initialization info");
 
 //generate codetext
-string codetext = textBuilder.GetExtendedCodetext();    <br>
+string codetext = textBuilder.GetExtendedCodetext();
 
 //generate
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))

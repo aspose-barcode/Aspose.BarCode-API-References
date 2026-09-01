@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseEncodeType::get_Classification method
+title:  method
 linktitle: get_Classification
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseEncodeType::get_Classification method. Gets a classification of this symbology in C++.'
+description: ' method. Gets a classification of this symbology in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/baseencodetype/get_classification/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/baseencodetype/get_classification/
 Gets a classification of this symbology.
 
 ```cpp
-BarcodeClassifications Aspose::BarCode::Generation::BaseEncodeType::get_Classification()
+BarcodeClassifications Aspose::BarCode::Generation::BaseEncodeType::get_Classification() const
 ```
 
 ## See Also

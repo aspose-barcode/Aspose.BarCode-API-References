@@ -21,7 +21,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "5912345678ABCde");
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.C_TABLE);
->   Bitmap image = generator.generateBarCodeImage();
+>   BufferedImage image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.C_TABLE);
 >   for(BarCodeResult result : reader.readBarCodes())
@@ -36,7 +36,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AustraliaPost, "59123456781234567"))
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.N_TABLE);
->   Bitmap image = generator.generateBarCodeImage();
+>   BufferedImage image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST))
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.N_TABLE);
 >   for(BarCodeResult result : reader.readBarCodes())
@@ -51,7 +51,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 > ```
 > BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.AUSTRALIA_POST, "59123456780123012301230123");
 >   generator.getParameters().getBarcode().getAustralianPost().setAustralianPostEncodingTable(CustomerInformationInterpretingType.OTHER);
->   Bitmap image = generator.generateBarCodeImage();
+>   BufferedImage image = generator.generateBarCodeImage();
 >   BarCodeReader reader = new BarCodeReader(image, DecodeType.AUSTRALIA_POST);
 >   reader.getBarcodeSettings().getAustraliaPost().setCustomerInformationInterpretingType(CustomerInformationInterpretingType.OTHER);
 >   for(BarCodeResult result : reader.readBarCodes())
@@ -75,6 +75,7 @@ This sample shows how to generate and recognize Australia Post barcode with CTab
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [describeConstable()](#describeConstable--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeclaringClass()](#getDeclaringClass--) |  |
 | [getValue()](#getValue--) |  |
@@ -169,6 +170,21 @@ public final boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static CustomerInformationInterpretingType fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+**Returns:**
+[CustomerInformationInterpretingType](../../com.aspose.barcode.barcoderecognition/customerinformationinterpretingtype)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -4,7 +4,7 @@ linktitle: Pdf417Parameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Pdf417Parameters class. PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional in C++.'
 type: docs
-weight: 3600
+weight: 3900
 url: /cpp/aspose.barcode.generation/pdf417parameters/
 ---
 ## Pdf417Parameters class
@@ -20,7 +20,7 @@ class Pdf417Parameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AspectRatio](./get_aspectratio/)() | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
+| [get_AspectRatio](./get_aspectratio/)() const | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
 | [get_Columns](./get_columns/)() const | Columns count. |
 | [get_ECIEncoding](./get_eciencoding/)() const | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. Not applied for Macro PDF417 text fields. Current implementation consists all well known charset encodings. |
 | [get_EncodeMode](./get_encodemode/)() const | Identifies Pdf417 encode mode. Default value: Auto. |
@@ -28,7 +28,7 @@ class Pdf417Parameters : public System::Object
 | [get_IsCode128Emulation](./get_iscode128emulation/)() const | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
 | [get_IsLinked](./get_islinked/)() const | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 “Linked” UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [get_IsReaderInitialization](./get_isreaderinitialization/)() const | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
-| [get_MacroCharacters](./get_macrocharacters/)() const | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: MacroCharacters.None. |
+| [get_MacroCharacters](./get_macrocharacters/)() const | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: [MacroCharacters.None](../barcodeclassifications/). |
 | [get_MacroPdf417Addressee](./get_macropdf417addressee/)() const | MacroPdf417 barcode addressee name (optional field). MicroPDF417 barcode addressee name (optional field for Structured Append mode) |
 | [get_MacroPdf417Checksum](./get_macropdf417checksum/)() const | MacroPdf417 barcode checksum (optional field). MicroPDF417 barcode checksum (optional field for Structured Append mode) The checksum field contains the value of the 16-bit (2 bytes) CRC checksum using the CCITT-16 polynomial. x^16 + x^12 + x^5 + 1 |
 | [get_MacroPdf417ECIEncoding](./get_macropdf417eciencoding/)() const | Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields. |
@@ -50,7 +50,7 @@ class Pdf417Parameters : public System::Object
 | [set_IsCode128Emulation](./set_iscode128emulation/)(bool) | Can be used only with MicroPdf417 and encodes Code 128 emulation modes Can encode FNC1 in second position modes 908 and 909, also can encode 910 and 911 which just indicate that recognized MicroPdf417 can be interpret as Code 128 |
 | [set_IsLinked](./set_islinked/)(bool) | Defines linked modes with GS1MicroPdf417, MicroPdf417 and Pdf417 barcodes With GS1MicroPdf417 symbology encodes 906, 907, 912, 913, 914, 915 “Linked” UCC/EAN-128 modes With MicroPdf417 and Pdf417 symbologies encodes 918 linkage flag to associated linear component other than an EAN.UCC |
 | [set_IsReaderInitialization](./set_isreaderinitialization/)(bool) | Used to instruct the reader to interpret the data contained within the symbol as programming for reader initialization. |
-| [set_MacroCharacters](./set_macrocharacters/)(MacroCharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: MacroCharacters.None. |
+| [set_MacroCharacters](./set_macrocharacters/)(MacroCharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. Can be used only with MicroPdf417 and encodes 916 and 917 MicroPdf417 modes Default value: [MacroCharacters.None](../barcodeclassifications/). |
 | [set_MacroPdf417Addressee](./set_macropdf417addressee/)(System::String) | MacroPdf417 barcode addressee name (optional field). MicroPDF417 barcode addressee name (optional field for Structured Append mode) |
 | [set_MacroPdf417Checksum](./set_macropdf417checksum/)(int32_t) | MacroPdf417 barcode checksum (optional field). MicroPDF417 barcode checksum (optional field for Structured Append mode) The checksum field contains the value of the 16-bit (2 bytes) CRC checksum using the CCITT-16 polynomial. x^16 + x^12 + x^5 + 1 |
 | [set_MacroPdf417ECIEncoding](./set_macropdf417eciencoding/)(ECIEncodings) | Extended Channel Interpretation Identifiers. Applies for Macro PDF417 text fields. |
@@ -83,9 +83,6 @@ using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage()
     foreach (BarCodeResult result in reader.ReadBarCodes())
         Console.WriteLine(result.CodeText);
 ```
-
-
-
 
 ## See Also
 

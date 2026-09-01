@@ -4,7 +4,7 @@ linktitle: QualitySettings
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings class. QualitySettings allows to configure recognition quality and speed manually. You can quickly set up QualitySettings with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options. Default value of QualitySettings is NormalQuality in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/
 ---
 ## QualitySettings class
@@ -30,14 +30,14 @@ class QualitySettings : public System::Object
 | static [get_MaxQuality](./get_maxquality/)() | MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes. |
 | [get_MinimalXDimension](./get_minimalxdimension/)() const | Minimal size of XDimension in pixels which is used with UseMinimalXDimension. |
 | static [get_NormalQuality](./get_normalquality/)() | NormalQuality recognition quality preset. Suitable for the most of barcodes |
-| [get_XDimension](./get_xdimension/)() const | Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
+| [get_XDimension](./get_xdimension/)() const | [Recognition](../../aspose.barcode.barcoderecognition.recognition/) mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
 | [set_AllowIncorrectBarcodes](./set_allowincorrectbarcodes/)(bool) | Allows engine to recognize barcodes which has incorrect checksumm or incorrect values. Mode can be used to recognize damaged barcodes with incorrect text. |
 | [set_BarcodeQuality](./set_barcodequality/)(BarcodeQualityMode) | Mode which enables methods to recognize barcode elements with the selected quality. Barcode element with lower quality requires more hard methods which slows the recognition. |
 | [set_ComplexBackground](./set_complexbackground/)(ComplexBackgroundMode) | Mode which enables or disables additional recognition of color barcodes on color images. |
 | [set_Deconvolution](./set_deconvolution/)(DeconvolutionMode) | Deconvolution (image restorations) mode which defines level of image degradation. Originally deconvolution is a function which can restore image degraded (convoluted) by any natural function like blur, during obtaining image by camera. Because we cannot detect image function which corrupt the image, we have to check most well know functions like sharp or mathematical morphology. |
 | [set_InverseImage](./set_inverseimage/)(InverseImageMode) | Mode which enables or disables additional recognition of barcodes on images with inverted colors (luminance). |
 | [set_MinimalXDimension](./set_minimalxdimension/)(float) | Minimal size of XDimension in pixels which is used with UseMinimalXDimension. |
-| [set_XDimension](./set_xdimension/)(XDimensionMode) | Recognition mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
+| [set_XDimension](./set_xdimension/)(XDimensionMode) | [Recognition](../../aspose.barcode.barcoderecognition.recognition/) mode which sets size (from 1 to infinity) of barcode minimal element: matrix cell or bar. |
 ## Remarks
 
 
@@ -76,7 +76,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     reader.QualitySettings.BarcodeQuality = BarcodeQualityMode.Low;
     foreach (BarCodeResult result in reader.ReadBarCodes())
         Console.WriteLine(result.CodeText);
-}    <br>
+}
 ```
 
 ## See Also

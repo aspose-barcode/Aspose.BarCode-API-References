@@ -1,10 +1,10 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::HIBCLICDateFormat enum
+title:  enum
 linktitle: HIBCLICDateFormat
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::HIBCLICDateFormat enum. Specifies the different types of date formats for HIBC LIC in C++.'
+description: ' enum. Specifies the different types of date formats for HIBC LIC in C++.'
 type: docs
-weight: 2800
+weight: 3000
 url: /cpp/aspose.barcode.complexbarcode/hibclicdateformat/
 ---
 ## HIBCLICDateFormat enum

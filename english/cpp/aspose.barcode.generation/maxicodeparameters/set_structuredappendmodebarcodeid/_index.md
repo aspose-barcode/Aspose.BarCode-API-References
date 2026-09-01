@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::MaxiCodeParameters::set_StructuredAppendModeBarcodeId method
+title:  method
 linktitle: set_StructuredAppendModeBarcodeId
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::MaxiCodeParameters::set_StructuredAppendModeBarcodeId method. Sets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value: 0 in C++.'
+description: ' method. Sets a MaxiCode barcode id in structured append mode. ID must be a value between 1 and 8. Default value: 0 in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.generation/maxicodeparameters/set_structuredappendmodebarcodeid/

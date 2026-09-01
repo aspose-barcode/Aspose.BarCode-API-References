@@ -1,5 +1,5 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::SecondaryAndAdditionalData constructor
+title:  constructor
 linktitle: SecondaryAndAdditionalData
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use SecondaryAndAdditionalData constructor of Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData class in C++.'

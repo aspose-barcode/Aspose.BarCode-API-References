@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetBarcodeType method
+title:  method
 linktitle: GetBarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetBarcodeType method. Returns barcode type of USA DL (Pdf417) in C++.'
+description: ' method. Returns barcode type of USA DL (Pdf417) in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/getbarcodetype/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/getbarcodetype/
 Returns barcode type of USA DL (Pdf417)
 
 ```cpp
-System::SharedPtr<Aspose::BarCode::Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetBarcodeType() override
+System::SharedPtr<Generation::BaseEncodeType> Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::GetBarcodeType() override
 ```
 
 

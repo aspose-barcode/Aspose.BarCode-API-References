@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::MaxiCodeStandardSecondMessage::set_Message method
+title:  method
 linktitle: set_Message
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStandardSecondMessage::set_Message method. Sets second message in C++.'
+description: ' method. Sets second message in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/maxicodestandardsecondmessage/set_message/

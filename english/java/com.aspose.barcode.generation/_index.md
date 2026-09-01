@@ -27,7 +27,6 @@ This package contains tools for generating barcode.
 | [CaptionParameters](../com.aspose.barcode.generation/captionparameters) | Caption parameters. |
 | [CaptionParametersInternal](../com.aspose.barcode.generation/captionparametersinternal) |  |
 | [CodabarParameters](../com.aspose.barcode.generation/codabarparameters) | Codabar parameters. |
-| [CodabarSymbol](../com.aspose.barcode.generation/codabarsymbol) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [CodablockParameters](../com.aspose.barcode.generation/codablockparameters) | Codablock parameters. |
 | [Code128Parameters](../com.aspose.barcode.generation/code128parameters) | Code128 parameters. |
 | [Code16KParameters](../com.aspose.barcode.generation/code16kparameters) | Code16K parameters. |
@@ -60,7 +59,6 @@ This package contains tools for generating barcode.
 | [ImageUnitConverter](../com.aspose.barcode.generation/imageunitconverter) |  |
 | [MacroCharacterValues](../com.aspose.barcode.generation/macrocharactervalues) |  |
 | [MaxiCodeExtCodetextBuilder](../com.aspose.barcode.generation/maxicodeextcodetextbuilder) | Extended codetext generator for MaxiCode barcodes for ExtendedCodetext Mode of MaxiCodeEncodeMode Use TwoDDisplayText property of BarcodeGenerator to set visible text to removing managing characters. |
-| [MaxiCodeMode](../com.aspose.barcode.generation/maxicodemode) | Encoding mode for MaxiCode barcodes. |
 | [MaxiCodeParameters](../com.aspose.barcode.generation/maxicodeparameters) | MaxiCode parameters. |
 | [Padding](../com.aspose.barcode.generation/padding) | Paddings parameters. |
 | [PatchCodeParameters](../com.aspose.barcode.generation/patchcodeparameters) | PatchCode parameters. |
@@ -93,6 +91,7 @@ This package contains tools for generating barcode.
 | [BarcodeClassifications](../com.aspose.barcode.generation/barcodeclassifications) | EncodeTypes classification |
 | [BorderDashStyle](../com.aspose.barcode.generation/borderdashstyle) | Specifies the style of dashed border lines. |
 | [CodabarChecksumMode](../com.aspose.barcode.generation/codabarchecksummode) | Specifies the checksum algorithm for Codabar |
+| [CodabarSymbol](../com.aspose.barcode.generation/codabarsymbol) | Specifies the start or stop symbol of the Codabar barcode specification. |
 | [Code128EncodeMode](../com.aspose.barcode.generation/code128encodemode) | Encoding mode for Code128 barcodes. |
 | [CodeLocation](../com.aspose.barcode.generation/codelocation) | Codetext location |
 | [DataMatrixEccType](../com.aspose.barcode.generation/datamatrixecctype) | Specify the type of the ECC to encode. |
@@ -109,14 +108,13 @@ This package contains tools for generating barcode.
 | [ITF14BorderType](../com.aspose.barcode.generation/itf14bordertype) | ITF14 barcode's border type |
 | [MacroCharacter](../com.aspose.barcode.generation/macrocharacter) | Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes. |
 | [MaxiCodeEncodeMode](../com.aspose.barcode.generation/maxicodeencodemode) | Encoding mode for MaxiCode barcodes. |
+| [MaxiCodeMode](../com.aspose.barcode.generation/maxicodemode) | Contains MaxiCode encoding modes. |
 | [MicroQRVersion](../com.aspose.barcode.generation/microqrversion) | Version of MicroQR Code. |
 | [PatchFormat](../com.aspose.barcode.generation/patchformat) | PatchCode format. |
-| [Pdf417CompactionMode](../com.aspose.barcode.generation/pdf417compactionmode) | Pdf417 barcode's compation mode |
 | [Pdf417EncodeMode](../com.aspose.barcode.generation/pdf417encodemode) | Pdf417 barcode encode mode |
 | [Pdf417ErrorLevel](../com.aspose.barcode.generation/pdf417errorlevel) | pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 9 means best error correction |
 | [Pdf417MacroTerminator](../com.aspose.barcode.generation/pdf417macroterminator) | Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. |
 | [QREncodeMode](../com.aspose.barcode.generation/qrencodemode) | Encoding mode for QR barcodes. |
-| [QREncodeType](../com.aspose.barcode.generation/qrencodetype) | QR / MicroQR selector mode. |
 | [QRErrorLevel](../com.aspose.barcode.generation/qrerrorlevel) | Level of Reed-Solomon error correction. |
 | [QRVersion](../com.aspose.barcode.generation/qrversion) | Version of QR Code. |
 | [QrExtCompactionMode](../com.aspose.barcode.generation/qrextcompactionmode) | Specifies QR compaction mode for codetext added by QrExtCodetextBuilder. |

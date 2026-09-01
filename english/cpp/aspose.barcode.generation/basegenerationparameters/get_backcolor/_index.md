@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::BaseGenerationParameters::get_BackColor method
+title:  method
 linktitle: get_BackColor
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_BackColor method. Background color of the barcode image. Default value: Color.White. See Color in C++.'
+description: ' method. Background color of the barcode image. Default value: Color.White. See Color in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_backcolor/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/basegenerationparameters/get_backcolor/
 Background color of the barcode image. Default value: Color.White. See [Color](../).
 
 ```cpp
-System::Drawing::Color Aspose::BarCode::Generation::BaseGenerationParameters::get_BackColor()
+System::Drawing::Color Aspose::BarCode::Generation::BaseGenerationParameters::get_BackColor() const
 ```
 
 ## See Also

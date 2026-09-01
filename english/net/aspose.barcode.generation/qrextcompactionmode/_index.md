@@ -3,7 +3,7 @@ title: Enum QrExtCompactionMode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.QrExtCompactionMode enum. Specifies QR compaction mode for codetext added by QrExtCodetextBuilder
 type: docs
-weight: 1520
+weight: 1530
 url: /net/aspose.barcode.generation/qrextcompactionmode/
 ---
 ## QrExtCompactionMode enumeration

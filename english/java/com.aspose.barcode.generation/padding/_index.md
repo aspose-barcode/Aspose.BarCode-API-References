@@ -3,7 +3,7 @@ title: Padding
 second_title: Aspose.BarCode for Java API Reference
 description: Paddings parameters.
 type: docs
-weight: 58
+weight: 56
 url: /java/com.aspose.barcode.generation/padding/
 ---
 **Inheritance:**
@@ -112,7 +112,7 @@ Top padding.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

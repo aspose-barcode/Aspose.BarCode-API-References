@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::AztecParameters::get_AspectRatio method
+title:  method
 linktitle: get_AspectRatio
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::AztecParameters::get_AspectRatio method. Height/Width ratio of 2D BarCode module in C++.'
+description: ' method. Height/Width ratio of 2D BarCode module in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.barcode.generation/aztecparameters/get_aspectratio/
@@ -13,7 +13,7 @@ url: /cpp/aspose.barcode.generation/aztecparameters/get_aspectratio/
 Height/Width ratio of 2D [BarCode](../../../aspose.barcode/) module.
 
 ```cpp
-float Aspose::BarCode::Generation::AztecParameters::get_AspectRatio()
+float Aspose::BarCode::Generation::AztecParameters::get_AspectRatio() const
 ```
 
 ## See Also

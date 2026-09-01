@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_JurisdictionVersionNumber method
+title:  method
 linktitle: get_JurisdictionVersionNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::get_JurisdictionVersionNumber method. Jurisdiction Version Number 00-99 in C++.'
+description: ' method. Jurisdiction Version Number 00-99 in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/get_jurisdictionversionnumber/

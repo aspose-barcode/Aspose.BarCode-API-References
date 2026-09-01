@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::Padding::get_Left method
+title:  method
 linktitle: get_Left
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::Padding::get_Left method. Left padding in C++.'
+description: ' method. Left padding in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/padding/get_left/

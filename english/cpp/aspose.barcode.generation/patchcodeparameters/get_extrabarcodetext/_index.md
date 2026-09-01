@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::Generation::PatchCodeParameters::get_ExtraBarcodeText method
+title:  method
 linktitle: get_ExtraBarcodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::Generation::PatchCodeParameters::get_ExtraBarcodeText method. Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode in C++.'
+description: ' method. Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/patchcodeparameters/get_extrabarcodetext/

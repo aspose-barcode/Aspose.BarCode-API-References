@@ -20,7 +20,7 @@ class Details_RecognitionAbortedException : public Aspose::BarCode::BarCodeRecog
 
 | Method | Description |
 | --- | --- |
-| [get_ExecutionTime](./get_executiontime/)() | Gets the execution time of current recognition session |
+| [get_ExecutionTime](./get_executiontime/)() const | Gets the execution time of current recognition session |
 | [set_ExecutionTime](./set_executiontime/)(int32_t) | Gets the execution time of current recognition session |
 ## See Also
 

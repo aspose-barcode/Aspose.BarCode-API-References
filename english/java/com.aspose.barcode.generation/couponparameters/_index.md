@@ -3,7 +3,7 @@ title: CouponParameters
 second_title: Aspose.BarCode for Java API Reference
 description: Coupon parameters.
 type: docs
-weight: 30
+weight: 29
 url: /java/com.aspose.barcode.generation/couponparameters/
 ---
 **Inheritance:**
@@ -65,7 +65,7 @@ Space between main the BarCode and supplement BarCode in  Unit  value.
 [Unit](../../com.aspose.barcode.generation/unit)
 ### hashCode() {#hashCode--}
 ```
-public native int hashCode()
+public int hashCode()
 ```
 
 

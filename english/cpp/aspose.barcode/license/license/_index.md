@@ -1,8 +1,8 @@
 ---
-title: Aspose::BarCode::License::License constructor
+title:  constructor
 linktitle: License
 second_title: Aspose.BarCode for C++ API Reference
-description: 'Aspose::BarCode::License::License constructor. Initializes a new instance of this class in C++.'
+description: ' constructor. Initializes a new instance of this class in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode/license/license/
@@ -22,7 +22,7 @@ Aspose::BarCode::License::License()
 In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. 
 ```cpp
 [C#]
-
+@verbatim
 License license = new License();
 license.SetLicense("MyLicense.lic");
 
@@ -31,6 +31,7 @@ license.SetLicense("MyLicense.lic");
 
 Dim license As license = New license
 License.SetLicense("MyLicense.lic")
+@endverbatim
 ```
 
 ## See Also
