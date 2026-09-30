@@ -3,7 +3,7 @@ title: USADriveIdCodetext
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/usadriveidcodetext/
+url: /aspose.barcode.complexbarcode/usadriveidcodetext/
 ---
 
 ## USADriveIdCodetext class

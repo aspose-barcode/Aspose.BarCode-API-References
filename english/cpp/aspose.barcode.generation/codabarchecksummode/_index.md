@@ -4,7 +4,7 @@ linktitle: CodabarChecksumMode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Specifies the checksum algorithm for Codabar in C++.'
 type: docs
-weight: 5600
+weight: 5700
 url: /cpp/aspose.barcode.generation/codabarchecksummode/
 ---
 ## CodabarChecksumMode enum

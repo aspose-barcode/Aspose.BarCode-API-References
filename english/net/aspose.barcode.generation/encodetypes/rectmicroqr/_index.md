@@ -3,7 +3,7 @@ title: EncodeTypes.RectMicroQR
 second_title: Aspose.BarCode for .NET API Reference
 description: EncodeTypes field. Specifies that the data should be encoded with RectMicroQR rMQR Code barcode specification
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.barcode.generation/encodetypes/rectmicroqr/
 ---
 ## EncodeTypes.RectMicroQR field

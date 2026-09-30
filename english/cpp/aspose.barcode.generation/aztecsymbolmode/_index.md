@@ -4,7 +4,7 @@ linktitle: AztecSymbolMode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Specifies the Aztec symbol mode in C++.'
 type: docs
-weight: 5300
+weight: 5400
 url: /cpp/aspose.barcode.generation/aztecsymbolmode/
 ---
 ## AztecSymbolMode enum

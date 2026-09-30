@@ -4,7 +4,7 @@ linktitle: MicroQRVersion
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Version of MicroQR Code. From M1 to M4 in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.barcode.generation/microqrversion/
 ---
 ## MicroQRVersion enum

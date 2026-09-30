@@ -3,7 +3,7 @@ title: ComplexBackgroundMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/complexbackgroundmode/
+url: /aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 
 ## ComplexBackgroundMode enumeration

@@ -3,7 +3,7 @@ title: MicroQRVersion
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/microqrversion/
+url: /aspose.barcode.generation/microqrversion/
 ---
 
 ## MicroQRVersion enumeration

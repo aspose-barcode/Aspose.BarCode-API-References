@@ -4,7 +4,7 @@ linktitle: MaxiCodeStandardCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStandardCodetext class. Class for encoding and decoding MaxiCode codetext for modes 4, 5 and 6 in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.barcode.complexbarcode/maxicodestandardcodetext/
 ---
 ## MaxiCodeStandardCodetext class

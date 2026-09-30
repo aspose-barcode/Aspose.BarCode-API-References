@@ -4,7 +4,7 @@ linktitle: MacroCharacterValues
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::MacroCharacterValues class in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.barcode.generation/macrocharactervalues/
 ---
 ## MacroCharacterValues class

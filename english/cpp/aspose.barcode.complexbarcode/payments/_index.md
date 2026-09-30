@@ -4,7 +4,7 @@ linktitle: Payments
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::Payments class. Field validations related to Swiss Payment standards in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.barcode.complexbarcode/payments/
 ---
 ## Payments class

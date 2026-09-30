@@ -3,7 +3,7 @@ title: HIBCPASRecord
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/hibcpasrecord/
+url: /aspose.barcode.complexbarcode/hibcpasrecord/
 ---
 
 ## HIBCPASRecord class

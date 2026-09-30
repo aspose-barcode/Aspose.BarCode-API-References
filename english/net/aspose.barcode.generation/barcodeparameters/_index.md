@@ -3,7 +3,7 @@ title: Class BarcodeParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.BarcodeParameters class. Barcode generation parameters
 type: docs
-weight: 920
+weight: 990
 url: /net/aspose.barcode.generation/barcodeparameters/
 ---
 ## BarcodeParameters class
@@ -34,6 +34,7 @@ public class BarcodeParameters
 | [DataMatrix](../../aspose.barcode.generation/barcodeparameters/datamatrix/) { get; } | DataMatrix parameters. |
 | [DotCode](../../aspose.barcode.generation/barcodeparameters/dotcode/) { get; } | DotCode parameters. |
 | [FilledBars](../../aspose.barcode.generation/barcodeparameters/filledbars/) { get; set; } | Gets or sets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
+| [GS1](../../aspose.barcode.generation/barcodeparameters/gs1/) { get; } | GS1 parameters. |
 | [GS1CompositeBar](../../aspose.barcode.generation/barcodeparameters/gs1compositebar/) { get; set; } | GS1 Composite Bar parameters. |
 | [HanXin](../../aspose.barcode.generation/barcodeparameters/hanxin/) { get; } | HanXin parameters. |
 | [IsChecksumEnabled](../../aspose.barcode.generation/barcodeparameters/ischecksumenabled/) { get; set; } | Enable checksum during generation 1D barcodes. |

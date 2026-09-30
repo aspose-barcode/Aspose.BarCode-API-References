@@ -85,6 +85,7 @@ class EncodeTypes
 | static [ItalianPost25](./italianpost25/) | Represents Italian Post 25 barcode. |
 | static [ITF14](./itf14/) | Specifies that the data should be encoded with **ITF14** barcode specification |
 | static [ITF6](./itf6/) | Represents ITF-6 Barcode. |
+| static [JapanPost](./japanpost/) | Represents Japan Post [BarCode](../../aspose.barcode/) |
 | static [MacroPdf417](./macropdf417/) | Specifies that the data should be encoded with **MacroPdf417** barcode specification |
 | static [Mailmark](./mailmark/) | Represents Royal Mail Mailmark barcode. |
 | static [Matrix2of5](./matrix2of5/) | Represents Matrix 2 of 5 [BarCode](../../aspose.barcode/) |

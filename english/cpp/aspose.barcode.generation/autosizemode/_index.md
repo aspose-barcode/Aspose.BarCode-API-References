@@ -4,7 +4,7 @@ linktitle: AutoSizeMode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Specifies the different types of automatic sizing modes in C++.'
 type: docs
-weight: 5100
+weight: 5200
 url: /cpp/aspose.barcode.generation/autosizemode/
 ---
 ## AutoSizeMode enum

@@ -3,7 +3,7 @@ title: BorderDashStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/borderdashstyle/
+url: /aspose.barcode.generation/borderdashstyle/
 ---
 
 ## BorderDashStyle enumeration

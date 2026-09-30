@@ -3,7 +3,7 @@ title: CodabarExtendedParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/codabarextendedparameters/
+url: /aspose.barcode.barcoderecognition/codabarextendedparameters/
 ---
 
 ## CodabarExtendedParameters class

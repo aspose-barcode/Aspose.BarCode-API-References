@@ -4,7 +4,7 @@ linktitle: PatchCode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Represents Patch code barcode in C++.'
 type: docs
-weight: 7100
+weight: 7200
 url: /cpp/aspose.barcode.generation/encodetypes/patchcode/
 ---
 ## PatchCode field

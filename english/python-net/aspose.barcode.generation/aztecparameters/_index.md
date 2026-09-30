@@ -3,7 +3,7 @@ title: AztecParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/aztecparameters/
+url: /aspose.barcode.generation/aztecparameters/
 ---
 
 ## AztecParameters class

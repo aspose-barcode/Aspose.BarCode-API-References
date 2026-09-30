@@ -4,7 +4,7 @@ linktitle: SymbologyEncodeType
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::SymbologyEncodeType class. Symbology encode type. See EncodeTypes to get instance in C++.'
 type: docs
-weight: 4800
+weight: 4900
 url: /cpp/aspose.barcode.generation/symbologyencodetype/
 ---
 ## SymbologyEncodeType class

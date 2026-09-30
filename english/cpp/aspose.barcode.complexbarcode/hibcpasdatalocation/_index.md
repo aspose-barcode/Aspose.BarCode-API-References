@@ -4,7 +4,7 @@ linktitle: HIBCPASDataLocation
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. HIBC PAS data location types in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.barcode.complexbarcode/hibcpasdatalocation/
 ---
 ## HIBCPASDataLocation enum

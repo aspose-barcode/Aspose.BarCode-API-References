@@ -4,7 +4,7 @@ linktitle: ITF14BorderType
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. ITF14 border type of barcode in C++.'
 type: docs
-weight: 7000
+weight: 7200
 url: /cpp/aspose.barcode.generation/itf14bordertype/
 ---
 ## ITF14BorderType enum

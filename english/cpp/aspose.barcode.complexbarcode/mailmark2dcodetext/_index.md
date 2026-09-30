@@ -4,7 +4,7 @@ linktitle: Mailmark2DCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext class. Class for encoding and decoding the text embedded in the Royal Mail 2D Mailmark code in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/
 ---
 ## Mailmark2DCodetext class

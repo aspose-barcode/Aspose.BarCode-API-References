@@ -4,7 +4,7 @@ linktitle: Mailmark
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Represents Royal Mail Mailmark barcode in C++.'
 type: docs
-weight: 6000
+weight: 6100
 url: /cpp/aspose.barcode.generation/encodetypes/mailmark/
 ---
 ## Mailmark field

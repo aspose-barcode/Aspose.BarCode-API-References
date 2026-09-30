@@ -4,7 +4,7 @@ linktitle: Postnet
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with Postnet barcode specification in C++.'
 type: docs
-weight: 5600
+weight: 5700
 url: /cpp/aspose.barcode.generation/encodetypes/postnet/
 ---
 ## Postnet field

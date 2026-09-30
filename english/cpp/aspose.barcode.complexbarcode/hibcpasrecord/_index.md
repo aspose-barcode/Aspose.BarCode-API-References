@@ -4,7 +4,7 @@ linktitle: HIBCPASRecord
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::HIBCPASRecord class. Class for storing HIBC PAS record in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.barcode.complexbarcode/hibcpasrecord/
 ---
 ## HIBCPASRecord class

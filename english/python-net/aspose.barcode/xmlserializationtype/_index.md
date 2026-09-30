@@ -3,7 +3,7 @@ title: XmlSerializationType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode/xmlserializationtype/
+url: /aspose.barcode/xmlserializationtype/
 ---
 
 ## XmlSerializationType enumeration

@@ -20,6 +20,8 @@ class ComplexCodetextReader : public System::Object
 
 | Method | Description |
 | --- | --- |
+| static [TryDecodeGS1Codetext](./trydecodegs1codetext/)(System::String) | Decodes GS1 codetext. |
+| static [TryDecodeGS1DigitalLink](./trydecodegs1digitallink/)(System::String) | Decodes GS1 Digital Link. |
 | static [TryDecodeHIBCLIC](./trydecodehibclic/)(System::String) | Decodes HIBC LIC codetext. |
 | static [TryDecodeHIBCPAS](./trydecodehibcpas/)(System::String) | Decodes HIBC PAS codetext. |
 | static [TryDecodeMailmark](./trydecodemailmark/)(System::String) | Decodes Mailmark Barcode C and L codetext. |

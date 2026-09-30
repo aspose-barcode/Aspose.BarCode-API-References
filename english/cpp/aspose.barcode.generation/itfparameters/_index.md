@@ -4,7 +4,7 @@ linktitle: ITFParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::ITFParameters class. ITF parameters in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.barcode.generation/itfparameters/
 ---
 ## ITFParameters class

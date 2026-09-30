@@ -4,7 +4,7 @@ linktitle: MaxiCodeCodetextMode2
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetextMode2 class. Class for encoding and decoding the text embedded in the MaxiCode code for modes 2 in C++.'
 type: docs
-weight: 1500
+weight: 1700
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetextmode2/
 ---
 ## MaxiCodeCodetextMode2 class

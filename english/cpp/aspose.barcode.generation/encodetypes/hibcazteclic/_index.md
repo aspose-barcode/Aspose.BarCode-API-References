@@ -4,7 +4,7 @@ linktitle: HIBCAztecLIC
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with HIBC LIC Aztec barcode specification in C++.'
 type: docs
-weight: 8200
+weight: 8300
 url: /cpp/aspose.barcode.generation/encodetypes/hibcazteclic/
 ---
 ## HIBCAztecLIC field

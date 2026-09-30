@@ -4,7 +4,7 @@ linktitle: GS1CodablockF
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with GS1 Codablock-F barcode specification. The codetext must contains parentheses for AI in C++.'
 type: docs
-weight: 7800
+weight: 7900
 url: /cpp/aspose.barcode.generation/encodetypes/gs1codablockf/
 ---
 ## GS1CodablockF field

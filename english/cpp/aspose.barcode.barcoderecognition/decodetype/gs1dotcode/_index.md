@@ -4,7 +4,7 @@ linktitle: GS1DotCode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with GS1 DotCode barcode specification in C++.'
 type: docs
-weight: 7800
+weight: 7900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/gs1dotcode/
 ---
 ## GS1DotCode field

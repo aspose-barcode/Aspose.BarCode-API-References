@@ -4,7 +4,7 @@ linktitle: BarCodeImageFormat
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Specifies the file format of the image in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.barcode.generation/barcodeimageformat/
 ---
 ## BarCodeImageFormat enum

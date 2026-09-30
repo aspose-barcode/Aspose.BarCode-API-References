@@ -94,6 +94,7 @@ public static class DecodeType
 | static readonly [ItalianPost25](../../aspose.barcode.barcoderecognition/decodetype/italianpost25/) | Specifies that the data should be decoded with **Italian Post 25** barcode specification |
 | static readonly [ITF14](../../aspose.barcode.barcoderecognition/decodetype/itf14/) | Specifies that the data should be decoded with **ITF14** barcode specification |
 | static readonly [ITF6](../../aspose.barcode.barcoderecognition/decodetype/itf6/) | Specifies that the data should be decoded with **ITF6** barcode specification |
+| static readonly [JapanPost](../../aspose.barcode.barcoderecognition/decodetype/japanpost/) | Specifies that the data should be decoded with **Japan Post** barcode specification |
 | static readonly [MacroPdf417](../../aspose.barcode.barcoderecognition/decodetype/macropdf417/) | Specifies that the data should be decoded with **MacroPdf417** barcode specification |
 | static readonly [Mailmark](../../aspose.barcode.barcoderecognition/decodetype/mailmark/) | Specifies that the data should be decoded with **Royal Mail Mailmark** barcode specification. |
 | static readonly [Matrix2of5](../../aspose.barcode.barcoderecognition/decodetype/matrix2of5/) | Specifies that the data should be decoded with **Matrix 2 of 5** barcode specification |
@@ -110,7 +111,7 @@ public static class DecodeType
 | static readonly [Pdf417](../../aspose.barcode.barcoderecognition/decodetype/pdf417/) | Specifies that the data should be decoded with **Pdf417** barcode symbology |
 | static readonly [Pharmacode](../../aspose.barcode.barcoderecognition/decodetype/pharmacode/) | Specifies that the data should be decoded with **Pharmacode** barcode. This symbology is also known as Pharmaceutical Binary Code |
 | static readonly [Planet](../../aspose.barcode.barcoderecognition/decodetype/planet/) | Specifies that the data should be decoded with **Planet** barcode specification |
-| static readonly [PostalTypes](../../aspose.barcode.barcoderecognition/decodetype/postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX** |
+| static readonly [PostalTypes](../../aspose.barcode.barcoderecognition/decodetype/postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, JapanPost, OneCode, RM4SCC, DutchKIX** |
 | static readonly [Postnet](../../aspose.barcode.barcoderecognition/decodetype/postnet/) | Specifies that the data should be decoded with **Postnet** barcode specification |
 | static readonly [PZN](../../aspose.barcode.barcoderecognition/decodetype/pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported. |
 | static readonly [QR](../../aspose.barcode.barcoderecognition/decodetype/qr/) | Specifies that the data should be decoded with **QR Code** barcode specification |

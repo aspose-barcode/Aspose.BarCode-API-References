@@ -4,7 +4,7 @@ linktitle: DutchKIX
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with Dutch KIX barcode specification in C++.'
 type: docs
-weight: 7400
+weight: 7500
 url: /cpp/aspose.barcode.generation/encodetypes/dutchkix/
 ---
 ## DutchKIX field

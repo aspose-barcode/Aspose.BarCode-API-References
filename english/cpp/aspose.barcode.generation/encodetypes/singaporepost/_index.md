@@ -4,7 +4,7 @@ linktitle: SingaporePost
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with Singapore Post Barcode barcode specification in C++.'
 type: docs
-weight: 6800
+weight: 6900
 url: /cpp/aspose.barcode.generation/encodetypes/singaporepost/
 ---
 ## SingaporePost field

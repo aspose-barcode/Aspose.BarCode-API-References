@@ -4,7 +4,7 @@ linktitle: CodablockF
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with Codablock-F barcode specification in C++.'
 type: docs
-weight: 7700
+weight: 7800
 url: /cpp/aspose.barcode.generation/encodetypes/codablockf/
 ---
 ## CodablockF field

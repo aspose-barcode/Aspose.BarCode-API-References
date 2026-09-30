@@ -3,7 +3,7 @@ title: BarCodeReader
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/barcodereader/
+url: /aspose.barcode.barcoderecognition/barcodereader/
 ---
 
 ## BarCodeReader class
@@ -28,6 +28,13 @@ The BarCodeReader type exposes the following members:
 |BarCodeReader(stream)|Initializes a new instance of the BarCodeReader class|
 |BarCodeReader(stream, type)|Initializes a new instance of the BarCodeReader class|
 |BarCodeReader(stream, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, areas, type)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, areas, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, area, type)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, area, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, type)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame, decode_types)|Initializes a new instance of the BarCodeReader class|
+|BarCodeReader(frame)|Initializes a new instance of the BarCodeReader class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -37,22 +44,25 @@ The BarCodeReader type exposes the following members:
 |found_count|Gets recognized barcodes count|
 |quality_settings|QualitySettings allows to configure recognition quality and speed manually.<br/>            You can quickly set up QualitySettings by embedded presets: HighPerformance, NormalQuality, <br/>            HighQuality, MaxBarCodes or you can manually configure separate options.<br/>            Default value of QualitySettings is NormalQuality.|
 |barcode_settings|The main BarCode decoding parameters. Contains parameters which make influence on recognized data.|
+|bar_code_read_type|Gets or sets the barcode decode type used for recognition.<br/>            Must be set before calling [None](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/).|
 ## Methods
 | Name | Description |
 | :- | :- |
-|set_bar_code_image(value)|Sets bitmap image for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_image(value, areas)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_image(value, area)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(value)|  |
+|set_bar_code_image(value, areas)|  |
+|set_bar_code_image(value, area)|  |
 |set_bar_code_image(filename)|Sets image file for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(stream)|Sets image stream for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_read_type(barcode_types)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_read_type(type)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(frame, area)|  |
+|set_bar_code_image(frame, areas)|  |
+|set_bar_code_image(frame)|Sets the luminance frame and area for recognition. Must be called before the [None](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/) method.|
 |export_to_xml(xml_file)|Exports BarCode properties to the xml-file specified|
 |export_to_xml(xml_stream)|Exports BarCode properties to the xml-stream specified|
 |import_from_xml(xml_file)|Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance.|
 |import_from_xml(xml_stream)|Imports BarCode properties from the xml-stream specified and applies them to the current BarCodeReader instance.|
 |abort()|Function requests termination of current recognition session from other thread. Abort is unblockable method and returns control just after calling. <br/>            The method should be used when recognition process is too long.|
 |read_bar_codes()|Reads [BarCodeResult](/barcode/python-net/aspose.barcode.barcoderecognition/barcoderesult/)s from the image.|
+|set_bar_code_read_type(barcode_types)|Sets [SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/) type array for recognition. <br/>            Must be called before ReadBarCodes() method.|
 
 ### See Also
 

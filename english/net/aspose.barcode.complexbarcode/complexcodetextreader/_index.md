@@ -3,7 +3,7 @@ title: Class ComplexCodetextReader
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.ComplexCodetextReader class. ComplexCodetextReader decodes codetext to specified complex barcode type
 type: docs
-weight: 450
+weight: 500
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/
 ---
 ## ComplexCodetextReader class
@@ -18,6 +18,8 @@ public sealed class ComplexCodetextReader
 
 | Name | Description |
 | --- | --- |
+| static [TryDecodeGS1Codetext](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodegs1codetext/)(string) | Decodes GS1 codetext. |
+| static [TryDecodeGS1DigitalLink](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodegs1digitallink/)(string) | Decodes GS1 Digital Link. |
 | static [TryDecodeHIBCLIC](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodehibclic/)(string) | Decodes HIBC LIC codetext. |
 | static [TryDecodeHIBCPAS](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodehibcpas/)(string) | Decodes HIBC PAS codetext. |
 | static [TryDecodeMailmark](../../aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark/)(string) | Decodes Mailmark Barcode C and L codetext. |

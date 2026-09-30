@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeMaxiCode
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes MaxiCode codetext
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemaxicode/
 ---
 ## ComplexCodetextReader.TryDecodeMaxiCode method

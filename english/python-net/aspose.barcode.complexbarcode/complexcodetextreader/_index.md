@@ -3,7 +3,7 @@ title: ComplexCodetextReader
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/complexcodetextreader/
+url: /aspose.barcode.complexbarcode/complexcodetextreader/
 ---
 
 ## ComplexCodetextReader class
@@ -21,6 +21,8 @@ The ComplexCodetextReader type exposes the following members:
 |try_decode_hibclic(encoded_codetext)|Decodes HIBC LIC codetext.|
 |try_decode_hibcpas(encoded_codetext)|Decodes HIBC PAS codetext.|
 |try_decode_usa_drive_id(encoded_codetext)|Decodes USADriveId codetext.|
+|try_decode_gs1_codetext(encoded_codetext)|Decodes GS1 codetext.|
+|try_decode_gs1_digital_link(encoded_codetext)|Decodes GS1 Digital Link.|
 
 ### See Also
 

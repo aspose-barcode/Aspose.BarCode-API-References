@@ -4,7 +4,7 @@ linktitle: AllSupportedTypes
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that data will be checked with all available symbologies in C++.'
 type: docs
-weight: 9800
+weight: 9900
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/allsupportedtypes/
 ---
 ## AllSupportedTypes field

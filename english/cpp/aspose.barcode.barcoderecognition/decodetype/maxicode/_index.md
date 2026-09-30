@@ -4,7 +4,7 @@ linktitle: MaxiCode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with MaxiCode barcode specification in C++.'
 type: docs
-weight: 7300
+weight: 7400
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/maxicode/
 ---
 ## MaxiCode field

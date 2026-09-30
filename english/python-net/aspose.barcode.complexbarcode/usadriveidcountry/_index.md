@@ -3,7 +3,7 @@ title: USADriveIdCountry
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/usadriveidcountry/
+url: /aspose.barcode.complexbarcode/usadriveidcountry/
 ---
 
 ## USADriveIdCountry enumeration

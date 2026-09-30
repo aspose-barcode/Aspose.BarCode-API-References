@@ -4,7 +4,7 @@ linktitle: HIBCLICComplexCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::HIBCLICComplexCodetext class. Base class for encoding and decoding the text embedded in the HIBC LIC code in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.barcode.complexbarcode/hibcliccomplexcodetext/
 ---
 ## HIBCLICComplexCodetext class

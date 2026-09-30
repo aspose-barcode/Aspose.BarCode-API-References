@@ -37,6 +37,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [ExtCodetextBuilder](./extcodetextbuilder/) | Helper class for automatic codetext generation of the Extended Codetext Mode |
 | [FontUnit](./fontunit/) | Defines a particular format for text, including font face, size, and style attributes where size in Unit value property. |
 | [GS1CompositeBarParameters](./gs1compositebarparameters/) | GS1 Composite bar parameters. |
+| [GS1Parameters](./gs1parameters/) | GS1 parameters. |
 | [HanXinExtCodetextBuilder](./hanxinextcodetextbuilder/) | Extended codetext generator for Han Xin Code for Extended Mode of EncodeMode |
 | [HanXinParameters](./hanxinparameters/) | Han Xin parameters. |
 | [HslaColor](./hslacolor/) | Class for representing HSLA color (Hue, Saturation, Lightness, Alpha) |
@@ -77,6 +78,7 @@ The **Aspose.BarCode.Generation** containing general classes for the implementat
 | [ECIEncodings](./eciencodings/) | Extended Channel Interpretation Identifiers. It is used to tell the barcode reader details about the used references for encoding the data in the symbol. |
 | [EnableChecksum](./enablechecksum/) | Enable checksum during generation for 1D barcodes. |
 | [FontMode](./fontmode/) | Font size mode. |
+| [GS1ValidationLevel](./gs1validationlevel/) | Specifies the level of GS1 data validation. Higher validation levels include all checks from lower levels. |
 | [HanXinEncodeMode](./hanxinencodemode/) | Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters. |
 | [HanXinErrorLevel](./hanxinerrorlevel/) | Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4. |
 | [HanXinVersion](./hanxinversion/) | Version of Han Xin Code. From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side. |

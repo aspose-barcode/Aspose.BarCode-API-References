@@ -3,7 +3,7 @@ title: BarCodeRegionParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/barcoderegionparameters/
+url: /aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 
 ## BarCodeRegionParameters class
@@ -16,7 +16,7 @@ The BarCodeRegionParameters type exposes the following members:
 | :- | :- |
 |quadrangle|Gets [Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/) bounding barcode region|
 |angle|Gets the angle of the barcode (0-360).|
-|points|Gets s array bounding barcode region|
+|points|Gets [Point](/barcode/python-net/aspose.drawing/point/)s array bounding barcode region|
 |rectangle|Gets  bounding barcode region|
 
 ### See Also

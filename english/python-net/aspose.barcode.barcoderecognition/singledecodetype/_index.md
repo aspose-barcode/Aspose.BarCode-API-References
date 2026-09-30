@@ -3,7 +3,7 @@ title: SingleDecodeType
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/singledecodetype/
+url: /aspose.barcode.barcoderecognition/singledecodetype/
 ---
 
 ## SingleDecodeType class

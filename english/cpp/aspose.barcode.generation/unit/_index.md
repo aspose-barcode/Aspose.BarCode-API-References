@@ -4,7 +4,7 @@ linktitle: Unit
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Unit class. Specifies the size value in different units (Pixel, Inches, etc.) in C++.'
 type: docs
-weight: 4900
+weight: 5000
 url: /cpp/aspose.barcode.generation/unit/
 ---
 ## Unit class

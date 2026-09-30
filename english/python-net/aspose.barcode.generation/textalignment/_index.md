@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/textalignment/
+url: /aspose.barcode.generation/textalignment/
 ---
 
 ## TextAlignment enumeration

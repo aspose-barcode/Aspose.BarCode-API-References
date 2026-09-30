@@ -3,7 +3,7 @@ title: DecodeType.PZN
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with PZN barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.barcode.barcoderecognition/decodetype/pzn/
 ---
 ## DecodeType.PZN field

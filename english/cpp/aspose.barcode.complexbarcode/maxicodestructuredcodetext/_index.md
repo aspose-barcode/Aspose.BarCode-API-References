@@ -4,7 +4,7 @@ linktitle: MaxiCodeStructuredCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext class. Base class for encoding and decoding the text embedded in the MaxiCode code for modes 2 and 3 in C++.'
 type: docs
-weight: 2000
+weight: 2200
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredcodetext/
 ---
 ## MaxiCodeStructuredCodetext class

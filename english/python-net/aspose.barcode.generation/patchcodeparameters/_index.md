@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/patchcodeparameters/
+url: /aspose.barcode.generation/patchcodeparameters/
 ---
 
 ## PatchCodeParameters class
@@ -16,6 +16,7 @@ The PatchCodeParameters type exposes the following members:
 | :- | :- |
 |extra_barcode_text|Specifies codetext for an extra QR barcode, when PatchCode is generated in page mode.|
 |format|PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders.<br/>            Default value: PatchFormat.PatchOnly|
+|patch_format|PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders.<br/>            Default value: PatchFormat.PatchOnly|
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: RM4SCC
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with RM4SCC barcode specification. RM4SCC (Royal Mail 4-state Customer Code) is used for automated mail sort process in UK in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/rm4scc/
 ---
 ## RM4SCC field

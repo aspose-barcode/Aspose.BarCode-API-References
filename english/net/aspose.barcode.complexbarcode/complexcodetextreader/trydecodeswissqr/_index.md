@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeSwissQR
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes SwissQR codetext
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr/
 ---
 ## ComplexCodetextReader.TryDecodeSwissQR method

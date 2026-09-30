@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.AddNumeric
 second_title: Aspose.BarCode for .NET API Reference
 description: HanXinExtCodetextBuilder method. Adds codetext fragment in Numeric mode
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.barcode.generation/hanxinextcodetextbuilder/addnumeric/
 ---
 ## HanXinExtCodetextBuilder.AddNumeric method

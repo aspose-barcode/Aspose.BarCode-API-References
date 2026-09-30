@@ -3,7 +3,7 @@ title: aspose.barcode.barcoderecognition
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/
+url: /aspose.barcode.barcoderecognition/
 ---
 
 
@@ -30,12 +30,13 @@ Contains tools for the 1D/2D barcodes recognition.
 |[DecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/decodetype/)|Specify the type of barcode to read.|
 |[DotCodeExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/)|Stores special data of DotCode recognized barcode|
 |[GS1CompositeBarExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/)|Stores special data of GS1 Composite Bar recognized barcode|
+|[LuminanceFrame](/barcode/python-net/aspose.barcode.barcoderecognition/luminanceframe/)|Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value.|
 |[MaxiCodeExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/)|Stores a MaxiCode additional information of recognized barcode|
 |[MultiDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multidecodetype/)|Composite decode type.|
 |[OneDExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/onedextendedparameters/)|Stores special data of 1D recognized barcode like separate codetext and checksum|
 |[Pdf417ExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/pdf417extendedparameters/)|Stores a MacroPdf417 metadata information of recognized barcode|
 |[QRExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/qrextendedparameters/)|Stores a QR Structured Append information of recognized barcode|
-|[Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/)|Stores a set of four s that represent a [Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/) region.|
+|[Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/)|Stores a set of four [Point](/barcode/python-net/aspose.drawing/point/)s that represent a [Quadrangle](/barcode/python-net/aspose.barcode.barcoderecognition/quadrangle/) region.|
 |[QualitySettings](/barcode/python-net/aspose.barcode.barcoderecognition/qualitysettings/)|QualitySettings allows to configure recognition quality and speed manually.<br/>            You can quickly set up QualitySettings with embedded presets: HighPerformance, NormalQuality, HighQuality, MaxQuality or you can manually configure separate options.<br/>            Default value of QualitySettings is NormalQuality.|
 |[SingleDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/singledecodetype/)|Single decode type. See decode type to get instance.|
 ## Enumerations

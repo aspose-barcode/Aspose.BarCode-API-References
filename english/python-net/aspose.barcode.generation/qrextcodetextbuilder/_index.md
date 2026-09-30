@@ -3,7 +3,7 @@ title: QrExtCodetextBuilder
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/qrextcodetextbuilder/
+url: /aspose.barcode.generation/qrextcodetextbuilder/
 ---
 
 ## QrExtCodetextBuilder class
@@ -25,6 +25,7 @@ The QrExtCodetextBuilder type exposes the following members:
 |add_fnc1_first_position()|Sets FNC1 in first position. If another FNC1 mode was set before, it is replaced.|
 |add_fnc1_second_position(codetext)|Sets FNC1 in second position. If another FNC1 mode was set before, it is replaced.|
 |add_fnc1_group_separator()|Adds Group Separator (GS - '\\u001D') to the extended codetext items|
+|add_codetext_with_compaction_mode(mode, codetext)|Adds codetext with the specified QR compaction mode to the extended codetext items.|
 
 ### See Also
 

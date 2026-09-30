@@ -3,7 +3,7 @@ title: SwissQRCodetext
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/swissqrcodetext/
+url: /aspose.barcode.complexbarcode/swissqrcodetext/
 ---
 
 ## SwissQRCodetext class

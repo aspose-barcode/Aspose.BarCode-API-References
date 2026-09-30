@@ -4,7 +4,7 @@ linktitle: SwissQRBill
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill class. SwissQR bill data in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/
 ---
 ## SwissQRBill class

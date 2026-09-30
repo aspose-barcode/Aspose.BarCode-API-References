@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeHIBCPAS
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes HIBC PAS codetext
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodehibcpas/
 ---
 ## ComplexCodetextReader.TryDecodeHIBCPAS method

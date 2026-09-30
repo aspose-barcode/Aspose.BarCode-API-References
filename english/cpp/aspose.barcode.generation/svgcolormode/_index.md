@@ -4,7 +4,7 @@ linktitle: SvgColorMode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1. RGBA, HSL, HSLA is allowed in SVG 2.0 standard. Even in RGB opacity will be set through "fill-opacity" parameter in C++.'
 type: docs
-weight: 8300
+weight: 8500
 url: /cpp/aspose.barcode.generation/svgcolormode/
 ---
 ## SvgColorMode enum

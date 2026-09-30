@@ -4,7 +4,7 @@ linktitle: HIBCDataMatrixLIC
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with HIBC LIC DataMatrix barcode specification in C++.'
 type: docs
-weight: 8300
+weight: 8400
 url: /cpp/aspose.barcode.generation/encodetypes/hibcdatamatrixlic/
 ---
 ## HIBCDataMatrixLIC field

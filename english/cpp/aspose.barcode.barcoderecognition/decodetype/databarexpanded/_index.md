@@ -4,7 +4,7 @@ linktitle: DatabarExpanded
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with GS1 Databar expanded barcode specification in C++.'
 type: docs
-weight: 5900
+weight: 6000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/databarexpanded/
 ---
 ## DatabarExpanded field

@@ -18,6 +18,8 @@ url: /cpp/aspose.barcode.complexbarcode/
 | [AlternativeScheme](./alternativescheme/) | Alternative payment scheme instructions |
 | [ComplexBarcodeGenerator](./complexbarcodegenerator/) | [ComplexBarcodeGenerator](./complexbarcodegenerator/) for backend complex barcode (e.g. SwissQR) images generation. |
 | [ComplexCodetextReader](./complexcodetextreader/) | [ComplexCodetextReader](./complexcodetextreader/) decodes codetext to specified complex barcode type. |
+| [GS1Codetext](./gs1codetext/) | Represents GS1 codetext for encoding and decoding as an ordered sequence of Application Identifier elements. Source order and repeated Application Identifiers are preserved. The bracketed representation has the form (AI)value(AI)value. A literal opening parenthesis '(' inside a value must be written as (; this is the only supported escape sequence. A closing parenthesis ')' inside a value does not require escaping. |
+| [GS1DigitalLink](./gs1digitallink/) | Represents GS1 Digital Link codetext for encoding and decoding as an ordered sequence of Application Identifier elements. Source order and repeated Application Identifiers are preserved. The constructed codetext is an uncompressed GS1 Digital Link URI. Non-GS1 query parameters and URI fragments are ignored when parsing. |
 | [HIBCLICCombinedCodetext](./hibcliccombinedcodetext/) | Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data. |
 | [HIBCLICComplexCodetext](./hibcliccomplexcodetext/) | Base class for encoding and decoding the text embedded in the HIBC LIC code. |
 | [HIBCLICPrimaryDataCodetext](./hibclicprimarydatacodetext/) | Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data. |

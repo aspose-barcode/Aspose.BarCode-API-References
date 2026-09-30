@@ -3,7 +3,7 @@ title: Code128Parameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/code128parameters/
+url: /aspose.barcode.generation/code128parameters/
 ---
 
 ## Code128Parameters class

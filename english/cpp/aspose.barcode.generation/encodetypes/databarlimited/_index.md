@@ -4,7 +4,7 @@ linktitle: DatabarLimited
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Represents GS1 Databar limited barcode in C++.'
 type: docs
-weight: 6300
+weight: 6400
 url: /cpp/aspose.barcode.generation/encodetypes/databarlimited/
 ---
 ## DatabarLimited field

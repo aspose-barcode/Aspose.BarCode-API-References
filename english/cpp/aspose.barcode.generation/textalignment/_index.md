@@ -4,7 +4,7 @@ linktitle: TextAlignment
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Text alignment in C++.'
 type: docs
-weight: 8400
+weight: 8600
 url: /cpp/aspose.barcode.generation/textalignment/
 ---
 ## TextAlignment enum

@@ -3,7 +3,7 @@ title: Class EncodeTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.EncodeTypes class. Specifies the type of barcode to encode
 type: docs
-weight: 1200
+weight: 1270
 url: /net/aspose.barcode.generation/encodetypes/
 ---
 ## EncodeTypes class
@@ -88,6 +88,7 @@ public static class EncodeTypes
 | static readonly [ItalianPost25](../../aspose.barcode.generation/encodetypes/italianpost25/) | Represents Italian Post 25 barcode. |
 | static readonly [ITF14](../../aspose.barcode.generation/encodetypes/itf14/) | Specifies that the data should be encoded with **ITF14** barcode specification |
 | static readonly [ITF6](../../aspose.barcode.generation/encodetypes/itf6/) | Represents ITF-6 Barcode. |
+| static readonly [JapanPost](../../aspose.barcode.generation/encodetypes/japanpost/) | Represents Japan Post BarCode |
 | static readonly [MacroPdf417](../../aspose.barcode.generation/encodetypes/macropdf417/) | Specifies that the data should be encoded with **MacroPdf417** barcode specification |
 | static readonly [Mailmark](../../aspose.barcode.generation/encodetypes/mailmark/) | Represents Royal Mail Mailmark barcode. |
 | static readonly [Matrix2of5](../../aspose.barcode.generation/encodetypes/matrix2of5/) | Represents Matrix 2 of 5 BarCode |

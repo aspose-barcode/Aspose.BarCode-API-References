@@ -4,7 +4,7 @@ linktitle: USADriveIdCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext class. Class for encoding and decoding the text embedded in the USA Driving License PDF417 code in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/
 ---
 ## USADriveIdCodetext class

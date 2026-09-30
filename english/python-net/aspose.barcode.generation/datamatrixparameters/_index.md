@@ -3,7 +3,7 @@ title: DataMatrixParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/datamatrixparameters/
+url: /aspose.barcode.generation/datamatrixparameters/
 ---
 
 ## DataMatrixParameters class
@@ -15,7 +15,6 @@ The DataMatrixParameters type exposes the following members:
 | Name | Description |
 | :- | :- |
 |ecc_type|Gets or sets a Datamatrix ECC type.<br/>            Default value: DataMatrixEccType.Ecc200.|
-|data_matrix_ecc|  |
 |version|Gets or sets a Datamatrix symbol size.<br/>            Default value: Version.Auto.|
 |encode_mode|Encode mode of Datamatrix barcode.<br/>            Default value: EncodeMode.Auto.|
 |structured_append_barcode_id|Barcode ID for Structured Append mode of Datamatrix barcode.<br/>            Default value: 0|
@@ -23,8 +22,6 @@ The DataMatrixParameters type exposes the following members:
 |structured_append_file_id|File ID for Structured Append mode of Datamatrix barcode.<br/>            Default value: 0|
 |is_reader_programming|Used to instruct the reader to interpret the data contained within the symbol<br/>            as programming for reader initialization.<br/>            Default value: false|
 |macro_characters|Macro Characters 05 and 06 values are used to obtain more compact encoding in special modes.<br/>            Can be used only with DataMatrixEccType.Ecc200 or DataMatrixEccType.EccAuto.<br/>            Cannot be used with EncodeTypes.GS1DataMatrix<br/>            Default value: MacroCharacters.None.|
-|columns|  |
-|rows|  |
 |aspect_ratio|Height/Width ratio of 2D BarCode module.|
 |eci_encoding|Gets or sets ECI encoding. Used when EncodeMode is Auto.<br/>            Default value: ISO-8859-1|
 

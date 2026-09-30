@@ -4,7 +4,7 @@ linktitle: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::HanXinExtCodetextBuilder class in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 ## HanXinExtCodetextBuilder class
@@ -27,7 +27,6 @@ class HanXinExtCodetextBuilder : public System::Object
 | [AddECI](./addeci/)(System::String, int32_t) | Adds codetext fragment in ECI mode |
 | [AddGB18030FourByte](./addgb18030fourbyte/)(System::String) | Adds codetext fragment in GB18030 Four Byte mode |
 | [AddGB18030TwoByte](./addgb18030twobyte/)(System::String) | Adds codetext fragment in GB18030 Two Byte mode |
-| [AddGS1](./addgs1/)(System::String) | Adds codetext fragment in GS1 mode |
 | [AddNumeric](./addnumeric/)(System::String) | Adds codetext fragment in Numeric mode |
 | [AddText](./addtext/)(System::String) | Adds codetext fragment in Text mode |
 | [AddUnicode](./addunicode/)(System::String) | Adds codetext fragment in Unicode mode |
@@ -55,10 +54,8 @@ codeTextBuilder.AddUnicode("ıntəˈnæʃənəl");
 codeTextBuilder.AddECI("ΑΒΓΔΕ", 9);
 codeTextBuilder.AddAuto("abc");
 codeTextBuilder.AddBinary("abc");
-codeTextBuilder.AddURI(@"backslashes_should_be_doubled\000555:test");
-codeTextBuilder.AddGS1(@"(01)03453120000011(17)191125(10)ABCD1234(21)10");
 
-var expectedStr = @"漄㐁全螅123qweıntəˈnæʃənəlΑΒΓΔΕabcabcbackslashes_should_be_doubled\000555:test(01)03453120000011(17)191125(10)ABCD1234(21)10";
+var expectedStr = @"漄㐁全螅123qweıntəˈnæʃənəlΑΒΓΔΕabcabc";
 
 //generate codetext
 var str = codeTextBuilder.GetExtendedCodetext();

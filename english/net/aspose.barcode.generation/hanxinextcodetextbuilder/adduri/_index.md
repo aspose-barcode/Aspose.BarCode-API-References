@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.AddURI
 second_title: Aspose.BarCode for .NET API Reference
 description: HanXinExtCodetextBuilder method. Adds codetext fragment in URI mode
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.barcode.generation/hanxinextcodetextbuilder/adduri/
 ---
 ## HanXinExtCodetextBuilder.AddURI method

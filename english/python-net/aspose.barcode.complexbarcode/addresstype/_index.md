@@ -3,7 +3,7 @@ title: AddressType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/addresstype/
+url: /aspose.barcode.complexbarcode/addresstype/
 ---
 
 ## AddressType enumeration
