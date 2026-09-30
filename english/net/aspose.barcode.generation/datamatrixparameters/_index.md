@@ -3,7 +3,7 @@ title: Class DataMatrixParameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.DataMatrixParameters class. DataMatrix parameters
 type: docs
-weight: 1130
+weight: 1200
 url: /net/aspose.barcode.generation/datamatrixparameters/
 ---
 ## DataMatrixParameters class

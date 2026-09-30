@@ -36,6 +36,7 @@ class BarcodeParameters : public System::Object
 | [get_DataMatrix](./get_datamatrix/)() const | DataMatrix parameters. |
 | [get_DotCode](./get_dotcode/)() const | DotCode parameters. |
 | [get_FilledBars](./get_filledbars/)() const | Gets a value indicating whether bars filled. Only for 1D barcodes. Default value: true. |
+| [get_GS1](./get_gs1/)() const | GS1 parameters. |
 | [get_GS1CompositeBar](./get_gs1compositebar/)() const | GS1 Composite Bar parameters. |
 | [get_HanXin](./get_hanxin/)() const | HanXin parameters. |
 | [get_IsChecksumEnabled](./get_ischecksumenabled/)() const |  |

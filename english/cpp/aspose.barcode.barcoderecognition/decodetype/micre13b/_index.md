@@ -4,7 +4,7 @@ linktitle: MicrE13B
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with MICR E-13B barcode specification in C++.'
 type: docs
-weight: 7400
+weight: 7500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/micre13b/
 ---
 ## MicrE13B field

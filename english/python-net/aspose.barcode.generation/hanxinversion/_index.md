@@ -3,7 +3,7 @@ title: HanXinVersion
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/hanxinversion/
+url: /aspose.barcode.generation/hanxinversion/
 ---
 
 ## HanXinVersion enumeration

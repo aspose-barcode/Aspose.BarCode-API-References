@@ -4,7 +4,7 @@ linktitle: Code16K
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with SCode16K barcode specification in C++.'
 type: docs
-weight: 6900
+weight: 7000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/code16k/
 ---
 ## Code16K field

@@ -3,7 +3,7 @@ title: DataMatrixVersion
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/datamatrixversion/
+url: /aspose.barcode.generation/datamatrixversion/
 ---
 
 ## DataMatrixVersion enumeration
@@ -14,7 +14,6 @@ Specify the type of the ECC to encode.
 | Member name | Description |
 | :- | :- |
 |AUTO|Specifies to automatically pick up the smallest size for DataMatrix.<br/>            This is default value.|
-|ROWS_COLUMNS||
 |ECC000_9X9|Specifies size of 9 x 9 modules for ECC000 type.|
 |ECC000_050_11X11|Specifies size of 11 x 11 modules for ECC000-ECC050 types.|
 |ECC000_100_13X13|Specifies size of 13 x 13 modules for ECC000-ECC100 types.|

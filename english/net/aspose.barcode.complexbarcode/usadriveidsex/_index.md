@@ -3,7 +3,7 @@ title: Enum USADriveIdSex
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.USADriveIdSex enum. Enum for Sex field in the US Drivers License
 type: docs
-weight: 810
+weight: 880
 url: /net/aspose.barcode.complexbarcode/usadriveidsex/
 ---
 ## USADriveIdSex enumeration

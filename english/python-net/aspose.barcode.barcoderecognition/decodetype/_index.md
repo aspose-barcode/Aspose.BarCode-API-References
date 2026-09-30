@@ -3,7 +3,7 @@ title: DecodeType
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/decodetype/
+url: /aspose.barcode.barcoderecognition/decodetype/
 ---
 
 ## DecodeType class
@@ -56,6 +56,7 @@ The DecodeType type exposes the following members:
 |GS1_MICRO_PDF_417|Specifies that the data should be decoded with MicroPdf417 barcode specification|
 |CODABLOCK_F|Specifies that the data should be decoded with CodablockF barcode specification|
 |AUSTRALIA_POST|Specifies that the data should be decoded with Australia Post barcode specification|
+|JAPAN_POST|Specifies that the data should be decoded with Japan Post barcode specification|
 |POSTNET|Specifies that the data should be decoded with Postnet barcode specification|
 |PLANET|Specifies that the data should be decoded with Planet barcode specification|
 |ONE_CODE|Specifies that the data should be decoded with USPS OneCode barcode specification|
@@ -101,7 +102,7 @@ The DecodeType type exposes the following members:
 |RECT_MICRO_QR|Specifies that the data should be decoded with RectMicroQR (rMQR) Code barcode specification|
 |TYPES_1D|Specifies that data will be checked with all of 1D barcode symbologies|
 |TYPES_2D|Specifies that data will be checked with all of 2D barcode symbologies|
-|POSTAL_TYPES|Specifies that data will be checked with all of 1.5D Postal barcode symbologies, like Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX|
+|POSTAL_TYPES|Specifies that data will be checked with all of 1.5D Postal barcode symbologies, like Planet, Postnet, AustraliaPost, JapanPost, OneCode, RM4SCC, DutchKIX|
 |MOST_COMMON_TYPES|Specifies that data will be checked with most commonly used symbologies|
 |ALL_SUPPORTED_TYPES|Specifies that data will be checked with all available symbologies|
 ## Methods

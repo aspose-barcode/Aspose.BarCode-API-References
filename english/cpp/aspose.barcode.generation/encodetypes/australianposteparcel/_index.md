@@ -4,7 +4,7 @@ linktitle: AustralianPosteParcel
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with Australian Post Domestic eParcel Barcode barcode specification in C++.'
 type: docs
-weight: 6900
+weight: 7000
 url: /cpp/aspose.barcode.generation/encodetypes/australianposteparcel/
 ---
 ## AustralianPosteParcel field

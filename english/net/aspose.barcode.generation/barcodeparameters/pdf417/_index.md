@@ -3,7 +3,7 @@ title: BarcodeParameters.Pdf417
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeParameters property. PDF417 parameters
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.barcode.generation/barcodeparameters/pdf417/
 ---
 ## BarcodeParameters.Pdf417 property

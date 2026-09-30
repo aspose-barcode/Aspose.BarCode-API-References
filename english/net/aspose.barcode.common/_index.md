@@ -12,6 +12,15 @@ The **BarCode.Common** contains common features and helper tools to maintain the
 
 | Class | Description |
 | --- | --- |
+| [GS1Element](./gs1element/) | Represents one immutable GS1 Application Identifier and value pair. |
+| [GS1ValidationException](./gs1validationexception/) | The exception that is thrown by strict GS1 operations when validation fails. |
+| [GS1ValidationIssue](./gs1validationissue/) | Describes one GS1 validation error. |
+| [GS1ValidationResult](./gs1validationresult/) | Contains all independently detectable errors for a GS1 element string, Digital Link URI or one AI value. |
 | [ProcessorSettings](./processorsettings/) | ProcessorSettings allow to recognize barcodes with multi-threaded increasing of performance |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [GS1ValidationErrorCode](./gs1validationerrorcode/) | Identifies a GS1 element string, Digital Link URI or value validation error. |
 
 

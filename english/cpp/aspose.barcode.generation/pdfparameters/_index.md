@@ -4,7 +4,7 @@ linktitle: PdfParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::PdfParameters class. PDF parameters in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.barcode.generation/pdfparameters/
 ---
 ## PdfParameters class

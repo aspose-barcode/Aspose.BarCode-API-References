@@ -4,7 +4,7 @@ linktitle: GS1QR
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with GS1 QR barcode specification in C++.'
 type: docs
-weight: 7200
+weight: 7300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/gs1qr/
 ---
 ## GS1QR field

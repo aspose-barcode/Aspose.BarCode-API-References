@@ -3,7 +3,7 @@ title: QRErrorLevel
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/qrerrorlevel/
+url: /aspose.barcode.generation/qrerrorlevel/
 ---
 
 ## QRErrorLevel enumeration

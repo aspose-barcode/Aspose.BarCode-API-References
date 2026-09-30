@@ -4,7 +4,7 @@ linktitle: PatchcodeConst
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::PatchcodeConst class in C++.'
 type: docs
-weight: 3700
+weight: 3800
 url: /cpp/aspose.barcode.generation/patchcodeconst/
 ---
 ## PatchcodeConst class

@@ -4,7 +4,7 @@ linktitle: HIBCPASDataType
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. HIBC PAS record''s data types in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.barcode.complexbarcode/hibcpasdatatype/
 ---
 ## HIBCPASDataType enum

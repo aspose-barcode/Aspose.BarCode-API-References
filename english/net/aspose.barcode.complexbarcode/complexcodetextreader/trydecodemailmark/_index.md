@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeMailmark
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes Mailmark Barcode C and L codetext
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark/
 ---
 ## ComplexCodetextReader.TryDecodeMailmark method

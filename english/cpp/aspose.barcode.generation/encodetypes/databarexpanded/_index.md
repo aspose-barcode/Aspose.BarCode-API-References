@@ -4,7 +4,7 @@ linktitle: DatabarExpanded
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Represents GS1 Databar expanded barcode in C++.'
 type: docs
-weight: 6400
+weight: 6500
 url: /cpp/aspose.barcode.generation/encodetypes/databarexpanded/
 ---
 ## DatabarExpanded field

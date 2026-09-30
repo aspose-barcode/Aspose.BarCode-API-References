@@ -4,7 +4,7 @@ linktitle: QrExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::QrExtCodetextBuilder class in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class

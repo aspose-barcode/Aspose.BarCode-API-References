@@ -4,7 +4,7 @@ linktitle: MaxiCodeExtCodetextBuilder
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::MaxiCodeExtCodetextBuilder class in C++.'
 type: docs
-weight: 3400
+weight: 3500
 url: /cpp/aspose.barcode.generation/maxicodeextcodetextbuilder/
 ---
 ## MaxiCodeExtCodetextBuilder class

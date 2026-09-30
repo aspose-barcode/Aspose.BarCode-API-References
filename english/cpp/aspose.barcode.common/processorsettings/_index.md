@@ -4,7 +4,7 @@ linktitle: ProcessorSettings
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Common::ProcessorSettings class. ProcessorSettings allow to recognize barcodes with multi-threaded increasing of performance in C++.'
 type: docs
-weight: 100
+weight: 500
 url: /cpp/aspose.barcode.common/processorsettings/
 ---
 ## ProcessorSettings class

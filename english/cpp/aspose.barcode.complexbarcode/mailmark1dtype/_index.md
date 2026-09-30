@@ -4,7 +4,7 @@ linktitle: Mailmark1DType
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Types of 4-state Mailmark Barcode in C++.'
 type: docs
-weight: 3400
+weight: 3600
 url: /cpp/aspose.barcode.complexbarcode/mailmark1dtype/
 ---
 ## Mailmark1DType enum

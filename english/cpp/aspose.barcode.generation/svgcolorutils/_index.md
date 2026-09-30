@@ -4,7 +4,7 @@ linktitle: SvgColorUtils
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Aspose::BarCode::Generation::SvgColorUtils class in C++.'
 type: docs
-weight: 4600
+weight: 4700
 url: /cpp/aspose.barcode.generation/svgcolorutils/
 ---
 ## SvgColorUtils class

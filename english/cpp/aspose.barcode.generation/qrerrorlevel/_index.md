@@ -4,7 +4,7 @@ linktitle: QRErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH in C++.'
 type: docs
-weight: 8000
+weight: 8200
 url: /cpp/aspose.barcode.generation/qrerrorlevel/
 ---
 ## QRErrorLevel enum

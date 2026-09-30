@@ -3,7 +3,7 @@ title: aspose.barcode.complexbarcode
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/
+url: /aspose.barcode.complexbarcode/
 ---
 
 
@@ -16,6 +16,8 @@ Contains general classes for the implementation of complex BarCode generation fu
 |[AlternativeScheme](/barcode/python-net/aspose.barcode.complexbarcode/alternativescheme/)|Alternative payment scheme instructions|
 |[ComplexBarcodeGenerator](/barcode/python-net/aspose.barcode.complexbarcode/complexbarcodegenerator/)|ComplexBarcodeGenerator for backend complex barcode (e.g. SwissQR) images generation.|
 |[ComplexCodetextReader](/barcode/python-net/aspose.barcode.complexbarcode/complexcodetextreader/)|ComplexCodetextReader decodes codetext to specified complex barcode type.|
+|[GS1Codetext](/barcode/python-net/aspose.barcode.complexbarcode/gs1codetext/)|Represents GS1 codetext for encoding and decoding as an ordered sequence of<br/>            Application Identifier elements. Source order and repeated Application Identifiers<br/>            are preserved. The bracketed representation has the form (AI)value(AI)value.<br/>            A literal opening parenthesis '(' inside a value must be written as \(; this is the<br/>            only supported escape sequence. A closing parenthesis ')' inside a value does not<br/>            require escaping.|
+|[GS1DigitalLink](/barcode/python-net/aspose.barcode.complexbarcode/gs1digitallink/)|Represents GS1 Digital Link codetext for encoding and decoding as an ordered sequence of<br/>            Application Identifier elements. Source order and repeated Application Identifiers are preserved.<br/>            The constructed codetext is an uncompressed GS1 Digital Link URI.<br/>            Non-GS1 query parameters and URI fragments are ignored when parsing.|
 |[HIBCLICCombinedCodetext](/barcode/python-net/aspose.barcode.complexbarcode/hibcliccombinedcodetext/)|Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary and secodary data.|
 |[HIBCLICComplexCodetext](/barcode/python-net/aspose.barcode.complexbarcode/hibcliccomplexcodetext/)|Base class for encoding and decoding the text embedded in the HIBC LIC code.|
 |[HIBCLICPrimaryDataCodetext](/barcode/python-net/aspose.barcode.complexbarcode/hibclicprimarydatacodetext/)|Class for encoding and decoding the text embedded in the HIBC LIC code which stores primary data.|

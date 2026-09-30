@@ -4,7 +4,7 @@ linktitle: HIBCPASCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext class. Class for encoding and decoding the text embedded in the HIBC PAS code in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/
 ---
 ## HIBCPASCodetext class

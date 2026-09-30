@@ -4,7 +4,7 @@ linktitle: Pdf417Parameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::Pdf417Parameters class. PDF417 parameters. Contains PDF417, MacroPDF417, MicroPDF417 and GS1MicroPdf417 parameters. MacroPDF417 requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional. MicroPDF417 in Structured Append mode (same as MacroPDF417 mode) requires two fields: Pdf417MacroFileID and Pdf417MacroSegmentID. All other fields are optional in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.barcode.generation/pdf417parameters/
 ---
 ## Pdf417Parameters class

@@ -4,7 +4,7 @@ linktitle: TwoDComponentType
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Type of 2D component in C++.'
 type: docs
-weight: 8500
+weight: 8700
 url: /cpp/aspose.barcode.generation/twodcomponenttype/
 ---
 ## TwoDComponentType enum

@@ -4,7 +4,7 @@ linktitle: IComplexCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::IComplexCodetext class. Interface for complex codetext used with ComplexBarcodeGenerator in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/icomplexcodetext/
 ---
 ## IComplexCodetext class

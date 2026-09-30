@@ -3,7 +3,7 @@ title: aspose.barcode.generation
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/
+url: /aspose.barcode.generation/
 ---
 
 
@@ -37,6 +37,7 @@ Contains general classes for the implementation of BarCode generation functions.
 |[ExtCodetextBuilder](/barcode/python-net/aspose.barcode.generation/extcodetextbuilder/)|Helper class for automatic codetext generation of the Extended Codetext Mode|
 |[FontUnit](/barcode/python-net/aspose.barcode.generation/fontunit/)|Defines a particular format for text, including font face, size, and style attributes<br/>            where size in Unit value property.|
 |[GS1CompositeBarParameters](/barcode/python-net/aspose.barcode.generation/gs1compositebarparameters/)|GS1 Composite bar parameters.|
+|[GS1Parameters](/barcode/python-net/aspose.barcode.generation/gs1parameters/)|GS1 parameters.|
 |[HanXinExtCodetextBuilder](/barcode/python-net/aspose.barcode.generation/hanxinextcodetextbuilder/)||
 |[HanXinParameters](/barcode/python-net/aspose.barcode.generation/hanxinparameters/)|Han Xin parameters.|
 |[HslaColor](/barcode/python-net/aspose.barcode.generation/hslacolor/)|Class for representing HSLA color (Hue, Saturation, Lightness, Alpha)|
@@ -76,6 +77,7 @@ Contains general classes for the implementation of BarCode generation functions.
 |[ECIEncodings](/barcode/python-net/aspose.barcode.generation/eciencodings/)||
 |[EnableChecksum](/barcode/python-net/aspose.barcode.generation/enablechecksum/)||
 |[FontMode](/barcode/python-net/aspose.barcode.generation/fontmode/)|Font size mode.|
+|[GS1ValidationLevel](/barcode/python-net/aspose.barcode.generation/gs1validationlevel/)|Specifies the level of GS1 data validation.<br/>            Higher validation levels include all checks from lower levels.|
 |[HanXinEncodeMode](/barcode/python-net/aspose.barcode.generation/hanxinencodemode/)|Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters.|
 |[HanXinErrorLevel](/barcode/python-net/aspose.barcode.generation/hanxinerrorlevel/)|Level of Reed-Solomon error correction. From low to high: L1, L2, L3, L4.|
 |[HanXinVersion](/barcode/python-net/aspose.barcode.generation/hanxinversion/)|Version of Han Xin Code.<br/>            From Version01 - 23 x 23 modules to Version84 - 189 x 189 modules, increasing in steps of 2 modules per side.|
@@ -85,14 +87,13 @@ Contains general classes for the implementation of BarCode generation functions.
 |[MaxiCodeMode](/barcode/python-net/aspose.barcode.generation/maxicodemode/)|Encoding mode for MaxiCode barcodes.|
 |[MicroQRVersion](/barcode/python-net/aspose.barcode.generation/microqrversion/)|Version of MicroQR Code.<br/>            From M1 to M4.|
 |[PatchFormat](/barcode/python-net/aspose.barcode.generation/patchformat/)|PatchCode format. Choose PatchOnly to generate single PatchCode. Use page format to generate Patch page with PatchCodes as borders|
-|[Pdf417CompactionMode](/barcode/python-net/aspose.barcode.generation/pdf417compactionmode/)||
 |[Pdf417EncodeMode](/barcode/python-net/aspose.barcode.generation/pdf417encodemode/)|Pdf417 barcode encode mode|
 |[Pdf417ErrorLevel](/barcode/python-net/aspose.barcode.generation/pdf417errorlevel/)|pdf417 barcode's error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction|
 |[Pdf417MacroTerminator](/barcode/python-net/aspose.barcode.generation/pdf417macroterminator/)|Used to tell the encoder whether to add Macro PDF417 Terminator (codeword 922) to the segment. <br/>            Applied only for Macro PDF417.|
 |[QREncodeMode](/barcode/python-net/aspose.barcode.generation/qrencodemode/)|Encoding mode for QR barcodes.|
-|[QREncodeType](/barcode/python-net/aspose.barcode.generation/qrencodetype/)||
 |[QRErrorLevel](/barcode/python-net/aspose.barcode.generation/qrerrorlevel/)|Level of Reed-Solomon error correction. From low to high: LevelL, LevelM, LevelQ, LevelH.|
 |[QRVersion](/barcode/python-net/aspose.barcode.generation/qrversion/)|Version of QR Code.<br/>            From Version1 to Version40 for QR code and from M1 to M4 for MicroQr.|
+|[QrExtCompactionMode](/barcode/python-net/aspose.barcode.generation/qrextcompactionmode/)|Specifies QR compaction mode for codetext added by QrExtCodetextBuilder.|
 |[RectMicroQRVersion](/barcode/python-net/aspose.barcode.generation/rectmicroqrversion/)|Version of RectMicroQR Code.<br/>            From version R7x43 to version R17x139.|
 |[SvgColorMode](/barcode/python-net/aspose.barcode.generation/svgcolormode/)|Possible modes for filling color in svg file, RGB is default and supported by SVG 1.1.<br/>            RGBA, HSL, HSLA is allowed in SVG 2.0 standard.<br/>            Even in RGB opacity will be set through "fill-opacity" parameter|
 |[TextAlignment](/barcode/python-net/aspose.barcode.generation/textalignment/)|Text alignment.|

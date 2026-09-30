@@ -4,7 +4,7 @@ linktitle: Pdf417ErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. pdf417 barcode''s error correction level, from level 0 to level 9, level 0 means no error correction, level 8 means best error correction in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.barcode.generation/pdf417errorlevel/
 ---
 ## Pdf417ErrorLevel enum

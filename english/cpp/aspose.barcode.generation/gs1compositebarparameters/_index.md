@@ -20,10 +20,10 @@ class GS1CompositeBarParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AllowOnlyGS1Encoding](./get_allowonlygs1encoding/)() const | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
+| [get_AllowOnlyGS1Encoding](./get_allowonlygs1encoding/)() const | If this flag is set, it allows only GS1 encoding standard for [GS1CompositeBar](../../aspose.barcode.generation.gs1compositebar/) 2D Component |
 | [get_LinearComponentType](./get_linearcomponenttype/)() const | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked |
 | [get_TwoDComponentType](./get_twodcomponenttype/)() const | 2D component type |
-| [set_AllowOnlyGS1Encoding](./set_allowonlygs1encoding/)(bool) | If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component |
+| [set_AllowOnlyGS1Encoding](./set_allowonlygs1encoding/)(bool) | If this flag is set, it allows only GS1 encoding standard for [GS1CompositeBar](../../aspose.barcode.generation.gs1compositebar/) 2D Component |
 | [set_LinearComponentType](./set_linearcomponenttype/)(System::SharedPtr\<BaseEncodeType\>) | Linear component type: GS1Code128, UPCE, EAN8, UPCA, EAN13, DatabarStacked, DatabarStackedOmniDirectional, DatabarLimited, DatabarOmniDirectional, DatabarExpanded, DatabarExpandedStacked |
 | [set_TwoDComponentType](./set_twodcomponenttype/)(Aspose::BarCode::Generation::TwoDComponentType) | 2D component type |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [DataBarParameters](../databarparameters/). |

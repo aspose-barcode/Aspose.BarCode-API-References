@@ -4,7 +4,7 @@ linktitle: HIBCAztecPAS
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with HIBC PAS Aztec barcode specification in C++.'
 type: docs
-weight: 8700
+weight: 8800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hibcaztecpas/
 ---
 ## HIBCAztecPAS field

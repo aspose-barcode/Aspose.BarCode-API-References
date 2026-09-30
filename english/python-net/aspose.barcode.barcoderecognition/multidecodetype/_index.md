@@ -3,7 +3,7 @@ title: MultiDecodeType
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/multidecodetype/
+url: /aspose.barcode.barcoderecognition/multidecodetype/
 ---
 
 ## MultiDecodeType class

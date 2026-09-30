@@ -4,7 +4,7 @@ linktitle: HanXinParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::HanXinParameters class. Han Xin parameters in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.barcode.generation/hanxinparameters/
 ---
 ## HanXinParameters class

@@ -4,7 +4,7 @@ linktitle: HanXinEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Han Xin Code encoding mode. It is recommended to use Auto with ASCII / Chinese characters or Unicode for Unicode characters in C++.'
 type: docs
-weight: 6700
+weight: 6900
 url: /cpp/aspose.barcode.generation/hanxinencodemode/
 ---
 ## HanXinEncodeMode enum

@@ -4,7 +4,7 @@ linktitle: BorderDashStyle
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Specifies the style of dashed border lines in C++.'
 type: docs
-weight: 5500
+weight: 5600
 url: /cpp/aspose.barcode.generation/borderdashstyle/
 ---
 ## BorderDashStyle enum

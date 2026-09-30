@@ -3,7 +3,7 @@ title: QRVersion
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/qrversion/
+url: /aspose.barcode.generation/qrversion/
 ---
 
 ## QRVersion enumeration
@@ -54,10 +54,6 @@ Version of QR Code.<br/>            From Version1 to Version40 for QR code and f
 |VERSION38|Specifies version 38 with 169 x 169 modules.|
 |VERSION39|Specifies version 39 with 173 x 173 modules.|
 |VERSION40|Specifies version 40 with 177 x 177 modules.|
-|VERSION_M1||
-|VERSION_M2||
-|VERSION_M3||
-|VERSION_M4||
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: MaxiCodeCodetextMode3
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeCodetextMode3 class. Class for encoding and decoding the text embedded in the MaxiCode code for modes 3 in C++.'
 type: docs
-weight: 1600
+weight: 1800
 url: /cpp/aspose.barcode.complexbarcode/maxicodecodetextmode3/
 ---
 ## MaxiCodeCodetextMode3 class

@@ -3,7 +3,7 @@ title: DecodeType.Supplement
 second_title: Aspose.BarCode for .NET API Reference
 description: DecodeType field. Specifies that the data should be decoded with SupplementEAN2 EAN5 barcode specification
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.barcode.barcoderecognition/decodetype/supplement/
 ---
 ## DecodeType.Supplement field

@@ -3,7 +3,7 @@ title: EncodeTypes
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/encodetypes/
+url: /aspose.barcode.generation/encodetypes/
 ---
 
 ## EncodeTypes class
@@ -65,6 +65,7 @@ The EncodeTypes type exposes the following members:
 |MICRO_QR|Specifies that the data should be encoded with MicroQR Code barcode specification|
 |RECT_MICRO_QR|Specifies that the data should be encoded with RectMicroQR (rMQR) Code barcode specification|
 |AUSTRALIA_POST|Represents Australia Post Customer BarCode|
+|JAPAN_POST|Represents Japan Post BarCode|
 |POSTNET|Specifies that the data should be encoded with Postnet barcode specification|
 |PLANET|Specifies that the data should be encoded with Planet barcode specification|
 |ONE_CODE|Specifies that the data should be encoded with USPS OneCode barcode specification|

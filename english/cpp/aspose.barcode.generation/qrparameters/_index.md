@@ -4,7 +4,7 @@ linktitle: QrParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::Generation::QrParameters class. QR parameters in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.barcode.generation/qrparameters/
 ---
 ## QrParameters class

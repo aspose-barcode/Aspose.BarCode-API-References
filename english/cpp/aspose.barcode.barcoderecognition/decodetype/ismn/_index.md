@@ -4,7 +4,7 @@ linktitle: ISMN
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with ISMN barcode specification in C++.'
 type: docs
-weight: 6500
+weight: 6600
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/ismn/
 ---
 ## ISMN field

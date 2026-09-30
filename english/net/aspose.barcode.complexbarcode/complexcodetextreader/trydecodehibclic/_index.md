@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeHIBCLIC
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes HIBC LIC codetext
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodehibclic/
 ---
 ## ComplexCodetextReader.TryDecodeHIBCLIC method

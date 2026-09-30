@@ -3,7 +3,7 @@ title: USADriveIdSex
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.complexbarcode/usadriveidsex/
+url: /aspose.barcode.complexbarcode/usadriveidsex/
 ---
 
 ## USADriveIdSex enumeration

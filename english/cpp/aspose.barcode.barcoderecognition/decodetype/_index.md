@@ -91,6 +91,7 @@ class DecodeType
 | static [ItalianPost25](./italianpost25/) | Specifies that the data should be decoded with **Italian Post 25** barcode specification |
 | static [ITF14](./itf14/) | Specifies that the data should be decoded with **ITF14** barcode specification |
 | static [ITF6](./itf6/) | Specifies that the data should be decoded with **ITF6** barcode specification |
+| static [JapanPost](./japanpost/) | Specifies that the data should be decoded with **Japan Post** barcode specification |
 | static [MacroPdf417](./macropdf417/) | Specifies that the data should be decoded with **MacroPdf417** barcode specification |
 | static [Mailmark](./mailmark/) | Specifies that the data should be decoded with **Royal Mail Mailmark** barcode specification. |
 | static [Matrix2of5](./matrix2of5/) | Specifies that the data should be decoded with **Matrix 2 of 5** barcode specification |
@@ -107,7 +108,7 @@ class DecodeType
 | static [Pdf417](./pdf417/) | Specifies that the data should be decoded with **Pdf417** barcode symbology |
 | static [Pharmacode](./pharmacode/) | Specifies that the data should be decoded with **Pharmacode** barcode. This symbology is also known as Pharmaceutical Binary Code |
 | static [Planet](./planet/) | Specifies that the data should be decoded with **Planet** barcode specification |
-| static [PostalTypes](./postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, OneCode, RM4SCC, DutchKIX** |
+| static [PostalTypes](./postaltypes/) | Specifies that data will be checked with all of **1.5D Postal** barcode symbologies, like **Planet, Postnet, AustraliaPost, JapanPost, OneCode, RM4SCC, DutchKIX** |
 | static [Postnet](./postnet/) | Specifies that the data should be decoded with **Postnet** barcode specification |
 | static [PZN](./pzn/) | Specifies that the data should be decoded with **PZN** barcode specification. This symbology is also known as Pharma Zentral Nummer. PZN7 and PZN8 are supported. |
 | static [QR](./qr/) | Specifies that the data should be decoded with **[QR](../../aspose.barcode.barcoderecognition.qr/) Code** barcode specification |

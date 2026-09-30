@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/gs1compositebarparameters/set_allowonlygs1en
 ## GS1CompositeBarParameters::set_AllowOnlyGS1Encoding method
 
 
-If this flag is set, it allows only GS1 encoding standard for GS1CompositeBar 2D Component
+If this flag is set, it allows only GS1 encoding standard for [GS1CompositeBar](../../../aspose.barcode.generation.gs1compositebar/) 2D Component
 
 ```cpp
 void Aspose::BarCode::Generation::GS1CompositeBarParameters::set_AllowOnlyGS1Encoding(bool value)

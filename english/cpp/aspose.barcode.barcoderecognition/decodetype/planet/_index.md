@@ -4,7 +4,7 @@ linktitle: Planet
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be decoded with Planet barcode specification in C++.'
 type: docs
-weight: 5200
+weight: 5300
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/planet/
 ---
 ## Planet field

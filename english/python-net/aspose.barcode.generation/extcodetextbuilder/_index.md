@@ -3,7 +3,7 @@ title: ExtCodetextBuilder
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/extcodetextbuilder/
+url: /aspose.barcode.generation/extcodetextbuilder/
 ---
 
 ## ExtCodetextBuilder class

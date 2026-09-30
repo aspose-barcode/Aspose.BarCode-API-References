@@ -4,7 +4,7 @@ linktitle: DatabarOmniDirectional
 second_title: Aspose.BarCode for C++ API Reference
 description: ' field. Specifies that the data should be encoded with GS1 Databar omni-directional barcode specification in C++.'
 type: docs
-weight: 6100
+weight: 6200
 url: /cpp/aspose.barcode.generation/encodetypes/databaromnidirectional/
 ---
 ## DatabarOmniDirectional field

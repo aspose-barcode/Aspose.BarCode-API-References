@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/hanxinextcodetextbuilder/
+url: /aspose.barcode.generation/hanxinextcodetextbuilder/
 ---
 
 ## HanXinExtCodetextBuilder class
@@ -29,7 +29,6 @@ The HanXinExtCodetextBuilder type exposes the following members:
 |add_common_chinese_region_two(text)|Adds codetext fragment in Common Chinese Region Two mode|
 |add_gb18030_two_byte(text)|Adds codetext fragment in GB18030 Two Byte mode|
 |add_gb18030_four_byte(text)|Adds codetext fragment in GB18030 Four Byte mode|
-|add_gs1(text)|Adds codetext fragment in GS1 mode|
 |get_extended_codetext()|Returns codetext from Extended mode codetext builder|
 
 ### See Also

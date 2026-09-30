@@ -3,7 +3,7 @@ title: ComplexCodetextReader.TryDecodeUSADriveId
 second_title: Aspose.BarCode for .NET API Reference
 description: ComplexCodetextReader method. Decodes USADriveId codetext
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.barcode.complexbarcode/complexcodetextreader/trydecodeusadriveid/
 ---
 ## ComplexCodetextReader.TryDecodeUSADriveId method

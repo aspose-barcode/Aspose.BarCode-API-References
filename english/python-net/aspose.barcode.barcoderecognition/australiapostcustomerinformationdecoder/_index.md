@@ -3,7 +3,7 @@ title: AustraliaPostCustomerInformationDecoder
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/
+url: /aspose.barcode.barcoderecognition/australiapostcustomerinformationdecoder/
 ---
 
 ## AustraliaPostCustomerInformationDecoder class

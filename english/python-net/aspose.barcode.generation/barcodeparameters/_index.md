@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /python-net/aspose.barcode.generation/barcodeparameters/
+url: /aspose.barcode.generation/barcodeparameters/
 ---
 
 ## BarcodeParameters class
@@ -20,7 +20,6 @@ The BarcodeParameters type exposes the following members:
 |padding|Barcode paddings.<br/>            Default value: 5pt 5pt 5pt 5pt.|
 |checksum_always_show|Always display checksum digit in the human readable text for Code128 and GS1Code128 barcodes.|
 |is_checksum_enabled|  |
-|enable_escape|  |
 |throw_exception_when_code_text_incorrect|Only for 1D barcodes.<br/>            If codetext is incorrect and value set to true - exception will be thrown. Otherwise codetext will be corrected to match barcode's specification.<br/>            Exception always will be thrown for: Databar symbology if codetext is incorrect.<br/>            Exception always will not be thrown for: AustraliaPost, SingapurePost, Code39FullASCII, Code93, Code16K, Code128 symbology if codetext is incorrect.|
 |wide_narrow_ratio|Wide bars to Narrow bars ratio.<br/>            Default value: 3, that is, wide bars are 3 times as wide as narrow bars.<br/>            Used for ITF, PZN, PharmaCode, Standard2of5, Interleaved2of5, Matrix2of5, ItalianPost25, IATA2of5, VIN, DeutschePost, OPC, Code32, DataLogic2of5, PatchCode, Code39, Code39FullASCII|
 |code_text_parameters|Codetext parameters.|
@@ -45,6 +44,7 @@ The BarcodeParameters type exposes the following members:
 |codabar|Codabar parameters.|
 |coupon|Coupon parameters. Used for UpcaGs1DatabarCoupon, UpcaGs1Code128Coupon.|
 |han_xin|HanXin parameters.|
+|gs1|GS1 parameters.|
 
 ### See Also
 

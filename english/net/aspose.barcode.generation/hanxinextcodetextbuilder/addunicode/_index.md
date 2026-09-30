@@ -3,7 +3,7 @@ title: HanXinExtCodetextBuilder.AddUnicode
 second_title: Aspose.BarCode for .NET API Reference
 description: HanXinExtCodetextBuilder method. Adds codetext fragment in Unicode mode
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.barcode.generation/hanxinextcodetextbuilder/addunicode/
 ---
 ## HanXinExtCodetextBuilder.AddUnicode method
