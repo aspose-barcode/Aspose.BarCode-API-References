@@ -3,7 +3,7 @@ title: DataMatrixEccType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/datamatrixecctype/
+url: /python-net/aspose.barcode.generation/datamatrixecctype/
 ---
 
 ## DataMatrixEccType enumeration

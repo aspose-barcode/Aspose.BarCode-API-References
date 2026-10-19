@@ -3,7 +3,7 @@ title: GS1Parameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/gs1parameters/
+url: /python-net/aspose.barcode.generation/gs1parameters/
 ---
 
 ## GS1Parameters class

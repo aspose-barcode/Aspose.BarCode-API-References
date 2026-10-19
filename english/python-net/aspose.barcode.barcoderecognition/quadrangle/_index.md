@@ -3,7 +3,7 @@ title: Quadrangle
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/quadrangle/
+url: /python-net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 
 ## Quadrangle class

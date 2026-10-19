@@ -3,7 +3,7 @@ title: HIBCLICComplexCodetext
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/hibcliccomplexcodetext/
+url: /python-net/aspose.barcode.complexbarcode/hibcliccomplexcodetext/
 ---
 
 ## HIBCLICComplexCodetext class

@@ -3,7 +3,7 @@ title: DataMatrixExtendedParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/datamatrixextendedparameters/
+url: /python-net/aspose.barcode.barcoderecognition/datamatrixextendedparameters/
 ---
 
 ## DataMatrixExtendedParameters class

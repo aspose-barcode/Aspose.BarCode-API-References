@@ -3,7 +3,7 @@ title: GS1DigitalLink
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/gs1digitallink/
+url: /python-net/aspose.barcode.complexbarcode/gs1digitallink/
 ---
 
 ## GS1DigitalLink class

@@ -3,7 +3,7 @@ title: ProcessorSettings
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.common/processorsettings/
+url: /python-net/aspose.barcode.common/processorsettings/
 ---
 
 ## ProcessorSettings class

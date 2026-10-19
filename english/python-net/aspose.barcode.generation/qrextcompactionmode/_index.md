@@ -3,7 +3,7 @@ title: QrExtCompactionMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/qrextcompactionmode/
+url: /python-net/aspose.barcode.generation/qrextcompactionmode/
 ---
 
 ## QrExtCompactionMode enumeration

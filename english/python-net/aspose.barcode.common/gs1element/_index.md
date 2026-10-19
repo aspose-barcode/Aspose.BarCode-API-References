@@ -3,7 +3,7 @@ title: GS1Element
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.common/gs1element/
+url: /python-net/aspose.barcode.common/gs1element/
 ---
 
 ## GS1Element class

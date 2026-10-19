@@ -3,7 +3,7 @@ title: USADriveIdJurisdSubfile
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
+url: /python-net/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/
 ---
 
 ## USADriveIdJurisdSubfile class

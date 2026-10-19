@@ -3,7 +3,7 @@ title: XDimensionMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/xdimensionmode/
+url: /python-net/aspose.barcode.barcoderecognition/xdimensionmode/
 ---
 
 ## XDimensionMode enumeration

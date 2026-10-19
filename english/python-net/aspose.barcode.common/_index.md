@@ -3,7 +3,7 @@ title: aspose.barcode.common
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.common/
+url: /python-net/aspose.barcode.common/
 ---
 
 

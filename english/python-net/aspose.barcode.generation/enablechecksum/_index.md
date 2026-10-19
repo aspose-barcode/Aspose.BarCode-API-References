@@ -3,7 +3,7 @@ title: EnableChecksum
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/enablechecksum/
+url: /python-net/aspose.barcode.generation/enablechecksum/
 ---
 
 ## EnableChecksum enumeration

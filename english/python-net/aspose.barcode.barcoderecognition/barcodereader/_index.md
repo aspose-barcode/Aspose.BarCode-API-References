@@ -3,7 +3,7 @@ title: BarCodeReader
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/barcodereader/
+url: /python-net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 
 ## BarCodeReader class

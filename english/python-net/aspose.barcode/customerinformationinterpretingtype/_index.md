@@ -3,7 +3,7 @@ title: CustomerInformationInterpretingType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode/customerinformationinterpretingtype/
+url: /python-net/aspose.barcode/customerinformationinterpretingtype/
 ---
 
 ## CustomerInformationInterpretingType enumeration

@@ -3,7 +3,7 @@ title: BarCodeConfidence
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/barcodeconfidence/
+url: /python-net/aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 
 ## BarCodeConfidence enumeration

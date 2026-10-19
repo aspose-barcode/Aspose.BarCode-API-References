@@ -3,7 +3,7 @@ title: HanXinErrorLevel
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/hanxinerrorlevel/
+url: /python-net/aspose.barcode.generation/hanxinerrorlevel/
 ---
 
 ## HanXinErrorLevel enumeration

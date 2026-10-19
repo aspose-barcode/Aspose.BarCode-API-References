@@ -3,7 +3,7 @@ title: ITF14BorderType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/itf14bordertype/
+url: /python-net/aspose.barcode.generation/itf14bordertype/
 ---
 
 ## ITF14BorderType enumeration

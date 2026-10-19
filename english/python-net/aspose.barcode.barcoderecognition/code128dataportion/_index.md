@@ -3,7 +3,7 @@ title: Code128DataPortion
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/code128dataportion/
+url: /python-net/aspose.barcode.barcoderecognition/code128dataportion/
 ---
 
 ## Code128DataPortion class

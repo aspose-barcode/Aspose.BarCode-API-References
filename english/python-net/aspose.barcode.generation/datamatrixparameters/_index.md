@@ -3,7 +3,7 @@ title: DataMatrixParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/datamatrixparameters/
+url: /python-net/aspose.barcode.generation/datamatrixparameters/
 ---
 
 ## DataMatrixParameters class

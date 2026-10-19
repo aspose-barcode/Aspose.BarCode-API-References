@@ -3,7 +3,7 @@ title: GS1ValidationLevel
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/gs1validationlevel/
+url: /python-net/aspose.barcode.generation/gs1validationlevel/
 ---
 
 ## GS1ValidationLevel enumeration

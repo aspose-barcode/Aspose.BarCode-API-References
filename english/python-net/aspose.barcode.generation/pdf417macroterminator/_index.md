@@ -3,7 +3,7 @@ title: Pdf417MacroTerminator
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/pdf417macroterminator/
+url: /python-net/aspose.barcode.generation/pdf417macroterminator/
 ---
 
 ## Pdf417MacroTerminator enumeration

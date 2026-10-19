@@ -3,7 +3,7 @@ title: HIBCPASDataType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/hibcpasdatatype/
+url: /python-net/aspose.barcode.complexbarcode/hibcpasdatatype/
 ---
 
 ## HIBCPASDataType enumeration
