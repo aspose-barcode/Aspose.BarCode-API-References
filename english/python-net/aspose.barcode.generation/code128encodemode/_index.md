@@ -3,7 +3,7 @@ title: Code128EncodeMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/code128encodemode/
+url: /python-net/aspose.barcode.generation/code128encodemode/
 ---
 
 ## Code128EncodeMode enumeration

@@ -3,7 +3,7 @@ title: Pdf417Parameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/pdf417parameters/
+url: /python-net/aspose.barcode.generation/pdf417parameters/
 ---
 
 ## Pdf417Parameters class

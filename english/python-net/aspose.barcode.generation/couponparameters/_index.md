@@ -3,7 +3,7 @@ title: CouponParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/couponparameters/
+url: /python-net/aspose.barcode.generation/couponparameters/
 ---
 
 ## CouponParameters class

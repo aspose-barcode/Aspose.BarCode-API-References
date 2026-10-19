@@ -3,7 +3,7 @@ title: GS1ValidationErrorCode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.common/gs1validationerrorcode/
+url: /python-net/aspose.barcode.common/gs1validationerrorcode/
 ---
 
 ## GS1ValidationErrorCode enumeration

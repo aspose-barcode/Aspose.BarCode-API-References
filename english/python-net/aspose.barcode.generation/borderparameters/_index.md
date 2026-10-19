@@ -3,7 +3,7 @@ title: BorderParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/borderparameters/
+url: /python-net/aspose.barcode.generation/borderparameters/
 ---
 
 ## BorderParameters class

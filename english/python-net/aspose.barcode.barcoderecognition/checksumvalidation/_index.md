@@ -3,7 +3,7 @@ title: ChecksumValidation
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/checksumvalidation/
+url: /python-net/aspose.barcode.barcoderecognition/checksumvalidation/
 ---
 
 ## ChecksumValidation enumeration

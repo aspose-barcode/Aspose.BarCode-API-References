@@ -3,7 +3,7 @@ title: CodablockParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/codablockparameters/
+url: /python-net/aspose.barcode.generation/codablockparameters/
 ---
 
 ## CodablockParameters class

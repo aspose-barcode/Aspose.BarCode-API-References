@@ -3,7 +3,7 @@ title: GS1ValidationIssue
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.common/gs1validationissue/
+url: /python-net/aspose.barcode.common/gs1validationissue/
 ---
 
 ## GS1ValidationIssue class

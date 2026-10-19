@@ -3,7 +3,7 @@ title: Unit
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/unit/
+url: /python-net/aspose.barcode.generation/unit/
 ---
 
 ## Unit class

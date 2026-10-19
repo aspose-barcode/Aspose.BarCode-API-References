@@ -3,7 +3,7 @@ title: Pdf417ErrorLevel
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/pdf417errorlevel/
+url: /python-net/aspose.barcode.generation/pdf417errorlevel/
 ---
 
 ## Pdf417ErrorLevel enumeration

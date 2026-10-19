@@ -3,7 +3,7 @@ title: PatchCodeParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/patchcodeparameters/
+url: /python-net/aspose.barcode.generation/patchcodeparameters/
 ---
 
 ## PatchCodeParameters class

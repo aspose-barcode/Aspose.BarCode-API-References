@@ -3,7 +3,7 @@ title: PostalParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/postalparameters/
+url: /python-net/aspose.barcode.generation/postalparameters/
 ---
 
 ## PostalParameters class

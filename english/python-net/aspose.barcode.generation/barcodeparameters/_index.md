@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/barcodeparameters/
+url: /python-net/aspose.barcode.generation/barcodeparameters/
 ---
 
 ## BarcodeParameters class

@@ -3,7 +3,7 @@ title: InverseImageMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.barcoderecognition/inverseimagemode/
+url: /python-net/aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 
 ## InverseImageMode enumeration

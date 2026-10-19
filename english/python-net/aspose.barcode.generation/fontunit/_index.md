@@ -3,7 +3,7 @@ title: FontUnit
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.generation/fontunit/
+url: /python-net/aspose.barcode.generation/fontunit/
 ---
 
 ## FontUnit class

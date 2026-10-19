@@ -3,7 +3,7 @@ title: Mailmark2DType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode.complexbarcode/mailmark2dtype/
+url: /python-net/aspose.barcode.complexbarcode/mailmark2dtype/
 ---
 
 ## Mailmark2DType enumeration

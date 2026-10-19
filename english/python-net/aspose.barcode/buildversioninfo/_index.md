@@ -3,7 +3,7 @@ title: BuildVersionInfo
 second_title: Aspose.BarCode for Python via .NET API Reference
 description: 
 type: docs
-url: /aspose.barcode/buildversioninfo/
+url: /python-net/aspose.barcode/buildversioninfo/
 ---
 
 ## BuildVersionInfo class
