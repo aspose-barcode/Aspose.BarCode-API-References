@@ -35,6 +35,8 @@ url: /cpp/aspose.barcode.barcoderecognition/
 | [Details_RecognitionEngineException](./details_recognitionengineexception/) |  |
 | [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
 | [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
+| [Iso15416Quality](./iso15416quality/) | Stores barcode quality grades calculated according to the ISO/IEC 15416 standard for 1D barcodes. |
+| [IsoSymbolQuality](./isosymbolquality/) | Stores barcode symbol quality evaluation results according to ISO/IEC standards. |
 | [LuminanceFrame](./luminanceframe/) | Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value. |
 | [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Stores a MaxiCode additional information of recognized barcode |
 | [MultiDecodeType](./multidecodetype/) | Composite decode type. |

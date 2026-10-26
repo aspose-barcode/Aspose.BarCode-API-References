@@ -4,7 +4,7 @@ linktitle: LuminanceFrame
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::LuminanceFrame class. Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value in C++.'
 type: docs
-weight: 2200
+weight: 2400
 url: /cpp/aspose.barcode.barcoderecognition/luminanceframe/
 ---
 ## LuminanceFrame class

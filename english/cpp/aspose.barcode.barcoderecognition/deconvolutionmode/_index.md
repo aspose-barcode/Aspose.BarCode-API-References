@@ -4,7 +4,7 @@ linktitle: DeconvolutionMode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use  enum in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.barcode.barcoderecognition/deconvolutionmode/
 ---
 ## DeconvolutionMode enum

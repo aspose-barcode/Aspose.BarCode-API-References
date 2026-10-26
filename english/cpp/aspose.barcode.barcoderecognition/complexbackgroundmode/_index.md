@@ -4,7 +4,7 @@ linktitle: ComplexBackgroundMode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use  enum in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 ## ComplexBackgroundMode enum

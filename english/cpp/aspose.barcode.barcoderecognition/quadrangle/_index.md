@@ -4,7 +4,7 @@ linktitle: Quadrangle
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle class. Stores a set of four Points that represent a Quadrangle region in C++.'
 type: docs
-weight: 2800
+weight: 3000
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
