@@ -3,7 +3,7 @@ title: Class GS1DigitalLink
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.GS1DigitalLink class. Represents GS1 Digital Link codetext for encoding and decoding as an ordered sequence of Application Identifier elements. Source order and repeated Application Identifiers are preserved. The constructed codetext is an uncompressed GS1 Digital Link URI. NonGS1 query parameters and URI fragments are ignored when parsing
 type: docs
-weight: 520
+weight: 540
 url: /net/aspose.barcode.complexbarcode/gs1digitallink/
 ---
 ## GS1DigitalLink class

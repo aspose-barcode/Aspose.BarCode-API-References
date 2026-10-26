@@ -3,7 +3,7 @@ title: Class MultiDecodeType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.MultiDecodeType class. Composite decode type
 type: docs
-weight: 300
+weight: 320
 url: /net/aspose.barcode.barcoderecognition/multidecodetype/
 ---
 ## MultiDecodeType class

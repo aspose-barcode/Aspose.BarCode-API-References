@@ -3,7 +3,7 @@ title: Class GS1ValidationResult
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.GS1ValidationResult class. Contains all independently detectable errors for a GS1 element string Digital Link URI or one AI value
 type: docs
-weight: 440
+weight: 460
 url: /net/aspose.barcode.common/gs1validationresult/
 ---
 ## GS1ValidationResult class

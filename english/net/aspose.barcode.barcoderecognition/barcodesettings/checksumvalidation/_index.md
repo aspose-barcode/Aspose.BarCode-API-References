@@ -3,7 +3,7 @@ title: BarcodeSettings.ChecksumValidation
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeSettings property. Enable checksum validation during recognition for 1D and Postal barcodes
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/checksumvalidation/
 ---
 ## BarcodeSettings.ChecksumValidation property

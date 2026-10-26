@@ -30,6 +30,7 @@ public sealed class BarCodeResult : ICloneable, IEquatable<BarCodeResult>
 | [CodeTypeName](../../aspose.barcode.barcoderecognition/barcoderesult/codetypename/) { get; } | Gets the name of the barcode type |
 | [Confidence](../../aspose.barcode.barcoderecognition/barcoderesult/confidence/) { get; } | Gets recognition confidence level of the recognized barcode |
 | [Extended](../../aspose.barcode.barcoderecognition/barcoderesult/extended/) { get; } | Gets extended parameters of recognized barcode |
+| [IsoSymbolQuality](../../aspose.barcode.barcoderecognition/barcoderesult/isosymbolquality/) { get; } | Gets the ISO/IEC symbol quality evaluation results for the recognized barcode. |
 | [ReadingQuality](../../aspose.barcode.barcoderecognition/barcoderesult/readingquality/) { get; } | Gets the reading quality. Works for 1D and postal barcodes. |
 | [Region](../../aspose.barcode.barcoderecognition/barcoderesult/region/) { get; } | Gets the barcode region |
 

@@ -3,7 +3,7 @@ title: BarCodeResult.Clone
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeResult method. Creates a copy of BarCodeResult class
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/clone/
 ---
 ## BarCodeResult.Clone method

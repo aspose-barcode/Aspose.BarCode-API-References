@@ -3,7 +3,7 @@ title: Enum XmlSerializationType
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.XmlSerializationType enum. Represents type of xml serialization
 type: docs
-weight: 1880
+weight: 1900
 url: /net/aspose.barcode/xmlserializationtype/
 ---
 ## XmlSerializationType enumeration

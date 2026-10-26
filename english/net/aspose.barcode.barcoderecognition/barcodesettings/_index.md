@@ -19,6 +19,7 @@ public sealed class BarcodeSettings
 | Name | Description |
 | --- | --- |
 | [AustraliaPost](../../aspose.barcode.barcoderecognition/barcodesettings/australiapost/) { get; } | Gets AustraliaPost decoding parameters |
+| [CalculateSymbolQuality](../../aspose.barcode.barcoderecognition/barcodesettings/calculatesymbolquality/) { get; set; } | Gets or sets a value indicating whether to calculate barcode symbol quality during recognition. |
 | [ChecksumValidation](../../aspose.barcode.barcoderecognition/barcodesettings/checksumvalidation/) { get; set; } | Enable checksum validation during recognition for 1D and Postal barcodes. |
 | [DetectEncoding](../../aspose.barcode.barcoderecognition/barcodesettings/detectencoding/) { get; set; } | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
 | [OnlyRequestedTypes](../../aspose.barcode.barcoderecognition/barcodesettings/onlyrequestedtypes/) { get; set; } | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. |

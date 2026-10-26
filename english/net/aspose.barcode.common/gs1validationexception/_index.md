@@ -3,7 +3,7 @@ title: Class GS1ValidationException
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.GS1ValidationException class. The exception that is thrown by strict GS1 operations when validation fails
 type: docs
-weight: 420
+weight: 440
 url: /net/aspose.barcode.common/gs1validationexception/
 ---
 ## GS1ValidationException class

@@ -3,7 +3,7 @@ title: Class GS1Codetext
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.ComplexBarcode.GS1Codetext class. Represents GS1 codetext for encoding and decoding as an ordered sequence of Application Identifier elements. Source order and repeated Application Identifiers are preserved. The bracketed representation has the form AIvalueAIvalue. A literal opening parenthesis  inside a value must be written as  this is the only supported escape sequence. A closing parenthesis  inside a value does not require escaping
 type: docs
-weight: 510
+weight: 530
 url: /net/aspose.barcode.complexbarcode/gs1codetext/
 ---
 ## GS1Codetext class

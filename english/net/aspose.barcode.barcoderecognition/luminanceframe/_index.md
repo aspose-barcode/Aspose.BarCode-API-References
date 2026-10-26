@@ -3,7 +3,7 @@ title: Class LuminanceFrame
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.LuminanceFrame class. Represents an 8bit grayscale image frame. Each pixel is represented by one byte containing its luminance value
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.barcode.barcoderecognition/luminanceframe/
 ---
 ## LuminanceFrame class

@@ -3,7 +3,7 @@ title: BarCodeResult.op_Equality
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeResult method. Returns a value indicating whether the first BarCodeResult value is equal to the second
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/op_equality/
 ---
 ## BarCodeResult Equality operator

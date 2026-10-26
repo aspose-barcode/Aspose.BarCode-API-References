@@ -3,7 +3,7 @@ title: Enum GS1ValidationErrorCode
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.GS1ValidationErrorCode enum. Identifies a GS1 element string Digital Link URI or value validation error
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.barcode.common/gs1validationerrorcode/
 ---
 ## GS1ValidationErrorCode enumeration
