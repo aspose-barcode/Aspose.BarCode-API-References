@@ -48,13 +48,13 @@ The BarCodeReader type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|set_bar_code_image(value)|  |
-|set_bar_code_image(value, areas)|  |
-|set_bar_code_image(value, area)|  |
+|set_bar_code_image(value)|Sets bitmap image for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(value, areas)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
+|set_bar_code_image(value, area)|Sets bitmap image and areas for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(filename)|Sets image file for recognition. <br/>            Must be called before ReadBarCodes() method.|
 |set_bar_code_image(stream)|Sets image stream for recognition. <br/>            Must be called before ReadBarCodes() method.|
-|set_bar_code_image(frame, area)|  |
-|set_bar_code_image(frame, areas)|  |
+|set_bar_code_image(frame, area)|Sets the luminance frame and area for recognition. Must be called before the [None](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/) method.|
+|set_bar_code_image(frame, areas)|Sets the luminance frame and areas for recognition. Must be called before the [None](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/) method.|
 |set_bar_code_image(frame)|Sets the luminance frame and area for recognition. Must be called before the [None](/barcode/python-net/aspose.barcode.barcoderecognition/barcodereader/) method.|
 |export_to_xml(xml_file)|Exports BarCode properties to the xml-file specified|
 |export_to_xml(xml_stream)|Exports BarCode properties to the xml-stream specified|

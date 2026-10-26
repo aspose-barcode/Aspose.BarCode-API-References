@@ -30,6 +30,8 @@ Contains tools for the 1D/2D barcodes recognition.
 |[DecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/decodetype/)|Specify the type of barcode to read.|
 |[DotCodeExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/)|Stores special data of DotCode recognized barcode|
 |[GS1CompositeBarExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/gs1compositebarextendedparameters/)|Stores special data of GS1 Composite Bar recognized barcode|
+|[Iso15416Quality](/barcode/python-net/aspose.barcode.barcoderecognition/iso15416quality/)|Stores barcode quality grades calculated according to the ISO/IEC 15416 standard for 1D barcodes.|
+|[IsoSymbolQuality](/barcode/python-net/aspose.barcode.barcoderecognition/isosymbolquality/)|Stores barcode symbol quality evaluation results according to ISO/IEC standards.|
 |[LuminanceFrame](/barcode/python-net/aspose.barcode.barcoderecognition/luminanceframe/)|Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value.|
 |[MaxiCodeExtendedParameters](/barcode/python-net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/)|Stores a MaxiCode additional information of recognized barcode|
 |[MultiDecodeType](/barcode/python-net/aspose.barcode.barcoderecognition/multidecodetype/)|Composite decode type.|
