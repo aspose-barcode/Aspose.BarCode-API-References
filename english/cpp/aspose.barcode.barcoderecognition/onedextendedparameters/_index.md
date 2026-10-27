@@ -4,7 +4,7 @@ linktitle: OneDExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters class. Stores special data of 1D recognized barcode like separate codetext and checksum in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.barcode.barcoderecognition/onedextendedparameters/
 ---
 ## OneDExtendedParameters class

@@ -21,10 +21,12 @@ class BarcodeSettings : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_AustraliaPost](./get_australiapost/)() const | Gets AustraliaPost decoding parameters |
+| [get_CalculateSymbolQuality](./get_calculatesymbolquality/)() const | Gets a value indicating whether to calculate barcode symbol quality during recognition. |
 | [get_ChecksumValidation](./get_checksumvalidation/)() const |  |
 | [get_DetectEncoding](./get_detectencoding/)() const | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
 | [get_OnlyRequestedTypes](./get_onlyrequestedtypes/)() const | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. |
 | [get_StripFNC](./get_stripfnc/)() const | Strip FNC1, FNC2, FNC3 characters from codetext. Default value is false. |
+| [set_CalculateSymbolQuality](./set_calculatesymbolquality/)(bool) | Sets a value indicating whether to calculate barcode symbol quality during recognition. |
 | [set_ChecksumValidation](./set_checksumvalidation/)(Aspose::BarCode::BarCodeRecognition::ChecksumValidation) |  |
 | [set_DetectEncoding](./set_detectencoding/)(bool) | The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true. |
 | [set_OnlyRequestedTypes](./set_onlyrequestedtypes/)(bool) | Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false. |

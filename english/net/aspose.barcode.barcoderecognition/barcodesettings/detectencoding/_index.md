@@ -3,7 +3,7 @@ title: BarcodeSettings.DetectEncoding
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeSettings property. The flag which force engine to detect codetext encoding for Unicode codesets. Default value is true
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/detectencoding/
 ---
 ## BarcodeSettings.DetectEncoding property

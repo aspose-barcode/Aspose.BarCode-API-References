@@ -4,7 +4,7 @@ linktitle: QRExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::QRExtendedParameters class. Stores a QR Structured Append information of recognized barcode in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class

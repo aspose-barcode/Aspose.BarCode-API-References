@@ -14,7 +14,7 @@ The License type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|License()|Initializes a new instance of this class.|
+|License()|Initializes a new instance of the License class|
 ## Methods
 | Name | Description |
 | :- | :- |

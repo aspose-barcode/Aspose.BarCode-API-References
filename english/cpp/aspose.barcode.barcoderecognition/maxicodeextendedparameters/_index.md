@@ -4,7 +4,7 @@ linktitle: MaxiCodeExtendedParameters
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::MaxiCodeExtendedParameters class. Stores a MaxiCode additional information of recognized barcode in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 ## MaxiCodeExtendedParameters class

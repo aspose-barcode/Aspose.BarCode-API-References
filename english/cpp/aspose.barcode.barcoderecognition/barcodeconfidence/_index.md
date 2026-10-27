@@ -4,7 +4,7 @@ linktitle: BarCodeConfidence
 second_title: Aspose.BarCode for C++ API Reference
 description: ' enum. Contains recognition confidence level in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.barcode.barcoderecognition/barcodeconfidence/
 ---
 ## BarCodeConfidence enum

@@ -4,7 +4,7 @@ linktitle: InverseImageMode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use  enum in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.barcode.barcoderecognition/inverseimagemode/
 ---
 ## InverseImageMode enum

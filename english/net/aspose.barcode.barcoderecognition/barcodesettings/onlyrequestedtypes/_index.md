@@ -3,7 +3,7 @@ title: BarcodeSettings.OnlyRequestedTypes
 second_title: Aspose.BarCode for .NET API Reference
 description: BarcodeSettings property. Returns only barcode types explicitly specified for recognition. When enabled recognized barcodes of other compatible or equivalent types are filtered out. Default value is false
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.barcode.barcoderecognition/barcodesettings/onlyrequestedtypes/
 ---
 ## BarcodeSettings.OnlyRequestedTypes property

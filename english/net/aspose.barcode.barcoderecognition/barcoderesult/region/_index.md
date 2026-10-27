@@ -3,7 +3,7 @@ title: BarCodeResult.Region
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeResult property. Gets the barcode region
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/region/
 ---
 ## BarCodeResult.Region property

@@ -3,7 +3,7 @@ title: Class GS1ValidationIssue
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.GS1ValidationIssue class. Describes one GS1 validation error
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.barcode.common/gs1validationissue/
 ---
 ## GS1ValidationIssue class

@@ -4,7 +4,7 @@ linktitle: SingleDecodeType
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType class. Single decode type. See decode type to get instance in C++.'
 type: docs
-weight: 3000
+weight: 3200
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class

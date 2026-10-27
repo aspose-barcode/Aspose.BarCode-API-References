@@ -3,7 +3,7 @@ title: BarCodeResult.op_Inequality
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeResult method. Returns a value indicating if the first BarCodeResult value is different from the second
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/op_inequality/
 ---
 ## BarCodeResult Inequality operator

@@ -30,6 +30,7 @@ class BarCodeResult : public System::ICloneable,
 | [get_CodeTypeName](./get_codetypename/)() | Gets the name of the barcode type |
 | [get_Confidence](./get_confidence/)() const | Gets recognition confidence level of the recognized barcode |
 | [get_Extended](./get_extended/)() const | Gets extended parameters of recognized barcode |
+| [get_IsoSymbolQuality](./get_isosymbolquality/)() const | Gets the ISO/IEC symbol quality evaluation results for the recognized barcode. |
 | [get_ReadingQuality](./get_readingquality/)() const | Gets the reading quality. Works for 1D and postal barcodes. |
 | [get_Region](./get_region/)() const | Gets the barcode region |
 | [GetCodeText](./getcodetext/)(System::SharedPtr\<System::Text::Encoding\>) | Gets the code text with encoding. |

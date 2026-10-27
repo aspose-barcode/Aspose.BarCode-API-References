@@ -3,7 +3,7 @@ title: BarCodeResult.Equals
 second_title: Aspose.BarCode for .NET API Reference
 description: BarCodeResult method. Returns a value indicating whether this instance is equal to a specified BarCodeResult value
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.barcode.barcoderecognition/barcoderesult/equals/
 ---
 ## Equals(BarCodeResult) {#equals}

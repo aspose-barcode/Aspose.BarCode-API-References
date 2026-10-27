@@ -4,7 +4,7 @@ linktitle: BarCodeResult
 second_title: Aspose.BarCode for C++ API Reference
 description: ' constructor. Creates a a copy of the BarCodeResult class in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/barcoderesult/
 ---
 ## BarCodeResult::BarCodeResult constructor

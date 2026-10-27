@@ -26,6 +26,7 @@ The BarCodeResult type exposes the following members:
 |code_type_name|Gets the name of the barcode type|
 |region|Gets the barcode region|
 |extended|Gets extended parameters of recognized barcode|
+|iso_symbol_quality|Gets the ISO/IEC symbol quality evaluation results for the recognized barcode.|
 ## Methods
 | Name | Description |
 | :- | :- |

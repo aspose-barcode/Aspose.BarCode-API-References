@@ -3,7 +3,7 @@ title: Class CMYKColor
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.CMYKColor class. Class for CMYK color. Null means CMYK is not used default RGB color is in use
 type: docs
-weight: 1040
+weight: 1060
 url: /net/aspose.barcode.generation/cmykcolor/
 ---
 ## CMYKColor class

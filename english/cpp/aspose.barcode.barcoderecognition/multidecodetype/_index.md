@@ -4,7 +4,7 @@ linktitle: MultiDecodeType
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType class. Composite decode type in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/
 ---
 ## MultiDecodeType class

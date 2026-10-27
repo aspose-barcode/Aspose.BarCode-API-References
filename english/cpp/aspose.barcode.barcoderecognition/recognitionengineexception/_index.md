@@ -4,7 +4,7 @@ linktitle: RecognitionEngineException
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use  typedef in C++.'
 type: docs
-weight: 4000
+weight: 4200
 url: /cpp/aspose.barcode.barcoderecognition/recognitionengineexception/
 ---
 ## RecognitionEngineException typedef
