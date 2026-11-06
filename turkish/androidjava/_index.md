@@ -1,0 +1,18 @@
+---
+title: "Aspose.BarCode Android için Java aracılığıyla"
+type: docs
+weight: 12
+url: /tr/androidjava/
+description: "Aspose.BarCode Android için Java API Referansları örnekler, kod parçacıkları ve API belgeleri içerir. Paketler, sınıflar, arabirimler ve diğer API detaylarını sağlar."
+is_root: true
+---
+## Packages
+| Paket | Açıklama |
+| --- | --- |
+| [com.aspose.barcode](./com.aspose.barcode) | Bu paket, barkod oluşturma ve çizim için genel amaçlı sınıflar içerir. |
+| [com.aspose.barcode.barcoderecognition](./com.aspose.barcode.barcoderecognition) | Bu paket, 1D/2D barkod tanıma araçları içerir. |
+| [com.aspose.barcode.complexbarcode](./com.aspose.barcode.complexbarcode) | Bu paket, karmaşık barkod işleme araçları içerir. |
+| [com.aspose.barcode.component.barcodescanner](./com.aspose.barcode.component.barcodescanner) |  |
+| [com.aspose.barcode.component.barcodescanner.recognitionareaview](./com.aspose.barcode.component.barcodescanner.recognitionareaview) |  |
+| [com.aspose.barcode.generation](./com.aspose.barcode.generation) | Bu paket, barkod oluşturma araçları içerir. |
+| [com.aspose.barcode.metered](./com.aspose.barcode.metered) | Bu paket, ölçülü faturalama hizmetiyle ilgili işlevselliği sağlar. |
