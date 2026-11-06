@@ -1,0 +1,23 @@
+---
+title: "طريقة"
+linktitle: "set_DestinationPostCodeAndDPS"
+second_title: "Aspose.BarCode للـ C++ مرجع API"
+description: "الطريقة. يحتوي على الرمز البريدي لعنوان التسليم مع DPS. إذا كان داخليًا، يحتوي الرمز البريدي/DP على عدد الأحرف التالي: المنطقة (حرف أو حرفين) المنطقة الفرعية (حرف أو حرفين) القطاع (حرف واحد) الوحدة (حرفين) DPS (حرفين). يجب أن يتوافق الرمز البريدي و DPS مع تنسيق PAF® صالح في C++."
+type: docs
+weight: 1400
+url: /ar/cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_destinationpostcodeanddps/
+---
+## Mailmark2DCodetext::set_DestinationPostCodeAndDPS method
+
+
+يحتوي على الرمز البريدي لعنوان التسليم مع DPS. إذا كان داخليًا، يحتوي الرمز البريدي/DP على عدد الأحرف التالي: المنطقة (حرف أو حرفين) المنطقة الفرعية (حرف أو حرفين) القطاع (حرف واحد) الوحدة (حرفين) DPS (حرفين). يجب أن يتوافق الرمز البريدي و DPS مع تنسيق PAF® صالح.
+
+```cpp
+void Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_DestinationPostCodeAndDPS(System::String value)
+```
+
+## انظر أيضًا
+
+* Class [Mailmark2DCodetext](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)

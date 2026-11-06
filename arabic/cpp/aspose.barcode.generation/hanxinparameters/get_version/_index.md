@@ -1,0 +1,24 @@
+---
+title: "طريقة"
+linktitle: "get_Version"
+second_title: "Aspose.BarCode للـ C++ مرجع API"
+description: " طريقة. إصدار رمز HanXin. من Version01 إلى Version84 لرمز Han Xin. القيمة الافتراضية هي Version.Auto في C++."
+type: docs
+weight: 100
+url: /ar/cpp/aspose.barcode.generation/hanxinparameters/get_version/
+---
+## HanXinParameters::get_Version method
+
+
+إصدار رمز HanXin. من Version01 إلى Version84 لرمز Han Xin. القيمة الافتراضية هي [Version.Auto](../../aztecencodemode/).
+
+```cpp
+HanXinVersion Aspose::BarCode::Generation::HanXinParameters::get_Version() const
+```
+
+## انظر أيضًا
+
+* Enum [HanXinVersion](../../hanxinversion/)
+* Class [HanXinParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

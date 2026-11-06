@@ -1,0 +1,24 @@
+---
+title: "طريقة"
+linktitle: "set_Type"
+second_title: "Aspose.BarCode للـ C++ مرجع API"
+description: "طريقة. تحصل أو تعين نوع التسلسل. الافتراضي هو attribute في C++."
+type: docs
+weight: 200
+url: /ar/cpp/aspose.barcode/xmlserializationattribute/set_type/
+---
+## XmlSerializationAttribute::set_Type method
+
+
+احصل أو عيّن نوع التسلسل. الافتراضي هو attribute.
+
+```cpp
+void Aspose::BarCode::XmlSerializationAttribute::set_Type(XmlSerializationType value)
+```
+
+## انظر أيضًا
+
+* Enum [XmlSerializationType](../../xmlserializationtype/)
+* Class [XmlSerializationAttribute](../)
+* Namespace [Aspose::BarCode](../../)
+* Library [Aspose.BarCode for C++](../../../)

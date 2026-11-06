@@ -1,0 +1,24 @@
+---
+title: "طريقة"
+linktitle: "get_Format"
+second_title: "Aspose.BarCode للـ C++ مرجع API"
+description: " طريقة. تنسيق PatchCode. اختر PatchOnly لإنشاء PatchCode واحد. استخدم تنسيق الصفحة لإنشاء صفحة Patch مع PatchCodes كحدود. القيمة الافتراضية: PatchFormat.PatchOnly في C++."
+type: docs
+weight: 300
+url: /ar/cpp/aspose.barcode.generation/patchcodeparameters/get_format/
+---
+## PatchCodeParameters::get_Format method
+
+
+تنسيق PatchCode. اختر PatchOnly لإنشاء PatchCode واحد. استخدم تنسيق الصفحة لإنشاء صفحة Patch مع PatchCodes كحدود. القيمة الافتراضية: [PatchFormat.PatchOnly](../../patchformat/)
+
+```cpp
+Aspose::BarCode::Generation::PatchFormat Aspose::BarCode::Generation::PatchCodeParameters::get_Format() const
+```
+
+## انظر أيضًا
+
+* Enum [PatchFormat](../../patchformat/)
+* Class [PatchCodeParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
