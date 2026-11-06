@@ -1,0 +1,29 @@
+---
+title: "method"
+linktitle: "set_Instruction"
+second_title: "Aspose.BarCode for C++ API 参考"
+description: " 方法。获取给定账单的付款指令（C++）。"
+type: docs
+weight: 200
+url: /zh/cpp/aspose.barcode.complexbarcode/alternativescheme/set_instruction/
+---
+## AlternativeScheme::set_Instruction method
+
+
+获取给定账单的付款指令。
+
+```cpp
+void Aspose::BarCode::ComplexBarcode::AlternativeScheme::set_Instruction(System::String value)
+```
+
+## 备注
+
+
+该指令由方案的两个字母缩写、分隔符字符以及参数序列（由索引 2 处的字符分隔）组成。
+
+付款指令。
+## 另见
+
+* Class [AlternativeScheme](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)
