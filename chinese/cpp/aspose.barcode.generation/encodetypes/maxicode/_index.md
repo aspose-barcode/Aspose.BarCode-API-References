@@ -1,0 +1,23 @@
+---
+title: "字段"
+linktitle: "MaxiCode"
+second_title: "Aspose.BarCode for C++ API 参考"
+description: " field. 指定应使用 MaxiCode 条形码规范在 C++ 中对数据进行编码。"
+type: docs
+weight: 4900
+url: /zh/cpp/aspose.barcode.generation/encodetypes/maxicode/
+---
+## MaxiCode field
+
+
+指定数据应使用 **MaxiCode** 条形码规范进行编码
+
+```cpp
+static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::MaxiCode
+```
+
+## 另见
+
+* Class [EncodeTypes](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
