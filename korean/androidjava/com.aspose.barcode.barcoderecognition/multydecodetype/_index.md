@@ -1,0 +1,357 @@
+---
+title: "MultyDecodeType"
+second_title: "Aspose.BarCode for Android via Java API 참조"
+description: 
+type: docs
+weight: 36
+url: /ko/androidjava/com.aspose.barcode.barcoderecognition/multydecodetype/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.barcode.barcoderecognition.BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype)
+```
+public class MultyDecodeType extends BaseDecodeType
+```
+## 생성자
+
+| 생성자 | 설명 |
+| --- | --- |
+| [MultyDecodeType(BaseDecodeType[] arg0)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) |  |
+| [MultyDecodeType(SingleDecodeType[] arg0)](#MultyDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-) |  |
+## 필드
+
+| 필드 | 설명 |
+| --- | --- |
+| [CREATOR](#CREATOR) |  |
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [add(SingleDecodeType arg0)](#add-com.aspose.barcode.barcoderecognition.SingleDecodeType-) |  |
+| [containsAll(BaseDecodeType[] arg0)](#containsAll-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) |  |
+| [containsAny(BaseDecodeType[] arg0)](#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-) |  |
+| [describeContents()](#describeContents--) |  |
+| [equals(MultiDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-) | 이 인스턴스가 지정된 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) 값과 같은지 여부를 나타내는 값을 반환합니다. |
+| [equals(SingleDecodeType other)](#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-) | 이 인스턴스가 지정된 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) 값과 같은지 여부를 나타내는 값을 반환합니다. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getGetSingleTypesCount()](#getGetSingleTypesCount--) |  |
+| [getSingleTypes()](#getSingleTypes--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [tryParseBaseDecodeType(String parsingType)](#tryParseBaseDecodeType-java.lang.String-) | 구체적인 유형을 결정한 후 BaseDecodeType의 문자열 표현을 해당 인스턴스로 변환합니다. |
+| [tryParseMultiDecodeType(String parsingType)](#tryParseMultiDecodeType-java.lang.String-) | MultiDecodeType의 문자열 표현을 해당 인스턴스로 변환합니다. |
+| [tryParseMultyDecodeType(String arg0)](#tryParseMultyDecodeType-java.lang.String-) |  |
+| [tryParseSingleDecodeType(String parsingType)](#tryParseSingleDecodeType-java.lang.String-) | SingleDecodeType의 문자열 표현을 해당 인스턴스로 변환합니다. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [writeToParcel(Parcel arg0, int arg1)](#writeToParcel-android.os.Parcel-int-) |  |
+### MultyDecodeType(BaseDecodeType[] arg0) {#MultyDecodeType-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
+```
+public MultyDecodeType(BaseDecodeType[] arg0)
+```
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) |  |
+
+### MultyDecodeType(SingleDecodeType[] arg0) {#MultyDecodeType-com.aspose.barcode.barcoderecognition.SingleDecodeType...-}
+```
+public MultyDecodeType(SingleDecodeType[] arg0)
+```
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | [SingleDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/singledecodetype) |  |
+
+### CREATOR {#CREATOR}
+```
+public static final Parcelable.Creator<BaseDecodeType> CREATOR
+```
+
+
+### add(SingleDecodeType arg0) {#add-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public void add(SingleDecodeType arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) |  |
+
+### containsAll(BaseDecodeType[] arg0) {#containsAll-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
+```
+public boolean containsAll(BaseDecodeType[] arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) |  |
+
+**Returns:**
+boolean
+### containsAny(BaseDecodeType[] arg0) {#containsAny-com.aspose.barcode.barcoderecognition.BaseDecodeType...-}
+```
+public boolean containsAny(BaseDecodeType[] arg0)
+```
+
+
+주어진 디코드 유형 중 하나라도 포함되는지 여부를 결정합니다
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | [BaseDecodeType\[\]](../../com.aspose.barcode.barcoderecognition/basedecodetype) |  |
+
+**Returns:**
+boolean
+### describeContents() {#describeContents--}
+```
+public int describeContents()
+```
+
+
+
+
+**Returns:**
+int
+### equals(MultiDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.MultiDecodeType-}
+```
+public boolean equals(MultiDecodeType other)
+```
+
+
+이 인스턴스가 지정된 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) 값과 같은지 여부를 나타내는 값을 반환합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| other | [MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) | 이 인스턴스와 비교할 java.lang.Object 값. |
+
+**Returns:**
+boolean - 객체가 이 인스턴스와 동일한 값을 갖는 경우 true; 그렇지 않으면 false.
+### equals(SingleDecodeType other) {#equals-com.aspose.barcode.barcoderecognition.SingleDecodeType-}
+```
+public boolean equals(SingleDecodeType other)
+```
+
+
+이 인스턴스가 지정된 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) 값과 같은지 여부를 나타내는 값을 반환합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| other | [SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) | 이 인스턴스와 비교할 java.lang.Object 값. |
+
+**Returns:**
+boolean - 객체가 이 인스턴스와 동일한 값을 갖는 경우 true; 그렇지 않으면 false.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+이 인스턴스가 지정된 [BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) 값과 같은지 여부를 나타내는 값을 반환합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getGetSingleTypesCount() {#getGetSingleTypesCount--}
+```
+public int getGetSingleTypesCount()
+```
+
+
+
+
+**Returns:**
+int
+### getSingleTypes() {#getSingleTypes--}
+```
+public List<SingleDecodeType> getSingleTypes()
+```
+
+
+
+
+**Returns:**
+java.util.List<com.aspose.barcode.barcoderecognition.SingleDecodeType>
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### tryParseBaseDecodeType(String parsingType) {#tryParseBaseDecodeType-java.lang.String-}
+```
+public static BaseDecodeType tryParseBaseDecodeType(String parsingType)
+```
+
+
+BaseDecodeType의 문자열 표현을 구체적인 유형을 결정한 후 해당 인스턴스로 변환합니다. 반환값은 변환이 성공했는지 실패했는지를 나타냅니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| parsingType | java.lang.String | 변환할 MultiDecodeType 표현을 포함하는 문자열. |
+
+**Returns:**
+[BaseDecodeType](../../com.aspose.barcode.barcoderecognition/basedecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
+
+그렇지 않으면 불확정 유형을 반환합니다. 또는 MultiDecodeType ("None").
+### tryParseMultiDecodeType(String parsingType) {#tryParseMultiDecodeType-java.lang.String-}
+```
+public static MultiDecodeType tryParseMultiDecodeType(String parsingType)
+```
+
+
+MultiDecodeType의 문자열 표현을 해당 인스턴스로 변환합니다. 반환값은 변환이 성공했는지 실패했는지를 나타냅니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| parsingType | java.lang.String | 변환할 MultiDecodeType 표현을 포함하는 문자열. |
+
+**Returns:**
+[MultiDecodeType](../../com.aspose.barcode.barcoderecognition/multidecodetype) - An actual MultiDecodeType is returned, when conversion has completed successfully;
+
+그렇지 않으면 불확정 유형을 반환합니다. 또는 MultiDecodeType ("None").
+### tryParseMultyDecodeType(String arg0) {#tryParseMultyDecodeType-java.lang.String-}
+```
+public static MultyDecodeType tryParseMultyDecodeType(String arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.String |  |
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.MultyDecodeType
+### tryParseSingleDecodeType(String parsingType) {#tryParseSingleDecodeType-java.lang.String-}
+```
+public static SingleDecodeType tryParseSingleDecodeType(String parsingType)
+```
+
+
+SingleDecodeType의 문자열 표현을 해당 인스턴스로 변환합니다. 반환값은 변환이 성공했는지 실패했는지를 나타냅니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| parsingType | java.lang.String | 변환할 "EAN8" 또는 "EAN13" 또는 "CodaBar"... 형식의 SingleDecodeType을 포함하는 문자열. |
+
+**Returns:**
+[SingleDecodeType](../../com.aspose.barcode.barcoderecognition/singledecodetype) - An actual SingleDecodeType is returned, when conversion has completed successfully;
+
+그렇지 않으면 불확정 유형을 반환합니다. 또는 SingleDecodeType (-1, "None").
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
+### writeToParcel(Parcel arg0, int arg1) {#writeToParcel-android.os.Parcel-int-}
+```
+public void writeToParcel(Parcel arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | android.os.Parcel |  |
+| arg1 | int |  |
+
