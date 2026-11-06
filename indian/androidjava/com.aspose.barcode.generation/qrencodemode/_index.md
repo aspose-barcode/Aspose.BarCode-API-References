@@ -1,0 +1,368 @@
+---
+title: "QREncodeMode"
+second_title: "Aspose.BarCode के लिए Android via Java API संदर्भ"
+description: "QR बारकोड के लिए एन्कोडिंग मोड।"
+type: docs
+weight: 102
+url: /hi/androidjava/com.aspose.barcode.generation/qrencodemode/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum QREncodeMode extends Enum<QREncodeMode>
+```
+
+QR बारकोड के लिए एन्कोडिंग मोड। ये नमूने दिखाते हैं कि विस्तारित डेटा फ़ॉर्मेट के साथ QR बारकोड को कैसे एन्कोड और सहेजें।
+
+```
+{@code
+ //This sample shows how to use ECI encoding and save a BarCode image.
+
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.setCodeText("12345TEXT");
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.ECI_ENCODING);
+ generator.getParameters().getBarcode().getQR().setQrECIEncoding(ECIEncodings.UTF8);
+ generator.save("test.png");
+
+ //This sample shows how to use FNC1 first position in Extended Mode.
+ Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes.
+ It is better to use QrExtCodetextBuilder for extended codetext generation.
+ Use Display2DText property to set visible text by removing managing characters.
+ Encoding Principles:
+ All symbols "\" must be doubled "\\" in the codetext.
+ FNC1 in first position is set in codetext as "<FNC1>".
+ FNC1 in second position is set in codetext as "<FNC1(value)>". The value must be a single character from a-z or A-Z, or a two-digit number from 00 to 99.
+ Group Separator for FNC1 modes is set as 0x1D character ''.
+ If you need to insert "<FNC1>" string into barcode write it as "<\FNC1>".
+ ECI identifiers are set as single slash and six digits identifier, for example "\000026" for UTF8 ECI identifier.
+ The default ECI mode is ISO/IEC 8859-1 ECI identifier "\000003". It does not need to be encoded at the beginning of the codetext.
+ To switch from another ECI mode to the default ECI mode, use "\000003".
+ All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+ QR compaction mode selectors are set as single slash and mode name: "\auto", "\num", "\alnum", "\byte", "\kanji".
+ "\auto" sets automatic compaction mode, "\num" sets Numeric mode, "\alnum" sets AlphaNumeric mode, "\byte" sets Bytes mode, and "\kanji" sets Kanji mode.
+ The default compaction mode is "\auto".
+ Compaction mode selectors define the encoding mode for the following data until the next compaction mode selector or ECI identifier is found.
+ If the data cannot be encoded in the selected compaction mode, an ArgumentException is thrown.
+ This mode is not supported by MicroQR barcodes.
+
+ //create codetext
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addFNC1FirstPosition();
+ textBuilder.addPlainCodetext("000%89%%0");
+ textBuilder.addFNC1GroupSeparator();
+ textBuilder.addPlainCodetext("12345<FNC1>");
+ //generate barcode
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.setCodeText(textBuilder.GetExtendedCodetext();
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.Extended);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+ generator.save("test.png");
+
+ //This sample shows how to use FNC1 second position in Extended Mode.
+ //create codetext
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addFNC1SecondPosition("12");
+ textBuilder.addPlainCodetext("TRUE3456");
+ //generate barcode
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.setCodeText(textBuilder.GetExtendedCodetext();
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.Extended);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text");
+ generator.save("test.png");
+
+ //This sample shows how to use multi ECI mode in Extended Mode.
+ //create codetext
+ QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+ textBuilder.addECICodetext(ECIEncodings.Win1251, "Will");
+ textBuilder.addECICodetext(ECIEncodings.UTF8, "Right");
+ textBuilder.addECICodetext(ECIEncodings.UTF16BE, "Power");
+ textBuilder.addPlainCodetext"t\e\\st");
+ textBuilder.addAlphaNumericCodetext("ASPOSE2001");
+ textBuilder.addNumericCodetext(@"20012026");
+ //generate barcode
+ BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR);
+ generator.setCodeText(textBuilder.getExtendedCodetext();
+ generator.getParameters().getBarcode().getQR().setEncodeMode(QREncodeMode.EXTENDED);
+ generator.getParameters().getBarcode().getCodeTextParameters().setTwoDDisplayText("My Text";
+ generator.save("test.png");
+```
+## फ़ील्ड्स
+
+| फ़ील्ड | विवरण |
+| --- | --- |
+| [AUTO](#AUTO) | Auto मोड में, CodeText को अधिकतम डेटा संकुचन के साथ एन्कोड किया जाता है। |
+| [BINARY](#BINARY) | Binary मोड में, CodeText को अधिकतम डेटा संकुचन के साथ एन्कोड किया जाता है। |
+| [ECI](#ECI) | ECI मोड में, संपूर्ण संदेश को निर्दिष्ट ECIEncoding एन्कोडिंग में पुनः एन्कोड किया जाता है और एक ECI पहचानकर्ता डाला जाता है। |
+| [EXTENDED](#EXTENDED) | विस्तारित चैनल मोड जो FNC1 पहली स्थिति, FNC1 दूसरी स्थिति और मल्टी ECI मोड्स का समर्थन करता है। |
+## Methods
+
+| Method | विवरण |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [describeConstable()](#describeConstable--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AUTO {#AUTO}
+```
+public static final QREncodeMode AUTO
+```
+
+
+ऑटो मोड में, CodeText को अधिकतम डेटा संकुचन के साथ एन्कोड किया जाता है। यूनिकोड अक्षरों को यदि संभव हो तो कंजी मोड में एन्कोड किया जाता है, या उन्हें ECIEncoding द्वारा निर्दिष्ट एन्कोडिंग में ECI पहचानकर्ता के सम्मिलन के साथ पुनः एन्कोड किया जाता है। यदि कोई अक्षर मिलता है जो चयनित ECI एन्कोडिंग द्वारा समर्थित नहीं है, तो एक अपवाद फेंका जाता है।
+
+### BINARY {#BINARY}
+```
+public static final QREncodeMode BINARY
+```
+
+
+बाइनरी मोड में, CodeText अधिकतम डेटा संकुचन के साथ एन्कोड किया जाता है। यदि कोई यूनिकोड अक्षर मिलता है, तो एक अपवाद फेंका जाता है।
+
+### ECI {#ECI}
+```
+public static final QREncodeMode ECI
+```
+
+
+ECI मोड में, पूरे संदेश को ECIEncoding द्वारा निर्दिष्ट एन्कोडिंग में ECI पहचानकर्ता के सम्मिलन के साथ पुनः एन्कोड किया जाता है। यदि कोई अक्षर मिलता है जो चयनित ECI एन्कोडिंग द्वारा समर्थित नहीं है, तो एक अपवाद फेंका जाता है। कृपया ध्यान दें कि कुछ पुराने (2006 से पहले) स्कैनर इस मोड का समर्थन नहीं कर सकते। यह मोड MicroQR बारकोड द्वारा समर्थित नहीं है।
+
+### EXTENDED {#EXTENDED}
+```
+public static final QREncodeMode EXTENDED
+```
+
+
+विस्तारित चैनल मोड जो FNC1 पहली स्थिति, FNC1 दूसरी स्थिति और मल्टी ECI मोड्स का समर्थन करता है। विस्तारित कोडटेक्स्ट जनरेशन के लिए QrExtCodetextBuilder का उपयोग करना बेहतर है। प्रबंधकीय अक्षरों को हटाकर दृश्यमान टेक्स्ट सेट करने के लिए Display2DText प्रॉपर्टी का उपयोग करें। एन्कोडिंग सिद्धांत: सभी प्रतीक "\\" को कोडटेक्स्ट में दोहरा "\\\\" होना चाहिए। पहली स्थिति में FNC1 को कोडटेक्स्ट में "<FNC1>" के रूप में सेट किया जाता है। दूसरी स्थिति में FNC1 को कोडटेक्स्ट में "<FNC1(value)>" के रूप में सेट किया जाता है। मान a‑z या A‑Z का एकल अक्षर या 00 से 99 तक का दो-अंकीय संख्या होना चाहिए। समूह विभाजक 0x1D अक्षर '\\u001d' के रूप में सेट किया जाता है। यदि आपको बारकोड में "<FNC1>" स्ट्रिंग डालनी है तो इसे "<\\\\FNC1>" के रूप में लिखें। ECI पहचानकर्ता को एकल स्लैश और छह अंकों के पहचानकर्ता के रूप में सेट किया जाता है, उदाहरण के लिए UTF8 ECI पहचानकर्ता के लिए "\\\\000026"। डिफ़ॉल्ट ECI मोड ISO/IEC 8859-1 ECI पहचानकर्ता "\\\\000003" है। इसे कोडटेक्स्ट की शुरुआत में एन्कोड करने की आवश्यकता नहीं है। किसी अन्य ECI मोड से डिफ़ॉल्ट ECI मोड में स्विच करने के लिए "\\\\000003" का उपयोग करें। ECI पहचानकर्ता के बाद सभी यूनिकोड अक्षर स्वचालित रूप से सही कैरेक्टर कोडसेट में एन्कोड हो जाते हैं। QR संपीड़न मोड चयनकर्ता एकल स्लैश और मोड नाम के रूप में सेट होते हैं: "\\\\auto", "\\\\num", "\\\\alnum", "\\\\byte", "\\\\kanji"। "\\\\auto" स्वचालित संपीड़न मोड सेट करता है, "\\\\num" न्यूमेरिक मोड सेट करता है, "\\\\alnum" अल्फ़ा न्यूमेरिक मोड सेट करता है, "\\\\byte" बाइट्स मोड सेट करता है, और "\\\\kanji" कंजी मोड सेट करता है। डिफ़ॉल्ट संपीड़न मोड "\\\\auto" है। संपीड़न मोड चयनकर्ता अगले संपीड़न मोड चयनकर्ता या ECI पहचानकर्ता मिलने तक अगले डेटा के लिए एन्कोडिंग मोड निर्धारित करते हैं। यदि डेटा चयनित संपीड़न मोड में एन्कोड नहीं हो सकता, तो ArgumentException फेंका जाता है। यह मोड MicroQR बारकोड द्वारा समर्थित नहीं है।
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### describeConstable() {#describeConstable--}
+```
+public final Optional<Enum.EnumDesc<E>> describeConstable()
+```
+
+
+
+
+**Returns:**
+java.util.Optional<java.lang.Enum.EnumDesc<E>>
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static QREncodeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+**Returns:**
+[QREncodeMode](../../com.aspose.barcode.generation/qrencodemode)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static QREncodeMode valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| नाम | java.lang.String |  |
+
+**Returns:**
+[QREncodeMode](../../com.aspose.barcode.generation/qrencodemode)
+### values() {#values--}
+```
+public static QREncodeMode[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.QREncodeMode[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
