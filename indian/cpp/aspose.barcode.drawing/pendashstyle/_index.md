@@ -1,0 +1,32 @@
+---
+title: "enum"
+linktitle: "PenDashStyle"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " enum. C++ में डैश्ड बॉर्डर लाइनों की शैली निर्दिष्ट करता है।"
+type: docs
+weight: 200
+url: /hi/cpp/aspose.barcode.drawing/pendashstyle/
+---
+## PenDashStyle enum
+
+
+डैश्ड बॉर्डर लाइनों की शैली निर्दिष्ट करता है।
+
+```cpp
+enum class PenDashStyle
+```
+
+### मान
+
+| नाम | मान | विवरण |
+| --- | --- | --- |
+| सॉलिड | 0 | एक सॉलिड रेखा निर्दिष्ट करता है। |
+| डैश | 1 | डैश से बनी रेखा निर्दिष्ट करता है। |
+| डॉट | 2 | डॉट से बनी रेखा निर्दिष्ट करता है। |
+| DashDot | 3 | डैश‑डॉट की दोहराव वाली पैटर्न वाली रेखा निर्दिष्ट करता है। |
+| DashDotDot | 4 | डैश-डॉट-डॉट की दोहराव वाली पैटर्न वाली एक पंक्ति निर्दिष्ट करता है। |
+
+## और देखें
+
+* Namespace [Aspose::BarCode::Drawing](../)
+* Library [Aspose.BarCode for C++](../../)

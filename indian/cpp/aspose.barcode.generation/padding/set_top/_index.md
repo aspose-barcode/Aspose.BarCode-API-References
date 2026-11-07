@@ -1,0 +1,24 @@
+---
+title: "विधि"
+linktitle: "set_Top"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " method. ऊपर की पैडिंग in C++."
+type: docs
+weight: 200
+url: /hi/cpp/aspose.barcode.generation/padding/set_top/
+---
+## Padding::set_Top method
+
+
+ऊपरी Padding।
+
+```cpp
+void Aspose::BarCode::Generation::Padding::set_Top(System::SharedPtr<Unit> value)
+```
+
+## और देखें
+
+* Class [Unit](../../unit/)
+* Class [Padding](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

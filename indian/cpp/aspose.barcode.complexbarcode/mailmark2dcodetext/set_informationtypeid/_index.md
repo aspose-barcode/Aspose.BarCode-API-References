@@ -1,0 +1,35 @@
+---
+title: "विधि"
+linktitle: "set_InformationTypeID"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: "विधि। प्रत्येक उत्पाद प्रकार के लिए Royal Mail Mailmark बारकोड पेलोड की पहचान करता है C++ में।"
+type: docs
+weight: 400
+url: /hi/cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_informationtypeid/
+---
+## Mailmark2DCodetext::set_InformationTypeID method
+
+
+प्रत्येक उत्पाद प्रकार के लिए Royal Mail Mailmark बारकोड पेलोड की पहचान करता है।
+
+```cpp
+void Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_InformationTypeID(System::String value)
+```
+
+## टिप्पणियाँ
+
+
+वैध मान:
+
+“0” - घरेलू सॉर्टेड और अनसॉर्टेड
+
+“A” - ऑनलाइन पोस्टेज
+
+“B” - फ्रैंकिंग
+
+“C” - समेकन
+## और देखें
+
+* Class [Mailmark2DCodetext](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)

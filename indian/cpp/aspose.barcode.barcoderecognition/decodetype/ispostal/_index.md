@@ -1,0 +1,33 @@
+---
+title: "विधि"
+linktitle: "IsPostal"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " विधि। निर्धारित करता है कि निर्दिष्ट BaseDecodeType में कोई भी पोस्टल बारकोड सिम्बोलॉजी C++ में मौजूद है या नहीं।"
+type: docs
+weight: 700
+url: /hi/cpp/aspose.barcode.barcoderecognition/decodetype/ispostal/
+---
+## DecodeType::IsPostal method
+
+
+निर्धारित करता है कि निर्दिष्ट [BaseDecodeType](../../basedecodetype/) में कोई भी पोस्टल बारकोड सिम्बोलॉजी है या नहीं
+
+```cpp
+static bool Aspose::BarCode::BarCodeRecognition::DecodeType::IsPostal(System::SharedPtr<BaseDecodeType> symbology)
+```
+
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| symbology | System::SharedPtr\<BaseDecodeType\> | परीक्षण के लिए [BaseDecodeType](../../basedecodetype/)। |
+
+### ReturnValue
+
+यदि [BaseDecodeType](../../basedecodetype/) में कोई भी पोस्टल बारकोड सिम्बोलॉजी है तो **true** लौटाता है; अन्यथा, **false** लौटाता है।
+
+## और देखें
+
+* Class [BaseDecodeType](../../basedecodetype/)
+* Class [DecodeType](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)

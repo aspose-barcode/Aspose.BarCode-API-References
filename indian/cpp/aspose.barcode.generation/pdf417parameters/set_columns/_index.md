@@ -1,0 +1,23 @@
+---
+title: "विधि"
+linktitle: "set_Columns"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " विधि। C++ में कॉलम गिनती।"
+type: docs
+weight: 800
+url: /hi/cpp/aspose.barcode.generation/pdf417parameters/set_columns/
+---
+## Pdf417Parameters::set_Columns method
+
+
+कॉलम की संख्या।
+
+```cpp
+void Aspose::BarCode::Generation::Pdf417Parameters::set_Columns(int32_t value)
+```
+
+## और देखें
+
+* Class [Pdf417Parameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
