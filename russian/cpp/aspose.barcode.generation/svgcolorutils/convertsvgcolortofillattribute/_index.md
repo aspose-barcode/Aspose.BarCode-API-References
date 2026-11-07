@@ -1,0 +1,24 @@
+---
+title: "method"
+linktitle: "ConvertSvgColorToFillAttribute"
+second_title: "Aspose.BarCode для C++ справочник API"
+description: "Как использовать метод ConvertSvgColorToFillAttribute класса Aspose::BarCode::Generation::SvgColorUtils в C++."
+type: docs
+weight: 100
+url: /ru/cpp/aspose.barcode.generation/svgcolorutils/convertsvgcolortofillattribute/
+---
+## SvgColorUtils::ConvertSvgColorToFillAttribute method
+
+
+
+
+```cpp
+static System::String Aspose::BarCode::Generation::SvgColorUtils::ConvertSvgColorToFillAttribute(System::SharedPtr<Drawing::SvgColor> color, SvgColorMode colorMode)
+```
+
+## См. также
+
+* Enum [SvgColorMode](../../svgcolormode/)
+* Class [SvgColorUtils](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
