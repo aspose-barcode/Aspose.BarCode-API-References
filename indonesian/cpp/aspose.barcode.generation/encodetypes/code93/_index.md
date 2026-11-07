@@ -1,0 +1,23 @@
+---
+title: "bidang"
+linktitle: "Code93"
+second_title: "Aspose.BarCode for C++ Referensi API"
+description: " bidang. Menentukan bahwa data harus dienkode dengan spesifikasi barcode CODE 93 dalam C++."
+type: docs
+weight: 1100
+url: /id/cpp/aspose.barcode.generation/encodetypes/code93/
+---
+## Code93 field
+
+
+Menentukan bahwa data harus dikodekan dengan spesifikasi barcode **CODE 93**
+
+```cpp
+static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::Code93
+```
+
+## Lihat Juga
+
+* Class [EncodeTypes](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
