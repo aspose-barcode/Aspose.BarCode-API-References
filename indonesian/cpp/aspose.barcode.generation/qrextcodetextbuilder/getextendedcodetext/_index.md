@@ -1,0 +1,28 @@
+---
+title: "metode"
+linktitle: "GetExtendedCodetext"
+second_title: "Aspose.BarCode for C++ Referensi API"
+description: " method. Menghasilkan codetext yang Diperluas dari daftar codetext yang diperluas dalam C++."
+type: docs
+weight: 600
+url: /id/cpp/aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/
+---
+## QrExtCodetextBuilder::GetExtendedCodetext method
+
+
+Menghasilkan Extended codetext dari daftar extended codetext.
+
+```cpp
+System::String Aspose::BarCode::Generation::QrExtCodetextBuilder::GetExtendedCodetext() override
+```
+
+
+### ReturnValue
+
+Codetext yang diperluas sebagai string
+
+## Lihat Juga
+
+* Class [QrExtCodetextBuilder](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
