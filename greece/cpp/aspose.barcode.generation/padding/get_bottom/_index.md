@@ -1,0 +1,24 @@
+---
+title: "μέθοδος"
+linktitle: "get_Bottom"
+second_title: "Aspose.BarCode για C++ Αναφορά API"
+description: " μέθοδος. Κάτω padding σε C++."
+type: docs
+weight: 300
+url: /el/cpp/aspose.barcode.generation/padding/get_bottom/
+---
+## Padding::get_Bottom method
+
+
+Κάτω padding.
+
+```cpp
+System::SharedPtr<Unit> Aspose::BarCode::Generation::Padding::get_Bottom() const
+```
+
+## Δείτε επίσης
+
+* Class [Unit](../../unit/)
+* Class [Padding](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
