@@ -1,0 +1,33 @@
+---
+title: "Methode"
+linktitle: "idx_get"
+second_title: "Aspose.BarCode für C++ API-Referenz"
+description: " method. Gibt ein Element anhand seiner Position in der geordneten Sequenz in C++ zurück."
+type: docs
+weight: 600
+url: /de/cpp/aspose.barcode.complexbarcode/gs1codetext/idx_get/
+---
+## GS1Codetext::idx_get method
+
+
+Liefert ein Element anhand seiner Position in der geordneten Sequenz.
+
+```cpp
+System::SharedPtr<Common::GS1Element> Aspose::BarCode::ComplexBarcode::GS1Codetext::idx_get(int32_t index)
+```
+
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| index | int32_t | Nullbasierter Elementindex. |
+
+### ReturnValue
+
+Das unveränderliche Element am angegebenen Index.
+
+## Siehe auch
+
+* Class [GS1Element](../../../aspose.barcode.common/gs1element/)
+* Class [GS1Codetext](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)
