@@ -1,0 +1,23 @@
+---
+title: "veld"
+linktitle: "US_LETTER_HEIGHT_MM"
+second_title: "Aspose.BarCode for C++ API-referentie"
+description: "Hoe gebruik je het US_LETTER_HEIGHT_MM-veld van de Aspose::BarCode::Generation::PatchcodeConst-klasse in C++."
+type: docs
+weight: 700
+url: /nl/cpp/aspose.barcode.generation/patchcodeconst/us_letter_height_mm/
+---
+## US_LETTER_HEIGHT_MM field
+
+
+
+
+```cpp
+static float Aspose::BarCode::Generation::PatchcodeConst::US_LETTER_HEIGHT_MM
+```
+
+## Zie ook
+
+* Class [PatchcodeConst](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
