@@ -1,0 +1,73 @@
+---
+title: "enum"
+linktitle: "AztecEncodeMode"
+second_title: "Aspose.BarCode for C++ API 레퍼런스"
+description: "enum. C++에서 Aztec 바코드의 인코딩 모드."
+type: docs
+weight: 5300
+url: /ko/cpp/aspose.barcode.generation/aztecencodemode/
+---
+## AztecEncodeMode enum
+
+
+Aztec 바코드의 인코딩 모드.
+
+```cpp
+enum class AztecEncodeMode
+```
+
+### 값
+
+| 이름 | 값 | 설명 |
+| --- | --- | --- |
+| 자동 | 0 | Auto 모드에서는 CodeText가 최대 데이터 압축으로 인코딩됩니다. 유니코드 문자는 지정된 ECIEncoding 인코딩으로 재인코딩되며 ECI 식별자가 삽입됩니다. 선택된 ECI 인코딩에서 지원되지 않는 문자가 발견되면 예외가 발생합니다. |
+| 확장 | 3 |  |
+| 이진 | 4 | Binary 모드에서는 CodeText가 최대 데이터 압축으로 인코딩됩니다. 유니코드 문자가 발견되면 예외가 발생합니다. |
+| ECI | 5 | ECI 모드에서는 전체 메시지가 지정된 ECIEncoding 인코딩으로 재인코딩되며 ECI 식별자가 삽입됩니다. 선택된 ECI 인코딩에서 지원되지 않는 문자가 발견되면 예외가 발생합니다. 일부 오래된(2006년 이전) 스캐너는 이 모드를 지원하지 않을 수 있다는 점에 유의하십시오. |
+
+## 비고
+
+
+
+```cpp
+[C#]
+//자동 모드
+var codetext = "犬Right狗";
+using (var generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
+{
+    generator.Parameters.Barcode.Aztec.ECIEncoding = ECIEncodings.UTF8;
+    generator.Save("test.bmp");
+}
+
+byte[] encodedArr = { 0xFF, 0xFE, 0xFD, 0xFC, 0xFB, 0xFA, 0xF9 };
+using (var generator = new BarcodeGenerator(EncodeTypes.Aztec))
+{
+    generator.SetCodetext(encodedArr);
+    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.Binary;
+    generator.Save("test.bmp");
+}
+
+//Extended 모드
+//코드텍스트 생성
+AztecExtCodetextBuilder textBuilder = new AztecExtCodetextBuilder();
+textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
+textBuilder.AddECICodetext(ECIEncodings.UTF8, "犬Right狗");
+textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "犬Power狗");
+textBuilder.AddPlainCodetext("Plain text");
+
+//코드텍스트 생성
+string codetext = textBuilder.GetExtendedCodetext();
+
+//생성
+using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Aztec, codetext))
+{
+    generator.Parameters.Barcode.Aztec.AztecEncodeMode = AztecEncodeMode.Extended;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+    generator.Save("test.bmp");
+}
+```
+
+## 또 보기
+
+* Namespace [Aspose::BarCode::Generation](../)
+* Library [Aspose.BarCode for C++](../../)

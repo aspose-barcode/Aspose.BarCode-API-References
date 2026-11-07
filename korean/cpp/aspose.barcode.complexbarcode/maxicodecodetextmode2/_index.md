@@ -1,0 +1,122 @@
+---
+title: "Aspose::BarCode::ComplexBarcode::MaxiCodeCodetextMode2 클래스"
+linktitle: "MaxiCodeCodetextMode2"
+second_title: "Aspose.BarCode for C++ API 레퍼런스"
+description: "Aspose::BarCode::ComplexBarcode::MaxiCodeCodetextMode2 클래스. C++에서 모드 2용 MaxiCode 코드에 삽입된 텍스트를 인코딩 및 디코딩하기 위한 클래스."
+type: docs
+weight: 1700
+url: /ko/cpp/aspose.barcode.complexbarcode/maxicodecodetextmode2/
+---
+## MaxiCodeCodetextMode2 class
+
+
+모드 2용 MaxiCode 코드에 삽입된 텍스트를 인코딩 및 디코딩하기 위한 클래스.
+
+```cpp
+class MaxiCodeCodetextMode2 : public Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext
+```
+
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [Equals](../maxicodestructuredcodetext/equals/)(System::SharedPtr\<System::Object\>) override | 이 인스턴스가 지정된 [MaxiCodeStructuredCodetext](../maxicodestructuredcodetext/) 값과 같은지 여부를 나타내는 값을 반환합니다. |
+| [get_CountryCode](../maxicodestructuredcodetext/get_countrycode/)() const | 3자리 국가 코드를 식별합니다. |
+| [get_ECIEncoding](../maxicodecodetext/get_eciencoding/)() const | ECI 인코딩을 가져옵니다. MaxiCodeEncodeMode가 Auto인 경우에 사용됩니다. 기본값: ISO-8859-1 |
+| [get_EncodeMode](../maxicodecodetext/get_encodemode/)() const | MaxiCode 인코드 모드를 가져옵니다. 기본값: Auto. |
+| [get_PostalCode](../maxicodestructuredcodetext/get_postalcode/)() const | 우편 번호를 식별합니다. 모드 2에서는 9자리, 모드 3에서는 6개의 영숫자 기호여야 합니다. |
+| [get_SecondMessage](../maxicodestructuredcodetext/get_secondmessage/)() const | 바코드의 두 번째 메시지를 식별합니다. |
+| [get_ServiceCategory](../maxicodestructuredcodetext/get_servicecategory/)() const | 3자리 서비스 카테고리를 식별합니다. |
+| [GetBarcodeType](../maxicodecodetext/getbarcodetype/)() override | 바코드 유형을 가져옵니다. |
+| [GetConstructedCodetext](../maxicodestructuredcodetext/getconstructedcodetext/)() override | 코드텍스트를 구성합니다 |
+| [GetHashCode](../maxicodestructuredcodetext/gethashcode/)() const override | 이 인스턴스의 해시 코드를 반환합니다. |
+| [GetMode](./getmode/)() const override | MaxiCode 모드를 가져옵니다. |
+| [InitFromString](../maxicodestructuredcodetext/initfromstring/)(System::String) override | 구성된 코드텍스트로부터 인스턴스를 초기화합니다. |
+| [MaxiCodeCodetext](../maxicodecodetext/maxicodecodetext/)() |  |
+| [MaxiCodeCodetextMode2](./maxicodecodetextmode2/)() |  |
+| [MaxiCodeStructuredCodetext](../maxicodestructuredcodetext/maxicodestructuredcodetext/)() |  |
+| [set_CountryCode](../maxicodestructuredcodetext/set_countrycode/)(int32_t) | 3자리 국가 코드를 식별합니다. |
+| [set_ECIEncoding](../maxicodecodetext/set_eciencoding/)(Generation::ECIEncodings) | ECI 인코딩을 설정합니다. MaxiCodeEncodeMode가 Auto인 경우에 사용됩니다. 기본값: ISO-8859-1 |
+| [set_EncodeMode](../maxicodecodetext/set_encodemode/)(Generation::MaxiCodeEncodeMode) | MaxiCode 인코드 모드를 설정합니다. 기본값: Auto. |
+| [set_PostalCode](../maxicodestructuredcodetext/set_postalcode/)(System::String) | 우편 번호를 식별합니다. 모드 2에서는 9자리, 모드 3에서는 6개의 영숫자 기호여야 합니다. |
+| [set_SecondMessage](../maxicodestructuredcodetext/set_secondmessage/)(System::SharedPtr\<MaxiCodeSecondMessage\>) | 바코드의 두 번째 메시지를 식별합니다. |
+| [set_ServiceCategory](../maxicodestructuredcodetext/set_servicecategory/)(int32_t) | 3자리 서비스 카테고리를 식별합니다. |
+## 비고
+
+
+이 샘플은 모드 2용 MaxiCode 코드텍스트를 인코딩하고 디코딩하는 방법을 보여줍니다.
+```cpp
+[C#]
+//표준 두 번째 메시지가 포함된 Mode 2
+MaxiCodeCodetextMode2 maxiCodeCodetext = new MaxiCodeCodetextMode2();
+maxiCodeCodetext.PostalCode = "524032140";
+maxiCodeCodetext.CountryCode = 056;
+maxiCodeCodetext.ServiceCategory = 999;
+MaxiCodeStandardSecondMessage maxiCodeStandardSecondMessage = new MaxiCodeStandardSecondMessage();
+maxiCodeStandardSecondMessage.Message = "Test message";
+maxiCodeCodetext.SecondMessage = maxiCodeStandardSecondMessage;
+using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
+{
+    complexGenerator.GenerateBarCodeImage();
+}
+//구조화된 두 번째 메시지가 포함된 Mode 2
+MaxiCodeCodetextMode2 maxiCodeCodetext = new MaxiCodeCodetextMode2();
+maxiCodeCodetext.PostalCode = "524032140";
+maxiCodeCodetext.CountryCode = 056;
+maxiCodeCodetext.ServiceCategory = 999;
+MaxiCodeStructuredSecondMessage maxiCodeStructuredSecondMessage = new MaxiCodeStructuredSecondMessage();
+maxiCodeStructuredSecondMessage.Add("634 ALPHA DRIVE");
+maxiCodeStructuredSecondMessage.Add("PITTSBURGH");
+maxiCodeStructuredSecondMessage.Add("PA");
+maxiCodeStructuredSecondMessage.Year = 99;
+maxiCodeCodetext.SecondMessage = maxiCodeStructuredSecondMessage;
+using (ComplexBarcodeGenerator complexGenerator = new ComplexBarcodeGenerator(maxiCodeCodetext))
+{
+    complexGenerator.GenerateBarCodeImage();
+}
+//표준 두 번째 메시지를 사용한 원시 코드텍스트 디코딩
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiCode))
+{
+     foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.TryDecodeMaxiCode(result.Extended.MaxiCode.MaxiCodeMode, result.CodeText);
+        if (resultMaxiCodeCodetext is MaxiCodeCodetextMode2){
+            MaxiCodeCodetextMode2 maxiCodeStructuredCodetext = (MaxiCodeCodetextMode2)resultMaxiCodeCodetext;
+            Console.WriteLine("BarCode Type: " + maxiCodeStructuredCodetext.PostalCode);
+            Console.WriteLine("MaxiCode mode: " + maxiCodeStructuredCodetext.CountryCode);
+            Console.WriteLine("BarCode CodeText: " + maxiCodeStructuredCodetext.ServiceCategory);
+            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStandardSecondMessage){
+                MaxiCodeStandardSecondMessage secondMessage = (MaxiCodeStandardSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
+                Console.WriteLine("Message: " + secondMessage.Message);
+            }
+        }
+    }
+}
+//구조화된 두 번째 메시지를 사용한 원시 코드텍스트 디코딩
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiCode))
+{
+     foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        MaxiCodeCodetext resultMaxiCodeCodetext = ComplexCodetextReader.TryDecodeMaxiCode(result.Extended.MaxiCode.MaxiCodeMode, result.CodeText);
+        if (resultMaxiCodeCodetext is MaxiCodeCodetextMode2){
+            MaxiCodeCodetextMode2 maxiCodeStructuredCodetext = (MaxiCodeCodetextMode2)resultMaxiCodeCodetext;
+            Console.WriteLine("BarCode Type: " + maxiCodeStructuredCodetext.PostalCode);
+            Console.WriteLine("MaxiCode mode: " + maxiCodeStructuredCodetext.CountryCode);
+            Console.WriteLine("BarCode CodeText: " + maxiCodeStructuredCodetext.ServiceCategory);
+            if (maxiCodeStructuredCodetext.SecondMessage is MaxiCodeStructuredSecondMessage){
+                MaxiCodeStructuredSecondMessage secondMessage = (MaxiCodeStructuredSecondMessage)maxiCodeStructuredCodetext.SecondMessage;
+                Console.WriteLine("Message:");
+                foreach (var identifier in secondMessage.Identifiers){
+                    Console.WriteLine(identifier);
+                }
+            }
+        }
+    }
+}
+```
+
+## 또 보기
+
+* Class [MaxiCodeStructuredCodetext](../maxicodestructuredcodetext/)
+* Namespace [Aspose::BarCode::ComplexBarcode](../)
+* Library [Aspose.BarCode for C++](../../)

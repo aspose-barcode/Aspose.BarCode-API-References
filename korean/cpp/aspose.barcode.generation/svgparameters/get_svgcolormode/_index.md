@@ -1,0 +1,24 @@
+---
+title: "메서드"
+linktitle: "get_SvgColorMode"
+second_title: "Aspose.BarCode for C++ API 레퍼런스"
+description: " 메서드. SVG 파일에서 색을 채우는 가능한 모드이며, 기본값은 RGB이며 SVG 1.1에서 지원됩니다. RGBA, HSL, HSLA는 SVG 2.0 표준에서 허용됩니다. RGB에서도 불투명도는 C++에서 \"fill-opacity\" 매개변수를 통해 설정됩니다."
+type: docs
+weight: 500
+url: /ko/cpp/aspose.barcode.generation/svgparameters/get_svgcolormode/
+---
+## SvgParameters::get_SvgColorMode method
+
+
+svg 파일에서 색을 채우는 가능한 모드이며, RGB가 기본이며 SVG 1.1에서 지원됩니다. RGBA, HSL, HSLA는 SVG 2.0 표준에서 허용됩니다. RGB에서도 불투명도는 "fill-opacity" 매개변수를 통해 설정됩니다.
+
+```cpp
+Aspose::BarCode::Generation::SvgColorMode Aspose::BarCode::Generation::SvgParameters::get_SvgColorMode() const
+```
+
+## 또 보기
+
+* Enum [SvgColorMode](../../svgcolormode/)
+* Class [SvgParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
