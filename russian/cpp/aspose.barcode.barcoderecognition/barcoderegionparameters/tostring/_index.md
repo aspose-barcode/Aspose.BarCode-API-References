@@ -1,0 +1,28 @@
+---
+title: "method"
+linktitle: "ToString"
+second_title: "Aspose.BarCode для C++ справочник API"
+description: " метод. Возвращает человекочитаемое строковое представление этого BarCodeRegionParameters в C++."
+type: docs
+weight: 600
+url: /ru/cpp/aspose.barcode.barcoderecognition/barcoderegionparameters/tostring/
+---
+## BarCodeRegionParameters::ToString method
+
+
+Возвращает человекочитаемое строковое представление этого [BarCodeRegionParameters](../).
+
+```cpp
+System::String Aspose::BarCode::BarCodeRecognition::BarCodeRegionParameters::ToString() const override
+```
+
+
+### ReturnValue
+
+Строка, представляющая этот [BarCodeRegionParameters](../).
+
+## См. также
+
+* Class [BarCodeRegionParameters](../)
+* Namespace [Aspose::BarCode::BarCodeRecognition](../../)
+* Library [Aspose.BarCode for C++](../../../)
