@@ -1,0 +1,24 @@
+---
+title: "विधि"
+linktitle: "set_StopSymbol"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: "विधि। Codabar सिम्बोलॉजी का स्टॉप प्रतीक (अक्षर)। डिफ़ॉल्ट मान: C++ में CodabarSymbol.A।"
+type: docs
+weight: 600
+url: /hi/cpp/aspose.barcode.generation/codabarparameters/set_stopsymbol/
+---
+## CodabarParameters::set_StopSymbol method
+
+
+Codabar सिम्बोलॉजी का स्टॉप प्रतीक (अक्षर)। डिफ़ॉल्ट मान: [CodabarSymbol.A](../../codabarsymbol/)
+
+```cpp
+void Aspose::BarCode::Generation::CodabarParameters::set_StopSymbol(CodabarSymbol value)
+```
+
+## और देखें
+
+* Enum [CodabarSymbol](../../codabarsymbol/)
+* Class [CodabarParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

@@ -1,0 +1,23 @@
+---
+title: "विधि"
+linktitle: "get_NoWrap"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " method. टेक्स्ट के भीतर शब्द रैप (लाइन ब्रेक) निर्दिष्ट करें। डिफ़ॉल्ट मान: false in C++."
+type: docs
+weight: 1400
+url: /hi/cpp/aspose.barcode.generation/codetextparameters/get_nowrap/
+---
+## CodetextParameters::get_NoWrap method
+
+
+पाठ के भीतर शब्द रैप (लाइन ब्रेक) निर्दिष्ट करें। डिफ़ॉल्ट मान: false।
+
+```cpp
+bool Aspose::BarCode::Generation::CodetextParameters::get_NoWrap() const
+```
+
+## और देखें
+
+* Class [CodetextParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

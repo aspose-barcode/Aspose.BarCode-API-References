@@ -1,0 +1,23 @@
+---
+title: "विधि"
+linktitle: "get_AspectRatio"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " method. C++ में 2D BarCode मॉड्यूल का ऊँचाई/चौड़ाई अनुपात।"
+type: docs
+weight: 1900
+url: /hi/cpp/aspose.barcode.generation/aztecparameters/get_aspectratio/
+---
+## AztecParameters::get_AspectRatio method
+
+
+2D [BarCode](../../../aspose.barcode/) मॉड्यूल का ऊँचाई/चौड़ाई अनुपात।
+
+```cpp
+float Aspose::BarCode::Generation::AztecParameters::get_AspectRatio() const
+```
+
+## और देखें
+
+* Class [AztecParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

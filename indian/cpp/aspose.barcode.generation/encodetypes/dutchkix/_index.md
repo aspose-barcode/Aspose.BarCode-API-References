@@ -1,0 +1,23 @@
+---
+title: "field"
+linktitle: "DutchKIX"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " फ़ील्ड. निर्दिष्ट करता है कि डेटा को C++ में Dutch KIX बारकोड विनिर्देश के साथ एन्कोड किया जाना चाहिए।"
+type: docs
+weight: 7500
+url: /hi/cpp/aspose.barcode.generation/encodetypes/dutchkix/
+---
+## DutchKIX field
+
+
+निर्दिष्ट करता है कि डेटा को **Dutch KIX** बारकोड विनिर्देश के साथ एन्कोड किया जाना चाहिए
+
+```cpp
+static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::DutchKIX
+```
+
+## और देखें
+
+* Class [EncodeTypes](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

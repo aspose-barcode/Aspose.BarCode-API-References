@@ -1,0 +1,23 @@
+---
+title: "field"
+linktitle: "PatchCode"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: "फ़ील्ड। C++ में पैच कोड बारकोड को दर्शाता है।"
+type: docs
+weight: 7200
+url: /hi/cpp/aspose.barcode.generation/encodetypes/patchcode/
+---
+## PatchCode field
+
+
+पैच कोड बारकोड का प्रतिनिधित्व करता है।
+
+```cpp
+static System::SharedPtr<SymbologyEncodeType> Aspose::BarCode::Generation::EncodeTypes::PatchCode
+```
+
+## और देखें
+
+* Class [EncodeTypes](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)

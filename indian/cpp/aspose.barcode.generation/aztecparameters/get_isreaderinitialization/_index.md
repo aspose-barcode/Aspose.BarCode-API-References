@@ -1,0 +1,23 @@
+---
+title: "विधि"
+linktitle: "get_IsReaderInitialization"
+second_title: "Aspose.BarCode C++ के लिए API संदर्भ"
+description: " मेथड। C++ में रीडर को यह निर्देश देने के लिए उपयोग किया जाता है कि वह प्रतीक के भीतर निहित डेटा को रीडर इनिशियलाइज़ेशन के लिए प्रोग्रामिंग के रूप में व्याख्या करे।"
+type: docs
+weight: 1700
+url: /hi/cpp/aspose.barcode.generation/aztecparameters/get_isreaderinitialization/
+---
+## AztecParameters::get_IsReaderInitialization method
+
+
+रीडर को यह निर्देश देने के लिए उपयोग किया जाता है कि प्रतीक में निहित डेटा को रीडर इनिशियलाइज़ेशन के लिए प्रोग्रामिंग के रूप में व्याख्या करे।
+
+```cpp
+bool Aspose::BarCode::Generation::AztecParameters::get_IsReaderInitialization() const
+```
+
+## और देखें
+
+* Class [AztecParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
