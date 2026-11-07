@@ -1,0 +1,23 @@
+---
+title: "メソッド"
+linktitle: "set_StructuredAppendFileId"
+second_title: "Aspose.BarCode for C++ API リファレンス"
+description: " メソッド。Aztec バーコードの Structured Append モード用ファイル ID（オプションフィールド）。ファイル ID にスペースを含めてはいけません。デフォルト値: C++ では空文字列です。"
+type: docs
+weight: 1000
+url: /ja/cpp/aspose.barcode.generation/aztecparameters/set_structuredappendfileid/
+---
+## AztecParameters::set_StructuredAppendFileId method
+
+
+Aztec バーコードの Structured Append モード用のファイル ID（オプションフィールド）。ファイル ID にスペースを含めてはいけません。既定値: 空文字列
+
+```cpp
+void Aspose::BarCode::Generation::AztecParameters::set_StructuredAppendFileId(System::String value)
+```
+
+## 関連項目
+
+* Class [AztecParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
