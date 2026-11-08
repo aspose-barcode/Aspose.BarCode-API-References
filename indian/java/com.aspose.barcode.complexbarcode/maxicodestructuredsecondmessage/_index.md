@@ -1,0 +1,205 @@
+---
+title: "MaxiCodeStructuredSecondMessage"
+second_title: "Aspose.BarCode के लिए Java API Reference"
+description: "मैक्सीकोड बारकोड के लिए संरचित द्वितीय संदेश को एन्कोड और डिकोड करने के लिए क्लास।"
+type: docs
+weight: 32
+url: /hi/java/com.aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.barcode.complexbarcode.MaxiCodeSecondMessage](../../com.aspose.barcode.complexbarcode/maxicodesecondmessage)
+```
+public class MaxiCodeStructuredSecondMessage extends MaxiCodeSecondMessage
+```
+
+मैक्सीकोड बारकोड के लिए संरचित द्वितीय संदेश को एन्कोड और डिकोड करने के लिए क्लास।
+## कंस्ट्रक्टर्स
+
+| कंस्ट्रक्टर | विवरण |
+| --- | --- |
+| [MaxiCodeStructuredSecondMessage()](#MaxiCodeStructuredSecondMessage--) |  |
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+| [add(String identifier)](#add-java.lang.String-) | नया पहचानकर्ता जोड़ता है |
+| [clear()](#clear--) | पहचानकर्ताओं की सूची साफ़ करें |
+| [equals(Object obj)](#equals-java.lang.Object-) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट MaxiCodeStructuredSecondMessage मान के बराबर है या नहीं। |
+| [getClass()](#getClass--) |  |
+| [getIdentifiers()](#getIdentifiers--) | पहचानकर्ताओं की सूची प्राप्त करता है |
+| [getMessage()](#getMessage--) | निर्मित द्वितीय संदेश प्राप्त करता है |
+| [getYear()](#getYear--) | वर्ष प्राप्त करता है। |
+| [hashCode()](#hashCode--) | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setYear(int value)](#setYear-int-) | वर्ष सेट करता है। |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### MaxiCodeStructuredSecondMessage() {#MaxiCodeStructuredSecondMessage--}
+```
+public MaxiCodeStructuredSecondMessage()
+```
+
+
+### add(String identifier) {#add-java.lang.String-}
+```
+public void add(String identifier)
+```
+
+
+नया पहचानकर्ता जोड़ता है
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| पहचानकर्ता | java.lang.String | जोड़ने के लिए पहचानकर्ता |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+पहचानकर्ताओं की सूची साफ़ करें
+
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट MaxiCodeStructuredSecondMessage मान के बराबर है या नहीं।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| obj | java.lang.Object | \"obj\">एक MaxiCodeStructuredSecondMessage मान इस उदाहरण से तुलना करने के लिए। |
+
+**Returns:**
+boolean - **true** यदि obj का मान इस इंस्टेंस के समान है; अन्यथा, **false**।
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getIdentifiers() {#getIdentifiers--}
+```
+public List<String> getIdentifiers()
+```
+
+
+पहचानकर्ताओं की सूची प्राप्त करता है
+
+**Returns:**
+java.util.List<java.lang.String> - पहचानकर्ताओं की सूची
+### getMessage() {#getMessage--}
+```
+public String getMessage()
+```
+
+
+निर्मित द्वितीय संदेश प्राप्त करता है
+
+**Returns:**
+java.lang.String - निर्मित द्वितीय संदेश
+### getYear() {#getYear--}
+```
+public int getYear()
+```
+
+
+वर्ष प्राप्त करता है। वर्ष दो अंकों का पूर्णांक मान होना चाहिए।
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+इस इंस्टेंस के लिए हैश कोड लौटाता है।
+
+**Returns:**
+int - 32-बिट साइन्ड इंटीजर हैश कोड।
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setYear(int value) {#setYear-int-}
+```
+public void setYear(int value)
+```
+
+
+वर्ष सेट करता है। वर्ष दो अंकों का पूर्णांक मान होना चाहिए।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

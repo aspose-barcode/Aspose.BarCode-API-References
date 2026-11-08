@@ -1,0 +1,250 @@
+---
+title: "ProcessorSettings"
+second_title: "Aspose.BarCode के लिए Java API Reference"
+description: "ProcessorSettings मल्टी-थ्रेडेड प्रदर्शन वृद्धि के साथ बारकोड को पहचानने की अनुमति देते हैं"
+type: docs
+weight: 37
+url: /hi/java/com.aspose.barcode.barcoderecognition/processorsettings/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class ProcessorSettings
+```
+
+ProcessorSettings मल्टी-थ्रेडेड प्रदर्शन वृद्धि के साथ बारकोड को पहचानने की अनुमति देते हैं
+
+--------------------
+
+> ```
+> This sample shows how to use ProcessorSettings to add maximum multi-threaded performnce
+>  
+>  BarCodeReader.getProcessorSettings().setMaxAdditionalAllowedThreads(Environment.getProcessorCount()* 2);
+>  //this allows to use all cores for single BarCodeReader call
+>  BarCodeReader.getProcessorSettings().setUseAllCores(true);
+>  //this allows to use current count of cores
+>  BarCodeReader.getProcessorSettings().setUseAllCores(false);
+>  BarCodeReader.getProcessorSettings().setUseOnlyThisCoresCount(Math.max(1, Environment.getProcessorCount() / 2));
+> ```
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getMaxAdditionalAllowedThreads()](#getMaxAdditionalAllowedThreads--) | कोड को समानांतर चलाने के लिए अतिरिक्त थ्रेड्स की अधिकतम संख्या निर्दिष्ट करें |
+| [getUseAllCores()](#getUseAllCores--) | सभी कोरों का उपयोग करने के लिए आवश्यक है। |
+| [getUseOnlyThisCoresCount()](#getUseOnlyThisCoresCount--) | उपयोग करने के लिए कोरों की संख्या निर्दिष्ट करें। |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setMaxAdditionalAllowedThreads(int value)](#setMaxAdditionalAllowedThreads-int-) | कोड को समानांतर चलाने के लिए अतिरिक्त थ्रेड्स की अधिकतम संख्या निर्दिष्ट करें |
+| [setUseAllCores(boolean value)](#setUseAllCores-boolean-) | सभी कोरों का उपयोग करने के लिए आवश्यक है। |
+| [setUseOnlyThisCoresCount(int value)](#setUseOnlyThisCoresCount-int-) | उपयोग करने के लिए कोरों की संख्या निर्दिष्ट करें। |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getMaxAdditionalAllowedThreads() {#getMaxAdditionalAllowedThreads--}
+```
+public int getMaxAdditionalAllowedThreads()
+```
+
+
+कोड को समानांतर चलाने के लिए अतिरिक्त थ्रेड्स की अधिकतम संख्या निर्दिष्ट करें
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setMaxAdditionalAllowedThreads(Environment.getProcessorCount() * 2);
+> ```
+
+**Returns:**
+int
+### getUseAllCores() {#getUseAllCores--}
+```
+public boolean getUseAllCores()
+```
+
+
+सभी कोरों का उपयोग करने के लिए आवश्यक है।
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setUseAllCores(true);
+> ```
+
+**Returns:**
+boolean
+### getUseOnlyThisCoresCount() {#getUseOnlyThisCoresCount--}
+```
+public int getUseOnlyThisCoresCount()
+```
+
+
+उपयोग करने के लिए कोरों की संख्या निर्दिष्ट करें। आपको प्रॉपर्टी "UseAllCores" को "false" में बदलना होगा।
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setUseAllCores(false);
+>  BarCodeReader.getProcessorSettings().setUseOnlyThisCoresCount(Math.max(1, Environment.getProcessorCount() / 2));
+> ```
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setMaxAdditionalAllowedThreads(int value) {#setMaxAdditionalAllowedThreads-int-}
+```
+public void setMaxAdditionalAllowedThreads(int value)
+```
+
+
+कोड को समानांतर चलाने के लिए अतिरिक्त थ्रेड्स की अधिकतम संख्या निर्दिष्ट करें
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setMaxAdditionalAllowedThreads(Environment.getProcessorCount() * 2);
+> ```
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+### setUseAllCores(boolean value) {#setUseAllCores-boolean-}
+```
+public void setUseAllCores(boolean value)
+```
+
+
+सभी कोरों का उपयोग करने के लिए आवश्यक है।
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setUseAllCores(true);
+> ```
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | boolean |  |
+
+### setUseOnlyThisCoresCount(int value) {#setUseOnlyThisCoresCount-int-}
+```
+public void setUseOnlyThisCoresCount(int value)
+```
+
+
+उपयोग करने के लिए कोरों की संख्या निर्दिष्ट करें। आपको प्रॉपर्टी "UseAllCores" को "false" में बदलना होगा।
+
+--------------------
+
+> ```
+> BarCodeReader.getProcessorSettings().setUseAllCores(false);
+>  BarCodeReader.getProcessorSettings().setUseOnlyThisCoresCount(Math.max(1, Environment.getProcessorCount() / 2));
+> ```
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
