@@ -1,0 +1,236 @@
+---
+title: "HIBCLICPrimaryDataCodetext"
+second_title: "Aspose.BarCode for Java API Reference"
+description: "用于对嵌入 HIBC LIC 代码中、存储主数据的文本进行编码和解码的类。"
+type: docs
+weight: 16
+url: /zh/java/com.aspose.barcode.complexbarcode/hibclicprimarydatacodetext/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.barcode.complexbarcode.HIBCLICComplexCodetext](../../com.aspose.barcode.complexbarcode/hibcliccomplexcodetext)
+```
+public class HIBCLICPrimaryDataCodetext extends HIBCLICComplexCodetext
+```
+
+用于对嵌入 HIBC LIC 代码中、存储主数据的文本进行编码和解码的类。
+
+--------------------
+
+> ```
+> This sample shows how to encode and decode HIBC LIC using HIBCLICPrimaryDataCodetext.
+>  
+>  HIBCLICPrimaryDataCodetext complexCodetext  = new HIBCLICPrimaryDataCodetext();
+>  complexCodetext.setBarcodeType(EncodeTypes.HIBCQRLIC);
+>  complexCodetext.setData(new PrimaryData());
+>  complexCodetext.getData().setProductOrCatalogNumber("12345");
+>  complexCodetext.getData().setLabelerIdentificationCode("A999");
+>  complexCodetext.getData().setUnitOfMeasureID(1);
+>  ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCodetext);
+>  {
+>      BufferedImage image = generator.generateBarCodeImage();
+>      BarCodeReader reader = new BarCodeReader(image, DecodeType.HIBCQRLIC);
+>      {
+>          reader.readBarCodes();
+>          HIBCLICPrimaryCodetext result = (HIBCLICPrimaryCodetext)ComplexCodetextReader.TryDecodeHIBCLIC(codetext);
+>          HIBCLICPrimaryCodetext result = (HIBCLICPrimaryCodetext)ComplexCodetextReader.tryDecodeHIBCLIC(codetext);
+>          System.out.println("Product or catalog number: " + result.getData().getProductOrCatalogNumber());
+>          System.out.println("Labeler identification code: " + result.getData().getLabelerIdentificationCode());
+>          System.out.println("Unit of measure ID: " + result.getData().getUnitOfMeasureID());
+>      }
+>  }
+> ```
+## 构造函数
+
+| 构造函数 | 描述 |
+| --- | --- |
+| [HIBCLICPrimaryDataCodetext()](#HIBCLICPrimaryDataCodetext--) |  |
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+| [equals(Object obj)](#equals-java.lang.Object-) | 返回一个值，指示此实例是否等于指定的 HIBCLICPrimaryDataCodetext 值。 |
+| [getBarcodeType()](#getBarcodeType--) | 获取或设置条形码类型。 |
+| [getClass()](#getClass--) |  |
+| [getConstructedCodetext()](#getConstructedCodetext--) | 构造 codetext |
+| [getData()](#getData--) | 标识主要数据。 |
+| [hashCode()](#hashCode--) | 返回此实例的哈希码。 |
+| [initFromString(String constructedCodetext)](#initFromString-java.lang.String-) | 从构造的 codetext 初始化实例。 |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setBarcodeType(BaseEncodeType value)](#setBarcodeType-com.aspose.barcode.generation.BaseEncodeType-) | 获取或设置条形码类型。 |
+| [setData(PrimaryData value)](#setData-com.aspose.barcode.complexbarcode.PrimaryData-) | 标识主要数据。 |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### HIBCLICPrimaryDataCodetext() {#HIBCLICPrimaryDataCodetext--}
+```
+public HIBCLICPrimaryDataCodetext()
+```
+
+
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+返回一个值，指示此实例是否等于指定的 HIBCLICPrimaryDataCodetext 值。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| obj | java.lang.Object | 一个用于与此实例比较的 HIBCLICPrimaryDataCodetext 值。 |
+
+**Returns:**
+boolean -  **true**  如果 obj 与此实例具有相同的值；否则，  **false** 。
+### getBarcodeType() {#getBarcodeType--}
+```
+public BaseEncodeType getBarcodeType()
+```
+
+
+获取或设置条形码类型。HIBC LIC codetext 可以使用 HIBCCode39LIC、HIBCCode128LIC、HIBCAztecLIC、HIBCDataMatrixLIC 和 HIBCQRLIC 编码类型进行编码。默认值：HIBCCode39LIC。
+
+**Returns:**
+[BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) - Barcode type.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getConstructedCodetext() {#getConstructedCodetext--}
+```
+public String getConstructedCodetext()
+```
+
+
+构造 codetext
+
+**Returns:**
+java.lang.String - 构造的代码文本
+### getData() {#getData--}
+```
+public PrimaryData getData()
+```
+
+
+标识主要数据。
+
+**Returns:**
+[PrimaryData](../../com.aspose.barcode.complexbarcode/primarydata)
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+返回此实例的哈希码。
+
+**Returns:**
+int - 32 位有符号整数哈希码。
+### initFromString(String constructedCodetext) {#initFromString-java.lang.String-}
+```
+public void initFromString(String constructedCodetext)
+```
+
+
+从构造的 codetext 初始化实例。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| constructedCodetext | java.lang.String | 构造的代码文本。 |
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setBarcodeType(BaseEncodeType value) {#setBarcodeType-com.aspose.barcode.generation.BaseEncodeType-}
+```
+public void setBarcodeType(BaseEncodeType value)
+```
+
+
+获取或设置条形码类型。HIBC LIC codetext 可以使用 HIBCCode39LIC、HIBCCode128LIC、HIBCAztecLIC、HIBCDataMatrixLIC 和 HIBCQRLIC 编码类型进行编码。默认值：HIBCCode39LIC。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [BaseEncodeType](../../com.aspose.barcode.generation/baseencodetype) |  |
+
+### setData(PrimaryData value) {#setData-com.aspose.barcode.complexbarcode.PrimaryData-}
+```
+public void setData(PrimaryData value)
+```
+
+
+标识主要数据。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [PrimaryData](../../com.aspose.barcode.complexbarcode/primarydata) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
