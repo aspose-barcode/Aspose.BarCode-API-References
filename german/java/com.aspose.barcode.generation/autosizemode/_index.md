@@ -1,0 +1,275 @@
+---
+title: "AutoSizeMode"
+second_title: "Aspose.BarCode für Java API-Referenz"
+description: "Gibt die verschiedenen Arten von automatischen Größeneinstellungsmodi an."
+type: docs
+weight: 70
+url: /de/java/com.aspose.barcode.generation/autosizemode/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum AutoSizeMode extends Enum<AutoSizeMode>
+```
+
+Gibt die verschiedenen Arten von automatischen Größeneinstellungsmodi an.
+## Felder
+
+| Feld | Beschreibung |
+| --- | --- |
+| [INTERPOLATION](#INTERPOLATION) | Skaliert den Barcode auf die angegebene Größe. |
+| [NEAREST](#NEAREST) | Skaliert den Barcode auf die nächstkleinere mögliche Größe, die durch die Eigenschaften ImageWidth und ImageHeight angegeben ist. |
+| [NONE](#NONE) | Automatisches Skalieren ist deaktiviert. |
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### INTERPOLATION {#INTERPOLATION}
+```
+public static final AutoSizeMode INTERPOLATION
+```
+
+
+Skaliert den Barcode auf die angegebene Größe. Die Größe kann über die Eigenschaften ImageWidth und ImageHeight festgelegt werden. Der erzeugte Barcode kann nach dem Skalieren ungültig (nicht lesbar) sein.
+
+### NEAREST {#NEAREST}
+```
+public static final AutoSizeMode NEAREST
+```
+
+
+Ändert die Größe des Barcodes auf die nächstkleinere mögliche Größe, die durch die Eigenschaften ImageWidth und ImageHeight angegeben ist. Bewahrt das Standardseitenverhältnis.
+
+### NONE {#NONE}
+```
+public static final AutoSizeMode NONE
+```
+
+
+Automatisches Skalieren ist deaktiviert.
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolesch
+### fromValue(int value) {#fromValue-int-}
+```
+public static AutoSizeMode fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+**Returns:**
+[AutoSizeMode](../../com.aspose.barcode.generation/autosizemode)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static AutoSizeMode valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Name | java.lang.String |  |
+
+**Returns:**
+[AutoSizeMode](../../com.aspose.barcode.generation/autosizemode)
+### values() {#values--}
+```
+public static AutoSizeMode[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.AutoSizeMode[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
