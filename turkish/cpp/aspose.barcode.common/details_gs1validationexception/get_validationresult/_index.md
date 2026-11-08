@@ -1,0 +1,24 @@
+---
+title: "metot"
+linktitle: "get_ValidationResult"
+second_title: "Aspose.BarCode for C++ API Referansı"
+description: " method. Denenen işlem için tespit edilen tüm doğrulama hatalarını, bunların makine tarafından okunabilir kodlarıyla birlikte C++'ta alır."
+type: docs
+weight: 100
+url: /tr/cpp/aspose.barcode.common/details_gs1validationexception/get_validationresult/
+---
+## Details_GS1ValidationException::get_ValidationResult method
+
+
+Denenen işlem için tespit edilen tüm doğrulama hatalarını, makine tarafından okunabilir kodları dahil olmak üzere alır.
+
+```cpp
+System::SharedPtr<GS1ValidationResult> Aspose::BarCode::Common::Details_GS1ValidationException::get_ValidationResult() const
+```
+
+## Ayrıca Bakınız
+
+* Class [GS1ValidationResult](../../gs1validationresult/)
+* Class [Details_GS1ValidationException](../)
+* Namespace [Aspose::BarCode::Common](../../)
+* Library [Aspose.BarCode for C++](../../../)

@@ -1,0 +1,24 @@
+---
+title: "metot"
+linktitle: "get_CMYKBackColor"
+second_title: "Aspose.BarCode for C++ API Referansı"
+description: " metod. Null olabilir. Arka planın CMYK renk değeri. Null, CMYK renginin kullanılmadığı, bunun yerine normal RGB renginin C++ içinde kullanıldığı anlamına gelir."
+type: docs
+weight: 300
+url: /tr/cpp/aspose.barcode.generation/pdfparameters/get_cmykbackcolor/
+---
+## PdfParameters::get_CMYKBackColor method
+
+
+Nullable. CMYK arka renk değeri. Null, CMYK renginin kullanılmadığı, bunun yerine normal RGB renginin kullanıldığı anlamına gelir.
+
+```cpp
+System::SharedPtr<CMYKColor> Aspose::BarCode::Generation::PdfParameters::get_CMYKBackColor() const
+```
+
+## Ayrıca Bakınız
+
+* Class [CMYKColor](../../cmykcolor/)
+* Class [PdfParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
