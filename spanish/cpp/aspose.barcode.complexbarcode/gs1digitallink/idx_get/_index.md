@@ -1,0 +1,33 @@
+---
+title: "método"
+linktitle: "idx_get"
+second_title: "Aspose.BarCode for C++ Referencia de API"
+description: " método. Obtiene un elemento por su posición en la secuencia ordenada en C++."
+type: docs
+weight: 800
+url: /es/cpp/aspose.barcode.complexbarcode/gs1digitallink/idx_get/
+---
+## GS1DigitalLink::idx_get method
+
+
+Obtiene un elemento por su posición en la secuencia ordenada.
+
+```cpp
+System::SharedPtr<Common::GS1Element> Aspose::BarCode::ComplexBarcode::GS1DigitalLink::idx_get(int32_t index)
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| índice | int32_t | Índice de elemento basado en cero. |
+
+### ReturnValue
+
+El elemento inmutable en el índice especificado.
+
+## Ver también
+
+* Class [GS1Element](../../../aspose.barcode.common/gs1element/)
+* Class [GS1DigitalLink](../)
+* Namespace [Aspose::BarCode::ComplexBarcode](../../)
+* Library [Aspose.BarCode for C++](../../../)
