@@ -1,0 +1,321 @@
+---
+title: "BarcodeSvmDetectorSettings"
+second_title: "Aspose.BarCode के लिए Java API Reference"
+description: "बारकोड डिटेक्टर सेटिंग्स।"
+type: docs
+weight: 21
+url: /hi/java/com.aspose.barcode.barcoderecognition/barcodesvmdetectorsettings/
+---
+**Inheritance:**
+java.lang.Object
+```
+public final class BarcodeSvmDetectorSettings
+```
+
+बारकोड डिटेक्टर सेटिंग्स।
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getHighPerformance()](#getHighPerformance--) | उच्च प्रदर्शन डिटेक्शन प्रीसेट। |
+| [getHighQuality()](#getHighQuality--) | उच्च गुणवत्ता डिटेक्शन प्रीसेट। |
+| [getMaxQuality()](#getMaxQuality--) | अधिकतम गुणवत्ता डिटेक्शन प्रीसेट। |
+| [getMedianFilterWindowSize()](#getMedianFilterWindowSize--) | मीडियन स्मूथिंग के लिए विंडो आकार। |
+| [getNormalQuality()](#getNormalQuality--) | सामान्य गुणवत्ता डिटेक्शन प्रीसेट। |
+| [getRegionLikelihoodThresholdPercent()](#getRegionLikelihoodThresholdPercent--) | बारकोड्स हो सकते हैं ऐसे पहचाने गए क्षेत्रों के लिए थ्रेशोल्ड सेट करता है। |
+| [getScanWindowSizes()](#getScanWindowSizes--) | पिक्सेल में स्कैन विंडो आकार। |
+| [getSimilarityCoef()](#getSimilarityCoef--) | समानता गुणांक इस बात पर निर्भर करता है कि बारकोड कितने समान हैं। |
+| [getSkipDiagonalSearch()](#getSkipDiagonalSearch--) | डिटेक्टर को विकर्ण बारकोड की खोज को छोड़ने की अनुमति देता है। |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setMedianFilterWindowSize(int value)](#setMedianFilterWindowSize-int-) | मीडियन स्मूथिंग के लिए विंडो आकार। |
+| [setRegionLikelihoodThresholdPercent(float value)](#setRegionLikelihoodThresholdPercent-float-) | बारकोड्स हो सकते हैं ऐसे पहचाने गए क्षेत्रों के लिए थ्रेशोल्ड सेट करता है। |
+| [setScanWindowSizes(List<Integer> value)](#setScanWindowSizes-java.util.List-java.lang.Integer--) | पिक्सेल में स्कैन विंडो आकार। |
+| [setSimilarityCoef(float value)](#setSimilarityCoef-float-) | समानता गुणांक इस बात पर निर्भर करता है कि बारकोड कितने समान हैं। |
+| [setSkipDiagonalSearch(boolean value)](#setSkipDiagonalSearch-boolean-) | डिटेक्टर को विकर्ण बारकोड की खोज को छोड़ने की अनुमति देता है। |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getHighPerformance() {#getHighPerformance--}
+```
+public static BarcodeSvmDetectorSettings getHighPerformance()
+```
+
+
+उच्च प्रदर्शन डिटेक्शन प्रीसेट।
+
+डिफ़ॉल्ट QualitySettings.PresetType.HighPerformance के लिए
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
+### getHighQuality() {#getHighQuality--}
+```
+public static BarcodeSvmDetectorSettings getHighQuality()
+```
+
+
+उच्च गुणवत्ता डिटेक्शन प्रीसेट।
+
+डिफ़ॉल्ट QualitySettings.PresetType.HighQualityDetection और QualitySettings.PresetType.HighQuality के लिए
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
+### getMaxQuality() {#getMaxQuality--}
+```
+public static BarcodeSvmDetectorSettings getMaxQuality()
+```
+
+
+अधिकतम गुणवत्ता डिटेक्शन प्रीसेट।
+
+डिफ़ॉल्ट QualitySettings.PresetType.MaxQualityDetection और QualitySettings.PresetType.MaxBarCodes के लिए
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
+### getMedianFilterWindowSize() {#getMedianFilterWindowSize--}
+```
+public int getMedianFilterWindowSize()
+```
+
+
+मीडियन स्मूथिंग के लिए विंडो आकार।
+
+आम मान 3 या 4 होते हैं। 0 का अर्थ है कोई मध्यवर्ती स्मूथिंग नहीं। डिफ़ॉल्ट मान 0 है। मध्यवर्ती फ़िल्टर विंडो आकार [0, 10] के बीच होना चाहिए।
+
+**Returns:**
+int
+### getNormalQuality() {#getNormalQuality--}
+```
+public static BarcodeSvmDetectorSettings getNormalQuality()
+```
+
+
+सामान्य गुणवत्ता डिटेक्शन प्रीसेट।
+
+डिफ़ॉल्ट QualitySettings.PresetType.NormalQuality के लिए
+
+**Returns:**
+com.aspose.barcode.barcoderecognition.BarcodeSvmDetectorSettings
+### getRegionLikelihoodThresholdPercent() {#getRegionLikelihoodThresholdPercent--}
+```
+public float getRegionLikelihoodThresholdPercent()
+```
+
+
+बारकोड्स हो सकते हैं ऐसे पहचाने गए क्षेत्रों के लिए थ्रेशोल्ड सेट करता है।
+
+मान 0.7 का अर्थ है कि संभावित क्षेत्रों के नीचे के 70% को फ़िल्टर कर दिया जाता है और आगे प्रोसेस नहीं किया जाता। क्षेत्र संभावना थ्रेशोल्ड [0.05, 0.9] के बीच होना चाहिए। स्पष्ट छवियों में कम बारकोड वाले मामलों के लिए उच्च मान उपयोग करें। कई बारकोड या शोरयुक्त छवियों के लिए निम्न मान उपयोग करें। निम्न मान बड़े पहचान समय का कारण बन सकता है।
+
+**Returns:**
+float
+### getScanWindowSizes() {#getScanWindowSizes--}
+```
+public List<Integer> getScanWindowSizes()
+```
+
+
+पिक्सेल में स्कैन विंडो आकार।
+
+अनुमत आकार 10, 15, 20, 25, 30 हैं। छोटे विंडो आकार के साथ स्कैनिंग में अधिक समय लगता है और अधिक सटीकता मिलती है, लेकिन बहुत बड़े बारकोड का पता लगाने में विफल हो सकता है। कई विंडो आकारों को मिलाकर पता लगाने की गुणवत्ता में सुधार किया जा सकता है।
+
+**Returns:**
+java.util.List<java.lang.Integer>
+### getSimilarityCoef() {#getSimilarityCoef--}
+```
+public float getSimilarityCoef()
+```
+
+
+समानता गुणांक इस बात पर निर्भर करता है कि बारकोड कितने समान हैं।
+
+स्पष्ट बारकोड के लिए उच्च मान उपयोग करें। क्षतिग्रस्त या असमान रूप से प्रकाशित बारकोड का पता लगाने के लिए निम्न मान उपयोग करें। समानता गुणांक [0.5, 0.9] के बीच होना चाहिए।
+
+**Returns:**
+float
+### getSkipDiagonalSearch() {#getSkipDiagonalSearch--}
+```
+public boolean getSkipDiagonalSearch()
+```
+
+
+डिटेक्टर को विकर्ण बारकोड की खोज को छोड़ने की अनुमति देता है।
+
+इसे false सेट करने से पहचान समय बढ़ेगा लेकिन उन विकर्ण बारकोड को खोजने की अनुमति देगा जो अन्यथा छूट सकते हैं। विकर्ण खोज को सक्षम करने से पहचान समय और बढ़ जाता है।
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setMedianFilterWindowSize(int value) {#setMedianFilterWindowSize-int-}
+```
+public void setMedianFilterWindowSize(int value)
+```
+
+
+मीडियन स्मूथिंग के लिए विंडो आकार।
+
+आम मान 3 या 4 होते हैं। 0 का अर्थ है कोई मध्यवर्ती स्मूथिंग नहीं। डिफ़ॉल्ट मान 0 है। मध्यवर्ती फ़िल्टर विंडो आकार [0, 10] के बीच होना चाहिए।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | int |  |
+
+### setRegionLikelihoodThresholdPercent(float value) {#setRegionLikelihoodThresholdPercent-float-}
+```
+public void setRegionLikelihoodThresholdPercent(float value)
+```
+
+
+बारकोड्स हो सकते हैं ऐसे पहचाने गए क्षेत्रों के लिए थ्रेशोल्ड सेट करता है।
+
+मान 0.7 का अर्थ है कि संभावित क्षेत्रों के नीचे के 70% को फ़िल्टर कर दिया जाता है और आगे प्रोसेस नहीं किया जाता। क्षेत्र संभावना थ्रेशोल्ड [0.05, 0.9] के बीच होना चाहिए। स्पष्ट छवियों में कम बारकोड वाले मामलों के लिए उच्च मान उपयोग करें। कई बारकोड या शोरयुक्त छवियों के लिए निम्न मान उपयोग करें। निम्न मान बड़े पहचान समय का कारण बन सकता है।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | float |  |
+
+### setScanWindowSizes(List<Integer> value) {#setScanWindowSizes-java.util.List-java.lang.Integer--}
+```
+public void setScanWindowSizes(List<Integer> value)
+```
+
+
+पिक्सेल में स्कैन विंडो आकार।
+
+अनुमत आकार 10, 15, 20, 25, 30 हैं। छोटे विंडो आकार के साथ स्कैनिंग में अधिक समय लगता है और अधिक सटीकता मिलती है, लेकिन बहुत बड़े बारकोड का पता लगाने में विफल हो सकता है। कई विंडो आकारों को मिलाकर पता लगाने की गुणवत्ता में सुधार किया जा सकता है।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | java.util.List<java.lang.Integer> |  |
+
+### setSimilarityCoef(float value) {#setSimilarityCoef-float-}
+```
+public void setSimilarityCoef(float value)
+```
+
+
+समानता गुणांक इस बात पर निर्भर करता है कि बारकोड कितने समान हैं।
+
+स्पष्ट बारकोड के लिए उच्च मान उपयोग करें। क्षतिग्रस्त या असमान रूप से प्रकाशित बारकोड का पता लगाने के लिए निम्न मान उपयोग करें। समानता गुणांक [0.5, 0.9] के बीच होना चाहिए।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | float |  |
+
+### setSkipDiagonalSearch(boolean value) {#setSkipDiagonalSearch-boolean-}
+```
+public void setSkipDiagonalSearch(boolean value)
+```
+
+
+डिटेक्टर को विकर्ण बारकोड की खोज को छोड़ने की अनुमति देता है।
+
+इसे false सेट करने से पहचान समय बढ़ेगा लेकिन उन विकर्ण बारकोड को खोजने की अनुमति देगा जो अन्यथा छूट सकते हैं। विकर्ण खोज को सक्षम करने से पहचान समय और बढ़ जाता है।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| मान | boolean |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
