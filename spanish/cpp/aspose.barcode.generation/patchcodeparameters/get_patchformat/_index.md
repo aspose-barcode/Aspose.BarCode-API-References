@@ -1,0 +1,24 @@
+---
+title: "método"
+linktitle: "get_PatchFormat"
+second_title: "Aspose.BarCode for C++ Referencia de API"
+description: " método. Formato PatchCode. Elija PatchOnly para generar un solo PatchCode. Use el formato de página para generar una página Patch con PatchCodes como bordes. Valor predeterminado: PatchFormat.PatchOnly en C++."
+type: docs
+weight: 500
+url: /es/cpp/aspose.barcode.generation/patchcodeparameters/get_patchformat/
+---
+## PatchCodeParameters::get_PatchFormat method
+
+
+Formato PatchCode. Elija PatchOnly para generar un solo PatchCode. Use el formato de página para generar una página Patch con PatchCodes como bordes. Valor predeterminado: [PatchFormat.PatchOnly](../../patchformat/)
+
+```cpp
+Aspose::BarCode::Generation::PatchFormat Aspose::BarCode::Generation::PatchCodeParameters::get_PatchFormat()
+```
+
+## Ver también
+
+* Enum [PatchFormat](../../patchformat/)
+* Class [PatchCodeParameters](../)
+* Namespace [Aspose::BarCode::Generation](../../)
+* Library [Aspose.BarCode for C++](../../../)
