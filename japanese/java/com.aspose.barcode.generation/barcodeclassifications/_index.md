@@ -1,0 +1,302 @@
+---
+title: "BarcodeClassifications"
+second_title: "Aspose.BarCode for Java API リファレンス"
+description: "EncodeTypes の分類"
+type: docs
+weight: 74
+url: /ja/java/com.aspose.barcode.generation/barcodeclassifications/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum BarcodeClassifications extends Enum<BarcodeClassifications>
+```
+
+EncodeTypes の分類
+## フィールド
+
+| フィールド | 説明 |
+| --- | --- |
+| [COUPON](#COUPON) | COUPON-barcode を指定します |
+| [DATABAR](#DATABAR) | DataBar-barcode を指定します |
+| [NONE](#NONE) | 未指定の分類 |
+| [POSTAL](#POSTAL) | POSTAL-barcode を指定します |
+| [TYPE_1D](#TYPE-1D) | 1D-barcode を指定します |
+| [TYPE_2D](#TYPE-2D) | 2D-barcode を指定します |
+## メソッド
+
+| メソッド | 説明 |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### COUPON {#COUPON}
+```
+public static final BarcodeClassifications COUPON
+```
+
+
+COUPON-barcode を指定します
+
+### DATABAR {#DATABAR}
+```
+public static final BarcodeClassifications DATABAR
+```
+
+
+DataBar-barcode を指定します
+
+### NONE {#NONE}
+```
+public static final BarcodeClassifications NONE
+```
+
+
+未指定の分類
+
+### POSTAL {#POSTAL}
+```
+public static final BarcodeClassifications POSTAL
+```
+
+
+POSTAL-barcode を指定します
+
+### TYPE_1D {#TYPE-1D}
+```
+public static final BarcodeClassifications TYPE_1D
+```
+
+
+1D-barcode を指定します
+
+### TYPE_2D {#TYPE-2D}
+```
+public static final BarcodeClassifications TYPE_2D
+```
+
+
+2D-barcode を指定します
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static BarcodeClassifications fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| 値 | int |  |
+
+**Returns:**
+[BarcodeClassifications](../../com.aspose.barcode.generation/barcodeclassifications)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static BarcodeClassifications valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| 名前 | java.lang.String |  |
+
+**Returns:**
+[BarcodeClassifications](../../com.aspose.barcode.generation/barcodeclassifications)
+### values() {#values--}
+```
+public static BarcodeClassifications[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.BarcodeClassifications[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| パラメータ | 型 | 説明 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
