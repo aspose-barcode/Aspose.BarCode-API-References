@@ -1,0 +1,311 @@
+---
+title: "GraphicsUnit"
+second_title: "Aspose.BarCode for Java API 레퍼런스"
+description: "주어진 데이터의 측정 단위를 지정합니다."
+type: docs
+weight: 86
+url: /ko/java/com.aspose.barcode.generation/graphicsunit/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum GraphicsUnit extends Enum<GraphicsUnit>
+```
+
+주어진 데이터의 측정 단위를 지정합니다.
+## 필드
+
+| 필드 | 설명 |
+| --- | --- |
+| [DISPLAY](#DISPLAY) | 디스플레이 장치의 측정 단위를 지정합니다. |
+| [DOCUMENT](#DOCUMENT) | 문서 단위(1/300인치)를 측정 단위로 지정합니다. |
+| [INCH](#INCH) | 인치를 측정 단위로 지정합니다. |
+| [MILLIMETER](#MILLIMETER) | 밀리미터를 측정 단위로 지정합니다. |
+| [PIXEL](#PIXEL) | 디바이스 픽셀을 측정 단위로 지정합니다. |
+| [POINT](#POINT) | 프린터 포인트(1/72인치)를 측정 단위로 지정합니다. |
+| [WORLD](#WORLD) | 월드 좌표계 단위를 측정 단위로 지정합니다. |
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [compareTo(E arg0)](#compareTo-E-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fromValue(int value)](#fromValue-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [getValue()](#getValue--) |  |
+| [hashCode()](#hashCode--) |  |
+| [name()](#name--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [ordinal()](#ordinal--) |  |
+| [toString()](#toString--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+| [values()](#values--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DISPLAY {#DISPLAY}
+```
+public static final GraphicsUnit DISPLAY
+```
+
+
+디스플레이 장치의 측정 단위를 지정합니다. 일반적으로 비디오 디스플레이는 픽셀이며, 프린터는 1/100인치를 사용합니다.
+
+### DOCUMENT {#DOCUMENT}
+```
+public static final GraphicsUnit DOCUMENT
+```
+
+
+문서 단위(1/300인치)를 측정 단위로 지정합니다.
+
+### INCH {#INCH}
+```
+public static final GraphicsUnit INCH
+```
+
+
+인치를 측정 단위로 지정합니다.
+
+### MILLIMETER {#MILLIMETER}
+```
+public static final GraphicsUnit MILLIMETER
+```
+
+
+밀리미터를 측정 단위로 지정합니다.
+
+### PIXEL {#PIXEL}
+```
+public static final GraphicsUnit PIXEL
+```
+
+
+디바이스 픽셀을 측정 단위로 지정합니다.
+
+### POINT {#POINT}
+```
+public static final GraphicsUnit POINT
+```
+
+
+프린터 포인트(1/72인치)를 측정 단위로 지정합니다.
+
+### WORLD {#WORLD}
+```
+public static final GraphicsUnit WORLD
+```
+
+
+월드 좌표계 단위를 측정 단위로 지정합니다.
+
+### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+```
+public static T <T>valueOf(Class<T> arg0, String arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Class<T> |  |
+| arg1 | java.lang.String |  |
+
+**Returns:**
+T
+### compareTo(E arg0) {#compareTo-E-}
+```
+public final int compareTo(E arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | E |  |
+
+**Returns:**
+int
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public final boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromValue(int value) {#fromValue-int-}
+```
+public static GraphicsUnit fromValue(int value)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 값 | int |  |
+
+**Returns:**
+[GraphicsUnit](../../com.aspose.barcode.generation/graphicsunit)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDeclaringClass() {#getDeclaringClass--}
+```
+public final Class<E> getDeclaringClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<E>
+### getValue() {#getValue--}
+```
+public int getValue()
+```
+
+
+
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public final int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### name() {#name--}
+```
+public final String name()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### ordinal() {#ordinal--}
+```
+public final int ordinal()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static GraphicsUnit valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 이름 | java.lang.String |  |
+
+**Returns:**
+[GraphicsUnit](../../com.aspose.barcode.generation/graphicsunit)
+### values() {#values--}
+```
+public static GraphicsUnit[] values()
+```
+
+
+
+
+**Returns:**
+com.aspose.barcode.generation.GraphicsUnit[]
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
