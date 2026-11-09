@@ -1,0 +1,252 @@
+---
+title: "CodetextParametersInternal"
+second_title: "Aspose.BarCode for Java API 레퍼런스"
+description: 
+type: docs
+weight: 27
+url: /ko/java/com.aspose.barcode.generation/codetextparametersinternal/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class CodetextParametersInternal
+```
+## 생성자
+
+| 생성자 | 설명 |
+| --- | --- |
+| [CodetextParametersInternal()](#CodetextParametersInternal--) |  |
+## 필드
+
+| 필드 | 설명 |
+| --- | --- |
+| [CODETEXT_MAX_HEIGHT_PERCENT](#CODETEXT-MAX-HEIGHT-PERCENT) |  |
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBackColor(CodetextParameters codetextParameters)](#getBackColor-com.aspose.barcode.generation.CodetextParameters-) |  |
+| [getCMYKBackColor(CodetextParameters codetextParameters)](#getCMYKBackColor-com.aspose.barcode.generation.CodetextParameters-) |  |
+| [getCMYKColor(CodetextParameters codetextParameters)](#getCMYKColor-com.aspose.barcode.generation.CodetextParameters-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setBackColor(CodetextParameters codetextParameters, Color value)](#setBackColor-com.aspose.barcode.generation.CodetextParameters-java.awt.Color-) |  |
+| [setCMYKBackColor(CodetextParameters codetextParameters, CMYKColor value)](#setCMYKBackColor-com.aspose.barcode.generation.CodetextParameters-com.aspose.barcode.generation.CMYKColor-) |  |
+| [setCMYKColor(CodetextParameters codetextParameters, CMYKColor value)](#setCMYKColor-com.aspose.barcode.generation.CodetextParameters-com.aspose.barcode.generation.CMYKColor-) |  |
+| [setChecksum(CodetextParameters codetextParameters, String checksum)](#setChecksum-com.aspose.barcode.generation.CodetextParameters-java.lang.String-) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CodetextParametersInternal() {#CodetextParametersInternal--}
+```
+public CodetextParametersInternal()
+```
+
+
+### CODETEXT_MAX_HEIGHT_PERCENT {#CODETEXT-MAX-HEIGHT-PERCENT}
+```
+public static final float CODETEXT_MAX_HEIGHT_PERCENT
+```
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getBackColor(CodetextParameters codetextParameters) {#getBackColor-com.aspose.barcode.generation.CodetextParameters-}
+```
+public static Color getBackColor(CodetextParameters codetextParameters)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+
+**Returns:**
+java.awt.Color
+### getCMYKBackColor(CodetextParameters codetextParameters) {#getCMYKBackColor-com.aspose.barcode.generation.CodetextParameters-}
+```
+public static CMYKColor getCMYKBackColor(CodetextParameters codetextParameters)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+
+**Returns:**
+[CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
+### getCMYKColor(CodetextParameters codetextParameters) {#getCMYKColor-com.aspose.barcode.generation.CodetextParameters-}
+```
+public static CMYKColor getCMYKColor(CodetextParameters codetextParameters)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+
+**Returns:**
+[CMYKColor](../../com.aspose.barcode.generation/cmykcolor)
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setBackColor(CodetextParameters codetextParameters, Color value) {#setBackColor-com.aspose.barcode.generation.CodetextParameters-java.awt.Color-}
+```
+public static void setBackColor(CodetextParameters codetextParameters, Color value)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+| 값 | java.awt.Color |  |
+
+### setCMYKBackColor(CodetextParameters codetextParameters, CMYKColor value) {#setCMYKBackColor-com.aspose.barcode.generation.CodetextParameters-com.aspose.barcode.generation.CMYKColor-}
+```
+public static void setCMYKBackColor(CodetextParameters codetextParameters, CMYKColor value)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+| value | [CMYKColor](../../com.aspose.barcode.generation/cmykcolor) |  |
+
+### setCMYKColor(CodetextParameters codetextParameters, CMYKColor value) {#setCMYKColor-com.aspose.barcode.generation.CodetextParameters-com.aspose.barcode.generation.CMYKColor-}
+```
+public static void setCMYKColor(CodetextParameters codetextParameters, CMYKColor value)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+| value | [CMYKColor](../../com.aspose.barcode.generation/cmykcolor) |  |
+
+### setChecksum(CodetextParameters codetextParameters, String checksum) {#setChecksum-com.aspose.barcode.generation.CodetextParameters-java.lang.String-}
+```
+public static void setChecksum(CodetextParameters codetextParameters, String checksum)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| codetextParameters | [CodetextParameters](../../com.aspose.barcode.generation/codetextparameters) |  |
+| 체크섬 | java.lang.String |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
