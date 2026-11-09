@@ -1,0 +1,374 @@
+---
+title: "AztecParametersUI"
+second_title: "Aspose.BarCode for Java API-referentie"
+description: "UI-wrapper voor de AztecParameters-klasse"
+type: docs
+weight: 10
+url: /nl/java/com.aspose.barcode.barcodecontrol/aztecparametersui/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class AztecParametersUI
+```
+
+UI-wrapper voor de AztecParameters-klasse
+## Methoden
+
+| Methode | Beschrijving |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAspectRatio()](#getAspectRatio--) | Hoogte/breedteverhouding van 2D BarCode-module. |
+| [getClass()](#getClass--) |  |
+| [getECIEncoding()](#getECIEncoding--) | Haalt ECI-codering op. |
+| [getEncodeMode()](#getEncodeMode--) | Haalt een Aztec-coderingsmodus op. |
+| [getErrorLevel()](#getErrorLevel--) | Niveau van foutcorrectie van Aztec-type barcodes. |
+| [getLayersCount()](#getLayersCount--) | Haalt het aantal lagen van het Aztec-symbool op. |
+| [getStructuredAppendBarcodeId()](#getStructuredAppendBarcodeId--) | Barcode-ID voor Structured Append-modus van Aztec-barcode. |
+| [getStructuredAppendBarcodesCount()](#getStructuredAppendBarcodesCount--) | Aantal barcodes voor Structured Append-modus van Aztec-barcode. |
+| [getStructuredAppendFileId()](#getStructuredAppendFileId--) | Bestands-ID voor Structured Append-modus van Aztec-barcode (optioneel veld). |
+| [getSymbolMode()](#getSymbolMode--) | Haalt een Aztec-symboolmodus op. |
+| [hashCode()](#hashCode--) |  |
+| [isReaderInitialization()](#isReaderInitialization--) | Wordt gebruikt om de lezer te instrueren de gegevens in het symbool te interpreteren als programmering voor lezerinitialisatie. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAspectRatio(float value)](#setAspectRatio-float-) | Hoogte/breedteverhouding van 2D BarCode-module. |
+| [setECIEncoding(int value)](#setECIEncoding-int-) | Stelt ECI-codering in. |
+| [setEncodeMode(AztecEncodeMode value)](#setEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-) | Stelt een Aztec-coderingsmodus in. |
+| [setErrorLevel(int value)](#setErrorLevel-int-) | Niveau van foutcorrectie van Aztec-type barcodes. |
+| [setLayersCount(int value)](#setLayersCount-int-) | Stelt het aantal lagen van het Aztec-symbool in. |
+| [setReaderInitialization(boolean value)](#setReaderInitialization-boolean-) | Wordt gebruikt om de lezer te instrueren de gegevens in het symbool te interpreteren als programmering voor lezerinitialisatie. |
+| [setStructuredAppendBarcodeId(int value)](#setStructuredAppendBarcodeId-int-) | Barcode-ID voor Structured Append-modus van Aztec-barcode. |
+| [setStructuredAppendBarcodesCount(int value)](#setStructuredAppendBarcodesCount-int-) | Aantal barcodes voor Structured Append-modus van Aztec-barcode. |
+| [setStructuredAppendFileId(String value)](#setStructuredAppendFileId-java.lang.String-) | Bestands-ID voor Structured Append-modus van Aztec-barcode (optioneel veld). |
+| [setSymbolMode(AztecSymbolMode value)](#setSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-) | Stelt een Aztec-symboolmodus in. |
+| [toString()](#toString--) | Retourneert een menselijk leesbare tekenreeksrepresentatie van deze [AztecParameters](../../com.aspose.barcode.generation/aztecparameters). |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAspectRatio() {#getAspectRatio--}
+```
+public float getAspectRatio()
+```
+
+
+Hoogte/breedteverhouding van 2D BarCode-module.
+
+**Returns:**
+float
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getECIEncoding() {#getECIEncoding--}
+```
+public final int getECIEncoding()
+```
+
+
+Haalt ECI-codering op. Wordt gebruikt wanneer AztecEncodeMode Auto is. Standaardwaarde: ISO-8859-1
+
+**Returns:**
+int - ECI-codering.
+### getEncodeMode() {#getEncodeMode--}
+```
+public final AztecEncodeMode getEncodeMode()
+```
+
+
+Haalt een Aztec-coderingsmodus op. Standaardwaarde: Auto.
+
+**Returns:**
+com.aspose.barcode.generation.AztecEncodeMode - een Aztec-coderingsmodus.
+### getErrorLevel() {#getErrorLevel--}
+```
+public int getErrorLevel()
+```
+
+
+Niveau van foutcorrectie van Aztec-type barcodes. Waarde moet tussen 10 en 95 liggen.
+
+**Returns:**
+int
+### getLayersCount() {#getLayersCount--}
+```
+public final int getLayersCount()
+```
+
+
+Haalt het aantal lagen van het Aztec-symbool op. Het aantal lagen moet liggen tussen 1 en 3 voor Compact-modus en tussen 1 en 32 voor Full Range-modus. Standaardwaarde: 0 (auto).
+
+**Returns:**
+int - aantal lagen van het Aztec-symbool.
+### getStructuredAppendBarcodeId() {#getStructuredAppendBarcodeId--}
+```
+public final int getStructuredAppendBarcodeId()
+```
+
+
+Barcode-ID voor Structured Append-modus van Aztec-barcode. Barcode-ID moet liggen tussen 1 en het aantal barcodes. Standaardwaarde: 0
+
+**Returns:**
+int
+### getStructuredAppendBarcodesCount() {#getStructuredAppendBarcodesCount--}
+```
+public final int getStructuredAppendBarcodesCount()
+```
+
+
+Aantal barcodes voor Structured Append-modus van Aztec-barcode. Aantal barcodes moet liggen tussen 1 en 26. Standaardwaarde: 0
+
+**Returns:**
+int
+### getStructuredAppendFileId() {#getStructuredAppendFileId--}
+```
+public final String getStructuredAppendFileId()
+```
+
+
+Bestands-ID voor Structured Append-modus van Aztec-barcode (optioneel veld). Bestands-ID mag geen spaties bevatten. Standaardwaarde: lege tekenreeks
+
+**Returns:**
+java.lang.String
+### getSymbolMode() {#getSymbolMode--}
+```
+public AztecSymbolMode getSymbolMode()
+```
+
+
+Haalt een Aztec-symboolmodus op.
+
+**Returns:**
+[AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isReaderInitialization() {#isReaderInitialization--}
+```
+public final boolean isReaderInitialization()
+```
+
+
+Wordt gebruikt om de lezer te instrueren de gegevens in het symbool te interpreteren als programmering voor lezerinitialisatie.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setAspectRatio(float value) {#setAspectRatio-float-}
+```
+public void setAspectRatio(float value)
+```
+
+
+Hoogte/breedteverhouding van 2D BarCode-module.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | float |  |
+
+### setECIEncoding(int value) {#setECIEncoding-int-}
+```
+public final void setECIEncoding(int value)
+```
+
+
+Stelt ECI-codering in. Wordt gebruikt wanneer AztecEncodeMode Auto is. Standaardwaarde: ISO-8859-1
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | int | ECI-codering. |
+
+### setEncodeMode(AztecEncodeMode value) {#setEncodeMode-com.aspose.barcode.generation.AztecEncodeMode-}
+```
+public final void setEncodeMode(AztecEncodeMode value)
+```
+
+
+Stelt een Aztec-coderingsmodus in. Standaardwaarde: Auto.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | com.aspose.barcode.generation.AztecEncodeMode | een Aztec-coderingsmodus. |
+
+### setErrorLevel(int value) {#setErrorLevel-int-}
+```
+public void setErrorLevel(int value)
+```
+
+
+Niveau van foutcorrectie van Aztec-type barcodes. Waarde moet tussen 10 en 95 liggen.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | int |  |
+
+### setLayersCount(int value) {#setLayersCount-int-}
+```
+public final void setLayersCount(int value)
+```
+
+
+Stelt het aantal lagen van het Aztec-symbool in. Het aantal lagen moet liggen tussen 1 en 3 voor Compact-modus en tussen 1 en 32 voor Full Range-modus. Standaardwaarde: 0 (auto).
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | int | aantal lagen van het Aztec-symbool. |
+
+### setReaderInitialization(boolean value) {#setReaderInitialization-boolean-}
+```
+public final void setReaderInitialization(boolean value)
+```
+
+
+Wordt gebruikt om de lezer te instrueren de gegevens in het symbool te interpreteren als programmering voor lezerinitialisatie.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | boolean |  |
+
+### setStructuredAppendBarcodeId(int value) {#setStructuredAppendBarcodeId-int-}
+```
+public final void setStructuredAppendBarcodeId(int value)
+```
+
+
+Barcode-ID voor Structured Append-modus van Aztec-barcode. Barcode-ID moet liggen tussen 1 en het aantal barcodes. Standaardwaarde: 0
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | int |  |
+
+### setStructuredAppendBarcodesCount(int value) {#setStructuredAppendBarcodesCount-int-}
+```
+public final void setStructuredAppendBarcodesCount(int value)
+```
+
+
+Aantal barcodes voor Structured Append-modus van Aztec-barcode. Aantal barcodes moet liggen tussen 1 en 26. Standaardwaarde: 0
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | int |  |
+
+### setStructuredAppendFileId(String value) {#setStructuredAppendFileId-java.lang.String-}
+```
+public final void setStructuredAppendFileId(String value)
+```
+
+
+Bestands-ID voor Structured Append-modus van Aztec-barcode (optioneel veld). Bestands-ID mag geen spaties bevatten. Standaardwaarde: lege tekenreeks
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | java.lang.String |  |
+
+### setSymbolMode(AztecSymbolMode value) {#setSymbolMode-com.aspose.barcode.generation.AztecSymbolMode-}
+```
+public void setSymbolMode(AztecSymbolMode value)
+```
+
+
+Stelt een Aztec-symboolmodus in.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [AztecSymbolMode](../../com.aspose.barcode.generation/aztecsymbolmode) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Retourneert een menselijk leesbare tekenreeksrepresentatie van deze [AztecParameters](../../com.aspose.barcode.generation/aztecparameters).
+
+**Returns:**
+java.lang.String - Een tekenreeks die deze [AztecParameters](../../com.aspose.barcode.generation/aztecparameters) vertegenwoordigt.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
