@@ -1,0 +1,224 @@
+---
+title: "BorderParameters"
+second_title: "Referencia de API de Aspose.BarCode para Java"
+description: "Parámetros del borde de la imagen del código de barras"
+type: docs
+weight: 18
+url: /es/java/com.aspose.barcode.generation/borderparameters/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class BorderParameters
+```
+
+Parámetros del borde de la imagen del código de barras
+## Métodos
+
+| Método | Descripción |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Color del borde. |
+| [getDashStyle()](#getDashStyle--) | Estilo de guión del borde. |
+| [getVisible()](#getVisible--) | Visibilidad del borde. |
+| [getWidth()](#getWidth--) | Ancho del borde. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Color del borde. |
+| [setDashStyle(BorderDashStyle value)](#setDashStyle-com.aspose.barcode.generation.BorderDashStyle-) | Estilo de guión del borde. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Visibilidad del borde. |
+| [setWidth(Unit value)](#setWidth-com.aspose.barcode.generation.Unit-) | Ancho del borde. |
+| [toString()](#toString--) | Devuelve una representación de cadena legible por humanos de este BorderParameters. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColor() {#getColor--}
+```
+public Color getColor()
+```
+
+
+Color del borde. Valor predeterminado: Color.Black.
+
+**Returns:**
+java.awt.Color
+### getDashStyle() {#getDashStyle--}
+```
+public BorderDashStyle getDashStyle()
+```
+
+
+Estilo de guión del borde. Valor predeterminado: BorderDashStyle.Solid.
+
+**Returns:**
+[BorderDashStyle](../../com.aspose.barcode.generation/borderdashstyle)
+### getVisible() {#getVisible--}
+```
+public boolean getVisible()
+```
+
+
+Visibilidad del borde. Si es false, entonces el parámetro Width siempre se ignora (0). Valor predeterminado: false.
+
+**Returns:**
+boolean
+### getWidth() {#getWidth--}
+```
+public Unit getWidth()
+```
+
+
+Ancho del borde. Valor predeterminado: 0. Ignorado si Visible se establece en false.
+
+**Returns:**
+[Unit](../../com.aspose.barcode.generation/unit)
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setColor(Color value) {#setColor-java.awt.Color-}
+```
+public void setColor(Color value)
+```
+
+
+Color del borde. Valor predeterminado: Color.Black.
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| valor | java.awt.Color |  |
+
+### setDashStyle(BorderDashStyle value) {#setDashStyle-com.aspose.barcode.generation.BorderDashStyle-}
+```
+public void setDashStyle(BorderDashStyle value)
+```
+
+
+Estilo de guión del borde. Valor predeterminado: BorderDashStyle.Solid.
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| value | [BorderDashStyle](../../com.aspose.barcode.generation/borderdashstyle) |  |
+
+### setVisible(boolean value) {#setVisible-boolean-}
+```
+public void setVisible(boolean value)
+```
+
+
+Visibilidad del borde. Si es false, entonces el parámetro Width siempre se ignora (0). Valor predeterminado: false.
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| valor | boolean |  |
+
+### setWidth(Unit value) {#setWidth-com.aspose.barcode.generation.Unit-}
+```
+public void setWidth(Unit value)
+```
+
+
+Ancho del borde. Valor predeterminado: 0. Ignorado si Visible se establece en false.
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.barcode.generation/unit) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+Devuelve una representación de cadena legible por humanos de este BorderParameters.
+
+**Returns:**
+java.lang.String - Una cadena que representa este BorderParameters.
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
