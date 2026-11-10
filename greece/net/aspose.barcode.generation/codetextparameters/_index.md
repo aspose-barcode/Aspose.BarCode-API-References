@@ -1,14 +1,14 @@
 ---
-title: CodetextParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Παράμετροι κωδικοποιημένου κειμένου.
+title: "Κλάση CodetextParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.Generation.CodetextParameters κλάση. Παράμετροι κώδικα κειμένου"
 type: docs
-weight: 840
+weight: 1160
 url: /el/net/aspose.barcode.generation/codetextparameters/
 ---
 ## CodetextParameters class
 
-Παράμετροι κωδικοποιημένου κειμένου.
+Παράμετροι κειμένου κώδικα.
 
 ```csharp
 public class CodetextParameters
@@ -16,26 +16,26 @@ public class CodetextParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Alignment](../../aspose.barcode.generation/codetextparameters/alignment/) { get; set; } | Λαμβάνει ή ορίζει τη στοίχιση του κωδικού κειμένου. Προεπιλεγμένη τιμή: StringAlignment.Center. |
-| [Color](../../aspose.barcode.generation/codetextparameters/color/) { get; set; } | Καθορίστε το χρώμα του CodeText που εμφανίζεται. Προεπιλεγμένη τιμή: Color.Black. |
-| [Font](../../aspose.barcode.generation/codetextparameters/font/) { get; } | Καθορίστε τη γραμματοσειρά του CodeText που εμφανίζεται. Προεπιλεγμένη τιμή: Arial 5pt regular. Αγνοήθηκε εάν το FontMode έχει οριστεί σε FontMode.Auto. |
-| [FontMode](../../aspose.barcode.generation/codetextparameters/fontmode/) { get; set; } | Καθορίστε τη λειτουργία γραμματοσειράς. Εάν το FontMode έχει οριστεί σε Αυτόματο, το μέγεθος της γραμματοσειράς θα υπολογιστεί αυτόματα με βάση την τιμή xDimension. Συνιστάται η χρήση του FontMode.Auto ειδικά σε AutoSizeMode.Nearest ή AutoSizeMode.Interpolation. Προεπιλεγμένη τιμή: FontMode.Auto0__0 |
-| [Location](../../aspose.barcode.generation/codetextparameters/location/) { get; set; } | Καθορίστε την εμφανιζόμενη Θέση CodeText, ορίστε σε CodeLocation.Καμία για απόκρυψη CodeText. Προεπιλεγμένη τιμή: CodeLocation.Below για γραμμωτούς κώδικες 1D και CodeLocation.Καμία για γραμμωτούς κώδικες 2D. |
-| [NoWrap](../../aspose.barcode.generation/codetextparameters/nowrap/) { get; set; } | Καθορίστε αναδιπλώσεις λέξεων (σπασίματα γραμμής) εντός κειμένου. Προεπιλεγμένη τιμή: false. |
-| [Space](../../aspose.barcode.generation/codetextparameters/space/) { get; set; } | Κενό μεταξύ του CodeText και του BarCode[`Unit`](../unit/)value. Προεπιλεγμένη τιμή: 2pt. Παράβλεψη για EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
-| [TwoDDisplayText](../../aspose.barcode.generation/codetextparameters/twoddisplaytext/) { get; set; } | Κείμενο που θα εμφανίζεται αντί του κωδικοποιημένου κειμένου σε 2D γραμμωτούς κώδικες. Χρησιμοποιείται για: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode |
+| [Alignment](../../aspose.barcode.generation/codetextparameters/alignment/) { get; set; } | Αποκτά ή ορίζει την ευθυγράμμιση του κειμένου κώδικα. Προεπιλεγμένη τιμή: StringAlignment.Center. |
+| [Color](../../aspose.barcode.generation/codetextparameters/color/) { get; set; } | Καθορίστε το χρώμα εμφάνισης του CodeText. Προεπιλεγμένη τιμή: Color.Black. |
+| [Font](../../aspose.barcode.generation/codetextparameters/font/) { get; } | Καθορίστε τη γραμματοσειρά εμφάνισης του CodeText. Προεπιλεγμένη τιμή: Arial 5pt regular. Αγνοείται εάν το FontMode οριστεί σε FontMode.Auto. |
+| [FontMode](../../aspose.barcode.generation/codetextparameters/fontmode/) { get; set; } | Καθορίστε το FontMode. Εάν το FontMode οριστεί σε Auto, το μέγεθος γραμματοσειράς θα υπολογιστεί αυτόματα με βάση την τιμή xDimension. Συνιστάται η χρήση του FontMode.Auto, ειδικά στο AutoSizeMode.Nearest ή AutoSizeMode.Interpolation. Προεπιλεγμένη τιμή: FontMode.Auto. |
+| [Location](../../aspose.barcode.generation/codetextparameters/location/) { get; set; } | Καθορίστε τη θέση εμφάνισης του CodeText, ορίστε το σε CodeLocation.None για απόκρυψη του CodeText. Προεπιλεγμένη τιμή: CodeLocation.Below για 1D barcode και CodeLocation.None για 2D barcode. |
+| [NoWrap](../../aspose.barcode.generation/codetextparameters/nowrap/) { get; set; } | Καθορίστε τις αναδιπλώσεις λέξεων (αλλαγές γραμμής) μέσα στο κείμενο. Προεπιλεγμένη τιμή: false. |
+| [Space](../../aspose.barcode.generation/codetextparameters/space/) { get; set; } | Διάστημα μεταξύ του CodeText και του BarCode στην τιμή [`Unit`](../unit/). Προεπιλεγμένη τιμή: 2pt. Αγνοείται για EAN8, EAN13, UPCE, UPCA, ISBN, ISMN, ISSN, UpcaGs1DatabarCoupon. |
+| [TwoDDisplayText](../../aspose.barcode.generation/codetextparameters/twoddisplaytext/) { get; set; } | Κείμενο που θα εμφανίζεται αντί για codetext σε 2D barcode. Χρησιμοποιείται για: Aztec, Pdf417, DataMatrix, QR, MaxiCode, DotCode. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/codetextparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`CodetextParameters` . |
+| override [ToString](../../aspose.barcode.generation/codetextparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `CodetextParameters`. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

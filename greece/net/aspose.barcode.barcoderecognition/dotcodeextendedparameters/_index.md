@@ -1,14 +1,14 @@
 ---
-title: DotCodeExtendedParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Αποθηκεύει ειδικά δεδομένα του αναγνωρισμένου DotCode barcode
+title: "Κλάση DotCodeExtendedParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.BarCodeRecognition.DotCodeExtendedParameters. Αποθηκεύει ειδικά δεδομένα του αναγνωρισμένου barcode DotCode"
 type: docs
-weight: 200
+weight: 250
 url: /el/net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 ## DotCodeExtendedParameters class
 
-Αποθηκεύει ειδικά δεδομένα του αναγνωρισμένου DotCode barcode
+Αποθηκεύει ειδικά δεδομένα του αναγνωρισμένου barcode DotCode.
 
 ```csharp
 public sealed class DotCodeExtendedParameters : BaseExtendedParameters
@@ -16,26 +16,26 @@ public sealed class DotCodeExtendedParameters : BaseExtendedParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [DotCodeIsReaderInitialization](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodeisreaderinitialization/) { get; } | Υποδεικνύει εάν ο κώδικας χρησιμοποιείται για τον αναγνώστη εντολών για να ερμηνεύσει τα ακόλουθα δεδομένα ως οδηγίες για την προετοιμασία ή τον επαναπρογραμματισμό του αναγνώστη γραμμικού κώδικα. Η προεπιλεγμένη τιμή είναι ψευδής. |
-| [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodestructuredappendmodebarcodeid/) { get; } | Λαμβάνει το αναγνωριστικό του γραμμικού κώδικα λειτουργίας δομημένης προσθήκης DotCode. Το αναγνωριστικό ξεκινά από το 1 και πρέπει να είναι μικρότερο ή ίσο με τον αριθμό των γραμμωτών κωδίκων. Η προεπιλεγμένη τιμή είναι -1. |
-| [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodestructuredappendmodebarcodescount/) { get; } | Λαμβάνει τον αριθμό γραμμωτών κωδίκων της δομημένης λειτουργίας προσάρτησης DotCode. Η προεπιλεγμένη τιμή είναι -1. Το πλήθος πρέπει να είναι μια τιμή από 1 έως 35. |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Ελέγχει εάν όλες οι παράμετροι έχουν μόνο προεπιλεγμένες τιμές |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Δοκιμάζει εάν όλες οι παράμετροι έχουν μόνο τις προεπιλεγμένες τιμές |
+| [IsReaderInitialization](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/isreaderinitialization/) { get; } | Υποδεικνύει εάν ο κώδικας χρησιμοποιείται για να καθοδηγήσει τον αναγνώστη να ερμηνεύσει τα παρακάτω δεδομένα ως οδηγίες για την εκκίνηση ή την επαναπρογραμματισμό του αναγνώστη barcode. Η προεπιλεγμένη τιμή είναι ψευδής. |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/structuredappendmodebarcodeid/) { get; } | Λαμβάνει το ID του barcode σε λειτουργία δομημένης προσθήκης DotCode. Το ID ξεκινά από 1 και πρέπει να είναι μικρότερο ή ίσο με τον αριθμό των barcode. Η προεπιλεγμένη τιμή είναι -1. |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/structuredappendmodebarcodescount/) { get; } | Λαμβάνει τον αριθμό των barcode σε λειτουργία δομημένης προσθήκης DotCode. Η προεπιλεγμένη τιμή είναι -1. Ο αριθμός πρέπει να είναι τιμή από 1 έως 35. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`DotCodeExtendedParameters` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [ToString](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`DotCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη`DotCodeExtendedParameters` η τιμή είναι ίση με τη δεύτερη. |
-| [operator !=](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει αν είναι η πρώτη`DotCodeExtendedParameters` η τιμή είναι διαφορετική από τη δεύτερη. |
+| override [Equals](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `DotCodeExtendedParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [ToString](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `DotCodeExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `DotCodeExtendedParameters` είναι ίση με τη δεύτερη. |
+| [operator !=](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `DotCodeExtendedParameters` διαφέρει από τη δεύτερη. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να λάβετε DotCode raw values
+Αυτό το παράδειγμα δείχνει πώς να λάβετε τις ακατέργαστες τιμές DotCode
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.DotCo
 ### Δείτε επίσης
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,16 +1,16 @@
 ---
-title: QrExtCodetextBuilder
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Εκτεταμένη γεννήτρια κωδικού κειμένου για γραμμωτούς κώδικες 2D QR για λειτουργία ExtendedCodetext του QrEncodeMode
+title: "Κλάση QrExtCodetextBuilder"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.Generation.QrExtCodetextBuilder κλάση. Εκτεταμένος δημιουργός κώδικα κειμένου για 2D QR barcode για λειτουργία ExtendedCodetext Mode του EncodeMode"
 type: docs
-weight: 1190
+weight: 1630
 url: /el/net/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
 
-Εκτεταμένη γεννήτρια κωδικού κειμένου για γραμμωτούς κώδικες 2D QR για λειτουργία ExtendedCodetext του QrEncodeMode
+Γεννήτρια εκτεταμένου κώδικα κειμένου για 2D QR barcode για τη λειτουργία ExtendedCodetext Mode του EncodeMode
 
-Χρησιμοποιήστε την ιδιότητα TwoDDisplayText του BarcodeGenerator για να ορίσετε ορατό κείμενο για την αφαίρεση διαχειριστικών χαρακτήρων.
+Χρησιμοποιήστε την ιδιότητα TwoDDisplayText του BarcodeGenerator για να ορίσετε το ορατό κείμενο αφαιρώντας χαρακτήρες διαχείρισης.
 
 ```csharp
 public class QrExtCodetextBuilder : ExtCodetextBuilder
@@ -18,92 +18,95 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [QrExtCodetextBuilder](qrextcodetextbuilder/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Προσθέτει κείμενο κωδικού με Extended Channel Identifier |
-| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition/)() | Προσθέτει το FNC1 στην πρώτη θέση στα εκτεταμένα αντικείμενα κωδικού κειμένου |
-| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/)() | Προσθέτει διαχωριστικό ομάδας (GS - '\\u001D') στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/)(string) | Προσθέτει το FNC1 στη δεύτερη θέση στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Προσθέτει απλό κωδικοποιημένο κείμενο στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | Διαγράφει εκτεταμένα στοιχεία κωδικοποιημένου κειμένου |
-| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/)() | Δημιουργεί εκτεταμένο κείμενο κώδικα από την εκτεταμένη λίστα κωδικοποιημένου κειμένου. |
+| [AddCodetextWithCompactionMode](../../aspose.barcode.generation/qrextcodetextbuilder/addcodetextwithcompactionmode/)(QrExtCompactionMode, string) | Προσθέτει κώδικα κειμένου με τη συγκεκριμένη λειτουργία συμπίεσης QR στα στοιχεία εκτεταμένου κώδικα κειμένου. |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Προσθέτει κώδικα κειμένου με Extended Channel Identifier |
+| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition/)() | Ορίζει το FNC1 στην πρώτη θέση. Εάν είχε οριστεί άλλη λειτουργία FNC1 προηγουμένως, αντικαθίσταται. |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/)() | Προσθέτει το Διαχωριστικό Ομάδας (GS - '\\u001D') στα στοιχεία εκτεταμένου κώδικα κειμένου |
+| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/)(string) | Ορίζει το FNC1 στη δεύτερη θέση. Εάν είχε οριστεί άλλη λειτουργία FNC1 προηγουμένως, αντικαθίσταται. |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Προσθέτει απλό κώδικα κειμένου στα στοιχεία του επεκταμένου κώδικα κειμένου |
+| override [Clear](../../aspose.barcode.generation/qrextcodetextbuilder/clear/)() | Καθαρίζει τα στοιχεία του επεκταμένου κώδικα κειμένου |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/)() | Δημιουργεί επεκταμένο κώδικα κειμένου από τη λίστα επεκταμένου κώδικα κειμένου. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να χρησιμοποιήσετε την πρώτη θέση του FNC1 σε εκτεταμένη λειτουργία.
+Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε το FNC1 στην πρώτη θέση στη Λειτουργία Επεκτάσιμη.
 
 ```csharp
 [C#]
-//δημιουργία κωδικοποιημένου κειμένου
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
-lTextBuilder.AddFNC1FirstPosition();
-lTextBuilder.AddPlainCodetext("000%89%%0");
-lTextBuilder.AddFNC1GroupSeparator();
-lTextBuilder.AddPlainCodetext("12345<FNC1>");
+//δημιουργία codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddFNC1FirstPosition();
+TextBuilder.AddPlainCodetext("000%89%%0");
+TextBuilder.AddFNC1GroupSeparator();
+TextBuilder.AddPlainCodetext("12345<FNC1>");
 
-//δημιουργία κωδικοποιημένου κειμένου
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//παραγωγή codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//παράγω
+//δημιουργία
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-Αυτό το δείγμα δείχνει πώς να χρησιμοποιήσετε τη δεύτερη θέση FNC1 σε εκτεταμένη λειτουργία.
+Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε το FNC1 στη δεύτερη θέση στη Λειτουργία Επεκτάσιμη.
 
 ```csharp
 [C#]
-//δημιουργία κωδικοποιημένου κειμένου
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//δημιουργία codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddFNC1SecondPosition("12");
 TextBuilder.AddPlainCodetext("TRUE3456"); 
 
-//δημιουργία κωδικοποιημένου κειμένου
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//παραγωγή codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//παράγω
+//δημιουργία
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-Αυτό το δείγμα δείχνει πώς να χρησιμοποιήσετε τη λειτουργία πολλαπλών ECI σε εκτεταμένη λειτουργία.
+Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε τη λειτουργία multi ECI στη Λειτουργία Επεκτάσιμη.
 
 ```csharp
 [C#]
-//δημιουργία κωδικοποιημένου κειμένου
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//δημιουργία codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
-TextBuilder.AddPlainCodetext(@"t\e\\st");   
+TextBuilder.AddPlainCodetext(@"t\e\\st");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
 
-//δημιουργία κωδικοποιημένου κειμένου
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//παραγωγή codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//παράγω
+//δημιουργία
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
@@ -112,7 +115,7 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 ### Δείτε επίσης
 
 * class [ExtCodetextBuilder](../extcodetextbuilder/)
-* χώρος ονομάτων [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

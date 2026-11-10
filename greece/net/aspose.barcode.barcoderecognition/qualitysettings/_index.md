@@ -1,14 +1,14 @@
 ---
-title: QualitySettings
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Το QualitySettings επιτρέπει τη μη αυτόματη διαμόρφωση της ποιότητας και της ταχύτητας αναγνώρισης. Μπορείτε να ρυθμίσετε γρήγορα τις Ρυθμίσεις Ποιότητας με ενσωματωμένες προεπιλογές High Performance NormalQuality HighQuality MaxBarCodes ή μπορείτε να ρυθμίσετε χειροκίνητα τις παραμέτρους του QualitySettings000_x.
+title: "Κλάση QualitySettings"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.BarCodeRecognition.QualitySettings. Το QualitySettings επιτρέπει τη χειροκίνητη διαμόρφωση της ποιότητας και της ταχύτητας αναγνώρισης. Μπορείτε γρήγορα να ρυθμίσετε το QualitySettings με ενσωματωμένες προεπιλογές HighPerformance, NormalQuality, HighQuality, MaxQuality ή να διαμορφώσετε χειροκίνητα ξεχωριστές επιλογές. Η προεπιλεγμένη τιμή του QualitySettings είναι NormalQuality."
 type: docs
-weight: 270
+weight: 370
 url: /el/net/aspose.barcode.barcoderecognition/qualitysettings/
 ---
 ## QualitySettings class
 
-Το QualitySettings επιτρέπει τη μη αυτόματη διαμόρφωση της ποιότητας και της ταχύτητας αναγνώρισης. Μπορείτε να ρυθμίσετε γρήγορα τις Ρυθμίσεις Ποιότητας με ενσωματωμένες προεπιλογές: High Performance, NormalQuality, HighQuality, MaxBarCodes ή μπορείτε να ρυθμίσετε χειροκίνητα τις παραμέτρους του QualitySettings000_x.
+Το QualitySettings επιτρέπει τη χειροκίνητη διαμόρφωση της ποιότητας και της ταχύτητας αναγνώρισης. Μπορείτε γρήγορα να ρυθμίσετε το QualitySettings με ενσωματωμένες προεπιλογές: HighPerformance, NormalQuality, HighQuality, MaxQuality ή να διαμορφώσετε χειροκίνητα ξεχωριστές επιλογές. Η προεπιλεγμένη τιμή του QualitySettings είναι NormalQuality.
 
 ```csharp
 public sealed class QualitySettings
@@ -16,139 +16,64 @@ public sealed class QualitySettings
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [HighPerformance](../../aspose.barcode.barcoderecognition/qualitysettings/highperformance/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης υψηλής απόδοσης. Οι γραμμωτοί κώδικες υψηλής ποιότητας αναγνωρίζονται καλά σε αυτήν τη λειτουργία. |
-| static [HighQuality](../../aspose.barcode.barcoderecognition/qualitysettings/highquality/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης υψηλής ποιότητας. Αυτή η προεπιλογή έχει αναπτυχθεί για γραμμικούς κώδικες χαμηλής ποιότητας. Επιτρέπει την ανίχνευση διαγώνιων και πολύ κατεστραμμένων γραμμωτών κωδίκων. |
-| static [HighQualityDetection](../../aspose.barcode.barcoderecognition/qualitysettings/highqualitydetection/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης HighQualityDetection. Ίδιο με το NormalQuality αλλά με υψηλή ποιότητα[`DetectorSettings`](./detectorsettings/) |
-| static [MaxBarCodes](../../aspose.barcode.barcoderecognition/qualitysettings/maxbarcodes/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης MaxBarCodes. Αυτή η προεπιλογή έχει αναπτυχθεί για να αναγνωρίζει όλους τους πιθανούς γραμμωτούς κώδικες, ακόμη και τους λανθασμένους γραμμικούς κώδικες. |
-| static [MaxQualityDetection](../../aspose.barcode.barcoderecognition/qualitysettings/maxqualitydetection/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης MaxQualityDetection. Ίδιο με το NormalQuality αλλά με την υψηλότερη ποιότητα[`DetectorSettings`](./detectorsettings/) . Επιτρέπει τον εντοπισμό διαγώνιων και κατεστραμμένων γραμμωτών κωδίκων. |
-| static [NormalQuality](../../aspose.barcode.barcoderecognition/qualitysettings/normalquality/) { get; } | Προκαθορισμένη ποιότητα αναγνώρισης NormalQuality. Κατάλληλο για τα περισσότερα barcodes |
-| [AllowComplexBackground](../../aspose.barcode.barcoderecognition/qualitysettings/allowcomplexbackground/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει έγχρωμους γραμμωτούς κώδικες σε έγχρωμο φόντο ως πρόσθετη σάρωση. Εξαιρετικά αργή λειτουργία. |
-| [AllowDatamatrixIndustrialBarcodes](../../aspose.barcode.barcoderecognition/qualitysettings/allowdatamatrixindustrialbarcodes/) { get; set; } | Επιτρέπει στον κινητήρα για το Datamatrix να αναγνωρίζει διακεκομμένους βιομηχανικούς γραμμωτούς κώδικες Datamatrix. Αργή λειτουργία που βοηθά μόνο για διακεκομμένους γραμμωτούς κώδικες που αποτελούνται από σημεία. |
-| [AllowDecreasedImage](../../aspose.barcode.barcoderecognition/qualitysettings/allowdecreasedimage/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίσει τη μειωμένη εικόνα ως πρόσθετη σάρωση. Το μέγεθος για μείωση επιλέγεται από εσωτερικούς αλγόριθμους κινητήρα. Η λειτουργία βοηθά στην αναγνώριση των γραμμωτών κωδίκων που είναι θόρυβοι και θολοί αλλά καταγράφονται με υψηλή ανάλυση. |
-| [AllowDetectScanGap](../../aspose.barcode.barcoderecognition/qualitysettings/allowdetectscangap/) { get; set; } | Επιτρέπει στον κινητήρα να χρησιμοποιεί το κενό μεταξύ των σαρώσεων για να αυξήσει την ταχύτητα αναγνώρισης. Η λειτουργία μπορεί να δημιουργήσει προβλήματα αναγνώρισης με γραμμωτούς κώδικες χαμηλού ύψους. |
-| [AllowIncorrectBarcodes](../../aspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει γραμμικούς κώδικες που έχουν λανθασμένο άθροισμα ελέγχου ή εσφαλμένες τιμές. Η λειτουργία μπορεί να χρησιμοποιηθεί για να αναγνωρίσει κατεστραμμένους γραμμωτούς κώδικες με εσφαλμένο κείμενο. |
-| [AllowInvertImage](../../aspose.barcode.barcoderecognition/qualitysettings/allowinvertimage/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει αντίστροφη έγχρωμη εικόνα ως πρόσθετη σάρωση. Η λειτουργία μπορεί να χρησιμοποιηθεί όταν ο γραμμωτός κώδικας είναι λευκός σε μαύρο φόντο. |
-| [AllowMedianSmoothing](../../aspose.barcode.barcoderecognition/qualitysettings/allowmediansmoothing/) { get; set; } | Επιτρέπει στον κινητήρα να ενεργοποιήσει τη μέση εξομάλυνση ως πρόσθετη σάρωση. Η λειτουργία βοηθά στην αναγνώριση γραμμωτών κωδίκων με θόρυβο. |
-| [AllowMicroWhiteSpotsRemoving](../../aspose.barcode.barcoderecognition/qualitysettings/allowmicrowhitespotsremoving/) { get; set; } | Επιτρέπει στον κινητήρα για ταχυδρομικούς γραμμωτούς κώδικες να αναγνωρίζει εικόνες με ελαφρύ θόρυβο. Η λειτουργία βοηθά στην αναγνώριση ταχυδρομικών γραμμωτών κωδίκων που έχουν υποστεί ελαφρά ζημιά. |
-| [AllowOneDFastBarcodesDetector](../../aspose.barcode.barcoderecognition/qualitysettings/allowonedfastbarcodesdetector/) { get; set; } | Επιτρέπει στον κινητήρα για γραμμωτούς κώδικες 1D να αναγνωρίζει γρήγορα γραμμικούς κώδικες υψηλής ποιότητας που γεμίζουν σχεδόν ολόκληρη την εικόνα. Η λειτουργία βοηθά στη γρήγορη αναγνώριση των γραμμωτών κωδίκων που δημιουργούνται από το Διαδίκτυο. |
-| [AllowOneDWipedBarsRestoration](../../aspose.barcode.barcoderecognition/qualitysettings/allowonedwipedbarsrestoration/) { get; set; } | Επιτρέπει στον κινητήρα για γραμμωτούς κώδικες 1D να αναγνωρίζει γραμμικούς κώδικες με μεμονωμένες σκουπισμένες/κολλημένες ράβδους σε μοτίβο. |
-| [AllowQRMicroQrRestoration](../../aspose.barcode.barcoderecognition/qualitysettings/allowqrmicroqrrestoration/) { get; set; } | Επιτρέπει στον κινητήρα για QR/MicroQR να αναγνωρίζει κατεστραμμένους γραμμωτούς κώδικες MicroQR. |
-| [AllowRegularImage](../../aspose.barcode.barcoderecognition/qualitysettings/allowregularimage/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει κανονική εικόνα χωρίς αποκαταστάσεις ως κύρια σάρωση. Λειτουργία αναγνώρισης εικόνας ως έχει. |
-| [AllowSaltAndPaperFiltering](../../aspose.barcode.barcoderecognition/qualitysettings/allowsaltandpaperfiltering/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει γραμμικούς κώδικες με τύπο θορύβου αλατιού και χαρτιού. Η λειτουργία μπορεί να αφαιρέσει μικρό θόρυβο με λευκές και μαύρες κουκκίδες. |
-| [AllowWhiteSpotsRemoving](../../aspose.barcode.barcoderecognition/qualitysettings/allowwhitespotsremoving/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει την εικόνα χωρίς μικρές λευκές κηλίδες ως πρόσθετη σάρωση. Η λειτουργία βοηθά στην αναγνώριση της εικόνας με θόρυβο καθώς και στο φιλτράρισμα της μέσης εξομάλυνσης. |
-| [CheckMore1DVariants](../../aspose.barcode.barcoderecognition/qualitysettings/checkmore1dvariants/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει γραμμωτούς κώδικες 1D με άθροισμα ελέγχου ελέγχοντας περισσότερες παραλλαγές αναγνώρισης. Προεπιλεγμένη τιμή: False. |
-| [DetectorSettings](../../aspose.barcode.barcoderecognition/qualitysettings/detectorsettings/) { get; set; } | Ρυθμίσεις ανιχνευτή γραμμικού κώδικα. |
-| [FastScanOnly](../../aspose.barcode.barcoderecognition/qualitysettings/fastscanonly/) { get; set; } | Επιτρέπει στον κινητήρα για γραμμωτούς κώδικες 1D να αναγνωρίζει γρήγορα το μεσαίο κομμάτι μιας εικόνας και να επιστρέφει το αποτέλεσμα χωρίς τη χρήση χρονοβόρων αλγορίθμων. |
-| [MedianSmoothingWindowSize](../../aspose.barcode.barcoderecognition/qualitysettings/mediansmoothingwindowsize/) { get; set; } | Μέγεθος παραθύρου για μέση εξομάλυνση. Οι τυπικές τιμές είναι 3 ή 4. Η προεπιλεγμένη τιμή είναι 3. Πρέπει να οριστεί το AllowMedianSmoothing. |
-| [ReadTinyBarcodes](../../aspose.barcode.barcoderecognition/qualitysettings/readtinybarcodes/) { get; set; } | Επιτρέπει στον κινητήρα να αναγνωρίζει μικροσκοπικούς γραμμωτούς κώδικες σε μεγάλες εικόνες. Αγνοήθηκε αν[`AllowIncorrectBarcodes`](./allowincorrectbarcodes/) έχει οριστεί σε True. Προεπιλεγμένη τιμή: False. |
-| [UseOldBarcodeDetector](../../aspose.barcode.barcoderecognition/qualitysettings/useoldbarcodedetector/) { get; set; } | Μεταβαίνει στον παλιό ανιχνευτή γραμμικού κώδικα. |
+| static [HighPerformance](../../aspose.barcode.barcoderecognition/qualitysettings/highperformance/) { get; } | Προεπιλογή ποιότητας αναγνώρισης HighPerformance. Τα barcode υψηλής ποιότητας αναγνωρίζονται καλά σε αυτή τη λειτουργία. |
+| static [HighQuality](../../aspose.barcode.barcoderecognition/qualitysettings/highquality/) { get; } | Προεπιλογή ποιότητας αναγνώρισης HighQuality. Αυτή η προεπιλογή έχει αναπτυχθεί για barcode χαμηλής ποιότητας. Επιτρέπει τον εντοπισμό πολύ κατεστραμμένων barcode. |
+| static [MaxQuality](../../aspose.barcode.barcoderecognition/qualitysettings/maxquality/) { get; } | Προεπιλογή ποιότητας αναγνώρισης MaxQuality. Αυτή η προεπιλογή έχει αναπτυχθεί για την αναγνώριση όλων των δυνατών barcode, ακόμη και λανθασμένων barcode. |
+| static [NormalQuality](../../aspose.barcode.barcoderecognition/qualitysettings/normalquality/) { get; } | Προεπιλογή ποιότητας αναγνώρισης NormalQuality. Κατάλληλη για τα περισσότερα barcode |
+| [AllowIncorrectBarcodes](../../aspose.barcode.barcoderecognition/qualitysettings/allowincorrectbarcodes/) { get; set; } | Επιτρέπει στη μηχανή να αναγνωρίζει barcode που έχουν εσφαλμένο checksumm ή εσφαλμένες τιμές. Η λειτουργία μπορεί να χρησιμοποιηθεί για την αναγνώριση κατεστραμμένων barcode με εσφαλμένο κείμενο. |
+| [BarcodeQuality](../../aspose.barcode.barcoderecognition/qualitysettings/barcodequality/) { get; set; } | Λειτουργία που ενεργοποιεί μεθόδους για την αναγνώριση στοιχείων barcode με την επιλεγμένη ποιότητα. Ένα στοιχείο barcode χαμηλότερης ποιότητας απαιτεί πιο απαιτητικές μεθόδους, κάτι που επιβραδύνει την αναγνώριση. |
+| [ComplexBackground](../../aspose.barcode.barcoderecognition/qualitysettings/complexbackground/) { get; set; } | Λειτουργία που ενεργοποιεί ή απενεργοποιεί την πρόσθετη αναγνώριση χρωματικών barcodes σε χρωματικές εικόνες. |
+| [Deconvolution](../../aspose.barcode.barcoderecognition/qualitysettings/deconvolution/) { get; set; } | Αποσύνθεση (αποκατάσταση εικόνας) που ορίζει το επίπεδο υποβάθμισης της εικόνας. Αρχικά, η αποσύνθεση είναι μια λειτουργία που μπορεί να αποκαταστήσει μια εικόνα που έχει υποβαθμιστεί (συνελικθεί) από οποιαδήποτε φυσική λειτουργία όπως η θόλωση, κατά τη λήψη της εικόνας με την κάμερα. Επειδή δεν μπορούμε να εντοπίσουμε τη λειτουργία που κακοποιεί την εικόνα, πρέπει να ελέγξουμε τις πιο γνωστές λειτουργίες όπως το sharp ή τη μαθηματική μορφολογία. |
+| [InverseImage](../../aspose.barcode.barcoderecognition/qualitysettings/inverseimage/) { get; set; } | Λειτουργία που ενεργοποιεί ή απενεργοποιεί την πρόσθετη αναγνώριση barcodes σε εικόνες με ανεστραμμένα χρώματα (φωτεινότητα). |
+| [MinimalXDimension](../../aspose.barcode.barcoderecognition/qualitysettings/minimalxdimension/) { get; set; } | Ελάχιστο μέγεθος του XDimension σε εικονοστοιχεία που χρησιμοποιείται με το UseMinimalXDimension. |
+| [XDimension](../../aspose.barcode.barcoderecognition/qualitysettings/xdimension/) { get; set; } | Λειτουργία αναγνώρισης που ορίζει το μέγεθος (από 1 έως άπειρο) του ελάχιστου στοιχείου barcode: κελί πλέγματος ή μπάρα. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να χρησιμοποιήσετε τις ρυθμίσεις ποιότητας με το BarCodeReader
+Αυτό το παράδειγμα δείχνει πώς να χρησιμοποιήσετε το QualitySettings με το BarCodeReader
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+//ορίστε τη λειτουργία αναγνώρισης HighPerformance
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Extended, DecodeType.Code128))
 {
-   //ρυθμίστε τη λειτουργία υψηλής απόδοσης
-   reader.QualitySettings = QualitySettings.HighPerformance;
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    reader.QualitySettings = QualitySettings.HighPerformance;
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+
+//ορίστε τη λειτουργία αναγνώρισης HighQuality
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Extended, DecodeType.Code128))
 {
-   //Η λειτουργία κανονικής ποιότητας έχει οριστεί από προεπιλογή
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    reader.QualitySettings = QualitySettings.HighQuality;
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+
+//ορίστε τη λειτουργία αναγνώρισης HighPerformance για barcode μικρού μεγέθους
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Extended, DecodeType.Code128))
 {
-   //ρυθμίστε τη λειτουργία υψηλής ποιότητας με αναγνώριση χαμηλής ταχύτητας 
-   reader.QualitySettings = QualitySettings.HighQuality;
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    reader.QualitySettings = QualitySettings.HighPerformance;
+    reader.QualitySettings.XDimension = XDimensionMode.Small;
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+
+//ορίστε τη λειτουργία αναγνώρισης HighPerformance για barcode χαμηλής ποιότητας
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Extended, DecodeType.Code128))
 {
-   //ρυθμίστε τη λειτουργία μέγιστου γραμμικού κώδικα, η οποία προσπαθεί να βρει όλους τους πιθανούς γραμμωτούς κώδικες, ακόμη και λανθασμένους. Η πιο αργή λειτουργία αναγνώρισης
-   reader.QualitySettings = QualitySettings.MaxBarCodes;
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
-}
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
-{
-   //ρυθμίστε τη λειτουργία υψηλής απόδοσης
-   reader.QualitySettings = QualitySettings.HighPerformance;
-   //ορίστε ξεχωριστές επιλογές
-   reader.QualitySettings.AllowMedianSmoothing = true;
-   reader.QualitySettings.MedianSmoothingWindowSize = 5;
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
-}
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
-{
-   //Η προεπιλεγμένη λειτουργία είναι NormalQuality
-   //ορίστε ξεχωριστές επιλογές
-   reader.QualitySettings.AllowMedianSmoothing = true;
-   reader.QualitySettings.MedianSmoothingWindowSize = 5;
-   foreach (BarCodeResult result in reader.ReadBarCodes())
-      Console.WriteLine("BarCode CodeText: " + result.CodeText);
-}
-[VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'ρυθμίστε τη λειτουργία υψηλής απόδοσης
-    reader.QualitySettings = QualitySettings.HighPerformance
-    For Each result As BarCodeResult In reader.ReadBarCodes()
-        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-    Next
-End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'Η λειτουργία κανονικής ποιότητας έχει οριστεί από προεπιλογή
-    For Each result As BarCodeResult In reader.ReadBarCodes()
-        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-    Next
-End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'ρυθμίστε τη λειτουργία υψηλής ποιότητας με αναγνώριση χαμηλής ταχύτητας
-    reader.QualitySettings = QualitySettings.HighQuality
-    For Each result As BarCodeResult In reader.ReadBarCodes()
-        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-    Next
-End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'ορίστε τη λειτουργία μέγιστου γραμμικού κώδικα, η οποία προσπαθεί να βρει όλους τους πιθανούς γραμμωτούς κώδικες, ακόμη και λανθασμένους. Η πιο αργή λειτουργία αναγνώρισης
-    reader.QualitySettings = QualitySettings.MaxBarCodes
-    For Each result As BarCodeResult In reader.ReadBarCodes()
-        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-    Next
-End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'ρυθμίστε τη λειτουργία υψηλής απόδοσης
-   reader.QualitySettings = QualitySettings.HighPerformance
-   'ορίστε ξεχωριστές επιλογές
-   reader.QualitySettings.AllowMedianSmoothing = True
-   reader.QualitySettings.MedianSmoothingWindowSize = 5
-   For Each result As BarCodeResult In reader.ReadBarCodes()
-       Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-   Next
-End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'Η προεπιλεγμένη λειτουργία είναι NormalQuality
-   'ορίστε ξεχωριστές επιλογές
-   reader.QualitySettings.AllowMedianSmoothing = True
-   reader.QualitySettings.MedianSmoothingWindowSize = 5
-   For Each result As BarCodeResult In reader.ReadBarCodes()
-       Console.WriteLine("BarCode Type: " + result.CodeTypeName)
-   Next
-End Using
+    reader.QualitySettings = QualitySettings.HighPerformance;
+    reader.QualitySettings.BarcodeQuality = BarcodeQualityMode.Low;
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
+}    
 ```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

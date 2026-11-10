@@ -1,14 +1,14 @@
 ---
-title: Mailmark2DCodetext
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Κατηγορία για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κωδικό Royal Mail 2D Mailmark.
+title: "Κλάση Mailmark2DCodetext"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.ComplexBarcode.Mailmark2DCodetext κλάση. Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που ενσωματώνεται στον κώδικα Royal Mail 2D Mailmark."
 type: docs
-weight: 470
+weight: 650
 url: /el/net/aspose.barcode.complexbarcode/mailmark2dcodetext/
 ---
 ## Mailmark2DCodetext class
 
-Κατηγορία για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κωδικό Royal Mail 2D Mailmark.
+Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που ενσωματώνεται στον κώδικα Royal Mail 2D Mailmark.
 
 ```csharp
 public sealed class Mailmark2DCodetext : IComplexCodetext
@@ -16,39 +16,39 @@ public sealed class Mailmark2DCodetext : IComplexCodetext
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [Mailmark2DCodetext](mailmark2dcodetext/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Class](../../aspose.barcode.complexbarcode/mailmark2dcodetext/class/) { get; set; } | Προσδιορίζει την κλάση του αντικειμένου. |
+| [Class](../../aspose.barcode.complexbarcode/mailmark2dcodetext/class/) { get; set; } | Αναγνωρίζει την κλάση του αντικειμένου. |
 | [CustomerContent](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontent/) { get; set; } | Προαιρετικός χώρος για χρήση από τον πελάτη. |
-| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode/) { get; set; } | Λειτουργία κωδικοποίησης του γραμμικού κώδικα Datamatrix. Προεπιλεγμένη τιμή: DataMatrixEncodeMode.C40. |
-| [DataMatrixType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/datamatrixtype/) { get; set; } | Ο τύπος 2D Mailmark καθορίζει το μέγεθος του γραμμικού κώδικα Data Matrix. |
-| [DestinationPostCodeAndDPS](../../aspose.barcode.complexbarcode/mailmark2dcodetext/destinationpostcodeanddps/) { get; set; } | Περιέχει τον ταχυδρομικό κώδικα της διεύθυνσης παράδοσης με DPS Εάν στην ενδοχώρα, ο ταχυδρομικός κώδικας/DP περιέχει τον ακόλουθο αριθμό χαρακτήρων. Περιοχή (1 ή 2 χαρακτήρες) Περιοχή (1 ή 2 χαρακτήρες) Τομέας (1 χαρακτήρας) Μονάδα PS (2 χαρακτήρες) (2 χαρακτήρες). Ο ταχυδρομικός κώδικας και το DPS πρέπει να συμμορφώνονται με έγκυρη μορφή PAF®. |
-| [InformationTypeID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/informationtypeid/) { get; set; } | Προσδιορίζει το ωφέλιμο φορτίο γραμμικού κώδικα αλληλογραφίας Royal Mail για κάθε τύπο προϊόντος. |
-| [ItemID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/itemid/) { get; set; } | Προσδιορίζει το μοναδικό στοιχείο εντός του Αναγνωριστικού Εφοδιαστικής Αλυσίδας. Κάθε γραμμικός κώδικας Mailmark απαιτείται να φέρει ένα ID ώστε να μπορεί να αναγνωριστεί μοναδικά για τουλάχιστον 90 ημέρες. Μέγιστη τιμή: 99999999. |
-| [ReturnToSenderPostCode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/returntosenderpostcode/) { get; set; } | Περιέχει τον ταχυδρομικό κώδικα επιστροφής στον αποστολέα αλλά όχι DPS. Ο υπολογιστής (χωρίς DPS) πρέπει να συμμορφώνεται με μια μορφή PAF®. |
-| [RTSFlag](../../aspose.barcode.complexbarcode/mailmark2dcodetext/rtsflag/) { get; set; } | Σημαία που υποδεικνύει ποιο επίπεδο υπηρεσίας επιστροφής στον αποστολέα ζητείται. |
-| [SupplyChainID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid/) { get; set; } | Προσδιορίζει τη μοναδική ομάδα πελατών που συμμετέχουν στην αποστολή. Μέγιστη τιμή: 9999999. |
-| [UPUCountryID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid/) { get; set; } | Προσδιορίζει το αναγνωριστικό χώρας UPU. Μέγιστο μήκος: 4 χαρακτήρες. |
-| [VersionID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/versionid/) { get; set; } | Προσδιορίζει την έκδοση γραμμικού κώδικα ως σχετική με κάθε αναγνωριστικό τύπου πληροφοριών. |
+| [CustomerContentEncodeMode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/customercontentencodemode/) { get; set; } | Λειτουργία κωδικοποίησης του barcode Datamatrix. Προεπιλεγμένη τιμή: EncodeMode.C40. |
+| [DataMatrixType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/datamatrixtype/) { get; set; } | Ο τύπος 2D Mailmark ορίζει το μέγεθος του barcode Data Matrix. |
+| [DestinationPostCodeAndDPS](../../aspose.barcode.complexbarcode/mailmark2dcodetext/destinationpostcodeanddps/) { get; set; } | Περιέχει τον Ταχυδρομικό Κώδικα της Διεύθυνσης Παράδοσης με DPS. Εάν είναι ενδοχώρα, ο Ταχυδρομικός Κώδικας/DP περιέχει τον ακόλουθο αριθμό χαρακτήρων. Περιοχή (1 ή 2 χαρακτήρες) Περιφέρεια (1 ή 2 χαρακτήρες) Τομέας (1 χαρακτήρας) Μονάδα (2 χαρακτήρες) DPS (2 χαρακτήρες). Ο Ταχυδρομικός Κώδικας και το DPS πρέπει να συμμορφώνονται με έγκυρη μορφή PAF®. |
+| [InformationTypeID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/informationtypeid/) { get; set; } | Αναγνωρίζει το payload του barcode Royal Mail Mailmark για κάθε τύπο προϊόντος. |
+| [ItemID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/itemid/) { get; set; } | Αναγνωρίζει το μοναδικό στοιχείο μέσα στο Supply Chain ID. Κάθε barcode Mailmark πρέπει να περιέχει ένα ID ώστε να μπορεί να ταυτοποιηθεί μοναδικά για τουλάχιστον 90 ημέρες. Μέγιστη τιμή: 99999999. |
+| [ReturnToSenderPostCode](../../aspose.barcode.complexbarcode/mailmark2dcodetext/returntosenderpostcode/) { get; set; } | Περιέχει τον Ταχυδρομικό Κώδικα Επιστροφής στον Αποστολέα αλλά χωρίς DPS. Ο Κώδικας (χωρίς DPS) πρέπει να συμμορφώνεται με μορφή PAF®. |
+| [RTSFlag](../../aspose.barcode.complexbarcode/mailmark2dcodetext/rtsflag/) { get; set; } | Σημαία που υποδεικνύει ποιο επίπεδο υπηρεσίας Επιστροφής στον Αποστολέα ζητείται. |
+| [SupplyChainID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/supplychainid/) { get; set; } | Αναγνωρίζει τη μοναδική ομάδα πελατών που συμμετέχουν στην αποστολή. Μέγιστη τιμή: 9999999. |
+| [UPUCountryID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/upucountryid/) { get; set; } | Αναγνωρίζει το UPU Country ID. Μέγιστο μήκος: 4 χαρακτήρες. |
+| [VersionID](../../aspose.barcode.complexbarcode/mailmark2dcodetext/versionid/) { get; set; } | Αναγνωρίζει την έκδοση του barcode όπως σχετίζεται με κάθε Information Type ID. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/getbarcodetype/)() | Λαμβάνει τύπο γραμμικού κώδικα. |
-| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/mailmark2dcodetext/getconstructedcodetext/)() | Δημιουργία κωδικοποιημένου κειμένου από δεδομένα Mailmark. |
-| [InitFromString](../../aspose.barcode.complexbarcode/mailmark2dcodetext/initfromstring/)(string) | Αρχικοποιεί δεδομένα Mailmark από κατασκευασμένο κώδικα κειμένου. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/mailmark2dcodetext/getbarcodetype/)() | Λαμβάνει τον τύπο του barcode. |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/mailmark2dcodetext/getconstructedcodetext/)() | Δημιουργήστε κείμενο κώδικα από τα δεδομένα Mailmark. |
+| [InitFromString](../../aspose.barcode.complexbarcode/mailmark2dcodetext/initfromstring/)(string) | Αρχικοποιεί τα δεδομένα Mailmark από το δημιουργημένο κείμενο κώδικα. |
 
 ### Δείτε επίσης
 
 * interface [IComplexCodetext](../icomplexcodetext/)
-* χώρος ονομάτων [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: SingleDecodeType
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Ενιαίος τύπος αποκωδικοποίησης. Δείτε τον τύπο αποκωδικοποίησης για να λάβετε παράδειγμα.
+title: "Κλάση SingleDecodeType"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.BarCodeRecognition.SingleDecodeType κλάση. Τύπος μονής αποκωδικοποίησης. Δείτε τον τύπο αποκωδικοποίησης για να λάβετε την παρουσία."
 type: docs
-weight: 290
+weight: 390
 url: /el/net/aspose.barcode.barcoderecognition/singledecodetype/
 ---
 ## SingleDecodeType class
 
-Ενιαίος τύπος αποκωδικοποίησης. Δείτε τον τύπο αποκωδικοποίησης για να λάβετε παράδειγμα.
+Τύπος αποκωδικοποίησης Single. Δείτε τον τύπο αποκωδικοποίησης για να λάβετε την παρουσία.
 
 ```csharp
 public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeType>
@@ -16,29 +16,29 @@ public sealed class SingleDecodeType : BaseDecodeType, IEquatable<SingleDecodeTy
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [TypeIndex](../../aspose.barcode.barcoderecognition/singledecodetype/typeindex/) { get; } | Λαμβάνει ένα ευρετήριο αποκωδικοποίησης τύπου |
-| [TypeName](../../aspose.barcode.barcoderecognition/singledecodetype/typename/) { get; } | Παίρνει ένα όνομα τύπου αποκωδικοποίησης |
+| [TypeIndex](../../aspose.barcode.barcoderecognition/singledecodetype/typeindex/) { get; } | Λαμβάνει έναν δείκτη του τύπου αποκωδικοποίησης |
+| [TypeName](../../aspose.barcode.barcoderecognition/singledecodetype/typename/) { get; } | Λαμβάνει ένα όνομα του τύπου αποκωδικοποίησης |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse/)(string) | Μετατρέπει την παράσταση συμβολοσειράς του ονόματος ενός SingleDecodeType στην παρουσία του. |
-| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany/)(params BaseDecodeType[]) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία περιλαμβάνεται στη λίστα που έχει καθοριστεί. |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(BaseDecodeType) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`BaseDecodeType`](../basedecodetype/) τιμή. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(MultyDecodeType) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`MultyDecodeType`](../multydecodetype/) τιμή. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_3)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`SingleDecodeType` τιμή. |
-| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_2)(SingleDecodeType) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`SingleDecodeType` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)() | Μετατρέπει την παρουσία του SingleDecodeType στην ισοδύναμη αναπαράσταση συμβολοσειράς. Η μορφή συμβολοσειράς είναι: "Index:-1; Name: None". |
+| static [Parse](../../aspose.barcode.barcoderecognition/singledecodetype/parse/)(string) | Μετατρέπει την αναπαράσταση συμβολοσειράς του ονόματος ενός SingleDecodeType στην παρουσία του. |
+| override [ContainsAny](../../aspose.barcode.barcoderecognition/singledecodetype/containsany/)(params BaseDecodeType[]) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία περιλαμβάνεται στη συγκεκριμένη λίστα. |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/)(BaseDecodeType) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή [`BaseDecodeType`](../basedecodetype/). |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_1)(MultiDecodeType) | Επιστρέφει τιμή που υποδεικνύει εάν η καθορισμένη συλλογή [`MultiDecodeType`](../multidecodetype/) περιέχει μόνο αυτόν τον τύπο αποκωδικοποίησης. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_3)(object) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `SingleDecodeType`. |
+| override [Equals](../../aspose.barcode.barcoderecognition/singledecodetype/equals/#equals_2)(SingleDecodeType) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `SingleDecodeType`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/singledecodetype/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)() | Μετατρέπει την παρουσία του SingleDecodeType στην ισοδύναμη αναπαράσταση συμβολοσειράς. Η μορφή συμβολοσειράς είναι: "Index:-1; Name:None". |
 | override [ToString](../../aspose.barcode.barcoderecognition/singledecodetype/tostring/)() | Επιστρέφει το όνομα του δεδομένου SingleDecodeType ως συμβολοσειρά. |
-| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)(SingleDecodeType) | Μετατρέπει την παρουσία του SingleDecodeType στην ισοδύναμη αναπαράσταση συμβολοσειράς. Η μορφή συμβολοσειράς είναι: "Index:-1; Name: None". |
+| static [GetString](../../aspose.barcode.barcoderecognition/singledecodetype/getstring/)(SingleDecodeType) | Μετατρέπει την παρουσία του SingleDecodeType στην ισοδύναμη αναπαράσταση συμβολοσειράς. Η μορφή συμβολοσειράς είναι: "Index:-1; Name:None". |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να λάβετε παράδειγμα τύπου μεμονωμένου αποκωδικοποίησης.
+Αυτό το παράδειγμα δείχνει πώς να λάβετε την παρουσία του τύπου μονής αποκωδικοποίησης.
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ singleType = DecodeType.QR
 ### Δείτε επίσης
 
 * class [BaseDecodeType](../basedecodetype/)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

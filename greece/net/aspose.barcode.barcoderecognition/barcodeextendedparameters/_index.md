@@ -1,14 +1,14 @@
 ---
-title: BarCodeExtendedParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Αποθηκεύει τις εκτεταμένες παραμέτρους του αναγνωρισμένου barcode
+title: "Κλάση BarCodeExtendedParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.BarCodeRecognition.BarCodeExtendedParameters. Αποθηκεύει επεκταμένες παραμέτρους του αναγνωρισμένου barcode"
 type: docs
-weight: 50
+weight: 60
 url: /el/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/
 ---
 ## BarCodeExtendedParameters class
 
-Αποθηκεύει τις εκτεταμένες παραμέτρους του αναγνωρισμένου barcode
+Αποθηκεύει επεκταμένες παραμέτρους του αναγνωρισμένου barcode.
 
 ```csharp
 public sealed class BarCodeExtendedParameters
@@ -16,29 +16,33 @@ public sealed class BarCodeExtendedParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | Λαμβάνει ειδικά δεδομένα[`Code128ExtendedParameters`](../code128extendedparameters/) του Κώδικα 128 αναγνωρισμένο barcode |
-| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | Λαμβάνει πρόσθετες πληροφορίες DataBar[`DataBarExtendedParameters`](../databarextendedparameters/) αναγνωρισμένου γραμμικού κώδικα |
-| [DotCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/dotcode/) { get; } | Λαμβάνει πρόσθετες πληροφορίες DotCode[`DotCodeExtendedParameters`](../dotcodeextendedparameters/) αναγνωρισμένου γραμμικού κώδικα |
-| [MaxiCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/maxicode/) { get; } | Λαμβάνει πρόσθετες πληροφορίες MaxiCode[`MaxiCodeExtendedParameters`](../maxicodeextendedparameters/) αναγνωρισμένου γραμμικού κώδικα |
-| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/) { get; } | Λαμβάνει ειδικά δεδομένα[`OneDExtendedParameters`](../onedextendedparameters/) με αναγνωρισμένο γραμμωτό κώδικα 1D |
-| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/) { get; } | Λαμβάνει πληροφορίες μεταδεδομένων MacroPdf417[`Pdf417ExtendedParameters`](../pdf417extendedparameters/) αναγνωρισμένου γραμμικού κώδικα |
-| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/) { get; } | Λαμβάνει πληροφορίες δομημένου προσαρτήματος QR[`QRExtendedParameters`](../qrextendedparameters/) αναγνωρισμένου γραμμικού κώδικα |
+| [Aztec](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/aztec/) { get; } | Λαμβάνει πρόσθετες πληροφορίες Aztec[`AztecExtendedParameters`](../aztecextendedparameters/) του αναγνωρισμένου barcode |
+| [Codabar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/codabar/) { get; } | Λαμβάνει πρόσθετες πληροφορίες Codabar[`CodabarExtendedParameters`](../codabarextendedparameters/) του αναγνωρισμένου barcode |
+| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | Λαμβάνει ειδικά δεδομένα [`Code128ExtendedParameters`](../code128extendedparameters/) του barcode Code128 που αναγνωρίστηκε |
+| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | Λαμβάνει πρόσθετες πληροφορίες DataBar[`DataBarExtendedParameters`](../databarextendedparameters/) του αναγνωρισμένου barcode |
+| [DataMatrix](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/datamatrix/) { get; } | Λαμβάνει πρόσθετες πληροφορίες DataMatrix[`DataMatrixExtendedParameters`](../datamatrixextendedparameters/) του αναγνωρισμένου barcode |
+| [DotCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/dotcode/) { get; } | Λαμβάνει πρόσθετες πληροφορίες DotCode[`DotCodeExtendedParameters`](../dotcodeextendedparameters/) του αναγνωρισμένου barcode |
+| [GS1CompositeBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gs1compositebar/) { get; } | Λαμβάνει πρόσθετες πληροφορίες GS1CompositeBar[`GS1CompositeBarExtendedParameters`](../gs1compositebarextendedparameters/) του αναγνωρισμένου barcode |
+| [MaxiCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/maxicode/) { get; } | Λαμβάνει πρόσθετες πληροφορίες MaxiCode[`MaxiCodeExtendedParameters`](../maxicodeextendedparameters/) του αναγνωρισμένου barcode |
+| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/) { get; } | Λαμβάνει ειδικά δεδομένα [`OneDExtendedParameters`](../onedextendedparameters/) του 1D barcode που αναγνωρίστηκε |
+| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/) { get; } | Λαμβάνει μεταδεδομένα MacroPdf417 [`Pdf417ExtendedParameters`](../pdf417extendedparameters/) του αναγνωρισμένου barcode |
+| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/) { get; } | Λαμβάνει πληροφορίες QR Structured Append [`QRExtendedParameters`](../qrextendedparameters/) του αναγνωρισμένου barcode |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`BarCodeExtendedParameters` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`BarCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη`BarCodeExtendedParameters` η τιμή είναι ίση με τη δεύτερη. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει αν είναι η πρώτη`BarCodeExtendedParameters` η τιμή είναι διαφορετική από τη δεύτερη. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτό το αντικείμενο είναι ίσο με μια καθορισμένη τιμή `BarCodeExtendedParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `BarCodeExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `BarCodeExtendedParameters` είναι ίση με τη δεύτερη. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `BarCodeExtendedParameters` διαφέρει από τη δεύτερη. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

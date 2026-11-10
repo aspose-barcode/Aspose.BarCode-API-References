@@ -1,14 +1,14 @@
 ---
-title: BarCodeRegionParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Αντιπροσωπεύει την αναγνωρισμένη περιοχή του γραμμικού κώδικα και τη γωνία του γραμμικού κώδικα
+title: "Κλάση BarCodeRegionParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.BarCodeRecognition.BarCodeRegionParameters. Αντιπροσωπεύει την περιοχή των αναγνωρισμένων barcode και τη γωνία του barcode"
 type: docs
-weight: 80
+weight: 90
 url: /el/net/aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 ## BarCodeRegionParameters class
 
-Αντιπροσωπεύει την αναγνωρισμένη περιοχή του γραμμικού κώδικα και τη γωνία του γραμμικού κώδικα
+Αναπαριστά την περιοχή του αναγνωρισμένου barcode και τη γωνία του barcode.
 
 ```csharp
 public sealed class BarCodeRegionParameters
@@ -16,26 +16,26 @@ public sealed class BarCodeRegionParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle/) { get; } | Παίρνει τη γωνία του γραμμικού κώδικα (0-360). |
-| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points/) { get; } | ΠαίρνειPointπεριοχή γραμμικού κώδικα που οριοθετεί τη διάταξη |
-| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle/) { get; } | Παίρνει[`Quadrangle`](../quadrangle/) οριοθέτηση γραμμικού κώδικα |
-| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle/) { get; } | ΠαίρνειRectangle οριοθέτηση γραμμικού κώδικα |
+| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle/) { get; } | Λαμβάνει τη γωνία του barcode (0-360). |
+| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points/) { get; } | Λαμβάνει τον πίνακα Points που οριοθετεί την περιοχή του barcode |
+| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle/) { get; } | Λαμβάνει το [`Quadrangle`](../quadrangle/) που οριοθετεί την περιοχή του barcode |
+| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle/) { get; } | Λαμβάνει το Rectangle που οριοθετεί την περιοχή του barcode |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`BarCodeRegionParameters` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`BarCodeRegionParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη`BarCodeRegionParameters` η τιμή είναι ίση με τη δεύτερη. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει αν είναι η πρώτη`BarCodeRegionParameters` η τιμή είναι διαφορετική από τη δεύτερη. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `BarCodeRegionParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο συμβολοσειρά που αντιπροσωπεύει αυτό το `BarCodeRegionParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `BarCodeRegionParameters` είναι ίση με τη δεύτερη. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `BarCodeRegionParameters` διαφέρει από τη δεύτερη. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να λάβετε τον γραμμωτό κώδικα Angle and bounding quadrangle values
+Αυτό το παράδειγμα δείχνει πώς να λάβετε τη γωνία του barcode και τις τιμές του οριακού τετραγώνου.
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "1
 {
     generator.Save(@"c:\test.png");
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -56,7 +56,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
     generator.Save("c:\test.png")
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
         Console.WriteLine("BarCode Angle: " + result.Region.Angle)
@@ -67,7 +67,7 @@ End Using
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

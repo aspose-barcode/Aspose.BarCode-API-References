@@ -1,14 +1,14 @@
 ---
-title: Equals
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένηSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype/ τιμή.
+title: "BaseDecodeType.Equals"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Μέθοδος BaseDecodeType. Επιστρέφει μια τιμή που υποδεικνύει εάν αυτό το αντίγραφο είναι ίσο με μια καθορισμένη τιμή SingleDecodeType"
 type: docs
 weight: 20
 url: /el/net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`SingleDecodeType`](../../singledecodetype/) τιμή.
+Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή [`SingleDecodeType`](../../singledecodetype/).
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
@@ -16,49 +16,49 @@ public virtual bool Equals(SingleDecodeType other)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| other | SingleDecodeType | Ενα[`SingleDecodeType`](../../singledecodetype/) αξία για σύγκριση με αυτήν την περίπτωση. |
+| other | SingleDecodeType | Μια τιμή [`SingleDecodeType`](../../singledecodetype/) για σύγκριση με αυτήν την παρουσία. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το obj έχει την ίδια τιμή με αυτήν την περίπτωση. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### Δείτε επίσης
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## Equals(MultyDecodeType) {#equals_1}
+## Equals(MultiDecodeType) {#equals_1}
 
-Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`MultyDecodeType`](../../multydecodetype/) τιμή.
+Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή [`MultiDecodeType`](../../multidecodetype/).
 
 ```csharp
-public virtual bool Equals(MultyDecodeType other)
+public virtual bool Equals(MultiDecodeType other)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| other | MultyDecodeType | Ενα[`MultyDecodeType`](../../multydecodetype/) αξία για σύγκριση με αυτήν την περίπτωση. |
+| other | MultiDecodeType | Μια τιμή [`MultiDecodeType`](../../multidecodetype/) για σύγκριση με αυτήν την παρουσία. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το obj έχει την ίδια τιμή με αυτήν την περίπτωση. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### Δείτε επίσης
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(BaseDecodeType) {#equals}
 
-Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`BaseDecodeType`](../) τιμή.
+Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή [`BaseDecodeType`](../).
 
 ```csharp
 public bool Equals(BaseDecodeType other)
@@ -66,23 +66,23 @@ public bool Equals(BaseDecodeType other)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| other | BaseDecodeType | Ενα[`BaseDecodeType`](../) αξία για σύγκριση με αυτήν την περίπτωση. |
+| other | BaseDecodeType | Μια τιμή [`BaseDecodeType`](../) για σύγκριση με αυτήν την παρουσία. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το obj έχει την ίδια τιμή με αυτήν την περίπτωση. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### Δείτε επίσης
 
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(object) {#equals_3}
 
-Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη[`BaseDecodeType`](../) τιμή.
+Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή [`BaseDecodeType`](../).
 
 ```csharp
 public override bool Equals(object obj)
@@ -90,16 +90,16 @@ public override bool Equals(object obj)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| obj | Object | Μια τιμή System.Object για σύγκριση με αυτήν την εμφάνιση. |
+| obj | Object | Μια τιμή System.Object για σύγκριση με αυτή την παρουσία. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το obj έχει την ίδια τιμή με αυτήν την περίπτωση. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
 ### Δείτε επίσης
 
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
