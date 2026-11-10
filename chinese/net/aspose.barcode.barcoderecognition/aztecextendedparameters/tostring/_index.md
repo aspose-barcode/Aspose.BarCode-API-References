@@ -1,0 +1,27 @@
+---
+title: "AztecExtendedParameters.ToString"
+second_title: "Aspose.BarCode 适用于 .NET API 参考"
+description: "AztecExtendedParameters 方法。返回此 AztecExtendedParameters 的人类可读字符串表示。"
+type: docs
+weight: 70
+url: /zh/net/aspose.barcode.barcoderecognition/aztecextendedparameters/tostring/
+---
+## AztecExtendedParameters.ToString method
+
+返回此 [`AztecExtendedParameters`](../) 的人类可读字符串表示。
+
+```csharp
+public override string ToString()
+```
+
+### 返回值
+
+一个表示此 [`AztecExtendedParameters`](../) 的字符串。
+
+### 另见
+
+* class [AztecExtendedParameters](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+

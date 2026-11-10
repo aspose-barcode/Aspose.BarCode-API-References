@@ -1,14 +1,14 @@
 ---
-title: BarCodeReader
-second_title: Aspose.BarCode for .NET API 参考
-description: BarCodeReader 封装了一张可能包含一个或多个条形码的图像然后它可以执行 ReadBarCodes 操作来检测条形码
+title: "类 BarCodeReader"
+second_title: "Aspose.BarCode 适用于 .NET API 参考"
+description: "Aspose.BarCode.BarCodeRecognition.BarCodeReader 类。BarCodeReader 封装了一幅可能包含一个或多个条码的图像，然后可以执行 ReadBarCodes 操作来检测条码。"
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 ## BarCodeReader class
 
-BarCodeReader 封装了一张可能包含一个或多个条形码的图像，然后它可以执行 ReadBarCodes 操作来检测条形码。
+BarCodeReader 封装可能包含一个或多个条码的图像，然后可以执行 ReadBarCodes 操作来检测条码。
 
 ```csharp
 public class BarCodeReader : Component
@@ -16,59 +16,69 @@ public class BarCodeReader : Component
 
 ## 构造函数
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BarCodeReader](barcodereader#constructor)() | 初始化[`BarCodeReader`](../barcodereader)具有默认值的类。 需要在调用 ReadBarCodes() 方法之前设置图像 (SetBitmapImage())。 |
-| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | 初始化[`BarCodeReader`](../barcodereader)图像中的类. |
-| [BarCodeReader](barcodereader#constructor_8)(Stream) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_11)(string) | 初始化[`BarCodeReader`](../barcodereader)文件中的类. |
-| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | 初始化[`BarCodeReader`](../barcodereader)类. |
-| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | 初始化[`BarCodeReader`](../barcodereader)类. |
+| [BarCodeReader](barcodereader/#constructor)() | 使用默认值初始化 `BarCodeReader` 类的新实例。调用 ReadBarCodes() 方法之前，需要先设置图像 (SetBitmapImage())。 |
+| [BarCodeReader](barcodereader/#constructor_8)(Bitmap) | 从图像初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_1)(LuminanceFrame) | 从亮度帧初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_15)(Stream) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_18)(string) | 从文件初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_9)(Bitmap, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_10)(Bitmap, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_2)(LuminanceFrame, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_3)(LuminanceFrame, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_16)(Stream, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_17)(Stream, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_19)(string, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_20)(string, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_11)(Bitmap, Rectangle, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_12)(Bitmap, Rectangle, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_13)(Bitmap, Rectangle[], BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_14)(Bitmap, Rectangle[], params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_4)(LuminanceFrame, Rectangle, BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_5)(LuminanceFrame, Rectangle, params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_6)(LuminanceFrame, Rectangle[], BaseDecodeType) | 初始化 `BarCodeReader` 类的新实例。 |
+| [BarCodeReader](barcodereader/#constructor_7)(LuminanceFrame, Rectangle[], params BaseDecodeType[]) | 初始化 `BarCodeReader` 类的新实例。 |
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings) { get; } | 主要条码解码参数。包含影响识别数据的参数。 |
-| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | 得到认可[`BarCodeResult`](../barcoderesult)数组 |
-| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount) { get; } | 获取识别的条形码计数 |
-| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings 允许手动配置识别质量和速度。 您可以通过嵌入式预设快速设置 QualitySettings：HighPerformance、NormalQuality、 HighQuality、MaxBarCodes 或者您可以手动配置单独的选项。 QualitySettings 的默认值为 NormalQuality。 |
-| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout) { get; set; } | 获取或设置识别过程的超时时间，以毫秒为单位。 |
-| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings) { get; } | 获取使用处理器内核的设置。 |
+| [BarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/barcodereadtype/) { get; set; } | 获取或设置用于识别的条码解码类型。必须在调用 [`ReadBarCodes`](./readbarcodes/) 之前进行设置。 |
+| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings/) { get; } | 主要的 BarCode 解码参数。包含对已识别数据产生影响的参数。 |
+| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/) { get; } | 获取已识别的 [`BarCodeResult`](../barcoderesult/) 数组 |
+| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount/) { get; } | 获取已识别的条码数量 |
+| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings/) { get; set; } | QualitySettings 允许手动配置识别质量和速度。您可以通过内置预设快速设置 QualitySettings：HighPerformance、NormalQuality、HighQuality、MaxBarCodes，或者手动配置各个选项。QualitySettings 的默认值为 NormalQuality。 |
+| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout/) { get; set; } | 获取或设置识别过程的超时时间（毫秒）。 |
+| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings/) { get; } | 获取使用处理器核心的设置。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml)(Stream) | 从指定的 xml 流导入 BarCode 属性并将它们应用到当前 BarCodeReader 实例。 |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml_1)(string) | 从指定的 xml 文件导入 BarCode 属性并将它们应用到当前 BarCodeReader 实例。 |
-| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | 函数请求从其他线程终止当前识别会话。 Abort 是不可阻塞的方法，并在调用后立即返回控制。 识别过程过长时应使用该方法。 |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml)(Stream) | 将条形码属性导出到指定的 xml 流 |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml_1)(string) | 将条形码属性导出到指定的 xml 文件 |
-| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | 读取[`BarCodeResult`](../barcoderesult) 来自图像. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage)(Bitmap) | 设置用于识别的位图图像。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_3)(Stream) | 设置用于识别的图像流。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_4)(string) | 设置用于识别的图像文件。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_1)(Bitmap, Rectangle) | 设置位图图像和识别区域。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_2)(Bitmap, Rectangle[]) | 设置位图图像和识别区域。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype)(BaseDecodeType) | 设置识别的解码类型。 必须在 ReadBarCodes() 方法之前调用。 |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype_1)(params SingleDecodeType[]) | 套[`SingleDecodeType`](../singledecodetype)类型数组进行识别。 必须在 ReadBarCodes() 方法之前调用。 |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml)(Stream) | 从指定的 xml 流导入 BarCode 属性并将其应用于当前的 BarCodeReader 实例。 |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml_1)(string) | 从指定的 xml 文件导入 BarCode 属性并将其应用于当前的 BarCodeReader 实例。 |
+| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort/)() | 该函数请求从其他线程终止当前的识别会话。Abort 是不可阻塞的方法，调用后立即返回控制权。该方法应在识别过程过长时使用。 |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml)(Stream) | 将 BarCode 属性导出到指定的 xml 流 |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml_1)(string) | 将 BarCode 属性导出到指定的 xml 文件 |
+| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes/)() | 从图像读取 [`BarCodeResult`](../barcoderesult/)。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_3)(Bitmap) | 设置用于识别的位图图像。必须在调用 ReadBarCodes() 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage)(LuminanceFrame) | 设置用于识别的亮度帧。必须在调用 [`ReadBarCodes`](./readbarcodes/) 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_6)(Stream) | 设置用于识别的图像流。必须在调用 ReadBarCodes() 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_7)(string) | 设置用于识别的图像文件。必须在调用 ReadBarCodes() 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(Bitmap, Rectangle) | 设置用于识别的位图图像和区域。必须在调用 ReadBarCodes() 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_5)(Bitmap, Rectangle[]) | 设置用于识别的位图图像和多个区域。必须在调用 ReadBarCodes() 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(LuminanceFrame, Rectangle) | 设置用于识别的亮度帧和区域。必须在调用 [`ReadBarCodes`](./readbarcodes/) 方法之前调用。 |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(LuminanceFrame, Rectangle[]) | 设置用于识别的亮度帧和多个区域。必须在调用 [`ReadBarCodes`](./readbarcodes/) 方法之前调用。 |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/)(params SingleDecodeType[]) | 设置用于识别的 [`SingleDecodeType`](../singledecodetype/) 类型数组。必须在调用 ReadBarCodes() 方法之前调用。 |
 
-### 例子
+## 示例
 
-此示例展示了如何检测 Code39 和 Code128 条码。
+此示例展示了如何检测 Code39 和 Code128 条形码。
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -77,7 +87,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -85,9 +95,9 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
 End Using
 ```
 
-### 也可以看看
+### 另见
 
-* 命名空间 [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* 部件 [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,0 +1,23 @@
+---
+title: "BarcodeGeneratorElement.DataMatrixIsReaderProgrammingProperty"
+second_title: "Aspose.BarCode 适用于 .NET API 参考"
+description: "BarcodeGeneratorElement 字段. DataMatrixIsReaderProgrammingProperty"
+type: docs
+weight: 2080
+url: /zh/net/aspose.barcode.wpf/barcodegeneratorelement/datamatrixisreaderprogrammingproperty/
+---
+## BarcodeGeneratorElement.DataMatrixIsReaderProgrammingProperty field
+
+DataMatrixIsReaderProgramming属性
+
+```csharp
+public static DependencyProperty DataMatrixIsReaderProgrammingProperty;
+```
+
+### 另见
+
+* class [BarcodeGeneratorElement](../)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* assembly [Aspose.BarCode](../../../)
+
+
