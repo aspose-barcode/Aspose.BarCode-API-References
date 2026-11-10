@@ -1,14 +1,14 @@
 ---
-title: OneDExtendedParameters
-second_title: Référence de l'API Aspose.BarCode pour .NET
-description: Stocke les données spéciales du code-barres reconnu 1D comme le texte de code séparé et la somme de contrôle
+title: "Classe OneDExtendedParameters"
+second_title: "Référence de l'API Aspose.BarCode pour .NET"
+description: "Classe Aspose.BarCode.BarCodeRecognition.OneDExtendedParameters. Stocke des données spéciales du code-barres 1D reconnu comme le texte du code séparé et la somme de contrôle."
 type: docs
-weight: 210
+weight: 330
 url: /fr/net/aspose.barcode.barcoderecognition/onedextendedparameters/
 ---
 ## OneDExtendedParameters class
 
-Stocke les données spéciales du code-barres reconnu 1D comme le texte de code séparé et la somme de contrôle
+Stocke les données spéciales du code‑à‑barres 1D reconnu, comme le texte du code séparé et la somme de contrôle.
 
 ```csharp
 public sealed class OneDExtendedParameters : BaseExtendedParameters
@@ -16,25 +16,25 @@ public sealed class OneDExtendedParameters : BaseExtendedParameters
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CheckSum](../../aspose.barcode.barcoderecognition/onedextendedparameters/checksum) { get; } | Obtient la somme de contrôle pour les codes-barres 1D. |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Teste si tous les paramètres n'ont que des valeurs par défaut |
-| [Value](../../aspose.barcode.barcoderecognition/onedextendedparameters/value) { get; } | Obtient le texte de code des codes-barres 1D sans somme de contrôle. |
+| [CheckSum](../../aspose.barcode.barcoderecognition/onedextendedparameters/checksum/) { get; } | Obtient la somme de contrôle pour les codes-barres 1D. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Teste si tous les paramètres n’ont que les valeurs par défaut |
+| [Value](../../aspose.barcode.barcoderecognition/onedextendedparameters/value/) { get; } | Obtient le texte du code des codes-barres 1D sans somme de contrôle. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals)(object) | Renvoie une valeur indiquant si cette instance est égale à un spécifié[`OneDExtendedParameters`](../onedextendedparameters) valeur. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/onedextendedparameters/gethashcode)() | Renvoie le code de hachage pour cette instance. |
-| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring)() | Renvoie une représentation sous forme de chaîne lisible par l'homme de ce[`OneDExtendedParameters`](../onedextendedparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality) | Renvoie une valeur indiquant si le premier[`OneDExtendedParameters`](../onedextendedparameters) la valeur est égale à la seconde. |
-| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality) | Renvoie une valeur indiquant si le premier[`OneDExtendedParameters`](../onedextendedparameters) la valeur est différente de la seconde. |
+| override [Equals](../../aspose.barcode.barcoderecognition/onedextendedparameters/equals/)(object) | Renvoie une valeur indiquant si cette instance est égale à une valeur `OneDExtendedParameters` spécifiée. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/onedextendedparameters/gethashcode/)() | Renvoie le code de hachage pour cette instance. |
+| override [ToString](../../aspose.barcode.barcoderecognition/onedextendedparameters/tostring/)() | Renvoie une représentation sous forme de chaîne lisible par l'homme de ce `OneDExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_equality/) | Renvoie une valeur indiquant si la première valeur `OneDExtendedParameters` est égale à la seconde. |
+| [operator !=](../../aspose.barcode.barcoderecognition/onedextendedparameters/op_inequality/) | Renvoie une valeur indiquant si la première valeur `OneDExtendedParameters` est différente de la seconde. |
 
-### Exemples
+## Exemples
 
-Cet exemple montre comment obtenir la valeur du code-barres 1D et la somme de contrôle
+Cet exemple montre comment obtenir la valeur et la somme de contrôle d'un code-barres 1D.
 
 ```csharp
 [C#]
@@ -66,10 +66,10 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.EAN13)
 End Using
 ```
 
-### Voir également
+### Voir aussi
 
-* class [BaseExtendedParameters](../baseextendedparameters)
-* espace de noms [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* Assemblée [Aspose.BarCode](../../)
+* class [BaseExtendedParameters](../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: TryParse
-second_title: Référence de l'API Aspose.BarCode pour .NET
-description: Convertit la représentation sous forme de chaîne dun SingleDecodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué.
+title: "BaseDecodeType.TryParse"
+second_title: "Référence de l'API Aspose.BarCode pour .NET"
+description: "Méthode BaseDecodeType. Convertit la représentation chaîne d'un SingleDecodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué"
 type: docs
 weight: 40
 url: /fr/net/aspose.barcode.barcoderecognition/basedecodetype/tryparse/
@@ -14,47 +14,47 @@ Convertit la représentation sous forme de chaîne d'un SingleDecodeType en son 
 public static bool TryParse(string parsingType, out SingleDecodeType result)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| parsingType | String | Chaîne contenant une représentation SingleDecodeType à convertir. |
-| result | SingleDecodeType& | Un SingleDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; |
+| parsingType | String | Une chaîne contenant un SingleDecodeType au format "EAN8" ou "EAN13" ou "CodaBar"... à convertir. |
+| résultat | SingleDecodeType& | Un SingleDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; sinon il renvoie le type indéfini : DecodeType.None. |
 
-### Return_Value
+### Valeur de retour
 
-**vrai** si s a été converti avec succès ; Par ailleurs, **faux**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Voir également
+### Voir aussi
 
-* class [SingleDecodeType](../../singledecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* espace de noms [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* Assemblée [Aspose.BarCode](../../../)
+* class [SingleDecodeType](../../singledecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse_1}
+## TryParse(string, out MultiDecodeType) {#tryparse_1}
 
-Convertit la représentation sous forme de chaîne d'un MultyDecodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué.
+Convertit la représentation sous forme de chaîne d'un MultiDecodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué.
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| parsingType | String | Chaîne contenant une représentation MultyDecodeType à convertir. |
-| result | MultyDecodeType& | Un MultyDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; |
+| parsingType | String | Une chaîne contenant une représentation MultiDecodeType à convertir. |
+| résultat | MultiDecodeType& | Un MultiDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; sinon il renvoie le type indéfini : new MultiDecodeType(DecodeType.None) |
 
-### Return_Value
+### Valeur de retour
 
-**vrai** si s a été converti avec succès ; Par ailleurs, **faux**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Voir également
+### Voir aussi
 
-* class [MultyDecodeType](../../multydecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* espace de noms [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* Assemblée [Aspose.BarCode](../../../)
+* class [MultiDecodeType](../../multidecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
@@ -66,19 +66,19 @@ Convertit la représentation sous forme de chaîne d'un BaseDecodeType en son in
 public static bool TryParse(string parsingType, out BaseDecodeType result)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| parsingType | String | Chaîne contenant une représentation MultyDecodeType à convertir. |
-| result | BaseDecodeType& | Un MultyDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; |
+| parsingType | String | Une chaîne contenant une représentation MultiDecodeType à convertir. |
+| résultat | BaseDecodeType& | Un MultiDecodeType réel est renvoyé lorsque la conversion s'est terminée avec succès ; sinon il renvoie le type indéfini : DecodeType.None. |
 
-### Return_Value
+### Valeur de retour
 
-**vrai** si s a été converti avec succès ; Par ailleurs, **faux**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Voir également
+### Voir aussi
 
-* class [BaseDecodeType](../../basedecodetype)
-* espace de noms [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* Assemblée [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
