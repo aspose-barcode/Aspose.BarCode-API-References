@@ -1,14 +1,14 @@
 ---
-title: ECIEncodings
-second_title: Aspose.BarCode für .NET-API-Referenz
-description: Erweiterte Kanalinterpretationskennungen. Es wird verwendet um dem Barcode-Lesegerät Details über die verwendeten Referenzen für die Codierung der Daten im Symbol mitzuteilen. Die aktuelle Implementierung besteht aus allen bekannten Zeichensatzcodierungen. Derzeit wird es nur für QR-2D-Barcodes verwendet.
+title: "Enum ECIEncodings"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "Aspose.BarCode.Generation.ECIEncodings Enum. Erweiterte Channel Interpretation Identifiers. Wird verwendet, um dem Barcode-Leser Details über die verwendeten Referenzen zur Kodierung der Daten im Symbol mitzuteilen"
 type: docs
-weight: 700
+weight: 1270
 url: /de/net/aspose.barcode.generation/eciencodings/
 ---
 ## ECIEncodings enumeration
 
-Erweiterte Kanalinterpretationskennungen. Es wird verwendet, um dem Barcode-Lesegerät Details über die verwendeten Referenzen für die Codierung der Daten im Symbol mitzuteilen. Die aktuelle Implementierung besteht aus allen bekannten Zeichensatzcodierungen. Derzeit wird es nur für QR-2D-Barcodes verwendet.
+Extended Channel Interpretation Identifiers. Sie werden verwendet, um dem Barcode-Leser Details zu den verwendeten Referenzen für die Kodierung der Daten im Symbol mitzuteilen.
 
 ```csharp
 public enum ECIEncodings
@@ -18,61 +18,66 @@ public enum ECIEncodings
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| ISO_8859_1 | `3` | ISO/IEC 8859-1 Codierung des lateinischen Alphabets Nr. 1. ECI-ID:"\000003" |
-| ISO_8859_2 | `4` | Codierung des lateinischen Alphabets Nr. 2 nach ISO/IEC 8859-2. ECI-ID:"\000004" |
-| ISO_8859_3 | `5` | Codierung des lateinischen Alphabets Nr. 3 nach ISO/IEC 8859-3. ECI-ID:"\000005" |
-| ISO_8859_4 | `6` | Codierung des lateinischen Alphabets Nr. 4 nach ISO/IEC 8859-4. ECI-ID:"\000006" |
-| ISO_8859_5 | `7` | Codierung des lateinischen/kyrillischen Alphabets nach ISO/IEC 8859-5. ECI-ID:"\000007" |
-| ISO_8859_6 | `8` | Codierung des lateinischen/arabischen Alphabets nach ISO/IEC 8859-6. ECI-ID:"\000008" |
-| ISO_8859_7 | `9` | Codierung des lateinischen/griechischen Alphabets nach ISO/IEC 8859-7. ECI-ID:"\000009" |
-| ISO_8859_8 | `10` | Codierung des lateinischen/hebräischen Alphabets nach ISO/IEC 8859-8. ECI-ID:"\000010" |
-| ISO_8859_9 | `11` | Codierung des lateinischen Alphabets Nr. 5 nach ISO/IEC 8859-9. ECI-ID:"\000011" |
-| ISO_8859_10 | `12` | ISO/IEC 8859-10 Codierung des lateinischen Alphabets Nr. 6. ECI-ID:"\000012" |
-| ISO_8859_11 | `13` | Codierung des lateinischen/thailändischen Alphabets nach ISO/IEC 8859-11. ECI-ID:"\000013" |
-| ISO_8859_13 | `15` | ISO/IEC 8859-13 Codierung des lateinischen Alphabets Nr. 7 (Baltic Rim). ECI-ID:"\000015" |
-| ISO_8859_14 | `16` | Codierung des lateinischen Alphabets Nr. 8 (keltisch) nach ISO/IEC 8859-14. ECI-ID:"\000016" |
-| ISO_8859_15 | `17` | ISO/IEC 8859-15 Codierung des lateinischen Alphabets Nr. 9. ECI-ID:"\000017" |
-| ISO_8859_16 | `18` | Codierung des lateinischen Alphabets Nr. 10 nach ISO/IEC 8859-16. ECI-ID:"\000018" |
-| Shift_JIS | `20` | Shift JIS (JIS X 0208 Anhang 1 + JIS X 0201) Kodierung. ECI-ID:"\000020" |
-| Win1250 | `21` | Windows 1250 Latin 2 (Mitteleuropa) Codierung. ECI-ID:"\000021" |
-| Win1251 | `22` | Windows 1251 Kyrillische Codierung. ECI-ID:"\000022" |
-| Win1252 | `23` | Windows 1252 Latin 1-Codierung. ECI-ID:"\000023" |
-| Win1256 | `24` | Arabische Windows 1256-Codierung. ECI-ID:"\000024" |
-| UTF16BE | `25` | ISO/IEC 10646 UCS-2 (High Order Byte First) Codierung. ECI-ID:"\000025" |
-| UTF8 | `26` | ISO/IEC 10646 UTF-8-Codierung. ECI-ID:"\000026" |
-| US_ASCII | `27` | ISO/IEC 646:1991 Internationale Referenzversion der 7-Bit-codierten ISO-Zeichensatzcodierung. ECI-ID:"\000027" |
-| Big5 | `28` | Codierung des chinesischen Zeichensatzes Big 5 (Taiwan). ECI-ID:"\000028" |
-| GB18030 | `29` | Codierung des chinesischen Zeichensatzes GB (PRC). ECI-ID:"\000029" |
-| EUC_KR | `30` | Kodierung des koreanischen Zeichensatzes. ECI-ID:"\000030" |
+| ISO_8859_1 | `3` | ISO/IEC 8859-1 Latin alphabet Nr. 1 Kodierung. ECI Id:"\000003" |
+| ISO_8859_2 | `4` | ISO/IEC 8859-2 Latin alphabet Nr. 2 Kodierung. ECI Id:"\000004" |
+| ISO_8859_3 | `5` | ISO/IEC 8859-3 Latin alphabet Nr. 3 Kodierung. ECI Id:"\000005" |
+| ISO_8859_4 | `6` | ISO/IEC 8859-4 Latin alphabet Nr. 4 Kodierung. ECI Id:"\000006" |
+| ISO_8859_5 | `7` | ISO/IEC 8859-5 Latin/Cyrillic alphabet Kodierung. ECI Id:"\000007" |
+| ISO_8859_6 | `8` | ISO/IEC 8859-6 Latin/Arabic alphabet Kodierung. ECI Id:"\000008" |
+| ISO_8859_7 | `9` | ISO/IEC 8859-7 Latin/Greek alphabet Kodierung. ECI Id:"\000009" |
+| ISO_8859_8 | `10` | ISO/IEC 8859-8 Latin/Hebrew alphabet Kodierung. ECI Id:"\000010" |
+| ISO_8859_9 | `11` | ISO/IEC 8859-9 Latin alphabet Nr. 5 Kodierung. ECI Id:"\000011" |
+| ISO_8859_10 | `12` | ISO/IEC 8859-10 Latin alphabet Nr. 6 Kodierung. ECI Id:"\000012" |
+| ISO_8859_11 | `13` | ISO/IEC 8859-11 Latin/Thai Alphabetkodierung. ECI Id:"\000013" |
+| ISO_8859_13 | `15` | ISO/IEC 8859-13 Lateinisches Alphabet Nr. 7 (Baltische Halbinsel) Kodierung. ECI Id:"\000015" |
+| ISO_8859_14 | `16` | ISO/IEC 8859-14 Lateinisches Alphabet Nr. 8 (Keltisch) Kodierung. ECI Id:"\000016" |
+| ISO_8859_15 | `17` | ISO/IEC 8859-15 Lateinisches Alphabet Nr. 9 Kodierung. ECI Id:"\000017" |
+| ISO_8859_16 | `18` | ISO/IEC 8859-16 Lateinisches Alphabet Nr. 10 Kodierung. ECI Id:"\000018" |
+| Shift_JIS | `20` | Shift JIS (JIS X 0208 Anhang 1 + JIS X 0201) Kodierung. ECI Id:"\000020" |
+| Win1250 | `21` | Windows 1250 Latin 2 (Zentraleuropa) Kodierung. ECI Id:"\000021" |
+| Win1251 | `22` | Windows 1251 Kyrillisch Kodierung. ECI Id:"\000022" |
+| Win1252 | `23` | Windows 1252 Latin 1 Kodierung. ECI Id:"\000023" |
+| Win1256 | `24` | Windows 1256 Arabisch Kodierung. ECI Id:"\000024" |
+| UTF16BE | `25` | ISO/IEC 10646 UCS-2 (höherwertiges Byte zuerst) Kodierung. ECI Id:"\000025" |
+| UTF8 | `26` | ISO/IEC 10646 UTF-8 Kodierung. ECI Id:"\000026" |
+| US_ASCII | `27` | ISO/IEC 646:1991 Internationale Referenzversion des ISO‑7‑Bit‑kodierten Zeichensatzes Kodierung. ECI Id:"\000027" |
+| Big5 | `28` | Big 5 (Taiwan) Chinesischer Zeichensatz Kodierung. ECI Id:"\000028" |
+| GB2312 | `29` | GB2312 Chinesischer Zeichensatz Kodierung. ECI Id:"\000029" |
+| EUC_KR | `30` | Koreanischer Zeichensatz Kodierung. ECI Id:"\000030" |
+| GBK | `31` | GBK (Erweiterung von GB2312 für vereinfachtes Chinesisch) Kodierung. ECI Id:"\000031" |
+| GB18030 | `32` | GGB18030 Chinesischer Zeichensatz Kodierung. ECI Id:"\000032" |
+| UTF16LE | `33` | ISO/IEC 10646 UTF-16LE Kodierung. ECI Id:"\000033" |
+| UTF32BE | `34` | ISO/IEC 10646 UTF-32BE Kodierung. ECI Id:"\000034" |
+| UTF32LE | `35` | ISO/IEC 10646 UTF-32LE Kodierung. ECI Id:"\000035" |
+| INVARIANT | `170` | ISO/IEC 646: ISO‑7‑Bit‑kodierter Zeichensatz – Invariante Zeichenmenge Kodierung. ECI Id:"\000170" |
+| BINARY | `899` | 8‑Bit Binärdaten. ECI Id:"\000899" |
 | NONE | `0` | Keine erweiterte Kanalinterpretation |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Sie die ECI-Codierung verwenden und ein BarCode-Bild speichern.
+Dieses Beispiel zeigt, wie man ECI‑Kodierung verwendet und ein BarCode‑Bild speichert.
 
 ```csharp
 [C#]
 using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
 {
     generator.CodeText = "12345TEXT";
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding;
-    generator.Parameters.Barcode.QR.QrEncodeType = QREncodeType.ForceQR;
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding;
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8;
     generator.Save("test.png");
 }
 [VB.NET]
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = "12345TEXT"
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ECIEncoding
-    generator.Parameters.Barcode.QR.QrEncodeType = QREncodeType.ForceQR
-    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
+    generator.Parameters.Barcode.QR.ECIEncoding = ECIEncodings.UTF8
     generator.Save("test.png")
 End Using
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.BarCode.Generation](../../aspose.barcode.generation)
-* Montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

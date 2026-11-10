@@ -1,14 +1,14 @@
 ---
-title: MacroCharacter
-second_title: Aspose.BarCode für .NET-API-Referenz
-description: Die Werte der Makrozeichen 05 und 06 werden verwendet um in speziellen Modi eine kompaktere Codierung zu erhalten. 05-Makrozeichen werden in gtu001E05u001D als decodierter Datenheader und u001Eu0004 als decodierter Datennachspann übersetzt. 06 Makro Craracter wird in gtu001E06u001D als decodierter Datenheader und u001Eu0004 als decodierter Datentrailer übersetzt.
+title: "Enum MacroCharacter"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "Aspose.BarCode.Generation.MacroCharacter Enum. Makrozeichen 05 und 06 werden verwendet, um in speziellen Modi eine kompaktere Kodierung zu erreichen. Das Makrozeichen 05 wird zu u001E05u001D als dekodierter Datenkopf und u001Eu0004 als dekodierter Datentrailer übersetzt. Das Makrozeichen 06 wird zu u001E06u001D als dekodierter Datenkopf und u001Eu0004 als dekodierter Datentrailer übersetzt."
 type: docs
-weight: 790
+weight: 1450
 url: /de/net/aspose.barcode.generation/macrocharacter/
 ---
 ## MacroCharacter enumeration
 
-Die Werte der Makrozeichen 05 und 06 werden verwendet, um in speziellen Modi eine kompaktere Codierung zu erhalten. 05-Makrozeichen werden in „[)&gt;\u001E05\u001D“ als decodierter Datenheader und „\u001E\u0004“ als decodierter Datennachspann übersetzt. 06 Makro Craracter wird in "[)&gt;\u001E06\u001D" als decodierter Datenheader und "\u001E\u0004" als decodierter Datentrailer übersetzt.
+Makrozeichen 05 und 06 werden verwendet, um in speziellen Modi eine kompaktere Kodierung zu erreichen. Das Makrozeichen 05 wird zu "[)&gt;\u001E05\u001D" als dekodierter Datenkopf und "\u001E\u0004" als dekodierter Datentrailer übersetzt. Das Makrozeichen 06 wird zu "[)&gt;\u001E06\u001D" als dekodierter Datenkopf und "\u001E\u0004" als dekodierter Datentrailer übersetzt.
 
 ```csharp
 public enum MacroCharacter
@@ -18,13 +18,41 @@ public enum MacroCharacter
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Keines der Makrozeichen wird zu Barcodedaten hinzugefügt |
-| Macro05 | `5` | 05 Makrozeichen werden an erster Position zu den Barcode-Daten hinzugefügt. GS1 Data Identifier ISO 15434 Das Zeichen wird in "[)&gt;\u001E05\u001D" als decodierter Datenheader und "\u001E\u0004" als decodierter Datentrailer übersetzt. |
-| Macro06 | `6` | 06 Makrozeichen wird an erster Position zu den Barcodedaten hinzugefügt. ASC MH10 Data Identifier ISO 15434 Das Zeichen wird in "[)&gt;\u001E06\u001D" als decodierter Datenheader und "\u001E\u0004" als decodierter Datentrailer übersetzt. |
+| None | `0` | Keines der Makrozeichen wird zu den Barcode-Daten hinzugefügt. |
+| Macro05 | `5` | Das Makrozeichen 05 wird an erster Stelle zu den Barcode-Daten hinzugefügt. Das GS1-Datenkennzeichen ISO‑15434‑Zeichen wird zu "[)&gt;\u001E05\u001D" als dekodierter Datenkopf und "\u001E\u0004" als dekodierter Datentrailer übersetzt. |
+| Macro06 | `6` | Das Makrozeichen 06 wird an erster Stelle zu den Barcode-Daten hinzugefügt. Das ASC‑MH10‑Datenkennzeichen ISO‑15434‑Zeichen wird zu "[)&gt;\u001E06\u001D" als dekodierter Datenkopf und "\u001E\u0004" als dekodierter Datentrailer übersetzt. |
+
+## Beispiele
+
+Diese Beispiele zeigen, wie man Makrozeichen in MicroPdf417 und DataMatrix kodiert.
+
+```csharp
+[C#]
+//Um eine automatisch identifizierte GS1-Nachricht wie "(10)123ABC(10)123ABC" im ISO‑15434‑Format zu erzeugen, benötigen Sie:
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DataMatrix, "10123ABC\u001D10123ABC");
+generator.Parameters.Barcode.DataMatrix.MacroCharacters = MacroCharacter.Macro05;
+BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.GS1DataMatrix);
+foreach (BarCodeResult result in reader.ReadBarCodes())
+    Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    
+//Kodiert MicroPdf417 mit 05‑Makro die Zeichenkette: "[)>\u001E05\u001Dabcde1234\u001E\u0004"
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
+generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro05;
+    using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
+      foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
+
+//Kodiert MicroPdf417 mit 06‑Makro die Zeichenkette: "[)>\u001E06\u001Dabcde1234\u001E\u0004"
+BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.MicroPdf417, "abcde1234");
+generator.Parameters.Barcode.Pdf417.MacroCharacters = MacroCharacter.Macro06;
+using (BarCodeReader reader = new BarCodeReader(generator.GenerateBarCodeImage(), DecodeType.MicroPdf417))
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+        Console.WriteLine(result.CodeText);
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.BarCode.Generation](../../aspose.barcode.generation)
-* Montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

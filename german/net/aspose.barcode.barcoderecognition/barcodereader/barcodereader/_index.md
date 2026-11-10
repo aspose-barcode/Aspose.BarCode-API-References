@@ -1,28 +1,28 @@
 ---
-title: BarCodeReader
-second_title: Aspose.BarCode für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonBarCodeReaderaspose.barcode.barcoderecognition/barcodereader Klasse mit Standardwerten. Erfordert das Setzen eines Bildes SetBitmapImage vor dem Aufruf der Methode ReadBarCodes.
+title: "BarCodeReader.BarCodeReader"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "BarCodeReader constructor. Initialisiert eine neue Instanz der BarCodeReader-Klasse mit Standardwerten. Erfordert, dass das Bild SetBitmapImage gesetzt wird, bevor die Methode ReadBarCodes aufgerufen wird."
 type: docs
 weight: 10
 url: /de/net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader() {#constructor}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse mit Standardwerten. Erfordert das Setzen eines Bildes (SetBitmapImage()) vor dem Aufruf der Methode ReadBarCodes().
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse mit Standardwerten. Erfordert, dass das Bild (SetBitmapImage()) gesetzt wird, bevor die Methode ReadBarCodes() aufgerufen wird.
 
 ```csharp
 public BarCodeReader()
 ```
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -32,7 +32,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -43,15 +43,15 @@ End Using
 
 ### Siehe auch
 
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap) {#constructor_1}
+## BarCodeReader(Bitmap) {#constructor_8}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse aus einem Bild.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse aus einem Bild.
 
 ```csharp
 public BarCodeReader(Bitmap image)
@@ -59,18 +59,18 @@ public BarCodeReader(Bitmap image)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Eine Bitmap-Instanz, die das Bild enthält |
+| Bild | Bitmap | Eine Bitmap-Instanz, die das Bild enthält |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader(bmp))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -80,7 +80,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp))
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader(bmp)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -91,15 +91,15 @@ End Using
 
 ### Siehe auch
 
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
+## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_10}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
@@ -107,17 +107,17 @@ public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das Bild. |
-| decodeTypes | BaseDecodeType[] | Typen entschlüsseln. |
+| Bild | Bitmap | Das Bild. |
+| decodeTypes | BaseDecodeType[] | Dekodierungstypen. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -127,7 +127,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, 
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -138,16 +138,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
+## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_9}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
@@ -155,17 +155,17 @@ public BarCodeReader(Bitmap image, BaseDecodeType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das Bild. |
-| type | BaseDecodeType | Der Dekodierungstyp1. Es kann einfach oder mehrfach sein |
+| Bild | Bitmap | Das Bild. |
+| Typ | BaseDecodeType | Der Dekodierungstyp1. Er kann einfach oder mehrfach sein. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -175,7 +175,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeT
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -186,16 +186,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
+## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_12}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
@@ -203,18 +203,18 @@ public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decod
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das Bild. |
-| area | Rectangle | Der Bereich für Anerkennung. |
-| decodeTypes | BaseDecodeType[] | Typen entschlüsseln. |
+| Bild | Bitmap | Das Bild. |
+| Bereich | Rectangle | Der Bereich für die Erkennung. |
+| decodeTypes | BaseDecodeType[] | Dekodierungstypen. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -224,7 +224,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -235,16 +235,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
+## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_11}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
@@ -252,18 +252,18 @@ public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das Bild. |
-| area | Rectangle | Der Bereich für Anerkennung. |
-| type | BaseDecodeType | Der Dekodierungstyp. |
+| Bild | Bitmap | Das Bild. |
+| Bereich | Rectangle | Der Bereich für die Erkennung. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -273,7 +273,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -284,16 +284,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_14}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
@@ -301,18 +301,18 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] de
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das zu lesende Bild |
-| areas | Rectangle[] | Die Reihe der Erkennungsbereiche |
-| decodeTypes | BaseDecodeType[] | Die Dekodierungstypen gelten für alle angegebenen Bereiche. |
+| Bild | Bitmap | Das zu lesende Bild |
+| Bereiche | Rectangle[] | Das Array der Erkennungsbereiche |
+| decodeTypes | BaseDecodeType[] | Die Dekodierungstypen, die für alle angegebenen Bereiche gelten. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -322,7 +322,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -333,16 +333,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
+## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_13}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
@@ -350,18 +350,18 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| image | Bitmap | Das zu lesende Bild |
-| areas | Rectangle[] | Die Reihe der Erkennungsbereiche |
-| type | BaseDecodeType | Der Dekodierungstyp, der für alle angegebenen Bereiche gilt. |
+| Bild | Bitmap | Das zu lesende Bild |
+| Bereiche | Rectangle[] | Das Array der Erkennungsbereiche |
+| Typ | BaseDecodeType | Der Dekodierungstyp, der für alle angegebenen Bereiche gilt. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -371,7 +371,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -382,16 +382,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string) {#constructor_11}
+## BarCodeReader(string) {#constructor_18}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse aus Datei.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse aus einer Datei.
 
 ```csharp
 public BarCodeReader(string filename)
@@ -399,17 +399,17 @@ public BarCodeReader(string filename)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filename | String | Der Dateiname. |
+| Dateiname | String | Der Dateiname. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -418,7 +418,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 }
 [VB.NET]
 Using reader As New BarCodeReader("c:\test.png")
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -428,15 +428,15 @@ End Using
 
 ### Siehe auch
 
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
+## BarCodeReader(string, params BaseDecodeType[]) {#constructor_20}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
@@ -444,16 +444,16 @@ public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filename | String | Der Dateiname. |
-| decodeTypes | BaseDecodeType[] | Typen entschlüsseln. |
+| Dateiname | String | Der Dateiname. |
+| decodeTypes | BaseDecodeType[] | Dekodierungstypen. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -462,7 +462,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -472,16 +472,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, BaseDecodeType) {#constructor_12}
+## BarCodeReader(string, BaseDecodeType) {#constructor_19}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
@@ -489,16 +489,16 @@ public BarCodeReader(string filename, BaseDecodeType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| filename | String | Der Dateiname. |
-| type | BaseDecodeType | Der Dekodierungstyp. |
+| Dateiname | String | Der Dateiname. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -507,7 +507,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeT
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+Using reader As New BarCodeReader("c:\test.png", New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -517,16 +517,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream) {#constructor_8}
+## BarCodeReader(Stream) {#constructor_15}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Stream stream)
@@ -534,18 +534,18 @@ public BarCodeReader(Stream stream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Der Strom. |
+| Strom | Strom | Der Stream. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
 using (BarCodeReader reader = new BarCodeReader(fstr))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -555,7 +555,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr))
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
     Using reader As New BarCodeReader(fstr)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -566,15 +566,15 @@ End Using
 
 ### Siehe auch
 
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
+## BarCodeReader(Stream, BaseDecodeType) {#constructor_16}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
@@ -582,17 +582,17 @@ public BarCodeReader(Stream stream, BaseDecodeType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Der Strom. |
-| type | BaseDecodeType | Der Dekodierungstyp. |
+| Strom | Strom | Der Stream. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(fstr, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -602,7 +602,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(Decode
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(fstr, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -613,16 +613,16 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
+## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_17}
 
-Initialisiert eine neue Instanz von[`BarCodeReader`](../../barcodereader) Klasse.
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
@@ -630,17 +630,17 @@ public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Der Strom. |
-| decodeTypes | BaseDecodeType[] | Typen entschlüsseln. |
+| Strom | Strom | Der Stream. |
+| decodeTypes | BaseDecodeType[] | Dekodierungstypen. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes erkannt werden.
+Dieses Beispiel zeigt, wie man Code39- und Code128-Barcodes erkennt.
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -650,7 +650,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard,
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -661,9 +661,317 @@ End Using
 
 ### Siehe auch
 
-* class [BaseDecodeType](../../basedecodetype)
-* class [BarCodeReader](../../barcodereader)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../barcodereader)
-* Montage [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], BaseDecodeType) {#constructor_6}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, BaseDecodeType type)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| Bereiche | Rectangle[] | Das Array der Erkennungsbereiche. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in angegebenen Bereichen eines LuminanceFrames erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| Bereiche | Rectangle[] | Das Array der Erkennungsbereiche. |
+| decodeTypes | BaseDecodeType[] | Die Dekodierungstypen. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in angegebenen Bereichen eines LuminanceFrames erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, BaseDecodeType) {#constructor_4}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, BaseDecodeType type)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| Bereich | Rectangle | Der Bereich für die Erkennung. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in einem angegebenen Bereich eines LuminanceFrames erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, params BaseDecodeType[]) {#constructor_5}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| Bereich | Rectangle | Der Bereich für die Erkennung. |
+| decodeTypes | BaseDecodeType[] | Die Dekodierungstypen. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in einem angegebenen Bereich eines LuminanceFrames erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, BaseDecodeType) {#constructor_2}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, BaseDecodeType type)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| Typ | BaseDecodeType | Der Dekodierungstyp. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in einem LuminanceFrame erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, params BaseDecodeType[]) {#constructor_3}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, params BaseDecodeType[] decodeTypes)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+| decodeTypes | BaseDecodeType[] | Die Dekodierungstypen. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in einem LuminanceFrame erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame) {#constructor_1}
+
+Initialisiert eine neue Instanz der [`BarCodeReader`](../)-Klasse aus einem LuminanceFrame.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Frame | LuminanceFrame | Der LuminanceFrame zum Lesen. |
+
+## Beispiele
+
+Dieses Beispiel zeigt, wie Code39- und Code128-Barcodes in einem LuminanceFrame erkannt werden können.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame))
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### Siehe auch
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+
