@@ -1,0 +1,23 @@
+---
+title: "MaxiCodeStructuredSecondMessage.MaxiCodeStructuredSecondMessage"
+second_title: "مرجع API لـ Aspose.BarCode for .NET"
+description: "منشئ MaxiCodeStructuredSecondMessage. المنشئ الافتراضي"
+type: docs
+weight: 10
+url: /ar/net/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/maxicodestructuredsecondmessage/
+---
+## MaxiCodeStructuredSecondMessage constructor
+
+المنشئ الافتراضي.
+
+```csharp
+public MaxiCodeStructuredSecondMessage()
+```
+
+### انظر أيضًا
+
+* class [MaxiCodeStructuredSecondMessage](../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../../)
+
+
