@@ -1,14 +1,14 @@
 ---
-title: QRExtendedParameters
-second_title: Aspose.BarCode für .NET-API-Referenz
-description: Speichert QR-strukturierte Anhängeinformationen des erkannten Barcodes
+title: "Klasse QRExtendedParameters"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "Aspose.BarCode.BarCodeRecognition.QRExtendedParameters Klasse. Speichert QR Structured Append‑Informationen des erkannten Barcodes."
 type: docs
-weight: 230
+weight: 350
 url: /de/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Speichert QR-strukturierte Anhängeinformationen des erkannten Barcodes
+Speichert QR‑Structured‑Append‑Informationen des erkannten Barcodes.
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
@@ -18,24 +18,28 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Testet, ob alle Parameter nur Standardwerte haben |
-| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex) { get; } | Ruft den Index des QR-Strichcodes im strukturierten Anhängemodus ab. Der Index beginnt bei 0. Der Standardwert ist -1. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity) { get; } | Ruft die Anzahl der Barcodes im strukturierten QR-Anhängemodus ab. Der Standardwert ist -1. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata) { get; } | Ruft die Paritätsdaten des QR-strukturierten Anfügemodus ab. Der Standardwert ist -1. |
+| [ErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/errorlevel/) { get; } | Reed‑Solomon‑Fehlerkorrekturstufe des erkannten Barcodes. Von niedrig nach hoch: LevelL, LevelM, LevelQ, LevelH. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Prüft, ob alle Parameter nur Standardwerte haben |
+| [MicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/) { get; } | Version des erkannten MicroQR‑Codes. Von M1 bis M4. |
+| [RectMicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/) { get; } | Version des erkannten RectMicroQR‑Codes. Von R7x43 bis R17x139. |
+| [StructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/) { get; } | Liefert den Index des QR Structured Append‑Modus‑Barcodes. Der Index beginnt bei 0. Standardwert ist -1. |
+| [StructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/) { get; } | Liefert die Anzahl der QR Structured Append‑Modus‑Barcodes. Standardwert ist -1. |
+| [StructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodeparitydata/) { get; } | Liefert die Paritätsdaten des QR Structured Append‑Modus. Standardwert ist -1. |
+| [Version](../../aspose.barcode.barcoderecognition/qrextendedparameters/version/) { get; } | Version des erkannten QR-Codes. Von Version1 bis Version40. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz gleich einer angegebenen ist[`QRExtendedParameters`](../qrextendedparameters) wert. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode)() | Gibt den Hashcode für diese Instanz zurück. |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | Gibt eine für Menschen lesbare Zeichenfolgendarstellung davon zurück[`QRExtendedParameters`](../qrextendedparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | Gibt einen Wert zurück, der angibt, ob der erste[`QRExtendedParameters`](../qrextendedparameters) Wert ist gleich der Sekunde. |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | Gibt einen Wert zurück, der angibt, ob der erste[`QRExtendedParameters`](../qrextendedparameters) Wert unterscheidet sich vom zweiten. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen `QRExtendedParameters`‑Wert entspricht. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Gibt den Hash‑Code für diese Instanz zurück. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Gibt eine menschenlesbare Zeichenkettenrepräsentation dieses `QRExtendedParameters` zurück. |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | Gibt einen Wert zurück, der angibt, ob der erste `QRExtendedParameters`‑Wert dem zweiten entspricht. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | Gibt einen Wert zurück, der angibt, ob der erste `QRExtendedParameters`‑Wert vom zweiten abweicht. |
 
-### Beispiele
+## Beispiele
 
-Dieses Beispiel zeigt, wie QR-strukturierte Anhängedaten abgerufen werden
+Dieses Beispiel zeigt, wie man QR Structured Append‑Daten erhält.
 
 ```csharp
 [C#]
@@ -64,8 +68,8 @@ End Using
 
 ### Siehe auch
 
-* class [BaseExtendedParameters](../baseextendedparameters)
-* namensraum [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* Montage [Aspose.BarCode](../../)
+* class [BaseExtendedParameters](../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,50 +1,63 @@
 ---
-title: Aspose.BarCode.BarCodeRecognition
-second_title: Aspose.BarCode für .NET-API-Referenz
-description: Die Aspose.BarCode.BarCodeRecognitionenthält Tools zur Erkennung von 1D/2D-Barcodes.
+title: "Aspose.BarCode.BarCodeRecognition"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "Die Aspose.BarCode.BarCodeRecognition enthält Werkzeuge zur Erkennung von 1D/2D‑Barcodes."
 type: docs
 weight: 20
 url: /de/net/aspose.barcode.barcoderecognition/
 ---
-Die **Aspose.BarCode.BarCodeRecognition**enthält Tools zur Erkennung von 1D/2D-Barcodes.
+Das **Aspose.BarCode.BarCodeRecognition** enthält Werkzeuge zur Erkennung von 1D/2D-Barcodes.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [AustraliaPostSettings](./australiapostsettings) | AustraliaPost Dekodierungsparameter. Enthält Parameter, die Einfluss auf erkannte Daten der AustraliaPost-Symbologie haben. |
-| [BarCodeExtendedParameters](./barcodeextendedparameters) | Speichert erweiterte Parameter des erkannten Barcodes |
-| [BarCodeReader](./barcodereader) | BarCodeReader kapselt ein Bild ein, das einen oder mehrere Barcodes enthalten kann, und kann dann die ReadBarCodes-Operation ausführen, um Barcodes zu erkennen. |
-| [BarCodeRecognitionException](./barcoderecognitionexception) | Allgemeine Ausnahme, ausgelöst durch BarCodeReader, geerbt von BarCodeException |
-| [BarCodeRegionParameters](./barcoderegionparameters) | Repräsentiert die Region und den Winkel des Barcodes des erkannten Barcodes |
-| [BarCodeResult](./barcoderesult) | Speichert erkannte Barcodedaten wie[`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype) Typ,String Codetext, [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters) Region und andere Parameter |
-| [BarcodeSettings](./barcodesettings) | Die wichtigsten BarCode-Decodierungsparameter. Enthält Parameter, die Einfluss auf erkannte Daten nehmen. |
-| [BarcodeSvmDetectorSettings](./barcodesvmdetectorsettings) | Barcode-Erkennungseinstellungen. |
-| [BaseDecodeType](./basedecodetype) | Basisklasse für MultyDecodeType und SingleDecodeType. |
-| [BaseExtendedParameters](./baseextendedparameters) | Basisklasse für erweiterte Parameter der erkannten Barcodespeicherung |
-| [Code128DataPortion](./code128dataportion) | Enthält die Daten des Untertyps für Code128 Typ Barcode |
-| [Code128ExtendedParameters](./code128extendedparameters) | Speichert spezielle Daten des von Code128 erkannten Barcodes |
-| [DataBarExtendedParameters](./databarextendedparameters) | Speichert eine DataBar-Zusatzinformation des erkannten Barcodes |
-| [DecodeType](./decodetype) | Geben Sie den Typ des zu lesenden Barcodes an. |
-| [MultyDecodeType](./multydecodetype) | Zusammengesetzter Dekodierungstyp. |
-| [OneDExtendedParameters](./onedextendedparameters) | Speichert spezielle Daten von 1D-erkannten Barcodes wie separaten Codetext und Prüfsumme |
-| [Pdf417ExtendedParameters](./pdf417extendedparameters) | Speichert MacroPdf417-Metadateninformationen des erkannten Barcodes |
-| [QRExtendedParameters](./qrextendedparameters) | Speichert QR-strukturierte Anhängeinformationen des erkannten Barcodes |
-| [Quadrangle](./quadrangle) | Speichert einen Satz von vierPoint s, die a darstellen[`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle) region. |
-| [QualitySettings](./qualitysettings) | QualitySettings ermöglicht die manuelle Konfiguration von Erkennungsqualität und -geschwindigkeit. Sie können QualitySettings schnell durch eingebettete Voreinstellungen einrichten: HighPerformance, NormalQuality, HighQuality, MaxBarCodes oder Sie können separate Optionen manuell konfigurieren. Der Standardwert von QualitySettings ist NormalQuality. |
-| [RecognitionAbortedException](./recognitionabortedexception) | Repräsentiert eine Erkennungsabbruch-Ausnahme, die bei einer Zeitüberschreitung während der Erkennung mit BarCodeReader ausgelöst wird. |
-| [SingleDecodeType](./singledecodetype) | Einzelner Dekodierungstyp. Siehe Dekodierungstyp, um Instanz zu erhalten. |
+| [AustraliaPostSettings](./australiapostsettings/) | AustraliaPost‑Dekodierungsparameter. Enthält Parameter, die Einfluss auf die erkannten Daten der AustraliaPost‑Symbolik haben. |
+| [AztecExtendedParameters](./aztecextendedparameters/) | Speichert spezielle Daten des erkannten Aztec‑Barcodes. |
+| [BarCodeExtendedParameters](./barcodeextendedparameters/) | Speichert erweiterte Parameter des erkannten Barcodes. |
+| [BarCodeReader](./barcodereader/) | BarCodeReader kapselt ein Bild, das einen oder mehrere Barcodes enthalten kann, und kann anschließend die ReadBarCodes‑Operation ausführen, um Barcodes zu erkennen. |
+| [BarCodeRecognitionException](./barcoderecognitionexception/) | Allgemeine Ausnahme, die von BarCodeReader ausgelöst wird und von BarCodeException erbt. |
+| [BarCodeRegionParameters](./barcoderegionparameters/) | Stellt die Region des erkannten Barcodes und den Barcode‑Winkel dar. |
+| [BarCodeResult](./barcoderesult/) | Speichert erkannte Barcode‑Daten wie den Typ [`SingleDecodeType`](../aspose.barcode.barcoderecognition/singledecodetype/), den String‑Codetext, die Region [`BarCodeRegionParameters`](../aspose.barcode.barcoderecognition/barcoderegionparameters/) und weitere Parameter. |
+| [BarcodeSettings](./barcodesettings/) | Die Haupt‑BarCode‑Dekodierungsparameter. Enthält Parameter, die Einfluss auf die erkannten Daten haben. |
+| [BaseDecodeType](./basedecodetype/) | Basisklasse für MultiDecodeType und SingleDecodeType. |
+| [BaseExtendedParameters](./baseextendedparameters/) | Grundklasse für das Speichern erweiterter Parameter des erkannten Barcodes. |
+| [CodabarExtendedParameters](./codabarextendedparameters/) | Speichert zusätzliche Informationen des erkannten Codabar‑Barcodes. |
+| [Code128DataPortion](./code128dataportion/) | Enthält die Daten des Subtyps für den Code128‑Barcode. |
+| [Code128ExtendedParameters](./code128extendedparameters/) | Speichert spezielle Daten des erkannten Code128‑Barcodes. |
+| [DataBarExtendedParameters](./databarextendedparameters/) | Speichert zusätzliche Informationen des erkannten DataBar‑Barcodes. |
+| [DataMatrixExtendedParameters](./datamatrixextendedparameters/) | Speichert spezielle Daten des erkannten DataMatrix‑Barcodes. |
+| [DecodeType](./decodetype/) | Geben Sie den zu lesenden Barcode‑Typ an. |
+| [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Speichert spezielle Daten des erkannten DotCode‑Barcodes. |
+| [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Speichert spezielle Daten des erkannten Strichcodes **GS1 Composite Bar** |
+| [Iso15416Quality](./iso15416quality/) | Speichert Barcode-Qualitätsstufen, die gemäß dem ISO/IEC‑15416‑Standard für 1D‑Barcodes berechnet wurden. |
+| [IsoSymbolQuality](./isosymbolquality/) | Speichert die Ergebnisse der Qualitätsbewertung von Barcode‑Symbolen gemäß ISO/IEC‑Standards. |
+| [LuminanceFrame](./luminanceframe/) | Stellt einen 8‑Bit‑Graustufen‑Bildrahmen dar. Jeder Pixel wird durch ein Byte repräsentiert, das seinen Luminanzwert enthält. |
+| [MaxiCodeExtendedParameters](./maxicodeextendedparameters/) | Speichert zusätzliche MaxiCode‑Informationen des erkannten Barcodes. |
+| [MultiDecodeType](./multidecodetype/) | Composite‑Dekodierungstyp. |
+| [OneDExtendedParameters](./onedextendedparameters/) | Speichert spezielle Daten des erkannten 1D‑Barcodes, wie separaten Codetext und Prüfsumme. |
+| [Pdf417ExtendedParameters](./pdf417extendedparameters/) | Speichert Metadateninformationen des erkannten MacroPdf417‑Barcodes. |
+| [QRExtendedParameters](./qrextendedparameters/) | Speichert QR‑Structured‑Append‑Informationen des erkannten Barcodes. |
+| [Quadrangle](./quadrangle/) | Speichert ein Set von vier Punkten, die eine [`Quadrangle`](../aspose.barcode.barcoderecognition/quadrangle/)‑Region darstellen. |
+| [QualitySettings](./qualitysettings/) | QualitySettings ermöglicht es, die Erkennungsqualität und -geschwindigkeit manuell zu konfigurieren. Sie können QualitySettings schnell mit eingebetteten Voreinstellungen einrichten: HighPerformance, NormalQuality, HighQuality, MaxQuality, oder Sie können die einzelnen Optionen manuell konfigurieren. Der Standardwert von QualitySettings ist NormalQuality. |
+| [RecognitionAbortedException](./recognitionabortedexception/) | Stellt eine Erkennungsabbruch‑Ausnahme dar, die bei Überschreitung des Zeitlimits während der Erkennung mit BarCodeReader ausgelöst wird. |
+| [SingleDecodeType](./singledecodetype/) | Einzelner Dekodierungstyp. Siehe Dekodierungstyp, um eine Instanz zu erhalten. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [AustraliaPostCustomerInformationDecoder](./australiapostcustomerinformationdecoder) | Öffentliche Schnittstelle für die Decodierung von Kundeninformationsfeldern, die in der AustraliaPost-Symbologie verwendet wird. Die Implementierung sollte vom Benutzer bereitgestellt werden. |
+| [AustraliaPostCustomerInformationDecoder](./australiapostcustomerinformationdecoder/) | Öffentliche Schnittstelle für die Dekodierung des Customer Information Field, die in der AustraliaPost‑Symbolik verwendet wird. Die Implementierung sollte vom Benutzer bereitgestellt werden. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [BarCodeConfidence](./barcodeconfidence) | Enthält Erkennungskonfidenzniveau |
-| [ChecksumValidation](./checksumvalidation) | Aktivieren Sie die Prüfsummenvalidierung während der Erkennung für 1D- und Post-Barcodes. |
-| [Code128SubType](./code128subtype) | Enthält Arten von Code128-Teilmenge |
+| [BarCodeConfidence](./barcodeconfidence/) | Enthält das Erkennungs‑Vertrauensniveau. |
+| [BarcodeQualityMode](./barcodequalitymode/) | Modus, der Methoden aktiviert, um Barcode‑Elemente mit der ausgewählten Qualität zu erkennen. Ein Barcode‑Element mit niedrigerer Qualität erfordert aufwändigere Methoden, was die Erkennung verlangsamt. |
+| [ChecksumValidation](./checksumvalidation/) | Aktiviert die Prüfsummenvalidierung während der Erkennung für 1D‑ und Post‑Barcodes. |
+| [Code128SubType](./code128subtype/) | Enthält Typen des Code128‑Subset. |
+| [ComplexBackgroundMode](./complexbackgroundmode/) | Modus, der die zusätzliche Erkennung von Farbbarcodes in Farbbildern ein- oder ausschaltet. |
+| [DeconvolutionMode](./deconvolutionmode/) | Deconvolution‑Modus (Bildrestaurierung), der das Niveau der Bilddegradation definiert. Ursprünglich ist Deconvolution eine Funktion, die ein durch eine natürliche Funktion wie Unschärfe (Blur) degradierte (konvolutierte) Bild wiederherstellen kann, das bei der Aufnahme mit einer Kamera entsteht. Da wir die Bildfunktion, die das Bild beschädigt, nicht erkennen können, müssen wir die am besten bekannten Funktionen wie Schärfen oder mathematische Morphologie prüfen. |
+| [InverseImageMode](./inverseimagemode/) | Modus, der die zusätzliche Erkennung von Barcodes in Bildern mit invertierten Farben (Luminanz) ein- oder ausschaltet. |
+| [XDimensionMode](./xdimensionmode/) | Erkennungsmodus, der die Größe (von 1 bis unendlich) des minimalen Barcode‑Elements festlegt: Matrixzelle oder Strich. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

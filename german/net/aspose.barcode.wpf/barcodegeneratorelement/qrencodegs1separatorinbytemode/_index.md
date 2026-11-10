@@ -1,0 +1,29 @@
+---
+title: "BarcodeGeneratorElement.QREncodeGS1SeparatorInByteMode"
+second_title: "Aspose.BarCode für .NET API-Referenz"
+description: "BarcodeGeneratorElement Eigenschaft. Gibt einen Wert zurück oder legt ihn fest, der angibt, ob GS1-Sonderzeichen im Byte-Modus für QR- und RectMicroQR-Barcodes kodiert werden sollen"
+type: docs
+weight: 1290
+url: /de/net/aspose.barcode.wpf/barcodegeneratorelement/qrencodegs1separatorinbytemode/
+---
+## BarcodeGeneratorElement.QREncodeGS1SeparatorInByteMode property
+
+Liest oder setzt einen Wert, der angibt, ob GS1‑Sonderzeichen im Byte‑Modus für QR‑ und RectMicroQR‑Barcodes codiert werden sollen.
+
+Wenn false, können GS1-Trennzeichen gemäß QR-Spezifikation im Alphanumerischen Modus als '%' kodiert werden.
+
+Wenn true, werden GS1-Gruppentrennzeichen im Byte-Modus als das Zeichen 0x1D kodiert, und '%' Zeichen werden ebenfalls im Byte-Modus kodiert, um sie als Daten zu erhalten.
+
+Diese Option kann die Kompatibilität mit Decodern verbessern, die byteweise GS1-Gruppentrennzeichen erwarten, und verhindert, dass '%' Datenzeichen als GS1-Trennzeichen interpretiert werden.
+
+```csharp
+public bool QREncodeGS1SeparatorInByteMode { get; set; }
+```
+
+### Siehe auch
+
+* class [BarcodeGeneratorElement](../)
+* namespace [Aspose.BarCode.WPF](../../../aspose.barcode.wpf/)
+* assembly [Aspose.BarCode](../../../)
+
+
