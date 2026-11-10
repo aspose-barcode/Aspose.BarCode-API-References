@@ -1,14 +1,14 @@
 ---
-title: BaseEncodeType
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: सम्बलजएनकडटइप के लए बेस क्लस
+title: "क्लास BaseEncodeType"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.Generation.BaseEncodeType क्लास। SymbologyEncodeType के लिए बेस क्लास"
 type: docs
-weight: 720
+weight: 1020
 url: /hi/net/aspose.barcode.generation/baseencodetype/
 ---
 ## BaseEncodeType class
 
-सिम्बोलॉजीएनकोडटाइप के लिए बेस क्लास।
+SymbologyEncodeType के लिए बेस क्लास।
 
 ```csharp
 public class BaseEncodeType : IEquatable<BaseEncodeType>
@@ -18,27 +18,27 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 
 | नाम | विवरण |
 | --- | --- |
-| [Classification](../../aspose.barcode.generation/baseencodetype/classification/) { get; } | इस सहजीवन का वर्गीकरण प्राप्त करता है। |
-| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex/) { get; } | एनकोड प्रकार का एक सूचकांक प्राप्त करता है |
+| [Classification](../../aspose.barcode.generation/baseencodetype/classification/) { get; } | इस प्रतीक प्रणाली की वर्गीकरण प्राप्त करता है। |
+| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex/) { get; } | एन्कोड प्रकार का सूचकांक प्राप्त करता है |
 | [TypeName](../../aspose.barcode.generation/baseencodetype/typename/) { get; } | एन्कोड प्रकार का नाम प्राप्त करता है |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| static [Parse](../../aspose.barcode.generation/baseencodetype/parse/)(string) | बेसएनकोडटाइप के नाम के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals)(BaseEncodeType) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं`BaseEncodeType` मान. |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals_1)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं`BaseEncodeType` मान. |
-| override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode/)() | इस उदाहरण के लिए हैश कोड लौटाता है। |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)() | BaseEncodeType के इंस्टेंस को इसके समतुल्य स्ट्रिंग प्रतिनिधित्व में कनवर्ट करता है। स्ट्रिंग प्रारूप है: "इंडेक्स: 0; नाम: कोडाबार"। |
-| override [ToString](../../aspose.barcode.generation/baseencodetype/tostring/)() | दिए गए BaseEncodeType का नाम एक स्ट्रिंग के रूप में लौटाता है। |
-| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)(BaseEncodeType) | BaseEncodeType के इंस्टेंस को इसके समतुल्य स्ट्रिंग प्रतिनिधित्व में कनवर्ट करता है। स्ट्रिंग प्रारूप है: "इंडेक्स: -1; नाम: कोई नहीं"। |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse)(string, out BaseEncodeType) | बेसएनकोडटाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ। |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse_1)(string, out SymbologyEncodeType) | बेसएनकोडटाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ। |
+| static [Parse](../../aspose.barcode.generation/baseencodetype/parse/)(string) | BaseEncodeType के नाम की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals)(BaseEncodeType) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट `BaseEncodeType` मान के बराबर है या नहीं। |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals_1)(object) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट `BaseEncodeType` मान के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode/)() | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)() | BaseEncodeType के उदाहरण को उसके समतुल्य स्ट्रिंग प्रतिनिधित्व में परिवर्तित करता है। स्ट्रिंग स्वरूप है: "Index:0; Name:Codabar"। |
+| override [ToString](../../aspose.barcode.generation/baseencodetype/tostring/)() | दिए गए BaseEncodeType का नाम स्ट्रिंग के रूप में लौटाता है। |
+| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)(BaseEncodeType) | BaseEncodeType के इंस्टेंस को उसके समतुल्य स्ट्रिंग प्रतिनिधित्व में परिवर्तित करता है। स्ट्रिंग फ़ॉर्मेट है: "Index:-1; Name:None"। |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse)(string, out BaseEncodeType) | BaseEncodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल। |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse_1)(string, out SymbologyEncodeType) | BaseEncodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल। |
 
-### यह सभी देखें
+### और देखें
 
-* नाम स्थान [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

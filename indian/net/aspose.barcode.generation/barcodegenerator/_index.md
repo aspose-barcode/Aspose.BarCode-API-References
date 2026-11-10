@@ -1,53 +1,56 @@
 ---
-title: BarcodeGenerator
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: बैकएंड बरकड इमेज जेनरेशन के लए बरकड जेनरेटर
+title: "क्लास BarcodeGenerator"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.Generation.BarcodeGenerator क्लास। बैकएंड बारकोड छवियों के निर्माण के लिए BarcodeGenerator"
 type: docs
-weight: 700
+weight: 1000
 url: /hi/net/aspose.barcode.generation/barcodegenerator/
 ---
 ## BarcodeGenerator class
 
-बैकएंड बारकोड इमेज जेनरेशन के लिए बारकोड जेनरेटर।
+बैकएंड बारकोड इमेज जनरेशन के लिए BarcodeGenerator।
 
-supported symbologies: 1D: Codabar, Code11, Code128, Code39Standard, Code39Extended Code93Standard, Code93Extended, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14 , SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR कोड ...
+समर्थित प्रतीकात्मकताएँ: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Code93, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
 
 ```csharp
 public sealed class BarcodeGenerator : Component
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [BarcodeGenerator](barcodegenerator/#constructor)(BaseEncodeType) | बारकोडजेनरेटर का एक उदाहरण बनाता है। |
-| [BarcodeGenerator](barcodegenerator/#constructor_1)(BaseEncodeType, string) | बारकोडजेनरेटर का एक उदाहरण बनाता है। |
+| [BarcodeGenerator](barcodegenerator/#constructor)(BaseEncodeType) | BarcodeGenerator का एक उदाहरण बनाता है। |
+| [BarcodeGenerator](barcodegenerator/#constructor_1)(BaseEncodeType, string) | BarcodeGenerator का एक उदाहरण बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype/) { get; set; } | बारकोड सहजीवन प्रकार. |
-| [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext/) { get; set; } | एन्कोड किया जाने वाला टेक्स्ट. |
-| [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters/) { get; } | जनरेशन पैरामीटर. |
+| [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype/) { get; set; } | बारकोड प्रतीकात्मकता प्रकार। |
+| [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext/) { get; set; } | एन्कोड करने के लिए पाठ। |
+| [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters/) { get; } | जनरेशन पैरामीटर। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml)(Stream) | निर्दिष्ट एक्सएमएल-स्ट्रीम से बारकोड गुण आयात करता है और बारकोड जेनरेटर उदाहरण बनाता है। |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml_1)(string) | निर्दिष्ट एक्सएमएल-फाइल से बारकोड गुण आयात करता है और बारकोड जेनरेटर उदाहरण बनाता है। |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml)(Stream) | निर्दिष्ट xml-stream से BarCode गुण आयात करता है और BarcodeGenerator का उदाहरण बनाता है। |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml_1)(string) | निर्दिष्ट xml-file से BarCode गुण आयात करता है और BarcodeGenerator का उदाहरण बनाता है। |
 | [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf/)(DrawingContext) | WPF कैनवास पर बारकोड छवि बनाता है। |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml)(Stream) | बारकोड गुणों को एक्सएमएल-स्ट्रीम निर्दिष्ट में निर्यात करता है |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml_1)(string) | बारकोड गुणों को xml-फ़ाइल निर्दिष्ट में निर्यात करता है |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml)(Stream) | निर्दिष्ट xml-stream में BarCode प्रॉपर्टीज़ एक्सपोर्ट करता है |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml_1)(string) | निर्दिष्ट xml-file में BarCode प्रॉपर्टीज़ एक्सपोर्ट करता है |
 | [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage/)() | वर्तमान सेटिंग्स के तहत बारकोड छवि उत्पन्न करें। |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_1)(string) | विशिष्ट फ़ाइल में बारकोड छवि सहेजें. |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | विशिष्ट प्रारूप में स्ट्रीम करने के लिए बारकोड छवि सहेजें. |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | विशिष्ट प्रारूप में बारकोड छवि को विशिष्ट फ़ाइल में सहेजें। |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_1)(string) | बारकोड छवि को निर्दिष्ट फ़ाइल में सहेजें। |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | बारकोड छवि को निर्दिष्ट प्रारूप में स्ट्रीम पर सहेजें। |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | बारकोड छवि को निर्दिष्ट फ़ाइल में निर्दिष्ट प्रारूप में सहेजें। |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext)(byte[]) | codetext को बाइट अनुक्रम के रूप में सेट करें। |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_1)(string, Encoding) | निर्दिष्ट **encoding** का उपयोग करके Unicode **codeText** को बाइट अनुक्रम में एन्कोड करता है। UTF-8 सबसे अधिक उपयोग किया जाने वाला एन्कोडिंग है। यदि एन्कोडिंग इसे समर्थन करता है, तो फ़ंक्शन स्वचालित रूप से एक [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding) सम्मिलित करता है। |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_2)(string, Encoding, bool) | निर्दिष्ट **encoding** का उपयोग करके Unicode **codeText** को बाइट अनुक्रम में एन्कोड करता है। UTF-8 सबसे अधिक उपयोग किया जाने वाला एन्कोडिंग है। यदि एन्कोडिंग इसे समर्थन करता है और **insertBOM** `true` पर सेट है, तो फ़ंक्शन एक [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding) शामिल करता है। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना बारकोड छवि बनाने और सहेजने का तरीका दिखाता है।
+यह उदाहरण दिखाता है कि बारकोड छवि कैसे बनाएं और सहेजें।
 
 ```csharp
 [C#]
@@ -58,9 +61,9 @@ public sealed class BarcodeGenerator : Component
   }
 ```
 
-### यह सभी देखें
+### और देखें
 
-* नाम स्थान [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,51 +1,52 @@
 ---
-title: HIBCLICSecondaryAndAdditionalDataCodetext
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: HIBC LIC कड में एम्बेड कए गए टेक्स्ट क एन्कडंग और डकड करने के लए क्लस ज दूसरे डेट क स्टर करत है
+title: "क्लास HIBCLICSecondaryAndAdditionalDataCodetext"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.ComplexBarcode.HIBCLICSecondaryAndAdditionalDataCodetext क्लास। HIBC LIC कोड में एम्बेडेड टेक्स्ट को एन्कोड और डिकोड करने के लिए क्लास, जो द्वितीयक डेटा संग्रहीत करता है।"
 type: docs
-weight: 410
+weight: 590
 url: /hi/net/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/
 ---
 ## HIBCLICSecondaryAndAdditionalDataCodetext class
 
-HIBC LIC कोड में एम्बेड किए गए टेक्स्ट को एन्कोडिंग और डिकोड करने के लिए क्लास जो दूसरे डेटा को स्टोर करता है।
+द्वितीय डेटा संग्रहीत करने वाले HIBC LIC कोड में एम्बेड किए गए टेक्स्ट को एन्कोड और डिकोड करने के लिए क्लास।
 
 ```csharp
 public class HIBCLICSecondaryAndAdditionalDataCodetext : HIBCLICComplexCodetext
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext/)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext/)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | बारकोड प्रकार प्राप्त या सेट करता है। HIBC LIC कोडटेक्स्ट को HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC और HIBCQRLIC एन्कोड प्रकारों का उपयोग करके एन्कोड किया जा सकता है। डिफ़ॉल्ट मान: HIBCCode39LIC. |
-| [Data](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/data/) { get; set; } | माध्यमिक और अतिरिक्त पूरक डेटा की पहचान करता है। |
-| [LinkCharacter](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/linkcharacter/) { get; set; } | लिंक वर्ण की पहचान करता है। |
+| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | बारकोड प्रकार को प्राप्त करता है या सेट करता है। HIBC LIC कोडटेक्स्ट को HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC और HIBCQRLIC एन्कोड प्रकारों का उपयोग करके एन्कोड किया जा सकता है। डिफ़ॉल्ट मान: HIBCCode39LIC। |
+| [Data](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/data/) { get; set; } | द्वितीयक और अतिरिक्त पूरक डेटा की पहचान करता है। |
+| [LinkCharacter](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/linkcharacter/) { get; set; } | लिंक कैरेक्टर की पहचान करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं`HIBCLICSecondaryAndAdditionalDataCodetext` मान. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | बारकोड प्रकार प्राप्त करता है। |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/getconstructedcodetext/)() | कोडटेक्स्ट बनाता है |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/gethashcode/)() | इस उदाहरण के लिए हैश कोड लौटाता है। |
-| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/initfromstring/)(string) | निर्मित कोडटेक्स्ट से उदाहरण आरंभ करता है। |
+| override [Equals](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट `HIBCLICSecondaryAndAdditionalDataCodetext` मान के बराबर है या नहीं। |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | बारकोड प्रकार को प्राप्त करता है। |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/getconstructedcodetext/)() | कोडटेक्स्ट बनाता है। |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/gethashcode/)() | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
+| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/initfromstring/)(string) | निर्मित कोडटेक्स्ट से इंस्टेंस को प्रारंभ करता है। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि HIBCLICSecondaryAndAdditionalDataCodetext. का उपयोग करके HIBC LIC को कैसे एनकोड और डिकोड किया जाए
+यह नमूना दिखाता है कि HIBCLICSecondaryAndAdditionalDataCodetext का उपयोग करके HIBC LIC को कैसे एन्कोड और डिकोड किया जाता है।
 
 ```csharp
 [C#]
 HIBCLICSecondaryAndAdditionalDataCodetext complexCodetext = new HIBCLICSecondaryAndAdditionalDataCodetext();
 complexCodetext.BarcodeType = EncodeTypes.HIBCQRLIC;
+complexCodetext.LinkCharacter = 'L';
 complexCodetext.Data = new SecondaryAndAdditionalData();
 complexCodetext.Data.ExpiryDate = DateTime.Now;
 complexCodetext.Data.ExpiryDateFormat = HIBCLICDateFormat.MMDDYY;
@@ -70,10 +71,10 @@ using (ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCo
 }
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [HIBCLICComplexCodetext](../hibcliccomplexcodetext/)
-* नाम स्थान [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
