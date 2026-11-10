@@ -1,14 +1,14 @@
 ---
-title: MaxiCodeExtendedParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Αποθηκεύει πρόσθετες πληροφορίες MaxiCode με αναγνωρισμένο barcode
+title: "Κλάση MaxiCodeExtendedParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.BarCodeRecognition.MaxiCodeExtendedParameters. Αποθηκεύει πρόσθετες πληροφορίες MaxiCode του αναγνωρισμένου barcode."
 type: docs
-weight: 210
+weight: 310
 url: /el/net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 ## MaxiCodeExtendedParameters class
 
-Αποθηκεύει πρόσθετες πληροφορίες MaxiCode με αναγνωρισμένο barcode
+Αποθηκεύει πρόσθετες πληροφορίες MaxiCode του barcode που αναγνωρίστηκε.
 
 ```csharp
 public sealed class MaxiCodeExtendedParameters : BaseExtendedParameters
@@ -16,27 +16,27 @@ public sealed class MaxiCodeExtendedParameters : BaseExtendedParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Ελέγχει εάν όλες οι παράμετροι έχουν μόνο προεπιλεγμένες τιμές |
-| [MaxiCodeMode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodemode/) { get; set; } | Λαμβάνει ή ορίζει μια λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Mode4 |
-| [MaxiCodeStructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodeid/) { get; set; } | Λαμβάνει ή ορίζει ένα αναγνωριστικό γραμμικού κώδικα MaxiCode σε λειτουργία δομημένης προσθήκης. Προεπιλεγμένη τιμή: 0 |
-| [MaxiCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodescount/) { get; set; } | Λαμβάνει ή ορίζει έναν αριθμό γραμμωτών κωδίκων MaxiCode στη λειτουργία δομημένης προσάρτησης. Προεπιλεγμένη τιμή: -1 |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Δοκιμάζει εάν όλες οι παράμετροι έχουν μόνο τις προεπιλεγμένες τιμές |
+| [Mode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/mode/) { get; } | Λαμβάνει ή ορίζει μια λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Mode4. |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodeid/) { get; } | Λαμβάνει ή ορίζει ένα αναγνωριστικό barcode MaxiCode σε λειτουργία δομημένης προσθήκης. Προεπιλεγμένη τιμή: 0. |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodescount/) { get; } | Λαμβάνει ή ορίζει τον αριθμό των barcodes MaxiCode σε λειτουργία δομημένης προσθήκης. Προεπιλεγμένη τιμή: -1. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`MaxiCodeExtendedParameters` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [ToString](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`MaxiCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη`MaxiCodeExtendedParameters` η τιμή είναι ίση με τη δεύτερη. |
-| [operator !=](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει αν είναι η πρώτη`MaxiCodeExtendedParameters` η τιμή είναι διαφορετική από τη δεύτερη. |
+| override [Equals](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `MaxiCodeExtendedParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [ToString](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `MaxiCodeExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `MaxiCodeExtendedParameters` είναι ίση με τη δεύτερη. |
+| [operator !=](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `MaxiCodeExtendedParameters` διαφέρει από τη δεύτερη. |
 
 ### Δείτε επίσης
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

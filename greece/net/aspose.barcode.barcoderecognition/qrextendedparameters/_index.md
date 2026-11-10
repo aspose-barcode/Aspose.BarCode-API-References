@@ -1,14 +1,14 @@
 ---
-title: QRExtendedParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Αποθηκεύει πληροφορίες δομημένης προσάρτησης QR αναγνωρισμένου γραμμικού κώδικα
+title: "Κλάση QRExtendedParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.BarCodeRecognition.QRExtendedParameters κλάση. Αποθηκεύει πληροφορίες QR Structured Append του αναγνωρισμένου barcode"
 type: docs
-weight: 250
+weight: 350
 url: /el/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Αποθηκεύει πληροφορίες δομημένης προσάρτησης QR αναγνωρισμένου γραμμικού κώδικα
+Αποθηκεύει πληροφορίες QR Structured Append του barcode που αναγνωρίστηκε.
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
@@ -16,26 +16,30 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Ελέγχει εάν όλες οι παράμετροι έχουν μόνο προεπιλεγμένες τιμές |
-| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex/) { get; } | Λαμβάνει το ευρετήριο του γραμμωτού κώδικα λειτουργίας δομημένης προσθήκης QR. Ο δείκτης ξεκινά από 0. Η προεπιλεγμένη τιμή είναι -1. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity/) { get; } | Λαμβάνει την ποσότητα γραμμωτών κωδίκων δομημένης λειτουργίας προσάρτησης QR. Η προεπιλεγμένη τιμή είναι -1. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata/) { get; } | Λαμβάνει τα δεδομένα ισοτιμίας δομημένης λειτουργίας προσάρτησης QR. Η προεπιλεγμένη τιμή είναι -1. |
+| [ErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/errorlevel/) { get; } | Επίπεδο διόρθωσης σφαλμάτων Reed‑Solomon του αναγνωρισμένου barcode. Από χαμηλό προς υψηλό: LevelL, LevelM, LevelQ, LevelH. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Δοκιμάζει εάν όλες οι παράμετροι έχουν μόνο τις προεπιλεγμένες τιμές |
+| [MicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/) { get; } | Έκδοση του αναγνωρισμένου MicroQR Code. Από M1 έως M4. |
+| [RectMicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/) { get; } | Έκδοση του αναγνωρισμένου RectMicroQR Code. Από R7x43 έως R17x139. |
+| [StructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/) { get; } | Λαμβάνει το δείκτη του barcode σε λειτουργία QR structured append. Ο δείκτης ξεκινά από 0. Η προεπιλεγμένη τιμή είναι -1. |
+| [StructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/) { get; } | Λαμβάνει την ποσότητα των barcode σε λειτουργία QR structured append. Η προεπιλεγμένη τιμή είναι -1. |
+| [StructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodeparitydata/) { get; } | Λαμβάνει τα δεδομένα ισοτιμίας (parity) της λειτουργίας QR structured append. Η προεπιλεγμένη τιμή είναι -1. |
+| [Version](../../aspose.barcode.barcoderecognition/qrextendedparameters/version/) { get; } | Έκδοση του αναγνωρισμένου QR Code. Από Version1 έως Version40. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`QRExtendedParameters` τιμή. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`QRExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη`QRExtendedParameters` η τιμή είναι ίση με τη δεύτερη. |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει αν είναι η πρώτη`QRExtendedParameters` η τιμή είναι διαφορετική από τη δεύτερη. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `QRExtendedParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `QRExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `QRExtendedParameters` είναι ίση με τη δεύτερη. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρώτη τιμή `QRExtendedParameters` διαφέρει από τη δεύτερη. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να λάβετε QR Structured Append data
+Αυτό το παράδειγμα δείχνει πώς να λάβετε τα δεδομένα QR Structured Append
 
 ```csharp
 [C#]
@@ -65,7 +69,7 @@ End Using
 ### Δείτε επίσης
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

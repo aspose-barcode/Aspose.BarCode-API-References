@@ -1,16 +1,16 @@
 ---
-title: Address
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Διεύθυνση πιστωτή ή οφειλέτη.
+title: "Κλάση Address"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.ComplexBarcode.Address. Διεύθυνση του πιστωτή ή του οφειλέτη"
 type: docs
-weight: 320
+weight: 480
 url: /el/net/aspose.barcode.complexbarcode/address/
 ---
 ## Address class
 
-Διεύθυνση πιστωτή ή οφειλέτη.
+Διεύθυνση του πιστωτή ή του οφειλέτη.
 
-Μπορείτε είτε να ορίσετε οδό, αριθμό σπιτιού, ταχυδρομικό κώδικα και πόλη (τύποςδομημένη διεύθυνση ) ή γραμμή διεύθυνσης 1 και 2 (τύποςσυνδυασμένα στοιχεία διεύθυνσης ). Ο τύπος ορίζεται αυτόματα set μόλις οριστεί οποιοδήποτε από αυτά τα πεδία. Πριν ορίσετε τα πεδία, ο τύπος διεύθυνσης είναιαναποφάσιστος . Εάν έχουν οριστεί πεδία και των δύο τύπων, γίνεται ο τύπος διεύθυνσηςαντιφατικός . Το όνομα και ο κωδικός χώρας πρέπει πάντα να ορίζονται εκτός εάν όλα τα πεδία είναι άδεια.
+Μπορείτε είτε να ορίσετε το δρόμο, τον αριθμό σπιτιού, τον ταχυδρομικό κώδικα και την πόλη (τύπος δομημένης διεύθυνσης) είτε τη γραμμή διεύθυνσης 1 και 2 (τύπος συνδυασμένων στοιχείων διεύθυνσης). Ο τύπος ορίζεται αυτόματα μόλις οριστεί οποιοδήποτε από αυτά τα πεδία. Πριν οριστούν τα πεδία, ο τύπος διεύθυνσης είναι ακαθόριστος. Εάν οριστούν πεδία και των δύο τύπων, ο τύπος διεύθυνσης γίνεται συγκρουσιακός. Το όνομα και ο κωδικός χώρας πρέπει πάντα να ορίζονται εκτός εάν όλα τα πεδία είναι κενά.
 
 ```csharp
 public sealed class Address : IEquatable<Address>
@@ -18,36 +18,36 @@ public sealed class Address : IEquatable<Address>
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Address](address/)() | Δημιουργεί παρουσία του Address |
+| [Address](address/)() | Δημιουργεί μια παρουσία της Address |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1/) { get; set; } | Λαμβάνει ή ορίζει τη γραμμή διεύθυνσης 1. |
-| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2/) { get; set; } | Λαμβάνει ή ορίζει τη γραμμή διεύθυνσης 2. |
-| [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode/) { get; set; } | Λαμβάνει ή ορίζει τον κωδικό χώρας ISO δύο γραμμάτων. |
-| [HouseNo](../../aspose.barcode.complexbarcode/address/houseno/) { get; set; } | Λαμβάνει ή ορίζει τον αριθμό του σπιτιού. |
-| [Name](../../aspose.barcode.complexbarcode/address/name/) { get; set; } | Παίρνει ή ορίζει το όνομα, είτε το όνομα και το επώνυμο ενός φυσικού προσώπου είτε το όνομα της εταιρείας ενός νομικού προσώπου. |
-| [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode/) { get; set; } | Λαμβάνει ή ορίζει τον ταχυδρομικό κώδικα. |
-| [Street](../../aspose.barcode.complexbarcode/address/street/) { get; set; } | Παίρνει ή ρυθμίζει την οδό. |
-| [Town](../../aspose.barcode.complexbarcode/address/town/) { get; set; } | Αποκτά ή ορίζει την πόλη ή την πόλη. |
-| [Type](../../aspose.barcode.complexbarcode/address/type/) { get; } | Λαμβάνει τον τύπο διεύθυνσης. |
+| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1/) { get; set; } | Ανακτά ή ορίζει τη γραμμή διεύθυνσης 1. |
+| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2/) { get; set; } | Ανακτά ή ορίζει τη γραμμή διεύθυνσης 2. |
+| [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode/) { get; set; } | Ανακτά ή ορίζει τον διψήφιο κωδικό χώρας ISO. |
+| [HouseNo](../../aspose.barcode.complexbarcode/address/houseno/) { get; set; } | Ανακτά ή ορίζει τον αριθμό σπιτιού. |
+| [Name](../../aspose.barcode.complexbarcode/address/name/) { get; set; } | Ανακτά ή ορίζει το όνομα, είτε το όνομα και επώνυμο φυσικού προσώπου είτε το όνομα εταιρείας νομικού προσώπου. |
+| [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode/) { get; set; } | Ανακτά ή ορίζει τον ταχυδρομικό κώδικα. |
+| [Street](../../aspose.barcode.complexbarcode/address/street/) { get; set; } | Ανακτά ή ορίζει το δρόμο. |
+| [Town](../../aspose.barcode.complexbarcode/address/town/) { get; set; } | Ανακτά ή ορίζει την πόλη ή το κωμόπολη. |
+| [Type](../../aspose.barcode.complexbarcode/address/type/) { get; } | Ανακτά τον τύπο διεύθυνσης. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Clear](../../aspose.barcode.complexbarcode/address/clear/)() | Διαγράφει όλα τα πεδία και ορίζει τον τύπο σεUndetermined . |
+| [Clear](../../aspose.barcode.complexbarcode/address/clear/)() | Καθαρίζει όλα τα πεδία και ορίζει τον τύπο σε Απροσδιόριστο. |
 | [Equals](../../aspose.barcode.complexbarcode/address/equals/#equals)(Address) | Καθορίζει εάν η καθορισμένη διεύθυνση είναι ίση με την τρέχουσα διεύθυνση. |
 | override [Equals](../../aspose.barcode.complexbarcode/address/equals/#equals_1)(object) | Καθορίζει εάν το καθορισμένο αντικείμενο είναι ίσο με το τρέχον αντικείμενο. |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode/)() | Λαμβάνει τον κωδικό κατακερματισμού για αυτήν την περίπτωση. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode/)() | Λαμβάνει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

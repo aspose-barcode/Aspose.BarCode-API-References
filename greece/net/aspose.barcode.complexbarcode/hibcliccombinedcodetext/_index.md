@@ -1,14 +1,14 @@
 ---
-title: HIBCLICCombinedCodetext
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Κλάση για την κωδικοποίηση και την αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κωδικό HIBC LIC που αποθηκεύει πρωτεύοντα και δευτερογενή δεδομένα.
+title: "Κλάση HIBCLICCombinedCodetext"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.ComplexBarcode.HIBCLICCombinedCodetext κλάση. Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που ενσωματώνεται στον κώδικα HIBC LIC ο οποίος αποθηκεύει πρωτεύοντα και δευτερεύοντα δεδομένα"
 type: docs
-weight: 370
+weight: 550
 url: /el/net/aspose.barcode.complexbarcode/hibcliccombinedcodetext/
 ---
 ## HIBCLICCombinedCodetext class
 
-Κλάση για την κωδικοποίηση και την αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κωδικό HIBC LIC που αποθηκεύει πρωτεύοντα και δευτερογενή δεδομένα.
+Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κώδικα HIBC LIC, ο οποίος αποθηκεύει πρωτεύοντα και δευτερεύοντα δεδομένα.
 
 ```csharp
 public class HIBCLICCombinedCodetext : HIBCLICComplexCodetext
@@ -16,31 +16,31 @@ public class HIBCLICCombinedCodetext : HIBCLICComplexCodetext
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [HIBCLICCombinedCodetext](hibcliccombinedcodetext/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Λαμβάνει ή ορίζει τον τύπο γραμμικού κώδικα. Το κωδικοποιημένο κείμενο HIBC LIC μπορεί να κωδικοποιηθεί χρησιμοποιώντας τύπους κωδικοποίησης HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC και HIBCQRLIC. Προεπιλεγμένη τιμή: HIBCCode39LIC. |
-| [PrimaryData](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/primarydata/) { get; set; } | Προσδιορίζει πρωτεύοντα δεδομένα. |
-| [SecondaryAndAdditionalData](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/secondaryandadditionaldata/) { get; set; } | Προσδιορίζει δευτερεύοντα και πρόσθετα συμπληρωματικά δεδομένα. |
+| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Λαμβάνει ή ορίζει τον τύπο του barcode. Το codetext HIBC LIC μπορεί να κωδικοποιηθεί χρησιμοποιώντας τους τύπους κωδικοποίησης HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC και HIBCQRLIC. Προεπιλεγμένη τιμή: HIBCCode39LIC. |
+| [PrimaryData](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/primarydata/) { get; set; } | Αναγνωρίζει τα πρωτεύοντα δεδομένα. |
+| [SecondaryAndAdditionalData](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/secondaryandadditionaldata/) { get; set; } | Αναγνωρίζει δευτερεύοντα και πρόσθετα συμπληρωματικά δεδομένα. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`HIBCLICCombinedCodetext` τιμή. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Λαμβάνει τύπο γραμμικού κώδικα. |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/getconstructedcodetext/)() | Κατασκευάζει codetext |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [InitFromString](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/initfromstring/)(string) | Αρχικοποιεί το στιγμιότυπο από το κατασκευασμένο κώδικα κειμένου. |
+| override [Equals](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `HIBCLICCombinedCodetext`. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Λαμβάνει τον τύπο του barcode. |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/getconstructedcodetext/)() | Δημιουργεί το codetext |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [InitFromString](../../aspose.barcode.complexbarcode/hibcliccombinedcodetext/initfromstring/)(string) | Αρχικοποιεί την παρουσία από το κατασκευασμένο codetext. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να κωδικοποιήσετε και να αποκωδικοποιήσετε το HIBC LIC χρησιμοποιώντας το HIBCLICCombinedCodetext.
+Αυτό το παράδειγμα δείχνει πώς να κωδικοποιήσετε και να αποκωδικοποιήσετε το HIBC LIC χρησιμοποιώντας το HIBCLICCombinedCodetext.
 
 ```csharp
 [C#]
@@ -80,7 +80,7 @@ using (ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(combinedC
 ### Δείτε επίσης
 
 * class [HIBCLICComplexCodetext](../hibcliccomplexcodetext/)
-* χώρος ονομάτων [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

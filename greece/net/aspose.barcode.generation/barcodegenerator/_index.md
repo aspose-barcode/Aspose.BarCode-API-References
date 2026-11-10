@@ -1,16 +1,16 @@
 ---
-title: BarcodeGenerator
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: BarcodeGenerator για δημιουργία εικόνων γραμμικού κώδικα υποστήριξης.
+title: "Κλάση BarcodeGenerator"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.Generation.BarcodeGenerator. BarcodeGenerator για δημιουργία εικόνων barcode στο backend"
 type: docs
-weight: 700
+weight: 1000
 url: /el/net/aspose.barcode.generation/barcodegenerator/
 ---
 ## BarcodeGenerator class
 
-BarcodeGenerator για δημιουργία εικόνων γραμμικού κώδικα υποστήριξης.
+BarcodeGenerator για τη δημιουργία εικόνων barcode στο backend.
 
-Υποστηριζόμενες συμβολισμοί: 1d: codabar, code11, code128, code39standard, code39extended code93standard, code93extended, ean13, ean8, interaleved2of5, msi, standard2of5, upca, upce, usebn, sco128, plante1, plante1, plante1, plante1, eanca. , SingaporePost ... 2D: Aztec, DataMatrix, PDf417, κωδικός QR ...
+υποστηριζόμενοι συμβολισμοί: 1D: Codabar, Code11, Code128, Code39, Code39FullASCII Code93, EAN13, EAN8, Interleaved2of5, MSI, Standard2of5, UPCA, UPCE, ISBN, GS1Code128, Postnet, Planet EAN14, SCC14, SSCC18, ITF14, SingaporePost ... 2D: Aztec, DataMatrix, PDf417, QR code ...
 
 ```csharp
 public sealed class BarcodeGenerator : Component
@@ -18,36 +18,39 @@ public sealed class BarcodeGenerator : Component
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BarcodeGenerator](barcodegenerator/#constructor)(BaseEncodeType) | Δημιουργεί μια παρουσία του BarcodeGenerator. |
-| [BarcodeGenerator](barcodegenerator/#constructor_1)(BaseEncodeType, string) | Δημιουργεί μια παρουσία του BarcodeGenerator. |
+| [BarcodeGenerator](barcodegenerator/#constructor)(BaseEncodeType) | Δημιουργεί ένα στιγμιότυπο του BarcodeGenerator. |
+| [BarcodeGenerator](barcodegenerator/#constructor_1)(BaseEncodeType, string) | Δημιουργεί ένα στιγμιότυπο του BarcodeGenerator. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype/) { get; set; } | Τύπος συμβολολογίας γραμμωτού κώδικα. |
+| [BarcodeType](../../aspose.barcode.generation/barcodegenerator/barcodetype/) { get; set; } | Τύπος συμβολισμού Barcode. |
 | [CodeText](../../aspose.barcode.generation/barcodegenerator/codetext/) { get; set; } | Κείμενο προς κωδικοποίηση. |
 | [Parameters](../../aspose.barcode.generation/barcodegenerator/parameters/) { get; } | Παράμετροι δημιουργίας. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml)(Stream) | Εισάγει ιδιότητες BarCode από την καθορισμένη ροή xml και δημιουργεί την παρουσία BarcodeGenerator. |
-| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml_1)(string) | Εισάγει ιδιότητες BarCode από το καθορισμένο αρχείο xml και δημιουργεί την παρουσία BarcodeGenerator. |
-| [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf/)(DrawingContext) | Σχεδιάζει εικόνα γραμμικού κώδικα σε καμβά WPF. |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml)(Stream) | Εξάγει ιδιότητες BarCode στη ροή xml specified |
-| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml_1)(string) | Εξάγει ιδιότητες BarCode στο αρχείο xml specified |
-| [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage/)() | Δημιουργήστε την εικόνα γραμμικού κώδικα με τις τρέχουσες ρυθμίσεις. |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_1)(string) | Αποθήκευση εικόνας γραμμικού κώδικα σε συγκεκριμένο αρχείο. |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | Αποθήκευση εικόνας γραμμικού κώδικα για ροή σε συγκεκριμένη μορφή. |
-| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | Αποθήκευση εικόνας γραμμικού κώδικα σε συγκεκριμένο αρχείο σε συγκεκριμένη μορφή. |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml)(Stream) | Εισάγει τις ιδιότητες BarCode από το καθορισμένο xml-stream και δημιουργεί ένα στιγμιότυπο του BarcodeGenerator. |
+| static [ImportFromXml](../../aspose.barcode.generation/barcodegenerator/importfromxml/#importfromxml_1)(string) | Εισάγει τις ιδιότητες BarCode από το καθορισμένο xml-file και δημιουργεί ένα στιγμιότυπο του BarcodeGenerator. |
+| [DrawWpf](../../aspose.barcode.generation/barcodegenerator/drawwpf/)(DrawingContext) | Σχεδιάζει την εικόνα barcode σε καμβά WPF. |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml)(Stream) | Εξάγει τις ιδιότητες BarCode στο καθορισμένο xml-stream |
+| [ExportToXml](../../aspose.barcode.generation/barcodegenerator/exporttoxml/#exporttoxml_1)(string) | Εξάγει τις ιδιότητες BarCode στο καθορισμένο xml-file |
+| [GenerateBarCodeImage](../../aspose.barcode.generation/barcodegenerator/generatebarcodeimage/)() | Δημιουργεί την εικόνα barcode με τις τρέχουσες ρυθμίσεις. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_1)(string) | Αποθηκεύει την εικόνα barcode σε συγκεκριμένο αρχείο. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save)(Stream, BarCodeImageFormat) | Αποθηκεύει την εικόνα barcode σε ροή σε συγκεκριμένη μορφή. |
+| [Save](../../aspose.barcode.generation/barcodegenerator/save/#save_2)(string, BarCodeImageFormat) | Αποθηκεύει την εικόνα barcode σε συγκεκριμένο αρχείο σε συγκεκριμένη μορφή. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext)(byte[]) | Ορίζει το codetext ως ακολουθία byte. |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_1)(string, Encoding) | Κωδικοποιεί το Unicode **codeText** σε ακολουθία byte χρησιμοποιώντας την καθορισμένη **encoding**. Το UTF-8 είναι η πιο κοινή κωδικοποίηση. Εάν η κωδικοποίηση το υποστηρίζει, η λειτουργία εισάγει αυτόματα ένα [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). |
+| [SetCodeText](../../aspose.barcode.generation/barcodegenerator/setcodetext/#setcodetext_2)(string, Encoding, bool) | Κωδικοποιεί το Unicode **codeText** σε ακολουθία byte χρησιμοποιώντας την καθορισμένη **encoding**. Το UTF-8 είναι η πιο κοινή κωδικοποίηση. Εάν η κωδικοποίηση το υποστηρίζει και το **insertBOM** είναι ορισμένο σε `true`, η λειτουργία περιλαμβάνει ένα [byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark#Byte-order_marks_by_encoding). |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να δημιουργήσετε και να αποθηκεύσετε μια εικόνα γραμμικού κώδικα.
+Αυτό το παράδειγμα δείχνει πώς να δημιουργήσετε και να αποθηκεύσετε μια εικόνα barcode.
 
 ```csharp
 [C#]
@@ -60,7 +63,7 @@ public sealed class BarcodeGenerator : Component
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

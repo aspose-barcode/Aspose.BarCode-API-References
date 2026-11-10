@@ -1,14 +1,14 @@
 ---
-title: MaxiCodeStructuredCodetext
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Βασική κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κώδικα MaxiCode για τις λειτουργίες 2 και 3.
+title: "Κλάση MaxiCodeStructuredCodetext"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.ComplexBarcode.MaxiCodeStructuredCodetext class. Βασική κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κωδικό MaxiCode για τις λειτουργίες 2 και 3"
 type: docs
-weight: 560
+weight: 740
 url: /el/net/aspose.barcode.complexbarcode/maxicodestructuredcodetext/
 ---
 ## MaxiCodeStructuredCodetext class
 
-Βασική κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που είναι ενσωματωμένο στον κώδικα MaxiCode για τις λειτουργίες 2 και 3.
+Βασική κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου που ενσωματώνεται στον κώδικα MaxiCode για λειτουργίες 2 και 3.
 
 ```csharp
 public abstract class MaxiCodeStructuredCodetext : MaxiCodeCodetext
@@ -16,29 +16,29 @@ public abstract class MaxiCodeStructuredCodetext : MaxiCodeCodetext
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CountryCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/countrycode/) { get; set; } | Προσδιορίζει τον τριψήφιο κωδικό χώρας. |
-| [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Λαμβάνει ή ορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το MaxiCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
-| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | Λαμβάνει ή ορίζει μια λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Auto. |
-| [PostalCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/postalcode/) { get; set; } | Προσδιορίζει τον ταχυδρομικό κώδικα. Πρέπει να είναι 9 ψηφία στη λειτουργία 2 ή 6 αλφαριθμητικά σύμβολα στη λειτουργία 3. |
-| [SecondMessage](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/secondmessage/) { get; set; } | Προσδιορίζει το δεύτερο μήνυμα του γραμμικού κώδικα. |
-| [ServiceCategory](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/servicecategory/) { get; set; } | Προσδιορίζει τριψήφια κατηγορία υπηρεσιών. |
+| [CountryCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/countrycode/) { get; set; } | Αναγνωρίζει τον τριψήφιο κωδικό χώρας. |
+| [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Ανακτά ή ορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το MaxiCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
+| [EncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/encodemode/) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Auto. |
+| [PostalCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/postalcode/) { get; set; } | Αναγνωρίζει τον ταχυδρομικό κώδικα. Πρέπει να αποτελείται από 9 ψηφία σε λειτουργία 2 ή 6 αλφαριθμητικά σύμβολα σε λειτουργία 3. |
+| [SecondMessage](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/secondmessage/) { get; set; } | Αναγνωρίζει το δεύτερο μήνυμα του barcode. |
+| [ServiceCategory](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/servicecategory/) { get; set; } | Αναγνωρίζει την κατηγορία υπηρεσίας 3 ψηφίων. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`MaxiCodeStructuredCodetext` τιμή. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/)() | Λαμβάνει τύπο γραμμικού κώδικα. |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/getconstructedcodetext/)() | Κατασκευάζει codetext |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| abstract [GetMode](../../aspose.barcode.complexbarcode/maxicodecodetext/getmode/)() | Αποκτά τη λειτουργία MaxiCode. |
-| override [InitFromString](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/initfromstring/)(string) | Αρχικοποιεί το στιγμιότυπο από το κατασκευασμένο κώδικα κειμένου. |
+| override [Equals](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `MaxiCodeStructuredCodetext`. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/)() | Λαμβάνει τον τύπο του barcode. |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/getconstructedcodetext/)() | Δημιουργεί το codetext |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| abstract [GetMode](../../aspose.barcode.complexbarcode/maxicodecodetext/getmode/)() | Λαμβάνει τη λειτουργία MaxiCode. |
+| override [InitFromString](../../aspose.barcode.complexbarcode/maxicodestructuredcodetext/initfromstring/)(string) | Αρχικοποιεί την παρουσία από το κατασκευασμένο codetext. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Αυτό το δείγμα δείχνει πώς να αποκωδικοποιήσετε ακατέργαστο κείμενο κωδικοποίησης MaxiCode σε παράδειγμα MaxiCodeStructuredCodetext.
+Αυτό το παράδειγμα δείχνει πώς να αποκωδικοποιήσετε ακατέργαστο κείμενο κώδικα MaxiCode σε παρουσία MaxiCodeStructuredCodetext.
 
 ```csharp
 [C#]
@@ -60,7 +60,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.MaxiC
 ### Δείτε επίσης
 
 * class [MaxiCodeCodetext](../maxicodecodetext/)
-* χώρος ονομάτων [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

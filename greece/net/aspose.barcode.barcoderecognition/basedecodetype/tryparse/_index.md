@@ -1,14 +1,14 @@
 ---
-title: TryParse
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Μετατρέπει την αναπαράσταση συμβολοσειράς ενός SingleDecodeType στην παρουσία του. Μια επιστρεφόμενη τιμή υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
+title: "BaseDecodeType.TryParse"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Μέθοδος BaseDecodeType. Μετατρέπει την αναπαράσταση συμβολοσειράς ενός SingleDecodeType στην αντίστοιχη του. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε"
 type: docs
 weight: 40
 url: /el/net/aspose.barcode.barcoderecognition/basedecodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_2}
 
-Μετατρέπει την αναπαράσταση συμβολοσειράς ενός SingleDecodeType στην παρουσία του. Μια επιστρεφόμενη τιμή υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
+Μετατρέπει την αναπαράσταση συμβολοσειράς ενός SingleDecodeType στην παρουσία του. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
 
 ```csharp
 public static bool TryParse(string parsingType, out SingleDecodeType result)
@@ -16,51 +16,51 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| parsingType | String | Μια συμβολοσειρά που περιέχει μια αναπαράσταση SingleDecodeType για μετατροπή. |
-| result | SingleDecodeType& | Ένα πραγματικό SingleDecodeType επιστρέφεται, όταν η μετατροπή έχει ολοκληρωθεί με επιτυχία. |
+| parsingType | String | Μια συμβολοσειρά που περιέχει ένα SingleDecodeType στη μορφή "EAN8" ή "EAN13" ή "CodaBar"... για μετατροπή. |
+| αποτέλεσμα | SingleDecodeType& | Επιστρέφεται ένα πραγματικό SingleDecodeType όταν η μετατροπή ολοκληρωθεί επιτυχώς· διαφορετικά επιστρέφει αόριστο τύπο: DecodeType.None. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το s μετατράπηκε με επιτυχία. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
 ### Δείτε επίσης
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse_1}
+## TryParse(string, out MultiDecodeType) {#tryparse_1}
 
-Μετατρέπει την παράσταση συμβολοσειράς ενός MultyDecodeType στο στιγμιότυπο του. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
+Μετατρέπει την αναπαράσταση συμβολοσειράς ενός MultiDecodeType στην παρουσία του. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| parsingType | String | Μια συμβολοσειρά που περιέχει μια αναπαράσταση MultyDecodeType για μετατροπή. |
-| result | MultyDecodeType& | Ένα πραγματικό MultyDecodeType επιστρέφεται, όταν η μετατροπή έχει ολοκληρωθεί με επιτυχία. |
+| parsingType | String | Μια συμβολοσειρά που περιέχει μια αναπαράσταση MultiDecodeType για μετατροπή. |
+| αποτέλεσμα | MultiDecodeType& | Επιστρέφεται ένα πραγματικό MultiDecodeType όταν η μετατροπή ολοκληρωθεί επιτυχώς· διαφορετικά επιστρέφει αόριστο τύπο: new MultiDecodeType(DecodeType.None) |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το s μετατράπηκε με επιτυχία. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
 ### Δείτε επίσης
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## TryParse(string, out BaseDecodeType) {#tryparse}
 
-Μετατρέπει την αναπαράσταση συμβολοσειράς ενός BaseDecodeType στο στιγμιότυπο του, έχοντας καθορίσει τον συγκεκριμένο τύπο. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
+Μετατρέπει την αναπαράσταση συμβολοσειράς ενός BaseDecodeType στην παρουσία του, αφού έχει προσδιοριστεί ο συγκεκριμένος τύπος. Μια τιμή επιστροφής υποδεικνύει εάν η μετατροπή πέτυχε ή απέτυχε.
 
 ```csharp
 public static bool TryParse(string parsingType, out BaseDecodeType result)
@@ -68,17 +68,17 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| parsingType | String | Μια συμβολοσειρά που περιέχει μια αναπαράσταση MultyDecodeType για μετατροπή. |
-| result | BaseDecodeType& | Ένα πραγματικό MultyDecodeType επιστρέφεται, όταν η μετατροπή έχει ολοκληρωθεί με επιτυχία. |
+| parsingType | String | Μια συμβολοσειρά που περιέχει μια αναπαράσταση MultiDecodeType για μετατροπή. |
+| αποτέλεσμα | BaseDecodeType& | Επιστρέφεται ένα πραγματικό MultiDecodeType όταν η μετατροπή ολοκληρωθεί επιτυχώς· διαφορετικά επιστρέφει αόριστο τύπο: DecodeType.None. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-**αληθής** αν το s μετατράπηκε με επιτυχία. σε διαφορετική περίπτωση, **ψευδής**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
 ### Δείτε επίσης
 
 * class [BaseDecodeType](../)
-* χώρος ονομάτων [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* συνέλευση [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

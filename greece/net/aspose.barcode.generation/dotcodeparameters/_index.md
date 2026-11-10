@@ -1,9 +1,9 @@
 ---
-title: DotCodeParameters
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Παράμετροι DotCode.
+title: "Κλάση DotCodeParameters"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.Generation.DotCodeParameters κλάση. DotCode παράμετροι"
 type: docs
-weight: 920
+weight: 1260
 url: /el/net/aspose.barcode.generation/dotcodeparameters/
 ---
 ## DotCodeParameters class
@@ -16,26 +16,26 @@ public class DotCodeParameters
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio/) { get; set; } | Λόγος ύψους/πλάτους μονάδας 2D BarCode. |
-| [Columns](../../aspose.barcode.generation/dotcodeparameters/columns/) { get; set; } | Προσδιορίζει τον αριθμό των στηλών. Το άθροισμα του αριθμού των σειρών συν τον αριθμό των στηλών ενός συμβόλου DotCode πρέπει να είναι περιττό. Ο αριθμός στηλών πρέπει να είναι τουλάχιστον 5. Προεπιλεγμένη τιμή: -1 |
-| [DotCodeEncodeMode](../../aspose.barcode.generation/dotcodeparameters/dotcodeencodemode/) { get; set; } | Προσδιορίζει τη λειτουργία κωδικοποίησης DotCode. Προεπιλεγμένη τιμή: Auto. |
-| [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.generation/dotcodeparameters/dotcodestructuredappendmodebarcodeid/) { get; set; } | Προσδιορίζει το αναγνωριστικό του γραμμωτού κώδικα λειτουργίας δομημένης προσθήκης DotCode. Το αναγνωριστικό ξεκινά από το 1 και πρέπει να είναι μικρότερο ή ίσο με τον αριθμό των γραμμωτών κωδίκων. Η προεπιλεγμένη τιμή είναι -1. |
-| [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.generation/dotcodeparameters/dotcodestructuredappendmodebarcodescount/) { get; set; } | Προσδιορίζει τον αριθμό των γραμμωτών κωδίκων με δομημένη λειτουργία προσάρτησης DotCode. Η προεπιλεγμένη τιμή είναι -1. Το πλήθος πρέπει να είναι μια τιμή από 1 έως 35. |
-| [ECIEncoding](../../aspose.barcode.generation/dotcodeparameters/eciencoding/) { get; set; } | Προσδιορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το DotCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
-| [IsReaderInitialization](../../aspose.barcode.generation/dotcodeparameters/isreaderinitialization/) { get; set; } | Υποδεικνύει εάν ο κώδικας χρησιμοποιείται για τον αναγνώστη εντολών για να ερμηνεύσει τα ακόλουθα δεδομένα ως οδηγίες για την προετοιμασία ή τον επαναπρογραμματισμό του αναγνώστη γραμμικού κώδικα. Η προεπιλεγμένη τιμή είναι ψευδής. |
-| [Rows](../../aspose.barcode.generation/dotcodeparameters/rows/) { get; set; } | Προσδιορίζει τον αριθμό των σειρών. Το άθροισμα του αριθμού των σειρών συν τον αριθμό των στηλών ενός συμβόλου DotCode πρέπει να είναι περιττό. Ο αριθμός των σειρών πρέπει να είναι τουλάχιστον 5. Προεπιλεγμένη τιμή: -1 |
+| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio/) { get; set; } | Αναλογία Ύψος/Πλάτος του 2D BarCode μονάδας. |
+| [Columns](../../aspose.barcode.generation/dotcodeparameters/columns/) { get; set; } | Καθορίζει τον αριθμό των στηλών. Το άθροισμα του αριθμού των γραμμών και του αριθμού των στηλών ενός συμβόλου DotCode πρέπει να είναι περιττό. Ο αριθμός των στηλών πρέπει να είναι τουλάχιστον 5. Προεπιλεγμένη τιμή: -1 |
+| [ECIEncoding](../../aspose.barcode.generation/dotcodeparameters/eciencoding/) { get; set; } | Καθορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το DotCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
+| [EncodeMode](../../aspose.barcode.generation/dotcodeparameters/encodemode/) { get; set; } | Καθορίζει τη λειτουργία κωδικοποίησης DotCode. Προεπιλεγμένη τιμή: Auto. |
+| [IsReaderInitialization](../../aspose.barcode.generation/dotcodeparameters/isreaderinitialization/) { get; set; } | Υποδεικνύει εάν ο κώδικας χρησιμοποιείται για να καθοδηγήσει τον αναγνώστη να ερμηνεύσει τα παρακάτω δεδομένα ως οδηγίες για την εκκίνηση ή την επαναπρογραμματισμό του αναγνώστη barcode. Η προεπιλεγμένη τιμή είναι ψευδής. |
+| [Rows](../../aspose.barcode.generation/dotcodeparameters/rows/) { get; set; } | Καθορίζει τον αριθμό των γραμμών. Το άθροισμα του αριθμού των γραμμών και του αριθμού των στηλών ενός συμβόλου DotCode πρέπει να είναι περιττό. Ο αριθμός των γραμμών πρέπει να είναι τουλάχιστον 5. Προεπιλεγμένη τιμή: -1 |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.generation/dotcodeparameters/structuredappendmodebarcodeid/) { get; set; } | Καθορίζει το ID του κώδικα barcode λειτουργίας δομημένης προσθήκης DotCode. Το ID ξεκινά από 1 και πρέπει να είναι μικρότερο ή ίσο με τον αριθμό των barcode. Προεπιλεγμένη τιμή είναι -1. |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.generation/dotcodeparameters/structuredappendmodebarcodescount/) { get; set; } | Καθορίζει τον αριθμό των barcode λειτουργίας δομημένης προσθήκης DotCode. Προεπιλεγμένη τιμή είναι -1. Ο αριθμός πρέπει να είναι τιμή από 1 έως 35. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring/)() | Επιστρέφει μια αναπαράσταση συμβολοσειράς αναγνώσιμη από τον άνθρωπο`DotCodeParameters` . |
+| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring/)() | Επιστρέφει μια αναγνώσιμη από άνθρωπο αναπαράσταση συμβολοσειράς αυτού του `DotCodeParameters`. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

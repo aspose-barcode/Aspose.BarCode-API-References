@@ -1,14 +1,14 @@
 ---
-title: MaxiCodeStandardCodetext
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Κλάση για κωδικοποίηση και αποκωδικοποίηση κωδικοποιημένου κειμένου MaxiCode για λειτουργίες 4 5 και 6.
+title: "Κλάση MaxiCodeStandardCodetext"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Aspose.BarCode.ComplexBarcode.MaxiCodeStandardCodetext κλάση. Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου MaxiCode για τις λειτουργίες 4, 5 και 6"
 type: docs
-weight: 540
+weight: 720
 url: /el/net/aspose.barcode.complexbarcode/maxicodestandardcodetext/
 ---
 ## MaxiCodeStandardCodetext class
 
-Κλάση για κωδικοποίηση και αποκωδικοποίηση κωδικοποιημένου κειμένου MaxiCode για λειτουργίες 4, 5 και 6.
+Κλάση για κωδικοποίηση και αποκωδικοποίηση του κειμένου κώδικα MaxiCode για λειτουργίες 4, 5 και 6.
 
 ```csharp
 public class MaxiCodeStandardCodetext : MaxiCodeCodetext
@@ -16,34 +16,34 @@ public class MaxiCodeStandardCodetext : MaxiCodeCodetext
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [MaxiCodeStandardCodetext](maxicodestandardcodetext/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Λαμβάνει ή ορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το MaxiCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
-| [MaxiCodeEncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/maxicodeencodemode/) { get; set; } | Λαμβάνει ή ορίζει μια λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Auto. |
-| [Message](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/message/) { get; set; } | Λαμβάνει ή ορίζει μήνυμα. |
-| [Mode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/mode/) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία MaxiCode. Το τυπικό κείμενο κώδικα μπορεί να χρησιμοποιηθεί μόνο με τις λειτουργίες 4, 5 και 6. |
+| [ECIEncoding](../../aspose.barcode.complexbarcode/maxicodecodetext/eciencoding/) { get; set; } | Ανακτά ή ορίζει την κωδικοποίηση ECI. Χρησιμοποιείται όταν το MaxiCodeEncodeMode είναι Auto. Προεπιλεγμένη τιμή: ISO-8859-1 |
+| [EncodeMode](../../aspose.barcode.complexbarcode/maxicodecodetext/encodemode/) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία κωδικοποίησης MaxiCode. Προεπιλεγμένη τιμή: Auto. |
+| [Message](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/message/) { get; set; } | Λαμβάνει ή ορίζει το μήνυμα. |
+| [Mode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/mode/) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία MaxiCode. Το τυπικό κείμενο μπορεί να χρησιμοποιηθεί μόνο με τις λειτουργίες 4, 5 και 6. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη`MaxiCodeStandardCodetext` τιμή. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/)() | Λαμβάνει τύπο γραμμικού κώδικα. |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/getconstructedcodetext/)() | Κατασκευάζει codetext |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την εμφάνιση. |
-| override [GetMode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/getmode/)() | Αποκτά τη λειτουργία MaxiCode. |
-| override [InitFromString](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/initfromstring/)(string) | Αρχικοποιεί το στιγμιότυπο από το κατασκευασμένο κώδικα κειμένου. |
+| override [Equals](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/equals/)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με μια καθορισμένη τιμή `MaxiCodeStandardCodetext`. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/maxicodecodetext/getbarcodetype/)() | Λαμβάνει τον τύπο του barcode. |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/getconstructedcodetext/)() | Δημιουργεί το codetext |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| override [GetMode](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/getmode/)() | Λαμβάνει τη λειτουργία MaxiCode. |
+| override [InitFromString](../../aspose.barcode.complexbarcode/maxicodestandardcodetext/initfromstring/)(string) | Αρχικοποιεί την παρουσία από το κατασκευασμένο codetext. |
 
 ### Δείτε επίσης
 
 * class [MaxiCodeCodetext](../maxicodecodetext/)
-* χώρος ονομάτων [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

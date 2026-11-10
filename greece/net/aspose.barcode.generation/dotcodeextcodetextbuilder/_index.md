@@ -1,14 +1,14 @@
 ---
-title: DotCodeExtCodetextBuilder
-second_title: Aspose.BarCode για Αναφορά API .NET
-description: Εκτεταμένη γεννήτρια κωδικού κειμένου για γραμμωτούς κώδικες 2D DotCode για λειτουργία ExtendedCodetext του DotCodeEncodeMode
+title: "Κλάση DotCodeExtCodetextBuilder"
+second_title: "Αναφορά API του Aspose.BarCode για .NET"
+description: "Κλάση Aspose.BarCode.Generation.DotCodeExtCodetextBuilder. Επεκτασμένος δημιουργός κωδικού κειμένου για 2D γραμμωτού κώδικα DotCode για τη λειτουργία ExtendedCodetext του DotCodeEncodeMode"
 type: docs
-weight: 910
+weight: 1250
 url: /el/net/aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 ## DotCodeExtCodetextBuilder class
 
-Εκτεταμένη γεννήτρια κωδικού κειμένου για γραμμωτούς κώδικες 2D DotCode για λειτουργία ExtendedCodetext του DotCodeEncodeMode
+Γεννήτρια εκτεταμένου κώδικα κειμένου για 2D DotCode barcode για τη λειτουργία ExtendedCodetext Mode του DotCodeEncodeMode
 
 ```csharp
 public class DotCodeExtCodetextBuilder : ExtCodetextBuilder
@@ -16,29 +16,29 @@ public class DotCodeExtCodetextBuilder : ExtCodetextBuilder
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Προσθέτει κείμενο κωδικού με Extended Channel Identifier |
-| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | Προσθέτει αναγνωριστικό μορφής FNC1 στα εκτεταμένα αντικείμενα κειμένου κωδικού |
-| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | Προσθέτει προετοιμασία αναγνώστη FNC3 στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | Προσθέτει διαχωριστικό συμβόλων FNC3 στα εκτεταμένα αντικείμενα κωδικού κειμένου |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Προσθέτει απλό κωδικοποιημένο κείμενο στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | Προσθέτει τη λειτουργία δομημένης προσθήκης στα εκτεταμένα αντικείμενα κωδικοποιημένου κειμένου |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | Διαγράφει εκτεταμένα στοιχεία κωδικοποιημένου κειμένου |
-| override [GetExtendedCodetext](../../aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/)() | Δημιουργεί εκτεταμένο κείμενο κώδικα από την εκτεταμένη λίστα κωδικοποιημένου κειμένου. |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Προσθέτει κώδικα κειμένου με Extended Channel Identifier |
+| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | Προσθέτει το αναγνωριστικό μορφής FNC1 στα στοιχεία του επεκταμένου κωδικού κειμένου |
+| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | Προσθέτει την αρχικοποίηση του αναγνώστη FNC3 στα στοιχεία του επεκταμένου κωδικού κειμένου |
+| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | Προσθέτει το διαχωριστικό συμβόλου FNC3 στα στοιχεία του επεκταμένου κωδικού κειμένου |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Προσθέτει απλό κώδικα κειμένου στα στοιχεία του επεκταμένου κώδικα κειμένου |
+| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | Προσθέτει τη λειτουργία δομημένης προσθήκης στα στοιχεία του επεκταμένου κωδικού κειμένου |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | Καθαρίζει τα στοιχεία του επεκταμένου κώδικα κειμένου |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/)() | Δημιουργεί επεκταμένο κώδικα κειμένου από τη λίστα επεκταμένου κώδικα κειμένου. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 [C#]
-//Εκτεταμένη λειτουργία κωδικοποιημένου κειμένου
-//δημιουργία κωδικοποιημένου κειμένου
+//Λειτουργία Extended codetext
+//δημιουργία codetext
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
@@ -51,10 +51,10 @@ textBuilder.AddFNC3SymbolSeparator();
 textBuilder.AddFNC3ReaderInitialization();
 textBuilder.AddPlainCodetext("Reader initialization info");
 
-//δημιουργία κωδικοποιημένου κειμένου
+//παραγωγή codetext
 string codetext = textBuilder.GetExtendedCodetext();    
 
-//παράγω
+//δημιουργία
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
     generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
@@ -65,7 +65,7 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, cod
 ### Δείτε επίσης
 
 * class [ExtCodetextBuilder](../extcodetextbuilder/)
-* χώρος ονομάτων [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* συνέλευση [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
