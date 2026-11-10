@@ -1,14 +1,14 @@
 ---
-title: DotCodeParameters
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: डटकड पैरमटर.
+title: "क्लास DotCodeParameters"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.Generation.DotCodeParameters क्लास। DotCode पैरामीटर"
 type: docs
-weight: 920
+weight: 1260
 url: /hi/net/aspose.barcode.generation/dotcodeparameters/
 ---
 ## DotCodeParameters class
 
-डॉटकोड पैरामीटर.
+DotCode पैरामीटर।
 
 ```csharp
 public class DotCodeParameters
@@ -18,24 +18,24 @@ public class DotCodeParameters
 
 | नाम | विवरण |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio/) { get; set; } | 2डी बारकोड मॉड्यूल की ऊंचाई/चौड़ाई का अनुपात. |
-| [Columns](../../aspose.barcode.generation/dotcodeparameters/columns/) { get; set; } | स्तंभों की संख्या की पहचान करता है। पंक्तियों की संख्या और डॉटकोड प्रतीक के स्तंभों की संख्या का योग विषम होना चाहिए। स्तंभों की संख्या कम से कम 5. होनी चाहिए डिफ़ॉल्ट मान: -1 |
-| [DotCodeEncodeMode](../../aspose.barcode.generation/dotcodeparameters/dotcodeencodemode/) { get; set; } | डॉटकोड एनकोड मोड की पहचान करता है। डिफ़ॉल्ट मान: Auto. |
-| [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.generation/dotcodeparameters/dotcodestructuredappendmodebarcodeid/) { get; set; } | डॉटकोड संरचित एपेंड मोड बारकोड की आईडी की पहचान करता है। आईडी 1 से शुरू होती है और बारकोड की संख्या से कम या बराबर होनी चाहिए। डिफ़ॉल्ट मान -1. है |
-| [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.generation/dotcodeparameters/dotcodestructuredappendmodebarcodescount/) { get; set; } | डॉटकोड स्ट्रक्चर्ड एपेंड मोड बारकोड काउंट की पहचान करता है। डिफ़ॉल्ट मान -1 है। गणना 1 से 35 तक का मान होना चाहिए. |
-| [ECIEncoding](../../aspose.barcode.generation/dotcodeparameters/eciencoding/) { get; set; } | ईसीआई एन्कोडिंग की पहचान करता है। DotCodeEncodeMode के Auto. डिफ़ॉल्ट होने पर उपयोग किया जाता है: ISO-8859-1 |
-| [IsReaderInitialization](../../aspose.barcode.generation/dotcodeparameters/isreaderinitialization/) { get; set; } | इंगित करता है कि क्या कोड का उपयोग पाठक को निर्देश देने के लिए किया जाता है कि वह निम्न डेटा को बार कोड रीडर के आरंभीकरण या रीप्रोग्रामिंग के निर्देश के रूप में व्याख्या करे। डिफ़ॉल्ट मान गलत है। |
-| [Rows](../../aspose.barcode.generation/dotcodeparameters/rows/) { get; set; } | पंक्तियों की संख्या की पहचान करता है। पंक्तियों की संख्या और डॉटकोड प्रतीक के स्तंभों की संख्या का योग विषम होना चाहिए। पंक्तियों की संख्या कम से कम 5 होनी चाहिए. डिफ़ॉल्ट मान: -1 |
+| [AspectRatio](../../aspose.barcode.generation/dotcodeparameters/aspectratio/) { get; set; } | 2D बारकोड मॉड्यूल का ऊँचाई/चौड़ाई अनुपात। |
+| [Columns](../../aspose.barcode.generation/dotcodeparameters/columns/) { get; set; } | कॉलम की संख्या को पहचानता है। DotCode प्रतीक की पंक्तियों और कॉलमों की कुल संख्या विषम होनी चाहिए। कॉलम की संख्या कम से कम 5 होनी चाहिए। डिफ़ॉल्ट मान: -1 |
+| [ECIEncoding](../../aspose.barcode.generation/dotcodeparameters/eciencoding/) { get; set; } | ECI एन्कोडिंग को पहचानता है। जब DotCodeEncodeMode Auto हो तो उपयोग किया जाता है। डिफ़ॉल्ट मान: ISO-8859-1 |
+| [EncodeMode](../../aspose.barcode.generation/dotcodeparameters/encodemode/) { get; set; } | DotCode एन्कोड मोड को पहचानता है। डिफ़ॉल्ट मान: Auto। |
+| [IsReaderInitialization](../../aspose.barcode.generation/dotcodeparameters/isreaderinitialization/) { get; set; } | यह दर्शाता है कि कोड का उपयोग रीडर को निम्न डेटा को प्रारंभिककरण या बारकोड रीडर के पुनःप्रोग्रामिंग के निर्देश के रूप में व्याख्या करने के लिए किया जाता है या नहीं। डिफ़ॉल्ट मान false है। |
+| [Rows](../../aspose.barcode.generation/dotcodeparameters/rows/) { get; set; } | पंक्तियों की संख्या को पहचानता है। DotCode प्रतीक की पंक्तियों और कॉलमों की कुल संख्या विषम होनी चाहिए। पंक्तियों की संख्या कम से कम 5 होनी चाहिए। डिफ़ॉल्ट मान: -1 |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.generation/dotcodeparameters/structuredappendmodebarcodeid/) { get; set; } | DotCode संरचित अपेंड मोड बारकोड की ID को पहचानता है। ID 1 से शुरू होती है और बारकोड की संख्या से कम या बराबर होनी चाहिए। डिफ़ॉल्ट मान -1 है। |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.generation/dotcodeparameters/structuredappendmodebarcodescount/) { get; set; } | DotCode संरचित अपेंड मोड बारकोड की संख्या को पहचानता है। डिफ़ॉल्ट मान -1 है। संख्या 1 से 35 के बीच होनी चाहिए। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring/)() | इसका एक मानव-पठनीय स्ट्रिंग प्रतिनिधित्व देता है`DotCodeParameters` . |
+| override [ToString](../../aspose.barcode.generation/dotcodeparameters/tostring/)() | इस `DotCodeParameters` की मानव-पठनीय स्ट्रिंग प्रतिनिधित्व लौटाता है। |
 
-### यह सभी देखें
+### और देखें
 
-* नाम स्थान [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

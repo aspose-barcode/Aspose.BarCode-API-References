@@ -1,44 +1,44 @@
 ---
-title: DotCodeExtCodetextBuilder
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: DotCodeEncodeMode के वस्तरत कडटेक्स्ट मड के लए 2ड डटकड बरकड के लए वस्तरत कडटेक्स्ट जनरेटर
+title: "क्लास DotCodeExtCodetextBuilder"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.Generation.DotCodeExtCodetextBuilder क्लास। 2D DotCode बारकोड के लिए ExtendedCodetext मोड के DotCodeEncodeMode में विस्तारित कोडटेक्स्ट जेनरेटर।"
 type: docs
-weight: 910
+weight: 1250
 url: /hi/net/aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 ## DotCodeExtCodetextBuilder class
 
-DotCodeEncodeMode के विस्तारित कोडटेक्स्ट मोड के लिए 2डी डॉटकोड बारकोड के लिए विस्तारित कोडटेक्स्ट जनरेटर
+विस्तारित कोडटेक्स्ट जेनरेटर 2D DotCode बारकोड के लिए DotCodeEncodeMode के ExtendedCodetext मोड के लिए
 
 ```csharp
 public class DotCodeExtCodetextBuilder : ExtCodetextBuilder
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | विस्तारित चैनल पहचानकर्ता के साथ कोडटेक्स्ट जोड़ता है |
-| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | विस्तारित कोडटेक्स्ट आइटम में FNC1 प्रारूप पहचानकर्ता जोड़ता है |
-| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | विस्तारित कोडटेक्स्ट आइटम में FNC3 रीडर आरंभीकरण जोड़ता है |
-| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | FNC3 प्रतीक विभाजक को विस्तारित कोडटेक्स्ट आइटम में जोड़ता है |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | विस्तारित कोडटेक्स्ट आइटम में सादा कोडटेक्स्ट जोड़ता है |
-| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | विस्तारित कोडटेक्स्ट आइटम में संरचित परिशिष्ट मोड जोड़ता है |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | विस्तारित कोड टेक्स्ट आइटम साफ़ करता है |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Extended Channel Identifier के साथ कोडटेक्स्ट जोड़ता है |
+| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | विस्तारित कोडटेक्स्ट आइटम्स में FNC1 फ़ॉर्मेट पहचानकर्ता जोड़ता है। |
+| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | विस्तारित कोडटेक्स्ट आइटम्स में FNC3 रीडर इनिशियलाइज़ेशन जोड़ता है। |
+| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | विस्तारित कोडटेक्स्ट आइटम्स में FNC3 सिंबल सेपरेटर जोड़ता है। |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | साधारण कोडटेक्स्ट को विस्तारित कोडटेक्स्ट आइटम्स में जोड़ता है |
+| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | विस्तारित कोडटेक्स्ट आइटम्स में स्ट्रक्चर्ड अपेंड मोड जोड़ता है। |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | विस्तारित कोडटेक्स्ट आइटम्स को साफ़ करता है |
 | override [GetExtendedCodetext](../../aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/)() | विस्तारित कोडटेक्स्ट सूची से विस्तारित कोडटेक्स्ट उत्पन्न करता है। |
 
-### उदाहरण
+## उदाहरण
 
 ```csharp
 [C#]
-// विस्तारित कोडटेक्स्ट मोड
-// कोड टेक्स्ट बनाएं
+//Extended कोडटेक्स्ट मोड
+//कोडटेक्स्ट बनाएं
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
@@ -51,10 +51,10 @@ textBuilder.AddFNC3SymbolSeparator();
 textBuilder.AddFNC3ReaderInitialization();
 textBuilder.AddPlainCodetext("Reader initialization info");
 
-// कोडटेक्स्ट उत्पन्न करें
+//कोडटेक्स्ट उत्पन्न करें
 string codetext = textBuilder.GetExtendedCodetext();    
 
-//बनाना
+//उत्पन्न करें
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, codetext))
 {
     generator.Parameters.Barcode.DotCode.DotCodeEncodeMode = DotCodeEncodeMode.ExtendedCodetext;
@@ -62,10 +62,10 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, cod
 }
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [ExtCodetextBuilder](../extcodetextbuilder/)
-* नाम स्थान [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

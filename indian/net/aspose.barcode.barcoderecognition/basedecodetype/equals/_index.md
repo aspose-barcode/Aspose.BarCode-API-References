@@ -1,14 +1,14 @@
 ---
-title: Equals
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: एक मन लटत है ज दर्शत है क यह उदहरण नर्दष्ट के बरबर है य नहंSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype/ मन.
+title: "BaseDecodeType.Equals"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "BaseDecodeType विधि। यह दर्शाने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट SingleDecodeType मान के बराबर है या नहीं"
 type: docs
 weight: 20
 url: /hi/net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`SingleDecodeType`](../../singledecodetype/) मान.
+एक मान लौटाता है जो यह दर्शाता है कि यह उदाहरण निर्दिष्ट [`SingleDecodeType`](../../singledecodetype/) मान के बराबर है या नहीं।
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
@@ -16,49 +16,49 @@ public virtual bool Equals(SingleDecodeType other)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| other | SingleDecodeType | एक[`SingleDecodeType`](../../singledecodetype/) इस उदाहरण से तुलना करने के लिए मूल्य। |
+| other | SingleDecodeType | यह उदाहरण से तुलना करने के लिए एक [`SingleDecodeType`](../../singledecodetype/) मान। |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर ओबीजे का इस उदाहरण के समान मूल्य है; अन्यथा, **असत्य**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## Equals(MultyDecodeType) {#equals_1}
+## Equals(MultiDecodeType) {#equals_1}
 
-एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`MultyDecodeType`](../../multydecodetype/) मान.
+एक मान लौटाता है जो यह दर्शाता है कि यह उदाहरण निर्दिष्ट [`MultiDecodeType`](../../multidecodetype/) मान के बराबर है या नहीं।
 
 ```csharp
-public virtual bool Equals(MultyDecodeType other)
+public virtual bool Equals(MultiDecodeType other)
 ```
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| other | MultyDecodeType | एक[`MultyDecodeType`](../../multydecodetype/) इस उदाहरण से तुलना करने के लिए मूल्य। |
+| other | MultiDecodeType | एक [`MultiDecodeType`](../../multidecodetype/) मान जिसे इस इंस्टेंस से तुलना की जाती है। |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर ओबीजे का इस उदाहरण के समान मूल्य है; अन्यथा, **असत्य**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(BaseDecodeType) {#equals}
 
-एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`BaseDecodeType`](../) मान.
+एक मान लौटाता है जो यह दर्शाता है कि यह उदाहरण निर्दिष्ट [`BaseDecodeType`](../) मान के बराबर है या नहीं।
 
 ```csharp
 public bool Equals(BaseDecodeType other)
@@ -66,23 +66,23 @@ public bool Equals(BaseDecodeType other)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| other | BaseDecodeType | एक[`BaseDecodeType`](../) इस उदाहरण से तुलना करने के लिए मूल्य। |
+| other | BaseDecodeType | यह उदाहरण से तुलना करने के लिए एक [`BaseDecodeType`](../) मान। |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर ओबीजे का इस उदाहरण के समान मूल्य है; अन्यथा, **असत्य**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(object) {#equals_3}
 
-एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`BaseDecodeType`](../) मान.
+एक मान लौटाता है जो यह दर्शाता है कि यह उदाहरण निर्दिष्ट [`BaseDecodeType`](../) मान के बराबर है या नहीं।
 
 ```csharp
 public override bool Equals(object obj)
@@ -90,16 +90,16 @@ public override bool Equals(object obj)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| obj | Object | इस उदाहरण से तुलना करने के लिए एक System.Object मान। |
+| obj | Object | इस इंस्टेंस से तुलना करने के लिए एक System.Object मान। |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर ओबीजे का इस उदाहरण के समान मूल्य है; अन्यथा, **असत्य**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

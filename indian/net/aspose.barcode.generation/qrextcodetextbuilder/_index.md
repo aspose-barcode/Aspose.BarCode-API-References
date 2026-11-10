@@ -1,118 +1,121 @@
 ---
-title: QrExtCodetextBuilder
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: QrEncodeMode के वस्तरत कडटेक्स्ट मड के लए 2ड क्यूआर बरकड के लए वस्तरत कडटेक्स्ट जनरेटर
+title: "क्लास QrExtCodetextBuilder"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.Generation.QrExtCodetextBuilder class. विस्तारित कोडटेक्स्ट जेनरेटर 2D QR बारकोड के लिए ExtendedCodetext मोड के EncodeMode में"
 type: docs
-weight: 1190
+weight: 1630
 url: /hi/net/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
 
-QrEncodeMode के विस्तारित कोडटेक्स्ट मोड के लिए 2डी क्यूआर बारकोड के लिए विस्तारित कोडटेक्स्ट जनरेटर
+विस्तारित कोडटेक्स्ट जेनरेटर 2D QR बारकोड के लिए EncodeMode के ExtendedCodetext मोड के लिए
 
-प्रबंध वर्णों को हटाने के लिए दृश्य पाठ सेट करने के लिए BarcodeGenerator की TwoDDisplayText संपत्ति का उपयोग करें।
+BarcodeGenerator की TwoDDisplayText प्रॉपर्टी का उपयोग करके दृश्यमान टेक्स्ट को सेट करें ताकि प्रबंधन अक्षरों को हटाया जा सके।
 
 ```csharp
 public class QrExtCodetextBuilder : ExtCodetextBuilder
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [QrExtCodetextBuilder](qrextcodetextbuilder/)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [QrExtCodetextBuilder](qrextcodetextbuilder/)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | विस्तारित चैनल पहचानकर्ता के साथ कोडटेक्स्ट जोड़ता है |
-| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition/)() | FNC1 को विस्तारित कोडटेक्स्ट आइटम में पहली स्थिति में जोड़ता है |
-| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/)() | समूह विभाजक (GS - '\\u001D') को विस्तारित कोडटेक्स्ट आइटम में जोड़ता है |
-| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/)(string) | FNC1 को विस्तारित कोडटेक्स्ट आइटम में दूसरे स्थान पर जोड़ता है |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | विस्तारित कोडटेक्स्ट आइटम में सादा कोडटेक्स्ट जोड़ता है |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | विस्तारित कोड टेक्स्ट आइटम साफ़ करता है |
+| [AddCodetextWithCompactionMode](../../aspose.barcode.generation/qrextcodetextbuilder/addcodetextwithcompactionmode/)(QrExtCompactionMode, string) | निर्दिष्ट QR संपीड़न मोड के साथ कोडटेक्स्ट को विस्तारित कोडटेक्स्ट आइटम्स में जोड़ता है। |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Extended Channel Identifier के साथ कोडटेक्स्ट जोड़ता है |
+| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition/)() | पहले स्थान पर FNC1 सेट करता है। यदि पहले कोई अन्य FNC1 मोड सेट किया गया था, तो उसे बदल दिया जाता है। |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/)() | विस्तारित कोडटेक्स्ट आइटम्स में ग्रुप सेपरेटर (GS - '\\u001D') जोड़ता है |
+| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/)(string) | दूसरे स्थान पर FNC1 सेट करता है। यदि पहले कोई अन्य FNC1 मोड सेट किया गया था, तो उसे बदल दिया जाता है। |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | साधारण कोडटेक्स्ट को विस्तारित कोडटेक्स्ट आइटम्स में जोड़ता है |
+| override [Clear](../../aspose.barcode.generation/qrextcodetextbuilder/clear/)() | विस्तारित कोडटेक्स्ट आइटम्स को साफ़ करता है |
 | override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/)() | विस्तारित कोडटेक्स्ट सूची से विस्तारित कोडटेक्स्ट उत्पन्न करता है। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि विस्तारित मोड में FNC1 प्रथम स्थिति का उपयोग कैसे करें।
+यह नमूना दिखाता है कि विस्तारित मोड में FNC1 पहली स्थिति का उपयोग कैसे किया जाए।
 
 ```csharp
 [C#]
-// कोड टेक्स्ट बनाएं
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
-lTextBuilder.AddFNC1FirstPosition();
-lTextBuilder.AddPlainCodetext("000%89%%0");
-lTextBuilder.AddFNC1GroupSeparator();
-lTextBuilder.AddPlainCodetext("12345<FNC1>");
+//कोडटेक्स्ट बनाएं
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddFNC1FirstPosition();
+TextBuilder.AddPlainCodetext("000%89%%0");
+TextBuilder.AddFNC1GroupSeparator();
+TextBuilder.AddPlainCodetext("12345<FNC1>");
 
-// कोडटेक्स्ट उत्पन्न करें
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//कोडटेक्स्ट उत्पन्न करें
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//बनाना
+//उत्पन्न करें
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-यह नमूना दिखाता है कि विस्तारित मोड में FNC1 दूसरी स्थिति का उपयोग कैसे करें।
+यह नमूना दिखाता है कि विस्तारित मोड में FNC1 दूसरी स्थिति का उपयोग कैसे किया जाए।
 
 ```csharp
 [C#]
-// कोड टेक्स्ट बनाएं
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//कोडटेक्स्ट बनाएं
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddFNC1SecondPosition("12");
 TextBuilder.AddPlainCodetext("TRUE3456"); 
 
-// कोडटेक्स्ट उत्पन्न करें
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//कोडटेक्स्ट उत्पन्न करें
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//बनाना
+//उत्पन्न करें
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-यह नमूना दिखाता है कि विस्तारित मोड में मल्टी ईसीआई मोड का उपयोग कैसे करें।
+यह नमूना दिखाता है कि विस्तारित मोड में मल्टी ECI मोड का उपयोग कैसे किया जाए।
 
 ```csharp
 [C#]
-// कोड टेक्स्ट बनाएं
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//कोडटेक्स्ट बनाएं
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
-TextBuilder.AddPlainCodetext(@"t\e\\st");   
+TextBuilder.AddPlainCodetext(@"t\e\\st");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
 
-// कोडटेक्स्ट उत्पन्न करें
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//कोडटेक्स्ट उत्पन्न करें
+string codetext = TextBuilder.GetExtendedCodetext();
 
-//बनाना
+//उत्पन्न करें
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [ExtCodetextBuilder](../extcodetextbuilder/)
-* नाम स्थान [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

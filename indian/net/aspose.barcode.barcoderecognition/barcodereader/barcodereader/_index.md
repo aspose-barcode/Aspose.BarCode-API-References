@@ -1,28 +1,28 @@
 ---
-title: BarCodeReader
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: क एक नय उदहरण प्ररंभ करत हैBarCodeReaderaspose.barcode.barcoderecognition/barcodereader/ वर्ग डफ़ल्ट मन के सथ
+title: "BarCodeReader.BarCodeReader"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "BarCodeReader कंस्ट्रक्टर। डिफ़ॉल्ट मानों के साथ BarCodeReader क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। ReadBarCodes मेथड को कॉल करने से पहले इमेज SetBitmapImage सेट करना आवश्यक है।"
 type: docs
 weight: 10
 url: /hi/net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader() {#constructor}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग डिफ़ॉल्ट मान के साथ।
+[`BarCodeReader`](../) क्लास का नया इंस्टेंस डिफ़ॉल्ट मानों के साथ इनिशियलाइज़ करता है। ReadBarCodes() मेथड को कॉल करने से पहले इमेज (SetBitmapImage()) सेट करना आवश्यक है।
 
 ```csharp
 public BarCodeReader()
 ```
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -32,7 +32,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -41,17 +41,17 @@ Using reader As New BarCodeReader()
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap) {#constructor_1}
+## BarCodeReader(Bitmap) {#constructor_8}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) एक छवि से वर्ग.
+एक छवि से [`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image)
@@ -59,18 +59,18 @@ public BarCodeReader(Bitmap image)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | एक बिटमैप उदाहरण जिसमें छवि है |
+| छवि | Bitmap | छवि शामिल करने वाला Bitmap उदाहरण |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader(bmp))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -80,7 +80,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp))
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader(bmp)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -89,17 +89,17 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
+## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_10}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
@@ -107,17 +107,17 @@ public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | छवि। |
+| छवि | Bitmap | छवि। |
 | decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -127,7 +127,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, 
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -136,18 +136,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
+## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_9}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
@@ -155,17 +155,17 @@ public BarCodeReader(Bitmap image, BaseDecodeType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | छवि। |
-| type | BaseDecodeType | डिकोड टाइप 1। यह सिंगल या मल्टी हो सकता है |
+| छवि | Bitmap | छवि। |
+| प्रकार | BaseDecodeType | डिकोड type1। यह एकल या बहु हो सकता है। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -175,7 +175,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeT
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -184,18 +184,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
+## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_12}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
@@ -203,18 +203,18 @@ public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decod
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | छवि। |
-| area | Rectangle | मान्यता के लिए क्षेत्र। |
+| छवि | Bitmap | छवि। |
+| क्षेत्र | Rectangle | पहचान के लिए क्षेत्र। |
 | decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -224,7 +224,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -233,18 +233,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
+## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_11}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
@@ -252,18 +252,18 @@ public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | छवि। |
-| area | Rectangle | मान्यता के लिए क्षेत्र। |
-| type | BaseDecodeType | डिकोड प्रकार। |
+| छवि | Bitmap | छवि। |
+| क्षेत्र | Rectangle | पहचान के लिए क्षेत्र। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -273,7 +273,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -282,18 +282,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_14}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
@@ -301,18 +301,18 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] de
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | पढ़ने के लिए छवि |
-| areas | Rectangle[] | मान्यता क्षेत्रों की सरणी |
-| decodeTypes | BaseDecodeType[] | डिकोड प्रकार निर्दिष्ट सभी क्षेत्रों के लिए लागू होते हैं। |
+| छवि | Bitmap | पढ़ने के लिए छवि |
+| क्षेत्रों | Rectangle[] | पहचान क्षेत्रों की सरणी |
+| decodeTypes | BaseDecodeType[] | निर्दिष्ट सभी क्षेत्रों के लिए लागू डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -322,7 +322,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -331,18 +331,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
+## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_13}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
@@ -350,18 +350,18 @@ public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| image | Bitmap | पढ़ने के लिए छवि |
-| areas | Rectangle[] | मान्यता क्षेत्रों की सरणी |
-| type | BaseDecodeType | डिकोड प्रकार निर्दिष्ट सभी क्षेत्रों के लिए लागू होता है। |
+| छवि | Bitmap | पढ़ने के लिए छवि |
+| क्षेत्रों | Rectangle[] | पहचान क्षेत्रों की सरणी |
+| प्रकार | BaseDecodeType | निर्दिष्ट सभी क्षेत्रों के लिए लागू डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -371,7 +371,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -380,18 +380,18 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string) {#constructor_11}
+## BarCodeReader(string) {#constructor_18}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) फ़ाइल से वर्ग.
+फ़ाइल से [`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(string filename)
@@ -399,17 +399,17 @@ public BarCodeReader(string filename)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल नाम। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइलनाम। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -418,7 +418,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 }
 [VB.NET]
 Using reader As New BarCodeReader("c:\test.png")
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -426,17 +426,17 @@ Using reader As New BarCodeReader("c:\test.png")
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
+## BarCodeReader(string, params BaseDecodeType[]) {#constructor_20}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
@@ -444,16 +444,16 @@ public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल नाम। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइलनाम। |
 | decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -462,7 +462,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -470,18 +470,18 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, BaseDecodeType) {#constructor_12}
+## BarCodeReader(string, BaseDecodeType) {#constructor_19}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
@@ -489,16 +489,16 @@ public BarCodeReader(string filename, BaseDecodeType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| filename | String | फ़ाइल नाम। |
-| type | BaseDecodeType | डिकोड प्रकार। |
+| फ़ाइलनाम | स्ट्रिंग | फ़ाइलनाम। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -507,7 +507,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeT
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+Using reader As New BarCodeReader("c:\test.png", New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -515,18 +515,18 @@ Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream) {#constructor_8}
+## BarCodeReader(Stream) {#constructor_15}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Stream stream)
@@ -534,18 +534,18 @@ public BarCodeReader(Stream stream)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | धारा। |
+| स्ट्रीम | स्ट्रीम | स्ट्रीम। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
 using (BarCodeReader reader = new BarCodeReader(fstr))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -555,7 +555,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr))
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
     Using reader As New BarCodeReader(fstr)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -564,17 +564,17 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
+## BarCodeReader(Stream, BaseDecodeType) {#constructor_16}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
@@ -582,17 +582,17 @@ public BarCodeReader(Stream stream, BaseDecodeType type)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | धारा। |
-| type | BaseDecodeType | डिकोड प्रकार। |
+| स्ट्रीम | स्ट्रीम | स्ट्रीम। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(fstr, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -602,7 +602,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(Decode
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(fstr, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -611,18 +611,18 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
+## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_17}
 
-का एक नया उदाहरण प्रारंभ करता है[`BarCodeReader`](../) वर्ग.
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
@@ -630,17 +630,17 @@ public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | धारा। |
+| स्ट्रीम | स्ट्रीम | स्ट्रीम। |
 | decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि कोड39 और कोड128 बारकोड का पता कैसे लगाया जाए।
+यह उदाहरण दिखाता है कि Code39 और Code128 बारकोड कैसे डिटेक्ट करें।
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -650,7 +650,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard,
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -659,11 +659,319 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], BaseDecodeType) {#constructor_6}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, BaseDecodeType type)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| क्षेत्रों | Rectangle[] | पहचान क्षेत्रों की सरणी। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम के निर्दिष्ट क्षेत्रों में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| क्षेत्रों | Rectangle[] | पहचान क्षेत्रों की सरणी। |
+| decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम के निर्दिष्ट क्षेत्रों में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, BaseDecodeType) {#constructor_4}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, BaseDecodeType type)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| क्षेत्र | Rectangle | पहचान के लिए क्षेत्र। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम के एक निर्दिष्ट क्षेत्र में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, params BaseDecodeType[]) {#constructor_5}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, params BaseDecodeType[] decodeTypes)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| क्षेत्र | Rectangle | पहचान के लिए क्षेत्र। |
+| decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम के एक निर्दिष्ट क्षेत्र में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, BaseDecodeType) {#constructor_2}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, BaseDecodeType type)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| प्रकार | BaseDecodeType | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, params BaseDecodeType[]) {#constructor_3}
+
+[`BarCodeReader`](../) क्लास का नया उदाहरण प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, params BaseDecodeType[] decodeTypes)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+| decodeTypes | BaseDecodeType[] | डिकोड प्रकार। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame) {#constructor_1}
+
+ल्यूमिनेंस फ़्रेम से [`BarCodeReader`](../) क्लास की नई इंस्टेंस को प्रारंभ करता है।
+
+```csharp
+public BarCodeReader(LuminanceFrame frame)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| फ़्रेम | LuminanceFrame | पढ़ने के लिए ल्यूमिनेंस फ़्रेम। |
+
+## उदाहरण
+
+यह नमूना दिखाता है कि ल्यूमिनेंस फ़्रेम में Code39 और Code128 बारकोड कैसे पता लगाए जाएँ।
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame))
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### और देखें
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+

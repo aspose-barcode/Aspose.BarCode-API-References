@@ -1,14 +1,14 @@
 ---
-title: TryParse
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: SingleDecodeType के स्ट्रंग प्रस्तुतकरण क उसके उदहरण में कनवर्ट करत है. वपस मन इंगत करत है क रूपंतरण सफल हुआ य वफल.
+title: "BaseDecodeType.TryParse"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "BaseDecodeType विधि। SingleDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके उदाहरण में परिवर्तित करता है। एक रिटर्न वैल्यू दर्शाता है कि परिवर्तन सफल हुआ या विफल"
 type: docs
 weight: 40
 url: /hi/net/aspose.barcode.barcoderecognition/basedecodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_2}
 
-SingleDecodeType के स्ट्रिंग प्रस्तुतिकरण को उसके उदाहरण में कनवर्ट करता है. वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल.
+SingleDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल।
 
 ```csharp
 public static bool TryParse(string parsingType, out SingleDecodeType result)
@@ -16,51 +16,51 @@ public static bool TryParse(string parsingType, out SingleDecodeType result)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| parsingType | String | कनवर्ट करने के लिए SingleDecodeType प्रतिनिधित्व वाली एक स्ट्रिंग। |
-| result | SingleDecodeType& | एक वास्तविक SingleDecodeType लौटाया जाता है, जब रूपांतरण सफलतापूर्वक पूरा हो जाता है; |
+| parsingType | स्ट्रिंग | एक स्ट्रिंग जिसमें "EAN8" या "EAN13" या "CodaBar"... के रूप में SingleDecodeType हो, जिसे परिवर्तित किया जाना है। |
+| परिणाम | SingleDecodeType& | जब परिवर्तन सफलतापूर्वक पूरा हो जाता है तो एक वास्तविक SingleDecodeType लौटाया जाता है; अन्यथा यह अनिश्चित प्रकार लौटाता है: DecodeType.None. |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर एस सफलतापूर्वक परिवर्तित किया गया था; अन्यथा, **असत्य**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
 * class [SingleDecodeType](../../singledecodetype/)
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse_1}
+## TryParse(string, out MultiDecodeType) {#tryparse_1}
 
-एक मल्टीडिकोडटाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ।
+MultiDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल।
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| parsingType | String | कनवर्ट करने के लिए एक MultiDecodeType प्रतिनिधित्व वाली एक स्ट्रिंग। |
-| result | MultyDecodeType& | जब रूपांतरण सफलतापूर्वक पूरा हो जाता है, तो एक वास्तविक मल्टीडेकोडटाइप वापस आ जाता है; |
+| parsingType | स्ट्रिंग | एक स्ट्रिंग जिसमें MultiDecodeType प्रतिनिधित्व हो, जिसे परिवर्तित किया जाना है। |
+| परिणाम | MultiDecodeType& | जब परिवर्तन सफलतापूर्वक पूरा हो जाता है तो एक वास्तविक MultiDecodeType लौटाया जाता है; अन्यथा यह अनिश्चित प्रकार लौटाता है: new MultiDecodeType(DecodeType.None) |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर एस सफलतापूर्वक परिवर्तित किया गया था; अन्यथा, **असत्य**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
-* class [MultyDecodeType](../../multydecodetype/)
+* class [MultiDecodeType](../../multidecodetype/)
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## TryParse(string, out BaseDecodeType) {#tryparse}
 
-ठोस प्रकार निर्धारित करने के बाद, बेसडिकोड टाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ।
+BaseDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है, ठोस प्रकार निर्धारित करने के बाद। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल।
 
 ```csharp
 public static bool TryParse(string parsingType, out BaseDecodeType result)
@@ -68,17 +68,17 @@ public static bool TryParse(string parsingType, out BaseDecodeType result)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| parsingType | String | कनवर्ट करने के लिए एक MultiDecodeType प्रतिनिधित्व वाली एक स्ट्रिंग। |
-| result | BaseDecodeType& | जब रूपांतरण सफलतापूर्वक पूरा हो जाता है, तो एक वास्तविक मल्टीडेकोडटाइप वापस आ जाता है; |
+| parsingType | स्ट्रिंग | एक स्ट्रिंग जिसमें MultiDecodeType प्रतिनिधित्व हो, जिसे परिवर्तित किया जाना है। |
+| परिणाम | BaseDecodeType& | जब परिवर्तन सफलतापूर्वक पूरा हो जाता है तो एक वास्तविक MultiDecodeType लौटाया जाता है; अन्यथा यह अनिश्चित प्रकार लौटाता है: DecodeType.None. |
 
-### प्रतिलाभ की मात्रा
+### वापसी मान
 
-**सत्य** अगर एस सफलतापूर्वक परिवर्तित किया गया था; अन्यथा, **असत्य**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### यह सभी देखें
+### और देखें
 
 * class [BaseDecodeType](../)
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../basedecodetype/)
-* सभा [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,49 +1,49 @@
 ---
-title: BaseDecodeType
-second_title: Aspose.BarCode .NET API संदर्भ के लिए
-description: MultiDecodeType और SingleDecodeType. के लए बेस क्लस
+title: "क्लास BaseDecodeType"
+second_title: "Aspose.BarCode for .NET API संदर्भ"
+description: "Aspose.BarCode.BarCodeRecognition.BaseDecodeType क्लास। MultiDecodeType और SingleDecodeType के लिए बेस क्लास"
 type: docs
-weight: 120
+weight: 130
 url: /hi/net/aspose.barcode.barcoderecognition/basedecodetype/
 ---
 ## BaseDecodeType class
 
-MultiDecodeType और SingleDecodeType. के लिए बेस क्लास
+MultiDecodeType और SingleDecodeType के लिए बेस क्लास।
 
 ```csharp
 public abstract class BaseDecodeType : IEquatable<BaseDecodeType>
 ```
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany/)(params BaseDecodeType[]) | निर्धारित करता है कि दिए गए डिकोड प्रकारों में से कोई भी में शामिल है या नहीं |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals)(BaseDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं`BaseDecodeType` मान. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_1)(MultyDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`MultyDecodeType`](../multydecodetype/) मान. |
-| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_3)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं`BaseDecodeType` मान. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_2)(SingleDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट के बराबर है या नहीं[`SingleDecodeType`](../singledecodetype/) मान. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode/)() | इस उदाहरण के लिए हैश कोड लौटाता है। |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse)(string, out BaseDecodeType) | ठोस प्रकार निर्धारित करने के बाद, बेसडिकोड टाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ। |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_1)(string, out MultyDecodeType) | एक मल्टीडिकोडटाइप के स्ट्रिंग प्रतिनिधित्व को इसके उदाहरण में परिवर्तित करता है। वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल हुआ। |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_2)(string, out SingleDecodeType) | SingleDecodeType के स्ट्रिंग प्रस्तुतिकरण को उसके उदाहरण में कनवर्ट करता है. वापसी मान इंगित करता है कि रूपांतरण सफल हुआ या विफल. |
+| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany/)(params BaseDecodeType[]) | निर्धारित करता है कि दिए गए डिकोड प्रकारों में से कोई भी शामिल है या नहीं |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals)(BaseDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट `BaseDecodeType` मान के बराबर है या नहीं। |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_1)(MultiDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट [`MultiDecodeType`](../multidecodetype/) मान के बराबर है या नहीं। |
+| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_3)(object) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट `BaseDecodeType` मान के बराबर है या नहीं। |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_2)(SingleDecodeType) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट [`SingleDecodeType`](../singledecodetype/) मान के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode/)() | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse)(string, out BaseDecodeType) | BaseDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है, ठोस प्रकार निर्धारित करने के बाद। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल। |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_1)(string, out MultiDecodeType) | MultiDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल। |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_2)(string, out SingleDecodeType) | SingleDecodeType की स्ट्रिंग प्रतिनिधित्व को उसके इंस्टेंस में परिवर्तित करता है। एक रिटर्न वैल्यू दर्शाता है कि रूपांतरण सफल हुआ या विफल। |
 
-### उदाहरण
+## उदाहरण
 
-यह नमूना दिखाता है कि SingleDecodeType और MultiDecodeType के साथ BaseDecodeType का उपयोग कैसे करें
+यह उदाहरण दिखाता है कि BaseDecodeType को SingleDecodeType और MultiDecodeType के साथ कैसे उपयोग किया जाए
 
 ```csharp
 [C#]
 BaseDecodeType decodeOne = DecodeType.Code128;
-BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended);
+BaseDecodeType decodeTwo = new MultiDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII);
 [VB.NET]
 Dim decodeOne As BaseDecodeType = DecodeType.Code128
-Dim decodeTwo As BaseDecodeType = New MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended)
+Dim decodeTwo As BaseDecodeType = New MultiDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII)
 ```
 
-### यह सभी देखें
+### और देखें
 
-* नाम स्थान [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* सभा [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
