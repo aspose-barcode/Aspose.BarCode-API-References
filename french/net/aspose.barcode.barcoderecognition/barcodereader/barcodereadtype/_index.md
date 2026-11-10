@@ -1,0 +1,53 @@
+---
+title: "BarCodeReader.BarCodeReadType"
+second_title: "Référence de l'API Aspose.BarCode pour .NET"
+description: "Propriété BarCodeReader. Obtient ou définit le type de décodage du code-barres utilisé pour la reconnaissance. Doit être défini avant d’appeler ReadBarCodes."
+type: docs
+weight: 30
+url: /fr/net/aspose.barcode.barcoderecognition/barcodereader/barcodereadtype/
+---
+## BarCodeReader.BarCodeReadType property
+
+Obtient ou définit le type de décodage du code-barres utilisé pour la reconnaissance. Doit être défini avant d’appeler [`ReadBarCodes`](../readbarcodes/).
+
+```csharp
+public BaseDecodeType BarCodeReadType { get; set; }
+```
+
+## Exemples
+
+Cet exemple montre comment détecter les codes-barres Code39 et Code128.
+
+```csharp
+[C#]
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.BarCodeReadType = new MultiDecodeType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(@"c:\test.png");
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+    Console.WriteLine("BarCodeReadType: " + reader.BarCodeReadType.ToString());
+}
+[VB.NET]
+Using reader As New BarCodeReader()
+    reader.BarCodeReadType = New MultiDecodeType(DecodeType.Code39, DecodeType.Code128)
+    reader.SetBarCodeImage("c:\test.png")
+    For Each result As BarCodeResult In reader.ReadBarCodes()
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName)
+        Console.WriteLine("BarCode CodeText: " + result.CodeText)
+    Next
+    Console.WriteLine("BarCodeReadType: " + reader.BarCodeReadType.ToString())
+End Using
+```
+
+### Voir aussi
+
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+

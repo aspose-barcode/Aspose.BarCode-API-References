@@ -1,9 +1,9 @@
 ---
-title: BaseEncodeType
-second_title: Référence de l'API Aspose.BarCode pour .NET
-description: Classe de base pour SymbologyEncodeType.
+title: "Classe BaseEncodeType"
+second_title: "Référence de l'API Aspose.BarCode pour .NET"
+description: "Classe Aspose.BarCode.Generation.BaseEncodeType. Classe de base pour SymbologyEncodeType"
 type: docs
-weight: 510
+weight: 1020
 url: /fr/net/aspose.barcode.generation/baseencodetype/
 ---
 ## BaseEncodeType class
@@ -16,29 +16,29 @@ public class BaseEncodeType : IEquatable<BaseEncodeType>
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Classification](../../aspose.barcode.generation/baseencodetype/classification) { get; } | Obtient une classification de cette symbologie. |
-| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex) { get; } | Obtient un index de type d'encodage |
-| [TypeName](../../aspose.barcode.generation/baseencodetype/typename) { get; } | Obtient un nom de type d'encodage |
+| [Classification](../../aspose.barcode.generation/baseencodetype/classification/) { get; } | Obtient une classification de cette symbologie. |
+| [TypeIndex](../../aspose.barcode.generation/baseencodetype/typeindex/) { get; } | Obtient un index du type d'encodage. |
+| [TypeName](../../aspose.barcode.generation/baseencodetype/typename/) { get; } | Obtient un nom du type d'encodage. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| static [Parse](../../aspose.barcode.generation/baseencodetype/parse)(string) | Convertit la représentation sous forme de chaîne du nom d'un BaseEncodeType en son instance. |
-| [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals)(BaseEncodeType) | Renvoie une valeur indiquant si cette instance est égale à un spécifié[`BaseEncodeType`](../baseencodetype) valeur. |
-| override [Equals](../../aspose.barcode.generation/baseencodetype/equals#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à un spécifié[`BaseEncodeType`](../baseencodetype) valeur. |
-| override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode)() | Renvoie le code de hachage pour cette instance. |
-| [GetString](../../aspose.barcode.generation/baseencodetype/getstring)() | Convertit l'instance de BaseEncodeType en sa représentation sous forme de chaîne équivalente. Le format de la chaîne est : "Index : 0 ; Nom : Codabar". |
-| override [ToString](../../aspose.barcode.generation/baseencodetype/tostring)() | Renvoie le nom du BaseEncodeType donné sous forme de chaîne. |
-| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring)(BaseEncodeType) | Convertit l'instance de BaseEncodeType en sa représentation sous forme de chaîne équivalente. Le format de la chaîne est : "Index : -1 ; Nom : Aucun". |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse)(string, out BaseEncodeType) | Convertit la représentation sous forme de chaîne d'un BaseEncodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué. |
-| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse#tryparse_1)(string, out SymbologyEncodeType) | Convertit la représentation sous forme de chaîne d'un BaseEncodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué. |
+| static [Parse](../../aspose.barcode.generation/baseencodetype/parse/)(string) | Convertit la représentation sous forme de chaîne du nom d'un BaseEncodeType en son instance. |
+| [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals)(BaseEncodeType) | Renvoie une valeur indiquant si cette instance est égale à une valeur `BaseEncodeType` spécifiée. |
+| override [Equals](../../aspose.barcode.generation/baseencodetype/equals/#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à une valeur `BaseEncodeType` spécifiée. |
+| override [GetHashCode](../../aspose.barcode.generation/baseencodetype/gethashcode/)() | Renvoie le code de hachage pour cette instance. |
+| [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)() | Convertit l'instance de BaseEncodeType en sa représentation chaîne équivalente. Le format de la chaîne est : "Index:0; Name:Codabar". |
+| override [ToString](../../aspose.barcode.generation/baseencodetype/tostring/)() | Renvoie le nom du BaseEncodeType donné sous forme de chaîne. |
+| static [GetString](../../aspose.barcode.generation/baseencodetype/getstring/)(BaseEncodeType) | Convertit l'instance de BaseEncodeType en sa représentation sous forme de chaîne équivalente. Le format de la chaîne est : "Index:-1; Name:None". |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse)(string, out BaseEncodeType) | Convertit la représentation sous forme de chaîne d'un BaseEncodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué. |
+| static [TryParse](../../aspose.barcode.generation/baseencodetype/tryparse/#tryparse_1)(string, out SymbologyEncodeType) | Convertit la représentation sous forme de chaîne d'un BaseEncodeType en son instance. Une valeur de retour indique si la conversion a réussi ou échoué. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.BarCode.Generation](../../aspose.barcode.generation)
-* Assemblée [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

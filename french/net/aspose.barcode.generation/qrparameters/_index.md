@@ -1,9 +1,9 @@
 ---
-title: QrParameters
-second_title: Référence de l'API Aspose.BarCode pour .NET
-description: Paramètres QR.
+title: "Classe QrParameters"
+second_title: "Référence de l'API Aspose.BarCode pour .NET"
+description: "Classe Aspose.BarCode.Generation.QrParameters. Paramètres QR"
 type: docs
-weight: 930
+weight: 1650
 url: /fr/net/aspose.barcode.generation/qrparameters/
 ---
 ## QrParameters class
@@ -16,26 +16,27 @@ public class QrParameters
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AspectRatio](../../aspose.barcode.generation/qrparameters/aspectratio) { get; set; } | Rapport hauteur/largeur du module 2D BarCode. |
-| [CodeTextEncoding](../../aspose.barcode.generation/qrparameters/codetextencoding) { get; set; } | Obtient ou définit l'encodage du texte de code. Valeur par défaut : UTF-8 |
-| [QrECIEncoding](../../aspose.barcode.generation/qrparameters/qreciencoding) { get; set; } | Identificateurs d'interprétation de canal étendu. Il est utilisé pour indiquer au lecteur de code-barres details les références utilisées pour coder les données dans le symbole. L'implémentation actuelle comprend tous les codages de jeu de caractères bien connus. |
-| [QrEncodeMode](../../aspose.barcode.generation/qrparameters/qrencodemode) { get; set; } | Type de symbologie QR du mode d'encodage de BarCode. Valeur par défaut : QREncodeMode.Auto. |
-| [QrEncodeType](../../aspose.barcode.generation/qrparameters/qrencodetype) { get; set; } | Mode sélecteur QR / MicroQR. Sélectionnez ForceQR pour les symboles QR standard, Auto pour MicroQR. |
-| [QrErrorLevel](../../aspose.barcode.generation/qrparameters/qrerrorlevel) { get; set; } | Niveau de correction d'erreur Reed-Solomon pour code-barres QR. De bas en haut : NiveauL, NiveauM, NiveauQ, NiveauH. voir QRErrorLevel. |
-| [QrVersion](../../aspose.barcode.generation/qrparameters/qrversion) { get; set; } | Version du QR Code. De la Version1 à la Version40 pour le QR code et de M1 à M4 pour MicroQr. La valeur par défaut est QRVersion.Auto. |
-| [StructuredAppend](../../aspose.barcode.generation/qrparameters/structuredappend) { get; set; } | Paramètres d'ajout structuré QR. |
+| [AspectRatio](../../aspose.barcode.generation/qrparameters/aspectratio/) { get; set; } | Ratio hauteur/largeur du module de code-barres 2D. |
+| [ECIEncoding](../../aspose.barcode.generation/qrparameters/eciencoding/) { get; set; } | Identifiants d'Interprétation de Canal Étendu. Ils sont utilisés pour indiquer au lecteur de code-barres les détails concernant les références utilisées pour encoder les données dans le symbole. L'implémentation actuelle comprend tous les encodages de jeux de caractères bien connus. Non pris en charge par MicroQR. |
+| [EncodeGS1SeparatorInByteMode](../../aspose.barcode.generation/qrparameters/encodegs1separatorinbytemode/) { get; set; } | Obtient ou définit une valeur indiquant si les caractères spéciaux GS1 doivent être encodés en mode Octet pour les codes-barres QR et RectMicroQR. |
+| [EncodeMode](../../aspose.barcode.generation/qrparameters/encodemode/) { get; set; } | Type de symbologie QR du mode d'encodage du BarCode. Valeur par défaut : QREncodeMode.Auto. |
+| [ErrorLevel](../../aspose.barcode.generation/qrparameters/errorlevel/) { get; set; } | Niveau de correction d'erreur Reed-Solomon pour les codes-barres QR, MicroQR et RectMicroQR. Du plus bas au plus haut : LevelL, LevelM, LevelQ, LevelH. Voir QRErrorLevel. |
+| [MicroQRVersion](../../aspose.barcode.generation/qrparameters/microqrversion/) { get; set; } | Version du code MicroQR. De la version M1 à la version M4. Valeur par défaut : MicroQRVersion.Auto. |
+| [RectMicroQrVersion](../../aspose.barcode.generation/qrparameters/rectmicroqrversion/) { get; set; } | Version du code RectMicroQR. De la version R7x59 à la version R17x139. Valeur par défaut : RectMicroQRVersion.Auto. |
+| [StructuredAppend](../../aspose.barcode.generation/qrparameters/structuredappend/) { get; set; } | Paramètres d'ajout structuré QR. Le mode d'ajout structuré n'est pas pris en charge par les codes-barres MicroQR et RectMicroQR. |
+| [Version](../../aspose.barcode.generation/qrparameters/version/) { get; set; } | Version du code QR. De Version1 à Version40. La valeur par défaut est QRVersion.Auto. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [ToString](../../aspose.barcode.generation/qrparameters/tostring)() | Renvoie une représentation sous forme de chaîne lisible par l'homme de ce[`QrParameters`](../qrparameters) . |
+| override [ToString](../../aspose.barcode.generation/qrparameters/tostring/)() | Renvoie une représentation sous forme de chaîne lisible par l'homme de ce `QrParameters`. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.BarCode.Generation](../../aspose.barcode.generation)
-* Assemblée [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
