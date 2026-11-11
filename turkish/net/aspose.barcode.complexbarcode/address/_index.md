@@ -1,53 +1,53 @@
 ---
-title: Address
-second_title: Aspose.BarCode for .NET API Referansı
-description: Alacaklı veya borçlunun adresi.
+title: "Sınıf Address"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.ComplexBarcode.Address sınıfı. Alacaklı veya borçlunun adresi"
 type: docs
-weight: 300
+weight: 480
 url: /tr/net/aspose.barcode.complexbarcode/address/
 ---
 ## Address class
 
 Alacaklı veya borçlunun adresi.
 
-Sokak, ev numarası, posta kodu ve kasaba (tipyapılandırılmış adres ) veya adres satırı 1 ve 2 (türbirleşik adres elemanları ). Bu alanlardan herhangi biri ayarlandığında, tür otomatik olarak set olur. Alanları ayarlamadan önce adres türübelirsiz . Her iki türden alan ayarlanırsa, adres türüçelişkili . Tüm alanlar boş olmadığı sürece ad ve ülke kodu her zaman ayarlanmalıdır.
+Cadde, ev numarası, posta kodu ve kasaba (yapılandırılmış adres türü) ya da adres satırı 1 ve 2 (birleştirilmiş adres öğeleri türü) ayarlayabilirsiniz. Bu alanlardan herhangi biri ayarlandığında tür otomatik olarak belirlenir. Alanlar ayarlanmadan önce adres türü belirsizdir. Her iki türden alanlar ayarlanırsa, adres türü çelişkili olur. İsim ve ülke kodu, tüm alanlar boş olmadıkça her zaman ayarlanmalıdır.
 
 ```csharp
 public sealed class Address : IEquatable<Address>
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Address](address)() | Address örneğini oluşturur |
+| [Address](address/)() | Address örneği oluşturur |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1) { get; set; } | 1. adres satırını alır veya ayarlar |
-| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2) { get; set; } | 2. adres satırını alır veya ayarlar |
-| [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode) { get; set; } | İki harfli ISO ülke kodunu alır veya ayarlar. |
-| [HouseNo](../../aspose.barcode.complexbarcode/address/houseno) { get; set; } | Ev numarasını alır veya ayarlar. |
-| [Name](../../aspose.barcode.complexbarcode/address/name) { get; set; } | Bir gerçek kişinin adını ve soyadını veya bir tüzel kişinin şirket adını alır veya ayarlar. |
-| [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode) { get; set; } | Posta kodunu alır veya ayarlar. |
-| [Street](../../aspose.barcode.complexbarcode/address/street) { get; set; } | Sokağı alır veya ayarlar. |
-| [Town](../../aspose.barcode.complexbarcode/address/town) { get; set; } | Kasabayı veya şehri alır veya ayarlar. |
-| [Type](../../aspose.barcode.complexbarcode/address/type) { get; } | Adres türünü alır. |
+| [AddressLine1](../../aspose.barcode.complexbarcode/address/addressline1/) { get; set; } | Adres satırı 1'i alır veya ayarlar. |
+| [AddressLine2](../../aspose.barcode.complexbarcode/address/addressline2/) { get; set; } | Adres satırı 2'yi alır veya ayarlar. |
+| [CountryCode](../../aspose.barcode.complexbarcode/address/countrycode/) { get; set; } | İki harfli ISO ülke kodunu alır veya ayarlar. |
+| [HouseNo](../../aspose.barcode.complexbarcode/address/houseno/) { get; set; } | Ev numarasını alır veya ayarlar. |
+| [Name](../../aspose.barcode.complexbarcode/address/name/) { get; set; } | İsmi alır veya ayarlar; bu, gerçek bir kişinin ad ve soyadı ya da tüzel bir kişinin şirket adı olabilir. |
+| [PostalCode](../../aspose.barcode.complexbarcode/address/postalcode/) { get; set; } | Posta kodunu alır veya ayarlar. |
+| [Street](../../aspose.barcode.complexbarcode/address/street/) { get; set; } | Sokağı alır veya ayarlar. |
+| [Town](../../aspose.barcode.complexbarcode/address/town/) { get; set; } | Kasaba veya şehri alır veya ayarlar. |
+| [Type](../../aspose.barcode.complexbarcode/address/type/) { get; } | Adres türünü alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Clear](../../aspose.barcode.complexbarcode/address/clear)() | Tüm alanları temizler ve türüUndetermined . |
-| [Equals](../../aspose.barcode.complexbarcode/address/equals#equals)(Address) | Belirtilen adresin geçerli adrese eşit olup olmadığını belirler. |
-| override [Equals](../../aspose.barcode.complexbarcode/address/equals#equals_1)(object) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode)() | Bu örnek için karma kodu alır. |
+| [Clear](../../aspose.barcode.complexbarcode/address/clear/)() | Tüm alanları temizler ve türü Belirsiz olarak ayarlar. |
+| [Equals](../../aspose.barcode.complexbarcode/address/equals/#equals)(Address) | Belirtilen adresin mevcut adrese eşit olup olmadığını belirler. |
+| override [Equals](../../aspose.barcode.complexbarcode/address/equals/#equals_1)(object) | Belirtilen nesnenin mevcut nesneye eşit olup olmadığını belirler. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/address/gethashcode/)() | Bu örnek için karma kodunu alır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode)
-* toplantı [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

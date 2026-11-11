@@ -1,105 +1,105 @@
 ---
-title: Equals
-second_title: Aspose.BarCode for .NET API Referansı
-description: Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürürSingleDecodeTypeaspose.barcode.barcoderecognition/singledecodetype değer.
+title: "BaseDecodeType.Equals"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "BaseDecodeType yöntemi. Bu örneğin belirtilen bir SingleDecodeType değerine eşit olup olmadığını gösteren bir değer döndürür"
 type: docs
 weight: 20
 url: /tr/net/aspose.barcode.barcoderecognition/basedecodetype/equals/
 ---
 ## Equals(SingleDecodeType) {#equals_2}
 
-Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`SingleDecodeType`](../../singledecodetype) değer.
+Bu örneğin belirtilen [`SingleDecodeType`](../../singledecodetype/) değerine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public virtual bool Equals(SingleDecodeType other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | SingleDecodeType | Bir[`SingleDecodeType`](../../singledecodetype) bu örnekle karşılaştırılacak değer. |
+| other | SingleDecodeType | Bu örnek ile karşılaştırılacak bir [`SingleDecodeType`](../../singledecodetype/) değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** obj bu örnekle aynı değere sahipse; aksi halde, **yanlış**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [SingleDecodeType](../../singledecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [SingleDecodeType](../../singledecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## Equals(MultyDecodeType) {#equals_1}
+## Equals(MultiDecodeType) {#equals_1}
 
-Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`MultyDecodeType`](../../multydecodetype) değer.
+Bu örneğin belirtilen [`MultiDecodeType`](../../multidecodetype/) değerine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
-public virtual bool Equals(MultyDecodeType other)
+public virtual bool Equals(MultiDecodeType other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | MultyDecodeType | Bir[`MultyDecodeType`](../../multydecodetype) bu örnekle karşılaştırılacak değer. |
+| other | MultiDecodeType | Bu örnek ile karşılaştırılacak bir [`MultiDecodeType`](../../multidecodetype/) değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** obj bu örnekle aynı değere sahipse; aksi halde, **yanlış**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [MultyDecodeType](../../multydecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [MultiDecodeType](../../multidecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(BaseDecodeType) {#equals}
 
-Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`BaseDecodeType`](../../basedecodetype) değer.
+Bu örneğin belirtilen [`BaseDecodeType`](../) değerine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public bool Equals(BaseDecodeType other)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| other | BaseDecodeType | Bir[`BaseDecodeType`](../../basedecodetype) bu örnekle karşılaştırılacak değer. |
+| other | BaseDecodeType | Bu örnek ile karşılaştırılacak bir [`BaseDecodeType`](../) değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** obj bu örnekle aynı değere sahipse; aksi halde, **yanlış**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Equals(object) {#equals_3}
 
-Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`BaseDecodeType`](../../basedecodetype) değer.
+Bu örneğin belirtilen [`BaseDecodeType`](../) değerine eşit olup olmadığını gösteren bir değer döndürür.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | obj | Object | Bu örnekle karşılaştırılacak bir System.Object değeri. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** obj bu örnekle aynı değere sahipse; aksi halde, **yanlış**.
+**true** if obj has the same value as this instance; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

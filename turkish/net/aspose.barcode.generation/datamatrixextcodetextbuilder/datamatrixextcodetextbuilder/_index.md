@@ -1,0 +1,23 @@
+---
+title: "DataMatrixExtCodetextBuilder.DataMatrixExtCodetextBuilder"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "DataMatrixExtCodetextBuilder yapıcı. Varsayılan yapıcı"
+type: docs
+weight: 10
+url: /tr/net/aspose.barcode.generation/datamatrixextcodetextbuilder/datamatrixextcodetextbuilder/
+---
+## DataMatrixExtCodetextBuilder constructor
+
+Varsayılan yapıcı.
+
+```csharp
+public DataMatrixExtCodetextBuilder()
+```
+
+### Ayrıca Bakınız
+
+* class [DataMatrixExtCodetextBuilder](../)
+* namespace [Aspose.BarCode.Generation](../../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../../)
+
+

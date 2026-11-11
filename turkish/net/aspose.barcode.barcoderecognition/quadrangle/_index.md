@@ -1,61 +1,61 @@
 ---
-title: Quadrangle
-second_title: Aspose.BarCode for .NET API Referansı
-description: Dörtlü bir dizi depolarPoint temsil eden sQuadrangle./quadrangle bölge.
+title: "Quadrangle Sınıfı"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.BarCodeRecognition.Quadrangle sınıfı. Bir Quadrangle bölgesini temsil eden dört Nokta kümesini depolar"
 type: docs
-weight: 240
+weight: 360
 url: /tr/net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
 
-Dörtlü bir dizi depolarPoint temsil eden s[`Quadrangle`](../quadrangle) bölge.
+`Quadrangle` bölgesini temsil eden dört Nokta kümesini depolar.
 
 ```csharp
 public class Quadrangle : IEquatable<Quadrangle>
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Quadrangle](quadrangle#constructor)() | Yeni bir boş örneğini başlatır[`Quadrangle`](../quadrangle) sınıf. |
-| [Quadrangle](quadrangle#constructor_1)(Point, Point, Point, Point) | Yeni bir örneğini başlatır[`Quadrangle`](../quadrangle)açıklama noktalarına sahip sınıf. |
+| [Quadrangle](quadrangle/#constructor)() | `Quadrangle` sınıfının yeni boş bir örneğini başlatır. |
+| [Quadrangle](quadrangle/#constructor_1)(Point, Point, Point, Point) | `Quadrangle` sınıfının yeni bir örneğini tanımlayıcı noktalarla başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle) { get; } | alırRectangle bunu sınırlayan[`Quadrangle`](../quadrangle) |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty) { get; } | Tüm olup olmadığını test ederPoint bunun[`Quadrangle`](../quadrangle) sıfır değerleri vardır. |
-| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom) { get; set; } | Sol alt köşeyi alırPoint nın-nin[`Quadrangle`](../quadrangle) bölge |
-| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop) { get; set; } | Sol üst köşeyi alırPoint nın-nin[`Quadrangle`](../quadrangle) bölge |
-| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom) { get; set; } | Sağ alt köşeyi alırPoint nın-nin[`Quadrangle`](../quadrangle) bölge |
-| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop) { get; set; } | Sağ üst köşeyi alırPoint nın-nin[`Quadrangle`](../quadrangle) bölge |
+| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle/) { get; } | Bu `Quadrangle`'ı sınırlayan Rectangle'ı alır |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty/) { get; } | Bu `Quadrangle`'ın tüm Noktalarının sıfır değerine sahip olup olmadığını test eder. |
+| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom/) { get; set; } | `Quadrangle` bölgesinin sol-alt köşe Noktasını alır |
+| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop/) { get; set; } | `Quadrangle` bölgesinin sol-üst köşe Noktasını alır |
+| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom/) { get; set; } | `Quadrangle` bölgesinin sağ-alt köşe Noktasını alır |
+| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop/) { get; set; } | `Quadrangle` bölgesinin sağ-üst köşe Noktasını alır |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_2)(Point) | BelirtilenPoint bunun içinde yer alır[`Quadrangle`](../quadrangle) sınıf. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains)(Quadrangle) | Belirtilen[`Quadrangle`](../quadrangle) içeriyor veya bununla kesişiyor[`Quadrangle`](../quadrangle) sınıf. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_3)(Rectangle) | BelirtilenRectangle içeriyor veya bununla kesişiyor[`Quadrangle`](../quadrangle) sınıf. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains#contains_1)(int, int) | Belirtilen noktanın bunun içinde bulunup bulunmadığını belirler.[`Quadrangle`](../quadrangle) sınıf. |
-| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals_1)(object) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`Quadrangle`](../quadrangle) değer. |
-| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals#equals)(Quadrangle) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`Quadrangle`](../quadrangle) değer. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/quadrangle/gethashcode)() | Bu örnek için karma kodu döndürür. |
-| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring)() | Bunun insan tarafından okunabilir bir dize temsilini döndürür[`Quadrangle`](../quadrangle) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`Quadrangle`](../quadrangle) değer saniyeye eşittir. |
-| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`Quadrangle`](../quadrangle) değer ikinciden farklı. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_2)(Point) | Belirtilen Noktanın bu `Quadrangle` sınıfı içinde bulunup bulunmadığını belirler. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains)(Quadrangle) | Belirtilen `Quadrangle`'ın bu `Quadrangle` sınıfı içinde bulunup bulunmadığını veya kesişip kesişmediğini belirler. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_3)(Rectangle) | Belirtilen Rectangle'in bu `Quadrangle` sınıfı içinde bulunup bulunmadığını veya kesişip kesişmediğini belirler. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_1)(int, int) | Belirtilen noktanın bu `Quadrangle` sınıfı içinde bulunup bulunmadığını belirler. |
+| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals_1)(object) | Bu örneğin belirtilen `Quadrangle` değerine eşit olup olmadığını gösteren bir değer döndürür. |
+| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals)(Quadrangle) | Bu örneğin belirtilen `Quadrangle` değerine eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/quadrangle/gethashcode/)() | Bu örnek için karma kodunu döndürür. |
+| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring/)() | Bu `Quadrangle` nesnesinin insan tarafından okunabilir bir dize temsilini döndürür. |
+| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality/) | İlk `Quadrangle` değerinin ikinciye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality/) | İlk `Quadrangle` değerinin ikinciye farklı olup olmadığını gösteren bir değer döndürür. |
 
 ## Alanlar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty) | bir[`Quadrangle`](../quadrangle) özellikleri başlatılmamış olarak bırakılan sınıf. |
+| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty/) | `Quadrangle` sınıfını, özellikleri başlatılmamış olarak temsil eder. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* toplantı [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

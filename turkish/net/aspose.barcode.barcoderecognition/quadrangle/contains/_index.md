@@ -1,104 +1,104 @@
 ---
-title: Contains
-second_title: Aspose.BarCode for .NET API Referansı
-description: BelirtilenPoint bunun içinde yer alırQuadrangleaspose.barcode.barcoderecognition/quadrangle sınıf.
+title: "Quadrangle.Contains"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Quadrangle yöntemi. Belirtilen Noktanın bu Quadrangle sınıfı içinde bulunup bulunmadığını belirler"
 type: docs
 weight: 90
 url: /tr/net/aspose.barcode.barcoderecognition/quadrangle/contains/
 ---
 ## Contains(Point) {#contains_2}
 
-BelirtilenPoint bunun içinde yer alır[`Quadrangle`](../../quadrangle) sınıf.
+Belirtilen Noktanın bu [`Quadrangle`](../) sınıfı içinde bulunup bulunmadığını belirler.
 
 ```csharp
 public bool Contains(Point pt)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| pt | Point | buPoint test etmek. |
+| pt | Point | Test edilecek Nokta. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-İadeler **doğru** eğerPoint bunun içinde yer alır[`Quadrangle`](../../quadrangle) sınıf; aksi halde, **yanlış**.
+Bu [`Quadrangle`](../) sınıfı içinde Nokta bulunuyorsa **true** döndürür; aksi takdirde **false** döndürür.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Quadrangle](../../quadrangle)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* toplantı [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(int, int) {#contains_1}
 
-Belirtilen noktanın bunun içinde bulunup bulunmadığını belirler.[`Quadrangle`](../../quadrangle) sınıf.
+Belirtilen noktanın bu [`Quadrangle`](../) sınıfı içinde bulunup bulunmadığını belirler.
 
 ```csharp
 public bool Contains(int x, int y)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| x | Int32 | x noktası koordinatı. |
-| y | Int32 | y noktası koordinatı. |
+| x | Int32 | x noktasının koordinatı. |
+| y | Int32 | y noktasının koordinatı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-İadeler **doğru**nokta bunun içinde yer alıyorsa[`Quadrangle`](../../quadrangle) sınıf; aksi halde, **yanlış**.
+Bu [`Quadrangle`](../) sınıfı içinde nokta bulunuyorsa **true** döndürür; aksi takdirde **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Quadrangle](../../quadrangle)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* toplantı [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(Quadrangle) {#contains}
 
-Belirtilen[`Quadrangle`](../../quadrangle) içeriyor veya bununla kesişiyor[`Quadrangle`](../../quadrangle) sınıf.
+Belirtilen [`Quadrangle`](../) bu [`Quadrangle`](../) sınıfı içinde mi yoksa kesişiyor mu belirler.
 
 ```csharp
 public bool Contains(Quadrangle quad)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| quad | Quadrangle | bu[`Quadrangle`](../../quadrangle) test etmek. |
+| quad | Quadrangle | Test edilecek [`Quadrangle`](../). |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-İadeler **doğru** eğer[`Quadrangle`](../../quadrangle) içeriyor veya bununla kesişiyor[`Quadrangle`](../../quadrangle) sınıf; aksi halde, **yanlış**.
+Bu [`Quadrangle`](../) sınıfı içinde [`Quadrangle`](../) bulunuyorsa **true** döndürür; aksi takdirde **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Quadrangle](../../quadrangle)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* toplantı [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(Rectangle) {#contains_3}
 
-BelirtilenRectangle içeriyor veya bununla kesişiyor[`Quadrangle`](../../quadrangle) sınıf.
+Belirtilen Rectangle bu [`Quadrangle`](../) sınıfı içinde mi yoksa kesişiyor mu belirler.
 
 ```csharp
 public bool Contains(Rectangle rect)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| rect | Rectangle | buRectangle test etmek. |
+| rect | Rectangle | Test edilecek Rectangle. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-İadeler **doğru** eğerRectangle içeriyor veya bununla kesişiyor[`Quadrangle`](../../quadrangle) sınıf; aksi halde, **yanlış**.
+Bu [`Quadrangle`](../) sınıfı içinde Rectangle bulunuyorsa **true** döndürür; aksi takdirde **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Quadrangle](../../quadrangle)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* toplantı [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

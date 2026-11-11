@@ -1,74 +1,84 @@
 ---
-title: BarCodeReader
-second_title: Aspose.BarCode for .NET API Referansı
-description: BarCodeReader bir veya birkaç barkod içerebilen bir görüntüyü kapsüller ardından barkodları algılamak için ReadBarCodes işlemini gerçekleştirebilir.
+title: "BarCodeReader sınıfı"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.BarCodeRecognition.BarCodeReader sınıfı. BarCodeReader, bir veya birkaç barkod içerebilecek bir görüntüyü kapsüller ve ardından barkodları tespit etmek için ReadBarCodes işlemini gerçekleştirebilir."
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 ## BarCodeReader class
 
-BarCodeReader, bir veya birkaç barkod içerebilen bir görüntüyü kapsüller, ardından barkodları algılamak için ReadBarCodes işlemini gerçekleştirebilir.
+BarCodeReader, bir veya birkaç barkod içerebilecek bir görüntüyü kapsar ve ardından barkodları tespit etmek için ReadBarCodes işlemini gerçekleştirebilir.
 
 ```csharp
 public class BarCodeReader : Component
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BarCodeReader](barcodereader#constructor)() | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) varsayılan değerlere sahip sınıf. ReadBarCodes() yöntemini çağırmadan önce görüntünün (SetBitmapImage()) ayarlanmasını gerektirir. |
-| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) bir görüntüden sınıf. |
-| [BarCodeReader](barcodereader#constructor_8)(Stream) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_11)(string) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) dosyadan sınıf. |
-| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
-| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Yeni bir örneğini başlatır[`BarCodeReader`](../barcodereader) sınıf. |
+| [BarCodeReader](barcodereader/#constructor)() | `BarCodeReader` sınıfının yeni bir örneğini varsayılan değerlerle başlatır. ReadBarCodes() metodunu çağırmadan önce görüntüyü (SetBitmapImage()) ayarlamanız gerekir. |
+| [BarCodeReader](barcodereader/#constructor_8)(Bitmap) | `BarCodeReader` sınıfının yeni bir örneğini bir görüntüden başlatır. |
+| [BarCodeReader](barcodereader/#constructor_1)(LuminanceFrame) | `BarCodeReader` sınıfının yeni bir örneğini bir parlaklık çerçevesinden başlatır. |
+| [BarCodeReader](barcodereader/#constructor_15)(Stream) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_18)(string) | `BarCodeReader` sınıfının yeni bir örneğini dosyadan başlatır. |
+| [BarCodeReader](barcodereader/#constructor_9)(Bitmap, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_10)(Bitmap, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_2)(LuminanceFrame, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_3)(LuminanceFrame, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_16)(Stream, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_17)(Stream, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_19)(string, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_20)(string, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_11)(Bitmap, Rectangle, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_12)(Bitmap, Rectangle, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_13)(Bitmap, Rectangle[], BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_14)(Bitmap, Rectangle[], params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_4)(LuminanceFrame, Rectangle, BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_5)(LuminanceFrame, Rectangle, params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_6)(LuminanceFrame, Rectangle[], BaseDecodeType) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
+| [BarCodeReader](barcodereader/#constructor_7)(LuminanceFrame, Rectangle[], params BaseDecodeType[]) | `BarCodeReader` sınıfının yeni bir örneğini başlatır. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings) { get; } | Ana Barkod kod çözme parametreleri. Tanınan veriler üzerinde etkili olan parametreleri içerir. |
-| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | Tanınır[`BarCodeResult`](../barcoderesult)s dizisi |
-| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount) { get; } | Tanınan barkod sayısını alır |
-| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings, tanıma kalitesini ve hızını manuel olarak yapılandırmanıza olanak tanır. QualitySettings'i yerleşik ön ayarlarla hızlı bir şekilde ayarlayabilirsiniz: HighPerformance, NormalQuality, HighQuality, MaxBarCodes veya ayrı seçenekleri manuel olarak yapılandırabilirsiniz. QualitySettings'in varsayılan değeri NormalQuality'dir. |
-| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout) { get; set; } | Tanıma işleminin zaman aşımını milisaniye cinsinden alır veya ayarlar. |
-| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings) { get; } | İşlemci çekirdeklerini kullanma ayarlarını alır. |
+| [BarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/barcodereadtype/) { get; set; } | Tanıma için kullanılan barkod çözümleme türünü alır veya ayarlar. [`ReadBarCodes`](./readbarcodes/) çağrılmadan önce ayarlanmalıdır. |
+| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings/) { get; } | Ana BarCode kod çözme parametreleri. Tanınan veriler üzerinde etkisi olan parametreler içerir. |
+| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/) { get; } | Tanımlanan [`BarCodeResult`](../barcoderesult/) dizisini alır |
+| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount/) { get; } | Tanımlanan barkodların sayısını alır |
+| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings/) { get; set; } | QualitySettings, tanıma kalitesini ve hızını manuel olarak yapılandırmanıza olanak tanır. QualitySettings'i gömülü ön ayarlar: HighPerformance, NormalQuality, HighQuality, MaxBarCodes ile hızlıca ayarlayabilir veya ayrı seçenekleri manuel olarak yapılandırabilirsiniz. QualitySettings'in varsayılan değeri NormalQuality'dir. |
+| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout/) { get; set; } | Tanıma işleminin zaman aşımını milisaniye cinsinden alır veya ayarlar. |
+| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings/) { get; } | İşlemci çekirdeklerinin kullanım ayarlarını alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml)(Stream) | Belirtilen xml akışından BarCode özelliklerini içe aktarır ve bunları geçerli BarCodeReader örneğine uygular. |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml_1)(string) | Belirtilen xml dosyasından BarCode özelliklerini içe aktarır ve bunları geçerli BarCodeReader örneğine uygular. |
-| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | İşlev, diğer iş parçacığından geçerli tanıma oturumunun sonlandırılmasını istiyor. Abort, engellenemez bir yöntemdir ve çağrıdan hemen sonra kontrolü döndürür. Tanıma işlemi çok uzun olduğunda yöntem kullanılmalıdır. |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml)(Stream) | BarCode özelliklerini belirtilen xml akışına aktarır |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml_1)(string) | BarCode özelliklerini belirtilen xml dosyasına verir |
-| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | Okuma sayısı[`BarCodeResult`](../barcoderesult) görüntüden s. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage)(Bitmap) | Tanıma için bitmap görüntüsünü ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_3)(Stream) | Tanıma için görüntü akışını ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_4)(string) | Görüntü dosyasını tanıma için ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_1)(Bitmap, Rectangle) | Tanıma için bitmap görüntüsünü ve alanını ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_2)(Bitmap, Rectangle[]) | Tanıma için bitmap görüntüsünü ve alanları ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype)(BaseDecodeType) | Tanıma için kod çözme türünü ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype_1)(params SingleDecodeType[]) | Kümeler[`SingleDecodeType`](../singledecodetype) tanıma için dizi yazın. ReadBarCodes() yönteminden önce çağrılmalıdır. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml)(Stream) | Belirtilen xml akışından BarCode özelliklerini içe aktarır ve mevcut BarCodeReader örneğine uygular. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml_1)(string) | Belirtilen xml dosyasından BarCode özelliklerini içe aktarır ve mevcut BarCodeReader örneğine uygular. |
+| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort/)() | Fonksiyon, başka bir iş parçacığından mevcut tanıma oturumunun sonlandırılmasını talep eder. Abort, engellenemeyen bir yöntemdir ve çağrıldıktan hemen sonra kontrolü geri verir. Bu yöntem, tanıma işlemi çok uzun sürdüğünde kullanılmalıdır. |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml)(Stream) | BarCode özelliklerini belirtilen xml akışına dışa aktarır |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml_1)(string) | BarCode özelliklerini belirtilen xml dosyasına dışa aktarır |
+| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes/)() | Görüntüden [`BarCodeResult`](../barcoderesult/) öğelerini okur. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_3)(Bitmap) | Tanıma için bitmap görüntüsünü ayarlar. ReadBarCodes() metodundan önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage)(LuminanceFrame) | Tanıma için parlaklık çerçevesini ayarlar. [`ReadBarCodes`](./readbarcodes/) yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_6)(Stream) | Tanıma için görüntü akışını ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_7)(string) | Tanıma için görüntü dosyasını ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(Bitmap, Rectangle) | Tanıma için bitmap görüntüsü ve alanı ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_5)(Bitmap, Rectangle[]) | Tanıma için bitmap görüntüsü ve alanları ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(LuminanceFrame, Rectangle) | Tanıma için parlaklık çerçevesi ve alanı ayarlar. [`ReadBarCodes`](./readbarcodes/) yönteminden önce çağrılmalıdır. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(LuminanceFrame, Rectangle[]) | Tanıma için parlaklık çerçevesi ve alanları ayarlar. [`ReadBarCodes`](./readbarcodes/) yönteminden önce çağrılmalıdır. |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/)(params SingleDecodeType[]) | Tanıma için [`SingleDecodeType`](../singledecodetype/) tip dizisini ayarlar. ReadBarCodes() yönteminden önce çağrılmalıdır. |
 
-### Örnekler
+## Örnekler
 
-Bu örnek, Code39 ve Code128 barkodlarının nasıl algılanacağını gösterir.
+Bu örnek, Code39 ve Code128 barkodlarını nasıl algılayacağınızı gösterir.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -77,7 +87,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -85,9 +95,9 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
 End Using
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* toplantı [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
