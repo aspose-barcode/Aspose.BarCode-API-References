@@ -1,14 +1,14 @@
 ---
-title: BarCodeReader
-second_title: Referencia de API de Aspose.BarCode para .NET
-description: BarCodeReader encapsula una imagen que puede contener uno o varios códigos de barras luego puede realizar la operación ReadBarCodes para detectar códigos de barras.
+title: "Clase BarCodeReader"
+second_title: "Referencia de API de Aspose.BarCode para .NET"
+description: "Clase Aspose.BarCode.BarCodeRecognition.BarCodeReader. BarCodeReader encapsula una imagen que puede contener uno o varios códigos de barras y luego puede ejecutar la operación ReadBarCodes para detectar códigos de barras"
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.barcode.barcoderecognition/barcodereader/
 ---
 ## BarCodeReader class
 
-BarCodeReader encapsula una imagen que puede contener uno o varios códigos de barras, luego puede realizar la operación ReadBarCodes para detectar códigos de barras.
+BarCodeReader encapsula una imagen que puede contener uno o varios códigos de barras, y luego puede ejecutar la operación ReadBarCodes para detectar códigos de barras.
 
 ```csharp
 public class BarCodeReader : Component
@@ -18,57 +18,67 @@ public class BarCodeReader : Component
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarCodeReader](barcodereader#constructor)() | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase con valores predeterminados. Requiere configurar la imagen (SetBitmapImage()) antes de llamar al método ReadBarCodes(). |
-| [BarCodeReader](barcodereader#constructor_1)(Bitmap) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase de una imagen. |
-| [BarCodeReader](barcodereader#constructor_8)(Stream) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_11)(string) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase del archivo. |
-| [BarCodeReader](barcodereader#constructor_2)(Bitmap, BaseDecodeType) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_3)(Bitmap, params BaseDecodeType[]) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_9)(Stream, BaseDecodeType) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_10)(Stream, params BaseDecodeType[]) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_12)(string, BaseDecodeType) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_13)(string, params BaseDecodeType[]) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_4)(Bitmap, Rectangle, BaseDecodeType) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_5)(Bitmap, Rectangle, params BaseDecodeType[]) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_6)(Bitmap, Rectangle[], BaseDecodeType) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
-| [BarCodeReader](barcodereader#constructor_7)(Bitmap, Rectangle[], params BaseDecodeType[]) | Inicializa una nueva instancia del[`BarCodeReader`](../barcodereader) clase. |
+| [BarCodeReader](barcodereader/#constructor)() | Inicializa una nueva instancia de la clase `BarCodeReader` con valores predeterminados. Requiere establecer la imagen (SetBitmapImage()) antes de llamar al método ReadBarCodes(). |
+| [BarCodeReader](barcodereader/#constructor_8)(Bitmap) | Inicializa una nueva instancia de la clase `BarCodeReader` a partir de una imagen. |
+| [BarCodeReader](barcodereader/#constructor_1)(LuminanceFrame) | Inicializa una nueva instancia de la clase `BarCodeReader` a partir de un cuadro de luminancia. |
+| [BarCodeReader](barcodereader/#constructor_15)(Stream) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_18)(string) | Inicializa una nueva instancia de la clase `BarCodeReader` a partir de un archivo. |
+| [BarCodeReader](barcodereader/#constructor_9)(Bitmap, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_10)(Bitmap, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_2)(LuminanceFrame, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_3)(LuminanceFrame, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_16)(Stream, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_17)(Stream, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_19)(string, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_20)(string, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_11)(Bitmap, Rectangle, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_12)(Bitmap, Rectangle, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_13)(Bitmap, Rectangle[], BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_14)(Bitmap, Rectangle[], params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_4)(LuminanceFrame, Rectangle, BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_5)(LuminanceFrame, Rectangle, params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_6)(LuminanceFrame, Rectangle[], BaseDecodeType) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
+| [BarCodeReader](barcodereader/#constructor_7)(LuminanceFrame, Rectangle[], params BaseDecodeType[]) | Inicializa una nueva instancia de la clase `BarCodeReader`. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings) { get; } | Los principales parámetros de decodificación de BarCode. Contiene parámetros que influyen en los datos reconocidos. |
-| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes) { get; } | Se reconoce[`BarCodeResult`](../barcoderesult)matriz s |
-| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount) { get; } | Obtiene el recuento de códigos de barras reconocidos |
-| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings) { get; set; } | QualitySettings permite configurar manualmente la calidad y la velocidad del reconocimiento. Puede configurar rápidamente QualitySettings mediante ajustes preestablecidos integrados: HighPerformance, NormalQuality, HighQuality, MaxBarCodes o puede configurar manualmente opciones separadas. El valor predeterminado de QualitySettings es NormalQuality. |
-| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout) { get; set; } | Obtiene o establece el tiempo de espera del proceso de reconocimiento en milisegundos. |
-| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings) { get; } | Obtiene una configuración de uso de núcleos de procesador. |
+| [BarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/barcodereadtype/) { get; set; } | Obtiene o establece el tipo de decodificación de código de barras usado para el reconocimiento. Debe establecerse antes de llamar a [`ReadBarCodes`](./readbarcodes/). |
+| [BarcodeSettings](../../aspose.barcode.barcoderecognition/barcodereader/barcodesettings/) { get; } | Los principales parámetros de decodificación de BarCode. Contiene parámetros que influyen en los datos reconocidos. |
+| [FoundBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/foundbarcodes/) { get; } | Obtiene el array de [`BarCodeResult`](../barcoderesult/) reconocidos |
+| [FoundCount](../../aspose.barcode.barcoderecognition/barcodereader/foundcount/) { get; } | Obtiene el recuento de códigos de barras reconocidos |
+| [QualitySettings](../../aspose.barcode.barcoderecognition/barcodereader/qualitysettings/) { get; set; } | QualitySettings permite configurar manualmente la calidad y velocidad del reconocimiento. Puedes configurar rápidamente QualitySettings mediante los presets integrados: HighPerformance, NormalQuality, HighQuality, MaxBarCodes o puedes configurar manualmente opciones separadas. El valor predeterminado de QualitySettings es NormalQuality. |
+| [Timeout](../../aspose.barcode.barcoderecognition/barcodereader/timeout/) { get; set; } | Obtiene o establece el tiempo de espera del proceso de reconocimiento en milisegundos. |
+| static [ProcessorSettings](../../aspose.barcode.barcoderecognition/barcodereader/processorsettings/) { get; } | Obtiene la configuración del uso de núcleos del procesador. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml)(Stream) | Importa las propiedades de BarCode del flujo xml especificado y las aplica a la instancia actual de BarCodeReader. |
-| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml#importfromxml_1)(string) | Importa las propiedades de BarCode del archivo xml especificado y las aplica a la instancia actual de BarCodeReader. |
-| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort)() | La función solicita la finalización de la sesión de reconocimiento actual de otro subproceso. Abortar es un método desbloqueable y devuelve el control justo después de llamar. El método debe usarse cuando el proceso de reconocimiento es demasiado largo. |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml)(Stream) | Exporta propiedades de código de barras al flujo xml especificado |
-| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml#exporttoxml_1)(string) | Exporta las propiedades del código de barras al archivo xml especificado |
-| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes)() | Lecturas[`BarCodeResult`](../barcoderesult) s de la imagen. |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage)(Bitmap) | Establece la imagen de mapa de bits para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_3)(Stream) | Establece el flujo de imágenes para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_4)(string) | Establece el archivo de imagen para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_1)(Bitmap, Rectangle) | Establece la imagen de mapa de bits y el área de reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage#setbarcodeimage_2)(Bitmap, Rectangle[]) | Establece la imagen de mapa de bits y las áreas de reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype)(BaseDecodeType) | Establece el tipo de decodificación para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
-| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype#setbarcodereadtype_1)(params SingleDecodeType[]) | Conjuntos[`SingleDecodeType`](../singledecodetype) matriz de tipos para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml)(Stream) | Importa propiedades de BarCode desde el xml-stream especificado y las aplica a la instancia actual de BarCodeReader. |
+| static [ImportFromXml](../../aspose.barcode.barcoderecognition/barcodereader/importfromxml/#importfromxml_1)(string) | Importa propiedades de BarCode desde el xml-file especificado y las aplica a la instancia actual de BarCodeReader. |
+| [Abort](../../aspose.barcode.barcoderecognition/barcodereader/abort/)() | La función solicita la terminación de la sesión de reconocimiento actual desde otro hilo. Abort es un método no bloqueable y devuelve el control justo después de llamarse. El método debe usarse cuando el proceso de reconocimiento es demasiado largo. |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml)(Stream) | Exporta propiedades de BarCode al xml-stream especificado |
+| [ExportToXml](../../aspose.barcode.barcoderecognition/barcodereader/exporttoxml/#exporttoxml_1)(string) | Exporta propiedades de BarCode al xml-file especificado |
+| [ReadBarCodes](../../aspose.barcode.barcoderecognition/barcodereader/readbarcodes/)() | Lee los [`BarCodeResult`](../barcoderesult/) de la imagen. |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_3)(Bitmap) | Establece la imagen bitmap para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage)(LuminanceFrame) | Establece el marco de luminancia para el reconocimiento. Debe llamarse antes del método [`ReadBarCodes`](./readbarcodes/). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_6)(Stream) | Establece la secuencia de imagen para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_7)(string) | Establece el archivo de imagen para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_4)(Bitmap, Rectangle) | Establece la imagen bitmap y el área para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_5)(Bitmap, Rectangle[]) | Establece la imagen bitmap y las áreas para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_1)(LuminanceFrame, Rectangle) | Establece el marco de luminancia y el área para el reconocimiento. Debe llamarse antes del método [`ReadBarCodes`](./readbarcodes/). |
+| [SetBarCodeImage](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/#setbarcodeimage_2)(LuminanceFrame, Rectangle[]) | Establece el marco de luminancia y las áreas para el reconocimiento. Debe llamarse antes del método [`ReadBarCodes`](./readbarcodes/). |
+| [SetBarCodeReadType](../../aspose.barcode.barcoderecognition/barcodereader/setbarcodereadtype/)(params SingleDecodeType[]) | Establece una matriz de tipo [`SingleDecodeType`](../singledecodetype/) para el reconocimiento. Debe llamarse antes del método ReadBarCodes(). |
 
-### Ejemplos
+## Ejemplos
 
 Este ejemplo muestra cómo detectar códigos de barras Code39 y Code128.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -77,7 +87,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -87,7 +97,7 @@ End Using
 
 ### Ver también
 
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* asamblea [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

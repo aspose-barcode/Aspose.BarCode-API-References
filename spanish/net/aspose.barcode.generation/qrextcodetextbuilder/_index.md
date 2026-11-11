@@ -1,16 +1,16 @@
 ---
-title: QrExtCodetextBuilder
-second_title: Referencia de API de Aspose.BarCode para .NET
-description: Generador de texto de código extendido para códigos de barras QR 2D para el modo de texto de código extendido de QrEncodeMode
+title: "Clase QrExtCodetextBuilder"
+second_title: "Referencia de API de Aspose.BarCode para .NET"
+description: "Clase Aspose.BarCode.Generation.QrExtCodetextBuilder. Generador de texto extendido para códigos QR 2D para el modo ExtendedCodetext de EncodeMode"
 type: docs
-weight: 920
+weight: 1630
 url: /es/net/aspose.barcode.generation/qrextcodetextbuilder/
 ---
 ## QrExtCodetextBuilder class
 
-Generador de texto de código extendido para códigos de barras QR 2D para el modo de texto de código extendido de QrEncodeMode
+Generador de codetexto extendido para códigos de barras 2D QR para ExtendedCodetext Mode de EncodeMode
 
-Utilice la propiedad TwoDDisplayText de BarcodeGenerator para configurar el texto visible para eliminar los caracteres de gestión.
+Utilice la propiedad TwoDDisplayText de BarcodeGenerator para establecer el texto visible eliminando los caracteres de gestión.
 
 ```csharp
 public class QrExtCodetextBuilder : ExtCodetextBuilder
@@ -20,90 +20,93 @@ public class QrExtCodetextBuilder : ExtCodetextBuilder
 
 | Nombre | Descripción |
 | --- | --- |
-| [QrExtCodetextBuilder](qrextcodetextbuilder)() | Constructor predeterminado |
+| [QrExtCodetextBuilder](qrextcodetextbuilder/)() | El constructor predeterminado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext)(ECIEncodings, string) | Agrega código de texto con identificador de canal extendido |
-| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition)() | Agrega FNC1 en la primera posición al texto de código extendido items |
-| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator)() | Agrega Separador de grupo (GS - '\\u001D') a los elementos de texto en código extendidos |
-| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition)(string) | Agrega FNC1 en la segunda posición al texto de código extendido items |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext)(string) | Agrega texto de código sin formato a los elementos de texto de código extendido |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear)() | Borra elementos de texto en código extendidos |
-| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext)() | Genera texto de código extendido a partir de la lista de texto de código extendido. |
+| [AddCodetextWithCompactionMode](../../aspose.barcode.generation/qrextcodetextbuilder/addcodetextwithcompactionmode/)(QrExtCompactionMode, string) | Agrega codetext con el modo de compactación QR especificado a los elementos de codetext extendido. |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Agrega codetexto con Identificador de Canal Extendido |
+| [AddFNC1FirstPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1firstposition/)() | Establece FNC1 en la primera posición. Si se había establecido otro modo FNC1 antes, se reemplaza. |
+| [AddFNC1GroupSeparator](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1groupseparator/)() | Agrega Separador de Grupo (GS - '\\u001D') a los elementos de codetext extendido |
+| [AddFNC1SecondPosition](../../aspose.barcode.generation/qrextcodetextbuilder/addfnc1secondposition/)(string) | Establece FNC1 en la segunda posición. Si se había establecido otro modo FNC1 antes, se reemplaza. |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Agrega codetexto simple a los elementos de codetexto extendido |
+| override [Clear](../../aspose.barcode.generation/qrextcodetextbuilder/clear/)() | Borra los elementos de codetexto extendido |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/qrextcodetextbuilder/getextendedcodetext/)() | Genera codetexto extendido a partir de la lista de codetexto extendido. |
 
-### Ejemplos
+## Ejemplos
 
-Este ejemplo muestra cómo usar la primera posición FNC1 en modo extendido.
+Este ejemplo muestra cómo usar la primera posición FNC1 en Modo Extendido.
 
 ```csharp
 [C#]
-//crear código de texto
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
-lTextBuilder.AddFNC1FirstPosition();
-lTextBuilder.AddPlainCodetext("000%89%%0");
-lTextBuilder.AddFNC1GroupSeparator();
-lTextBuilder.AddPlainCodetext("12345<FNC1>");
+//crear codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
+TextBuilder.AddFNC1FirstPosition();
+TextBuilder.AddPlainCodetext("000%89%%0");
+TextBuilder.AddFNC1GroupSeparator();
+TextBuilder.AddPlainCodetext("12345<FNC1>");
 
-//generar código de texto
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//generar codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
 //generar
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-Este ejemplo muestra cómo usar la segunda posición FNC1 en modo extendido.
+Este ejemplo muestra cómo usar la segunda posición FNC1 en Modo Extendido.
 
 ```csharp
 [C#]
-//crear código de texto
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//crear codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddFNC1SecondPosition("12");
 TextBuilder.AddPlainCodetext("TRUE3456"); 
 
-//generar código de texto
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//generar codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
 //generar
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
 ```
 
-Este ejemplo muestra cómo usar el modo ECI múltiple en el modo extendido.
+Este ejemplo muestra cómo usar el modo multi ECI en Modo Extendido.
 
 ```csharp
 [C#]
-//crear código de texto
-QrExtCodetextBuilder lTextBuilder = new QrExtCodetextBuilder();
+//crear codetext
+QrExtCodetextBuilder TextBuilder = new QrExtCodetextBuilder();
 TextBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
 TextBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
 TextBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
-TextBuilder.AddPlainCodetext(@"t\e\\st");   
+TextBuilder.AddPlainCodetext(@"t\e\\st");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
+TextBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
 
-//generar código de texto
-string lCodetext = lTextBuilder.GetExtendedCodetext();
+//generar codetext
+string codetext = TextBuilder.GetExtendedCodetext();
 
 //generar
 using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 {
-    generator.Parameters.Barcode.QR.QrEncodeMode = QREncodeMode.ExtendedCodetext;
-    generator.Parameters.Barcode.QR.QrErrorLevel = QRErrorLevel.LevelL;
-	generator.CodeText = lCodetext;
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ExtendedCodetext;
+    generator.Parameters.Barcode.QR.ErrorLevel = QRErrorLevel.LevelL;
+	generator.CodeText = codetext;
     generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
 	generator.Save("test.bmp");
 }
@@ -111,8 +114,8 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.QR))
 
 ### Ver también
 
-* class [ExtCodetextBuilder](../extcodetextbuilder)
-* espacio de nombres [Aspose.BarCode.Generation](../../aspose.barcode.generation)
-* asamblea [Aspose.BarCode](../../)
+* class [ExtCodetextBuilder](../extcodetextbuilder/)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

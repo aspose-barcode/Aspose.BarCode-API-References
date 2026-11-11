@@ -1,9 +1,9 @@
 ---
-title: MailmarkCodetext
-second_title: Referencia de API de Aspose.BarCode para .NET
-description: Clase para codificar y decodificar el texto incrustado en el código Royal Mailmark de 4 estados.
+title: "Clase MailmarkCodetext"
+second_title: "Referencia de API de Aspose.BarCode para .NET"
+description: "Clase Aspose.BarCode.ComplexBarcode.MailmarkCodetext. Clase para codificar y decodificar el texto incrustado en el código Royal Mailmark de 4 estados."
 type: docs
-weight: 380
+weight: 670
 url: /es/net/aspose.barcode.complexbarcode/mailmarkcodetext/
 ---
 ## MailmarkCodetext class
@@ -18,31 +18,31 @@ public sealed class MailmarkCodetext : IComplexCodetext
 
 | Nombre | Descripción |
 | --- | --- |
-| [MailmarkCodetext](mailmarkcodetext)() | Constructor predeterminado |
+| [MailmarkCodetext](mailmarkcodetext/)() | El constructor predeterminado. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class) { get; set; } | "0" - Null o Test "1" - 1C (Minorista) "2" - 2C (Minorista) "3" - 3C (Minorista) "4" - Premium (Correo de publicación minorista) (para posible uso futuro) "5" - Diferido (Minorista) "6" - Aire (Minorista) (para posible uso futuro) "7" - Superficie (Minorista) (para posible uso futuro) "8" - Premium (Acceso a la red) "9" - Estándar (Acceso a la red) |
-| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps) { get; set; } | El PC y el DP deben cumplir con un formato PAF. Cadena de nueve caracteres que indica "XY11" internacional (tenga en cuenta los 5 espacios finales) o un patrón de caracteres que indica un código de clasificación nacional. Un código de clasificación nacional consta de un código postal externo, un código postal interno y un sufijo de punto de entrega. |
-| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format) { get; set; } | "0": nulo o prueba "1": letra "2": letra grande |
-| [ItemID](../../aspose.barcode.complexbarcode/mailmarkcodetext/itemid) { get; set; } | El valor máximo es 99999999. |
-| [SupplychainID](../../aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid) { get; set; } | Los valores máximos son 99 para el código de barras C y 999999 para el código de barras L. |
-| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid) { get; set; } | Actualmente "1": para el código de barras de Mailmark (0 y 2 a 9 y de la A a la Z de repuesto para uso futuro) |
+| [Class](../../aspose.barcode.complexbarcode/mailmarkcodetext/class/) { get; set; } | "0" - Nulo o Prueba "1" - 1C (Retail) "2" - 2C (Retail) "3" - 3C (Retail) "4" - Premium (RetailPublishing Mail) (para uso futuro) "5" - Diferido (Retail) "6" - Aire (Retail) (para uso futuro) "7" - Superficie (Retail) (para uso futuro) "8" - Premium (Network Access) "9" - Estándar (Network Access) |
+| [DestinationPostCodePlusDPS](../../aspose.barcode.complexbarcode/mailmarkcodetext/destinationpostcodeplusdps/) { get; set; } | El PC y DP deben cumplir con un formato PAF. Cadena de nueve caracteres que indica el internacional "XY11 " (nota los 5 espacios finales) o un patrón de caracteres que indica un código de clasificación doméstico. Un código de clasificación doméstico consta de un código postal externo, un código postal interno y un sufijo de punto de entrega. |
+| [Format](../../aspose.barcode.complexbarcode/mailmarkcodetext/format/) { get; set; } | "0" – Nulo o Prueba "1" – Carta "2" – Carta grande |
+| [ItemID](../../aspose.barcode.complexbarcode/mailmarkcodetext/itemid/) { get; set; } | El valor máximo es 99999999. |
+| [SupplychainID](../../aspose.barcode.complexbarcode/mailmarkcodetext/supplychainid/) { get; set; } | Los valores máximos son 99 para Barcode C y 999999 para Barcode L. |
+| [VersionID](../../aspose.barcode.complexbarcode/mailmarkcodetext/versionid/) { get; set; } | Actualmente "1" – Para código de barras Mailmark (0 y 2 a 9 y de la A a la Z reservados para uso futuro) |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/mailmarkcodetext/getbarcodetype)() | Obtiene el tipo de código de barras. |
-| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/mailmarkcodetext/getconstructedcodetext)() | Construir código de texto a partir de los datos de Mailmark. |
-| [InitFromString](../../aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring)(string) | Inicializa los datos de Mailmark a partir del texto en código construido. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/mailmarkcodetext/getbarcodetype/)() | Obtiene el tipo de código de barras. |
+| [GetConstructedCodetext](../../aspose.barcode.complexbarcode/mailmarkcodetext/getconstructedcodetext/)() | Construye codetext a partir de datos Mailmark. |
+| [InitFromString](../../aspose.barcode.complexbarcode/mailmarkcodetext/initfromstring/)(string) | Inicializa los datos Mailmark a partir del codetext construido. |
 
 ### Ver también
 
-* interface [IComplexCodetext](../icomplexcodetext)
-* espacio de nombres [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode)
-* asamblea [Aspose.BarCode](../../)
+* interface [IComplexCodetext](../icomplexcodetext/)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

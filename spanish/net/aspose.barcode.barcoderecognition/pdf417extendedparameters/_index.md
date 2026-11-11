@@ -1,14 +1,14 @@
 ---
-title: Pdf417ExtendedParameters
-second_title: Referencia de API de Aspose.BarCode para .NET
-description: Almacena una información de metadatos MacroPdf417 del código de barras reconocido
+title: "Clase Pdf417ExtendedParameters"
+second_title: "Referencia de API de Aspose.BarCode para .NET"
+description: "Clase Aspose.BarCode.BarCodeRecognition.Pdf417ExtendedParameters. Almacena información de metadatos MacroPdf417 del código de barras reconocido."
 type: docs
-weight: 220
+weight: 340
 url: /es/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
 
-Almacena una información de metadatos MacroPdf417 del código de barras reconocido
+Almacena información de metadatos MacroPdf417 del código de barras reconocido
 
 ```csharp
 public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
@@ -18,30 +18,34 @@ public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Comprueba si todos los parámetros tienen solo valores predeterminados |
-| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee) { get; } | Macro PDF417 nombre del destinatario (opcional). |
-| [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum) { get; } | Macro PDF417 checksum (opcional). |
-| [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid) { get; } | Obtiene el ID de archivo del código de barras, solo disponible con MacroPdf417. |
-| [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename) { get; } | Nombre del archivo Macro PDF417 (opcional). |
-| [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize) { get; } | Tamaño de archivo Macro PDF417 (opcional). |
-| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | Obtiene el ID de segmento del código de barras, solo disponible con MacroPdf417. |
-| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | Obtiene el recuento de segmentos de código de barras macro pdf417. El valor predeterminado es -1. |
-| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | Macro PDF417 nombre del remitente (opcional). |
-| [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp) { get; } | Marca de tiempo Macro PDF417 (opcional). |
+| [IsCode128Emulation](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/iscode128emulation/) { get; } | Indicador que señala que el código de barras MicroPdf417 está codificado con palabras de código de emulación Code 128 908, 909, 910 o 911. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Comprueba si todos los parámetros tienen solo valores predeterminados |
+| [IsLinked](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/islinked/) { get; } | Indicador que señala que el código de barras debe estar vinculado a un código de barras 1D. |
+| [IsReaderInitialization](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/isreaderinitialization/) { get; } | Se utiliza para indicar al lector que interprete los datos contenidos en el símbolo como programación para la inicialización del lector. |
+| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee/) { get; } | Nombre del destinatario Macro PDF417 (opcional). |
+| [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum/) { get; } | Suma de verificación Macro PDF417 (opcional). |
+| [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid/) { get; } | Obtiene el ID del archivo del código de barras, solo disponible con MacroPdf417. |
+| [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename/) { get; } | Nombre de archivo Macro PDF417 (opcional). |
+| [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize/) { get; } | Tamaño de archivo Macro PDF417 (opcional). |
+| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid/) { get; } | Obtiene el ID del segmento del código de barras, solo disponible con MacroPdf417. |
+| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount/) { get; } | Obtiene el recuento de segmentos del código de barras macro pdf417. Valor predeterminado es -1. |
+| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender/) { get; } | Nombre del remitente Macro PDF417 (opcional). |
+| [MacroPdf417Terminator](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417terminator/) { get; } | Indica si el segmento es el último segmento de un archivo Macro PDF417. |
+| [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp/) { get; } | Marca de tiempo Macro PDF417 (opcional). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | Devuelve un valor que indica si esta instancia es igual a una especificada[`Pdf417ExtendedParameters`](../pdf417extendedparameters) valor. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode)() | Devuelve el código hash de esta instancia. |
-| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | Devuelve una representación de cadena legible por humanos de este[`Pdf417ExtendedParameters`](../pdf417extendedparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | Devuelve un valor que indica si el primer[`Pdf417ExtendedParameters`](../pdf417extendedparameters) el valor es igual al segundo. |
-| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | Devuelve un valor que indica si la primera[`Pdf417ExtendedParameters`](../pdf417extendedparameters) el valor es diferente del segundo. |
+| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals/)(object) | Devuelve un valor que indica si esta instancia es igual a un valor especificado de `Pdf417ExtendedParameters`. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode/)() | Devuelve el código hash de esta instancia. |
+| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring/)() | Devuelve una representación en forma de cadena legible por humanos de este `Pdf417ExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality/) | Devuelve un valor que indica si el primer valor de `Pdf417ExtendedParameters` es igual al segundo. |
+| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality/) | Devuelve un valor que indica si el primer valor de `Pdf417ExtendedParameters` es diferente al segundo. |
 
-### Ejemplos
+## Ejemplos
 
-Este ejemplo muestra cómo obtener metadatos Macro Pdf417
+Este ejemplo muestra cómo obtener los metadatos de Macro Pdf417.
 
 ```csharp
 [C#]
@@ -83,8 +87,8 @@ End Using
 
 ### Ver también
 
-* class [BaseExtendedParameters](../baseextendedparameters)
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* asamblea [Aspose.BarCode](../../)
+* class [BaseExtendedParameters](../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
