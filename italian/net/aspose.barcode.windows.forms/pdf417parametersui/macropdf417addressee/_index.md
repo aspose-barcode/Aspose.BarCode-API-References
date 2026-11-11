@@ -1,0 +1,23 @@
+---
+title: "Pdf417ParametersUI.MacroPdf417Addressee"
+second_title: "Riferimento API Aspose.BarCode per .NET"
+description: "Proprietà Pdf417ParametersUI. Campo opzionale per il nome del destinatario del codice a barre MacroPdf417. Campo opzionale per il nome del destinatario del codice a barre MicroPDF417 per la modalità Structured Append."
+type: docs
+weight: 100
+url: /it/net/aspose.barcode.windows.forms/pdf417parametersui/macropdf417addressee/
+---
+## Pdf417ParametersUI.MacroPdf417Addressee property
+
+Nome del destinatario del codice a barre MacroPdf417 (campo opzionale). Nome del destinatario del codice a barre MicroPDF417 (campo opzionale per la modalità Structured Append).
+
+```csharp
+public string MacroPdf417Addressee { get; set; }
+```
+
+### Vedi anche
+
+* class [Pdf417ParametersUI](../)
+* namespace [Aspose.BarCode.Windows.Forms](../../../aspose.barcode.windows.forms/)
+* assembly [Aspose.BarCode](../../../)
+
+
