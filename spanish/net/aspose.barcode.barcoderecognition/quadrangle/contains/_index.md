@@ -1,104 +1,104 @@
 ---
-title: Contains
-second_title: Referencia de API de Aspose.BarCode para .NET
-description: Determina si el especificadoPoint está contenido dentro de esteQuadrangleaspose.barcode.barcoderecognition/quadrangle clase.
+title: "Quadrangle.Contains"
+second_title: "Referencia de API de Aspose.BarCode para .NET"
+description: "Método Quadrangle. Determina si el Punto especificado está contenido dentro de esta clase Quadrangle"
 type: docs
 weight: 90
 url: /es/net/aspose.barcode.barcoderecognition/quadrangle/contains/
 ---
 ## Contains(Point) {#contains_2}
 
-Determina si el especificadoPoint está contenido dentro de este[`Quadrangle`](../../quadrangle) clase.
+Determina si el Punto especificado está contenido dentro de esta clase [`Quadrangle`](../).
 
 ```csharp
 public bool Contains(Point pt)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pt | Point | losPoint Probar. |
+| pt | Point | El Punto a probar. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devoluciones **verdadero** siPoint está contenido dentro de este[`Quadrangle`](../../quadrangle) clase; de lo contrario, **falso**.
+Devuelve **true** si el Punto está contenido dentro de esta clase [`Quadrangle`](../); de lo contrario, **false**.
 
 ### Ver también
 
-* class [Quadrangle](../../quadrangle)
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* asamblea [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(int, int) {#contains_1}
 
-Determina si el punto especificado está contenido dentro de este[`Quadrangle`](../../quadrangle) clase.
+Determina si el punto especificado está contenido dentro de esta clase [`Quadrangle`](../).
 
 ```csharp
 public bool Contains(int x, int y)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Int32 | La coordenada del punto x. |
-| y | Int32 | El punto y coordinado. |
+| x | Int32 | La coordenada x del punto. |
+| y | Int32 | La coordenada y del punto. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devoluciones **verdadero**si el punto está contenido dentro de este[`Quadrangle`](../../quadrangle) clase; de lo contrario, **falso**.
+Devuelve **true** si el punto está contenido dentro de esta clase [`Quadrangle`](../); de lo contrario, **false**.
 
 ### Ver también
 
-* class [Quadrangle](../../quadrangle)
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* asamblea [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(Quadrangle) {#contains}
 
-Determina si el especificado[`Quadrangle`](../../quadrangle) está contenido o se cruza con este[`Quadrangle`](../../quadrangle) clase.
+Determina si el [`Quadrangle`](../) especificado está contenido o intersecta esta clase [`Quadrangle`](../).
 
 ```csharp
 public bool Contains(Quadrangle quad)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| quad | Quadrangle | los[`Quadrangle`](../../quadrangle) Probar. |
+| quad | Quadrangle | El [`Quadrangle`](../) a probar. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devoluciones **verdadero** si[`Quadrangle`](../../quadrangle) está contenido o se cruza con este[`Quadrangle`](../../quadrangle) clase; de lo contrario, **falso**.
+Devuelve **true** si el [`Quadrangle`](../) está contenido o intersecta esta clase [`Quadrangle`](../); de lo contrario, **false**.
 
 ### Ver también
 
-* class [Quadrangle](../../quadrangle)
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* asamblea [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## Contains(Rectangle) {#contains_3}
 
-Determina si el especificadoRectangle está contenido o se cruza con este[`Quadrangle`](../../quadrangle) clase.
+Determina si el Rectangle especificado está contenido o intersecta esta clase [`Quadrangle`](../).
 
 ```csharp
 public bool Contains(Rectangle rect)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| rect | Rectangle | losRectangle Probar. |
+| rect | Rectangle | El Rectangle a probar. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devoluciones **verdadero** siRectangle está contenido o se cruza con este[`Quadrangle`](../../quadrangle) clase; de lo contrario, **falso**.
+Devuelve **true** si el Rectangle está contenido o intersecta esta clase [`Quadrangle`](../); de lo contrario, **false**.
 
 ### Ver también
 
-* class [Quadrangle](../../quadrangle)
-* espacio de nombres [Aspose.BarCode.BarCodeRecognition](../../quadrangle)
-* asamblea [Aspose.BarCode](../../../)
+* class [Quadrangle](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
