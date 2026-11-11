@@ -1,14 +1,14 @@
 ---
-title: QREncodeMode
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Coderingsmodus voor QRbarcodes. Het wordt aanbevolen om Auto te gebruiken met CodeTextEncoding  Encoding.UTF8 voor Latijnse symbolen of cijfers en Utf8BOM voor Unicodesymbolen.
+title: "Enum QREncodeMode"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.Generation.QREncodeMode enum. Coderingmodus voor QR-barcodes"
 type: docs
-weight: 1150
+weight: 1600
 url: /nl/net/aspose.barcode.generation/qrencodemode/
 ---
 ## QREncodeMode enumeration
 
-Coderingsmodus voor QR-barcodes. Het wordt aanbevolen om Auto te gebruiken met CodeTextEncoding = Encoding.UTF8 voor Latijnse symbolen of cijfers en Utf8BOM voor Unicode-symbolen.
+Coderingsmodus voor QR-streepjescodes.
 
 ```csharp
 public enum QREncodeMode
@@ -18,16 +18,156 @@ public enum QREncodeMode
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Auto | `0` | Codeer codetekst zoals niet-Unicode-tekenset. Als er een Unicode-teken is, wordt de codetekst gecodeerd met de waarde die is ingesteld in CodeTextEncoding. |
-| Bytes | `1` | Codeer codetekst als gewone bytes. Als het een Unicode-teken detecteert, wordt het teken gecodeerd als twee bytes, de onderste byte eerst. |
-| Utf8BOM | `2` | Codeer codetekst met UTF8-codering met het eerste ByteOfMark-teken. |
-| Utf16BEBOM | `3` | Codeer codetekst met UTF8-codering met het eerste ByteOfMark-teken. Er kunnen problemen zijn met sommige barcodescanners. |
-| ECIEncoding | `4` | Codeer codetekst met de waarde die is ingesteld in de eigenschap ECIEncoding. Er kunnen problemen zijn met sommige oude (vóór 2006) barcodescanners. |
-| ExtendedCodetext | `5` | Uitgebreide kanaalmodus die FNC1 eerste positie, FNC1 tweede positie en multi-ECI-modi ondersteunt. |
+| Auto | `0` | In de automatische modus wordt de CodeText gecodeerd met maximale gegevenscompactheid. Unicode-tekens worden, indien mogelijk, gecodeerd in kanji-modus, of ze worden opnieuw gecodeerd met de gespecificeerde ECIEncoding-codering met invoeging van een ECI-identificatie. Als er een teken wordt gevonden dat niet wordt ondersteund door de geselecteerde ECI-codering, wordt er een uitzondering gegooid. |
+| Extended | `6` | Uitgebreide kanaalmodus die FNC1-eerste positie, FNC1-tweede positie en meerdere ECI-modi ondersteunt. |
+| Binary | `7` | In de Binaire-modus wordt de CodeText gecodeerd met maximale gegevenscompactheid. Als er een Unicode‑teken wordt gevonden, wordt er een uitzondering gegooid. |
+| ECI | `8` | In ECI-modus wordt het volledige bericht opnieuw gecodeerd in de opgegeven ECIEncoding‑codering met de invoeging van een ECI‑identificatie. Als er een teken wordt gevonden dat niet wordt ondersteund door de geselecteerde ECI‑codering, wordt er een uitzondering gegooid. Houd er rekening mee dat sommige oude (pre‑2006) scanners deze modus mogelijk niet ondersteunen. Deze modus wordt niet ondersteund door MicroQR‑barcodes. |
+
+## Voorbeelden
+
+Deze voorbeelden laten zien hoe je een QR‑barcode kunt coderen en opslaan met uitgebreide gegevensformaten.
+
+```csharp
+//Deze voorbeeld toont hoe ECI‑codering te gebruiken en een BarCode‑afbeelding op te slaan.
+
+[C#]
+using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.CodeText = "12345TEXT";
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding;
+    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8;
+    generator.Save("test.png");
+}
+[VB.NET]
+Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+    generator.CodeText = "12345TEXT"
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.ECIEncoding
+    generator.Parameters.Barcode.QR.QrECIEncoding = ECIEncodings.UTF8
+    generator.Save("test.png")
+End Using
+
+//Dit voorbeeld laat zien hoe je FNC1 op de eerste positie in Extended Mode gebruikt.
+
+Extended Channel mode which supports FNC1 first position, FNC1 second position and multi ECI modes.
+It is better to use QrExtCodetextBuilder for extended codetext generation.
+Use Display2DText property to set visible text by removing managing characters.
+Encoding Principles:
+All symbols "\" must be doubled "\\" in the codetext.
+FNC1 in first position is set in codetext as "<FNC1>".
+FNC1 in second position is set in codetext as "<FNC1(value)>". The value must be a single character from a-z or A-Z, or a two-digit number from 00 to 99.
+Group Separator for FNC1 modes is set as 0x1D character '\u001D'.
+If you need to insert "<FNC1>" string into barcode write it as "<\FNC1>".
+ECI identifiers are set as single slash and six digits identifier, for example "\000026" for UTF8 ECI identifier.
+The default ECI mode is ISO/IEC 8859-1 ECI identifier "\000003". It does not need to be encoded at the beginning of the codetext.
+To switch from another ECI mode to the default ECI mode, use "\000003".
+All unicode characters after ECI identifier are automatically encoded into correct character codeset.
+QR compaction mode selectors are set as single slash and mode name: "\auto", "\num", "\alnum", "\byte", "\kanji".
+"\auto" sets automatic compaction mode, "\num" sets Numeric mode, "\alnum" sets AlphaNumeric mode, "\byte" sets Bytes mode, and "\kanji" sets Kanji mode.
+The default compaction mode is "\auto".
+Compaction mode selectors define the encoding mode for the following data until the next compaction mode selector or ECI identifier is found.
+If the data cannot be encoded in the selected compaction mode, an ArgumentException is thrown.
+This mode is not supported by MicroQR barcodes.
+
+[C#]
+//codetext maken
+QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+textBuilder.AddFNC1FirstPosition();
+textBuilder.AddPlainCodetext("000%89%%0");
+textBuilder.AddFNC1GroupSeparator();
+textBuilder.AddPlainCodetext("12345<FNC1>");
+//barcode genereren
+using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.CodeText = textBuilder.GetExtendedCodetext();
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+    generator.Save(@"d:\test.png");
+}
+[VB.NET]
+'create codetext
+Dim textBuilder As New QrExtCodetextBuilder()
+textBuilder.AddFNC1FirstPosition()
+textBuilder.AddPlainCodetext("000%89%%0")
+textBuilder.AddFNC1GroupSeparator()
+textBuilder.AddPlainCodetext("12345<FNC1>")
+'generate barcode
+Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+    generator.CodeText = textBuilder.GetExtendedCodetext()
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
+    generator.Save("test.png")
+End Using
+
+//Dit voorbeeld laat zien hoe je FNC1 op de tweede positie in Extended Mode gebruikt.
+
+[C#]
+//codetext maken
+QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+textBuilder.AddFNC1SecondPosition("12");
+textBuilder.AddPlainCodetext("TRUE3456"); 
+//barcode genereren
+using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.CodeText = textBuilder.GetExtendedCodetext();
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+    generator.Save(@"d:\test.png");
+}
+[VB.NET]
+'create codetext
+Dim textBuilder As New QrExtCodetextBuilder()
+textBuilder.AddFNC1SecondPosition("12")
+textBuilder.AddPlainCodetext("TRUE3456")
+'generate barcode
+Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+    generator.CodeText = textBuilder.GetExtendedCodetext()
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
+    generator.Save("test.png")
+End Using
+
+//Dit voorbeeld laat zien hoe je multi‑ECI‑modus in Extended Mode gebruikt.
+
+[C#]
+//codetext maken
+QrExtCodetextBuilder textBuilder = new QrExtCodetextBuilder();
+textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
+textBuilder.AddECICodetext(ECIEncodings.UTF8, "Right");
+textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power");
+textBuilder.AddPlainCodetext(@"t\e\\st");
+textBuilder.AddAlphaNumericCodetext(@"ASPOSE2001");
+textBuilder.AddNumericCodetext(@"20012026");
+
+//barcode genereren
+using (Aspose.BarCode.Generation.BarcodeGenerator generator = new Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR))
+{
+    generator.CodeText = textBuilder.GetExtendedCodetext();
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended;
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text";
+    generator.Save(@"d:\test.png");
+}
+[VB.NET]
+'create codetext
+Dim textBuilder As New QrExtCodetextBuilder()
+textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will")
+textBuilder.AddECICodetext(ECIEncodings.UTF8, "Right")
+textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power")
+textBuilder.AddPlainCodetext(@"t\e\\st") 
+textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
+textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
+
+'generate barcode
+Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
+    generator.CodeText = textBuilder.GetExtendedCodetext()
+    generator.Parameters.Barcode.QR.EncodeMode = QREncodeMode.Extended
+    generator.Parameters.Barcode.CodeTextParameters.TwoDDisplayText = "My Text"
+    generator.Save("test.png")
+End Using   
+```
 
 ### Zie ook
 
-* naamruimte [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

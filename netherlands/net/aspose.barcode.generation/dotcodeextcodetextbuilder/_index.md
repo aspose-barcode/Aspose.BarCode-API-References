@@ -1,44 +1,44 @@
 ---
-title: DotCodeExtCodetextBuilder
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Uitgebreide codetekstgenerator voor 2D DotCodestreepjescodes voor ExtendedCodetextmodus van DotCodeEncodeMode
+title: "Klasse DotCodeExtCodetextBuilder"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.Generation.DotCodeExtCodetextBuilder klasse. Uitgebreide codetextgenerator voor 2D DotCode barcodes voor de ExtendedCodetext-modus van DotCodeEncodeMode"
 type: docs
-weight: 910
+weight: 1250
 url: /nl/net/aspose.barcode.generation/dotcodeextcodetextbuilder/
 ---
 ## DotCodeExtCodetextBuilder class
 
-Uitgebreide codetekstgenerator voor 2D DotCode-streepjescodes voor ExtendedCodetext-modus van DotCodeEncodeMode
+Uitgebreide codetekstgenerator voor 2D DotCode-barcodes voor ExtendedCodetext Mode van DotCodeEncodeMode
 
 ```csharp
 public class DotCodeExtCodetextBuilder : ExtCodetextBuilder
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | De standaard constructeur. |
+| [DotCodeExtCodetextBuilder](dotcodeextcodetextbuilder/)() | De standaardconstructor. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Voegt codetekst toe met Extended Channel Identifier |
-| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | Voegt FNC1-formaat-ID toe aan de uitgebreide codetekstitems |
-| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | Voegt FNC3-lezerinitialisatie toe aan de uitgebreide codetekstitems |
-| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | Voegt FNC3-symboolscheidingsteken toe aan de uitgebreide codetekstitems |
-| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Voegt gewone codetekst toe aan de uitgebreide codetekstitems |
-| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | Voegt een gestructureerde toevoegmodus toe aan de uitgebreide codetekstitems |
-| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | Wist uitgebreide codetekstitems |
-| override [GetExtendedCodetext](../../aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/)() | Genereert uitgebreide codetekst uit de uitgebreide codetekstlijst. |
+| [AddECICodetext](../../aspose.barcode.generation/extcodetextbuilder/addecicodetext/)(ECIEncodings, string) | Voegt codetext toe met Extended Channel Identifier |
+| [AddFNC1FormatIdentifier](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc1formatidentifier/)() | Voegt FNC1-formaatidentificatie toe aan de uitgebreide codetextitems |
+| [AddFNC3ReaderInitialization](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3readerinitialization/)() | Voegt FNC3-lezerinitialisatie toe aan de uitgebreide codetextitems |
+| [AddFNC3SymbolSeparator](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/)() | Voegt FNC3-symboolscheiding toe aan de uitgebreide codetextitems |
+| [AddPlainCodetext](../../aspose.barcode.generation/extcodetextbuilder/addplaincodetext/)(string) | Voegt platte codetext toe aan de uitgebreide codetextitems |
+| [AddStructuredAppendMode](../../aspose.barcode.generation/dotcodeextcodetextbuilder/addstructuredappendmode/)(int, int) | Voegt gestructureerde toevoegingsmodus toe aan de uitgebreide codetextitems |
+| virtual [Clear](../../aspose.barcode.generation/extcodetextbuilder/clear/)() | Leegt uitgebreide codetextitems |
+| override [GetExtendedCodetext](../../aspose.barcode.generation/dotcodeextcodetextbuilder/getextendedcodetext/)() | Genereert Extended codetext uit de uitgebreide codetextlijst. |
 
-### Voorbeelden
+## Voorbeelden
 
 ```csharp
 [C#]
-// Uitgebreide codetekstmodus
-// maak codetekst
+//Extended codetext-modus
+//codetext maken
 DotCodeExtCodetextBuilder textBuilder = new DotCodeExtCodetextBuilder();
 textBuilder.AddFNC1FormatIdentifier();
 textBuilder.AddECICodetext(ECIEncodings.Win1251, "Will");
@@ -51,7 +51,7 @@ textBuilder.AddFNC3SymbolSeparator();
 textBuilder.AddFNC3ReaderInitialization();
 textBuilder.AddPlainCodetext("Reader initialization info");
 
-// codetekst genereren
+//codetext genereren
 string codetext = textBuilder.GetExtendedCodetext();    
 
 //genereren
@@ -65,7 +65,7 @@ using(BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.DotCode, cod
 ### Zie ook
 
 * class [ExtCodetextBuilder](../extcodetextbuilder/)
-* naamruimte [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.Generation](../../aspose.barcode.generation/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

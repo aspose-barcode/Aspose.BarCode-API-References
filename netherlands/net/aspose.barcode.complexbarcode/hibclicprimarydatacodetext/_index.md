@@ -1,49 +1,49 @@
 ---
-title: HIBCLICPrimaryDataCodetext
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Klasse voor het coderen en decoderen van de tekst die is ingesloten in de HIBC LICcode waarin primaire gegevens zijn opgeslagen.
+title: "Klasse HIBCLICPrimaryDataCodetext"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.ComplexBarcode.HIBCLICPrimaryDataCodetext klasse. Klasse voor het coderen en decoderen van de tekst die is ingebed in de HIBC LIC-code die primaire gegevens opslaat"
 type: docs
-weight: 400
+weight: 580
 url: /nl/net/aspose.barcode.complexbarcode/hibclicprimarydatacodetext/
 ---
 ## HIBCLICPrimaryDataCodetext class
 
-Klasse voor het coderen en decoderen van de tekst die is ingesloten in de HIBC LIC-code waarin primaire gegevens zijn opgeslagen.
+Klasse voor het coderen en decoderen van de in de HIBC LIC-code ingebedde tekst die primaire gegevens opslaat.
 
 ```csharp
 public class HIBCLICPrimaryDataCodetext : HIBCLICComplexCodetext
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [HIBCLICPrimaryDataCodetext](hibclicprimarydatacodetext/)() | De standaard constructeur. |
+| [HIBCLICPrimaryDataCodetext](hibclicprimarydatacodetext/)() | De standaardconstructor. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Haalt of stelt het streepjescodetype in. HIBC LIC-codetekst kan worden gecodeerd met de coderingstypen HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC en HIBCQRLIC. Standaardwaarde: HIBCCode39LIC. |
+| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Haalt op of stelt het type barcode in. HIBC LIC-codetext kan worden gecodeerd met HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC en HIBCQRLIC coderingssoorten. Standaardwaarde: HIBCCode39LIC. |
 | [Data](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/data/) { get; set; } | Identificeert primaire gegevens. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`HIBCLICPrimaryDataCodetext` waarde. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Krijgt streepjescodetype. |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/getconstructedcodetext/)() | Construeert codetekst |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/initfromstring/)(string) | Initialiseert instantie van geconstrueerde codetekst. |
+| override [Equals](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `HIBCLICPrimaryDataCodetext`-waarde. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Haalt het barcode-type op. |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/getconstructedcodetext/)() | Construeert codetext |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicprimarydatacodetext/initfromstring/)(string) | Initialiseert de instantie vanuit geconstrueerde codetext. |
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe HIBC LIC moet worden gecodeerd en gedecodeerd met behulp van HIBCLICPrimaryCodetext.
+Dit voorbeeld toont hoe HIBC LIC te coderen en decoderen met HIBCLICPrimaryDataCodetext.
 
 ```csharp
 [C#]
-HIBCLICPrimaryCodetext complexCodetext  = new HIBCLICPrimaryCodetext();
+HIBCLICPrimaryDataCodetext complexCodetext  = new HIBCLICPrimaryDataCodetext();
 complexCodetext.BarcodeType = EncodeTypes.HIBCQRLIC;
 complexCodetext.Data = new PrimaryData();
 complexCodetext.Data.ProductOrCatalogNumber = "12345";
@@ -56,7 +56,7 @@ using (ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCo
     {
         reader.ReadBarCodes();
         string codetext = reader.FoundBarCodes[0].CodeText;
-        HIBCLICPrimaryCodetext result = (HIBCLICPrimaryCodetext)ComplexCodetextReader.TryDecodeHIBCLIC(codetext);
+        HIBCLICPrimaryDataCodetext result = (HIBCLICPrimaryDataCodetext)ComplexCodetextReader.TryDecodeHIBCLIC(codetext);
         Console.WriteLine("Product or catalog number: " + result.Data.ProductOrCatalogNumber);
         Console.WriteLine("Labeler identification code: " + result.Data.LabelerIdentificationCode);
         Console.WriteLine("Unit of measure ID: " + result.Data.UnitOfMeasureID);
@@ -67,7 +67,7 @@ using (ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCo
 ### Zie ook
 
 * class [HIBCLICComplexCodetext](../hibcliccomplexcodetext/)
-* naamruimte [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

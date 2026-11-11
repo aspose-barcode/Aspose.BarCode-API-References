@@ -1,14 +1,14 @@
 ---
-title: QRExtendedParameters
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Slaat een QR Structured Appendinformatie van herkende streepjescode op
+title: "Klasse QRExtendedParameters"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.BarCodeRecognition.QRExtendedParameters class. Slaat QR Structured Append-informatie op van de herkende barcode."
 type: docs
-weight: 250
+weight: 350
 url: /nl/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Slaat een QR Structured Append-informatie van herkende streepjescode op
+Slaat QR Structured Append-informatie op van de herkende barcode
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
@@ -18,24 +18,28 @@ public sealed class QRExtendedParameters : BaseExtendedParameters
 
 | Naam | Beschrijving |
 | --- | --- |
+| [ErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/errorlevel/) { get; } | Reed-Solomon-foutcorrectieniveau van de herkende barcode. Van laag naar hoog: LevelL, LevelM, LevelQ, LevelH. |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Test of alle parameters alleen standaardwaarden hebben |
-| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex/) { get; } | Krijgt de index van de barcode van de QR-gestructureerde append-modus. Index begint vanaf 0. De standaardwaarde is -1. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity/) { get; } | Krijgt de hoeveelheid streepjescodes van de QR-gestructureerde append-modus. De standaardwaarde is -1. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata/) { get; } | Krijgt de pariteitsgegevens van de QR-gestructureerde append-modus. De standaardwaarde is -1. |
+| [MicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/) { get; } | Versie van de herkende MicroQR Code. Van M1 tot M4. |
+| [RectMicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/) { get; } | Versie van de herkende RectMicroQR Code. Van R7x43 tot R17x139. |
+| [StructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/) { get; } | Haalt de index op van de QR structured append-modusbarcode. Index begint bij 0. Standaardwaarde is -1. |
+| [StructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/) { get; } | Haalt de hoeveelheid QR structured append-modusbarcodes op. Standaardwaarde is -1. |
+| [StructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodeparitydata/) { get; } | Haalt de pariteitsgegevens van de QR structured append-modus op. Standaardwaarde is -1. |
+| [Version](../../aspose.barcode.barcoderecognition/qrextendedparameters/version/) { get; } | Versie van de herkende QR Code. Van Versie1 tot Versie40. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`QRExtendedParameters` waarde. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Retourneert hiervan een door mensen leesbare tekenreeksrepresentatie`QRExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | Retourneert een waarde die aangeeft of de eerste`QRExtendedParameters` waarde is gelijk aan de seconde. |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | Retourneert een waarde die aangeeft of de eerste`QRExtendedParameters` waarde is anders dan de tweede. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `QRExtendedParameters`-waarde. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Retourneert een menselijk leesbare tekenreeksrepresentatie van deze `QRExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | Geeft een waarde terug die aangeeft of de eerste `QRExtendedParameters`-waarde gelijk is aan de tweede. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | Geeft een waarde terug die aangeeft of de eerste `QRExtendedParameters`-waarde verschilt van de tweede. |
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe u QR Structured Append-gegevens kunt verkrijgen
+Dit voorbeeld toont hoe QR Structured Append-gegevens op te halen
 
 ```csharp
 [C#]
@@ -65,7 +69,7 @@ End Using
 ### Zie ook
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* naamruimte [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

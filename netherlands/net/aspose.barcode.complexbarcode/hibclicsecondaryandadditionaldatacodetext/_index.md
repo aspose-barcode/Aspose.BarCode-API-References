@@ -1,51 +1,52 @@
 ---
-title: HIBCLICSecondaryAndAdditionalDataCodetext
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Klasse voor het coderen en decoderen van de tekst die is ingesloten in de HIBC LICcode die secundaire gegevens opslaat.
+title: "Klasse HIBCLICSecondaryAndAdditionalDataCodetext"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.ComplexBarcode.HIBCLICSecondaryAndAdditionalDataCodetext klasse. Klasse voor het coderen en decoderen van de tekst die is ingebed in de HIBC LIC-code die secundaire gegevens opslaat"
 type: docs
-weight: 410
+weight: 590
 url: /nl/net/aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/
 ---
 ## HIBCLICSecondaryAndAdditionalDataCodetext class
 
-Klasse voor het coderen en decoderen van de tekst die is ingesloten in de HIBC LIC-code die secundaire gegevens opslaat.
+Klasse voor het coderen en decoderen van de in de HIBC LIC-code ingebedde tekst die secundaire gegevens opslaat.
 
 ```csharp
 public class HIBCLICSecondaryAndAdditionalDataCodetext : HIBCLICComplexCodetext
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext/)() | De standaard constructeur. |
+| [HIBCLICSecondaryAndAdditionalDataCodetext](hibclicsecondaryandadditionaldatacodetext/)() | De standaardconstructor. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Haalt of stelt het streepjescodetype in. HIBC LIC-codetekst kan worden gecodeerd met de coderingstypen HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC en HIBCQRLIC. Standaardwaarde: HIBCCode39LIC. |
-| [Data](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/data/) { get; set; } | Identificeert secundaire en aanvullende aanvullende gegevens. |
-| [LinkCharacter](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/linkcharacter/) { get; set; } | Identificeert linkkarakter. |
+| [BarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/barcodetype/) { get; set; } | Haalt op of stelt het type barcode in. HIBC LIC-codetext kan worden gecodeerd met HIBCCode39LIC, HIBCCode128LIC, HIBCAztecLIC, HIBCDataMatrixLIC en HIBCQRLIC coderingssoorten. Standaardwaarde: HIBCCode39LIC. |
+| [Data](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/data/) { get; set; } | Identificeert secundaire en aanvullende gegevens. |
+| [LinkCharacter](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/linkcharacter/) { get; set; } | Identificeert koppelingskarakter. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`HIBCLICSecondaryAndAdditionalDataCodetext` waarde. |
-| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Krijgt streepjescodetype. |
-| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/getconstructedcodetext/)() | Construeert codetekst |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/initfromstring/)(string) | Initialiseert instantie van geconstrueerde codetekst. |
+| override [Equals](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `HIBCLICSecondaryAndAdditionalDataCodetext`-waarde. |
+| [GetBarcodeType](../../aspose.barcode.complexbarcode/hibcliccomplexcodetext/getbarcodetype/)() | Haalt het barcode-type op. |
+| override [GetConstructedCodetext](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/getconstructedcodetext/)() | Construeert codetext |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| override [InitFromString](../../aspose.barcode.complexbarcode/hibclicsecondaryandadditionaldatacodetext/initfromstring/)(string) | Initialiseert de instantie vanuit geconstrueerde codetext. |
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe HIBC LIC moet worden gecodeerd en gedecodeerd met behulp van HIBCLICSecondaryAndAdditionalDataCodetext.
+Dit voorbeeld toont hoe HIBC LIC te coderen en decoderen met HIBCLICSecondaryAndAdditionalDataCodetext.
 
 ```csharp
 [C#]
 HIBCLICSecondaryAndAdditionalDataCodetext complexCodetext = new HIBCLICSecondaryAndAdditionalDataCodetext();
 complexCodetext.BarcodeType = EncodeTypes.HIBCQRLIC;
+complexCodetext.LinkCharacter = 'L';
 complexCodetext.Data = new SecondaryAndAdditionalData();
 complexCodetext.Data.ExpiryDate = DateTime.Now;
 complexCodetext.Data.ExpiryDateFormat = HIBCLICDateFormat.MMDDYY;
@@ -73,7 +74,7 @@ using (ComplexBarcodeGenerator generator = new ComplexBarcodeGenerator(complexCo
 ### Zie ook
 
 * class [HIBCLICComplexCodetext](../hibcliccomplexcodetext/)
-* naamruimte [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: MaxiCodeExtendedParameters
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Slaat een MaxiCode aanvullende informatie van herkende barcode op
+title: "Klasse MaxiCodeExtendedParameters"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.BarCodeRecognition.MaxiCodeExtendedParameters klasse. Slaat extra informatie van een MaxiCode van een herkende barcode op"
 type: docs
-weight: 210
+weight: 310
 url: /nl/net/aspose.barcode.barcoderecognition/maxicodeextendedparameters/
 ---
 ## MaxiCodeExtendedParameters class
 
-Slaat een MaxiCode aanvullende informatie van herkende barcode op
+Slaat extra informatie van MaxiCode op van de herkende barcode
 
 ```csharp
 public sealed class MaxiCodeExtendedParameters : BaseExtendedParameters
@@ -19,24 +19,24 @@ public sealed class MaxiCodeExtendedParameters : BaseExtendedParameters
 | Naam | Beschrijving |
 | --- | --- |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Test of alle parameters alleen standaardwaarden hebben |
-| [MaxiCodeMode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodemode/) { get; set; } | Haalt een MaxiCode-coderingsmodus op of stelt deze in. Standaardwaarde: Mode4 |
-| [MaxiCodeStructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodeid/) { get; set; } | Haalt of stelt een MaxiCode-streepjescode-ID op in gestructureerde toevoegmodus. Standaardwaarde: 0 |
-| [MaxiCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/maxicodestructuredappendmodebarcodescount/) { get; set; } | Haalt of stelt een MaxiCode-streepjescodetelling in gestructureerde toevoegmodus in. Standaardwaarde: -1 |
+| [Mode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/mode/) { get; } | Haalt de MaxiCode-coderingmodus op of stelt deze in. Standaardwaarde: Mode4 |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodeid/) { get; } | Haalt de MaxiCode-barcode-id op of stelt deze in in de gestructureerde toevoegingsmodus. Standaardwaarde: 0 |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/structuredappendmodebarcodescount/) { get; } | Haalt het aantal MaxiCode-barcodes op of stelt dit in in de gestructureerde toevoegingsmodus. Standaardwaarde: -1 |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`MaxiCodeExtendedParameters` waarde. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| override [ToString](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/)() | Retourneert hiervan een door mensen leesbare tekenreeksrepresentatie`MaxiCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_equality/) | Retourneert een waarde die aangeeft of de eerste`MaxiCodeExtendedParameters` waarde is gelijk aan de seconde. |
-| [operator !=](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_inequality/) | Retourneert een waarde die aangeeft of de eerste`MaxiCodeExtendedParameters` waarde is anders dan de tweede. |
+| override [Equals](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `MaxiCodeExtendedParameters`-waarde. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| override [ToString](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/tostring/)() | Retourneert een menselijk leesbare tekenreeksrepresentatie van deze `MaxiCodeExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_equality/) | Retourneert een waarde die aangeeft of de eerste `MaxiCodeExtendedParameters`-waarde gelijk is aan de tweede. |
+| [operator !=](../../aspose.barcode.barcoderecognition/maxicodeextendedparameters/op_inequality/) | Retourneert een waarde die aangeeft of de eerste `MaxiCodeExtendedParameters`-waarde verschilt van de tweede. |
 
 ### Zie ook
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* naamruimte [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

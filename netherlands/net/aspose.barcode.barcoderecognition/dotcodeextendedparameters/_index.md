@@ -1,14 +1,14 @@
 ---
-title: DotCodeExtendedParameters
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Bewaart speciale gegevens van door DotCode herkende barcode
+title: "Klasse DotCodeExtendedParameters"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.BarCodeRecognition.DotCodeExtendedParameters klasse. Slaat speciale gegevens op van de herkende DotCode-barcode"
 type: docs
-weight: 200
+weight: 250
 url: /nl/net/aspose.barcode.barcoderecognition/dotcodeextendedparameters/
 ---
 ## DotCodeExtendedParameters class
 
-Bewaart speciale gegevens van door DotCode herkende barcode
+Slaat speciale gegevens op van de herkende DotCode barcode
 
 ```csharp
 public sealed class DotCodeExtendedParameters : BaseExtendedParameters
@@ -18,24 +18,24 @@ public sealed class DotCodeExtendedParameters : BaseExtendedParameters
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DotCodeIsReaderInitialization](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodeisreaderinitialization/) { get; } | Geeft aan of code wordt gebruikt om de lezer te instrueren om de volgende gegevens te interpreteren als instructies voor initialisatie of herprogrammering van de streepjescodelezer. Standaardwaarde is false. |
-| [DotCodeStructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodestructuredappendmodebarcodeid/) { get; } | Krijgt de ID van de DotCode gestructureerde streepjescode voor append-modus. ID begint bij 1 en moet kleiner zijn dan of gelijk zijn aan het aantal streepjescodes. De standaardwaarde is -1. |
-| [DotCodeStructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/dotcodestructuredappendmodebarcodescount/) { get; } | Krijgt de DotCode gestructureerde append-modus barcodes tellen. De standaardwaarde is -1. Aantal moet een waarde zijn tussen 1 en 35. |
 | [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Test of alle parameters alleen standaardwaarden hebben |
+| [IsReaderInitialization](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/isreaderinitialization/) { get; } | Geeft aan of de code wordt gebruikt om de lezer te instrueren de volgende gegevens te interpreteren als instructies voor initialisatie of herprogrammering van de barcode-lezer. Standaardwaarde is false. |
+| [StructuredAppendModeBarcodeId](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/structuredappendmodebarcodeid/) { get; } | Haalt de ID op van de DotCode gestructureerde append-modus barcode. ID begint bij 1 en moet kleiner of gelijk zijn aan het aantal barcodes. Standaardwaarde is -1. |
+| [StructuredAppendModeBarcodesCount](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/structuredappendmodebarcodescount/) { get; } | Haalt het aantal barcodes op van de DotCode gestructureerde append-modus. Standaardwaarde is -1. Het aantal moet een waarde tussen 1 en 35 zijn. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`DotCodeExtendedParameters` waarde. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| override [ToString](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/)() | Retourneert hiervan een door mensen leesbare tekenreeksrepresentatie`DotCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_equality/) | Retourneert een waarde die aangeeft of de eerste`DotCodeExtendedParameters` waarde is gelijk aan de seconde. |
-| [operator !=](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_inequality/) | Retourneert een waarde die aangeeft of de eerste`DotCodeExtendedParameters` waarde is anders dan de tweede. |
+| override [Equals](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/equals/)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `DotCodeExtendedParameters`-waarde. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| override [ToString](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/tostring/)() | Retourneert een menselijk leesbare tekenreeksrepresentatie van deze `DotCodeExtendedParameters`. |
+| [operator ==](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_equality/) | Retourneert een waarde die aangeeft of de eerste `DotCodeExtendedParameters`-waarde gelijk is aan de tweede. |
+| [operator !=](../../aspose.barcode.barcoderecognition/dotcodeextendedparameters/op_inequality/) | Retourneert een waarde die aangeeft of de eerste `DotCodeExtendedParameters`-waarde verschilt van de tweede. |
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe u onbewerkte DotCode-waarden kunt verkrijgen
+Dit voorbeeld toont hoe je ruwe DotCode-waarden kunt ophalen
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.DotCo
 ### Zie ook
 
 * class [BaseExtendedParameters](../baseextendedparameters/)
-* naamruimte [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

@@ -1,70 +1,70 @@
 ---
-title: QualitySettings
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Met QualitySettings kunt u de herkenningskwaliteit en snelheid handmatig configureren. U kunt QualitySettings snel instellen met ingesloten presets HighPerformance NormalQuality HighQuality MaxBarCodes of u kunt handmatig afzonderlijke opties configureren. De standaardwaarde van QualitySettings is NormalQuality.
+title: "BarCodeReader.QualitySettings"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "BarCodeReader eigenschap. QualitySettings maakt handmatige configuratie van herkenningskwaliteit en -snelheid mogelijk. Je kunt QualitySettings snel instellen via ingebouwde presets HighPerformance, NormalQuality, HighQuality, MaxBarCodes, of je kunt afzonderlijke opties handmatig configureren. De standaardwaarde van QualitySettings is NormalQuality."
 type: docs
-weight: 60
+weight: 70
 url: /nl/net/aspose.barcode.barcoderecognition/barcodereader/qualitysettings/
 ---
 ## BarCodeReader.QualitySettings property
 
-Met QualitySettings kunt u de herkenningskwaliteit en -snelheid handmatig configureren. U kunt QualitySettings snel instellen met ingesloten presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes of u kunt handmatig afzonderlijke opties configureren. De standaardwaarde van QualitySettings is NormalQuality.
+QualitySettings maakt het mogelijk om de herkenningskwaliteit en -snelheid handmatig te configureren. Je kunt QualitySettings snel instellen met ingebouwde presets: HighPerformance, NormalQuality, HighQuality, MaxBarCodes of je kunt afzonderlijke opties handmatig configureren. De standaardwaarde van QualitySettings is NormalQuality.
 
 ```csharp
 public QualitySettings QualitySettings { get; set; }
 ```
 
-### Eigendoms-waarde
+### Property Value
 
-QualitySettings om herkenningskwaliteit en snelheid te configureren.
+QualitySettings om herkenningskwaliteit en -snelheid te configureren.
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe u QualitySettings gebruikt met BarCodeReader
+Dit voorbeeld laat zien hoe QualitySettings te gebruiken met BarCodeReader
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
-   // stel de hoge prestatiemodus in
+   //zet high performance-modus
    reader.QualitySettings = QualitySettings.HighPerformance;
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
    //normale kwaliteitsmodus is standaard ingesteld
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
-   // stel de hoge prestatiemodus in
+   //zet high performance-modus
    reader.QualitySettings = QualitySettings.HighPerformance;
-   // stel aparte opties in
+   //stel afzonderlijke opties in
    reader.QualitySettings.AllowMedianSmoothing = true;
    reader.QualitySettings.MedianSmoothingWindowSize = 5;
    foreach (BarCodeResult result in reader.ReadBarCodes())
       Console.WriteLine("BarCode CodeText: " + result.CodeText);
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'stel de high performance-modus in
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
+    'set high performance mode
     reader.QualitySettings = QualitySettings.HighPerformance
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-    'standaard is de normale kwaliteitsmodus ingesteld
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
+    'normal quality mode is set by default
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
     Next
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
-   'stel de high performance-modus in
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
+   'set high performance mode
    reader.QualitySettings = QualitySettings.HighPerformance
-   'afzonderlijke opties instellen
+   'set separate options
    reader.QualitySettings.AllowMedianSmoothing = True
    reader.QualitySettings.MedianSmoothingWindowSize = 5
    For Each result As BarCodeResult In reader.ReadBarCodes()
@@ -77,7 +77,7 @@ End Using
 
 * class [QualitySettings](../../qualitysettings/)
 * class [BarCodeReader](../)
-* naamruimte [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* montage [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
