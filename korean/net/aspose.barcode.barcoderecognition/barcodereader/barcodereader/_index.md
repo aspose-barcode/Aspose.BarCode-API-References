@@ -1,20 +1,20 @@
 ---
-title: BarCodeReader
-second_title: .NET API 참조용 Aspose.BarCode
-description: 의 새 인스턴스를 초기화합니다.BarCodeReaderaspose.barcode.barcoderecognition/barcodereader/ 기본값이 있는 클래스. ReadBarCodes 메서드를 호출하기 전에 이미지SetBitmapImage를 설정해야 합니다.
+title: "BarCodeReader.BarCodeReader"
+second_title: "Aspose.BarCode for .NET API 참조"
+description: "BarCodeReader 생성자. 기본값으로 BarCodeReader 클래스의 새 인스턴스를 초기화한다. ReadBarCodes 메서드를 호출하기 전에 이미지 SetBitmapImage를 설정해야 한다."
 type: docs
 weight: 10
 url: /ko/net/aspose.barcode.barcoderecognition/barcodereader/barcodereader/
 ---
 ## BarCodeReader() {#constructor}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 기본값이 있는 클래스. ReadBarCodes() 메서드를 호출하기 전에 이미지(SetBitmapImage())를 설정해야 합니다.
+기본값으로 [`BarCodeReader`](../) 클래스의 새 인스턴스를 초기화한다. ReadBarCodes() 메서드를 호출하기 전에 이미지 (SetBitmapImage())를 설정해야 한다.
 
 ```csharp
 public BarCodeReader()
 ```
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -22,7 +22,7 @@ public BarCodeReader()
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -32,7 +32,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -41,27 +41,27 @@ Using reader As New BarCodeReader()
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap) {#constructor_1}
+## BarCodeReader(Bitmap) {#constructor_8}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) image. 의 클래스
+이미지에서 [`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 이미지를 포함하는 Bitmap 인스턴스 |
+| 이미지 | Bitmap | 이미지를 포함하는 Bitmap 인스턴스 |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -70,7 +70,7 @@ public BarCodeReader(Bitmap image)
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader(bmp))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -80,7 +80,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp))
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader(bmp)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -89,35 +89,35 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_3}
+## BarCodeReader(Bitmap, params BaseDecodeType[]) {#constructor_10}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, params BaseDecodeType[] decodeTypes)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 이미지. |
-| decodeTypes | BaseDecodeType[] | 유형을 디코딩합니다. |
+| 이미지 | Bitmap | 이미지. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -127,7 +127,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, DecodeType.Code39Standard, 
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -136,36 +136,36 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_2}
+## BarCodeReader(Bitmap, BaseDecodeType) {#constructor_9}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, BaseDecodeType type)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 이미지. |
+| 이미지 | Bitmap | 이미지. |
 | type | BaseDecodeType | 디코드 유형1. 단일 또는 다중일 수 있습니다. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -175,7 +175,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new MultyDecodeType(DecodeT
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -184,37 +184,37 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_5}
+## BarCodeReader(Bitmap, Rectangle, params BaseDecodeType[]) {#constructor_12}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, params BaseDecodeType[] decodeTypes)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 이미지. |
-| area | Rectangle | 인식 영역입니다. |
-| decodeTypes | BaseDecodeType[] | 유형을 디코딩합니다. |
+| 이미지 | Bitmap | 이미지. |
+| area | Rectangle | 인식 영역. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -224,7 +224,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -233,37 +233,37 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_4}
+## BarCodeReader(Bitmap, Rectangle, BaseDecodeType) {#constructor_11}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle area, BaseDecodeType type)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 이미지. |
-| area | Rectangle | 인식 영역입니다. |
-| type | BaseDecodeType | 디코드 유형입니다. |
+| 이미지 | Bitmap | 이미지. |
+| area | Rectangle | 인식 영역. |
+| type | BaseDecodeType | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -273,7 +273,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle(0, 0, bmp.Wid
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height), New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -282,37 +282,37 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+## BarCodeReader(Bitmap, Rectangle[], params BaseDecodeType[]) {#constructor_14}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 읽을 이미지 |
-| areas | Rectangle[] | 인식 영역의 배열 |
-| decodeTypes | BaseDecodeType[] | 지정된 모든 영역에 적용 가능한 디코드 유형입니다. |
+| 이미지 | Bitmap | 읽을 이미지 |
+| areas | Rectangle[] | 인식 영역 배열 |
+| decodeTypes | BaseDecodeType[] | 지정된 모든 영역에 적용되는 디코드 유형들. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39Standard, DecodeType.Code128)
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, DecodeType.Code39, DecodeType.Code128)
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -322,7 +322,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -331,37 +331,37 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_6}
+## BarCodeReader(Bitmap, Rectangle[], BaseDecodeType) {#constructor_13}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Bitmap image, Rectangle[] areas, BaseDecodeType type)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| image | Bitmap | 읽을 이미지 |
-| areas | Rectangle[] | 인식 영역의 배열 |
-| type | BaseDecodeType | 지정된 모든 영역에 적용 가능한 디코드 유형입니다. |
+| 이미지 | Bitmap | 읽을 이미지 |
+| areas | Rectangle[] | 인식 영역 배열 |
+| type | BaseDecodeType | 지정된 모든 영역에 적용되는 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
-using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) }, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -371,7 +371,7 @@ using (BarCodeReader reader = new BarCodeReader(bmp, new Rectangle[] { new Recta
 }
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
-    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)}, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -380,28 +380,28 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string) {#constructor_11}
+## BarCodeReader(string) {#constructor_18}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) file. 의 클래스
+파일에서 [`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(string filename)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름. |
+| 파일 이름 | String | 파일 이름. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -409,7 +409,7 @@ public BarCodeReader(string filename)
 [C#]
 using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -418,7 +418,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png"))
 }
 [VB.NET]
 Using reader As New BarCodeReader("c:\test.png")
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -426,34 +426,34 @@ Using reader As New BarCodeReader("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, params BaseDecodeType[]) {#constructor_13}
+## BarCodeReader(string, params BaseDecodeType[]) {#constructor_20}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(string filename, params BaseDecodeType[] decodeTypes)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름. |
-| decodeTypes | BaseDecodeType[] | 유형을 디코딩합니다. |
+| 파일 이름 | String | 파일 이름. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -462,7 +462,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -470,35 +470,35 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(string, BaseDecodeType) {#constructor_12}
+## BarCodeReader(string, BaseDecodeType) {#constructor_19}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(string filename, BaseDecodeType type)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름. |
-| type | BaseDecodeType | 디코드 유형입니다. |
+| 파일 이름 | String | 파일 이름. |
+| type | BaseDecodeType | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -507,7 +507,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", new MultyDecodeT
     }
 }
 [VB.NET]
-Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+Using reader As New BarCodeReader("c:\test.png", New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -515,28 +515,28 @@ Using reader As New BarCodeReader("c:\test.png", New MultyDecodeType(DecodeType.
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream) {#constructor_8}
+## BarCodeReader(Stream) {#constructor_15}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Stream stream)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 스트림. |
+| 스트림 | 스트림 | 스트림. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -545,7 +545,7 @@ public BarCodeReader(Stream stream)
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
 using (BarCodeReader reader = new BarCodeReader(fstr))
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
         Console.WriteLine("BarCode Type: " + result.CodeTypeName);
@@ -555,7 +555,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr))
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
     Using reader As New BarCodeReader(fstr)
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -564,35 +564,35 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, BaseDecodeType) {#constructor_9}
+## BarCodeReader(Stream, BaseDecodeType) {#constructor_16}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Stream stream, BaseDecodeType type)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 스트림. |
-| type | BaseDecodeType | 디코드 유형입니다. |
+| 스트림 | 스트림 | 스트림. |
+| type | BaseDecodeType | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128)))
+using (BarCodeReader reader = new BarCodeReader(fstr, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -602,7 +602,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, new MultyDecodeType(Decode
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, New MultyDecodeType(DecodeType.Code39Standard, DecodeType.Code128))
+    Using reader As New BarCodeReader(fstr, New MultiDecodeType(DecodeType.Code39, DecodeType.Code128))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -611,36 +611,36 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_10}
+## BarCodeReader(Stream, params BaseDecodeType[]) {#constructor_17}
 
-의 새 인스턴스를 초기화합니다.[`BarCodeReader`](../) 클래스.
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
 
 ```csharp
 public BarCodeReader(Stream stream, params BaseDecodeType[] decodeTypes)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 스트림. |
-| decodeTypes | BaseDecodeType[] | 유형을 디코딩합니다. |
+| 스트림 | 스트림 | 스트림. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
-using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -650,7 +650,7 @@ using (BarCodeReader reader = new BarCodeReader(fstr, DecodeType.Code39Standard,
 }
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
-    Using reader As New BarCodeReader(fstr, DecodeType.Code39Standard, DecodeType.Code128)
+    Using reader As New BarCodeReader(fstr, DecodeType.Code39, DecodeType.Code128)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
             Console.WriteLine("BarCode CodeText: " + result.CodeText)
@@ -659,11 +659,319 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BaseDecodeType](../../basedecodetype/)
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], BaseDecodeType) {#constructor_6}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, BaseDecodeType type)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| areas | Rectangle[] | 인식 영역 배열입니다. |
+| type | BaseDecodeType | 디코드 유형. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle[], params BaseDecodeType[]) {#constructor_7}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle[] areas, params BaseDecodeType[] decodeTypes)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| areas | Rectangle[] | 인식 영역 배열입니다. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형입니다. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader(frame, areas, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, BaseDecodeType) {#constructor_4}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, BaseDecodeType type)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| area | Rectangle | 인식 영역. |
+| type | BaseDecodeType | 디코드 유형. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, Rectangle, params BaseDecodeType[]) {#constructor_5}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, Rectangle area, params BaseDecodeType[] decodeTypes)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| area | Rectangle | 인식 영역. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형입니다. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle area = new Rectangle(0, 0, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, area, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, BaseDecodeType) {#constructor_2}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, BaseDecodeType type)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| type | BaseDecodeType | 디코드 유형. |
+
+## 예제
+
+이 샘플은 밝기 프레임에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, new MultiDecodeType(DecodeType.Code39, DecodeType.Code128)))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame, params BaseDecodeType[]) {#constructor_3}
+
+[`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame, params BaseDecodeType[] decodeTypes)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+| decodeTypes | BaseDecodeType[] | 디코드 유형입니다. |
+
+## 예제
+
+이 샘플은 밝기 프레임에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame, DecodeType.Code39, DecodeType.Code128))
+{
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BaseDecodeType](../../basedecodetype/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## BarCodeReader(LuminanceFrame) {#constructor_1}
+
+밝기 프레임에서 [`BarCodeReader`](../) 클래스를 새 인스턴스로 초기화합니다.
+
+```csharp
+public BarCodeReader(LuminanceFrame frame)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 읽기 위한 밝기 프레임. |
+
+## 예제
+
+이 샘플은 밝기 프레임에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader(frame))
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+

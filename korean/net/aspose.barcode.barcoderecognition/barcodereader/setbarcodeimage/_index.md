@@ -1,24 +1,24 @@
 ---
-title: SetBarCodeImage
-second_title: .NET API 참조용 Aspose.BarCode
-description: 인식용 비트맵 이미지를 설정합니다. ReadBarCodes 메서드 전에 호출해야 합니다.
+title: "BarCodeReader.SetBarCodeImage"
+second_title: "Aspose.BarCode for .NET API 참조"
+description: "BarCodeReader 메서드. 인식을 위한 비트맵 이미지를 설정합니다. ReadBarCodes 메서드 호출 전에 호출해야 합니다."
 type: docs
-weight: 110
+weight: 120
 url: /ko/net/aspose.barcode.barcoderecognition/barcodereader/setbarcodeimage/
 ---
-## SetBarCodeImage(Bitmap) {#setbarcodeimage}
+## SetBarCodeImage(Bitmap) {#setbarcodeimage_3}
 
-인식용 비트맵 이미지를 설정합니다. ReadBarCodes() 메서드 전에 호출해야 합니다.
+인식을 위한 비트맵 이미지를 설정합니다. ReadBarCodes() 메서드 호출 전에 호출해야 합니다.
 
 ```csharp
 public void SetBarCodeImage(Bitmap value)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | value | Bitmap | 인식을 위한 비트맵 이미지입니다. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -27,7 +27,7 @@ public void SetBarCodeImage(Bitmap value)
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(bmp);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -38,7 +38,7 @@ using (BarCodeReader reader = new BarCodeReader())
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader()
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         reader.SetBarCodeImage(bmp)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -48,28 +48,28 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## SetBarCodeImage(Bitmap, Rectangle[]) {#setbarcodeimage_2}
+## SetBarCodeImage(Bitmap, Rectangle[]) {#setbarcodeimage_5}
 
-인식할 비트맵 이미지와 영역을 설정합니다. ReadBarCodes() 메서드 전에 호출해야 합니다.
+인식을 위한 비트맵 이미지와 여러 영역을 설정합니다. ReadBarCodes() 메서드를 호출하기 전에 호출해야 합니다.
 
 ```csharp
 public void SetBarCodeImage(Bitmap value, Rectangle[] areas)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | value | Bitmap | 인식을 위한 비트맵 이미지입니다. |
-| areas | Rectangle[] | 인정 영역 목록 |
+| areas | Rectangle[] | 인식을 위한 영역 목록 |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -78,7 +78,7 @@ public void SetBarCodeImage(Bitmap value, Rectangle[] areas)
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(bmp, new Rectangle[] { new Rectangle(0, 0, bmp.Width, bmp.Height) });
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -89,7 +89,7 @@ using (BarCodeReader reader = new BarCodeReader())
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader()
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         reader.SetBarCodeImage(bmp, New Rectangle() {New Rectangle(0, 0, bmp.Width, bmp.Height)})
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -99,28 +99,28 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## SetBarCodeImage(Bitmap, Rectangle) {#setbarcodeimage_1}
+## SetBarCodeImage(Bitmap, Rectangle) {#setbarcodeimage_4}
 
-인식할 비트맵 이미지와 영역을 설정합니다. ReadBarCodes() 메서드 전에 호출해야 합니다.
+인식을 위한 비트맵 이미지와 영역을 설정합니다. ReadBarCodes() 메서드를 호출하기 전에 호출해야 합니다.
 
 ```csharp
 public void SetBarCodeImage(Bitmap value, Rectangle area)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | value | Bitmap | 인식을 위한 비트맵 이미지입니다. |
-| area | Rectangle | 인정영역 |
+| area | Rectangle | 인식을 위한 영역 |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -129,7 +129,7 @@ public void SetBarCodeImage(Bitmap value, Rectangle area)
 using (Bitmap bmp = new Bitmap(@"c:\test.png"))
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height));
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -140,7 +140,7 @@ using (BarCodeReader reader = new BarCodeReader())
 [VB.NET]
 Using bmp = New Bitmap("c:\test.png")
     Using reader As New BarCodeReader()
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         reader.SetBarCodeImage(bmp, New Rectangle(0, 0, bmp.Width, bmp.Height))
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -150,27 +150,27 @@ Using bmp = New Bitmap("c:\test.png")
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## SetBarCodeImage(string) {#setbarcodeimage_4}
+## SetBarCodeImage(string) {#setbarcodeimage_7}
 
-인식할 이미지 파일을 설정합니다. ReadBarCodes() 메서드 전에 호출해야 합니다.
+인식을 위한 이미지 파일을 설정합니다. ReadBarCodes() 메서드를 호출하기 전에 호출해야 합니다.
 
 ```csharp
 public void SetBarCodeImage(string filename)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| filename | String | 인식용 이미지 파일입니다. |
+| 파일 이름 | String | 인식을 위한 이미지 파일입니다. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -178,7 +178,7 @@ public void SetBarCodeImage(string filename)
 [C#]
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(@"c:\test.png");
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -188,7 +188,7 @@ using (BarCodeReader reader = new BarCodeReader())
 }
 [VB.NET]
 Using reader As New BarCodeReader()
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
     reader.SetBarCodeImage("c:\test.png")
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -197,27 +197,27 @@ Using reader As New BarCodeReader()
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## SetBarCodeImage(Stream) {#setbarcodeimage_3}
+## SetBarCodeImage(Stream) {#setbarcodeimage_6}
 
-인식할 이미지 스트림을 설정합니다. ReadBarCodes() 메서드 전에 호출해야 합니다.
+인식을 위한 이미지 스트림을 설정합니다. ReadBarCodes() 메서드를 호출하기 전에 호출해야 합니다.
 
 ```csharp
 public void SetBarCodeImage(Stream stream)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 인식을 위한 이미지 스트림입니다. |
+| 스트림 | 스트림 | 인식을 위한 이미지 스트림입니다. |
 
-### 예
+## 예제
 
 이 샘플은 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
 
@@ -226,7 +226,7 @@ public void SetBarCodeImage(Stream stream)
 using (FileStream fstr = new FileStream(@"c:\test.png", FileMode.Open))
 using (BarCodeReader reader = new BarCodeReader())
 {
-    reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128);
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
     reader.SetBarCodeImage(fstr);
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -237,7 +237,7 @@ using (BarCodeReader reader = new BarCodeReader())
 [VB.NET]
 Using fstr = New FileStream("c:\test.png", FileMode.Open)
     Using reader As New BarCodeReader()
-        reader.SetBarCodeReadType(DecodeType.Code39Standard, DecodeType.Code128)
+        reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128)
         reader.SetBarCodeImage(fstr)
         For Each result As BarCodeResult In reader.ReadBarCodes()
             Console.WriteLine("BarCode Type: " + result.CodeTypeName)
@@ -247,10 +247,143 @@ Using fstr = New FileStream("c:\test.png", FileMode.Open)
 End Using
 ```
 
-### 또한보십시오
+### 또 보기
 
 * class [BarCodeReader](../)
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../barcodereader/)
-* 집회 [Aspose.BarCode](../../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+---
+
+## SetBarCodeImage(LuminanceFrame, Rectangle) {#setbarcodeimage_1}
+
+인식을 위해 밝기 프레임과 영역을 설정합니다. [`ReadBarCodes`](../readbarcodes/) 메서드 호출 전에 호출해야 합니다.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame, Rectangle area)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 인식을 위한 밝기 프레임입니다. |
+| area | Rectangle | 인식 영역. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, new Rectangle(0, 0, width, height));
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## SetBarCodeImage(LuminanceFrame, Rectangle[]) {#setbarcodeimage_2}
+
+인식을 위해 밝기 프레임과 여러 영역을 설정합니다. [`ReadBarCodes`](../readbarcodes/) 메서드 호출 전에 호출해야 합니다.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame, Rectangle[] areas)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 인식을 위한 밝기 프레임입니다. |
+| areas | Rectangle[] | 인식 영역 배열입니다. |
+
+## 예제
+
+이 샘플은 밝기 프레임의 지정된 영역에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height);
+Rectangle[] areas = { new Rectangle(0, 0, width, height / 2), new Rectangle(0, height / 2, width, height / 2) };
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame, areas);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+---
+
+## SetBarCodeImage(LuminanceFrame) {#setbarcodeimage}
+
+인식을 위해 밝기 프레임을 설정합니다. [`ReadBarCodes`](../readbarcodes/) 메서드 호출 전에 호출해야 합니다.
+
+```csharp
+public void SetBarCodeImage(LuminanceFrame frame)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 프레임 | LuminanceFrame | 인식을 위한 밝기 프레임입니다. |
+
+## 예제
+
+이 샘플은 밝기 프레임에서 Code39 및 Code128 바코드를 감지하는 방법을 보여줍니다.
+
+```csharp
+int width = 1920;
+int height = 1080;
+int rowStride = 2048;
+byte[] data = GetLuminanceData();
+LuminanceFrame frame = new LuminanceFrame(data, width, height, rowStride, 90);
+
+using (BarCodeReader reader = new BarCodeReader())
+{
+    reader.SetBarCodeReadType(DecodeType.Code39, DecodeType.Code128);
+    reader.SetBarCodeImage(frame);
+    foreach (BarCodeResult result in reader.ReadBarCodes())
+    {
+        Console.WriteLine("BarCode Type: " + result.CodeTypeName);
+        Console.WriteLine("BarCode CodeText: " + result.CodeText);
+    }
+}
+```
+
+### 또 보기
+
+* class [LuminanceFrame](../../luminanceframe/)
+* class [BarCodeReader](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
+
+

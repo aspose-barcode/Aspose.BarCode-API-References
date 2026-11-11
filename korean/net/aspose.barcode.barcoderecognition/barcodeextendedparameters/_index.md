@@ -1,14 +1,14 @@
 ---
-title: BarCodeExtendedParameters
-second_title: .NET API 참조용 Aspose.BarCode
-description: 인식된 바코드의 확장 매개변수 저장
+title: "클래스 BarCodeExtendedParameters"
+second_title: "Aspose.BarCode for .NET API 참조"
+description: "Aspose.BarCode.BarCodeRecognition.BarCodeExtendedParameters 클래스. 인식된 바코드의 확장 매개변수를 저장합니다."
 type: docs
-weight: 50
+weight: 60
 url: /ko/net/aspose.barcode.barcoderecognition/barcodeextendedparameters/
 ---
 ## BarCodeExtendedParameters class
 
-인식된 바코드의 확장 매개변수 저장
+인식된 바코드의 확장 매개변수를 저장합니다.
 
 ```csharp
 public sealed class BarCodeExtendedParameters
@@ -18,27 +18,31 @@ public sealed class BarCodeExtendedParameters
 
 | 이름 | 설명 |
 | --- | --- |
-| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | 특수 데이터 가져오기[`Code128ExtendedParameters`](../code128extendedparameters/) Code128 인식 바코드 |
-| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | DataBar 추가 정보를 가져옵니다.[`DataBarExtendedParameters`](../databarextendedparameters/) 인식된 바코드의 |
-| [DotCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/dotcode/) { get; } | DotCode 추가 정보 가져오기[`DotCodeExtendedParameters`](../dotcodeextendedparameters/) 인식된 바코드의 |
-| [MaxiCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/maxicode/) { get; } | MaxiCode 추가 정보 가져오기[`MaxiCodeExtendedParameters`](../maxicodeextendedparameters/) 인식된 바코드의 |
-| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/) { get; } | 특수 데이터 가져오기[`OneDExtendedParameters`](../onedextendedparameters/) 1D 인식 바코드의 |
-| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/) { get; } | MacroPdf417 메타데이터 정보를 가져옵니다.[`Pdf417ExtendedParameters`](../pdf417extendedparameters/) 인식된 바코드의 |
-| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/) { get; } | QR Structured Append 정보 가져오기[`QRExtendedParameters`](../qrextendedparameters/) 인식된 바코드의 |
+| [Aztec](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/aztec/) { get; } | 인식된 바코드의 Aztec 추가 정보[`AztecExtendedParameters`](../aztecextendedparameters/)를 가져옵니다. |
+| [Codabar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/codabar/) { get; } | 인식된 바코드의 Codabar 추가 정보[`CodabarExtendedParameters`](../codabarextendedparameters/)를 가져옵니다. |
+| [Code128](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/code128/) { get; } | Code128 인식 바코드의 특수 데이터 [`Code128ExtendedParameters`](../code128extendedparameters/)를 가져옵니다. |
+| [DataBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/databar/) { get; } | 인식된 바코드의 DataBar 추가 정보[`DataBarExtendedParameters`](../databarextendedparameters/)를 가져옵니다. |
+| [DataMatrix](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/datamatrix/) { get; } | 인식된 바코드의 DataMatrix 추가 정보[`DataMatrixExtendedParameters`](../datamatrixextendedparameters/)를 가져옵니다. |
+| [DotCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/dotcode/) { get; } | 인식된 바코드의 DotCode 추가 정보[`DotCodeExtendedParameters`](../dotcodeextendedparameters/)를 가져옵니다. |
+| [GS1CompositeBar](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gs1compositebar/) { get; } | 인식된 바코드의 GS1CompositeBar 추가 정보[`GS1CompositeBarExtendedParameters`](../gs1compositebarextendedparameters/)를 가져옵니다. |
+| [MaxiCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/maxicode/) { get; } | 인식된 바코드의 MaxiCode 추가 정보[`MaxiCodeExtendedParameters`](../maxicodeextendedparameters/)를 가져옵니다. |
+| [OneD](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/oned/) { get; } | 1D 인식 바코드의 특수 데이터 [`OneDExtendedParameters`](../onedextendedparameters/)를 가져옵니다. |
+| [Pdf417](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/pdf417/) { get; } | 인식된 바코드의 MacroPdf417 메타데이터 정보 [`Pdf417ExtendedParameters`](../pdf417extendedparameters/)를 가져옵니다. |
+| [QR](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/qr/) { get; } | 인식된 바코드의 QR Structured Append 정보 [`QRExtendedParameters`](../qrextendedparameters/)를 가져옵니다. |
 
-## 행동 양식
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals/)(object) | 이 인스턴스가 지정된 것과 같은지 여부를 나타내는 값을 반환합니다.`BarCodeExtendedParameters` 값. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/equals/)(object) | 이 인스턴스가 지정된 `BarCodeExtendedParameters` 값과 같은지 여부를 나타내는 값을 반환합니다. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/gethashcode/)() | 이 인스턴스의 해시 코드를 반환합니다. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring/)() | 사람이 읽을 수 있는 문자열 표현을 반환합니다.`BarCodeExtendedParameters` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/) | 첫 번째인지 여부를 나타내는 값을 반환합니다.`BarCodeExtendedParameters` 값은 초와 같습니다. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/) | 첫 번째인지 나타내는 값을 반환합니다.`BarCodeExtendedParameters` 값이 초와 다릅니다. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/tostring/)() | 이 `BarCodeExtendedParameters`의 사람이 읽을 수 있는 문자열 표현을 반환합니다. |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_equality/) | 첫 번째 `BarCodeExtendedParameters` 값이 두 번째와 같은지 여부를 나타내는 값을 반환합니다. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcodeextendedparameters/op_inequality/) | 첫 번째 `BarCodeExtendedParameters` 값이 두 번째와 다른지 여부를 나타내는 값을 반환합니다. |
 
-### 또한보십시오
+### 또 보기
 
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* 집회 [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

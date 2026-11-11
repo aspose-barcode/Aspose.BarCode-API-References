@@ -1,14 +1,14 @@
 ---
-title: Quadrangle
-second_title: .NET API 참조용 Aspose.BarCode
-description: 4개의 세트를 저장합니다.Point 를 나타내는 sQuadrangle./quadrangle/ 지역.
+title: "Quadrangle 클래스"
+second_title: "Aspose.BarCode for .NET API 참조"
+description: "Aspose.BarCode.BarCodeRecognition.Quadrangle 클래스. 사각형 영역을 나타내는 네 개의 Point 집합을 저장합니다."
 type: docs
-weight: 260
+weight: 360
 url: /ko/net/aspose.barcode.barcoderecognition/quadrangle/
 ---
 ## Quadrangle class
 
-4개의 세트를 저장합니다.Point 를 나타내는 s`Quadrangle` 지역.
+네 개의 Point 집합을 저장하며, 이는 `Quadrangle` 영역을 나타냅니다.
 
 ```csharp
 public class Quadrangle : IEquatable<Quadrangle>
@@ -18,44 +18,44 @@ public class Quadrangle : IEquatable<Quadrangle>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Quadrangle](quadrangle/#constructor)() | 의 새 빈 인스턴스를 초기화합니다.`Quadrangle` 클래스. |
-| [Quadrangle](quadrangle/#constructor_1)(Point, Point, Point, Point) | 의 새 인스턴스를 초기화합니다.`Quadrangle` 설명 포인트가 있는 클래스. |
+| [Quadrangle](quadrangle/#constructor)() | `Quadrangle` 클래스의 새로운 빈 인스턴스를 초기화합니다. |
+| [Quadrangle](quadrangle/#constructor_1)(Point, Point, Point, Point) | `Quadrangle` 클래스의 새로운 인스턴스를 설명 포인트와 함께 초기화합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle/) { get; } | 얻다Rectangle 이것을 경계`Quadrangle` |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty/) { get; } | 모두 여부를 테스트합니다.Point 이것의`Quadrangle`0의 값을 가집니다. |
-| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom/) { get; set; } | 왼쪽 아래 모서리 가져오기Point ~의`Quadrangle` 지역 |
-| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop/) { get; set; } | 왼쪽 상단 모서리 가져오기Point ~의`Quadrangle` 지역 |
-| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom/) { get; set; } | 오른쪽 하단 모서리 가져오기Point ~의`Quadrangle` 지역 |
-| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop/) { get; set; } | 오른쪽 상단 모서리 가져오기Point ~의`Quadrangle` 지역 |
+| [BoundingRectangle](../../aspose.barcode.barcoderecognition/quadrangle/boundingrectangle/) { get; } | 이 `Quadrangle`을 둘러싸는 Rectangle을 가져옵니다. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/quadrangle/isempty/) { get; } | 이 `Quadrangle`의 모든 Point가 값이 0인지 테스트합니다. |
+| [LeftBottom](../../aspose.barcode.barcoderecognition/quadrangle/leftbottom/) { get; set; } | `Quadrangle` 영역의 왼쪽 하단 코너 Point를 가져옵니다. |
+| [LeftTop](../../aspose.barcode.barcoderecognition/quadrangle/lefttop/) { get; set; } | `Quadrangle` 영역의 왼쪽 상단 코너 Point를 가져옵니다. |
+| [RightBottom](../../aspose.barcode.barcoderecognition/quadrangle/rightbottom/) { get; set; } | `Quadrangle` 영역의 오른쪽 하단 코너 Point를 가져옵니다. |
+| [RightTop](../../aspose.barcode.barcoderecognition/quadrangle/righttop/) { get; set; } | `Quadrangle` 영역의 오른쪽 상단 코너 Point를 가져옵니다. |
 
-## 행동 양식
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_2)(Point) | 지정된Point 이 안에 들어있다`Quadrangle` 클래스. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains)(Quadrangle) | 지정된`Quadrangle` 이 포함되거나 교차`Quadrangle` 클래스. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_3)(Rectangle) | 지정된Rectangle 이 포함되거나 교차`Quadrangle` 클래스. |
-| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_1)(int, int) | 지정된 포인트가 이 안에 포함되는지 확인합니다.`Quadrangle` 클래스. |
-| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals_1)(object) | 이 인스턴스가 지정된 것과 같은지 여부를 나타내는 값을 반환합니다.`Quadrangle` 값. |
-| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals)(Quadrangle) | 이 인스턴스가 지정된 것과 같은지 여부를 나타내는 값을 반환합니다.`Quadrangle` 값. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_2)(Point) | 지정된 Point가 이 `Quadrangle` 클래스에 포함되는지 여부를 결정합니다. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains)(Quadrangle) | 지정된 `Quadrangle`이 이 `Quadrangle` 클래스에 포함되거나 교차하는지 여부를 결정합니다. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_3)(Rectangle) | 지정된 Rectangle이 이 `Quadrangle` 클래스에 포함되거나 교차하는지 여부를 결정합니다. |
+| [Contains](../../aspose.barcode.barcoderecognition/quadrangle/contains/#contains_1)(int, int) | 지정된 point가 이 `Quadrangle` 클래스에 포함되는지 여부를 결정합니다. |
+| override [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals_1)(object) | 이 인스턴스가 지정된 `Quadrangle` 값과 같은지 여부를 나타내는 값을 반환합니다. |
+| [Equals](../../aspose.barcode.barcoderecognition/quadrangle/equals/#equals)(Quadrangle) | 이 인스턴스가 지정된 `Quadrangle` 값과 같은지 여부를 나타내는 값을 반환합니다. |
 | override [GetHashCode](../../aspose.barcode.barcoderecognition/quadrangle/gethashcode/)() | 이 인스턴스의 해시 코드를 반환합니다. |
-| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring/)() | 사람이 읽을 수 있는 문자열 표현을 반환합니다.`Quadrangle` . |
-| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality/) | 첫 번째인지 여부를 나타내는 값을 반환합니다.`Quadrangle` 값은 초와 같습니다. |
-| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality/) | 첫 번째인지 나타내는 값을 반환합니다.`Quadrangle` 값이 초와 다릅니다. |
+| override [ToString](../../aspose.barcode.barcoderecognition/quadrangle/tostring/)() | 이 `Quadrangle`의 사람이 읽을 수 있는 문자열 표현을 반환합니다. |
+| [operator ==](../../aspose.barcode.barcoderecognition/quadrangle/op_equality/) | 첫 번째 `Quadrangle` 값이 두 번째와 같은지 여부를 나타내는 값을 반환합니다. |
+| [operator !=](../../aspose.barcode.barcoderecognition/quadrangle/op_inequality/) | 첫 번째 `Quadrangle` 값이 두 번째와 다른지 여부를 나타내는 값을 반환합니다. |
 
 ## 필드
 
 | 이름 | 설명 |
 | --- | --- |
-| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty/) | 를 나타냅니다`Quadrangle` 속성이 초기화되지 않은 상태로 남아 있는 클래스. |
+| static readonly [Empty](../../aspose.barcode.barcoderecognition/quadrangle/empty/) | `Quadrangle` 클래스를 나타내며, 해당 속성들은 초기화되지 않은 상태입니다. |
 
-### 또한보십시오
+### 또 보기
 
-* 네임스페이스 [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* 집회 [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
