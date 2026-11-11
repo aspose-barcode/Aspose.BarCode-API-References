@@ -1,49 +1,49 @@
 ---
-title: BaseDecodeType
-second_title: Aspose.BarCode voor .NET API-referentie
-description: Basisklasse voor MultyDecodeType en SingleDecodeType.
+title: "Klasse BaseDecodeType"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.BarCodeRecognition.BaseDecodeType klasse. Basisklasse voor MultiDecodeType en SingleDecodeType"
 type: docs
-weight: 120
+weight: 130
 url: /nl/net/aspose.barcode.barcoderecognition/basedecodetype/
 ---
 ## BaseDecodeType class
 
-Basisklasse voor MultyDecodeType en SingleDecodeType.
+Basisklasse voor MultiDecodeType en SingleDecodeType.
 
 ```csharp
 public abstract class BaseDecodeType : IEquatable<BaseDecodeType>
 ```
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany/)(params BaseDecodeType[]) | Bepaalt of een van de gegeven decoderingstypen is opgenomen in |
-| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals)(BaseDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`BaseDecodeType` waarde. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_1)(MultyDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven[`MultyDecodeType`](../multydecodetype/) waarde. |
-| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_3)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven`BaseDecodeType` waarde. |
-| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_2)(SingleDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven[`SingleDecodeType`](../singledecodetype/) waarde. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode/)() | Retourneert de hash-code voor deze instantie. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse)(string, out BaseDecodeType) | Converteert de tekenreeksrepresentatie van een BaseDecodeType naar zijn instantie, nadat het betontype is bepaald. Een geretourneerde waarde geeft aan of de conversie is geslaagd of mislukt. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_1)(string, out MultyDecodeType) | Converteert de tekenreeksrepresentatie van een MultyDecodeType naar zijn instantie. Een geretourneerde waarde geeft aan of de conversie is geslaagd of mislukt. |
-| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_2)(string, out SingleDecodeType) | Converteert de tekenreeksrepresentatie van een SingleDecodeType naar zijn instantie. Een geretourneerde waarde geeft aan of de conversie is geslaagd of mislukt. |
+| abstract [ContainsAny](../../aspose.barcode.barcoderecognition/basedecodetype/containsany/)(params BaseDecodeType[]) | Bepaalt of een van de opgegeven decodeertypen is opgenomen in |
+| [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals)(BaseDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `BaseDecodeType`-waarde. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_1)(MultiDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven [`MultiDecodeType`](../multidecodetype/)-waarde. |
+| override [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_3)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven `BaseDecodeType`-waarde. |
+| virtual [Equals](../../aspose.barcode.barcoderecognition/basedecodetype/equals/#equals_2)(SingleDecodeType) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven [`SingleDecodeType`](../singledecodetype/)-waarde. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/basedecodetype/gethashcode/)() | Retourneert de hashcode voor deze instantie. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse)(string, out BaseDecodeType) | Converteert de tekenreeksrepresentatie van een BaseDecodeType naar de bijbehorende instantie, nadat het concrete type is bepaald. Een retourwaarde geeft aan of de conversie geslaagd is of mislukt. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_1)(string, out MultiDecodeType) | Converteert de tekenreeksrepresentatie van een MultiDecodeType naar de bijbehorende instantie. Een retourwaarde geeft aan of de conversie geslaagd is of mislukt. |
+| static [TryParse](../../aspose.barcode.barcoderecognition/basedecodetype/tryparse/#tryparse_2)(string, out SingleDecodeType) | Converteert de tekenreeksrepresentatie van een SingleDecodeType naar de bijbehorende instantie. Een retourwaarde geeft aan of de conversie geslaagd is of mislukt. |
 
-### Voorbeelden
+## Voorbeelden
 
-Dit voorbeeld laat zien hoe u BaseDecodeType gebruikt met SingleDecodeType en MultyDecodeType
+Dit voorbeeld toont hoe BaseDecodeType te gebruiken met SingleDecodeType en MultiDecodeType
 
 ```csharp
 [C#]
 BaseDecodeType decodeOne = DecodeType.Code128;
-BaseDecodeType decodeTwo = new MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended);
+BaseDecodeType decodeTwo = new MultiDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII);
 [VB.NET]
 Dim decodeOne As BaseDecodeType = DecodeType.Code128
-Dim decodeTwo As BaseDecodeType = New MultyDecodeType(DecodeType.Code128, DecodeType.Code39Standard, DecodeType.Code39Extended)
+Dim decodeTwo As BaseDecodeType = New MultiDecodeType(DecodeType.Code128, DecodeType.Code39, DecodeType.Code39FullASCII)
 ```
 
 ### Zie ook
 
-* naamruimte [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

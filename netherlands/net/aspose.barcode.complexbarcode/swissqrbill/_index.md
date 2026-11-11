@@ -1,14 +1,14 @@
 ---
-title: SwissQRBill
-second_title: Aspose.BarCode voor .NET API-referentie
-description: SwissQR factuurgegevens
+title: "Klasse SwissQRBill"
+second_title: "Aspose.BarCode voor .NET API‑referentie"
+description: "Aspose.BarCode.ComplexBarcode.SwissQRBill klasse. SwissQR‑factuurgegevens"
 type: docs
-weight: 600
+weight: 780
 url: /nl/net/aspose.barcode.complexbarcode/swissqrbill/
 ---
 ## SwissQRBill class
 
-SwissQR factuurgegevens
+SwissQR-factuurgegevens
 
 ```csharp
 public sealed class SwissQRBill : IEquatable<SwissQRBill>
@@ -18,35 +18,35 @@ public sealed class SwissQRBill : IEquatable<SwissQRBill>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Account](../../aspose.barcode.complexbarcode/swissqrbill/account/) { get; set; } | Krijgt of stelt het rekeningnummer van de schuldeiser in. |
-| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes/) { get; set; } | Gets ors stelt de alternatieve betalingsschema's in. |
-| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount/) { get; set; } | Ontvangt of stelt het betalingsbedrag in. |
-| [BillInformation](../../aspose.barcode.complexbarcode/swissqrbill/billinformation/) { get; set; } | Krijgt of stelt de aanvullende gestructureerde factuurinformatie in. |
-| [Creditor](../../aspose.barcode.complexbarcode/swissqrbill/creditor/) { get; set; } | Krijgt of stelt het crediteuradres in. |
-| [Currency](../../aspose.barcode.complexbarcode/swissqrbill/currency/) { get; set; } | Haalt de betalingsvaluta op of stelt deze in. |
-| [Debtor](../../aspose.barcode.complexbarcode/swissqrbill/debtor/) { get; set; } | Haalt of stelt het debiteuradres in. |
-| [Reference](../../aspose.barcode.complexbarcode/swissqrbill/reference/) { get; set; } | Ontvangt of stelt de betalingsreferentie van de crediteur in. |
-| [UnstructuredMessage](../../aspose.barcode.complexbarcode/swissqrbill/unstructuredmessage/) { get; set; } | Ontvangt of stelt het aanvullende ongestructureerde bericht in. |
-| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version/) { get; set; } | Haalt de versie van de SwissQR-factuurstandaard op of stelt deze in. |
+| [Account](../../aspose.barcode.complexbarcode/swissqrbill/account/) { get; set; } | Haalt op of stelt het rekeningnummer van de crediteur in. |
+| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes/) { get; set; } | Haalt op of stelt de alternatieve betaalschema's in. |
+| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount/) { get; set; } | Haalt op of stelt het betalingsbedrag in. |
+| [BillInformation](../../aspose.barcode.complexbarcode/swissqrbill/billinformation/) { get; set; } | Haalt op of stelt de aanvullende gestructureerde factuurinformatie in. |
+| [Creditor](../../aspose.barcode.complexbarcode/swissqrbill/creditor/) { get; set; } | Haalt op of stelt het adres van de crediteur in. |
+| [Currency](../../aspose.barcode.complexbarcode/swissqrbill/currency/) { get; set; } | Haalt op of stelt de betaalvaluta in. |
+| [Debtor](../../aspose.barcode.complexbarcode/swissqrbill/debtor/) { get; set; } | Haalt op of stelt het adres van de schuldenaar in. |
+| [Reference](../../aspose.barcode.complexbarcode/swissqrbill/reference/) { get; set; } | Haalt op of stelt de betalingsreferentie van de crediteur in. |
+| [UnstructuredMessage](../../aspose.barcode.complexbarcode/swissqrbill/unstructuredmessage/) { get; set; } | Haalt op of stelt het aanvullende ongestructureerde bericht in. |
+| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version/) { get; set; } | Haalt op of stelt de versie van de SwissQR‑factuurstandaard in. |
 
-## methoden
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/)(string) | Creëert en stelt een ISO11649-crediteurreferentie in op basis van een onbewerkte tekenreeks door voor de tekenreeks te prefixen met "RF" en de modulo 97-controlesom. |
+| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/)(string) | Maakt en stelt een ISO11649-crediteurreferentie in vanuit een ruwe tekenreeks door de string te prefixen met "RF" en de modulo‑97‑controlesom. |
 | override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals/#equals_1)(object) | Bepaalt of het opgegeven object gelijk is aan het huidige object. |
-| [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals/#equals)(SwissQRBill) | Bepaalt of de opgegeven rekening gelijk is aan de huidige rekening. |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode/)() | Hiermee wordt de hash-code voor deze instantie opgehaald. |
+| [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals/#equals)(SwissQRBill) | Bepaalt of de opgegeven factuur gelijk is aan de huidige factuur. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode/)() | Haalt de hashcode op voor deze instantie. |
 
 ## Andere leden
 
 | Naam | Beschrijving |
 | --- | --- |
-| enum [QrBillStandardVersion](swissqrbill.qrbillstandardversion/) | SwissQR factuur standaardversie |
+| enum [QrBillStandardVersion](../../aspose.barcode.complexbarcode/swissqrbill.qrbillstandardversion) | SwissQR‑factuurstandaardversie |
 
 ### Zie ook
 
-* naamruimte [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
-* montage [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
