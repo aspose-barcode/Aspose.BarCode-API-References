@@ -1,41 +1,41 @@
 ---
-title: BarCodeRegionParameters
-second_title: Aspose.BarCode for .NET API Referansı
-description: Tanınan barkodun bölgesini ve barkod açısını temsil eder
+title: "Sınıf BarCodeRegionParameters"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.BarCodeRecognition.BarCodeRegionParameters sınıfı. Tanınan barkod bölgesini ve barkod açısını temsil eder"
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.barcode.barcoderecognition/barcoderegionparameters/
 ---
 ## BarCodeRegionParameters class
 
-Tanınan barkodun bölgesini ve barkod açısını temsil eder
+Tanımlanan barkodun bölgesini ve barkod açısını temsil eder
 
 ```csharp
 public sealed class BarCodeRegionParameters
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle) { get; } | Barkodun açısını alır (0-360). |
-| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points) { get; } | alırPoints dizisi sınırlayıcı barkod bölgesi |
-| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle) { get; } | alır[`Quadrangle`](../quadrangle) sınırlayıcı barkod bölgesi |
-| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle) { get; } | alırRectangle sınırlayıcı barkod bölgesi |
+| [Angle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/angle/) { get; } | Barkodun açısını (0-360) alır. |
+| [Points](../../aspose.barcode.barcoderecognition/barcoderegionparameters/points/) { get; } | Barkod bölgesini sınırlayan Points dizisini alır |
+| [Quadrangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/quadrangle/) { get; } | Barkod bölgesini sınırlayan [`Quadrangle`](../quadrangle/) alır |
+| [Rectangle](../../aspose.barcode.barcoderecognition/barcoderegionparameters/rectangle/) { get; } | Barkod bölgesini sınırlayan Rectangle'ı alır |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals)(object) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`BarCodeRegionParameters`](../barcoderegionparameters) değer. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode)() | Bu örnek için karma kodu döndürür. |
-| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring)() | Bunun insan tarafından okunabilir bir dize temsilini döndürür[`BarCodeRegionParameters`](../barcoderegionparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`BarCodeRegionParameters`](../barcoderegionparameters) değer saniyeye eşittir. |
-| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`BarCodeRegionParameters`](../barcoderegionparameters) değer ikinciden farklı. |
+| override [Equals](../../aspose.barcode.barcoderecognition/barcoderegionparameters/equals/)(object) | Bu örneğin belirtilen `BarCodeRegionParameters` değerine eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/barcoderegionparameters/gethashcode/)() | Bu örnek için karma kodunu döndürür. |
+| override [ToString](../../aspose.barcode.barcoderecognition/barcoderegionparameters/tostring/)() | Bu `BarCodeRegionParameters` nesnesinin insan tarafından okunabilir dize temsili döndürür. |
+| [operator ==](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_equality/) | İlk `BarCodeRegionParameters` değerinin ikinciye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator !=](../../aspose.barcode.barcoderecognition/barcoderegionparameters/op_inequality/) | İlk `BarCodeRegionParameters` değerinin ikinciden farklı olup olmadığını gösteren bir değer döndürür. |
 
-### Örnekler
+## Örnekler
 
-Bu örnek, barkod Açısı ve sınırlayıcı dörtgen değerlerinin nasıl alınacağını gösterir
+Bu örnek, barkod Açısını ve sınırlayan dörtlü değerlerini nasıl alacağınızı gösterir
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (BarcodeGenerator generator = new BarcodeGenerator(EncodeTypes.Code128, "1
 {
     generator.Save(@"c:\test.png");
 }
-using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39Standard, DecodeType.Code128))
+using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code39, DecodeType.Code128))
 {
     foreach (BarCodeResult result in reader.ReadBarCodes())
     {
@@ -56,7 +56,7 @@ using (BarCodeReader reader = new BarCodeReader(@"c:\test.png", DecodeType.Code3
 Using generator As New BarcodeGenerator(EncodeTypes.Code128, "12345")
     generator.Save("c:\test.png")
 End Using
-Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, DecodeType.Code128)
+Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39, DecodeType.Code128)
     For Each result As BarCodeResult In reader.ReadBarCodes()
         Console.WriteLine("BarCode CodeText: " + result.CodeText)
         Console.WriteLine("BarCode Angle: " + result.Region.Angle)
@@ -65,9 +65,9 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.Code39Standard, Deco
 End Using
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* toplantı [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

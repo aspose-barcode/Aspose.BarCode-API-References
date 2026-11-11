@@ -1,52 +1,52 @@
 ---
-title: SwissQRBill
-second_title: Aspose.BarCode for .NET API Referansı
-description: SwissQR fatura datası
+title: "Sınıf SwissQRBill"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.ComplexBarcode.SwissQRBill sınıfı. SwissQR fatura verileri"
 type: docs
-weight: 390
+weight: 780
 url: /tr/net/aspose.barcode.complexbarcode/swissqrbill/
 ---
 ## SwissQRBill class
 
-SwissQR fatura datası
+SwissQR fatura verileri
 
 ```csharp
 public sealed class SwissQRBill : IEquatable<SwissQRBill>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Account](../../aspose.barcode.complexbarcode/swissqrbill/account) { get; set; } | Alacaklının hesap numarasını alır veya ayarlar. |
-| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes) { get; set; } | Alır veya alternatif ödeme planlarını ayarlar. |
-| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount) { get; set; } | Ödeme tutarını alır veya ayarlar. |
-| [BillInformation](../../aspose.barcode.complexbarcode/swissqrbill/billinformation) { get; set; } | Ek yapılandırılmış fatura bilgilerini alır veya ayarlar. |
-| [Creditor](../../aspose.barcode.complexbarcode/swissqrbill/creditor) { get; set; } | Alacaklı adresini alır veya ayarlar. |
-| [Currency](../../aspose.barcode.complexbarcode/swissqrbill/currency) { get; set; } | Ödeme para birimini alır veya ayarlar. |
-| [Debtor](../../aspose.barcode.complexbarcode/swissqrbill/debtor) { get; set; } | Borçlu adresini alır veya ayarlar. |
-| [Reference](../../aspose.barcode.complexbarcode/swissqrbill/reference) { get; set; } | Alacaklı ödeme referansını alır veya ayarlar. |
-| [UnstructuredMessage](../../aspose.barcode.complexbarcode/swissqrbill/unstructuredmessage) { get; set; } | Ek yapılandırılmamış mesajı alır veya ayarlar. |
-| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version) { get; set; } | SwissQR fatura standardının sürümünü alır veya ayarlar. |
+| [Account](../../aspose.barcode.complexbarcode/swissqrbill/account/) { get; set; } | Alacaklının hesap numarasını alır veya ayarlar. |
+| [AlternativeSchemes](../../aspose.barcode.complexbarcode/swissqrbill/alternativeschemes/) { get; set; } | Alternatif ödeme planlarını alır veya ayarlar. |
+| [Amount](../../aspose.barcode.complexbarcode/swissqrbill/amount/) { get; set; } | Ödeme tutarını alır veya ayarlar. |
+| [BillInformation](../../aspose.barcode.complexbarcode/swissqrbill/billinformation/) { get; set; } | Ek yapılandırılmış fatura bilgilerini alır veya ayarlar. |
+| [Creditor](../../aspose.barcode.complexbarcode/swissqrbill/creditor/) { get; set; } | Alacaklı adresini alır veya ayarlar. |
+| [Currency](../../aspose.barcode.complexbarcode/swissqrbill/currency/) { get; set; } | Ödeme para birimini alır veya ayarlar. |
+| [Debtor](../../aspose.barcode.complexbarcode/swissqrbill/debtor/) { get; set; } | Borçlu adresini alır veya ayarlar. |
+| [Reference](../../aspose.barcode.complexbarcode/swissqrbill/reference/) { get; set; } | Alacaklı ödeme referansını alır veya ayarlar. |
+| [UnstructuredMessage](../../aspose.barcode.complexbarcode/swissqrbill/unstructuredmessage/) { get; set; } | Ek yapılandırılmamış mesajı alır veya ayarlar. |
+| [Version](../../aspose.barcode.complexbarcode/swissqrbill/version/) { get; set; } | SwissQR fatura standardının sürümünü alır veya ayarlar. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference)(string) | Dizeyi "RF" ve modulo 97 sağlama toplamı ile önekini koyarak ham bir dizeden bir ISO11649 alacaklı referansı oluşturur ve ayarlar. |
-| override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals_1)(object) | Belirtilen nesnenin geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals#equals)(SwissQRBill) | Belirtilen faturanın mevcut faturaya eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode)() | Bu örnek için karma kodu alır. |
+| [CreateAndSetCreditorReference](../../aspose.barcode.complexbarcode/swissqrbill/createandsetcreditorreference/)(string) | Ham bir dizeden ISO11649 alacaklı referansını oluşturur ve ayarlar; dizeye \"RF\" öneki ekleyerek ve modulo 97 kontrol toplamını ekler. |
+| override [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals/#equals_1)(object) | Belirtilen nesnenin mevcut nesneye eşit olup olmadığını belirler. |
+| [Equals](../../aspose.barcode.complexbarcode/swissqrbill/equals/#equals)(SwissQRBill) | Belirtilen faturanın mevcut fatura ile eşit olup olmadığını belirler. |
+| override [GetHashCode](../../aspose.barcode.complexbarcode/swissqrbill/gethashcode/)() | Bu örnek için karma kodunu alır. |
 
-## Diğer_Üyeler
+## Diğer Üyeler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| enum [QrBillStandardVersion](swissqrbill.qrbillstandardversion) | SwissQR fatura standart versiyonu |
+| enum [QrBillStandardVersion](../../aspose.barcode.complexbarcode/swissqrbill.qrbillstandardversion) | SwissQR fatura standardı sürümü |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode)
-* toplantı [Aspose.BarCode](../../)
+* namespace [Aspose.BarCode.ComplexBarcode](../../aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

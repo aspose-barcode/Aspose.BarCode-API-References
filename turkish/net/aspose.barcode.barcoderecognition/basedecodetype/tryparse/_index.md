@@ -1,84 +1,84 @@
 ---
-title: TryParse
-second_title: Aspose.BarCode for .NET API Referansı
-description: SingleDecodeTypeın dize temsilini örneğine dönüştürür. Dönüş değeri dönüşümün başarılı veya başarısız olduğunu gösterir.
+title: "BaseDecodeType.TryParse"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "BaseDecodeType yöntemi. Bir SingleDecodeType'ın string temsiliğini örneğine dönüştürür. Dönen değer, dönüşümün başarılı olup olmadığını gösterir"
 type: docs
 weight: 40
 url: /tr/net/aspose.barcode.barcoderecognition/basedecodetype/tryparse/
 ---
 ## TryParse(string, out SingleDecodeType) {#tryparse_2}
 
-SingleDecodeType'ın dize temsilini örneğine dönüştürür. Dönüş değeri, dönüşümün başarılı veya başarısız olduğunu gösterir.
+SingleDecodeType'ın dize temsilini örneğine dönüştürür. Dönen değer dönüşümün başarılı olup olmadığını gösterir.
 
 ```csharp
 public static bool TryParse(string parsingType, out SingleDecodeType result)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| parsingType | String | Dönüştürülecek SingleDecodeType temsilini içeren bir dize. |
-| result | SingleDecodeType& | Dönüştürme başarıyla tamamlandığında gerçek bir SingleDecodeType döndürülür; |
+| parsingType | Dize | Dönüştürmek için "EAN8" veya "EAN13" veya "CodaBar"... biçiminde bir SingleDecodeType içeren bir string. |
+| sonuç | SingleDecodeType& | Dönüşüm başarılı bir şekilde tamamlandığında gerçek bir SingleDecodeType döndürülür; aksi takdirde belirsiz tip döner: DecodeType.None. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** s başarıyla dönüştürülmüşse; aksi halde, **yanlış**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [SingleDecodeType](../../singledecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [SingleDecodeType](../../singledecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
-## TryParse(string, out MultyDecodeType) {#tryparse_1}
+## TryParse(string, out MultiDecodeType) {#tryparse_1}
 
-Bir MultyDecodeType'ın dize temsilini örneğine dönüştürür. Dönüş değeri, dönüştürmenin başarılı veya başarısız olduğunu gösterir.
+MultiDecodeType'ın dize temsilini örneğine dönüştürür. Dönen değer dönüşümün başarılı olup olmadığını gösterir.
 
 ```csharp
-public static bool TryParse(string parsingType, out MultyDecodeType result)
+public static bool TryParse(string parsingType, out MultiDecodeType result)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| parsingType | String | Dönüştürülecek MultyDecodeType temsilini içeren bir dize. |
-| result | MultyDecodeType& | Dönüştürme başarıyla tamamlandığında gerçek bir MultyDecodeType döndürülür; |
+| parsingType | Dize | Dönüştürmek için bir MultiDecodeType temsili içeren bir string. |
+| sonuç | MultiDecodeType& | Dönüşüm başarılı bir şekilde tamamlandığında gerçek bir MultiDecodeType döndürülür; aksi takdirde belirsiz tip döner: new MultiDecodeType(DecodeType.None) |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** s başarıyla dönüştürülmüşse; aksi halde, **yanlış**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [MultyDecodeType](../../multydecodetype)
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [MultiDecodeType](../../multidecodetype/)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
 ---
 
 ## TryParse(string, out BaseDecodeType) {#tryparse}
 
-Somut türü belirleyerek BaseDecodeType'ın dize temsilini örneğine dönüştürür. Bir dönüş değeri, dönüştürmenin başarılı veya başarısız olduğunu gösterir.
+BaseDecodeType'ın dize temsilini, somut tür belirlenerek örneğine dönüştürür. Dönen değer dönüşümün başarılı olup olmadığını gösterir.
 
 ```csharp
 public static bool TryParse(string parsingType, out BaseDecodeType result)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| parsingType | String | Dönüştürülecek MultyDecodeType temsilini içeren bir dize. |
-| result | BaseDecodeType& | Dönüştürme başarıyla tamamlandığında gerçek bir MultyDecodeType döndürülür; |
+| parsingType | Dize | Dönüştürmek için bir MultiDecodeType temsili içeren bir string. |
+| sonuç | BaseDecodeType& | Dönüşüm başarılı bir şekilde tamamlandığında gerçek bir MultiDecodeType döndürülür; aksi takdirde belirsiz tip döner: DecodeType.None. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-**doğru** s başarıyla dönüştürülmüşse; aksi halde, **yanlış**.
+**true** if parsingType was converted successfully; otherwise, **false**.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [BaseDecodeType](../../basedecodetype)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../basedecodetype)
-* toplantı [Aspose.BarCode](../../../)
+* class [BaseDecodeType](../)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

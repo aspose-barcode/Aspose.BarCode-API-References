@@ -1,47 +1,51 @@
 ---
-title: Pdf417ExtendedParameters
-second_title: Aspose.BarCode for .NET API Referansı
-description: Tanınan barkodun MacroPdf417 meta veri bilgilerini saklar
+title: "Sınıf Pdf417ExtendedParameters"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.BarCodeRecognition.Pdf417ExtendedParameters sınıfı. Tanınan barkodun MacroPdf417 meta veri bilgilerini depolar."
 type: docs
-weight: 220
+weight: 340
 url: /tr/net/aspose.barcode.barcoderecognition/pdf417extendedparameters/
 ---
 ## Pdf417ExtendedParameters class
 
-Tanınan barkodun MacroPdf417 meta veri bilgilerini saklar
+Tanımlanan barkodun bir MacroPdf417 meta veri bilgisini depolar
 
 ```csharp
 public sealed class Pdf417ExtendedParameters : BaseExtendedParameters
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tüm parametrelerin yalnızca varsayılan değerlere sahip olup olmadığını test eder |
-| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee) { get; } | Makro PDF417 muhatap adı (isteğe bağlı). |
-| [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum) { get; } | Makro PDF417 sağlama toplamı (isteğe bağlı). |
-| [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid) { get; } | Yalnızca MacroPdf417 ile kullanılabilen barkodun dosya kimliğini alır. |
-| [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename) { get; } | Makro PDF417 dosya adı (isteğe bağlı). |
-| [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize) { get; } | Makro PDF417 dosya boyutu (isteğe bağlı). |
-| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid) { get; } | Yalnızca MacroPdf417 ile kullanılabilen barkodun segment kimliğini alır. |
-| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount) { get; } | Makro pdf417 barkod segment sayısını alır. Varsayılan değer -1'dir. |
-| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender) { get; } | Makro PDF417 gönderen adı (isteğe bağlı). |
-| [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp) { get; } | Makro PDF417 zaman damgası (isteğe bağlı). |
+| [IsCode128Emulation](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/iscode128emulation/) { get; } | 908, 909, 910 veya 911 Code 128 emülasyon kod sözcükleriyle kodlanmış MicroPdf417 barkodu gösteren bayrak. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tüm parametrelerin yalnızca varsayılan değerlere sahip olup olmadığını test eder |
+| [IsLinked](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/islinked/) { get; } | Barkodun 1D barkoda bağlanması gerektiğini gösteren bayrak. |
+| [IsReaderInitialization](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/isreaderinitialization/) { get; } | Okuyucuya, sembol içinde bulunan verileri okuyucu başlatması için programlama olarak yorumlamasını söylemek için kullanılır. |
+| [MacroPdf417Addressee](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417addressee/) { get; } | Macro PDF417 alıcı adı (isteğe bağlı). |
+| [MacroPdf417Checksum](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417checksum/) { get; } | Macro PDF417 kontrol toplamı (isteğe bağlı). |
+| [MacroPdf417FileID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417fileid/) { get; } | MakroPdf417 ile yalnızca kullanılabilen barkodun dosya kimliğini alır. |
+| [MacroPdf417FileName](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filename/) { get; } | Makro PDF417 dosya adı (isteğe bağlı). |
+| [MacroPdf417FileSize](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417filesize/) { get; } | Makro PDF417 dosya boyutu (isteğe bağlı). |
+| [MacroPdf417SegmentID](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentid/) { get; } | MakroPdf417 ile yalnızca kullanılabilen barkodun segment kimliğini alır. |
+| [MacroPdf417SegmentsCount](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417segmentscount/) { get; } | Makro pdf417 barkod segment sayısını alır. Varsayılan değer -1'dir. |
+| [MacroPdf417Sender](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417sender/) { get; } | Makro PDF417 gönderici adı (isteğe bağlı). |
+| [MacroPdf417Terminator](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417terminator/) { get; } | Segmentin bir Makro PDF417 dosyasının son segmenti olup olmadığını gösterir. |
+| [MacroPdf417TimeStamp](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/macropdf417timestamp/) { get; } | Makro PDF417 zaman damgası (isteğe bağlı). |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals)(object) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`Pdf417ExtendedParameters`](../pdf417extendedparameters) değer. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode)() | Bu örnek için karma kodu döndürür. |
-| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring)() | Bunun insan tarafından okunabilir bir dize temsilini döndürür[`Pdf417ExtendedParameters`](../pdf417extendedparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`Pdf417ExtendedParameters`](../pdf417extendedparameters) değer saniyeye eşittir. |
-| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`Pdf417ExtendedParameters`](../pdf417extendedparameters) değer ikinciden farklı. |
+| override [Equals](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/equals/)(object) | Bu örneğin belirtilen `Pdf417ExtendedParameters` değerine eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/gethashcode/)() | Bu örnek için karma kodunu döndürür. |
+| override [ToString](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/tostring/)() | Bu `Pdf417ExtendedParameters` nesnesinin insan tarafından okunabilir bir dize temsili döndürür. |
+| [operator ==](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_equality/) | İlk `Pdf417ExtendedParameters` değerinin ikinciye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator !=](../../aspose.barcode.barcoderecognition/pdf417extendedparameters/op_inequality/) | İlk `Pdf417ExtendedParameters` değerinin ikinciye farklı olup olmadığını gösteren bir değer döndürür. |
 
-### Örnekler
+## Örnekler
 
-Bu örnek, Makro Pdf417 meta verilerinin nasıl alınacağını gösterir
+Bu örnek, Makro Pdf417 meta verilerini nasıl alacağınızı gösterir.
 
 ```csharp
 [C#]
@@ -81,10 +85,10 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.MacroPdf417)
 End Using
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [BaseExtendedParameters](../baseextendedparameters)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* toplantı [Aspose.BarCode](../../)
+* class [BaseExtendedParameters](../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+

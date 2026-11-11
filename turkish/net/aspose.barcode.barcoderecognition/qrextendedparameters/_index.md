@@ -1,41 +1,45 @@
 ---
-title: QRExtendedParameters
-second_title: Aspose.BarCode for .NET API Referansı
-description: Tanınan barkodun bilgisini bir QR Yapılandırılmış Ekleyin saklar
+title: "Sınıf QRExtendedParameters"
+second_title: "Aspose.BarCode for .NET API Referansı"
+description: "Aspose.BarCode.BarCodeRecognition.QRExtendedParameters sınıfı. Tanınan barkodun QR Structured Append bilgilerini depolar"
 type: docs
-weight: 230
+weight: 350
 url: /tr/net/aspose.barcode.barcoderecognition/qrextendedparameters/
 ---
 ## QRExtendedParameters class
 
-Tanınan barkodun bilgisini bir QR Yapılandırılmış Ekleyin saklar
+Tanımlanan barkodun bir QR Structured Append bilgisini depolar
 
 ```csharp
 public sealed class QRExtendedParameters : BaseExtendedParameters
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty) { get; } | Tüm parametrelerin yalnızca varsayılan değerlere sahip olup olmadığını test eder |
-| [QRStructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodeindex) { get; } | QR yapılandırılmış ekleme modu barkodunun dizinini alır. İndeks 0'dan başlar. Varsayılan değer -1'dir. |
-| [QRStructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodebarcodesquantity) { get; } | QR yapılandırılmış ekleme modu barkod miktarını alır. Varsayılan değer -1'dir. |
-| [QRStructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/qrstructuredappendmodeparitydata) { get; } | QR yapılandırılmış ekleme modu eşlik verilerini alır. Varsayılan değer -1'dir. |
+| [ErrorLevel](../../aspose.barcode.barcoderecognition/qrextendedparameters/errorlevel/) { get; } | Tanınan barkodun Reed-Solomon hata düzeltme seviyesi. Düşükten yükseğe: LevelL, LevelM, LevelQ, LevelH. |
+| [IsEmpty](../../aspose.barcode.barcoderecognition/baseextendedparameters/isempty/) { get; } | Tüm parametrelerin yalnızca varsayılan değerlere sahip olup olmadığını test eder |
+| [MicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/microqrversion/) { get; } | Tanınan MicroQR Kodunun sürümü. M1'den M4'e. |
+| [RectMicroQRVersion](../../aspose.barcode.barcoderecognition/qrextendedparameters/rectmicroqrversion/) { get; } | Tanınan RectMicroQR Kodunun sürümü. R7x43'ten R17x139'a. |
+| [StructuredAppendModeBarCodeIndex](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodeindex/) { get; } | QR structured append modundaki barkodun dizinini alır. Dizin 0'dan başlar. Varsayılan değer -1'dir. |
+| [StructuredAppendModeBarCodesQuantity](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodebarcodesquantity/) { get; } | QR structured append modundaki barkod sayısını alır. Varsayılan değer -1'dir. |
+| [StructuredAppendModeParityData](../../aspose.barcode.barcoderecognition/qrextendedparameters/structuredappendmodeparitydata/) { get; } | QR structured append modundaki parite verisini alır. Varsayılan değer -1'dir. |
+| [Version](../../aspose.barcode.barcoderecognition/qrextendedparameters/version/) { get; } | Tanınan QR Kodunun sürümü. Version1'den Version40'a. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals)(object) | Bu örneğin belirtilen bir örnekle eşit olup olmadığını gösteren bir değer döndürür[`QRExtendedParameters`](../qrextendedparameters) değer. |
-| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode)() | Bu örnek için karma kodu döndürür. |
-| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring)() | Bunun insan tarafından okunabilir bir dize temsilini döndürür[`QRExtendedParameters`](../qrextendedparameters) . |
-| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`QRExtendedParameters`](../qrextendedparameters) değer saniyeye eşittir. |
-| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality) | İlkinin olup olmadığını gösteren bir değer döndürür.[`QRExtendedParameters`](../qrextendedparameters) değer ikinciden farklı. |
+| override [Equals](../../aspose.barcode.barcoderecognition/qrextendedparameters/equals/)(object) | Bu örneğin belirtilen `QRExtendedParameters` değerine eşit olup olmadığını gösteren bir değer döndürür. |
+| override [GetHashCode](../../aspose.barcode.barcoderecognition/qrextendedparameters/gethashcode/)() | Bu örnek için karma kodunu döndürür. |
+| override [ToString](../../aspose.barcode.barcoderecognition/qrextendedparameters/tostring/)() | Bu `QRExtendedParameters` nesnesinin insan tarafından okunabilir dize temsilini döndürür. |
+| [operator ==](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_equality/) | İlk `QRExtendedParameters` değerinin ikinciye eşit olup olmadığını gösteren bir değer döndürür. |
+| [operator !=](../../aspose.barcode.barcoderecognition/qrextendedparameters/op_inequality/) | İlk `QRExtendedParameters` değerinin ikinciye farklı olup olmadığını gösteren bir değer döndürür. |
 
-### Örnekler
+## Örnekler
 
-Bu örnek, QR Structured Append data'nın nasıl alınacağını gösterir
+Bu örnek, QR Structured Append verisinin nasıl alınacağını gösterir
 
 ```csharp
 [C#]
@@ -62,10 +66,10 @@ Using reader As New BarCodeReader("c:\test.png", DecodeType.QR)
 End Using
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [BaseExtendedParameters](../baseextendedparameters)
-* ad alanı [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition)
-* toplantı [Aspose.BarCode](../../)
+* class [BaseExtendedParameters](../baseextendedparameters/)
+* namespace [Aspose.BarCode.BarCodeRecognition](../../aspose.barcode.barcoderecognition/)
+* assembly [Aspose.BarCode](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.BarCode.dll -->
+
