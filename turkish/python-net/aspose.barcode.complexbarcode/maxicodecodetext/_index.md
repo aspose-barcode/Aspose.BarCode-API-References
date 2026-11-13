@@ -1,0 +1,31 @@
+---
+title: "MaxiCodeCodetext"
+second_title: "Python için .NET API Referansı aracılığıyla Aspose.BarCode"
+description: 
+type: docs
+url: /tr/python-net/aspose.barcode.complexbarcode/maxicodecodetext/
+---
+
+## MaxiCodeCodetext class
+
+MaxiCode koduna gömülü metni kodlamak ve çözmek için temel sınıf.
+
+MaxiCodeCodetext türü aşağıdaki üyeleri sunar:
+## Özellikler
+| Ad | Açıklama |
+| :- | :- |
+| encode_mode | Bir MaxiCode kodlama modunu alır veya ayarlar. <br/>            Varsayılan değer: Auto. |
+| eci_encoding | ECI kodlamasını alır veya ayarlar. MaxiCodeEncodeMode Auto olduğunda kullanılır.<br/>            Varsayılan değer: ISO-8859-1 |
+## Yöntemler
+| Ad | Açıklama |
+| :- | :- |
+| get_mode() | MaxiCode modunu alır. |
+| get_constructed_codetext() | Kod metnini oluşturur |
+| init_from_string(constructed_codetext) | Oluşturulmuş kod metninden örneği başlatır. |
+| get_barcode_type() | Barkod tipini alır. |
+
+### Ayrıca Bakınız
+
+* namespace [aspose.barcode.complexbarcode](/barcode/python-net/aspose.barcode.complexbarcode/)
+* assembly [Aspose.BarCode](/barcode/python-net/)
+
