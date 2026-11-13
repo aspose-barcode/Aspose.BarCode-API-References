@@ -1,0 +1,23 @@
+---
+title: "CouponParameters"
+second_title: "Aspose.BarCode for Python via .NET API Reference"
+description: 
+type: docs
+url: /zh/python-net/aspose.barcode.generation/couponparameters/
+---
+
+## CouponParameters class
+
+优惠券参数。用于 UpcaGs1DatabarCoupon、UpcaGs1Code128Coupon。
+
+CouponParameters 类型公开以下成员：
+## 属性
+| 名称 | 描述 |
+| :- | :- |
+| supplement_space | 主 BarCode 与补充 BarCode 之间的间距，以 [Unit](/barcode/python-net/aspose.barcode.generation/unit/) 为单位。 |
+
+### 另见
+
+* namespace [aspose.barcode.generation](/barcode/python-net/aspose.barcode.generation/)
+* assembly [Aspose.BarCode](/barcode/python-net/)
+
