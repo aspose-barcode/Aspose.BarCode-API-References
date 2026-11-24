@@ -3,7 +3,7 @@ title: Class GS1Parameters
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Generation.GS1Parameters class. GS1 parameters
 type: docs
-weight: 1340
+weight: 1350
 url: /net/aspose.barcode.generation/gs1parameters/
 ---
 ## GS1Parameters class

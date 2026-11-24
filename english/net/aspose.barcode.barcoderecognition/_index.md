@@ -30,6 +30,7 @@ The **Aspose.BarCode.BarCodeRecognition** contains tools for the 1D/2D barcodes 
 | [DecodeType](./decodetype/) | Specify the type of barcode to read. |
 | [DotCodeExtendedParameters](./dotcodeextendedparameters/) | Stores special data of DotCode recognized barcode |
 | [GS1CompositeBarExtendedParameters](./gs1compositebarextendedparameters/) | Stores special data of **GS1 Composite Bar** recognized barcode |
+| [Iso15415Quality](./iso15415quality/) | Represents barcode quality assessment results according to ISO/IEC 15415. |
 | [Iso15416Quality](./iso15416quality/) | Stores barcode quality grades calculated according to the ISO/IEC 15416 standard for 1D barcodes. |
 | [IsoSymbolQuality](./isosymbolquality/) | Stores barcode symbol quality evaluation results according to ISO/IEC standards. |
 | [LuminanceFrame](./luminanceframe/) | Represents an 8-bit grayscale image frame. Each pixel is represented by one byte containing its luminance value. |

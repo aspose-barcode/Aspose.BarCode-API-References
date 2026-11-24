@@ -3,7 +3,7 @@ title: Class GS1Element
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.Common.GS1Element class. Represents one immutable GS1 Application Identifier and value pair
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.barcode.common/gs1element/
 ---
 ## GS1Element class

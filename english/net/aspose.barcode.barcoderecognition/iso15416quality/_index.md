@@ -3,7 +3,7 @@ title: Class Iso15416Quality
 second_title: Aspose.BarCode for .NET API Reference
 description: Aspose.BarCode.BarCodeRecognition.Iso15416Quality class. Stores barcode quality grades calculated according to the ISO/IEC 15416 standard for 1D barcodes
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.barcode.barcoderecognition/iso15416quality/
 ---
 ## Iso15416Quality class
