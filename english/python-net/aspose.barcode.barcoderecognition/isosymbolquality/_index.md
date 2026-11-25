@@ -15,6 +15,7 @@ The IsoSymbolQuality type exposes the following members:
 | Name | Description |
 | :- | :- |
 |one_dimensional|Gets the 1D barcode quality evaluation results according to ISO/IEC 15416.|
+|two_dimensional|Gets the 2D barcode quality evaluation results according to ISO/IEC 15415.|
 
 ### See Also
 
