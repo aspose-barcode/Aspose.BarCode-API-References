@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_ChecksumValidation method
 linktitle: get_ChecksumValidation
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_ChecksumValidation method of Aspose::BarCode::BarCodeRecognition::BarcodeSettings class in C++.'

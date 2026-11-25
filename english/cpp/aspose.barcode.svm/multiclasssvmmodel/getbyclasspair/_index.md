@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::MulticlassSvmModel::GetByClassPair method
 linktitle: GetByClassPair
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GetByClassPair method of Aspose::BarCode::Svm::MulticlassSvmModel class in C++.'

@@ -21,11 +21,11 @@ class CodabarExtendedParameters : public Aspose::BarCode::BarCodeRecognition::Ba
 | Method | Description |
 | --- | --- |
 | [get_IsEmpty](../baseextendedparameters/get_isempty/)() const | **Tests** whether all parameters has only default values |
-| [get_StartSymbol](./get_startsymbol/)() const | Gets a Codabar start symbol. Default value: [CodabarSymbol.A](../../aspose.barcode/maxicodeset/) |
-| [get_StopSymbol](./get_stopsymbol/)() const | Gets a Codabar stop symbol. Default value: [CodabarSymbol.A](../../aspose.barcode/maxicodeset/) |
+| [get_StartSymbol](./get_startsymbol/)() const | Gets a Codabar start symbol. Default value: CodabarSymbol.A |
+| [get_StopSymbol](./get_stopsymbol/)() const | Gets a Codabar stop symbol. Default value: CodabarSymbol.A |
 | [GetHashCode](./gethashcode/)() const override | Returns the hash code for this instance. |
-| [set_StartSymbol](./set_startsymbol/)(Generation::CodabarSymbol) | Sets a Codabar start symbol. Default value: [CodabarSymbol.A](../../aspose.barcode/maxicodeset/) |
-| [set_StopSymbol](./set_stopsymbol/)(Generation::CodabarSymbol) | Sets a Codabar stop symbol. Default value: [CodabarSymbol.A](../../aspose.barcode/maxicodeset/) |
+| [set_StartSymbol](./set_startsymbol/)(Generation::CodabarSymbol) | Sets a Codabar start symbol. Default value: CodabarSymbol.A |
+| [set_StopSymbol](./set_stopsymbol/)(Generation::CodabarSymbol) | Sets a Codabar stop symbol. Default value: CodabarSymbol.A |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [CodabarExtendedParameters](./). |
 ## See Also
 

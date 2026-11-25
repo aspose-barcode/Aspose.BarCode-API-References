@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::get_ErrorLevel method
 linktitle: get_ErrorLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets Pdf417 symbology type of BarCode''s error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_ErrorLevel method. Gets Pdf417 symbology type of BarCode''s error correction level ranging from level0 to level8, level0 means no error correction info, level8 means best error correction which means a larger picture in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_errorlevel/

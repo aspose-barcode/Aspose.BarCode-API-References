@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::IsValidQrReference method
 linktitle: IsValidQrReference
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Validates if the string is a valid QR reference in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::IsValidQrReference method. Validates if the string is a valid QR reference in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.complexbarcode/payments/isvalidqrreference/

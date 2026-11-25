@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_CalculateSymbolQuality method
 linktitle: set_CalculateSymbolQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets a value indicating whether to calculate barcode symbol quality during recognition in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_CalculateSymbolQuality method. Sets a value indicating whether to calculate barcode symbol quality during recognition in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/set_calculatesymbolquality/

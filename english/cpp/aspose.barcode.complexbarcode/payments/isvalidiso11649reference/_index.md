@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::IsValidIso11649Reference method
 linktitle: IsValidIso11649Reference
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Validates if the string is a valid ISO 11649 reference number in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::IsValidIso11649Reference method. Validates if the string is a valid ISO 11649 reference number in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/payments/isvalidiso11649reference/

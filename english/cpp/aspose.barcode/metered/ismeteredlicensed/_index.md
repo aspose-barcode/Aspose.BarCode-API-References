@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Metered::IsMeteredLicensed method
 linktitle: IsMeteredLicensed
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Check whether metered is licensed in C++.'
+description: 'Aspose::BarCode::Metered::IsMeteredLicensed method. Check whether metered is licensed in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode/metered/ismeteredlicensed/

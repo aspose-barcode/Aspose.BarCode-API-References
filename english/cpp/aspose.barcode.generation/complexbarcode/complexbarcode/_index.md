@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Generation::ComplexBarcode::ComplexBarcode constructor
 linktitle: ComplexBarcode
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ComplexBarcode constructor of Aspose::BarCode::Generation::ComplexBarcode class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::LuminanceFrame::get_Height method
 linktitle: get_Height
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the frame height in pixels in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::LuminanceFrame::get_Height method. Gets the frame height in pixels in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/luminanceframe/get_height/

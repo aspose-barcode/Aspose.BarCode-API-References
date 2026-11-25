@@ -1,5 +1,5 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::PatchcodeConst::A4_WIDTH_MM_LANDSCAPE field
 linktitle: A4_WIDTH_MM_LANDSCAPE
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use A4_WIDTH_MM_LANDSCAPE field of Aspose::BarCode::Generation::PatchcodeConst class in C++.'

@@ -20,7 +20,7 @@ class BaseDecodeType : public virtual System::IEquatable<System::SharedPtr<BaseD
 
 | Method | Description |
 | --- | --- |
-| virtual [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Determines whether any of the given decode types is included into |
+| virtual [ContainsAny](./containsany/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Determines whether any of the given decode types is included into |
 | virtual [Equals](./equals/)(System::SharedPtr\<SingleDecodeType\>) | Returns a value indicating whether this instance is equal to a specified [SingleDecodeType](../singledecodetype/) value. |
 | virtual [Equals](./equals/)(System::SharedPtr\<MultiDecodeType\>) | Returns a value indicating whether this instance is equal to a specified [MultiDecodeType](../multidecodetype/) value. |
 | [Equals](./equals/)(System::SharedPtr\<BaseDecodeType\>) override | Returns a value indicating whether this instance is equal to a specified [BaseDecodeType](./) value. |

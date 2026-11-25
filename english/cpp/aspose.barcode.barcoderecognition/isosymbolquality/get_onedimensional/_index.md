@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::IsoSymbolQuality::get_OneDimensional method
 linktitle: get_OneDimensional
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the 1D barcode quality evaluation results according to ISO/IEC 15416 in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::IsoSymbolQuality::get_OneDimensional method. Gets the 1D barcode quality evaluation results according to ISO/IEC 15416 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/isosymbolquality/get_onedimensional/

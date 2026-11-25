@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::get_DataLocation method
 linktitle: get_DataLocation
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies data location in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCPASCodetext::get_DataLocation method. Identifies data location in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/hibcpascodetext/get_datalocation/

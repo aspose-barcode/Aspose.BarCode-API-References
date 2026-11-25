@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::ImageParameters::set_Svg method
 linktitle: set_Svg
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. SVG parameters in C++.'
+description: 'Aspose::BarCode::Generation::ImageParameters::set_Svg method. SVG parameters in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/imageparameters/set_svg/

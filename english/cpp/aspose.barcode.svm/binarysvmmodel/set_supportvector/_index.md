@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::BinarySvmModel::set_SupportVector method
 linktitle: set_SupportVector
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_SupportVector method of Aspose::BarCode::Svm::BinarySvmModel class in C++.'

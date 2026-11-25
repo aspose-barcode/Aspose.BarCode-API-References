@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Decodability method
 linktitle: get_Decodability
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the decodability grade based on the accuracy of bar and space widths in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Decodability method. Gets the decodability grade based on the accuracy of bar and space widths in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_decodability/

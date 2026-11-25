@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Metered::GetConsumptionCredit method
 linktitle: GetConsumptionCredit
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets consumption credit in C++.'
+description: 'Aspose::BarCode::Metered::GetConsumptionCredit method. Gets consumption credit in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode/metered/getconsumptioncredit/

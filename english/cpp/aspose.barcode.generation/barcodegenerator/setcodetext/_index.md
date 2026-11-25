@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText method
 linktitle: SetCodeText
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Set codetext as sequence of bytes in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeGenerator::SetCodeText method. Set codetext as sequence of bytes in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/barcodegenerator/setcodetext/

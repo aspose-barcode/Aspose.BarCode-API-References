@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1Codetext::InitFromString method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Initializes this instance from bracketed GS1 codetext in the form (AI)value(AI)value. Existing elements are replaced only after the supplied codetext has been parsed successfully in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1Codetext::InitFromString method. Initializes this instance from bracketed GS1 codetext in the form (AI)value(AI)value. Existing elements are replaced only after the supplied codetext has been parsed successfully in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.complexbarcode/gs1codetext/initfromstring/

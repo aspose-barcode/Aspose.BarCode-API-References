@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::MulticlassSvmModel::set_NumberOfClasses method
 linktitle: set_NumberOfClasses
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_NumberOfClasses method of Aspose::BarCode::Svm::MulticlassSvmModel class in C++.'

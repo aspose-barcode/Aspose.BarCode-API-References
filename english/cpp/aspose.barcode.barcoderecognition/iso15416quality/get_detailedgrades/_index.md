@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_DetailedGrades method
 linktitle: get_DetailedGrades
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets additional quality grades, including symbology-specific checks in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_DetailedGrades method. Gets additional quality grades, including symbology-specific checks in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_detailedgrades/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::AztecParameters::set_SymbolMode method
 linktitle: set_SymbolMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto in C++.'
+description: 'Aspose::BarCode::Generation::AztecParameters::set_SymbolMode method. Sets a Aztec Symbol mode. Default value: AztecSymbolMode.Auto in C++.'
 type: docs
 weight: 1400
 url: /cpp/aspose.barcode.generation/aztecparameters/set_symbolmode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.generation/aztecparameters/set_symbolmode/
 ## AztecParameters::set_SymbolMode method
 
 
-Sets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../../aztecencodemode/).
+Sets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../../aztecsymbolmode/).
 
 ```cpp
 void Aspose::BarCode::Generation::AztecParameters::set_SymbolMode(AztecSymbolMode value)

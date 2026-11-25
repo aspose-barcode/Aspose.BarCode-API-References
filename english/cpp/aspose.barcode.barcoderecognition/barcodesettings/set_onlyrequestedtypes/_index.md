@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_OnlyRequestedTypes method
 linktitle: set_OnlyRequestedTypes
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::set_OnlyRequestedTypes method. Returns only barcode types explicitly specified for recognition. When enabled, recognized barcodes of other compatible or equivalent types are filtered out. Default value is false in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/set_onlyrequestedtypes/

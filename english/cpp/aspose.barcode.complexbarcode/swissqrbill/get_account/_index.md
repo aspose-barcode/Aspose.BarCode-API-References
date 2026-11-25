@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Account method
 linktitle: get_Account
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the creditor''s account number in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_Account method. Gets the creditor''s account number in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_account/

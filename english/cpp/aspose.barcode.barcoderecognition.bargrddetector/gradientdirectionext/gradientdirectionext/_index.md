@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirectionExt::GradientDirectionExt constructor
 linktitle: GradientDirectionExt
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GradientDirectionExt constructor of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirectionExt class in C++.'

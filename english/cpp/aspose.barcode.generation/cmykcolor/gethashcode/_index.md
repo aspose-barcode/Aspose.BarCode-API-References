@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::CMYKColor::GetHashCode method
 linktitle: GetHashCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Hash code of CMYKColor in C++.'
+description: 'Aspose::BarCode::Generation::CMYKColor::GetHashCode method. Hash code of CMYKColor in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/cmykcolor/gethashcode/

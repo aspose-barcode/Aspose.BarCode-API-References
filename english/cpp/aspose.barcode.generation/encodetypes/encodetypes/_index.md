@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Generation::EncodeTypes::EncodeTypes constructor
 linktitle: EncodeTypes
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use EncodeTypes constructor of Aspose::BarCode::Generation::EncodeTypes class in C++.'

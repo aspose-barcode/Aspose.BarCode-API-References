@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::BinarySvmModel::get_Kernel method
 linktitle: get_Kernel
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_Kernel method of Aspose::BarCode::Svm::BinarySvmModel class in C++.'

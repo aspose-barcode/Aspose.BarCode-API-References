@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::get_BarcodeType method
 linktitle: get_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the barcode type used to encode this GS1 Digital Link. Supported types are QR, DataMatrix, Aztec, Pdf417, MicroPdf417, DotCode, HanXin, CodablockF and Code128. The default value is QR in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::get_BarcodeType method. Gets the barcode type used to encode this GS1 Digital Link. Supported types are QR, DataMatrix, Aztec, Pdf417, MicroPdf417, DotCode, HanXin, CodablockF and Code128. The default value is QR in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/get_barcodetype/

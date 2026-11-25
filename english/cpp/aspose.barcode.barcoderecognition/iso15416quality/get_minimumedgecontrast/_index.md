@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_MinimumEdgeContrast method
 linktitle: get_MinimumEdgeContrast
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the minimum edge contrast grade based on the smallest reflectance difference between adjacent bars and spaces in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_MinimumEdgeContrast method. Gets the minimum edge contrast grade based on the smallest reflectance difference between adjacent bars and spaces in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_minimumedgecontrast/

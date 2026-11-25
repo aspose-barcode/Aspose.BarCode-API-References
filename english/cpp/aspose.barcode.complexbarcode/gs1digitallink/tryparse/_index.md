@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::TryParse method
 linktitle: TryParse
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Attempts to parse an uncompressed GS1 Digital Link URI and returns structured validation errors in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::TryParse method. Attempts to parse an uncompressed GS1 Digital Link URI and returns structured validation errors in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/tryparse/

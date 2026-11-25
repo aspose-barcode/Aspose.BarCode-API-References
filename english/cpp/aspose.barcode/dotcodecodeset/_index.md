@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::DotCodeCodeset enum
 linktitle: DotCodeCodeset
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. A DotCode codeset state in C++.'
+description: 'Aspose::BarCode::DotCodeCodeset enum. A DotCode codeset state in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode/dotcodecodeset/

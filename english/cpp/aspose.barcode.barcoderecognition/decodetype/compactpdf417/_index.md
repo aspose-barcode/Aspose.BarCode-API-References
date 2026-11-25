@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::CompactPdf417 field
 linktitle: CompactPdf417
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with CompactPdf417 (Pdf417Truncated) barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::CompactPdf417 field. Specifies that the data should be decoded with CompactPdf417 (Pdf417Truncated) barcode specification in C++.'
 type: docs
 weight: 7200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/compactpdf417/

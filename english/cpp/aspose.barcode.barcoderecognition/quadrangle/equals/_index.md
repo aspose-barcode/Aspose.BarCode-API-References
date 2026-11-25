@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Quadrangle::Equals method
 linktitle: Equals
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a value indicating whether this instance is equal to a specified Quadrangle value in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::Equals method. Returns a value indicating whether this instance is equal to a specified Quadrangle value in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/equals/

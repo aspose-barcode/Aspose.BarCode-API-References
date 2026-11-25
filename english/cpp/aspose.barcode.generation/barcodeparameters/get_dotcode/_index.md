@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_DotCode method
 linktitle: get_DotCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. DotCode parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_DotCode method. DotCode parameters in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_dotcode/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_NormalQuality method
 linktitle: get_NormalQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. NormalQuality recognition quality preset. Suitable for the most of barcodes in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_NormalQuality method. NormalQuality recognition quality preset. Suitable for the most of barcodes in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_normalquality/

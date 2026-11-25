@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::get_MaxGradientPower method
 linktitle: get_MaxGradientPower
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_MaxGradientPower method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

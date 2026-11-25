@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMailmark method
 linktitle: TryDecodeMailmark
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Decodes Mailmark Barcode C and L codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeMailmark method. Decodes Mailmark Barcode C and L codetext in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodemailmark/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::AztecExtendedParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this AztecExtendedParameters in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::AztecExtendedParameters::ToString method. Returns a human-readable string representation of this AztecExtendedParameters in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/aztecextendedparameters/tostring/

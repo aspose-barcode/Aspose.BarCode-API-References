@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Common::ProcessorSettings::get_UseAllCores method
 linktitle: get_UseAllCores
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Is needed to use all cores in C++.'
+description: 'Aspose::BarCode::Common::ProcessorSettings::get_UseAllCores method. Is needed to use all cores in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.common/processorsettings/get_useallcores/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Code16KParameters::set_QuietZoneLeftCoef method
 linktitle: set_QuietZoneLeftCoef
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px in C++.'
+description: 'Aspose::BarCode::Generation::Code16KParameters::set_QuietZoneLeftCoef method. Size of the left quiet zone in xDimension. Default value: 10, meaning if xDimension = 2px than left quiet zone will be 20px in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.generation/code16kparameters/set_quietzoneleftcoef/

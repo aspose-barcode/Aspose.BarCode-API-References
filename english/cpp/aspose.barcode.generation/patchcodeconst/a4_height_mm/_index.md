@@ -1,5 +1,5 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::PatchcodeConst::A4_HEIGHT_MM field
 linktitle: A4_HEIGHT_MM
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use A4_HEIGHT_MM field of Aspose::BarCode::Generation::PatchcodeConst class in C++.'

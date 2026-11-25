@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Unit::get_Resolution method
 linktitle: get_Resolution
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Resolution in C++.'
+description: 'Aspose::BarCode::Generation::Unit::get_Resolution method. Resolution in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode.generation/unit/get_resolution/

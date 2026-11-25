@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::DatabarStacked field
 linktitle: DatabarStacked
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with GS1 Databar stacked barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DatabarStacked field. Specifies that the data should be decoded with GS1 Databar stacked barcode specification in C++.'
 type: docs
 weight: 6200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/databarstacked/

@@ -29,7 +29,7 @@ class AztecParameters : public System::Object
 | [get_StructuredAppendBarcodeId](./get_structuredappendbarcodeid/)() const | Barcode ID for Structured Append mode of Aztec barcode. Barcode ID should be in range from 1 to barcodes count. Default value: 0 |
 | [get_StructuredAppendBarcodesCount](./get_structuredappendbarcodescount/)() const | Barcodes count for Structured Append mode of Aztec barcode. Barcodes count should be in range from 1 to 26. Default value: 0 |
 | [get_StructuredAppendFileId](./get_structuredappendfileid/)() const | File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string |
-| [get_SymbolMode](./get_symbolmode/)() const | Gets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../aztecencodemode/). |
+| [get_SymbolMode](./get_symbolmode/)() const | Gets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../aztecsymbolmode/). |
 | [set_AspectRatio](./set_aspectratio/)(float) | Height/Width ratio of 2D [BarCode](../../aspose.barcode/) module. |
 | [set_ECIEncoding](./set_eciencoding/)(ECIEncodings) | Sets ECI encoding. Used when AztecEncodeMode is Auto. Default value: ISO-8859-1 |
 | [set_EncodeMode](./set_encodemode/)(AztecEncodeMode) | Sets a Aztec encode mode. Default value: Auto. |
@@ -39,7 +39,7 @@ class AztecParameters : public System::Object
 | [set_StructuredAppendBarcodeId](./set_structuredappendbarcodeid/)(int32_t) | Barcode ID for Structured Append mode of Aztec barcode. Barcode ID should be in range from 1 to barcodes count. Default value: 0 |
 | [set_StructuredAppendBarcodesCount](./set_structuredappendbarcodescount/)(int32_t) | Barcodes count for Structured Append mode of Aztec barcode. Barcodes count should be in range from 1 to 26. Default value: 0 |
 | [set_StructuredAppendFileId](./set_structuredappendfileid/)(System::String) | File ID for Structured Append mode of Aztec barcode (optional field). File ID should not contain spaces. Default value: empty string |
-| [set_SymbolMode](./set_symbolmode/)(AztecSymbolMode) | Sets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../aztecencodemode/). |
+| [set_SymbolMode](./set_symbolmode/)(AztecSymbolMode) | Sets a Aztec Symbol mode. Default value: [AztecSymbolMode.Auto](../aztecsymbolmode/). |
 | [ToString](./tostring/)() const override | Returns a human-readable string representation of this [AztecParameters](./). |
 ## See Also
 

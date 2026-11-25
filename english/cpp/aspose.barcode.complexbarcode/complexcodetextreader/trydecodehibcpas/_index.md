@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeHIBCPAS method
 linktitle: TryDecodeHIBCPAS
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Decodes HIBC PAS codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeHIBCPAS method. Decodes HIBC PAS codetext in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodehibcpas/

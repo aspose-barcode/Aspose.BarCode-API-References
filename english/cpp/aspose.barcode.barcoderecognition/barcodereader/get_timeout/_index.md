@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_Timeout method
 linktitle: get_Timeout
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the timeout of recognition process in milliseconds in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_Timeout method. Gets the timeout of recognition process in milliseconds in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/get_timeout/

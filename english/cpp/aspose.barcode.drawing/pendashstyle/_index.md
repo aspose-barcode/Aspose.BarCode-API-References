@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Drawing::PenDashStyle enum
 linktitle: PenDashStyle
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Specifies the style of dashed border lines in C++.'
+description: 'Aspose::BarCode::Drawing::PenDashStyle enum. Specifies the style of dashed border lines in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.drawing/pendashstyle/

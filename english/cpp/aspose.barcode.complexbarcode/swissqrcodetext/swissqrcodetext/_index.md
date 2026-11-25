@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext constructor
 linktitle: SwissQRCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Creates an instance of SwissQRCodetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRCodetext::SwissQRCodetext constructor. Creates an instance of SwissQRCodetext in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/swissqrcodetext/swissqrcodetext/

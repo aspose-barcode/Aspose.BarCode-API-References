@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::ComplexBarcode::USADriveIdSex enum
 linktitle: USADriveIdSex
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Enum for Sex field in the US Driver''s License in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdSex enum. Enum for Sex field in the US Driver''s License in C++.'
 type: docs
 weight: 3800
 url: /cpp/aspose.barcode.complexbarcode/usadriveidsex/

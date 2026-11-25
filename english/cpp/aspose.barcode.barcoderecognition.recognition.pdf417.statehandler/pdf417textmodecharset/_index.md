@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::Recognition::Pdf417::StateHandler::Pdf417TextModeCharset enum
 linktitle: Pdf417TextModeCharset
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::Recognition::Pdf417::StateHandler::Pdf417TextModeCharset enum in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition.recognition.pdf417.statehandler/pdf417textmodecharset/

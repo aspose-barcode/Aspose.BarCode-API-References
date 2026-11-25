@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::CalculateGradientDirectionMetrics method
 linktitle: CalculateGradientDirectionMetrics
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use CalculateGradientDirectionMetrics method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::AddFNC3SymbolSeparator method
 linktitle: AddFNC3SymbolSeparator
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds FNC3 symbol separator to the extended codetext items in C++.'
+description: 'Aspose::BarCode::Generation::DotCodeExtCodetextBuilder::AddFNC3SymbolSeparator method. Adds FNC3 symbol separator to the extended codetext items in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/dotcodeextcodetextbuilder/addfnc3symbolseparator/

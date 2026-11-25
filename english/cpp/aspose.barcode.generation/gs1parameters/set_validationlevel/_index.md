@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::GS1Parameters::set_ValidationLevel method
 linktitle: set_ValidationLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Specifies the level of GS1 data validation. Default value: GS1ValidationLevel::Content in C++.'
+description: 'Aspose::BarCode::Generation::GS1Parameters::set_ValidationLevel method. Specifies the level of GS1 data validation. Default value: GS1ValidationLevel::Content in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/gs1parameters/set_validationlevel/

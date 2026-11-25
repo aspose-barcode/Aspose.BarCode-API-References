@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::get_Width method
 linktitle: get_Width
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_Width method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

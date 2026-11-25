@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::GradientMetrics constructor
 linktitle: GradientMetrics
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GradientMetrics constructor of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

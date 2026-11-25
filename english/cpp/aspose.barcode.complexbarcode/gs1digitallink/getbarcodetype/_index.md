@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetBarcodeType method
 linktitle: GetBarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the barcode type used to encode this GS1 Digital Link in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetBarcodeType method. Gets the barcode type used to encode this GS1 Digital Link in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/getbarcodetype/

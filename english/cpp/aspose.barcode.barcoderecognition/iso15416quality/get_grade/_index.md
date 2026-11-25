@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Grade method
 linktitle: get_Grade
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the overall barcode quality grade according to ISO/IEC 15416 in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Grade method. Gets the overall barcode quality grade according to ISO/IEC 15416 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_grade/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Common::Constants::RowAddressPatternType enum
 linktitle: RowAddressPatternType
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::Common::Constants::RowAddressPatternType enum in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.common.constants/rowaddresspatterntype/

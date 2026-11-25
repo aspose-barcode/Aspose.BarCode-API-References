@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DType enum
 linktitle: Mailmark2DType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. 2D Mailmark Type defines size of Data Matrix barcode in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DType enum. 2D Mailmark Type defines size of Data Matrix barcode in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dtype/

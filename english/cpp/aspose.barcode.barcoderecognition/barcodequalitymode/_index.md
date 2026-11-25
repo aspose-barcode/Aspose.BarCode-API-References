@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::BarcodeQualityMode enum
 linktitle: BarcodeQualityMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::BarcodeQualityMode enum in C++.'
 type: docs
-weight: 3600
+weight: 3700
 url: /cpp/aspose.barcode.barcoderecognition/barcodequalitymode/
 ---
 ## BarcodeQualityMode enum

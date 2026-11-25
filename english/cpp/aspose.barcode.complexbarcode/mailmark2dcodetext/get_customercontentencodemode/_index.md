@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_CustomerContentEncodeMode method
 linktitle: get_CustomerContentEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Encode mode of Datamatrix barcode. Default value: EncodeMode.C40 in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::get_CustomerContentEncodeMode method. Encode mode of Datamatrix barcode. Default value: EncodeMode.C40 in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/get_customercontentencodemode/

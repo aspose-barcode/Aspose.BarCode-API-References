@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::FormatIban method
 linktitle: FormatIban
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Formats an IBAN or creditor reference by inserting spaces in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::FormatIban method. Formats an IBAN or creditor reference by inserting spaces in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/payments/formatiban/

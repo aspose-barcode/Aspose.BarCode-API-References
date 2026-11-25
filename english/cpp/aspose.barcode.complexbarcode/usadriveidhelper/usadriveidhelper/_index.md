@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHelper::USADriveIdHelper constructor
 linktitle: USADriveIdHelper
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use USADriveIdHelper constructor of Aspose::BarCode::ComplexBarcode::USADriveIdHelper class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::QrExtCodetextBuilder::Clear method
 linktitle: Clear
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Clears extended codetext items in C++.'
+description: 'Aspose::BarCode::Generation::QrExtCodetextBuilder::Clear method. Clears extended codetext items in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/qrextcodetextbuilder/clear/

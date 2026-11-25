@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHelper::ParseHairColor method
 linktitle: ParseHairColor
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ParseHairColor method of Aspose::BarCode::ComplexBarcode::USADriveIdHelper class in C++.'

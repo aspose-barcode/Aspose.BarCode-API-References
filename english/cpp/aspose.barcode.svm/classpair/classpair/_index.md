@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Svm::ClassPair::ClassPair constructor
 linktitle: ClassPair
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ClassPair constructor of Aspose::BarCode::Svm::ClassPair class in C++.'

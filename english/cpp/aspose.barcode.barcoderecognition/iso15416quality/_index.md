@@ -4,7 +4,7 @@ linktitle: Iso15416Quality
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality class. Stores barcode quality grades calculated according to the ISO/IEC 15416 standard for 1D barcodes in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/
 ---
 ## Iso15416Quality class

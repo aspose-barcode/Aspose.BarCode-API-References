@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Parse method
 linktitle: Parse
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Parses an uncompressed GS1 Digital Link URI in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Parse method. Parses an uncompressed GS1 Digital Link URI in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/parse/

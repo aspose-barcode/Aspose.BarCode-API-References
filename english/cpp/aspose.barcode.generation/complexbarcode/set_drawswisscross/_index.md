@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::ComplexBarcode::set_DrawSwissCross method
 linktitle: set_DrawSwissCross
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_DrawSwissCross method of Aspose::BarCode::Generation::ComplexBarcode class in C++.'

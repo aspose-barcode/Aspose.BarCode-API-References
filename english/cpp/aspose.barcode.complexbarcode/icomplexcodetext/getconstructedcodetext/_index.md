@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::IComplexCodetext::GetConstructedCodetext method
 linktitle: GetConstructedCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Construct codetext for complex barcode in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::IComplexCodetext::GetConstructedCodetext method. Construct codetext for complex barcode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/icomplexcodetext/getconstructedcodetext/

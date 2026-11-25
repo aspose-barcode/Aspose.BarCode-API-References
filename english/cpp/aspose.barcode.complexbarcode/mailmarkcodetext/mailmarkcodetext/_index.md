@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::MailmarkCodetext::MailmarkCodetext constructor
 linktitle: MailmarkCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes a new instance of the MailmarkCodetext class in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MailmarkCodetext::MailmarkCodetext constructor. Initializes a new instance of the MailmarkCodetext class in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/mailmarkcodetext/mailmarkcodetext/

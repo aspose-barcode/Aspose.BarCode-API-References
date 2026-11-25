@@ -1,10 +1,10 @@
 ---
-title:  typedef
+title: Aspose::BarCode::BarCodeRecognition::RecognitionAbortedException typedef
 linktitle: RecognitionAbortedException
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  typedef in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::RecognitionAbortedException typedef in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.barcode.barcoderecognition/recognitionabortedexception/
 ---
 ## RecognitionAbortedException typedef

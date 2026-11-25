@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToGS1Codetext method
 linktitle: ToGS1Codetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Creates an independent GS1 codetext containing the current GS1 elements. URI-only information is not included in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToGS1Codetext method. Creates an independent GS1 codetext containing the current GS1 elements. URI-only information is not included in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/togs1codetext/

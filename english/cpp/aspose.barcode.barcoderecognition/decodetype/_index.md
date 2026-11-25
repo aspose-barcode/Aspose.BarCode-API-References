@@ -27,7 +27,7 @@ class DecodeType
 | static [Is2D](./is2d/)(System::SharedPtr\<BaseDecodeType\>) | Determines if the specified [BaseDecodeType](../basedecodetype/) contains any 2D barcode symbology |
 | static [IsPostal](./ispostal/)(System::SharedPtr\<BaseDecodeType\>) | Determines if the specified [BaseDecodeType](../basedecodetype/) contains any Postal barcode symbology |
 | static [Parse](./parse/)(System::String, System::SharedPtr\<SingleDecodeType\>\&) | Converts the string representation of a [SingleDecodeType](../singledecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
-| static [ScanSets](./scansets/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) | Specify scan sets by barcodeTypes |
+| static [ScanSets](./scansets/)(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) | Specify scan sets by barcodeTypes |
 | static [TryParse](./tryparse/)(System::String, System::SharedPtr\<SingleDecodeType\>\&) | Converts the string representation of a [SingleDecodeType](../singledecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
 | static [TryParse](./tryparse/)(System::String, System::SharedPtr\<MultiDecodeType\>\&) | Converts the string representation of a [MultiDecodeType](../multidecodetype/) to its instance. A return value indicates whether the conversion succeeded or failed. |
 ## Fields

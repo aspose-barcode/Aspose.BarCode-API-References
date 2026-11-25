@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeGenerator::set_BarcodeType method
 linktitle: set_BarcodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Barcode symbology type in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeGenerator::set_BarcodeType method. Barcode symbology type in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/barcodegenerator/set_barcodetype/

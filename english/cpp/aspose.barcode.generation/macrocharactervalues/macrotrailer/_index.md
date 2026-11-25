@@ -1,5 +1,5 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::MacroCharacterValues::MacroTrailer field
 linktitle: MacroTrailer
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use MacroTrailer field of Aspose::BarCode::Generation::MacroCharacterValues class in C++.'

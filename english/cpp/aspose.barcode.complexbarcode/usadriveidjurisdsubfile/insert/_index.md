@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::Insert method
 linktitle: Insert
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Inserts the specified DataElement at the given index. If a DataElement with the same ElementID already exists, it will be replaced in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::Insert method. Inserts the specified DataElement at the given index. If a DataElement with the same ElementID already exists, it will be replaced in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/insert/

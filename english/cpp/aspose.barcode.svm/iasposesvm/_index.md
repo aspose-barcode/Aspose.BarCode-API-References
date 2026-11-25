@@ -20,7 +20,7 @@ class IAsposeSvm : public System::Object
 
 | Method | Description |
 | --- | --- |
-| virtual [LogLikelihood](./loglikelihood/)(System::SharedPtr\<System::Collections::Generic::List\<System::ArrayPtr\<double\>>>, int32_t) |  |
+| virtual [LogLikelihood](./loglikelihood/)(System::SharedPtr\<System::Collections::Generic::List\<System::ArrayPtr\<double\>\>\>, int32_t) |  |
 ## See Also
 
 * Namespace [Aspose::BarCode::Svm](../)

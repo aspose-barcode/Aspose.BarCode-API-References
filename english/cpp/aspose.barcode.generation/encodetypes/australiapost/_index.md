@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::AustraliaPost field
 linktitle: AustraliaPost
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Represents Australia Post Customer BarCode in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::AustraliaPost field. Represents Australia Post Customer BarCode in C++.'
 type: docs
 weight: 5500
 url: /cpp/aspose.barcode.generation/encodetypes/australiapost/

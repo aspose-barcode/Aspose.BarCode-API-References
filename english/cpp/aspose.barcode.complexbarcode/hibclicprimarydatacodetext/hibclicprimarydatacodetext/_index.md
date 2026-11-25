@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::HIBCLICPrimaryDataCodetext::HIBCLICPrimaryDataCodetext constructor
 linktitle: HIBCLICPrimaryDataCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use HIBCLICPrimaryDataCodetext constructor of Aspose::BarCode::ComplexBarcode::HIBCLICPrimaryDataCodetext class in C++.'

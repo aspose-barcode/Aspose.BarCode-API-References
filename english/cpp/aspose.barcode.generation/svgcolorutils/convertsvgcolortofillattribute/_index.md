@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::SvgColorUtils::ConvertSvgColorToFillAttribute method
 linktitle: ConvertSvgColorToFillAttribute
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ConvertSvgColorToFillAttribute method of Aspose::BarCode::Generation::SvgColorUtils class in C++.'

@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::MulticlassSvmModel::get_NumberOfInputs method
 linktitle: get_NumberOfInputs
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_NumberOfInputs method of Aspose::BarCode::Svm::MulticlassSvmModel class in C++.'

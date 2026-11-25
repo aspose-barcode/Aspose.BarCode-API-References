@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::set_Angle135GradientPowerByTile method
 linktitle: set_Angle135GradientPowerByTile
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_Angle135GradientPowerByTile method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

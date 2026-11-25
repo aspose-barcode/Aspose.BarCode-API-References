@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Svm::SvmDirection enum
 linktitle: SvmDirection
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::Svm::SvmDirection enum in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.svm/svmdirection/

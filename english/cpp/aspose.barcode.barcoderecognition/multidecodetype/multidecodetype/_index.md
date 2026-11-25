@@ -1,13 +1,13 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::MultiDecodeType::MultiDecodeType constructor
 linktitle: MultiDecodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes a new instance of the MultiDecodeType class in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::MultiDecodeType::MultiDecodeType constructor. Initializes a new instance of the MultiDecodeType class in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/multidecodetype/multidecodetype/
 ---
-## MultiDecodeType::MultiDecodeType(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\&) constructor
+## MultiDecodeType::MultiDecodeType(const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [MultiDecodeType](../) class.
@@ -19,7 +19,7 @@ Aspose::BarCode::BarCodeRecognition::MultiDecodeType::MultiDecodeType(const Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>>\& | Array of single decode types |
+| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<SingleDecodeType\>\>\& | Array of single decode types |
 
 ## See Also
 
@@ -27,7 +27,7 @@ Aspose::BarCode::BarCodeRecognition::MultiDecodeType::MultiDecodeType(const Syst
 * Class [MultiDecodeType](../)
 * Namespace [Aspose::BarCode::BarCodeRecognition](../../)
 * Library [Aspose.BarCode for C++](../../../)
-## MultiDecodeType::MultiDecodeType(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\&) constructor
+## MultiDecodeType::MultiDecodeType(const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\&) constructor
 
 
 Initializes a new instance of the [MultiDecodeType](../) class.
@@ -39,7 +39,7 @@ Aspose::BarCode::BarCodeRecognition::MultiDecodeType::MultiDecodeType(const Syst
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>>\& | Array of multi and single decode types |
+| barcodeTypes | const System::ArrayPtr\<System::SharedPtr\<BaseDecodeType\>\>\& | Array of multi and single decode types |
 
 ## See Also
 

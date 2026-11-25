@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_Code128 method
 linktitle: get_Code128
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a special data Code128ExtendedParameters of Code128 recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_Code128 method. Gets a special data Code128ExtendedParameters of Code128 recognized barcode in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/get_code128/

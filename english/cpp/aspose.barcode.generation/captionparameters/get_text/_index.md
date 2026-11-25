@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::CaptionParameters::get_Text method
 linktitle: get_Text
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Caption text. Default value: empty string in C++.'
+description: 'Aspose::BarCode::Generation::CaptionParameters::get_Text method. Caption text. Default value: empty string in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/captionparameters/get_text/

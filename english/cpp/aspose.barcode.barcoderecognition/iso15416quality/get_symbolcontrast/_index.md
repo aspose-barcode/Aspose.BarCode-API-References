@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_SymbolContrast method
 linktitle: get_SymbolContrast
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the symbol contrast grade based on the difference between maximum and minimum reflectance in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_SymbolContrast method. Gets the symbol contrast grade based on the difference between maximum and minimum reflectance in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_symbolcontrast/

@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHelper::MakeEyeColorString method
 linktitle: MakeEyeColorString
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use MakeEyeColorString method of Aspose::BarCode::ComplexBarcode::USADriveIdHelper class in C++.'

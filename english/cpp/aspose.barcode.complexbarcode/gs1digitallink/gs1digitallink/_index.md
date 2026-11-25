@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GS1DigitalLink constructor
 linktitle: GS1DigitalLink
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes an empty GS1 Digital Link with the specified URI stem. The primary key is selected automatically when exactly one primary-key candidate is present in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GS1DigitalLink constructor. Initializes an empty GS1 Digital Link with the specified URI stem. The primary key is selected automatically when exactly one primary-key candidate is present in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/gs1digitallink/

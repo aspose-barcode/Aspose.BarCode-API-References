@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Create method
 linktitle: Create
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Creates a GS1 Digital Link by copying all elements from GS1 codetext and selecting the only available primary key in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Create method. Creates a GS1 Digital Link by copying all elements from GS1 codetext and selecting the only available primary key in C++.'
 type: docs
 weight: 2100
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/create/

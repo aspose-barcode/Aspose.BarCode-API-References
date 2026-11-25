@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::LuminanceFrame::get_Data method
 linktitle: get_Data
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the luminance data in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::LuminanceFrame::get_Data method. Gets the luminance data in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/luminanceframe/get_data/

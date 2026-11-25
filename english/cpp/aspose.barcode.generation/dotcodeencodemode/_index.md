@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::DotCodeEncodeMode enum
 linktitle: DotCodeEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Encoding mode for DotCode barcodes in C++.'
+description: 'Aspose::BarCode::Generation::DotCodeEncodeMode enum. Encoding mode for DotCode barcodes in C++.'
 type: docs
 weight: 6500
 url: /cpp/aspose.barcode.generation/dotcodeencodemode/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::CleanValue method
 linktitle: CleanValue
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Cleans a string value to make it viable for the Swiss Payment Standards 2018 in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::CleanValue method. Cleans a string value to make it viable for the Swiss Payment Standards 2018 in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/payments/cleanvalue/

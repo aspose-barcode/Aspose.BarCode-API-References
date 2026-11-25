@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::ParseFromString method
 linktitle: ParseFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Instantiates secondary and additional supplemental data from string format according HIBC LIC specification in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::ParseFromString method. Instantiates secondary and additional supplemental data from string format according HIBC LIC specification in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/parsefromstring/

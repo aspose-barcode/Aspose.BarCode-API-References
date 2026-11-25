@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::IsAlphaNumeric method
 linktitle: IsAlphaNumeric
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use IsAlphaNumeric method of Aspose::BarCode::ComplexBarcode::Payments class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::FormatQrReferenceNumber method
 linktitle: FormatQrReferenceNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Formats a QR reference number by inserting spaces in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::FormatQrReferenceNumber method. Formats a QR reference number by inserting spaces in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/payments/formatqrreferencenumber/

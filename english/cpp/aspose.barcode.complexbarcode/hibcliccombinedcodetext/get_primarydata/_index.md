@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::HIBCLICCombinedCodetext::get_PrimaryData method
 linktitle: get_PrimaryData
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies primary data in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCLICCombinedCodetext::get_PrimaryData method. Identifies primary data in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/hibcliccombinedcodetext/get_primarydata/

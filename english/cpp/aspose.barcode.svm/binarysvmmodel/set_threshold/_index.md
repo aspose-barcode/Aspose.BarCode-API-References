@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::BinarySvmModel::set_Threshold method
 linktitle: set_Threshold
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_Threshold method of Aspose::BarCode::Svm::BinarySvmModel class in C++.'

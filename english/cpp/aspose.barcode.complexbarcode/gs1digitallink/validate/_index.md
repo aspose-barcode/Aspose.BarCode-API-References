@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Validate method
 linktitle: Validate
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Validates an uncompressed GS1 Digital Link URI without constructing an object in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::Validate method. Validates an uncompressed GS1 Digital Link URI without constructing an object in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/validate/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::GS1ValidationLevel enum
 linktitle: GS1ValidationLevel
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Specifies the level of GS1 data validation. Higher validation levels include all checks from lower levels in C++.'
+description: 'Aspose::BarCode::Generation::GS1ValidationLevel enum. Specifies the level of GS1 data validation. Higher validation levels include all checks from lower levels in C++.'
 type: docs
 weight: 6800
 url: /cpp/aspose.barcode.generation/gs1validationlevel/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::ComplexBarcode::AddressType enum
 linktitle: AddressType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Address type in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::AddressType enum. Address type in C++.'
 type: docs
 weight: 3700
 url: /cpp/aspose.barcode.complexbarcode/addresstype/

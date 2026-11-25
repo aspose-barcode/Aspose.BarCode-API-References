@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::get_Identifiers method
 linktitle: get_Identifiers
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets identifiers list in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredSecondMessage::get_Identifiers method. Gets identifiers list in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/maxicodestructuredsecondmessage/get_identifiers/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::MaxiCodeSet enum
 linktitle: MaxiCodeSet
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Maxicode codesets in C++.'
+description: 'Aspose::BarCode::MaxiCodeSet enum. Maxicode codesets in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode/maxicodeset/

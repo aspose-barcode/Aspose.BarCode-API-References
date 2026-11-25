@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_AustraliaPost method
 linktitle: get_AustraliaPost
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets AustraliaPost decoding parameters in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarcodeSettings::get_AustraliaPost method. Gets AustraliaPost decoding parameters in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/barcodesettings/get_australiapost/

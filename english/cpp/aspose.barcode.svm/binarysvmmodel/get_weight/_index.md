@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::BinarySvmModel::get_Weight method
 linktitle: get_Weight
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_Weight method of Aspose::BarCode::Svm::BinarySvmModel class in C++.'

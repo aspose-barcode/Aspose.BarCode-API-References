@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetFirst method
 linktitle: GetFirst
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the first value for an Application Identifier in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetFirst method. Gets the first value for an Application Identifier in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/getfirst/

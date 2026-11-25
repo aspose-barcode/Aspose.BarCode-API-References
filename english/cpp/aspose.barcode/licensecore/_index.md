@@ -25,8 +25,8 @@ class LicenseCore : public System::Object
 | [LicenseCore](./licensecore/)() | Initializes a new instance of the [LicenseCore](./) class. |
 | static [RemoveMeteredLicense](./removemeteredlicense/)() |  |
 | [ResetLicense](./resetlicense/)() | Method resets license state for the internal use and tests |
-| [SetLicense](./setlicense/)(System::String, System::SharedPtr\<System::Reflection::Assembly\>, System::SharedPtr\<Common::Generic::Types::Tup\<LicenseErrors, System::DateTime, System::DateTime\>>) | Searches license, loads and tries to implement. The result of the implementation is set to errorCode |
-| [SetLicense](./setlicense/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Common::Generic::Types::Tup\<LicenseErrors, System::DateTime, System::DateTime\>>) | Tries to implement the license. The result of the implementation is set to errorCode |
+| [SetLicense](./setlicense/)(System::String, System::SharedPtr\<System::Reflection::Assembly\>, System::SharedPtr\<Common::Generic::Types::Tup\<LicenseErrors, System::DateTime, System::DateTime\>\>) | Searches license, loads and tries to implement. The result of the implementation is set to errorCode |
+| [SetLicense](./setlicense/)(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Common::Generic::Types::Tup\<LicenseErrors, System::DateTime, System::DateTime\>\>) | Tries to implement the license. The result of the implementation is set to errorCode |
 | static [SetMeteredLicense](./setmeteredlicense/)(bool, System::String) |  |
 ## See Also
 

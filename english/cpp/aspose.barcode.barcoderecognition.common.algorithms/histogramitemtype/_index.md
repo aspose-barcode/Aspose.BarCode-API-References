@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::Common::Algorithms::HistogramItemType enum
 linktitle: HistogramItemType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. A type of histogram item (column) in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Common::Algorithms::HistogramItemType enum. A type of histogram item (column) in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition.common.algorithms/histogramitemtype/

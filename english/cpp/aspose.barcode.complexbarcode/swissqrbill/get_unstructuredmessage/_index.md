@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SwissQRBill::get_UnstructuredMessage method
 linktitle: get_UnstructuredMessage
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the additional unstructured message in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SwissQRBill::get_UnstructuredMessage method. Gets the additional unstructured message in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.complexbarcode/swissqrbill/get_unstructuredmessage/

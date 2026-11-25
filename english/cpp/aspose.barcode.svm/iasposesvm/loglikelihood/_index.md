@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::IAsposeSvm::LogLikelihood method
 linktitle: LogLikelihood
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use LogLikelihood method of Aspose::BarCode::Svm::IAsposeSvm class in C++.'

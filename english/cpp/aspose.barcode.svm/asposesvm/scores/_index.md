@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::AsposeSvm::Scores method
 linktitle: Scores
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Scores method of Aspose::BarCode::Svm::AsposeSvm class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Payments::IsValidIban method
 linktitle: IsValidIban
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Validates if the string is a valid IBAN number in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Payments::IsValidIban method. Validates if the string is a valid IBAN number in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/payments/isvalidiban/

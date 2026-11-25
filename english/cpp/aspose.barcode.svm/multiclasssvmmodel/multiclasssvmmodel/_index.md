@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Svm::MulticlassSvmModel::MulticlassSvmModel constructor
 linktitle: MulticlassSvmModel
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use MulticlassSvmModel constructor of Aspose::BarCode::Svm::MulticlassSvmModel class in C++.'

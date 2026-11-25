@@ -21,8 +21,8 @@ class AsposeSvm : public Aspose::BarCode::Svm::IAsposeSvm
 | Method | Description |
 | --- | --- |
 | [AsposeSvm](./asposesvm/)(System::SharedPtr\<MulticlassSvmModel\>) |  |
-| [LogLikelihood](./loglikelihood/)(System::SharedPtr\<System::Collections::Generic::List\<System::ArrayPtr\<double\>>>, int32_t) override |  |
-| [LogLikelihood](./loglikelihood/)(System::ArrayPtr\<System::ArrayPtr\<double\>>, int32_t, System::ArrayPtr\<double\>) |  |
+| [LogLikelihood](./loglikelihood/)(System::SharedPtr\<System::Collections::Generic::List\<System::ArrayPtr\<double\>\>\>, int32_t) override |  |
+| [LogLikelihood](./loglikelihood/)(System::ArrayPtr\<System::ArrayPtr\<double\>\>, int32_t, System::ArrayPtr\<double\>) |  |
 | [LogLikelihood](./loglikelihood/)(System::ArrayPtr\<double\>, int32_t) |  |
 | [Scores](./scores/)(System::ArrayPtr\<double\>) |  |
 | [Scores](./scores/)(System::ArrayPtr\<double\>, System::ArrayPtr\<double\>) |  |

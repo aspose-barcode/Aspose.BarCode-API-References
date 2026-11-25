@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::PatchCodeParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this PatchCodeParameters in C++.'
+description: 'Aspose::BarCode::Generation::PatchCodeParameters::ToString method. Returns a human-readable string representation of this PatchCodeParameters in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/patchcodeparameters/tostring/

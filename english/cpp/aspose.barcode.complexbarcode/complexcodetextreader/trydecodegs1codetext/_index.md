@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeGS1Codetext method
 linktitle: TryDecodeGS1Codetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Decodes GS1 codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeGS1Codetext method. Decodes GS1 codetext in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodegs1codetext/

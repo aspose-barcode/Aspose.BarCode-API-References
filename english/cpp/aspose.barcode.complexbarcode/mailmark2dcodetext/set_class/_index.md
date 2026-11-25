@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_Class method
 linktitle: set_Class
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies the class of the item in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_Class method. Identifies the class of the item in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_class/

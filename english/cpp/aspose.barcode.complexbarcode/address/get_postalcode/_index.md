@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Address::get_PostalCode method
 linktitle: get_PostalCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the postal code in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Address::get_PostalCode method. Gets the postal code in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.complexbarcode/address/get_postalcode/

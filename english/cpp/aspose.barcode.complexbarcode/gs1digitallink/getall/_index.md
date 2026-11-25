@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetAll method
 linktitle: GetAll
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets all values for an Application Identifier in source order in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::GetAll method. Gets all values for an Application Identifier in source order in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/getall/

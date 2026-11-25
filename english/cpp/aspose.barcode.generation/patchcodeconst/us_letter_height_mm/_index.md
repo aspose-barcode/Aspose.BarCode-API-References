@@ -1,5 +1,5 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::PatchcodeConst::US_LETTER_HEIGHT_MM field
 linktitle: US_LETTER_HEIGHT_MM
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use US_LETTER_HEIGHT_MM field of Aspose::BarCode::Generation::PatchcodeConst class in C++.'

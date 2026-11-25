@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::PrimaryData::get_ProductOrCatalogNumber method
 linktitle: get_ProductOrCatalogNumber
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies product or catalog number. Product or catalog number must be alphanumeric string up to 18 sybmols length in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::get_ProductOrCatalogNumber method. Identifies product or catalog number. Product or catalog number must be alphanumeric string up to 18 sybmols length in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/primarydata/get_productorcatalognumber/

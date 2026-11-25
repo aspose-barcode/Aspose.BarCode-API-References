@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Unit::set_Pixels method
 linktitle: set_Pixels
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets size value in pixels in C++.'
+description: 'Aspose::BarCode::Generation::Unit::set_Pixels method. Sets size value in pixels in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.generation/unit/set_pixels/

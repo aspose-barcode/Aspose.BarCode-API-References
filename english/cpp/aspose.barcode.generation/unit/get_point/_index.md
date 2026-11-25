@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Unit::get_Point method
 linktitle: get_Point
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets size value in point in C++.'
+description: 'Aspose::BarCode::Generation::Unit::get_Point method. Gets size value in point in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.generation/unit/get_point/

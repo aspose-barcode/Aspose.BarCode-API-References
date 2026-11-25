@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::set_SelectedGrd method
 linktitle: set_SelectedGrd
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_SelectedGrd method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

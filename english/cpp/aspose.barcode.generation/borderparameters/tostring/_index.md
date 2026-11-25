@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BorderParameters::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this BorderParameters in C++.'
+description: 'Aspose::BarCode::Generation::BorderParameters::ToString method. Returns a human-readable string representation of this BorderParameters in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/borderparameters/tostring/

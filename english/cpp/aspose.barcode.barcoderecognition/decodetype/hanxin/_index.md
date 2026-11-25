@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::HanXin field
 linktitle: HanXin
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with Han Xin Code barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::HanXin field. Specifies that the data should be decoded with Han Xin Code barcode specification in C++.'
 type: docs
 weight: 9100
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/hanxin/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeUSADriveId method
 linktitle: TryDecodeUSADriveId
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Decodes USADriveId codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeUSADriveId method. Decodes USADriveId codetext in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodeusadriveid/

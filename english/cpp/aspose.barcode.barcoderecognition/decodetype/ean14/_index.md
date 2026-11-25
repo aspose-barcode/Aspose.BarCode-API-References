@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::EAN14 field
 linktitle: EAN14
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with EAN14 barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::EAN14 field. Specifies that the data should be decoded with EAN14 barcode specification in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/ean14/

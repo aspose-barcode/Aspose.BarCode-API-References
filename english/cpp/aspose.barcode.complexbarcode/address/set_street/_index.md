@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Address::set_Street method
 linktitle: set_Street
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Sets the street in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Address::set_Street method. Sets the street in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.complexbarcode/address/set_street/

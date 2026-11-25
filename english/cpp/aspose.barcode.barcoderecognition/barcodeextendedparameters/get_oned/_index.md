@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_OneD method
 linktitle: get_OneD
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets a special data OneDExtendedParameters of 1D recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeExtendedParameters::get_OneD method. Gets a special data OneDExtendedParameters of 1D recognized barcode in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/barcodeextendedparameters/get_oned/

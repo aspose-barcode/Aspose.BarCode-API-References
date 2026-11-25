@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Generation::PatchcodeConst::PatchcodeConst constructor
 linktitle: PatchcodeConst
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use PatchcodeConst constructor of Aspose::BarCode::Generation::PatchcodeConst class in C++.'

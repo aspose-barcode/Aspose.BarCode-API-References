@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::get_EncodeMode method
 linktitle: get_EncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies Pdf417 encode mode. Default value: Auto in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::get_EncodeMode method. Identifies Pdf417 encode mode. Default value: Auto in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/pdf417parameters/get_encodemode/

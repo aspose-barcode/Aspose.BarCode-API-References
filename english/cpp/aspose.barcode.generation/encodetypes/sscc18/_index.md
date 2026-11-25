@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::SSCC18 field
 linktitle: SSCC18
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be encoded with SSCC18 barcode specification in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::SSCC18 field. Specifies that the data should be encoded with SSCC18 barcode specification in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.barcode.generation/encodetypes/sscc18/

@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::DotCode field
 linktitle: DotCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with DotCode barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DotCode field. Specifies that the data should be decoded with DotCode barcode specification in C++.'
 type: docs
 weight: 7800
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/dotcode/

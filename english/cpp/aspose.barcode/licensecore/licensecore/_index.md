@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::LicenseCore::LicenseCore constructor
 linktitle: LicenseCore
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes a new instance of the LicenseCore class in C++.'
+description: 'Aspose::BarCode::LicenseCore::LicenseCore constructor. Initializes a new instance of the LicenseCore class in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode/licensecore/licensecore/

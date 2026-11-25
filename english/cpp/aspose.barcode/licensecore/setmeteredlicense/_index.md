@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::LicenseCore::SetMeteredLicense method
 linktitle: SetMeteredLicense
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use SetMeteredLicense method of Aspose::BarCode::LicenseCore class in C++.'

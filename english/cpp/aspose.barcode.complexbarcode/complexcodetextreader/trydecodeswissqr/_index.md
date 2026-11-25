@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeSwissQR method
 linktitle: TryDecodeSwissQR
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Decodes SwissQR codetext in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexCodetextReader::TryDecodeSwissQR method. Decodes SwissQR codetext in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/complexcodetextreader/trydecodeswissqr/

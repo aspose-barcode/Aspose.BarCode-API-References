@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddCommonChineseRegionTwo method
 linktitle: AddCommonChineseRegionTwo
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Adds codetext fragment in Common Chinese Region Two mode in C++.'
+description: 'Aspose::BarCode::Generation::HanXinExtCodetextBuilder::AddCommonChineseRegionTwo method. Adds codetext fragment in Common Chinese Region Two mode in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.generation/hanxinextcodetextbuilder/addcommonchineseregiontwo/

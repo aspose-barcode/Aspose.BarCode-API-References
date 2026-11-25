@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MaxQuality method
 linktitle: get_MaxQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::QualitySettings::get_MaxQuality method. MaxQuality recognition quality preset. This preset is developed to recognize all possible barcodes, even incorrect barcodes in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/qualitysettings/get_maxquality/

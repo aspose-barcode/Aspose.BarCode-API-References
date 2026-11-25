@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save method
 linktitle: Save
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Generates and saves complex barcode image under current settings in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::Save method. Generates and saves complex barcode image under current settings in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.complexbarcode/complexbarcodegenerator/save/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Quadrangle::get_BoundingRectangle method
 linktitle: get_BoundingRectangle
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets Rectangle bounding this Quadrangle in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Quadrangle::get_BoundingRectangle method. Gets Rectangle bounding this Quadrangle in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode.barcoderecognition/quadrangle/get_boundingrectangle/

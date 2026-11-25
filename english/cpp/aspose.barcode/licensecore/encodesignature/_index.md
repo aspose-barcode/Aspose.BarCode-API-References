@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::LicenseCore::EncodeSignature method
 linktitle: EncodeSignature
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Encodes data to signature in C++.'
+description: 'Aspose::BarCode::LicenseCore::EncodeSignature method. Encodes data to signature in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode/licensecore/encodesignature/

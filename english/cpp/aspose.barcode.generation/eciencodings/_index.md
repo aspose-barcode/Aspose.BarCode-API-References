@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::ECIEncodings enum
 linktitle: ECIEncodings
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::Generation::ECIEncodings enum in C++.'
 type: docs
 weight: 6600
 url: /cpp/aspose.barcode.generation/eciencodings/

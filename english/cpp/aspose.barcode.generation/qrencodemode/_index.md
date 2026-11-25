@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::QREncodeMode enum
 linktitle: QREncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Encoding mode for QR barcodes in C++.'
+description: 'Aspose::BarCode::Generation::QREncodeMode enum. Encoding mode for QR barcodes in C++.'
 type: docs
 weight: 8100
 url: /cpp/aspose.barcode.generation/qrencodemode/
@@ -157,7 +157,7 @@ textBuilder.AddECICodetext(ECIEncodings.UTF16BE, "Power")
 textBuilder.AddPlainCodetext(@"t\e\\st")
 textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.AlphaNumeric, @"ASPOSE2001");
 textBuilder.AddCodetextWithCompactionMode(QrExtCompactionMode.Numeric, @"20012026");
-@verbatim
+@verbatim 
 'generate barcode
 Using generator As New Aspose.BarCode.Generation.BarcodeGenerator(EncodeTypes.QR)
     generator.CodeText = textBuilder.GetExtendedCodetext()

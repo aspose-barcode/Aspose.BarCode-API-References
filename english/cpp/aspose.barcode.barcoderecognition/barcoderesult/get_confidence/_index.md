@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_Confidence method
 linktitle: get_Confidence
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets recognition confidence level of the recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_Confidence method. Gets recognition confidence level of the recognized barcode in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_confidence/

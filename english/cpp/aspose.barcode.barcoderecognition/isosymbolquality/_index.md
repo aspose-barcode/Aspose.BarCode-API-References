@@ -4,7 +4,7 @@ linktitle: IsoSymbolQuality
 second_title: Aspose.BarCode for C++ API Reference
 description: 'Aspose::BarCode::BarCodeRecognition::IsoSymbolQuality class. Stores barcode symbol quality evaluation results according to ISO/IEC standards in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.barcode.barcoderecognition/isosymbolquality/
 ---
 ## IsoSymbolQuality class
@@ -21,6 +21,7 @@ class IsoSymbolQuality : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_OneDimensional](./get_onedimensional/)() const | Gets the 1D barcode quality evaluation results according to ISO/IEC 15416. |
+| [get_TwoDimensional](./get_twodimensional/)() const | Gets the 2D barcode quality evaluation results according to ISO/IEC 15415. |
 ## See Also
 
 * Namespace [Aspose::BarCode::BarCodeRecognition](../)

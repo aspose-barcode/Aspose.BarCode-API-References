@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToUriString method
 linktitle: ToUriString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Formats the current object state as an uncompressed GS1 Digital Link URI in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToUriString method. Formats the current object state as an uncompressed GS1 Digital Link URI in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/touristring/

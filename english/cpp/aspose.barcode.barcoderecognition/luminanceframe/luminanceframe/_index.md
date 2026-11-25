@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::LuminanceFrame::LuminanceFrame constructor
 linktitle: LuminanceFrame
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Initializes a new instance of the LuminanceFrame class without padding between rows. The distance between adjacent rows is equal to width  in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::LuminanceFrame::LuminanceFrame constructor. Initializes a new instance of the LuminanceFrame class without padding between rows. The distance between adjacent rows is equal to width  in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/luminanceframe/luminanceframe/

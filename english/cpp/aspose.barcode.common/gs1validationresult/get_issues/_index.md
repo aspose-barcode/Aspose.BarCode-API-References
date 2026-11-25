@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Common::GS1ValidationResult::get_Issues method
 linktitle: get_Issues
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets validation errors in deterministic order in C++.'
+description: 'Aspose::BarCode::Common::GS1ValidationResult::get_Issues method. Gets validation errors in deterministic order in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.common/gs1validationresult/get_issues/

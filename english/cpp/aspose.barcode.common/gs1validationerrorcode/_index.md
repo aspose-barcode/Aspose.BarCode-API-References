@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Common::GS1ValidationErrorCode enum
 linktitle: GS1ValidationErrorCode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Identifies a GS1 element string, Digital Link URI or value validation error in C++.'
+description: 'Aspose::BarCode::Common::GS1ValidationErrorCode enum. Identifies a GS1 element string, Digital Link URI or value validation error in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.common/gs1validationerrorcode/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::SingleDecodeType::GetString method
 linktitle: GetString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None" in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::SingleDecodeType::GetString method. Converts the instance of SingleDecodeType to its equivalent string representation. The string format is: "Index:-1; Name:None" in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/singledecodetype/getstring/

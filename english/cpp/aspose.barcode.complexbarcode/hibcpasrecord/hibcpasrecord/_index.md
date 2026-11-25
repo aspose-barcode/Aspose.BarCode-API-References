@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::HIBCPASRecord::HIBCPASRecord constructor
 linktitle: HIBCPASRecord
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. HIBCPASRecord constructor in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::HIBCPASRecord::HIBCPASRecord constructor. HIBCPASRecord constructor in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.complexbarcode/hibcpasrecord/hibcpasrecord/

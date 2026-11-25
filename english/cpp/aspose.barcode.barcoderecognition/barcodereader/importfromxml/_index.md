@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::ImportFromXml method
 linktitle: ImportFromXml
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::ImportFromXml method. Imports BarCode properties from the xml-file specified and applies them to the current BarCodeReader instance in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/importfromxml/

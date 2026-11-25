@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::Matrix2of5 field
 linktitle: Matrix2of5
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Represents Matrix 2 of 5 BarCode in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::Matrix2of5 field. Represents Matrix 2 of 5 BarCode in C++.'
 type: docs
 weight: 2600
 url: /cpp/aspose.barcode.generation/encodetypes/matrix2of5/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::ITFParameters::get_BorderThickness method
 linktitle: get_BorderThickness
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt in C++.'
+description: 'Aspose::BarCode::Generation::ITFParameters::get_BorderThickness method. Gets an ITF border (bearer bar) thickness in Unit value. Default value: 12pt in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.generation/itfparameters/get_borderthickness/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::LicenseCore::GetFileNameInFolderOfAssembly method
 linktitle: GetFileNameInFolderOfAssembly
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Tries to find filename in assebly folder in C++.'
+description: 'Aspose::BarCode::LicenseCore::GetFileNameInFolderOfAssembly method. Tries to find filename in assebly folder in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode/licensecore/getfilenameinfolderofassembly/

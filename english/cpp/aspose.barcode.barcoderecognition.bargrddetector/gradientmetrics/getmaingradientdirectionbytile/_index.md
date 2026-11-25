@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::GetMainGradientDirectionByTile method
 linktitle: GetMainGradientDirectionByTile
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GetMainGradientDirectionByTile method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

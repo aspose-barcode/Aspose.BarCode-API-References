@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::EncodeTypes::None field
 linktitle: None
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Unspecified encode type in C++.'
+description: 'Aspose::BarCode::Generation::EncodeTypes::None field. Unspecified encode type in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/encodetypes/none/

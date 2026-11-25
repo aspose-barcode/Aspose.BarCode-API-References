@@ -39,7 +39,7 @@ class USADriveIdCodetext : public Aspose::BarCode::ComplexBarcode::IComplexCodet
 | [set_MandatoryElements](./set_mandatoryelements/)(System::SharedPtr\<USADriveIdCodetext::MandatoryFields\>) | Mandatory elements (fields) of the card |
 | [set_NumberOfEntries](./set_numberofentries/)(int32_t) | Number 00-99 of subfiles |
 | [set_OptionalElements](./set_optionalelements/)(System::SharedPtr\<USADriveIdCodetext::OptionalFields\>) | Optional elements (fields) of the card |
-| [set_SubfileDesignator](./set_subfiledesignator/)(System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<USADriveIdCodetext::SubfileProperties\>>>) | Contains information about following subfiles, types, offsets and lengths. Important: set only type, offset and length will be set automatically. |
+| [set_SubfileDesignator](./set_subfiledesignator/)(System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<USADriveIdCodetext::SubfileProperties\>\>\>) | Contains information about following subfiles, types, offsets and lengths. Important: set only type, offset and length will be set automatically. |
 | [USADriveIdCodetext](./usadriveidcodetext/)() | Default constructor |
 ## See Also
 

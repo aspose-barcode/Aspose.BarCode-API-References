@@ -34,7 +34,7 @@ In this example, an attempt will be made to set metered public and private key
 <ms> 
 ```cpp
 [C#]
-@verbatim
+@verbatim 
 Metered matered = new Metered();
 matered.SetMeteredKey("PublicKey", "PrivateKey");
 

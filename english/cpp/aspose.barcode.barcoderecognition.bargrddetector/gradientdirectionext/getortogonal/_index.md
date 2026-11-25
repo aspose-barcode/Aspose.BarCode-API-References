@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirectionExt::GetOrtogonal method
 linktitle: GetOrtogonal
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GetOrtogonal method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirectionExt class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BaseGenerationParameters::get_ImageWidth method
 linktitle: get_ImageWidth
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. BarCode image width when AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
+description: 'Aspose::BarCode::Generation::BaseGenerationParameters::get_ImageWidth method. BarCode image width when AutoSizeMode property is set to AutoSizeMode.Nearest or AutoSizeMode.Interpolation in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.barcode.generation/basegenerationparameters/get_imagewidth/

@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Drawing::VerticalTextAlignment enum
 linktitle: VerticalTextAlignment
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Represents vertical text alignment in C++.'
+description: 'Aspose::BarCode::Drawing::VerticalTextAlignment enum. Represents vertical text alignment in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.drawing/verticaltextalignment/

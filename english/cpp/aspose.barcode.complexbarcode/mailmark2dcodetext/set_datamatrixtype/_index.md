@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_DataMatrixType method
 linktitle: set_DataMatrixType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. 2D Mailmark Type defines size of Data Matrix barcode in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::Mailmark2DCodetext::set_DataMatrixType method. 2D Mailmark Type defines size of Data Matrix barcode in C++.'
 type: docs
 weight: 2400
 url: /cpp/aspose.barcode.complexbarcode/mailmark2dcodetext/set_datamatrixtype/

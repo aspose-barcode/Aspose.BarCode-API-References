@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Padding::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns a human-readable string representation of this Padding in C++.'
+description: 'Aspose::BarCode::Generation::Padding::ToString method. Returns a human-readable string representation of this Padding in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.generation/padding/tostring/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1Codetext::Add method
 linktitle: Add
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Appends a validated Application Identifier element in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1Codetext::Add method. Appends a validated Application Identifier element in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.complexbarcode/gs1codetext/add/

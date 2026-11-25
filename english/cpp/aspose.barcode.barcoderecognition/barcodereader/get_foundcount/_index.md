@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_FoundCount method
 linktitle: get_FoundCount
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets recognized barcodes count in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeReader::get_FoundCount method. Gets recognized barcodes count in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/barcodereader/get_foundcount/

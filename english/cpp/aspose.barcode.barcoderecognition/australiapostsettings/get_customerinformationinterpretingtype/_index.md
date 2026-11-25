@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::get_CustomerInformationInterpretingType method
 linktitle: get_CustomerInformationInterpretingType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.Other in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::get_CustomerInformationInterpretingType method. Gets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is CustomerInformationInterpretingType.Other in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/australiapostsettings/get_customerinformationinterpretingtype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.barcode.barcoderecognition/australiapostsettings/get_customerin
 ## AustraliaPostSettings::get_CustomerInformationInterpretingType method
 
 
-Gets the Interpreting Type for the Customer Information of AustralianPost [BarCode.Default](../../checksumvalidation/) is [CustomerInformationInterpretingType.Other](../../../aspose.barcode/customerinformationinterpretingtype/).
+Gets the Interpreting Type for the Customer Information of AustralianPost BarCode.Default is [CustomerInformationInterpretingType.Other](../../../aspose.barcode/customerinformationinterpretingtype/).
 
 ```cpp
 Aspose::BarCode::CustomerInformationInterpretingType Aspose::BarCode::BarCodeRecognition::AustraliaPostSettings::get_CustomerInformationInterpretingType() const

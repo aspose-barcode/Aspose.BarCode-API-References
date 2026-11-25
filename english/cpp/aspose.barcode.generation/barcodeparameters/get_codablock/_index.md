@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::BarcodeParameters::get_Codablock method
 linktitle: get_Codablock
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Codablock parameters in C++.'
+description: 'Aspose::BarCode::Generation::BarcodeParameters::get_Codablock method. Codablock parameters in C++.'
 type: docs
 weight: 2700
 url: /cpp/aspose.barcode.generation/barcodeparameters/get_codablock/

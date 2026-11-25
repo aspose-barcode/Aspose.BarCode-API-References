@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientEnergy::set_MainGradientPower method
 linktitle: set_MainGradientPower
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use set_MainGradientPower method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientEnergy class in C++.'

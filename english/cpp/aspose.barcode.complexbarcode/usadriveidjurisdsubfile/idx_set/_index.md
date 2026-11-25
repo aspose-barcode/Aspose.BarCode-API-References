@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set method
 linktitle: idx_set
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Indexing by 3-letter element id in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdJurisdSubfile::idx_set method. Indexing by 3-letter element id in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.complexbarcode/usadriveidjurisdsubfile/idx_set/

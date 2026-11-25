@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::LicenseState enum
 linktitle: LicenseState
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Represents possible license states in C++.'
+description: 'Aspose::BarCode::LicenseState enum. Represents possible license states in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.barcode/licensestate/

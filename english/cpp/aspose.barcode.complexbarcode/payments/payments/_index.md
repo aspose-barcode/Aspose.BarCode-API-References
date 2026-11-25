@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::Payments::Payments constructor
 linktitle: Payments
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Payments constructor of Aspose::BarCode::ComplexBarcode::Payments class in C++.'

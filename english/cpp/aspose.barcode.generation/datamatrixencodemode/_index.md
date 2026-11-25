@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Generation::DataMatrixEncodeMode enum
 linktitle: DataMatrixEncodeMode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
+description: 'Aspose::BarCode::Generation::DataMatrixEncodeMode enum. DataMatrix encoder''s encoding mode, default to Auto in C++.'
 type: docs
 weight: 6300
 url: /cpp/aspose.barcode.generation/datamatrixencodemode/

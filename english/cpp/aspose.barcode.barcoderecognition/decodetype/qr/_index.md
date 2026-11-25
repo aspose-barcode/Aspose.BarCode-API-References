@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::QR field
 linktitle: QR
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with QR Code barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::QR field. Specifies that the data should be decoded with QR Code barcode specification in C++.'
 type: docs
 weight: 4200
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/qr/

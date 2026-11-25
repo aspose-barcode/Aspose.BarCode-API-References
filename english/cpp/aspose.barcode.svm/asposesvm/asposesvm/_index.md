@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::Svm::AsposeSvm::AsposeSvm constructor
 linktitle: AsposeSvm
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use AsposeSvm constructor of Aspose::BarCode::Svm::AsposeSvm class in C++.'

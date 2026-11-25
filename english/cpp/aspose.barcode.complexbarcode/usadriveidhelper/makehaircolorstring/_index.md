@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHelper::MakeHairColorString method
 linktitle: MakeHairColorString
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use MakeHairColorString method of Aspose::BarCode::ComplexBarcode::USADriveIdHelper class in C++.'

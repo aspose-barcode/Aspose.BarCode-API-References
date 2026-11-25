@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::PrimaryData::PrimaryData constructor
 linktitle: PrimaryData
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use PrimaryData constructor of Aspose::BarCode::ComplexBarcode::PrimaryData class in C++.'

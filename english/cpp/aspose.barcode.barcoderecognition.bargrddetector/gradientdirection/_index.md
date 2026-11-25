@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirection enum
 linktitle: GradientDirection
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientDirection enum in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition.bargrddetector/gradientdirection/

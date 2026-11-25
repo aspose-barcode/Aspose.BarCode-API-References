@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::DataBarParameters::set_Columns method
 linktitle: set_Columns
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Columns count in C++.'
+description: 'Aspose::BarCode::Generation::DataBarParameters::set_Columns method. Columns count in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.generation/databarparameters/set_columns/

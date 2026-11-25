@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientEnergy::GradientEnergy constructor
 linktitle: GradientEnergy
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use GradientEnergy constructor of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientEnergy class in C++.'

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::get_ExpiryDateFormat method
 linktitle: get_ExpiryDateFormat
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Identifies expiry date format in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::SecondaryAndAdditionalData::get_ExpiryDateFormat method. Identifies expiry date format in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.complexbarcode/secondaryandadditionaldata/get_expirydateformat/

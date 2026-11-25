@@ -1,5 +1,5 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext::MaxiCodeStructuredCodetext constructor
 linktitle: MaxiCodeStructuredCodetext
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use MaxiCodeStructuredCodetext constructor of Aspose::BarCode::ComplexBarcode::MaxiCodeStructuredCodetext class in C++.'

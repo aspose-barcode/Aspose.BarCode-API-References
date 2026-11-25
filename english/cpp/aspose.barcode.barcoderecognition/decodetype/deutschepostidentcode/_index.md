@@ -1,8 +1,8 @@
 ---
-title:  field
+title: Aspose::BarCode::BarCodeRecognition::DecodeType::DeutschePostIdentcode field
 linktitle: DeutschePostIdentcode
 second_title: Aspose.BarCode for C++ API Reference
-description: ' field. Specifies that the data should be decoded with DeutschePost Ident code barcode specification in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::DecodeType::DeutschePostIdentcode field. Specifies that the data should be decoded with DeutschePost Ident code barcode specification in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.barcode.barcoderecognition/decodetype/deutschepostidentcode/

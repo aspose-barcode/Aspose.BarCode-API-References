@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::Svm::MulticlassSvmModel::get_NumberOfClasses method
 linktitle: get_NumberOfClasses
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_NumberOfClasses method of Aspose::BarCode::Svm::MulticlassSvmModel class in C++.'

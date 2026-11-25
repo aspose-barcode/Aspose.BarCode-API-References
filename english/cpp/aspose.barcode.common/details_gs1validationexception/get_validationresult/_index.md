@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Common::Details_GS1ValidationException::get_ValidationResult method
 linktitle: get_ValidationResult
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets all validation errors detected for the attempted operation, including their machine-readable codes in C++.'
+description: 'Aspose::BarCode::Common::Details_GS1ValidationException::get_ValidationResult method. Gets all validation errors detected for the attempted operation, including their machine-readable codes in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.common/details_gs1validationexception/get_validationresult/

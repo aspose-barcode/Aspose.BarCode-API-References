@@ -1,10 +1,10 @@
 ---
-title:  enum
+title: Aspose::BarCode::BarCodeRecognition::ComplexBackgroundMode enum
 linktitle: ComplexBackgroundMode
 second_title: Aspose.BarCode for C++ API Reference
-description: 'How to use  enum in C++.'
+description: 'How to use Aspose::BarCode::BarCodeRecognition::ComplexBackgroundMode enum in C++.'
 type: docs
-weight: 3700
+weight: 3800
 url: /cpp/aspose.barcode.barcoderecognition/complexbackgroundmode/
 ---
 ## ComplexBackgroundMode enum

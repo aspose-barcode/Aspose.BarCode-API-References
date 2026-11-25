@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::ComplexBarcodeGenerator constructor
 linktitle: ComplexBarcodeGenerator
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Creates an instance of ComplexBarcodeGenerator in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::ComplexBarcodeGenerator::ComplexBarcodeGenerator constructor. Creates an instance of ComplexBarcodeGenerator in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.barcode.complexbarcode/complexbarcodegenerator/complexbarcodegenerator/

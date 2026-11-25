@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHelper::ParseEyeColor method
 linktitle: ParseEyeColor
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use ParseEyeColor method of Aspose::BarCode::ComplexBarcode::USADriveIdHelper class in C++.'

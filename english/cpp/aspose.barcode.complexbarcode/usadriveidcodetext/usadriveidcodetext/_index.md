@@ -1,8 +1,8 @@
 ---
-title:  constructor
+title: Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::USADriveIdCodetext constructor
 linktitle: USADriveIdCodetext
 second_title: Aspose.BarCode for C++ API Reference
-description: ' constructor. Default constructor in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdCodetext::USADriveIdCodetext constructor. Default constructor in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.barcode.complexbarcode/usadriveidcodetext/usadriveidcodetext/

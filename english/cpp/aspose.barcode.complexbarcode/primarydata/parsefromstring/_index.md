@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::PrimaryData::ParseFromString method
 linktitle: ParseFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Instantiates primary data from string format according HIBC LIC specification in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::PrimaryData::ParseFromString method. Instantiates primary data from string format according HIBC LIC specification in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.barcode.complexbarcode/primarydata/parsefromstring/

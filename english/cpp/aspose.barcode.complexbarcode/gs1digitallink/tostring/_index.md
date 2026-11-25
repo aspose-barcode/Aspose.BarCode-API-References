@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToString method
 linktitle: ToString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Returns the uncompressed GS1 Digital Link URI in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::ToString method. Returns the uncompressed GS1 Digital Link URI in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/tostring/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_MinimumReflectance method
 linktitle: get_MinimumReflectance
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the minimum reflectance grade based on the darkest bar reflectance in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_MinimumReflectance method. Gets the minimum reflectance grade based on the darkest bar reflectance in C++.'
 type: docs
 weight: 400
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_minimumreflectance/

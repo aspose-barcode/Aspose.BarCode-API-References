@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::LicenseErrors enum
 linktitle: LicenseErrors
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Represents possible license errors in C++.'
+description: 'Aspose::BarCode::LicenseErrors enum. Represents possible license errors in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.barcode/licenseerrors/

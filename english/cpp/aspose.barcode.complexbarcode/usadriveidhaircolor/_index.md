@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::ComplexBarcode::USADriveIdHairColor enum
 linktitle: USADriveIdHairColor
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Enum for Hair Color in the US Driver''s License in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::USADriveIdHairColor enum. Enum for Hair Color in the US Driver''s License in C++.'
 type: docs
 weight: 4100
 url: /cpp/aspose.barcode.complexbarcode/usadriveidhaircolor/

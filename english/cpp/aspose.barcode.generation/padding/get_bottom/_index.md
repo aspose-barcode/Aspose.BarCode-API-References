@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Padding::get_Bottom method
 linktitle: get_Bottom
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Bottom padding in C++.'
+description: 'Aspose::BarCode::Generation::Padding::get_Bottom method. Bottom padding in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.generation/padding/get_bottom/

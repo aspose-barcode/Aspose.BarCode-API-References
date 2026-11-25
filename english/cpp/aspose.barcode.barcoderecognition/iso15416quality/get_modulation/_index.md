@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Modulation method
 linktitle: get_Modulation
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the modulation grade based on the uniformity of edge contrast throughout the barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::Iso15416Quality::get_Modulation method. Gets the modulation grade based on the uniformity of edge contrast throughout the barcode in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.barcode.barcoderecognition/iso15416quality/get_modulation/

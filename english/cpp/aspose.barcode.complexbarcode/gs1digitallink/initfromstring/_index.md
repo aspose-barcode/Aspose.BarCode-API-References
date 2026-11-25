@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::InitFromString method
 linktitle: InitFromString
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Initializes this instance from an uncompressed GS1 Digital Link URI. Existing state is replaced only after the supplied URI has been parsed successfully. The selected barcode type is preserved in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::InitFromString method. Initializes this instance from an uncompressed GS1 Digital Link URI. Existing state is replaced only after the supplied URI has been parsed successfully. The selected barcode type is preserved in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/initfromstring/

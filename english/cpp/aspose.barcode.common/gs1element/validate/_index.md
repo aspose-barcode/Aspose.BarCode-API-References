@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Common::GS1Element::Validate method
 linktitle: Validate
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Validates a value for an exact GS1 Application Identifier in C++.'
+description: 'Aspose::BarCode::Common::GS1Element::Validate method. Validates a value for an exact GS1 Application Identifier in C++.'
 type: docs
 weight: 300
 url: /cpp/aspose.barcode.common/gs1element/validate/

@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::get_Value method
 linktitle: get_Value
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the codetext of 1D barcodes without checksum in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::OneDExtendedParameters::get_Value method. Gets the codetext of 1D barcodes without checksum in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.barcoderecognition/onedextendedparameters/get_value/

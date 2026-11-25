@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeType method
 linktitle: get_CodeType
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the barcode type in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_CodeType method. Gets the barcode type in C++.'
 type: docs
 weight: 500
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_codetype/

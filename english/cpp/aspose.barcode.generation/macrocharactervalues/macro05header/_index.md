@@ -1,5 +1,5 @@
 ---
-title:  field
+title: Aspose::BarCode::Generation::MacroCharacterValues::Macro05Header field
 linktitle: Macro05Header
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use Macro05Header field of Aspose::BarCode::Generation::MacroCharacterValues class in C++.'

@@ -1,5 +1,5 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics::get_SecondaryGradientPower method
 linktitle: get_SecondaryGradientPower
 second_title: Aspose.BarCode for C++ API Reference
 description: 'How to use get_SecondaryGradientPower method of Aspose::BarCode::BarCodeRecognition::BarGrdDetector::GradientMetrics class in C++.'

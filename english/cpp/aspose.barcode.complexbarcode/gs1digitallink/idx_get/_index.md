@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::ComplexBarcode::GS1DigitalLink::idx_get method
 linktitle: idx_get
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets an element by its position in the ordered sequence in C++.'
+description: 'Aspose::BarCode::ComplexBarcode::GS1DigitalLink::idx_get method. Gets an element by its position in the ordered sequence in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.barcode.complexbarcode/gs1digitallink/idx_get/

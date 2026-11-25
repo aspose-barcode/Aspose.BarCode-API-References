@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::Generation::Pdf417Parameters::set_AspectRatio method
 linktitle: set_AspectRatio
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Height/Width ratio of 2D BarCode module in C++.'
+description: 'Aspose::BarCode::Generation::Pdf417Parameters::set_AspectRatio method. Height/Width ratio of 2D BarCode module in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.barcode.generation/pdf417parameters/set_aspectratio/

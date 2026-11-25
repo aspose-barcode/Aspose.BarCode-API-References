@@ -1,8 +1,8 @@
 ---
-title:  method
+title: Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_IsoSymbolQuality method
 linktitle: get_IsoSymbolQuality
 second_title: Aspose.BarCode for C++ API Reference
-description: ' method. Gets the ISO/IEC symbol quality evaluation results for the recognized barcode in C++.'
+description: 'Aspose::BarCode::BarCodeRecognition::BarCodeResult::get_IsoSymbolQuality method. Gets the ISO/IEC symbol quality evaluation results for the recognized barcode in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.barcode.barcoderecognition/barcoderesult/get_isosymbolquality/

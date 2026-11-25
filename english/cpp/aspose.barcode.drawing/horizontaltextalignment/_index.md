@@ -1,8 +1,8 @@
 ---
-title:  enum
+title: Aspose::BarCode::Drawing::HorizontalTextAlignment enum
 linktitle: HorizontalTextAlignment
 second_title: Aspose.BarCode for C++ API Reference
-description: ' enum. Represents horizontal text alignment in C++.'
+description: 'Aspose::BarCode::Drawing::HorizontalTextAlignment enum. Represents horizontal text alignment in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.barcode.drawing/horizontaltextalignment/
